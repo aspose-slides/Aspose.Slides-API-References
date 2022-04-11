@@ -14,7 +14,7 @@ Spacing between rows of an array It is used only when RowSpacingRule is set to 3
 public uint RowSpacing { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

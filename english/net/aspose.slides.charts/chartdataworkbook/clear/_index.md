@@ -14,9 +14,9 @@ Clear all cells values on sheet
 public void Clear(int sheetIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| sheetIndex | Index of sheet |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetIndex | Int32 | Index of sheet |
 
 ### See Also
 

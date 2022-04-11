@@ -14,11 +14,11 @@ Reset the license
 public void ResetLicense()
 ```
 
-## Remarks
+### Remarks
 
 Use this method to reset license in component
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

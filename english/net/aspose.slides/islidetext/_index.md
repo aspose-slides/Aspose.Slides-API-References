@@ -16,7 +16,7 @@ public interface ISlideText
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [LayoutText](layouttext) { get; } | The text on the layout page's shapes for this slide |
 | [MasterText](mastertext) { get; } | The text on the master page's shapes for this slide |

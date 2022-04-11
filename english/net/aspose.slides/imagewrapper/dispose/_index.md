@@ -6,33 +6,13 @@ type: docs
 weight: 10
 url: /net/aspose.slides/imagewrapper/dispose/
 ---
-## ImageWrapper.Dispose method (1 of 2)
+## ImageWrapper.Dispose method
 
 Dispose ImageWrapper
 
 ```csharp
 public void Dispose()
 ```
-
-### See Also
-
-* class [ImageWrapper](../../imagewrapper)
-* namespace [Aspose.Slides](../../imagewrapper)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ImageWrapper.Dispose method (2 of 2)
-
-Dispose ImageWrapper
-
-```csharp
-protected virtual void Dispose(bool disposing)
-```
-
-| parameter | description |
-| --- | --- |
-| disposing |  |
 
 ### See Also
 

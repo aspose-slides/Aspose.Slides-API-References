@@ -16,7 +16,7 @@ public interface IEffectFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOperationFactory](imagetransformoperationfactory) { get; } | Returns ImageTransformOperationFactory. Read-only [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 | [CreateGlow](createglow)() | Creates Glow effect. |
@@ -26,7 +26,7 @@ public interface IEffectFactory
 | [CreateReflection](createreflection)() | Creates Reflection effect. |
 | [CreateSoftEdge](createsoftedge)() | Creates Soft Edge effect. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

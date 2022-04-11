@@ -16,7 +16,7 @@ public interface IModernComment : IComment
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIComment](asicomment) { get; } | Allows to get base IComment interface. Read-only [`IComment`](../icomment). |
 | [Shape](shape) { get; } | Returns a shape associated with the comment. Read-only [`IShape`](../ishape). |
@@ -24,7 +24,7 @@ public interface IModernComment : IComment
 | [TextSelectionLength](textselectionlength) { get; set; } | Returns or sets text selection length in text frame if the comment associated with AutoShape. Read/write Int32. |
 | [TextSelectionStart](textselectionstart) { get; set; } | Returns or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write Int32. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

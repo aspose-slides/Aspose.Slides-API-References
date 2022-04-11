@@ -16,7 +16,7 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [AsILayoutable](asilayoutable) { get; } | Allows to get base ILayoutable interface. Read-only [`ILayoutable`](../ilayoutable). |

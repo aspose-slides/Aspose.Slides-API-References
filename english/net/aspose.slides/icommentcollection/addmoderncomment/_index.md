@@ -15,19 +15,19 @@ public IModernComment AddModernComment(string text, ISlide slide, IShape shape, 
     DateTime creationTime)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Plain text of a new modern comment. |
-| slide | Slide in a presentation where to add a new modern comment. |
-| shape | Shape on a slide to which a new modern comment is associated. |
-| position | Position on a slide where to add a new modern comment. |
-| creationTime | Time of a modern comment creation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | ISlide | Slide in a presentation where to add a new modern comment. |
+| shape | IShape | Shape on a slide to which a new modern comment is associated. |
+| position | PointF | Position on a slide where to add a new modern comment. |
+| creationTime | DateTime | Time of a modern comment creation. |
 
 ## Return Value
 
 Added modern comment.
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

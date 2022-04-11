@@ -16,7 +16,7 @@ public interface IPdfOptions : ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AccessPermissions](accesspermissions) { get; set; } | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [`PdfAccessPermissions`](../pdfaccesspermissions). |
 | [AdditionalCommonFontFamilies](additionalcommonfontfamilies) { get; set; } | Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common. Read/write String[]. |

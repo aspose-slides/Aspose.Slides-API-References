@@ -16,7 +16,7 @@ public interface IScaleEffect : IBehavior
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
 | [By](by) { get; set; } | describes the relative offset value for the animation (in percents). Read/write PointF. |

@@ -16,12 +16,12 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SaveOptionsFactory](saveoptionsfactory)() | The default constructor. |
 | [CreatePptxOptions](createpptxoptions)() | Creates PPTX save options. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

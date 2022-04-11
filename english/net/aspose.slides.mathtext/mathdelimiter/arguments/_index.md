@@ -14,7 +14,7 @@ One or more mathematical elements separated by delimiter characters
 public IMathElementCollection Arguments { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

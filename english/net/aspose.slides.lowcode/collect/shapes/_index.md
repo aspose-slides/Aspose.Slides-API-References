@@ -14,15 +14,15 @@ Collects all instances of [`Shape`](../../../aspose.slides/shape) in the [`Prese
 public static IEnumerable<Shape> Shapes(Presentation pres)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Presentation to collect shapes |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Presentation to collect shapes |
 
 ## Return Value
 
 Collection of all shapes that contain in the presentation
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))

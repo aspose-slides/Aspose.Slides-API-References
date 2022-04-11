@@ -14,10 +14,10 @@ Saves a bytes array to a destination location.
 public void Save(string path, byte[] data)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | The destination path. |
-| data | A binary data for saving to a destination location. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | The destination path. |
+| data | Byte[] | A binary data for saving to a destination location. |
 
 ### See Also
 

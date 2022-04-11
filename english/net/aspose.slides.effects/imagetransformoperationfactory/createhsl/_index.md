@@ -14,11 +14,11 @@ Creates Hue Saturation Luminance effect.
 public IHSL CreateHSL(float hue, float saturation, float luminance)
 ```
 
-| parameter | description |
-| --- | --- |
-| hue | Hue. |
-| saturation | Saturation. |
-| luminance | Luminance. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hue | Single | Hue. |
+| saturation | Single | Saturation. |
+| luminance | Single | Luminance. |
 
 ## Return Value
 

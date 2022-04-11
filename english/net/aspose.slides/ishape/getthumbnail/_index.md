@@ -34,11 +34,11 @@ Returns shape thumbnail.
 public Bitmap GetThumbnail(ShapeThumbnailBounds bounds, float scaleX, float scaleY)
 ```
 
-| parameter | description |
-| --- | --- |
-| bounds | Shape thumbnail bounds type. |
-| scaleX | X scale |
-| scaleY | Y scale |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bounds | ShapeThumbnailBounds | Shape thumbnail bounds type. |
+| scaleX | Single | X scale |
+| scaleY | Single | Y scale |
 
 ## Return Value
 

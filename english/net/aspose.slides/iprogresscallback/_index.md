@@ -16,7 +16,7 @@ public interface IProgressCallback
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Reporting](reporting)(…) | Reports a progress update. |
 

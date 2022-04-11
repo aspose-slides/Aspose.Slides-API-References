@@ -14,7 +14,7 @@ Determines whether Line- or Stock-chart has a up/down bars. This is the property
 public bool HasUpDownBars { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.UpDownBars.HasUpDownBars.
 

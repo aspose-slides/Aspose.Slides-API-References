@@ -14,9 +14,9 @@ Creates a math grouping character
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | math element to apply grouping character |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to apply grouping character |
 
 ## Return Value
 
@@ -41,12 +41,12 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
     MathTopBotPositions position, MathTopBotPositions verticalJustification)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | math element to apply grouping character |
-| character | grouping character |
-| position | position of grouping character |
-| verticalJustification | vertical justification |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to apply grouping character |
+| character | Char | grouping character |
+| position | MathTopBotPositions | position of grouping character |
+| verticalJustification | MathTopBotPositions | vertical justification |
 
 ## Return Value
 

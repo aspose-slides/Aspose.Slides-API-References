@@ -16,7 +16,7 @@ public sealed class FontsLoader : IFontsLoader
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [ClearCache](clearcache)() | Releases all custom fonts defined by user |
 | static [GetFontFolders](getfontfolders)() | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |

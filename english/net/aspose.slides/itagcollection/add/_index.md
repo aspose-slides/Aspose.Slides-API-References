@@ -14,10 +14,10 @@ Adds a new tag to collection.
 public int Add(string name, string value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | The name of the tag. |
-| value | The value of the tag. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the tag. |
+| value | String | The value of the tag. |
 
 ## Return Value
 

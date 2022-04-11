@@ -14,7 +14,7 @@ Hide Right Edge (default is false) - specifies the hidden or shown state of the 
 public bool HideRight { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

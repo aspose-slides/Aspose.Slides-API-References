@@ -16,12 +16,12 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISvgShapeFormattingController](asisvgshapeformattingcontroller) { get; } | Returns ISvgShapeFormattingController interface. |
 | [FormatText](formattext)(…) | This function is called before rendering of text portion to SVG to allow user to control resulting SVG. |
 
-## Examples
+### Examples
 
 Example:
 

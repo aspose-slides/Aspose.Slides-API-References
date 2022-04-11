@@ -16,7 +16,7 @@ public interface IParagraph : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
 | [EndParagraphPortionFormat](endparagraphportionformat) { get; set; } | Specifies the portion properties that are to be used if another portion is inserted after the last one. |

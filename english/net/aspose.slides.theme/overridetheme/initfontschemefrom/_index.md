@@ -14,11 +14,11 @@ Init FontScheme with new object for overriding FontScheme of InheritedTheme.
 public void InitFontSchemeFrom(IFontScheme fontScheme)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontScheme | Data to initialize from. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontScheme | IFontScheme | Data to initialize from. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

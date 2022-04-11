@@ -14,9 +14,9 @@ Add new interactive sequence.
 public ISequence Add(IShape shapeTrigger)
 ```
 
-| parameter | description |
-| --- | --- |
-| shapeTrigger | Shape object [`IShape`](../../../aspose.slides/ishape) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shapeTrigger | IShape | Shape object [`IShape`](../../../aspose.slides/ishape) |
 
 ## Return Value
 

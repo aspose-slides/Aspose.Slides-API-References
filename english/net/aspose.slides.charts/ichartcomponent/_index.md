@@ -16,7 +16,7 @@ public interface IChartComponent : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Chart](chart) { get; } | Returns the chart. Read-only [`IChart`](../ichart). |

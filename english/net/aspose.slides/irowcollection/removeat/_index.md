@@ -14,10 +14,10 @@ Removes a row at the specified position from a table.
 public void RemoveAt(int firstRowIndex, bool withAttachedRows)
 ```
 
-| parameter | description |
-| --- | --- |
-| firstRowIndex | Index of a row to delete. |
-| withAttachedRows | True to delete also all attached rows. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstRowIndex | Int32 | Index of a row to delete. |
+| withAttachedRows | Boolean | True to delete also all attached rows. |
 
 ### See Also
 

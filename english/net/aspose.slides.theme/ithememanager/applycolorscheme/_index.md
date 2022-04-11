@@ -14,9 +14,9 @@ Applies extra color scheme to a slide.
 public void ApplyColorScheme(IExtraColorScheme scheme)
 ```
 
-| parameter | description |
-| --- | --- |
-| scheme | Extra color scheme [`IExtraColorScheme`](../../iextracolorscheme) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scheme | IExtraColorScheme | Extra color scheme [`IExtraColorScheme`](../../iextracolorscheme) |
 
 ### See Also
 

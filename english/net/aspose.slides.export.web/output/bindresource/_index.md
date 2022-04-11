@@ -14,10 +14,10 @@ Binds resource to output file.
 public void BindResource(IOutputFile outputFile, object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| outputFile | Output file. |
-| obj | Resource object. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputFile | IOutputFile | Output file. |
+| obj | Object | Resource object. |
 
 ### See Also
 

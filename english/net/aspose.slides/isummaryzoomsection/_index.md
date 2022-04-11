@@ -16,7 +16,7 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Description](description) { get; set; } | Returns the text description of the Summary Zoom Section object. |
 | [Title](title) { get; set; } | Returns the text title of the Summary Zoom Section object. |

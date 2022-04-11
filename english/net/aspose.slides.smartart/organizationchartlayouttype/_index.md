@@ -16,7 +16,7 @@ public enum OrganizationChartLayoutType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Initial | `0` | Initial layout type |
 | Standart | `1` | Places child nodes horizontally below the parent node. |

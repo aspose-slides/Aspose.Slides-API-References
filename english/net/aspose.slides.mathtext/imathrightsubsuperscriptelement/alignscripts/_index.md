@@ -14,7 +14,7 @@ Specifies the alignment of subscript/superscript. When true, subscript and super
 public bool AlignScripts { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

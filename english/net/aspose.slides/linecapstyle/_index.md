@@ -16,7 +16,7 @@ public enum LineCapStyle : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Round | `0` |  |

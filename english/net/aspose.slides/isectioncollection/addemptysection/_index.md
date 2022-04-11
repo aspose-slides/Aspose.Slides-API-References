@@ -14,10 +14,10 @@ Add empty section to specified position of the collection.
 public ISection AddEmptySection(string name, int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the section |
-| index | Index of new section. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the section |
+| index | Int32 | Index of new section. |
 
 ## Return Value
 

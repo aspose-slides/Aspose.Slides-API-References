@@ -16,7 +16,7 @@ public enum EffectChartMajorGroupingType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | BySeries | `0` | Animate chart by series |
 | ByCategory | `1` | Animate chart by category |

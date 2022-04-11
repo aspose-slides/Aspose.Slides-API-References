@@ -16,7 +16,7 @@ public class FontFallBackRule : IFontFallBackRule
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontFallBackRule](fontfallbackrule)(…) | Creates new instance. (2 constructors) |
 | [Count](count) { get; } | Gets the number of fonts actually defined for range. Read-only Int32. |

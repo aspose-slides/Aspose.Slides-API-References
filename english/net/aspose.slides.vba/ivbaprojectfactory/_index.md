@@ -16,7 +16,7 @@ public interface IVbaProjectFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateVbaProject](createvbaproject)() | Creates new VBA project. |
 | [ReadVbaProject](readvbaproject)(…) | Reads VBA project from OLE container. |

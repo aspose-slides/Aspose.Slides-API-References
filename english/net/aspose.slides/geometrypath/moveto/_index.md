@@ -14,9 +14,9 @@ Sets next point position.
 public void MoveTo(PointF point)
 ```
 
-| parameter | description |
-| --- | --- |
-| point | Point position |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| point | PointF | Point position |
 
 ### See Also
 
@@ -34,10 +34,10 @@ Sets next point position.
 public void MoveTo(float x, float y)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of the point |
-| y | Y Coordinate of the point |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of the point |
+| y | Single | Y Coordinate of the point |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public enum PieSplitType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Default | `0` | Specifies the data points shall be split using the default mechanism for this chart type. |
 | Custom | `1` | Specifies the data points shall be split between the pie and the second chart according to the Custom Split values. |

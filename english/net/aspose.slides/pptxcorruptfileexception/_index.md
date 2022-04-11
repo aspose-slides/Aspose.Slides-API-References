@@ -14,7 +14,7 @@ public class PptxCorruptFileException : PptxReadException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptxCorruptFileException](pptxcorruptfileexception)() | The default constructor. |
 | [PptxCorruptFileException](pptxcorruptfileexception)(…) |  (2 constructors) |

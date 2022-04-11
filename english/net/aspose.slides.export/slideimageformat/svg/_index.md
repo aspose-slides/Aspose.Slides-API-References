@@ -14,9 +14,9 @@ Slides should converted to a SVG format.
 public static SlideImageFormat Svg(SVGOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Options for SVG export. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | SVGOptions | Options for SVG export. |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SVGOptions](svgoptions)() | Initializes a new instance of the SVGOptions class. |
 | [SVGOptions](svgoptions)(…) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |

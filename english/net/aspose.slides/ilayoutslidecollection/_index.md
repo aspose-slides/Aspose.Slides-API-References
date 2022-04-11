@@ -16,7 +16,7 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns the layout slide by index. Read-only [`ILayoutSlide`](../ilayoutslide). |
 | [GetByType](getbytype)(…) | Returns the first layout slide of specified type. |

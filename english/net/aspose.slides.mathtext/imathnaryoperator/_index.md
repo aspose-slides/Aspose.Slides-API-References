@@ -16,7 +16,7 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [AsIMathNaryOperatorProperties](asimathnaryoperatorproperties) { get; } | Allows to get base IMathNaryOperatorProperties interface [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
@@ -24,7 +24,7 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 | [Subscript](subscript) { get; } | Specifies a subscript argument that, for example, in the case of an integral, sets the lower limit |
 | [Superscript](superscript) { get; } | Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit |
 
-## Examples
+### Examples
 
 Example:
 

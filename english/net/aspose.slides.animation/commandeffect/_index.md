@@ -16,7 +16,7 @@ public class CommandEffect : Behavior, ICommandEffect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CommandEffect](commandeffect)() | Creates new instance. |
 | [CommandString](commandstring) { get; set; } | Defines command string. Read/write String. |

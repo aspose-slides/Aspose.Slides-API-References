@@ -16,7 +16,7 @@ public interface IResourceLoadingArgs
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [OriginalUri](originaluri) { get; } | Original URI of the resource as specified in imported presentation. |
 | [Uri](uri) { get; set; } | URI of the resource which is used for downloading if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns Default. Initially it's set to original URI of the resource, but can be redefined to any value. |

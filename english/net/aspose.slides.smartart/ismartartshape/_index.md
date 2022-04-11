@@ -16,7 +16,7 @@ public interface ISmartArtShape : IGeometryShape
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIGeometryShape](asigeometryshape) { get; } | Allows to get base IGeometryShape interface. Read-only [`IGeometryShape`](../../aspose.slides/igeometryshape). |
 | [TextFrame](textframe) { get; } | Returns text of the SmartArt shape. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |

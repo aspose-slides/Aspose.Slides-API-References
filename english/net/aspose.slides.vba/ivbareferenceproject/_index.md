@@ -16,7 +16,7 @@ public interface IVbaReferenceProject : IVbaReference
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIVbaReference](asivbareference) { get; } | Returns IVbaReference interface. Read-only [`IVbaReference`](../ivbareference). |
 

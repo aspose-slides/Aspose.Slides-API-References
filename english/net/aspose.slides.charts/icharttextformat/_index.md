@@ -16,7 +16,7 @@ public interface IChartTextFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ParagraphFormat](paragraphformat) { get; } | Returns paragraph format. Read-only [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](portionformat) { get; } | Returns portion format. Read-only [`IChartPortionFormat`](../ichartportionformat). |

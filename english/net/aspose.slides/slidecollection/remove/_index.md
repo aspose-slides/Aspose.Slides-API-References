@@ -14,9 +14,9 @@ Removes the first occurrence of a specific object from the collection.
 public void Remove(ISlide value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The slide to remove from the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | ISlide | The slide to remove from the collection. |
 
 ### See Also
 

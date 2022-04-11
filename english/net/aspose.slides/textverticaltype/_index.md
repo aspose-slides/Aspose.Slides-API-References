@@ -16,7 +16,7 @@ public enum TextVerticalType : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Not defined. |
 | Horizontal | `0` | Horizontal text. |

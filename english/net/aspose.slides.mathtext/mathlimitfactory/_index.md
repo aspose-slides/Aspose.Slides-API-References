@@ -16,12 +16,12 @@ public class MathLimitFactory : IMathLimitFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathLimitFactory](mathlimitfactory)() | The default constructor. |
 | [CreateMathLimit](createmathlimit)(…) | Creates IMathLimit (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

@@ -14,10 +14,10 @@ Returns all text frames in a PPTX presentation.
 public static ITextFrame[] GetAllTextFrames(IPresentation pres, bool withMasters)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Scanned presentation. |
-| withMasters | Determines whether master slides should be scanned. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | IPresentation | Scanned presentation. |
+| withMasters | Boolean | Determines whether master slides should be scanned. |
 
 ## Return Value
 

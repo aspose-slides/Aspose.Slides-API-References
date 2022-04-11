@@ -16,12 +16,12 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathNaryOperatorFactory](mathnaryoperatorfactory)() | The default constructor. |
 | [CreateMathNaryOperator](createmathnaryoperator)(…) | Creates IMathNaryOperator (3 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

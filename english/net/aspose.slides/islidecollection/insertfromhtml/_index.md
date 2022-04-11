@@ -14,10 +14,10 @@ Creates slides from HTML text and inserts them to the collection at the specifie
 public ISlide[] InsertFromHtml(int index, Stream htmlStream)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Position to insert. |
-| htmlStream | A Stream object which will be used as a source of a HTML file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Position to insert. |
+| htmlStream | Stream | A Stream object which will be used as a source of a HTML file. |
 
 ## Return Value
 
@@ -40,10 +40,10 @@ Creates slides from HTML text and inserts them to the collection at the specifie
 public ISlide[] InsertFromHtml(int index, string htmlText)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Position to insert. |
-| htmlText | Html to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Position to insert. |
+| htmlText | String | Html to add. |
 
 ## Return Value
 
@@ -66,10 +66,10 @@ Creates slides from HTML text and inserts them to the collection at the specifie
 public ISlide[] InsertFromHtml(int index, TextReader htmlReader)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Position to insert. |
-| htmlReader | TextReader object which will be used as a source of a HTML file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Position to insert. |
+| htmlReader | TextReader | TextReader object which will be used as a source of a HTML file. |
 
 ## Return Value
 
@@ -93,12 +93,12 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
     string uri)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Position to insert. |
-| htmlStream | A Stream object which will be used as a source of a HTML file. |
-| resolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | An URI of the specified HTML. Used to resolve relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Position to insert. |
+| htmlStream | Stream | A Stream object which will be used as a source of a HTML file. |
+| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ## Return Value
 
@@ -123,12 +123,12 @@ public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceReso
     string uri)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Position to insert. |
-| htmlText | Html to add. |
-| resolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | An URI of the specified HTML. Used to resolve relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Position to insert. |
+| htmlText | String | Html to add. |
+| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ## Return Value
 
@@ -153,12 +153,12 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader,
     IExternalResourceResolver resolver, string uri)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Position to insert. |
-| htmlReader | TextReader object which will be used as a source of a HTML file. |
-| resolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | An URI of the specified HTML. Used to resolve relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Position to insert. |
+| htmlReader | TextReader | TextReader object which will be used as a source of a HTML file. |
+| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ## Return Value
 

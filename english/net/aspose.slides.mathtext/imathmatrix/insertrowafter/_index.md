@@ -14,11 +14,11 @@ Insert a new row after the specified one Initially all elements in the new row a
 public void InsertRowAfter(int rowIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| rowIndex | Index of the row after which to insert a new one |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | Int32 | Index of the row after which to insert a new one |
 
-## Examples
+### Examples
 
 Example:
 

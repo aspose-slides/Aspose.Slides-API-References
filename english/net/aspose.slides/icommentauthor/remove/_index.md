@@ -14,7 +14,7 @@ Removes the author from the parent collection.
 public void Remove()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

@@ -14,9 +14,9 @@ Determines the index of a specific item in the IList.
 public int IndexOf(IPortion item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The object to locate in the IList. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IPortion | The object to locate in the IList. |
 
 ## Return Value
 

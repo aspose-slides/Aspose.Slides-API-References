@@ -16,7 +16,7 @@ public interface IChartDataPoint : IActualLayout
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIActualLayout](asiactuallayout) { get; } | Returns IActualLayout interface. |
 | [BubbleSize](bubblesize) { get; } | Returns the bubble size of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |

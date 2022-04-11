@@ -16,7 +16,7 @@ public interface IVbaModule
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Name](name) { get; } | Name of the module. Read-only String. |
 | [SourceCode](sourcecode) { get; set; } | Source code of the module. Read/write String. |

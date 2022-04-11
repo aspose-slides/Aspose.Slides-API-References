@@ -16,7 +16,7 @@ public enum LineStyle : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Single | `0` |  |

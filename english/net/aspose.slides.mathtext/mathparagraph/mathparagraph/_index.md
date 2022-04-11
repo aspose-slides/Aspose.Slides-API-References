@@ -14,7 +14,7 @@ Initializes a new instance of the MathParagraph class.
 public MathParagraph()
 ```
 
-## Examples
+### Examples
 
 Example:
 
@@ -39,7 +39,7 @@ Initializes a new instance of the MathParagraph class.
 public MathParagraph(IMathBlock mathBlock)
 ```
 
-## Examples
+### Examples
 
 Example:
 

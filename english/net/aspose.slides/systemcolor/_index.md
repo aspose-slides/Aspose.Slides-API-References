@@ -16,7 +16,7 @@ public enum SystemColor
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | System color is not defined. |
 | ScrollBar | `0` |  |

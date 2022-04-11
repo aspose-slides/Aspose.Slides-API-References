@@ -16,7 +16,7 @@ public interface ISplitTransition : ITransitionValueBase
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](direction) { get; set; } | Direction of transition split. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |

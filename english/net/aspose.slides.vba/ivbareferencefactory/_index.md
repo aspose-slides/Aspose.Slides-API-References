@@ -16,7 +16,7 @@ public interface IVbaReferenceFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateOleTypeLibReference](createoletypelibreference)(…) | Creates new OLE Automation type library reference. |
 

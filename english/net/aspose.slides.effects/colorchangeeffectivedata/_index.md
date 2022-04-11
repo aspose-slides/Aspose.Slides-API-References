@@ -17,7 +17,7 @@ public class ColorChangeEffectiveData : EffectEffectiveData<ColorChange, ColorCh
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FromColor](fromcolor) { get; } | Color which will be replaced. Read-only Color. |
 | [ToColor](tocolor) { get; } | Color which will replace. Read-only Color. |

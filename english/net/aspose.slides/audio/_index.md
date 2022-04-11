@@ -16,7 +16,7 @@ public class Audio : IAudio
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BinaryData](binarydata) { get; } | Returns the copy of an audio's data. In case of large amount of data consider using of [`GetStream`](./getstream) method to prevent unnecessary loading of audio's data into memory or even OutOfMemoryException. Read-only Byte[]. |
 | [ContentType](contenttype) { get; set; } | Returns a MIME type of an audio, encoded in [`BinaryData`](./binarydata). Read-only String. |

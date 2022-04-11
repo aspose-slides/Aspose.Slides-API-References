@@ -16,13 +16,13 @@ public interface IMathSuperscriptElement : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](base) { get; } | Base argument |
 | [Superscript](superscript) { get; } | Superscript |
 
-## Examples
+### Examples
 
 Example:
 

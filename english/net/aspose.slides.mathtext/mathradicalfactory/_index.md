@@ -16,12 +16,12 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathRadicalFactory](mathradicalfactory)() | The default constructor. |
 | [CreateMathRadical](createmathradical)(…) | Creates a math radical |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

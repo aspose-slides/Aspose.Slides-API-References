@@ -14,10 +14,10 @@ Moves section and its slides from the collection to the specified position.
 public void ReorderSectionWithSlides(ISection section, int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Target index. |
-| section | Section to move. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | ISection | Target index. |
+| section | Int32 | Section to move. |
 
 ### See Also
 

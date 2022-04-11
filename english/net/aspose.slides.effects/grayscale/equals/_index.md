@@ -14,9 +14,9 @@ Determines whether the specified [`GrayScale`](../../grayscale) is equal to the 
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`GrayScale`](../../grayscale) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`GrayScale`](../../grayscale) to compare. |
 
 ## Return Value
 

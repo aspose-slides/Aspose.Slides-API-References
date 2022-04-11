@@ -16,7 +16,7 @@ public interface IInterruptionToken
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns Boolean.true if interruption was requested. |
 | [ThrowIfInterruptionRequested](throwifinterruptionrequested)() | Throws an OperationCanceledException if interruption was requested. Thrown when interruption was requested. |

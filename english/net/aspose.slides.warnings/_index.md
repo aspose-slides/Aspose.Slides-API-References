@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides.Warnings Namespace
+title: Aspose.Slides.Warnings
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes that represents various kind of warnings
 type: docs
@@ -8,9 +8,9 @@ url: /net/aspose.slides.warnings/
 ---
 Contains classes that represents various kind of warnings
 
-## Members
+## Interfaces
 
-| public type | description |
+| Interface | Description |
 | --- | --- |
 | interface [IKnownIssueWarningInfo](./iknownissuewarninginfo) | Represents a warning about known issue which won't be fixed in the near future. |
 | interface [INotImplementedWarningInfo](./inotimplementedwarninginfo) | Represents a warning about known not implemented feature which won't be implemented in the near future. |
@@ -18,6 +18,10 @@ Contains classes that represents various kind of warnings
 | interface [IPresentationSignedWarningInfo](./ipresentationsignedwarninginfo) | This warning indicates that the presentation being read has the signature and this signature will be removed during processing. |
 | interface [IWarningCallback](./iwarningcallback) | Interface for classes which receive warning |
 | interface [IWarningInfo](./iwarninginfo) | Represents a base interface for all warnings. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
 | enum [ReturnAction](./returnaction) | Represents warning callback decision options. |
 | enum [WarningType](./warningtype) | Represents a type of warning. |
 

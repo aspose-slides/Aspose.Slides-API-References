@@ -16,7 +16,7 @@ public enum MotionPathPointsType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` |  |
 | Auto | `1` |  |

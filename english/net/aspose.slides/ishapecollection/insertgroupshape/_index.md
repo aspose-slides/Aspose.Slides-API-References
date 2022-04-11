@@ -14,9 +14,9 @@ Creates a new GroupShape and inserts it to the collection at the specified index
 public IGroupShape InsertGroupShape(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which value should be inserted. |
 
 ## Return Value
 

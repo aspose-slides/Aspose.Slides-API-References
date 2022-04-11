@@ -14,7 +14,7 @@ Returns IBasePortionFormat interface. Read-only [`IBasePortionFormat`](../../iba
 public IBasePortionFormat AsIBasePortionFormat { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

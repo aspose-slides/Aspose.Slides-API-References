@@ -16,7 +16,7 @@ public interface ISpreadsheetOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PreferredCulture](preferredculture) { get; set; } | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
 | [RecoverWorkbookFromChartCache](recoverworkbookfromchartcache) { get; set; } | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |

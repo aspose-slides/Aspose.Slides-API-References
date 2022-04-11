@@ -14,7 +14,7 @@ Specifies the angle of the first pie or doughnut chart slice, in degrees (clockw
 public ushort FirstSliceAngle { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.FirstSliceAngle.
 

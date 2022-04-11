@@ -16,7 +16,7 @@ public class ShapeStyle : IShapeStyle
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EffectColor](effectcolor) { get; } | Returns a shape's effect color. Read-only [`IColorFormat`](../icolorformat). |
 | [EffectStyleIndex](effectstyleindex) { get; set; } | Returns or sets shape's effect column index in a style matrix. Read/write UInt32. |

@@ -14,15 +14,15 @@ Adds a copy of a specified slide to the end of the collection.
 public ISlide AddClone(ISlide sourceSlide)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceSlide | Slide to clone. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide to clone. |
 
 ## Return Value
 
 New slide.
 
-## Remarks
+### Remarks
 
 When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [`AddClone`](../addclone) or [`AddClone`](../addclone) for cloning slides, [`AddClone`](../../igloballayoutslidecollection/addclone) or [`AddClone`](../../igloballayoutslidecollection/addclone) for cloning layouts and [`AddClone`](../../imasterslidecollection/addclone) for cloning masters.
 
@@ -43,10 +43,10 @@ Adds a copy of a specified slide to the end of the collection.
 public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceSlide | Slide to clone. |
-| destLayout | Layout slide for a new slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide to clone. |
+| destLayout | ILayoutSlide | Layout slide for a new slide. |
 
 ## Return Value
 
@@ -70,23 +70,23 @@ Adds a copy of a specified slide to the end of the specified section.
 public ISlide AddClone(ISlide sourceSlide, ISection section)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceSlide | Slide to clone. |
-| section | Section for a new slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide to clone. |
+| section | ISection | Section for a new slide. |
 
 ## Return Value
 
 New slide.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentNullException |  |
 | [PptxEditException](../../pptxeditexception) |  |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]
@@ -120,17 +120,17 @@ Adds a copy of a specified source slide to the end of the collection. Appropriat
 public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCloneMissingLayout)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceSlide | Slide to clone. |
-| destMaster | Master slide for a new slide. |
-| allowCloneMissingLayout | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide to clone. |
+| destMaster | IMasterSlide | Master slide for a new slide. |
+| allowCloneMissingLayout | Boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
 ## Return Value
 
 New slide.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

@@ -14,7 +14,7 @@ Number of columns in the matrix
 public int ColumnCount { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

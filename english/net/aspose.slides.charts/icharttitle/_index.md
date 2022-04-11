@@ -16,7 +16,7 @@ public interface IChartTitle : ILayoutable, IOverridableText
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsILayoutable](asilayoutable) { get; } | Allows to get base ILayoutable interface. Read-only [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](asioverridabletext) { get; } | Allows to get base IOverridableText interface. Read-only [`IOverridableText`](../ioverridabletext). |

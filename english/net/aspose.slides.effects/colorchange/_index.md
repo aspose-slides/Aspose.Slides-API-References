@@ -16,7 +16,7 @@ public class ColorChange : ImageTransformOperation, IColorChange
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FromColor](fromcolor) { get; } | Color which will be replaced. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [ToColor](tocolor) { get; } | Color which will replace. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |

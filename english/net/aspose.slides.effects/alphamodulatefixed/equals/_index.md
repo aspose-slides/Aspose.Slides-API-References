@@ -14,9 +14,9 @@ Determines whether the specified [`AlphaModulateFixed`](../../alphamodulatefixed
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`AlphaModulateFixed`](../../alphamodulatefixed) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`AlphaModulateFixed`](../../alphamodulatefixed) to compare. |
 
 ## Return Value
 

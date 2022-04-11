@@ -16,7 +16,7 @@ public enum TextInheritanceLimit
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | All | `0` | Inherit all text properties. |
 | TextBox | `1` | Inherit only from TextFrameEx's style. |

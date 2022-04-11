@@ -16,7 +16,7 @@ public interface INotesSlideManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [NotesSlide](notesslide) { get; } | Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide. Read-only [`INotesSlide`](../inotesslide). |
 | [AddNotesSlide](addnotesslide)() | Returns the notes slide for the current slide, creating one if there isn't. |

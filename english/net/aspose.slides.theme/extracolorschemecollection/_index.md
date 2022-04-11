@@ -16,7 +16,7 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns a number of elements int the collection. Read-only Int32. |
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the ArrayList is synchronized (thread safe). Read-only Boolean. |

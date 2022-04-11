@@ -14,9 +14,9 @@ Determines whether the two LineFormat instances are equal.
 public bool Equals(ILineFormat lineFormat)
 ```
 
-| parameter | description |
-| --- | --- |
-| lineFormat | The LineFormat to compare with the current LineFormat. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| lineFormat | ILineFormat | The LineFormat to compare with the current LineFormat. |
 
 ## Return Value
 

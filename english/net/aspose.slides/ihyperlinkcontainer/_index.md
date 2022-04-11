@@ -16,7 +16,7 @@ public interface IHyperlinkContainer
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HyperlinkClick](hyperlinkclick) { get; set; } | Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../ihyperlink). |
 | [HyperlinkManager](hyperlinkmanager) { get; } | Hyperlinks manager Read-only [`IHyperlinkManager`](../ihyperlinkmanager). |

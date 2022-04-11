@@ -14,9 +14,9 @@ Creates a new DigitalSignature object with the specified certificate.
 public DigitalSignature(X509Certificate2 certificate)
 ```
 
-| parameter | description |
-| --- | --- |
-| certificate | Certificate that will be used to sign the presentation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| certificate | X509Certificate2 | Certificate that will be used to sign the presentation. |
 
 ### See Also
 
@@ -34,10 +34,10 @@ Creates a new DigitalSignature object with the specified certificate file path a
 public DigitalSignature(string filePath, string password)
 ```
 
-| parameter | description |
-| --- | --- |
-| filePath | Path to the file with certificate. |
-| password | Password required to access certificate. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | Path to the file with certificate. |
+| password | String | Password required to access certificate. |
 
 ### See Also
 

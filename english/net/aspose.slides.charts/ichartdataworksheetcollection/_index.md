@@ -16,11 +16,11 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns the worksheet by index. |
 
-## Examples
+### Examples
 
 Example:
 

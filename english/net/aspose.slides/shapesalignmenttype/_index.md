@@ -16,7 +16,7 @@ public enum ShapesAlignmentType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | AlignLeft | `0` | Align left |
 | AlignRight | `1` | Align right |

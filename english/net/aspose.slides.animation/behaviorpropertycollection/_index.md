@@ -16,7 +16,7 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of properties stored in the collection. Read-only Int32. |
 | [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |

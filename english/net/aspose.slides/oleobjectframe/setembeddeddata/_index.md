@@ -14,17 +14,17 @@ Sets information about OLE embedded data.  This method changes the properties of
 public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
 ```
 
-| parameter | description |
-| --- | --- |
-| embeddedData | Embedded data [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| embeddedData | IOleEmbeddedDataInfo | Embedded data [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo) |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | When embeddedData parameter is null. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

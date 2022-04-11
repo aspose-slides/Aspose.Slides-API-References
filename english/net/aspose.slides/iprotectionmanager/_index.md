@@ -16,7 +16,7 @@ public interface IProtectionManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EncryptDocumentProperties](encryptdocumentproperties) { get; set; } | This property makes sense, if presentation is password protected. If true then document properties is encrypted in presentation file. If false then document properties is public while presentation is encrypted. Read/write Boolean. |
 | [EncryptionPassword](encryptionpassword) { get; } | Returns encryption password. Read-only String. |

@@ -17,7 +17,7 @@ public class OuterShadowEffectiveData : EffectEffectiveData<OuterShadow, OuterSh
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BlurRadius](blurradius) { get; } | Blur radius. Read-only Double. |
 | [Direction](direction) { get; } | Direction of shadow. Read-only Single. |

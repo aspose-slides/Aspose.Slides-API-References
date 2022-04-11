@@ -16,7 +16,7 @@ public sealed class Field : IField
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Type](type) { get; set; } | Returns or sets field's type. Read/write [`IFieldType`](../ifieldtype). |
 

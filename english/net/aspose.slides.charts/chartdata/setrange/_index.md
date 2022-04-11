@@ -14,11 +14,11 @@ Set chart data range. Series and categories will be updated based on new data ra
 public void SetRange(string formula)
 ```
 
-| parameter | description |
-| --- | --- |
-| formula | The cells data range formula. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | String | The cells data range formula. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

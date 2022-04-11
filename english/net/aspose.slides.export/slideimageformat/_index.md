@@ -16,7 +16,7 @@ public class SlideImageFormat : ISlideImageFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SlideImageFormat](slideimageformat)() | The default constructor. |
 | static [Bitmap](bitmap)(…) | Slides should be converted to a raster image. |

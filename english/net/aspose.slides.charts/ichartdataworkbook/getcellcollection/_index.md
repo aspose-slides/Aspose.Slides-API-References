@@ -14,10 +14,10 @@ Gets the set of cells.
 public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCells)
 ```
 
-| parameter | description |
-| --- | --- |
-| formula | Excel formula like "Sheet1!$A$2:$A$5". |
-| skipHiddenCells | If true then method returns collection without hidden cells. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formula | String | Excel formula like "Sheet1!$A$2:$A$5". |
+| skipHiddenCells | Boolean | If true then method returns collection without hidden cells. |
 
 ## Return Value
 

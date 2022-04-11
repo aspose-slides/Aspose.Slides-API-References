@@ -14,7 +14,7 @@ Grouping Character Default value: U+23DF (BOTTOM CURLY BRACKET)
 public char Character { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

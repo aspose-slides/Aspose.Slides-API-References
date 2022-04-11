@@ -16,7 +16,7 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Chart](chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
 | [Hide](hide) { get; set; } | Determines whether the legend entry is hide. Read/write Boolean. |

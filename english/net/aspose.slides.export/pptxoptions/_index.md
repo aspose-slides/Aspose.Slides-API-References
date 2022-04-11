@@ -16,7 +16,7 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptxOptions](pptxoptions)() | Creates new instance of PptxOptions |
 | [Conformance](conformance) { get; set; } | Specifies the conformance class to which the Presentation document conforms. Default value is Ecma376_2006 |

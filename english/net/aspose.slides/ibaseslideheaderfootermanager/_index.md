@@ -16,7 +16,7 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](asibaseheaderfootermanager) { get; } | Returns IBaseHeaderFooterManager interface. |
 | [IsDateTimeVisible](isdatetimevisible) { get; } | Gets value indicating that a date-time placeholder is present. ReadBoolean. |

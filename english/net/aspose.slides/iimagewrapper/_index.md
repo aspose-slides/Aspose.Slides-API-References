@@ -16,7 +16,7 @@ public interface IImageWrapper : IDisposable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIDisposable](asidisposable) { get; } | Returns IDisposable interface. Read-only IDisposable. |
 | [Image](image) { get; } | Gets the Syste.Drawing.Image Read-only [`Image`](./image). |

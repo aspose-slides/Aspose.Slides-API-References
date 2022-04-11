@@ -35,9 +35,9 @@ Creates a new paragraph with specified paragraph data using.
 public IParagraph CreateParagraph(IParagraph paragraph)
 ```
 
-| parameter | description |
-| --- | --- |
-| paragraph | A paragraph to use data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| paragraph | IParagraph | A paragraph to use data. |
 
 ## Return Value
 

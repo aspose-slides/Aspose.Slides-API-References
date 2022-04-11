@@ -16,11 +16,11 @@ public interface IMathBoxFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathBox](createmathbox)(…) | Create a math box by applying to the element |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

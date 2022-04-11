@@ -16,7 +16,7 @@ public abstract class BaseChartValue : IBaseChartValue
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | abstract [Data](data) { get; set; } | Data. Read/write Object. |
 | [DataSourceType](datasourcetype) { get; set; } | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write [`DataSourceType`](../datasourcetype). |

@@ -14,13 +14,13 @@ Auxiliary generic collection interface.
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 ```
 
-| parameter | description |
-| --- | --- |
-| T |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| T |  |  |
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsICollection](asicollection) { get; } | Returns ICollection interface. |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |

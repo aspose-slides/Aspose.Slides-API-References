@@ -16,7 +16,7 @@ public enum PropertyValueType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | String | `0` |  |

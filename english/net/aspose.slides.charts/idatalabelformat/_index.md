@@ -16,7 +16,7 @@ public interface IDataLabelFormat : IFormattedTextContainer
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Format](format) { get; } | Represents the format of the data label. Read-only [`IFormat`](../iformat). |

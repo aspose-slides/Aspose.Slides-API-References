@@ -14,9 +14,9 @@ Remove section and slides contained in the section.
 public void RemoveSectionWithSlides(ISection section)
 ```
 
-| parameter | description |
-| --- | --- |
-| section | The section to remove from the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| section | ISection | The section to remove from the collection. |
 
 ### See Also
 

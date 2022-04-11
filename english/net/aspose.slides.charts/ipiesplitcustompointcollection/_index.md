@@ -16,7 +16,7 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. |
 | [Item](item) { get; } | Returns chart data point by index. |

@@ -14,7 +14,7 @@ Returns or sets the shape to attach the end of the connector to. Read/write [`IS
 public IShape EndShapeConnectedTo { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

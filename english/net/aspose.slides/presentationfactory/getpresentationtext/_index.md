@@ -14,10 +14,10 @@ Retreieves the raw text from the slides
 public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Input stream |
-| mode | Extraction mode |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Input stream |
+| mode | TextExtractionArrangingMode | Extraction mode |
 
 ## Return Value
 
@@ -41,10 +41,10 @@ Retreieves the raw text from the slides
 public IPresentationText GetPresentationText(string file, TextExtractionArrangingMode mode)
 ```
 
-| parameter | description |
-| --- | --- |
-| file | Input file |
-| mode | Extraction mode |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | Input file |
+| mode | TextExtractionArrangingMode | Extraction mode |
 
 ## Return Value
 
@@ -69,11 +69,11 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
     ILoadOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Input stream |
-| mode | Extraction mode |
-| options | Load options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Input stream |
+| mode | TextExtractionArrangingMode | Extraction mode |
+| options | ILoadOptions | Load options |
 
 ## Return Value
 

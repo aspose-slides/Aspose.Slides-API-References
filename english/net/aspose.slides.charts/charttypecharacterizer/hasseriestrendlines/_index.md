@@ -14,9 +14,9 @@ Returns if there are series trend lines for specified series type.
 public static bool HasSeriesTrendLines(ChartType seriesType)
 ```
 
-| parameter | description |
-| --- | --- |
-| seriesType | Series type. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| seriesType | ChartType | Series type. |
 
 ## Return Value
 

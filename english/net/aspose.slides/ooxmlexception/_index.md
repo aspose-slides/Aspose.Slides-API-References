@@ -16,7 +16,7 @@ public class OOXMLException : Exception
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [OOXMLException](ooxmlexception)() | Default constructor. |
 | [OOXMLException](ooxmlexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

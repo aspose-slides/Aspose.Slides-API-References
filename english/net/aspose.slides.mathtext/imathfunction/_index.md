@@ -16,13 +16,13 @@ public interface IMathFunction : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](base) { get; } | Function Argument |
 | [Name](name) { get; } | Function name For example, function names are sin and cos |
 
-## Examples
+### Examples
 
 Example:
 

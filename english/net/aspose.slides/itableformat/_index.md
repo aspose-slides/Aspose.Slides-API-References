@@ -16,7 +16,7 @@ public interface ITableFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FillFormat](fillformat) { get; } | Returns a table fill properties object. Read-only [`IFillFormat`](../ifillformat). |
 | [GetEffective](geteffective)() | Gets effective table formatting properties with inheritance and table styles applied. |

@@ -14,9 +14,9 @@ Delete grouping item for defined level.
 public void DeleteGroupingItem(int level)
 ```
 
-| parameter | description |
-| --- | --- |
-| level | Category level Int32 |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| level | Int32 | Category level Int32 |
 
 ### See Also
 

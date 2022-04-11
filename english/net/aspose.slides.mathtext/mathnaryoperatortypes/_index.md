@@ -16,7 +16,7 @@ public enum MathNaryOperatorTypes
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Summation | `0` | Summation: '∑' |
 | Product | `1` | Product: '∏' |

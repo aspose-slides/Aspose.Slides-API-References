@@ -16,13 +16,13 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Html5Options](html5options)() | The default constructor. |
 | [AnimateShapes](animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |
 | [AnimateTransitions](animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
 
-## Examples
+### Examples
 
 Example:
 

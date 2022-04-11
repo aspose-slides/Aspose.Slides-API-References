@@ -15,14 +15,14 @@ public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float wid
     string fname)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which audio frame should be inserted. |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| fname | Audio file name. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which audio frame should be inserted. |
+| x | Single | X coordinate of a new audio frame. |
+| y | Single | Y coordinate of a new audio frame. |
+| width | Single | Width of a new audio frame. |
+| height | Single | Height of a new audio frame. |
+| fname | String | Audio file name. |
 
 ## Return Value
 

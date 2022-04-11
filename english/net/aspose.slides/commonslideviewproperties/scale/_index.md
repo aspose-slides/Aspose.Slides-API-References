@@ -14,7 +14,7 @@ Specifies the view scaling ratio in percentages. Read/write Int32.
 public int Scale { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

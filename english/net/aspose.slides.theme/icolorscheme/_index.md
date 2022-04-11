@@ -16,7 +16,7 @@ public interface IColorScheme : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Accent1](accent1) { get; } | First accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Accent2](accent2) { get; } | Second accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |

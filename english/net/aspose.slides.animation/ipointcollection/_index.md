@@ -16,7 +16,7 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Allows to get base IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Returns the number of points in the collection. Read-only Int32. |

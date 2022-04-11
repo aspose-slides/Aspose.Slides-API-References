@@ -16,7 +16,7 @@ public interface ITextFrameFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AnchoringType](anchoringtype) { get; set; } | Returns or sets vertical anchor text in a TextFrame. Read/write [`TextAnchorType`](../textanchortype). |
 | [AutofitType](autofittype) { get; set; } | Returns or sets text's autofit mode. Read/write [`TextAutofitType`](../textautofittype). |

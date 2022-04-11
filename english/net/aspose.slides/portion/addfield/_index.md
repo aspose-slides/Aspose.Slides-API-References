@@ -31,9 +31,9 @@ Converts this portion to the automaticaly updated field.
 public void AddField(string internalString)
 ```
 
-| parameter | description |
-| --- | --- |
-| internalString | Internal name of FieldType. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| internalString | String | Internal name of FieldType. |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public class FontSources : IFontSources
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontSources](fontsources)() | Creates new default font options. |
 | [FontFolders](fontfolders) { get; set; } | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |

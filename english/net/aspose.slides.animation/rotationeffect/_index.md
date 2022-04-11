@@ -16,7 +16,7 @@ public class RotationEffect : Behavior, IRotationEffect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [RotationEffect](rotationeffect)() | The default constructor. |
 | [By](by) { get; set; } | Describes the relative offset value for the animation. Read/write Single. |

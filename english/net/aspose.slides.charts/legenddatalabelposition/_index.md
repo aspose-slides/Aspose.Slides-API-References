@@ -16,7 +16,7 @@ public enum LegendDataLabelPosition
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Position is not defined. |
 | Bottom | `0` | Specifies that data labels shall be displayed below the data marker. |

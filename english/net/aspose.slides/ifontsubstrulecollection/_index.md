@@ -16,7 +16,7 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [Add](add)(…) | Adds the new font substitution rule to the collection |

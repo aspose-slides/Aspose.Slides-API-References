@@ -16,7 +16,7 @@ public class NotesCommentsLayoutingOptions : INotesCommentsLayoutingOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | Default constructor. |
 | [CommentsAreaColor](commentsareacolor) { get; set; } | Gets or sets the color of comments area (Applies only if comments are displayed on the right). |

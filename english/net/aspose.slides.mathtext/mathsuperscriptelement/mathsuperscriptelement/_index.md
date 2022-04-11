@@ -14,7 +14,7 @@ Initializes a new instance of the MathSuperscriptElement class.
 public MathSuperscriptElement(IMathElement baseArg, IMathElement superScript)
 ```
 
-## Examples
+### Examples
 
 Example:
 

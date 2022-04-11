@@ -14,9 +14,9 @@ Determines whether the specified [`PresetShadow`](../../presetshadow) is equal t
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`PresetShadow`](../../presetshadow) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`PresetShadow`](../../presetshadow) to compare. |
 
 ## Return Value
 

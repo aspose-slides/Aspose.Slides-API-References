@@ -35,9 +35,9 @@ Creates a math paragraph and places the specified math block in it
 public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathBlock | math block to place in the paragraph |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathBlock | IMathBlock | math block to place in the paragraph |
 
 ## Return Value
 

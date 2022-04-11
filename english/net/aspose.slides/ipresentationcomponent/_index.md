@@ -16,7 +16,7 @@ public interface IPresentationComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Presentation](presentation) { get; } | Returns the presentation. Read-only [`IPresentation`](../ipresentation). |
 

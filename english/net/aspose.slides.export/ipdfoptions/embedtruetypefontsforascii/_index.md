@@ -14,7 +14,7 @@ True to embed true type fonts for ASCII characters 32-127. Fonts for character c
 public bool EmbedTrueTypeFontsForASCII { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is true.
 

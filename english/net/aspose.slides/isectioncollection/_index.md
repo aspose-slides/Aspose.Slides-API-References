@@ -16,7 +16,7 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISection`](../isection). |
 | [AddEmptySection](addemptysection)(…) | Add empty section to specified position of the collection. |

@@ -14,11 +14,11 @@ Remove node or sub node by index.
 public void RemoveNode(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Zero-based index of node |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Zero-based index of node |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -40,9 +40,9 @@ Remove node or sub node.
 public void RemoveNode(ISmartArtNode nodeObj)
 ```
 
-| parameter | description |
-| --- | --- |
-| nodeObj | Node to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| nodeObj | ISmartArtNode | Node to remove. |
 
 ### See Also
 

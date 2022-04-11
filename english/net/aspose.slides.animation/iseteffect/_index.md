@@ -16,7 +16,7 @@ public interface ISetEffect : IBehavior
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
 | [To](to) { get; set; } | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |

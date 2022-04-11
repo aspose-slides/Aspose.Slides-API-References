@@ -18,7 +18,7 @@ public IParagraphFormatEffectiveData GetEffective()
 
 A [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting some effective paragraph format properties.
 

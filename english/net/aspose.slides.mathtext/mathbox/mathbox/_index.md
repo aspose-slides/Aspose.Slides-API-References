@@ -14,11 +14,11 @@ Initializes MathBox with the specified element as an argument
 public MathBox(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | The base element to which the box is applied. Can be null. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | The base element to which the box is applied. Can be null. |
 
-## Examples
+### Examples
 
 Example:
 

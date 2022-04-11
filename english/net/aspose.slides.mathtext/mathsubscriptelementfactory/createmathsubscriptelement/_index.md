@@ -15,10 +15,10 @@ public IMathSubscriptElement CreateMathSubscriptElement(IMathElement baseArg,
     IMathElement subScript)
 ```
 
-| parameter | description |
-| --- | --- |
-| baseArg | Base argument to apply indexe |
-| subScript | lower right index |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseArg | IMathElement | Base argument to apply indexe |
+| subScript | IMathElement | lower right index |
 
 ## Return Value
 

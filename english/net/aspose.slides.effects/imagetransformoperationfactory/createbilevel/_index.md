@@ -14,9 +14,9 @@ Creates BiLevel effect.
 public IBiLevel CreateBiLevel(float threshold)
 ```
 
-| parameter | description |
-| --- | --- |
-| threshold | Threshold. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| threshold | Single | Threshold. |
 
 ## Return Value
 

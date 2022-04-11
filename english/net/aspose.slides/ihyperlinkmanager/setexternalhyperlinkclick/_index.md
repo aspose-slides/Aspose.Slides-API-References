@@ -14,9 +14,9 @@ Set external hyperlink on click.
 public IHyperlink SetExternalHyperlinkClick(string url)
 ```
 
-| parameter | description |
-| --- | --- |
-| url | Hyperlink URL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| url | String | Hyperlink URL. |
 
 ## Return Value
 

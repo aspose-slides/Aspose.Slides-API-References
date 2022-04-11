@@ -14,9 +14,9 @@ Saves content of this [`MathParagraph`](../../mathparagraph) as MathML
 public void WriteAsMathMl(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Target stream |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Target stream |
 
 ### See Also
 

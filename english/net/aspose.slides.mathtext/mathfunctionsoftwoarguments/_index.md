@@ -16,7 +16,7 @@ public enum MathFunctionsOfTwoArguments
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Log | `0` | Log |
 | Lim | `1` | Limit |

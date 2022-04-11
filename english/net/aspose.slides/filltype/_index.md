@@ -16,7 +16,7 @@ public enum FillType : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | The fill type is not defined. |
 | NoFill | `0` | No fill applied. |

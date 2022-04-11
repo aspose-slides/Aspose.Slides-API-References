@@ -14,9 +14,9 @@ Returns a point at the specified index.
 public IPoint this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  |  |
 
 ### See Also
 

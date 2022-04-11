@@ -15,13 +15,13 @@ public LinkEmbedDecision GetObjectStoringLocation(int id, byte[] entityData, str
     string contentType, string recomendedExtension)
 ```
 
-| parameter | description |
-| --- | --- |
-| id | Object id. This id is saving operation-wide unique. |
-| entityData | Object binary data. This parameter can be null, if object binary data is not generated yet. |
-| semanticName | Some short text, describing meaning of object. Controller may use this as a part of external object name, but it is up to dispatcher to ensure that names will be unique and contain only allowed characters. |
-| contentType | MIME type of object. |
-| recomendedExtension | File name extension, recommended for this MIME type. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | Int32 | Object id. This id is saving operation-wide unique. |
+| entityData | Byte[] | Object binary data. This parameter can be null, if object binary data is not generated yet. |
+| semanticName | String | Some short text, describing meaning of object. Controller may use this as a part of external object name, but it is up to dispatcher to ensure that names will be unique and contain only allowed characters. |
+| contentType | String | MIME type of object. |
+| recomendedExtension | String | File name extension, recommended for this MIME type. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public sealed class VbaModule : IVbaModule
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Name](name) { get; } | Gets the name of the module. Read-only String. |
 | [SourceCode](sourcecode) { get; set; } | Returns or sets the source code of the module. Read/write String. |

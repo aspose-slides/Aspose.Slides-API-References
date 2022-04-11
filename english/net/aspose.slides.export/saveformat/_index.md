@@ -16,7 +16,7 @@ public enum SaveFormat
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Ppt | `0` | Save presentation in PPT format. |
 | Pdf | `1` | Save presentation in PDF format. |

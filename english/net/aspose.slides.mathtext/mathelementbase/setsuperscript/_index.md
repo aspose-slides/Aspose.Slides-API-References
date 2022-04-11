@@ -14,15 +14,15 @@ Creates superscript
 public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 ```
 
-| parameter | description |
-| --- | --- |
-| superscript | Superscript (upper index on the right) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| superscript | IMathElement | Superscript (upper index on the right) |
 
 ## Return Value
 
 New math element of type [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
-## Examples
+### Examples
 
 Example:
 
@@ -51,15 +51,15 @@ Creates superscript
 public IMathSuperscriptElement SetSuperscript(string superscript)
 ```
 
-| parameter | description |
-| --- | --- |
-| superscript | Superscript (upper index on the right) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| superscript | String | Superscript (upper index on the right) |
 
 ## Return Value
 
 New math element of type [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
-## Examples
+### Examples
 
 Example:
 

@@ -14,7 +14,7 @@ Minimum column width in twips (1/20th of a point) The gap spacing (also referred
 public uint MinColumnWidth { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

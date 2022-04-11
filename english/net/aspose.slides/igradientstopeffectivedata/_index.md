@@ -16,7 +16,7 @@ public interface IGradientStopEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Color](color) { get; } | Returns the color of a gradient stop. Read-only Color. |
 | [Position](position) { get; } | Returns the position (0..1) of a gradient stop. Read-only Single. |

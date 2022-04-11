@@ -16,7 +16,7 @@ public enum PersistenceType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Persistance id not specified. |
 | PersistPropertyBag | `0` | Specifies that the ActiveX control is persisted using property-bag-based persistence. Property-bag-based persistence stores an ActiveX control by means of a collection of name and value pairs which specify the data persisted by the ActiveX control. |

@@ -14,9 +14,9 @@ Set write protection for this presentation with specified password.
 public void SetWriteProtection(string password)
 ```
 
-| parameter | description |
-| --- | --- |
-| password | The password. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | String | The password. |
 
 ### See Also
 

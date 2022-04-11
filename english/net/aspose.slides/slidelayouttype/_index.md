@@ -16,7 +16,7 @@ public enum SlideLayoutType : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Custom | `-1` | Custom |
 | Title | `0` | Title |

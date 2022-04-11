@@ -16,7 +16,7 @@ public interface IParagraphFormatEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alignment](alignment) { get; } | Returns the text alignment in a paragraph. Read-only [`TextAlignment`](../textalignment). |
 | [Bullet](bullet) { get; } | Returns a bullet format of a paragraph. Read-only [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
@@ -36,7 +36,7 @@ public interface IParagraphFormatEffectiveData
 | [SpaceWithin](spacewithin) { get; } | Returns the amount of space between base lines in a paragraph. Read-only Single. |
 | [Tabs](tabs) { get; } | Returns tabulations of a paragraph. Read-only [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`IParagraphFormat`](../iparagraphformat) interface to return effective formatting values with inheritance applied.
 

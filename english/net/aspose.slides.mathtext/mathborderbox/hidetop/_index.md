@@ -14,7 +14,7 @@ Hide Top Edge (default is false) - specifies the hidden or shown state of the to
 public bool HideTop { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

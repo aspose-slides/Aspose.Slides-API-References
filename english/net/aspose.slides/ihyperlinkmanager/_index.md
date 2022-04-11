@@ -16,7 +16,7 @@ public interface IHyperlinkManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [RemoveHyperlinkClick](removehyperlinkclick)() | Removes hyperlink on click. |
 | [RemoveHyperlinkMouseOver](removehyperlinkmouseover)() | Removes hyperlink mouse over. |

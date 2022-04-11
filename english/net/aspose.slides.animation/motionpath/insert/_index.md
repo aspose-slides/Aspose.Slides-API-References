@@ -15,13 +15,13 @@ public void Insert(int index, MotionCommandPathType type, PointF[] pts,
     MotionPathPointsType ptsType, bool bRelativeCoord)
 ```
 
-| parameter | description |
-| --- | --- |
-| index |  |
-| type |  |
-| pts |  |
-| ptsType |  |
-| bRelativeCoord |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 |  |
+| type | MotionCommandPathType |  |
+| pts | PointF[] |  |
+| ptsType | MotionPathPointsType |  |
+| bRelativeCoord | Boolean |  |
 
 ### See Also
 

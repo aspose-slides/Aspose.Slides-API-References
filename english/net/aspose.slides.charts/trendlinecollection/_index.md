@@ -16,7 +16,7 @@ public class TrendlineCollection : ITrendlineCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`Trendline`](../trendline). |

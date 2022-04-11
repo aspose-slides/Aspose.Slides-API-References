@@ -14,10 +14,10 @@ Tests two hyperlinks for inequality.
 public static bool operator !=(Hyperlink hlink1, Hyperlink hlink2)
 ```
 
-| parameter | description |
-| --- | --- |
-| hlink1 | First hyperlink to be tested. |
-| hlink2 | Second hyperlink to be tested. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hlink1 | Hyperlink | First hyperlink to be tested. |
+| hlink2 | Hyperlink | Second hyperlink to be tested. |
 
 ## Return Value
 

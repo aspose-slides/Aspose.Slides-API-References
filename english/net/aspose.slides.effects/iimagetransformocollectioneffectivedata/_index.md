@@ -16,11 +16,11 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns element by index. |
 
-## Remarks
+### Remarks
 
 Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39.
 

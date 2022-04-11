@@ -16,13 +16,13 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathematicalTextFactory](mathematicaltextfactory)() | The default constructor. |
 | [CreateMathematicalText](createmathematicaltext)() | Create empty mathematical text element |
 | [CreateMathematicalText](createmathematicaltext)(…) | Create mathematical text element with the specified value (3 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

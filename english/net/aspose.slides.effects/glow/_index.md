@@ -16,7 +16,7 @@ public class Glow : IGlow
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Color](color) { get; } | Color format. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](radius) { get; set; } | Radius. Read/write Double. |

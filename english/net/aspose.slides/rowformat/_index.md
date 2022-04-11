@@ -16,7 +16,7 @@ public class RowFormat : IRowFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GetEffective](geteffective)() | Gets effective table row formatting properties with inheritance and table styles applied. |
 

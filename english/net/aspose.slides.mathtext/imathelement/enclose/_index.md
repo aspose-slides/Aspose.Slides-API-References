@@ -18,7 +18,7 @@ public IMathDelimiter Enclose()
 
 The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes the parenthesis
 
-## Examples
+### Examples
 
 Example:
 
@@ -45,16 +45,16 @@ Encloses this element in specified characters such as parenthesis or another cha
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
 ```
 
-| parameter | description |
-| --- | --- |
-| beginningCharacter | Beginning character (usually left bracket) |
-| endingCharacter | Ending character (usually right bracket) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| beginningCharacter | Char | Beginning character (usually left bracket) |
+| endingCharacter | Char | Ending character (usually right bracket) |
 
 ## Return Value
 
 The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes specified characters as framing
 
-## Examples
+### Examples
 
 Example:
 

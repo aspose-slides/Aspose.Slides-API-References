@@ -14,10 +14,10 @@ Copies all elements of the collection to the specified array.
 public void CopyTo(Array array, int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| array | Target array. |
-| index | Starting index in the array. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| array | Array | Target array. |
+| index | Int32 | Starting index in the array. |
 
 ### See Also
 

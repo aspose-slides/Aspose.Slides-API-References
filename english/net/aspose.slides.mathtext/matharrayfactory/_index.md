@@ -16,12 +16,12 @@ public class MathArrayFactory : IMathArrayFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathArrayFactory](matharrayfactory)() | The default constructor. |
 | [CreateMathArray](creatematharray)(…) | Creates a math array and places the specified element in it (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

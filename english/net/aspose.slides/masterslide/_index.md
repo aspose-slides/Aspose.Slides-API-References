@@ -16,7 +16,7 @@ public class MasterSlide : BaseSlide, IMasterSlide
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BodyStyle](bodystyle) { get; } | Returns the style of a body text. Read-only [`ITextStyle`](../itextstyle). |
 | [HasDependingSlides](hasdependingslides) { get; } | Returns true if there exists at least one slide that depends on this master slide. Read-only Boolean. |

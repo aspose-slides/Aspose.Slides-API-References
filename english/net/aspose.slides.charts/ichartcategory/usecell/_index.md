@@ -14,7 +14,7 @@ If true then AsCell property is actual. In other words, worksheet is used for st
 public bool UseCell { get; }
 ```
 
-## Remarks
+### Remarks
 
 For change value of this property (for all categories in collection) set new value to ChartCategoryCollection.UseCells property.
 

@@ -14,7 +14,7 @@ Hide Left Edge (default is false) - specifies the hidden or shown state of the l
 public bool HideLeft { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

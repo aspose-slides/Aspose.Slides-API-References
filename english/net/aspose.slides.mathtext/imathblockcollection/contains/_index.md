@@ -14,15 +14,15 @@ Determines whether the collection contains a specific value.
 public bool Contains(IMathBlock item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IMathBlock | The object to locate in the collection. |
 
 ## Return Value
 
 true if *item* is found in the collection; otherwise, false.
 
-## Examples
+### Examples
 
 Example:
 

@@ -14,11 +14,11 @@ Removes the first occurrence of a specific FallBack rule from the collection.
 public void Remove(IFontFallBackRule targetRule)
 ```
 
-| parameter | description |
-| --- | --- |
-| targetRule | The rule to remove from the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| targetRule | IFontFallBackRule | The rule to remove from the collection. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

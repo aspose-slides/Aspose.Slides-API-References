@@ -14,9 +14,9 @@ Returns adjustment by index.
 public IAdjustValue this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | adjustment's index. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | adjustment's index. |
 
 ## Return Value
 

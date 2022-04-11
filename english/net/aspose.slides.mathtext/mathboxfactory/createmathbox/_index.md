@@ -14,9 +14,9 @@ Create a math box by applying to the element
 public IMathBox CreateMathBox(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | math element to apply box |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to apply box |
 
 ## Return Value
 

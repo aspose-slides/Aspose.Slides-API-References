@@ -16,7 +16,7 @@ public enum TransitionInOutDirectionType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | In | `0` |  |
 | Out | `1` |  |

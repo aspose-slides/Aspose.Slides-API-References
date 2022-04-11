@@ -16,7 +16,7 @@ public interface IBaseChartValue
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Data](data) { get; set; } | Read/write Object. |
 | [DataSourceType](datasourcetype) { get; set; } | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual. In other words it specifies the type of value of the Data property. This property is read-only. For changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; properties. Read/write [`DataSourceType`](./datasourcetype). |

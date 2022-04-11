@@ -14,15 +14,15 @@ Takes lower limit
 public IMathLimit SetLowerLimit(IMathElement limit)
 ```
 
-| parameter | description |
-| --- | --- |
-| limit | limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| limit | IMathElement | limit |
 
 ## Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 
-## Examples
+### Examples
 
 Example:
 
@@ -51,15 +51,15 @@ Takes lower limit
 public IMathLimit SetLowerLimit(string limit)
 ```
 
-| parameter | description |
-| --- | --- |
-| limit | limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| limit | String | limit |
 
 ## Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 
-## Examples
+### Examples
 
 Example:
 

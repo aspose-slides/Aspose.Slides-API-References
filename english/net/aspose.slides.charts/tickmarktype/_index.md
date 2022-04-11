@@ -16,7 +16,7 @@ public enum TickMarkType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Cross | `0` | Specifies the tick marks shall cross the axis. |
 | Inside | `1` | Specifies the tick marks shall be inside the plot area. |

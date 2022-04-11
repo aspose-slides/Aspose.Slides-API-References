@@ -16,7 +16,7 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the notes slide. Read-only [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
 | [NotesTextFrame](notestextframe) { get; } | Returns a TextFrame with notes' text if there is one. Read-only [`ITextFrame`](../itextframe). |

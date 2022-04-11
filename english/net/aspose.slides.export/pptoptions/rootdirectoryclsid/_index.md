@@ -14,7 +14,7 @@ Represents the object class GUID (CLSID) that is stored in the root directory en
 public Guid RootDirectoryClsid { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

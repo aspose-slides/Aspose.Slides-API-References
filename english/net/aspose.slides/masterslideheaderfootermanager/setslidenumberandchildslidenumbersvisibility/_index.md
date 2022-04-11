@@ -14,9 +14,9 @@ Changes master slide page number placeholder and all child page number placehold
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a page number placeholders visible, otherwise - hides them. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a page number placeholders visible, otherwise - hides them. |
 
 ### See Also
 

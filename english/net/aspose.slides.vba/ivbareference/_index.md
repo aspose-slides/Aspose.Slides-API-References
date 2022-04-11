@@ -16,7 +16,7 @@ public interface IVbaReference
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Name](name) { get; set; } | Represents the name of the VBA project reference. Read/write String. |
 

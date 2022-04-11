@@ -14,15 +14,15 @@ Gets or sets IMathElement at the specified index.
 public IMathElement this[int index] { get; set; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index of the item |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | The zero-based index of the item |
 
 ## Return Value
 
 The mathematical element.
 
-## Examples
+### Examples
 
 Example:
 

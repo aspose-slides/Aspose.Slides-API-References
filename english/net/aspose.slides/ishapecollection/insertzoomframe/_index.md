@@ -15,26 +15,26 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
     ISlide slide)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which Zoom frame should be inserted. |
-| x | X coordinate of a new Zoom frame Single. |
-| y | Y coordinate of a new Zoom frame Single. |
-| width | Width of a new Zoom frame Single. |
-| height | Height of a new Zoom frame Single. |
-| slide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which Zoom frame should be inserted. |
+| x | Single | X coordinate of a new Zoom frame Single. |
+| y | Single | Y coordinate of a new Zoom frame Single. |
+| width | Single | Width of a new Zoom frame Single. |
+| height | Single | Height of a new Zoom frame Single. |
+| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
 
 ## Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Referenced slide does not belong to the current presentation. |
 
-## Examples
+### Examples
 
 This example demonstrates creation and inserting a Zoom object at the specified index of a collection (assume that there are at least two slides in the "Presentation.pptx" presentation):
 
@@ -65,27 +65,27 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
     ISlide slide, IPPImage image)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which Zoom frame should be inserted. |
-| x | X coordinate of a new Zoom frame Single. |
-| y | Y coordinate of a new Zoom frame Single. |
-| width | Width of a new Zoom frame Single. |
-| height | Height of a new Zoom frame Single. |
-| slide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
-| image | The image for the referenced slide [`IPPImage`](../../ippimage) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which Zoom frame should be inserted. |
+| x | Single | X coordinate of a new Zoom frame Single. |
+| y | Single | Y coordinate of a new Zoom frame Single. |
+| width | Single | Width of a new Zoom frame Single. |
+| height | Single | Height of a new Zoom frame Single. |
+| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
+| image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
 ## Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Referenced slide does not belong to the current presentation. |
 
-## Examples
+### Examples
 
 This example demonstrates creation and inserting a Zoom object at the specified index of a collection (assume that there are at least two slides in the "Presentation.pptx" presentation):
 

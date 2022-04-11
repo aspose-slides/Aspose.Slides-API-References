@@ -16,7 +16,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](asibasehandoutnotesslideheaderfootermanag) { get; } | Returns IBaseHandoutNotesSlideHeaderFooterManag interface. |
 

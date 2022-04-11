@@ -16,7 +16,7 @@ public class ShapeFrame : IShapeFrame
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ShapeFrame](shapeframe)(…) | Creates new shape frame's properties. |
 | [CenterX](centerx) { get; } | Returns the X coordinate of a frame's center. Read-only Single. |

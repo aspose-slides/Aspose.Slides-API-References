@@ -15,13 +15,13 @@ public void Insert(int index, MotionCommandPathType type, PointF[] pts,
     MotionPathPointsType ptsType, bool bRelativeCoord)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index for command insertion Int32 |
-| type | Type of command for animation motion effect behavior [`MotionCommandPathType`](../../motioncommandpathtype) |
-| pts | Points array PointF[] |
-| ptsType | Type of points in animation motion path [`MotionPathPointsType`](../../motionpathpointstype) |
-| bRelativeCoord | Indicates whether to use relative coordinates or not Boolean |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index for command insertion Int32 |
+| type | MotionCommandPathType | Type of command for animation motion effect behavior [`MotionCommandPathType`](../../motioncommandpathtype) |
+| pts | PointF[] | Points array PointF[] |
+| ptsType | MotionPathPointsType | Type of points in animation motion path [`MotionPathPointsType`](../../motionpathpointstype) |
+| bRelativeCoord | Boolean | Indicates whether to use relative coordinates or not Boolean |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public enum MathRowSpacingRule
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | SingleLineGap | `0` | single line gap |
 | OneAndAHalfLineGap | `1` | One and a half line gap |

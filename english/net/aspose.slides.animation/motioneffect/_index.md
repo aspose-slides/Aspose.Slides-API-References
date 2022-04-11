@@ -16,7 +16,7 @@ public class MotionEffect : Behavior, IMotionEffect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MotionEffect](motioneffect)() | The default constructor. |
 | [Angle](angle) { get; set; } | Describes the relative angle of the motion path. Read/write Single. |

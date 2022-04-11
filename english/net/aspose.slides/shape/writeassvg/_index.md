@@ -14,9 +14,9 @@ Saves content of Shape as SVG file.
 public void WriteAsSvg(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Target stream |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Target stream |
 
 ### See Also
 
@@ -34,10 +34,10 @@ Saves content of Shape as SVG file.
 public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Target stream |
-| svgOptions | SVG generation options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Target stream |
+| svgOptions | ISVGOptions | SVG generation options |
 
 ### See Also
 

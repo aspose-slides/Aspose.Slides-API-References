@@ -16,7 +16,7 @@ public interface IXpsOptions : ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [DrawSlidesFrame](drawslidesframe) { get; set; } | True to draw black frame around each slide. Read/write Boolean. |

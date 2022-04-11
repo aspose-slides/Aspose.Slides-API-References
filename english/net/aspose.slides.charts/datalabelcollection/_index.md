@@ -16,7 +16,7 @@ public class DataLabelCollection : IDataLabelCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Chart](chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
 | [Count](count) { get; } | Gets the number of all data labels in the collection. Read-only Int32. |

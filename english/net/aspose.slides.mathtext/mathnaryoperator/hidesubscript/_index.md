@@ -14,7 +14,7 @@ Hide Subscript
 public bool HideSubscript { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

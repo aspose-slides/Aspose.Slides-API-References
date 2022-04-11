@@ -14,10 +14,10 @@ Creates Blur effect.
 public IBlur CreateBlur(double radius, bool grow)
 ```
 
-| parameter | description |
-| --- | --- |
-| radius | Radius. |
-| grow | Grow. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| radius | Double | Radius. |
+| grow | Boolean | Grow. |
 
 ## Return Value
 

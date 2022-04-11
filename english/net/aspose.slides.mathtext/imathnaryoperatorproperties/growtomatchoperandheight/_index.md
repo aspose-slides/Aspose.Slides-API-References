@@ -14,7 +14,7 @@ Operator Character grows vertically to match its operand height
 public bool GrowToMatchOperandHeight { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

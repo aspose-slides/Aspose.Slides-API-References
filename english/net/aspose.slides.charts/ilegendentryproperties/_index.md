@@ -16,7 +16,7 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Hide](hide) { get; set; } | Returns or sets the hide flag of legend entry. Read/write Boolean. |

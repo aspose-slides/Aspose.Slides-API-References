@@ -14,9 +14,9 @@ Sets text to master notes slide footer placeholder and all child footer placehol
 public void SetFooterAndChildFootersText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 ### See Also
 

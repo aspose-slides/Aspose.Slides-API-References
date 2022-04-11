@@ -17,7 +17,7 @@ public class BiLevelEffectiveData : EffectEffectiveData<BiLevel, BiLevelEffectiv
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Threshold](threshold) { get; } | Returns a threshold. Read-only Single. |
 

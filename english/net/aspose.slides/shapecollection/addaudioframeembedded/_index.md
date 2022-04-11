@@ -14,13 +14,13 @@ Adds a new audio frame with embedded audio file to the end of a collection. It u
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| audio | Audio from Presentation.Audios list. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new audio frame. |
+| y | Single | Y coordinate of a new audio frame. |
+| width | Single | Width of a new audio frame. |
+| height | Single | Height of a new audio frame. |
+| audio | IAudio | Audio from Presentation.Audios list. |
 
 ## Return Value
 
@@ -45,13 +45,13 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
     Stream audio_stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| audio_stream | Inout stream with audio data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new audio frame. |
+| y | Single | Y coordinate of a new audio frame. |
+| width | Single | Width of a new audio frame. |
+| height | Single | Height of a new audio frame. |
+| audio_stream | Stream | Inout stream with audio data. |
 
 ## Return Value
 

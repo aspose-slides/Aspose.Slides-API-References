@@ -14,7 +14,7 @@ Returns the collection of child layout slides for this master slide. Read-only [
 public IMasterLayoutSlideCollection LayoutSlides { get; }
 ```
 
-## Remarks
+### Remarks
 
 You can access to alternative API for adding/inserting/removing/cloning layout slides by using [`LayoutSlides`](../../ipresentation/layoutslides) property.
 

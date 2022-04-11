@@ -14,7 +14,7 @@ Returns IDisposable interface. Read-only IDisposable.
 public IDisposable AsIDisposable { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

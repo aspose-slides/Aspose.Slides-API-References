@@ -16,7 +16,7 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SpreadsheetOptions](spreadsheetoptions)() | Initializes a new instance of the [`SpreadsheetOptions`](../spreadsheetoptions) class. |
 | [PreferredCulture](preferredculture) { get; set; } | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |

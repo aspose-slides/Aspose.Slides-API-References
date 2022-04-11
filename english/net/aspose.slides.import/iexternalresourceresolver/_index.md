@@ -16,7 +16,7 @@ public interface IExternalResourceResolver
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GetEntity](getentity)(…) | Maps a URI to an object containing the actual resource. |
 | [ResolveUri](resolveuri)(…) | Resolves the absolute URI from the base and relative URIs. |

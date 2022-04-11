@@ -16,7 +16,7 @@ public enum NullableBool : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Boolean value is undefined. |
 | False | `0` | False value. |

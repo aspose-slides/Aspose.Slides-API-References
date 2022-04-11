@@ -14,7 +14,7 @@ Gets or sets the visibility of comments that do not have an author. If true then
 public bool ShowCommentsByNoAuthor { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default value is false.
 

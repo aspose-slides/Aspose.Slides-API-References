@@ -16,7 +16,7 @@ public class OdpException : Exception
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [OdpException](odpexception)() | Default constructor |
 | [OdpException](odpexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

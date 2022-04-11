@@ -16,11 +16,11 @@ public interface ISketchFormatEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SketchType](sketchtype) { get; } | Returns the sketch type. Read only [`LineSketchType`](../linesketchtype). |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 

@@ -16,7 +16,7 @@ public sealed class MathDelimiter : MathElementBase, IMathDelimiter
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathDelimiter](mathdelimiter)(…) | Initializes MathDelimiter with the specified element as single base argument |
 | [Arguments](arguments) { get; } | One or more mathematical elements separated by delimiter characters |
@@ -29,7 +29,7 @@ public sealed class MathDelimiter : MathElementBase, IMathDelimiter
 | override [Enclose](enclose)(…) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

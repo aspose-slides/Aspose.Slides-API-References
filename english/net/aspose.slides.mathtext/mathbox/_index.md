@@ -16,7 +16,7 @@ public sealed class MathBox : MathElementBase, IMathBox
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathBox](mathbox)(…) | Initializes MathBox with the specified element as an argument |
 | [AlignmentPoint](alignmentpoint) { get; set; } | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
@@ -27,7 +27,7 @@ public sealed class MathBox : MathElementBase, IMathBox
 | [OperatorEmulator](operatoremulator) { get; set; } | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

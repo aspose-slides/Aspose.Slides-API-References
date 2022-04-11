@@ -18,7 +18,7 @@ public IFillFormatEffectiveData GetEffective()
 
 A [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting shape's effective fill format properties.
 

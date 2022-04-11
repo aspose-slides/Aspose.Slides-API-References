@@ -14,15 +14,15 @@ Returns an index of the specified SummaryZoomSection object.
 public int IndexOf(ISummaryZoomSection summaryZoomSection)
 ```
 
-| parameter | description |
-| --- | --- |
-| summaryZoomSection | SummaryZoomSection object to find [`ISummaryZoomSection`](../../isummaryzoomsection). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| summaryZoomSection | ISummaryZoomSection | SummaryZoomSection object to find [`ISummaryZoomSection`](../../isummaryzoomsection). |
 
 ## Return Value
 
 Index of a SummaryZoomSection object or -1 if SummaryZoomSection object not from this collection.
 
-## Examples
+### Examples
 
 The example demonstrates getting Summary Zoom Section element by index:
 

@@ -17,7 +17,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; set; } | Returns or sets the operation at the specified index. Read/write [`IColorOperation`](../icoloroperation). |
 | [Add](add)(…) | Adds a new operation to the end of collection. (2 methods) |

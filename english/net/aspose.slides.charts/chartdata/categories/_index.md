@@ -14,11 +14,11 @@ Gets the primary categories (or both primary and secondary categories if [`UseSe
 public IChartCategoryCollection Categories { get; }
 ```
 
-## Remarks
+### Remarks
 
 If [`UseSecondaryCategories`](../usesecondarycategories) property is false then [`SecondaryCategories`](../secondarycategories) property return null and data in this `Categories` property is used both for primary and secondary series. If [`UseSecondaryCategories`](../usesecondarycategories) property is true then data in [`SecondaryCategories`](../secondarycategories) property is used for secondary series and data in this `Categories` property is used for primary series.
 
-## Examples
+### Examples
 
 Example. What categories are related to series - ChartData.Categories or ChartData.SecondaryCategories?
 

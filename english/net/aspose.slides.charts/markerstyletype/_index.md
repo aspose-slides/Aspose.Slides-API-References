@@ -16,7 +16,7 @@ public enum MarkerStyleType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Circle | `0` | Specifies a circle shall be drawn at each data point. |

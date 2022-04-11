@@ -16,7 +16,7 @@ public enum GradientShape : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Linear | `0` |  |

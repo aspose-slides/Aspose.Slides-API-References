@@ -16,7 +16,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ICommentAuthor`](../icommentauthor). |
 | [AddAuthor](addauthor)(…) | Add new author at the end of a collection. |

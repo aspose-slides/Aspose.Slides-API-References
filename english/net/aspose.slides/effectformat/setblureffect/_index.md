@@ -14,10 +14,10 @@ Sets blur effect.
 public void SetBlurEffect(double radius, bool grow)
 ```
 
-| parameter | description |
-| --- | --- |
-| radius | Radius. |
-| grow | Grow. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| radius | Double | Radius. |
+| grow | Boolean | Grow. |
 
 ### See Also
 

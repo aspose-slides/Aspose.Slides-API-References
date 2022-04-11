@@ -16,11 +16,11 @@ public interface ITabFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateTab](createtab)(…) | Creates a new ITab instance. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

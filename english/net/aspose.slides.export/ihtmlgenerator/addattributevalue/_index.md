@@ -14,9 +14,9 @@ Quotes attribute value and adds it to the html file.
 public void AddAttributeValue(char[] value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Attribute value string. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Char[] | Attribute value string. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Quotes attribute value and adds it to the html file.
 public void AddAttributeValue(string value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Attribute value string. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | String | Attribute value string. |
 
 ### See Also
 
@@ -54,11 +54,11 @@ Quotes attribute value and adds it to the html file.
 public void AddAttributeValue(char[] value, int startIndex, int length)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Attribute value string. |
-| startIndex | Start index of the portion to add. |
-| length | Length of the portion to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Char[] | Attribute value string. |
+| startIndex | Int32 | Start index of the portion to add. |
+| length | Int32 | Length of the portion to add. |
 
 ### See Also
 

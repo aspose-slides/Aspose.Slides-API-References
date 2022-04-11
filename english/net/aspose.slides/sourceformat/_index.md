@@ -16,7 +16,7 @@ public enum SourceFormat
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Ppt | `0` | PPT format. |
 | Pptx | `1` | Pptx format. |

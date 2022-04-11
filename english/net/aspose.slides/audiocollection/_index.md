@@ -16,7 +16,7 @@ public class AudioCollection : IAudioCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns a number of audio files in the collection. Read-only Int32. |
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |

@@ -14,9 +14,9 @@ Searches for the specified [`IChartCategory`](../../ichartcategory) and returns 
 public int IndexOf(IChartCategory value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Chart category. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IChartCategory | Chart category. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public class ShapeBevel : PVIObject, IShapeBevel
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ShapeBevel](shapebevel)(…) | Creates new instance. |
 | [BevelType](beveltype) { get; set; } | Bevel type. Read/write [`BevelPresetType`](../bevelpresettype). |

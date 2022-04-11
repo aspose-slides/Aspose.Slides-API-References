@@ -16,7 +16,7 @@ public enum FontCollectionIndex : byte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` |  |
 | Minor | `1` |  |

@@ -14,9 +14,9 @@ Initializes the internally contained Excel workbook with user-specified value.
 public void WriteWorkbookStream(MemoryStream ms)
 ```
 
-| parameter | description |
-| --- | --- |
-| ms | The user-supplied stream containing the entire Excel workbook. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ms | MemoryStream | The user-supplied stream containing the entire Excel workbook. |
 
 ### See Also
 

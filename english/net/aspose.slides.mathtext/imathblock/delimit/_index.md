@@ -14,15 +14,15 @@ Delimits all child elements with separator character (without the brackets)
 public IMathDelimiter Delimit(char separatorCharacter)
 ```
 
-| parameter | description |
-| --- | --- |
-| separatorCharacter | Character used as a separator |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| separatorCharacter | Char | Character used as a separator |
 
 ## Return Value
 
 Instance of IMathDelimiter element
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Threshold](threshold) { get; } | Returns the threshold value. Read-only Single. |

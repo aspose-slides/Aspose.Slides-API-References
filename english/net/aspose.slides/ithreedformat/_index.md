@@ -16,7 +16,7 @@ public interface IThreeDFormat : IThreeDParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIThreeDParamSource](asithreedparamsource) { get; } | Allows to get base IThreeDParamSource interface. Read-only [`IThreeDParamSource`](../ithreedparamsource). |
 | [BevelBottom](bevelbottom) { get; } | Returns or sets the type of a bottom 3D bevel. Read-only [`IShapeBevel`](../ishapebevel). |

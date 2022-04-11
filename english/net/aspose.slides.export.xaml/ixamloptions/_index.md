@@ -16,13 +16,13 @@ public interface IXamlOptions : ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
 | [ExportHiddenSlides](exporthiddenslides) { get; set; } | Determines whether hidden slides will be exported. |
 | [OutputSaver](outputsaver) { get; set; } | Represents an implementation of IOutputSaver interface. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

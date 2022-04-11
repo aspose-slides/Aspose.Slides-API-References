@@ -16,7 +16,7 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [VbaReferenceOleTypeLib](vbareferenceoletypelib)(…) | This constructor creates new OLE Automation type library reference. |
 | [Libid](libid) { get; set; } | Represents the identifier of an Automation type library. Read/write String. |

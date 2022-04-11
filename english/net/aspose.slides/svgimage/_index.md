@@ -16,7 +16,7 @@ public class SvgImage : ISvgImage
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SvgImage](svgimage)(…) | Creates new SvgImage object. (6 constructors) |
 | [BaseUri](baseuri) { get; } | Returns base URI of the specified Svg. Used to resolve relative links. Read-only String. |

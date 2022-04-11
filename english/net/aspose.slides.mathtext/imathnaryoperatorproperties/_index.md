@@ -16,7 +16,7 @@ public interface IMathNaryOperatorProperties
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GrowToMatchOperandHeight](growtomatchoperandheight) { get; set; } | Operator Character grows vertically to match its operand height |
 | [HideSubscript](hidesubscript) { get; set; } | Hide Subscript |

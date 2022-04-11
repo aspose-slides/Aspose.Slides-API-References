@@ -14,9 +14,9 @@ Splits the cell by height.
 public void SplitByHeight(double height)
 ```
 
-| parameter | description |
-| --- | --- |
-| height | Height of a row. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| height | Double | Height of a row. |
 
 ### See Also
 

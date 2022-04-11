@@ -16,7 +16,7 @@ public enum MathHorizontalAlignment
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | Value is not defined |
 | Left | `1` | Left Justification |

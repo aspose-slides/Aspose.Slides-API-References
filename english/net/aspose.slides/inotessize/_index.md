@@ -16,7 +16,7 @@ public interface INotesSize
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Size](size) { get; set; } | Returns or sets the size in points. Read/write SizeF. |
 

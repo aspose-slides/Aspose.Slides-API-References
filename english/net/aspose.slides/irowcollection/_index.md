@@ -16,7 +16,7 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [AddClone](addclone)(…) | Creates a copy of the specified template row and inserts it at the bottom of a table. |

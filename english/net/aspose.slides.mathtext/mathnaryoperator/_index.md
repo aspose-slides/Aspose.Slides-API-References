@@ -16,7 +16,7 @@ public sealed class MathNaryOperator : MathElementBase, IMathNaryOperator
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathNaryOperator](mathnaryoperator)(…) | Initializes a new instance of the MathNaryOperator class. (3 constructors) |
 | [Base](base) { get; } | Base argument |
@@ -29,13 +29,7 @@ public sealed class MathNaryOperator : MathElementBase, IMathNaryOperator
 | [Superscript](superscript) { get; } | Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Protected Members
-
-| name | description |
-| --- | --- |
-| const [c_DefaultArgumentSize](c_defaultargumentsize) |  |
-
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public enum SmartArtColorType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Dark1Outline | `0` | Dark1Outline |
 | Dark2Outline | `1` | Dark2Outline |

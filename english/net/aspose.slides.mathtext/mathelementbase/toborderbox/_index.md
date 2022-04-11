@@ -18,7 +18,7 @@ public IMathBorderBox ToBorderBox()
 
 Border-box with this element placed inside
 
-## Examples
+### Examples
 
 Example:
 
@@ -46,22 +46,22 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
     bool strikethroughBottomLeftToTopRight, bool strikethroughTopLeftToBottomRight)
 ```
 
-| parameter | description |
-| --- | --- |
-| hideTop | Hide Top Edge |
-| hideBottom | Hide Bottom Edge |
-| hideLeft | Hide Left Edge |
-| hideRight | Hide Right Edge |
-| strikethroughHorizontal | Border Box Strikethrough Horizontal |
-| strikethroughVertical | Border Box Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | Border Box Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | Border Box Strikethrough Top-Left to Bottom-Right |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hideTop | Boolean | Hide Top Edge |
+| hideBottom | Boolean | Hide Bottom Edge |
+| hideLeft | Boolean | Hide Left Edge |
+| hideRight | Boolean | Hide Right Edge |
+| strikethroughHorizontal | Boolean | Border Box Strikethrough Horizontal |
+| strikethroughVertical | Boolean | Border Box Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | Boolean | Border Box Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | Boolean | Border Box Strikethrough Top-Left to Bottom-Right |
 
 ## Return Value
 
 Border-box with this element placed inside
 
-## Examples
+### Examples
 
 Example:
 

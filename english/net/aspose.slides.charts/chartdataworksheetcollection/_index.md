@@ -16,7 +16,7 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the count. Read-only Int32. |
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
@@ -25,7 +25,7 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 | [CopyTo](copyto)(…) | Copy to specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
-## Examples
+### Examples
 
 Example:
 

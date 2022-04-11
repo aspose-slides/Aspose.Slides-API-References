@@ -16,7 +16,7 @@ public class TransitionValueBase : ITransitionValueBase
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the two TransitionValueBase instances are equal. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |

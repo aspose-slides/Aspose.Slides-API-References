@@ -14,10 +14,10 @@ Slides should be converted to a raster image.
 public static SlideImageFormat Bitmap(float scale, ImageFormat imgFormat)
 ```
 
-| parameter | description |
-| --- | --- |
-| scale | Image scale factor. |
-| imgFormat | Image format. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scale | Single | Image scale factor. |
+| imgFormat | ImageFormat | Image format. |
 
 ### See Also
 

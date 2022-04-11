@@ -14,9 +14,9 @@ Adds data point by its index in parent series points collection.
 public void Add(int dataPointIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| dataPointIndex | Index of data point in parent series points collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataPointIndex | Int32 | Index of data point in parent series points collection. |
 
 ### See Also
 

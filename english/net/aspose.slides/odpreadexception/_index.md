@@ -16,7 +16,7 @@ public class OdpReadException : OdpException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [OdpReadException](odpreadexception)() | Default constructor |
 | [OdpReadException](odpreadexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

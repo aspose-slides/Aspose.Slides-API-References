@@ -16,7 +16,7 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsILayoutSlideCollection](asilayoutslidecollection) { get; } | Returns ILayoutSlideCollection interface. Read-only [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 | [Add](add)(…) | Adds a new layout slide to the presentation. |

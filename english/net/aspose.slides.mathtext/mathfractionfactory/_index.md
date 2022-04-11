@@ -16,12 +16,12 @@ public class MathFractionFactory : IMathFractionFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathFractionFactory](mathfractionfactory)() | The default constructor. |
 | [CreateMathFraction](createmathfraction)(…) | Creates a math fraction (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

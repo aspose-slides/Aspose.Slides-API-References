@@ -30,9 +30,9 @@ Creates new load options.
 public LoadOptions(LoadFormat loadFormat)
 ```
 
-| parameter | description |
-| --- | --- |
-| loadFormat | Format of a presentation to load. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| loadFormat | LoadFormat | Format of a presentation to load. |
 
 ### See Also
 

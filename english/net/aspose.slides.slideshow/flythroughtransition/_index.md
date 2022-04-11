@@ -16,7 +16,7 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [HasBounce](hasbounce) { get; set; } | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write Boolean. |

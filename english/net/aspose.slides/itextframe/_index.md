@@ -16,7 +16,7 @@ public interface ITextFrame : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
 | [HyperlinkQueries](hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |

@@ -16,7 +16,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISlide`](../islide). |
 

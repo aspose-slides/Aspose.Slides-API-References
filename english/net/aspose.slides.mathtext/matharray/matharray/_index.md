@@ -14,9 +14,9 @@ Creates a mathematical array and places specified elements in it
 public MathArray(IEnumerable<IMathElement> elements)
 ```
 
-| parameter | description |
-| --- | --- |
-| elements | Elements to place in the array |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| elements | IEnumerable`1 | Elements to place in the array |
 
 ### See Also
 
@@ -35,11 +35,11 @@ Creates a mathematical array and places the specified element in it
 public MathArray(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | The element to place in the array |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | The element to place in the array |
 
-## Examples
+### Examples
 
 Example:
 

@@ -14,25 +14,25 @@ Checks whether a password to modify is correct for a write protected presentatio
 public bool CheckWriteProtection(string password)
 ```
 
-| parameter | description |
-| --- | --- |
-| password | The password to check. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | String | The password to check. |
 
 ## Return Value
 
 True if the presentation is write protected and the password is correct. False otherwise.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException |  |
 
-## Remarks
+### Remarks
 
 1. You should check the [`IsWriteProtected`](../iswriteprotected) property before calling this method. 2. When password is null or empty, this method returns false.
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

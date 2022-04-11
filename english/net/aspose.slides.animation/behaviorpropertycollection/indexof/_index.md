@@ -14,9 +14,9 @@ Determines the index of a specific item in the IList.
 public int IndexOf(IBehaviorProperty item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The object to locate in the IList. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IBehaviorProperty | The object to locate in the IList. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Determines the index of a specific item by property value in the IList.
 public int IndexOf(string propertyValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| propertyValue | value of the property |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | value of the property |
 
 ## Return Value
 

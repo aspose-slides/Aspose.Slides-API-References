@@ -14,7 +14,7 @@ Returns or sets the index of connection site for end shape. Read/write UInt32.
 public uint EndShapeConnectionSiteIndex { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

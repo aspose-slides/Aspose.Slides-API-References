@@ -16,7 +16,7 @@ public class DataLabelFormat : PVIObject, IDataLabelFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Chart](chart) { get; } | Returns the chart. Read-only [`IChart`](../ichart). |
 | [Format](format) { get; } | Represents the format of the data label. Read-only [`IFormat`](../iformat). |

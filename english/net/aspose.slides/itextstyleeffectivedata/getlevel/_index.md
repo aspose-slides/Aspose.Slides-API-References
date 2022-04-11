@@ -14,9 +14,9 @@ Returns level of effective style.
 public IParagraphFormatEffectiveData GetLevel(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Zero-based index of level. Must lay in 0..8 interval. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Zero-based index of level. Must lay in 0..8 interval. |
 
 ## Return Value
 

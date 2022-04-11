@@ -16,7 +16,7 @@ public class WebDocument
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [WebDocument](webdocument)(…) | [`WebDocument`](../webdocument) constructor. |
 | [Global](global) { get; } | Returns global storage of the document. Read-only [`Storage`](../storage). |

@@ -16,7 +16,7 @@ public interface IChartDataWorkbook
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Worksheets](worksheets) { get; } | Gets a collection of worksheets. |
 | [CalculateFormulas](calculateformulas)() | Calculates all formulas in the workbook and updates corresponding cells values. |

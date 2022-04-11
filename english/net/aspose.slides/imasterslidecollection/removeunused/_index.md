@@ -14,9 +14,9 @@ Removes unused master slides.
 public void RemoveUnused(bool ignorePreserveField)
 ```
 
-| parameter | description |
-| --- | --- |
-| ignorePreserveField | Determines, whether this method should remove unused master even if its [`Preserve`](../../imasterslide/preserve) property is set to true. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ignorePreserveField | Boolean | Determines, whether this method should remove unused master even if its [`Preserve`](../../imasterslide/preserve) property is set to true. |
 
 ### See Also
 

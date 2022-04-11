@@ -31,9 +31,9 @@ Returns all elements
 public ITextAnimation[] this[IShape shape] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| shape |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shape |  |  |
 
 ### See Also
 

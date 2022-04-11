@@ -16,7 +16,7 @@ public interface IChartWall
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Format](format) { get; } | Returns the wall fill, line, effect, 3d styles. Read-only [`IFormat`](../iformat). |
 | [PictureType](picturetype) { get; set; } | Return or sets the picture type. Read/write [`PictureType`](./picturetype). |

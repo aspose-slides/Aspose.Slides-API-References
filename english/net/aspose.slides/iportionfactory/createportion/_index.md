@@ -35,9 +35,9 @@ Creates a portion with the using of a specified portion data.
 public IPortion CreatePortion(IPortion portion)
 ```
 
-| parameter | description |
-| --- | --- |
-| portion | A portion to use. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| portion | IPortion | A portion to use. |
 
 ## Return Value
 
@@ -60,9 +60,9 @@ Creates a text portion from specified string.
 public IPortion CreatePortion(string str)
 ```
 
-| parameter | description |
-| --- | --- |
-| str | String. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| str | String | String. |
 
 ## Return Value
 

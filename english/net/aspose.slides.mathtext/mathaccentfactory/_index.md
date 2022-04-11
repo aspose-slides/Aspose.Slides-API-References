@@ -16,12 +16,12 @@ public class MathAccentFactory : IMathAccentFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathAccentFactory](mathaccentfactory)() | The default constructor. |
 | [CreateMathAccent](createmathaccent)(…) | Creates a math accent applying to a specified math element with the default accent character value (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

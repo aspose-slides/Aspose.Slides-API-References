@@ -14,7 +14,7 @@ Updates properties of binded presentation.
 public void UpdateDocumentProperties(IDocumentProperties documentProperties)
 ```
 
-## Examples
+### Examples
 
 This sample shows how to call the `UpdateDocumentProperties` method to update the document properties returned by call of the [`ReadDocumentProperties`](../readdocumentproperties) method.
 

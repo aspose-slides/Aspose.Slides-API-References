@@ -14,9 +14,9 @@ Determines whether the specified [`BiLevel`](../../bilevel) is equal to the curr
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`BiLevel`](../../bilevel) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`BiLevel`](../../bilevel) to compare. |
 
 ## Return Value
 

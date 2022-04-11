@@ -14,13 +14,13 @@ If data source for the chart is an external workbook and it's not available, it 
 public bool RecoverWorkbookFromChartCache { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Thrown when external workbook in unavailable and RecoverWorkbookFromChartCache property value is false. |
 
-## Examples
+### Examples
 
 Example:
 

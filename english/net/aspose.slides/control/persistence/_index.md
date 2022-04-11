@@ -14,7 +14,7 @@ Gets the method used to store properties of the ActiveX control. Read only [`Per
 public PersistenceType Persistence { get; }
 ```
 
-## Examples
+### Examples
 
 Next example shows the using Persistence property for checking if properties of ActiveX object may be changed as XML based ActiveX properties:
 

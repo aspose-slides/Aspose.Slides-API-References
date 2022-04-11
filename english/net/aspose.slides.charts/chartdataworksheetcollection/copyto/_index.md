@@ -14,10 +14,10 @@ Copy to specified array.
 public void CopyTo(Array array, int arrayIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| array | Array to copy to. |
-| arrayIndex | Index to begin copying. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| array | Array | Array to copy to. |
+| arrayIndex | Int32 | Index to begin copying. |
 
 ### See Also
 

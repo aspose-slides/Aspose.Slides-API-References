@@ -14,9 +14,9 @@ Sets text to master notes slide header placeholder and all child header placehol
 public void SetHeaderAndChildHeadersText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 ### See Also
 

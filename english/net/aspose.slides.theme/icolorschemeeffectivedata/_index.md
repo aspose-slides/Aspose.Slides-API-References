@@ -16,7 +16,7 @@ public interface IColorSchemeEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Accent1](accent1) { get; } | First accent color in the scheme. Read-only Color. |
 | [Accent2](accent2) { get; } | Second accent color in the scheme. Read-only Color. |
@@ -32,7 +32,7 @@ public interface IColorSchemeEffectiveData
 | [Light1](light1) { get; } | First light color in the scheme. Read-only Color. |
 | [Light2](light2) { get; } | Second light color in the scheme. Read-only Color. |
 
-## Remarks
+### Remarks
 
 This class is used as a part of [`IThemeEffectiveData`](../ithemeeffectivedata).
 

@@ -16,7 +16,7 @@ public sealed class Tab : PVIObject, ITab
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Tab](tab)(…) | Creates new Tab |
 | [Alignment](alignment) { get; set; } | Returns or sets align style of a tab. Read/write [`TabAlignment`](../tabalignment). |

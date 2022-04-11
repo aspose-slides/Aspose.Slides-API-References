@@ -16,7 +16,7 @@ public sealed class Storage
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Storage](storage)() | The default constructor. |
 | [ContainsKey](containskey)(…) | Determines whether the storage contains an element with the specified key. |

@@ -16,7 +16,7 @@ public enum PathFillModeType : byte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | No Path Fill This specifies that the corresponding path should have no fill. |
 | Normal | `1` | Normal Path Fill This specifies that the corresponding path should have a normally shaded color applied to it’s fill. |

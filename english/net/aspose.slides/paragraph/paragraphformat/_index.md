@@ -14,7 +14,7 @@ Returns the formatting object for this paragraph. Read-only [`IParagraphFormat`]
 public IParagraphFormat ParagraphFormat { get; }
 ```
 
-## Remarks
+### Remarks
 
 The formatting object contains the formatting parameters defined for the current paragraph only, inherited data is not applied.
 

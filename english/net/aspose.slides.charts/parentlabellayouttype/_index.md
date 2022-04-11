@@ -16,7 +16,7 @@ public enum ParentLabelLayoutType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Banner | `0` | Specifies that parent category labels are shown as banner |
 | None | `1` | Specifies that parent category labels are not drawn |

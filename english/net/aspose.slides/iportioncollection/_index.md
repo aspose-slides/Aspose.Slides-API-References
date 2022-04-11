@@ -16,7 +16,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |

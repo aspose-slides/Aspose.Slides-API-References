@@ -14,9 +14,9 @@ Gets the element at the specified index. Read-only [`SmartArtShape`](../../smart
 public ISmartArtShape this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  |  |
 
 ## Return Value
 

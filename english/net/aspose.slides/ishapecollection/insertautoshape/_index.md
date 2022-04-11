@@ -15,14 +15,14 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
     float height)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
-| shapeType | An [`ShapeType`](../../shapetype) of shape. |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| width | The width of shape's frame. |
-| height | The height of shape's frame. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which value should be inserted. |
+| shapeType | ShapeType | An [`ShapeType`](../../shapetype) of shape. |
+| x | Single | The X-coordinate for a left side of shape's frame. |
+| y | Single | The Y-coordinate for a top side of shape's frame. |
+| width | Single | The width of shape's frame. |
+| height | Single | The height of shape's frame. |
 
 ## Return Value
 
@@ -47,15 +47,15 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
     float height, bool createFromTemplate)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
-| shapeType | An [`ShapeType`](../../shapetype) of shape. |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| width | The width of shape's frame. |
-| height | The height of shape's frame. |
-| createFromTemplate | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which value should be inserted. |
+| shapeType | ShapeType | An [`ShapeType`](../../shapetype) of shape. |
+| x | Single | The X-coordinate for a left side of shape's frame. |
+| y | Single | The Y-coordinate for a top side of shape's frame. |
+| width | Single | The width of shape's frame. |
+| height | Single | The height of shape's frame. |
+| createFromTemplate | Boolean | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
 
 ## Return Value
 

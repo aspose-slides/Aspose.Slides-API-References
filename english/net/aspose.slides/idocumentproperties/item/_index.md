@@ -14,7 +14,7 @@ Returns or sets the custom property associated with a specified name. Read/write
 public object this[string name] { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Value can be int, float, double, string, bool or DateTime.
 

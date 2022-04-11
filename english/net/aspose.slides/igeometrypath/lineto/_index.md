@@ -14,9 +14,9 @@ Adds line to the end of the path
 public void LineTo(PointF point)
 ```
 
-| parameter | description |
-| --- | --- |
-| point | End point of the line |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| point | PointF | End point of the line |
 
 ### See Also
 
@@ -34,10 +34,10 @@ Adds line to the end of the path
 public void LineTo(float x, float y)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of the end point of the line |
-| y | Y coordinate of the end point of the line |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of the end point of the line |
+| y | Single | Y coordinate of the end point of the line |
 
 ### See Also
 
@@ -55,12 +55,12 @@ Adds line to the specified place of the path
 public void LineTo(PointF point, uint index)
 ```
 
-| parameter | description |
-| --- | --- |
-| point | End point |
-| index | Index of segment in PathData |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| point | PointF | End point |
+| index | UInt32 | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -82,13 +82,13 @@ Adds line to the specified place of the path
 public void LineTo(float x, float y, uint index)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of the point |
-| y | Y coordinate of the point |
-| index | Index of segment in PathData |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of the point |
+| y | Single | Y coordinate of the point |
+| index | UInt32 | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

@@ -16,11 +16,11 @@ public interface IMathFunctionFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathFunction](createmathfunction)(…) | Creates math function (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

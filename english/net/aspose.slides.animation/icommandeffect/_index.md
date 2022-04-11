@@ -16,7 +16,7 @@ public interface ICommandEffect : IBehavior
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
 | [CommandString](commandstring) { get; set; } | Defines command string. Read/write String. |

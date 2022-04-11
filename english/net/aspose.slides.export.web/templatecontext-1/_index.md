@@ -16,7 +16,7 @@ public sealed class TemplateContext<TObject>
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Global](global) { get; } | Returns global storage of the host document. Read-only [`Storage`](../storage). |
 | [Local](local) { get; } | Returns local storage of the current template context. Read-only [`Storage`](../storage). |

@@ -14,9 +14,9 @@ If collection already contains data point with index *index* then returns this d
 public IChartDataPoint GetOrCreateDataPointByIdx(uint index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | UInt32 | Index. |
 
 ## Return Value
 

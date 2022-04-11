@@ -16,7 +16,7 @@ public enum EffectType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Appear | `0` | Appear effect. Class Entrance or Exit.Valid subtypes:EffectSubtype.None |
 | CurveUpDown | `1` | CurveUpDown effect. Class Entrance or Exit.Valid subtypes:EffectSubtype.None |

@@ -14,9 +14,9 @@ Determines whether the specified [`Reflection`](../../reflection) is equal to th
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`Reflection`](../../reflection) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`Reflection`](../../reflection) to compare. |
 
 ## Return Value
 

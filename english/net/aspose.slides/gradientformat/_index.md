@@ -16,7 +16,7 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GradientDirection](gradientdirection) { get; set; } | Returns or sets the style of a gradient. Read/write [`GradientDirection`](../gradientdirection). |
 | [GradientShape](gradientshape) { get; set; } | Returns or sets the shape of a gradient. Read/write [`GradientShape`](../gradientshape). |

@@ -14,9 +14,9 @@ Determines whether the specified [`InnerShadow`](../../innershadow) is equal to 
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`InnerShadow`](../../innershadow) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`InnerShadow`](../../innershadow) to compare. |
 
 ## Return Value
 

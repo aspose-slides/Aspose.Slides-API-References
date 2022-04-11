@@ -14,15 +14,15 @@ Removes the first occurrence of a specific object from the ICollection.
 public bool Remove(IPortion item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The object to remove from the ICollection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IPortion | The object to remove from the ICollection. |
 
 ## Return Value
 
 true if *item* was successfully removed from the ICollection; otherwise, false. This method also returns false if *item* is not found in the original ICollection.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

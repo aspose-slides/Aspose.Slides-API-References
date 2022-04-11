@@ -16,7 +16,7 @@ public interface IInterruptionTokenSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns true if interruption requested, false otherwise. |
 | [Token](token) { get; } | Returns new token binded to this [`IInterruptionTokenSource`](../iinterruptiontokensource). |

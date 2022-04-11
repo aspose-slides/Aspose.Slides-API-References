@@ -18,7 +18,7 @@ public IMathBox ToBox()
 
 Logical box with this element placed inside
 
-## Examples
+### Examples
 
 Example:
 

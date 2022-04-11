@@ -14,11 +14,11 @@ Gets or sets the navigation behavior in slideshow. Read/write Boolean. Default v
 public bool ReturnToParent { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 True value of the property specifies return to parent navigation behavior in slideshow.
 
-## Examples
+### Examples
 
 Example:
 

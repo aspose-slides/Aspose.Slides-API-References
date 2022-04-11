@@ -6,31 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.slides.animation/behaviorproperty/equals/
 ---
-## BehaviorProperty.Equals method (1 of 2)
-
-Checks if this Property is equal to another.
-
-```csharp
-protected bool Equals(BehaviorProperty other)
-```
-
-| parameter | description |
-| --- | --- |
-| other | Property to compare. |
-
-## Return Value
-
-True if properties are equal.
-
-### See Also
-
-* class [BehaviorProperty](../../behaviorproperty)
-* namespace [Aspose.Slides.Animation](../../behaviorproperty)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## BehaviorProperty.Equals method (2 of 2)
+## BehaviorProperty.Equals method
 
 Checks if this object is equal to another.
 
@@ -38,9 +14,9 @@ Checks if this object is equal to another.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | Object to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | Object to compare. |
 
 ## Return Value
 

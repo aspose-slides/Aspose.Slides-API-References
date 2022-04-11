@@ -16,7 +16,7 @@ public enum FilterEffectRevealType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

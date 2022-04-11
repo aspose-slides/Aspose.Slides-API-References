@@ -14,9 +14,9 @@ Retirns a behavior at the specified index.
 public IBehavior this[int index] { get; set; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | Index of a behavior to return. |
 
 ## Return Value
 

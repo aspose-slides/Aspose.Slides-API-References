@@ -14,9 +14,9 @@ Returns element by index.
 public IEffectEffectiveData this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  |  |
 
 ### See Also
 

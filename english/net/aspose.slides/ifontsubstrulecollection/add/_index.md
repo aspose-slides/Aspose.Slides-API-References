@@ -14,9 +14,9 @@ Adds the new font substitution rule to the collection
 public void Add(IFontSubstRule value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Font substitution rule [`IFontSubstRule`](../../ifontsubstrule) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IFontSubstRule | Font substitution rule [`IFontSubstRule`](../../ifontsubstrule) |
 
 ### See Also
 

@@ -14,9 +14,9 @@ Creates and returns HTML formatter for custom callback-driven html generation.
 public static HtmlFormatter CreateCustomFormatter(IHtmlFormattingController formattingController)
 ```
 
-| parameter | description |
-| --- | --- |
-| formattingController | Callback interface which controls html file generation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formattingController | IHtmlFormattingController | Callback interface which controls html file generation. |
 
 ### See Also
 

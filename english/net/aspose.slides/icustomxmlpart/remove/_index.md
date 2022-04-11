@@ -14,7 +14,7 @@ Removes the custom xml part from the presentation.
 public void Remove()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

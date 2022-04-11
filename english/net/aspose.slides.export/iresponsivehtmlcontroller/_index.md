@@ -16,7 +16,7 @@ public interface IResponsiveHtmlController : IHtmlFormattingController
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIHtmlFormattingController](asihtmlformattingcontroller) { get; } | Returns IHtmlFormattingController interface. |
 

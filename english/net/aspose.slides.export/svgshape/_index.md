@@ -16,7 +16,7 @@ public sealed class SvgShape : ISvgShape
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Id](id) { get; set; } | Gets shape id |
 | [SetEventHandler](seteventhandler)(…) | Sets event handler for the shape |

@@ -16,7 +16,7 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsILayoutSlideCollection](asilayoutslidecollection) { get; } | Returns ILayoutSlideCollection interface. Read-only [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 | [Add](add)(…) | Adds a new layout slide to the end of the collection. |

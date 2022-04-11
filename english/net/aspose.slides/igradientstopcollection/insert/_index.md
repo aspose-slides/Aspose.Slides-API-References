@@ -14,11 +14,11 @@ Creates the new gradient stop and inserts it at the specified index to the colle
 public void Insert(int index, float position, Color color)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index in the collection where new gradient stop will be inserted. |
-| position | Position of the new gradient stop. |
-| color | Color of the new radient stop. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index in the collection where new gradient stop will be inserted. |
+| position | Single | Position of the new gradient stop. |
+| color | Color | Color of the new radient stop. |
 
 ### See Also
 
@@ -36,11 +36,11 @@ Creates the new gradient stop and inserts it at the specified index to the colle
 public void Insert(int index, float position, PresetColor presetColor)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index in the collection where new gradient stop will be inserted. |
-| position | Position of the new gradient stop. |
-| presetColor | Color of the new radient stop. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index in the collection where new gradient stop will be inserted. |
+| position | Single | Position of the new gradient stop. |
+| presetColor | PresetColor | Color of the new radient stop. |
 
 ### See Also
 
@@ -59,11 +59,11 @@ Creates the new gradient stop and inserts it at the specified index to the colle
 public void Insert(int index, float position, SchemeColor schemeColor)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index in the collection where new gradient stop will be inserted. |
-| position | Position of the new gradient stop. |
-| schemeColor | Color of the new radient stop. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index in the collection where new gradient stop will be inserted. |
+| position | Single | Position of the new gradient stop. |
+| schemeColor | SchemeColor | Color of the new radient stop. |
 
 ### See Also
 

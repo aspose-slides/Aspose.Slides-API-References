@@ -16,7 +16,7 @@ public class HSLEffectiveData : EffectEffectiveData<HSL, HSLEffectiveData>, IHSL
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Hue](hue) { get; } | Returns hue percentage. Read-only Single. |
 | [Luminance](luminance) { get; } | Returns luminance percentage. Read-only Single. |

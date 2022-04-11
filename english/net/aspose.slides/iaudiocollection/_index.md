@@ -16,7 +16,7 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IAudio`](../iaudio). |
 | [AddAudio](addaudio)(…) | Adds a copy of an audio file from an another presentation. (3 methods) |

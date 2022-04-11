@@ -16,13 +16,13 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Returns IFillParamSource interface. |
 | [EffectFormat](effectformat) { get; } | Returns effective effect format. Read-only [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
 | [FillFormat](fillformat) { get; } | Returns effective fill format. Read-only [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`IBackground`](../ibackground) interface to return effective formatting values with inheritance applied.
 

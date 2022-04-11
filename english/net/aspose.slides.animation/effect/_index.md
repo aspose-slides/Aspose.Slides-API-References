@@ -16,7 +16,7 @@ public class Effect : IEffect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Behaviors](behaviors) { get; set; } | Returns collection of behavior for effect. Read/write [`IBehaviorCollection`](../ibehaviorcollection). |
 | [PresetClassType](presetclasstype) { get; set; } | Defines class of effect. Read/write [`EffectPresetClassType`](../effectpresetclasstype). |

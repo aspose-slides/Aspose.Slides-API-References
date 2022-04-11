@@ -16,7 +16,7 @@ public class FormatScheme : IFormatScheme
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BackgroundFillStyles](backgroundfillstyles) { get; } | Returns a collection of theme defined background fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |
 | [EffectStyles](effectstyles) { get; } | Returns a collection of theme defined effect styles. Read-only [`IEffectStyleCollection`](../ieffectstylecollection). |

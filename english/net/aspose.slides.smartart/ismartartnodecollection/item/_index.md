@@ -14,9 +14,9 @@ Returns node by index. Read-only [`ISmartArtNode`](../../ismartartnode)
 public ISmartArtNode this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index of the element. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | The zero-based index of the element. |
 
 ### See Also
 

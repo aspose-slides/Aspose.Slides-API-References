@@ -14,9 +14,9 @@ Determines whether the specified [`AlphaBiLevel`](../../alphabilevel) is equal t
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`AlphaBiLevel`](../../alphabilevel) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`AlphaBiLevel`](../../alphabilevel) to compare. |
 
 ## Return Value
 

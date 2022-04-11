@@ -14,7 +14,7 @@ Delimiter Separator Character specifies the character that separates arguments i
 public char SeparatorCharacter { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

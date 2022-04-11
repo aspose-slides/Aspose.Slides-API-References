@@ -14,9 +14,9 @@ Removes a property with the specified name.
 public void Remove(string name)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | The name of property to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of property to remove. |
 
 ### See Also
 

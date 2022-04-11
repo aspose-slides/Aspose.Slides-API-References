@@ -16,7 +16,7 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [InterruptionTokenSource](interruptiontokensource)() | Creates a new [`InterruptionTokenSource`](../interruptiontokensource). |
 | [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns true if interruption requested, false otherwise. |

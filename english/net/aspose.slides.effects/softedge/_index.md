@@ -16,7 +16,7 @@ public class SoftEdge : ISoftEdge
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Radius](radius) { get; set; } | Specifies the radius of blur to apply to the edges. Read/write Double. |
 | override [Equals](equals)(…) | Determines whether the specified [`SoftEdge`](../softedge) is equal to the current [`SoftEdge`](../softedge). |

@@ -14,11 +14,11 @@ Removes the first occurrence of the specified author in a collection.
 public void Remove(ICommentAuthor author)
 ```
 
-| parameter | description |
-| --- | --- |
-| author | The author to remove from a collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| author | ICommentAuthor | The author to remove from a collection. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

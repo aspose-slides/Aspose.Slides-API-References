@@ -18,13 +18,13 @@ public string GetRange()
 
 Cells data range formula. E.g: "Sheet1!$A$1:$C$4"
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Chart doesn't use workbook as a data source |
 
-## Examples
+### Examples
 
 Example C#
 

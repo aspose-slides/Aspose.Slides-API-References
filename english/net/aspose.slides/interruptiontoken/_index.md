@@ -16,7 +16,7 @@ public class InterruptionToken : IInterruptionToken
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [None](none) { get; } | Represents an empty interruption token. Long-running operations will never be interrupted via [`Interrupt`](../interruptiontokensource/interrupt) when using this token. |
 | [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns Boolean.true if interruption was requested. |

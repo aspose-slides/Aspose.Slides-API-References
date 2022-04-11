@@ -14,7 +14,7 @@ Specifies the space between bar or column clusters, as a percentage of the bar o
 public int GapWidth { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.GapWidth.
 

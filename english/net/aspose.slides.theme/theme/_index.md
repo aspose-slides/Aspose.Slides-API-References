@@ -16,7 +16,7 @@ public abstract class Theme : ITheme
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | abstract [ColorScheme](colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
 | abstract [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |

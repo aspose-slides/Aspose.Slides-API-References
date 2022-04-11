@@ -14,13 +14,13 @@ Represents generic version of ICloneable
 public interface IGenericCloneable<T> : ICloneable
 ```
 
-| parameter | description |
-| --- | --- |
-| T | The type of object to clone |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| T |  | The type of object to clone |
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsICloneable](asicloneable) { get; } | Returns ICloneable interface. |
 | [CloneT](clonet)() | Creates a new object that is a copy of the current instance. |

@@ -16,7 +16,7 @@ public enum TableStylePreset
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Custom | `-1` | Table has a custom style. This is return-only value. |
 | None | `0` | No style. |

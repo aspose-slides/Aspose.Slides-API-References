@@ -14,9 +14,9 @@ Creates Alpha modulate fixed effect.
 public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
 ```
 
-| parameter | description |
-| --- | --- |
-| amount | Amount. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| amount | Single | Amount. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public interface IGradientStop
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Color](color) { get; } | Returns the color of a gradient stop. Read-only [`IColorFormat`](../icolorformat). |
 | [Position](position) { get; set; } | Returns or sets the position (0..1) of a gradient stop. Read/write Single. |

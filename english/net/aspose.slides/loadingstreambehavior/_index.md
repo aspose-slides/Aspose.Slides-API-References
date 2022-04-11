@@ -16,7 +16,7 @@ public enum LoadingStreamBehavior
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | ReadStreamAndRelease | `0` | The stream will be read to the end and then released - i.e. it will be guaranteed that this stream will not be used by [`IPresentation`](../ipresentation) instance in the future. It can be closed by the client code or used in any other way. |
 | KeepLocked | `1` | The stream will be locked inside the [`IPresentation`](../ipresentation) object, i.e. the ownership of the stream will be transferred. The [`IPresentation`](../ipresentation) object will be responsible to correctly dispose the stream when this object will be disposed itself. This behavior is extremely useful when you need to serialize a large BLOB file (such as a large video or audio -see [`IBlobManagementOptions`](../iblobmanagementoptions) description) and want to prevent loading this file into memory or other performance issues. You may just open the FileStream for this file and pass to a method, choosing KeepLocked LoadingStreamBehavior. |

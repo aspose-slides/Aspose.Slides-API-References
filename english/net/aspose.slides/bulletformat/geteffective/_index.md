@@ -18,7 +18,7 @@ public IBulletFormatEffectiveData GetEffective()
 
 A [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting some effective bullet format properties.
 

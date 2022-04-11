@@ -14,7 +14,7 @@ Position of the bar line. Default: Top
 public MathTopBotPositions Position { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public interface IPropertyEffect : IBehavior
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
 | [By](by) { get; set; } | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |

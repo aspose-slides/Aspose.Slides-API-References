@@ -16,7 +16,7 @@ public class LineFillFormat : PVIObject, ILineFillFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FillType](filltype) { get; set; } | Returns or sets the fill type. Read/write [`FillType`](../filltype). |
 | [GradientFormat](gradientformat) { get; } | Returns the gradient fill format. Read-only [`IGradientFormat`](../igradientformat). |

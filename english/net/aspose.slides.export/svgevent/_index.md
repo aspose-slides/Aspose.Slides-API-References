@@ -16,7 +16,7 @@ public enum SvgEvent
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | OnFocusIn | `0` | Occurs when an element receives focus, such as when a text becomes selected. |
 | OnFocusOut | `1` | Occurs when an element loses focus, such as when a text becomes unselected. |

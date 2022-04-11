@@ -16,11 +16,11 @@ public interface IMathNaryOperatorFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathNaryOperator](createmathnaryoperator)(…) | Creates IMathNaryOperator (3 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

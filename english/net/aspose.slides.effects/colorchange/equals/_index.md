@@ -14,9 +14,9 @@ Determines whether the specified [`ColorChange`](../../colorchange) is equal to 
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`ColorChange`](../../colorchange) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`ColorChange`](../../colorchange) to compare. |
 
 ## Return Value
 

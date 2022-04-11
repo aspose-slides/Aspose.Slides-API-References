@@ -16,7 +16,7 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsCells](ascells) { get; set; } | Null value assigning is not allowed. Returning value always is not null. Read/write [`IChartCellCollection`](../ichartcellcollection). |
 | [AsLiteralString](asliteralstring) { get; set; } | Returns or sets value as literal string. Read/write String. |

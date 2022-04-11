@@ -14,7 +14,7 @@ Maximum Distribution When true, the array is spaced to the maximum width of the 
 public bool MaximumDistribution { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

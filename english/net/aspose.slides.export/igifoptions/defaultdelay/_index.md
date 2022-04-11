@@ -14,7 +14,7 @@ Gets or sets default delay time [ms]. This value will be used if [`AdvanceAfterT
 public int DefaultDelay { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

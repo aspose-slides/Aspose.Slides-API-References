@@ -14,9 +14,9 @@ Adds a new property to the collection.
 public void Add(string propertyValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| propertyValue | Value of the property to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | Value of the property to add. |
 
 ### See Also
 

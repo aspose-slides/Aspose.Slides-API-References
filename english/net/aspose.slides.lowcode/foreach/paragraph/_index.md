@@ -14,12 +14,12 @@ Iterate each `Paragraph` in the [`Presentation`](../../../aspose.slides/presenta
 public static void Paragraph(Presentation pres, ForEachParagraphCallback forEachParagraph)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Presentation to iterate paragraphs |
-| forEachParagraph | Callback that will be invoked for each paragraph |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Presentation to iterate paragraphs |
+| forEachParagraph | ForEachParagraphCallback | Callback that will be invoked for each paragraph |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))

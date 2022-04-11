@@ -14,9 +14,9 @@ Removes the color operation from a collection.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a color operation to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of a color operation to remove. |
 
 ### See Also
 

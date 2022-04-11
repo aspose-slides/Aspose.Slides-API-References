@@ -16,7 +16,7 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns or sets the count of chart data points. Read-only Int32. |
 | [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |

@@ -17,7 +17,7 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Amount](amount) { get; set; } | Returns an amount of effect in percents. Read/write Single. |
 | [AsIAccessiblePVIObject](asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |

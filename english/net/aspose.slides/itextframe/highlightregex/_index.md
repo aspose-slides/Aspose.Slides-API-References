@@ -14,11 +14,11 @@ Highlight all matches of regular expression in text frame text using specified c
 public void HighlightRegex(string regex, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| regex | Text of regular expression to get text to highlight. |
-| highlightColor | Highlighting color. |
-| options | Highlighting options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| regex | String | Text of regular expression to get text to highlight. |
+| highlightColor | Color | Highlighting color. |
+| options | ITextHighlightingOptions | Highlighting options. |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ScaleEffect](scaleeffect)() | The default constructor. |
 | [By](by) { get; set; } | describes the relative offset value for the animation (in percents). Read/write PointF. |

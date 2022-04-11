@@ -16,7 +16,7 @@ public interface IChartPortionFormat : IBasePortionFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBasePortionFormat](asibaseportionformat) { get; } | Returns IBasePortionFormat interface. |
 

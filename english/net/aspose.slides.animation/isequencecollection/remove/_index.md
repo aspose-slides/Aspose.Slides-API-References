@@ -14,9 +14,9 @@ Removes specified sequence from a collection.
 public void Remove(ISequence item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | Sequence to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | ISequence | Sequence to remove. |
 
 ### See Also
 

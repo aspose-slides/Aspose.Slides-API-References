@@ -14,7 +14,7 @@ Specifies that each data marker in the series has a different color. This is the
 public bool IsColorVaried { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.IsColorVaried.
 

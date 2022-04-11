@@ -17,7 +17,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns the gradient stop by index. |
 

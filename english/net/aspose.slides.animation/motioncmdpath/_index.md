@@ -16,7 +16,7 @@ public class MotionCmdPath : IMotionCmdPath
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CommandType](commandtype) { get; set; } | Specifies command type. Read/write [`MotionCommandPathType`](../motioncommandpathtype). |
 | [IsRelative](isrelative) { get; set; } | Determine command coordinates relative or not. Read/write Boolean. |

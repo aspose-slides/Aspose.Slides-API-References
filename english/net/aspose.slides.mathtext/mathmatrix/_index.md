@@ -16,7 +16,7 @@ public sealed class MathMatrix : MathElementBase, IMathMatrix
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathMatrix](mathmatrix)(…) | Initializes a new instance of the MathMatrix class. |
 | [BaseJustification](basejustification) { get; set; } | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
@@ -40,7 +40,7 @@ public sealed class MathMatrix : MathElementBase, IMathMatrix
 | [SetColumnAlignment](setcolumnalignment)(…) | Set the horizontal alignment of the specified column |
 | [SetColumnsAlignment](setcolumnsalignment)(…) | Set the horizontal alignment of the specified columns |
 
-## Examples
+### Examples
 
 Example:
 

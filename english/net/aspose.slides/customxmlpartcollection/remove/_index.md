@@ -14,15 +14,15 @@ Removes the first occurrence of a specific object from the collection.
 public bool Remove(ICustomXmlPart item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The custom xml part to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | ICustomXmlPart | The custom xml part to remove. |
 
 ## Return Value
 
 `true` if item is successfully removed; otherwise, `false`.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

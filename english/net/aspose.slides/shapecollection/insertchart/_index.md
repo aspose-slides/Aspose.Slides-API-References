@@ -14,14 +14,14 @@ Creates a new Chart, initialize it with sample series data and settings and inse
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| type | Type of chart. |
-| x | X coordinate of a new chart. |
-| y | Y coordinate of a new chart. |
-| width | Chart's width. |
-| height | Chart's height. |
-| index | Chart's position in the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | ChartType | Type of chart. |
+| x | Single | X coordinate of a new chart. |
+| y | Single | Y coordinate of a new chart. |
+| width | Single | Chart's width. |
+| height | Single | Chart's height. |
+| index | Int32 | Chart's position in the collection. |
 
 ## Return Value
 
@@ -46,15 +46,15 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
     bool initWithSample)
 ```
 
-| parameter | description |
-| --- | --- |
-| type | Type of chart. |
-| x | X coordinate of a new chart. |
-| y | Y coordinate of a new chart. |
-| width | Chart's width. |
-| height | Chart's height. |
-| index | Chart's position in the collection. |
-| initWithSample | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | ChartType | Type of chart. |
+| x | Single | X coordinate of a new chart. |
+| y | Single | Y coordinate of a new chart. |
+| width | Single | Chart's width. |
+| height | Single | Chart's height. |
+| index | Int32 | Chart's position in the collection. |
+| initWithSample | Boolean | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
 
 ## Return Value
 

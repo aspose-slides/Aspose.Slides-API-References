@@ -16,7 +16,7 @@ public interface ISVGOptions : ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [DeletePicturesCroppedAreas](deletepicturescroppedareas) { get; set; } | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) Read/write Boolean. |

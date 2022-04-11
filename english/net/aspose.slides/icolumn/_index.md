@@ -16,7 +16,7 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBulkTextFormattable](asibulktextformattable) { get; } | Allows to get base IBulkTextFormattable interface. Read-only [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](asicellcollection) { get; } | Allows to get base ICellCollection interface. Read-only [`ICellCollection`](../icellcollection). |

@@ -16,12 +16,12 @@ public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathSubscriptElementFactory](mathsubscriptelementfactory)() | The default constructor. |
 | [CreateMathSubscriptElement](createmathsubscriptelement)(…) | Creates IMathSubscriptElement |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

@@ -16,12 +16,12 @@ public interface IMathParagraphFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathParagraph](createmathparagraph)() | Create empty math paragraph |
 | [CreateMathParagraph](createmathparagraph)(…) | Creates a math paragraph and places the specified math block in it |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

@@ -16,7 +16,7 @@ public interface IAutoShape : IGeometryShape
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIGeometryShape](asigeometryshape) { get; } | Allows to get base IGeometryShape interface. Read-only [`IGeometryShape`](../igeometryshape). |
 | [AutoShapeLock](autoshapelock) { get; } | Returns AutoShape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |

@@ -16,7 +16,7 @@ public sealed class MathFraction : MathElementBase, IMathFraction
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathFraction](mathfraction)(…) | Initializes MathFraction with the specified numerator, denominator and type (2 constructors) |
 | [Denominator](denominator) { get; } | Denominator |
@@ -24,7 +24,7 @@ public sealed class MathFraction : MathElementBase, IMathFraction
 | [Numerator](numerator) { get; } | Numerator |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

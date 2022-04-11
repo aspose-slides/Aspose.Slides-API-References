@@ -14,9 +14,9 @@ Returns a String that represents the current color format.
 public string ToString(ColorStringFormat format)
 ```
 
-| parameter | description |
-| --- | --- |
-| format | A type of color string format. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| format | ColorStringFormat | A type of color string format. |
 
 ## Return Value
 

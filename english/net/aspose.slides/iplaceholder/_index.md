@@ -16,7 +16,7 @@ public interface IPlaceholder
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Index](index) { get; } | Gets the index of a placeholder. Read-only UInt32. |
 | [Orientation](orientation) { get; } | Gets the orientation of a placeholder. Read-only [`Orientation`](../orientation). |

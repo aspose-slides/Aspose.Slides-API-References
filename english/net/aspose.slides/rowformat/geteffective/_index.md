@@ -18,7 +18,7 @@ public IRowFormatEffectiveData GetEffective()
 
 A [`IRowFormatEffectiveData`](../../irowformateffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting effective fill format for different table logic parts. Please note that cell formatting always has higher priority than row formatting, row - higher than column, column - higher that whole table. So finally CellFormatEffectiveData properties always used to draw the table. The following code is just an example of API.
 

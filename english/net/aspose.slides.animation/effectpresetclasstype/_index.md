@@ -16,7 +16,7 @@ public enum EffectPresetClassType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Entrance | `0` | Entrance effects class.Target shape types: All |
 | Exit | `1` | Exit effects class.Target shape types: All |

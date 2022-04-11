@@ -14,9 +14,9 @@ Adds the new image effect to the end of a collection.
 public void Add(IImageTransformOperation operation)
 ```
 
-| parameter | description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operation | IImageTransformOperation | The image effect to add to the end of a collection. |
 
 ### See Also
 

@@ -14,7 +14,7 @@ Removes comment and all its replies from the parent collection.
 public void Remove()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

@@ -14,15 +14,15 @@ Sets an accent mark (a character on the top of this element)
 public IMathAccent Accent(char accentCharacter)
 ```
 
-| parameter | description |
-| --- | --- |
-| accentCharacter | Accent character. The value should be within the range of (U+0300–U+036F) or (U+20D0–U+20EF) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| accentCharacter | Char | Accent character. The value should be within the range of (U+0300–U+036F) or (U+20D0–U+20EF) |
 
 ## Return Value
 
 New instance of type [`IMathAccent`](../../imathaccent)
 
-## Examples
+### Examples
 
 Example:
 

@@ -30,9 +30,9 @@ Initializes a new instance of the [`CellInvalidFormulaException`](../../cellinva
 public CellInvalidFormulaException(string message)
 ```
 
-| parameter | description |
-| --- | --- |
-| message | A string that describes the error. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
 
 ### See Also
 
@@ -50,10 +50,10 @@ Initializes a new instance of the [`CellInvalidFormulaException`](../../cellinva
 public CellInvalidFormulaException(string message, Exception innerException)
 ```
 
-| parameter | description |
-| --- | --- |
-| message | A string that describes the error. |
-| innerException | The exception that is the cause of the current exception. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+| innerException | Exception | The exception that is the cause of the current exception. |
 
 ### See Also
 
@@ -71,10 +71,10 @@ Initializes a new instance of the [`CellInvalidFormulaException`](../../cellinva
 public CellInvalidFormulaException(string message, string reference)
 ```
 
-| parameter | description |
-| --- | --- |
-| message |  |
-| reference |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | String |  |
+| reference | String |  |
 
 ### See Also
 

@@ -14,7 +14,7 @@ Returns the collection of signatures used to sign the presentation. Read-only [`
 public IDigitalSignatureCollection DigitalSignatures { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

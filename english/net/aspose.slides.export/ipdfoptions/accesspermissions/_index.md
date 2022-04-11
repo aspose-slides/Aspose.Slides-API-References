@@ -14,7 +14,7 @@ Contains a set of flags specifying which access permissions should be granted wh
 public PdfAccessPermissions AccessPermissions { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

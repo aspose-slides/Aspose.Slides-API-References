@@ -14,9 +14,9 @@ Returns value of a tag at the specified index.
 public string GetValueByIndex(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a tag to return. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of a tag to return. |
 
 ## Return Value
 

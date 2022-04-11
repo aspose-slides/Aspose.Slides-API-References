@@ -14,12 +14,12 @@ Add new comment at the end of a collection.
 public IComment AddComment(string text, ISlide slide, PointF position, DateTime creationTime)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Plain text of a new comment. |
-| slide | Slide in a presentation where to add a new comment. |
-| position | Position on a slide where to add a new comment. |
-| creationTime | Time of a comment creation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new comment. |
+| slide | ISlide | Slide in a presentation where to add a new comment. |
+| position | PointF | Position on a slide where to add a new comment. |
+| creationTime | DateTime | Time of a comment creation. |
 
 ## Return Value
 

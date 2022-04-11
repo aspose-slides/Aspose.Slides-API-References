@@ -14,12 +14,12 @@ Appends the specified arc to the path.
 public void ArcTo(float width, float heigth, float startAngle, float sweepAngle)
 ```
 
-| parameter | description |
-| --- | --- |
-| width | Width of the rectangle |
-| heigth | Height of the rectangle |
-| startAngle | Start angle. |
-| sweepAngle | Sweep angle/ |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | Single | Width of the rectangle |
+| heigth | Single | Height of the rectangle |
+| startAngle | Single | Start angle. |
+| sweepAngle | Single | Sweep angle/ |
 
 ### See Also
 

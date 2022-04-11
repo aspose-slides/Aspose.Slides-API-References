@@ -16,7 +16,7 @@ public interface ITextHighlightingOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CaseSensitive](casesensitive) { get; set; } | Set true to use case-sensitive search, false - otherwise. Read/write Boolean. |
 | [WholeWordsOnly](wholewordsonly) { get; set; } | Set true to match only whole words, false - otherwise. Read/write Boolean. |

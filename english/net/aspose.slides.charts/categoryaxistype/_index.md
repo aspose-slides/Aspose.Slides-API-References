@@ -16,7 +16,7 @@ public enum CategoryAxisType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Text | `0` | Specifies category axis is a text axis. |
 | Date | `1` | Specifies category axis is a date axis. |

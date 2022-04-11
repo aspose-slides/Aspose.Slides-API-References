@@ -14,9 +14,9 @@ Determines whether the collection contains a specific name.
 public bool Contains(string name)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | The key to locate. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The key to locate. |
 
 ## Return Value
 

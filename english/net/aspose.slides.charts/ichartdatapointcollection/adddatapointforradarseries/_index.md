@@ -14,9 +14,9 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForRadarSeries(double value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Data point Value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Double | Data point Value |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Data point Value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IChartDataCell | Data point Value |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public enum ImagePixelFormat
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Format1bppIndexed | `1` | 1 bits per pixel, indexed. |
 | Format4bppIndexed | `4` | 4 bits per pixel, indexed. |

@@ -16,7 +16,7 @@ public interface IWarningCallback
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Warning](warning)(…) | Callback method which receives warning and decides whether operation should be aborted. |
 

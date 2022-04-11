@@ -14,11 +14,11 @@ Removes the FallBack font at the specified index of the list.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index of the font to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index of the font to remove. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

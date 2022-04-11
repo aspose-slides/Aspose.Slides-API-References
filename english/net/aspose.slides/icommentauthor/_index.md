@@ -16,7 +16,7 @@ public interface ICommentAuthor
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Comments](comments) { get; } | Returns the collection of comments made by this author. Read-only [`ICommentCollection`](../icommentcollection). |
 | [Initials](initials) { get; set; } | Returns or sets the authors initials. Read/write String. |

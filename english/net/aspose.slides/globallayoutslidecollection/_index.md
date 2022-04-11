@@ -17,7 +17,7 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Add](add)(…) | Adds a new layout slide to the presentation. |
 | [AddClone](addclone)(…) | Adds a copy of a specified layout slide to the presentation. (2 methods) |

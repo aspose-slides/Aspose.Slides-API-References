@@ -14,7 +14,7 @@ Initializes a new instance of the MathPortion class.
 public MathPortion()
 ```
 
-## Examples
+### Examples
 
 Example:
 

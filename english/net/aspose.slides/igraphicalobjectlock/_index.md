@@ -16,7 +16,7 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseShapeLock](asibaseshapelock) { get; } | Allows to get base IBaseShapeLock interface. Read-only [`IBaseShapeLock`](../ibaseshapelock). |
 | [AspectRatioLocked](aspectratiolocked) { get; set; } | Determines whether shape have to preserve aspect ratio on resizing. Read/write Boolean. |

@@ -16,7 +16,7 @@ public enum LightingDirection
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | TopLeft | `0` |  |

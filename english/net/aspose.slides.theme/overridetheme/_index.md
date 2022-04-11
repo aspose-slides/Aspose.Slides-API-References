@@ -16,7 +16,7 @@ public class OverrideTheme : Theme, IOverrideTheme
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [ColorScheme](colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
 | override [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |

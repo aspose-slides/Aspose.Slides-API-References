@@ -16,7 +16,7 @@ public interface IMathDelimiter : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Arguments](arguments) { get; } | One or more mathematical elements separated by delimiter characters |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
@@ -27,7 +27,7 @@ public interface IMathDelimiter : IMathElement
 | [SeparatorCharacter](separatorcharacter) { get; set; } | Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '&#x7C;'. |
 | [Delimit](delimit)(…) | Delimits arguments using the specified delimiter character |
 
-## Examples
+### Examples
 
 Example:
 

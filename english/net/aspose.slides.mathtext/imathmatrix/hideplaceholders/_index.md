@@ -14,7 +14,7 @@ Hide the placeholders for empty matrix elements Default: false
 public bool HidePlaceholders { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

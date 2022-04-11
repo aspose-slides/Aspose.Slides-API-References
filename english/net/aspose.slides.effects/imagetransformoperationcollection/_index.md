@@ -17,7 +17,7 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of image effects in a collection. Read-only Int32. |
 | [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |

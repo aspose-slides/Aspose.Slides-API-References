@@ -14,9 +14,9 @@ Changes slide header placeholder visibility.
 public void SetHeaderVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a header placeholder visible, otherwise - hides it. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a header placeholder visible, otherwise - hides it. |
 
 ### See Also
 

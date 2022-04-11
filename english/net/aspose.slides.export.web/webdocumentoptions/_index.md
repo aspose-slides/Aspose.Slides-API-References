@@ -16,7 +16,7 @@ public class WebDocumentOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [WebDocumentOptions](webdocumentoptions)() | The default constructor. |
 | [AnimateShapes](animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |

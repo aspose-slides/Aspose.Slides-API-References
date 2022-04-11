@@ -14,7 +14,7 @@ Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../islidecom
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

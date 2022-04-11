@@ -18,7 +18,7 @@ public IChartCategory this[int index] { get; }
 
 The element at the specified index.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

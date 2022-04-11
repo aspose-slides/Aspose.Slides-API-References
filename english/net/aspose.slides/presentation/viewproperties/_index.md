@@ -3,7 +3,7 @@ title: ViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 310
 url: /net/aspose.slides/presentation/viewproperties/
 ---
 ## Presentation.ViewProperties property

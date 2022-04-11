@@ -16,7 +16,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
 | [FromBlack](fromblack) { get; set; } | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write Boolean. |

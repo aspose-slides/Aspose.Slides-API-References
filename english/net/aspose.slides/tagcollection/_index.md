@@ -16,7 +16,7 @@ public sealed class TagCollection : ITagCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns a number of tags in the collectoin. Read-only Int32. |
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |

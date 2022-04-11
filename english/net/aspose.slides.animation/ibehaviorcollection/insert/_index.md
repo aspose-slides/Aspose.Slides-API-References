@@ -14,10 +14,10 @@ Inserts new behavior to a collection at the specified index.
 public void Insert(int index, IBehavior item)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index where new behavior should be inserted. |
-| item | Behavior to insert. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index where new behavior should be inserted. |
+| item | IBehavior | Behavior to insert. |
 
 ### See Also
 

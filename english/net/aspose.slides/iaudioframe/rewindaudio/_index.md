@@ -14,7 +14,7 @@ Determines whether an audio is automatically rewinded to start after playing. Re
 public bool RewindAudio { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

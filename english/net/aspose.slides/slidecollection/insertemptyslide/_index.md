@@ -14,10 +14,10 @@ Inserts a copy of a specified slide to specified position of the collection.
 public ISlide InsertEmptySlide(int index, ILayoutSlide layout)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a new slide. |
-| layout | Layout for a slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of a new slide. |
+| layout | ILayoutSlide | Layout for a slide. |
 
 ## Return Value
 

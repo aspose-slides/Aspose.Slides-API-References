@@ -14,9 +14,9 @@ Encrypts Presentation with specified password.
 public void Encrypt(string encryptionPassword)
 ```
 
-| parameter | description |
-| --- | --- |
-| encryptionPassword | The password. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| encryptionPassword | String | The password. |
 
 ### See Also
 

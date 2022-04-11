@@ -14,10 +14,10 @@ Creates new chart series and inserts it into the collection.
 public IChartSeries Insert(int index, ChartType type)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index for insertion Int32 |
-| type | Chart type [`ChartType`](../../charttype) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index for insertion Int32 |
+| type | ChartType | Chart type [`ChartType`](../../charttype) |
 
 ## Return Value
 

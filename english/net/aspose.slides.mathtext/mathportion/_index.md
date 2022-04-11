@@ -16,12 +16,12 @@ public sealed class MathPortion : Portion, IMathPortion
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathPortion](mathportion)() | Initializes a new instance of the MathPortion class. |
 | [MathParagraph](mathparagraph) { get; } | Math paragraph |
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 

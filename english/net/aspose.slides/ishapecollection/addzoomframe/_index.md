@@ -14,25 +14,25 @@ Adds a new Zoom object to the end of a collection.
 public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISlide slide)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new Zoom frame Single. |
-| y | Y coordinate of a new Zoom frame Single. |
-| width | Width of a new Zoom frame Single. |
-| height | Height of a new Zoom frame Single. |
-| slide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new Zoom frame Single. |
+| y | Single | Y coordinate of a new Zoom frame Single. |
+| width | Single | Width of a new Zoom frame Single. |
+| height | Single | Height of a new Zoom frame Single. |
+| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
 
 ## Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Referenced slide does not belong to the current presentation. |
 
-## Examples
+### Examples
 
 This example demonstrates adding a Zoom object to the end of a collection (assume that there are at least two slides in the "Presentation.pptx" presentation):
 
@@ -63,26 +63,26 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
     IPPImage image)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new Zoom frame Single. |
-| y | Y coordinate of a new Zoom frame Single. |
-| width | Width of a new Zoom frame Single. |
-| height | Height of a new Zoom frame Single. |
-| slide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
-| image | The image for the referenced slide [`IPPImage`](../../ippimage) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new Zoom frame Single. |
+| y | Single | Y coordinate of a new Zoom frame Single. |
+| width | Single | Width of a new Zoom frame Single. |
+| height | Single | Height of a new Zoom frame Single. |
+| slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
+| image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
 ## Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Referenced slide does not belong to the current presentation. |
 
-## Examples
+### Examples
 
 This example demonstrates adding a Zoom object to the end of a collection (assume that there are at least two slides in the "Presentation.pptx" presentation):
 

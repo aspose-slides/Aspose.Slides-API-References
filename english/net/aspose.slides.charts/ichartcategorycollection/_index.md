@@ -16,7 +16,7 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GroupingLevelCount](groupinglevelcount) { get; } | Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only Int32. |
 | [Item](item) { get; } | Gets the element at the specified index. |

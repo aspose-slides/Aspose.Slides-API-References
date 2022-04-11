@@ -16,13 +16,13 @@ public class MathParagraphFactory : IMathParagraphFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathParagraphFactory](mathparagraphfactory)() | The default constructor. |
 | [CreateMathParagraph](createmathparagraph)() | Create empty math paragraph |
 | [CreateMathParagraph](createmathparagraph)(…) | Creates a math paragraph and places the specified math block in it |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

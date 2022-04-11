@@ -17,7 +17,7 @@ public class SoftEdgeEffectiveData : EffectEffectiveData<SoftEdge, SoftEdgeEffec
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Radius](radius) { get; } | SoftEdge radius. Read-only Double. |
 

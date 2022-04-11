@@ -14,9 +14,9 @@ Removes the element at the given index.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a data point to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of a data point to remove. |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public interface IMorphTransition : ITransitionValueBase
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
 | [MorphType](morphtype) { get; set; } | Type of morph transition. Read/write [`TransitionMorphType`](../transitionmorphtype). |

@@ -14,9 +14,9 @@ Returns the first layout slide of specified type.
 public ILayoutSlide GetByType(SlideLayoutType type)
 ```
 
-| parameter | description |
-| --- | --- |
-| type | A type of layout slide to find. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | SlideLayoutType | A type of layout slide to find. |
 
 ## Return Value
 

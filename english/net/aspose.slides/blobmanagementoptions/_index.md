@@ -16,7 +16,7 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BlobManagementOptions](blobmanagementoptions)() | Creates new default blob management options. |
 | [IsTemporaryFilesAllowed](istemporaryfilesallowed) { get; set; } | Set that using of temporary files is not allowed to optimize memory consumption while working with large amounts of data during presentation's lifetime. If false, OutOfMemoryException can be thrown. |

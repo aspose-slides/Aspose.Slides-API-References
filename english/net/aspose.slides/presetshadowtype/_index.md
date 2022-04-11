@@ -16,7 +16,7 @@ public enum PresetShadowType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | TopLeftDropShadow | `0` | Represents Top Left Drop Shadow. |
 | TopLeftLargeDropShadow | `1` | Represents Top Left Large Drop Shadow. |

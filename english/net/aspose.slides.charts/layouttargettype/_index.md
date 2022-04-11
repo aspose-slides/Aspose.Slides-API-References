@@ -16,7 +16,7 @@ public enum LayoutTargetType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Inner | `0` | Specifies that the plot area size shall determine the size of the plot area, not including the tick marks and axis labels. |
 | Outer | `1` | Specifies that the plot area size shall determine the size of the plot area, the tick marks, and the axis labels. |

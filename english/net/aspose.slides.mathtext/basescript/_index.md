@@ -16,15 +16,9 @@ public abstract class BaseScript : MathElementBase
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Base](base) { get; } | Base argument |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [BaseScript](basescript)(…) |  |
 
 ### See Also
 

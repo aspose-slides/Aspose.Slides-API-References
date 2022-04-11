@@ -14,7 +14,7 @@ Base argument
 public IMathElement Base { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

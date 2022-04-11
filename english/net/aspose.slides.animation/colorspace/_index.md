@@ -16,7 +16,7 @@ public enum ColorSpace
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | RGB | `0` |  |

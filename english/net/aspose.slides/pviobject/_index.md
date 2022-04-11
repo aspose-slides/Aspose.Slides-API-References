@@ -16,7 +16,7 @@ public abstract class PVIObject : ISlideComponent
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
 | override [Equals](equals)(…) | Compares with specified object. |

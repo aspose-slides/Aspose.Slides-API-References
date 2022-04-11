@@ -16,7 +16,7 @@ public interface IMasterThemeable : IThemeable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIThemeable](asithemeable) { get; } | Returns IThemeable interface. Read-only [`IThemeable`](../ithemeable). |
 | [ThemeManager](thememanager) { get; } | Returns master theme manager. Read-only [`IMasterThemeManager`](../imasterthememanager). |

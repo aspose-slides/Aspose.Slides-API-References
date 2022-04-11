@@ -16,7 +16,7 @@ public interface IPresentationFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreatePresentation](createpresentation)() | Creates new presentation. |
 | [CreatePresentation](createpresentation)(…) | Creates new presentation with additional load options |

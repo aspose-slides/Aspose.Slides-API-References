@@ -14,7 +14,7 @@ Gets a value that indicates whether a binded presentation is protected by a pass
 public bool IsPasswordProtected { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

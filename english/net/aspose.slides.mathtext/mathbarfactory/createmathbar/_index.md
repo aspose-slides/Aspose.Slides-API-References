@@ -14,9 +14,9 @@ Create a math bar by applying to the element
 public IMathBar CreateMathBar(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | math element to apply bar |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to apply bar |
 
 ## Return Value
 
@@ -40,10 +40,10 @@ Create a math bar by applying to the element
 public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | Math element to apply bar |
-| position | Position of the bar |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | Math element to apply bar |
+| position | MathTopBotPositions | Position of the bar |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public interface IMathBorderBox : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](base) { get; } | Base argument |
@@ -29,7 +29,7 @@ public interface IMathBorderBox : IMathElement
 | [StrikethroughTopLeftToBottomRight](strikethroughtoplefttobottomright) { get; set; } | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
 | [StrikethroughVertical](strikethroughvertical) { get; set; } | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
 
-## Examples
+### Examples
 
 Example:
 

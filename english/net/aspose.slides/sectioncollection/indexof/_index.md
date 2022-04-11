@@ -14,9 +14,9 @@ Returns an index of the specified section in the collection.
 public int IndexOf(ISection section)
 ```
 
-| parameter | description |
-| --- | --- |
-| section | Section to find. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| section | ISection | Section to find. |
 
 ## Return Value
 

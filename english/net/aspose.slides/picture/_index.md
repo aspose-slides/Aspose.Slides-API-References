@@ -16,7 +16,7 @@ public class Picture : PVIObject, ISlidesPicture
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Image](image) { get; set; } | Returns or sets the embedded image. Read/write [`IPPImage`](../ippimage). |
 | [ImageTransform](imagetransform) { get; } | Returns the collection of image transform effects. Read-only [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |

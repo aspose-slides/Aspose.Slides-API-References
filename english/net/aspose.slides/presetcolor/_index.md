@@ -16,7 +16,7 @@ public enum PresetColor
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Color preset is not defined. |
 | AliceBlue | `0` |  |

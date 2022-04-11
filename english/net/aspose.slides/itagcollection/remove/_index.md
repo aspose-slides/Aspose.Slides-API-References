@@ -14,9 +14,9 @@ Removes the tag with a specified name from the collection.
 public void Remove(string name)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | The name of tag to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of tag to remove. |
 
 ### See Also
 

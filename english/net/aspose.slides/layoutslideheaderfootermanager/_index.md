@@ -17,7 +17,7 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SetDateTimeAndChildDateTimesText](setdatetimeandchilddatetimestext)(…) | Sets text to layout slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
 | [SetDateTimeAndChildDateTimesVisibility](setdatetimeandchilddatetimesvisibility)(…) | Changes layout slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |

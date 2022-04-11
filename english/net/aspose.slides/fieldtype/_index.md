@@ -16,7 +16,7 @@ public sealed class FieldType : IFieldType
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldType](fieldtype)(…) | Initializes a new instance of FieldType class. |
 | static [DateTime](datetime) { get; } | Current date and time in default date time format for the rendering application. Read-only [`FieldType`](../fieldtype). |

@@ -16,13 +16,13 @@ public interface IShapeBevelEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BevelType](beveltype) { get; } | Bevel type. Read-only [`BevelPresetType`](../bevelpresettype). |
 | [Height](height) { get; } | Bevel height. Read-only Double. |
 | [Width](width) { get; } | Bevel width. Read-only Double. |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 

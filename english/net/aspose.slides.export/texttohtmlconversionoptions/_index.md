@@ -16,7 +16,7 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TextToHtmlConversionOptions](texttohtmlconversionoptions)() | The default constructor. |
 | [AddClipboardFragmentHeader](addclipboardfragmentheader) { get; set; } | Returns or sets value, indicating if Clipboard headers should be added. Read/write Boolean. |

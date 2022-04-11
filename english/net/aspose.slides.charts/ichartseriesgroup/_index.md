@@ -16,7 +16,7 @@ public interface IChartSeriesGroup : IChartComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIChartComponent](asichartcomponent) { get; } | Allows to get base IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
 | [BubbleSizeRepresentation](bubblesizerepresentation) { get; set; } | Specifies how the bubble size values are represented on the bubble chart. Read/write [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
@@ -39,7 +39,7 @@ public interface IChartSeriesGroup : IChartComponent
 | [Type](type) { get; } | Returns a type of this series group. Read-only [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
 | [UpDownBars](updownbars) { get; } | Provede access to up/down bars of Line- or Stock-chart. Read-only [`IUpDownBarsManager`](../iupdownbarsmanager). |
 
-## Remarks
+### Remarks
 
 1) See summary and remarks for ChartSeriesGroupCollection class and CombinableSeriesTypesGroup enum. 2) Group of series contains some series properies whitch is common for each series in group ("series group properties"). "Series group properties" in ChartSeriesGroup class is read/write. Each of "series group properties" can have a read-only projection in ChartSeries class.
 

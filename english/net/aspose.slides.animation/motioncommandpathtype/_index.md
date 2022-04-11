@@ -16,7 +16,7 @@ public enum MotionCommandPathType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | MoveTo | `0` |  |
 | LineTo | `1` |  |

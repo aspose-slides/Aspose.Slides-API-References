@@ -16,7 +16,7 @@ public enum PictureType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Not defined. |
 | Stack | `0` | The picture is sized to repeat a maximum of 15 times in the longest stacked bar. |

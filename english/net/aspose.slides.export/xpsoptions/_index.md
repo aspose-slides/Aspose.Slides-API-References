@@ -16,7 +16,7 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [XpsOptions](xpsoptions)() | Default constructor. |
 | [DrawSlidesFrame](drawslidesframe) { get; set; } | True to draw black frame around each slide. Read/write Boolean. |

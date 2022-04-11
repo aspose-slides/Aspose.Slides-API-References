@@ -14,7 +14,7 @@ Specifies upper or lower limit
 public bool UpperLimit { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

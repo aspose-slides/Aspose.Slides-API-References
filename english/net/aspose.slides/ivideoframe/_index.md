@@ -16,7 +16,7 @@ public interface IVideoFrame : IPictureFrame
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIPictureFrame](asipictureframe) { get; } | Allows to get base IPictureFrame interface. Read-only [`IPictureFrame`](../ipictureframe). |
 | [EmbeddedVideo](embeddedvideo) { get; set; } | Returns or sets embedded video object. Read/write [`IVideo`](../ivideo). |

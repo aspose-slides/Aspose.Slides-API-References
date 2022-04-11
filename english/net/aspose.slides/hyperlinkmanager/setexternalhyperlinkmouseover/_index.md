@@ -14,9 +14,9 @@ Sets external hyperlink mouse over.
 public IHyperlink SetExternalHyperlinkMouseOver(string url)
 ```
 
-| parameter | description |
-| --- | --- |
-| url | Hyperlink URL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| url | String | Hyperlink URL. |
 
 ## Return Value
 

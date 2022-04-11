@@ -16,7 +16,7 @@ public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocume
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DocumentProperties](documentproperties)() | Initializes new instance of class [`DocumentProperties`](../documentproperties). |
 | [ApplicationTemplate](applicationtemplate) { get; set; } | Returns or sets the template of a application. Read/write String. |

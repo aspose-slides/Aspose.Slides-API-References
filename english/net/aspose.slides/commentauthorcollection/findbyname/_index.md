@@ -14,9 +14,9 @@ Find author in a collection by name.
 public ICommentAuthor[] FindByName(string name)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of an author to find. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of an author to find. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public interface IErrorBarsCustomValues
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [XMinus](xminus) { get; } | Specifies the error bar value in the negative direction. Avalible if error bars value type is Custom and ErrorBarsXFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
 | [XPlus](xplus) { get; } | Specifies the error bar value in the positive direction. Avalible if error bars value type is Custom and ErrorBarsXFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |

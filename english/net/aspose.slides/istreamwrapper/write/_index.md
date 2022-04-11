@@ -14,11 +14,11 @@ writes a sequence of bytes to the current stream and advances the current positi
 public void Write(byte[] buffer, int offset, int count)
 ```
 
-| parameter | description |
-| --- | --- |
-| buffer | An array of bytes Byte[] |
-| offset | The zero-based byte offset in buffer at which to begin copying bytes to the current stream Int32 |
-| count | The number of bytes to be written to the current stream Int32 |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| buffer | Byte[] | An array of bytes Byte[] |
+| offset | Int32 | The zero-based byte offset in buffer at which to begin copying bytes to the current stream Int32 |
+| count | Int32 | The number of bytes to be written to the current stream Int32 |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public enum TransitionSideDirectionType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Left | `0` |  |
 | Up | `1` |  |

@@ -17,7 +17,7 @@ public enum PdfAccessPermissions
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0x0` | Specifies that a user does not have access permissions. |
 | PrintDocument | `0x4` | Specifies whether a user may print the document (possibly not at the highest quality level, depending on whether bit HighQualityPrint is also set). |

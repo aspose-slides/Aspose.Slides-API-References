@@ -14,11 +14,11 @@ Insert a new row before the specified one Initially all elements in the new row 
 public void InsertRowBefore(int rowIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| rowIndex | Index of the row before which to insert a new one |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | Int32 | Index of the row before which to insert a new one |
 
-## Examples
+### Examples
 
 Example:
 

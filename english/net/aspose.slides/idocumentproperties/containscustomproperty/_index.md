@@ -14,9 +14,9 @@ Check presents of a custom property with a specified name.
 public bool ContainsCustomProperty(string name)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of a custom property to check. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of a custom property to check. |
 
 ## Return Value
 

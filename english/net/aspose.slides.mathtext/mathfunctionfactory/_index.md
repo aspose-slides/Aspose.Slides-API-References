@@ -16,12 +16,12 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathFunctionFactory](mathfunctionfactory)() | The default constructor. |
 | [CreateMathFunction](createmathfunction)(…) | Creates math function (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

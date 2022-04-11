@@ -14,9 +14,9 @@ Adds a Paragraph to the end of collection.
 public void Add(IParagraph value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The Paragraph to be added to the end of the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IParagraph | The Paragraph to be added to the end of the collection. |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Adds a content of ParagraphCollection to the end of collection.
 public int Add(IParagraphCollection value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The ParagraphCollection to be added to the end of the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IParagraphCollection | The ParagraphCollection to be added to the end of the collection. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public interface IPatternFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BackColor](backcolor) { get; } | Returns the background pattern color. Read-only [`IColorFormat`](../icolorformat). |
 | [ForeColor](forecolor) { get; } | Returns the foreground pattern color. Read-only [`IColorFormat`](../icolorformat). |

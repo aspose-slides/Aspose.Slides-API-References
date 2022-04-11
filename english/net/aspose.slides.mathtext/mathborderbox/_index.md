@@ -16,7 +16,7 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathBorderBox](mathborderbox)(…) | Creates MathBorderBox element with rectangular border (2 constructors) |
 | [Base](base) { get; } | Base argument |
@@ -30,7 +30,7 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 | [StrikethroughVertical](strikethroughvertical) { get; set; } | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

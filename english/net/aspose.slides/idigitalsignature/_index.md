@@ -16,7 +16,7 @@ public interface IDigitalSignature
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Certificate](certificate) { get; } | Certificate object that was used to sign the document. Read-only X509Certificate2. |
 | [Comments](comments) { get; set; } | The purpose of signature. Read/write String. |

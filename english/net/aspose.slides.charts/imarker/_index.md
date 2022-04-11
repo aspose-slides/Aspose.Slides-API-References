@@ -16,7 +16,7 @@ public interface IMarker
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Format](format) { get; } | Gets the marker fill. Read-only [`IFormat`](../iformat). |
 | [Size](size) { get; set; } | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write Int32. |

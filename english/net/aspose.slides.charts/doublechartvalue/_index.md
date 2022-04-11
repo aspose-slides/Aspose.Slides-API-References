@@ -16,7 +16,7 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsCell](ascell) { get; set; } | Returns or sets chart data cell. Read/write [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets value as literal double. Read/write Double. |

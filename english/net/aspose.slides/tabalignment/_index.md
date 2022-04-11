@@ -16,7 +16,7 @@ public enum TabAlignment
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Left | `0` | Left alignment |
 | Center | `1` | Center alignment |

@@ -16,7 +16,7 @@ public sealed class MathRadical : MathElementBase, IMathRadical
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathRadical](mathradical)(…) | Initializes a new instance of the MathRadical class. |
 | [Base](base) { get; } | Base argument |
@@ -24,7 +24,7 @@ public sealed class MathRadical : MathElementBase, IMathRadical
 | [HideDegree](hidedegree) { get; set; } | Hide degree When is true, the degree is not shown, as in √𝑥 |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public enum TextVerticalOverflowType : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Overflow | `0` |  |

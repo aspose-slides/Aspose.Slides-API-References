@@ -14,10 +14,10 @@ Inserts a Paragraph into the collection at the specified index.
 public void Insert(int index, IParagraph value)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which Paragraph should be inserted. |
-| value | The Paragraph to insert. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which Paragraph should be inserted. |
+| value | IParagraph | The Paragraph to insert. |
 
 ### See Also
 
@@ -36,10 +36,10 @@ Inserts a content of ParagraphCollection into the collection at the specified in
 public void Insert(int index, IParagraphCollection value)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which paragraphs should be inserted. |
-| value | The paragraphs to insert. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which paragraphs should be inserted. |
+| value | IParagraphCollection | The paragraphs to insert. |
 
 ### See Also
 

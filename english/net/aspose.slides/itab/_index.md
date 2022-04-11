@@ -16,7 +16,7 @@ public interface ITab : IComparable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alignment](alignment) { get; set; } | Returns or sets align style of a tab. Read/write [`TabAlignment`](../tabalignment). |
 | [AsIComparable](asicomparable) { get; } | Returns IComparable interface. Read-only IComparable. |

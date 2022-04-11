@@ -16,12 +16,12 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | The default constructor. |
 | [CreateMathSuperscriptElement](createmathsuperscriptelement)(…) | Creates IMathSuperscriptElement |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

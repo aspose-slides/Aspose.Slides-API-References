@@ -14,9 +14,9 @@ Changes all date-time placeholders visibility, including master slides, layout s
 public void SetAllDateTimesVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a date-time placeholders visible, otherwise - hides them. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a date-time placeholders visible, otherwise - hides them. |
 
 ### See Also
 

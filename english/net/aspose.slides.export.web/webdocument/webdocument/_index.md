@@ -14,9 +14,9 @@ url: /net/aspose.slides.export.web/webdocument/webdocument/
 public WebDocument(WebDocumentOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Options set for the document. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | WebDocumentOptions | Options set for the document. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public enum TransitionType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` |  |
 | Blinds | `1` |  |

@@ -14,7 +14,7 @@ Returns IBasePortionFormatEffectiveData interface.
 public IBasePortionFormatEffectiveData AsIBasePortionFormatEffectiveData { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

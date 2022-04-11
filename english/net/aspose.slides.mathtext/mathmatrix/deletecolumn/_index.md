@@ -14,18 +14,18 @@ Deletes the specified column
 public void DeleteColumn(int columnIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| columnIndex | The zero-based index of the column to delete. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | Int32 | The zero-based index of the column to delete. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | When you try to delete the last single column in the matrix |
 | ArgumentOutOfRangeException | If columnIndex less than zero or greater or equal to the ColumnCount |
 
-## Examples
+### Examples
 
 Example:
 

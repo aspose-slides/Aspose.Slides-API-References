@@ -16,7 +16,7 @@ public interface IChartCategory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsCell](ascell) { get; set; } | Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level "0". Read/write [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteral](asliteral) { get; set; } | Returns or sets AsLiteral if UseCell is false. Read/write Object. |

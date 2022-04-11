@@ -14,10 +14,10 @@ Resolves the absolute URI from the base and relative URIs.
 public string ResolveUri(string baseUri, string relativeUri)
 ```
 
-| parameter | description |
-| --- | --- |
-| baseUri | Base URI of linking objects |
-| relativeUri | Relative URI to the linked object. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseUri | String | Base URI of linking objects |
+| relativeUri | String | Relative URI to the linked object. |
 
 ## Return Value
 

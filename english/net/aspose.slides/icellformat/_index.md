@@ -16,7 +16,7 @@ public interface ICellFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BorderBottom](borderbottom) { get; } | Returns a bottom border line properties object. Read-only [`ILineFormat`](../ilineformat). |
 | [BorderDiagonalDown](borderdiagonaldown) { get; } | Returns a top-left to bottom-right diagonal line properties object. Read-only [`ILineFormat`](../ilineformat). |

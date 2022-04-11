@@ -3,7 +3,7 @@ title: DefaultRegularFont
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.slides.export/saveoptions/defaultregularfont/
 ---
 ## SaveOptions.DefaultRegularFont property
@@ -14,7 +14,7 @@ Returns or sets font used in case source font is not found. Read-write String.
 public string DefaultRegularFont { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

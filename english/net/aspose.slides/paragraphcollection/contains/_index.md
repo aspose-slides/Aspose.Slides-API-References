@@ -14,9 +14,9 @@ Determines whether the ICollection contains a specific value.
 public bool Contains(IParagraph item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The object to locate in the ICollection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IParagraph | The object to locate in the ICollection. |
 
 ## Return Value
 

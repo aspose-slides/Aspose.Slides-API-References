@@ -14,7 +14,7 @@ Removes category from chart.
 public void Remove()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

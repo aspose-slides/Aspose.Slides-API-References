@@ -16,7 +16,7 @@ public interface IShape : IHyperlinkContainer, ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AlternativeText](alternativetext) { get; set; } | Returns or sets the alternative text associated with a shape. Read/write String. |
 | [AlternativeTextTitle](alternativetexttitle) { get; set; } | Returns or sets the title of alternative text associated with a shape. Read/write String. |

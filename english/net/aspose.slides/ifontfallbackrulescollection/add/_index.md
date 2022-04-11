@@ -14,11 +14,11 @@ Add a new FallBack rule to the end of the collection.
 public void Add(IFontFallBackRule sourceRule)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceRule | Specified rule for adding |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceRule | IFontFallBackRule | Specified rule for adding |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

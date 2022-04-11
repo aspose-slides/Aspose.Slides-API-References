@@ -16,7 +16,7 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [CreateCustomFormatter](createcustomformatter)(…) | Creates and returns HTML formatter for custom callback-driven html generation. |
 | static [CreateDocumentFormatter](createdocumentformatter)(…) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |

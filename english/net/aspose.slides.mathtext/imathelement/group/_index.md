@@ -18,7 +18,7 @@ public IMathGroupingCharacter Group()
 
 New instance of type [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
-## Examples
+### Examples
 
 Example:
 
@@ -45,17 +45,17 @@ public IMathGroupingCharacter Group(char character, MathTopBotPositions position
     MathTopBotPositions verticalJustification)
 ```
 
-| parameter | description |
-| --- | --- |
-| character | Grouping Character such as BOTTOM CURLY BRACKET (U+23DF) or any other |
-| position | Position of grouping character |
-| verticalJustification | Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| character | Char | Grouping Character such as BOTTOM CURLY BRACKET (U+23DF) or any other |
+| position | MathTopBotPositions | Position of grouping character |
+| verticalJustification | MathTopBotPositions | Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline |
 
 ## Return Value
 
 New instance of type [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
-## Examples
+### Examples
 
 Example:
 

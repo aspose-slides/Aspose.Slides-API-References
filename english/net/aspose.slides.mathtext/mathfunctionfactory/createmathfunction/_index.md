@@ -14,10 +14,10 @@ Creates math function
 public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement baseArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| funcName | Element used as a function name |
-| baseArgument | Element used as a function argument |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| funcName | IMathElement | Element used as a function name |
+| baseArgument | IMathElement | Element used as a function argument |
 
 ## Return Value
 
@@ -41,10 +41,10 @@ Creates math function
 public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| funcName | Function name |
-| baseArgument | Element used as a function argument |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| funcName | String | Function name |
+| baseArgument | IMathElement | Element used as a function argument |
 
 ## Return Value
 

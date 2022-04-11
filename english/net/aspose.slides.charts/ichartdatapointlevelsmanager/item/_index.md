@@ -14,7 +14,7 @@ Returns IChartDataPointLevel object for defined level.
 public IChartDataPointLevel this[int level] { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 

@@ -16,12 +16,12 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [RenderingOptions](renderingoptions)() | Default constructor. |
 | [NotesCommentsLayouting](notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

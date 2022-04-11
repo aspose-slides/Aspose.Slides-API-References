@@ -16,7 +16,7 @@ public interface IEmptyTransition : ITransitionValueBase
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
 

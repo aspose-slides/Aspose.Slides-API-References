@@ -14,9 +14,9 @@ Maps a URI to an object containing the actual resource.
 public virtual Stream GetEntity(string absoluteUri)
 ```
 
-| parameter | description |
-| --- | --- |
-| absoluteUri | Absolute URI to the object. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| absoluteUri | String | Absolute URI to the object. |
 
 ## Return Value
 

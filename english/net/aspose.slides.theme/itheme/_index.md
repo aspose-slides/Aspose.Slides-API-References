@@ -16,7 +16,7 @@ public interface ITheme : IPresentationComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [ColorScheme](colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |

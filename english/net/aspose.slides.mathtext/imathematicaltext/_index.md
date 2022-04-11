@@ -16,13 +16,13 @@ public interface IMathematicalText : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [Format](format) { get; } | Text formatting properties |
 | [Value](value) { get; set; } | Text value |
 
-## Examples
+### Examples
 
 Example:
 

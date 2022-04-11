@@ -14,10 +14,10 @@ Creates new instance.
 public FontSubstRule(IFontData sourceFont, IFontData destFont)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceFont | Source font. |
-| destFont | Destination font. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceFont | IFontData | Source font. |
+| destFont | IFontData | Destination font. |
 
 ### See Also
 
@@ -36,11 +36,11 @@ Creates new instance.
 public FontSubstRule(IFontData sourceFont, IFontData destFont, FontSubstCondition fontSubstRule)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceFont | Source font. |
-| destFont | Destination font. |
-| fontSubstRule | Font subst rule. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceFont | IFontData | Source font. |
+| destFont | IFontData | Destination font. |
+| fontSubstRule | FontSubstCondition | Font subst rule. |
 
 ### See Also
 

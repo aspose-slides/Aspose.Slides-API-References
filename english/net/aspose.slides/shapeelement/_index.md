@@ -16,7 +16,7 @@ public class ShapeElement : IShapeElement
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FillSource](fillsource) { get; } | Returns information about how to fill an element. Read-only [`ShapeElementFillSource`](../shapeelementfillsource). |
 | [GraphicsPath](graphicspath) { get; } | Returns an element's path. Read-only GraphicsPath. |

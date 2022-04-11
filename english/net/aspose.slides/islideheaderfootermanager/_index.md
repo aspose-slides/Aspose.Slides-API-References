@@ -16,7 +16,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
 

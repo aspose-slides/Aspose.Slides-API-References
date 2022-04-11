@@ -16,13 +16,13 @@ public class PortionFactory : IPortionFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PortionFactory](portionfactory)() | The default constructor. |
 | [CreatePortion](createportion)() | Creates an empty text portion. |
 | [CreatePortion](createportion)(…) | Creates a text portion from specified string. (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

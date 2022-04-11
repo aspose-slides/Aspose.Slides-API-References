@@ -14,7 +14,7 @@ Maximum count of style levels that can be defined. Use it with GetLevel(int inde
 public static readonly byte MaxLevelCount;
 ```
 
-## Examples
+### Examples
 
 ```csharp
 for (int i = 0; i < TextStyle.MaxLevelCount; i++)

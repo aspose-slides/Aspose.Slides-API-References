@@ -16,7 +16,7 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alignment](alignment) { get; } | Returns the line alignment. Read-only [`LineAlignment`](../linealignment). |
 | [AsILineParamSource](asilineparamsource) { get; } | Allows to get base ILineParamSource interface. Read-only [`ILineParamSource`](../ilineparamsource). |
@@ -37,7 +37,7 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | [Width](width) { get; } | Returns the width of a line. Read-only Double. |
 | [Equals](equals)(…) | Determines whether the two ILineFormatEffectiveData instances are equal. |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`ILineFormat`](../ilineformat) interface to return effective formatting values with inheritance applied.
 

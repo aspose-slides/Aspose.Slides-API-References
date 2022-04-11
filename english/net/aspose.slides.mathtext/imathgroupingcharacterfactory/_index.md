@@ -16,11 +16,11 @@ public interface IMathGroupingCharacterFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathGroupingCharacter](createmathgroupingcharacter)(…) | Creates a math grouping character (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

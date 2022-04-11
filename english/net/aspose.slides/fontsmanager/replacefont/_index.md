@@ -14,9 +14,9 @@ Replace font in presentation using information provided in [`FontSubstRule`](../
 public void ReplaceFont(IFontSubstRule substRule)
 ```
 
-| parameter | description |
-| --- | --- |
-| substRule | Font substitution info |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| substRule | IFontSubstRule | Font substitution info |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Replace font in presentation using information provided in collection of [`FontS
 public void ReplaceFont(IFontSubstRuleCollection substRules)
 ```
 
-| parameter | description |
-| --- | --- |
-| substRules | Font substitution rules collection |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| substRules | IFontSubstRuleCollection | Font substitution rules collection |
 
 ### See Also
 
@@ -56,10 +56,10 @@ Replace font in presentation
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceFont | Source font |
-| destFont | Destination font |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceFont | IFontData | Source font |
+| destFont | IFontData | Destination font |
 
 ### See Also
 

@@ -14,9 +14,9 @@ Copy color format from "color".
 public void CopyFrom(IColorFormat color)
 ```
 
-| parameter | description |
-| --- | --- |
-| color | Color [`IColorFormat`](../../icolorformat) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| color | IColorFormat | Color [`IColorFormat`](../../icolorformat) |
 
 ### See Also
 

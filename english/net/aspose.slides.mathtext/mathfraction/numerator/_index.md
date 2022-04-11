@@ -14,7 +14,7 @@ Numerator
 public IMathElement Numerator { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo)() | Creates new embedded data info for OLE object. |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo)(…) | Creates a new instance of an embedded data info for OLE object. File data of an embedded OLE object Byte[].File extension for the current embedded OLE object String. |

@@ -16,7 +16,7 @@ public interface IWarningInfo
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Description](description) { get; } | Returns a human readable description of this warning. Read-only String. |
 | [WarningType](warningtype) { get; } | Returns a type of warning. Read-only [`WarningType`](./warningtype). |

@@ -16,7 +16,7 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Hue](hue) { get; } | Returns hue percentage. Read-only Single. |

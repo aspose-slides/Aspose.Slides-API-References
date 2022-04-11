@@ -14,9 +14,9 @@ Compares the current instance with another object of the same type.
 public int CompareTo(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | An object to compare with this instance. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | An object to compare with this instance. |
 
 ## Return Value
 

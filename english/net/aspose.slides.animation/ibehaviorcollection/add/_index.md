@@ -14,9 +14,9 @@ Add new behavior to a collection.
 public void Add(IBehavior item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | Behavior to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IBehavior | Behavior to add. |
 
 ### See Also
 

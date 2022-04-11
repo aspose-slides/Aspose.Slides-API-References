@@ -14,7 +14,7 @@ Returns ISvgShapeFormattingController interface.
 public ISvgShapeFormattingController AsISvgShapeFormattingController { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

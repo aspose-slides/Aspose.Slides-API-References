@@ -16,7 +16,7 @@ public sealed class FontData : IFontData
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontData](fontdata)(…) | Creates a new FontData object with the specified font name. |
 | [FontName](fontname) { get; } | Returns the font name. Read/write String. |

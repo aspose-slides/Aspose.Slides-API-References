@@ -14,9 +14,9 @@ Creates new instance.
 public ShapeBevel(bool bIsTopBevel)
 ```
 
-| parameter | description |
-| --- | --- |
-| bIsTopBevel | Is top bevel. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bIsTopBevel | Boolean | Is top bevel. |
 
 ### See Also
 

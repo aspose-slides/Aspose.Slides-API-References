@@ -16,7 +16,7 @@ public class TintEffectiveData : EffectEffectiveData<Tint, TintEffectiveData>, I
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Amount](amount) { get; } | Returns effect amount. Read-only Single. |
 | [Hue](hue) { get; } | Returns hue. Read-only Single. |

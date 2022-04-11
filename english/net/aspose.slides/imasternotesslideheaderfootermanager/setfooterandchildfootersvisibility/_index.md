@@ -14,9 +14,9 @@ Changes master notes slide footer placeholder and all child footer placeholders 
 public void SetFooterAndChildFootersVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a footer placeholders visible, otherwise - hides them. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a footer placeholders visible, otherwise - hides them. |
 
 ### See Also
 

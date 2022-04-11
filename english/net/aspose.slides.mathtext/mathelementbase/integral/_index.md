@@ -14,15 +14,15 @@ Takes the integral without limits
 public IMathNaryOperator Integral(MathIntegralTypes integralType)
 ```
 
-| parameter | description |
-| --- | --- |
-| integralType | Integral type |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | MathIntegralTypes | Integral type |
 
 ## Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
-## Examples
+### Examples
 
 Example:
 
@@ -51,17 +51,17 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
     IMathElement upperLimit)
 ```
 
-| parameter | description |
-| --- | --- |
-| integralType | Integral type |
-| lowerLimit | Lower limit of integral |
-| upperLimit | Upper limit of integral |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | MathIntegralTypes | Integral type |
+| lowerLimit | IMathElement | Lower limit of integral |
+| upperLimit | IMathElement | Upper limit of integral |
 
 ## Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
-## Examples
+### Examples
 
 Example:
 
@@ -93,17 +93,17 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
     string upperLimit)
 ```
 
-| parameter | description |
-| --- | --- |
-| integralType | Integral type |
-| lowerLimit | Lower limit of integral |
-| upperLimit | Upper limit of integral |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | MathIntegralTypes | Integral type |
+| lowerLimit | String | Lower limit of integral |
+| upperLimit | String | Upper limit of integral |
 
 ## Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
-## Examples
+### Examples
 
 Example:
 
@@ -132,18 +132,18 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
     IMathElement upperLimit, MathLimitLocations limitLocations)
 ```
 
-| parameter | description |
-| --- | --- |
-| integralType | Integral type |
-| lowerLimit | Lower limit of integral |
-| upperLimit | Upper limit of integral |
-| limitLocations | location of limits |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | MathIntegralTypes | Integral type |
+| lowerLimit | IMathElement | Lower limit of integral |
+| upperLimit | IMathElement | Upper limit of integral |
+| limitLocations | MathLimitLocations | location of limits |
 
 ## Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
-## Examples
+### Examples
 
 Example:
 
@@ -176,18 +176,18 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
     string upperLimit, MathLimitLocations limitLocations)
 ```
 
-| parameter | description |
-| --- | --- |
-| integralType | Integral type |
-| lowerLimit | Lower limit of integral |
-| upperLimit | Upper limit of integral |
-| limitLocations | location of limits |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | MathIntegralTypes | Integral type |
+| lowerLimit | String | Lower limit of integral |
+| upperLimit | String | Upper limit of integral |
+| limitLocations | MathLimitLocations | location of limits |
 
 ## Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
-## Examples
+### Examples
 
 Example:
 

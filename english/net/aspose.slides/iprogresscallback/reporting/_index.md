@@ -14,9 +14,9 @@ Reports a progress update.
 public void Reporting(double progressValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| progressValue | The value of the updated progress. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| progressValue | Double | The value of the updated progress. |
 
 ### See Also
 

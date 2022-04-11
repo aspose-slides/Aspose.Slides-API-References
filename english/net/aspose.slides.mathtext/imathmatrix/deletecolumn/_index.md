@@ -14,11 +14,11 @@ Deletes the specified column
 public void DeleteColumn(int columnIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| columnIndex | The zero-based index of the column to delete. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | Int32 | The zero-based index of the column to delete. |
 
-## Examples
+### Examples
 
 Example:
 

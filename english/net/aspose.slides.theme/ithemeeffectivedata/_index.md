@@ -16,13 +16,13 @@ public interface IThemeEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
 | [FormatScheme](formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 | [GetColorScheme](getcolorscheme)(…) | Returns the color scheme. |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`ITheme`](../itheme) interface to return effective formatting values with inheritance applied.
 

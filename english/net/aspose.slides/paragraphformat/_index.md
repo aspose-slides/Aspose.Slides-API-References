@@ -16,7 +16,7 @@ public class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphForma
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ParagraphFormat](paragraphformat)() | Initializes a new instance of [`ParagraphFormat`](../paragraphformat) class. |
 | [Alignment](alignment) { get; set; } | Returns or sets the text alignment in a paragraph with no inheritance. Read/write [`TextAlignment`](../textalignment). |
@@ -35,7 +35,7 @@ public class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphForma
 | [Tabs](tabs) { get; } | Returns tabulations of a paragraph. No inheritance applied. Read-only [`ITabCollection`](../itabcollection). |
 | [GetEffective](geteffective)() | Gets effective paragraph formatting data with the inheritance applied. |
 
-## Remarks
+### Remarks
 
 This class is used to return and manipulate paragraph formatting properties defined for the particular paragraph. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 

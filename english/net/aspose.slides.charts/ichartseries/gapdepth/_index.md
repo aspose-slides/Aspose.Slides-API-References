@@ -14,7 +14,7 @@ Returns or sets the distance, as a percentage of the marker width, between the d
 public int GapDepth { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.GapDepth.
 

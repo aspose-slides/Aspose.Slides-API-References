@@ -16,12 +16,12 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathBorderBoxFactory](mathborderboxfactory)() | The default constructor. |
 | [CreateMathBorderBox](createmathborderbox)(…) | Create a math border box by applying to the element (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

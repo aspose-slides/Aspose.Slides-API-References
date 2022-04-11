@@ -14,7 +14,7 @@ Represents a specified chart's data label percentage value display behavior. Tru
 public bool ShowValue { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the ShowValue property for the new data labels in the DataLabelCollection collection. Set this property with value also sets this value to the ShowValue property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.DefaultDataLabelFormat.ShowValue = val;" cause to all DataLabels[i].ShowValue is equal to val).
 

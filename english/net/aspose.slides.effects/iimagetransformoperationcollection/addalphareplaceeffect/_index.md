@@ -14,9 +14,9 @@ Adds the new Alpha Replace effect to the end of a collection.
 public IAlphaReplace AddAlphaReplaceEffect(float alpha)
 ```
 
-| parameter | description |
-| --- | --- |
-| alpha | The new opacity value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| alpha | Single | The new opacity value. |
 
 ## Return Value
 

@@ -14,7 +14,7 @@ Gets or sets the section object that the Section Zoom object is linked to. Read/
 public ISection TargetSection { get; set; }
 ```
 
-## Examples
+### Examples
 
 This example demonstrates changing target section and creates a new image for the section zoom object:
 

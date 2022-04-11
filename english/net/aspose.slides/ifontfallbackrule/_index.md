@@ -16,7 +16,7 @@ public interface IFontFallBackRule
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of fonts actually defined for range. |
 | [Item](item) { get; } | Gets the font name at the specified index. |

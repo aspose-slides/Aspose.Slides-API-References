@@ -16,7 +16,7 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Returns the number of behaviors in a collection. Read-only Int32. |

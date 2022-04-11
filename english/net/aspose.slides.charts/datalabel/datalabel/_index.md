@@ -14,9 +14,9 @@ Creates a new instance of DataLabel class.
 public DataLabel(IChartDataPoint parentImmediate)
 ```
 
-| parameter | description |
-| --- | --- |
-| parentImmediate | Parent ChartDataPoint. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentImmediate | IChartDataPoint | Parent ChartDataPoint. |
 
 ### See Also
 

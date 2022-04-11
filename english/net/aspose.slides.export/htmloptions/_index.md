@@ -16,7 +16,7 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HtmlOptions](htmloptions)() | Creates a new HtmlOptions object for saving into single HTML file. |
 | [HtmlOptions](htmloptions)(…) | Creates a new HtmlOptions object specifiing callback. |

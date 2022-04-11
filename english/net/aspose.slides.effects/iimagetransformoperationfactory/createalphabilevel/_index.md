@@ -14,9 +14,9 @@ Creates Alpha BiLevel effect.
 public IAlphaBiLevel CreateAlphaBiLevel(float threshold)
 ```
 
-| parameter | description |
-| --- | --- |
-| threshold | Threshold. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| threshold | Single | Threshold. |
 
 ## Return Value
 

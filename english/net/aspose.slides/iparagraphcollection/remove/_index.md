@@ -14,9 +14,9 @@ Removes the first occurrence of a specific paragraph.
 public bool Remove(IParagraph item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The paragraph to remove from collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IParagraph | The paragraph to remove from collection. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public enum TileFlip
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | NoFlip | `0` |  |

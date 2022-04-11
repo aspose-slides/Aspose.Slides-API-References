@@ -14,7 +14,7 @@ Returns or sets the title for OleObject icon. Read/write String.
 public string SubstitutePictureTitle { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When IsObjectIcon == false this value is ignored. The string can be truncated according to the size of the Ole icon.
 

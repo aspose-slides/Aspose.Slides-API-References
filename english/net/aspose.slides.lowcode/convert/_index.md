@@ -16,14 +16,14 @@ public static class Convert
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [AutoByExtension](autobyextension)(…) | Converts [`Presentation`](../../aspose.slides/presentation) using the passed output path extension to determine the required export format. |
 | static [ToPdf](topdf)(…) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. (4 methods) |
 | static [ToSvg](tosvg)(…) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. (5 methods) |
 | delegate [GetOutPathCallback](convert.getoutpathcallback) |  |
 
-## Examples
+### Examples
 
 ```csharp
 Convert.AutoByExtension("pres.pptx", "pres.pdf");

@@ -16,7 +16,7 @@ public enum FilterEffectType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` |  |
 | Barn | `1` |  |

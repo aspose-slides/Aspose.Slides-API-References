@@ -14,7 +14,7 @@ Returns IBaseHeaderFooterManager interface.
 public IBaseHeaderFooterManager AsIBaseHeaderFooterManager { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

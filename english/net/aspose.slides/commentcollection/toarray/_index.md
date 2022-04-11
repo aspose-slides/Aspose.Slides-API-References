@@ -35,10 +35,10 @@ Creates and returns an array with all comments from the specified range.
 public IComment[] ToArray(int startIndex, int count)
 ```
 
-| parameter | description |
-| --- | --- |
-| startIndex | An index of a first comment to return. |
-| count | A number of comments to return. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | Int32 | An index of a first comment to return. |
+| count | Int32 | A number of comments to return. |
 
 ## Return Value
 

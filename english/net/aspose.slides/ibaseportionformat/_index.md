@@ -16,7 +16,7 @@ public interface IBasePortionFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AlternativeLanguageId](alternativelanguageid) { get; set; } | Returns or sets the Id of an alternative language. Read/write String. |
 | [ComplexScriptFont](complexscriptfont) { get; set; } | Returns or sets the complex script font info. Null means font is undefined and should be inherited from the Master. Read/write [`IFontData`](../ifontdata). |
@@ -45,7 +45,7 @@ public interface IBasePortionFormat
 | [UnderlineFillFormat](underlinefillformat) { get; } | Returns the underline line FillFormat properties. No inheritance applied. Read-only [`IFillFormat`](../ifillformat). |
 | [UnderlineLineFormat](underlinelineformat) { get; } | Returns the LineFormat properties used to outline underline line. No inheritance applied. Read-only [`ILineFormat`](../ilineformat). |
 
-## Remarks
+### Remarks
 
 This class is used to return and manipulate text portion formatting properties defined for the particular portion. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 

@@ -14,9 +14,9 @@ Returns count of effects for the specified shape.
 public int GetCount(IShape shape)
 ```
 
-| parameter | description |
-| --- | --- |
-| shape | Shape object [`IShape`](../../../aspose.slides/ishape) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shape | IShape | Shape object [`IShape`](../../../aspose.slides/ishape) |
 
 ## Return Value
 

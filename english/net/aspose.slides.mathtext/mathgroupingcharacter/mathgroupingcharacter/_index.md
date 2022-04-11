@@ -14,11 +14,11 @@ Initializes a new instance of the MathGroupingCharacter class with the default g
 public MathGroupingCharacter(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | The base element to which the bar is applied |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | The base element to which the bar is applied |
 
-## Examples
+### Examples
 
 Example:
 
@@ -45,14 +45,14 @@ public MathGroupingCharacter(IMathElement element, char character, MathTopBotPos
     MathTopBotPositions verticalJustification)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | The base element to which the bar is applied |
-| character | Grouping Character |
-| position | Position of grouping character |
-| verticalJustification | Vertical justification of group character |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | The base element to which the bar is applied |
+| character | Char | Grouping Character |
+| position | MathTopBotPositions | Position of grouping character |
+| verticalJustification | MathTopBotPositions | Vertical justification of group character |
 
-## Examples
+### Examples
 
 Example:
 

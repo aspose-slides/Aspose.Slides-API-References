@@ -16,7 +16,7 @@ public interface IFontData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontName](fontname) { get; } | Returns the font name. Read-only String. |
 | [GetFontName](getfontname)(…) | Returns the font name, replacing theme referrence with an actual font used. |

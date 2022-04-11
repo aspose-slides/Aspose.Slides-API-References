@@ -14,7 +14,7 @@ Degree argument
 public IMathElement Degree { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

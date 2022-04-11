@@ -14,11 +14,11 @@ Reads a sequence of bytes from the current stream and advances the position with
 public void Read(byte[] buffer, int offset, int count)
 ```
 
-| parameter | description |
-| --- | --- |
-| buffer | Sequence of bytes Byte[] |
-| offset | Start reading position Int32 |
-| count | Count bytes for reading Int32 |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| buffer | Byte[] | Sequence of bytes Byte[] |
+| offset | Int32 | Start reading position Int32 |
+| count | Int32 | Count bytes for reading Int32 |
 
 ### See Also
 

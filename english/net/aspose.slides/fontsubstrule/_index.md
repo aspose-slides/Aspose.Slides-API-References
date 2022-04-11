@@ -16,7 +16,7 @@ public class FontSubstRule : IFontSubstRule
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontSubstRule](fontsubstrule)(…) | Creates new instance. (2 constructors) |
 | [DestFont](destfont) { get; } | Font to use for substitution. Read-only [`IFontData`](../ifontdata). |

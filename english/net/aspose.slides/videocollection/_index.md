@@ -16,7 +16,7 @@ public class VideoCollection : IVideoCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns a number of video files in the collection. Read-only Int32. |
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |

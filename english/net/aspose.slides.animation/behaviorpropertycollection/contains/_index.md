@@ -14,9 +14,9 @@ Determines whether the ICollection contains a specific value.
 public bool Contains(IBehaviorProperty item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The property to locate in the ICollection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IBehaviorProperty | The property to locate in the ICollection. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Determines whether the ICollection contains a specific value.
 public bool Contains(string propertyValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| propertyValue | Value of the property to locate in the ICollection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | Value of the property to locate in the ICollection. |
 
 ## Return Value
 

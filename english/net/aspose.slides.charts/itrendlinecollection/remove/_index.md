@@ -14,9 +14,9 @@ Removes the specified value.
 public void Remove(ITrendline value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Trendline to remove [`ITrendline`](../../itrendline) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | ITrendline | Trendline to remove [`ITrendline`](../../itrendline) |
 
 ### See Also
 

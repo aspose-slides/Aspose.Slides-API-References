@@ -14,7 +14,7 @@ If layout of the plot area defined manually this property specifies whether to l
 public LayoutTargetType LayoutTargetType { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation presentation = new Presentation())

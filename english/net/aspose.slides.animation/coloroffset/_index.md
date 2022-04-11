@@ -16,7 +16,7 @@ public class ColorOffset : IColorOffset
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ColorOffset](coloroffset)() | The default constructor. |
 | [Value0](value0) { get; set; } | Defines first value of offset. Read/write Single. |

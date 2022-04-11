@@ -14,7 +14,7 @@ Limit argument
 public IMathElement Limit { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

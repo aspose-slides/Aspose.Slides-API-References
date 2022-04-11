@@ -17,7 +17,7 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIAccessiblePVIObject](asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperationEx interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |

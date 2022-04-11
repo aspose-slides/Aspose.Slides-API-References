@@ -16,7 +16,7 @@ public class ChartTextFormat : IChartTextFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ParagraphFormat](paragraphformat) { get; } | ParagraphFormat. Read-only [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](portionformat) { get; } | PortionFormat. Read-only [`IChartPortionFormat`](../ichartportionformat). |

@@ -16,7 +16,7 @@ public enum ColorDirection
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Clockwise | `0` |  |

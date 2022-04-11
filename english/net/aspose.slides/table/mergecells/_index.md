@@ -14,11 +14,11 @@ Merges neighbour cells.
 public ICell MergeCells(ICell cell1, ICell cell2, bool allowSplitting)
 ```
 
-| parameter | description |
-| --- | --- |
-| cell1 | Cell to merge. |
-| cell2 | Cell to merge. |
-| allowSplitting | True to allow cells splitting. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cell1 | ICell | Cell to merge. |
+| cell2 | ICell | Cell to merge. |
+| allowSplitting | Boolean | True to allow cells splitting. |
 
 ## Return Value
 

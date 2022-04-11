@@ -14,9 +14,9 @@ Removes an effect from a collection.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of effect to remove Int32 |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of effect to remove Int32 |
 
 ### See Also
 

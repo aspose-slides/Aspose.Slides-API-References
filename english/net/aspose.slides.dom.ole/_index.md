@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides.DOM.Ole Namespace
+title: Aspose.Slides.DOM.Ole
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
@@ -8,9 +8,9 @@ url: /net/aspose.slides.dom.ole/
 ---
 
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [OleEmbeddedDataInfo](./oleembeddeddatainfo) | Represents embedded data info for OLE object. |
 

@@ -16,7 +16,7 @@ public class Placeholder : IPlaceholder
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Index](index) { get; } | Gets or sets the index of a placeholder. Read-only UInt32. |
 | [Orientation](orientation) { get; } | Gets or sets the orientation of a placeholder. Read-only [`Orientation`](../orientation). |

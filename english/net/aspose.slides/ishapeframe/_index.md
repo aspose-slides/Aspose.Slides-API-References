@@ -16,7 +16,7 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CenterX](centerx) { get; } | Returns the X coordinate of a frame's center. Read-only Single. |
 | [CenterY](centery) { get; } | Returns the Y coordinate of a frame's center. Read-only Single. |

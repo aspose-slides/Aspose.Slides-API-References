@@ -16,7 +16,7 @@ public enum TiffCompressionTypes
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Default | `0` | Specifies the default compression scheme (LZW). |
 | None | `1` | Specifies no compression. |

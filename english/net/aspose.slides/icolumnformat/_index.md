@@ -16,7 +16,7 @@ public interface IColumnFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GetEffective](geteffective)() | Gets effective table column formatting properties with inheritance and table styles applied. |
 

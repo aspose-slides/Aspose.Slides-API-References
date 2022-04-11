@@ -14,10 +14,10 @@ Removes a column at the specified position from a table.
 public void RemoveAt(int firstColumnIndex, bool withAttachedRows)
 ```
 
-| parameter | description |
-| --- | --- |
-| firstColumnIndex | Index of a column to delete. |
-| withAttachedRows | True to delete also all attached columns. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstColumnIndex | Int32 | Index of a column to delete. |
+| withAttachedRows | Boolean | True to delete also all attached columns. |
 
 ### See Also
 

@@ -14,7 +14,7 @@ The value of vertical spacing between rows of a matrix; If the RowGapRule is set
 public uint RowGap { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

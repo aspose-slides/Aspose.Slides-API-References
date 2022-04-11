@@ -16,12 +16,12 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathGroupingCharacterFactory](mathgroupingcharacterfactory)() | The default constructor. |
 | [CreateMathGroupingCharacter](createmathgroupingcharacter)(…) | Creates a math grouping character (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM compatibility
 

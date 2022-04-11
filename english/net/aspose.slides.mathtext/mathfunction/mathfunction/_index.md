@@ -14,7 +14,7 @@ Initializes a new instance of the MathFunction class.
 public MathFunction(IMathElement funcName, IMathElement baseArgument)
 ```
 
-## Examples
+### Examples
 
 Example:
 
@@ -40,7 +40,7 @@ Initializes a new instance of the MathFunction class.
 public MathFunction(string funcName, IMathElement baseArgument)
 ```
 
-## Examples
+### Examples
 
 Example:
 

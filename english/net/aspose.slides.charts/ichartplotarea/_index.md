@@ -16,7 +16,7 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIActualLayout](asiactuallayout) { get; } | Returns IActualLayout interface. |
 | [AsILayoutable](asilayoutable) { get; } | Allows to get base ILayoutable interface. Read-only [`ILayoutable`](../ilayoutable). |

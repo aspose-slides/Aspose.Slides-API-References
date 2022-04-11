@@ -15,13 +15,13 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
     IOleEmbeddedDataInfo dataInfo)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new OLE frame. |
-| y | Y coordinate of a new OLE frame. |
-| width | Width of a new OLE frame. |
-| height | Height of a new OLE frame. |
-| dataInfo | Embedded data info [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new OLE frame. |
+| y | Single | Y coordinate of a new OLE frame. |
+| width | Single | Width of a new OLE frame. |
+| height | Single | Height of a new OLE frame. |
+| dataInfo | IOleEmbeddedDataInfo | Embedded data info [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ## Return Value
 
@@ -46,14 +46,14 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
     string className, string path)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new OLE frame. |
-| y | Y coordinate of a new OLE frame. |
-| width | Width of a new OLE frame. |
-| height | Height of a new OLE frame. |
-| className | Name of an OLE class. |
-| path | path to the linked file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new OLE frame. |
+| y | Single | Y coordinate of a new OLE frame. |
+| width | Single | Width of a new OLE frame. |
+| height | Single | Height of a new OLE frame. |
+| className | String | Name of an OLE class. |
+| path | String | path to the linked file. |
 
 ## Return Value
 

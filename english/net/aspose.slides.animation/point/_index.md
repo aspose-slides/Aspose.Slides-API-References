@@ -16,7 +16,7 @@ public class Point : IPoint
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Point](point)() | Default constructor. |
 | [Point](point)(…) | Create animation point with time, value and formula. |

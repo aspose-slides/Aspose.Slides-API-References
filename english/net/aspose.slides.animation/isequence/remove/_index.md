@@ -14,9 +14,9 @@ Removes specified effect from a collection.
 public void Remove(IEffect item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | Effect to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IEffect | Effect to remove. |
 
 ### See Also
 

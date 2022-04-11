@@ -16,7 +16,7 @@ public interface IBaseShapeLock
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [NoLocks](nolocks) { get; } | Return true if all lock-flags are disabled. Read-only Boolean. |
 

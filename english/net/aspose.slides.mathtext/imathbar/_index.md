@@ -16,13 +16,13 @@ public interface IMathBar : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](base) { get; } | Base argument |
 | [Position](position) { get; set; } | Position of the bar line. Default: Top |
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,12 +16,12 @@ public class MathBarFactory : IMathBarFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathBarFactory](mathbarfactory)() | The default constructor. |
 | [CreateMathBar](createmathbar)(…) | Create a math bar by applying to the element (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

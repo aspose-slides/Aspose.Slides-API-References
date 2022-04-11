@@ -14,9 +14,9 @@ Determines whether the specified [`Blur`](../../blur) is equal to the current [`
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`Blur`](../../blur) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`Blur`](../../blur) to compare. |
 
 ## Return Value
 

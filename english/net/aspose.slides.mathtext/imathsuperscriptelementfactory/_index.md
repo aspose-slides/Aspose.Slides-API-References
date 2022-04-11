@@ -16,11 +16,11 @@ public interface IMathSuperscriptElementFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathSuperscriptElement](createmathsuperscriptelement)(…) | Creates IMathSuperscriptElement |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

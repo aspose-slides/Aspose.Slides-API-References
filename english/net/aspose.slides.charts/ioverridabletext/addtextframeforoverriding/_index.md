@@ -14,9 +14,9 @@ Initialize TextFrameForOverriding with the text in paramener "text". If TextFram
 public ITextFrame AddTextFrameForOverriding(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text for a new TextFrameForOverriding. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text for a new TextFrameForOverriding. |
 
 ## Return Value
 

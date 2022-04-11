@@ -16,7 +16,7 @@ public sealed class MathArray : MathElementBase, IMathArray
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathArray](matharray)(…) | Creates a mathematical array and places the specified element in it (2 constructors) |
 | [Arguments](arguments) { get; } | The set of items of the array |
@@ -27,7 +27,7 @@ public sealed class MathArray : MathElementBase, IMathArray
 | [RowSpacingRule](rowspacingrule) { get; set; } | The type of vertical spacing between array elements Default: SingleLineGap |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

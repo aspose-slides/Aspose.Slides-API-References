@@ -17,7 +17,7 @@ public class LuminanceEffectiveData : EffectEffectiveData<Luminance, LuminanceEf
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Brightness](brightness) { get; } | Brightness. Read-only Single. |
 | [Contrast](contrast) { get; } | Contrast. Read-only Single. |

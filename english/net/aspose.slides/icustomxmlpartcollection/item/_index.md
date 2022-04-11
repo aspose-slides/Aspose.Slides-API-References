@@ -14,15 +14,15 @@ Returns the element at the specified index.
 public ICustomXmlPart this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index of the element to get. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | The zero-based index of the element to get. |
 
 ## Return Value
 
 The element at the specified index.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

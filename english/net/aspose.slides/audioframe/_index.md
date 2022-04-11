@@ -16,7 +16,7 @@ public class AudioFrame : PictureFrame, IAudioFrame
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AudioCdEndTrack](audiocdendtrack) { get; set; } | Returns or sets a last track index Read/write Int32. |
 | [AudioCdEndTrackTime](audiocdendtracktime) { get; set; } | Returns or sets a last track time. Read/write Int32. |

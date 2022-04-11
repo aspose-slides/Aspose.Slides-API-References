@@ -14,9 +14,9 @@ Creates new PresentationInfo object from stream and binds presentation to it. Ge
 public IPresentationInfo GetPresentationInfo(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Presentation stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Presentation stream. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Creates new PresentationInfo object from file and binds presentation to it.
 public IPresentationInfo GetPresentationInfo(string file)
 ```
 
-| parameter | description |
-| --- | --- |
-| file | Presentation file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | Presentation file. |
 
 ## Return Value
 

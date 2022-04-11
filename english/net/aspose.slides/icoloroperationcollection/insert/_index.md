@@ -14,10 +14,10 @@ Inserts the new operation to a collection.
 public IColorOperation Insert(int position, ColorTransformOperation operation)
 ```
 
-| parameter | description |
-| --- | --- |
-| position | The index at which the operation will be inserted. |
-| operation | Operation type. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | Int32 | The index at which the operation will be inserted. |
+| operation | ColorTransformOperation | Operation type. |
 
 ## Return Value
 
@@ -41,11 +41,11 @@ Inserts the new operation to a collection.
 public IColorOperation Insert(int position, ColorTransformOperation operation, float parameter)
 ```
 
-| parameter | description |
-| --- | --- |
-| position | The index at which the operation will be inserted. |
-| operation | Operation type. |
-| parameter | Operation's parameter. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | Int32 | The index at which the operation will be inserted. |
+| operation | ColorTransformOperation | Operation type. |
+| parameter | Single | Operation's parameter. |
 
 ## Return Value
 

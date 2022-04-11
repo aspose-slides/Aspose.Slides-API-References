@@ -14,7 +14,7 @@ Specifies how the bubble size values are represented on the bubble chart. This i
 public BubbleSizeRepresentationType BubbleSizeRepresentation { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.BubbleSizeRepresentation.
 

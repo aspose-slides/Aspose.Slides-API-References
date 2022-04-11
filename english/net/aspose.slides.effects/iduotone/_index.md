@@ -16,7 +16,7 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIAccessiblePVIObject](asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |

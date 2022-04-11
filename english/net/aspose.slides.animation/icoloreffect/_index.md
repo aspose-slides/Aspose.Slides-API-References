@@ -16,7 +16,7 @@ public interface IColorEffect : IBehavior
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
 | [By](by) { get; set; } | Describes the relative offset value for the color animation. Read/write [`IColorOffset`](../icoloroffset). |

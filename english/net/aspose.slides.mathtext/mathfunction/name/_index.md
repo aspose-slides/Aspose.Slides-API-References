@@ -14,7 +14,7 @@ Function name For example, function names are sin and cos
 public IMathElement Name { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

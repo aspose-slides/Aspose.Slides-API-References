@@ -16,7 +16,7 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISummaryZoomSection`](../isummaryzoomsection). |
 | [AddSummaryZoomSection](addsummaryzoomsection)(…) | Creates new Summary Zoom Section object and add it to the collection |

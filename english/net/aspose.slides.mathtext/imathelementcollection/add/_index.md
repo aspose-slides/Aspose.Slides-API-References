@@ -14,11 +14,11 @@ Adds a math element to the end of the collection.
 public void Add(IMathElement item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IMathElement | The IMathElement to be added to the end of the collection. |
 
-## Examples
+### Examples
 
 Example:
 

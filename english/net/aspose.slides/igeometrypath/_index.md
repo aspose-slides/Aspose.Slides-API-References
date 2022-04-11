@@ -16,7 +16,7 @@ public interface IGeometryPath
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FillMode](fillmode) { get; set; } | Sets fill mode |
 | [PathData](pathdata) { get; } | Returns geometry path of GeometryShape as an array of path segments. |

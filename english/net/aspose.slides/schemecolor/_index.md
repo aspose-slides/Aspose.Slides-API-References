@@ -16,7 +16,7 @@ public enum SchemeColor
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Color scheme is not defined. |
 | Background1 | `0` |  |

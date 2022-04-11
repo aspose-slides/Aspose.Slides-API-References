@@ -16,7 +16,7 @@ public interface ISlidesPicture : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
 | [Image](image) { get; set; } | Returns or sets the embedded image. Read/write [`IPPImage`](../ippimage). |

@@ -14,15 +14,15 @@ Joins a mathematical element and forms a mathematical block
 public IMathBlock Join(IMathElement mathElement)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathElement | The element to be joined |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathElement | IMathElement | The element to be joined |
 
 ## Return Value
 
 A new IMathBlock containing this instance and specified argument
 
-## Examples
+### Examples
 
 Example:
 
@@ -50,15 +50,15 @@ Joins a mathematical text and forms a mathematical block
 public IMathBlock Join(string mathText)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathText | Mathematical text to be joined |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathText | String | Mathematical text to be joined |
 
 ## Return Value
 
 A new IMathBlock containing this instance and specified argument
 
-## Examples
+### Examples
 
 Example:
 

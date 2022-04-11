@@ -16,7 +16,7 @@ public enum TimeUnitType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | Values will displayed as is. |
 | Days | `1` | Specifies the chart data shall be shown in days. |

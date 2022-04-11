@@ -16,7 +16,7 @@ public interface IFontSubstRule
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DestFont](destfont) { get; } | Font to use for substitution Read-only [`IFontData`](../ifontdata). |
 | [ReplaceFontCondition](replacefontcondition) { get; } | Rule to apply for substitution Read-only [`FontSubstCondition`](../fontsubstcondition). |

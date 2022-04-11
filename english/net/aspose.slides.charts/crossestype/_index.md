@@ -16,7 +16,7 @@ public enum CrossesType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | AxisCrossesAtZero | `0` | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
 | Maximum | `1` | The axis crosses at the maximum value. |

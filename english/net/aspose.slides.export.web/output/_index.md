@@ -16,7 +16,7 @@ public sealed class Output
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Add](add)(…) | Adds an output element for the image. (5 methods) |
 | [Add&lt;TContextObject&gt;](add)(…) |  |

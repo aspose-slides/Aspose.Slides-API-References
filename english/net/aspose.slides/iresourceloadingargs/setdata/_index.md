@@ -14,9 +14,9 @@ Sets user provided data of the resource which used if [`ResourceLoading`](../../
 public void SetData(byte[] data)
 ```
 
-| parameter | description |
-| --- | --- |
-| data | Provided data of the resource Byte[] |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | Byte[] | Provided data of the resource Byte[] |
 
 ### See Also
 

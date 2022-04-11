@@ -14,7 +14,7 @@ Determines if Aspose.Slides will embed common fonts for ASCII (33..127 code rang
 public bool EmbedTrueTypeFontsForASCII { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is true.
 

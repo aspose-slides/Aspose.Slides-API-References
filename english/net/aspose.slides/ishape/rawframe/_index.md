@@ -14,7 +14,7 @@ Returns or sets the raw shape frame's properties. Read/write [`IShapeFrame`](../
 public IShapeFrame RawFrame { get; set; }
 ```
 
-## Examples
+### Examples
 
 Code that attempts to assign undefined frame to IShape.Frame doesn't make sence in general case (particulary in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
 

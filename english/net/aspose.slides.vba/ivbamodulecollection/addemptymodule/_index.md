@@ -14,9 +14,9 @@ Adds a new empty module to the VBA Project.
 public IVbaModule AddEmptyModule(string name)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the module |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the module |
 
 ## Return Value
 

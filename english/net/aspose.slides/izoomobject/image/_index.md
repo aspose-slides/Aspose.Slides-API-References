@@ -14,7 +14,7 @@ Gets or sets image for zoom object. Read/write [`IPPImage`](../../ippimage).
 public IPPImage Image { get; set; }
 ```
 
-## Examples
+### Examples
 
 The example demonstrates changing an image of a Zoom object:
 

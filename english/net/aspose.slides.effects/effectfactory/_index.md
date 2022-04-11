@@ -16,7 +16,7 @@ public class EffectFactory : IEffectFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EffectFactory](effectfactory)() | The default constructor. |
 | [ImageTransformOperationFactory](imagetransformoperationfactory) { get; } | Returns ImageTransformOperationFactory. Read-only [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
@@ -27,7 +27,7 @@ public class EffectFactory : IEffectFactory
 | [CreateReflection](createreflection)() | Creates Reflection effect. |
 | [CreateSoftEdge](createsoftedge)() | Creates Soft Edge effect. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

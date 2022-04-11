@@ -15,14 +15,14 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
     string fname)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which video frame should be inserted. |
-| x | X coordinate of a new video frame. |
-| y | Y coordinate of a new video frame. |
-| width | Width of a new video frame. |
-| height | Height of a new video frame. |
-| fname | Video file name. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which video frame should be inserted. |
+| x | Single | X coordinate of a new video frame. |
+| y | Single | Y coordinate of a new video frame. |
+| width | Single | Width of a new video frame. |
+| height | Single | Height of a new video frame. |
+| fname | String | Video file name. |
 
 ## Return Value
 

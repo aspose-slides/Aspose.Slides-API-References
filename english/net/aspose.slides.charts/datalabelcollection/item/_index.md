@@ -14,7 +14,7 @@ Gets the data label for the data point with the specified index.
 public IDataLabel this[int index] { get; }
 ```
 
-## Remarks
+### Remarks
 
 Alternate way to access data label is: - SeriesEx.DataPoints[i].Label - manage label properties.
 

@@ -16,7 +16,7 @@ public interface ISlideComponent : IPresentationComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
 | [Slide](slide) { get; } | Returns the base slide. Read-only [`IBaseSlide`](../ibaseslide). |

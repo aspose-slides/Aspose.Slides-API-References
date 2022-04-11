@@ -14,7 +14,7 @@ Delimiter Beginning Character specifies the beginning, or opening, delimiter cha
 public char BeginningCharacter { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

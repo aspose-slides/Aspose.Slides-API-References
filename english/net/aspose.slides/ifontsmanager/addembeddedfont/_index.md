@@ -14,10 +14,10 @@ Adds the embedded font Keep in mind when adding any fonts that most fonts are co
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontData | Font data Byte[] |
-| embedFontRule | Embedded font rule [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | Byte[] | Font data Byte[] |
+| embedFontRule | EmbedFontCharacters | Embedded font rule [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
 ### See Also
 
@@ -36,10 +36,10 @@ Adds the embedded font. Keep in mind when copying any fonts that most fonts are 
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontData | Font data object [`IFontData`](../../ifontdata) |
-| embedFontRule | Embedded font rule [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | IFontData | Font data object [`IFontData`](../../ifontdata) |
+| embedFontRule | EmbedFontCharacters | Embedded font rule [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
 ### See Also
 

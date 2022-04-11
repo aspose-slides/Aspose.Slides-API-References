@@ -16,12 +16,12 @@ public interface IEffectStyleEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EffectFormat](effectformat) { get; } | Returns an effect format. Read-only [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
 | [ThreeDFormat](threedformat) { get; } | Returns a 3d format. Read-only [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
 

@@ -14,10 +14,10 @@ Moves layout slide from the collection to the specified position.
 public void Reorder(int index, ILayoutSlide layoutSlide)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Target index. |
-| layoutSlide | Slide to move. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Target index. |
+| layoutSlide | ILayoutSlide | Slide to move. |
 
 ### See Also
 

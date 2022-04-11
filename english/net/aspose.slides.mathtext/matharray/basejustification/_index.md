@@ -14,7 +14,7 @@ Specifies alignment of the array relative to surrounding text Text outside of th
 public MathVerticalAlignment BaseJustification { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

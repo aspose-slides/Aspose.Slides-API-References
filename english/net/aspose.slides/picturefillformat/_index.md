@@ -16,7 +16,7 @@ public class PictureFillFormat : PVIObject, IPictureFillFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CropBottom](cropbottom) { get; set; } | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write Single. |
 | [CropLeft](cropleft) { get; set; } | Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write Single. |

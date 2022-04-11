@@ -16,7 +16,7 @@ public interface IFormatScheme : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [BackgroundFillStyles](backgroundfillstyles) { get; } | Returns a collection of theme defined background fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |

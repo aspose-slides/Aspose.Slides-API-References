@@ -14,11 +14,11 @@ Adds the new Hue/Saturation/Luminance effect to the end of a collection.
 public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 ```
 
-| parameter | description |
-| --- | --- |
-| hue | The number of degrees by which the hue is adjusted. |
-| saturation | The percentage by which the saturation is adjusted. |
-| luminance | The percentage by which the luminance is adjusted. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hue | Single | The number of degrees by which the hue is adjusted. |
+| saturation | Single | The percentage by which the saturation is adjusted. |
+| luminance | Single | The percentage by which the luminance is adjusted. |
 
 ## Return Value
 

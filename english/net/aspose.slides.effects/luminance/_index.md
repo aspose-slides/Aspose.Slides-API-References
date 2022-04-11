@@ -16,7 +16,7 @@ public class Luminance : ImageTransformOperation, ILuminance
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`Luminance`](../luminance) is equal to the current [`Luminance`](../luminance). |
 | [GetEffective](geteffective)() | Gets effective Luminance effect data with the inheritance applied. |

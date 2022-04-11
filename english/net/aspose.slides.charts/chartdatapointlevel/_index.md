@@ -16,7 +16,7 @@ public class ChartDataPointLevel : IChartDataPointLevel
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Format](format) { get; } | Represents formatting properties of data point level. Read/write [`IFormat`](../iformat). |
 | [Label](label) { get; } | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only [`IDataLabel`](../idatalabel). |

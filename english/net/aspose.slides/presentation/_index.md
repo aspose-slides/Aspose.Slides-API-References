@@ -16,7 +16,7 @@ public sealed class Presentation : IPresentation
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Presentation](presentation)() | This constructor creates new presentation from scratch. Created presentation has one empty slide. |
 | [Presentation](presentation)(…) | This constructor creates new presentation from scratch. Created presentation has one empty slide. (5 constructors) |
@@ -54,12 +54,6 @@ public sealed class Presentation : IPresentation
 | [Print](print)() | Prints the whole presentation to the default printer. |
 | [Print](print)(…) | Prints the presentation according to the specified printer settings, using the standard (no User Interface) print controller. (3 methods) |
 | [Save](save)(…) | Saves specified slides of a presentation to a file with the specified format with page number keeping. (9 methods) |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| override [Finalize](finalize)() |  |
 
 ### See Also
 

@@ -14,7 +14,7 @@ Represents formatting properties of data point level. Read/write [`IFormat`](../
 public IFormat Format { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation())

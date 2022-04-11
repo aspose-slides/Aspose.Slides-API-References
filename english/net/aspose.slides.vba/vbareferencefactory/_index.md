@@ -16,7 +16,7 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [VbaReferenceFactory](vbareferencefactory)() | The default constructor. |
 | static [Instance](instance) { get; } | VBA project references factory static instance. Read-only [`VbaReferenceFactory`](../vbareferencefactory). |

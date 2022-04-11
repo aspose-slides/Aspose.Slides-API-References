@@ -14,9 +14,9 @@ Adds the new Alpha Modulate Fixed effect to the end of a collection.
 public IAlphaModulateFixed AddAlphaModulateFixedEffect(float amount)
 ```
 
-| parameter | description |
-| --- | --- |
-| amount | The percentage amount to scale the alpha. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| amount | Single | The percentage amount to scale the alpha. |
 
 ## Return Value
 

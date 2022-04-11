@@ -14,7 +14,7 @@ Specifies the shape of delimiters in the delimiter object. When is MathDelimiter
 public MathDelimiterShape DelimiterShape { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

@@ -14,9 +14,9 @@ Changes slide page number placeholder visibility.
 public void SetSlideNumberVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a page number placeholder visible, otherwise - hides it. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a page number placeholder visible, otherwise - hides it. |
 
 ### See Also
 

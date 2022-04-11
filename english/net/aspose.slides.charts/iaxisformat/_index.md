@@ -16,7 +16,7 @@ public interface IAxisFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Effect](effect) { get; } | Returns effects used for an axis. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Fill](fill) { get; } | Returns fill style properties of an axis. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |

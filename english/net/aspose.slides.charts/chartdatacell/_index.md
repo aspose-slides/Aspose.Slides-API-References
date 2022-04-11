@@ -16,7 +16,7 @@ public class ChartDataCell : IChartDataCell
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ChartDataWorksheet](chartdataworksheet) { get; } | Gets the worksheet. Read-only [`IChartDataWorksheet`](../ichartdataworksheet). |
 | [Column](column) { get; } | Returns the index of the column of worksheet in which the cell is located. Read-only Int32. |

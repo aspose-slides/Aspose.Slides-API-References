@@ -16,7 +16,7 @@ public enum PdfCompliance
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Pdf15 | `0` | The output file will comply with the PDF 1.5 standard. |
 | PdfA1b | `1` | The output file will comply with the PDF/A-1b standard. |

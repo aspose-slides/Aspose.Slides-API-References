@@ -14,12 +14,12 @@ Iterate each [`Shape`](../shape) in the [`BaseSlide`](../../../aspose.slides/bas
 public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 ```
 
-| parameter | description |
-| --- | --- |
-| baseSlide | Slide to iterate layout shapes |
-| forEachShape | Callback that will be invoked for each shape |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseSlide | BaseSlide | Slide to iterate layout shapes |
+| forEachShape | ForEachShapeCallback | Callback that will be invoked for each shape |
 
-## Examples
+### Examples
 
 ```csharp
 (Presentation pres = new Presentation("pres.pptx"))
@@ -52,12 +52,12 @@ Iterate each `Shape` in the [`Presentation`](../../../aspose.slides/presentation
 public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Presentation to iterate layout shapes |
-| forEachShape | Callback that will be invoked for each shape |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Presentation to iterate layout shapes |
+| forEachShape | ForEachShapeCallback | Callback that will be invoked for each shape |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))

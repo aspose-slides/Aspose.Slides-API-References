@@ -16,7 +16,7 @@ public enum ReturnAction
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Continue | `0` | Operation should be continued. |
 | Abort | `1` | Operation should be aborted. |

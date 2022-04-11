@@ -14,9 +14,9 @@ Determines whether the two ILineFormatEffectiveData instances are equal.
 public bool Equals(ILineFormatEffectiveData lf)
 ```
 
-| parameter | description |
-| --- | --- |
-| lf | The ILineFormatEffectiveData to compare with the current ILineFormatEffectiveData. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| lf | ILineFormatEffectiveData | The ILineFormatEffectiveData to compare with the current ILineFormatEffectiveData. |
 
 ## Return Value
 

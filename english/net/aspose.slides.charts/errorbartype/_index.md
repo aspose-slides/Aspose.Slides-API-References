@@ -16,7 +16,7 @@ public enum ErrorBarType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Both | `0` | Specifies that error bars shall be shown in the positive and negative directions. |
 | Minus | `1` | Specifies that error bars shall be shown in the negative direction only. |

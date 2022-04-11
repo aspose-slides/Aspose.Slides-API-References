@@ -14,7 +14,7 @@ Returns collection of output elements of the document. Read-only `Output`.
 public Output Output { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

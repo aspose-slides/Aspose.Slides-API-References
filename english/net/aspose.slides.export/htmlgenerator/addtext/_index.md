@@ -14,9 +14,9 @@ Adds plain text to the html files, replacing special characters with html entiti
 public void AddText(char[] text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | Char[] | Text to add. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Adds plain text to the html files, replacing special characters with html entiti
 public void AddText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to add. |
 
 ### See Also
 
@@ -54,11 +54,11 @@ Adds plain text to the html files, replacing special characters with html entiti
 public void AddText(char[] text, int startIndex, int length)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to add. |
-| startIndex | Start index of the portion to add. |
-| length | Length of the portion to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | Char[] | Text to add. |
+| startIndex | Int32 | Start index of the portion to add. |
+| length | Int32 | Length of the portion to add. |
 
 ### See Also
 

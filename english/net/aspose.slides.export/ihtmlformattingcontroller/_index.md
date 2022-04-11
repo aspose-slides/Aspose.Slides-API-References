@@ -16,7 +16,7 @@ public interface IHtmlFormattingController
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [WriteDocumentEnd](writedocumentend)(…) | Called to write html document footer. Called once per presentation conversion. |
 | [WriteDocumentStart](writedocumentstart)(…) | Called to write html document header. Called once per presentation conversion. |

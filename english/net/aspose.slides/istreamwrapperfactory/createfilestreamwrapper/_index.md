@@ -14,10 +14,10 @@ Creates FileStream with the specified path and creation mode.
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode)
 ```
 
-| parameter | description |
-| --- | --- |
-| fileName | File name String |
-| fileMode | File mode FileMode |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | File name String |
+| fileMode | FileMode | File mode FileMode |
 
 ## Return Value
 
@@ -41,11 +41,11 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
     FileAccess fileAccess)
 ```
 
-| parameter | description |
-| --- | --- |
-| fileName | File name String |
-| fileMode | File mode FileMode |
-| fileAccess | File access FileAccess |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | File name String |
+| fileMode | FileMode | File mode FileMode |
+| fileAccess | FileAccess | File access FileAccess |
 
 ## Return Value
 

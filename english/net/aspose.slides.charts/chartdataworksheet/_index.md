@@ -16,7 +16,7 @@ public class ChartDataWorksheet : IChartDataWorksheet
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Index](index) { get; } | Gets the index of the worksheet. Read-only Int32. |
 | [Name](name) { get; } | Returns the name of the worksheet. Read-only String. |

@@ -16,11 +16,11 @@ public interface IMathDelimiterFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathDelimiter](createmathdelimiter)(…) | Create a math delimiter by applying to the element (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

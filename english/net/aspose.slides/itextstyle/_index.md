@@ -16,7 +16,7 @@ public interface ITextStyle
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DefaultParagraphFormat](defaultparagraphformat) { get; } | Default paragraph propertiies. Read-only [`IParagraphFormat`](../iparagraphformat). |
 | [GetEffective](geteffective)() | Gets effective text style formatting data with the inheritance applied. |

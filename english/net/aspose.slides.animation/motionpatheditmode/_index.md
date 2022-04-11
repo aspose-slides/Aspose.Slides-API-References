@@ -16,7 +16,7 @@ public enum MotionPathEditMode
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Relative | `0` |  |

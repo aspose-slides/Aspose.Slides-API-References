@@ -14,7 +14,7 @@ Returns ICollection interface.
 public ICollection AsICollection { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

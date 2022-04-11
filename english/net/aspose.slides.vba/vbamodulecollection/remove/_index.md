@@ -14,9 +14,9 @@ Removes the first occurrence of a specific object from the collection.
 public void Remove(IVbaModule value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The module to remove from the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IVbaModule | The module to remove from the collection. |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public class Format : PVIObject, IFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Effect](effect) { get; } | Returns effects used for a chart. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](effect3d) { get; } | Returns 3D format of a chart. Read-only [`IThreeDFormat`](../../aspose.slides/ithreedformat). |

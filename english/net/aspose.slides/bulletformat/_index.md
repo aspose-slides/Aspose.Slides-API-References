@@ -16,7 +16,7 @@ public class BulletFormat : PVIObject, IBulletFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Char](char) { get; set; } | Returns or sets the bullet char of a paragraph with no inheritance. Read/write Char. |
 | [Color](color) { get; } | Returns the color format of a bullet of a paragraph with no inheritance. Read-only [`IColorFormat`](../icolorformat). |

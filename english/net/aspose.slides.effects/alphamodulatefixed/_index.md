@@ -16,7 +16,7 @@ public class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Amount](amount) { get; set; } | Returns an amount of effect in percents. Read/write Single. |
 | override [Equals](equals)(…) | Determines whether the specified [`AlphaModulateFixed`](../alphamodulatefixed) is equal to the current [`AlphaModulateFixed`](../alphamodulatefixed). |

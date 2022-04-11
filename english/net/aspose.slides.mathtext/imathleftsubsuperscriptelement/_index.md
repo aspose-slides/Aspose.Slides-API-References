@@ -16,14 +16,14 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](base) { get; } | Base argument |
 | [Subscript](subscript) { get; } | Subscript |
 | [Superscript](superscript) { get; } | Superscript |
 
-## Examples
+### Examples
 
 Example:
 

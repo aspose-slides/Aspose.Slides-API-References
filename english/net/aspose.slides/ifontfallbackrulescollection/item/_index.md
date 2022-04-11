@@ -14,7 +14,7 @@ Gets the rule at the specified index. Read-only [`IFontFallBackRule`](../../ifon
 public IFontFallBackRule this[int index] { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

@@ -16,7 +16,7 @@ public enum TrendlineType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Exponential | `0` | Specifies the trendline shall be an exponential curve in the form. |
 | Linear | `1` | Specifies the trendline shall be a line in the form. |

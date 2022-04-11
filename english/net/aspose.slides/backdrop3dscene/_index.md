@@ -16,7 +16,7 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AnchorPoint](anchorpoint) { get; set; } | Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read/write Single[]. |
 | [NormalVector](normalvector) { get; set; } | Returns or sets a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write Single[]. |

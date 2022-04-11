@@ -16,7 +16,7 @@ public sealed class VbaProject : IVbaProject
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [VbaProject](vbaproject)() | This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
 | [VbaProject](vbaproject)(…) | This constructor loads VBA project from binary representation of OLE container. |

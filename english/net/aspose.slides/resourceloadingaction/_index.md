@@ -16,7 +16,7 @@ public enum ResourceLoadingAction
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Default | `0` | Aspose.Slides will load external resource as usual. |
 | Skip | `1` | Aspose.Slides will skip loading of external resource. Only link without data will be stored for an image. |

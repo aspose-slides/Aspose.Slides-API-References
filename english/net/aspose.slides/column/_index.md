@@ -16,7 +16,7 @@ public sealed class Column : CellCollection, IColumn
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ColumnFormat](columnformat) { get; } | Returns the ColumnFormat object that contains formatting properties for this column. Read-only [`IColumnFormat`](../icolumnformat). |
 | [Width](width) { get; set; } | Returns or sets the width of a column. Read/write Double. |

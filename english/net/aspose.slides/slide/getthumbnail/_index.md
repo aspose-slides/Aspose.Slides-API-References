@@ -30,15 +30,15 @@ Returns a Thumbnail Bitmap object.
 public Bitmap GetThumbnail(IRenderingOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Rendering options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
 
 ## Return Value
 
 Bitmap objects.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -61,15 +61,15 @@ Returns a Thumbnail tiff bitmap object with specified parameters.
 public Bitmap GetThumbnail(ITiffOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Tiff options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | ITiffOptions | Tiff options. |
 
 ## Return Value
 
 Bitmap object.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -92,9 +92,9 @@ Returns a Thumbnail Bitmap object with specified size.
 public Bitmap GetThumbnail(Size imageSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| imageSize | Size of the image to create. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageSize | Size | Size of the image to create. |
 
 ## Return Value
 
@@ -116,10 +116,10 @@ Returns a Thumbnail Bitmap object with custom scaling.
 public Bitmap GetThumbnail(float scaleX, float scaleY)
 ```
 
-| parameter | description |
-| --- | --- |
-| scaleX | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | The value by which to scale this Thumbnail in the y-axis direction. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ## Return Value
 
@@ -141,16 +141,16 @@ Returns a Thumbnail Bitmap object with specified size.
 public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Rendering options. |
-| imageSize | Size of the image to create. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| imageSize | Size | Size of the image to create. |
 
 ## Return Value
 
 Bitmap objects.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -173,17 +173,17 @@ Returns a Thumbnail Bitmap object with custom scaling.
 public Bitmap GetThumbnail(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Rendering options. |
-| scaleX | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | The value by which to scale this Thumbnail in the y-axis direction. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ## Return Value
 
 Bitmap objects.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

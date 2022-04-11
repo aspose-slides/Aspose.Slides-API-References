@@ -16,7 +16,7 @@ public enum MathIntegralTypes
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Simple | `0` | Integral: '∫' |
 | Double | `1` | Double Integral: '∬' |

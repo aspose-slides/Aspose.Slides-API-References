@@ -16,7 +16,7 @@ public enum MathFractionTypes
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Bar | `1` | Bar Fraction |
 | Skewed | `2` | Skewed |

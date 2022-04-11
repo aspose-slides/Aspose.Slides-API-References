@@ -16,7 +16,7 @@ public interface IEffectFormat : IEffectParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectParamSource](asieffectparamsource) { get; } | Allows to get base IEffectParamSource interface. Read-only [`IEffectParamSource`](../ieffectparamsource). |
 | [BlurEffect](blureffect) { get; set; } | Blur effect. Read/write [`IBlur`](../../aspose.slides.effects/iblur). |

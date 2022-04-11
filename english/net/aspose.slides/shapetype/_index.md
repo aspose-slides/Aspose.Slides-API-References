@@ -16,7 +16,7 @@ public enum ShapeType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Not defined. |
 | Custom | `0` | Custom shape. This is return-only value. |

@@ -14,12 +14,12 @@ Iterate each `Portion` in the [`Presentation`](../../../aspose.slides/presentati
 public static void Portion(Presentation pres, ForEachPortionCallback forEachPortion)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Presentation to iterate portions |
-| forEachPortion | Callback that will be invoked for each portion |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Presentation to iterate portions |
+| forEachPortion | ForEachPortionCallback | Callback that will be invoked for each portion |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))

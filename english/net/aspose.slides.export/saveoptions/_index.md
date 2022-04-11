@@ -16,17 +16,11 @@ public abstract class SaveOptions : ISaveOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DefaultRegularFont](defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [ProgressCallback](progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [WarningCallback](warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [SaveOptions](saveoptions)() | The default constructor. |
 
 ### See Also
 

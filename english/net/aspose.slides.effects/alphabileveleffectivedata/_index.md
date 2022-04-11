@@ -17,7 +17,7 @@ public class AlphaBiLevelEffectiveData :
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Threshold](threshold) { get; } | Returns a threshold. Read-only Single. |
 

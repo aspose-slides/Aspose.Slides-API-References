@@ -14,9 +14,9 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForWaterfallSeries(IChartDataCell value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Data point Value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IChartDataCell | Data point Value |
 
 ## Return Value
 

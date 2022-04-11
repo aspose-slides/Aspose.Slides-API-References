@@ -16,7 +16,7 @@ public enum TransitionShredPattern
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Strip | `0` | Vertical strips |
 | Rectangle | `1` | Small rectangles |

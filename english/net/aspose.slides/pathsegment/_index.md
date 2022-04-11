@@ -16,7 +16,7 @@ public sealed class PathSegment : IPathSegment
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PathCommand](pathcommand) { get; } | Path type of the segment |
 | [SegmentData](segmentdata) { get; } | Path data of the segment |

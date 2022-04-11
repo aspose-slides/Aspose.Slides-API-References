@@ -16,7 +16,7 @@ public interface IOverrideThemeable : IThemeable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIThemeable](asithemeable) { get; } | Returns IThemeable interface. Read-only [`IThemeable`](../ithemeable). |
 | [ThemeManager](thememanager) { get; } | Returns override theme manager. Read-only [`IOverrideThemeManager`](../ioverridethememanager). |

@@ -16,7 +16,7 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns the gradient stop by index. |
 | [Add](add)(…) | Creates the new gradient stop and adds it to the end of collection. (3 methods) |

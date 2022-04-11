@@ -16,7 +16,7 @@ public enum ChartShapeType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Chart shape is not defined. |
 | Box | `0` | Specifies the chart shall be drawn with a box shape. |

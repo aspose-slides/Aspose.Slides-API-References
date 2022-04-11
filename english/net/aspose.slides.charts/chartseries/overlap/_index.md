@@ -14,7 +14,7 @@ Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 10
 public sbyte Overlap { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.Overlap.
 

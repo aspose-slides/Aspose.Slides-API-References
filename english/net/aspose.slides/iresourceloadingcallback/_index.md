@@ -16,7 +16,7 @@ public interface IResourceLoadingCallback
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ResourceLoading](resourceloading)(…) | Callback method which regulates external resources loading. |
 

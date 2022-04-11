@@ -16,7 +16,7 @@ public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the master notes slide. Read-only [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 | [NotesStyle](notesstyle) { get; } | Returns the style of a notes text. Read-only [`ITextStyle`](../itextstyle). |

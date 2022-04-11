@@ -14,11 +14,11 @@ Saves all slides of a presentation to a set of files representing XAML markup.
 public void Save(IXamlOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | The XAML format options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IXamlOptions | The XAML format options. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]
@@ -45,10 +45,10 @@ Saves all slides of a presentation to a stream in the specified format.
 public void Save(Stream stream, SaveFormat format)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
 
 ### See Also
 
@@ -67,10 +67,10 @@ Saves all slides of a presentation to a file with the specified format.
 public void Save(string fname, SaveFormat format)
 ```
 
-| parameter | description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
 
 ### See Also
 
@@ -89,11 +89,11 @@ Saves specified slides of a presentation to a stream in the specified format wit
 public void Save(Stream stream, int[] slides, SaveFormat format)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
 ### See Also
 
@@ -112,13 +112,13 @@ Saves all slides of a presentation to a stream in the specified format and with 
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Output stream. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -142,13 +142,13 @@ Saves specified slides of a presentation to a file with the specified format wit
 public void Save(string fname, int[] slides, SaveFormat format)
 ```
 
-| parameter | description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -173,11 +173,11 @@ Saves all slides of a presentation to a file with the specified format and with 
 public void Save(string fname, SaveFormat format, ISaveOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### See Also
 
@@ -197,14 +197,14 @@ Saves specified slides of a presentation to a stream in the specified format wit
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -230,12 +230,12 @@ Saves specified slides of a presentation to a file with the specified format wit
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### See Also
 

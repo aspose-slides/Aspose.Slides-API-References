@@ -14,16 +14,16 @@ Inserts a copy of a specified layout slide to specified position of the collecti
 public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of new slide. |
-| sourceLayout | Slide to clone. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of new slide. |
+| sourceLayout | ILayoutSlide | Slide to clone. |
 
 ## Return Value
 
 Inserted slide.
 
-## Remarks
+### Remarks
 
 New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint.
 

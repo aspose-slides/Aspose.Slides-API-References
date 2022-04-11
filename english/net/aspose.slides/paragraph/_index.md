@@ -16,7 +16,7 @@ public sealed class Paragraph : IParagraph
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Paragraph](paragraph)() | Initializes a new instance of the Paragraph class with default properties. |
 | [Paragraph](paragraph)(…) | Copy constructor that initializes a new instance of a Paragraph class. |

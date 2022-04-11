@@ -16,7 +16,7 @@ public enum MathTopBotPositions
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | Not defined |
 | Top | `1` | Top |

@@ -3,7 +3,7 @@ title: CustomData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.slides/presentation/customdata/
 ---
 ## Presentation.CustomData property

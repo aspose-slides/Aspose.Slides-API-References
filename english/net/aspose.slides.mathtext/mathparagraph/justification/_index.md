@@ -14,7 +14,7 @@ Paragraph Justification Default value: CenteredAsGroup
 public MathJustification Justification { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

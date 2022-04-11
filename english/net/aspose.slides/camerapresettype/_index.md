@@ -16,7 +16,7 @@ public enum CameraPresetType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | IsometricBottomDown | `0` |  |

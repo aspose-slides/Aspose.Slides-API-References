@@ -16,7 +16,7 @@ public interface ILayoutable : IChartComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIChartComponent](asichartcomponent) { get; } | Allows to get base IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
 | [Bottom](bottom) { get; } | Gets the top of the chart element as a fraction of the height of the chart. Read-only Single. |

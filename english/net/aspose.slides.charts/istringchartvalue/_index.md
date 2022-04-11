@@ -16,7 +16,7 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMultipleCellChartValue](asimultiplecellchartvalue) { get; } | Allows to get base IMultipleCellChartValue interface. Read-only [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
 | [AsLiteralString](asliteralstring) { get; set; } | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals. Read/write String. |

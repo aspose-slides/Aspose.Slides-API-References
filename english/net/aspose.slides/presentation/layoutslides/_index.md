@@ -3,7 +3,7 @@ title: LayoutSlides
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.slides/presentation/layoutslides/
 ---
 ## Presentation.LayoutSlides property
@@ -14,7 +14,7 @@ Returns a list of all layout slides that are defined in the presentation. Read-o
 public IGlobalLayoutSlideCollection LayoutSlides { get; }
 ```
 
-## Remarks
+### Remarks
 
 You can access to alternative API for adding/inserting/removing/cloning layout slides by using IMasterSlide.LayoutSlides property.
 

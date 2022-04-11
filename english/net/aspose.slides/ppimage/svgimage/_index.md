@@ -14,7 +14,7 @@ Returns or sets ISvgImage object [`ISvgImage`](../../isvgimage)
 public ISvgImage SvgImage { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This value indicates that this image has been created from SVG.
 

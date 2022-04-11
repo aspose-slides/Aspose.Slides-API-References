@@ -14,10 +14,10 @@ Creates new OLE Automation type library reference.
 public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string libid)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the VBA project reference String |
-| libid | Identifier of an Automation type library String |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the VBA project reference String |
+| libid | String | Identifier of an Automation type library String |
 
 ## Return Value
 

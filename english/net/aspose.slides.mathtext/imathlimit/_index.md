@@ -16,14 +16,14 @@ public interface IMathLimit : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](base) { get; } | Base argument |
 | [Limit](limit) { get; } | Limit argument |
 | [UpperLimit](upperlimit) { get; set; } | Specifies upper or lower limit |
 
-## Examples
+### Examples
 
 Example:
 

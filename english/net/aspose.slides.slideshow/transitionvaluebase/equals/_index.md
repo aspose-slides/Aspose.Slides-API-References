@@ -14,9 +14,9 @@ Determines whether the two TransitionValueBase instances are equal.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The TransitionValueBase to compare with the current TransitionValueBase. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The TransitionValueBase to compare with the current TransitionValueBase. |
 
 ## Return Value
 

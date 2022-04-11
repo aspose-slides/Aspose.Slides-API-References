@@ -16,7 +16,7 @@ public class OleObjectFrame : GraphicalObject, IOleObjectFrame
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
 | [EmbeddedData](embeddeddata) { get; } | Gets or sets information about OLE embedded data. Read/write [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |

@@ -16,7 +16,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
 

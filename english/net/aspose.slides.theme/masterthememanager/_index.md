@@ -16,7 +16,7 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [IsOverrideThemeEnabled](isoverridethemeenabled) { get; set; } | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write Boolean. |
 | [OverrideTheme](overridetheme) { get; set; } | Returns the overriding theme object. Read/write [`IMasterTheme`](../imastertheme). |

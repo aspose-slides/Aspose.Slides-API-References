@@ -16,7 +16,7 @@ public interface IImageWrapperFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateImageWrapper](createimagewrapper)(…) | Initializes a new instance of the BitmapWrapper class from the specified existing image. (3 methods) |
 

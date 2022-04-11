@@ -16,7 +16,7 @@ public abstract class MathElementBase : IMathElement
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Accent](accent)(…) | Sets an accent mark (a character on the top of this element) |
 | [AsArgumentOfFunction](asargumentoffunction)(…) | Takes specified function using this instance as the argument (5 methods) |
@@ -42,14 +42,6 @@ public abstract class MathElementBase : IMathElement
 | [ToBox](tobox)() | Places this element in a non-visual box (logical grouping) which is used to group components of an equation or other instance of mathematical text. A boxed object can (for example) serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. |
 | virtual [ToMathArray](tomatharray)() | Puts in a vertical array |
 | [Underbar](underbar)() | Sets a bar on the bottom of this element |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [MathElementBase](mathelementbase)() | The default constructor. |
-| [GetChildren](getchildren)(…) |  (3 methods) |
-| static readonly [s_SuperscriptOfMinusOne](s_superscriptofminusone) |  |
 
 ### See Also
 

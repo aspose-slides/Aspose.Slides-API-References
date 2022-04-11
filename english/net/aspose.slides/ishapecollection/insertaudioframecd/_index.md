@@ -14,13 +14,13 @@ Insert an AudioFrame with CD.
 public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, float height)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which video frame should be inserted. |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which video frame should be inserted. |
+| x | Single | X coordinate of a new audio frame. |
+| y | Single | Y coordinate of a new audio frame. |
+| width | Single | Width of a new audio frame. |
+| height | Single | Height of a new audio frame. |
 
 ## Return Value
 

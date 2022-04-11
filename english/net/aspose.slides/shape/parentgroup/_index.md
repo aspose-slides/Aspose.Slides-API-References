@@ -14,7 +14,7 @@ Returns parent GroupShape object if shape is grouped. Otherwise returns null. Re
 public IGroupShape ParentGroup { get; }
 ```
 
-## Remarks
+### Remarks
 
 Property [`IsGrouped`](../isgrouped) determines whether the shape is grouped.
 

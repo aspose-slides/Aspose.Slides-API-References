@@ -14,13 +14,13 @@ Adds a new audio frame with linked audio file to the end of a collection.
 public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float height, string fname)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| fname | Audio file name. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new audio frame. |
+| y | Single | Y coordinate of a new audio frame. |
+| width | Single | Width of a new audio frame. |
+| height | Single | Height of a new audio frame. |
+| fname | String | Audio file name. |
 
 ## Return Value
 

@@ -14,26 +14,26 @@ Checks whether a password is correct for a presentation protected with open pass
 public bool CheckPassword(string password)
 ```
 
-| parameter | description |
-| --- | --- |
-| password | The password to check. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | String | The password to check. |
 
 ## Return Value
 
 True if the presentation is protected with open password and the password is correct and false otherwise.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException |  |
 | NotSupportedException |  |
 
-## Remarks
+### Remarks
 
 When the password is null or empty, this method returns false.
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

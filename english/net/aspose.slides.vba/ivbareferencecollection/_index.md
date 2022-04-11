@@ -16,7 +16,7 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [Add](add)(…) | Adds the new reference to references collection |

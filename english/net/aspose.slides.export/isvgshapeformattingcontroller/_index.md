@@ -16,7 +16,7 @@ public interface ISvgShapeFormattingController
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FormatShape](formatshape)(…) | This function is called before rendering of shape to SVG to allow user to control resulting SVG. |
 

@@ -14,7 +14,7 @@ Init ColorScheme with new object for overriding ColorScheme of InheritedTheme.
 public void InitColorScheme()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

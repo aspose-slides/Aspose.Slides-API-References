@@ -16,7 +16,7 @@ public interface IDocumentProperties
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ApplicationTemplate](applicationtemplate) { get; set; } | Returns or sets the template of a application. Read/write String. |
 | [AppVersion](appversion) { get; } | Returns the app version. Read-only String. |

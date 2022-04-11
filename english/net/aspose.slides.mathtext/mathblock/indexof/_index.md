@@ -14,15 +14,15 @@ Determines the index of a specific math element in collection.
 public int IndexOf(IMathElement item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IMathElement | The element to locate in the collection. |
 
 ## Return Value
 
 The index of *item* if found in the collection; otherwise, -1.
 
-## Examples
+### Examples
 
 Example:
 

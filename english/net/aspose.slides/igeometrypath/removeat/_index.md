@@ -14,9 +14,9 @@ Removes segment at the specified index of the geometry path.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 |  |
 
 ### See Also
 

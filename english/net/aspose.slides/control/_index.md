@@ -16,7 +16,7 @@ public class Control : IControl
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ActiveXControlBinary](activexcontrolbinary) { get; } | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
 | [ClassId](classid) { get; set; } | Gets class id of this control. Read-only Guid. |

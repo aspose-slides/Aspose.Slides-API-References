@@ -16,7 +16,7 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Direction](direction) { get; } | Direction of shadow. Read-only Single. |

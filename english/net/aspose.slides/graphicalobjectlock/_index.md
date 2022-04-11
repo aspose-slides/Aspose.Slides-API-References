@@ -16,7 +16,7 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AspectRatioLocked](aspectratiolocked) { get; set; } | Determines whether shape have to preserve aspect ratio on resizing. Read/write Boolean. |
 | [DrilldownLocked](drilldownlocked) { get; set; } | Determines whether selecting subshapes of this object is forbidden. Read/write Boolean. |

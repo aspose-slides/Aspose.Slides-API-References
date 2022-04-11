@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides.Util Namespace
+title: Aspose.Slides.Util
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains util classes that helps to work with presentations.
 type: docs
@@ -8,9 +8,9 @@ url: /net/aspose.slides.util/
 ---
 Contains util classes that helps to work with presentations.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | static class [ShapeUtil](./shapeutil) | Offer methods which helps to process shapes objects. |
 | static class [SlideUtil](./slideutil) | Offer methods which help to search shapes and text in a presentation. |

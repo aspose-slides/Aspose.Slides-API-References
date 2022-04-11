@@ -16,7 +16,7 @@ public enum BevelPresetType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Angle | `0` |  |

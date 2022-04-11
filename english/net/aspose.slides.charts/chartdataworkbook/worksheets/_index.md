@@ -14,7 +14,7 @@ Gets a collection of worksheets.
 public IChartDataWorksheetCollection Worksheets { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

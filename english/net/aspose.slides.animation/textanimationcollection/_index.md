@@ -16,7 +16,7 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TextAnimationCollection](textanimationcollection)() | The default constructor. |
 | [Count](count) { get; } | Returns a number of elements in the collection. Read-only Int32. |

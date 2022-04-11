@@ -16,7 +16,7 @@ public interface IColorOperation
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [OperationType](operationtype) { get; } | Returns or sets the type of an operation. Read-only [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](parameter) { get; } | Returns a parameter of an operation. Read-only Single. |

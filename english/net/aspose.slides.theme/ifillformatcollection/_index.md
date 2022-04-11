@@ -16,7 +16,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
 

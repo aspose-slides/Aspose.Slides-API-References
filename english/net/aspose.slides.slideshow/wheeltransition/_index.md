@@ -16,7 +16,7 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Spokes](spokes) { get; set; } | Number spokes of wheel transition. Read/write UInt32. |
 

@@ -14,9 +14,9 @@ Determines whether the specified System.Object is equal to the current object.
 public bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The object to compare with the current object. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The object to compare with the current object. |
 
 ## Return Value
 

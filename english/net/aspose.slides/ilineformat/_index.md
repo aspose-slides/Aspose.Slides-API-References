@@ -16,7 +16,7 @@ public interface ILineFormat : ILineParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alignment](alignment) { get; set; } | Returns or sets the line alignment. Read/write [`LineAlignment`](../linealignment). |
 | [AsILineParamSource](asilineparamsource) { get; } | Allows to get base ILineParamSource interface. Read-only [`ILineParamSource`](../ilineparamsource). |

@@ -16,7 +16,7 @@ public class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`AlphaCeiling`](../alphaceiling) is equal to the current [`AlphaCeiling`](../alphaceiling). |
 | [GetEffective](geteffective)() | Gets effective Alpha Ceiling effect data with the inheritance applied. |

@@ -14,12 +14,12 @@ Renders certain slide to a Graphics object.
 public void RenderToGraphics(IRenderingOptions options, Graphics graphics)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Rendering options. |
-| graphics | The object where to render to. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| graphics | Graphics | The object where to render to. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -42,13 +42,13 @@ Renders certain slide to a Graphics object using specified size.
 public void RenderToGraphics(IRenderingOptions options, Graphics graphics, Size renderingSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Rendering options. |
-| graphics | The object where to render to. |
-| renderingSize | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| graphics | Graphics | The object where to render to. |
+| renderingSize | Size | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -72,14 +72,14 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics, float
     float scaleY)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Rendering options. |
-| graphics | The object where to render to. |
-| scaleX | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
-| scaleY | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| graphics | Graphics | The object where to render to. |
+| scaleX | Single | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
+| scaleY | Single | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

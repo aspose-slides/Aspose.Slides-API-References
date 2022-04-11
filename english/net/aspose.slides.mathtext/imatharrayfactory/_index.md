@@ -16,11 +16,11 @@ public interface IMathArrayFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathArray](creatematharray)(…) | Creates a math array and places the specified element in it (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

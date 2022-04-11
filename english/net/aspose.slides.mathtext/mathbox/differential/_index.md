@@ -14,7 +14,7 @@ Differential When true, the box acts as a differential (e.g., 𝑑𝑥 in an int
 public bool Differential { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

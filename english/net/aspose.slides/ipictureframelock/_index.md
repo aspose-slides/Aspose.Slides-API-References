@@ -16,7 +16,7 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AdjustHandlesLocked](adjusthandleslocked) { get; set; } | Determines whether a changing adjust values is forbidden. Read/write Boolean. |
 | [ArrowheadsLocked](arrowheadslocked) { get; set; } | Determines whether a changing arrowheads is forbidden. Read/write Boolean. |

@@ -14,13 +14,13 @@ Creates a new Table and inserts it to the collection at the specified index.
 public ITable InsertTable(int index, float x, float y, double[] columnWidths, double[] rowHeights)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| columnWidths | Array of doubles which represents widths of columns in the table. |
-| rowHeights | Array of doubles which represents heights of rows in the table. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which value should be inserted. |
+| x | Single | The X-coordinate for a left side of shape's frame. |
+| y | Single | The Y-coordinate for a top side of shape's frame. |
+| columnWidths | Double[] | Array of doubles which represents widths of columns in the table. |
+| rowHeights | Double[] | Array of doubles which represents heights of rows in the table. |
 
 ## Return Value
 

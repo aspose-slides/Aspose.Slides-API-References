@@ -16,7 +16,7 @@ public sealed class TextFrame : ITextFrame
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HyperlinkQueries](hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](paragraphs) { get; } | Returns the list of all paragraphs in a frame. Read-only [`IParagraphCollection`](../iparagraphcollection). |

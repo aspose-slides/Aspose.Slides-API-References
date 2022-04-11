@@ -14,9 +14,9 @@ Returns an effect at the specified index.
 public IEffect this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  |  |
 
 ### See Also
 

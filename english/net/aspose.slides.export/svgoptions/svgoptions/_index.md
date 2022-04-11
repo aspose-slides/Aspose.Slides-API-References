@@ -30,11 +30,11 @@ Initializes a new instance of the SVGOptions class specifying the link embedding
 public SVGOptions(ILinkEmbedController linkEmbedController)
 ```
 
-| parameter | description |
-| --- | --- |
-| linkEmbedController | The link embedding controller reference. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| linkEmbedController | ILinkEmbedController | The link embedding controller reference. |
 
-## Remarks
+### Remarks
 
 Link embedding controller is a delegate object that is responsible for making decisions if resources (such as images) need to be embedded or referenced as external resources.
 

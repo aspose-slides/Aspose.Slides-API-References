@@ -16,7 +16,7 @@ public interface IMotionEffect : IBehavior
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Angle](angle) { get; set; } | Describes the relative angle of the motion path. Read/write Single. |
 | [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |

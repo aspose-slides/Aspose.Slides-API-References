@@ -16,7 +16,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Allows to get base IEnumerable interface IEnumerable |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
@@ -29,7 +29,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection/&gt;. |
 | [RemoveAt](removeat)(…) | Removes an item at the specified index of the collection. |
 
-## Examples
+### Examples
 
 Example:
 

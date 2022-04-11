@@ -14,10 +14,10 @@ Gets a named boolean value from the custom properties.
 public void GetCustomPropertyValue(string name, out bool value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | Boolean& | Custom property value |
 
 ### See Also
 
@@ -35,10 +35,10 @@ Gets a named DateTime value from the custom properties.
 public void GetCustomPropertyValue(string name, out DateTime value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | DateTime& | Custom property value |
 
 ### See Also
 
@@ -56,10 +56,10 @@ Gets a named double value from the custom properties.
 public void GetCustomPropertyValue(string name, out double value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to get. |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get. |
+| value | Double& | Custom property value |
 
 ### See Also
 
@@ -77,10 +77,10 @@ Gets a named float value from the custom properties.
 public void GetCustomPropertyValue(string name, out float value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | Single& | Custom property value |
 
 ### See Also
 
@@ -98,10 +98,10 @@ Gets a named integer value from the custom properties.
 public void GetCustomPropertyValue(string name, out int value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | Int32& | Custom property value |
 
 ### See Also
 
@@ -119,10 +119,10 @@ Gets a named string value from the custom properties.
 public void GetCustomPropertyValue(string name, out string value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | String& | Custom property value |
 
 ### See Also
 

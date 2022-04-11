@@ -14,9 +14,9 @@ Removes the embedded font
 public void RemoveEmbeddedFont(IFontData fontData)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontData | Font data object [`IFontData`](../../ifontdata) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | IFontData | Font data object [`IFontData`](../../ifontdata) |
 
 ### See Also
 

@@ -14,10 +14,10 @@ Sets a named boolean custom property.
 public void SetCustomPropertyValue(string name, bool value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | Boolean | Custom property value |
 
 ### See Also
 
@@ -35,10 +35,10 @@ Sets a named DateTime custom property.
 public void SetCustomPropertyValue(string name, DateTime value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | DateTime | Custom property value |
 
 ### See Also
 
@@ -56,10 +56,10 @@ Sets a named double custom property.
 public void SetCustomPropertyValue(string name, double value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | Double | Custom property value |
 
 ### See Also
 
@@ -77,10 +77,10 @@ Sets a named float custom property.
 public void SetCustomPropertyValue(string name, float value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | Single | Custom property value |
 
 ### See Also
 
@@ -98,10 +98,10 @@ Sets a named integer custom property.
 public void SetCustomPropertyValue(string name, int value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | Int32 | Custom property value |
 
 ### See Also
 
@@ -119,10 +119,10 @@ Sets a named string custom property.
 public void SetCustomPropertyValue(string name, string value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | String | Custom property value |
 
 ### See Also
 

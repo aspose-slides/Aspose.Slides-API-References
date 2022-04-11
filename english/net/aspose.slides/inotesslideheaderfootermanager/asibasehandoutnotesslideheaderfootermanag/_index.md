@@ -14,7 +14,7 @@ Returns IBaseHandoutNotesSlideHeaderFooterManag interface.
 public IBaseHandoutNotesSlideHeaderFooterManag AsIBaseHandoutNotesSlideHeaderFooterManag { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

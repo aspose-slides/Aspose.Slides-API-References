@@ -14,9 +14,9 @@ Adds font from the binary data
 public static void LoadExternalFont(byte[] data)
 ```
 
-| parameter | description |
-| --- | --- |
-| data | Font's data |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | Byte[] | Font's data |
 
 ### See Also
 

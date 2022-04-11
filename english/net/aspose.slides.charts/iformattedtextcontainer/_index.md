@@ -16,7 +16,7 @@ public interface IFormattedTextContainer : IChartComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIChartComponent](asichartcomponent) { get; } | Returns IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
 | [TextFormat](textformat) { get; } | Returns chart text format. Read-only [`IChartTextFormat`](../icharttextformat). |

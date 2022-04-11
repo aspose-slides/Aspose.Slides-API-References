@@ -16,7 +16,7 @@ public class SmartArtNode : ISmartArtNode
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BulletFillFormat](bulletfillformat) { get; } | Returns the FillFormat object that contains fill formatting properties for a node bullet. Note: can return null for certain types of SmartArt layout which does not provide bullets for nodes. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [ChildNodes](childnodes) { get; } | Returns collections of all child nodes of the current node. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |

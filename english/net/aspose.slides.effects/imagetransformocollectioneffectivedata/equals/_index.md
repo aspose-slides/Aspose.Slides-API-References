@@ -14,9 +14,9 @@ Determines whether the specified object is equal to the current object.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The object to compare with the current object. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The object to compare with the current object. |
 
 ## Return Value
 

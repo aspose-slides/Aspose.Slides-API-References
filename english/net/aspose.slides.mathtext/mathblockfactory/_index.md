@@ -16,13 +16,13 @@ public class MathBlockFactory : IMathBlockFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathBlockFactory](mathblockfactory)() | The default constructor. |
 | [CreateMathBlock](createmathblock)() | Create a math block |
 | [CreateMathBlock](createmathblock)(…) | Create a math block and place the element in it (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

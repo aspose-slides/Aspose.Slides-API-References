@@ -14,9 +14,9 @@ Returns the font name, replacing theme referrence with an actual font used.
 public string GetFontName(IThemeEffectiveData theme)
 ```
 
-| parameter | description |
-| --- | --- |
-| theme | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See [`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| theme | IThemeEffectiveData | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See [`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
 
 ## Return Value
 

@@ -14,9 +14,9 @@ Changes all header placeholders visibility, including notes master, notes slides
 public void SetAllHeadersVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a header placeholders visible, otherwise - hides them. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a header placeholders visible, otherwise - hides them. |
 
 ### See Also
 

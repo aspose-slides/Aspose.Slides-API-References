@@ -14,10 +14,10 @@ Adds the new Tint effect to the end of a collection.
 public ITint AddTintEffect(float hue, float amount)
 ```
 
-| parameter | description |
-| --- | --- |
-| hue | The hue towards which to tint. |
-| amount | Specifies by how much the color value is shifted. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hue | Single | The hue towards which to tint. |
+| amount | Single | Specifies by how much the color value is shifted. |
 
 ## Return Value
 

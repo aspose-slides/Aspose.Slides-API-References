@@ -14,7 +14,7 @@ Represents a user's collection of FontFallBack rules for managing of collections
 public IFontFallBackRulesCollection FontFallBackRulesCollection { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

@@ -16,7 +16,7 @@ public class SequenceCollection : ISequenceCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of elements in a collection Read-only Int32. |
 | [Item](item) { get; } | Returns a sequense at the specified index. |

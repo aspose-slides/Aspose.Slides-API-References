@@ -16,7 +16,7 @@ public class CellCircularReferenceException : PptxEditException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CellCircularReferenceException](cellcircularreferenceexception)() | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class. |
 | [CellCircularReferenceException](cellcircularreferenceexception)(…) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message. (3 constructors) |

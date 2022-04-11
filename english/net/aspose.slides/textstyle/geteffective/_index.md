@@ -18,7 +18,7 @@ public ITextStyleEffectiveData GetEffective()
 
 A [`ITextStyleEffectiveData`](../../itextstyleeffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting some of effective text style properties.
 

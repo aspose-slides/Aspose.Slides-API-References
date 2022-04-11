@@ -16,7 +16,7 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISingleCellChartValue](asisinglecellchartvalue) { get; } | Allows to get base ISingleCellChartValue interface. Read-only [`ISingleCellChartValue`](../isinglecellchartvalue). |
 | [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals. Read/write Double. |

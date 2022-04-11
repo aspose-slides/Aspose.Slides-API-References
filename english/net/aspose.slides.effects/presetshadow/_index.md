@@ -16,7 +16,7 @@ public class PresetShadow : IPresetShadow
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of shadow. Read/write Single. |
 | [Distance](distance) { get; set; } | Distance of shadow. Read/write Double. |

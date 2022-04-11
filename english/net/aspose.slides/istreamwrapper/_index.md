@@ -16,7 +16,7 @@ public interface IStreamWrapper : IDisposable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIDisposable](asidisposable) { get; } | Allows to get base IDisposable interface. Read-only IDisposable. |
 | [CanRead](canread) { get; } | Gets a value indicating whether the current stream supports reading. Read-only Boolean. |

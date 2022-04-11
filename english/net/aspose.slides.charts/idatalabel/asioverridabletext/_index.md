@@ -14,7 +14,7 @@ Returns IOverridableText interface. Read-only [`IOverridableText`](../../ioverri
 public IOverridableText AsIOverridableText { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

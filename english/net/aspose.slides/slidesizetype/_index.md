@@ -16,7 +16,7 @@ public enum SlideSizeType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | OnScreen | `0` | On screen 4x3 |
 | LetterPaper | `1` | Letter |

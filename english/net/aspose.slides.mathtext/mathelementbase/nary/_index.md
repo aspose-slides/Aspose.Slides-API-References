@@ -15,17 +15,17 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
     IMathElement upperLimit)
 ```
 
-| parameter | description |
-| --- | --- |
-| type | The N-ary operator type |
-| lowerLimit | The lower limit |
-| upperLimit | The upper limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | MathNaryOperatorTypes | The N-ary operator type |
+| lowerLimit | IMathElement | The lower limit |
+| upperLimit | IMathElement | The upper limit |
 
 ## Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
-## Examples
+### Examples
 
 Example:
 
@@ -56,17 +56,17 @@ Creates a N-ary operator
 public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, string upperLimit)
 ```
 
-| parameter | description |
-| --- | --- |
-| type | The N-ary operator type |
-| lowerLimit | The lower limit |
-| upperLimit | The upper limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | MathNaryOperatorTypes | The N-ary operator type |
+| lowerLimit | String | The lower limit |
+| upperLimit | String | The upper limit |
 
 ## Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
-## Examples
+### Examples
 
 Example:
 

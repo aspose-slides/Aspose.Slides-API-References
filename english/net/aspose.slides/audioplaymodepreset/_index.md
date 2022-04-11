@@ -16,7 +16,7 @@ public enum AudioPlayModePreset
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | Play automatically. |

@@ -14,9 +14,9 @@ Removes the first occurrence of a specific object from the collection.
 public void Remove(IMasterSlide value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The master slide to remove from the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IMasterSlide | The master slide to remove from the collection. |
 
 ### See Also
 

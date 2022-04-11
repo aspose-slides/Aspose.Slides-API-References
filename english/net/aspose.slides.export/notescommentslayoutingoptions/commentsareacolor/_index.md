@@ -14,7 +14,7 @@ Gets or sets the color of comments area (Applies only if comments are displayed 
 public Color CommentsAreaColor { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is Color.SkyBlue.
 

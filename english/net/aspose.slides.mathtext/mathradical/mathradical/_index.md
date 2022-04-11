@@ -14,12 +14,12 @@ Initializes a new instance of the MathRadical class.
 public MathRadical(IMathElement baseArgument, IMathElement degreeArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| baseArgument | Base |
-| degreeArgument | Degree |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseArgument | IMathElement | Base |
+| degreeArgument | IMathElement | Degree |
 
-## Examples
+### Examples
 
 Example:
 

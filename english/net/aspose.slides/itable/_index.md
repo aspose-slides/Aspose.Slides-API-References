@@ -16,7 +16,7 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBulkTextFormattable](asibulktextformattable) { get; } | Allows to get base IBulkTextFormattable interface. Read-only [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |

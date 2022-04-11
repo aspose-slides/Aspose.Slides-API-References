@@ -16,7 +16,7 @@ public interface INormalViewProperties
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HorizontalBarState](horizontalbarstate) { get; set; } | Specifies the state that the horizontal splitter bar should be shown in. A horizontal splitter bar separates the slide from the content region below the slide. |
 | [PreferSingleView](prefersingleview) { get; set; } | Specifies whether the user prefers to see a full-window single-content region over the standard normal view with three content regions. If enabled, the application may choose to display one of the content regions in the entire window. Read/write Boolean. |

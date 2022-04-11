@@ -14,7 +14,7 @@ Default constructor (create String.Empty Value)
 public MathematicalText()
 ```
 
-## Examples
+### Examples
 
 Example:
 
@@ -39,11 +39,11 @@ Create MathText with single symbol
 public MathematicalText(char mathSymbol)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathSymbol | single symbol |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathSymbol | Char | single symbol |
 
-## Examples
+### Examples
 
 Example:
 
@@ -68,11 +68,11 @@ Create MathematicalText from text
 public MathematicalText(string mathText)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathText | text value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
 
-## Examples
+### Examples
 
 Example:
 
@@ -97,12 +97,12 @@ Create MathematicalText from text and format settings
 public MathematicalText(string mathText, IPortionFormat portionFormat)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathText | text value |
-| portionFormat | text format settings |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+| portionFormat | IPortionFormat | text format settings |
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](gradientdirection) { get; } | Returns the style of a gradient. Read-only [`GradientDirection`](../gradientdirection). |
@@ -26,7 +26,7 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 | [LinearGradientScaled](lineargradientscaled) { get; } | Determines whether a gradient is scaled. Read-only Boolean. |
 | [TileFlip](tileflip) { get; } | Returns the flipping mode for a gradient. Read-only [`TileFlip`](../tileflip). |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IFillFormatEffectiveData`](../ifillformateffectivedata) and [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 

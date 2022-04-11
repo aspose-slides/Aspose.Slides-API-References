@@ -14,11 +14,11 @@ Creates a copy of the specified template row and insert it at the specified posi
 public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a new row. |
-| templ | Row which is used as a template. |
-| withAttachedRows | True to copy also all rows attached to the template row. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of a new row. |
+| templ | IRow | Row which is used as a template. |
+| withAttachedRows | Boolean | True to copy also all rows attached to the template row. |
 
 ## Return Value
 

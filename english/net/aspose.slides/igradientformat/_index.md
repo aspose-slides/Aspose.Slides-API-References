@@ -16,7 +16,7 @@ public interface IGradientFormat : IFillParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](gradientdirection) { get; set; } | Returns or sets the style of a gradient. Read/write [`GradientDirection`](../gradientdirection). |

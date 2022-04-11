@@ -16,7 +16,7 @@ public enum TransitionLeftRightDirectionType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Left | `0` |  |
 | Right | `1` |  |

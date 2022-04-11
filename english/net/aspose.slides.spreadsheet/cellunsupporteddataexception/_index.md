@@ -16,7 +16,7 @@ public class CellUnsupportedDataException : PptxEditException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CellUnsupportedDataException](cellunsupporteddataexception)() | Initializes a new instance of the [`CellUnsupportedDataException`](../cellunsupporteddataexception) class. |
 | [CellUnsupportedDataException](cellunsupporteddataexception)(…) | Initializes a new instance of the [`CellUnsupportedDataException`](../cellunsupporteddataexception) class with a specified error message. (2 constructors) |

@@ -16,7 +16,7 @@ public class ChartSeries : IChartSeries
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Bar3DShape](bar3dshape) { get; set; } | Specifies the shape of a series of a 3-D bar chart. Changing of value of this property can cause to automatically changing Type of series. Read/write [`ChartShapeType`](../chartshapetype). |
 | [BubbleSizeRepresentation](bubblesizerepresentation) { get; } | Specifies how the bubble size values are represented on the bubble chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.BubbleSizeRepresentation read/write property for change value. |

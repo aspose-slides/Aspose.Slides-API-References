@@ -14,10 +14,10 @@ Creates a math radical
 public IMathRadical CreateMathRadical(IMathElement baseArgument, IMathElement degreeArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| baseArgument | Base argument to apply radical |
-| degreeArgument | Degree value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseArgument | IMathElement | Base argument to apply radical |
+| degreeArgument | IMathElement | Degree value |
 
 ## Return Value
 

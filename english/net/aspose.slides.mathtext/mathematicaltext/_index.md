@@ -16,14 +16,14 @@ public sealed class MathematicalText : MathElementBase, IMathematicalText
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathematicalText](mathematicaltext)() | Default constructor (create String.Empty Value) |
 | [MathematicalText](mathematicaltext)(…) | Create MathText with single symbol (3 constructors) |
 | [Format](format) { get; } | Text formatting properties |
 | [Value](value) { get; set; } | Text value |
 
-## Examples
+### Examples
 
 Example:
 

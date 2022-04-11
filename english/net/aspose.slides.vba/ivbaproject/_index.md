@@ -16,7 +16,7 @@ public interface IVbaProject
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Modules](modules) { get; } | Returns the list of all modules that are contained in the VBA project. Read-only [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](name) { get; } | Returns the name of the VBA project. Read-only String. |

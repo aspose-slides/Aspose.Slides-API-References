@@ -16,7 +16,7 @@ public interface IFonts
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ComplexScriptFont](complexscriptfont) { get; set; } | Returns or sets the complex script font. Read/write [`IFontData`](../ifontdata). |
 | [EastAsianFont](eastasianfont) { get; set; } | Returns or sets the East Asian font. Read/write [`IFontData`](../ifontdata). |

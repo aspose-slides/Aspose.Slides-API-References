@@ -14,7 +14,7 @@ Gets the element at the specified index. Read-only [`ISummaryZoomSection`](../..
 public ISummaryZoomSection this[int index] { get; }
 ```
 
-## Examples
+### Examples
 
 The example demonstrates getting Summary Zoom Section element by index:
 

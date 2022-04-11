@@ -16,7 +16,7 @@ public class Blur : ImageTransformOperation, IBlur
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Grow](grow) { get; set; } | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write Boolean. |
 | [Radius](radius) { get; set; } | Returns or sets blur radius. Read/write Double. |

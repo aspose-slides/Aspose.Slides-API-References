@@ -14,7 +14,7 @@ Removes all SummaryZoomSection objects from the collection.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 The example demonstrates getting Summary Zoom Section element by index:
 

@@ -14,7 +14,7 @@ Gets or sets the formula in A1-style.
 public string Formula { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

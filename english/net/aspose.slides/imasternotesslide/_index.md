@@ -16,7 +16,7 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseSlide](asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](asimasterthemeable) { get; } | Returns IMasterThemeable interface. Read-only [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |

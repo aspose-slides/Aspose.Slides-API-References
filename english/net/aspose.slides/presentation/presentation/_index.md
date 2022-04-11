@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.slides/presentation/presentation/
 ---
 ## Presentation constructor (1 of 6)
@@ -30,9 +30,9 @@ This constructor creates new presentation from scratch. Created presentation has
 public Presentation(LoadOptions loadOptions)
 ```
 
-| parameter | description |
-| --- | --- |
-| loadOptions | Additional load options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| loadOptions | LoadOptions | Additional load options. |
 
 ### See Also
 
@@ -51,11 +51,11 @@ This constructor is the primary mechanism for reading an existing Presentation.
 public Presentation(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Input stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Input stream. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]
@@ -87,17 +87,17 @@ This constructor gets a source file path from which the contents of the Presenta
 public Presentation(string file)
 ```
 
-| parameter | description |
-| --- | --- |
-| file | Input file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | Input file. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Thrown when input file has zero length |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]
@@ -125,10 +125,10 @@ This constructor is the primary mechanism for reading an existing Presentation.
 public Presentation(Stream stream, LoadOptions loadOptions)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Input stream. |
-| loadOptions | Additional load options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Input stream. |
+| loadOptions | LoadOptions | Additional load options. |
 
 ### See Also
 
@@ -147,12 +147,12 @@ This constructor gets a source file path from which the contents of the Presenta
 public Presentation(string file, LoadOptions loadOptions)
 ```
 
-| parameter | description |
-| --- | --- |
-| file | Input file. |
-| loadOptions | Additional load options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | Input file. |
+| loadOptions | LoadOptions | Additional load options. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

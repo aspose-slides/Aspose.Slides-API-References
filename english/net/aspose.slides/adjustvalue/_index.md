@@ -16,7 +16,7 @@ public class AdjustValue : IAdjustValue
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AngleValue](anglevalue) { get; set; } | Returns or sets value, interpreting it as angle in degrees. Read/write Single. |
 | [Name](name) { get; } | Returns a name of this adjustment value. Read-only String. |

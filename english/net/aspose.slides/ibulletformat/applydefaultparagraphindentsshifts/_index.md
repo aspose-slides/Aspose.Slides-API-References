@@ -14,7 +14,7 @@ Sets default non-zero shifts for effective paragraph Indent and MarginLeft when 
 public void ApplyDefaultParagraphIndentsShifts()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

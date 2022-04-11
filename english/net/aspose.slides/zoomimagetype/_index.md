@@ -16,7 +16,7 @@ public enum ZoomImageType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Preview | `1` | Use the image of the slide or section. |
 | Cover | `2` | Use a custom image. |

@@ -14,15 +14,15 @@ Creates slides from the PDF document and adds them to the end of the collection.
 public ISlide[] AddFromPdf(Stream pdfStream)
 ```
 
-| parameter | description |
-| --- | --- |
-| pdfStream | A stream which will be used as a source of the PDF document |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pdfStream | Stream | A stream which will be used as a source of the PDF document |
 
 ## Return Value
 
 Added slides
 
-## Examples
+### Examples
 
 Example:
 
@@ -56,15 +56,15 @@ Creates slides from the PDF document and adds them to the end of the collection.
 public ISlide[] AddFromPdf(string path)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | A path to the PDF document |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | A path to the PDF document |
 
 ## Return Value
 
 Added slides
 
-## Examples
+### Examples
 
 Example:
 

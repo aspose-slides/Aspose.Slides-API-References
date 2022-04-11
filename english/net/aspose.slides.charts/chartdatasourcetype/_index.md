@@ -16,7 +16,7 @@ public enum ChartDataSourceType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | InternalWorkbook | `0` | Internal data source. |
 | ExternalWorkbook | `1` | External data source. |

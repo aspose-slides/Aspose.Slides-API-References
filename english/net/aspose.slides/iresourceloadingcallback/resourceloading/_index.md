@@ -14,9 +14,9 @@ Callback method which regulates external resources loading.
 public ResourceLoadingAction ResourceLoading(IResourceLoadingArgs args)
 ```
 
-| parameter | description |
-| --- | --- |
-| args | The loading resource data [`IResourceLoadingArgs`](../../iresourceloadingargs). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | IResourceLoadingArgs | The loading resource data [`IResourceLoadingArgs`](../../iresourceloadingargs). |
 
 ## Return Value
 

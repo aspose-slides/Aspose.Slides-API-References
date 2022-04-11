@@ -14,7 +14,7 @@ Specifies compression type to be used for all textual content in the document. R
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is Flate.
 

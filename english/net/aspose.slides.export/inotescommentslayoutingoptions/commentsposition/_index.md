@@ -14,7 +14,7 @@ Gets or sets the position of the comments on the page.
 public CommentsPositions CommentsPosition { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is CommentsPositions.None.
 

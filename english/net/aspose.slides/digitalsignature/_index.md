@@ -16,7 +16,7 @@ public class DigitalSignature : IDigitalSignature
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DigitalSignature](digitalsignature)(…) | Creates a new DigitalSignature object with the specified certificate. (2 constructors) |
 | [Certificate](certificate) { get; } | Certificate object that was used to sign the document. Read-only X509Certificate2. |

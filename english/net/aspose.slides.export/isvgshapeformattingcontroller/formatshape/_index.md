@@ -14,10 +14,10 @@ This function is called before rendering of shape to SVG to allow user to contro
 public void FormatShape(ISvgShape svgShape, IShape shape)
 ```
 
-| parameter | description |
-| --- | --- |
-| svgShape | Object to control SVG shape generation. |
-| shape | Source shape. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| svgShape | ISvgShape | Object to control SVG shape generation. |
+| shape | IShape | Source shape. |
 
 ### See Also
 

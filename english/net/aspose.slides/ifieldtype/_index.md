@@ -16,7 +16,7 @@ public interface IFieldType
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [InternalString](internalstring) { get; set; } | Returns the internal name of this FieldTypeEx object. Read/write String. |
 

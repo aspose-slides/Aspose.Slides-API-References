@@ -16,7 +16,7 @@ public interface ILineFillFormat : IFillParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
 | [FillType](filltype) { get; set; } | Returns or sets the fill type. Read/write [`FillType`](../filltype). |

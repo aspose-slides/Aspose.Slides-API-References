@@ -14,15 +14,15 @@ Return a custom property name at the specified index.
 public string GetCustomPropertyName(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index of a custom property to get. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index of a custom property to get. |
 
 ## Return Value
 
 Custom property name at the specified index.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

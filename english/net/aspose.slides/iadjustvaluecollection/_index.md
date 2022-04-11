@@ -16,7 +16,7 @@ public interface IAdjustValueCollection : ICollection
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsICollection](asicollection) { get; } | Allows to get base ICollection interface. Read-only ICollection. |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |

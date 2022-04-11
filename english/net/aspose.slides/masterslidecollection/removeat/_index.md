@@ -14,17 +14,17 @@ Removes the element at the specified index of the collection.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index of the element to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index of the element to remove. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | Thrown if the master to remove is used in presentation (its HasDependingSlides property is true). |
 
-## Remarks
+### Remarks
 
 To avoid throwing of the PptxEditException check master's HasDependingSlides property before.
 

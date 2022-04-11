@@ -16,7 +16,7 @@ public interface IConnector : IGeometryShape
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIGeometryShape](asigeometryshape) { get; } | Allows to get base IGeometryShape interface. Read-only [`IGeometryShape`](../igeometryshape). |
 | [ConnectorLock](connectorlock) { get; } | Returns Connector's locks. Read-only [`IConnectorLock`](../iconnectorlock). |

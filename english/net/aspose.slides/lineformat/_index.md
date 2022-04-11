@@ -16,7 +16,7 @@ public class LineFormat : PVIObject, ILineFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alignment](alignment) { get; set; } | Returns or sets the line alignment. Read/write [`LineAlignment`](../linealignment). |
 | [BeginArrowheadLength](beginarrowheadlength) { get; set; } | Returns or sets the arrowhead length at the beginning of a line. Read/write [`LineArrowheadLength`](../linearrowheadlength). |

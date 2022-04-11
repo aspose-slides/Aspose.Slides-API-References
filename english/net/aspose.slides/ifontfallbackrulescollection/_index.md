@@ -16,7 +16,7 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the rule at the specified index. Read-only [`IFontFallBackRule`](../ifontfallbackrule). |
 | [Add](add)(…) | Add a new FallBack rule to the end of the collection. |

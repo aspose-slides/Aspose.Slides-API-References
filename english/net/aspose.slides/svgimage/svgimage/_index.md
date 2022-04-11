@@ -14,9 +14,9 @@ Creates new SvgImage object.
 public SvgImage(byte[] data)
 ```
 
-| parameter | description |
-| --- | --- |
-| data | Svg data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | Byte[] | Svg data. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Creates new SvgImage object.
 public SvgImage(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Svg stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Svg stream. |
 
 ### See Also
 
@@ -54,9 +54,9 @@ Creates new SvgImage object.
 public SvgImage(string svgContent)
 ```
 
-| parameter | description |
-| --- | --- |
-| svgContent | Svg content. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| svgContent | String | Svg content. |
 
 ### See Also
 
@@ -74,11 +74,11 @@ Creates new SvgImage object.
 public SvgImage(byte[] data, IExternalResourceResolver externalResResolver, string baseUri)
 ```
 
-| parameter | description |
-| --- | --- |
-| data | Svg data. |
-| externalResResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| baseUri | Base URI of the specified Svg. Used to resolve relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | Byte[] | Svg data. |
+| externalResResolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 
 ### See Also
 
@@ -97,11 +97,11 @@ Creates new SvgImage object.
 public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, string baseUri)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Svg stream. |
-| externalResResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| baseUri | Base URI of the specified Svg. Used to resolve relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Svg stream. |
+| externalResResolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 
 ### See Also
 
@@ -120,11 +120,11 @@ Creates new SvgImage object.
 public SvgImage(string svgContent, IExternalResourceResolver externalResResolver, string baseUri)
 ```
 
-| parameter | description |
-| --- | --- |
-| svgContent | Svg content. |
-| externalResResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| baseUri | Base URI of the specified Svg. Used to resolve relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| svgContent | String | Svg content. |
+| externalResResolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 
 ### See Also
 

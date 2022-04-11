@@ -18,7 +18,7 @@ public IThemeEffectiveData GetEffective()
 
 A [`IThemeEffectiveData`](../../ithemeeffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting effective theme properties.
 

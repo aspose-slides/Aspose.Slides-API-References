@@ -16,7 +16,7 @@ public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [IsDateTimeVisible](isdatetimevisible) { get; } | Gets value indicating that a date-time placeholder is present. ReadBoolean. |
 | [IsFooterVisible](isfootervisible) { get; } | Gets value indicating that a footer placeholder is present. Read Boolean. |

@@ -16,7 +16,7 @@ public enum BackgroundType : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Themed | `0` |  |

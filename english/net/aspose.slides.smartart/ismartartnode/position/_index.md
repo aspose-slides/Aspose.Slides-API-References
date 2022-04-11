@@ -14,7 +14,7 @@ Returns or sets zero-based position of the node among sibling nodes. Read/write 
 public int Position { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

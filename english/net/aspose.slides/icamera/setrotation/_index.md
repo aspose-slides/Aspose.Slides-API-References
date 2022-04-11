@@ -14,11 +14,11 @@ A rotation is defined through the use of a latitude coordinate, a longitude coor
 public void SetRotation(float latitude, float longitude, float revolution)
 ```
 
-| parameter | description |
-| --- | --- |
-| latitude | Latitude value Single |
-| longitude | Longitude value Single |
-| revolution | revolution valule Single |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| latitude | Single | Latitude value Single |
+| longitude | Single | Longitude value Single |
+| revolution | Single | revolution valule Single |
 
 ### See Also
 

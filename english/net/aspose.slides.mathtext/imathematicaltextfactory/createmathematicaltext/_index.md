@@ -35,9 +35,9 @@ Create mathematical text element with the specified value
 public IMathematicalText CreateMathematicalText(char mathSymbol)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathSymbol | single symbol to use as text value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathSymbol | Char | single symbol to use as text value |
 
 ## Return Value
 
@@ -60,9 +60,9 @@ Create empty mathematical text element with the specified value
 public IMathematicalText CreateMathematicalText(string mathText)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathText | text value |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
 
 ## Return Value
 
@@ -85,10 +85,10 @@ Create empty mathematical text element with the specified value and formatting p
 public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat portionFormat)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathText | text value |
-| portionFormat | text format settings |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+| portionFormat | IPortionFormat | text format settings |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public interface ISlideCollection : IGenericCollection<ISlide>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISlide`](../islide). |
 | [AddClone](addclone)(…) | Adds a copy of a specified slide to the end of the collection. (4 methods) |

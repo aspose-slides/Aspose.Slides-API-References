@@ -14,7 +14,7 @@ Specifies the persistence of an ActiveX control when the method used to persist 
 public byte[] ActiveXControlBinary { get; }
 ```
 
-## Examples
+### Examples
 
 Next example shows the using ActiveXControlBinary property for changing ActiveX properties:
 

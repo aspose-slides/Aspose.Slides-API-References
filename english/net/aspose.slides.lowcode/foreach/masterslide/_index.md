@@ -14,12 +14,12 @@ Iterate each `MasterSlide` in the [`Presentation`](../../../aspose.slides/presen
 public static void MasterSlide(Presentation pres, ForEachMasterSlideCallback forEachMasterSlide)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Presentation to iterate master slides |
-| forEachMasterSlide | Callback that will be invoked for each master slide |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Presentation to iterate master slides |
+| forEachMasterSlide | ForEachMasterSlideCallback | Callback that will be invoked for each master slide |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))

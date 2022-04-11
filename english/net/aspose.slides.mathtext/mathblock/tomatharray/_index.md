@@ -18,7 +18,7 @@ public override IMathArray ToMathArray()
 
 New instance of type [`IMathArray`](../../imatharray)
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public enum TextAutofitType : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Not defined. |
 | None | `0` | No autofit. |

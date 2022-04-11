@@ -16,7 +16,7 @@ public interface IPresentationInfo
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [IsEncrypted](isencrypted) { get; } | Gets True if binded presentation is encrypted, otherwise False. Read-only Boolean. |
 | [IsPasswordProtected](ispasswordprotected) { get; } | Gets a value that indicates whether a binded presentation is protected by a password to open. |

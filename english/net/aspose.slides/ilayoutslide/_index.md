@@ -16,7 +16,7 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseSlide](asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](asioverridethemeable) { get; } | Returns IOverrideThemeable interface. Read-only [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |

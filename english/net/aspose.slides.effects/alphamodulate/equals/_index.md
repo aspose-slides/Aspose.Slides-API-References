@@ -14,9 +14,9 @@ Determines whether the specified [`AlphaModulate`](../../alphamodulate) is equal
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`AlphaModulate`](../../alphamodulate) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`AlphaModulate`](../../alphamodulate) to compare. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public class GlowEffectiveData : EffectEffectiveData<Glow, GlowEffectiveData>, I
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Color](color) { get; } | Color. Read-only Color. |
 | [Radius](radius) { get; } | Glow radius. Read-only Double. |

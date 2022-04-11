@@ -16,7 +16,7 @@ public class LegacyDiagram : GraphicalObject, ILegacyDiagram
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
 | [ConvertToGroupShape](converttogroupshape)() | Converts legacy digram to editable group shape. Created GroupShape object adds to parent group shape at the same position. |

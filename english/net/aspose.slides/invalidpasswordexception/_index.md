@@ -16,7 +16,7 @@ public class InvalidPasswordException : Exception
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception)() | Default constructor. |
 | [InvalidPasswordException](invalidpasswordexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

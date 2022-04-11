@@ -14,11 +14,11 @@ Creates MathBorderBox element with rectangular border
 public MathBorderBox(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | The base element to which the border box is applied. Can be null. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | The base element to which the border box is applied. Can be null. |
 
-## Examples
+### Examples
 
 Example:
 
@@ -46,19 +46,19 @@ public MathBorderBox(IMathElement element, bool hideTop, bool hideBottom, bool h
     bool strikethroughBottomLeftToTopRight, bool strikethroughTopLeftToBottomRight)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | The base element to which the border box is applied |
-| hideTop | Hide Top Edge |
-| hideBottom | Hide Bottom Edge |
-| hideLeft | Hide Left Edge |
-| hideRight | Hide Right Edge |
-| strikethroughHorizontal | Strikethrough Horizontal |
-| strikethroughVertical | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | Strikethrough Top-Left to Bottom-Right |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | The base element to which the border box is applied |
+| hideTop | Boolean | Hide Top Edge |
+| hideBottom | Boolean | Hide Bottom Edge |
+| hideLeft | Boolean | Hide Left Edge |
+| hideRight | Boolean | Hide Right Edge |
+| strikethroughHorizontal | Boolean | Strikethrough Horizontal |
+| strikethroughVertical | Boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | Boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | Boolean | Strikethrough Top-Left to Bottom-Right |
 
-## Examples
+### Examples
 
 Example:
 

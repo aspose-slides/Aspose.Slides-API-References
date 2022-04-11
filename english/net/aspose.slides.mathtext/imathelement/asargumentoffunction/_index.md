@@ -14,15 +14,15 @@ Takes specified function using this instance as the argument
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 ```
 
-| parameter | description |
-| --- | --- |
-| functionName | Function name |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionName | IMathElement | Function name |
 
 ## Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
-## Examples
+### Examples
 
 Example:
 
@@ -50,15 +50,15 @@ Takes specified function using this instance as the argument
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
 ```
 
-| parameter | description |
-| --- | --- |
-| functionType | One of the common function type of one argument |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionType | MathFunctionsOfOneArgument | One of the common function type of one argument |
 
 ## Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
-## Examples
+### Examples
 
 Example:
 
@@ -86,15 +86,15 @@ Takes specified function using this instance as the argument
 public IMathFunction AsArgumentOfFunction(string functionName)
 ```
 
-| parameter | description |
-| --- | --- |
-| functionName | Function name |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionName | String | Function name |
 
 ## Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
-## Examples
+### Examples
 
 Example:
 
@@ -122,16 +122,16 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
     IMathElement additionalArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| functionType | One of the common function type of two arguments: Log, Lim, Min, Max |
-| additionalArgument | Additional argument depending on the type of function |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionType | MathFunctionsOfTwoArguments | One of the common function type of two arguments: Log, Lim, Min, Max |
+| additionalArgument | IMathElement | Additional argument depending on the type of function |
 
 ## Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
-## Examples
+### Examples
 
 Example:
 
@@ -161,16 +161,16 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
     string additionalArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| functionType | One of the common function type of two arguments: Log, Lim, Min, Max |
-| additionalArgument | Additional argument depending on the type of function |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionType | MathFunctionsOfTwoArguments | One of the common function type of two arguments: Log, Lim, Min, Max |
+| additionalArgument | String | Additional argument depending on the type of function |
 
 ## Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
-## Examples
+### Examples
 
 Example:
 

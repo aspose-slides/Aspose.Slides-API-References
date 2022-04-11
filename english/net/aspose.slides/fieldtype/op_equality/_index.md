@@ -14,10 +14,10 @@ Checks if two FieldType objects is equal.
 public static bool operator ==(FieldType a, FieldType b)
 ```
 
-| parameter | description |
-| --- | --- |
-| a | First FieldType to compare. |
-| b | Second FieldType to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| a | FieldType | First FieldType to compare. |
+| b | FieldType | Second FieldType to compare. |
 
 ## Return Value
 

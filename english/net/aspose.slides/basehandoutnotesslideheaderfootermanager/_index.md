@@ -17,7 +17,7 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [IsHeaderVisible](isheadervisible) { get; } | Gets value indicating that a header placeholder is present. Read Boolean. |
 | [SetHeaderText](setheadertext)(…) | Sets text to slide header placeholder. |

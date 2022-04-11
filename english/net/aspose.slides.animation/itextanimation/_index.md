@@ -16,7 +16,7 @@ public interface ITextAnimation
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BuildType](buildtype) { get; set; } | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write [`BuildType`](./buildtype). |
 | [EffectAnimateBackgroundShape](effectanimatebackgroundshape) { get; set; } | Linked shape effect with group or not (null) Read/write [`IEffect`](../ieffect). |

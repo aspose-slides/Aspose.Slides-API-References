@@ -17,7 +17,7 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIHtmlFormattingController](asihtmlformattingcontroller) { get; } | Allows to get base IHtmlFormattingController interface. Read-only [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
 | [AsILinkEmbedController](asilinkembedcontroller) { get; } | Allows to get base ILinkEmbedController interface. Read-only [`ILinkEmbedController`](../ilinkembedcontroller). |

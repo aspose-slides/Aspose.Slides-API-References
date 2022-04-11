@@ -14,10 +14,10 @@ Createtes Luminance effect.
 public ILuminance CreateLuminance(float brightness, float contrast)
 ```
 
-| parameter | description |
-| --- | --- |
-| brightness | Brightness. |
-| contrast | Contrast. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| brightness | Single | Brightness. |
+| contrast | Single | Contrast. |
 
 ## Return Value
 

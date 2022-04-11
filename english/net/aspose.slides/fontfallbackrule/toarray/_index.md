@@ -18,7 +18,7 @@ public string[] ToArray()
 
 Array of String
 
-## Examples
+### Examples
 
 ```csharp
 [C#]
@@ -45,16 +45,16 @@ Creates and returns an array with all FallBack fonts from the specified range in
 public string[] ToArray(int startIndex, int count)
 ```
 
-| parameter | description |
-| --- | --- |
-| startIndex | An index of a first font to add. |
-| count | A number of fonts to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | Int32 | An index of a first font to add. |
+| count | Int32 | A number of fonts to add. |
 
 ## Return Value
 
 Array of String
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

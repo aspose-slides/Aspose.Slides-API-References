@@ -16,7 +16,7 @@ public enum LineAlignment : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Center | `0` |  |

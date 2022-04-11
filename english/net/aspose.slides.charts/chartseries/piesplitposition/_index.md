@@ -14,7 +14,7 @@ Specifies a value that shall be used to determine which data points are in the s
 public double PieSplitPosition { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.PieSplitPosition.
 

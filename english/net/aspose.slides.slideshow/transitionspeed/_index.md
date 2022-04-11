@@ -16,7 +16,7 @@ public enum TransitionSpeed
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Fast | `0` |  |
 | Medium | `1` |  |

@@ -14,25 +14,25 @@ Creates new Summary Zoom Section object and add it to the collection
 public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 ```
 
-| parameter | description |
-| --- | --- |
-| section | Section for a new Summary Zoom Section element [`ISection`](../../isection) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| section | ISection | Section for a new Summary Zoom Section element [`ISection`](../../isection) |
 
 ## Return Value
 
 Added [`ISummaryZoomFrame`](../../isummaryzoomframe) element
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
 
-## Remarks
+### Remarks
 
 If an element for this section already exists in the collection, the existing element is returned.
 
-## Examples
+### Examples
 
 The example demonstrates getting Summary Zoom Section element by index:
 

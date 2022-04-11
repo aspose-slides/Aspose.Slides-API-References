@@ -16,7 +16,7 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Grow](grow) { get; } | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read-only Boolean. |

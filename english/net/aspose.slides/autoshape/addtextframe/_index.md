@@ -14,9 +14,9 @@ Adds a new TextFrame to a shape. If shape already has TextFrame then simply chan
 public virtual ITextFrame AddTextFrame(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Default text for a new TextFrame. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Default text for a new TextFrame. |
 
 ### See Also
 

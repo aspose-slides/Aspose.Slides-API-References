@@ -16,7 +16,7 @@ public interface IGraphicalObject : IShape
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIShape](asishape) { get; } | Allows to get base IShape interface. Read-only [`IShape`](../ishape). |
 | [GraphicalObjectLock](graphicalobjectlock) { get; } | Returns shape's locks. Read-only [`IGraphicalObjectLock`](../igraphicalobjectlock). |

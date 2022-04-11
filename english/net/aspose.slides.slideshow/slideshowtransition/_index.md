@@ -16,7 +16,7 @@ public class SlideShowTransition : ISlideShowTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AdvanceAfterTime](advanceaftertime) { get; set; } | Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write UInt32. |
 | [AdvanceOnClick](advanceonclick) { get; set; } | Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write Boolean. |

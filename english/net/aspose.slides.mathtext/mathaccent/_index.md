@@ -16,14 +16,14 @@ public sealed class MathAccent : MathElementBase, IMathAccent
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathAccent](mathaccent)(…) | Creates a math accent applying to a specified math element with the default accent character value (2 constructors) |
 | [Base](base) { get; } | The argument to which the accent was applied |
 | [Character](character) { get; set; } | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

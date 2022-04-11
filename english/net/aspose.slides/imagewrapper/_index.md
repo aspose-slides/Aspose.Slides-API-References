@@ -16,18 +16,12 @@ public class ImageWrapper : IImageWrapper
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Image](image) { get; } | Gets Image. Read-only [`Image`](./image). |
 | [Size](size) { get; } | Gets the width and height, in pixels, of the Image. Read-only [`Size`](./size). |
 | [Dispose](dispose)() | Dispose ImageWrapper |
 | [Save](save)(…) | Saves Image to the specified file (3 methods) |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| virtual [Dispose](dispose)(…) | Dispose ImageWrapper |
 
 ### See Also
 

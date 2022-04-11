@@ -16,7 +16,7 @@ public class NotesSize : INotesSize
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [NotesSize](notessize)() | The default constructor. |
 | [Size](size) { get; set; } | Returns or sets the size in points. Read/write SizeF. |

@@ -16,12 +16,12 @@ public interface ITextStyleEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DefaultParagraphFormat](defaultparagraphformat) { get; } | Returns effective default paragraph properties. Read-only [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 | [GetLevel](getlevel)(…) | Returns level of effective style. |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`ITextStyle`](../itextstyle) interface to return effective formatting values with inheritance applied.
 

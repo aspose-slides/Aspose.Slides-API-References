@@ -16,7 +16,7 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [AddEmptyModule](addemptymodule)(…) | Adds a new empty module to the VBA Project. |

@@ -14,7 +14,7 @@ If false then [`SecondaryCategories`](../secondarycategories) property return nu
 public bool UseSecondaryCategories { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example. What categories are related to series - ChartData.Categories or ChartData.SecondaryCategories?
 

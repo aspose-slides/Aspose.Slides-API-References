@@ -15,13 +15,13 @@ public interface IAccessiblePVIObject<T>
     where T : class
 ```
 
-| parameter | description |
-| --- | --- |
-| T | Type of effective data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| T |  | Type of effective data. |
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GetEffective](geteffective)() | Gets effective data with the inheritance applied. |
 

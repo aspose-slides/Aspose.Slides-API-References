@@ -16,7 +16,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
@@ -30,7 +30,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection. |
 | [RemoveAt](removeat)(…) | Removes the element at the specified index of the collection. |
 
-## Examples
+### Examples
 
 Example:
 

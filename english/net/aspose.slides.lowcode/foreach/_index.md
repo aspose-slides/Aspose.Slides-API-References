@@ -16,7 +16,7 @@ public static class ForEach
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [LayoutSlide](layoutslide)(…) | Iterate each [`LayoutSlide`](./layoutslide) in the [`Presentation`](../../aspose.slides/presentation). |
 | static [MasterSlide](masterslide)(…) | Iterate each [`MasterSlide`](./masterslide) in the [`Presentation`](../../aspose.slides/presentation). |
@@ -31,7 +31,7 @@ public static class ForEach
 | delegate [ForEachShapeCallback](foreach.foreachshapecallback) |  |
 | delegate [ForEachSlideCallback](foreach.foreachslidecallback) |  |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation presentation = new Presentation("pres.pptx"))

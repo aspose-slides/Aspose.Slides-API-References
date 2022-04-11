@@ -16,7 +16,7 @@ public enum AxisPositionType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Bottom | `0` | Specifies that the axis shall be displayed at the bottom of the plot area. |
 | Left | `1` | Specifies that the axis shall be displayed at the left of the plot area. |

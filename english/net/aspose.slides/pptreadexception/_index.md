@@ -16,7 +16,7 @@ public class PptReadException : PptException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptReadException](pptreadexception)() | Default constructor. |
 | [PptReadException](pptreadexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

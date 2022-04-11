@@ -16,7 +16,7 @@ public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the master handout slide. Read-only [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 | override [ShowMasterShapes](showmastershapes) { get; set; } | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns `false`. Read/write Boolean. |

@@ -16,7 +16,7 @@ public enum MathJustification
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | LeftJustified | `1` | Align mathematical text to the left |
 | RightJustified | `2` | Align mathematical text to the right |

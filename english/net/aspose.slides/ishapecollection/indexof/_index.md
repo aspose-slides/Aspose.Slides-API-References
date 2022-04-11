@@ -14,9 +14,9 @@ Returns the zero-based index of the first occurrence of a shape in the collectio
 public int IndexOf(IShape shape)
 ```
 
-| parameter | description |
-| --- | --- |
-| shape | The shape to locate in the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shape | IShape | The shape to locate in the collection. |
 
 ## Return Value
 

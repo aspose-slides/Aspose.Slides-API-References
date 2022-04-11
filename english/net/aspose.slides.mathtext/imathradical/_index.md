@@ -16,14 +16,14 @@ public interface IMathRadical : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](base) { get; } | Base argument |
 | [Degree](degree) { get; } | Degree argument |
 | [HideDegree](hidedegree) { get; set; } | Hide degree When is true, the degree is not shown, as in √𝑥 |
 
-## Examples
+### Examples
 
 Example:
 

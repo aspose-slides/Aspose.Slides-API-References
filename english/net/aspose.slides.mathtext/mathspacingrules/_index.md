@@ -16,7 +16,7 @@ public enum MathSpacingRules
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | SingleSpacingGap | `0` | Single (1 em for columns or 1 line for rows) |
 | OneAndHalfSpacingGap | `1` | One and a half (1.5 ems for columns or 1.5 lines for rows) |

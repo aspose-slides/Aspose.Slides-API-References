@@ -14,10 +14,10 @@ Creates a copy of the specified template row and inserts it at the bottom of a t
 public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)
 ```
 
-| parameter | description |
-| --- | --- |
-| templ | Column which is used as a template. |
-| withAttachedColumns | True to copy also all columns attached to the template row. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| templ | IColumn | Column which is used as a template. |
+| withAttachedColumns | Boolean | True to copy also all columns attached to the template row. |
 
 ## Return Value
 

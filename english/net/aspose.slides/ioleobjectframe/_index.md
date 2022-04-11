@@ -16,7 +16,7 @@ public interface IOleObjectFrame : IGraphicalObject
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
 | [EmbeddedData](embeddeddata) { get; } | Gets information about OLE embedded data. Read only [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |

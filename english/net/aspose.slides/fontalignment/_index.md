@@ -16,7 +16,7 @@ public enum FontAlignment
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Default | `-1` |  |
 | Automatic | `0` |  |

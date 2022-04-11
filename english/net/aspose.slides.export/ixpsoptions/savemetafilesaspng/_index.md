@@ -14,7 +14,7 @@ True to convert all metafiles used in a presentation to the PNG images. Read/wri
 public bool SaveMetafilesAsPng { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is true.
 

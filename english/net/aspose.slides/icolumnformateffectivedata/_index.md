@@ -16,11 +16,11 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](asibasetableformateffectivedata) { get; } | Allows to get base IBaseTableFormatEffectiveData interface. Read-only [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`IColumnFormat`](../icolumnformat) interface to return effective formatting values with inheritance and table styles applied.
 

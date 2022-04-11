@@ -16,7 +16,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Returns a number of properties in the collection. Read-only Int32. |

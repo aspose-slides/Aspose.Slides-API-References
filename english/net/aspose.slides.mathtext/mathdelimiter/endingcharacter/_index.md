@@ -14,7 +14,7 @@ Delimiter Ending Character specifies the ending, or closing, delimiter character
 public char EndingCharacter { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

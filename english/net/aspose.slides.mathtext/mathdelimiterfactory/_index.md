@@ -16,12 +16,12 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathDelimiterFactory](mathdelimiterfactory)() | The default constructor. |
 | [CreateMathDelimiter](createmathdelimiter)(…) | Create a math delimiter by applying to the element (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

@@ -16,7 +16,7 @@ public class LoadOptions : ILoadOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [LoadOptions](loadoptions)() | Creates new default load options. |
 | [LoadOptions](loadoptions)(…) | Creates new load options. |

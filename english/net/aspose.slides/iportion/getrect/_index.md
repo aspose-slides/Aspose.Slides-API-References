@@ -18,7 +18,7 @@ public RectangleF GetRect()
 
 Rectangle that bounds portion RectangleF
 
-## Examples
+### Examples
 
 Example:
 

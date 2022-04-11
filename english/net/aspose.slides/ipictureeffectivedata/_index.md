@@ -16,13 +16,13 @@ public interface IPictureEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Image](image) { get; } | Returns the embedded image. Read-only [`IPPImage`](../ippimage). |
 | [ImageTransform](imagetransform) { get; } | Returns the collection of image transform effects. Read-only [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
 | [LinkPathLong](linkpathlong) { get; } | Returns linked image's URL. Read-only String. |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) and [`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
 

@@ -14,7 +14,7 @@ Init FontScheme with new object for overriding FontScheme of InheritedTheme.
 public void InitFontScheme()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

@@ -16,7 +16,7 @@ public class FontsManager : IFontsManager
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontFallBackRulesCollection](fontfallbackrulescollection) { get; set; } | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
 | [FontSubstRuleList](fontsubstrulelist) { get; set; } | Font substitutions to use when rendering. Read/write [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |

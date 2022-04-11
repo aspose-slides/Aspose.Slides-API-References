@@ -16,7 +16,7 @@ public class Reflection : IReflection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BlurRadius](blurradius) { get; set; } | Blur radius. Read/write Double. |
 | [Direction](direction) { get; set; } | Direction of reflection. Read/write Single. |

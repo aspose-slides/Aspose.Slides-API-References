@@ -14,9 +14,9 @@ Determines whether the two Hyperlink instances are equal.
 public bool Equals(IHyperlink hlink)
 ```
 
-| parameter | description |
-| --- | --- |
-| hlink | The Hyperlink to compare with the current Hyperlink. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hlink | IHyperlink | The Hyperlink to compare with the current Hyperlink. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Determines whether the two Hyperlink instances are equal.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The Hyperlink to compare with the current Hyperlink. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Hyperlink to compare with the current Hyperlink. |
 
 ## Return Value
 

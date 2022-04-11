@@ -16,7 +16,7 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color1](color1) { get; } | Returns target color format for dark pixels. Read-only Color. |

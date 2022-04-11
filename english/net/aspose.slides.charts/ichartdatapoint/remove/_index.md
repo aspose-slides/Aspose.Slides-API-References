@@ -14,7 +14,7 @@ Removes DataPoint from chart series.
 public void Remove()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

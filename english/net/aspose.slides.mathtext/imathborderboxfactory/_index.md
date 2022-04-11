@@ -16,11 +16,11 @@ public interface IMathBorderBoxFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathBorderBox](createmathborderbox)(…) | Create a math border box by applying to the element (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

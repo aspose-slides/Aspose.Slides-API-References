@@ -14,7 +14,7 @@ Hide Superscript
 public bool HideSuperscript { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

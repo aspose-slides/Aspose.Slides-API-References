@@ -14,7 +14,7 @@ Hide degree When is true, the degree is not shown, as in √𝑥
 public bool HideDegree { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public class SwfOptions : SaveOptions, ISwfOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SwfOptions](swfoptions)() | Default constructor. |
 | [Compressed](compressed) { get; set; } | Specifies whether the generated SWF document should be compressed or not. Default is `true`. |

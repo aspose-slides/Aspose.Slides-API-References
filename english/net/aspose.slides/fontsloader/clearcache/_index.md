@@ -14,7 +14,7 @@ Releases all custom fonts defined by user
 public static void ClearCache()
 ```
 
-## Remarks
+### Remarks
 
 This method needs to clear cache with custom fonts defined by user.
 

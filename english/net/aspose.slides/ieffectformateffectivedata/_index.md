@@ -16,7 +16,7 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectParamSource](asieffectparamsource) { get; } | Allows to get base IEffectParamSource interface. Read-only [`IEffectParamSource`](../ieffectparamsource). |
 | [BlurEffect](blureffect) { get; } | Blur effect. Read-only [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
@@ -29,7 +29,7 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 | [ReflectionEffect](reflectioneffect) { get; } | Reflection. Read-only [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
 | [SoftEdgeEffect](softedgeeffect) { get; } | Soft edge. Read-only [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`IEffectFormat`](../ieffectformat) interface to return effective formatting values with inheritance applied.
 

@@ -16,7 +16,7 @@ public interface ITiming
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Accelerate](accelerate) { get; set; } | Describes the percentage of duration accelerate behavior effect. Read/write Single. |
 | [AutoReverse](autoreverse) { get; set; } | Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write Boolean. |

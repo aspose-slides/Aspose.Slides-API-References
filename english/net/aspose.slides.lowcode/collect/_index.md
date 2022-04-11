@@ -16,11 +16,11 @@ public static class Collect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [Shapes](shapes)(…) | Collects all instances of [`Shape`](../../aspose.slides/shape) in the [`Presentation`](../../aspose.slides/presentation). |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))

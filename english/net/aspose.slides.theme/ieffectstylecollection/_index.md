@@ -16,7 +16,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns an element at specified position. Read-only [`IEffectStyle`](../ieffectstyle). |
 

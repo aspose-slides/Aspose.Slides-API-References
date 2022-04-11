@@ -16,14 +16,14 @@ public sealed class ModernComment : Comment, IModernComment
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Shape](shape) { get; } | Returns a shape associated with the comment. Read-only [`IShape`](../ishape). |
 | [Status](status) { get; set; } | Gets or sets the status of the comment. Read/write [`ModernCommentStatus`](../moderncommentstatus). |
 | [TextSelectionLength](textselectionlength) { get; set; } | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write Int32. |
 | [TextSelectionStart](textselectionstart) { get; set; } | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write Int32. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

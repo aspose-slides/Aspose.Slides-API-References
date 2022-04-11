@@ -16,7 +16,7 @@ public interface IFontDataFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateFontData](createfontdata)(…) | Creates FontData with specified font name. |
 

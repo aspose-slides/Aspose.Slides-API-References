@@ -16,7 +16,7 @@ public interface IGifOptions : ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [DefaultDelay](defaultdelay) { get; set; } | Gets or sets default delay time [ms]. This value will be used if [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) is not set. The default value is 1000. |

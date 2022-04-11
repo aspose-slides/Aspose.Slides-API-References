@@ -16,7 +16,7 @@ public class SmartArtShape : GeometryShape, ISmartArtShape
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [ShapeType](shapetype) { get; set; } | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write [`ShapeType`](../../aspose.slides/shapetype). |
 | [TextFrame](textframe) { get; } | Returns text of the SmartArt shape. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |

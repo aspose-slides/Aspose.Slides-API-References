@@ -16,7 +16,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISmartArtShape`](../ismartartshape). Zero-based index of the element |
 

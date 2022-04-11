@@ -14,10 +14,10 @@ Transforms the template with the given key and model object to output.
 public string Compile(string key, object model)
 ```
 
-| parameter | description |
-| --- | --- |
-| key | Key for the template in the template collection. |
-| model | Model object with data for transformation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | String | Key for the template in the template collection. |
+| model | Object | Model object with data for transformation. |
 
 ## Return Value
 

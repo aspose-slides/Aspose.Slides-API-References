@@ -14,10 +14,10 @@ Creates IMathLimit with limit at the bottom
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
 ```
 
-| parameter | description |
-| --- | --- |
-| baseArg | Base argument to apply the limit |
-| limit | Limit element |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseArg | IMathElement | Base argument to apply the limit |
+| limit | IMathElement | Limit element |
 
 ## Return Value
 
@@ -41,11 +41,11 @@ Creates IMathLimit
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool upperLimit)
 ```
 
-| parameter | description |
-| --- | --- |
-| baseArg | Base argument to apply the limit |
-| limit | Limit element |
-| upperLimit | Sets the placement of the limit on top |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseArg | IMathElement | Base argument to apply the limit |
+| limit | IMathElement | Limit element |
+| upperLimit | Boolean | Sets the placement of the limit on top |
 
 ## Return Value
 

@@ -14,11 +14,11 @@ Removes the specified value.
 public void Remove(IChartDataPoint value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IChartDataPoint | The value. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

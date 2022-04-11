@@ -16,7 +16,7 @@ public enum DataSourceType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Worksheet | `0` | Use CellXls objects for storing XValue, YValue, Value or BubbleSize of data point in worksheet. |
 | StringLiterals | `1` | Use fast-access string variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values. |

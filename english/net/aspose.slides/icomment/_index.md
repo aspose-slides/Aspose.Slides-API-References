@@ -16,7 +16,7 @@ public interface IComment
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Author](author) { get; } | Returns the author of a comment. Read-only [`ICommentAuthor`](../icommentauthor). |
 | [CreatedTime](createdtime) { get; set; } | Returns or sets the time of a comment creation. Setting this property to MinValue means no comment time is set. Read/write DateTime. |

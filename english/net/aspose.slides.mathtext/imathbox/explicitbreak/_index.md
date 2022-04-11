@@ -14,7 +14,7 @@ Explicit break specifies whether there is a line break at the start of the Box o
 public byte ExplicitBreak { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

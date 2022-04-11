@@ -15,14 +15,14 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
     IOleEmbeddedDataInfo dataInfo)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which OLE object should be inserted. |
-| x | X coordinate of a new OLE frame. |
-| y | Y coordinate of a new OLE frame. |
-| width | Width of a new OLE frame. |
-| height | Height of a new OLE frame. |
-| dataInfo | Embedded data info [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which OLE object should be inserted. |
+| x | Single | X coordinate of a new OLE frame. |
+| y | Single | Y coordinate of a new OLE frame. |
+| width | Single | Width of a new OLE frame. |
+| height | Single | Height of a new OLE frame. |
+| dataInfo | IOleEmbeddedDataInfo | Embedded data info [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ## Return Value
 
@@ -47,15 +47,15 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
     string className, string path)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which OLE object should be inserted. |
-| x | X coordinate of a new OLE frame. |
-| y | Y coordinate of a new OLE frame. |
-| width | Width of a new OLE frame. |
-| height | Height of a new OLE frame. |
-| className | Name of an OLE class. |
-| path | Path to the linked file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which OLE object should be inserted. |
+| x | Single | X coordinate of a new OLE frame. |
+| y | Single | Y coordinate of a new OLE frame. |
+| width | Single | Width of a new OLE frame. |
+| height | Single | Height of a new OLE frame. |
+| className | String | Name of an OLE class. |
+| path | String | Path to the linked file. |
 
 ## Return Value
 

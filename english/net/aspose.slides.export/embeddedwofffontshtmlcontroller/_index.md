@@ -16,7 +16,7 @@ public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)() | Creates new instance. |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)(…) | Creates new instance. |

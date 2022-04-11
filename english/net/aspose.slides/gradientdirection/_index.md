@@ -16,7 +16,7 @@ public enum GradientDirection
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Not defined |
 | FromCorner1 | `0` | From Top Left Corner |

@@ -14,9 +14,9 @@ Determines whether the specified [`Glow`](../../glow) is equal to the current [`
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`Glow`](../../glow) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`Glow`](../../glow) to compare. |
 
 ## Return Value
 

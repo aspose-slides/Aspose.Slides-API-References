@@ -14,7 +14,7 @@ Represents a specified chart's data label category name display behavior. True t
 public bool ShowCategoryName { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the ShowCategoryName property for the new data labels in the DataLabelCollection collection. Set this property with value also sets this value to the ShowCategoryName property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.DefaultDataLabelFormat.ShowCategoryName = val;" cause to all DataLabels[i].ShowCategoryName is equal to val).
 

@@ -14,9 +14,9 @@ Creates and adds a video to a presentation from byte array.
 public IVideo AddVideo(byte[] videoData)
 ```
 
-| parameter | description |
-| --- | --- |
-| videoData | Video bytes. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| videoData | Byte[] | Video bytes. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Adds a copy of an video file from an another presentation.
 public IVideo AddVideo(IVideo video)
 ```
 
-| parameter | description |
-| --- | --- |
-| video | Source video. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| video | IVideo | Source video. |
 
 ## Return Value
 
@@ -64,9 +64,9 @@ Creates and adds a video to a presentation from stream.
 public IVideo AddVideo(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Stream to add video file from. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream to add video file from. |
 
 ## Return Value
 
@@ -89,10 +89,10 @@ Creates and adds a video to a presentation from stream.
 public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Stream to add video file from. |
-| loadingStreamBehavior | The behavior which will be applied to the stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream to add video file from. |
+| loadingStreamBehavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public interface IChartSeries : IChartComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIChartComponent](asichartcomponent) { get; } | Allows to get base IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
 | [Bar3DShape](bar3dshape) { get; set; } | Specifies the shape of a series of a 3-D bar chart. Changing of value of this property can cause to automatically changing Type of series. Read/write [`ChartShapeType`](../chartshapetype). |

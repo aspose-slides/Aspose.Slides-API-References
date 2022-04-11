@@ -14,7 +14,7 @@ Returns IComparable interface. Read-only IComparable.
 public IComparable AsIComparable { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

@@ -16,7 +16,7 @@ public class MathParagraph : IMathParagraph
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathParagraph](mathparagraph)() | Initializes a new instance of the MathParagraph class. |
 | [MathParagraph](mathparagraph)(…) | Initializes a new instance of the MathParagraph class. |
@@ -32,7 +32,7 @@ public class MathParagraph : IMathParagraph
 | [RemoveAt](removeat)(…) | Removes an item at the specified index of the collection. |
 | [WriteAsMathMl](writeasmathml)(…) | Saves content of this [`MathParagraph`](../mathparagraph) as MathML |
 
-## Examples
+### Examples
 
 Example:
 

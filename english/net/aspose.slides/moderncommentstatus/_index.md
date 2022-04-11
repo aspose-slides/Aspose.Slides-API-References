@@ -16,7 +16,7 @@ public enum ModernCommentStatus : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | Not Defined. |
 | Active | `1` | Active. |

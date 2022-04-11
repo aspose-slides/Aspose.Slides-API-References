@@ -14,9 +14,9 @@ Adds an image to a presentation from specified buffer.
 public IPPImage AddImage(byte[] buffer)
 ```
 
-| parameter | description |
-| --- | --- |
-| buffer | Buffer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| buffer | Byte[] | Buffer. |
 
 ## Return Value
 
@@ -39,15 +39,15 @@ Add an image to a presentation.
 public IPPImage AddImage(Image image)
 ```
 
-| parameter | description |
-| --- | --- |
-| image | Image to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | Image | Image to add. |
 
 ## Return Value
 
 Added image.
 
-## Remarks
+### Remarks
 
 This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
 
@@ -68,9 +68,9 @@ Adds a copy of an image from an another presentation.
 public IPPImage AddImage(IPPImage imageSource)
 ```
 
-| parameter | description |
-| --- | --- |
-| imageSource | Source image. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageSource | IPPImage | Source image. |
 
 ## Return Value
 
@@ -93,15 +93,15 @@ Add an image to a presentation from Svg object.
 public IPPImage AddImage(ISvgImage svgImage)
 ```
 
-| parameter | description |
-| --- | --- |
-| svgImage | Svg image object [`ISvgImage`](../../isvgimage) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| svgImage | ISvgImage | Svg image object [`ISvgImage`](../../isvgimage) |
 
 ## Return Value
 
 Added image.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -125,15 +125,15 @@ Add an image to a presentation from stream.
 public IPPImage AddImage(MemoryStream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Stream to add image from. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | MemoryStream | Stream to add image from. |
 
 ## Return Value
 
 Added image.
 
-## Remarks
+### Remarks
 
 This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image.
 
@@ -154,15 +154,15 @@ Add an image to a presentation from stream.
 public IPPImage AddImage(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Stream to add image from. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream to add image from. |
 
 ## Return Value
 
 Added image.
 
-## Remarks
+### Remarks
 
 This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image.
 
@@ -183,10 +183,10 @@ Creates and adds an image to a presentation from stream.
 public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Stream to add image file from. |
-| loadingStreamBehavior | The behavior which will be applied to the stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream to add image file from. |
+| loadingStreamBehavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
 ## Return Value
 

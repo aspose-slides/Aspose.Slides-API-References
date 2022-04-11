@@ -16,7 +16,7 @@ public class BiLevel : ImageTransformOperation, IBiLevel
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`BiLevel`](../bilevel) is equal to the current [`BiLevel`](../bilevel). |
 | [GetEffective](geteffective)() | Gets effective Bi-Level effect data with the inheritance applied. |

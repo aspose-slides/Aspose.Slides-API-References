@@ -14,9 +14,9 @@ Adds text from specified html string to the collection.
 public void AddFromHtml(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | HTML text. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | HTML text. |
 
 ### See Also
 
@@ -34,13 +34,13 @@ Adds text from specified html string to the collection.
 public void AddFromHtml(string text, IExternalResourceResolver resolver, string uri)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | HTML text. |
-| resolver | Resolver callback object which resolves URIs and fetches referrenced objects. |
-| uri | URI for adding HTML document. Used for resolving relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | HTML text. |
+| resolver | IExternalResourceResolver | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | String | URI for adding HTML document. Used for resolving relative links. |
 
-## Remarks
+### Remarks
 
 Specifying resolver can potentially introduce a vulnurability. Use with caution.
 

@@ -14,15 +14,15 @@ Specifies the mathematical root of the given degree from the specified argument.
 public IMathRadical Radical(IMathElement degree)
 ```
 
-| parameter | description |
-| --- | --- |
-| degree | Argument of Radical |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| degree | IMathElement | Argument of Radical |
 
 ## Return Value
 
 New instance of type [`IMathRadical`](../../imathradical)
 
-## Examples
+### Examples
 
 Example:
 
@@ -50,15 +50,15 @@ Specifies the mathematical root of the given degree from the specified argument.
 public IMathRadical Radical(string degree)
 ```
 
-| parameter | description |
-| --- | --- |
-| degree | Argument of Radical |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| degree | String | Argument of Radical |
 
 ## Return Value
 
 New instance of type [`IMathRadical`](../../imathradical)
 
-## Examples
+### Examples
 
 Example:
 

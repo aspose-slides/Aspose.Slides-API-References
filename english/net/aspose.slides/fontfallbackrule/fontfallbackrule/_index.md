@@ -14,13 +14,13 @@ Creates new instance.
 public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 ```
 
-| parameter | description |
-| --- | --- |
-| startIndex | Start index of unicode range |
-| endIndex | End index of unicode range |
-| fontNames | Font's name or names (delimited by comma) for FallBack |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | UInt32 | Start index of unicode range |
+| endIndex | UInt32 | End index of unicode range |
+| fontNames | String | Font's name or names (delimited by comma) for FallBack |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]
@@ -47,13 +47,13 @@ Creates new instance.
 public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 ```
 
-| parameter | description |
-| --- | --- |
-| startIndex | Start index of unicode range |
-| endIndex | End index of unicode range |
-| fontNames | Font's name or names (delimited by comma) for FallBack |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | UInt32 | Start index of unicode range |
+| endIndex | UInt32 | End index of unicode range |
+| fontNames | String[] | Font's name or names (delimited by comma) for FallBack |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

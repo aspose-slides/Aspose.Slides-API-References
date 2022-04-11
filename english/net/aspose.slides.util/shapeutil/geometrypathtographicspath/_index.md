@@ -14,9 +14,9 @@ Converts [`IGeometryPath`](../../../aspose.slides/igeometrypath) to GraphicsPath
 public static GraphicsPath GeometryPathToGraphicsPath(IGeometryPath geometryPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| geometryPath |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| geometryPath | IGeometryPath |  |
 
 ## Return Value
 

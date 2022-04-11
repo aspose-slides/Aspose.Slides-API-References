@@ -14,7 +14,7 @@ Hide Bottom Edge (default is false) - specifies the hidden or shown state of the
 public bool HideBottom { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

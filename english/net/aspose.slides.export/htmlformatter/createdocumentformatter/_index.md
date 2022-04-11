@@ -14,10 +14,10 @@ Creates and returns HTML formatter for a simple document view which consists of 
 public static HtmlFormatter CreateDocumentFormatter(string css, bool showSlideTitle)
 ```
 
-| parameter | description |
-| --- | --- |
-| css | Specifies CSS for this file. |
-| showSlideTitle | Add slide title if there is one above slide image. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| css | String | Specifies CSS for this file. |
+| showSlideTitle | Boolean | Add slide title if there is one above slide image. |
 
 ### See Also
 

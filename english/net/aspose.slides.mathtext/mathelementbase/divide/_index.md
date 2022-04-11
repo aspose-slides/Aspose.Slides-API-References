@@ -14,15 +14,15 @@ Creates a fraction with this numerator and specified denominator
 public IMathFraction Divide(IMathElement denominator)
 ```
 
-| parameter | description |
-| --- | --- |
-| denominator | Denominator |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| denominator | IMathElement | Denominator |
 
 ## Return Value
 
 new fraction
 
-## Examples
+### Examples
 
 Example:
 
@@ -51,15 +51,15 @@ Creates a fraction with this numerator and specified denominator
 public IMathFraction Divide(string denominator)
 ```
 
-| parameter | description |
-| --- | --- |
-| denominator | Denominator |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| denominator | String | Denominator |
 
 ## Return Value
 
 new fraction
 
-## Examples
+### Examples
 
 Example:
 
@@ -86,16 +86,16 @@ Creates a fraction of the specified type with this numerator and specified denom
 public IMathFraction Divide(IMathElement denominator, MathFractionTypes fractionType)
 ```
 
-| parameter | description |
-| --- | --- |
-| denominator | Denominator |
-| fractionType | Fraction type: Bar, NoBar, Skewed, Linear |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| denominator | IMathElement | Denominator |
+| fractionType | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
 
 ## Return Value
 
 new fraction
 
-## Examples
+### Examples
 
 Example:
 
@@ -125,16 +125,16 @@ Creates a fraction of the specified type with this numerator and specified denom
 public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
 ```
 
-| parameter | description |
-| --- | --- |
-| denominator | Denominator |
-| fractionType | Fraction type: Bar, NoBar, Skewed, Linear |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| denominator | String | Denominator |
+| fractionType | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
 
 ## Return Value
 
 new fraction
 
-## Examples
+### Examples
 
 Example:
 

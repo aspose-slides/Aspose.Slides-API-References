@@ -16,7 +16,7 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Returns IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
 | [FillType](filltype) { get; } | Returns the type of filling. Read-only [`FillType`](../filltype). |
@@ -26,7 +26,7 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | [RotateWithShape](rotatewithshape) { get; } | Determines whether the fill should be rotated with shape. Read-only Boolean. |
 | [SolidFillColor](solidfillcolor) { get; } | Returns the fill color. Read-only Color. |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`IFillFormat`](../ifillformat) interface to return effective formatting values with inheritance applied.
 

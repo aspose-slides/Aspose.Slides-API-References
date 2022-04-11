@@ -16,7 +16,7 @@ public class HSL : ImageTransformOperation, IHSL
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`HSL`](../hsl) is equal to the current [`HSL`](../hsl). |
 | [GetEffective](geteffective)() | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |

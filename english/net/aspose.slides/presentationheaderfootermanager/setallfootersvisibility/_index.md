@@ -14,9 +14,9 @@ Changes all footer placeholders visibility, including master slides, layout slid
 public void SetAllFootersVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a footer placeholders visible, otherwise - hides them. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a footer placeholders visible, otherwise - hides them. |
 
 ### See Also
 

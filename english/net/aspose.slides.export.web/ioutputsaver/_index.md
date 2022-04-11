@@ -16,7 +16,7 @@ public interface IOutputSaver
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Save](save)(…) | Saves the output file to the given path. |
 

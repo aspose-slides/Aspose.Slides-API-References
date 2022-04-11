@@ -14,7 +14,7 @@ Returns global storage of the document. Read-only [`Storage`](../../storage).
 public Storage Global { get; }
 ```
 
-## Examples
+### Examples
 
 Using this `Global` property (implementation of [`Storage`](../../storage) interface) a property can be put to use it later in the template:
 

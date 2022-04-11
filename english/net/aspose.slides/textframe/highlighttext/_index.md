@@ -14,10 +14,10 @@ Highlight all matches of sample in text frame text using specified color.
 public void HighlightText(string text, Color highlightColor)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text sample to highlight. |
-| highlightColor | Highlighting color. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text sample to highlight. |
+| highlightColor | Color | Highlighting color. |
 
 ### See Also
 
@@ -35,11 +35,11 @@ Highlight all matches of sample in text frame text using specified color.
 public void HighlightText(string text, Color highlightColor, ITextHighlightingOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text sample to highlight. |
-| highlightColor | Highlighting color. |
-| options | Highlighting options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text sample to highlight. |
+| highlightColor | Color | Highlighting color. |
+| options | ITextHighlightingOptions | Highlighting options. |
 
 ### See Also
 

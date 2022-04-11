@@ -16,7 +16,7 @@ public interface IBulkTextFormattable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SetTextFormat](settextformat)(…) | Sets defined portion format properties to all element's portions. (3 methods) |
 

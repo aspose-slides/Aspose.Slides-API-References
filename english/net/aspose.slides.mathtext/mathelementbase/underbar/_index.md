@@ -18,7 +18,7 @@ public IMathBar Underbar()
 
 New instance of type [`IMathBar`](../../imathbar)
 
-## Examples
+### Examples
 
 Example:
 

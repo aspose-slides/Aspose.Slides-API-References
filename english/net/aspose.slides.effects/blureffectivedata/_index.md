@@ -16,7 +16,7 @@ public class BlurEffectiveData : EffectEffectiveData<Blur, BlurEffectiveData>, I
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Grow](grow) { get; } | Determines whether effect spreads beyond shape border. Read-only Boolean. |
 | [Radius](radius) { get; } | Blur radius. Read-only Double. |

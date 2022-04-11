@@ -16,7 +16,7 @@ public class TextHighlightingOptions : ITextHighlightingOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TextHighlightingOptions](texthighlightingoptions)() | Creates new default text highlighting options. |
 | [CaseSensitive](casesensitive) { get; set; } | Set true to use case-sensitive search, false - otherwise. Read/write Boolean. |

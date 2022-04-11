@@ -16,7 +16,7 @@ public static class ChartTypeCharacterizer
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [HasSeriesTrendLines](hasseriestrendlines)(…) | Returns if there are series trend lines for specified series type. |
 | static [Is2DChart](is2dchart)(…) | Return true if *chartType* is one of 2D chart types. |

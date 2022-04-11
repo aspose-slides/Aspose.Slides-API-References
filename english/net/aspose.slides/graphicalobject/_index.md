@@ -16,7 +16,7 @@ public class GraphicalObject : Shape, IGraphicalObject
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GraphicalObjectLock](graphicalobjectlock) { get; } | Returns shape's locks. Read-only [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 | [ShapeLock](shapelock) { get; } | Returns shape's locks. Read-only [`IGraphicalObjectLock`](../igraphicalobjectlock). |

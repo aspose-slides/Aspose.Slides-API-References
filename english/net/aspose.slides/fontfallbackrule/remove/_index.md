@@ -14,11 +14,11 @@ Removes the first occurrence of a specific FallBack font from the list.
 public void Remove(string fontName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontName | The font's name to remove from the list. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontName | String | The font's name to remove from the list. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

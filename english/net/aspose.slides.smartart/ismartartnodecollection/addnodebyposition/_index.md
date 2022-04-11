@@ -14,15 +14,15 @@ Add new node in the selected position of nodes collection.
 public ISmartArtNode AddNodeByPosition(int position)
 ```
 
-| parameter | description |
-| --- | --- |
-| position | Zero-base node position. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | Int32 | Zero-base node position. |
 
 ## Return Value
 
 Added node
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

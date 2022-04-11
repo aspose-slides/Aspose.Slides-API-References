@@ -14,7 +14,7 @@ Determines if all characters of font should be embedded or only used subset. Rea
 public bool EmbedFullFonts { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is false.
 

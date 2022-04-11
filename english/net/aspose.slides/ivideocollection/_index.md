@@ -16,7 +16,7 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IVideo`](../ivideo). |
 | [AddVideo](addvideo)(…) | Adds a copy of an video file from an another presentation. (3 methods) |

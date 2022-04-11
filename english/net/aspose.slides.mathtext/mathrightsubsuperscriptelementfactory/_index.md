@@ -16,12 +16,12 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathRightSubSuperscriptElementFactory](mathrightsubsuperscriptelementfactory)() | The default constructor. |
 | [CreateMathRightSubSuperscriptElement](createmathrightsubsuperscriptelement)(…) | Creates an instance of IMathRightSubSuperscriptElementFactory |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

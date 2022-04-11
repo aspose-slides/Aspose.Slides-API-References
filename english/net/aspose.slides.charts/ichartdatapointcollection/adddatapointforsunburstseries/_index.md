@@ -14,9 +14,9 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForSunburstSeries(IChartDataCell sizeValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| sizeValue | Data point SizeValue |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sizeValue | IChartDataCell | Data point SizeValue |
 
 ## Return Value
 

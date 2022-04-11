@@ -14,10 +14,10 @@ Creates Tint effect.
 public ITint CreateTint(float hue, float amount)
 ```
 
-| parameter | description |
-| --- | --- |
-| hue | Hue. |
-| amount | Amount. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hue | Single | Hue. |
+| amount | Single | Amount. |
 
 ## Return Value
 

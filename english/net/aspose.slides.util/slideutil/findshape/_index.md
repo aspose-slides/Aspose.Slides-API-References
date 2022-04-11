@@ -14,10 +14,10 @@ Find shape by alternative text on a slide in a PPTX presentation.
 public static IShape FindShape(IBaseSlide slide, string altText)
 ```
 
-| parameter | description |
-| --- | --- |
-| slide | Scanned slide. |
-| altText | Alternative text of a shape. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| slide | IBaseSlide | Scanned slide. |
+| altText | String | Alternative text of a shape. |
 
 ## Return Value
 
@@ -41,10 +41,10 @@ Find shape by alternative text in a PPTX presentation.
 public static IShape FindShape(IPresentation pres, string altText)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Scanned presentation. |
-| altText | Alternative text of a shape. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | IPresentation | Scanned presentation. |
+| altText | String | Alternative text of a shape. |
 
 ## Return Value
 

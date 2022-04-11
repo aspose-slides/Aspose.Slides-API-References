@@ -16,7 +16,7 @@ public class PresentationText : IPresentationText
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SlidesText](slidestext) { get; } | An array of [`SlideText`](../islidetext) contains a presentation's text. |
 

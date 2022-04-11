@@ -16,7 +16,7 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Allows to get base IBehavior interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Returns the number of paths in the collection. Read-only Int32. |

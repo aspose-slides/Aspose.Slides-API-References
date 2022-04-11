@@ -16,7 +16,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns a control at the specified position. |
 | [AddControl](addcontrol)(…) | Creates and adds a new control to the collection. |

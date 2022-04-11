@@ -14,9 +14,9 @@ Sets text to slide header placeholder.
 public void SetHeaderText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 ### See Also
 

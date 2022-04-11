@@ -14,15 +14,15 @@ Takes upper limit
 public IMathLimit SetUpperLimit(IMathElement limit)
 ```
 
-| parameter | description |
-| --- | --- |
-| limit | limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| limit | IMathElement | limit |
 
 ## Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 
-## Examples
+### Examples
 
 Example:
 
@@ -51,15 +51,15 @@ Takes upper limit
 public IMathLimit SetUpperLimit(string limit)
 ```
 
-| parameter | description |
-| --- | --- |
-| limit | limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| limit | String | limit |
 
 ## Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 
-## Examples
+### Examples
 
 Example:
 

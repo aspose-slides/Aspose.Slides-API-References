@@ -16,7 +16,7 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Amount](amount) { get; } | Returns an amount of effect in percents. Read-only Single. |
 | [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |

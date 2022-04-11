@@ -16,7 +16,7 @@ public enum ColorTransformOperation
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Tint | `0` | Tints the color. Parameter is in range between 0 (original color) and 1 (white). |
 | Shade | `1` | Shades the color. Parameter is in range between 0 (original color) and 1 (black). |

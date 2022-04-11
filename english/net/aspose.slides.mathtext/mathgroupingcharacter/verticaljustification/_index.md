@@ -14,7 +14,7 @@ Vertical justification of group character. Specifies the alignment of the object
 public MathTopBotPositions VerticalJustification { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

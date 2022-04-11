@@ -14,7 +14,7 @@ Returns a cell by it's position. Read-only [`Cell`](../../cell).
 public ICell this[int index] { get; }
 ```
 
-## Remarks
+### Remarks
 
 One Cell object can be returned for several indexes in case cell is merged.
 

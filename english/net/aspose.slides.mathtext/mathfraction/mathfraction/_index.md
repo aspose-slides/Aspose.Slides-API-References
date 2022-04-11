@@ -14,12 +14,12 @@ Initializes a MathFraction of type 'Bar' with the specified numerator and denomi
 public MathFraction(IMathElement numerator, IMathElement denominator)
 ```
 
-| parameter | description |
-| --- | --- |
-| numerator | Numerator |
-| denominator | Denominator |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| numerator | IMathElement | Numerator |
+| denominator | IMathElement | Denominator |
 
-## Examples
+### Examples
 
 Example:
 
@@ -46,13 +46,13 @@ public MathFraction(IMathElement numerator, IMathElement denominator,
     MathFractionTypes fractionType)
 ```
 
-| parameter | description |
-| --- | --- |
-| numerator | Numerator |
-| denominator | Denominator |
-| fractionType | Fraction type |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| numerator | IMathElement | Numerator |
+| denominator | IMathElement | Denominator |
+| fractionType | MathFractionTypes | Fraction type |
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public interface IOverrideThemeManager : IThemeManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIThemeManager](asithememanager) { get; } | Allows to get base IThemeManager interface. Read-only [`IThemeManager`](../ithememanager). |
 | [IsOverrideThemeEnabled](isoverridethemeenabled) { get; } | Determines whether OverrideTheme overrides inherited effective theme or not. To enable OverrideTheme for overriding use OverrideTheme.Init*() methods. To disable OverrideTheme from overriding use OverrideTheme.Clear() method. Read-only Boolean. |

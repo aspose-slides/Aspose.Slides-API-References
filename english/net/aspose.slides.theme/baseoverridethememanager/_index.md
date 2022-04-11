@@ -16,7 +16,7 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [IsOverrideThemeEnabled](isoverridethemeenabled) { get; } | Determines whether OverrideTheme overrides inherited effective theme or not. To enable OverrideTheme for overriding use OverrideTheme.Init*() methods. To disable OverrideTheme from overriding use OverrideTheme.Clear() method. Read-only Boolean. |
 | [OverrideTheme](overridetheme) { get; set; } | Returns the overriding theme object. Read/write [`IOverrideTheme`](../ioverridetheme). |

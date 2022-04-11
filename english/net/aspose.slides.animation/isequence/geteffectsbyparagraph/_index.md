@@ -14,9 +14,9 @@ Returns array of effects for the specified paragraph.
 public IEffect[] GetEffectsByParagraph(IParagraph paragraph)
 ```
 
-| parameter | description |
-| --- | --- |
-| paragraph | Paragraph object [`IParagraph`](../../../aspose.slides/iparagraph) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| paragraph | IParagraph | Paragraph object [`IParagraph`](../../../aspose.slides/iparagraph) |
 
 ## Return Value
 

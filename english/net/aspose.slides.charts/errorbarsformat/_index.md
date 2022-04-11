@@ -16,7 +16,7 @@ public class ErrorBarsFormat : IErrorBarsFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Chart](chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
 | [Format](format) { get; set; } | Represents the format of the error bars. Read/write [`IFormat`](../iformat). |

@@ -14,10 +14,10 @@ Sets event handler for the shape
 public void SetEventHandler(SvgEvent eventType, string handler)
 ```
 
-| parameter | description |
-| --- | --- |
-| eventType | Type of event. |
-| handler | Javascript function to handle event. Null value removes handler. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| eventType | SvgEvent | Type of event. |
+| handler | String | Javascript function to handle event. Null value removes handler. |
 
 ### See Also
 

@@ -14,7 +14,7 @@ Specifies how to determine which data points are in the second pie or bar on a p
 public PieSplitType PieSplitBy { get; }
 ```
 
-## Remarks
+### Remarks
 
 1) This is the projection of the property ParentSeriesGroup.PieSplitBy. 2) If property value is PieSplitType.Custom then you can define custom split information with ParentSeriesGroup.PieSplitCustomPoints property.
 

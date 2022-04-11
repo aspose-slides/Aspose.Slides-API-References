@@ -16,7 +16,7 @@ public interface IErrorBarsFormat : IChartComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIChartComponent](asichartcomponent) { get; } | Returns IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
 | [Format](format) { get; set; } | Represents the format of the error bars. Read/write [`IFormat`](../iformat). |

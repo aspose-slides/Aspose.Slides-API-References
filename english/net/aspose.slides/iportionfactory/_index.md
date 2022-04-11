@@ -16,12 +16,12 @@ public interface IPortionFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreatePortion](createportion)() | Creates an empty text portion. |
 | [CreatePortion](createportion)(…) | Creates a text portion from specified string. (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

@@ -16,7 +16,7 @@ public class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`AlphaReplace`](../alphareplace) is equal to the current [`AlphaReplace`](../alphareplace). |
 | [GetEffective](geteffective)() | Gets effective Alpha Replace effect data with the inheritance applied. |

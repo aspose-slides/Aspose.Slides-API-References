@@ -16,7 +16,7 @@ public enum HyperlinkColorSource
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Styles | `0` | Styles. |
 | PortionFormat | `1` | Portion format. |

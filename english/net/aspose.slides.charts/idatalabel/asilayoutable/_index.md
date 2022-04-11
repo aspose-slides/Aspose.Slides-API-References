@@ -14,7 +14,7 @@ Returns ILayoutable interface. Read-only [`ILayoutable`](../../ilayoutable).
 public ILayoutable AsILayoutable { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

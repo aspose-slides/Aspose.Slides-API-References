@@ -14,13 +14,13 @@ Creates and adds a new control to the collection.
 public IControl AddControl(ControlType controlType, float x, float y, float width, float height)
 ```
 
-| parameter | description |
-| --- | --- |
-| controlType | Type of a control to add. |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| width | The width of shape's frame. |
-| height | The height of shape's frame. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| controlType | ControlType | Type of a control to add. |
+| x | Single | The X-coordinate for a left side of shape's frame. |
+| y | Single | The Y-coordinate for a top side of shape's frame. |
+| width | Single | The width of shape's frame. |
+| height | Single | The height of shape's frame. |
 
 ## Return Value
 

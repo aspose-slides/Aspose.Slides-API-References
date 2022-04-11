@@ -16,7 +16,7 @@ public interface IThemeable : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [CreateThemeEffective](createthemeeffective)() | Returns an effective theme for this themeable object. |

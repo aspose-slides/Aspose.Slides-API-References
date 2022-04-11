@@ -16,7 +16,7 @@ public sealed class SvgTSpan : ISvgTSpan
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Id](id) { get; set; } | Gets "tspan" element id |
 

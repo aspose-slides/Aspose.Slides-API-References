@@ -14,9 +14,9 @@ Determines whether the two IBaseSlide instances are equal. Returning value is ca
 public bool Equals(IBaseSlide slide)
 ```
 
-| parameter | description |
-| --- | --- |
-| slide | The IBaseSlide to compare with the current IBaseSlide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| slide | IBaseSlide | The IBaseSlide to compare with the current IBaseSlide. |
 
 ## Return Value
 

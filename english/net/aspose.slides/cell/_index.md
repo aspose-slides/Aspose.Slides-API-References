@@ -16,7 +16,7 @@ public class Cell : ICell
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AnchorCenter](anchorcenter) { get; set; } | Determines whether or not text box centered inside a cell. Read/write Boolean. |
 | [CellFormat](cellformat) { get; } | Returns the CellFormat object that contains formatting properties for this cell. Read-only [`ICellFormat`](../icellformat). |

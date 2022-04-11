@@ -16,7 +16,7 @@ public interface IOleEmbeddedDataInfo
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EmbeddedFileData](embeddedfiledata) { get; } | Returns the file data of embedded OLE object Read only Byte[]. |
 | [EmbeddedFileExtension](embeddedfileextension) { get; } | Returns the file extension for the current embedded OLE object Read only String. |

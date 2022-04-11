@@ -16,7 +16,7 @@ public enum LinkEmbedDecision
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Link | `0` | Object will be stored externally, referrenced by URL |
 | Embed | `1` | Object should be embedded to a generated file if possible. If embedding is imposible, GetUrl will be called and, depending on result, object will be referrenced by URL or ignored. |

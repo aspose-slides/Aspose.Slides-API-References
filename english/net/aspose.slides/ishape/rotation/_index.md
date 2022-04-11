@@ -14,7 +14,7 @@ Returns or sets the number of degrees the specified shape is rotated around the 
 public float Rotation { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Returned value is always defined (is not float.NaN). Assigned value must be defined (not float.NaN). You can set undefined values for RawFrame instance properties.
 

@@ -16,7 +16,7 @@ public enum WarningType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | SourceFileCorruption | `0` | An issue has been detected in the source document which makes it very likely the document will be not be able to be opened if saved in it's original format. |
 | DataLoss | `1` | Text/chart/image or other data will be completely missing from either the documet tree following load, or the created document following save. |

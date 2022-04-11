@@ -14,9 +14,9 @@ Creates new chart series and adds it to the collection.
 public IChartSeries Add(ChartType type)
 ```
 
-| parameter | description |
-| --- | --- |
-| type | Type of series |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | ChartType | Type of series |
 
 ## Return Value
 
@@ -40,16 +40,16 @@ Creates new chart series from [`ChartCellCollection`](../../chartcellcollection)
 public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)
 ```
 
-| parameter | description |
-| --- | --- |
-| cellsWithSeriesName | Cells which contain series name. |
-| type | Type set type of series |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellsWithSeriesName | IChartCellCollection | Cells which contain series name. |
+| type | ChartType | Type set type of series |
 
 ## Return Value
 
 Added chart series or series that already is in collection.
 
-## Remarks
+### Remarks
 
 If chart series careted from same cell already in collection then method adds nothing and returns it's index.
 
@@ -72,16 +72,16 @@ Creates new chart series from [`ChartDataCell`](../../chartdatacell) and adds it
 public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 ```
 
-| parameter | description |
-| --- | --- |
-| cellWithSeriesName | Cell which contain series name. |
-| type | Type set type of series |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellWithSeriesName | IChartDataCell | Cell which contain series name. |
+| type | ChartType | Type set type of series |
 
 ## Return Value
 
 Added chart series or series that already is in collection.
 
-## Remarks
+### Remarks
 
 If chart series careted from same cell already in collection then method adds nothing and returns it's index.
 
@@ -104,10 +104,10 @@ Creates new chart series from value and adds it to the collection.
 public IChartSeries Add(string name, ChartType type)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Series name. |
-| type | Type set type of series |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Series name. |
+| type | ChartType | Type set type of series |
 
 ## Return Value
 

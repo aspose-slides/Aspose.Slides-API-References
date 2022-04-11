@@ -14,9 +14,9 @@ Determines whether the specified [`AlphaInverse`](../../alphainverse) is equal t
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`AlphaInverse`](../../alphainverse) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`AlphaInverse`](../../alphainverse) to compare. |
 
 ## Return Value
 

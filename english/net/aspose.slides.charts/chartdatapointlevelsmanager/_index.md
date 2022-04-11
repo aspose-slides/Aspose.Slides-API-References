@@ -16,7 +16,7 @@ public class ChartDataPointLevelsManager : IChartDataPointLevelsManager
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns data point levels count. |
 | [Item](item) { get; } | Returns IChartDataPointLevel object for defined level. |

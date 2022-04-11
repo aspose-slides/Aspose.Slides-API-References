@@ -14,9 +14,9 @@ Returns a collection of theme defined background fill styles.
 public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleColor)
 ```
 
-| parameter | description |
-| --- | --- |
-| styleColor | Color Color |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| styleColor | Color | Color Color |
 
 ## Return Value
 

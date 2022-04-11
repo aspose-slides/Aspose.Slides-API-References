@@ -14,10 +14,10 @@ Adds an output element for the image.
 public IOutputFile Add(string path, Image image)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | Output path. |
-| image | Image to output. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| image | Image | Image to output. |
 
 ## Return Value
 
@@ -40,10 +40,10 @@ Adds an output element for the image.
 public IOutputFile Add(string path, IPPImage image)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | Output path. |
-| image | Image to output. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| image | IPPImage | Image to output. |
 
 ## Return Value
 
@@ -67,10 +67,10 @@ Adds an output element for the video.
 public IOutputFile Add(string path, IVideo video)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | Output path. |
-| video | Video to output. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| video | IVideo | Video to output. |
 
 ## Return Value
 
@@ -94,10 +94,10 @@ Adds an output element for the text content.
 public IOutputFile Add(string path, string textContent)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | Output path. |
-| textContent | Content to output. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| textContent | String | Content to output. |
 
 ## Return Value
 
@@ -120,11 +120,11 @@ Adds an output element for the font.
 public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | Output path. |
-| fontData | Font to output. |
-| fontStyle | Font style. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| fontData | IFontData | Font to output. |
+| fontStyle | FontStyle | Font style. |
 
 ## Return Value
 

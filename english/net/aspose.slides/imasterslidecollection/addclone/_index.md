@@ -14,9 +14,9 @@ Adds a copy of a specified master slide to the end of the collection. Linked lay
 public IMasterSlide AddClone(IMasterSlide sourceMaster)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceMaster | Slide to clone. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceMaster | IMasterSlide | Slide to clone. |
 
 ## Return Value
 

@@ -14,9 +14,9 @@ Creates a math array and places the specified element in it
 public IMathArray CreateMathArray(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | math element to place in array |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to place in array |
 
 ## Return Value
 
@@ -40,9 +40,9 @@ Creates a math array and places specified elements in it
 public IMathArray CreateMathArray(IMathElementCollection elements)
 ```
 
-| parameter | description |
-| --- | --- |
-| elements | math elements to place in array |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| elements | IMathElementCollection | math elements to place in array |
 
 ## Return Value
 

@@ -15,13 +15,13 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
     IBaseSlide slide)
 ```
 
-| parameter | description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
+| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | IBaseSlide | Parent slide. |
 
-## Examples
+### Examples
 
 Example:
 
@@ -52,13 +52,13 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
     IGroupShape groupShape)
 ```
 
-| parameter | description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| groupShape | Parent group shape. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
+| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
+| groupShape | IGroupShape | Parent group shape. |
 
-## Examples
+### Examples
 
 Example:
 
@@ -89,14 +89,14 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
     IBaseSlide slide, int[] shapeIndexes)
 ```
 
-| parameter | description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
+| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | IBaseSlide | Parent slide. |
+| shapeIndexes | Int32[] | Indexes of shapes to be aligned. |
 
-## Examples
+### Examples
 
 Example:
 
@@ -135,14 +135,14 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
     IGroupShape groupShape, int[] shapeIndexes)
 ```
 
-| parameter | description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| groupShape | Parent group shape. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
+| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
+| groupShape | IGroupShape | Parent group shape. |
+| shapeIndexes | Int32[] | Indexes of shapes to be aligned. |
 
-## Examples
+### Examples
 
 Example:
 

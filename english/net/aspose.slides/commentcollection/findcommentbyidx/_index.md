@@ -14,9 +14,9 @@ Finds a comment in the collection by index.
 public IComment FindCommentByIdx(int idx)
 ```
 
-| parameter | description |
-| --- | --- |
-| idx | Unique index of a comment to find Int32. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| idx | Int32 | Unique index of a comment to find Int32. |
 
 ## Return Value
 

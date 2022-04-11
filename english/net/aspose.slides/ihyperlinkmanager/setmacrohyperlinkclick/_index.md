@@ -14,15 +14,15 @@ Set Macro hyperlink on a click.
 public IHyperlink SetMacroHyperlinkClick(string macroName)
 ```
 
-| parameter | description |
-| --- | --- |
-| macroName | Name of the macro |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| macroName | String | Name of the macro |
 
 ## Return Value
 
 Hyperlink object [`IHyperlink`](../../ihyperlink)
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

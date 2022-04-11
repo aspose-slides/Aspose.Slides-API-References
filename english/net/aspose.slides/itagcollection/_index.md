@@ -16,7 +16,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; set; } | Returns or sets a key and a value pair of a tag. |
 | [Add](add)(…) | Adds a new tag to collection. |

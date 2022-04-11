@@ -16,7 +16,7 @@ public class Duotone : ImageTransformOperation, IDuotone
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Color1](color1) { get; } | Returns target color format for dark pixels. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Color2](color2) { get; } | Returns target color format for light pixels. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |

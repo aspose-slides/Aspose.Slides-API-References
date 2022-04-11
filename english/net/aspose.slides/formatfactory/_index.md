@@ -16,7 +16,7 @@ public class FormatFactory : IFormatFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FormatFactory](formatfactory)() | The default constructor. |
 | static [Instance](instance) { get; } | Format factory static instance. Read-only [`FormatFactory`](../formatfactory). |

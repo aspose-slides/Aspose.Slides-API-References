@@ -16,7 +16,7 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns the element at the specified index. |
 | [Add](add)(…) | Adds new custom xml part. (3 methods) |

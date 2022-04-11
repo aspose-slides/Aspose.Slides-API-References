@@ -14,7 +14,7 @@ Determines whether audio is playing across the slides. Read/write Boolean.
 public bool PlayAcrossSlides { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

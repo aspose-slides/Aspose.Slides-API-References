@@ -14,11 +14,11 @@ Adds the signature at the end of collection.
 public void Add(IDigitalSignature digitalSignature)
 ```
 
-| parameter | description |
-| --- | --- |
-| digitalSignature | Signature to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| digitalSignature | IDigitalSignature | Signature to add. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

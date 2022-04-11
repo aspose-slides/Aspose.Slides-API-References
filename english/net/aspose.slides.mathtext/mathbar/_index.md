@@ -16,14 +16,14 @@ public sealed class MathBar : MathElementBase, IMathBar
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathBar](mathbar)(…) | Initializes MathBar with overbar (Top position) (2 constructors) |
 | [Base](base) { get; } | Base argument |
 | [Position](position) { get; set; } | Position of the bar line. Default: Top |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

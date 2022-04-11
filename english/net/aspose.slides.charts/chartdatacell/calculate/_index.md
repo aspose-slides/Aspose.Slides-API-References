@@ -14,9 +14,9 @@ If the cell contains a formula, the value will be updated base on that formula.
 public void Calculate(bool updateValues)
 ```
 
-| parameter | description |
-| --- | --- |
-| updateValues | If false, no actual calculation will be performed. Use true for possible exceptions check. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| updateValues | Boolean | If false, no actual calculation will be performed. Use true for possible exceptions check. |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public interface IPathSegment
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PathCommand](pathcommand) { get; } | Path type of the segment |
 | [SegmentData](segmentdata) { get; } | Path data of the segment |

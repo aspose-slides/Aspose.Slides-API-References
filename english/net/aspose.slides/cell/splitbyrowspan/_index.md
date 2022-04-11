@@ -14,9 +14,9 @@ Splits the cell to two cells by index of row.
 public void SplitByRowSpan(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of row. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of row. |
 
 ### See Also
 

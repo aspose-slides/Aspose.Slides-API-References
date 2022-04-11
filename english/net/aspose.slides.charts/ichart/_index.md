@@ -16,7 +16,7 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |

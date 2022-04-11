@@ -16,7 +16,7 @@ public enum StyleType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Style1 | `0` | Style 1 |
 | Style2 | `1` | Style 2 |

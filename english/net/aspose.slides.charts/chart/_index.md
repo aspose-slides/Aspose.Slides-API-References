@@ -16,7 +16,7 @@ public class Chart : GraphicalObject, IChart
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [AsIThemeable](asithemeable) { get; } | Allows to get base IThemeable interface. Read-only [`IThemeable`](../../aspose.slides.theme/ithemeable). |

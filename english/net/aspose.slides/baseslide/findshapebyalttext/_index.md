@@ -14,9 +14,9 @@ Finds first occurrence of a shape with the specified alternative text.
 public IShape FindShapeByAltText(string altText)
 ```
 
-| parameter | description |
-| --- | --- |
-| altText | Alternative text. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| altText | String | Alternative text. |
 
 ## Return Value
 

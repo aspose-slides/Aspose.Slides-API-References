@@ -14,7 +14,7 @@ Determines whether there are series lines for this series and kindred series. Th
 public bool HasSeriesLines { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.HasSeriesLines.
 

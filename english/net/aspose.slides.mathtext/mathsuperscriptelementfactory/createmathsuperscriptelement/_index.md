@@ -15,10 +15,10 @@ public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg
     IMathElement superScript)
 ```
 
-| parameter | description |
-| --- | --- |
-| baseArg | Base argument to apply superscript |
-| superScript | upper right index |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| baseArg | IMathElement | Base argument to apply superscript |
+| superScript | IMathElement | upper right index |
 
 ## Return Value
 

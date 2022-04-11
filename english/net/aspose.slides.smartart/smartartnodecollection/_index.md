@@ -16,7 +16,7 @@ public class SmartArtNodeCollection : ISmartArtNodeCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns count of nodes in collection Read-only Int32 Read-only Int32. |
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |

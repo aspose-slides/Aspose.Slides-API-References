@@ -14,9 +14,9 @@ Adds the new Trendline at the end of a collection and return it.
 public ITrendline Add(TrendlineType trendlineType)
 ```
 
-| parameter | description |
-| --- | --- |
-| trendlineType | Trendline type [`TrendlineType`](../../trendlinetype) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| trendlineType | TrendlineType | Trendline type [`TrendlineType`](../../trendlinetype) |
 
 ## Return Value
 

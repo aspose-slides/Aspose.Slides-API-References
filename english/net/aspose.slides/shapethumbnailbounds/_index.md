@@ -16,7 +16,7 @@ public enum ShapeThumbnailBounds
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Slide | `0` | Shape thumbnail will have the size equal to slide size. Shape position will be saved. |
 | Shape | `1` | Shape thumbnail will have size equal to the shape bounds rectangle with taking into account shape outline settings. |

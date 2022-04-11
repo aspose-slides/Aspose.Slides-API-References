@@ -16,7 +16,7 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIChartComponent](asichartcomponent) { get; } | Allows to get base IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
 | [AsIEnumerable](asienumerable) { get; } | Allows to get base IEnumerable interface. Read-only IEnumerable. |

@@ -16,7 +16,7 @@ public enum AxisAggregationType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | ByCategory | `0` | Aggregate by categories |
 | Automatic | `1` | Aggregate categories automatically. |

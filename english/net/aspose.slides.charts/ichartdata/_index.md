@@ -16,7 +16,7 @@ public interface IChartData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Categories](categories) { get; } | Gets the primary categories (or both primary and secondary categories if [`UseSecondaryCategories`](./usesecondarycategories) property is false). Read-only [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [ChartDataWorkbook](chartdataworkbook) { get; } | Gets the cells factory to create cells used for chart series or categories. Read-only [`IChartDataWorkbook`](../ichartdataworkbook). |

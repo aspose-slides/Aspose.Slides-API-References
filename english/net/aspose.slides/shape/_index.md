@@ -16,7 +16,7 @@ public class Shape : IShape
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AlternativeText](alternativetext) { get; set; } | Returns or sets the alternative text associated with a shape. Read/write String. |
 | [AlternativeTextTitle](alternativetexttitle) { get; set; } | Returns or sets the title of alternative text associated with a shape. Read/write String. |
@@ -54,13 +54,6 @@ public class Shape : IShape
 | [GetThumbnail](getthumbnail)(…) | Returns shape thumbnail. |
 | [RemovePlaceholder](removeplaceholder)() | Defines that this shape isn't a placeholder. |
 | [WriteAsSvg](writeassvg)(…) | Saves content of Shape as SVG file. (2 methods) |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| readonly [m_fillFormat](m_fillformat) |  |
-| [m_lineFormat](m_lineformat) |  |
 
 ### See Also
 

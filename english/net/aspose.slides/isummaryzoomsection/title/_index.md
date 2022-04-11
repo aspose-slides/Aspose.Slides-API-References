@@ -14,7 +14,7 @@ Returns the text title of the Summary Zoom Section object.
 public string Title { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

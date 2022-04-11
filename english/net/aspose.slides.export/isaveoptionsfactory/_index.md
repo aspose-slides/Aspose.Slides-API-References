@@ -16,11 +16,11 @@ public interface ISaveOptionsFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreatePptxOptions](createpptxoptions)() | Creates PPTX save options. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

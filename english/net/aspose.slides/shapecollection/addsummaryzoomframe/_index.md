@@ -14,28 +14,28 @@ Adds a new Summary Zoom object to the end of a collection.
 public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, float height)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new Section Zoom frame Single. |
-| y | Y coordinate of a new Section Zoom frame Single. |
-| width | Width of a new Section Zoom frame Single. |
-| height | Height of a new Section Zoom frame Single. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new Section Zoom frame Single. |
+| y | Single | Y coordinate of a new Section Zoom frame Single. |
+| width | Single | Width of a new Section Zoom frame Single. |
+| height | Single | Height of a new Section Zoom frame Single. |
 
 ## Return Value
 
 Created Summary Zoom object [`ISummaryZoomFrame`](../../isummaryzoomframe).
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | There are no sections in the presentation, or the target slide does not belong to any section. |
 
-## Remarks
+### Remarks
 
 This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation.
 
-## Examples
+### Examples
 
 This example demonstrates adding a Summary Zoom object to the end of a collection (assume that there are at least two sections in the "Presentation.pptx" presentation):
 

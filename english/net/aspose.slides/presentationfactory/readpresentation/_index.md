@@ -14,9 +14,9 @@ Reads an existing presentation from array
 public IPresentation ReadPresentation(byte[] data)
 ```
 
-| parameter | description |
-| --- | --- |
-| data | Array to read |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | Byte[] | Array to read |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Reads an existing presentation from stream
 public IPresentation ReadPresentation(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Input stream to read |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Input stream to read |
 
 ## Return Value
 
@@ -64,9 +64,9 @@ Reads an existing presentation from file
 public IPresentation ReadPresentation(string file)
 ```
 
-| parameter | description |
-| --- | --- |
-| file | File name |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | File name |
 
 ## Return Value
 
@@ -89,10 +89,10 @@ Reads an existing presentation from array with additional load options
 public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| data | Array to read |
-| options | Load options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | Byte[] | Array to read |
+| options | ILoadOptions | Load options |
 
 ## Return Value
 
@@ -116,10 +116,10 @@ Reads an existing presentation from stream with additional load options
 public IPresentation ReadPresentation(Stream stream, ILoadOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Input stream to read |
-| options | Load options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Input stream to read |
+| options | ILoadOptions | Load options |
 
 ## Return Value
 
@@ -143,10 +143,10 @@ Reads an existing presentation from stream with additional load options
 public IPresentation ReadPresentation(string file, ILoadOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| file | File name |
-| options | Load options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | File name |
+| options | ILoadOptions | Load options |
 
 ## Return Value
 

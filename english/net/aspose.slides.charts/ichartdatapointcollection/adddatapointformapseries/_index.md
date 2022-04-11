@@ -14,15 +14,15 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForMapSeries(IChartDataCell value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Data point ColorValue |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IChartDataCell | Data point ColorValue |
 
 ## Return Value
 
 New data point.
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

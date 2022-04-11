@@ -18,7 +18,7 @@ public IPortionFormatEffectiveData GetEffective()
 
 A [`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting some effective portion format properties.
 

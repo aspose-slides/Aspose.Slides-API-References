@@ -14,14 +14,14 @@ Calculates all formulas in the workbook and updates corresponding cells values.
 public void CalculateFormulas()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [CellCircularReferenceException](../../../aspose.slides.spreadsheet/cellcircularreferenceexception) | Workbook contains formulas with a circular reference. |
 | [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | Cell data is not supported. |
 
-## Examples
+### Examples
 
 Example shows how to assign a formula to the cell and to calculate a value. The value of the "B4" cell is getting set to 5.
 

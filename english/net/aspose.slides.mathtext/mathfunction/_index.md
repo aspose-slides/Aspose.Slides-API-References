@@ -16,14 +16,14 @@ public sealed class MathFunction : MathElementBase, IMathFunction
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathFunction](mathfunction)(…) | Initializes a new instance of the MathFunction class. (2 constructors) |
 | [Base](base) { get; } | Function Argument |
 | [Name](name) { get; } | Function name For example, function names are sin and cos |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public enum MathDelimiterShape
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Centered | `0` | Centered to math axis |
 | Match | `1` | Match to content |

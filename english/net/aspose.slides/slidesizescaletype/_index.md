@@ -16,7 +16,7 @@ public enum SlideSizeScaleType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | DoNotScale | `0` | Do not scale. |
 | EnsureFit | `1` | Scale to ensure fit. |

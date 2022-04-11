@@ -14,10 +14,10 @@ Creates a math matrix
 public IMathMatrix CreateMathMatrix(int rowCount, int columnCount)
 ```
 
-| parameter | description |
-| --- | --- |
-| rowCount | row count |
-| columnCount | column count |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowCount | Int32 | row count |
+| columnCount | Int32 | column count |
 
 ## Return Value
 

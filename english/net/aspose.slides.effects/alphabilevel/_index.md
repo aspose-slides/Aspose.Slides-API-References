@@ -16,7 +16,7 @@ public class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Threshold](threshold) { get; set; } | Returns effect threshold. Read/write Single. |
 | override [Equals](equals)(…) | Determines whether the specified [`AlphaBiLevel`](../alphabilevel) is equal to the current [`AlphaBiLevel`](../alphabilevel). |

@@ -16,7 +16,7 @@ public enum TransitionMorphType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | ByObject | `0` | Morph transition will be performed considering shapes as indivisible objects. |
 | ByWord | `1` | Morph transition will be performed with transferring text by words where possible. |

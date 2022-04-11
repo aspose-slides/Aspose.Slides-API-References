@@ -16,7 +16,7 @@ public enum PicturesCompression
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Dpi330 | `0` | Good quality for high-definition (HD) displays |
 | Dpi220 | `1` | Excellent quality on most printers and screens |

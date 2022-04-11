@@ -14,9 +14,9 @@ Determines whether the storage contains an element with the specified key.
 public bool ContainsKey(string key)
 ```
 
-| parameter | description |
-| --- | --- |
-| key | Key of the value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | String | Key of the value. |
 
 ## Return Value
 

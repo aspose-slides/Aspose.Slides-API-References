@@ -14,7 +14,7 @@ Text formatting properties
 public IPortionFormat Format { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

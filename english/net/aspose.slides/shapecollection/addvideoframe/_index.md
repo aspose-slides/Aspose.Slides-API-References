@@ -14,13 +14,13 @@ Adds a new video frame to the end of a collection.
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IVideo video)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new video frame. |
-| y | Y coordinate of a new video frame. |
-| width | Width of a new video frame. |
-| height | Height of a new video frame. |
-| video | Video to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new video frame. |
+| y | Single | Y coordinate of a new video frame. |
+| width | Single | Width of a new video frame. |
+| height | Single | Height of a new video frame. |
+| video | IVideo | Video to add. |
 
 ## Return Value
 
@@ -44,13 +44,13 @@ Adds a new video frame to the end of a collection.
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, string fname)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | X coordinate of a new video frame. |
-| y | Y coordinate of a new video frame. |
-| width | Width of a new video frame. |
-| height | Height of a new video frame. |
-| fname | Video file name. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new video frame. |
+| y | Single | Y coordinate of a new video frame. |
+| width | Single | Width of a new video frame. |
+| height | Single | Height of a new video frame. |
+| fname | String | Video file name. |
 
 ## Return Value
 

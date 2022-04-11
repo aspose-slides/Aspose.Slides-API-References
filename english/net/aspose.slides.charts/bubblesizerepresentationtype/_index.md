@@ -16,7 +16,7 @@ public enum BubbleSizeRepresentationType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Area | `0` | Specifies the area of the bubbles shall be proportional to the bubble size value. |
 | Width | `1` | Specifies the radius of the bubbles shall be proportional to the bubble size value. |

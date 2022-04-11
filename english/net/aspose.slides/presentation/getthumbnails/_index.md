@@ -14,9 +14,9 @@ Returns a Thumbnail Bitmap objects for all slides of a presentation.
 public Bitmap[] GetThumbnails(IRenderingOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Tiff options. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Tiff options. |
 
 ## Return Value
 
@@ -39,10 +39,10 @@ Returns a Thumbnail Bitmap objects for specified slides of a presentation.
 public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Tiff options. |
-| slides | Array with slide positions, starting from 1. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Tiff options. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
 
 ## Return Value
 
@@ -65,10 +65,10 @@ Returns a Thumbnail Bitmap objects for all slides of a presentation with specifi
 public Bitmap[] GetThumbnails(IRenderingOptions options, Size imageSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Tiff options. |
-| imageSize | Size of the image to create. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Tiff options. |
+| imageSize | Size | Size of the image to create. |
 
 ## Return Value
 
@@ -91,11 +91,11 @@ Returns a Thumbnail Bitmap objects for all slides of a presentation with custom 
 public Bitmap[] GetThumbnails(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Tiff options. |
-| scaleX | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | The value by which to scale this Thumbnail in the y-axis direction. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Tiff options. |
+| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ## Return Value
 
@@ -118,11 +118,11 @@ Returns a Thumbnail Bitmap objects for specified slides of a presentation with s
 public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, Size imageSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Tiff options. |
-| slides | Array with slide positions, starting from 1. |
-| imageSize | Size of the image to create. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Tiff options. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| imageSize | Size | Size of the image to create. |
 
 ## Return Value
 
@@ -145,12 +145,12 @@ Returns a Thumbnail Bitmap objects for specified slides of a presentation with c
 public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Tiff options. |
-| slides | Array with slide positions, starting from 1. |
-| scaleX | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | The value by which to scale this Thumbnail in the y-axis direction. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Tiff options. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ## Return Value
 

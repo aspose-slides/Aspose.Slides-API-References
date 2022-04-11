@@ -14,9 +14,9 @@ Determines whether the specified [`HSL`](../../hsl) is equal to the current [`HS
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`HSL`](../../hsl) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`HSL`](../../hsl) to compare. |
 
 ## Return Value
 

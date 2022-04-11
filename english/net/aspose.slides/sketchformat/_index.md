@@ -16,7 +16,7 @@ public class SketchFormat : PVIObject, ISketchFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SketchType](sketchtype) { get; set; } | Returns or sets the sketch type. Read/write [`LineSketchType`](../linesketchtype). |
 

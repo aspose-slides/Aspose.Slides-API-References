@@ -35,10 +35,10 @@ Creates and returns an array with all shapes from the specified range in it.
 public IShape[] ToArray(int startIndex, int count)
 ```
 
-| parameter | description |
-| --- | --- |
-| startIndex | An index of a first shape to return. |
-| count | A number of shapes to return. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | Int32 | An index of a first shape to return. |
+| count | Int32 | A number of shapes to return. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition split. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Orientation](orientation) { get; set; } | Orientation of transition split. Read/write [`Orientation`](../../aspose.slides/orientation). |

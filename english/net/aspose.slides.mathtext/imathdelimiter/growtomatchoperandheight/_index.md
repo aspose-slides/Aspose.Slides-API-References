@@ -14,7 +14,7 @@ Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter 
 public bool GrowToMatchOperandHeight { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

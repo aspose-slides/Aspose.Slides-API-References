@@ -16,7 +16,7 @@ public enum BuildType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | AsOneObject | `0` | With containing shape. |
 | AllParagraphsAtOnce | `1` | All paragraph. |

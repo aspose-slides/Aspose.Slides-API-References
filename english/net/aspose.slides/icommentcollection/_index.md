@@ -16,7 +16,7 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IComment`](../icomment). |
 | [AddComment](addcomment)(…) | Add new comment at the end of a collection. |

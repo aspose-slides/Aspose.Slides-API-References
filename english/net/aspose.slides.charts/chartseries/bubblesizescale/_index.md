@@ -14,7 +14,7 @@ Specifies the scale factor for the bubble chart (can be between 0 and 300 percen
 public int BubbleSizeScale { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.BubbleSizeScale.
 

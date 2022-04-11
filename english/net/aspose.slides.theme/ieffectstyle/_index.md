@@ -16,7 +16,7 @@ public interface IEffectStyle
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EffectFormat](effectformat) { get; } | Returns an effect format. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [ThreeDFormat](threedformat) { get; } | Returns an 3d format. Read-only [`IThreeDFormat`](../../aspose.slides/ithreedformat). |

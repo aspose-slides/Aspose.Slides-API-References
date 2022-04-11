@@ -14,10 +14,10 @@ Moves slide from the collection to the specified position.
 public void Reorder(int index, ISlide slide)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Target index. |
-| slide | Slide to move. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Target index. |
+| slide | ISlide | Slide to move. |
 
 ### See Also
 
@@ -36,10 +36,10 @@ Moves slides from the collection to the specified position. Slides will be place
 public void Reorder(int index, params ISlide[] slides)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Target index. |
-| slides | Slides to move. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Target index. |
+| slides | ISlide[] | Slides to move. |
 
 ### See Also
 

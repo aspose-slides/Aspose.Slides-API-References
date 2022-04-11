@@ -14,15 +14,15 @@ Creates subscript
 public IMathSubscriptElement SetSubscript(IMathElement subscript)
 ```
 
-| parameter | description |
-| --- | --- |
-| subscript | Subscript (lower index on the right) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subscript | IMathElement | Subscript (lower index on the right) |
 
 ## Return Value
 
 New math element of type [`IMathSubscriptElement`](../../imathsubscriptelement)
 
-## Examples
+### Examples
 
 Example:
 
@@ -50,15 +50,15 @@ Creates subscript
 public IMathSubscriptElement SetSubscript(string subscript)
 ```
 
-| parameter | description |
-| --- | --- |
-| subscript | Subscript (lower index on the right) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subscript | String | Subscript (lower index on the right) |
 
 ## Return Value
 
 New math element of type [`IMathSubscriptElement`](../../imathsubscriptelement)
 
-## Examples
+### Examples
 
 Example:
 

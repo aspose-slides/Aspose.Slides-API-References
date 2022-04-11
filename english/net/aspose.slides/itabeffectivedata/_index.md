@@ -16,13 +16,13 @@ public interface ITabEffectiveData : IComparable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alignment](alignment) { get; } | Returns align style of a tab. Read-only [`TabAlignment`](../tabalignment). |
 | [AsIComparable](asicomparable) { get; } | Returns IComparable interface. Read-only IComparable. |
 | [Position](position) { get; } | Returns position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read-only Double. |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 

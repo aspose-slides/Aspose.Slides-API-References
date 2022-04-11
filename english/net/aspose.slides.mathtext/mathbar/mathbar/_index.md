@@ -14,11 +14,11 @@ Initializes MathBar with overbar (Top position)
 public MathBar(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | The base element to which the bar is applied |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | The base element to which the bar is applied |
 
-## Examples
+### Examples
 
 Example:
 
@@ -44,12 +44,12 @@ Initializes MathBar with specified position
 public MathBar(IMathElement element, MathTopBotPositions position)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | The base element to which the bar is applied |
-| position | Position of the bar line. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | The base element to which the bar is applied |
+| position | MathTopBotPositions | Position of the bar line. |
 
-## Examples
+### Examples
 
 Example:
 

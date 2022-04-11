@@ -14,15 +14,15 @@ Delimits arguments using the specified delimiter character
 public IMathDelimiter Delimit(char separatorCharacter)
 ```
 
-| parameter | description |
-| --- | --- |
-| separatorCharacter | delimiter character |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| separatorCharacter | Char | delimiter character |
 
 ## Return Value
 
 This object after applying the delimiter character
 
-## Examples
+### Examples
 
 Example:
 

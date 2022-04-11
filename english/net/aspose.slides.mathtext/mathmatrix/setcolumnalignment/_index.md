@@ -14,12 +14,12 @@ Set the horizontal alignment of the specified column
 public void SetColumnAlignment(int columnIndex, MathHorizontalAlignment val)
 ```
 
-| parameter | description |
-| --- | --- |
-| columnIndex | Zero-based column index |
-| val | New value of horizontal alignment of specified column |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | Int32 | Zero-based column index |
+| val | MathHorizontalAlignment | New value of horizontal alignment of specified column |
 
-## Examples
+### Examples
 
 Example:
 

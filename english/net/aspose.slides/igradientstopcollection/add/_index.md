@@ -14,10 +14,10 @@ Creates the new gradient stop and adds it to the end of collection.
 public IGradientStop Add(float position, Color color)
 ```
 
-| parameter | description |
-| --- | --- |
-| position | Position of the new gradient stop. |
-| color | Color of the new radient stop. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | Single | Position of the new gradient stop. |
+| color | Color | Color of the new radient stop. |
 
 ## Return Value
 
@@ -40,10 +40,10 @@ Creates the new gradient stop and adds it to the end of collection.
 public IGradientStop Add(float position, PresetColor presetColor)
 ```
 
-| parameter | description |
-| --- | --- |
-| position | Position of the new gradient stop. |
-| presetColor | Color of the new radient stop. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | Single | Position of the new gradient stop. |
+| presetColor | PresetColor | Color of the new radient stop. |
 
 ## Return Value
 
@@ -67,10 +67,10 @@ Creates the new gradient stop and adds it to the end of collection.
 public IGradientStop Add(float position, SchemeColor schemeColor)
 ```
 
-| parameter | description |
-| --- | --- |
-| position | Position of the new gradient stop. |
-| schemeColor | Color of the new radient stop. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | Single | Position of the new gradient stop. |
+| schemeColor | SchemeColor | Color of the new radient stop. |
 
 ## Return Value
 

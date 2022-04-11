@@ -17,7 +17,7 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SetAllDateTimesText](setalldatetimestext)(…) | Sets text to all date-time placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master. |
 | [SetAllDateTimesVisibility](setalldatetimesvisibility)(…) | Changes all date-time placeholders visibility, including master slides, layout slides, slides, notes master, notes slides and handout master. |

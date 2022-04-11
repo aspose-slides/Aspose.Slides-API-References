@@ -16,7 +16,7 @@ public interface IFormatFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateParagraphFormat](createparagraphformat)() | Creates new [`IParagraphFormat`](../iparagraphformat). |
 | [CreatePortionFormat](createportionformat)() | Creates new [`IPortionFormat`](../iportionformat). |

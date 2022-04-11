@@ -16,7 +16,7 @@ public class TiffOptions : SaveOptions, ITiffOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TiffOptions](tiffoptions)() | Default constructor. |
 | [CompressionType](compressiontype) { get; set; } | Specifies the compression type. Read/write [`TiffCompressionTypes`](../tiffcompressiontypes). |

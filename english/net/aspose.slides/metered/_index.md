@@ -16,14 +16,14 @@ public class Metered
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Metered](metered)() | Initializes a new instance of this class. |
 | [SetMeteredKey](setmeteredkey)(…) | Sets metered public and private key |
 | static [GetConsumptionCredit](getconsumptioncredit)() | Gets consumption credit |
 | static [GetConsumptionQuantity](getconsumptionquantity)() | Gets consumption file size |
 
-## Examples
+### Examples
 
 In this example, an attempt will be made to set metered public and private key
 

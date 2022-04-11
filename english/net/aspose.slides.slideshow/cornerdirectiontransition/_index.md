@@ -16,7 +16,7 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 

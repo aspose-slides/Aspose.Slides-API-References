@@ -16,7 +16,7 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Returns IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
 | [AsISlideComponent](asislidecomponent) { get; } | Returns ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |

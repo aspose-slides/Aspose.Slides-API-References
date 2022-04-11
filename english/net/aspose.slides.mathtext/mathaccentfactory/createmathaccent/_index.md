@@ -14,9 +14,9 @@ Creates a math accent applying to a specified math element with the default acce
 public IMathAccent CreateMathAccent(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | math element to apply accent |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to apply accent |
 
 ## Return Value
 
@@ -40,10 +40,10 @@ Creates a math accent applying to a specified math element
 public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | math element to apply accent |
-| accentCharacter | accent character |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to apply accent |
+| accentCharacter | Char | accent character |
 
 ## Return Value
 

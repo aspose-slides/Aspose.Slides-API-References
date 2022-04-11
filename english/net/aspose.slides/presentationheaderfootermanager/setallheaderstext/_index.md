@@ -14,9 +14,9 @@ Sets text to all header placeholders, including notes master, notes slides and h
 public void SetAllHeadersText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 ### See Also
 

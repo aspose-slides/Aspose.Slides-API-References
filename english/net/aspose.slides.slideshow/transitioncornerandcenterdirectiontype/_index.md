@@ -16,7 +16,7 @@ public enum TransitionCornerAndCenterDirectionType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | LeftDown | `0` |  |
 | LeftUp | `1` |  |

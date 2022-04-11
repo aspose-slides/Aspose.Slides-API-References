@@ -16,7 +16,7 @@ public interface IPptxOptions : ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](asisaveoptions) { get; } | Allows to get base ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [Conformance](conformance) { get; set; } | Specifies the conformance class to which the Presentation document conforms. Default value is Ecma376_2006 |

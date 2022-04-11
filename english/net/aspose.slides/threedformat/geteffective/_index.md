@@ -18,7 +18,7 @@ public IThreeDFormatEffectiveData GetEffective()
 
 A [`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates how to get effective properties for camera, light rig and shape's top bevel.
 

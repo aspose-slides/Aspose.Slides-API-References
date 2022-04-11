@@ -16,7 +16,7 @@ public interface IMasterHandoutSlideManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MasterHandoutSlide](masterhandoutslide) { get; } | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only [`IMasterHandoutSlide`](../imasterhandoutslide). |
 | [RemoveMasterHandoutSlide](removemasterhandoutslide)() | Removes master handout slide. |

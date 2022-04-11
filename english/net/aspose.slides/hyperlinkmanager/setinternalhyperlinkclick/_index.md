@@ -14,9 +14,9 @@ Sets internal hyperlink on click.
 public IHyperlink SetInternalHyperlinkClick(ISlide targetSlide)
 ```
 
-| parameter | description |
-| --- | --- |
-| targetSlide | Target slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| targetSlide | ISlide | Target slide. |
 
 ## Return Value
 

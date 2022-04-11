@@ -16,7 +16,7 @@ public class CellInvalidFormulaException : PptxEditException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception)() | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class. |
 | [CellInvalidFormulaException](cellinvalidformulaexception)(…) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message. (3 constructors) |

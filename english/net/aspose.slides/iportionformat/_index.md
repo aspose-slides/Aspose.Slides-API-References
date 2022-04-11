@@ -16,7 +16,7 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBasePortionFormat](asibaseportionformat) { get; } | Returns IBasePortionFormat interface. Read-only [`IBasePortionFormat`](../ibaseportionformat). |
 | [AsIHyperlinkContainer](asihyperlinkcontainer) { get; } | Allows to get base IHyperlinkContainer interface. Read-only [`IHyperlinkContainer`](../ihyperlinkcontainer). |
@@ -24,7 +24,7 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | [SmartTagClean](smarttagclean) { get; set; } | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write Boolean. |
 | [GetEffective](geteffective)() | Gets effective portion formatting data with the inheritance applied. |
 
-## Remarks
+### Remarks
 
 This class is used to return and manipulate text portion formatting properties defined for the particular portion. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 

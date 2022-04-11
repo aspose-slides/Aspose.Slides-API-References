@@ -14,11 +14,11 @@ Gets or sets the image type of a zoom object. Read/write [`ZoomImageType`](../..
 public ZoomImageType ImageType { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Specifies whether the Zoom object is using the slide preview or a cover image.
 
-## Examples
+### Examples
 
 Next example demonstrates changing Image Type to Preview value. In this case current image of a Zoom object changes to slide image:
 

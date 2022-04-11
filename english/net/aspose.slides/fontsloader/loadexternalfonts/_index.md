@@ -14,9 +14,9 @@ Adds additional folders to seek fonts.
 public static void LoadExternalFonts(string[] directories)
 ```
 
-| parameter | description |
-| --- | --- |
-| directories | Directories to read additional fonts. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| directories | String[] | Directories to read additional fonts. |
 
 ### See Also
 

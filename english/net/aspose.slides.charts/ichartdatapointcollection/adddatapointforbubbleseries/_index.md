@@ -14,11 +14,11 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue, double bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | Double | Data point XValue |
+| yValue | Double | Data point YValue |
+| bubbleSize | Double | Data point BubbleSize |
 
 ## Return Value
 
@@ -42,11 +42,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
     IChartDataCell bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | Double | Data point XValue |
+| yValue | Double | Data point YValue |
+| bubbleSize | IChartDataCell | Data point BubbleSize |
 
 ## Return Value
 
@@ -71,11 +71,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
     double bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | Double | Data point XValue |
+| yValue | IChartDataCell | Data point YValue |
+| bubbleSize | Double | Data point BubbleSize |
 
 ## Return Value
 
@@ -100,11 +100,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
     IChartDataCell bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | Double | Data point XValue |
+| yValue | IChartDataCell | Data point YValue |
+| bubbleSize | IChartDataCell | Data point BubbleSize |
 
 ## Return Value
 
@@ -129,11 +129,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
     double bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | IChartDataCell | Data point XValue |
+| yValue | Double | Data point YValue |
+| bubbleSize | Double | Data point BubbleSize |
 
 ## Return Value
 
@@ -158,11 +158,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
     IChartDataCell bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | IChartDataCell | Data point XValue |
+| yValue | Double | Data point YValue |
+| bubbleSize | IChartDataCell | Data point BubbleSize |
 
 ## Return Value
 
@@ -187,11 +187,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
     double bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | IChartDataCell | Data point XValue |
+| yValue | IChartDataCell | Data point YValue |
+| bubbleSize | Double | Data point BubbleSize |
 
 ## Return Value
 
@@ -216,11 +216,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
     IChartDataCell bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | IChartDataCell | Data point XValue |
+| yValue | IChartDataCell | Data point YValue |
+| bubbleSize | IChartDataCell | Data point BubbleSize |
 
 ## Return Value
 
@@ -244,11 +244,11 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue, double bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | Double | Data point YValue |
+| bubbleSize | Double | Data point BubbleSize |
 
 ## Return Value
 
@@ -272,11 +272,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
     IChartDataCell bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | Double | Data point YValue |
+| bubbleSize | IChartDataCell | Data point BubbleSize |
 
 ## Return Value
 
@@ -301,11 +301,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
     double bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | IChartDataCell | Data point YValue |
+| bubbleSize | Double | Data point BubbleSize |
 
 ## Return Value
 
@@ -330,11 +330,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
     IChartDataCell bubbleSize)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | IChartDataCell | Data point YValue |
+| bubbleSize | IChartDataCell | Data point BubbleSize |
 
 ## Return Value
 

@@ -14,9 +14,9 @@ Sets defined paragraph format properties to all element's paragraphs.
 public void SetTextFormat(IParagraphFormat source)
 ```
 
-| parameter | description |
-| --- | --- |
-| source | IParagraphFormat object with necessary properties set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | IParagraphFormat | IParagraphFormat object with necessary properties set. |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Sets defined portion format properties to all element's portions.
 public void SetTextFormat(IPortionFormat source)
 ```
 
-| parameter | description |
-| --- | --- |
-| source | IPortionFormat object with necessary properties set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | IPortionFormat | IPortionFormat object with necessary properties set. |
 
 ### See Also
 
@@ -56,9 +56,9 @@ Sets defined text frame format properties to all element's text frames.
 public void SetTextFormat(ITextFrameFormat source)
 ```
 
-| parameter | description |
-| --- | --- |
-| source | ITextFrameFormat object with necessary properties set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | ITextFrameFormat | ITextFrameFormat object with necessary properties set. |
 
 ### See Also
 

@@ -14,15 +14,15 @@ Removes the first occurrence of a specific object from the collection/&gt;.
 public bool Remove(IMathBlock mathBlock)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathBlock | The object to remove from the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathBlock | IMathBlock | The object to remove from the collection. |
 
 ## Return Value
 
 true if *mathBlock* was successfully removed from the collection; otherwise, false. This method also returns false if *mathBlock* is not found in the original collection/&gt;.
 
-## Examples
+### Examples
 
 Example:
 

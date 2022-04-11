@@ -16,7 +16,7 @@ public class ColorFormat : PVIObject, IColorFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [B](b) { get; set; } | Returns or sets the blue component of a color. All color transformations are ignored. Read/write Byte. |
 | [Color](color) { get; set; } | Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write Color. |

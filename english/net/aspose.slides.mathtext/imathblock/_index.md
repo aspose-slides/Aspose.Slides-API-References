@@ -16,7 +16,7 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [AsIMathElementCollection](asimathelementcollection) { get; } | Allows to get base IMathElementCollection interface [`IMathElementCollection`](../imathelementcollection) |
@@ -25,7 +25,7 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 | [JoinBlock](joinblock)(…) | Joins another mathematical block with this one |
 | [WriteAsMathMl](writeasmathml)(…) | Saves content of this [`IMathBlock`](../imathblock) as MathML |
 
-## Examples
+### Examples
 
 Example:
 

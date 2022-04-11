@@ -14,7 +14,7 @@ Returns IActualLayout interface.
 public IActualLayout AsIActualLayout { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

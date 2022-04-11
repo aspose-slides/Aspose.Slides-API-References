@@ -16,7 +16,7 @@ public class TextAnimation : ITextAnimation
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TextAnimation](textanimation)() | The default constructor. |
 | [BuildType](buildtype) { get; set; } | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write [`BuildType`](../buildtype). |

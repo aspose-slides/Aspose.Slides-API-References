@@ -18,7 +18,7 @@ public IEffectFormatEffectiveData GetEffective()
 
 A [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting some of shape's effective effect properties.
 

@@ -14,7 +14,7 @@ Gets the number of child math elements actually contained in the collection. Rea
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

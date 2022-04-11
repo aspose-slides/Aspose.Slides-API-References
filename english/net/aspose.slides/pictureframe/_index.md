@@ -16,7 +16,7 @@ public class PictureFrame : GeometryShape, IPictureFrame
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PictureFormat](pictureformat) { get; } | Returns the PictureFillFormat object for a picture frame. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
 | [PictureFrameLock](pictureframelock) { get; } | Returns shape's locks. Read-only [`IPictureFrameLock`](../ipictureframelock). |

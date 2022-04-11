@@ -16,7 +16,7 @@ public enum EffectRestartType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Always | `0` |  |

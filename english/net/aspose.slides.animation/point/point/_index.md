@@ -30,11 +30,11 @@ Create animation point with time, value and formula.
 public Point(float time, object value, string formula)
 ```
 
-| parameter | description |
-| --- | --- |
-| time |  |
-| value |  |
-| formula |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| time | Single |  |
+| value | Object |  |
+| formula | String |  |
 
 ### See Also
 

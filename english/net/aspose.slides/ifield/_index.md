@@ -16,7 +16,7 @@ public interface IField : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
 | [Type](type) { get; set; } | Returns or sets field's type. Read/write [`IFieldType`](../ifieldtype). |

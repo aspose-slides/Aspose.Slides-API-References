@@ -16,7 +16,7 @@ public interface IColorFormat : IFillParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Returns IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
 | [B](b) { get; set; } | Returns or sets the blue component of a color. All color transformations are ignored. Read/write Byte. |

@@ -16,7 +16,7 @@ public abstract class BaseSlide : IBaseSlide
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Background](background) { get; } | Returns slide's background. Read-only [`IBackground`](../ibackground). |
 | [Controls](controls) { get; } | Returns the collection of ActiveX controls on a slide. Read-only [`IControlCollection`](../icontrolcollection). |

@@ -16,7 +16,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [NoLocks](nolocks) { get; } | Return true if all lock-flags are disabled. Read-only Boolean. |
 

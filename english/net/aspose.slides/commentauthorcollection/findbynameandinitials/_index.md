@@ -14,10 +14,10 @@ Find author in a collection by name and initials.
 public ICommentAuthor[] FindByNameAndInitials(string name, string initials)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of an author to find. |
-| initials | Initials of an author to find. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of an author to find. |
+| initials | String | Initials of an author to find. |
 
 ## Return Value
 

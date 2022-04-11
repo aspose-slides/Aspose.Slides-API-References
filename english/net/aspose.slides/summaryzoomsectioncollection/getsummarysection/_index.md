@@ -14,15 +14,15 @@ Returns Summary Zoom Section element for the given section.
 public ISummaryZoomSection GetSummarySection(ISection section)
 ```
 
-| parameter | description |
-| --- | --- |
-| section | Section to find [`ISection`](../../isection) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| section | ISection | Section to find [`ISection`](../../isection) |
 
 ## Return Value
 
 [`ISummaryZoomSection`](../../isummaryzoomsection) or null if collection does not contains element for the section.
 
-## Examples
+### Examples
 
 The example demonstrates getting Summary Zoom Section element by index:
 

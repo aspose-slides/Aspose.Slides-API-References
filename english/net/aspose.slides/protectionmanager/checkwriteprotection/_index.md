@@ -14,19 +14,19 @@ Determines whether a presentation is a password protected to modify.
 public bool CheckWriteProtection(string password)
 ```
 
-| parameter | description |
-| --- | --- |
-| password | The password for checking. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | String | The password for checking. |
 
 ## Return Value
 
 True if the password is valid; otherwise, false.
 
-## Remarks
+### Remarks
 
 1. You should check the [`IsWriteProtected`](../iswriteprotected) property before calling this method. 2. When the password is null or empty, this method returns false.
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

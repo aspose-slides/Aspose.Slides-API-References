@@ -16,7 +16,7 @@ public interface ISvgImage
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BaseUri](baseuri) { get; } | Returns base URI of the specified SVG. Used to resolve relative links. Read-only String. |
 | [ExternalResourceResolver](externalresourceresolver) { get; } | Return callback interface used to resolve external resources during SVG documents import. Read-only [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |

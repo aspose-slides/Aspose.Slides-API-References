@@ -16,7 +16,7 @@ public enum ShapeElementStrokeSource : byte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NoStroke | `0` | Don't stroke primitive. |
 | Shape | `1` | Use shape's LineFormat. |

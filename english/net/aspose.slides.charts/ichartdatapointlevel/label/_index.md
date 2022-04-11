@@ -14,7 +14,7 @@ Represents data label of data point level. Applied for Treemap and Sunburst sere
 public IDataLabel Label { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation())

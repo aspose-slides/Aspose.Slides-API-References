@@ -16,7 +16,7 @@ public interface IBasePortionFormatEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AlternativeLanguageId](alternativelanguageid) { get; } | Returns the Id of an alternative language. Read-only String. |
 | [ComplexScriptFont](complexscriptfont) { get; } | Returns the complex script font info. Read-only [`IFontData`](../ifontdata). |

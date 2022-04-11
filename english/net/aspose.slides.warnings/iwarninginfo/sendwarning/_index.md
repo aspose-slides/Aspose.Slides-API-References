@@ -14,9 +14,9 @@ If receiver is not null ends warning to a specified receiver and throws the Abor
 public void SendWarning(IWarningCallback receiver)
 ```
 
-| parameter | description |
-| --- | --- |
-| receiver | Receiver object [`IWarningCallback`](../../iwarningcallback) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| receiver | IWarningCallback | Receiver object [`IWarningCallback`](../../iwarningcallback) |
 
 ### See Also
 

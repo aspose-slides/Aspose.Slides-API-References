@@ -14,9 +14,9 @@ Removes behavior from a collection at the specified index.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a behavior to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of a behavior to remove. |
 
 ### See Also
 

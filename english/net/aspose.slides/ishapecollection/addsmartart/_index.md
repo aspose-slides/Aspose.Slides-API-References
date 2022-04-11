@@ -15,19 +15,19 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
     SmartArtLayoutType layoutType)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | The X-coordinate for a left side of diagram's frame. |
-| y | The Y-coordinate for a left side of diagram's frame. |
-| width | The width of diagram's frame. |
-| height | The height of diagram's frame. |
-| layoutType | The type of SmartArt diagram |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | The X-coordinate for a left side of diagram's frame. |
+| y | Single | The Y-coordinate for a left side of diagram's frame. |
+| width | Single | The width of diagram's frame. |
+| height | Single | The height of diagram's frame. |
+| layoutType | SmartArtLayoutType | The type of SmartArt diagram |
 
 ## Return Value
 
 Create SmartArt diagram
 
-## Examples
+### Examples
 
 Example:
 

@@ -35,9 +35,9 @@ Creates new presentation with additional load options
 public IPresentation CreatePresentation(ILoadOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| options | Load options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | ILoadOptions | Load options |
 
 ## Return Value
 

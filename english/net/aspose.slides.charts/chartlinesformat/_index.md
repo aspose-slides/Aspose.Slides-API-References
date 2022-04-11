@@ -16,7 +16,7 @@ public class ChartLinesFormat : IChartLinesFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Effect](effect) { get; } | Returns effects used for a chart line. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Line](line) { get; } | Returns line style properties of a chart line. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |

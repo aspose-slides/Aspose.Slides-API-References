@@ -16,7 +16,7 @@ public interface IShapeCollection : IGenericCollection<IShape>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IShape`](../ishape). |
 | [ParentGroup](parentgroup) { get; } | Returns parent GroupShape object for a shapes collection. Read-only [`IGroupShape`](../igroupshape). |

@@ -15,26 +15,26 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
     float height, ISection section)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which Section Zoom frame should be inserted. |
-| x | X coordinate of a new Section Zoom frame Single. |
-| y | Y coordinate of a new Section Zoom frame Single. |
-| width | Width of a new Section Zoom frame Single. |
-| height | Height of a new Section Zoom frame Single. |
-| section | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which Section Zoom frame should be inserted. |
+| x | Single | X coordinate of a new Section Zoom frame Single. |
+| y | Single | Y coordinate of a new Section Zoom frame Single. |
+| width | Single | Width of a new Section Zoom frame Single. |
+| height | Single | Height of a new Section Zoom frame Single. |
+| section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
 
 ## Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
 
-## Examples
+### Examples
 
 This example demonstrates the creation and inserting a Section Zoom object at the specified index of a collection (assume that there are at least two sections in the "Presentation.pptx" presentation):
 
@@ -65,27 +65,27 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
     float height, ISection section, IPPImage image)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which Section Zoom frame should be inserted. |
-| x | X coordinate of a new Section Zoom frame Single. |
-| y | Y coordinate of a new Section Zoom frame Single. |
-| width | Width of a new Section Zoom frame Single. |
-| height | Height of a new Section Zoom frame Single. |
-| section | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
-| image | The image for the referenced slide [`IPPImage`](../../ippimage) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which Section Zoom frame should be inserted. |
+| x | Single | X coordinate of a new Section Zoom frame Single. |
+| y | Single | Y coordinate of a new Section Zoom frame Single. |
+| width | Single | Width of a new Section Zoom frame Single. |
+| height | Single | Height of a new Section Zoom frame Single. |
+| section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
+| image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
 ## Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
 
-## Examples
+### Examples
 
 This example demonstrates the creation and inserting a Section Zoom object at the specified index of a collection (assume that there are at least two sections in the "Presentation.pptx" presentation):
 

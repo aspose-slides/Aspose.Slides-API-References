@@ -14,10 +14,10 @@ Adds the new Luminance effect to the end of a collection.
 public ILuminance AddLuminanceEffect(float brightness, float contrast)
 ```
 
-| parameter | description |
-| --- | --- |
-| brightness | The percent to change the brightness. |
-| contrast | The percent to change the contrast. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| brightness | Single | The percent to change the brightness. |
+| contrast | Single | The percent to change the contrast. |
 
 ## Return Value
 

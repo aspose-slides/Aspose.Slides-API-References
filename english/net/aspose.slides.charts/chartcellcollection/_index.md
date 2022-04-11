@@ -16,7 +16,7 @@ public class ChartCellCollection : IChartCellCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the count of cells in collection. Read-only Int32. |
 | [Item](item) { get; } | Returns a cell (IChartDataCell) by index. |

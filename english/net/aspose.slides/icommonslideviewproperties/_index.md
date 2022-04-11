@@ -16,7 +16,7 @@ public interface ICommonSlideViewProperties
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Scale](scale) { get; set; } | Specifies the view scaling ratio in percentages. Read/write Int32. |
 | [VariableScale](variablescale) { get; set; } | Specifies that the view content should automatically scale to best fit the current window size. Read/write Boolean. |

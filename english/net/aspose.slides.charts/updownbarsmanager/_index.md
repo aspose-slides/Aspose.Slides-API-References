@@ -16,7 +16,7 @@ public class UpDownBarsManager : IUpDownBarsManager
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DownBarsFormat](downbarsformat) { get; } | Returns the DownBars format. Read-only [`IFormat`](../iformat). |
 | [GapWidth](gapwidth) { get; set; } | GapWidth. Read/write Int32. |

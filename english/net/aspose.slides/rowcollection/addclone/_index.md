@@ -14,10 +14,10 @@ Creates a copy of the specified template row and inserts it at the bottom of a t
 public IRow[] AddClone(IRow templ, bool withAttachedRows)
 ```
 
-| parameter | description |
-| --- | --- |
-| templ | Row which is used as a template. |
-| withAttachedRows | True to copy also all rows attached to the template row. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| templ | IRow | Row which is used as a template. |
+| withAttachedRows | Boolean | True to copy also all rows attached to the template row. |
 
 ## Return Value
 

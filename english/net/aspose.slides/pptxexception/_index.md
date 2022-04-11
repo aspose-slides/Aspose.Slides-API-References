@@ -16,7 +16,7 @@ public class PptxException : OOXMLException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptxException](pptxexception)() | Default constructor. |
 | [PptxException](pptxexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

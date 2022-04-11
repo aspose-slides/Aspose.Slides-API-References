@@ -14,11 +14,11 @@ Insert a new column after the specified one Initially all elements in the new co
 public void InsertColumnAfter(int columnIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| columnIndex | Index of the column after which to insert a new one |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | Int32 | Index of the column after which to insert a new one |
 
-## Examples
+### Examples
 
 Example:
 

@@ -14,9 +14,9 @@ Changes master notes slide header placeholder and all child header placeholders 
 public void SetHeaderAndChildHeadersVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a header placeholders visible, otherwise - hides them. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a header placeholders visible, otherwise - hides them. |
 
 ### See Also
 

@@ -16,14 +16,14 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
 | [IsHeaderVisible](isheadervisible) { get; } | Gets value indicating that a header placeholder is present. Read Boolean. |
 | [SetHeaderText](setheadertext)(…) | Sets text to slide header placeholder. |
 | [SetHeaderVisibility](setheadervisibility)(…) | Changes slide header placeholder visibility. |
 
-## Remarks
+### Remarks
 
 Original interface name "IBaseHandoutNotesSlideHeaderFooterManager" is trancuted to "IBaseHandoutNotesSlideHeaderFooterManag" for COM compatibility (type name length must be not more than 39).
 

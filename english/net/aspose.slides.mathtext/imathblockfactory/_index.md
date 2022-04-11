@@ -16,12 +16,12 @@ public interface IMathBlockFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathBlock](createmathblock)() | Create a math block |
 | [CreateMathBlock](createmathblock)(…) | Create a math block and place the element in it (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

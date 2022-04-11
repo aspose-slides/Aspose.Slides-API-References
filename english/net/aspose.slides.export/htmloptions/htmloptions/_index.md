@@ -30,9 +30,9 @@ Creates a new HtmlOptions object specifiing callback.
 public HtmlOptions(ILinkEmbedController linkEmbedController)
 ```
 
-| parameter | description |
-| --- | --- |
-| linkEmbedController | Callback object which controls saving project. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| linkEmbedController | ILinkEmbedController | Callback object which controls saving project. |
 
 ### See Also
 

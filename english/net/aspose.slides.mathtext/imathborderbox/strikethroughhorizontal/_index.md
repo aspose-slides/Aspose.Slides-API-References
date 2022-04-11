@@ -14,7 +14,7 @@ Strikethrough Horizontal (default is false) - specifies the hidden or shown stat
 public bool StrikethroughHorizontal { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

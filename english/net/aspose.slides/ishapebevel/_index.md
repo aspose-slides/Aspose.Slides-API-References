@@ -16,7 +16,7 @@ public interface IShapeBevel
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BevelType](beveltype) { get; set; } | Bevel type. Read/write [`BevelPresetType`](../bevelpresettype). |
 | [Height](height) { get; set; } | Bevel height. Read/write Double. |

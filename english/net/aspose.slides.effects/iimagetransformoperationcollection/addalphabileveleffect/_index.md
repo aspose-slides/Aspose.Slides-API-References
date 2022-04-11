@@ -14,9 +14,9 @@ Adds the new Alpha Bi-Level effect to the end of a collection.
 public IAlphaBiLevel AddAlphaBiLevelEffect(float threshold)
 ```
 
-| parameter | description |
-| --- | --- |
-| threshold | The threshold value for the alpha bi-level effect. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| threshold | Single | The threshold value for the alpha bi-level effect. |
 
 ## Return Value
 

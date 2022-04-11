@@ -3,7 +3,7 @@ title: DefaultTextStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.slides/presentation/defaulttextstyle/
 ---
 ## Presentation.DefaultTextStyle property

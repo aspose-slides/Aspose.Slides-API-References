@@ -16,7 +16,7 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontSubstRuleCollection](fontsubstrulecollection)() | The default constructor. |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |

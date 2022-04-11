@@ -14,9 +14,9 @@ Returns the zero-based index of the specified key in the collection.
 public int IndexOfName(string name)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | The name to locate in the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name to locate in the collection. |
 
 ## Return Value
 

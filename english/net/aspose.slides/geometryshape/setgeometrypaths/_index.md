@@ -14,18 +14,18 @@ Updates shape geometry from array of [`IGeometryPath`](../../igeometrypath). Coo
 public void SetGeometryPaths(IGeometryPath[] geometryPaths)
 ```
 
-| parameter | description |
-| --- | --- |
-| geometryPaths | Array geometry paths |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| geometryPaths | IGeometryPath[] | Array geometry paths |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | No path found |
 | ArgumentException | Empty path |
 
-## Examples
+### Examples
 
 Example:
 

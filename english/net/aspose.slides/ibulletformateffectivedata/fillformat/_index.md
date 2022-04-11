@@ -14,7 +14,7 @@ Returns the bullet fill format of a paragraph. Read-only [`IFillFormatEffectiveD
 public IFillFormatEffectiveData FillFormat { get; }
 ```
 
-## Examples
+### Examples
 
 This example demonstrates retrieving bullet's fill effective data.
 

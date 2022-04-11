@@ -18,7 +18,7 @@ public override int GetHashCode()
 
 23454
 
-## Remarks
+### Remarks
 
 Overriden to make compiler happy. Always returns constant because object is mutable.
 

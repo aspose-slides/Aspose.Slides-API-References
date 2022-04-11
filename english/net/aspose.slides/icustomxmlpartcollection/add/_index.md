@@ -14,15 +14,15 @@ Adds new custom xml part.
 public ICustomXmlPart Add(byte[] xmlData)
 ```
 
-| parameter | description |
-| --- | --- |
-| xmlData | The xml data of new part to be added. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xmlData | Byte[] | The xml data of new part to be added. |
 
 ## Return Value
 
 Created custom xml part.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -46,15 +46,15 @@ Adds new custom xml part.
 public ICustomXmlPart Add(Stream inputStream)
 ```
 
-| parameter | description |
-| --- | --- |
-| inputStream | The inputStream with xml data of new part to be added. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The inputStream with xml data of new part to be added. |
 
 ## Return Value
 
 Created custom xml part.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -78,15 +78,15 @@ Adds new custom xml part.
 public ICustomXmlPart Add(string xmlString)
 ```
 
-| parameter | description |
-| --- | --- |
-| xmlString | The xml string of new part to be added. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xmlString | String | The xml string of new part to be added. |
 
 ## Return Value
 
 Created custom xml part.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

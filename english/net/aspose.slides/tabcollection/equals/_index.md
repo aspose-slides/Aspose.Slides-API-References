@@ -14,9 +14,9 @@ Determines whether two TabsEx instances are equal.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The TabsEx to compare with the current TabsEx. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The TabsEx to compare with the current TabsEx. |
 
 ## Return Value
 

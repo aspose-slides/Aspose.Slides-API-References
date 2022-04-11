@@ -16,7 +16,7 @@ public interface IMathArray : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Arguments](arguments) { get; } | The set of items of the array |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
@@ -26,7 +26,7 @@ public interface IMathArray : IMathElement
 | [RowSpacing](rowspacing) { get; set; } | Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
 | [RowSpacingRule](rowspacingrule) { get; set; } | The type of vertical spacing between array elements |
 
-## Examples
+### Examples
 
 Example:
 

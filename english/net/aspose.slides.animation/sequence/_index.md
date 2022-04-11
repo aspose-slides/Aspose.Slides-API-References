@@ -16,7 +16,7 @@ public sealed class Sequence : ISequence
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of effects in a sequense. Read-only Int32. |
 | [Item](item) { get; } | Returns an effect at the specified index. |

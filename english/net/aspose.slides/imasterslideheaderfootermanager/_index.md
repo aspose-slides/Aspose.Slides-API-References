@@ -16,7 +16,7 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
 | [SetDateTimeAndChildDateTimesText](setdatetimeandchilddatetimestext)(…) | Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |

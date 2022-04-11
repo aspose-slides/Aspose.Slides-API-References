@@ -16,14 +16,14 @@ public interface IPatternFormatEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BackColor](backcolor) { get; } | Returns the background pattern color. Read-only Color. |
 | [ForeColor](forecolor) { get; } | Returns the foreground pattern color. Read-only Color. |
 | [PatternStyle](patternstyle) { get; } | Returns the pattern style. Read-only [`PatternStyle`](../patternstyle). |
 | [GetTileImage](gettileimage)(…) | Creates a tile image for the pattern fill with a specified colors. |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IFillFormatEffectiveData`](../ifillformateffectivedata) and [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 

@@ -16,7 +16,7 @@ public interface IPresentation : IDisposable, IPresentationComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AllCustomXmlParts](allcustomxmlparts) { get; } | Returns all custom data parts in the presentaion. Read-only [`ICustomXmlPart`](../icustomxmlpart)[]. |
 | [AsIDisposable](asidisposable) { get; } | Returns IDisposable interface. Read-only IDisposable. |

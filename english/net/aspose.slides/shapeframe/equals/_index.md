@@ -14,9 +14,9 @@ Returns a value indicating whether this instance is equal to a specified object.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The object to compare with this instance. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The object to compare with this instance. |
 
 ## Return Value
 
@@ -38,9 +38,9 @@ Returns a value indicating whether this instance is equal to a specified object.
 public bool Equals(ShapeFrame value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The ShapeFRameEx to compare with this instance. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | ShapeFrame | The ShapeFRameEx to compare with this instance. |
 
 ## Return Value
 

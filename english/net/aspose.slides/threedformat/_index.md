@@ -16,7 +16,7 @@ public class ThreeDFormat : PVIObject, IThreeDFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BevelBottom](bevelbottom) { get; } | Returns or sets the type of a bottom 3D bevel. Read-only [`IShapeBevel`](../ishapebevel). |
 | [BevelTop](beveltop) { get; } | Returns or sets the type of a top 3D bevel. Read-only [`IShapeBevel`](../ishapebevel). |

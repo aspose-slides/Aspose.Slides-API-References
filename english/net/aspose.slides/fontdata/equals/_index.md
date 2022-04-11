@@ -14,9 +14,9 @@ Determines whether two FontData instances are equal.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The FontData to compare with the current FontData. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The FontData to compare with the current FontData. |
 
 ## Return Value
 

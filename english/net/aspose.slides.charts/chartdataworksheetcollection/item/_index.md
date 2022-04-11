@@ -14,9 +14,9 @@ Returns the worksheet by index.
 public IChartDataWorksheet this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of the worksheet in the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | Index of the worksheet in the collection. |
 
 ## Return Value
 

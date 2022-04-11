@@ -16,7 +16,7 @@ public enum SvgExternalFontsHandling
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | AddLinksToFontFiles | `0` | Add links to separate font files to style section of SVG file. |
 | Embed | `1` | Save fonts data directly to SVG file. Please check all external fonts license agreements before using this option. |

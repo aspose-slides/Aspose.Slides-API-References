@@ -16,11 +16,11 @@ public interface IMathPortion
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathParagraph](mathparagraph) { get; } | Math paragraph |
 
-## Examples
+### Examples
 
 Example:
 

@@ -14,11 +14,11 @@ Remove Summary Zoom Section object from the collection.
 public void RemoveSummaryZoomSection(ISection section)
 ```
 
-| parameter | description |
-| --- | --- |
-| section | Section for which the Summary Zoom Section element is to be removed [`ISection`](../../isection). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| section | ISection | Section for which the Summary Zoom Section element is to be removed [`ISection`](../../isection). |
 
-## Examples
+### Examples
 
 The example demonstrates getting Summary Zoom Section element by index:
 

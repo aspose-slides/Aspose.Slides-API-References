@@ -16,7 +16,7 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontFallBackRulesCollection](fontfallbackrulescollection)() | The default constructor. |
 | [Count](count) { get; } | Gets the number of rules actually contained in the collection. Read-only Int32. |

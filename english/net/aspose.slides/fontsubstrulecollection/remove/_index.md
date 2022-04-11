@@ -14,9 +14,9 @@ Removes the first occurrence of a specific object from the collection.
 public void Remove(IFontSubstRule value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The font substitution rule to remove from the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IFontSubstRule | The font substitution rule to remove from the collection. |
 
 ### See Also
 

@@ -15,13 +15,13 @@ public IComment InsertComment(int index, string text, ISlide slide, PointF posit
     DateTime creationTime)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of the element in a collection at which comment should be inserted. |
-| text | Plain text of a new comment. |
-| slide | Slide in a presentation where to add a new comment. |
-| position | Position on a slide where to add a new comment. |
-| creationTime | Time of a comment creation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of the element in a collection at which comment should be inserted. |
+| text | String | Plain text of a new comment. |
+| slide | ISlide | Slide in a presentation where to add a new comment. |
+| position | PointF | Position on a slide where to add a new comment. |
+| creationTime | DateTime | Time of a comment creation. |
 
 ## Return Value
 

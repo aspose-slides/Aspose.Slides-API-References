@@ -17,7 +17,7 @@ public class FillOverlayEffectiveData : EffectEffectiveData<FillOverlay, FillOve
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Blend](blend) { get; } | Determines how one fill drawn over another. Read-only [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](fillformat) { get; } | Returns a overlaying fill properties. Read-only [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |

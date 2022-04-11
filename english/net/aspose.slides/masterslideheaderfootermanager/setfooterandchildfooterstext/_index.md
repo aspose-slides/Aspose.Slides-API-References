@@ -14,9 +14,9 @@ Sets text to master slide footer placeholder and all child footer placeholders. 
 public void SetFooterAndChildFootersText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 ### See Also
 

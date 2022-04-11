@@ -16,7 +16,7 @@ public interface IFilterEffect : IBehavior
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
 | [Reveal](reveal) { get; set; } | Represents that effect with behavior must reveal (in/out) Read/write [`FilterEffectRevealType`](../filtereffectrevealtype). |

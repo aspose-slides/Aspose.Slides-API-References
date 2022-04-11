@@ -16,7 +16,7 @@ public class ChartCategoryCollection : IChartCategoryCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns a number of elements int the collection. Read-only Int32. |
 | [GroupingLevelCount](groupinglevelcount) { get; } | Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only Int32. |

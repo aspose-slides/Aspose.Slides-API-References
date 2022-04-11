@@ -14,11 +14,11 @@ Removes an item at the specified index of the collection.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index of the item to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index of the item to remove. |
 
-## Examples
+### Examples
 
 Example:
 

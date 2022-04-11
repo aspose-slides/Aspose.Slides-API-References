@@ -14,15 +14,15 @@ Get the horizontal alignment of the specified column
 public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| columnIndex | Zero-based column index |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | Int32 | Zero-based column index |
 
 ## Return Value
 
 Horizontal Alignment of specified column
 
-## Examples
+### Examples
 
 Example:
 

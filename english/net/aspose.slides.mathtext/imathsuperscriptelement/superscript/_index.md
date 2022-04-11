@@ -14,7 +14,7 @@ Superscript
 public IMathElement Superscript { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

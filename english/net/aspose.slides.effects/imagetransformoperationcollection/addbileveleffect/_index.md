@@ -14,9 +14,9 @@ Adds the new Bi-Level (black/white) effect to the end of a collection.
 public IBiLevel AddBiLevelEffect(float threshold)
 ```
 
-| parameter | description |
-| --- | --- |
-| threshold | the luminance threshold for the Bi-Level effect. Values greater than or equal to the threshold are set to white. Values lesser than the threshold are set to black. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| threshold | Single | the luminance threshold for the Bi-Level effect. Values greater than or equal to the threshold are set to white. Values lesser than the threshold are set to black. |
 
 ## Return Value
 

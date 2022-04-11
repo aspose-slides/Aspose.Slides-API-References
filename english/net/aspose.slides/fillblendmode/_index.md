@@ -16,7 +16,7 @@ public enum FillBlendMode
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Darken | `0` | Darken blend mode. |
 | Lighten | `1` | Lighten blend mode. |

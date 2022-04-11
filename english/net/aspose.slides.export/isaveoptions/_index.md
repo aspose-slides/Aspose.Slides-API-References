@@ -16,7 +16,7 @@ public interface ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DefaultRegularFont](defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [ProgressCallback](progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |

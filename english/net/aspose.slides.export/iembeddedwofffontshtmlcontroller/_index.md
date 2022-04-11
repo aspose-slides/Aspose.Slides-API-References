@@ -16,7 +16,7 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIHtmlFormattingController](asihtmlformattingcontroller) { get; } | Returns IHtmlFormattingController interface. |
 

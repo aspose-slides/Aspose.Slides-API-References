@@ -16,12 +16,12 @@ public class MathMatrixFactory : IMathMatrixFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathMatrixFactory](mathmatrixfactory)() | The default constructor. |
 | [CreateMathMatrix](createmathmatrix)(…) | Creates a math matrix |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

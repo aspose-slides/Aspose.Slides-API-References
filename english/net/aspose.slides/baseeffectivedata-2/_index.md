@@ -15,14 +15,14 @@ public abstract class BaseEffectiveData<TLocalData, TEffectiveData>
     where TEffectiveData : BaseEffectiveData
 ```
 
-| parameter | description |
-| --- | --- |
-| TLocalData | Type of local data. |
-| TEffectiveData | Type of effective data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| TLocalData |  | Type of local data. |
+| TEffectiveData |  | Type of effective data. |
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Equals](equals)(…) | Determines whether the specified System.Object is equal to the current object. |
 | [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |

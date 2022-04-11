@@ -16,7 +16,7 @@ public enum PropertyCalcModeType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Discrete | `0` |  |

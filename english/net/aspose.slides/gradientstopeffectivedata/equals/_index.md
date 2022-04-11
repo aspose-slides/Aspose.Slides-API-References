@@ -14,9 +14,9 @@ Determines whether the specified [`GradientStopEffectiveData`](../../gradientsto
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`GradientStopEffectiveData`](../../gradientstopeffectivedata) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`GradientStopEffectiveData`](../../gradientstopeffectivedata) to compare. |
 
 ## Return Value
 

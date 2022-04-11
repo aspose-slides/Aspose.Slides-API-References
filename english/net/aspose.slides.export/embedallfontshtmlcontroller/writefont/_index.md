@@ -15,14 +15,14 @@ public virtual void WriteFont(IHtmlGenerator generator, IFontData originalFont,
     IFontData substitutedFont, string fontStyle, string fontWeight, byte[] fontData)
 ```
 
-| parameter | description |
-| --- | --- |
-| generator | HTML generator |
-| originalFont | Font to be serialized |
-| substitutedFont | Substituted font (if font substitution occured), null otherwise |
-| fontStyle | Font style |
-| fontWeight | Font weight |
-| fontData | Font data |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| generator | IHtmlGenerator | HTML generator |
+| originalFont | IFontData | Font to be serialized |
+| substitutedFont | IFontData | Substituted font (if font substitution occured), null otherwise |
+| fontStyle | String | Font style |
+| fontWeight | String | Font weight |
+| fontData | Byte[] | Font data |
 
 ### See Also
 

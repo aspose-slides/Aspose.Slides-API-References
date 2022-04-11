@@ -14,9 +14,9 @@ Changes slide footer placeholder visibility.
 public void SetFooterVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a footer placeholder visible, otherwise - hides it. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a footer placeholder visible, otherwise - hides it. |
 
 ### See Also
 

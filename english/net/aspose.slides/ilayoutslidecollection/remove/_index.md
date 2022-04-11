@@ -14,17 +14,17 @@ Removes a layout from the collection.
 public void Remove(ILayoutSlide value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The layout slide to remove from the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | ILayoutSlide | The layout slide to remove from the collection. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | Thrown if layout is used in presentation (its HasDependingSlides property is true). |
 
-## Remarks
+### Remarks
 
 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also [`Remove`](../../ilayoutslide/remove) method to simplify code.
 

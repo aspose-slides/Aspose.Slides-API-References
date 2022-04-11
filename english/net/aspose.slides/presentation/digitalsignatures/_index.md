@@ -3,7 +3,7 @@ title: DigitalSignatures
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.slides/presentation/digitalsignatures/
 ---
 ## Presentation.DigitalSignatures property
@@ -14,7 +14,7 @@ Returns the collection of signatures used to sign the presentation. Read-only [`
 public IDigitalSignatureCollection DigitalSignatures { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

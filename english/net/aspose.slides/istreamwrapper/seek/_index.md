@@ -14,10 +14,10 @@ Sets the position within the current stream
 public long Seek(long offset, SeekOrigin origin)
 ```
 
-| parameter | description |
-| --- | --- |
-| offset | A byte offset relative to the origin parameter Int64 |
-| origin | A value of type SeekOrigin indicating the reference point used to obtain the new position |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| offset | Int64 | A byte offset relative to the origin parameter Int64 |
+| origin | SeekOrigin | A value of type SeekOrigin indicating the reference point used to obtain the new position |
 
 ## Return Value
 

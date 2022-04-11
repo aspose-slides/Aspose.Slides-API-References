@@ -14,11 +14,11 @@ This function is called before rendering of text portion to SVG to allow user to
 public void FormatText(ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFrame)
 ```
 
-| parameter | description |
-| --- | --- |
-| svgTSpan | Object to control SVG tspan generation. |
-| portion | Source portion. |
-| textFrame | Source portion text frame. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| svgTSpan | ISvgTSpan | Object to control SVG tspan generation. |
+| portion | IPortion | Source portion. |
+| textFrame | ITextFrame | Source portion text frame. |
 
 ### See Also
 

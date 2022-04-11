@@ -14,12 +14,12 @@ Copies the elements of the ICollection to an Array, starting at a particular Arr
 public void CopyTo(IImageTransformOperation[] array, int arrayIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| array | The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing. |
-| arrayIndex | The zero-based index in *array* at which copying begins. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| array | IImageTransformOperation[] | The one-dimensional Array that is the destination of the elements copied from ICollection. The Array must have zero-based indexing. |
+| arrayIndex | Int32 | The zero-based index in *array* at which copying begins. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

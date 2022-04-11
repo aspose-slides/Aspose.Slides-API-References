@@ -35,10 +35,10 @@ Creates and returns an array with all slides from the specified range in it.
 public ISlide[] ToArray(int startIndex, int count)
 ```
 
-| parameter | description |
-| --- | --- |
-| startIndex | An index of a first slide to add. |
-| count | A number of slides to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startIndex | Int32 | An index of a first slide to add. |
+| count | Int32 | A number of slides to add. |
 
 ## Return Value
 

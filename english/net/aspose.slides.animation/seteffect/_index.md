@@ -16,7 +16,7 @@ public class SetEffect : Behavior, ISetEffect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SetEffect](seteffect)() | The default constructor. |
 | [To](to) { get; set; } | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |

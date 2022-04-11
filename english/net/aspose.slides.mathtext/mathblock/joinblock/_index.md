@@ -14,15 +14,15 @@ Joins another mathematical block with this one
 public IMathBlock JoinBlock(IMathBlock other)
 ```
 
-| parameter | description |
-| --- | --- |
-| other | The joining block |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | IMathBlock | The joining block |
 
 ## Return Value
 
 this mathematical block after joining
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,11 +16,11 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 

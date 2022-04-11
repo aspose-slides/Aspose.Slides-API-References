@@ -16,7 +16,7 @@ public enum SvgCoordinateUnit
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Inch | `0` | Inch |
 | Centimeter | `1` | Centimeter. |

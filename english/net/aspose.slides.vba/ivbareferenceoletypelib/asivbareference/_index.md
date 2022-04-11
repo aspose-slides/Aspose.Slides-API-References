@@ -14,7 +14,7 @@ Returns IVbaReference interface. Read-only [`IVbaReference`](../../ivbareference
 public IVbaReference AsIVbaReference { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

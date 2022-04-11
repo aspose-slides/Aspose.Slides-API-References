@@ -16,7 +16,7 @@ public interface ITrendline : IOverridableText
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIOverridableText](asioverridabletext) { get; } | Returns IOverridableText interface. Read-only [`IOverridableText`](../ioverridabletext). |
 | [Backward](backward) { get; set; } | Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Read/write Double. |

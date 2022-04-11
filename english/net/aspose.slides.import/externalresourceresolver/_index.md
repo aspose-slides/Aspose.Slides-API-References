@@ -16,7 +16,7 @@ public class ExternalResourceResolver : IExternalResourceResolver
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ExternalResourceResolver](externalresourceresolver)() | The default constructor. |
 | virtual [GetEntity](getentity)(…) | Maps a URI to an object containing the actual resource. |

@@ -16,7 +16,7 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ResponsiveHtmlController](responsivehtmlcontroller)() | Creates new instance |
 | [ResponsiveHtmlController](responsivehtmlcontroller)(…) | Creates new instance |

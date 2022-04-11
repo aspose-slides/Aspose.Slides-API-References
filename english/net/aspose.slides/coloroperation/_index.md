@@ -16,7 +16,7 @@ public class ColorOperation : IColorOperation
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ColorOperation](coloroperation)(…) | Creates new color transform operation. (2 constructors) |
 | [OperationType](operationtype) { get; } | Returns or sets the type of an operation. Read-only [`ColorTransformOperation`](../colortransformoperation). |

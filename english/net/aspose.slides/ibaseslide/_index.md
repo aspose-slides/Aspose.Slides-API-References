@@ -16,7 +16,7 @@ public interface IBaseSlide : IThemeable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIThemeable](asithemeable) { get; } | Allows to get base IThemeable interface. Read-only [`IThemeable`](../../aspose.slides.theme/ithemeable). |
 | [Background](background) { get; } | Returns slide's background. Read-only [`IBackground`](../ibackground). |

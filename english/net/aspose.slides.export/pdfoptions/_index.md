@@ -16,7 +16,7 @@ public class PdfOptions : SaveOptions, IPdfOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PdfOptions](pdfoptions)() | Default constructor. |
 | [AccessPermissions](accesspermissions) { get; set; } | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [`PdfAccessPermissions`](../pdfaccesspermissions). |

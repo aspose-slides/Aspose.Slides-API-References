@@ -14,10 +14,10 @@ Add new author at the end of a collection.
 public ICommentAuthor AddAuthor(string name, string initials)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of a new author. |
-| initials | Initials of a new author. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of a new author. |
+| initials | String | Initials of a new author. |
 
 ## Return Value
 

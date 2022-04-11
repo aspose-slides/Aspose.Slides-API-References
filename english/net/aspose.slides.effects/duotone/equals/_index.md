@@ -14,9 +14,9 @@ Determines whether the specified [`Duotone`](../../duotone) is equal to the curr
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`Duotone`](../../duotone) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`Duotone`](../../duotone) to compare. |
 
 ## Return Value
 

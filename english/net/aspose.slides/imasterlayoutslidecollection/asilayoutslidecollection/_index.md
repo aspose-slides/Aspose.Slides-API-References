@@ -14,7 +14,7 @@ Returns ILayoutSlideCollection interface. Read-only [`ILayoutSlideCollection`](.
 public ILayoutSlideCollection AsILayoutSlideCollection { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

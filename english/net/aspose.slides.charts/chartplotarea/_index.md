@@ -16,7 +16,7 @@ public class ChartPlotArea : IChartPlotArea
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ActualHeight](actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
 | [ActualWidth](actualwidth) { get; } | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |

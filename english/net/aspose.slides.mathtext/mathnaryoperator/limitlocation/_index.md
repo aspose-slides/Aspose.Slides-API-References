@@ -14,7 +14,7 @@ The location of limits (subscript and superscript)
 public MathLimitLocations LimitLocation { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

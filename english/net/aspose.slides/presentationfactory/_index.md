@@ -16,7 +16,7 @@ public class PresentationFactory : IPresentationFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PresentationFactory](presentationfactory)() | The default constructor. |
 | static [Instance](instance) { get; } | Presentation factory static instance. Read-only [`PresentationFactory`](../presentationfactory). |

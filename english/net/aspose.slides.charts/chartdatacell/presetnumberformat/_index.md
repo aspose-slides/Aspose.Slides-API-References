@@ -14,7 +14,7 @@ Gets or sets the built-in display format of numbers and dates. Preset number mus
 public byte PresetNumberFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 0	General

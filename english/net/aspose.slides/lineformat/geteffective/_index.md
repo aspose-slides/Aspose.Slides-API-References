@@ -18,7 +18,7 @@ public ILineFormatEffectiveData GetEffective()
 
 A [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting shape's effective line format properties.
 

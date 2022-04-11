@@ -16,7 +16,7 @@ public interface IImageTransformOperationFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateAlphaBiLevel](createalphabilevel)(…) | Creates Alpha BiLevel effect. |
 | [CreateAlphaFloor](createalphafloor)() | Creates Alpha floor effect. |
@@ -36,7 +36,7 @@ public interface IImageTransformOperationFactory
 | [CreateLuminance](createluminance)(…) | Createtes Luminance effect. |
 | [CreateTint](createtint)(…) | Creates Tint effect. |
 
-## Remarks
+### Remarks
 
 For COM interface.
 

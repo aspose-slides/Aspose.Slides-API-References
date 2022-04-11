@@ -16,7 +16,7 @@ public sealed class Table : GraphicalObject, ITable
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Columns](columns) { get; } | Returns the collectoin of columns. Read-only [`IColumnCollection`](../icolumncollection). |
 | [FirstCol](firstcol) { get; set; } | Determines whether the first column of a table has to be drawn with a special formatting. Read/write Boolean. |

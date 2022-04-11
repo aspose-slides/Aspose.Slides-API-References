@@ -14,7 +14,7 @@ The type of vertical spacing between rows of a matrix; Vertical spacing units ca
 public MathSpacingRules RowGapRule { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

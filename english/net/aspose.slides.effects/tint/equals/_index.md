@@ -14,9 +14,9 @@ Determines whether the specified [`Tint`](../../tint) is equal to the current [`
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`Tint`](../../tint) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`Tint`](../../tint) to compare. |
 
 ## Return Value
 

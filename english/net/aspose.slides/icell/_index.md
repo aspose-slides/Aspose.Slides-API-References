@@ -16,7 +16,7 @@ public interface ICell : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AnchorCenter](anchorcenter) { get; set; } | Determines whether or not text box centered inside a cell. Read/write Boolean. |
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |

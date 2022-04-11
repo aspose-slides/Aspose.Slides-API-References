@@ -14,9 +14,9 @@ Returns all text frames on a slide in a PPTX presentation.
 public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
 ```
 
-| parameter | description |
-| --- | --- |
-| slide | Scanned slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| slide | IBaseSlide | Scanned slide. |
 
 ## Return Value
 

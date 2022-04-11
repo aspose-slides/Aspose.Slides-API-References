@@ -16,7 +16,7 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | The default constructor. |
 | [Count](count) { get; } | Returns the number of image effects in a collection. Read-only Int32. |
@@ -28,7 +28,7 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
-## Remarks
+### Remarks
 
 Name IImageTransformOperationCollectionEffectiveData truncuted to IImageTransformOCollectionEffectiveData because of COM names length cannot be more then 39.
 

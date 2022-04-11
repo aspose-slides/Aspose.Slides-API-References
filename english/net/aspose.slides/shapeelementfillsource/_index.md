@@ -16,7 +16,7 @@ public enum ShapeElementFillSource : byte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NoFill | `0` | Don't fill primitive. |
 | Shape | `1` | Use shape's fill. |

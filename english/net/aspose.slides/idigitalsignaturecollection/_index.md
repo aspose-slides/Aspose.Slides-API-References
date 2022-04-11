@@ -16,7 +16,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns the signature by index. |
 | [Add](add)(…) | Adds the signature at the end of collection. |

@@ -16,7 +16,7 @@ public class PptException : Exception
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptException](pptexception)() | Default constructor. |
 | [PptException](pptexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

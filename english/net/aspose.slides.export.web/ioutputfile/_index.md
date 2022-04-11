@@ -16,7 +16,7 @@ public interface IOutputFile
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Write](write)(…) | Writes the file content to the stream. |
 

@@ -14,9 +14,9 @@ Returns if specified series type uses X value coordinates.
 public static bool IsSeriesUsesXValueCoordinate(ChartType seriesType)
 ```
 
-| parameter | description |
-| --- | --- |
-| seriesType | Series type. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| seriesType | ChartType | Series type. |
 
 ## Return Value
 

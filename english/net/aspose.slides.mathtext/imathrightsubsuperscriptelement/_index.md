@@ -16,7 +16,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AlignScripts](alignscripts) { get; set; } | Specifies the alignment of subscript/superscript. When true, subscript and superscript are aligned horizontally to each other. When false, they are kerned to the shape of the base. Default value is false. |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
@@ -24,7 +24,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 | [Subscript](subscript) { get; } | Subscript argument |
 | [Superscript](superscript) { get; } | Superscript argument |
 
-## Examples
+### Examples
 
 Example:
 

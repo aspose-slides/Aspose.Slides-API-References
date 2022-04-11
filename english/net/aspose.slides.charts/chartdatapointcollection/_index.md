@@ -16,7 +16,7 @@ public class ChartDataPointCollection : IChartDataPointCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [DataSourceTypeForBubbleSizes](datasourcetypeforbubblesizes) { get; set; } | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write [`DataSourceType`](../datasourcetype). |

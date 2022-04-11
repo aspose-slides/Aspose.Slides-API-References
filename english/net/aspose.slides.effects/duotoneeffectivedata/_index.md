@@ -17,7 +17,7 @@ public class DuotoneEffectiveData : EffectEffectiveData<Duotone, DuotoneEffectiv
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Color1](color1) { get; } | Returns target color format for dark pixels. Read-only Color. |
 | [Color2](color2) { get; } | Returns target color format for light pixels. Read-only Color. |

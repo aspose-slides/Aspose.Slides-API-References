@@ -14,12 +14,12 @@ Inserts IMathBlock into the collection at the specified index.
 public void Insert(int index, IMathBlock item)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which an item should be inserted. |
-| item | The IMathBlock to insert. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which an item should be inserted. |
+| item | IMathBlock | The IMathBlock to insert. |
 
-## Examples
+### Examples
 
 Example:
 

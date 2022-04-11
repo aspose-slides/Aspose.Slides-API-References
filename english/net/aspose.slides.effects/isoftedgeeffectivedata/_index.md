@@ -16,7 +16,7 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Radius](radius) { get; } | Specifies the radius of blur to apply to the edges. Read-only Double. |

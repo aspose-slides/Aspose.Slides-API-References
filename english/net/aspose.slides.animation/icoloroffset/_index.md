@@ -16,7 +16,7 @@ public interface IColorOffset
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Value0](value0) { get; set; } | Defines first value of offset. Read/write Single. |
 | [Value1](value1) { get; set; } | Defines second value of offset. Read/write Single. |

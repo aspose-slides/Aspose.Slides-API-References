@@ -16,7 +16,7 @@ public static class BuildVersionInfo
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static readonly [AssemblyVersion](assemblyversion) | Version of Aspose.Slides assembly. |
 | static readonly [FileVersion](fileversion) | Version of assembly file. |

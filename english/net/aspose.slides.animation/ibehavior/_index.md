@@ -16,7 +16,7 @@ public interface IBehavior
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Accumulate](accumulate) { get; set; } | Represents whether animation behaviors are accumulated. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](additive) { get; set; } | Represents whether the current animation behavior is combined with other running animations. Read/write [`BehaviorAdditiveType`](../behavioradditivetype). |

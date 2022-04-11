@@ -16,7 +16,7 @@ public enum FontSubstCondition
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | WhenInaccessible | `0` | Substitute when font is not found |
 | Always | `1` | Substitute always |

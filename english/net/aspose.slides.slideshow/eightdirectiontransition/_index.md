@@ -16,7 +16,7 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 

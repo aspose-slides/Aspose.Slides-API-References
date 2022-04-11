@@ -14,9 +14,9 @@ Returns all slide comments added by specific author.
 public IComment[] GetSlideComments(ICommentAuthor author)
 ```
 
-| parameter | description |
-| --- | --- |
-| author | Author of comments to find or null to return all comments. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| author | ICommentAuthor | Author of comments to find or null to return all comments. |
 
 ## Return Value
 

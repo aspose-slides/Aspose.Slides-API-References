@@ -14,7 +14,7 @@ Gets or sets the custom display format of numbers and dates. If value is empty w
 public string CustomNumberFormat { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

@@ -14,10 +14,10 @@ Returns an URL to an external object. This method always called if [`GetObjectSt
 public string GetUrl(int id, int referrer)
 ```
 
-| parameter | description |
-| --- | --- |
-| id | Object id. This id is saving operation-wide unique. |
-| referrer | id of referrencing object or 0, if object is referrenced by the root document. May be used to generate relative link. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | Int32 | Object id. This id is saving operation-wide unique. |
+| referrer | Int32 | id of referrencing object or 0, if object is referrenced by the root document. May be used to generate relative link. |
 
 ## Return Value
 

@@ -14,10 +14,10 @@ Creates a new ITab instance.
 public ITab CreateTab(double position, TabAlignment align)
 ```
 
-| parameter | description |
-| --- | --- |
-| position | Tab position. |
-| align | Align. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | Double | Tab position. |
+| align | TabAlignment | Align. |
 
 ## Return Value
 

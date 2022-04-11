@@ -16,7 +16,7 @@ public class PptUnsupportedFormatException : PptReadException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception)() | Default constructor. |
 | [PptUnsupportedFormatException](pptunsupportedformatexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

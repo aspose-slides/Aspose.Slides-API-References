@@ -16,7 +16,7 @@ public class OOXMLCorruptFileException : OOXMLException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception)() | Default constructor. |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

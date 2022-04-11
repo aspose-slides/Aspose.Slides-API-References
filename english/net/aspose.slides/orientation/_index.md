@@ -16,7 +16,7 @@ public enum Orientation : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Horizontal | `0` | Horizontal. |
 | Vertical | `1` | Vertical. |

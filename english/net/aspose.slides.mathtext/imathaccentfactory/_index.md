@@ -16,11 +16,11 @@ public interface IMathAccentFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathAccent](createmathaccent)(…) | Creates a math accent applying to a specified math element with the default accent character value (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

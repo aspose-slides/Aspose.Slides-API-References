@@ -16,7 +16,7 @@ public interface ISmartArt : IGraphicalObject
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AllNodes](allnodes) { get; } | Returns collections of all nodes in SmartArt object. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |

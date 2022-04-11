@@ -14,9 +14,9 @@ Adds a Tab to the collection.
 public int Add(ITab value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The Tab object to be added at the end of the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | ITab | The Tab object to be added at the end of the collection. |
 
 ## Return Value
 
@@ -39,10 +39,10 @@ Adds a Tab to the collection.
 public ITab Add(double position, TabAlignment align)
 ```
 
-| parameter | description |
-| --- | --- |
-| position | Tab position. |
-| align | Tab alignment. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | Double | Tab position. |
+| align | TabAlignment | Tab alignment. |
 
 ## Return Value
 

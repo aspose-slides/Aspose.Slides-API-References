@@ -14,9 +14,9 @@ Returns a control at the specified position.
 public IControl this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a control. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | Index of a control. |
 
 ### See Also
 

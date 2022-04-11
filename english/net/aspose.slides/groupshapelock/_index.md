@@ -16,7 +16,7 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AspectRatioLocked](aspectratiolocked) { get; set; } | Determines whether shape have to preserve aspect ratio on resizing. Read/write Boolean. |
 | [GroupingLocked](groupinglocked) { get; set; } | Determines whether adding this shape to a group is forbidden. Read/write Boolean. |

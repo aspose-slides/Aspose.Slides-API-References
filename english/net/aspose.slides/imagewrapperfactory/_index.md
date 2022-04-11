@@ -16,7 +16,7 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ImageWrapperFactory](imagewrapperfactory)() | The default constructor. |
 | [CreateImageWrapper](createimagewrapper)(…) | Initializes a new instance of the BitmapWrapper class from the specified existing image. (3 methods) |

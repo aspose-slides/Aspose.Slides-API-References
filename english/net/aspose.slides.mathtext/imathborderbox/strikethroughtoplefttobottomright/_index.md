@@ -14,7 +14,7 @@ Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden 
 public bool StrikethroughTopLeftToBottomRight { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

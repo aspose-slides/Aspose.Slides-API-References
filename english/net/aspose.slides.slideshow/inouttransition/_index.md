@@ -16,7 +16,7 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of a transition effect. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 

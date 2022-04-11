@@ -14,10 +14,10 @@ Add new section started form specific slide.
 public ISection AddSection(string name, ISlide startedFromSlide)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the section |
-| startedFromSlide | First slide of section |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the section |
+| startedFromSlide | ISlide | First slide of section |
 
 ## Return Value
 

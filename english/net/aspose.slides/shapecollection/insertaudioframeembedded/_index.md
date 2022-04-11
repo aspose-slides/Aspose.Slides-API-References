@@ -15,14 +15,14 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
     IAudio audio)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| audio | Audio from Presentation.Audios list. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which value should be inserted. |
+| x | Single | X coordinate of a new audio frame. |
+| y | Single | Y coordinate of a new audio frame. |
+| width | Single | Width of a new audio frame. |
+| height | Single | Height of a new audio frame. |
+| audio | IAudio | Audio from Presentation.Audios list. |
 
 ## Return Value
 
@@ -47,14 +47,14 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
     Stream audio_stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| audio_stream | Audio stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which value should be inserted. |
+| x | Single | X coordinate of a new audio frame. |
+| y | Single | Y coordinate of a new audio frame. |
+| width | Single | Width of a new audio frame. |
+| height | Single | Height of a new audio frame. |
+| audio_stream | Stream | Audio stream. |
 
 ## Return Value
 

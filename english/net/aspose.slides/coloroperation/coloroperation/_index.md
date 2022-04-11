@@ -14,9 +14,9 @@ Creates new color transform operation.
 public ColorOperation(ColorTransformOperation op)
 ```
 
-| parameter | description |
-| --- | --- |
-| op | Operation type. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| op | ColorTransformOperation | Operation type. |
 
 ### See Also
 
@@ -35,10 +35,10 @@ Creates new color transform operation.
 public ColorOperation(ColorTransformOperation op, float parameter)
 ```
 
-| parameter | description |
-| --- | --- |
-| op | Operation type. |
-| parameter | Operation parameter. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| op | ColorTransformOperation | Operation type. |
+| parameter | Single | Operation parameter. |
 
 ### See Also
 

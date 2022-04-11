@@ -16,7 +16,7 @@ public interface ITemplateEngine
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AddTemplate](addtemplate)(…) | Adds the template to the template collection. |
 | [Compile](compile)(…) | Transforms the template with the given key and model object to output. |

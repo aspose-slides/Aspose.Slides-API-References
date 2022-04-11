@@ -16,7 +16,7 @@ public interface IAudioFrame : IPictureFrame
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIPictureFrame](asipictureframe) { get; } | Allows to get base IPictureFrame interface. Read-only [`IPictureFrame`](../ipictureframe). |
 | [AudioCdEndTrack](audiocdendtrack) { get; set; } | Returns or sets a last track index Read/write Int32. |

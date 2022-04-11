@@ -16,7 +16,7 @@ public class FillOverlay : ImageTransformOperation, IFillOverlay
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Blend](blend) { get; set; } | FillBlendMode. Read/write [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](fillformat) { get; } | Fill format. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |

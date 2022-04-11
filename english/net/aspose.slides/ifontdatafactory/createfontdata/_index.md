@@ -14,9 +14,9 @@ Creates FontData with specified font name.
 public IFontData CreateFontData(string fontName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontName | Font name |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontName | String | Font name |
 
 ## Return Value
 

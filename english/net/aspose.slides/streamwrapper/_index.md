@@ -16,7 +16,7 @@ public class StreamWrapper : IStreamWrapper
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIDisposable](asidisposable) { get; } | Allows to get base IDisposable interface. Read-only IDisposable. |
 | [CanRead](canread) { get; } | Gets a value indicating whether the current stream supports reading. Read-only Boolean. |
@@ -33,12 +33,6 @@ public class StreamWrapper : IStreamWrapper
 | [Seek](seek)(…) | Sets the position within the current stream |
 | [Write](write)(…) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
 | [WriteByte](writebyte)(…) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| virtual [Dispose](dispose)(…) | Disposes object. |
 
 ### See Also
 

@@ -14,9 +14,9 @@ Splits the cell by width.
 public void SplitByWidth(double width)
 ```
 
-| parameter | description |
-| --- | --- |
-| width | Width of a column. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | Double | Width of a column. |
 
 ### See Also
 

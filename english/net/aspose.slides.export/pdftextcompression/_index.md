@@ -16,7 +16,7 @@ public enum PdfTextCompression
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | No compression. |
 | Flate | `1` | Flate (ZIP) compression. |

@@ -16,7 +16,7 @@ public interface IHyperlink
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ActionType](actiontype) { get; } | Returns type of HyperLinkEx's action. Read-only [`HyperlinkActionType`](../hyperlinkactiontype). |
 | [ColorSource](colorsource) { get; set; } | Represents the source of hyperlink color - either styles or portion format. Read/write [`HyperlinkColorSource`](../hyperlinkcolorsource). |

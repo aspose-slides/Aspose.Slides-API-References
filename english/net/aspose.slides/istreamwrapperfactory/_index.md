@@ -16,7 +16,7 @@ public interface IStreamWrapperFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateFileStreamWrapper](createfilestreamwrapper)(…) | Creates FileStream with the specified path and creation mode. (2 methods) |
 | [CreateMemoryStreamWrapper](creatememorystreamwrapper)() | Creates MemoryStream wrapper. |

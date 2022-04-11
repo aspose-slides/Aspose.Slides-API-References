@@ -14,9 +14,9 @@ Sets text to all footer placeholders, including master slides, layout slides and
 public void SetAllFootersText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 ### See Also
 

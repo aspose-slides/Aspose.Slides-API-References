@@ -16,7 +16,7 @@ public interface IMetered
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SetMeteredKey](setmeteredkey)(…) | Sets metered public and private key. |
 

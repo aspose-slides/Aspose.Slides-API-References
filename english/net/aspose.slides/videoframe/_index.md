@@ -16,7 +16,7 @@ public class VideoFrame : PictureFrame, IVideoFrame
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EmbeddedVideo](embeddedvideo) { get; set; } | Returns or sets embedded video object. Read/write [`IVideo`](../ivideo). |
 | [FullScreenMode](fullscreenmode) { get; set; } | Determines whether a video is shown in full screen mode. Read/write Boolean. |

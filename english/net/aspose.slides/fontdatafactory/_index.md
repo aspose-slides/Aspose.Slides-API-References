@@ -16,7 +16,7 @@ public class FontDataFactory : IFontDataFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FontDataFactory](fontdatafactory)() | The default constructor. |
 | [CreateFontData](createfontdata)(…) | Creates FontData with specified font name. |

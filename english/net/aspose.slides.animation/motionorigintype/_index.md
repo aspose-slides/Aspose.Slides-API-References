@@ -16,7 +16,7 @@ public enum MotionOriginType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Parent | `0` |  |

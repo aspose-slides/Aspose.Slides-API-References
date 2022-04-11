@@ -14,7 +14,7 @@ Math paragraph
 public IMathParagraph MathParagraph { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

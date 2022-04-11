@@ -14,7 +14,7 @@ Returns IImageTransformOperation interface. Read-only [`IImageTransformOperation
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

@@ -18,7 +18,7 @@ public class AlphaModulateFixedEffectiveData :
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Amount](amount) { get; } | Returns an amount of effect in percents. Read-only Single. |
 

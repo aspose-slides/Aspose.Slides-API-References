@@ -14,9 +14,9 @@ Remove a custom property associated with a specified name.
 public bool RemoveCustomProperty(string name)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of a custom property to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of a custom property to remove. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public interface ISvgTSpan
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Id](id) { get; set; } | Gets or sets id for the "tspan" element |
 

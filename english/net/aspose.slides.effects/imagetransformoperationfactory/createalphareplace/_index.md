@@ -14,9 +14,9 @@ Creates Alpha replace effect.
 public IAlphaReplace CreateAlphaReplace(float alpha)
 ```
 
-| parameter | description |
-| --- | --- |
-| alpha | Alpha |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| alpha | Single | Alpha |
 
 ## Return Value
 

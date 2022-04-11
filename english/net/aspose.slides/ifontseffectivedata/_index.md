@@ -16,13 +16,13 @@ public interface IFontsEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ComplexScriptFont](complexscriptfont) { get; } | Returns the complex script font. Read-only [`IFontData`](../ifontdata). |
 | [EastAsianFont](eastasianfont) { get; } | Returns the East Asian font. Read-only [`IFontData`](../ifontdata). |
 | [LatinFont](latinfont) { get; } | Returns the Latin font. Read-only [`IFontData`](../ifontdata). |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) and [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) interfaces.
 

@@ -14,10 +14,10 @@ Adds quadratic Bezier curve at the end the path
 public void QuadraticBezierTo(PointF point1, PointF point2)
 ```
 
-| parameter | description |
-| --- | --- |
-| point1 | Direction point |
-| point2 | End point |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| point1 | PointF | Direction point |
+| point2 | PointF | End point |
 
 ### See Also
 
@@ -35,13 +35,13 @@ Adds quadratic Bezier curve to the specified place of the path
 public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 ```
 
-| parameter | description |
-| --- | --- |
-| point1 | Direction point |
-| point2 | End point |
-| index | Index of segment in PathData |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| point1 | PointF | Direction point |
+| point2 | PointF | End point |
+| index | UInt32 | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -63,12 +63,12 @@ Adds quadratic Bezier curve at the end the path
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 ```
 
-| parameter | description |
-| --- | --- |
-| x1 | X coordinate of direction point |
-| y1 | Y coordinate of direction point |
-| x2 | X coordinate of end point |
-| y2 | Y coordinate of end point |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x1 | Single | X coordinate of direction point |
+| y1 | Single | Y coordinate of direction point |
+| x2 | Single | X coordinate of end point |
+| y2 | Single | Y coordinate of end point |
 
 ### See Also
 
@@ -86,15 +86,15 @@ Adds quadratic Bezier curve to the specified place of the path
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index)
 ```
 
-| parameter | description |
-| --- | --- |
-| x1 | X coordinate of direction point |
-| y1 | Y coordinate of direction point |
-| x2 | X coordinate of end point |
-| y2 | Y coordinate of end point |
-| index | Index of segment in PathData |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x1 | Single | X coordinate of direction point |
+| y1 | Single | Y coordinate of direction point |
+| x2 | Single | X coordinate of end point |
+| y2 | Single | Y coordinate of end point |
+| index | UInt32 | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

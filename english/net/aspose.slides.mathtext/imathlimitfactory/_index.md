@@ -16,11 +16,11 @@ public interface IMathLimitFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathLimit](createmathlimit)(…) | Creates IMathLimit (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

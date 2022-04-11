@@ -30,9 +30,9 @@ Creates new instance
 public EmbedAllFontsHtmlController(string[] fontNameExcludeList)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontNameExcludeList | Fonts to be excluded from embedding |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontNameExcludeList | String[] | Fonts to be excluded from embedding |
 
 ### See Also
 

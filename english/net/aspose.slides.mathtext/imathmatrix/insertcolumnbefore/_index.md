@@ -14,11 +14,11 @@ Insert a new column before the specified one Initially all elements in the new c
 public void InsertColumnBefore(int columnIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| columnIndex | Index of the column before which to insert a new one |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | Int32 | Index of the column before which to insert a new one |
 
-## Examples
+### Examples
 
 Example:
 

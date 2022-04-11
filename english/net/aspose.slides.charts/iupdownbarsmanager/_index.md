@@ -16,7 +16,7 @@ public interface IUpDownBarsManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DownBarsFormat](downbarsformat) { get; } | Returns format of the down bars. Read-only [`IFormat`](../iformat). |
 | [GapWidth](gapwidth) { get; set; } | Returns or sets gap width. Read/write Int32. |

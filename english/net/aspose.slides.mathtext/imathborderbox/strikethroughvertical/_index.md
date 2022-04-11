@@ -14,7 +14,7 @@ Strikethrough Vertical (default is false) - specifies the hidden or shown state 
 public bool StrikethroughVertical { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

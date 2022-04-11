@@ -16,7 +16,7 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [VbaProjectFactory](vbaprojectfactory)() | The default constructor. |
 | static [Instance](instance) { get; } | VBA project factory static instance. Read-only [`VbaProjectFactory`](../vbaprojectfactory). |

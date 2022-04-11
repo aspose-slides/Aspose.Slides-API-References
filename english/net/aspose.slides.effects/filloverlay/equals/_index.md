@@ -14,9 +14,9 @@ Determines whether the specified [`FillOverlay`](../../filloverlay) is equal to 
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`FillOverlay`](../../filloverlay) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`FillOverlay`](../../filloverlay) to compare. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public enum PlaceholderSize : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Full | `0` | Full. |
 | Half | `1` | Half. |

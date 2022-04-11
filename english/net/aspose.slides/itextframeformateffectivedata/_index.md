@@ -16,7 +16,7 @@ public interface ITextFrameFormatEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AnchoringType](anchoringtype) { get; } | Returns vertical anchor text in a TextFrame. Read-only [`TextAnchorType`](../textanchortype). |
 | [AutofitType](autofittype) { get; } | Returns text autofit mode. Read-only [`TextAutofitType`](../textautofittype). |
@@ -31,7 +31,7 @@ public interface ITextFrameFormatEffectiveData
 | [TextVerticalType](textverticaltype) { get; } | Returns text orientation. Read-only [`TextVerticalType`](../textverticaltype). |
 | [WrapText](wraptext) { get; } | Returns if text is wrapped at TextFrame's margins. Read-only Boolean. |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`ITextFrameFormat`](../itextframeformat) interface to return effective formatting values with inheritance applied.
 

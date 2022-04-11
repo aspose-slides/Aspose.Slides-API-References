@@ -14,7 +14,7 @@ Operator Emulator. When true, the box and its contents behave as a single operat
 public bool OperatorEmulator { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

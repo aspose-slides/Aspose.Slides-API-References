@@ -14,9 +14,9 @@ Adds a new operation to the end of collection.
 public IColorOperation Add(ColorTransformOperation operation)
 ```
 
-| parameter | description |
-| --- | --- |
-| operation | Operation type. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operation | ColorTransformOperation | Operation type. |
 
 ## Return Value
 
@@ -40,10 +40,10 @@ Adds a new operation to the end of collection.
 public IColorOperation Add(ColorTransformOperation operation, float parameter)
 ```
 
-| parameter | description |
-| --- | --- |
-| operation | Operation type. |
-| parameter | Operation's parameter. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operation | ColorTransformOperation | Operation type. |
+| parameter | Single | Operation's parameter. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HasDependingSlides](hasdependingslides) { get; } | Returns true if there exists at least one slide that depends on this layout slide. Read-only Boolean. |
 | [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the layout slide. Read-only [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |

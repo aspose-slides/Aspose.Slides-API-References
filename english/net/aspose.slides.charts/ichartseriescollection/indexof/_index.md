@@ -14,9 +14,9 @@ Searches for the specified [`IChartSeries`](../../ichartseries) and returns the 
 public int IndexOf(IChartSeries value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | Chart series value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IChartSeries | Chart series value. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 | [Item](item) { get; } | Returns an [`IImageTransformOperation`](../iimagetransformoperation) from the collection by it's index. |

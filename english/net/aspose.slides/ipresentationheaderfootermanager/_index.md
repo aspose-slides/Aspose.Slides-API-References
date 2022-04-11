@@ -16,7 +16,7 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](asibaseheaderfootermanager) { get; } | Returns IBaseHeaderFooterManager interface. |
 | [SetAllDateTimesText](setalldatetimestext)(…) | Sets text to all date-time placeholders, including master slides, layout slides and slides. |

@@ -16,13 +16,13 @@ public interface IFontSchemeEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Major](major) { get; } | Returns the fonts collection for a "heading" part of the slide. Read-only [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
 | [Minor](minor) { get; } | Returns the fonts collection for a "body" part of the slide. Read-only [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
 | [Name](name) { get; } | Returns the font scheme name. Read-only String. |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IThemeEffectiveData`](../ithemeeffectivedata).
 

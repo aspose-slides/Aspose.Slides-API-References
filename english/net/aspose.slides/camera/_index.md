@@ -16,7 +16,7 @@ public class Camera : PVIObject, ICamera
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CameraType](cameratype) { get; set; } | Camera type. Read/write [`CameraPresetType`](../camerapresettype). |
 | [FieldOfViewAngle](fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, field of View). Read/write Single. |

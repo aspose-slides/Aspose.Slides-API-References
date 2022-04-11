@@ -14,7 +14,7 @@ Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property i
 public DataSourceType DataSourceType { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 For points in ChartDataPointCollection this property is read-only. In this case for changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; properties.
 

@@ -14,9 +14,9 @@ Removes specified property from the collection.
 public bool Remove(string propertyValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| propertyValue | Value of the property to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | Value of the property to remove. |
 
 ## Return Value
 

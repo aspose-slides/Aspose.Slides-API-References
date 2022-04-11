@@ -14,9 +14,9 @@ Removes specified property from the collection.
 public bool Remove(IBehaviorProperty item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | Property to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IBehaviorProperty | Property to remove. |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Removes specified property from the collection.
 public bool Remove(string propertyValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| propertyValue | Value of the property to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | Value of the property to remove. |
 
 ### See Also
 

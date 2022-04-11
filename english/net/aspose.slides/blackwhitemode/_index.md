@@ -16,7 +16,7 @@ public enum BlackWhiteMode : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | The property isn't set |
 | Color | `0` | The object is rendered with normal coloring |

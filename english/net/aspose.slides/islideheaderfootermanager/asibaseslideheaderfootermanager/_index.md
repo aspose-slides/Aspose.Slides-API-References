@@ -14,7 +14,7 @@ Returns IBaseSlideHeaderFooterManager interface.
 public IBaseSlideHeaderFooterManager AsIBaseSlideHeaderFooterManager { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

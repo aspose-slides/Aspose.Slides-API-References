@@ -14,9 +14,9 @@ Creates and adds a audio to a presentation from byte array.
 public IAudio AddAudio(byte[] audioData)
 ```
 
-| parameter | description |
-| --- | --- |
-| audioData | Audio bytes. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| audioData | Byte[] | Audio bytes. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Adds a copy of an audio file from an another presentation.
 public IAudio AddAudio(IAudio audio)
 ```
 
-| parameter | description |
-| --- | --- |
-| audio | Source audio. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| audio | IAudio | Source audio. |
 
 ## Return Value
 
@@ -64,10 +64,10 @@ Creates and adds a audio to a presentation from stream.
 public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Stream to add video audio from. |
-| loadingStreamBehavior | The behavior which will be applied to the stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream to add video audio from. |
+| loadingStreamBehavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
 ## Return Value
 

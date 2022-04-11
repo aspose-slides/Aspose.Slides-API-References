@@ -14,9 +14,9 @@ Gets info about presentation in specified stream.
 public IPresentationInfo GetPresentationInfo(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Presentation stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Presentation stream. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Gets info about presentation in specified file.
 public IPresentationInfo GetPresentationInfo(string file)
 ```
 
-| parameter | description |
-| --- | --- |
-| file | Presentatoin file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | Presentatoin file. |
 
 ## Return Value
 

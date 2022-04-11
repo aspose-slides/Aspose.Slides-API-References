@@ -14,7 +14,7 @@ Gets or sets frame size.
 public Size FrameSize { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If the size is empty then the value will be taken from [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)&gt;
 

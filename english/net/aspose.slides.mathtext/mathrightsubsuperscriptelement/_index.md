@@ -16,7 +16,7 @@ public sealed class MathRightSubSuperscriptElement : BaseScript, IMathRightSubSu
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathRightSubSuperscriptElement](mathrightsubsuperscriptelement)(…) | Initializes a new instance of the MathRightSubSuperscriptElement class. |
 | [AlignScripts](alignscripts) { get; set; } | Specifies the alignment of subscript/superscript. When true, subscript and superscript are aligned horizontally to each other. When false, they are kerned to the shape of the base. Default value is false. |
@@ -24,7 +24,7 @@ public sealed class MathRightSubSuperscriptElement : BaseScript, IMathRightSubSu
 | [Superscript](superscript) { get; } | Superscript argument |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

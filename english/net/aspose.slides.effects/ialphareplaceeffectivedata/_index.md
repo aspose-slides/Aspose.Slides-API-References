@@ -16,7 +16,7 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alpha](alpha) { get; } | Returns new alpha value in the interval [0..1] Read-only Single. |
 | [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |

@@ -16,7 +16,7 @@ public class ExtraColorScheme : IExtraColorScheme
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ColorScheme](colorscheme) { get; } | Returns a color scheme. Read-only [`IColorScheme`](../icolorscheme). |
 | [Name](name) { get; } | Returns a name of this scheme. Read-only String. |

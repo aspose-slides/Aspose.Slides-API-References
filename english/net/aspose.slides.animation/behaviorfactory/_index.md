@@ -16,7 +16,7 @@ public class BehaviorFactory : IBehaviorFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BehaviorFactory](behaviorfactory)() | The default constructor. |
 | [CreateColorEffect](createcoloreffect)() | Creates color effect. |
@@ -28,7 +28,7 @@ public class BehaviorFactory : IBehaviorFactory
 | [CreateScaleEffect](createscaleeffect)() | Creates scale effect. |
 | [CreateSetEffect](createseteffect)() | Creates set effect. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

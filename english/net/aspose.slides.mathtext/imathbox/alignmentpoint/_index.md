@@ -14,7 +14,7 @@ When true, this operator emulator serves as an alignment point; that is, designa
 public bool AlignmentPoint { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

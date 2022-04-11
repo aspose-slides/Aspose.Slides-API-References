@@ -16,7 +16,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns an color scheme by index. Read-only [`IExtraColorScheme`](../iextracolorscheme). |
 

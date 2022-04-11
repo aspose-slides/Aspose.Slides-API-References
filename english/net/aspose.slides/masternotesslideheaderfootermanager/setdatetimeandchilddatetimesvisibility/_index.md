@@ -14,9 +14,9 @@ Changes master slide date-time placeholder and all child date-time placeholders 
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a date-time placeholders visible, otherwise - hides them. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a date-time placeholders visible, otherwise - hides them. |
 
 ### See Also
 

@@ -14,9 +14,9 @@ Initializes a new instance of the BitmapWrapper class from the specified existin
 public IImageWrapper CreateImageWrapper(Image image)
 ```
 
-| parameter | description |
-| --- | --- |
-| image | Existing Image Image |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | Image | Existing Image Image |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Initializes a new instance of the BitmapWrapper class from the specified data st
 public IImageWrapper CreateImageWrapper(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Data stream Stream |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Data stream Stream |
 
 ## Return Value
 
@@ -64,9 +64,9 @@ Initializes a new instance of the BitmapWrapper class from the specified file.
 public IImageWrapper CreateImageWrapper(string fileName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fileName | File name String |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | File name String |
 
 ## Return Value
 

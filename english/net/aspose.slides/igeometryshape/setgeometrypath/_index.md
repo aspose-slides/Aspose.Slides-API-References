@@ -14,18 +14,18 @@ Updates shape geometry from [`IGeometryPath`](../../igeometrypath) object. Coord
 public void SetGeometryPath(IGeometryPath geometryPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| geometryPath | Geometry path |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| geometryPath | IGeometryPath | Geometry path |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | No path found |
 | ArgumentException | Empty path found |
 
-## Examples
+### Examples
 
 Example:
 

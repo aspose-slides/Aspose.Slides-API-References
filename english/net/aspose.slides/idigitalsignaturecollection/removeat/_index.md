@@ -14,9 +14,9 @@ Removes the signature at the specified index.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of the signature that should be deleted. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of the signature that should be deleted. |
 
 ### See Also
 

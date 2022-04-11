@@ -14,12 +14,12 @@ Saves the output file to the given path.
 public void Save(string path, IOutputFile outputFile)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | Path to save the file to. |
-| outputFile | Output file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Path to save the file to. |
+| outputFile | IOutputFile | Output file. |
 
-## Examples
+### Examples
 
 Saving into the FileStream implementation example:
 

@@ -15,14 +15,14 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
     float height, IPPImage image)
 ```
 
-| parameter | description |
-| --- | --- |
-| shapeType | The shape contained in the set [`ShapeType`](../../shapetype) of shapes, except all sorts of lines: |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| width | The width of shape's frame. |
-| height | The height of shape's frame. |
-| image | The image of picture frame. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shapeType | ShapeType | The shape contained in the set [`ShapeType`](../../shapetype) of shapes, except all sorts of lines: |
+| x | Single | The X-coordinate for a left side of shape's frame. |
+| y | Single | The Y-coordinate for a top side of shape's frame. |
+| width | Single | The width of shape's frame. |
+| height | Single | The height of shape's frame. |
+| image | IPPImage | The image of picture frame. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public class ZoomObject : GraphicalObject, IZoomObject
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Image](image) { get; set; } | Gets or sets image for zoom object. Read/write [`IPPImage`](../ippimage). |
 | [ImageType](imagetype) { get; set; } | Gets or sets the image type of a zoom object. Read/write [`ZoomImageType`](../zoomimagetype). Default value: Preview |

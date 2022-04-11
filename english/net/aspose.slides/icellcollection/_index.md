@@ -16,7 +16,7 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
 | [Item](item) { get; } | Returns a cell by it's position. Read-only [`ICell`](../icell). |

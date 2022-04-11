@@ -16,7 +16,7 @@ public class Background : PVIObject, IBackground
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EffectFormat](effectformat) { get; } | Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only [`IEffectFormat`](../ieffectformat). |
 | [FillFormat](fillformat) { get; } | Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only [`IFillFormat`](../ifillformat). |

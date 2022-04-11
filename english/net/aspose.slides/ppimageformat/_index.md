@@ -16,7 +16,7 @@ public enum PPImageFormat
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Bmp | `0` | Gets the bitmap (BMP) image format. |
 | Emf | `1` | Gets the enhanced metafile (EMF) image format. |

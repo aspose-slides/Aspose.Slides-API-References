@@ -16,7 +16,7 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GetAnyHyperlinks](getanyhyperlinks)() | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 | [GetHyperlinkClicks](gethyperlinkclicks)() | Get all IHyperlinkContainer subobjects that contain not null HyperlinkClick. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |

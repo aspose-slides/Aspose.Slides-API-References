@@ -16,7 +16,7 @@ public enum PlaceholderType : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Title | `0` | Title. |
 | Body | `1` | Body. |

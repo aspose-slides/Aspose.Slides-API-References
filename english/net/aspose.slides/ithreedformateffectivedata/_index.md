@@ -16,7 +16,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIThreeDParamSource](asithreedparamsource) { get; } | Allows to get base IThreeDParamSource interface. Read-only [`IThreeDParamSource`](../ithreedparamsource). |
 | [BevelBottom](bevelbottom) { get; } | Returns the type of a bottom 3D bevel. Read-only [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
@@ -30,7 +30,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 | [LightRig](lightrig) { get; } | Returns the type of a light. Read-only [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
 | [Material](material) { get; } | Returns the type of a material. Read-only [`MaterialPresetType`](../materialpresettype). |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`IThreeDFormat`](../ithreedformat) interface to return effective formatting values with inheritance applied.
 

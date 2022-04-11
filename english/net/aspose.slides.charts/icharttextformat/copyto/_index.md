@@ -14,9 +14,9 @@ Copies text format to specified text frame.
 public void CopyTo(ITextFrame destTextFrame)
 ```
 
-| parameter | description |
-| --- | --- |
-| destTextFrame | Text frame to copy text format to. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| destTextFrame | ITextFrame | Text frame to copy text format to. |
 
 ### See Also
 

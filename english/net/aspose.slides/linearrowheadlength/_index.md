@@ -16,7 +16,7 @@ public enum LineArrowheadLength : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Short | `0` |  |

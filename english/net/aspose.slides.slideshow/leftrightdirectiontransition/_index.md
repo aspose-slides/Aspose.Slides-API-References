@@ -16,7 +16,7 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 

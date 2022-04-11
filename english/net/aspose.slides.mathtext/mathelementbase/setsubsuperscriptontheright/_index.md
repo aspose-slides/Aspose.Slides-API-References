@@ -15,16 +15,16 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement 
     IMathElement superscript)
 ```
 
-| parameter | description |
-| --- | --- |
-| subscript | Subscript (lower index on the right) |
-| superscript | Superscript (upper index on the right) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subscript | IMathElement | Subscript (lower index on the right) |
+| superscript | IMathElement | Superscript (upper index on the right) |
 
 ## Return Value
 
 New math element of type [`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
 
-## Examples
+### Examples
 
 Example:
 
@@ -55,16 +55,16 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscr
     string superscript)
 ```
 
-| parameter | description |
-| --- | --- |
-| subscript | Subscript (lower index on the right) |
-| superscript | Superscript (upper index on the right) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subscript | String | Subscript (lower index on the right) |
+| superscript | String | Superscript (upper index on the right) |
 
 ## Return Value
 
 New math element of type [`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
 
-## Examples
+### Examples
 
 Example:
 

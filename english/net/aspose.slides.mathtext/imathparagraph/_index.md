@@ -16,13 +16,13 @@ public interface IMathParagraph : IMathBlockCollection
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathBlockCollection](asimathblockcollection) { get; } | Allows to get base IMathBlockCollection interface [`IMathBlockCollection`](../imathblockcollection) |
 | [Justification](justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
 | [WriteAsMathMl](writeasmathml)(…) | Saves content of this [`IMathParagraph`](../imathparagraph) as MathML |
 
-## Examples
+### Examples
 
 Example:
 

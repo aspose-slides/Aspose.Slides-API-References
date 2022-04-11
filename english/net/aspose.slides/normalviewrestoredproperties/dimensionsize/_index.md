@@ -14,7 +14,7 @@ Specifies the size of the slide region (width when a child of RestoredTop, heigh
 public float DimensionSize { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

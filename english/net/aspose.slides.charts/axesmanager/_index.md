@@ -16,7 +16,7 @@ public class AxesManager : IAxesManager
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HorizontalAxis](horizontalaxis) { get; } | Gets the chart's horizontal axis. Read-only [`IAxis`](../iaxis). |
 | [SecondaryHorizontalAxis](secondaryhorizontalaxis) { get; } | Gets the chart's secondary horizontal axis. Read-only [`IAxis`](../iaxis). |

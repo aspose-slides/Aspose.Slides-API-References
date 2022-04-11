@@ -14,10 +14,10 @@ Inserts a copy of a specified master slide to specified position of the collecti
 public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of new slide. |
-| sourceMaster | Slide to clone. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of new slide. |
+| sourceMaster | IMasterSlide | Slide to clone. |
 
 ## Return Value
 

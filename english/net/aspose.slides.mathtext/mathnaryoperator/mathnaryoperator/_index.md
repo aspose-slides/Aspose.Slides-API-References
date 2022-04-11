@@ -14,12 +14,12 @@ Initializes a new instance of the MathNaryOperator class.
 public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| operatorSymbol | Nary operator symbol |
-| baseArgument | Base argument |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operatorSymbol | Char | Nary operator symbol |
+| baseArgument | IMathElement | Base argument |
 
-## Examples
+### Examples
 
 Example:
 
@@ -45,13 +45,13 @@ Initializes a new instance of the MathNaryOperator class.
 public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit)
 ```
 
-| parameter | description |
-| --- | --- |
-| operatorSymbol | Nary operator symbol |
-| baseArgument | Base argument |
-| lowerLimit | Lower limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operatorSymbol | Char | Nary operator symbol |
+| baseArgument | IMathElement | Base argument |
+| lowerLimit | IMathElement | Lower limit |
 
-## Examples
+### Examples
 
 Example:
 
@@ -78,14 +78,14 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
     IMathElement upperLimit)
 ```
 
-| parameter | description |
-| --- | --- |
-| operatorSymbol | Nary operator symbol |
-| baseArgument | Base argument |
-| lowerLimit | Lower limit |
-| upperLimit | Upper limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operatorSymbol | Char | Nary operator symbol |
+| baseArgument | IMathElement | Base argument |
+| lowerLimit | IMathElement | Lower limit |
+| upperLimit | IMathElement | Upper limit |
 
-## Examples
+### Examples
 
 Example:
 

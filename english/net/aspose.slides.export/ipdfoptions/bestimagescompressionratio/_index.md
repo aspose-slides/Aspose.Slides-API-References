@@ -14,7 +14,7 @@ Indicates if the most effective compression (instead of the default one) for eac
 public bool BestImagesCompressionRatio { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is Boolean.false.
 

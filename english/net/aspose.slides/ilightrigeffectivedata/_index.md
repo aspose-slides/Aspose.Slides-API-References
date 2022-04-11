@@ -16,13 +16,13 @@ public interface ILightRigEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; } | Light direction. Read-only [`LightingDirection`](../lightingdirection). |
 | [LightType](lighttype) { get; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read-only [`LightRigPresetType`](../lightrigpresettype). |
 | [GetRotation](getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. First element in return array - latitude, second - longitude, third - revolution. |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 

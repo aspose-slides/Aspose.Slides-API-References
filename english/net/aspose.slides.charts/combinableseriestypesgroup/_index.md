@@ -16,7 +16,7 @@ public enum CombinableSeriesTypesGroup
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | AreaChart_Area | `4` | Groups this set of series types: { ChartType.Area } |
 | AreaChart_PercentsStackedArea | `5` | Groups this set of series types: { ChartType.PercentsStackedArea } |

@@ -14,7 +14,7 @@ Gets [`ISummaryZoomSectionCollection`](../../isummaryzoomsectioncollection) for 
 public ISummaryZoomSectionCollection SummaryZoomCollection { get; }
 ```
 
-## Examples
+### Examples
 
 The example demonstrates getting Summary Zoom Section element by index:
 

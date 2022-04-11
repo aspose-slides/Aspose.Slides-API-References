@@ -16,7 +16,7 @@ public enum EffectChartMinorGroupingType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | ByElementInSeries | `0` | Animate chart by element in series |
 | ByElementInCategory | `1` | Animate chart by element in category |

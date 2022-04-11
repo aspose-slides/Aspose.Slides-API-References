@@ -16,7 +16,7 @@ public interface IMasterThemeManager : IThemeManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIThemeManager](asithememanager) { get; } | Allows to get base IThemeManager interface. Read-only [`IThemeManager`](../ithememanager). |
 | [IsOverrideThemeEnabled](isoverridethemeenabled) { get; set; } | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write Boolean. |

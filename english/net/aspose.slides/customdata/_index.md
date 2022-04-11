@@ -16,7 +16,7 @@ public class CustomData : ICustomData
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CustomXmlParts](customxmlparts) { get; } | Returns the custom xml parts collection. Read-only [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
 | [Tags](tags) { get; } | Returns the Customer Data Tags collection. Read-only [`ITagCollection`](../itagcollection). |

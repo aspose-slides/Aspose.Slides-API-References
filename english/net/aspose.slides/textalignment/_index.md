@@ -16,7 +16,7 @@ public enum TextAlignment
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Default aligment. |
 | Left | `0` | Left alignment. |

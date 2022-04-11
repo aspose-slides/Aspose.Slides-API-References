@@ -14,7 +14,7 @@ Gets or sets the slide object that the Slide Zoom object links to. Read/write [`
 public ISlide TargetSlide { get; set; }
 ```
 
-## Examples
+### Examples
 
 Next example demonstrates changing target slide and creates new image for the Slide Zoom object:
 

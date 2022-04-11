@@ -16,7 +16,7 @@ public interface ISwfOptions : ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [Compressed](compressed) { get; set; } | Specifies whether the generated SWF document should be compressed or not. Default is `true`. |

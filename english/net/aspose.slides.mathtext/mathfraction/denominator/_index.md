@@ -14,7 +14,7 @@ Denominator
 public IMathElement Denominator { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

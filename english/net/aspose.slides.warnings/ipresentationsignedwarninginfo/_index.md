@@ -16,7 +16,7 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIWarningInfo](asiwarninginfo) { get; } | Returns IWarningInfo interface. Read-only [`IWarningInfo`](../iwarninginfo). |
 

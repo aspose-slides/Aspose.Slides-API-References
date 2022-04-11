@@ -14,7 +14,7 @@ Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pi
 public ushort SecondPieSize { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.SecondPieSize.
 

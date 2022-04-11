@@ -14,7 +14,7 @@ Returns IThemeable interface. Read-only [`IThemeable`](../../ithemeable).
 public IThemeable AsIThemeable { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

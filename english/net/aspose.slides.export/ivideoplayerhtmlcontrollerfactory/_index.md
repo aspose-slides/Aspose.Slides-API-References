@@ -16,11 +16,11 @@ public interface IVideoPlayerHtmlControllerFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateVideoPlayerHtmlController](createvideoplayerhtmlcontroller)(…) | Create video player HTML controller. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

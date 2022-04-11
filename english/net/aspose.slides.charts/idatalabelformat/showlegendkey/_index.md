@@ -14,7 +14,7 @@ Represents a specified chart's data label legend key display behavior. True if t
 public bool ShowLegendKey { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the ShowLegendKey property for the new data labels in the DataLabelCollection collection. Set this property with value also sets this value to the ShowLegendKey property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.DefaultDataLabelFormat.ShowLegendKey = val;" cause to all DataLabels[i].ShowLegendKey is equal to val).
 

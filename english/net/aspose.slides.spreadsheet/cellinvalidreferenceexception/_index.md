@@ -16,7 +16,7 @@ public class CellInvalidReferenceException : PptxEditException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CellInvalidReferenceException](cellinvalidreferenceexception)() | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class. |
 | [CellInvalidReferenceException](cellinvalidreferenceexception)(…) | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class with a specified error message. (3 constructors) |

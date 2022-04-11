@@ -14,11 +14,11 @@ Deletes the specified row
 public void DeleteRow(int rowIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| rowIndex | The zero-based index of the row to delete. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | Int32 | The zero-based index of the row to delete. |
 
-## Examples
+### Examples
 
 Example:
 

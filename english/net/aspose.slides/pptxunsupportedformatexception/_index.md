@@ -16,7 +16,7 @@ public class PptxUnsupportedFormatException : PptxReadException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception)() | Default constructor. |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

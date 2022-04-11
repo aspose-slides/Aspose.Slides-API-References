@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides Namespace
+title: Aspose.Slides
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.
 type: docs
@@ -8,9 +8,9 @@ url: /net/aspose.slides/
 ---
 Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | abstract class [AccessibleEffectiveData&lt;TLocalData,TEffectiveData&gt;](./accessibleeffectivedata-2) | Immutable effective data object that handles inheritance, style/theme resolving and data caching. |
 | class [AdjustValue](./adjustvalue) | Represents a geometry shape's adjustment value. These values affect shape's form. |
@@ -18,13 +18,10 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | class [Audio](./audio) | Represents an embedded audio file. |
 | class [AudioCollection](./audiocollection) | Represents a collection of embedded audio files. |
 | class [AudioFrame](./audioframe) | Represents an audio clip on a slide. |
-| enum [AudioPlayModePreset](./audioplaymodepreset) | Constants which define how a sound is played. |
-| enum [AudioVolumeMode](./audiovolumemode) | Constants which define audio volume. |
 | class [AutoShape](./autoshape) | Represents an AutoShape. |
 | class [AutoShapeLock](./autoshapelock) | Determines which operations are disabled on the parent AutoshapeEx. |
 | class [Backdrop3DScene](./backdrop3dscene) | Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to. |
 | class [Background](./background) | Represents background of a slide. |
-| enum [BackgroundType](./backgroundtype) | Defines the slide background fill source. |
 | abstract class [BaseEffectiveData&lt;TLocalData,TEffectiveData&gt;](./baseeffectivedata-2) | Immutable base effective data container. |
 | abstract class [BaseHandoutNotesSlideHeaderFooterManager](./basehandoutnotesslideheaderfootermanager) | Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides. |
 | abstract class [BaseHeaderFooterManager](./baseheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
@@ -32,24 +29,16 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | class [BaseShapeLock](./baseshapelock) | Represents a base class for locks (disabled operation). |
 | abstract class [BaseSlide](./baseslide) | Represents common data for all slide types. |
 | abstract class [BaseSlideHeaderFooterManager](./baseslideheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
-| enum [BevelPresetType](./bevelpresettype) | Constants which define 3D bevel of shape. |
-| enum [BlackWhiteMode](./blackwhitemode) | Determines how colored shape should be transformed into black and white. |
 | class [BlobManagementOptions](./blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
 | static class [BuildVersionInfo](./buildversioninfo) | Contains information about version of Aspose.Slides. |
 | class [BulletFormat](./bulletformat) | Represents paragraph bullet formatting properties. |
-| enum [BulletType](./bullettype) | Represents the type of the extended bullets. |
 | class [Camera](./camera) | Represents Camera. |
-| enum [CameraPresetType](./camerapresettype) | Constants which define camera preset type. |
 | class [Cell](./cell) | Represents a cell of a table. |
 | abstract class [CellCollection](./cellcollection) | Represents a collection of cells. |
 | class [CellFormat](./cellformat) | Represents format of a table cell. |
 | class [ColorFormat](./colorformat) | Represents a color used in a presentation. |
 | class [ColorOperation](./coloroperation) | Represents different color operations used for color transformations. Immutable object. |
 | class [ColorOperationCollection](./coloroperationcollection) | Represents a collection of color transform operations. |
-| enum [ColorSchemeIndex](./colorschemeindex) | Represents an index in a colorscheme. |
-| enum [ColorStringFormat](./colorstringformat) | Represents a type of hyperlink action. |
-| enum [ColorTransformOperation](./colortransformoperation) | Defines color transform operation. |
-| enum [ColorType](./colortype) | Represents different color modes. |
 | class [Column](./column) | Represents a column in a table. |
 | class [ColumnCollection](./columncollection) | Represents collection of columns in a table. |
 | class [ColumnFormat](./columnformat) | Represents format of a table column. |
@@ -63,7 +52,6 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | class [Control](./control) | Represents an ActiveX control. |
 | class [ControlCollection](./controlcollection) | A collection of ActiveX controls. |
 | class [ControlPropertiesCollection](./controlpropertiescollection) | A collection of AcitveX properties. |
-| enum [ControlType](./controltype) | Defines a control type which should be embedded by [`AddControl`](aspose.slides/icontrolcollection/addcontrol). |
 | class [CustomData](./customdata) | Represents container for custom data. |
 | class [CustomXmlPart](./customxmlpart) | Represents custom xml part. |
 | class [CustomXmlPartCollection](./customxmlpartcollection) | Represents collection of custom xml parts. |
@@ -73,11 +61,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | class [EffectFormat](./effectformat) | Represents effect properties of shape. |
 | class [Field](./field) | Represents a field. |
 | class [FieldType](./fieldtype) | Represents a type of field. This value determines which text will be set to the field portion when it will be updated. |
-| enum [FillBlendMode](./fillblendmode) | Determines blend mode. |
 | class [FillFormat](./fillformat) | Represents a fill formatting options. |
-| enum [FillType](./filltype) | Specifies the interior fill type of various visual objects. |
-| enum [FontAlignment](./fontalignment) | Represents vertical font alignment. |
-| enum [FontCollectionIndex](./fontcollectionindex) | Represents font's index in a collection. |
 | class [FontData](./fontdata) | Represents a font definition. Immutable. |
 | class [FontDataFactory](./fontdatafactory) | FontData factory |
 | class [FontFallBackRule](./fontfallbackrule) | Represents font fallback rule |
@@ -86,16 +70,13 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | class [FontsLoader](./fontsloader) | Class for loading custom fonts defined by user. Should be used before creating any presentation objects. |
 | class [FontsManager](./fontsmanager) | Manages fonts across the presentation. |
 | class [FontSources](./fontsources) | Provides file and memory sources for external fonts. |
-| enum [FontSubstCondition](./fontsubstcondition) | Represents a rule fot font substitution |
 | class [FontSubstRule](./fontsubstrule) | Represents font subtituition information |
 | class [FontSubstRuleCollection](./fontsubstrulecollection) | Represents collection of fonts substitution. |
 | class [FormatFactory](./formatfactory) | Allows to create formats via COM interface. |
 | class [GeometryPath](./geometrypath) | Represents geometry path of GeometryShape |
 | abstract class [GeometryShape](./geometryshape) | Represents the parent class for all geometric shapes. |
 | class [GlobalLayoutSlideCollection](./globallayoutslidecollection) | Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides. |
-| enum [GradientDirection](./gradientdirection) | Represents the gradient style. |
 | class [GradientFormat](./gradientformat) | Represent a gradient format. |
-| enum [GradientShape](./gradientshape) | Represents the shape of gradient fill. |
 | class [GradientStop](./gradientstop) | Represents a gradient format. |
 | class [GradientStopCollection](./gradientstopcollection) | Represnts a collection of gradient stops. |
 | class [GradientStopCollectionEffectiveData](./gradientstopcollectioneffectivedata) | Represents a collection of GradientStopData objects. |
@@ -105,10 +86,123 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | class [GroupShape](./groupshape) | Represents a group of shapes on a slide. |
 | class [GroupShapeLock](./groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | class [Hyperlink](./hyperlink) | Represents a hyperlink. |
-| enum [HyperlinkActionType](./hyperlinkactiontype) | Represents a type of hyperlink action. |
-| enum [HyperlinkColorSource](./hyperlinkcolorsource) | Represents source of hyperlink color. |
 | class [HyperlinkManager](./hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
 | class [HyperlinkQueries](./hyperlinkqueries) | Provide easy access to contained hyperlinks. |
+| class [ImageCollection](./imagecollection) | Represents collection of PPImage. |
+| class [ImageWrapper](./imagewrapper) | System.Drawing.Image wrapper for COM interface. |
+| class [ImageWrapperFactory](./imagewrapperfactory) | This class allows to initialize IBitmapWrapper. |
+| class [InterruptionToken](./interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
+| class [InterruptionTokenSource](./interruptiontokensource) | Represents the source of [`InterruptionToken`](aspose.slides/interruptiontoken). |
+| class [InvalidPasswordException](./invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |
+| class [LayoutSlide](./layoutslide) | Represents a layout slide. |
+| class [LayoutSlideCollection](./layoutslidecollection) | Represents a base class for collection of a layout slides. |
+| class [LayoutSlideHeaderFooterManager](./layoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+| class [LegacyDiagram](./legacydiagram) | Represents a legacy diagram object. |
+| class [License](./license) | Provides methods to license the component. |
+| class [LightRig](./lightrig) | Represents LightRig. |
+| class [LineFillFormat](./linefillformat) | Represents properties for lines filling. |
+| class [LineFormat](./lineformat) | Represents format of a line. |
+| class [LoadOptions](./loadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
+| class [MasterHandoutSlide](./masterhandoutslide) | Represents master slide for handouts. |
+| class [MasterHandoutSlideHeaderFooterManager](./masterhandoutslideheaderfootermanager) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |
+| class [MasterLayoutSlideCollection](./masterlayoutslidecollection) | Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of master's layout slides. |
+| class [MasterNotesSlide](./masternotesslide) | Represents master slide for notes. |
+| class [MasterNotesSlideHeaderFooterManager](./masternotesslideheaderfootermanager) | Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| class [MasterSlide](./masterslide) | Represents a master slide in a presentation. |
+| class [MasterSlideCollection](./masterslidecollection) | Represents a collection of master slides. |
+| class [MasterSlideHeaderFooterManager](./masterslideheaderfootermanager) | Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| class [Metered](./metered) | Provides methods to set metered key. |
+| class [ModernComment](./moderncomment) | Represents a comment on a slide. |
+| class [NormalViewProperties](./normalviewproperties) | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. |
+| class [NormalViewRestoredProperties](./normalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
+| class [NotesSize](./notessize) | Represents a size of notes slide. |
+| class [NotesSlide](./notesslide) | Represents a notes slide in a presentation. |
+| class [NotesSlideHeaderFooterManager](./notesslideheaderfootermanager) | Represents manager which holds behavior of the notes slide placeholders, including header placeholder. |
+| class [NotesSlideManager](./notesslidemanager) | Notes slide manager. |
+| class [OdpException](./odpexception) | Represents a standard internal exception type. |
+| class [OdpReadException](./odpreadexception) | Represents an exception which thrown on presentation reading errors. |
+| class [OleObjectFrame](./oleobjectframe) | Represents an OLE object on a slide. |
+| class [OOXMLCorruptFileException](./ooxmlcorruptfileexception) | Exception which thrown when Office Open XML file format is corrupted. |
+| class [OOXMLException](./ooxmlexception) | Represents a standard internal exception type related to Office Open XML file format. |
+| class [Paragraph](./paragraph) | Represents a paragraph of text. |
+| class [ParagraphCollection](./paragraphcollection) | Represents a collection of a paragraphs. |
+| class [ParagraphFactory](./paragraphfactory) | Allows to create paragraphs |
+| class [ParagraphFormat](./paragraphformat) | This class contains the paragraph formatting properties. Unlike [`IParagraphFormatEffectiveData`](aspose.slides/iparagraphformateffectivedata), all properties of this class are writeable. |
+| class [PathSegment](./pathsegment) | Represents segment of graphics path of GeometryShape |
+| class [PatternFormat](./patternformat) | Represents a pattern to fill a shape. |
+| class [Picture](./picture) | Represents a picture in a presentation. |
+| class [PictureFillFormat](./picturefillformat) | Represents a picture fill style. |
+| class [PictureFrame](./pictureframe) | Represents a frame with a picture inside. |
+| class [PictureFrameLock](./pictureframelock) | Determines which operations are disabled on the parent PictureFrame. |
+| class [Placeholder](./placeholder) | Represents a placeholder on a slide. |
+| class [Portion](./portion) | Represents a portion of text inside a text paragraph. |
+| class [PortionCollection](./portioncollection) | Represents a collection of portions. |
+| class [PortionFactory](./portionfactory) | Allows to create test portions |
+| class [PortionFormat](./portionformat) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
+| class [PPImage](./ppimage) | Represents an image in a presentation. |
+| class [PptCorruptFileException](./pptcorruptfileexception) | Exception which thrown when presentation file is probably corrupt. |
+| class [PptEditException](./ppteditexception) | Represents an exception thrown when edit presentation error is detected. |
+| class [PptException](./pptexception) | Represents a standard internal exception type. |
+| class [PptReadException](./pptreadexception) | Represents an exception which thrown on presentation reading errors. |
+| class [PptUnsupportedFormatException](./pptunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
+| class [PptxCorruptFileException](./pptxcorruptfileexception) |  |
+| class [PptxEditException](./pptxeditexception) | Represents an exception thrown when edit presentation error is detected. |
+| class [PptxException](./pptxexception) | Represents a standard internal exception type. |
+| class [PptxReadException](./pptxreadexception) | Represents an exception which thrown on presentation reading errors. |
+| class [PptxUnsupportedFormatException](./pptxunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
+| class [Presentation](./presentation) | Represents a Microsoft PowerPoint presentation. |
+| class [PresentationFactory](./presentationfactory) | Allows to create presentation via COM interface |
+| class [PresentationHeaderFooterManager](./presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
+| class [PresentationInfo](./presentationinfo) | Information about presentation file |
+| class [PresentationText](./presentationtext) | Represents the text extracted from the presentation |
+| class [ProtectionManager](./protectionmanager) | Presentation password protection management. |
+| abstract class [PVIObject](./pviobject) | Encapsulates basic service infrastructure for objects can be a subject of property value inheritance. |
+| class [Row](./row) | Represents a row in a table. |
+| class [RowCollection](./rowcollection) | Represents table row collection. |
+| class [RowFormat](./rowformat) | Represents format of a table row. |
+| class [Section](./section) | Represents section of slides. |
+| class [SectionCollection](./sectioncollection) | Represents a collection of sections. |
+| class [SectionSlideCollection](./sectionslidecollection) | Represents a collection of slides in the section. |
+| class [SectionZoomFrame](./sectionzoomframe) | Represents a Section Zoom object in a slide. |
+| class [Shape](./shape) | Represents a shape on a slide. |
+| class [ShapeBevel](./shapebevel) | Contains the properties of shape's main face relief. |
+| class [ShapeCollection](./shapecollection) | Represents a collection of a shapes. |
+| class [ShapeElement](./shapeelement) | Represents a part of shape with same outline and fill properties. |
+| class [ShapeFrame](./shapeframe) | Represents shape frame's properties. |
+| class [ShapeStyle](./shapestyle) | Represent shape's style reference. |
+| class [SketchFormat](./sketchformat) | Represents properties for lines sketch format. |
+| class [Slide](./slide) | Represents a slide in a presentation. |
+| class [SlideCollection](./slidecollection) | Represents a collection of a slides. |
+| class [SlideHeaderFooterManager](./slideheaderfootermanager) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
+| class [SlideSize](./slidesize) | Represents a size of slide. |
+| class [SpreadsheetOptions](./spreadsheetoptions) | Represents options which can be used to specify additional spreadsheets behavior. |
+| class [StreamWrapper](./streamwrapper) | Aspose.IO.Stream wrapper for COM interface. |
+| class [StreamWrapperFactory](./streamwrapperfactory) | Factory of StreamWrappers. For COM interface. |
+| class [SummaryZoomFrame](./summaryzoomframe) | Represents a Summary Zoom object in a slide. |
+| class [SummaryZoomSection](./summaryzoomsection) | Represents a Summary Zoom Section object in a Summary Zoom frame. |
+| class [SummaryZoomSectionCollection](./summaryzoomsectioncollection) | Represents a collection of Summary Zoom Section objects. |
+| class [SvgImage](./svgimage) | Represents an SVG image. |
+| class [Tab](./tab) | Represents a tabulation for a text. |
+| class [TabCollection](./tabcollection) | Represents a collection of tabs. |
+| class [TabFactory](./tabfactory) | Allows to create ITab instances |
+| class [Table](./table) | Represents a table on a slide. |
+| class [TableFormat](./tableformat) | Represents format of a table. |
+| class [TagCollection](./tagcollection) | Represents the collection of tags (user defined pairs of strings) |
+| class [TextFrame](./textframe) | Represents a TextFrame. |
+| class [TextFrameFormat](./textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
+| class [TextHighlightingOptions](./texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
+| class [TextStyle](./textstyle) | This class contains the text style formatting properties. |
+| class [ThreeDFormat](./threedformat) | Represents 3-D properties. |
+| class [Video](./video) | Represents an image embedded into a presentation. |
+| class [VideoCollection](./videocollection) | Represents a collection of Video objects. |
+| class [VideoFrame](./videoframe) | Represents a video clip on a slide. |
+| class [ViewProperties](./viewproperties) | Presentation wide view properties. |
+| class [ZoomFrame](./zoomframe) | Represents a Slide Zoom object in a slide. |
+| class [ZoomObject](./zoomobject) | Represents an Zoom object in a slide. |
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
 | interface [IAccessiblePVIObject&lt;T&gt;](./iaccessiblepviobject-1) | Represents a type that can return corresponding effective data with the inheritance applied. |
 | interface [IAdjustValue](./iadjustvalue) | Represents a geometry shape's adjustment value. These values affect shape's form. |
 | interface [IAdjustValueCollection](./iadjustvaluecollection) | Reprasents a collection of shape's adjustments. |
@@ -219,9 +313,6 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | interface [ILineFormatEffectiveData](./ilineformateffectivedata) | Immutable object which contains effective line formatting properties. |
 | interface [ILineParamSource](./ilineparamsource) | Auxiliary line parameters interface. |
 | interface [ILoadOptions](./iloadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
-| class [ImageCollection](./imagecollection) | Represents collection of PPImage. |
-| class [ImageWrapper](./imagewrapper) | System.Drawing.Image wrapper for COM interface. |
-| class [ImageWrapperFactory](./imagewrapperfactory) | This class allows to initialize IBitmapWrapper. |
 | interface [IMasterHandoutSlide](./imasterhandoutslide) | Represents master slide for handouts. |
 | interface [IMasterHandoutSlideHeaderFooterManager](./imasterhandoutslideheaderfootermanager) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |
 | interface [IMasterHandoutSlideManager](./imasterhandoutslidemanager) | Master handout slide manager. |
@@ -240,9 +331,6 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | interface [INotesSlide](./inotesslide) | Represents a notes slide in a presentation. |
 | interface [INotesSlideHeaderFooterManager](./inotesslideheaderfootermanager) | Represents manager which holds behavior of the notes slide placeholders, including header placeholder. |
 | interface [INotesSlideManager](./inotesslidemanager) | Notes slide manager. |
-| class [InterruptionToken](./interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
-| class [InterruptionTokenSource](./interruptiontokensource) | Represents the source of [`InterruptionToken`](aspose.slides/interruptiontoken). |
-| class [InvalidPasswordException](./invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |
 | interface [IOleEmbeddedDataInfo](./ioleembeddeddatainfo) | Represents embedded data info for OLE object. |
 | interface [IOleObjectFrame](./ioleobjectframe) | Represents an OLE object on a slide. |
 | interface [IParagraph](./iparagraph) | Represents a paragraph of a text. |
@@ -330,13 +418,32 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | interface [IViewProperties](./iviewproperties) | Presentation wide view properties. |
 | interface [IZoomFrame](./izoomframe) | Represents a Slide Zoom object in a slide. |
 | interface [IZoomObject](./izoomobject) | Represents a Zoom object in a slide. |
-| class [LayoutSlide](./layoutslide) | Represents a layout slide. |
-| class [LayoutSlideCollection](./layoutslidecollection) | Represents a base class for collection of a layout slides. |
-| class [LayoutSlideHeaderFooterManager](./layoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
-| class [LegacyDiagram](./legacydiagram) | Represents a legacy diagram object. |
-| class [License](./license) | Provides methods to license the component. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| enum [AudioPlayModePreset](./audioplaymodepreset) | Constants which define how a sound is played. |
+| enum [AudioVolumeMode](./audiovolumemode) | Constants which define audio volume. |
+| enum [BackgroundType](./backgroundtype) | Defines the slide background fill source. |
+| enum [BevelPresetType](./bevelpresettype) | Constants which define 3D bevel of shape. |
+| enum [BlackWhiteMode](./blackwhitemode) | Determines how colored shape should be transformed into black and white. |
+| enum [BulletType](./bullettype) | Represents the type of the extended bullets. |
+| enum [CameraPresetType](./camerapresettype) | Constants which define camera preset type. |
+| enum [ColorSchemeIndex](./colorschemeindex) | Represents an index in a colorscheme. |
+| enum [ColorStringFormat](./colorstringformat) | Represents a type of hyperlink action. |
+| enum [ColorTransformOperation](./colortransformoperation) | Defines color transform operation. |
+| enum [ColorType](./colortype) | Represents different color modes. |
+| enum [ControlType](./controltype) | Defines a control type which should be embedded by [`AddControl`](aspose.slides/icontrolcollection/addcontrol). |
+| enum [FillBlendMode](./fillblendmode) | Determines blend mode. |
+| enum [FillType](./filltype) | Specifies the interior fill type of various visual objects. |
+| enum [FontAlignment](./fontalignment) | Represents vertical font alignment. |
+| enum [FontCollectionIndex](./fontcollectionindex) | Represents font's index in a collection. |
+| enum [FontSubstCondition](./fontsubstcondition) | Represents a rule fot font substitution |
+| enum [GradientDirection](./gradientdirection) | Represents the gradient style. |
+| enum [GradientShape](./gradientshape) | Represents the shape of gradient fill. |
+| enum [HyperlinkActionType](./hyperlinkactiontype) | Represents a type of hyperlink action. |
+| enum [HyperlinkColorSource](./hyperlinkcolorsource) | Represents source of hyperlink color. |
 | enum [LightingDirection](./lightingdirection) | Constants which define light directions. |
-| class [LightRig](./lightrig) | Represents LightRig. |
 | enum [LightRigPresetType](./lightrigpresettype) | Constants which define light preset types. |
 | enum [LineAlignment](./linealignment) | Represents the lines alignment type. |
 | enum [LineArrowheadLength](./linearrowheadlength) | Represents the length of an arrowhead. |
@@ -344,157 +451,58 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | enum [LineArrowheadWidth](./linearrowheadwidth) | Represents the width of an arrowhead. |
 | enum [LineCapStyle](./linecapstyle) | Represents the line cap style. |
 | enum [LineDashStyle](./linedashstyle) | Represents the line dash style. |
-| class [LineFillFormat](./linefillformat) | Represents properties for lines filling. |
-| class [LineFormat](./lineformat) | Represents format of a line. |
 | enum [LineJoinStyle](./linejoinstyle) | Represents the lines join style. |
 | enum [LineSketchType](./linesketchtype) | Represents which sketch type or effect a shape has been assigned. |
 | enum [LineStyle](./linestyle) | Represents the style of a line. |
 | enum [LoadFormat](./loadformat) | Indicates the format of the document that is to be loaded. |
 | enum [LoadingStreamBehavior](./loadingstreambehavior) | The Stream passed to a method is considered as a Binary Large Object (BLOB) (see [`IBlobManagementOptions`](aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how the Stream should be treated when it passed to the method. Depending on the requirements, different decisions could be made to provide the most efficient behavior. |
-| class [LoadOptions](./loadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
-| class [MasterHandoutSlide](./masterhandoutslide) | Represents master slide for handouts. |
-| class [MasterHandoutSlideHeaderFooterManager](./masterhandoutslideheaderfootermanager) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |
-| class [MasterLayoutSlideCollection](./masterlayoutslidecollection) | Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of master's layout slides. |
-| class [MasterNotesSlide](./masternotesslide) | Represents master slide for notes. |
-| class [MasterNotesSlideHeaderFooterManager](./masternotesslideheaderfootermanager) | Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
-| class [MasterSlide](./masterslide) | Represents a master slide in a presentation. |
-| class [MasterSlideCollection](./masterslidecollection) | Represents a collection of master slides. |
-| class [MasterSlideHeaderFooterManager](./masterslideheaderfootermanager) | Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
 | enum [MaterialPresetType](./materialpresettype) | Constants which define material of shape. |
-| class [Metered](./metered) | Provides methods to set metered key. |
-| class [ModernComment](./moderncomment) | Represents a comment on a slide. |
 | enum [ModernCommentStatus](./moderncommentstatus) | Represents the status of a modern comment. |
-| class [NormalViewProperties](./normalviewproperties) | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. |
-| class [NormalViewRestoredProperties](./normalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
-| class [NotesSize](./notessize) | Represents a size of notes slide. |
-| class [NotesSlide](./notesslide) | Represents a notes slide in a presentation. |
-| class [NotesSlideHeaderFooterManager](./notesslideheaderfootermanager) | Represents manager which holds behavior of the notes slide placeholders, including header placeholder. |
-| class [NotesSlideManager](./notesslidemanager) | Notes slide manager. |
 | enum [NullableBool](./nullablebool) | Represents triple boolean values. |
 | enum [NumberedBulletStyle](./numberedbulletstyle) | Represents the style of the numbered bullets. |
-| class [OdpException](./odpexception) | Represents a standard internal exception type. |
-| class [OdpReadException](./odpreadexception) | Represents an exception which thrown on presentation reading errors. |
-| class [OleObjectFrame](./oleobjectframe) | Represents an OLE object on a slide. |
-| class [OOXMLCorruptFileException](./ooxmlcorruptfileexception) | Exception which thrown when Office Open XML file format is corrupted. |
-| class [OOXMLException](./ooxmlexception) | Represents a standard internal exception type related to Office Open XML file format. |
 | enum [Orientation](./orientation) | Represents the orientation of a shape. |
-| class [Paragraph](./paragraph) | Represents a paragraph of text. |
-| class [ParagraphCollection](./paragraphcollection) | Represents a collection of a paragraphs. |
-| class [ParagraphFactory](./paragraphfactory) | Allows to create paragraphs |
-| class [ParagraphFormat](./paragraphformat) | This class contains the paragraph formatting properties. Unlike [`IParagraphFormatEffectiveData`](aspose.slides/iparagraphformateffectivedata), all properties of this class are writeable. |
 | enum [PathCommandType](./pathcommandtype) | Represents graphics path commands |
 | enum [PathFillModeType](./pathfillmodetype) | Specifies the manner in which a path should be filled |
-| class [PathSegment](./pathsegment) | Represents segment of graphics path of GeometryShape |
-| class [PatternFormat](./patternformat) | Represents a pattern to fill a shape. |
 | enum [PatternStyle](./patternstyle) | Represents the pattern style. |
 | enum [PersistenceType](./persistencetype) | Specifies the method used to store properties of the ActiveX control. |
-| class [Picture](./picture) | Represents a picture in a presentation. |
-| class [PictureFillFormat](./picturefillformat) | Represents a picture fill style. |
 | enum [PictureFillMode](./picturefillmode) | Determines how picture will fill area. |
-| class [PictureFrame](./pictureframe) | Represents a frame with a picture inside. |
-| class [PictureFrameLock](./pictureframelock) | Determines which operations are disabled on the parent PictureFrame. |
-| class [Placeholder](./placeholder) | Represents a placeholder on a slide. |
 | enum [PlaceholderSize](./placeholdersize) | Represents the size of a placeholder. |
 | enum [PlaceholderType](./placeholdertype) | Represents the type of a placeholder. |
-| class [Portion](./portion) | Represents a portion of text inside a text paragraph. |
-| class [PortionCollection](./portioncollection) | Represents a collection of portions. |
-| class [PortionFactory](./portionfactory) | Allows to create test portions |
-| class [PortionFormat](./portionformat) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
-| class [PPImage](./ppimage) | Represents an image in a presentation. |
 | enum [PPImageFormat](./ppimageformat) | Image formats. This enum is replacement for `System.Drawing.Imaging.ImageFormat` class. It's needed for COM compatibility. |
-| class [PptCorruptFileException](./pptcorruptfileexception) | Exception which thrown when presentation file is probably corrupt. |
-| class [PptEditException](./ppteditexception) | Represents an exception thrown when edit presentation error is detected. |
-| class [PptException](./pptexception) | Represents a standard internal exception type. |
-| class [PptReadException](./pptreadexception) | Represents an exception which thrown on presentation reading errors. |
-| class [PptUnsupportedFormatException](./pptunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
-| class [PptxCorruptFileException](./pptxcorruptfileexception) |  |
-| class [PptxEditException](./pptxeditexception) | Represents an exception thrown when edit presentation error is detected. |
-| class [PptxException](./pptxexception) | Represents a standard internal exception type. |
-| class [PptxReadException](./pptxreadexception) | Represents an exception which thrown on presentation reading errors. |
-| class [PptxUnsupportedFormatException](./pptxunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
-| class [Presentation](./presentation) | Represents a Microsoft PowerPoint presentation. |
-| class [PresentationFactory](./presentationfactory) | Allows to create presentation via COM interface |
-| class [PresentationHeaderFooterManager](./presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
-| class [PresentationInfo](./presentationinfo) | Information about presentation file |
 | enum [PresentationLockingBehavior](./presentationlockingbehavior) | Represents the behavior regarding treating the [`IPresentation`](aspose.slides/ipresentation) source (file or Stream) while loading and working with an instance of [`IPresentation`](aspose.slides/ipresentation). The source is the parameter passed to the [`IPresentation`](aspose.slides/ipresentation) constructor. In the example below, the source is the "pres.pptx" file: |
-| class [PresentationText](./presentationtext) | Represents the text extracted from the presentation |
 | enum [PresetColor](./presetcolor) | Represents predefined color presets. |
 | enum [PresetShadowType](./presetshadowtype) | Represents a preset for a shadow effect. |
-| class [ProtectionManager](./protectionmanager) | Presentation password protection management. |
-| abstract class [PVIObject](./pviobject) | Encapsulates basic service infrastructure for objects can be a subject of property value inheritance. |
 | enum [RectangleAlignment](./rectanglealignment) | Defines 2-dimension allignment. |
 | enum [ResourceLoadingAction](./resourceloadingaction) | Specifies the mode of external resource loading. |
-| class [Row](./row) | Represents a row in a table. |
-| class [RowCollection](./rowcollection) | Represents table row collection. |
-| class [RowFormat](./rowformat) | Represents format of a table row. |
 | enum [SchemeColor](./schemecolor) | Represents colors in a color scheme. |
-| class [Section](./section) | Represents section of slides. |
-| class [SectionCollection](./sectioncollection) | Represents a collection of sections. |
-| class [SectionSlideCollection](./sectionslidecollection) | Represents a collection of slides in the section. |
-| class [SectionZoomFrame](./sectionzoomframe) | Represents a Section Zoom object in a slide. |
-| class [Shape](./shape) | Represents a shape on a slide. |
-| class [ShapeBevel](./shapebevel) | Contains the properties of shape's main face relief. |
-| class [ShapeCollection](./shapecollection) | Represents a collection of a shapes. |
-| class [ShapeElement](./shapeelement) | Represents a part of shape with same outline and fill properties. |
 | enum [ShapeElementFillSource](./shapeelementfillsource) | Represents how shape element should be filled. |
 | enum [ShapeElementStrokeSource](./shapeelementstrokesource) | Represents how shape element should be drawn. |
-| class [ShapeFrame](./shapeframe) | Represents shape frame's properties. |
 | enum [ShapesAlignmentType](./shapesalignmenttype) | Defines a way to change the placement of selected shapes on the slide. |
-| class [ShapeStyle](./shapestyle) | Represent shape's style reference. |
 | enum [ShapeThumbnailBounds](./shapethumbnailbounds) | Enumeration of types of shape thumbnail bounds. |
 | enum [ShapeType](./shapetype) | Represents preset geometry of geometry shapes. |
-| class [SketchFormat](./sketchformat) | Represents properties for lines sketch format. |
-| class [Slide](./slide) | Represents a slide in a presentation. |
-| class [SlideCollection](./slidecollection) | Represents a collection of a slides. |
-| class [SlideHeaderFooterManager](./slideheaderfootermanager) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | enum [SlideLayoutType](./slidelayouttype) | Represents the slide layout type. |
 | enum [SlideOrientation](./slideorientation) | Represents the slide orientation. |
-| class [SlideSize](./slidesize) | Represents a size of slide. |
 | enum [SlideSizeScaleType](./slidesizescaletype) | Represents the scale type of slide content. |
 | enum [SlideSizeType](./slidesizetype) | Represents the slide size preset. |
 | enum [SourceFormat](./sourceformat) | Represents source file format. |
 | enum [SplitterBarStateType](./splitterbarstatetype) | Specifies the state that the splitter bar should be shown in. The splitter bar separates a primary and secondary region within a viewing area. |
-| class [SpreadsheetOptions](./spreadsheetoptions) | Represents options which can be used to specify additional spreadsheets behavior. |
-| class [StreamWrapper](./streamwrapper) | Aspose.IO.Stream wrapper for COM interface. |
-| class [StreamWrapperFactory](./streamwrapperfactory) | Factory of StreamWrappers. For COM interface. |
-| class [SummaryZoomFrame](./summaryzoomframe) | Represents a Summary Zoom object in a slide. |
-| class [SummaryZoomSection](./summaryzoomsection) | Represents a Summary Zoom Section object in a Summary Zoom frame. |
-| class [SummaryZoomSectionCollection](./summaryzoomsectioncollection) | Represents a collection of Summary Zoom Section objects. |
-| class [SvgImage](./svgimage) | Represents an SVG image. |
 | enum [SystemColor](./systemcolor) | Represents predefined system colors. |
-| class [Tab](./tab) | Represents a tabulation for a text. |
 | enum [TabAlignment](./tabalignment) | Represents the tab alignment. |
-| class [TabCollection](./tabcollection) | Represents a collection of tabs. |
-| class [TabFactory](./tabfactory) | Allows to create ITab instances |
-| class [Table](./table) | Represents a table on a slide. |
-| class [TableFormat](./tableformat) | Represents format of a table. |
 | enum [TableStylePreset](./tablestylepreset) | Represents builtin table styles. |
-| class [TagCollection](./tagcollection) | Represents the collection of tags (user defined pairs of strings) |
 | enum [TextAlignment](./textalignment) | Represents different text alignment styles. |
 | enum [TextAnchorType](./textanchortype) | text box alignment within a text area. |
 | enum [TextAutofitType](./textautofittype) | Represents text autofit mode. |
 | enum [TextCapType](./textcaptype) | Represents the type of text capitalisation. |
 | enum [TextExtractionArrangingMode](./textextractionarrangingmode) | Represents the mode to use during text extraction |
-| class [TextFrame](./textframe) | Represents a TextFrame. |
-| class [TextFrameFormat](./textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
-| class [TextHighlightingOptions](./texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
 | enum [TextShapeType](./textshapetype) | Represents text wrapping shape. |
 | enum [TextStrikethroughType](./textstrikethroughtype) | Represents the type of text strikethrough. |
-| class [TextStyle](./textstyle) | This class contains the text style formatting properties. |
 | enum [TextUnderlineType](./textunderlinetype) | Represents the type of text underline. |
 | enum [TextVerticalOverflowType](./textverticaloverflowtype) | Represents text vertical overflow type. |
 | enum [TextVerticalType](./textverticaltype) | Determines vertical writing mode for a text. |
-| class [ThreeDFormat](./threedformat) | Represents 3-D properties. |
 | enum [TileFlip](./tileflip) | Defines tile flipping mode. |
-| class [Video](./video) | Represents an image embedded into a presentation. |
-| class [VideoCollection](./videocollection) | Represents a collection of Video objects. |
-| class [VideoFrame](./videoframe) | Represents a video clip on a slide. |
 | enum [VideoPlayModePreset](./videoplaymodepreset) | Constants which define how a video is played. |
-| class [ViewProperties](./viewproperties) | Presentation wide view properties. |
 | enum [ViewType](./viewtype) | Presentation view types |
-| class [ZoomFrame](./zoomframe) | Represents a Slide Zoom object in a slide. |
 | enum [ZoomImageType](./zoomimagetype) | Defines whether the Zoom object is using the slide preview or a cover image. |
 | enum [ZoomLayout](./zoomlayout) | Specifies the summary zoom layout. |
-| class [ZoomObject](./zoomobject) | Represents an Zoom object in a slide. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -14,13 +14,13 @@ Specifies a human readable name for the sound of the transition. The [`Sound`](.
 public string SoundName { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [PptxException](../../../aspose.slides/pptxexception) | When [`Sound`](../sound) property is not assigned. |
 
-## Remarks
+### Remarks
 
 This name appears in the PowerPoint user interface when configuring the transition sound manually.
 

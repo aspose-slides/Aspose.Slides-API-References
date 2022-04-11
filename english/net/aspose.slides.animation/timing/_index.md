@@ -16,7 +16,7 @@ public class Timing : ITiming
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Timing](timing)() | The default constructor. |
 | [Accelerate](accelerate) { get; set; } | Describes the percentage of duration accelerate behavior effect. Read/write Single. |

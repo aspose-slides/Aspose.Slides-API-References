@@ -14,7 +14,7 @@ The custom split information for a pie-of-pie or bar-of-pie chart with a custom 
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.PieSplitCustomPoints.
 

@@ -14,7 +14,7 @@ If this digital signature is valid and the document has not been tampered with, 
 public bool IsValid { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

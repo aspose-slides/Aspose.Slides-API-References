@@ -16,7 +16,7 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception)() | Default constructor. |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

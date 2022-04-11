@@ -14,9 +14,9 @@ Determines whether the specified [`SoftEdge`](../../softedge) is equal to the cu
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`SoftEdge`](../../softedge) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`SoftEdge`](../../softedge) to compare. |
 
 ## Return Value
 

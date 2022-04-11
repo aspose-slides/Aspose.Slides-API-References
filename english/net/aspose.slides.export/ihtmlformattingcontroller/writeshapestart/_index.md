@@ -14,10 +14,10 @@ Called before shape's rendering. Called once per each of shape. If this function
 public void WriteShapeStart(IHtmlGenerator generator, IShape shape)
 ```
 
-| parameter | description |
-| --- | --- |
-| generator | Output object. |
-| shape | Shape which is about to render. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| generator | IHtmlGenerator | Output object. |
+| shape | IShape | Shape which is about to render. |
 
 ### See Also
 

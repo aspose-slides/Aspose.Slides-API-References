@@ -16,7 +16,7 @@ public enum EffectFillType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Remove | `0` |  |

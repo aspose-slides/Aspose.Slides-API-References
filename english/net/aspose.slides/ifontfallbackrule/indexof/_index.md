@@ -14,15 +14,15 @@ Returns an index of the specified rule in the collection.
 public int IndexOf(string fontName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontName | Font's name to find. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontName | String | Font's name to find. |
 
 ## Return Value
 
 Index of a font or -1 if font not found in list.
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

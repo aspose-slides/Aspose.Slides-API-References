@@ -16,7 +16,7 @@ public abstract class GeometryShape : Shape, IGeometryShape
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Adjustments](adjustments) { get; } | Returns a collection of shape's adjustment values. Read-only [`IAdjustValueCollection`](../iadjustvaluecollection). |
 | [ShapeStyle](shapestyle) { get; } | Returns shape's style object. Read-only [`IShapeStyle`](../ishapestyle). |

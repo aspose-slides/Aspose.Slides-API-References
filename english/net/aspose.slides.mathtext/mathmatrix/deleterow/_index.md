@@ -14,18 +14,18 @@ Deletes the specified row
 public void DeleteRow(int rowIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| rowIndex | The zero-based index of the row to delete. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rowIndex | Int32 | The zero-based index of the row to delete. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | When you try to delete the last single row in the matrix |
 | ArgumentOutOfRangeException | If rowIndex less than zero or greater or equal to the RowCount |
 
-## Examples
+### Examples
 
 Example:
 

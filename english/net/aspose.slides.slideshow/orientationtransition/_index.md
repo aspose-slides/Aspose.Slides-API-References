@@ -16,7 +16,7 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`Orientation`](../../aspose.slides/orientation). |
 

@@ -17,13 +17,13 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIAccessiblePVIObject](asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Threshold](threshold) { get; set; } | Returns effect threshold. Read/write Single. |
 
-## Remarks
+### Remarks
 
 Use ImageTransformOperationFactory to create instaces in COM.
 

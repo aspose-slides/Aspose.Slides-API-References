@@ -16,7 +16,7 @@ public enum ColorType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Color is not defined at all. |
 | RGB | `0` | Standard 24bit RGB color. |

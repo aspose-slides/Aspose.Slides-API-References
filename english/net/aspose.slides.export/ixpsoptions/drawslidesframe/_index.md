@@ -14,7 +14,7 @@ True to draw black frame around each slide. Read/write Boolean.
 public bool DrawSlidesFrame { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is false.
 

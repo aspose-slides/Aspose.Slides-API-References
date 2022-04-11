@@ -14,7 +14,7 @@ Returns or sets the shape to attach the beginning of the connector to. Read/writ
 public IShape StartShapeConnectedTo { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

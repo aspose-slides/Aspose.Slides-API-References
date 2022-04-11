@@ -14,9 +14,9 @@ Removes item from collection.
 public bool Remove(IChartDataPoint dataPoint)
 ```
 
-| parameter | description |
-| --- | --- |
-| dataPoint | Data point remove to. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataPoint | IChartDataPoint | Data point remove to. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Removes item from collection by it index in parent series points collection.
 public void Remove(int dataPointIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| dataPointIndex | Index of data point in parent series points collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataPointIndex | Int32 | Index of data point in parent series points collection. |
 
 ### See Also
 

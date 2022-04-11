@@ -16,7 +16,7 @@ public interface IRotation3D
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DepthPercents](depthpercents) { get; set; } | Returns or sets the depth of a 3D chart as a percentage of a chart width (between 20 and 2000 percent). Read/write UInt16. |
 | [HeightPercents](heightpercents) { get; set; } | Specifies the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). Read/write UInt16. |

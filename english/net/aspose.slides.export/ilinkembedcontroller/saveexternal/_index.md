@@ -14,10 +14,10 @@ Saves external object.
 public void SaveExternal(int id, byte[] entityData)
 ```
 
-| parameter | description |
-| --- | --- |
-| id | Object id. This id is saving operation-wide unique. |
-| entityData | Object binary data. This parameter cannot be null. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | Int32 | Object id. This id is saving operation-wide unique. |
+| entityData | Byte[] | Object binary data. This parameter cannot be null. |
 
 ### See Also
 

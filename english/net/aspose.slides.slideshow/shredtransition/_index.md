@@ -16,7 +16,7 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Pattern](pattern) { get; set; } | Specifies the shape of the visuals used during the transition. Read/write [`TransitionShredPattern`](../transitionshredpattern). |

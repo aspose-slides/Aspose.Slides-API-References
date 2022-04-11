@@ -16,7 +16,7 @@ public enum HyperlinkActionType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Unknown | `-1` | Unrecognized action type. |
 | NoAction | `0` | No action. |

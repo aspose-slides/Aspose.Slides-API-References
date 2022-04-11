@@ -16,7 +16,7 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Returns IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
 | [FillType](filltype) { get; } | Returns the fill type. Read-only [`FillType`](../filltype). |
@@ -25,7 +25,7 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | [RotateWithShape](rotatewithshape) { get; } | Determines whether the fill should be rotated with a shape. Read-only Boolean. |
 | [SolidFillColor](solidfillcolor) { get; } | Returns the color of a solid fill. Read-only Color. |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 

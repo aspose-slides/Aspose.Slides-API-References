@@ -16,7 +16,7 @@ public class Connector : GeometryShape, IConnector
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ConnectorLock](connectorlock) { get; } | Returns connector's locks. Read-only [`IConnectorLock`](../iconnectorlock). |
 | [EndShapeConnectedTo](endshapeconnectedto) { get; set; } | Returns or sets the shape to attach the end of the connector to. Read/write [`IShape`](../ishape). |

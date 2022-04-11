@@ -16,7 +16,7 @@ public interface ISummaryZoomFrame : IGraphicalObject
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Layout](layout) { get; } | Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout. |
 | [SummaryZoomCollection](summaryzoomcollection) { get; } | Gets [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) for the Summary Zoom Frame object. |

@@ -14,11 +14,11 @@ Adds the template to the template collection.
 public void AddTemplate(string key, string template, Type modelType)
 ```
 
-| parameter | description |
-| --- | --- |
-| key | Key for the template in the template collection. |
-| template | Template content. |
-| modelType | Type of a model object for the template. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | String | Key for the template in the template collection. |
+| template | String | Template content. |
+| modelType | Type | Type of a model object for the template. |
 
 ### See Also
 

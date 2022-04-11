@@ -14,9 +14,9 @@ Determines whether the specified [`AlphaCeiling`](../../alphaceiling) is equal t
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`AlphaCeiling`](../../alphaceiling) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`AlphaCeiling`](../../alphaceiling) to compare. |
 
 ## Return Value
 

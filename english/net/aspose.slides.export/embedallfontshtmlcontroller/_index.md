@@ -16,7 +16,7 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EmbedAllFontsHtmlController](embedallfontshtmlcontroller)() | Creates new instance |
 | [EmbedAllFontsHtmlController](embedallfontshtmlcontroller)(…) | Creates new instance |

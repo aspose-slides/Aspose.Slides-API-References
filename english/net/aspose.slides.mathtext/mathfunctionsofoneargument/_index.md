@@ -16,7 +16,7 @@ public enum MathFunctionsOfOneArgument
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Sin | `0` | Sine |
 | Cos | `1` | Cosine |

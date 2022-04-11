@@ -16,7 +16,7 @@ public class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameForma
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TextFrameFormat](textframeformat)() | Initializes a new instance of [`TextFrameFormat`](../textframeformat) class. |
 | [AnchoringType](anchoringtype) { get; set; } | Returns or sets vertical anchor text in a TextFrameEx. Read/write [`TextAnchorType`](../textanchortype). |

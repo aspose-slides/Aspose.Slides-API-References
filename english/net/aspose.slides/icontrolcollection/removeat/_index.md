@@ -14,9 +14,9 @@ Removes an ActiveX control stored at specified position from the collection.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a control to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of a control to remove. |
 
 ### See Also
 

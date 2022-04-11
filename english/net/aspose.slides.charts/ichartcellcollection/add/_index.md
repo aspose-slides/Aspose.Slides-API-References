@@ -14,9 +14,9 @@ Add new cell to the collection.
 public void Add(IChartDataCell chartDataCell)
 ```
 
-| parameter | description |
-| --- | --- |
-| chartDataCell | New cell to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chartDataCell | IChartDataCell | New cell to add. |
 
 ### See Also
 
@@ -35,17 +35,17 @@ Creates [`IChartDataCell`](../../ichartdatacell) from specified value and adds i
 public void Add(object value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Object | The value. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | if limit exceeded |
 
-## Remarks
+### Remarks
 
 This method adds worksheet with name AUTO_DATA and adds all values there. If you use [`IChartDataWorkbook`](../../ichartdataworkbook) to add or edit Cell values, be sure that you do not use this worksheet Maximum number of values added using this method must not exceed 16711680
 

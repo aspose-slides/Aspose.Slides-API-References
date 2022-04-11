@@ -16,14 +16,14 @@ public interface IMathFraction : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [Denominator](denominator) { get; } | Denominator |
 | [FractionType](fractiontype) { get; set; } | Fraction type Default: Bar |
 | [Numerator](numerator) { get; } | Numerator |
 
-## Examples
+### Examples
 
 Example:
 

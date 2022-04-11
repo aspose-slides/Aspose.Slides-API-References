@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides.Effects Namespace
+title: Aspose.Slides.Effects
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with various effects in Microsoft PowerPoint presentations.
 type: docs
@@ -8,9 +8,9 @@ url: /net/aspose.slides.effects/
 ---
 Contains classes for work with various effects in Microsoft PowerPoint presentations.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [AlphaBiLevel](./alphabilevel) | Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
 | class [AlphaBiLevelEffectiveData](./alphabileveleffectivedata) | Immutable object which represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
@@ -46,6 +46,28 @@ Contains classes for work with various effects in Microsoft PowerPoint presentat
 | class [GrayScaleEffectiveData](./grayscaleeffectivedata) | Immutable object which representsepresents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected. |
 | class [HSL](./hsl) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
 | class [HSLEffectiveData](./hsleffectivedata) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
+| class [ImageTransformOCollectionEffectiveData](./imagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
+| abstract class [ImageTransformOperation](./imagetransformoperation) | Represents abstract image transformation effect. |
+| class [ImageTransformOperationCollection](./imagetransformoperationcollection) | Represents a collection of effects apllied to an image. |
+| class [ImageTransformOperationFactory](./imagetransformoperationfactory) | Allows to create image transform operations |
+| class [InnerShadow](./innershadow) | Represents a Inner Shadow effect. |
+| class [InnerShadowEffectiveData](./innershadoweffectivedata) | Immutable object which represents a inner shadow effect. |
+| class [Luminance](./luminance) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
+| class [LuminanceEffectiveData](./luminanceeffectivedata) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
+| class [OuterShadow](./outershadow) | Represents an Outer Shadow effect. |
+| class [OuterShadowEffectiveData](./outershadoweffectivedata) | Immutable object which represents a outer shadow effect. |
+| class [PresetShadow](./presetshadow) | Represents a Preset Shadow effect. |
+| class [PresetShadowEffectiveData](./presetshadoweffectivedata) | Immutable object which represents a preset shadow effect. |
+| class [Reflection](./reflection) | Represents a Reflection effect. |
+| class [ReflectionEffectiveData](./reflectioneffectivedata) | Immutable object which represents a reflection effect. |
+| class [SoftEdge](./softedge) | Represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected. |
+| class [SoftEdgeEffectiveData](./softedgeeffectivedata) | Immutable object which represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected. |
+| class [Tint](./tint) | Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
+| class [TintEffectiveData](./tinteffectivedata) | Immutable object which represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
 | interface [IAlphaBiLevel](./ialphabilevel) | Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
 | interface [IAlphaBiLevelEffectiveData](./ialphabileveleffectivedata) | Immutable object which represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
 | interface [IAlphaCeiling](./ialphaceiling) | Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque. |
@@ -88,12 +110,6 @@ Contains classes for work with various effects in Microsoft PowerPoint presentat
 | interface [IInnerShadowEffectiveData](./iinnershadoweffectivedata) | Immutable object which represents a inner shadow effect. |
 | interface [ILuminance](./iluminance) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
 | interface [ILuminanceEffectiveData](./iluminanceeffectivedata) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
-| class [ImageTransformOCollectionEffectiveData](./imagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
-| abstract class [ImageTransformOperation](./imagetransformoperation) | Represents abstract image transformation effect. |
-| class [ImageTransformOperationCollection](./imagetransformoperationcollection) | Represents a collection of effects apllied to an image. |
-| class [ImageTransformOperationFactory](./imagetransformoperationfactory) | Allows to create image transform operations |
-| class [InnerShadow](./innershadow) | Represents a Inner Shadow effect. |
-| class [InnerShadowEffectiveData](./innershadoweffectivedata) | Immutable object which represents a inner shadow effect. |
 | interface [IOuterShadow](./ioutershadow) | Represents an Outer Shadow effect. |
 | interface [IOuterShadowEffectiveData](./ioutershadoweffectivedata) | Immutable object which represents an Outer Shadow effect. |
 | interface [IPresetShadow](./ipresetshadow) | Represents a Preset Shadow effect. |
@@ -104,17 +120,5 @@ Contains classes for work with various effects in Microsoft PowerPoint presentat
 | interface [ISoftEdgeEffectiveData](./isoftedgeeffectivedata) | Immutable object which represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected. |
 | interface [ITint](./itint) | Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
 | interface [ITintEffectiveData](./itinteffectivedata) | Immutable object which represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
-| class [Luminance](./luminance) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
-| class [LuminanceEffectiveData](./luminanceeffectivedata) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
-| class [OuterShadow](./outershadow) | Represents an Outer Shadow effect. |
-| class [OuterShadowEffectiveData](./outershadoweffectivedata) | Immutable object which represents a outer shadow effect. |
-| class [PresetShadow](./presetshadow) | Represents a Preset Shadow effect. |
-| class [PresetShadowEffectiveData](./presetshadoweffectivedata) | Immutable object which represents a preset shadow effect. |
-| class [Reflection](./reflection) | Represents a Reflection effect. |
-| class [ReflectionEffectiveData](./reflectioneffectivedata) | Immutable object which represents a reflection effect. |
-| class [SoftEdge](./softedge) | Represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected. |
-| class [SoftEdgeEffectiveData](./softedgeeffectivedata) | Immutable object which represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected. |
-| class [Tint](./tint) | Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
-| class [TintEffectiveData](./tinteffectivedata) | Immutable object which represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

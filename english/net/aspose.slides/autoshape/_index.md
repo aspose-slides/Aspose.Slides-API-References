@@ -16,7 +16,7 @@ public class AutoShape : GeometryShape, IAutoShape
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AutoShapeLock](autoshapelock) { get; } | Returns autoshape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |
 | [ShapeLock](shapelock) { get; } | Returns shape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |

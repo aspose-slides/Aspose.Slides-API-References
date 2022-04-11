@@ -16,7 +16,7 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MorphType](morphtype) { get; set; } | Type of morph transition. Read/write [`TransitionMorphType`](../transitionmorphtype). |
 

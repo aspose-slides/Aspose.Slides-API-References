@@ -14,9 +14,9 @@ Adds the new reference to references collection
 public void Add(IVbaReference value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | VBA project reference [`IVbaReference`](../../ivbareference) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IVbaReference | VBA project reference [`IVbaReference`](../../ivbareference) |
 
 ### See Also
 

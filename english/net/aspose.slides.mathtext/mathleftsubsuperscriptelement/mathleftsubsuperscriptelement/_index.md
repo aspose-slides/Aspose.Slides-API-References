@@ -15,7 +15,7 @@ public MathLeftSubSuperscriptElement(IMathElement baseArg, IMathElement subScrip
     IMathElement superScript)
 ```
 
-## Examples
+### Examples
 
 Example:
 

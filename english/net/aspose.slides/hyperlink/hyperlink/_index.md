@@ -14,9 +14,9 @@ Creates an instance of a hyperlink which points to specific slide. Note: created
 public Hyperlink(ISlide slide)
 ```
 
-| parameter | description |
-| --- | --- |
-| slide | Target slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| slide | ISlide | Target slide. |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Creates an instance of a hyperlink.
 public Hyperlink(string url)
 ```
 
-| parameter | description |
-| --- | --- |
-| url | Hyperlink URL. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| url | String | Hyperlink URL. |
 
 ### See Also
 
@@ -56,14 +56,14 @@ public Hyperlink(Hyperlink source, string targetFrame, string tooltip, bool hist
     bool stopSoundsOnClick, bool highlightClick)
 ```
 
-| parameter | description |
-| --- | --- |
-| source | Source hyperlink |
-| targetFrame | Target frame |
-| tooltip | Tooltip text |
-| history |  |
-| stopSoundsOnClick |  |
-| highlightClick |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | Hyperlink | Source hyperlink |
+| targetFrame | String | Target frame |
+| tooltip | String | Tooltip text |
+| history | Boolean |  |
+| stopSoundsOnClick | Boolean |  |
+| highlightClick | Boolean |  |
 
 ### See Also
 

@@ -16,13 +16,13 @@ public class ParagraphFactory : IParagraphFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ParagraphFactory](paragraphfactory)() | The default constructor. |
 | [CreateParagraph](createparagraph)() | Creates a new empty paragraph. |
 | [CreateParagraph](createparagraph)(…) | Creates a new paragraph with specified paragraph data using. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

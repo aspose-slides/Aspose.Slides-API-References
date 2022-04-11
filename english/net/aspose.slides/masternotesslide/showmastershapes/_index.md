@@ -14,7 +14,7 @@ Specifies if shapes on the master slide should be shown on slides or not. For ma
 public override bool ShowMasterShapes { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

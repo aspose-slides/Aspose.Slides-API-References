@@ -16,7 +16,7 @@ public interface IXamlOutputSaver
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Save](save)(…) | Saves a bytes array to a destination location. |
 

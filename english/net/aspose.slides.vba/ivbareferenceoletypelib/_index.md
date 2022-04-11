@@ -16,7 +16,7 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIVbaReference](asivbareference) { get; } | Returns IVbaReference interface. Read-only [`IVbaReference`](../ivbareference). |
 | [Libid](libid) { get; set; } | Represents the identifier of an Automation type library. Read/write String. |

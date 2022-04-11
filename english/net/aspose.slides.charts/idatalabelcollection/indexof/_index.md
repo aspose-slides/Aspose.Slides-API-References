@@ -14,9 +14,9 @@ Returns an index of the specified DataLabel in the collection.
 public int IndexOf(IDataLabel value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | DataLabel to find. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IDataLabel | DataLabel to find. |
 
 ## Return Value
 

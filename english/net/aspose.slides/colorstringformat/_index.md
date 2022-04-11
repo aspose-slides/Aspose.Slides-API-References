@@ -16,7 +16,7 @@ public enum ColorStringFormat
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Vml | `0` | VML color string format. |
 

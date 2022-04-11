@@ -30,9 +30,9 @@ Creates new instance.
 public EmbeddedWoffFontsHtmlController(IHtmlFormattingController controller)
 ```
 
-| parameter | description |
-| --- | --- |
-| controller | HTML formatting controller. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| controller | IHtmlFormattingController | HTML formatting controller. |
 
 ### See Also
 

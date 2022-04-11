@@ -14,9 +14,9 @@ Removes an ActiveX control from the collection.
 public void Remove(IControl item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | A control to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IControl | A control to remove. |
 
 ### See Also
 

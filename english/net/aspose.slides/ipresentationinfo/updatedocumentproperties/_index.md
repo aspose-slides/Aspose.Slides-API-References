@@ -14,11 +14,11 @@ Updates properties of binded presentation.
 public void UpdateDocumentProperties(IDocumentProperties documentProperties)
 ```
 
-| parameter | description |
-| --- | --- |
-| documentProperties | Document properties [`IDocumentProperties`](../../idocumentproperties) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentProperties | IDocumentProperties | Document properties [`IDocumentProperties`](../../idocumentproperties) |
 
-## Examples
+### Examples
 
 This sample shows how to call the `UpdateDocumentProperties` method to update the document properties returned by call of the [`ReadDocumentProperties`](../readdocumentproperties) method.
 

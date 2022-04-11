@@ -16,7 +16,7 @@ public enum PathCommandType : byte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Close | `0` | Closes geometry path |
 | MoveTo | `1` | Sets next point position of the geometry path |

@@ -16,7 +16,7 @@ public class Hyperlink : PVIObject, IHyperlink
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Hyperlink](hyperlink)(…) | Creates an instance of a hyperlink. (3 constructors) |
 | static [EndShow](endshow) { get; } | Returns a hyperlink which ends the show. Read-only [`Hyperlink`](../hyperlink). |

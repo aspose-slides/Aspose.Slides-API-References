@@ -14,9 +14,9 @@ Determines the index of a specific item by property value in the IList.
 public int IndexOf(string propertyValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| propertyValue | value of the property |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | value of the property |
 
 ## Return Value
 

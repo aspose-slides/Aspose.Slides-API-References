@@ -16,7 +16,7 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsCells](ascells) { get; set; } | Returns or sets the collection of chart cells. Read/write [`IChartCellCollection`](../ichartcellcollection). |
 | [AsIBaseChartValue](asibasechartvalue) { get; } | Allows to get base IBaseChartValue interface. Read-only [`IBaseChartValue`](../ibasechartvalue). |

@@ -14,7 +14,7 @@ Returns or sets transitions animation option. Read/write Boolean.
 public bool AnimateTransitions { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

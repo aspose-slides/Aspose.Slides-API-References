@@ -14,9 +14,9 @@ Returns the color scheme.
 public IColorSchemeEffectiveData GetColorScheme(Color styleColor)
 ```
 
-| parameter | description |
-| --- | --- |
-| styleColor | Color Color |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| styleColor | Color | Color Color |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public sealed class Row : CellCollection, IRow
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Height](height) { get; } | Returns the height of a row. Read-only Double. |
 | [MinimalHeight](minimalheight) { get; set; } | Returns or sets the minimal possible height of a row. Read/write Double. |

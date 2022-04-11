@@ -16,7 +16,7 @@ public enum MathVerticalAlignment
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | Value is not defined |
 | Top | `1` | Top |

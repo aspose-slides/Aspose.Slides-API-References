@@ -16,7 +16,7 @@ public class Tint : ImageTransformOperation, ITint
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`Tint`](../tint) is equal to the current [`Tint`](../tint). |
 | [GetEffective](geteffective)() | Gets effective Tint effect data with the inheritance applied. |

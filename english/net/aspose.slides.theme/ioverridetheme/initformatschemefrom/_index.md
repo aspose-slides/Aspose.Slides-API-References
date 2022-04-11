@@ -14,11 +14,11 @@ Init FormatScheme with new object for overriding FormatScheme of InheritedTheme.
 public void InitFormatSchemeFrom(IFormatScheme formatScheme)
 ```
 
-| parameter | description |
-| --- | --- |
-| formatScheme | Data to initialize from. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formatScheme | IFormatScheme | Data to initialize from. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

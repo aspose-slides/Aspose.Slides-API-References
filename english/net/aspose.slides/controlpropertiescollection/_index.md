@@ -16,7 +16,7 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns a number of properties in the collection. Read-only Int32. |
 | [Item](item) { get; set; } | Returns or sets property. |

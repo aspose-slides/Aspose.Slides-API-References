@@ -16,7 +16,7 @@ public interface IBulletFormatEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ActualBulletValue](actualbulletvalue) { get; } | Returns actual bullet value for parent paragraph. Read-only String. |
 | [Char](char) { get; } | Returns the bullet char of a paragraph. Read-only Char. |
@@ -29,7 +29,7 @@ public interface IBulletFormatEffectiveData
 | [NumberedBulletStyle](numberedbulletstyle) { get; } | Returns the style of a numbered bullet. Read-only [`NumberedBulletStyle`](../numberedbulletstyle). |
 | [Type](type) { get; } | Returns the bullet type of a paragraph. Read-only [`BulletType`](../bullettype). |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 

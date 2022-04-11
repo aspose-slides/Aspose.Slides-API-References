@@ -16,7 +16,7 @@ public enum DisplayUnitType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | Values will dislayed as is. |
 | Hundreds | `1` | Specifies the values on the chart shall be divided by 100. |

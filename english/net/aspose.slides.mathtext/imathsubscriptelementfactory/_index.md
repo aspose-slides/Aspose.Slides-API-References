@@ -16,11 +16,11 @@ public interface IMathSubscriptElementFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathSubscriptElement](createmathsubscriptelement)(…) | Creates IMathSubscriptElement |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

@@ -16,7 +16,7 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IMasterSlide`](../imasterslide). |
 | [AddClone](addclone)(…) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |

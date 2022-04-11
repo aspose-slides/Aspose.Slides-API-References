@@ -14,10 +14,10 @@ Called to write html document footer. Called once per presentation conversion.
 public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
 ```
 
-| parameter | description |
-| --- | --- |
-| generator | Output object. |
-| presentation | Presentation which being currently rendered. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| generator | IHtmlGenerator | Output object. |
+| presentation | IPresentation | Presentation which being currently rendered. |
 
 ### See Also
 

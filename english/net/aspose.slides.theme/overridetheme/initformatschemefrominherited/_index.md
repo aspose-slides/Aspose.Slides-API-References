@@ -14,7 +14,7 @@ Init FormatScheme with new object for overriding FormatScheme of InheritedTheme.
 public void InitFormatSchemeFromInherited()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

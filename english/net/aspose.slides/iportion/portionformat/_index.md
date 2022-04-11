@@ -14,7 +14,7 @@ Returns formatting object which contains explicitly set formatting properties of
 public IPortionFormat PortionFormat { get; }
 ```
 
-## Remarks
+### Remarks
 
 The formatting object contains the formatting parameters defined for the current portion only, inherited data is not applied.
 

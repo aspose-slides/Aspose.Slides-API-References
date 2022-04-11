@@ -14,15 +14,15 @@ Adds a copy of a specified layout slide to the end of the collection.
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceLayout | Slide to clone. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceLayout | ILayoutSlide | Slide to clone. |
 
 ## Return Value
 
 Added slide.
 
-## Remarks
+### Remarks
 
 1) New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method [`AddClone`](../../igloballayoutslidecollection/addclone) accessed with [`LayoutSlides`](../../ipresentation/layoutslides) property.
 

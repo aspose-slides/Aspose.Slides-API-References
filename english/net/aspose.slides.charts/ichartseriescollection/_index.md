@@ -16,7 +16,7 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [Add](add)(…) | Creates new chart series and adds it to the collection. (4 methods) |

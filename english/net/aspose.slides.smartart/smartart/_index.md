@@ -16,7 +16,7 @@ public class SmartArt : GraphicalObject, ISmartArt
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AllNodes](allnodes) { get; } | Returns collections of all nodes in the SmartArt object. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [ColorStyle](colorstyle) { get; set; } | Returns or sets color style of SmartArt object. Read/write [`SmartArtColorType`](../smartartcolortype). |

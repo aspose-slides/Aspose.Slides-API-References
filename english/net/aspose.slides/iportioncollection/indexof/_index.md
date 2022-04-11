@@ -14,9 +14,9 @@ Determines the index of a specific portion in collection.
 public int IndexOf(IPortion item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The portion to locate in the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IPortion | The portion to locate in the collection. |
 
 ## Return Value
 

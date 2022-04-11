@@ -16,7 +16,7 @@ public enum LoadFormat
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Auto | `0` | Instructs Aspose.Slides to recognize the format automatically. |
 | Ppt | `1` | Microsoft PowerPoint 97-2003 Presentation. |

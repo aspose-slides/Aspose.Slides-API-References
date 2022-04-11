@@ -14,7 +14,7 @@ Initializes a new instance of the MathLimit class with lower limit
 public MathLimit(IMathElement baseArg, IMathElement limit)
 ```
 
-## Examples
+### Examples
 
 Example:
 
@@ -40,7 +40,7 @@ Initializes a new instance of the MathLimit class.
 public MathLimit(IMathElement baseArg, IMathElement limit, bool upperLimit)
 ```
 
-## Examples
+### Examples
 
 Example:
 

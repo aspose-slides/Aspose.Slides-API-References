@@ -16,7 +16,7 @@ public class PointCollection : IPointCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PointCollection](pointcollection)() | The default constructor. |
 | [Count](count) { get; } | Returns the number of points in the collection. Read-only Int32. |

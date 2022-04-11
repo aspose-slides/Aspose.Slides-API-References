@@ -16,7 +16,7 @@ public interface ISequence : IEnumerable<IEffect>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Allows to get base IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Returns the number of effects in a sequense. Read-only Int32. |

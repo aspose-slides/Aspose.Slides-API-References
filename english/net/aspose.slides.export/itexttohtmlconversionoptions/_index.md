@@ -16,7 +16,7 @@ public interface ITextToHtmlConversionOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AddClipboardFragmentHeader](addclipboardfragmentheader) { get; set; } | Returns or sets value, indicating if Clipboard headers should be added. Read/write Boolean. |
 | [EncodingName](encodingname) { get; set; } | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |

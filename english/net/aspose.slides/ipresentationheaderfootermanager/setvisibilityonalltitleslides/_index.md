@@ -14,9 +14,9 @@ Changes the footer, date-time and page number placeholders visibility for all ti
 public void SetVisibilityOnAllTitleSlides(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a placeholders visible, otherwise - hides them. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a placeholders visible, otherwise - hides them. |
 
 ### See Also
 

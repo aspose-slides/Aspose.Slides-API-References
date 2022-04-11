@@ -16,7 +16,7 @@ public interface IDataTable : IFormattedTextContainer
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Format](format) { get; } | Returns the line, fill, and effect styles of an object. Read-only [`IFormat`](../iformat). |

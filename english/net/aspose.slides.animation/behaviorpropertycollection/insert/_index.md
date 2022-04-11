@@ -14,10 +14,10 @@ Inserts a new property to the collection at the specified index.
 public void Insert(int index, IBehaviorProperty item)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index where a new property should be inserted. |
-| item | Property to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index where a new property should be inserted. |
+| item | IBehaviorProperty | Property to add. |
 
 ### See Also
 
@@ -36,10 +36,10 @@ Inserts a new property (with the specified property value) to the collection at 
 public void Insert(int index, string propertyValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index where a new property should be inserted. |
-| propertyValue | Value of the property to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index where a new property should be inserted. |
+| propertyValue | String | Value of the property to add. |
 
 ### See Also
 

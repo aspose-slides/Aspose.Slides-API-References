@@ -14,11 +14,11 @@ Removes the first occurrence of the specified comment in a collection.
 public void Remove(IComment comment)
 ```
 
-| parameter | description |
-| --- | --- |
-| comment | The comment to remove from a collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| comment | IComment | The comment to remove from a collection. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

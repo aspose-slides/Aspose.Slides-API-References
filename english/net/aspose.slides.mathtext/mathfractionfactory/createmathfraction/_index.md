@@ -14,10 +14,10 @@ Creates a math fraction
 public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator)
 ```
 
-| parameter | description |
-| --- | --- |
-| numerator | Numerator |
-| denominator | Denominator |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| numerator | IMathElement | Numerator |
+| denominator | IMathElement | Denominator |
 
 ### See Also
 
@@ -38,11 +38,11 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
     MathFractionTypes fractionType)
 ```
 
-| parameter | description |
-| --- | --- |
-| numerator | Numerator |
-| denominator | Denominator |
-| fractionType | Fraction type |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| numerator | IMathElement | Numerator |
+| denominator | IMathElement | Denominator |
+| fractionType | MathFractionTypes | Fraction type |
 
 ### See Also
 

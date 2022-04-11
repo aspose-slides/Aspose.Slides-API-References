@@ -16,7 +16,7 @@ public class EffectFormat : PVIObject, IEffectFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BlurEffect](blureffect) { get; set; } | Blur effect. Read/write [`IBlur`](../../aspose.slides.effects/iblur). |
 | [FillOverlayEffect](filloverlayeffect) { get; set; } | Fill overlay effect. Read/write [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |

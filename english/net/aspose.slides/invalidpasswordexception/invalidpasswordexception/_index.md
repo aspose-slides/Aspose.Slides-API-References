@@ -30,9 +30,9 @@ Constructor allowing a message to be added to this exception.
 public InvalidPasswordException(string message)
 ```
 
-| parameter | description |
-| --- | --- |
-| message | message |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | String | message |
 
 ### See Also
 
@@ -50,10 +50,10 @@ Constructor for an exception containing a message and an embedded exception.
 public InvalidPasswordException(string message, Exception exception)
 ```
 
-| parameter | description |
-| --- | --- |
-| message | message |
-| exception | original exception |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | Exception | original exception |
 
 ### See Also
 

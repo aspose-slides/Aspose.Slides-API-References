@@ -16,7 +16,7 @@ public class BehaviorProperty : IBehaviorProperty
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [ExtrusionAutoRotationCenter](extrusionautorotationcenter) { get; } | Represents 'extrusion.autorotationcenter' property |
 | static [ExtrusionBackDepth](extrusionbackdepth) { get; } | Represents 'extrusion.backdepth' property |
@@ -144,12 +144,6 @@ public class BehaviorProperty : IBehaviorProperty
 | [Value](value) { get; } | Value of the property |
 | override [Equals](equals)(…) | Checks if this object is equal to another. |
 | override [GetHashCode](gethashcode)() | Calculates and returns hach code based on the [`Value`](./value) property |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [Equals](equals)(…) | Checks if this Property is equal to another. |
 
 ### See Also
 

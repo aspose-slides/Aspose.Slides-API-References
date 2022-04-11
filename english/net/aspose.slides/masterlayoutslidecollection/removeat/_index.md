@@ -14,17 +14,17 @@ Removes the element at the specified index of the collection.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index of the element to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index of the element to remove. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | Thrown if layout is used in presentation (its HasDependingSlides property is true). |
 
-## Remarks
+### Remarks
 
 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also [`Remove`](../../ilayoutslide/remove) method to simplify code.
 

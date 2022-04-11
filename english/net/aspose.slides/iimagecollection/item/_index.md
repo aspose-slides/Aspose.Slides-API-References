@@ -14,9 +14,9 @@ Returns image by its index.
 public IPPImage this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | Index. |
 
 ## Return Value
 

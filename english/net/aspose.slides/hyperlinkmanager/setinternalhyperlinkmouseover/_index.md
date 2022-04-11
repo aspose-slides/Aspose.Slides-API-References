@@ -14,9 +14,9 @@ Sets internal hyperlink mouse over.
 public IHyperlink SetInternalHyperlinkMouseOver(ISlide targetSlide)
 ```
 
-| parameter | description |
-| --- | --- |
-| targetSlide | Target slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| targetSlide | ISlide | Target slide. |
 
 ## Return Value
 

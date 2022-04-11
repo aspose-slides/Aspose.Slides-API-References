@@ -14,12 +14,12 @@ Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 public static void ToPdf(Presentation pres, string outPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Input presentation |
-| outPath | Output path |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Input presentation |
+| outPath | String | Output path |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("input.pptx"))    
@@ -45,12 +45,12 @@ Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 public static void ToPdf(string presPath, string outPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| presPath | Path of the input presentation |
-| outPath | Output path |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| outPath | String | Output path |
 
-## Examples
+### Examples
 
 ```csharp
 Convert.ToPdf("pres.pptx", "pres.pdf");
@@ -72,13 +72,13 @@ Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 public static void ToPdf(Presentation pres, string outPath, IPdfOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Input presentation |
-| outPath | Output path |
-| options | Output PDF options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Input presentation |
+| outPath | String | Output path |
+| options | IPdfOptions | Output PDF options |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("input.pptx"))    
@@ -105,13 +105,13 @@ Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 public static void ToPdf(string presPath, string outPath, IPdfOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| presPath | Path of the input presentation |
-| outPath | Output path |
-| options | Output PDF options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| outPath | String | Output path |
+| options | IPdfOptions | Output PDF options |
 
-## Examples
+### Examples
 
 ```csharp
 Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfCompliance.PdfUa });

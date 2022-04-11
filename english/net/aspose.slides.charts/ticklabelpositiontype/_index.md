@@ -16,7 +16,7 @@ public enum TickLabelPositionType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | High | `0` | Specifies the axis labels shall be at the high end of the perpendicular axis. |
 | Low | `1` | Specifies the axis labels shall be at the low end of the perpendicular axis. |

@@ -16,7 +16,7 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 | [Pattern](pattern) { get; set; } | Specifies the shape of the visuals used during the transition. Read/write [`TransitionPattern`](../transitionpattern). |

@@ -18,7 +18,7 @@ public IGeometryPath[] GetGeometryPaths()
 
 Array of [`IGeometryPath`](../../igeometrypath)
 
-## Examples
+### Examples
 
 Example:
 

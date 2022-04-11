@@ -14,15 +14,15 @@ Creates a new master slide based on the current one, applying an external theme 
 public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
 ```
 
-| parameter | description |
-| --- | --- |
-| fname | Path to the external theme file (.thmx). |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the external theme file (.thmx). |
 
 ## Return Value
 
 New themed MasterSlide.
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

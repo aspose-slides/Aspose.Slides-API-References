@@ -16,7 +16,7 @@ public interface IGeometryShape : IShape
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Adjustments](adjustments) { get; } | Returns a collection of shape's adjustment values. Read-only [`IAdjustValueCollection`](../iadjustvaluecollection). |
 | [AsIShape](asishape) { get; } | Allows to get base IShape interface. Read-only [`IShape`](../ishape). |

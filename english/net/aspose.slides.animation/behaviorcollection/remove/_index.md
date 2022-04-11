@@ -14,9 +14,9 @@ Removes specified behavior from a collection.
 public bool Remove(IBehavior item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | Behavior to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IBehavior | Behavior to remove. |
 
 ### See Also
 

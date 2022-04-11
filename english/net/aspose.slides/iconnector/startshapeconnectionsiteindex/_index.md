@@ -14,7 +14,7 @@ Returns or sets the index of connection site for start shape. Read/write UInt32.
 public uint StartShapeConnectionSiteIndex { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

@@ -14,9 +14,9 @@ Determines whether the specified [`AlphaFloor`](../../alphafloor) is equal to th
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`AlphaFloor`](../../alphafloor) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`AlphaFloor`](../../alphafloor) to compare. |
 
 ## Return Value
 

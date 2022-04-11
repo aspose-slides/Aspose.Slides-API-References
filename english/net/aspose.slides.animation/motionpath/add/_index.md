@@ -15,12 +15,12 @@ public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPo
     bool bRelativeCoord)
 ```
 
-| parameter | description |
-| --- | --- |
-| type |  |
-| pts |  |
-| ptsType |  |
-| bRelativeCoord |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | MotionCommandPathType |  |
+| pts | PointF[] |  |
+| ptsType | MotionPathPointsType |  |
+| bRelativeCoord | Boolean |  |
 
 ### See Also
 

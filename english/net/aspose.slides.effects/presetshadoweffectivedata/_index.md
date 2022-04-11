@@ -17,7 +17,7 @@ public class PresetShadowEffectiveData :
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; } | Direction of shadow. Read-only Single. |
 | [Distance](distance) { get; } | Distance of shadow. Read-only Double. |

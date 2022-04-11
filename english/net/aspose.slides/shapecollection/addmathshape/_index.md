@@ -14,12 +14,12 @@ Creates a new Autoshape tuned from default template to math content and adds it 
 public IAutoShape AddMathShape(float x, float y, float width, float height)
 ```
 
-| parameter | description |
-| --- | --- |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| width | The width of shape's frame. |
-| height | The height of shape's frame. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | The X-coordinate for a left side of shape's frame. |
+| y | Single | The Y-coordinate for a top side of shape's frame. |
+| width | Single | The width of shape's frame. |
+| height | Single | The height of shape's frame. |
 
 ## Return Value
 

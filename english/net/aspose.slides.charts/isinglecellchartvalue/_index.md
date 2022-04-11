@@ -16,7 +16,7 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsCell](ascell) { get; set; } | Returns or sets chart data cell. Read/write [`IChartDataCell`](../ichartdatacell). |
 | [AsIBaseChartValue](asibasechartvalue) { get; } | Allows to get base IBaseChartValue interface. Read-only [`IBaseChartValue`](../ibasechartvalue). |

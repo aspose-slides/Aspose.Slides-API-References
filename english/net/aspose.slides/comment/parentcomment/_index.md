@@ -14,7 +14,7 @@ Gets or sets parent comment. Read/write [`IComment`](../../icomment).
 public IComment ParentComment { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

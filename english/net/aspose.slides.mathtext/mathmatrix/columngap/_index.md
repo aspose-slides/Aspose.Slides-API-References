@@ -14,7 +14,7 @@ The value of horizontal spacing between columns of a matrix; If the ColumnGapRul
 public uint ColumnGap { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

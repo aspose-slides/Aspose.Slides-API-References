@@ -15,14 +15,14 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
     PointF position, DateTime creationTime)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of the element in a collection at which modern comment should be inserted. |
-| text | Plain text of a new modern comment. |
-| slide | Slide in a presentation where to add a new modern comment. |
-| shape | Shape on a slide to which a new modern comment is associated. |
-| position | Position on a slide where to add a new modern comment. |
-| creationTime | Time of a modern comment creation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | ISlide | Slide in a presentation where to add a new modern comment. |
+| shape | IShape | Shape on a slide to which a new modern comment is associated. |
+| position | PointF | Position on a slide where to add a new modern comment. |
+| creationTime | DateTime | Time of a modern comment creation. |
 
 ## Return Value
 

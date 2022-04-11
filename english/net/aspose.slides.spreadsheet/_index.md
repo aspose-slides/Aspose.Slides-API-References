@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides.Spreadsheet Namespace
+title: Aspose.Slides.Spreadsheet
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
@@ -8,9 +8,9 @@ url: /net/aspose.slides.spreadsheet/
 ---
 
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [CellCircularReferenceException](./cellcircularreferenceexception) | The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly. |
 | class [CellInvalidFormulaException](./cellinvalidformulaexception) | The exception that is thrown when a calculated formula is not correct or was not parsed. |

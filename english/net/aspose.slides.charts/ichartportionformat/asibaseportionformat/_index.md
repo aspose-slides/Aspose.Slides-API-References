@@ -14,7 +14,7 @@ Returns IBasePortionFormat interface.
 public IBasePortionFormat AsIBasePortionFormat { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

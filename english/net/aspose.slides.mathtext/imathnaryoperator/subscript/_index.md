@@ -14,7 +14,7 @@ Specifies a subscript argument that, for example, in the case of an integral, se
 public IMathElement Subscript { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

@@ -14,10 +14,10 @@ Creates IMathNaryOperator
 public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| operatorSymbol | The operator sign |
-| baseArgument | Base argument to apply operator |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operatorSymbol | Char | The operator sign |
+| baseArgument | IMathElement | Base argument to apply operator |
 
 ## Return Value
 
@@ -42,11 +42,11 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
     IMathElement lowerLimit)
 ```
 
-| parameter | description |
-| --- | --- |
-| operatorSymbol | The operator sign |
-| baseArgument | Base argument to apply operator |
-| lowerLimit | Lower limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operatorSymbol | Char | The operator sign |
+| baseArgument | IMathElement | Base argument to apply operator |
+| lowerLimit | IMathElement | Lower limit |
 
 ## Return Value
 
@@ -71,12 +71,12 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
     IMathElement lowerLimit, IMathElement upperLimit)
 ```
 
-| parameter | description |
-| --- | --- |
-| operatorSymbol | The operator sign |
-| baseArgument | Base argument to apply operator |
-| lowerLimit | Lower limit |
-| upperLimit | Upper limit |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| operatorSymbol | Char | The operator sign |
+| baseArgument | IMathElement | Base argument to apply operator |
+| lowerLimit | IMathElement | Lower limit |
+| upperLimit | IMathElement | Upper limit |
 
 ## Return Value
 

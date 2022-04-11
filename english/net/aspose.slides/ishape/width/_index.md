@@ -14,7 +14,7 @@ Returns or sets the width of the shape. Read/write Single.
 public float Width { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Returned value is always defined (is not float.NaN). Assigned value must be defined (not float.NaN). You can set undefined values for RawFrame instance properties.
 

@@ -14,7 +14,7 @@ Specifies the vertical justification respect to surrounding text. Possible value
 public MathVerticalAlignment BaseJustification { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

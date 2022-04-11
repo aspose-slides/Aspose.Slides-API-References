@@ -14,7 +14,7 @@ Nary Operator Character For example: '∑', '∫'
 public char Operator { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

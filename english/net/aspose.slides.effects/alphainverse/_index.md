@@ -16,7 +16,7 @@ public class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`AlphaInverse`](../alphainverse) is equal to the current [`AlphaInverse`](../alphainverse). |
 | [GetEffective](geteffective)() | Gets effective Alpha Inverse effect data with the inheritance applied. |

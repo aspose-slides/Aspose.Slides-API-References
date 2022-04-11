@@ -14,7 +14,7 @@ Determines whether hidden slides will be exported. The default value is false.
 public bool ExportHiddenSlides { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

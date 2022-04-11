@@ -14,7 +14,7 @@ The argument to which the accent was applied
 public IMathElement Base { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public enum LineDashStyle : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Solid | `0` |  |

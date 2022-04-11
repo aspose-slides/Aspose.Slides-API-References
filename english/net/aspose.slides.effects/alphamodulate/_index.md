@@ -16,7 +16,7 @@ public class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`AlphaModulate`](../alphamodulate) is equal to the current [`AlphaModulate`](../alphamodulate). |
 | [GetEffective](geteffective)() | Gets effective Alpha Modulate effect data with the inheritance applied. |

@@ -16,7 +16,7 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns node by index. Read-only [`ISmartArtNode`](../ismartartnode) |
 | [AddNode](addnode)() | Add new node or sub node. |

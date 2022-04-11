@@ -16,7 +16,7 @@ public class Portion : IPortion
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Portion](portion)() | Initializes a new instance of the Portion class. |
 | [Portion](portion)(…) | Initializes a new instance of the Portion class. (2 constructors) |

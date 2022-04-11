@@ -16,11 +16,11 @@ public interface IMathFractionFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathFraction](createmathfraction)(…) | Creates a math fraction (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

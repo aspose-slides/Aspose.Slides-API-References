@@ -14,9 +14,9 @@ Removes an image effect from a collection at the specified index.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of an image effect that should be deleted. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of an image effect that should be deleted. |
 
 ### See Also
 

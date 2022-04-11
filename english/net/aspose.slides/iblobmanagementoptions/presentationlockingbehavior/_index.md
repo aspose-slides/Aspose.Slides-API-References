@@ -14,7 +14,7 @@ This property defines if an instance of the Presentation class can be an owner o
 public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 

@@ -17,7 +17,7 @@ public class ColorReplaceEffectiveData :
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Color](color) { get; } | Returns color. Read-only Color. |
 

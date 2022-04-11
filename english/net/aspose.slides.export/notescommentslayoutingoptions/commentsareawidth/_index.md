@@ -14,7 +14,7 @@ Gets or sets the width of the comment output area in pixels (Applies only if com
 public int CommentsAreaWidth { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Minimal and default value is 150.
 

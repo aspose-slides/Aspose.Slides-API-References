@@ -14,10 +14,10 @@ Sets grouping item for defined level.
 public void SetGroupingItem(int level, object value)
 ```
 
-| parameter | description |
-| --- | --- |
-| level | Category level Int32 |
-| value | Groping item Object |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| level | Int32 | Category level Int32 |
+| value | Object | Groping item Object |
 
 ### See Also
 

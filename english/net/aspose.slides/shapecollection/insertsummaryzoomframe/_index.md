@@ -15,29 +15,29 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
     float height)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which Section Zoom frame should be inserted. |
-| x | X coordinate of a new Section Zoom frame Single. |
-| y | Y coordinate of a new Section Zoom frame Single. |
-| width | Width of a new Section Zoom frame Single. |
-| height | Height of a new Section Zoom frame Single. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which Section Zoom frame should be inserted. |
+| x | Single | X coordinate of a new Section Zoom frame Single. |
+| y | Single | Y coordinate of a new Section Zoom frame Single. |
+| width | Single | Width of a new Section Zoom frame Single. |
+| height | Single | Height of a new Section Zoom frame Single. |
 
 ## Return Value
 
 Created Summary Zoom object [`ISummaryZoomFrame`](../../isummaryzoomframe).
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | There are no sections in the presentation, or the target slide does not belong to any section. |
 
-## Remarks
+### Remarks
 
 This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation.
 
-## Examples
+### Examples
 
 This example demonstrates creation and inserting a Summary Zoom object at the specified index of a collection (assume that there are at least two sections in the "Presentation.pptx" presentation):
 

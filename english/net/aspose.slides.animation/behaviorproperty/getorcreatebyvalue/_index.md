@@ -14,9 +14,9 @@ Looks for existing behavior property by value or creates new custom one with the
 public static BehaviorProperty GetOrCreateByValue(string propertyValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| propertyValue | value of the property |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | value of the property |
 
 ## Return Value
 

@@ -14,10 +14,10 @@ Sets the type of slide size and scales content using scale type. Assigning any v
 public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 ```
 
-| parameter | description |
-| --- | --- |
-| type | Slide size type. |
-| scaleType | Scale type of slide content. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | SlideSizeType | Slide size type. |
+| scaleType | SlideSizeScaleType | Scale type of slide content. |
 
 ### See Also
 
@@ -37,11 +37,11 @@ Sets the size in points and scales content using scale type. Assigning any value
 public void SetSize(float width, float height, SlideSizeScaleType scaleType)
 ```
 
-| parameter | description |
-| --- | --- |
-| width | Width. |
-| height | Height. |
-| scaleType | Scale type of slide content. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | Single | Width. |
+| height | Single | Height. |
+| scaleType | SlideSizeScaleType | Scale type of slide content. |
 
 ### See Also
 

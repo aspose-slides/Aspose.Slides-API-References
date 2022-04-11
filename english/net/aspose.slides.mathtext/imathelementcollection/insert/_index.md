@@ -14,12 +14,12 @@ Inserts a math element into the collection at the specified index.
 public void Insert(int index, IMathElement item)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which IMathElement should be inserted. |
-| item | The IMathElement to insert. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which IMathElement should be inserted. |
+| item | IMathElement | The IMathElement to insert. |
 
-## Examples
+### Examples
 
 Example:
 

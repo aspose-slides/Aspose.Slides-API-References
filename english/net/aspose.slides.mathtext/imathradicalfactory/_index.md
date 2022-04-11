@@ -16,11 +16,11 @@ public interface IMathRadicalFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathRadical](createmathradical)(…) | Creates a math radical |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

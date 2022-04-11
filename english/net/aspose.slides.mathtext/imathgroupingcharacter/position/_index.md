@@ -14,7 +14,7 @@ Position of grouping character. Default: Bottom
 public MathTopBotPositions Position { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

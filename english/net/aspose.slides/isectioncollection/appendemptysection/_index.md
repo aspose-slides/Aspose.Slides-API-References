@@ -14,9 +14,9 @@ Add empty section to the end of the collection.
 public ISection AppendEmptySection(string name)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | Name of the section |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the section |
 
 ## Return Value
 

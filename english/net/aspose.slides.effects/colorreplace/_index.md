@@ -16,7 +16,7 @@ public class ColorReplace : ImageTransformOperation, IColorReplace
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Color](color) { get; } | Returns color format which will replace color of every pixel. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 | override [Equals](equals)(…) | Determines whether the specified [`ColorReplace`](../colorreplace) is equal to the current [`ColorReplace`](../colorreplace). |

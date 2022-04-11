@@ -14,7 +14,7 @@ Subscript argument
 public IMathElement Subscript { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

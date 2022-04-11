@@ -18,7 +18,7 @@ public IBackgroundEffectiveData GetEffective()
 
 A [`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting effective background properties.
 

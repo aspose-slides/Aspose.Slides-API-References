@@ -14,9 +14,9 @@ Writes a byte to the current position in the stream and advances the position wi
 public void WriteByte(byte value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Byte |  |
 
 ### See Also
 

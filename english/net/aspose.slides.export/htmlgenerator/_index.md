@@ -16,7 +16,7 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [NextSlideIndex](nextslideindex) { get; } | Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide. Read-only Int32. |
 | [PreviousSlideIndex](previousslideindex) { get; } | Returns index of previously rendered slide or -1 if first slide is rendering. Read-only Int32. |

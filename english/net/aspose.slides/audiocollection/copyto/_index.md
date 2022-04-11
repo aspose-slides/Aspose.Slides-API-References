@@ -14,10 +14,10 @@ Copies audios to specified array starting from specified index.
 public void CopyTo(Array array, int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| array | Array. |
-| index | Index. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| array | Array | Array. |
+| index | Int32 | Index. |
 
 ### See Also
 

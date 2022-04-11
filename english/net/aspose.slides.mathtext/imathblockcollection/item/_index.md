@@ -14,15 +14,15 @@ Gets the item at the specified index. Read-only [`IMathBlock`](../../imathblock)
 public IMathBlock this[int index] { get; set; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index of the item to get |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | The zero-based index of the item to get |
 
 ## Return Value
 
 The block of a mathematical text.
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public enum ChartType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | ClusteredColumn | `0` | Represents Clustered Column Chart. |
 | StackedColumn | `1` | Represents Stacked Column Chart. |

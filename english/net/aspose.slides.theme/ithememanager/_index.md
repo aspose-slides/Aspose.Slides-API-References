@@ -16,7 +16,7 @@ public interface IThemeManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ApplyColorScheme](applycolorscheme)(…) | Applies extra color scheme to a slide. |
 | [CreateThemeEffective](createthemeeffective)() | Returns the theme object. |

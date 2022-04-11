@@ -16,7 +16,7 @@ public enum AudioVolumeMode
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Mute | `0` | Zero sound volume. |

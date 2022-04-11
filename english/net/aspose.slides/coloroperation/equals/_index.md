@@ -14,9 +14,9 @@ Determines whether the two ColorOperation instances are equal.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The ColorOperation to compare with the current ColorOperation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The ColorOperation to compare with the current ColorOperation. |
 
 ## Return Value
 

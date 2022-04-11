@@ -16,11 +16,11 @@ public interface IMathMatrixFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathMatrix](createmathmatrix)(…) | Creates a math matrix |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

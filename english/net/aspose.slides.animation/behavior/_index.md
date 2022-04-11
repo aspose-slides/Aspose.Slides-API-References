@@ -16,18 +16,12 @@ public abstract class Behavior : IBehavior
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Accumulate](accumulate) { get; set; } | Represents whether animation behaviors are accumulated. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](additive) { get; set; } | Represents whether the current animation behavior is combined with other running animations. Read/write [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](properties) { get; } | Represents properties of behavior. Read-only [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](timing) { get; set; } | Represents timing properties for the effect behavior. Read/write [`ITiming`](../itiming). |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [Behavior](behavior)() | The default constructor. |
 
 ### See Also
 

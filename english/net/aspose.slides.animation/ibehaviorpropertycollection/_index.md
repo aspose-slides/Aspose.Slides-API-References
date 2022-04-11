@@ -16,7 +16,7 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interfaces. Read-only IEnumerable. |
 | [Add](add)(…) | Adds a new property to the collection. |

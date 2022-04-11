@@ -14,7 +14,7 @@ Gets or sets value that specifies whether the Zoom will use the background of th
 public bool ShowBackground { get; set; }
 ```
 
-## Examples
+### Examples
 
 the example demonstrates removing the background of an image of a Zoom object:
 

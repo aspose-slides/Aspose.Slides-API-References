@@ -16,13 +16,13 @@ public sealed class MathSuperscriptElement : BaseScript, IMathSuperscriptElement
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathSuperscriptElement](mathsuperscriptelement)(…) | Initializes a new instance of the MathSuperscriptElement class. |
 | [Superscript](superscript) { get; } | Superscript |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

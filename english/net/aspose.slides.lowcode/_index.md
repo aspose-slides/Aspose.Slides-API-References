@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides.LowCode Namespace
+title: Aspose.Slides.LowCode
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
@@ -8,9 +8,9 @@ url: /net/aspose.slides.lowcode/
 ---
 
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | static class [Collect](./collect) | Represents a group of methods intended to collect model objects of different types from [`Presentation`](aspose.slides/presentation). |
 | static class [Convert](./convert) | Represents a group of methods intended to convert [`Presentation`](aspose.slides/presentation). |

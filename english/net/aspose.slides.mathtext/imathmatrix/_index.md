@@ -16,7 +16,7 @@ public interface IMathMatrix : IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
 | [BaseJustification](basejustification) { get; set; } | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
@@ -39,7 +39,7 @@ public interface IMathMatrix : IMathElement
 | [SetColumnAlignment](setcolumnalignment)(…) | Set the horizontal alignment of the specified column |
 | [SetColumnsAlignment](setcolumnsalignment)(…) | Set the horizontal alignment of the specified columns |
 
-## Examples
+### Examples
 
 Example:
 

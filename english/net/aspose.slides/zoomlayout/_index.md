@@ -16,7 +16,7 @@ public enum ZoomLayout
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | GridLayout | `0` | Specifies the layout as a grid layout for a list of objects. |
 | FixedLayout | `1` | Specifies the layout with user-defined Zoom positioning. |

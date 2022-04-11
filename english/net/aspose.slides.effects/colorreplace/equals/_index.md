@@ -14,9 +14,9 @@ Determines whether the specified [`ColorReplace`](../../colorreplace) is equal t
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`ColorReplace`](../../colorreplace) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`ColorReplace`](../../colorreplace) to compare. |
 
 ## Return Value
 

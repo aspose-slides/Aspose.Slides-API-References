@@ -16,7 +16,7 @@ public enum LineSketchType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Specifies that a shape Sketch effect is undefined. |
 | None | `0` | Specifies that a shape has no Sketch effect. This is equivalent to this property being empty. |

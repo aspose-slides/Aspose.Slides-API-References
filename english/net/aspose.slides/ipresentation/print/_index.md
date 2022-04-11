@@ -30,9 +30,9 @@ Prints the presentation according to the specified printer settings, using the s
 public void Print(PrinterSettings printerSettings)
 ```
 
-| parameter | description |
-| --- | --- |
-| printerSettings | The .NET printer settings to use. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| printerSettings | PrinterSettings | The .NET printer settings to use. |
 
 ### See Also
 
@@ -50,9 +50,9 @@ Print the whole presentation to the specified printer, using the standard (no Us
 public void Print(string printerName)
 ```
 
-| parameter | description |
-| --- | --- |
-| printerName | The name of the printer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| printerName | String | The name of the printer. |
 
 ### See Also
 
@@ -70,10 +70,10 @@ Prints the document according to the specified printer settings, using the stand
 public void Print(PrinterSettings printerSettings, string presName)
 ```
 
-| parameter | description |
-| --- | --- |
-| printerSettings | The .NET printer settings to use. |
-| presName | The presentation name to display (for example, in a print status dialog box or printer queue) while printing the presentation. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| printerSettings | PrinterSettings | The .NET printer settings to use. |
+| presName | String | The presentation name to display (for example, in a print status dialog box or printer queue) while printing the presentation. |
 
 ### See Also
 

@@ -14,15 +14,15 @@ Adds a copy of a specified layout slide to the presentation.
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceLayout | Slide to clone. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceLayout | ILayoutSlide | Slide to clone. |
 
 ## Return Value
 
 Added slide.
 
-## Remarks
+### Remarks
 
 When cloning a layout between different presentations layout's master can be cloned too to keep source formatting. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered.
 
@@ -43,16 +43,16 @@ Adds a copy of a specified layout slide to the presentation.
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceLayout | Slide to clone. |
-| destMaster | Master slide for a new layout. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceLayout | ILayoutSlide | Slide to clone. |
+| destMaster | IMasterSlide | Master slide for a new layout. |
 
 ## Return Value
 
 Added slide.
 
-## Remarks
+### Remarks
 
 1) New layout will be linked with defined master in destination presentation. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method [`AddClone`](../../imasterlayoutslidecollection/addclone) accessed with [`LayoutSlides`](../../imasterslide/layoutslides) property.
 

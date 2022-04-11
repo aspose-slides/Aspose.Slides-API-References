@@ -14,7 +14,7 @@ Returns IEnumerable interface.
 public IEnumerable AsIEnumerable { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

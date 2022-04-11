@@ -16,7 +16,7 @@ public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)() | Creates new instance. |
 | [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)(…) | Creates new instance. |

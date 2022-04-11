@@ -14,11 +14,11 @@ Gets a value that indicates whether a binded presentation is write protected.
 public NullableBool IsWriteProtected { get; }
 ```
 
-## Remarks
+### Remarks
 
 If the presentation is protected by a password to open, the property value equals NotDefined.
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

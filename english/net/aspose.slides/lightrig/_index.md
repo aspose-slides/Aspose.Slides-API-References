@@ -16,7 +16,7 @@ public class LightRig : PVIObject, ILightRig
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Light direction. Read/write [`LightingDirection`](../lightingdirection). |
 | [LightType](lighttype) { get; set; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write [`LightRigPresetType`](../lightrigpresettype). |

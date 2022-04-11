@@ -16,7 +16,7 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns the column at the specified index. Read-only [`IColumn`](../icolumn). |
 | [AddClone](addclone)(…) | Creates a copy of the specified template row and inserts it at the bottom of a table. |

@@ -16,7 +16,7 @@ public interface IChartDataPointCollection : IGenericCollection<IChartDataPoint>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DataSourceTypeForBubbleSizes](datasourcetypeforbubblesizes) { get; set; } | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPointEx.BubbleSize.Data property. Read/write [`DataSourceType`](../datasourcetype). |
 | [DataSourceTypeForErrorBarsCustomValues](datasourcetypeforerrorbarscustomvalues) { get; } | Specifies the type of values in ChartDataPoint.ErrorBarsCustomValues properties listþ Read-only [`IDataSourceTypeForErrorBarsCustomValues`](../idatasourcetypeforerrorbarscustomvalues). |

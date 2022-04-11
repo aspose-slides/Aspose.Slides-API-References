@@ -16,7 +16,7 @@ public class ColorEffect : Behavior, IColorEffect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ColorEffect](coloreffect)() | Creates new instance. |
 | [By](by) { get; set; } | Describes the relative offset value for the color animation. Read/write [`IColorOffset`](../icoloroffset). |

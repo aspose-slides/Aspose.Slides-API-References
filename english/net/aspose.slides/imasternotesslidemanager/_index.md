@@ -16,7 +16,7 @@ public interface IMasterNotesSlideManager
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MasterNotesSlide](masternotesslide) { get; } | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only [`IMasterNotesSlide`](../imasternotesslide). |
 | [RemoveMasterNotesSlide](removemasternotesslide)() | Removes master notes slide. |

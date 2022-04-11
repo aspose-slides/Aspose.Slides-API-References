@@ -14,10 +14,10 @@ Creates new Tab
 public Tab(double position, TabAlignment align)
 ```
 
-| parameter | description |
-| --- | --- |
-| position | Tab position. |
-| align | Align. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | Double | Tab position. |
+| align | TabAlignment | Align. |
 
 ### See Also
 

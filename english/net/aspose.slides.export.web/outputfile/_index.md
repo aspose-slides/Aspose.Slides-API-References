@@ -16,15 +16,9 @@ public abstract class OutputFile : IOutputFile
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | abstract [Write](write)(…) | Writes the file content to the stream. |
-
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [OutputFile](outputfile)() | The default constructor. |
 
 ### See Also
 

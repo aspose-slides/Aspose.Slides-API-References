@@ -16,7 +16,7 @@ public interface IPortion : ISlideComponent
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
 | [Field](field) { get; } | Returns a field of this portion. Read-only [`IField`](../ifield). |

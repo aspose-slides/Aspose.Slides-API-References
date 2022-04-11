@@ -16,7 +16,7 @@ public enum EffectSubtype
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` |  |
 | Across | `1` |  |

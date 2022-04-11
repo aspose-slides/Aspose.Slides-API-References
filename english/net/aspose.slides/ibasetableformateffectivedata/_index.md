@@ -16,7 +16,7 @@ public interface IBaseTableFormatEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BorderBottom](borderbottom) { get; } | Returns bottom border line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
 | [BorderDiagonalDown](borderdiagonaldown) { get; } | Returns down diagonal line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |

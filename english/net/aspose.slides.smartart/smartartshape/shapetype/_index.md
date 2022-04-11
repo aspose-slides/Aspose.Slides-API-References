@@ -14,7 +14,7 @@ Returns or sets the geometry preset type. Note: on value changing all adjustment
 public override ShapeType ShapeType { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

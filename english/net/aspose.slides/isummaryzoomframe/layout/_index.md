@@ -14,7 +14,7 @@ Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout.
 public ZoomLayout Layout { get; }
 ```
 
-## Examples
+### Examples
 
 The example demonstrates getting Summary Zoom Section element by index:
 

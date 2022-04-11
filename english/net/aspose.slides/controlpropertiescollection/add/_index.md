@@ -14,10 +14,10 @@ Adds a property to the collection.
 public void Add(string name, string value)
 ```
 
-| parameter | description |
-| --- | --- |
-| name | The name of the property. |
-| value | The alue of the property. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the property. |
+| value | String | The alue of the property. |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public interface ITiffOptions : ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [CompressionType](compressiontype) { get; set; } | Specifies the compression type. Read/write [`TiffCompressionTypes`](../tiffcompressiontypes). |

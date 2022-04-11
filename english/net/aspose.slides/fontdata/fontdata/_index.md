@@ -14,9 +14,9 @@ Creates a new FontData object with the specified font name.
 public FontData(string fontName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontName | Font name. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontName | String | Font name. |
 
 ### See Also
 

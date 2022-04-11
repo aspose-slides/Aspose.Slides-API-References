@@ -14,9 +14,9 @@ Compares with specified object.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | Object to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | Object to compare. |
 
 ## Return Value
 

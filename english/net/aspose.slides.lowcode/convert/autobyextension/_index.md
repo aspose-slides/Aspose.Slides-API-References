@@ -14,18 +14,18 @@ Converts [`Presentation`](../../../aspose.slides/presentation) using the passed 
 public static void AutoByExtension(string presPath, string outPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| presPath | Path of the input presentation |
-| outPath | Output path |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| outPath | String | Output path |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-## Examples
+### Examples
 
 ```csharp
 Aspose.Slides.LowCode.Convert.AutoByExtension("pres.pptx", "pres.pdf");

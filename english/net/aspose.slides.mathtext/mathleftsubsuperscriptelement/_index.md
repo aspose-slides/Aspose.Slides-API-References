@@ -16,14 +16,14 @@ public sealed class MathLeftSubSuperscriptElement : BaseScript, IMathLeftSubSupe
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathLeftSubSuperscriptElement](mathleftsubsuperscriptelement)(…) | Initializes a new instance of the MathLeftSubSuperscriptElement class. |
 | [Subscript](subscript) { get; } | Subscript |
 | [Superscript](superscript) { get; } | Superscript |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

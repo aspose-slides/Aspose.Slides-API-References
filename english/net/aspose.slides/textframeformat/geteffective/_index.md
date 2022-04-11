@@ -18,7 +18,7 @@ public ITextFrameFormatEffectiveData GetEffective()
 
 A [`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata).
 
-## Examples
+### Examples
 
 This example demonstrates getting some of effective text frame formatting properties.
 

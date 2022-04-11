@@ -6,33 +6,13 @@ type: docs
 weight: 80
 url: /net/aspose.slides/streamwrapper/dispose/
 ---
-## StreamWrapper.Dispose method (1 of 2)
+## StreamWrapper.Dispose method
 
 Disposes object.
 
 ```csharp
 public void Dispose()
 ```
-
-### See Also
-
-* class [StreamWrapper](../../streamwrapper)
-* namespace [Aspose.Slides](../../streamwrapper)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## StreamWrapper.Dispose method (2 of 2)
-
-Disposes object.
-
-```csharp
-protected virtual void Dispose(bool disposing)
-```
-
-| parameter | description |
-| --- | --- |
-| disposing | Is disposing. |
 
 ### See Also
 

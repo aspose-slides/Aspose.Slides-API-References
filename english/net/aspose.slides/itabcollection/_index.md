@@ -16,7 +16,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ITab`](../itab). |
 | [Add](add)(…) | Adds a Tab to the collection. (2 methods) |

@@ -16,7 +16,7 @@ public abstract class BasePortionFormat : PVIObject, IBasePortionFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AlternativeLanguageId](alternativelanguageid) { get; set; } | Returns or sets the Id of an alternative language. Read/write String. |
 | [ComplexScriptFont](complexscriptfont) { get; set; } | Returns or sets the complex script font info. Null means font is undefined and should be inherited from the Master. Read/write [`IFontData`](../ifontdata). |

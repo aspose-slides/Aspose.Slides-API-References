@@ -14,9 +14,9 @@ Sets text to slide date-time placeholder.
 public void SetDateTimeText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 ### See Also
 

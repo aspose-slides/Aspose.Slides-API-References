@@ -16,7 +16,7 @@ public class AnimationTimeLine : IAnimationTimeLine
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [InteractiveSequences](interactivesequences) { get; } | Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only [`ISequenceCollection`](../isequencecollection). |
 | [MainSequence](mainsequence) { get; } | Returns main sequence which may contain only main effects collection. Read-only [`ISequence`](../isequence). |

@@ -16,7 +16,7 @@ public enum ColorSchemeIndex : byte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Dark1 | `0` | Dark 1. |
 | Light1 | `1` | Light 1. |

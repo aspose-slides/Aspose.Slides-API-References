@@ -16,12 +16,12 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | The default constructor. |
 | [CreateVideoPlayerHtmlController](createvideoplayerhtmlcontroller)(…) | Creates new `VideoPlayerHtmlController`. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

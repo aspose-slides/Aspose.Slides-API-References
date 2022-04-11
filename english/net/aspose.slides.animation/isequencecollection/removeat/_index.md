@@ -14,9 +14,9 @@ Removes sequence at the specified index.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of element in the collection Int32 |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of element in the collection Int32 |
 
 ### See Also
 

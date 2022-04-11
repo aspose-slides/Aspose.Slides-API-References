@@ -14,9 +14,9 @@ Adds a new property to the collection.
 public void Add(IBehaviorProperty item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | Property to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IBehaviorProperty | Property to add. |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Adds a new property to the collection.
 public void Add(string propertyValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| propertyValue | Value of the property to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | Value of the property to add. |
 
 ### See Also
 

@@ -14,15 +14,15 @@ Takes a function of an argument using this instance as the function name
 public IMathFunction Function(IMathElement functionArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| functionArgument | An argument of the function |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionArgument | IMathElement | An argument of the function |
 
 ## Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
-## Examples
+### Examples
 
 Example:
 
@@ -51,15 +51,15 @@ Takes a function of an argument using this instance as the function name
 public IMathFunction Function(string functionArgument)
 ```
 
-| parameter | description |
-| --- | --- |
-| functionArgument | An argument of the function |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionArgument | String | An argument of the function |
 
 ## Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
-## Examples
+### Examples
 
 Example:
 

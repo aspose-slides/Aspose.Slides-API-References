@@ -16,7 +16,7 @@ public class ChartTitle : IChartTitle
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Bottom](bottom) { get; } | Bottom. Read-only Single. |
 | [Chart](chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |

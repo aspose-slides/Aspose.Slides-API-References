@@ -14,10 +14,10 @@ Inserts a copy of a specified shape to specified position of the collection. X, 
 public IShape InsertClone(int index, IShape sourceShape)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of new shape. |
-| sourceShape | Shape to clone. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of new shape. |
+| sourceShape | IShape | Shape to clone. |
 
 ## Return Value
 
@@ -40,12 +40,12 @@ Inserts a copy of a specified shape to specified position of the collection. Wid
 public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of new shape. |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of new shape. |
+| sourceShape | IShape | Shape to clone. |
+| x | Single | X coordinate of a new shape. |
+| y | Single | Y coordinate of a new shape. |
 
 ## Return Value
 
@@ -69,14 +69,14 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y, float
     float height)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of new shape. |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of new shape. |
+| sourceShape | IShape | Shape to clone. |
+| x | Single | X coordinate of a new shape. |
+| y | Single | Y coordinate of a new shape. |
+| width | Single | Width of a new shape. |
+| height | Single | Height of a new shape. |
 
 ## Return Value
 

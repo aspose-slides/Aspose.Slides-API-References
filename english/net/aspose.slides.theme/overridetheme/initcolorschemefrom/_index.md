@@ -14,11 +14,11 @@ Init ColorScheme with new object for overriding ColorScheme of InheritedTheme.
 public void InitColorSchemeFrom(IColorScheme colorScheme)
 ```
 
-| parameter | description |
-| --- | --- |
-| colorScheme | Data to initialize from. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| colorScheme | IColorScheme | Data to initialize from. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

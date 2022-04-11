@@ -16,7 +16,7 @@ public class PortionFormat : BasePortionFormat, IPortionFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PortionFormat](portionformat)() | Initializes a new instance of [`PortionFormat`](../portionformat) class. |
 | [BookmarkId](bookmarkid) { get; set; } | Returns or sets bookmark identifier. Read/write String. |
@@ -26,7 +26,7 @@ public class PortionFormat : BasePortionFormat, IPortionFormat
 | [SmartTagClean](smarttagclean) { get; set; } | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write Boolean. |
 | [GetEffective](geteffective)() | Gets effective portion formatting data with the inheritance applied. |
 
-## Remarks
+### Remarks
 
 This class is used to return and manipulate text portion formatting properties defined for the particular portion. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 

@@ -14,9 +14,9 @@ Returns an index of the specified slide in the collection.
 public int IndexOf(ISlide slide)
 ```
 
-| parameter | description |
-| --- | --- |
-| slide | Slide to find. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| slide | ISlide | Slide to find. |
 
 ## Return Value
 

@@ -14,9 +14,9 @@ Callback method which receives warning and decides whether operation should be a
 public ReturnAction Warning(IWarningInfo warning)
 ```
 
-| parameter | description |
-| --- | --- |
-| warning | Warning to process. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| warning | IWarningInfo | Warning to process. |
 
 ## Return Value
 

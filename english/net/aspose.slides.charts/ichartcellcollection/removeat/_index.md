@@ -14,9 +14,9 @@ Removes a cell from the collection by index.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a cell to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of a cell to remove. |
 
 ### See Also
 

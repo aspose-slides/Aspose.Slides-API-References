@@ -14,11 +14,11 @@ Adds cubic Bezier curve at the end the path
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 ```
 
-| parameter | description |
-| --- | --- |
-| point1 | First direction point |
-| point2 | Second direction point |
-| point3 | End point |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| point1 | PointF | First direction point |
+| point2 | PointF | Second direction point |
+| point3 | PointF | End point |
 
 ### See Also
 
@@ -36,14 +36,14 @@ Adds cubic Bezier curve to the specified place of the path
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint index)
 ```
 
-| parameter | description |
-| --- | --- |
-| point1 | First direction point |
-| point2 | Second direction point |
-| point3 | End point |
-| index | Index of segment in PathData |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| point1 | PointF | First direction point |
+| point2 | PointF | Second direction point |
+| point3 | PointF | End point |
+| index | UInt32 | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -65,14 +65,14 @@ Adds cubic Bezier curve at the end the path
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3)
 ```
 
-| parameter | description |
-| --- | --- |
-| x1 | X coordinate of first direction point |
-| y1 | Y coordinate of first direction point |
-| x2 | X coordinate of second direction point |
-| y2 | Y coordinate of second direction point |
-| x3 | X coordinate of end point |
-| y3 | Y coordinate of end point |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x1 | Single | X coordinate of first direction point |
+| y1 | Single | Y coordinate of first direction point |
+| x2 | Single | X coordinate of second direction point |
+| y2 | Single | Y coordinate of second direction point |
+| x3 | Single | X coordinate of end point |
+| y3 | Single | Y coordinate of end point |
 
 ### See Also
 
@@ -90,17 +90,17 @@ Adds cubic Bezier curve to the specified place of the path
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3, uint index)
 ```
 
-| parameter | description |
-| --- | --- |
-| x1 | X coordinate of first direction point |
-| y1 | Y coordinate of first direction point |
-| x2 | X coordinate of second direction point |
-| y2 | Y coordinate of second direction point |
-| x3 | X coordinate of end point |
-| y3 | Y coordinate of end point |
-| index | Index of segment in PathData |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x1 | Single | X coordinate of first direction point |
+| y1 | Single | Y coordinate of first direction point |
+| x2 | Single | X coordinate of second direction point |
+| y2 | Single | Y coordinate of second direction point |
+| x3 | Single | X coordinate of end point |
+| y3 | Single | Y coordinate of end point |
+| index | UInt32 | Index of segment in PathData |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

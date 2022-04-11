@@ -16,7 +16,7 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception)() | Default constructor. |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

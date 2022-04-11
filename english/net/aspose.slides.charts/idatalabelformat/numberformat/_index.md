@@ -14,7 +14,7 @@ Represents the format string for the DataLabels object. Read/write String.
 public string NumberFormat { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the NumberFormat property for the new data labels in the DataLabelCollection collection. Represents the format string for the DataLabel objects. Set this property with value also sets this value to the NumberFormat property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" cause to all DataLabels[i].NumberFormat is equal to val).
 

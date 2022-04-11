@@ -16,7 +16,7 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns ICollection interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Gets the count of cells in collection. Read-only Int32. |

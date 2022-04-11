@@ -16,7 +16,7 @@ public enum MathLimitLocations
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | Not defined |
 | UnderOver | `1` | Limits draw at top and bottom of the operator symbol |

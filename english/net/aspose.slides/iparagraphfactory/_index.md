@@ -16,12 +16,12 @@ public interface IParagraphFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateParagraph](createparagraph)() | Creates a new empty paragraph. |
 | [CreateParagraph](createparagraph)(…) | Creates a new paragraph with specified paragraph data using. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

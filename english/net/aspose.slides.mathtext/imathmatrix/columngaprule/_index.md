@@ -14,7 +14,7 @@ The type of horizontal spacing between columns of a matrix; Horizontal spacing u
 public MathSpacingRules ColumnGapRule { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

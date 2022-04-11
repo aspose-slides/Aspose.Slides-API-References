@@ -16,7 +16,7 @@ public class PptxReadException : PptxException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptxReadException](pptxreadexception)() | Default constructor. |
 | [PptxReadException](pptxreadexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

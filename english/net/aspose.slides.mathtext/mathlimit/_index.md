@@ -16,7 +16,7 @@ public sealed class MathLimit : MathElementBase, IMathLimit
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathLimit](mathlimit)(…) | Initializes a new instance of the MathLimit class. (2 constructors) |
 | [Base](base) { get; } | Base argument |
@@ -24,13 +24,7 @@ public sealed class MathLimit : MathElementBase, IMathLimit
 | [UpperLimit](upperlimit) { get; set; } | Specifies upper or lower limit |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Protected Members
-
-| name | description |
-| --- | --- |
-| const [c_DefaultArgumentSize](c_defaultargumentsize) |  |
-
-## Examples
+### Examples
 
 Example:
 

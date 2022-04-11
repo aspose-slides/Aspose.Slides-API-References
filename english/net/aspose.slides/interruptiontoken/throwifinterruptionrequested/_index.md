@@ -14,7 +14,7 @@ Throws an OperationCanceledException if interruption was requested.
 public void ThrowIfInterruptionRequested()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |

@@ -14,10 +14,10 @@ Inserts a Portion into the collection at the specified index.
 public void Insert(int index, IPortion value)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | The zero-based index at which Portion should be inserted. |
-| value | The Portion to insert. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which Portion should be inserted. |
+| value | IPortion | The Portion to insert. |
 
 ### See Also
 

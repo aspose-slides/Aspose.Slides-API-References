@@ -14,7 +14,7 @@ Returns the ThreeDFormat object that represents 3d effect properties for a text.
 public IThreeDFormat ThreeDFormat { get; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

@@ -14,15 +14,15 @@ Determines the index of a specific IMathBlock in collection.
 public int IndexOf(IMathBlock item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | The item to locate in the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IMathBlock | The item to locate in the collection. |
 
 ## Return Value
 
 The index of *item* if found in the collection; otherwise, -1.
 
-## Examples
+### Examples
 
 Example:
 

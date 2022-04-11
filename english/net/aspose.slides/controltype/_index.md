@@ -16,7 +16,7 @@ public enum ControlType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | WindowsMediaPlayer | `0` | Windows Media Player control. |
 

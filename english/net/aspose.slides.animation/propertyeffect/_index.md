@@ -16,7 +16,7 @@ public class PropertyEffect : Behavior, IPropertyEffect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PropertyEffect](propertyeffect)() | The default constructor. |
 | [By](by) { get; set; } | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |

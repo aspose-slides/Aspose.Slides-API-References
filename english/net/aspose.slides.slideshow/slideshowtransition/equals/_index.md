@@ -14,9 +14,9 @@ Determines whether the two SlideShowTransition instances are equal. Read/write B
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The SlideShowTransition to compare with the current SlideShowTransition. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The SlideShowTransition to compare with the current SlideShowTransition. |
 
 ## Return Value
 

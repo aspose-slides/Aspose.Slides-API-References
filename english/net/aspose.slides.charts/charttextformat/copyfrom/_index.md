@@ -14,9 +14,9 @@ Copies text format from specified text frame.
 public void CopyFrom(ITextFrame sourceTextFrame)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceTextFrame | Text frame to copy text format. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceTextFrame | ITextFrame | Text frame to copy text format. |
 
 ### See Also
 

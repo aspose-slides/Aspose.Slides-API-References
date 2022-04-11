@@ -16,7 +16,7 @@ public class VideoPlayerHtmlController : IVideoPlayerHtmlController
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [VideoPlayerHtmlController](videoplayerhtmlcontroller)(…) | Creates a new instance of controller |
 

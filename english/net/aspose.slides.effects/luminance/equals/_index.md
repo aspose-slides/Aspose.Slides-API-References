@@ -14,9 +14,9 @@ Determines whether the specified [`Luminance`](../../luminance) is equal to the 
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | The [`Luminance`](../../luminance) to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The [`Luminance`](../../luminance) to compare. |
 
 ## Return Value
 

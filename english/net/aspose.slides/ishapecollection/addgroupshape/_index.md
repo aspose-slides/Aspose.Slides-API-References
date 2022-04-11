@@ -35,13 +35,13 @@ Creates a new GroupShape, fills it with converted shapes from SVG and adds it to
 public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float width, float height)
 ```
 
-| parameter | description |
-| --- | --- |
-| svgImage | Svg image object [`ISvgImage`](../../isvgimage) |
-| x | The X coordinate for the left side of the shape group frame. |
-| y | The Y coordinate for the top side of the shape group frame. |
-| width | The width of the group of the shape group frame. |
-| height | The height of a group of the shape group frame. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| svgImage | ISvgImage | Svg image object [`ISvgImage`](../../isvgimage) |
+| x | Single | The X coordinate for the left side of the shape group frame. |
+| y | Single | The Y coordinate for the top side of the shape group frame. |
+| width | Single | The width of the group of the shape group frame. |
+| height | Single | The height of a group of the shape group frame. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public sealed class MathGroupingCharacter : MathElementBase, IMathGroupingCharac
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathGroupingCharacter](mathgroupingcharacter)(…) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) (2 constructors) |
 | [Base](base) { get; } | Base argument |
@@ -25,7 +25,7 @@ public sealed class MathGroupingCharacter : MathElementBase, IMathGroupingCharac
 | [VerticalJustification](verticaljustification) { get; set; } | Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline Default: Bottom for Position=Top, and Top for Position=Bottom |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

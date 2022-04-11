@@ -17,10 +17,10 @@ public abstract class AccessibleEffectiveData<TLocalData, TEffectiveData> :
     where TEffectiveData : AccessibleEffectiveData
 ```
 
-| parameter | description |
-| --- | --- |
-| TLocalData | Type of local data. |
-| TEffectiveData | Type of effective data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| TLocalData |  | Type of local data. |
+| TEffectiveData |  | Type of effective data. |
 
 ### See Also
 

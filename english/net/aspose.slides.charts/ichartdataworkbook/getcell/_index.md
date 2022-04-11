@@ -14,10 +14,10 @@ Gets the cell that can be used for chart series or categories
 public IChartDataCell GetCell(int worksheetIndex, string cellName)
 ```
 
-| parameter | description |
-| --- | --- |
-| worksheetIndex | Index of the worksheet. |
-| cellName | Name of the cell. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index of the worksheet. |
+| cellName | String | Name of the cell. |
 
 ## Return Value
 
@@ -40,11 +40,11 @@ Gets the cell that can be used for chart series or categories
 public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 ```
 
-| parameter | description |
-| --- | --- |
-| worksheetIndex | Index of the worksheet. |
-| row | The row. |
-| column | The column. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index of the worksheet. |
+| row | Int32 | The row. |
+| column | Int32 | The column. |
 
 ## Return Value
 
@@ -67,11 +67,11 @@ Gets the cell that can be used for chart series or categories
 public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 ```
 
-| parameter | description |
-| --- | --- |
-| worksheetIndex | Index of the worksheet. |
-| cellName | Name of the cell. |
-| value | The value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index of the worksheet. |
+| cellName | String | Name of the cell. |
+| value | Object | The value. |
 
 ## Return Value
 
@@ -94,11 +94,11 @@ Gets the cell that can be used for chart series or categories
 public IChartDataCell GetCell(string worksheetName, int row, int column)
 ```
 
-| parameter | description |
-| --- | --- |
-| worksheetName | Name of the worksheet. |
-| row | The row. |
-| column | The column. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| worksheetName | String | Name of the worksheet. |
+| row | Int32 | The row. |
+| column | Int32 | The column. |
 
 ## Return Value
 
@@ -121,12 +121,12 @@ Gets the cell that can be used for chart series or categories
 public IChartDataCell GetCell(int worksheetIndex, int row, int column, object value)
 ```
 
-| parameter | description |
-| --- | --- |
-| worksheetIndex | Index of the worksheet. |
-| row | The row. |
-| column | The column. |
-| value | The value. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index of the worksheet. |
+| row | Int32 | The row. |
+| column | Int32 | The column. |
+| value | Object | The value. |
 
 ## Return Value
 

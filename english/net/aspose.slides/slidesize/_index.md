@@ -16,7 +16,7 @@ public class SlideSize : ISlideSize
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Orientation](orientation) { get; set; } | Returns or sets the slide orientation. Changing this value will swap slide's dimensions. Read/write [`SlideOrientation`](../slideorientation). |
 | [Size](size) { get; } | Returns or sets the size in points. Assigning any value will reset [`Type`](./type) property to Custom and set [`Orientation`](./orientation). Read/write SizeF. |

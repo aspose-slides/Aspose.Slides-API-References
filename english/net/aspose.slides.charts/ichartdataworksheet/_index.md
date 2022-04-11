@@ -16,7 +16,7 @@ public interface IChartDataWorksheet
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Index](index) { get; } | Gets the index. Read-only Int32. |
 | [Name](name) { get; } | Gets the name. Read-only String. |

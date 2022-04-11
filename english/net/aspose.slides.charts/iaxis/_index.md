@@ -16,7 +16,7 @@ public interface IAxis : IFormattedTextContainer
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ActualMajorUnit](actualmajorunit) { get; } | Specifies actual major unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |
 | [ActualMajorUnitScale](actualmajorunitscale) { get; } | Specifies actual major unit scale of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. |

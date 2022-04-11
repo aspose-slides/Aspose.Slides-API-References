@@ -14,9 +14,9 @@ Removes a command at the specified index.
 public void RemoveAt(int index)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index for removing command Int32 |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index for removing command Int32 |
 
 ### See Also
 

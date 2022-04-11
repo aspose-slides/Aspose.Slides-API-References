@@ -17,7 +17,7 @@ public class AlphaReplaceEffectiveData :
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alpha](alpha) { get; } | Returns a threshold. Read-only Single. |
 

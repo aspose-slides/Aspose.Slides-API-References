@@ -14,7 +14,7 @@ Returns IMasterThemeable interface. Read-only [`IMasterThemeable`](../../../aspo
 public IMasterThemeable AsIMasterThemeable { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

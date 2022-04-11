@@ -16,7 +16,7 @@ public enum EffectTriggerType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | AfterPrevious | `0` |  |
 | OnClick | `1` |  |

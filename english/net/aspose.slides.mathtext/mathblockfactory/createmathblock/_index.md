@@ -35,9 +35,9 @@ Create a math block and place the element in it
 public IMathBlock CreateMathBlock(IMathElement mathElement)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathElement | A math element |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathElement | IMathElement | A math element |
 
 ## Return Value
 
@@ -61,9 +61,9 @@ Create a math block and place elements in it
 public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathElements | math elements |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathElements | IMathElementCollection | math elements |
 
 ## Return Value
 

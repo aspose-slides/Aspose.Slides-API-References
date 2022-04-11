@@ -14,10 +14,10 @@ Creates and returns HTML formatter for a simple slide show html which shows slid
 public static HtmlFormatter CreateSlideShowFormatter(string css, bool showSlideTitle)
 ```
 
-| parameter | description |
-| --- | --- |
-| css | Specifies URL of CCS file used. |
-| showSlideTitle | Add slide title if there is one above slide image. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| css | String | Specifies URL of CCS file used. |
+| showSlideTitle | Boolean | Add slide title if there is one above slide image. |
 
 ### See Also
 

@@ -14,7 +14,7 @@ Returns IWarningInfo interface. Read-only [`IWarningInfo`](../../iwarninginfo).
 public IWarningInfo AsIWarningInfo { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

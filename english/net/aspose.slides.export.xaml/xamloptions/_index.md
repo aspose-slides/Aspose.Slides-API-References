@@ -16,13 +16,13 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [XamlOptions](xamloptions)() | Creates the XamlOptions instance. |
 | [ExportHiddenSlides](exporthiddenslides) { get; set; } | Determines whether hidden slides will be exported. |
 | [OutputSaver](outputsaver) { get; set; } | Represents an implementation of IOutputSaver interface. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

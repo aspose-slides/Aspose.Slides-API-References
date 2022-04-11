@@ -16,7 +16,7 @@ public interface ISection
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Name](name) { get; set; } | Name of the section. |
 | [SectionId](sectionid) { get; } | Section Id. |

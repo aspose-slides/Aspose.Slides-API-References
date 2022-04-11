@@ -16,7 +16,7 @@ public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIHtmlFormattingController](asihtmlformattingcontroller) { get; } | Returns IHtmlFormattingController interface. |
 

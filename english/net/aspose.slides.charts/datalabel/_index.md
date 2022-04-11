@@ -16,7 +16,7 @@ public class DataLabel : IDataLabel
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DataLabel](datalabel)(…) | Creates a new instance of DataLabel class. |
 | [ActualHeight](actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |

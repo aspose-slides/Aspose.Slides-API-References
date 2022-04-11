@@ -16,7 +16,7 @@ public interface IMasterTheme : ITheme
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsITheme](asitheme) { get; } | Allows to get base ITheme interface. Read-only [`ITheme`](../itheme). |
 | [ExtraColorSchemes](extracolorschemes) { get; } | Returns the collection of additional color schemes. These schemes don't affect presentation's look, they can be selected as main color scheme for a slide. Read-only [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |

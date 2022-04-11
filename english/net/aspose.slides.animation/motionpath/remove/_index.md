@@ -14,9 +14,9 @@ Removes specified commans from the collection.
 public void Remove(IMotionCmdPath item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | Motion path to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IMotionCmdPath | Motion path to remove. |
 
 ### See Also
 

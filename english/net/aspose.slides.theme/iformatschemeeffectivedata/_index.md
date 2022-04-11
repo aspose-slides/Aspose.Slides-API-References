@@ -16,14 +16,14 @@ public interface IFormatSchemeEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GetBackgroundFillStyles](getbackgroundfillstyles)(…) | Returns a collection of theme defined background fill styles. |
 | [GetEffectStyles](geteffectstyles)(…) | Returns a collection of theme defined effect styles. |
 | [GetFillStyles](getfillstyles)(…) | Returns a collection of theme defined fill styles. |
 | [GetLineStyles](getlinestyles)(…) | Returns a collection of theme defined line styles. |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IThemeEffectiveData`](../ithemeeffectivedata).
 

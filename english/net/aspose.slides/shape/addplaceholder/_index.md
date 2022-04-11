@@ -14,9 +14,9 @@ Adds a new placeholder if there is no and sets placeholder properties to a speci
 public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)
 ```
 
-| parameter | description |
-| --- | --- |
-| placeholderToCopyFrom | Placeholder to copy content from. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| placeholderToCopyFrom | IPlaceholder | Placeholder to copy content from. |
 
 ## Return Value
 

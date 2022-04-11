@@ -16,14 +16,14 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](asibaseportionformateffectivedata) { get; } | Returns IBasePortionFormatEffectiveData interface. |
 | [BookmarkId](bookmarkid) { get; } | Returns bookmark identifier. Read-only String. |
 | [HyperlinkClick](hyperlinkclick) { get; } | Returns the hyperlink defined for mouse click. Read-only [`IHyperlink`](../ihyperlink). |
 | [HyperlinkMouseOver](hyperlinkmouseover) { get; } | Returns the hyperlink defined for mouse over. Read-only [`IHyperlink`](../ihyperlink). |
 
-## Remarks
+### Remarks
 
 This interface is used together with the [`IPortionFormat`](../iportionformat) interface to return effective formatting values with inheritance applied.
 

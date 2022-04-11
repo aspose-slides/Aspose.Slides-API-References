@@ -16,7 +16,7 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 

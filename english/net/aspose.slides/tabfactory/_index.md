@@ -16,12 +16,12 @@ public class TabFactory : ITabFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TabFactory](tabfactory)() | The default constructor. |
 | [CreateTab](createtab)(…) | Creates a new ITab instance. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

@@ -14,9 +14,9 @@ Sets text to master notes slide date-time placeholder and all child date-time pl
 public void SetDateTimeAndChildDateTimesText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 ### See Also
 

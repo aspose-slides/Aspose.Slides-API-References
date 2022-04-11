@@ -14,9 +14,9 @@ Adds a Portion to the end of collection.
 public void Add(IPortion value)
 ```
 
-| parameter | description |
-| --- | --- |
-| value | The Portion to be added to the end of the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | IPortion | The Portion to be added to the end of the collection. |
 
 ### See Also
 

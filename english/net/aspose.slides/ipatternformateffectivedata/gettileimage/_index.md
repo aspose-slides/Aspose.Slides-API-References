@@ -14,10 +14,10 @@ Creates a tile image for the pattern fill with a specified colors.
 public Bitmap GetTileImage(Color background, Color foreground)
 ```
 
-| parameter | description |
-| --- | --- |
-| background | The background Color for the pattern. |
-| foreground | The foreground Color for the pattern. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| background | Color | The background Color for the pattern. |
+| foreground | Color | The foreground Color for the pattern. |
 
 ## Return Value
 

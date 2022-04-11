@@ -14,7 +14,7 @@ Determines whether the shape is grouped. Read-only Boolean.
 public bool IsGrouped { get; }
 ```
 
-## Remarks
+### Remarks
 
 Property [`ParentGroup`](../parentgroup) returns parent GroupShape object if shape is grouped.
 

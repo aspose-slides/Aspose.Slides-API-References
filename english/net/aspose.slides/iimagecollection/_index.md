@@ -16,7 +16,7 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns image by its index. |
 | [AddImage](addimage)(…) | Add an image to a presentation. (7 methods) |

@@ -16,7 +16,7 @@ public enum LegendPositionType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Bottom | `0` | Specifies that the legend shall be drawn at the bottom of the chart. |
 | Left | `1` | Specifies that the legend shall be drawn at the left of the chart. |

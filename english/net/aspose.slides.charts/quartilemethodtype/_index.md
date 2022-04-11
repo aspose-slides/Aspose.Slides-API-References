@@ -16,7 +16,7 @@ public enum QuartileMethodType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Exclusive | `0` | Represents exclusive quartile method. |
 | Inclusive | `1` | Represents inclusive quartile method. |

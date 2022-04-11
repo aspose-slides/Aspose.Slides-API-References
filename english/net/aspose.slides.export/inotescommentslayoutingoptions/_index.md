@@ -16,7 +16,7 @@ public interface INotesCommentsLayoutingOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CommentsAreaColor](commentsareacolor) { get; set; } | Gets or sets the color of comments area (Applies only if comments are displayed on the right). |
 | [CommentsAreaWidth](commentsareawidth) { get; set; } | Gets or sets the width of the comment output area in pixels (Applies only if comments are displayed on the right). |

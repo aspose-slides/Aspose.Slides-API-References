@@ -16,7 +16,7 @@ public enum ErrorBarValueType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Custom | `0` | Specifies that the length of the error bars shall be determined by the Plus and Minus elements. |
 | Fixed | `1` | Specifies that the length of the error bars shall be the fixed value determined by Error Bar Value. |

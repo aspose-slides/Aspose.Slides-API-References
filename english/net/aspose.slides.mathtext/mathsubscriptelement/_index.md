@@ -16,13 +16,13 @@ public sealed class MathSubscriptElement : BaseScript, IMathSubscriptElement
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathSubscriptElement](mathsubscriptelement)(…) | Initializes a new instance of the MathSubscriptElement class. |
 | [Subscript](subscript) { get; } | Subscript |
 | [GetChildren](getchildren)() | Get children elements |
 
-## Examples
+### Examples
 
 Example:
 

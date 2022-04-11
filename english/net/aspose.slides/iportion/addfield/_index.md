@@ -14,9 +14,9 @@ Converts this portion to the automaticaly updated field.
 public void AddField(IFieldType fieldType)
 ```
 
-| parameter | description |
-| --- | --- |
-| fieldType | Type of field [`IFieldType`](../../ifieldtype) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldType | IFieldType | Type of field [`IFieldType`](../../ifieldtype) |
 
 ### See Also
 
@@ -35,9 +35,9 @@ Converts this portion to the automaticaly updated field.
 public void AddField(string internalString)
 ```
 
-| parameter | description |
-| --- | --- |
-| internalString | Internal name of FieldTypeEx String |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| internalString | String | Internal name of FieldTypeEx String |
 
 ### See Also
 

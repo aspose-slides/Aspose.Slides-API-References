@@ -14,9 +14,9 @@ Replaces image data.
 public void ReplaceImage(byte[] newImageData)
 ```
 
-| parameter | description |
-| --- | --- |
-| newImageData | The new image's data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newImageData | Byte[] | The new image's data. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Replaces image.
 public void ReplaceImage(Image newImage)
 ```
 
-| parameter | description |
-| --- | --- |
-| newImage | The new image. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newImage | Image | The new image. |
 
 ### See Also
 
@@ -54,9 +54,9 @@ Replaces image.
 public void ReplaceImage(IPPImage newImage)
 ```
 
-| parameter | description |
-| --- | --- |
-| newImage | The new IPPImage. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newImage | IPPImage | The new IPPImage. |
 
 ### See Also
 

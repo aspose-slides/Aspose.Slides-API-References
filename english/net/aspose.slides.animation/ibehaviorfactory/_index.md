@@ -16,7 +16,7 @@ public interface IBehaviorFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateColorEffect](createcoloreffect)() | Creates color effect. |
 | [CreateCommandEffect](createcommandeffect)() | Creates command effect. |
@@ -27,7 +27,7 @@ public interface IBehaviorFactory
 | [CreateScaleEffect](createscaleeffect)() | Creates scale effect. |
 | [CreateSetEffect](createseteffect)() | Creates set effect. |
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

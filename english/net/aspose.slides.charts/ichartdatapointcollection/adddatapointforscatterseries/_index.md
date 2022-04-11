@@ -14,10 +14,10 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | Double | Data point XValue |
+| yValue | Double | Data point YValue |
 
 ## Return Value
 
@@ -40,10 +40,10 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCell yValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | Double | Data point XValue |
+| yValue | IChartDataCell | Data point YValue |
 
 ## Return Value
 
@@ -67,10 +67,10 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, double yValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | IChartDataCell | Data point XValue |
+| yValue | Double | Data point YValue |
 
 ## Return Value
 
@@ -94,10 +94,10 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChartDataCell yValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | IChartDataCell | Data point XValue |
+| yValue | IChartDataCell | Data point YValue |
 
 ## Return Value
 
@@ -121,10 +121,10 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | Double | Data point YValue |
 
 ## Return Value
 
@@ -147,10 +147,10 @@ Creates the new data point and adds it to the end of collection. Applicable for 
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCell yValue)
 ```
 
-| parameter | description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | IChartDataCell | Data point YValue |
 
 ## Return Value
 

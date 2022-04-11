@@ -16,7 +16,7 @@ public interface IMathElement
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Accent](accent)(…) | Sets an accent mark (a character on the top of this element) |
 | [AsArgumentOfFunction](asargumentoffunction)(…) | Takes specified function using this instance as the argument (5 methods) |
@@ -44,7 +44,7 @@ public interface IMathElement
 | [ToMathArray](tomatharray)() | Puts in a vertical array |
 | [Underbar](underbar)() | Sets a bar on the bottom of this element |
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,7 +16,7 @@ public class FilterEffect : Behavior, IFilterEffect
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FilterEffect](filtereffect)() | Default constructor. |
 | [Reveal](reveal) { get; set; } | Represents that effect with behavior must reveal (in/out) Read/write [`FilterEffectRevealType`](../filtereffectrevealtype). |

@@ -14,7 +14,7 @@ Gets or sets the formula in R1C1-style.
 public string R1C1Formula { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

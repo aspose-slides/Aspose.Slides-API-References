@@ -15,18 +15,18 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
     EffectTriggerType triggerType)
 ```
 
-| parameter | description |
-| --- | --- |
-| paragraph | Paragraph object [`IParagraph`](../../../aspose.slides/iparagraph) |
-| effectType | Type of an animation effect [`EffectType`](../../effecttype) |
-| subtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
-| triggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| paragraph | IParagraph | Paragraph object [`IParagraph`](../../../aspose.slides/iparagraph) |
+| effectType | EffectType | Type of an animation effect [`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
 ## Return Value
 
 New effect object [`IEffect`](../../ieffect)
 
-## Examples
+### Examples
 
 ```csharp
 [C#]
@@ -64,12 +64,12 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
     EffectTriggerType triggerType)
 ```
 
-| parameter | description |
-| --- | --- |
-| shape | Shape object [`IShape`](../../../aspose.slides/ishape) for adding an effect |
-| effectType | Type of an animation effect [`EffectType`](../../effecttype) |
-| subtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
-| triggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shape | IShape | Shape object [`IShape`](../../../aspose.slides/ishape) for adding an effect |
+| effectType | EffectType | Type of an animation effect [`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
 ## Return Value
 
@@ -97,14 +97,14 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
     EffectType effectType, EffectSubtype subtype, EffectTriggerType triggerType)
 ```
 
-| parameter | description |
-| --- | --- |
-| chart | Chart object [`IChart`](../../../aspose.slides.charts/ichart) |
-| type | Type of an animation effect [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
-| index | Index Int32 |
-| effectType | Type of an animation effect [`EffectType`](../../effecttype) |
-| subtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
-| triggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chart | IChart | Chart object [`IChart`](../../../aspose.slides.charts/ichart) |
+| type | EffectChartMajorGroupingType | Type of an animation effect [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
+| index | Int32 | Index Int32 |
+| effectType | EffectType | Type of an animation effect [`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
 ## Return Value
 
@@ -134,15 +134,15 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
     EffectTriggerType triggerType)
 ```
 
-| parameter | description |
-| --- | --- |
-| chart | Chart object [`IChart`](../../../aspose.slides.charts/ichart) |
-| type | Type of an animation effect [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
-| seriesIndex | Index of chart series Int32 |
-| categoriesIndex | Index of category Int32 |
-| effectType | Type of an animation effect [`EffectType`](../../effecttype) |
-| subtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
-| triggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chart | IChart | Chart object [`IChart`](../../../aspose.slides.charts/ichart) |
+| type | EffectChartMinorGroupingType | Type of an animation effect [`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
+| seriesIndex | Int32 | Index of chart series Int32 |
+| categoriesIndex | Int32 | Index of category Int32 |
+| effectType | EffectType | Type of an animation effect [`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
 ## Return Value
 

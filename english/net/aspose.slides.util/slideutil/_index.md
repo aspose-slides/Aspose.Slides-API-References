@@ -16,7 +16,7 @@ public static class SlideUtil
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [AlignShapes](alignshapes)(…) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. (4 methods) |
 | static [FindShape](findshape)(…) | Find shape by alternative text in a PPTX presentation. (2 methods) |

@@ -16,7 +16,7 @@ public enum TransitionSoundMode
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | StartSound | `0` |  |

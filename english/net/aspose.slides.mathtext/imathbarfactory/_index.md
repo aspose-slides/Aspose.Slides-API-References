@@ -16,11 +16,11 @@ public interface IMathBarFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathBar](createmathbar)(…) | Create a math bar by applying to the element (2 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

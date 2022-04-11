@@ -14,11 +14,11 @@ Creates a copy of the specified template column and insert it at the specified p
 public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Index of a new column. |
-| templ | Column which is used as a template. |
-| withAttachedColumns | True to copy also all columns attached to the template column. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of a new column. |
+| templ | IColumn | Column which is used as a template. |
+| withAttachedColumns | Boolean | True to copy also all columns attached to the template column. |
 
 ## Return Value
 

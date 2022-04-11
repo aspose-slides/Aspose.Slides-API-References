@@ -16,7 +16,7 @@ public enum NumberedBulletStyle : sbyte
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Not defined. |
 | BulletAlphaLCPeriod | `0` | Lowercase alphabetical characters with a period. Sample: a., b., c., ... |

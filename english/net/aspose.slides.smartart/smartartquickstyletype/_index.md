@@ -16,7 +16,7 @@ public enum SmartArtQuickStyleType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | SimpleFill | `0` | SimpleFill |
 | WhiteOutline | `1` | WhiteOutline |

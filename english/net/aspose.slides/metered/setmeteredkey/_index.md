@@ -14,10 +14,10 @@ Sets metered public and private key
 public void SetMeteredKey(string publicKey, string privateKey)
 ```
 
-| parameter | description |
-| --- | --- |
-| publicKey | public key |
-| privateKey | private key |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| publicKey | String | public key |
+| privateKey | String | private key |
 
 ### See Also
 

@@ -14,9 +14,9 @@ Changes slide date-time placeholder visibility.
 public void SetDateTimeVisibility(bool isVisible)
 ```
 
-| parameter | description |
-| --- | --- |
-| isVisible | true - makes a date-time placeholder visible, otherwise - hides it. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | Boolean | true - makes a date-time placeholder visible, otherwise - hides it. |
 
 ### See Also
 

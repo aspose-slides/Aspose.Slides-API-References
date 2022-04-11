@@ -16,7 +16,7 @@ public interface IPictureFillFormat : IFillParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
 | [CropBottom](cropbottom) { get; set; } | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write Single. |

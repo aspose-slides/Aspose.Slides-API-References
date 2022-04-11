@@ -16,7 +16,7 @@ public class DataTable : IDataTable
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Chart](chart) { get; } | Returns chart. Read-only [`IChart`](../ichart). |
 | [Format](format) { get; } | Returns the line, fill, and effect styles of an object. Read-only [`IFormat`](../iformat). |

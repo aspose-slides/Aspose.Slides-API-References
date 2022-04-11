@@ -14,9 +14,9 @@ Returns if error bars X allowed for specified series type.
 public static bool IsErrorBarsXAllowed(ChartType seriesType)
 ```
 
-| parameter | description |
-| --- | --- |
-| seriesType | Series type. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| seriesType | ChartType | Series type. |
 
 ## Return Value
 

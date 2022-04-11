@@ -14,9 +14,9 @@ Adds a new empty slide to the end of the collection.
 public ISlide AddEmptySlide(ILayoutSlide layout)
 ```
 
-| parameter | description |
-| --- | --- |
-| layout | Layout for a slide. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| layout | ILayoutSlide | Layout for a slide. |
 
 ## Return Value
 

@@ -16,7 +16,7 @@ public enum SlideOrientation
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Landscape | `0` | Landscape orientation. |
 | Portrait | `1` | Portrait orientation. |

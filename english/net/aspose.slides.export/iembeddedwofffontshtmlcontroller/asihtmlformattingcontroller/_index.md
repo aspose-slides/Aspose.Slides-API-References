@@ -14,7 +14,7 @@ Returns IHtmlFormattingController interface.
 public IHtmlFormattingController AsIHtmlFormattingController { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

@@ -16,7 +16,7 @@ public class GroupShape : Shape, IGroupShape
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIShape](asishape) { get; } | Allows to get base IShape interface. Read-only [`IShape`](../ishape). |
 | [GroupShapeLock](groupshapelock) { get; } | Returns shape's locks. Read-only [`IGroupShapeLock`](../igroupshapelock). |

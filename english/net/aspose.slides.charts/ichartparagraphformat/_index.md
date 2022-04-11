@@ -16,7 +16,7 @@ public interface IChartParagraphFormat
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alignment](alignment) { get; set; } | Returns or sets the text alignment in a paragraph. Read/write [`TextAlignment`](../../aspose.slides/textalignment). |
 | [DefaultTabSize](defaulttabsize) { get; set; } | Returns or sets default tabulation size. Read/write Single. |

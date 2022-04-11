@@ -14,12 +14,12 @@ Copy to specified array.
 public void CopyTo(IMathElement[] array, int arrayIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| array | Array to copy to. |
-| arrayIndex | Index to begin copying. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| array | IMathElement[] | Array to copy to. |
+| arrayIndex | Int32 | Index to begin copying. |
 
-## Examples
+### Examples
 
 Example:
 

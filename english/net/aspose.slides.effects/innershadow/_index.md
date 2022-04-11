@@ -16,7 +16,7 @@ public class InnerShadow : IInnerShadow
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BlurRadius](blurradius) { get; set; } | Blur radius. Read/write Double. |
 | [Direction](direction) { get; set; } | Direction of shadow. Read/write Single. |

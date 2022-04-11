@@ -14,7 +14,7 @@ Represents a specified chart's data label cell value display behavior. True disp
 public bool ShowLabelValueFromCell { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the ShowLabelValueFromCell property for the new data labels in the DataLabelCollection collection. Set this property with value also sets this value to the ShowLabelValueFromCell property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.DefaultDataLabelFormat.ShowLabelValueFromCell = val;" cause to all DataLabels[i].ShowLabelValueFromCell is equal to val).
 

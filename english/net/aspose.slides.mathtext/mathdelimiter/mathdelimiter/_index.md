@@ -14,17 +14,17 @@ Initializes MathDelimiter with the specified element as single base argument
 public MathDelimiter(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | The base element to which the delimiter is applied. Can be null. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | The base element to which the delimiter is applied. Can be null. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Throws then *element* is a container for another elements, such as MathBlock. In this case, you need to call a different constructor with IEnumerable argument. |
 
-## Examples
+### Examples
 
 Example:
 

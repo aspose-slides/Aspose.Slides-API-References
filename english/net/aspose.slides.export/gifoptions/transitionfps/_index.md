@@ -14,7 +14,7 @@ Gets or sets transition FPS [frames/sec] The default value is 25.
 public int TransitionFps { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

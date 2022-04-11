@@ -16,7 +16,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns element by index. (2 indexers) |
 

@@ -16,7 +16,7 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns IChartDataCell object for defined level. |
 | [DeleteGroupingItem](deletegroupingitem)(…) | Delete grouping item for defined level. |

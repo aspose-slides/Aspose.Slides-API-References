@@ -14,10 +14,10 @@ Moves a shape from the collection to the specified position.
 public void Reorder(int index, IShape shape)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Target index. |
-| shape | Shape to move. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Target index. |
+| shape | IShape | Shape to move. |
 
 ### See Also
 
@@ -36,10 +36,10 @@ Moves shapes from the collection to the specified position. Shapes will be place
 public void Reorder(int index, params IShape[] shapes)
 ```
 
-| parameter | description |
-| --- | --- |
-| index | Target index. |
-| shapes | Shapes to move. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Target index. |
+| shapes | IShape[] | Shapes to move. |
 
 ### See Also
 

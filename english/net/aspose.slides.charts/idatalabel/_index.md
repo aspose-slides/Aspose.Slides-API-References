@@ -16,7 +16,7 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIActualLayout](asiactuallayout) { get; } | Returns IActualLayout interface. |
 | [AsILayoutable](asilayoutable) { get; } | Returns ILayoutable interface. Read-only [`ILayoutable`](../ilayoutable). |

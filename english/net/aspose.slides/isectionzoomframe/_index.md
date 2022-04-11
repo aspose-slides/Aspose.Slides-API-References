@@ -16,7 +16,7 @@ public interface ISectionZoomFrame : IZoomObject
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TargetSection](targetsection) { get; set; } | Gets or sets the section object that the Section Zoom object is linked to. Read/write [`ISection`](../isection). |
 

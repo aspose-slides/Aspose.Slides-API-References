@@ -16,7 +16,7 @@ public interface IOverrideTheme : ITheme
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsITheme](asitheme) { get; } | Allows to get base ITheme interface. Read-only [`ITheme`](../itheme). |
 | [IsEmpty](isempty) { get; } | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only Boolean. |

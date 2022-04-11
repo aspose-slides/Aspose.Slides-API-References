@@ -16,7 +16,7 @@ public enum DisplayBlanksAsType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Gap | `0` | Specifies that blank values shall be left as a gap. |
 | Span | `1` | Specifies that blank values shall be spanned with a line. |

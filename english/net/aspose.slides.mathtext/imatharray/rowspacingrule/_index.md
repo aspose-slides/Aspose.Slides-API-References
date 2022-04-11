@@ -14,7 +14,7 @@ The type of vertical spacing between array elements
 public MathRowSpacingRule RowSpacingRule { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

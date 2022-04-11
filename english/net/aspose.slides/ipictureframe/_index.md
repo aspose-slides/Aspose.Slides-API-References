@@ -16,7 +16,7 @@ public interface IPictureFrame : IGeometryShape
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIGeometryShape](asigeometryshape) { get; } | Allows to get base IGeometryShape interface. Read-only [`IGeometryShape`](../igeometryshape). |
 | [PictureFormat](pictureformat) { get; } | Returns the PictureFillFormat object for a picture frame. Read-only [`IPictureFillFormat`](../ipicturefillformat). |

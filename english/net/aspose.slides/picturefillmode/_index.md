@@ -16,7 +16,7 @@ public enum PictureFillMode
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Tile | `0` |  |
 | Stretch | `1` |  |

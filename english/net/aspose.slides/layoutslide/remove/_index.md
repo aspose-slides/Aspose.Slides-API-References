@@ -14,13 +14,13 @@ Removes layout from presentation.
 public void Remove()
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | Thrown if layout is already removed from presentation or if layout is used in presentation (its HasDependingSlides property is true). |
 
-## Remarks
+### Remarks
 
 To avoid throwing of the PptxEditException check layout's HasDependingSlides property before.
 

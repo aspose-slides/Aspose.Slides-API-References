@@ -16,11 +16,11 @@ public interface IMathRightSubSuperscriptElementFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathRightSubSuperscriptElement](createmathrightsubsuperscriptelement)(…) | Creates IMathRightSubSuperscriptElementFactory |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

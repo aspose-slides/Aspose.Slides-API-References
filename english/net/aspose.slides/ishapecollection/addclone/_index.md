@@ -14,9 +14,9 @@ Adds a copy of a specified shape to the end of the collection. X, Y, Width and H
 public IShape AddClone(IShape sourceShape)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceShape | IShape | Shape to clone. |
 
 ## Return Value
 
@@ -39,11 +39,11 @@ Adds a copy of a specified shape to the end of the collection. Width and Height 
 public IShape AddClone(IShape sourceShape, float x, float y)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceShape | IShape | Shape to clone. |
+| x | Single | X coordinate of a new shape. |
+| y | Single | Y coordinate of a new shape. |
 
 ## Return Value
 
@@ -66,13 +66,13 @@ Adds a copy of a specified shape to the end of the collection.
 public IShape AddClone(IShape sourceShape, float x, float y, float width, float height)
 ```
 
-| parameter | description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceShape | IShape | Shape to clone. |
+| x | Single | X coordinate of a new shape. |
+| y | Single | Y coordinate of a new shape. |
+| width | Single | Width of a new shape. |
+| height | Single | Height of a new shape. |
 
 ## Return Value
 

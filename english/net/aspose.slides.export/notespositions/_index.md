@@ -16,7 +16,7 @@ public enum NotesPositions
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | Specifies that notes should not be displayed at all. |
 | BottomFull | `1` | Specifies that notes should be full displayed using additional pages as it is needed. |

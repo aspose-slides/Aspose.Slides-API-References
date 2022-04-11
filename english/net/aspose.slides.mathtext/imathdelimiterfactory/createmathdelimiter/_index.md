@@ -14,9 +14,9 @@ Create a math delimiter by applying to the element
 public IMathDelimiter CreateMathDelimiter(IMathElement element)
 ```
 
-| parameter | description |
-| --- | --- |
-| element | math element to apply delimiter |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to apply delimiter |
 
 ## Return Value
 
@@ -40,9 +40,9 @@ Create a math delimiter by applying to the element
 public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathElements | math elements to apply delimiter |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathElements | IMathElementCollection | math elements to apply delimiter |
 
 ## Return Value
 

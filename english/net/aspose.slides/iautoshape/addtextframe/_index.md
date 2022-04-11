@@ -14,9 +14,9 @@ Adds a new TextFrameEx to a shape. If shape already has TextFrameEx then simply 
 public ITextFrame AddTextFrame(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Default text for a new TextFrame. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Default text for a new TextFrame. |
 
 ## Return Value
 

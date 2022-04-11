@@ -14,7 +14,7 @@ Specifies the size of the hole in a doughnut chart (can be between 10 and 90 per
 public byte DoughnutHoleSize { get; }
 ```
 
-## Remarks
+### Remarks
 
 This is the projection of the property ParentSeriesGroup.DoughnutHoleSize.
 

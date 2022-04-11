@@ -14,11 +14,11 @@ Adds IMathBlock to the end of collection.
 public void Add(IMathBlock item)
 ```
 
-| parameter | description |
-| --- | --- |
-| item | A mathematical block that will be added to the end of the collection |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | IMathBlock | A mathematical block that will be added to the end of the collection |
 
-## Examples
+### Examples
 
 Example:
 

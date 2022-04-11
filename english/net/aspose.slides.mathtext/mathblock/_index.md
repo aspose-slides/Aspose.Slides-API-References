@@ -16,7 +16,7 @@ public sealed class MathBlock : MathElementBase, IMathBlock
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MathBlock](mathblock)() | Initializes a new instance of the MathBlock class. |
 | [MathBlock](mathblock)(…) | Creates a new mathematical block and puts specified element in it (2 constructors) |
@@ -40,7 +40,7 @@ public sealed class MathBlock : MathElementBase, IMathBlock
 | override [ToMathArray](tomatharray)() | Puts child elements in a vertical array |
 | [WriteAsMathMl](writeasmathml)(…) | Saves content of this [`MathBlock`](../mathblock) as MathML |
 
-## Examples
+### Examples
 
 Example:
 

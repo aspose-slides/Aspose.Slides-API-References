@@ -16,7 +16,7 @@ public enum MaterialPresetType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Clear | `0` |  |

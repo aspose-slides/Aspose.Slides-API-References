@@ -16,7 +16,7 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 | [ThroughBlack](throughblack) { get; set; } | Specifies whether the transition fades through black. Read/write Boolean. |

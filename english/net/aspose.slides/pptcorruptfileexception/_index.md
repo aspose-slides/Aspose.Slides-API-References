@@ -16,7 +16,7 @@ public class PptCorruptFileException : PptReadException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception)() | Default constructor. |
 | [PptCorruptFileException](pptcorruptfileexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

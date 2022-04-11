@@ -15,11 +15,11 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
     string baseUri)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | Path. |
-| fileName | File Name. |
-| baseUri | Base URI. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Path. |
+| fileName | String | File Name. |
+| baseUri | String | Base URI. |
 
 ## Return Value
 

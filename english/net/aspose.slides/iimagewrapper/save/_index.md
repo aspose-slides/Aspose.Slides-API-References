@@ -14,9 +14,9 @@ Saves Image to the specified file
 public void Save(string fileName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fileName | File name String |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | File name String |
 
 ### See Also
 
@@ -34,10 +34,10 @@ Saves the Image to the specified stream in the specified format.
 public void Save(Stream stream, PPImageFormat imageFormat)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Stream for saving image Stream |
-| imageFormat | Image format [`PPImageFormat`](../../ppimageformat) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream for saving image Stream |
+| imageFormat | PPImageFormat | Image format [`PPImageFormat`](../../ppimageformat) |
 
 ### See Also
 
@@ -56,10 +56,10 @@ Saves the Image to the specified file in the specified format.
 public void Save(string fileName, PPImageFormat imageFormat)
 ```
 
-| parameter | description |
-| --- | --- |
-| fileName | File name String |
-| imageFormat | Image format [`PPImageFormat`](../../ppimageformat) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | File name String |
+| imageFormat | PPImageFormat | Image format [`PPImageFormat`](../../ppimageformat) |
 
 ### See Also
 

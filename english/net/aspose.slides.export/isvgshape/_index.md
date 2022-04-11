@@ -16,7 +16,7 @@ public interface ISvgShape
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Id](id) { get; set; } | Sets or gets id for the shape |
 | [SetEventHandler](seteventhandler)(…) | Sets event handler for the shape |

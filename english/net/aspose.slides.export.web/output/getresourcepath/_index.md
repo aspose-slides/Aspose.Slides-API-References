@@ -14,9 +14,9 @@ Returns the path for a given resource.
 public string GetResourcePath(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | Resource object. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | Resource object. |
 
 ## Return Value
 

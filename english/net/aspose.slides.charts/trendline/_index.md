@@ -16,7 +16,7 @@ public class Trendline : ITrendline
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Backward](backward) { get; set; } | Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Read/write Double. |
 | [Chart](chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |

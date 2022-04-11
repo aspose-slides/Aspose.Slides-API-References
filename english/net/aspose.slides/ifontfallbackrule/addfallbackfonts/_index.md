@@ -14,11 +14,11 @@ Adds a new font(s) to the list of FallBack fonts.
 public void AddFallBackFonts(string fontName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontName | Font's name or names (delimited by comma) for FallBack |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontName | String | Font's name or names (delimited by comma) for FallBack |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]
@@ -47,11 +47,11 @@ Adds a new fonts to the list of FallBack fonts.
 public void AddFallBackFonts(string[] fontNames)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontNames | Font's name or names (delimited by comma) for FallBack |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontNames | String[] | Font's name or names (delimited by comma) for FallBack |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

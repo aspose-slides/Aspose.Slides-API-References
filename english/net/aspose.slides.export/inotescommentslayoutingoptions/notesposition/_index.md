@@ -14,7 +14,7 @@ Gets or sets the position of the notes on the page.
 public NotesPositions NotesPosition { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is NotesPositions.None.
 

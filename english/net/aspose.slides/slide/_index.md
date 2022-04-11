@@ -16,7 +16,7 @@ public sealed class Slide : BaseSlide, ISlide
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the slide. Read-only [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
 | [Hidden](hidden) { get; set; } | Determines whether the specified slide is hidden during a slide show. Read/write Boolean. |

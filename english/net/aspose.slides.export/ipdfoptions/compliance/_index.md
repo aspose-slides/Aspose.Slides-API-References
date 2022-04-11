@@ -14,7 +14,7 @@ Desired conformance level for generated PDF document. Read/write [`PdfCompliance
 public PdfCompliance Compliance { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is Pdf15.
 

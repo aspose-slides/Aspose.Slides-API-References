@@ -14,13 +14,13 @@ Set the horizontal alignment of the specified columns
 public void SetColumnsAlignment(int columnIndex, uint columnsCount, MathHorizontalAlignment val)
 ```
 
-| parameter | description |
-| --- | --- |
-| columnIndex | Zero-based index of the first column to set alignment |
-| columnsCount | The number of columns to specify the alignment |
-| val | New value of horizontal alignment of specified column |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnIndex | Int32 | Zero-based index of the first column to set alignment |
+| columnsCount | UInt32 | The number of columns to specify the alignment |
+| val | MathHorizontalAlignment | New value of horizontal alignment of specified column |
 
-## Examples
+### Examples
 
 Example:
 

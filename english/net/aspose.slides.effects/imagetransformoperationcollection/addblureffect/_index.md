@@ -14,10 +14,10 @@ Adds the new Blur effect to the end of a collection.
 public IBlur AddBlurEffect(double radius, bool grow)
 ```
 
-| parameter | description |
-| --- | --- |
-| radius | The radius of blur. |
-| grow | Specifies whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| radius | Double | The radius of blur. |
+| grow | Boolean | Specifies whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. |
 
 ## Return Value
 

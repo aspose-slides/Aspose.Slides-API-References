@@ -16,7 +16,7 @@ public class CustomXmlPart : ICustomXmlPart
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ItemId](itemid) { get; set; } | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only Guid. |
 | [NamespaceSchemas](namespaceschemas) { get; } | Returns the collection XML schemas that are associated with the custom XML part. Read-only String[]. |

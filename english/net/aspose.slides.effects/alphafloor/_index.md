@@ -16,7 +16,7 @@ public class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`AlphaFloor`](../alphafloor) is equal to the current [`AlphaFloor`](../alphafloor). |
 | [GetEffective](geteffective)() | Gets effective Alpha Floor effect data with the inheritance applied. |

@@ -16,7 +16,7 @@ public interface IFontScheme
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Major](major) { get; } | Returns the fonts collection for a "heading" part of the slide. Read-only [`IFonts`](../../aspose.slides/ifonts). |
 | [Minor](minor) { get; } | Returns the fonts collection for a "body" part of the slide. Read-only [`IFonts`](../../aspose.slides/ifonts). |

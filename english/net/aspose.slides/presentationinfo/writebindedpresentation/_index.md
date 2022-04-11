@@ -14,9 +14,9 @@ Writes binded presentation to stream.
 public void WriteBindedPresentation(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | The stream must be seekable and writable. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream must be seekable and writable. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Writes binded presentation to file.
 public void WriteBindedPresentation(string file)
 ```
 
-| parameter | description |
-| --- | --- |
-| file | Presentation file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | Presentation file. |
 
 ### See Also
 

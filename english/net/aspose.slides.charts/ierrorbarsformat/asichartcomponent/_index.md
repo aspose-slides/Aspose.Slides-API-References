@@ -14,7 +14,7 @@ Returns IChartComponent interface. Read-only [`IChartComponent`](../../ichartcom
 public IChartComponent AsIChartComponent { get; }
 ```
 
-## Remarks
+### Remarks
 
 For COM compatibility.
 

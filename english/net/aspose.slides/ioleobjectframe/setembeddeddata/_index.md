@@ -14,21 +14,21 @@ Sets information about OLE embedded data.
 public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
 ```
 
-| parameter | description |
-| --- | --- |
-| embeddedData | Embedded data [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| embeddedData | IOleEmbeddedDataInfo | Embedded data [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo) |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | When embeddedData parameter is null. |
 
-## Remarks
+### Remarks
 
 This method changes the properties of the object to reflect the new data and sets the IsObjectLink flag to false, indicating that the OLE object is embedded.
 
-## Examples
+### Examples
 
 Following example demonstrates how to change OLE embedded data and its type for existing [`IOleObjectFrame`](../../ioleobjectframe) object
 

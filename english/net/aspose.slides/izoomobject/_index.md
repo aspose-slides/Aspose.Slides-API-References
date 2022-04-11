@@ -16,7 +16,7 @@ public interface IZoomObject : IGraphicalObject
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
 | [Image](image) { get; set; } | Gets or sets image for zoom object. Read/write [`IPPImage`](../ippimage). |

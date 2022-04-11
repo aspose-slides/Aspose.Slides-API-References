@@ -14,10 +14,10 @@ Called to write html slide header. Called once per each of slides.
 public void WriteSlideStart(IHtmlGenerator generator, ISlide slide)
 ```
 
-| parameter | description |
-| --- | --- |
-| generator | Output object. |
-| slide | Slide which being currently rendered. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| generator | IHtmlGenerator | Output object. |
+| slide | ISlide | Slide which being currently rendered. |
 
 ### See Also
 

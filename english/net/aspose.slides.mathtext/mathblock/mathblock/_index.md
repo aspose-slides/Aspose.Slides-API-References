@@ -14,7 +14,7 @@ Initializes a new instance of the MathBlock class.
 public MathBlock()
 ```
 
-## Examples
+### Examples
 
 Example:
 
@@ -39,11 +39,11 @@ Creates a new mathematical block and puts specified elements in it
 public MathBlock(IEnumerable<IMathElement> mathElements)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathElements | Mathematical elements to put in the block |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathElements | IEnumerable`1 | Mathematical elements to put in the block |
 
-## Examples
+### Examples
 
 Example:
 
@@ -70,11 +70,11 @@ Creates a new mathematical block and puts specified element in it
 public MathBlock(IMathElement mathElement)
 ```
 
-| parameter | description |
-| --- | --- |
-| mathElement | The mathematical element to put in the block |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathElement | IMathElement | The mathematical element to put in the block |
 
-## Examples
+### Examples
 
 Example:
 

@@ -16,12 +16,12 @@ public interface IMathematicalTextFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CreateMathematicalText](createmathematicaltext)() | Create empty mathematical text element |
 | [CreateMathematicalText](createmathematicaltext)(…) | Create mathematical text element with the specified value (3 methods) |
 
-## Remarks
+### Remarks
 
 For COM comparibility
 

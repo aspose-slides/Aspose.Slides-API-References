@@ -16,7 +16,7 @@ public class PptxEditException : PptxException
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PptxEditException](pptxeditexception)() | Default constructor. |
 | [PptxEditException](pptxeditexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |

@@ -16,12 +16,12 @@ public interface IRenderingOptions : ISaveOptions
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 | [NotesCommentsLayouting](notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

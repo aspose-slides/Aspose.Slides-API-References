@@ -16,7 +16,7 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
 | [CropBottom](cropbottom) { get; } | Returns the number of percents of real image height that are cropped off the bottom of the picture. Read-only Single. |
@@ -27,7 +27,7 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 | [Picture](picture) { get; } | Returns the picture. Read-only [`IPictureEffectiveData`](../ipictureeffectivedata). |
 | [PictureFillMode](picturefillmode) { get; } | Returns the picture fill mode. Read-only [`PictureFillMode`](../picturefillmode). |
 
-## Remarks
+### Remarks
 
 This interface is used as a part of [`IFillFormatEffectiveData`](../ifillformateffectivedata).
 

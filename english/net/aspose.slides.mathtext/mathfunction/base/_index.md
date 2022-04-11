@@ -14,7 +14,7 @@ Function Argument
 public IMathElement Base { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

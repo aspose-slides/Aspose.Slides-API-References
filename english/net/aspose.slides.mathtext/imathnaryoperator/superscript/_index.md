@@ -14,7 +14,7 @@ Specifies a supersript argument that, for example, in the case of an integral, s
 public IMathElement Superscript { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

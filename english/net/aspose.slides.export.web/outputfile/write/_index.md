@@ -14,9 +14,9 @@ Writes the file content to the stream.
 public abstract void Write(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | Destination stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Destination stream. |
 
 ### See Also
 

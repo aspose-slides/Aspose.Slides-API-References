@@ -16,7 +16,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [StreamWrapperFactory](streamwrapperfactory)() | The default constructor. |
 | [CreateFileStreamWrapper](createfilestreamwrapper)(…) | Creates FileStream with the specified path and creation mode. (2 methods) |

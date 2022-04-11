@@ -16,7 +16,7 @@ public class MasterTheme : Theme, IMasterTheme
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [ColorScheme](colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
 | [ExtraColorSchemes](extracolorschemes) { get; } | Returns the collection of additional color schemes. These schemes don't affect presentation's look, they can be selected as main color scheme for a slide. Read-only [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |

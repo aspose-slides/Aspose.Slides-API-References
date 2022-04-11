@@ -16,7 +16,7 @@ public sealed class GeometryPath : IGeometryPath
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GeometryPath](geometrypath)() | Creates instance of GeometryPath |
 | [FillMode](fillmode) { get; set; } | Sets fill mode |

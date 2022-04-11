@@ -14,7 +14,7 @@ Number of rows in the matrix
 public int RowCount { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

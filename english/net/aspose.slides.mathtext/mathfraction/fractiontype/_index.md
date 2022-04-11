@@ -14,7 +14,7 @@ Fraction type Default: Bar
 public MathFractionTypes FractionType { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

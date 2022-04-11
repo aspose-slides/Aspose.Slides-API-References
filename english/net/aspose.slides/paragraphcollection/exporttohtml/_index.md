@@ -15,11 +15,11 @@ public string ExportToHtml(int firstParagraphIndex, int paragraphsCount,
     ITextToHtmlConversionOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| firstParagraphIndex | First paragraph index Int32 |
-| paragraphsCount | Paragraph count Int32 |
-| options | Convert options [`ITextToHtmlConversionOptions`](../../../aspose.slides.export/itexttohtmlconversionoptions) |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstParagraphIndex | Int32 | First paragraph index Int32 |
+| paragraphsCount | Int32 | Paragraph count Int32 |
+| options | ITextToHtmlConversionOptions | Convert options [`ITextToHtmlConversionOptions`](../../../aspose.slides.export/itexttohtmlconversionoptions) |
 
 ## Return Value
 

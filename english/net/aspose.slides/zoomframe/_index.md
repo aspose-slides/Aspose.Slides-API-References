@@ -16,7 +16,7 @@ public class ZoomFrame : ZoomObject, IZoomFrame
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TargetSlide](targetslide) { get; set; } | Gets or sets the slide object that the Slide Zoom object links to. Read/write [`ISlide`](../islide). |
 

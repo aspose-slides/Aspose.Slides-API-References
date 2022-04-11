@@ -16,7 +16,7 @@ public interface IWheelTransition : ITransitionValueBase
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Spokes](spokes) { get; set; } | Number spokes of wheel transition. Read/write UInt32. |

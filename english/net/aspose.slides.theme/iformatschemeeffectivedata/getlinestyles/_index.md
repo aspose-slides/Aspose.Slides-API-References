@@ -14,9 +14,9 @@ Returns a collection of theme defined line styles.
 public ILineFormatCollectionEffectiveData GetLineStyles(Color styleColor)
 ```
 
-| parameter | description |
-| --- | --- |
-| styleColor | Color Color |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| styleColor | Color | Color Color |
 
 ## Return Value
 

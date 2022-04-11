@@ -16,7 +16,7 @@ public class PPImage : IDisposable, IPPImage
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BinaryData](binarydata) { get; } | Returns the copy of an image's data. Read-only Byte[]. |
 | [ContentType](contenttype) { get; } | Returns a MIME type of an image, encoded in [`BinaryData`](./binarydata). Read-only String. |

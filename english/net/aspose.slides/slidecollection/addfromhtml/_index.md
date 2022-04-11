@@ -14,9 +14,9 @@ Creates slides from HTML text and adds them to the end of the collection.
 public ISlide[] AddFromHtml(Stream htmlStream)
 ```
 
-| parameter | description |
-| --- | --- |
-| htmlStream | A Stream object which will be used as a source of a HTML file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlStream | Stream | A Stream object which will be used as a source of a HTML file. |
 
 ## Return Value
 
@@ -39,9 +39,9 @@ Creates slides from HTML text and adds them to the end of the collection.
 public ISlide[] AddFromHtml(string htmlText)
 ```
 
-| parameter | description |
-| --- | --- |
-| htmlText | Html to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlText | String | Html to add. |
 
 ## Return Value
 
@@ -64,9 +64,9 @@ Creates slides from HTML text and adds them to the end of the collection.
 public ISlide[] AddFromHtml(TextReader htmlReader)
 ```
 
-| parameter | description |
-| --- | --- |
-| htmlReader | TextReader object which will be used as a source of a HTML file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlReader | TextReader | TextReader object which will be used as a source of a HTML file. |
 
 ## Return Value
 
@@ -89,11 +89,11 @@ Creates slides from HTML text and adds them to the end of the collection.
 public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
 ```
 
-| parameter | description |
-| --- | --- |
-| htmlStream | A Stream object which will be used as a source of a HTML file. |
-| resolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | An URI of the specified HTML. Used to resolve relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlStream | Stream | A Stream object which will be used as a source of a HTML file. |
+| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ## Return Value
 
@@ -117,11 +117,11 @@ Creates slides from HTML text and adds them to the end of the collection.
 public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
 ```
 
-| parameter | description |
-| --- | --- |
-| htmlText | Html to add. |
-| resolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | An URI of the specified HTML. Used to resolve relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlText | String | Html to add. |
+| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ## Return Value
 
@@ -145,11 +145,11 @@ Creates slides from HTML text and adds them to the end of the collection.
 public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
 ```
 
-| parameter | description |
-| --- | --- |
-| htmlReader | TextReader object which will be used as a source of a HTML file. |
-| resolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | An URI of the specified HTML. Used to resolve relative links. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlReader | TextReader | TextReader object which will be used as a source of a HTML file. |
+| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ## Return Value
 

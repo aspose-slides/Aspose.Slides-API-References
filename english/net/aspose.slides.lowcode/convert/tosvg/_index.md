@@ -14,11 +14,11 @@ Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 public static void ToSvg(string presPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| presPath | Path of the input presentation |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
 
-## Examples
+### Examples
 
 ```csharp
 Convert.ToSvg("pres.pptx");
@@ -40,12 +40,12 @@ Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Input presentation |
-| getOutPath | &gt;Callback that returns the SVG output path for each slide in the presentation |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Input presentation |
+| getOutPath | GetOutPathCallback | &gt;Callback that returns the SVG output path for each slide in the presentation |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("input.pptx"))    
@@ -72,12 +72,12 @@ Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 public static void ToSvg(Presentation pres, ISVGOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Input presentation |
-| options | SVG export options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Input presentation |
+| options | ISVGOptions | SVG export options |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("input.pptx"))    
@@ -104,12 +104,12 @@ Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| presPath | Path of the input presentation |
-| getOutPath | Callback that returns the SVG output path for each slide in the presentation |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| getOutPath | GetOutPathCallback | Callback that returns the SVG output path for each slide in the presentation |
 
-## Examples
+### Examples
 
 ```csharp
 Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
@@ -132,13 +132,13 @@ Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| pres | Input presentation |
-| getOutPath | Callback that returns the SVG output path for each slide in the presentation |
-| options | SVG export options |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Input presentation |
+| getOutPath | GetOutPathCallback | Callback that returns the SVG output path for each slide in the presentation |
+| options | ISVGOptions | SVG export options |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation("input.pptx"))    

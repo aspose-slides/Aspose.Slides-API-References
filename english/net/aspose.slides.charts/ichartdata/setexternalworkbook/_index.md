@@ -14,17 +14,17 @@ Sets external workbook as a data source for the chart. Chart data will be update
 public void SetExternalWorkbook(string workbookPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| workbookPath | Path to the target workbook |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| workbookPath | String | Path to the target workbook |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | External workbook is not available or can't be loaded. |
 
-## Examples
+### Examples
 
 ```csharp
 [C#]
@@ -52,18 +52,18 @@ Sets external workbook as a data source for the chart.
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 ```
 
-| parameter | description |
-| --- | --- |
-| workbookPath | Path to the target workbook |
-| updateChartData | If value is false only workbook path will be updated. Chart data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available. If value is true chart data will be updated from the target workbook. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| workbookPath | String | Path to the target workbook |
+| updateChartData | Boolean | If value is false only workbook path will be updated. Chart data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available. If value is true chart data will be updated from the target workbook. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | External workbook is not available or can't be loaded. |
 
-## Examples
+### Examples
 
 ```csharp
 using (Presentation pres = new Presentation())

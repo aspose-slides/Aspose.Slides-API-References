@@ -16,7 +16,7 @@ public class MotionPath : IMotionPath
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MotionPath](motionpath)() | The default constructor. |
 | [Count](count) { get; } | Returns the number of paths in the collection. Read-only Int32. |

@@ -14,9 +14,9 @@ Sets value from specified cell.
 public void SetFromOneCell(IChartDataCell cell)
 ```
 
-| parameter | description |
-| --- | --- |
-| cell | Cell. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cell | IChartDataCell | Cell. |
 
 ### See Also
 

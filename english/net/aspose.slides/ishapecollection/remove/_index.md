@@ -14,9 +14,9 @@ Removes the first occurrence of a specific shape from the collection.
 public void Remove(IShape shape)
 ```
 
-| parameter | description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shape | IShape | The shape to remove from the collection. |
 
 ### See Also
 

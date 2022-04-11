@@ -14,7 +14,7 @@ Returns or sets shapes animation option. Read/write Boolean.
 public bool AnimateShapes { get; set; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

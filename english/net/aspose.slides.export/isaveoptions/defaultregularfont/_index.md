@@ -14,7 +14,7 @@ Returns or sets font used in case source font is not found. Read-write String.
 public string DefaultRegularFont { get; set; }
 ```
 
-## Examples
+### Examples
 
 ```csharp
 [C#]

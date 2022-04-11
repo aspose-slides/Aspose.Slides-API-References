@@ -14,9 +14,9 @@ Returns if bubble size coordinates can be used for specified series type.
 public static bool IsSeriesUsesBubbleSizeCoordinate(ChartType seriesType)
 ```
 
-| parameter | description |
-| --- | --- |
-| seriesType | Series type. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| seriesType | ChartType | Series type. |
 
 ## Return Value
 

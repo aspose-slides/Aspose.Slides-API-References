@@ -14,7 +14,7 @@ Represents the format of the data label. Read-only [`IFormat`](../../iformat).
 public IFormat Format { get; }
 ```
 
-## Remarks
+### Remarks
 
 If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property represents the default format for the new data labels in the DataLabelCollection collection.
 

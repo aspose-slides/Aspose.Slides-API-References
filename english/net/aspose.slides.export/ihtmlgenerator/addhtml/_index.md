@@ -14,9 +14,9 @@ Adds formatted HTML text.
 public void AddHtml(char[] html)
 ```
 
-| parameter | description |
-| --- | --- |
-| html | Text to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| html | Char[] | Text to add. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Adds formatted HTML text.
 public void AddHtml(string html)
 ```
 
-| parameter | description |
-| --- | --- |
-| html | Text to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| html | String | Text to add. |
 
 ### See Also
 
@@ -54,11 +54,11 @@ Adds formatted HTML text.
 public void AddHtml(char[] html, int startIndex, int length)
 ```
 
-| parameter | description |
-| --- | --- |
-| html | Text to add. |
-| startIndex | Start index of the portion to add. |
-| length | Length of the portion to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| html | Char[] | Text to add. |
+| startIndex | Int32 | Start index of the portion to add. |
+| length | Int32 | Length of the portion to add. |
 
 ### See Also
 

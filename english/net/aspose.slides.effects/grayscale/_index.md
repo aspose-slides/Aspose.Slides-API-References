@@ -16,7 +16,7 @@ public class GrayScale : ImageTransformOperation, IGrayScale
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [Equals](equals)(…) | Determines whether the specified [`GrayScale`](../grayscale) is equal to the current [`GrayScale`](../grayscale). |
 | [GetEffective](geteffective)() | Gets effective Gray Scale effect data with the inheritance applied. |

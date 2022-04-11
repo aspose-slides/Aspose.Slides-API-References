@@ -14,9 +14,9 @@ Checks if this field is equal to another.
 public override bool Equals(object obj)
 ```
 
-| parameter | description |
-| --- | --- |
-| obj | Field to compare. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | Field to compare. |
 
 ## Return Value
 

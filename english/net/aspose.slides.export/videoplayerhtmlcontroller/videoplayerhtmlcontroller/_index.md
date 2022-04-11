@@ -14,11 +14,11 @@ Creates a new instance of controller
 public VideoPlayerHtmlController(string path, string fileName, string baseUri)
 ```
 
-| parameter | description |
-| --- | --- |
-| path | The path where video and audio files will be generated |
-| fileName | The name of the HTML file |
-| baseUri | The base URI which will be used for links generating |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | The path where video and audio files will be generated |
+| fileName | String | The name of the HTML file |
+| baseUri | String | The base URI which will be used for links generating |
 
 ### See Also
 

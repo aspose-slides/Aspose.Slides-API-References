@@ -14,9 +14,9 @@ Sets text to slide footer placeholder.
 public void SetFooterText(string text)
 ```
 
-| parameter | description |
-| --- | --- |
-| text | Text to set. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 ### See Also
 

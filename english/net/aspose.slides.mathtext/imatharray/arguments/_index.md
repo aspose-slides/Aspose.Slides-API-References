@@ -14,7 +14,7 @@ The set of items of the array
 public IMathElementCollection Arguments { get; }
 ```
 
-## Examples
+### Examples
 
 Example:
 

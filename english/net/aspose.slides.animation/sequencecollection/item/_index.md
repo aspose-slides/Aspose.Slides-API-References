@@ -14,9 +14,9 @@ Returns a sequense at the specified index.
 public ISequence this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index |  |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  |  |
 
 ### See Also
 

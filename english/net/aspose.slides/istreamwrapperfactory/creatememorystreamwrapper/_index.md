@@ -35,9 +35,9 @@ Creates MemoryStream wrapper based on the specified byte array.
 public IStreamWrapper CreateMemoryStreamWrapper(byte[] buffer)
 ```
 
-| parameter | description |
-| --- | --- |
-| buffer | Byte array Byte[] |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| buffer | Byte[] | Byte array Byte[] |
 
 ## Return Value
 

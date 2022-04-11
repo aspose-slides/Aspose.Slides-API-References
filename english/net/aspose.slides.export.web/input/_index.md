@@ -16,7 +16,7 @@ public sealed class Input
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AddTemplate&lt;TContextObject&gt;](addtemplate)(…) |  |
 
