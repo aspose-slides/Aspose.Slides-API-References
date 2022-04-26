@@ -3,7 +3,7 @@ title: ChartDataWorkbook
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1260
+weight: 1240
 url: /net/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook class
@@ -11,21 +11,32 @@ url: /net/aspose.slides.charts/chartdataworkbook/
 Provides access to embedded Excel workbook
 
 ```csharp
-public class ChartDataWorkbook : IChartDataWorkbook
+public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Worksheets](worksheets) { get; } | Gets a collection of worksheets. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CalculateFormulas](calculateformulas)() | Calculates all formulas in the workbook and updates corresponding cells values. |
-| [Clear](clear)(…) | Clear all cells values on sheet |
-| [GetCell](getcell)(…) | Gets the cell that can be used for chart series or categories (5 methods) |
-| [GetCellCollection](getcellcollection)(…) | Gets the set of cells. |
+| [Clear](clear)(int) | Clear all cells values on sheet |
+| [GetCell](getcell)(int, string) | Gets the cell that can be used for chart series or categories |
+| [GetCell](getcell)(int, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](getcell)(int, string, object) | Gets the cell that can be used for chart series or categories |
+| [GetCell](getcell)(string, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](getcell)(int, int, int, object) | Gets the cell that can be used for chart series or categories |
+| [GetCellCollection](getcellcollection)(string, bool) | Gets the set of cells. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartData](../chartdata)
 * interface [IChartDataWorkbook](../ichartdataworkbook)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: ISaveOptionsFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4000
+weight: 3750
 url: /net/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory interface
@@ -14,7 +14,7 @@ Allows to create save options' instances
 public interface ISaveOptionsFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |

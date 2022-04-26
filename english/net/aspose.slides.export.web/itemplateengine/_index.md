@@ -3,7 +3,7 @@ title: ITemplateEngine
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4440
+weight: 4190
 url: /net/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine interface
@@ -14,12 +14,12 @@ Represents a template engine that transforms template and data pair into resulti
 public interface ITemplateEngine
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddTemplate](addtemplate)(…) | Adds the template to the template collection. |
-| [Compile](compile)(…) | Transforms the template with the given key and model object to output. |
+| [AddTemplate](addtemplate)(string, string, Type) | Adds the template to the template collection. |
+| [Compile](compile)(string, object) | Transforms the template with the given key and model object to output. |
 
 ### See Also
 

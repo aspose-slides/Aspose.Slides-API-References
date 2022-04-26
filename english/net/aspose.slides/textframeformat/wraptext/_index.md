@@ -3,12 +3,12 @@ title: WrapText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 160
 url: /net/aspose.slides/textframeformat/wraptext/
 ---
 ## TextFrameFormat.WrapText property
 
-True if text is wrapped at TextFrame's margins. Read/write [`NullableBool`](../../nullablebool).
+**True** if text is wrapped at TextFrame's margins. Read/write [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool WrapText { get; set; }

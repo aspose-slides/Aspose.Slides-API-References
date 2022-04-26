@@ -3,7 +3,7 @@ title: ToString
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 190
 url: /net/aspose.slides/colorformat/tostring/
 ---
 ## ColorFormat.ToString method

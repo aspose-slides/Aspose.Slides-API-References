@@ -3,7 +3,7 @@ title: IDocumentProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5460
+weight: 5210
 url: /net/aspose.slides/idocumentproperties/
 ---
 ## IDocumentProperties interface
@@ -14,7 +14,7 @@ Represents properties of a presentation.
 public interface IDocumentProperties
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -42,13 +42,28 @@ public interface IDocumentProperties
 | [Subject](subject) { get; set; } | Returns or sets the subject of a presentation. Read/write String. |
 | [Title](title) { get; set; } | Returns or sets the title of a presentation. Read/write String. |
 | [TotalEditingTime](totaleditingtime) { get; set; } | Total editing time of a presentation. Read/write TimeSpan. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearBuiltInProperties](clearbuiltinproperties)() | Clears and sets default values for all builtIn properties. |
 | [ClearCustomProperties](clearcustomproperties)() | Removes all custom properties. |
-| [ContainsCustomProperty](containscustomproperty)(…) | Check presents of a custom property with a specified name. |
-| [GetCustomPropertyName](getcustompropertyname)(…) | Return a custom property name at the specified index. |
-| [GetCustomPropertyValue](getcustompropertyvalue)(…) | Gets a named boolean value from the custom properties. (6 methods) |
-| [RemoveCustomProperty](removecustomproperty)(…) | Remove a custom property associated with a specified name. |
-| [SetCustomPropertyValue](setcustompropertyvalue)(…) | Sets a named boolean custom property. (6 methods) |
+| [ContainsCustomProperty](containscustomproperty)(string) | Check presents of a custom property with a specified name. |
+| [GetCustomPropertyName](getcustompropertyname)(int) | Return a custom property name at the specified index. |
+| [GetCustomPropertyValue](getcustompropertyvalue)(string, out bool) | Gets a named boolean value from the custom properties. |
+| [GetCustomPropertyValue](getcustompropertyvalue)(string, out DateTime) | Gets a named DateTime value from the custom properties. |
+| [GetCustomPropertyValue](getcustompropertyvalue)(string, out double) | Gets a named double value from the custom properties. |
+| [GetCustomPropertyValue](getcustompropertyvalue)(string, out float) | Gets a named float value from the custom properties. |
+| [GetCustomPropertyValue](getcustompropertyvalue)(string, out int) | Gets a named integer value from the custom properties. |
+| [GetCustomPropertyValue](getcustompropertyvalue)(string, out string) | Gets a named string value from the custom properties. |
+| [RemoveCustomProperty](removecustomproperty)(string) | Remove a custom property associated with a specified name. |
+| [SetCustomPropertyValue](setcustompropertyvalue)(string, bool) | Sets a named boolean custom property. |
+| [SetCustomPropertyValue](setcustompropertyvalue)(string, DateTime) | Sets a named DateTime custom property. |
+| [SetCustomPropertyValue](setcustompropertyvalue)(string, double) | Sets a named double custom property. |
+| [SetCustomPropertyValue](setcustompropertyvalue)(string, float) | Sets a named float custom property. |
+| [SetCustomPropertyValue](setcustompropertyvalue)(string, int) | Sets a named integer custom property. |
+| [SetCustomPropertyValue](setcustompropertyvalue)(string, string) | Sets a named string custom property. |
 
 ### See Also
 

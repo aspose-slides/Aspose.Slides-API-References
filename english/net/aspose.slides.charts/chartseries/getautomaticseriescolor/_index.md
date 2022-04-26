@@ -3,7 +3,7 @@ title: GetAutomaticSeriesColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 450
 url: /net/aspose.slides.charts/chartseries/getautomaticseriescolor/
 ---
 ## ChartSeries.GetAutomaticSeriesColor method

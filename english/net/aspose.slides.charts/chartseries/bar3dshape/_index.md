@@ -3,7 +3,7 @@ title: Bar3DShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 10
 url: /net/aspose.slides.charts/chartseries/bar3dshape/
 ---
 ## ChartSeries.Bar3DShape property

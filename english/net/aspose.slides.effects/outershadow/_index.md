@@ -3,7 +3,7 @@ title: OuterShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3620
+weight: 3420
 url: /net/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow class
@@ -14,7 +14,7 @@ Represents an Outer Shadow effect.
 public class OuterShadow : IOuterShadow
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -28,7 +28,12 @@ public class OuterShadow : IOuterShadow
 | [ShadowColor](shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [SkewHorizontal](skewhorizontal) { get; set; } | Specifies the horizontal skew angle (in degrees). Read/write Double. |
 | [SkewVertical](skewvertical) { get; set; } | Specifies the vertical skew angle (in degrees). Read/write Double. |
-| override [Equals](equals)(…) | Determines whether the specified [`OuterShadow`](../outershadow) is equal to the current [`OuterShadow`](../outershadow). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`OuterShadow`](../outershadow) is equal to the current [`OuterShadow`](../outershadow). |
 | [GetEffective](geteffective)() | Gets effective Outer Shadow effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

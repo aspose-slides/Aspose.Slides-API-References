@@ -81,7 +81,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | enum [ImagePixelFormat](./imagepixelformat) | Specifies the pixel format for the generated images. |
 | enum [LinkEmbedDecision](./linkembeddecision) | Determines how object will be processed during saving. |
 | enum [NotesPositions](./notespositions) | Represents the rule to render notes into exported document |
-| [Flags] enum [PdfAccessPermissions](./pdfaccesspermissions) | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. |
+| enum [PdfAccessPermissions](./pdfaccesspermissions) | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. |
 | enum [PdfCompliance](./pdfcompliance) | Constants which define the PDF standards compliance level. |
 | enum [PdfTextCompression](./pdftextcompression) | Constants which define the type of a compression applied to all content in the PDF file except images. |
 | enum [PicturesCompression](./picturescompression) | Represents the pictures compression level |

@@ -3,7 +3,7 @@ title: ShowMinorGridLines
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 490
 url: /net/aspose.slides.charts/iaxis/showminorgridlines/
 ---
 ## IAxis.ShowMinorGridLines property

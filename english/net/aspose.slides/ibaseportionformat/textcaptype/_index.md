@@ -3,7 +3,7 @@ title: TextCapType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 240
 url: /net/aspose.slides/ibaseportionformat/textcaptype/
 ---
 ## IBasePortionFormat.TextCapType property

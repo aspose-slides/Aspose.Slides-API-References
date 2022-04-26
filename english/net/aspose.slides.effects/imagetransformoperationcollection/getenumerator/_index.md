@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.slides.effects/imagetransformoperationcollection/getenumerator/
 ---
 ## ImageTransformOperationCollection.GetEnumerator method

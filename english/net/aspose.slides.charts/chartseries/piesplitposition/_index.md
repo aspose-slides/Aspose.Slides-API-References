@@ -3,7 +3,7 @@ title: PieSplitPosition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 320
 url: /net/aspose.slides.charts/chartseries/piesplitposition/
 ---
 ## ChartSeries.PieSplitPosition property

@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 210
 url: /net/aspose.slides.charts/ichart/style/
 ---
 ## IChart.Style property

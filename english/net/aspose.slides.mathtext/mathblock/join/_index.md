@@ -3,7 +3,7 @@ title: Join
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.slides.mathtext/mathblock/join/
 ---
 ## MathBlock.Join method (1 of 2)

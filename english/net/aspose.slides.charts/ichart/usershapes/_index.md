@@ -3,7 +3,7 @@ title: UserShapes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 230
 url: /net/aspose.slides.charts/ichart/usershapes/
 ---
 ## IChart.UserShapes property

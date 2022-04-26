@@ -3,7 +3,7 @@ title: BinWidth
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 480
+weight: 110
 url: /net/aspose.slides.charts/iaxis/binwidth/
 ---
 ## IAxis.BinWidth property

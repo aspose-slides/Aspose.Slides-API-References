@@ -3,7 +3,7 @@ title: IParagraph
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6250
+weight: 6000
 url: /net/aspose.slides/iparagraph/
 ---
 ## IParagraph interface
@@ -14,7 +14,7 @@ Represents a paragraph of a text.
 public interface IParagraph : ISlideComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,6 +23,11 @@ public interface IParagraph : ISlideComponent
 | [ParagraphFormat](paragraphformat) { get; } | Returns the formatting object for this paragraph. Read-only [`IParagraphFormat`](../iparagraphformat). |
 | [Portions](portions) { get; } | Returns the collection of a text portions. Read-only [`IPortionCollection`](../iportioncollection). |
 | [Text](text) { get; set; } | Gets or sets the the plain text of a paragraph. Read/write String. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetRect](getrect)() | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
 | [JoinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting. |
 

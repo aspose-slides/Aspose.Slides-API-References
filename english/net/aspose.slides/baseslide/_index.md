@@ -3,7 +3,7 @@ title: BaseSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 910
+weight: 890
 url: /net/aspose.slides/baseslide/
 ---
 ## BaseSlide class
@@ -14,7 +14,7 @@ Represents common data for all slide types.
 public abstract class BaseSlide : IBaseSlide
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -29,11 +29,16 @@ public abstract class BaseSlide : IBaseSlide
 | [SlideId](slideid) { get; } | Returns the ID of a slide. Read-only UInt32. |
 | virtual [SlideShowTransition](slideshowtransition) { get; } | Returns the Transition object which contains information about how the specified slide advances during a slide show. Read-only [`ISlideShowTransition`](../islideshowtransition). |
 | [Timeline](timeline) { get; } | Returns animation timeline object. Read-only [`IAnimationTimeLine`](../ianimationtimeline). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreateThemeEffective](createthemeeffective)() | Returns an effective theme for this slide. |
-| [Equals](equals)(…) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-| [FindShapeByAltText](findshapebyalttext)(…) | Finds first occurrence of a shape with the specified alternative text. |
+| [Equals](equals)(IBaseSlide) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [FindShapeByAltText](findshapebyalttext)(string) | Finds first occurrence of a shape with the specified alternative text. |
 | virtual [JoinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs all acceptable shapes. |
-| virtual [JoinPortionsWithSameFormatting](joinportionswithsameformatting)(…) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| virtual [JoinPortionsWithSameFormatting](joinportionswithsameformatting)(IShapeCollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 
 ### See Also
 

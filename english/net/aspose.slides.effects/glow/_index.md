@@ -3,7 +3,7 @@ title: Glow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2960
+weight: 2810
 url: /net/aspose.slides.effects/glow/
 ---
 ## Glow class
@@ -14,13 +14,18 @@ Represents a Glow effect, in which a color blurred outline is added outside the 
 public class Glow : IGlow
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Color](color) { get; } | Color format. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](radius) { get; set; } | Radius. Read/write Double. |
-| override [Equals](equals)(…) | Determines whether the specified [`Glow`](../glow) is equal to the current [`Glow`](../glow). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`Glow`](../glow) is equal to the current [`Glow`](../glow). |
 | [GetEffective](geteffective)() | Gets effective Glow effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

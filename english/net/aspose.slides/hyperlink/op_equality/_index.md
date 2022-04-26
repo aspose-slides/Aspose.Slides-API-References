@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 210
 url: /net/aspose.slides/hyperlink/op_equality/
 ---
 ## Hyperlink Equality operator
@@ -21,7 +21,7 @@ public static bool operator ==(Hyperlink hlink1, Hyperlink hlink2)
 
 ## Return Value
 
-True if hyperlinks are equal.
+**True** if hyperlinks are equal.
 
 ### See Also
 

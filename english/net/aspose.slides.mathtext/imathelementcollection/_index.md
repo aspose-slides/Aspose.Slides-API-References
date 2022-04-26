@@ -3,7 +3,7 @@ title: IMathElementCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7770
+weight: 7520
 url: /net/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection interface
@@ -14,21 +14,26 @@ Represents a collection of mathematical elements (MathElement).
 public interface IMathElementCollection : IEnumerable<IMathElement>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IMathElement`](../imathelement). |
-| [Add](add)(…) | Adds a math element to the end of the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IMathElement) | Adds a math element to the end of the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains a specific value. |
-| [CopyTo](copyto)(…) | Copy to specified array. |
-| [IndexOf](indexof)(…) | Determines the index of a specific math element in collection. |
-| [Insert](insert)(…) | Inserts a math element into the collection at the specified index. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index of the collection. |
+| [Contains](contains)(IMathElement) | Determines whether the collection contains a specific value. |
+| [CopyTo](copyto)(IMathElement[], int) | Copy to specified array. |
+| [IndexOf](indexof)(IMathElement) | Determines the index of a specific math element in collection. |
+| [Insert](insert)(int, IMathElement) | Inserts a math element into the collection at the specified index. |
+| [Remove](remove)(IMathElement) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
 
 ### Examples
 

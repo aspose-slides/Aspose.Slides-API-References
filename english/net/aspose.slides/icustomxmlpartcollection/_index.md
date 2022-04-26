@@ -3,7 +3,7 @@ title: ICustomXmlPartCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5430
+weight: 5180
 url: /net/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection interface
@@ -14,15 +14,22 @@ Represents collection of custom xml parts.
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns the element at the specified index. |
-| [Add](add)(…) | Adds new custom xml part. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(byte[]) | Adds new custom xml part. |
+| [Add](add)(Stream) | Adds new custom xml part. |
+| [Add](add)(string) | Adds new custom xml part. |
 | [Clear](clear)() | Removes all items from the collection. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(…) | Removes custom xml part at the specified index. |
+| [Remove](remove)(ICustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](removeat)(int) | Removes custom xml part at the specified index. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: InitFormatSchemeFrom
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 130
 url: /net/aspose.slides.theme/overridetheme/initformatschemefrom/
 ---
 ## OverrideTheme.InitFormatSchemeFrom method

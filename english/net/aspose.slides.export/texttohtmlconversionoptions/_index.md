@@ -3,7 +3,7 @@ title: TextToHtmlConversionOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4370
+weight: 4120
 url: /net/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions class
@@ -14,11 +14,16 @@ Options for extracting HTML from the Pptx text.
 public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TextToHtmlConversionOptions](texttohtmlconversionoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AddClipboardFragmentHeader](addclipboardfragmentheader) { get; set; } | Returns or sets value, indicating if Clipboard headers should be added. Read/write Boolean. |
 | [EncodingName](encodingname) { get; set; } | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
 | [LinkEmbedController](linkembedcontroller) { get; set; } | Returns or sets a callback object which controlls how external object will be stored. Read/write [`ILinkEmbedController`](../ilinkembedcontroller). |

@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 110
 url: /net/aspose.slides/portioncollection/remove/
 ---
 ## PortionCollection.Remove method

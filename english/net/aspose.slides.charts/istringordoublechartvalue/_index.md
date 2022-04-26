@@ -3,7 +3,7 @@ title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2110
+weight: 2090
 url: /net/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue interface
@@ -14,13 +14,18 @@ Represent string or double value which can be stored in pptx presentation docume
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsISingleCellChartValue](asisinglecellchartvalue) { get; } | Allows to get base ISingleCellChartValue interface. Read-only [`ISingleCellChartValue`](../isinglecellchartvalue). |
 | [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals. Read/write Double. |
 | [AsLiteralString](asliteralstring) { get; set; } | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals. Read/write String. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToDouble](todouble)() | Converts value to double. |
 
 ### See Also

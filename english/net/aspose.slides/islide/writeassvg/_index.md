@@ -3,7 +3,7 @@ title: WriteAsSvg
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 130
 url: /net/aspose.slides/islide/writeassvg/
 ---
 ## ISlide.WriteAsSvg method (1 of 2)

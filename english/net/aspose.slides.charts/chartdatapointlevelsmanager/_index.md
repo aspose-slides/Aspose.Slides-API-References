@@ -3,7 +3,7 @@ title: ChartDataPointLevelsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1240
+weight: 1220
 url: /net/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/chartdatapointlevelsmanager/
 Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based.
 
 ```csharp
-public class ChartDataPointLevelsManager : IChartDataPointLevelsManager
+public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,6 +23,8 @@ public class ChartDataPointLevelsManager : IChartDataPointLevelsManager
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartDataPoint](../chartdatapoint)
 * interface [IChartDataPointLevelsManager](../ichartdatapointlevelsmanager)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

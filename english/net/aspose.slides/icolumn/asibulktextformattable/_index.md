@@ -3,7 +3,7 @@ title: AsIBulkTextFormattable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 10
 url: /net/aspose.slides/icolumn/asibulktextformattable/
 ---
 ## IColumn.AsIBulkTextFormattable property

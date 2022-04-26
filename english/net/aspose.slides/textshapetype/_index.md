@@ -3,7 +3,7 @@ title: TextShapeType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10410
+weight: 10160
 url: /net/aspose.slides/textshapetype/
 ---
 ## TextShapeType enumeration

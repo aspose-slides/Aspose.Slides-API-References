@@ -3,7 +3,7 @@ title: InnerShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3580
+weight: 3400
 url: /net/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow class
@@ -14,7 +14,7 @@ Represents a Inner Shadow effect.
 public class InnerShadow : IInnerShadow
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,12 @@ public class InnerShadow : IInnerShadow
 | [Direction](direction) { get; set; } | Direction of shadow. Read/write Single. |
 | [Distance](distance) { get; set; } | Distance of shadow. Read/write Double. |
 | [ShadowColor](shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| override [Equals](equals)(…) | Determines whether the specified [`InnerShadow`](../innershadow) is equal to the current [`InnerShadow`](../innershadow). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`InnerShadow`](../innershadow) is equal to the current [`InnerShadow`](../innershadow). |
 | [GetEffective](geteffective)() | Gets effective Inner Shadow effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

@@ -3,7 +3,7 @@ title: CubicBezierTo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.slides/igeometrypath/cubicbezierto/
 ---
 ## IGeometryPath.CubicBezierTo method (1 of 4)
@@ -30,6 +30,31 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 ## IGeometryPath.CubicBezierTo method (2 of 4)
 
+Adds cubic Bezier curve at the end the path
+
+```csharp
+public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x1 | Single | X coordinate of first direction point |
+| y1 | Single | Y coordinate of first direction point |
+| x2 | Single | X coordinate of second direction point |
+| y2 | Single | Y coordinate of second direction point |
+| x3 | Single | X coordinate of end point |
+| y3 | Single | Y coordinate of end point |
+
+### See Also
+
+* interface [IGeometryPath](../../igeometrypath)
+* namespace [Aspose.Slides](../../igeometrypath)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IGeometryPath.CubicBezierTo method (3 of 4)
+
 Adds cubic Bezier curve to the specified place of the path
 
 ```csharp
@@ -48,31 +73,6 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 | exception | condition |
 | --- | --- |
 | ArgumentOutOfRangeException | Segment index is out of PathData range |
-
-### See Also
-
-* interface [IGeometryPath](../../igeometrypath)
-* namespace [Aspose.Slides](../../igeometrypath)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IGeometryPath.CubicBezierTo method (3 of 4)
-
-Adds cubic Bezier curve at the end the path
-
-```csharp
-public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| x1 | Single | X coordinate of first direction point |
-| y1 | Single | Y coordinate of first direction point |
-| x2 | Single | X coordinate of second direction point |
-| y2 | Single | Y coordinate of second direction point |
-| x3 | Single | X coordinate of end point |
-| y3 | Single | Y coordinate of end point |
 
 ### See Also
 

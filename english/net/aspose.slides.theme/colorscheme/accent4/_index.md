@@ -3,7 +3,7 @@ title: Accent4
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 40
 url: /net/aspose.slides.theme/colorscheme/accent4/
 ---
 ## ColorScheme.Accent4 property

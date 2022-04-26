@@ -3,7 +3,7 @@ title: AddAutoShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 60
 url: /net/aspose.slides/ishapecollection/addautoshape/
 ---
 ## IShapeCollection.AddAutoShape method (1 of 2)

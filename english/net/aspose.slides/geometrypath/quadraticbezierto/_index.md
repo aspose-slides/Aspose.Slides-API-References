@@ -3,7 +3,7 @@ title: QuadraticBezierTo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 100
 url: /net/aspose.slides/geometrypath/quadraticbezierto/
 ---
 ## GeometryPath.QuadraticBezierTo method (1 of 4)
@@ -29,6 +29,29 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 ## GeometryPath.QuadraticBezierTo method (2 of 4)
 
+Adds quadratic Bezier curve at the end the path
+
+```csharp
+public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x1 | Single | X coordinate of direction point |
+| y1 | Single | Y coordinate of direction point |
+| x2 | Single | X coordinate of end point |
+| y2 | Single | Y coordinate of end point |
+
+### See Also
+
+* class [GeometryPath](../../geometrypath)
+* namespace [Aspose.Slides](../../geometrypath)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GeometryPath.QuadraticBezierTo method (3 of 4)
+
 Adds quadratic Bezier curve to the specified place of the path
 
 ```csharp
@@ -46,29 +69,6 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 | exception | condition |
 | --- | --- |
 | ArgumentOutOfRangeException | Segment index is out of PathData range |
-
-### See Also
-
-* class [GeometryPath](../../geometrypath)
-* namespace [Aspose.Slides](../../geometrypath)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## GeometryPath.QuadraticBezierTo method (3 of 4)
-
-Adds quadratic Bezier curve at the end the path
-
-```csharp
-public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| x1 | Single | X coordinate of direction point |
-| y1 | Single | Y coordinate of direction point |
-| x2 | Single | X coordinate of end point |
-| y2 | Single | Y coordinate of end point |
 
 ### See Also
 

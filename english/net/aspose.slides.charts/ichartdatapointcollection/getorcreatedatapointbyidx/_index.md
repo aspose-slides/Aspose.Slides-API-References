@@ -3,7 +3,7 @@ title: GetOrCreateDataPointByIdx
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 250
 url: /net/aspose.slides.charts/ichartdatapointcollection/getorcreatedatapointbyidx/
 ---
 ## IChartDataPointCollection.GetOrCreateDataPointByIdx method

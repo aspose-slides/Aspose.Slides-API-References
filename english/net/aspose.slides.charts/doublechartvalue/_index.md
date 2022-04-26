@@ -3,7 +3,7 @@ title: DoubleChartValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1510
+weight: 1490
 url: /net/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue class
@@ -14,13 +14,18 @@ Represent double value which can be stored in pptx presentation document in two 
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsCell](ascell) { get; set; } | Returns or sets chart data cell. Read/write [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets value as literal double. Read/write Double. |
 | override [Data](data) { get; set; } | Returns or sets Data object. Read/write Object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToDouble](todouble)() | Converts to Double. |
 
 ### See Also

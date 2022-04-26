@@ -3,7 +3,7 @@ title: ChartPortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1310
+weight: 1290
 url: /net/aspose.slides.charts/chartportionformat/
 ---
 ## ChartPortionFormat class

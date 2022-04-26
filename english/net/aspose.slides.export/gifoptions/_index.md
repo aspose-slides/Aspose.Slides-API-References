@@ -3,7 +3,7 @@ title: GifOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3780
+weight: 3530
 url: /net/aspose.slides.export/gifoptions/
 ---
 ## GifOptions class
@@ -14,11 +14,16 @@ Represents GIF exporting options.
 public class GifOptions : SaveOptions, IGifOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [GifOptions](gifoptions)() | Initializes a new instance of the GifOptions class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DefaultDelay](defaultdelay) { get; set; } | Gets or sets default delay time [ms]. This value will be used if [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) is not set. The default value is 1000. |
 | [ExportHiddenSlides](exporthiddenslides) { get; set; } | Determines whether hidden slides will be exported. The default value is false. |
 | [FrameSize](framesize) { get; set; } | Gets or sets frame size. |

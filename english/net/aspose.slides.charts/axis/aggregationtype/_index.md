@@ -3,7 +3,7 @@ title: AggregationType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 70
 url: /net/aspose.slides.charts/axis/aggregationtype/
 ---
 ## Axis.AggregationType property

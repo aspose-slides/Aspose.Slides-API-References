@@ -3,7 +3,7 @@ title: Group
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 60
 url: /net/aspose.slides.mathtext/mathelementbase/group/
 ---
 ## MathElementBase.Group method (1 of 2)

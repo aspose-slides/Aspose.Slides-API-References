@@ -3,7 +3,7 @@ title: TickLabelRotationAngle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 520
 url: /net/aspose.slides.charts/axis/ticklabelrotationangle/
 ---
 ## Axis.TickLabelRotationAngle property

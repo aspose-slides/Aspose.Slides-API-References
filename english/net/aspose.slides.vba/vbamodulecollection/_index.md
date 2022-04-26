@@ -3,7 +3,7 @@ title: VbaModuleCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11070
+weight: 10820
 url: /net/aspose.slides.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
@@ -14,7 +14,7 @@ Represents a collection of a VBA Project modules.
 public sealed class VbaModuleCollection : IVbaModuleCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,10 +22,15 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddEmptyModule](addemptymodule)(…) | Adds a new empty module to the VBA Project. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddEmptyModule](addemptymodule)(string) | Adds a new empty module to the VBA Project. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection. |
+| [Remove](remove)(IVbaModule) | Removes the first occurrence of a specific object from the collection. |
 
 ### See Also
 

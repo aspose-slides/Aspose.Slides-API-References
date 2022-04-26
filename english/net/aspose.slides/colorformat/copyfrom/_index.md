@@ -3,7 +3,7 @@ title: CopyFrom
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 160
 url: /net/aspose.slides/colorformat/copyfrom/
 ---
 ## ColorFormat.CopyFrom method

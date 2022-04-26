@@ -3,7 +3,7 @@ title: StrokeOpacity
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 990
 url: /net/aspose.slides.animation/behaviorproperty/strokeopacity/
 ---
 ## BehaviorProperty.StrokeOpacity property

@@ -3,7 +3,7 @@ title: HidePlaceholders
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 60
 url: /net/aspose.slides.mathtext/imathmatrix/hideplaceholders/
 ---
 ## IMathMatrix.HidePlaceholders property

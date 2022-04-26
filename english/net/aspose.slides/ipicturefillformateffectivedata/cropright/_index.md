@@ -3,7 +3,7 @@ title: CropRight
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.slides/ipicturefillformateffectivedata/cropright/
 ---
 ## IPictureFillFormatEffectiveData.CropRight property

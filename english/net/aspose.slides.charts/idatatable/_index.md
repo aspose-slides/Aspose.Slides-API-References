@@ -3,7 +3,7 @@ title: IDataTable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1940
+weight: 1920
 url: /net/aspose.slides.charts/idatatable/
 ---
 ## IDataTable interface
@@ -14,7 +14,7 @@ Represents data table properties.
 public interface IDataTable : IFormattedTextContainer
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

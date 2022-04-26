@@ -3,7 +3,7 @@ title: Entries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 30
 url: /net/aspose.slides.charts/legend/entries/
 ---
 ## Legend.Entries property

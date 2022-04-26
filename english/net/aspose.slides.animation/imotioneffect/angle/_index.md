@@ -3,7 +3,7 @@ title: Angle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 10
 url: /net/aspose.slides.animation/imotioneffect/angle/
 ---
 ## IMotionEffect.Angle property

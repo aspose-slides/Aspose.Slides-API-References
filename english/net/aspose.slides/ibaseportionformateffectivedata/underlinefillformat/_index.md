@@ -3,7 +3,7 @@ title: UnderlineFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 260
 url: /net/aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
 ---
 ## IBasePortionFormatEffectiveData.UnderlineFillFormat property

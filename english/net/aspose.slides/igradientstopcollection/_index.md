@@ -3,7 +3,7 @@ title: IGradientStopCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5750
+weight: 5500
 url: /net/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection interface
@@ -14,15 +14,24 @@ Represnts a collection of gradient stops.
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns the gradient stop by index. |
-| [Add](add)(…) | Creates the new gradient stop and adds it to the end of collection. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(float, Color) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](add)(float, PresetColor) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](add)(float, SchemeColor) | Creates the new gradient stop and adds it to the end of collection. |
 | [Clear](clear)() | Removes all gradient stops from a collection. |
-| [Insert](insert)(…) | Creates the new gradient stop and inserts it at the specified index to the collection. (3 methods) |
-| [RemoveAt](removeat)(…) | Removes a gradient stop at the specified index. |
+| [Insert](insert)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](insert)(int, float, PresetColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](insert)(int, float, SchemeColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [RemoveAt](removeat)(int) | Removes a gradient stop at the specified index. |
 
 ### See Also
 

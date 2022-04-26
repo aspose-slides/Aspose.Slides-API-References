@@ -3,7 +3,7 @@ title: OfficeInteropShapeId
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 170
 url: /net/aspose.slides/ishape/officeinteropshapeid/
 ---
 ## IShape.OfficeInteropShapeId property

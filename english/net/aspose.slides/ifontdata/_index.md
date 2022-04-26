@@ -3,7 +3,7 @@ title: IFontData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5550
+weight: 5300
 url: /net/aspose.slides/ifontdata/
 ---
 ## IFontData interface
@@ -14,12 +14,17 @@ Represents a font definition.
 public interface IFontData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [FontName](fontname) { get; } | Returns the font name. Read-only String. |
-| [GetFontName](getfontname)(…) | Returns the font name, replacing theme referrence with an actual font used. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetFontName](getfontname)(IThemeEffectiveData) | Returns the font name, replacing theme referrence with an actual font used. |
 
 ### See Also
 

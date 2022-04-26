@@ -3,7 +3,7 @@ title: SoundIsBuiltIn
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 40
 url: /net/aspose.slides/islideshowtransition/soundisbuiltin/
 ---
 ## ISlideShowTransition.SoundIsBuiltIn property

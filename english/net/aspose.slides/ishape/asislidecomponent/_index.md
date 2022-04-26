@@ -3,7 +3,7 @@ title: AsISlideComponent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 40
 url: /net/aspose.slides/ishape/asislidecomponent/
 ---
 ## IShape.AsISlideComponent property

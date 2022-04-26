@@ -3,7 +3,7 @@ title: TemplateContext<TObject>
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4490
+weight: 4240
 url: /net/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext&lt;TObject&gt; class
@@ -14,7 +14,7 @@ Represents a model object interface for a template engine.
 public sealed class TemplateContext<TObject>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,12 @@ public sealed class TemplateContext<TObject>
 | [Local](local) { get; } | Returns local storage of the current template context. Read-only [`Storage`](../storage). |
 | [Object](object) { get; } | Returns the model object. Read-only !:TObject. |
 | [Output](output) { get; } | Returns collection of output elements of the host document. Read-only [`Output`](./output). |
-| [SubModel&lt;TSubModel&gt;](submodel)(…) |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SubModel&lt;TSubModel&gt;](submodel)(TSubModel) |  |
 
 ### See Also
 

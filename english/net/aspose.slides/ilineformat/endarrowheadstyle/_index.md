@@ -3,7 +3,7 @@ title: EndArrowheadStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 100
 url: /net/aspose.slides/ilineformat/endarrowheadstyle/
 ---
 ## ILineFormat.EndArrowheadStyle property

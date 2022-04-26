@@ -3,7 +3,7 @@ title: ToMathArray
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 210
 url: /net/aspose.slides.mathtext/imathelement/tomatharray/
 ---
 ## IMathElement.ToMathArray method

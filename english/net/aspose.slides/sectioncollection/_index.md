@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9270
+weight: 9020
 url: /net/aspose.slides/sectioncollection/
 ---
 ## SectionCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/sectioncollection/
 Represents a collection of sections.
 
 ```csharp
-public sealed class SectionCollection : ISectionCollection
+public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,19 +22,26 @@ public sealed class SectionCollection : ISectionCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISection`](../isection). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddEmptySection](addemptysection)(…) | Add empty section to specified position of the collection. |
-| [AddSection](addsection)(…) | Add slides section started form specific slide. |
-| [AppendEmptySection](appendemptysection)(…) | Add empty section to the end of the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddEmptySection](addemptysection)(string, int) | Add empty section to specified position of the collection. |
+| [AddSection](addsection)(string, ISlide) | Add slides section started form specific slide. |
+| [AppendEmptySection](appendemptysection)(string) | Add empty section to the end of the collection. |
 | [Clear](clear)() | Removes all sections from the collection. |
-| [CopyTo](copyto)(…) | Copies the entire collection to the specified array. |
+| [CopyTo](copyto)(Array, int) | Copies the entire collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(…) | Returns an index of the specified section in the collection. |
-| [RemoveSection](removesection)(…) | Remove section. Slides contained in the section will be merged into previous section. |
-| [RemoveSectionWithSlides](removesectionwithslides)(…) | Remove section and slides contained in the section. |
-| [ReorderSectionWithSlides](reordersectionwithslides)(…) | Moves section and its slides from the collection to the specified position. |
+| [IndexOf](indexof)(ISection) | Returns an index of the specified section in the collection. |
+| [RemoveSection](removesection)(ISection) | Remove section. Slides contained in the section will be merged into previous section. |
+| [RemoveSectionWithSlides](removesectionwithslides)(ISection) | Remove section and slides contained in the section. |
+| [ReorderSectionWithSlides](reordersectionwithslides)(ISection, int) | Moves section and its slides from the collection to the specified position. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
 * interface [ISectionCollection](../isectioncollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

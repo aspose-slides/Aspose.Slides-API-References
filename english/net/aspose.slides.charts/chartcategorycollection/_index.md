@@ -3,7 +3,7 @@ title: ChartCategoryCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1160
+weight: 1140
 url: /net/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/chartcategorycollection/
 Represents collection of [`ChartCategory`](../chartcategory)
 
 ```csharp
-public class ChartCategoryCollection : IChartCategoryCollection
+public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,16 +24,24 @@ public class ChartCategoryCollection : IChartCategoryCollection
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [SyncRoot](syncroot) { get; } | Returns an object that can be used to synchronize access to the collection. Read-only Object. |
 | [UseCells](usecells) { get; set; } | If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write Boolean. |
-| [Add](add)(…) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IChartDataCell) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
+| [Add](add)(object) | Creates new [`ChartCategory`](../chartcategory) from value and adds it to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [CopyTo](copyto)(…) | Copies all elements of the collection to the specified array. |
+| [CopyTo](copyto)(Array, int) | Copies all elements of the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(…) | Searches for the specified [`ChartCategory`](../chartcategory) and returns the zero-based index of the first occurrence within the entire Collection. |
-| [Remove](remove)(…) | Removes the specified value. |
-| [RemoveAt](removeat)(…) | Removes the element at the given index. |
+| [IndexOf](indexof)(IChartCategory) | Searches for the specified [`ChartCategory`](../chartcategory) and returns the zero-based index of the first occurrence within the entire Collection. |
+| [Remove](remove)(IChartCategory) | Removes the specified value. |
+| [RemoveAt](removeat)(int) | Removes the element at the given index. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartData](../chartdata)
 * interface [IChartCategoryCollection](../ichartcategorycollection)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

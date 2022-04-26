@@ -3,35 +3,10 @@ title: AddVideo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides/ivideocollection/addvideo/
 ---
 ## IVideoCollection.AddVideo method (1 of 3)
-
-Creates and adds a video to a presentation from byte array.
-
-```csharp
-public IVideo AddVideo(byte[] videoData)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| videoData | Byte[] | Video bytes. |
-
-## Return Value
-
-Added video.
-
-### See Also
-
-* interface [IVideo](../../ivideo)
-* interface [IVideoCollection](../../ivideocollection)
-* namespace [Aspose.Slides](../../ivideocollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IVideoCollection.AddVideo method (2 of 3)
 
 Adds a copy of an video file from an another presentation.
 
@@ -56,7 +31,7 @@ Added video.
 
 ---
 
-## IVideoCollection.AddVideo method (3 of 3)
+## IVideoCollection.AddVideo method (2 of 3)
 
 Creates and adds a video to a presentation from stream.
 
@@ -77,6 +52,31 @@ Added [`IVideo`](../../ivideo).
 
 * interface [IVideo](../../ivideo)
 * enum [LoadingStreamBehavior](../../loadingstreambehavior)
+* interface [IVideoCollection](../../ivideocollection)
+* namespace [Aspose.Slides](../../ivideocollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IVideoCollection.AddVideo method (3 of 3)
+
+Creates and adds a video to a presentation from byte array.
+
+```csharp
+public IVideo AddVideo(byte[] videoData)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| videoData | Byte[] | Video bytes. |
+
+## Return Value
+
+Added video.
+
+### See Also
+
+* interface [IVideo](../../ivideo)
 * interface [IVideoCollection](../../ivideocollection)
 * namespace [Aspose.Slides](../../ivideocollection)
 * assembly [Aspose.Slides](../../../)

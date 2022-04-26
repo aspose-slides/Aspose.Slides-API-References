@@ -3,7 +3,7 @@ title: AlphaInverse
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2740
+weight: 2700
 url: /net/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse class
@@ -14,11 +14,11 @@ Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtr
 public class AlphaInverse : ImageTransformOperation, IAlphaInverse
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the specified [`AlphaInverse`](../alphainverse) is equal to the current [`AlphaInverse`](../alphainverse). |
+| override [Equals](equals)(object) | Determines whether the specified [`AlphaInverse`](../alphainverse) is equal to the current [`AlphaInverse`](../alphainverse). |
 | [GetEffective](geteffective)() | Gets effective Alpha Inverse effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

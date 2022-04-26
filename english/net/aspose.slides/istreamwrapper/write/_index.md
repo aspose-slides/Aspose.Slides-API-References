@@ -3,7 +3,7 @@ title: Write
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 130
 url: /net/aspose.slides/istreamwrapper/write/
 ---
 ## IStreamWrapper.Write method

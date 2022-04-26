@@ -3,7 +3,7 @@ title: HtmlFormatter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3800
+weight: 3550
 url: /net/aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter class
@@ -14,13 +14,13 @@ Represents HTML file template.
 public sealed class HtmlFormatter : IHtmlFormatter
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateCustomFormatter](createcustomformatter)(…) | Creates and returns HTML formatter for custom callback-driven html generation. |
-| static [CreateDocumentFormatter](createdocumentformatter)(…) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
-| static [CreateSlideShowFormatter](createslideshowformatter)(…) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
+| static [CreateCustomFormatter](createcustomformatter)(IHtmlFormattingController) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| static [CreateDocumentFormatter](createdocumentformatter)(string, bool) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
+| static [CreateSlideShowFormatter](createslideshowformatter)(string, bool) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ExtrusionRotationCenterY
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1240
+weight: 170
 url: /net/aspose.slides.animation/behaviorproperty/extrusionrotationcentery/
 ---
 ## BehaviorProperty.ExtrusionRotationCenterY property

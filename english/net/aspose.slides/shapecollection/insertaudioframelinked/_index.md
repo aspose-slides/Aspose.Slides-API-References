@@ -3,7 +3,7 @@ title: InsertAudioFrameLinked
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 290
 url: /net/aspose.slides/shapecollection/insertaudioframelinked/
 ---
 ## ShapeCollection.InsertAudioFrameLinked method

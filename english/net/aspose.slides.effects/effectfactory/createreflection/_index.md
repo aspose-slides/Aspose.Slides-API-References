@@ -3,7 +3,7 @@ title: CreateReflection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.slides.effects/effectfactory/createreflection/
 ---
 ## EffectFactory.CreateReflection method

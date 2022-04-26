@@ -3,10 +3,30 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 60
 url: /net/aspose.slides.charts/piesplitcustompointcollection/add/
 ---
 ## PieSplitCustomPointCollection.Add method (1 of 2)
+
+Adds data point by its index in parent series points collection.
+
+```csharp
+public void Add(int dataPointIndex)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataPointIndex | Int32 | Index of data point in parent series points collection. |
+
+### See Also
+
+* class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
+* namespace [Aspose.Slides.Charts](../../piesplitcustompointcollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## PieSplitCustomPointCollection.Add method (2 of 2)
 
 Adds data point to collection.
 
@@ -21,26 +41,6 @@ public void Add(IChartDataPoint dataPoint)
 ### See Also
 
 * interface [IChartDataPoint](../../ichartdatapoint)
-* class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
-* namespace [Aspose.Slides.Charts](../../piesplitcustompointcollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## PieSplitCustomPointCollection.Add method (2 of 2)
-
-Adds data point by its index in parent series points collection.
-
-```csharp
-public void Add(int dataPointIndex)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataPointIndex | Int32 | Index of data point in parent series points collection. |
-
-### See Also
-
 * class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * namespace [Aspose.Slides.Charts](../../piesplitcustompointcollection)
 * assembly [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: Y
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.slides/ippimage/y/
 ---
 ## IPPImage.Y property

@@ -3,7 +3,7 @@ title: INormalViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6160
+weight: 5910
 url: /net/aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties interface
@@ -14,7 +14,7 @@ Represents normal view properties. The normal view consists of three content reg
 public interface INormalViewProperties
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

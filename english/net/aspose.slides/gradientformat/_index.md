@@ -3,7 +3,7 @@ title: GradientFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4790
+weight: 4540
 url: /net/aspose.slides/gradientformat/
 ---
 ## GradientFormat class
@@ -14,7 +14,7 @@ Represent a gradient format.
 public sealed class GradientFormat : PVIObject, IGradientFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

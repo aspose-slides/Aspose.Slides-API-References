@@ -3,7 +3,7 @@ title: IPdfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3930
+weight: 3680
 url: /net/aspose.slides.export/ipdfoptions/
 ---
 ## IPdfOptions interface
@@ -14,7 +14,7 @@ Provides options that control how a presentation is saved in Pdf format.
 public interface IPdfOptions : ISaveOptions
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -33,7 +33,7 @@ public interface IPdfOptions : ISaveOptions
 | [Password](password) { get; set; } | Setting user password to protect the PDF document. Read/write String. |
 | [SaveMetafilesAsPng](savemetafilesaspng) { get; set; } | True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean. |
 | [ShowHiddenSlides](showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
-| [SufficientResolution](sufficientresolution) { get; set; } | Returns or sets a value determining resolution of images inside PDF document. Property affects on file size, time of export and image quality.The default value is 96.Effect of this parameter depends on few factors. Algorithm tries to get best output image size according to the property value, source image size and image frame size. Using of similar property values may give the same result. Recommended to use step 16 or 32 to get visible effect. Read/write Single. |
+| [SufficientResolution](sufficientresolution) { get; set; } | Returns or sets a value determining resolution of images inside PDF document. |
 | [TextCompression](textcompression) { get; set; } | Specifies compression type to be used for all textual content in the document. Read/write [`PdfTextCompression`](../pdftextcompression). |
 
 ### See Also

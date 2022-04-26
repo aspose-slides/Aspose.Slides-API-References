@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ## Return Value
 
-true if the specified TransitionValueBase is equal to the current TransitionValueBase; otherwise, false.
+**true** if the specified TransitionValueBase is equal to the current TransitionValueBase; otherwise, **false**.
 
 ### See Also
 

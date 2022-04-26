@@ -3,7 +3,7 @@ title: BeginArrowheadStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 40
 url: /net/aspose.slides/ilineformat/beginarrowheadstyle/
 ---
 ## ILineFormat.BeginArrowheadStyle property

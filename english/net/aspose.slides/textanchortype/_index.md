@@ -3,7 +3,7 @@ title: TextAnchorType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10340
+weight: 10090
 url: /net/aspose.slides/textanchortype/
 ---
 ## TextAnchorType enumeration

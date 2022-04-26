@@ -3,7 +3,7 @@ title: IBehaviorProperty
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 340
 url: /net/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty interface
@@ -14,7 +14,7 @@ Represent property types for animation behavior. Follows the list of properties 
 public interface IBehaviorProperty
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

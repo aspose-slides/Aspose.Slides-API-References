@@ -3,7 +3,7 @@ title: MinorUnitScale
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 420
 url: /net/aspose.slides.charts/iaxis/minorunitscale/
 ---
 ## IAxis.MinorUnitScale property

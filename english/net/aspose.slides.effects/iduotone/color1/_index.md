@@ -3,7 +3,7 @@ title: Color1
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.slides.effects/iduotone/color1/
 ---
 ## IDuotone.Color1 property

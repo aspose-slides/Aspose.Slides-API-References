@@ -3,7 +3,7 @@ title: NumberFormatOfBubbleSizes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.slides.charts/chartseries/numberformatofbubblesizes/
 ---
 ## ChartSeries.NumberFormatOfBubbleSizes property

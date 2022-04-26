@@ -3,7 +3,7 @@ title: IChartTitle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1880
+weight: 1860
 url: /net/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle interface
@@ -14,7 +14,7 @@ Represents chart title properties.
 public interface IChartTitle : ILayoutable, IOverridableText
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

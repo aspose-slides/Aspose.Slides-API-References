@@ -3,7 +3,7 @@ title: ToBox
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 190
 url: /net/aspose.slides.mathtext/mathelementbase/tobox/
 ---
 ## MathElementBase.ToBox method

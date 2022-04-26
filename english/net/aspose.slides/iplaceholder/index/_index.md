@@ -3,7 +3,7 @@ title: Index
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 10
 url: /net/aspose.slides/iplaceholder/index/
 ---
 ## IPlaceholder.Index property

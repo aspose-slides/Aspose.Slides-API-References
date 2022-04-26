@@ -3,7 +3,7 @@ title: Tabs
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.slides/iparagraphformateffectivedata/tabs/
 ---
 ## IParagraphFormatEffectiveData.Tabs property

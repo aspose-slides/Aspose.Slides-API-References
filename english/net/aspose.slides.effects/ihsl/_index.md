@@ -3,7 +3,7 @@ title: IHSL
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3340
+weight: 3160
 url: /net/aspose.slides.effects/ihsl/
 ---
 ## IHSL interface
@@ -14,7 +14,7 @@ Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

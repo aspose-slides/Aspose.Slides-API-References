@@ -3,7 +3,7 @@ title: BubbleSizeRepresentation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 20
 url: /net/aspose.slides.charts/chartseries/bubblesizerepresentation/
 ---
 ## ChartSeries.BubbleSizeRepresentation property

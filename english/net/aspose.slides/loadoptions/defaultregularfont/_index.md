@@ -3,7 +3,7 @@ title: DefaultRegularFont
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.slides/loadoptions/defaultregularfont/
 ---
 ## LoadOptions.DefaultRegularFont property

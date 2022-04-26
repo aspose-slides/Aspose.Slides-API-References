@@ -3,7 +3,7 @@ title: IColorChange
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3200
+weight: 3020
 url: /net/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange interface
@@ -15,7 +15,7 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

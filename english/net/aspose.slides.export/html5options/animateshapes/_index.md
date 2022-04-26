@@ -3,7 +3,7 @@ title: AnimateShapes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.slides.export/html5options/animateshapes/
 ---
 ## Html5Options.AnimateShapes property

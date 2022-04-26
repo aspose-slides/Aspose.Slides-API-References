@@ -3,7 +3,7 @@ title: MathBlockFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8120
+weight: 7870
 url: /net/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory class
@@ -14,13 +14,19 @@ Allows to create a math block
 public class MathBlockFactory : IMathBlockFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathBlockFactory](mathblockfactory)() | The default constructor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreateMathBlock](createmathblock)() | Create a math block |
-| [CreateMathBlock](createmathblock)(…) | Create a math block and place the element in it (2 methods) |
+| [CreateMathBlock](createmathblock)(IMathElement) | Create a math block and place the element in it |
+| [CreateMathBlock](createmathblock)(IMathElementCollection) | Create a math block and place elements in it |
 
 ### Remarks
 

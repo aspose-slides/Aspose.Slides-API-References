@@ -3,7 +3,7 @@ title: TransitionShredPattern
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9870
+weight: 9620
 url: /net/aspose.slides.slideshow/transitionshredpattern/
 ---
 ## TransitionShredPattern enumeration

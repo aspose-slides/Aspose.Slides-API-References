@@ -3,7 +3,7 @@ title: AddFallBackFonts
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.slides/ifontfallbackrule/addfallbackfonts/
 ---
 ## IFontFallBackRule.AddFallBackFonts method (1 of 2)

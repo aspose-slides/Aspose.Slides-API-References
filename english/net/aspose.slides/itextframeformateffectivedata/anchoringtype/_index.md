@@ -3,7 +3,7 @@ title: AnchoringType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 10
 url: /net/aspose.slides/itextframeformateffectivedata/anchoringtype/
 ---
 ## ITextFrameFormatEffectiveData.AnchoringType property

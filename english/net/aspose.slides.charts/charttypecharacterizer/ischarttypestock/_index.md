@@ -3,7 +3,7 @@ title: IsChartTypeStock
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.slides.charts/charttypecharacterizer/ischarttypestock/
 ---
 ## ChartTypeCharacterizer.IsChartTypeStock method

@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 180
 url: /net/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value property

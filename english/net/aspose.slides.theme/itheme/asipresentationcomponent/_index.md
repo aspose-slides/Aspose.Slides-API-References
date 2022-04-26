@@ -3,7 +3,7 @@ title: AsIPresentationComponent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 10
 url: /net/aspose.slides.theme/itheme/asipresentationcomponent/
 ---
 ## ITheme.AsIPresentationComponent property

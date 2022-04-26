@@ -16,7 +16,7 @@ public bool EmbedFullFonts { get; set; }
 
 ### Remarks
 
-Default is false.
+Default is **false**.
 
 ### See Also
 

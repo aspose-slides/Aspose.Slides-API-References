@@ -3,7 +3,7 @@ title: ColorOperationCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2410
+weight: 2390
 url: /net/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection class
@@ -14,7 +14,7 @@ Represents a collection of color transform operations.
 public sealed class ColorOperationCollection : IColorOperationCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,14 +22,21 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; set; } | Returns or sets the operation at the specified index. Read/write [`ColorOperation`](../coloroperation). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Adds a new operation to the end of collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(ColorTransformOperation) | Adds a new operation to the end of collection. |
+| [Add](add)(ColorTransformOperation, float) | Adds a new operation to the end of collection. |
 | [Clear](clear)() | Removes all color operations. |
 | [Clone](clone)() | Creates a copy of a ColorOperationCollection collection. |
 | [CloneT](clonet)() | Clones current object |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Insert](insert)(…) | Inserts the new operation to a collection. (2 methods) |
-| [RemoveAt](removeat)(…) | Removes the color operation from a collection. |
+| [Insert](insert)(int, ColorTransformOperation) | Inserts the new operation to a collection. |
+| [Insert](insert)(int, ColorTransformOperation, float) | Inserts the new operation to a collection. |
+| [RemoveAt](removeat)(int) | Removes the color operation from a collection. |
 
 ### See Also
 

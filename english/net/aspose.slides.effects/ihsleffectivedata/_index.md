@@ -3,7 +3,7 @@ title: IHSLEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3350
+weight: 3170
 url: /net/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData interface
@@ -14,7 +14,7 @@ Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance
 public interface IHSLEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

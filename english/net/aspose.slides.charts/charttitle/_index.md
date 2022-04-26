@@ -3,7 +3,7 @@ title: ChartTitle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1370
+weight: 1350
 url: /net/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle class
@@ -14,7 +14,7 @@ Represents chart title properties.
 public class ChartTitle : IChartTitle
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -29,7 +29,12 @@ public class ChartTitle : IChartTitle
 | [Width](width) { get; set; } | Returns or sets the width of a title as a fraction of the width of the chart. Read/write Single. |
 | [X](x) { get; set; } | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write Single. |
 | [Y](y) { get; set; } | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write Single. |
-| [AddTextFrameForOverriding](addtextframeforoverriding)(…) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddTextFrameForOverriding](addtextframeforoverriding)(string) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: IWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11240
+weight: 10990
 url: /net/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo interface
@@ -14,13 +14,18 @@ Represents a base interface for all warnings.
 public interface IWarningInfo
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Description](description) { get; } | Returns a human readable description of this warning. Read-only String. |
 | [WarningType](warningtype) { get; } | Returns a type of warning. Read-only [`WarningType`](./warningtype). |
-| [SendWarning](sendwarning)(…) | If receiver is not null ends warning to a specified receiver and throws the AbortRequestedException if receiver decided to abort a operation. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SendWarning](sendwarning)(IWarningCallback) | If receiver is not null ends warning to a specified receiver and throws the AbortRequestedException if receiver decided to abort a operation. |
 
 ### See Also
 

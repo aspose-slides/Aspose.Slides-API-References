@@ -3,7 +3,7 @@ title: IFieldType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5510
+weight: 5260
 url: /net/aspose.slides/ifieldtype/
 ---
 ## IFieldType interface
@@ -14,7 +14,7 @@ Represents a type of field. This value determines which text will be set to the 
 public interface IFieldType
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

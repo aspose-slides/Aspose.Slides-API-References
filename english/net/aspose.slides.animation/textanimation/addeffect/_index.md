@@ -3,7 +3,7 @@ title: AddEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.slides.animation/textanimation/addeffect/
 ---
 ## TextAnimation.AddEffect method

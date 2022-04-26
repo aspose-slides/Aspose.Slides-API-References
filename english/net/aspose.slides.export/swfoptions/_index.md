@@ -3,7 +3,7 @@ title: SwfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4350
+weight: 4100
 url: /net/aspose.slides.export/swfoptions/
 ---
 ## SwfOptions class
@@ -14,11 +14,16 @@ Provides options that control how a presentation is saved in Swf format.
 public class SwfOptions : SaveOptions, ISwfOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [SwfOptions](swfoptions)() | Default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Compressed](compressed) { get; set; } | Specifies whether the generated SWF document should be compressed or not. Default is `true`. |
 | [EnableContextMenu](enablecontextmenu) { get; set; } | Enable/disable context menu. Default is true. |
 | [JpegQuality](jpegquality) { get; set; } | Specifies the quality of JPEG images. Default is 95. |

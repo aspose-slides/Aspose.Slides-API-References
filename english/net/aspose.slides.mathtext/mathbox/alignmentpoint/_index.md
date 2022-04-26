@@ -3,7 +3,7 @@ title: AlignmentPoint
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 20
 url: /net/aspose.slides.mathtext/mathbox/alignmentpoint/
 ---
 ## MathBox.AlignmentPoint property

@@ -3,7 +3,7 @@ title: RelatedLegendEntry
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 350
 url: /net/aspose.slides.charts/ichartseries/relatedlegendentry/
 ---
 ## IChartSeries.RelatedLegendEntry property

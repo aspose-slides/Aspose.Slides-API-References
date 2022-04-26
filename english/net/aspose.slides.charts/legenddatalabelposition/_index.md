@@ -3,7 +3,7 @@ title: LegendDataLabelPosition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2170
+weight: 2150
 url: /net/aspose.slides.charts/legenddatalabelposition/
 ---
 ## LegendDataLabelPosition enumeration

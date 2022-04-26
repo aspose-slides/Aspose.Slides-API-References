@@ -3,7 +3,7 @@ title: NotesSize
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8640
+weight: 8390
 url: /net/aspose.slides/notessize/
 ---
 ## NotesSize class
@@ -14,11 +14,16 @@ Represents a size of notes slide.
 public class NotesSize : INotesSize
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [NotesSize](notessize)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Size](size) { get; set; } | Returns or sets the size in points. Read/write SizeF. |
 
 ### See Also

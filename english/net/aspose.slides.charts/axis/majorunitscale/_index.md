@@ -3,7 +3,7 @@ title: MajorUnitScale
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 370
 url: /net/aspose.slides.charts/axis/majorunitscale/
 ---
 ## Axis.MajorUnitScale property

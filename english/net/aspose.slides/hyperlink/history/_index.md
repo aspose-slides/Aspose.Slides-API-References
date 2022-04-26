@@ -3,7 +3,7 @@ title: History
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 140
 url: /net/aspose.slides/hyperlink/history/
 ---
 ## Hyperlink.History property

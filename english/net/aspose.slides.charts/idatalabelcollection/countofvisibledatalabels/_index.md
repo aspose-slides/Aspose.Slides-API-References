@@ -3,7 +3,7 @@ title: CountOfVisibleDataLabels
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.slides.charts/idatalabelcollection/countofvisibledatalabels/
 ---
 ## IDataLabelCollection.CountOfVisibleDataLabels property

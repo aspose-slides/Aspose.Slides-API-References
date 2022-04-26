@@ -3,7 +3,7 @@ title: IFillOverlayEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3290
+weight: 3110
 url: /net/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents a Fill Overlay effect. A fill overlay may be u
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

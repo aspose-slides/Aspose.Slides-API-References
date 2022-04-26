@@ -3,7 +3,7 @@ title: Html5Options
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3790
+weight: 3540
 url: /net/aspose.slides.export/html5options/
 ---
 ## Html5Options class
@@ -14,11 +14,16 @@ Represents a HTML5 exporting options.
 public class Html5Options : SaveOptions, IHtml5Options
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Html5Options](html5options)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AnimateShapes](animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |
 | [AnimateTransitions](animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
 

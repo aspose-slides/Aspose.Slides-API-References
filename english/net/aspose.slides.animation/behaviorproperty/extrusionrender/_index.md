@@ -3,7 +3,7 @@ title: ExtrusionRender
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1030
+weight: 130
 url: /net/aspose.slides.animation/behaviorproperty/extrusionrender/
 ---
 ## BehaviorProperty.ExtrusionRender property

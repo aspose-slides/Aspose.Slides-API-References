@@ -3,7 +3,7 @@ title: HideRight
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.slides.mathtext/mathborderbox/hideright/
 ---
 ## MathBorderBox.HideRight property

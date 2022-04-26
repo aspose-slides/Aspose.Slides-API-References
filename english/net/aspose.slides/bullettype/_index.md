@@ -3,7 +3,7 @@ title: BulletType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 980
+weight: 960
 url: /net/aspose.slides/bullettype/
 ---
 ## BulletType enumeration

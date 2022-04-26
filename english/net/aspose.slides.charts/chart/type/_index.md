@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 230
 url: /net/aspose.slides.charts/chart/type/
 ---
 ## Chart.Type property

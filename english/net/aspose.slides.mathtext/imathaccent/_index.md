@@ -3,7 +3,7 @@ title: IMathAccent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7610
+weight: 7360
 url: /net/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent interface
@@ -14,7 +14,7 @@ Specifies the accent function, consisting of a base and a combining diacritical 
 public interface IMathAccent : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

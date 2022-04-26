@@ -3,7 +3,7 @@ title: IAlphaModulate
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3100
+weight: 2920
 url: /net/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate interface
@@ -15,7 +15,7 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

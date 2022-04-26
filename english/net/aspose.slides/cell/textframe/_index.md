@@ -3,7 +3,7 @@ title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.slides/cell/textframe/
 ---
 ## Cell.TextFrame property

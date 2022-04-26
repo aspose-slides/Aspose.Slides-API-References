@@ -3,7 +3,7 @@ title: MarginRight
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.slides/cell/marginright/
 ---
 ## Cell.MarginRight property

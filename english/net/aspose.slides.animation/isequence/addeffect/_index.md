@@ -3,10 +3,43 @@ title: AddEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 50
 url: /net/aspose.slides.animation/isequence/addeffect/
 ---
 ## ISequence.AddEffect method (1 of 4)
+
+Add new effect to the end of sequence.
+
+```csharp
+public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subtype, 
+    EffectTriggerType triggerType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shape | IShape | Shape object [`IShape`](../../../aspose.slides/ishape) for adding an effect |
+| effectType | EffectType | Type of an animation effect [`EffectType`](../../effecttype) |
+| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
+
+## Return Value
+
+New effect object [`IEffect`](../../ieffect)
+
+### See Also
+
+* interface [IEffect](../../ieffect)
+* interface [IShape](../../../aspose.slides/ishape)
+* enum [EffectType](../../effecttype)
+* enum [EffectSubtype](../../effectsubtype)
+* enum [EffectTriggerType](../../effecttriggertype)
+* interface [ISequence](../../isequence)
+* namespace [Aspose.Slides.Animation](../../isequence)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ISequence.AddEffect method (2 of 4)
 
 Add new animation effect for paragraph to the end of sequence.
 
@@ -46,39 +79,6 @@ using(Presentation presentation = new Presentation(path + "input.pptx"))
 
 * interface [IEffect](../../ieffect)
 * interface [IParagraph](../../../aspose.slides/iparagraph)
-* enum [EffectType](../../effecttype)
-* enum [EffectSubtype](../../effectsubtype)
-* enum [EffectTriggerType](../../effecttriggertype)
-* interface [ISequence](../../isequence)
-* namespace [Aspose.Slides.Animation](../../isequence)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ISequence.AddEffect method (2 of 4)
-
-Add new effect to the end of sequence.
-
-```csharp
-public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subtype, 
-    EffectTriggerType triggerType)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| shape | IShape | Shape object [`IShape`](../../../aspose.slides/ishape) for adding an effect |
-| effectType | EffectType | Type of an animation effect [`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
-
-## Return Value
-
-New effect object [`IEffect`](../../ieffect)
-
-### See Also
-
-* interface [IEffect](../../ieffect)
-* interface [IShape](../../../aspose.slides/ishape)
 * enum [EffectType](../../effecttype)
 * enum [EffectSubtype](../../effectsubtype)
 * enum [EffectTriggerType](../../effecttriggertype)

@@ -3,7 +3,7 @@ title: IGradientStopCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5760
+weight: 5510
 url: /net/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData interface
@@ -15,7 +15,7 @@ public interface IGradientStopCollectionEffectiveData :
     IGenericCollection<IGradientStopEffectiveData>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

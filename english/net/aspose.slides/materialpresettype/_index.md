@@ -3,7 +3,7 @@ title: MaterialPresetType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7590
+weight: 7340
 url: /net/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType enumeration

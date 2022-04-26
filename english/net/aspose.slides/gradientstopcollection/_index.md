@@ -3,7 +3,7 @@ title: GradientStopCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4820
+weight: 4570
 url: /net/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection class
@@ -14,7 +14,7 @@ Represnts a collection of gradient stops.
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,12 +22,21 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns the gradient stop by index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Creates the new gradient stop and adds it to the end of collection. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(float, Color) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](add)(float, PresetColor) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](add)(float, SchemeColor) | Creates the new gradient stop and adds it to the end of collection. |
 | [Clear](clear)() | Removes all gradient stops from a collection. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Insert](insert)(…) | Creates the new gradient stop and inserts it at the specified index to the collection. (3 methods) |
-| [RemoveAt](removeat)(…) | Removes a gradient stop at the specified index. |
+| [Insert](insert)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](insert)(int, float, PresetColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](insert)(int, float, SchemeColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [RemoveAt](removeat)(int) | Removes a gradient stop at the specified index. |
 
 ### See Also
 

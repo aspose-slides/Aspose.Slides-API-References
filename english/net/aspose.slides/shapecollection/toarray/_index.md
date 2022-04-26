@@ -3,7 +3,7 @@ title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 450
 url: /net/aspose.slides/shapecollection/toarray/
 ---
 ## ShapeCollection.ToArray method (1 of 2)

@@ -3,7 +3,7 @@ title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 70
 url: /net/aspose.slides/islidecollection/insertclone/
 ---
 ## ISlideCollection.InsertClone method (1 of 3)

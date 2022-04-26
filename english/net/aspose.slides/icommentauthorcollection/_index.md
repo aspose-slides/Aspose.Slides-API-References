@@ -3,7 +3,7 @@ title: ICommentAuthorCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5330
+weight: 5080
 url: /net/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interface
@@ -14,17 +14,22 @@ Represents a collection of comment authors.
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ICommentAuthor`](../icommentauthor). |
-| [AddAuthor](addauthor)(…) | Add new author at the end of a collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddAuthor](addauthor)(string, string) | Add new author at the end of a collection. |
 | [Clear](clear)() | Removes all authors from a collection. |
-| [FindByName](findbyname)(…) | Find author in a collection by name. |
-| [FindByNameAndInitials](findbynameandinitials)(…) | Find author in a collection by name and initials. |
-| [Remove](remove)(…) | Removes the first occurrence of the specified author in a collection. |
-| [RemoveAt](removeat)(…) | Removes the author at the specified index of the collection. |
+| [FindByName](findbyname)(string) | Find author in a collection by name. |
+| [FindByNameAndInitials](findbynameandinitials)(string, string) | Find author in a collection by name and initials. |
+| [Remove](remove)(ICommentAuthor) | Removes the first occurrence of the specified author in a collection. |
+| [RemoveAt](removeat)(int) | Removes the author at the specified index of the collection. |
 | [ToArray](toarray)() | Creates and returns an array with all authors. |
 
 ### See Also

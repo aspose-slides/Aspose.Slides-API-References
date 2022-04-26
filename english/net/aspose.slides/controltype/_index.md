@@ -3,7 +3,7 @@ title: ControlType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2590
+weight: 2570
 url: /net/aspose.slides/controltype/
 ---
 ## ControlType enumeration

@@ -3,7 +3,7 @@ title: IThreeDFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7000
+weight: 6750
 url: /net/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat interface
@@ -14,7 +14,7 @@ Represents 3-D properties.
 public interface IThreeDFormat : IThreeDParamSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -29,6 +29,11 @@ public interface IThreeDFormat : IThreeDParamSource
 | [ExtrusionHeight](extrusionheight) { get; set; } | Returns or sets the height of an extrusion effect. Read/write Double. |
 | [LightRig](lightrig) { get; } | Returns or sets the type of a light. Read-only [`ILightRig`](../ilightrig). |
 | [Material](material) { get; set; } | Returns or sets the type of a material. Read/write [`MaterialPresetType`](../materialpresettype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective 3-D formatting data with the inheritance applied. |
 
 ### See Also

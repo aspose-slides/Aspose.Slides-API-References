@@ -3,7 +3,7 @@ title: LineAlignment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7270
+weight: 7020
 url: /net/aspose.slides/linealignment/
 ---
 ## LineAlignment enumeration

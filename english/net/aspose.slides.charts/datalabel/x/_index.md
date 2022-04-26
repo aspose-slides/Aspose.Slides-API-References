@@ -3,7 +3,7 @@ title: X
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 160
 url: /net/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X property

@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 430
 url: /net/aspose.slides/shapecollection/removeat/
 ---
 ## ShapeCollection.RemoveAt method

@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 30
 url: /net/aspose.slides/icommentauthorcollection/clear/
 ---
 ## ICommentAuthorCollection.Clear method

@@ -3,7 +3,7 @@ title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10710
+weight: 10460
 url: /net/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData interface
@@ -14,14 +14,14 @@ Immutable object which contains effective format scheme properties.
 public interface IFormatSchemeEffectiveData
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetBackgroundFillStyles](getbackgroundfillstyles)(…) | Returns a collection of theme defined background fill styles. |
-| [GetEffectStyles](geteffectstyles)(…) | Returns a collection of theme defined effect styles. |
-| [GetFillStyles](getfillstyles)(…) | Returns a collection of theme defined fill styles. |
-| [GetLineStyles](getlinestyles)(…) | Returns a collection of theme defined line styles. |
+| [GetBackgroundFillStyles](getbackgroundfillstyles)(Color) | Returns a collection of theme defined background fill styles. |
+| [GetEffectStyles](geteffectstyles)(Color) | Returns a collection of theme defined effect styles. |
+| [GetFillStyles](getfillstyles)(Color) | Returns a collection of theme defined fill styles. |
+| [GetLineStyles](getlinestyles)(Color) | Returns a collection of theme defined line styles. |
 
 ### Remarks
 

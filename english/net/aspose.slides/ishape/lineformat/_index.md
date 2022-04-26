@@ -3,7 +3,7 @@ title: LineFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 150
 url: /net/aspose.slides/ishape/lineformat/
 ---
 ## IShape.LineFormat property

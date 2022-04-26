@@ -3,7 +3,7 @@ title: IVbaProjectFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10990
+weight: 10740
 url: /net/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory interface
@@ -14,12 +14,12 @@ Allows to create VBA project via COM interface
 public interface IVbaProjectFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
 | [CreateVbaProject](createvbaproject)() | Creates new VBA project. |
-| [ReadVbaProject](readvbaproject)(…) | Reads VBA project from OLE container. |
+| [ReadVbaProject](readvbaproject)(byte[]) | Reads VBA project from OLE container. |
 
 ### See Also
 

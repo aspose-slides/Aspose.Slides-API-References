@@ -3,7 +3,7 @@ title: ColorStringFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2430
+weight: 2410
 url: /net/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat enumeration

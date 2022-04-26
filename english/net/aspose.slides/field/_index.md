@@ -3,7 +3,7 @@ title: Field
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4560
+weight: 4310
 url: /net/aspose.slides/field/
 ---
 ## Field class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/field/
 Represents a field.
 
 ```csharp
-public sealed class Field : IField
+public sealed class Field : DomObject<Portion>, IField
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,6 +22,8 @@ public sealed class Field : IField
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Portion](../portion)
 * interface [IField](../ifield)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

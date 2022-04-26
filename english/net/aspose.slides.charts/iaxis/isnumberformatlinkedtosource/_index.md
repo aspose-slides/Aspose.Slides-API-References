@@ -3,7 +3,7 @@ title: IsNumberFormatLinkedToSource
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 270
 url: /net/aspose.slides.charts/iaxis/isnumberformatlinkedtosource/
 ---
 ## IAxis.IsNumberFormatLinkedToSource property

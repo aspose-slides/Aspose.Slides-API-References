@@ -3,7 +3,7 @@ title: LineCapStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7310
+weight: 7060
 url: /net/aspose.slides/linecapstyle/
 ---
 ## LineCapStyle enumeration

@@ -3,7 +3,7 @@ title: IMasterSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6110
+weight: 5860
 url: /net/aspose.slides/imasterslide/
 ---
 ## IMasterSlide interface
@@ -14,7 +14,7 @@ Represents a master slide in a presentation.
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,12 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 | [OtherStyle](otherstyle) { get; } | Returns the style of an other text. Read-only [`ITextStyle`](../itextstyle). |
 | [Preserve](preserve) { get; set; } | Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [`RemoveUnused`](../imasterslidecollection/removeunused) Read/write Boolean. |
 | [TitleStyle](titlestyle) { get; } | Returns the style of a title text. Read-only [`ITextStyle`](../itextstyle). |
-| [ApplyExternalThemeToDependingSlides](applyexternalthemetodependingslides)(…) | Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [ApplyExternalThemeToDependingSlides](applyexternalthemetodependingslides)(string) | Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides. |
 | [GetDependingSlides](getdependingslides)() | Returns an array with all slides, which depend on this master slide. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: SmartTagClean
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 210
 url: /net/aspose.slides/ibaseportionformateffectivedata/smarttagclean/
 ---
 ## IBasePortionFormatEffectiveData.SmartTagClean property

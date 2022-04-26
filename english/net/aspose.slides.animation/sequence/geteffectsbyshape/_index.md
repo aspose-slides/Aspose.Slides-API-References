@@ -3,7 +3,7 @@ title: GetEffectsByShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.slides.animation/sequence/geteffectsbyshape/
 ---
 ## Sequence.GetEffectsByShape method

@@ -3,7 +3,7 @@ title: SvgImage
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10230
+weight: 9980
 url: /net/aspose.slides/svgimage/
 ---
 ## SvgImage class
@@ -14,11 +14,21 @@ Represents an SVG image.
 public class SvgImage : ISvgImage
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [SvgImage](svgimage)(…) | Creates new SvgImage object. (6 constructors) |
+| [SvgImage](svgimage)(byte[]) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(Stream) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(string) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(byte[], IExternalResourceResolver, string) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(Stream, IExternalResourceResolver, string) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(string, IExternalResourceResolver, string) | Creates new SvgImage object. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BaseUri](baseuri) { get; } | Returns base URI of the specified Svg. Used to resolve relative links. Read-only String. |
 | [ExternalResourceResolver](externalresourceresolver) { get; } | Return callback interface used to resolve external resources during Svg documents import. Read-only [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](svgcontent) { get; } | Returns SVG content. Read-only String. |

@@ -3,7 +3,7 @@ title: IDuotone
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3240
+weight: 3060
 url: /net/aspose.slides.effects/iduotone/
 ---
 ## IDuotone interface
@@ -14,7 +14,7 @@ Represents a Duotone effect.
 public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

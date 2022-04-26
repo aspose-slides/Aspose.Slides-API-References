@@ -3,7 +3,7 @@ title: EffectPresetClassType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.slides.animation/effectpresetclasstype/
 ---
 ## EffectPresetClassType enumeration
@@ -18,12 +18,12 @@ public enum EffectPresetClassType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Entrance | `0` | Entrance effects class.Target shape types: All |
-| Exit | `1` | Exit effects class.Target shape types: All |
-| Emphasis | `2` | Emphasis effects class.Target shape types: All |
-| Path | `3` | Motion Paths class.Target shape types: All |
-| MediaCall | `4` | Media effects class.Target shape types: [`IVideoFrame`](../../aspose.slides/ivideoframe), [`IAudioFrame`](../../aspose.slides/iaudioframe) |
-| OLEActionVerbs | `5` | OLE Action Verbs class.Target shape types: [`IOleObjectFrame`](../../aspose.slides/ioleobjectframe) |
+| Entrance | `0` | Entrance effects class. |
+| Exit | `1` | Exit effects class. |
+| Emphasis | `2` | Emphasis effects class. |
+| Path | `3` | Motion Paths class. |
+| MediaCall | `4` | Media effects class. |
+| OLEActionVerbs | `5` | OLE Action Verbs class. |
 
 ### See Also
 

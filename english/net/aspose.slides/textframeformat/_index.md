@@ -3,7 +3,7 @@ title: TextFrameFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10390
+weight: 10140
 url: /net/aspose.slides/textframeformat/
 ---
 ## TextFrameFormat class
@@ -14,11 +14,16 @@ Contains the TextFrame's formatTextFrameFormatting properties.
 public class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameFormat
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TextFrameFormat](textframeformat)() | Initializes a new instance of [`TextFrameFormat`](../textframeformat) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AnchoringType](anchoringtype) { get; set; } | Returns or sets vertical anchor text in a TextFrameEx. Read/write [`TextAnchorType`](../textanchortype). |
 | [AutofitType](autofittype) { get; set; } | Returns or sets text's autofit mode. Read/write [`TextAutofitType`](../textautofittype). |
 | [CenterText](centertext) { get; set; } | If NullableBool.True then text should be centered in box horizontally. Read/write [`NullableBool`](../nullablebool). |
@@ -33,7 +38,12 @@ public class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameForma
 | [TextVerticalType](textverticaltype) { get; set; } | Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read/write [`TextVerticalType`](../textverticaltype). |
 | [ThreeDFormat](threedformat) { get; } | Returns the ThreeDFormat object that represents 3d effect properties for a text. Read-only [`IThreeDFormat`](../ithreedformat). |
 | [Transform](transform) { get; set; } | Gets or sets text wrapping shape. Read/write [`TextShapeType`](../textshapetype). |
-| [WrapText](wraptext) { get; set; } | True if text is wrapped at TextFrame's margins. Read/write [`NullableBool`](../nullablebool). |
+| [WrapText](wraptext) { get; set; } | **True** if text is wrapped at TextFrame's margins. Read/write [`NullableBool`](../nullablebool). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective text frame formatting data with the inheritance applied. |
 
 ### See Also

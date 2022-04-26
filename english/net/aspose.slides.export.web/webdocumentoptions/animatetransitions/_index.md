@@ -3,7 +3,7 @@ title: AnimateTransitions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 30
 url: /net/aspose.slides.export.web/webdocumentoptions/animatetransitions/
 ---
 ## WebDocumentOptions.AnimateTransitions property

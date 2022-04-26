@@ -3,7 +3,7 @@ title: IParagraphCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6260
+weight: 6010
 url: /net/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection interface
@@ -14,7 +14,7 @@ Represents a collection of a paragraphs.
 public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,13 +22,21 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 | [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [Item](item) { get; } | Gets the element at the specified index. |
-| [Add](add)(…) | Adds a Paragraph to the end of collection. (2 methods) |
-| [AddFromHtml](addfromhtml)(…) | Adds text from specified html string to the collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IParagraph) | Adds a Paragraph to the end of collection. |
+| [Add](add)(IParagraphCollection) | Adds a content of ParagraphCollection to the end of collection. |
+| [AddFromHtml](addfromhtml)(string) | Adds text from specified html string to the collection. |
+| [AddFromHtml](addfromhtml)(string, IExternalResourceResolver, string) | Adds text from specified html string to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [ExportToHtml](exporttohtml)(…) | Converts specifying paragraphs to the HTML and returns it as String object. |
-| [Insert](insert)(…) | Inserts a Paragraph into the collection at the specified index. (2 methods) |
-| [Remove](remove)(…) | Removes the first occurrence of a specific paragraph. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index of the collection. |
+| [ExportToHtml](exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converts specifying paragraphs to the HTML and returns it as String object. |
+| [Insert](insert)(int, IParagraph) | Inserts a Paragraph into the collection at the specified index. |
+| [Insert](insert)(int, IParagraphCollection) | Inserts a content of ParagraphCollection into the collection at the specified index. |
+| [Remove](remove)(IParagraph) | Removes the first occurrence of a specific paragraph. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
 
 ### See Also
 

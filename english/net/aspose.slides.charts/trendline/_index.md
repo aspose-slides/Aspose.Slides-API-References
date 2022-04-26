@@ -3,7 +3,7 @@ title: Trendline
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2350
+weight: 2330
 url: /net/aspose.slides.charts/trendline/
 ---
 ## Trendline class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/trendline/
 Class represents trend line of chart series
 
 ```csharp
-public class Trendline : ITrendline
+public class Trendline : DomObject<TrendlineCollection>, ITrendline
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -32,10 +32,17 @@ public class Trendline : ITrendline
 | [TextFrameForOverriding](textframeforoverriding) { get; } | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
 | [TrendlineName](trendlinename) { get; set; } | Gets or sets name of the trendline. Read/write String. |
 | [TrendlineType](trendlinetype) { get; set; } | Gets or sets type of trend line. Read/write [`TrendlineType`](../trendlinetype). |
-| [AddTextFrameForOverriding](addtextframeforoverriding)(…) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddTextFrameForOverriding](addtextframeforoverriding)(string) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [TrendlineCollection](../trendlinecollection)
 * interface [ITrendline](../itrendline)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

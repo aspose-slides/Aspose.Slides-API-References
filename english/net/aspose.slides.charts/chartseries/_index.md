@@ -3,7 +3,7 @@ title: ChartSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1320
+weight: 1300
 url: /net/aspose.slides.charts/chartseries/
 ---
 ## ChartSeries class
@@ -14,7 +14,7 @@ Represents a chart series.
 public class ChartSeries : IChartSeries
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -62,6 +62,11 @@ public class ChartSeries : IChartSeries
 | [Smooth](smooth) { get; set; } | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. Read/write Boolean. |
 | [TrendLines](trendlines) { get; } | Collection of series trend lines. Read-only [`ITrendlineCollection`](../itrendlinecollection). |
 | [Type](type) { get; set; } | Returns a type of this series. Read/write [`ChartType`](../charttype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetAutomaticSeriesColor](getautomaticseriescolor)() | Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined. |
 
 ### See Also

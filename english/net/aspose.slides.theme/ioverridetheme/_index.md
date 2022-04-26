@@ -3,7 +3,7 @@ title: IOverrideTheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10770
+weight: 10520
 url: /net/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme interface
@@ -14,21 +14,26 @@ Represents a overriding theme.
 public interface IOverrideTheme : ITheme
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsITheme](asitheme) { get; } | Allows to get base ITheme interface. Read-only [`ITheme`](../itheme). |
 | [IsEmpty](isempty) { get; } | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only Boolean. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clear](clear)() | Set ColorScheme, FontScheme, FormatScheme to null to disable any overriding with this theme object. |
 | [InitColorScheme](initcolorscheme)() | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
-| [InitColorSchemeFrom](initcolorschemefrom)(…) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
+| [InitColorSchemeFrom](initcolorschemefrom)(IColorScheme) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
 | [InitColorSchemeFromInherited](initcolorschemefrominherited)() | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme. |
 | [InitFontScheme](initfontscheme)() | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
-| [InitFontSchemeFrom](initfontschemefrom)(…) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
+| [InitFontSchemeFrom](initfontschemefrom)(IFontScheme) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
 | [InitFontSchemeFromInherited](initfontschemefrominherited)() | Init FontScheme with new object for overriding FontScheme of InheritedTheme. And initialize data of this new object with data of the FontScheme of InheritedTheme. |
 | [InitFormatScheme](initformatscheme)() | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
-| [InitFormatSchemeFrom](initformatschemefrom)(…) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
+| [InitFormatSchemeFrom](initformatschemefrom)(IFormatScheme) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
 | [InitFormatSchemeFromInherited](initformatschemefrominherited)() | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. And initialize data of this new object with data of the FormatScheme of InheritedTheme. |
 
 ### See Also

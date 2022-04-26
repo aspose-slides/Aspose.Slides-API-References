@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9230
+weight: 8980
 url: /net/aspose.slides/rowcollection/
 ---
 ## RowCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/rowcollection/
 Represents table row collection.
 
 ```csharp
-public sealed class RowCollection : IRowCollection
+public sealed class RowCollection : DomObject<Table>, IRowCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,14 +22,21 @@ public sealed class RowCollection : IRowCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns the row at the specified index. Read-only [`Row`](../row). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddClone](addclone)(…) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddClone](addclone)(IRow, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [InsertClone](insertclone)(…) | Creates a copy of the specified template row and insert it at the specified position in a table. |
-| [RemoveAt](removeat)(…) | Removes a row at the specified position from a table. |
+| [InsertClone](insertclone)(int, IRow, bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
+| [RemoveAt](removeat)(int, bool) | Removes a row at the specified position from a table. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Table](../table)
 * interface [IRowCollection](../irowcollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

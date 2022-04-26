@@ -3,7 +3,7 @@ title: IColorFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5240
+weight: 4990
 url: /net/aspose.slides/icolorformat/
 ---
 ## IColorFormat interface
@@ -14,7 +14,7 @@ Represents a color used in a presentation.
 public interface IColorFormat : IFillParamSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -34,8 +34,13 @@ public interface IColorFormat : IFillParamSource
 | [Saturation](saturation) { get; set; } | Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write Single. |
 | [SchemeColor](schemecolor) { get; set; } | Returns or sets the color identified by a color scheme. Read/write [`SchemeColor`](../schemecolor). |
 | [SystemColor](systemcolor) { get; set; } | Returns or sets the color identified by the system color table. Read/write [`SystemColor`](../systemcolor). |
-| [CopyFrom](copyfrom)(…) | Copy color format from "color". |
-| [ToString](tostring)(…) | Returns a String that represents the current color format. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyFrom](copyfrom)(IColorFormat) | Copy color format from "color". |
+| [ToString](tostring)(ColorStringFormat) | Returns a String that represents the current color format. |
 
 ### See Also
 

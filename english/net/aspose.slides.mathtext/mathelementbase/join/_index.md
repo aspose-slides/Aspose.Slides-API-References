@@ -3,7 +3,7 @@ title: Join
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 80
 url: /net/aspose.slides.mathtext/mathelementbase/join/
 ---
 ## MathElementBase.Join method (1 of 2)

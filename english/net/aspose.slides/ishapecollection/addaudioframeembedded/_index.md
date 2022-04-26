@@ -3,40 +3,10 @@ title: AddAudioFrameEmbedded
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 40
 url: /net/aspose.slides/ishapecollection/addaudioframeembedded/
 ---
 ## IShapeCollection.AddAudioFrameEmbedded method (1 of 2)
-
-Adds a new audio frame with embedded audio file to the end of a collection. It uses audio file from Presentation.Audios list.
-
-```csharp
-public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| x | Single | X coordinate of a new audio frame. |
-| y | Single | Y coordinate of a new audio frame. |
-| width | Single | Width of a new audio frame. |
-| height | Single | Height of a new audio frame. |
-| audio | IAudio | Audio from Presentation.Audios list. |
-
-## Return Value
-
-Created AudioFrame object.
-
-### See Also
-
-* interface [IAudioFrame](../../iaudioframe)
-* interface [IAudio](../../iaudio)
-* interface [IShapeCollection](../../ishapecollection)
-* namespace [Aspose.Slides](../../ishapecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IShapeCollection.AddAudioFrameEmbedded method (2 of 2)
 
 Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into Presentation.Audios list.
 
@@ -60,6 +30,36 @@ Created AudioFrame object.
 ### See Also
 
 * interface [IAudioFrame](../../iaudioframe)
+* interface [IShapeCollection](../../ishapecollection)
+* namespace [Aspose.Slides](../../ishapecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IShapeCollection.AddAudioFrameEmbedded method (2 of 2)
+
+Adds a new audio frame with embedded audio file to the end of a collection. It uses audio file from Presentation.Audios list.
+
+```csharp
+public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new audio frame. |
+| y | Single | Y coordinate of a new audio frame. |
+| width | Single | Width of a new audio frame. |
+| height | Single | Height of a new audio frame. |
+| audio | IAudio | Audio from Presentation.Audios list. |
+
+## Return Value
+
+Created AudioFrame object.
+
+### See Also
+
+* interface [IAudioFrame](../../iaudioframe)
+* interface [IAudio](../../iaudio)
 * interface [IShapeCollection](../../ishapecollection)
 * namespace [Aspose.Slides](../../ishapecollection)
 * assembly [Aspose.Slides](../../../)

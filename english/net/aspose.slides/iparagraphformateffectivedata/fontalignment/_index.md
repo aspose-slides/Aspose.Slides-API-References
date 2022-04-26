@@ -3,7 +3,7 @@ title: FontAlignment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 70
 url: /net/aspose.slides/iparagraphformateffectivedata/fontalignment/
 ---
 ## IParagraphFormatEffectiveData.FontAlignment property

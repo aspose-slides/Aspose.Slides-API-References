@@ -3,7 +3,7 @@ title: DateTime12
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 60
 url: /net/aspose.slides/fieldtype/datetime12/
 ---
 ## FieldType.DateTime12 property

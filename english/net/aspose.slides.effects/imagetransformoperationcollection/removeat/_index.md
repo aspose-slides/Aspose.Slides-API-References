@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 270
 url: /net/aspose.slides.effects/imagetransformoperationcollection/removeat/
 ---
 ## ImageTransformOperationCollection.RemoveAt method

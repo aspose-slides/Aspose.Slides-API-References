@@ -3,7 +3,7 @@ title: SmartArtQuickStyleType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10080
+weight: 9830
 url: /net/aspose.slides.smartart/smartartquickstyletype/
 ---
 ## SmartArtQuickStyleType enumeration

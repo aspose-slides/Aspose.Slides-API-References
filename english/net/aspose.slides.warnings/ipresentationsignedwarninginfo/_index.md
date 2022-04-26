@@ -3,7 +3,7 @@ title: IPresentationSignedWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11220
+weight: 10970
 url: /net/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo interface
@@ -14,7 +14,7 @@ This warning indicates that the presentation being read has the signature and th
 public interface IPresentationSignedWarningInfo : IWarningInfo
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

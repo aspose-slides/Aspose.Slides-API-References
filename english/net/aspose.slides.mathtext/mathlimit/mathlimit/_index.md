@@ -3,36 +3,10 @@ title: MathLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.slides.mathtext/mathlimit/mathlimit/
 ---
 ## MathLimit constructor (1 of 2)
-
-Initializes a new instance of the MathLimit class with lower limit
-
-```csharp
-public MathLimit(IMathElement baseArg, IMathElement limit)
-```
-
-### Examples
-
-Example:
-
-```csharp
-[C#]
-MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
-```
-
-### See Also
-
-* interface [IMathElement](../../imathelement)
-* class [MathLimit](../../mathlimit)
-* namespace [Aspose.Slides.MathText](../../mathlimit)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## MathLimit constructor (2 of 2)
 
 Initializes a new instance of the MathLimit class.
 
@@ -47,6 +21,32 @@ Example:
 ```csharp
 [C#]
 MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"), false);
+```
+
+### See Also
+
+* interface [IMathElement](../../imathelement)
+* class [MathLimit](../../mathlimit)
+* namespace [Aspose.Slides.MathText](../../mathlimit)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## MathLimit constructor (2 of 2)
+
+Initializes a new instance of the MathLimit class with lower limit
+
+```csharp
+public MathLimit(IMathElement baseArg, IMathElement limit)
+```
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
 ### See Also

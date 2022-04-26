@@ -3,7 +3,7 @@ title: ChartSeriesCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1330
+weight: 1310
 url: /net/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/chartseriescollection/
 Represents collection of [`ChartSeries`](../chartseries)
 
 ```csharp
-public class ChartSeriesCollection : IChartSeriesCollection
+public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,17 +22,27 @@ public class ChartSeriesCollection : IChartSeriesCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Creates new chart series and adds it to the collection. (4 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(ChartType) | Creates new chart series and adds it to the collection. |
+| [Add](add)(IChartCellCollection, ChartType) | Creates new chart series from [`ChartCellCollection`](../chartcellcollection) and adds it to the collection. |
+| [Add](add)(IChartDataCell, ChartType) | Creates new chart series from [`ChartDataCell`](../chartdatacell) and adds it to the collection. |
+| [Add](add)(string, ChartType) | Creates new chart series from value and adds it to the collection. |
 | [Clear](clear)() | Removes all controls from the collection. |
-| [CopyTo](copyto)(…) | Copies the entire collection to the specified array. |
+| [CopyTo](copyto)(Array, int) | Copies the entire collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(…) | Searches for the specified [`ChartSeries`](../chartseries) and returns the zero-based index of the first occurrence within the entire Collection |
-| [Insert](insert)(…) | Creates new chart series and inserts it into the collection. |
-| [Remove](remove)(…) | Removes the specified value. |
-| [RemoveAt](removeat)(…) | Removes an ActiveX control stored at specified position from the collection. |
+| [IndexOf](indexof)(IChartSeries) | Searches for the specified [`ChartSeries`](../chartseries) and returns the zero-based index of the first occurrence within the entire Collection |
+| [Insert](insert)(int, ChartType) | Creates new chart series and inserts it into the collection. |
+| [Remove](remove)(IChartSeries) | Removes the specified value. |
+| [RemoveAt](removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartData](../chartdata)
 * interface [IChartSeriesCollection](../ichartseriescollection)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

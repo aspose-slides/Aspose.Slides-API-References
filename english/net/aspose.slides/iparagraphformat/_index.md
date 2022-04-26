@@ -3,7 +3,7 @@ title: IParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6280
+weight: 6030
 url: /net/aspose.slides/iparagraphformat/
 ---
 ## IParagraphFormat interface
@@ -14,7 +14,7 @@ This class contains the paragraph formatting properties. Unlike [`IParagraphForm
 public interface IParagraphFormat
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -35,6 +35,11 @@ public interface IParagraphFormat
 | [SpaceBefore](spacebefore) { get; set; } | Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write Single. |
 | [SpaceWithin](spacewithin) { get; set; } | Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write Single. |
 | [Tabs](tabs) { get; } | Returns tabulations of a paragraph. No inheritance applied. Read-only [`ITabCollection`](../itabcollection). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective paragraph formatting data with the inheritance applied. |
 
 ### Remarks

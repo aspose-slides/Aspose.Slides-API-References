@@ -3,7 +3,7 @@ title: IMathAccentFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7620
+weight: 7370
 url: /net/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory interface
@@ -14,11 +14,12 @@ Allows to create a math accent
 public interface IMathAccentFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateMathAccent](createmathaccent)(…) | Creates a math accent applying to a specified math element with the default accent character value (2 methods) |
+| [CreateMathAccent](createmathaccent)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
+| [CreateMathAccent](createmathaccent)(IMathElement, char) | Creates a math accent applying to a specified math element |
 
 ### Remarks
 

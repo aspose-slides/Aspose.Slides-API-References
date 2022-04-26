@@ -3,7 +3,7 @@ title: IMathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7820
+weight: 7570
 url: /net/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter interface
@@ -14,7 +14,7 @@ Specifies a grouping symbol above or below an expression, usually to highlight t
 public interface IMathGroupingCharacter : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

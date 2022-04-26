@@ -3,7 +3,7 @@ title: IBehaviorPropertyCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 350
 url: /net/aspose.slides.animation/ibehaviorpropertycollection/
 ---
 ## IBehaviorPropertyCollection interface
@@ -14,16 +14,21 @@ Represents timing properties for the effect behavior.
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interfaces. Read-only IEnumerable. |
-| [Add](add)(…) | Adds a new property to the collection. |
-| [Contains](contains)(…) | Determines whether the ICollection contains a specific value. |
-| [IndexOf](indexof)(…) | Determines the index of a specific item by property value in the IList. |
-| [Insert](insert)(…) | Inserts a new property (with the specified property value) to the collection at the specified index. |
-| [Remove](remove)(…) | Removes specified property from the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string) | Adds a new property to the collection. |
+| [Contains](contains)(string) | Determines whether the ICollection contains a specific value. |
+| [IndexOf](indexof)(string) | Determines the index of a specific item by property value in the IList. |
+| [Insert](insert)(int, string) | Inserts a new property (with the specified property value) to the collection at the specified index. |
+| [Remove](remove)(string) | Removes specified property from the collection. |
 
 ### See Also
 

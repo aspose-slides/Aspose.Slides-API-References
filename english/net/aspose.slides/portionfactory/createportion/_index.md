@@ -3,7 +3,7 @@ title: CreatePortion
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides/portionfactory/createportion/
 ---
 ## PortionFactory.CreatePortion method (1 of 3)
@@ -29,15 +29,15 @@ Portion.
 
 ## PortionFactory.CreatePortion method (2 of 3)
 
-Creates a portion with the using of a specified portion data.
+Creates a text portion from specified string.
 
 ```csharp
-public IPortion CreatePortion(IPortion portion)
+public IPortion CreatePortion(string str)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| portion | IPortion | A portion to use. |
+| str | String | String. |
 
 ## Return Value
 
@@ -54,15 +54,15 @@ Portion.
 
 ## PortionFactory.CreatePortion method (3 of 3)
 
-Creates a text portion from specified string.
+Creates a portion with the using of a specified portion data.
 
 ```csharp
-public IPortion CreatePortion(string str)
+public IPortion CreatePortion(IPortion portion)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | String | String. |
+| portion | IPortion | A portion to use. |
 
 ## Return Value
 

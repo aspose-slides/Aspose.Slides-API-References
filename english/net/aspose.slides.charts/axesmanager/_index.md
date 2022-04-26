@@ -3,7 +3,7 @@ title: AxesManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1030
 url: /net/aspose.slides.charts/axesmanager/
 ---
 ## AxesManager class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/axesmanager/
 Provides access to chart axes.
 
 ```csharp
-public class AxesManager : IAxesManager
+public class AxesManager : DomObject<Chart>, IAxesManager
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -26,6 +26,8 @@ public class AxesManager : IAxesManager
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Chart](../chart)
 * interface [IAxesManager](../iaxesmanager)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

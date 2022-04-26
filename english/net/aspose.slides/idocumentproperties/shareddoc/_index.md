@@ -3,7 +3,7 @@ title: SharedDoc
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 210
 url: /net/aspose.slides/idocumentproperties/shareddoc/
 ---
 ## IDocumentProperties.SharedDoc property

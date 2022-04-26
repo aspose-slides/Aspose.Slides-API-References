@@ -3,7 +3,7 @@ title: DisplayBlanksAsType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1490
+weight: 1470
 url: /net/aspose.slides.charts/displayblanksastype/
 ---
 ## DisplayBlanksAsType enumeration

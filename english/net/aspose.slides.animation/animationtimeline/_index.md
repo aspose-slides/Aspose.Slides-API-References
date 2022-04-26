@@ -3,7 +3,7 @@ title: AnimationTimeLine
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.slides.animation/animationtimeline/
 ---
 ## AnimationTimeLine class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.animation/animationtimeline/
 Represents timeline of animation.
 
 ```csharp
-public class AnimationTimeLine : IAnimationTimeLine
+public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,8 @@ public class AnimationTimeLine : IAnimationTimeLine
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [BaseSlide](../../aspose.slides/baseslide)
 * interface [IAnimationTimeLine](../../aspose.slides/ianimationtimeline)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

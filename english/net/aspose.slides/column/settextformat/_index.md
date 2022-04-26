@@ -3,31 +3,10 @@ title: SetTextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.slides/column/settextformat/
 ---
 ## Column.SetTextFormat method (1 of 3)
-
-Sets defined paragraph format properties to all column cells' paragraphs.
-
-```csharp
-public void SetTextFormat(IParagraphFormat source)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| source | IParagraphFormat | IParagraphFormat object with necessary properties set. |
-
-### See Also
-
-* interface [IParagraphFormat](../../iparagraphformat)
-* class [Column](../../column)
-* namespace [Aspose.Slides](../../column)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Column.SetTextFormat method (2 of 3)
 
 Sets defined portion format properties to all column cells' portions.
 
@@ -42,6 +21,27 @@ public void SetTextFormat(IPortionFormat source)
 ### See Also
 
 * interface [IPortionFormat](../../iportionformat)
+* class [Column](../../column)
+* namespace [Aspose.Slides](../../column)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Column.SetTextFormat method (2 of 3)
+
+Sets defined paragraph format properties to all column cells' paragraphs.
+
+```csharp
+public void SetTextFormat(IParagraphFormat source)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | IParagraphFormat | IParagraphFormat object with necessary properties set. |
+
+### See Also
+
+* interface [IParagraphFormat](../../iparagraphformat)
 * class [Column](../../column)
 * namespace [Aspose.Slides](../../column)
 * assembly [Aspose.Slides](../../../)

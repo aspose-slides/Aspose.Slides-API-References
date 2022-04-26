@@ -3,7 +3,7 @@ title: StyleFontStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 1080
 url: /net/aspose.slides.animation/behaviorproperty/stylefontstyle/
 ---
 ## BehaviorProperty.StyleFontStyle property

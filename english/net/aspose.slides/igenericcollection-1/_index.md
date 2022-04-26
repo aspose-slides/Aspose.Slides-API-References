@@ -3,7 +3,7 @@ title: IGenericCollection<T>
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5680
+weight: 5430
 url: /net/aspose.slides/igenericcollection-1/
 ---
 ## IGenericCollection&lt;T&gt; interface
@@ -18,7 +18,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | --- | --- | --- |
 | T |  |  |
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

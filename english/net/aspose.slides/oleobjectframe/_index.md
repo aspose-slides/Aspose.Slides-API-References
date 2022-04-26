@@ -3,7 +3,7 @@ title: OleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8740
+weight: 8490
 url: /net/aspose.slides/oleobjectframe/
 ---
 ## OleObjectFrame class
@@ -14,7 +14,7 @@ Represents an OLE object on a slide.
 public class OleObjectFrame : GraphicalObject, IOleObjectFrame
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -31,7 +31,12 @@ public class OleObjectFrame : GraphicalObject, IOleObjectFrame
 | [SubstitutePictureFormat](substitutepictureformat) { get; } | Returns OleObject image fill properties object. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
 | [SubstitutePictureTitle](substitutepicturetitle) { get; set; } | Returns or sets the title for OleObject icon. Read/write String. |
 | [UpdateAutomatic](updateautomatic) { get; set; } | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write Boolean. |
-| [SetEmbeddedData](setembeddeddata)(…) | Sets information about OLE embedded data.  This method changes the properties of the object to reflect the new data and sets the IsObjectLink flag to false, indicating that the OLE object is embedded. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetEmbeddedData](setembeddeddata)(IOleEmbeddedDataInfo) | Sets information about OLE embedded data.  This method changes the properties of the object to reflect the new data and sets the IsObjectLink flag to false, indicating that the OLE object is embedded. |
 
 ### See Also
 

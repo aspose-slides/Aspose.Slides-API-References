@@ -3,7 +3,7 @@ title: BehaviorProperty
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.slides.animation/behaviorproperty/
 ---
 ## BehaviorProperty class
@@ -14,7 +14,7 @@ Represent property types for animation behavior. Follows the list of properties 
 public class BehaviorProperty : IBehaviorProperty
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -139,10 +139,15 @@ public class BehaviorProperty : IBehaviorProperty
 | static [StyleVisibility](stylevisibility) { get; } | Represents 'style.visibility' property |
 | static [XShear](xshear) { get; } | Represents 'xshear' property |
 | static [YShear](yshear) { get; } | Represents 'yshear' property |
-| static [GetOrCreateByValue](getorcreatebyvalue)(…) | Looks for existing behavior property by value or creates new custom one with the specified value |
 | [IsCustom](iscustom) { get; } | Shows if this property does not belong to the predefined properties list in the specification: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](value) { get; } | Value of the property |
-| override [Equals](equals)(…) | Checks if this object is equal to another. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| static [GetOrCreateByValue](getorcreatebyvalue)(string) | Looks for existing behavior property by value or creates new custom one with the specified value |
+| override [Equals](equals)(object) | Checks if this object is equal to another. |
 | override [GetHashCode](gethashcode)() | Calculates and returns hach code based on the [`Value`](./value) property |
 
 ### See Also

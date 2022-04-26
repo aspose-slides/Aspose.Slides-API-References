@@ -3,7 +3,7 @@ title: IBlur
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3180
+weight: 3000
 url: /net/aspose.slides.effects/iblur/
 ---
 ## IBlur interface
@@ -14,7 +14,7 @@ Represents a Blur effect that is applied to the entire shape, including its fill
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

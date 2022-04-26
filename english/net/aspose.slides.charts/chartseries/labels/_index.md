@@ -3,7 +3,7 @@ title: Labels
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 190
 url: /net/aspose.slides.charts/chartseries/labels/
 ---
 ## ChartSeries.Labels property

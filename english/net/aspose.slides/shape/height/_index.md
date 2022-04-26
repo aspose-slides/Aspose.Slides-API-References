@@ -3,7 +3,7 @@ title: Height
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 90
 url: /net/aspose.slides/shape/height/
 ---
 ## Shape.Height property

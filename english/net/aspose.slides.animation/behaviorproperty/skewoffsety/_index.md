@@ -3,7 +3,7 @@ title: SkewOffsetY
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 920
+weight: 840
 url: /net/aspose.slides.animation/behaviorproperty/skewoffsety/
 ---
 ## BehaviorProperty.SkewOffsetY property

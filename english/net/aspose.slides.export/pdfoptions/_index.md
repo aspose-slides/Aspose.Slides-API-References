@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4180
+weight: 3930
 url: /net/aspose.slides.export/pdfoptions/
 ---
 ## PdfOptions class
@@ -14,11 +14,16 @@ Provides options that control how a presentation is saved in Pdf format.
 public class PdfOptions : SaveOptions, IPdfOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PdfOptions](pdfoptions)() | Default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AccessPermissions](accesspermissions) { get; set; } | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [`PdfAccessPermissions`](../pdfaccesspermissions). |
 | [AdditionalCommonFontFamilies](additionalcommonfontfamilies) { get; set; } | Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common. Read/write String[]. |
 | [ApplyImageTransparent](applyimagetransparent) { get; set; } | Applies the specified transparent color to an image if `true`. |
@@ -33,7 +38,7 @@ public class PdfOptions : SaveOptions, IPdfOptions
 | [Password](password) { get; set; } | Setting user password to protect the PDF document. Read/write String. |
 | [SaveMetafilesAsPng](savemetafilesaspng) { get; set; } | True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean. |
 | [ShowHiddenSlides](showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
-| [SufficientResolution](sufficientresolution) { get; set; } | Returns or sets a value determining resolution of images inside PDF document. Property affects on file size, time of export and image quality.The default value is 96.Effect of this parameter depends on few factors. Algorithm tries to get best output image size according to the property value, source image size and image frame size. Using of similar property values may give the same result. Recommended to use step 16 or 32 to get visible effect. Read/write Single. |
+| [SufficientResolution](sufficientresolution) { get; set; } | Returns or sets a value determining resolution of images inside PDF document. |
 | [TextCompression](textcompression) { get; set; } | Specifies compression type to be used for all textual content in the document. Read/write [`PdfTextCompression`](../pdftextcompression). |
 
 ### See Also

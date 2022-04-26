@@ -3,7 +3,7 @@ title: IRow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6540
+weight: 6290
 url: /net/aspose.slides/irow/
 ---
 ## IRow interface
@@ -14,7 +14,7 @@ Represents a row in a table.
 public interface IRow : IBulkTextFormattable, ICellCollection
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

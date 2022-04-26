@@ -3,7 +3,7 @@ title: ZoomLayout
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11290
+weight: 11040
 url: /net/aspose.slides/zoomlayout/
 ---
 ## ZoomLayout enumeration

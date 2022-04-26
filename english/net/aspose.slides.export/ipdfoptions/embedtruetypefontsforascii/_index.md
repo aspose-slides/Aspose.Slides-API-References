@@ -3,7 +3,7 @@ title: EmbedTrueTypeFontsForASCII
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 90
 url: /net/aspose.slides.export/ipdfoptions/embedtruetypefontsforascii/
 ---
 ## IPdfOptions.EmbedTrueTypeFontsForASCII property
@@ -16,7 +16,7 @@ public bool EmbedTrueTypeFontsForASCII { get; set; }
 
 ### Remarks
 
-Default is true.
+Default is **true**.
 
 ### See Also
 

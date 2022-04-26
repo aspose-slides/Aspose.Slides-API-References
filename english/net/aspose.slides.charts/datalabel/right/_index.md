@@ -3,7 +3,7 @@ title: Right
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 110
 url: /net/aspose.slides.charts/datalabel/right/
 ---
 ## DataLabel.Right property

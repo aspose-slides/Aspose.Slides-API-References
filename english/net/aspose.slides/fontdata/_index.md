@@ -3,7 +3,7 @@ title: FontData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4630
+weight: 4380
 url: /net/aspose.slides/fontdata/
 ---
 ## FontData class
@@ -14,14 +14,24 @@ Represents a font definition. Immutable.
 public sealed class FontData : IFontData
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [FontData](fontdata)(…) | Creates a new FontData object with the specified font name. |
+| [FontData](fontdata)(string) | Creates a new FontData object with the specified font name. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [FontName](fontname) { get; } | Returns the font name. Read/write String. |
-| override [Equals](equals)(…) | Determines whether two FontData instances are equal. |
-| [GetFontName](getfontname)(…) | Returns the font name, replacing theme referrence with an actual font used. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether two FontData instances are equal. |
+| [GetFontName](getfontname)(IThemeEffectiveData) | Returns the font name, replacing theme referrence with an actual font used. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 | override [ToString](tostring)() | Returns string representation. |
 

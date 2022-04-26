@@ -3,7 +3,7 @@ title: FillType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4600
+weight: 4350
 url: /net/aspose.slides/filltype/
 ---
 ## FillType enumeration

@@ -3,7 +3,7 @@ title: ColumnFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2480
+weight: 2460
 url: /net/aspose.slides/columnformat/
 ---
 ## ColumnFormat class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/columnformat/
 Represents format of a table column.
 
 ```csharp
-public class ColumnFormat : IColumnFormat
+public class ColumnFormat : DomObject<Column>, IColumnFormat
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
@@ -22,6 +22,8 @@ public class ColumnFormat : IColumnFormat
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Column](../column)
 * interface [IColumnFormat](../icolumnformat)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

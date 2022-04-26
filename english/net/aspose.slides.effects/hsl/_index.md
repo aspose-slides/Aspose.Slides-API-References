@@ -3,7 +3,7 @@ title: HSL
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3000
+weight: 2830
 url: /net/aspose.slides.effects/hsl/
 ---
 ## HSL class
@@ -14,11 +14,11 @@ Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance
 public class HSL : ImageTransformOperation, IHSL
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the specified [`HSL`](../hsl) is equal to the current [`HSL`](../hsl). |
+| override [Equals](equals)(object) | Determines whether the specified [`HSL`](../hsl) is equal to the current [`HSL`](../hsl). |
 | [GetEffective](geteffective)() | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

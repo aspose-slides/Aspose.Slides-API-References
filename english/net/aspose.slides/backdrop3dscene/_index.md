@@ -3,7 +3,7 @@ title: Backdrop3DScene
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 830
+weight: 820
 url: /net/aspose.slides/backdrop3dscene/
 ---
 ## Backdrop3DScene class
@@ -14,7 +14,7 @@ Defines a plane in which effects, such as glow and shadow, are applied in relati
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

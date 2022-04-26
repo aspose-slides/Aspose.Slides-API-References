@@ -3,7 +3,7 @@ title: TabCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10270
+weight: 10020
 url: /net/aspose.slides/tabcollection/
 ---
 ## TabCollection class
@@ -14,7 +14,7 @@ Represents a collection of tabs.
 public sealed class TabCollection : ITabCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,13 +22,19 @@ public sealed class TabCollection : ITabCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`Tab`](../tab). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Adds a Tab to the collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(ITab) | Adds a Tab to the collection. |
+| [Add](add)(double, TabAlignment) | Adds a Tab to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
-| override [Equals](equals)(…) | Determines whether two TabsEx instances are equal. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| override [Equals](equals)(object) | Determines whether two TabsEx instances are equal. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 | override [GetHashCode](gethashcode)() | Returns hash code for this object. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index of the collection. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
 
 ### See Also
 

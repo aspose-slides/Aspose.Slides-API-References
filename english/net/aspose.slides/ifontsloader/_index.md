@@ -3,7 +3,7 @@ title: IFontsLoader
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5640
+weight: 5390
 url: /net/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader interface

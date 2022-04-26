@@ -3,7 +3,7 @@ title: InternalString
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 190
 url: /net/aspose.slides/fieldtype/internalstring/
 ---
 ## FieldType.InternalString property

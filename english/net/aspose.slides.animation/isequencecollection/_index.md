@@ -3,7 +3,7 @@ title: ISequenceCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 500
 url: /net/aspose.slides.animation/isequencecollection/
 ---
 ## ISequenceCollection interface
@@ -14,17 +14,22 @@ Represents collection of interactive sequences.
 public interface ISequenceCollection : IEnumerable<ISequence>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Returns the number of elements in a collection Read-only Int32. |
 | [Item](item) { get; } | Returns a sequense at the specified index. |
-| [Add](add)(…) | Add new interactive sequence. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IShape) | Add new interactive sequence. |
 | [Clear](clear)() | Removes all sequences from a collection. |
-| [Remove](remove)(…) | Removes specified sequence from a collection. |
-| [RemoveAt](removeat)(…) | Removes sequence at the specified index. |
+| [Remove](remove)(ISequence) | Removes specified sequence from a collection. |
+| [RemoveAt](removeat)(int) | Removes sequence at the specified index. |
 
 ### See Also
 

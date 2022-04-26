@@ -3,7 +3,7 @@ title: CustomXmlPartCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2620
+weight: 2600
 url: /net/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
@@ -14,7 +14,7 @@ Represents collection of custom xml parts.
 public class CustomXmlPartCollection : ICustomXmlPartCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,12 +22,19 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns the element at the specified index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Adds new custom xml part. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(byte[]) | Adds new custom xml part. |
+| [Add](add)(Stream) | Adds new custom xml part. |
+| [Add](add)(string) | Adds new custom xml part. |
 | [Clear](clear)() | Removes all items from the collection. |
-| [CopyTo](copyto)(…) | Copy to specified array. |
+| [CopyTo](copyto)(Array, int) | Copy to specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(…) | Removes custom xml part at the specified index. |
+| [Remove](remove)(ICustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](removeat)(int) | Removes custom xml part at the specified index. |
 
 ### See Also
 

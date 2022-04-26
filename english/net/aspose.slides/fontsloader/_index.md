@@ -3,7 +3,7 @@ title: FontsLoader
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4720
+weight: 4470
 url: /net/aspose.slides/fontsloader/
 ---
 ## FontsLoader class
@@ -14,14 +14,14 @@ Class for loading custom fonts defined by user. Should be used before creating a
 public sealed class FontsLoader : IFontsLoader
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
 | static [ClearCache](clearcache)() | Releases all custom fonts defined by user |
 | static [GetFontFolders](getfontfolders)() | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
-| static [LoadExternalFont](loadexternalfont)(…) | Adds font from the binary data |
-| static [LoadExternalFonts](loadexternalfonts)(…) | Adds additional folders to seek fonts. |
+| static [LoadExternalFont](loadexternalfont)(byte[]) | Adds font from the binary data |
+| static [LoadExternalFonts](loadexternalfonts)(string[]) | Adds additional folders to seek fonts. |
 
 ### See Also
 

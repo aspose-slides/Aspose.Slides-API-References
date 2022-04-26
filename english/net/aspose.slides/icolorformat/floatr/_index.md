@@ -3,7 +3,7 @@ title: FloatR
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 80
 url: /net/aspose.slides/icolorformat/floatr/
 ---
 ## IColorFormat.FloatR property

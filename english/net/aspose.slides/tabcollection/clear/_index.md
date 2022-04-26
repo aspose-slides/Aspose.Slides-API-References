@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 60
 url: /net/aspose.slides/tabcollection/clear/
 ---
 ## TabCollection.Clear method

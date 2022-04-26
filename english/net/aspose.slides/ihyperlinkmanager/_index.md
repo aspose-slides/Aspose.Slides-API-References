@@ -3,7 +3,7 @@ title: IHyperlinkManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5840
+weight: 5590
 url: /net/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager interface
@@ -14,17 +14,17 @@ Provide hyperlinks management (adding, removing).
 public interface IHyperlinkManager
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
 | [RemoveHyperlinkClick](removehyperlinkclick)() | Removes hyperlink on click. |
 | [RemoveHyperlinkMouseOver](removehyperlinkmouseover)() | Removes hyperlink mouse over. |
-| [SetExternalHyperlinkClick](setexternalhyperlinkclick)(…) | Set external hyperlink on click. |
-| [SetExternalHyperlinkMouseOver](setexternalhyperlinkmouseover)(…) | Sets external hyperlink mouse over. |
-| [SetInternalHyperlinkClick](setinternalhyperlinkclick)(…) | Sets internal hyperlink on click. |
-| [SetInternalHyperlinkMouseOver](setinternalhyperlinkmouseover)(…) | Sets internal hyperlink mouse over. |
-| [SetMacroHyperlinkClick](setmacrohyperlinkclick)(…) | Set Macro hyperlink on a click. |
+| [SetExternalHyperlinkClick](setexternalhyperlinkclick)(string) | Set external hyperlink on click. |
+| [SetExternalHyperlinkMouseOver](setexternalhyperlinkmouseover)(string) | Sets external hyperlink mouse over. |
+| [SetInternalHyperlinkClick](setinternalhyperlinkclick)(ISlide) | Sets internal hyperlink on click. |
+| [SetInternalHyperlinkMouseOver](setinternalhyperlinkmouseover)(ISlide) | Sets internal hyperlink mouse over. |
+| [SetMacroHyperlinkClick](setmacrohyperlinkclick)(string) | Set Macro hyperlink on a click. |
 
 ### See Also
 

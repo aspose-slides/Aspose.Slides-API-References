@@ -3,7 +3,7 @@ title: BaseOverrideThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10470
+weight: 10220
 url: /net/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager class
@@ -14,13 +14,18 @@ Base class for classes that provide access to different types of overriden theme
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [IsOverrideThemeEnabled](isoverridethemeenabled) { get; } | Determines whether OverrideTheme overrides inherited effective theme or not. To enable OverrideTheme for overriding use OverrideTheme.Init*() methods. To disable OverrideTheme from overriding use OverrideTheme.Clear() method. Read-only Boolean. |
 | [OverrideTheme](overridetheme) { get; set; } | Returns the overriding theme object. Read/write [`IOverrideTheme`](../ioverridetheme). |
-| [ApplyColorScheme](applycolorscheme)(…) | Applies extra color scheme to a slide. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [ApplyColorScheme](applycolorscheme)(IExtraColorScheme) | Applies extra color scheme to a slide. |
 | [CreateThemeEffective](createthemeeffective)() | Returns the theme object. |
 
 ### See Also

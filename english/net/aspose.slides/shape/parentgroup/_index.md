@@ -3,7 +3,7 @@ title: ParentGroup
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 190
 url: /net/aspose.slides/shape/parentgroup/
 ---
 ## Shape.ParentGroup property

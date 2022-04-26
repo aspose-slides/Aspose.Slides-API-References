@@ -3,7 +3,7 @@ title: IColorReplaceEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3230
+weight: 3050
 url: /net/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents a Color Replacement effect. All effect colors 
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

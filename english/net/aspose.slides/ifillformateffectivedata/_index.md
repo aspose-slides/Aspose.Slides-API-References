@@ -3,7 +3,7 @@ title: IFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5530
+weight: 5280
 url: /net/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which contains effective fill formatting properties.
 public interface IFillFormatEffectiveData : IFillParamSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

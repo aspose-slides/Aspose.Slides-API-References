@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 110
 url: /net/aspose.slides.slideshow/slideshowtransition/equals/
 ---
 ## SlideShowTransition.Equals method
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ## Return Value
 
-true if the specified SlideShowTransition is equal to the current SlideShowTransition; otherwise, false.
+**true** if the specified SlideShowTransition is equal to the current SlideShowTransition; otherwise, **false**.
 
 ### See Also
 

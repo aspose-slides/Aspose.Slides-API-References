@@ -3,7 +3,7 @@ title: IFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1980
+weight: 1960
 url: /net/aspose.slides.charts/iformat/
 ---
 ## IFormat interface
@@ -14,7 +14,7 @@ Represents chart format properties.
 public interface IFormat
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

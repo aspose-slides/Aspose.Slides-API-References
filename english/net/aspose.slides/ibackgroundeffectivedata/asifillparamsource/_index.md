@@ -3,7 +3,7 @@ title: AsIFillParamSource
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.slides/ibackgroundeffectivedata/asifillparamsource/
 ---
 ## IBackgroundEffectiveData.AsIFillParamSource property

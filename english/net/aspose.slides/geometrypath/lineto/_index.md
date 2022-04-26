@@ -3,7 +3,7 @@ title: LineTo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 80
 url: /net/aspose.slides/geometrypath/lineto/
 ---
 ## GeometryPath.LineTo method (1 of 4)

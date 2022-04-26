@@ -3,7 +3,7 @@ title: SpaceBefore
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 150
 url: /net/aspose.slides/iparagraphformat/spacebefore/
 ---
 ## IParagraphFormat.SpaceBefore property

@@ -3,7 +3,7 @@ title: TimeUnitType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2340
+weight: 2320
 url: /net/aspose.slides.charts/timeunittype/
 ---
 ## TimeUnitType enumeration

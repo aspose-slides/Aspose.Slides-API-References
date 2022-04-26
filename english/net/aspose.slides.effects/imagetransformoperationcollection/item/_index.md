@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 30
 url: /net/aspose.slides.effects/imagetransformoperationcollection/item/
 ---
 ## ImageTransformOperationCollection indexer

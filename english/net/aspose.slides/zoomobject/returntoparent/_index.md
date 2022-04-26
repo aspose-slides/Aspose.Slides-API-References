@@ -3,7 +3,7 @@ title: ReturnToParent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.slides/zoomobject/returntoparent/
 ---
 ## ZoomObject.ReturnToParent property

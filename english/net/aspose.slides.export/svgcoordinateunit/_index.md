@@ -3,7 +3,7 @@ title: SvgCoordinateUnit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4300
+weight: 4050
 url: /net/aspose.slides.export/svgcoordinateunit/
 ---
 ## SvgCoordinateUnit enumeration

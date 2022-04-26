@@ -3,7 +3,7 @@ title: IControlPropertiesCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5400
+weight: 5150
 url: /net/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection interface
@@ -14,7 +14,7 @@ A collection of ActiveX controls.
 public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string, string>>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,9 +22,14 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 | [Count](count) { get; } | Returns a number of properties in the collection. Read-only Int32. |
 | [Item](item) { get; set; } | Returns or sets property. |
 | [NamesOfProperties](namesofproperties) { get; } | Returns a number of properties in the collection. Read-only ICollection. |
-| [Add](add)(…) | Adds a property to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string, string) | Adds a property to the collection. |
 | [Clear](clear)() | Removes all properties. |
-| [Remove](remove)(…) | Removes a property with the specified name. |
+| [Remove](remove)(string) | Removes a property with the specified name. |
 
 ### See Also
 

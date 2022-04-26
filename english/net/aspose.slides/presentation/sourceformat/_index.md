@@ -3,7 +3,7 @@ title: SourceFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 250
 url: /net/aspose.slides/presentation/sourceformat/
 ---
 ## Presentation.SourceFormat property

@@ -3,10 +3,30 @@ title: Hyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 10
 url: /net/aspose.slides/hyperlink/hyperlink/
 ---
 ## Hyperlink constructor (1 of 3)
+
+Creates an instance of a hyperlink.
+
+```csharp
+public Hyperlink(string url)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| url | String | Hyperlink URL. |
+
+### See Also
+
+* class [Hyperlink](../../hyperlink)
+* namespace [Aspose.Slides](../../hyperlink)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Hyperlink constructor (2 of 3)
 
 Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction.
 
@@ -21,26 +41,6 @@ public Hyperlink(ISlide slide)
 ### See Also
 
 * interface [ISlide](../../islide)
-* class [Hyperlink](../../hyperlink)
-* namespace [Aspose.Slides](../../hyperlink)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Hyperlink constructor (2 of 3)
-
-Creates an instance of a hyperlink.
-
-```csharp
-public Hyperlink(string url)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| url | String | Hyperlink URL. |
-
-### See Also
-
 * class [Hyperlink](../../hyperlink)
 * namespace [Aspose.Slides](../../hyperlink)
 * assembly [Aspose.Slides](../../../)

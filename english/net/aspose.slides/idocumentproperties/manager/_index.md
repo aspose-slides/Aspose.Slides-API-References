@@ -3,7 +3,7 @@ title: Manager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 170
 url: /net/aspose.slides/idocumentproperties/manager/
 ---
 ## IDocumentProperties.Manager property

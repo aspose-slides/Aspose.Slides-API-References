@@ -3,7 +3,7 @@ title: IOuterShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3440
+weight: 3260
 url: /net/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow interface
@@ -15,7 +15,7 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

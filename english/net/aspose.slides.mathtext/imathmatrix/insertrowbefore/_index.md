@@ -3,7 +3,7 @@ title: InsertRowBefore
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 180
 url: /net/aspose.slides.mathtext/imathmatrix/insertrowbefore/
 ---
 ## IMathMatrix.InsertRowBefore method

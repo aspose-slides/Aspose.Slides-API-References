@@ -3,7 +3,7 @@ title: EnablePresetShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 220
 url: /net/aspose.slides/effectformat/enablepresetshadoweffect/
 ---
 ## EffectFormat.EnablePresetShadowEffect method

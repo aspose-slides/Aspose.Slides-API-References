@@ -3,7 +3,7 @@ title: OtherStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides/imasterslide/otherstyle/
 ---
 ## IMasterSlide.OtherStyle property

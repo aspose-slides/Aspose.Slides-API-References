@@ -3,7 +3,7 @@ title: IImageCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5860
+weight: 5610
 url: /net/aspose.slides/iimagecollection/
 ---
 ## IImageCollection interface
@@ -14,12 +14,23 @@ Represents collection of PPImage.
 public interface IImageCollection : IGenericCollection<IPPImage>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns image by its index. |
-| [AddImage](addimage)(…) | Add an image to a presentation. (7 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddImage](addimage)(byte[]) | Adds an image to a presentation from specified buffer. |
+| [AddImage](addimage)(Image) | Add an image to a presentation. |
+| [AddImage](addimage)(IPPImage) | Adds a copy of an image from an another presentation. |
+| [AddImage](addimage)(ISvgImage) | Add an image to a presentation from SVG object. |
+| [AddImage](addimage)(MemoryStream) | Adds image from a memory stream. |
+| [AddImage](addimage)(Stream) | Add an image to a presentation from stream. |
+| [AddImage](addimage)(Stream, LoadingStreamBehavior) | Creates and adds an image to a presentation from stream. |
 
 ### See Also
 

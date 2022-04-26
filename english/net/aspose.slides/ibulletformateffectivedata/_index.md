@@ -3,7 +3,7 @@ title: IBulletFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5170
+weight: 4920
 url: /net/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which contains effective paragraph bullet formatting properties
 public interface IBulletFormatEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,8 +23,8 @@ public interface IBulletFormatEffectiveData
 | [FillFormat](fillformat) { get; } | Returns the bullet fill format of a paragraph. Read-only [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 | [Font](font) { get; } | Returns the bullet font of a paragraph. Read-only [`IFontData`](../ifontdata). |
 | [Height](height) { get; } | Returns the bullet height of a paragraph. Read-only Single. |
-| [IsBulletHardColor](isbullethardcolor) { get; } | Determines whether the bullet has own color or inherits it from the first portion in the paragraph. Returns true if bullet has own color and false if bullet inherits color from the first portion in the paragraph. Read-only Boolean. |
-| [IsBulletHardFont](isbullethardfont) { get; } | Determines whether the bullet has own font or inherits it from the first portion in the paragraph. Returns true if bullet has own font and true if bullet inherits font from the first portion in the paragraph. Read-only Boolean. |
+| [IsBulletHardColor](isbullethardcolor) { get; } | Determines whether the bullet has own color or inherits it from the first portion in the paragraph. Returns **true** if bullet has own color and **false** if bullet inherits color from the first portion in the paragraph. Read-only Boolean. |
+| [IsBulletHardFont](isbullethardfont) { get; } | Determines whether the bullet has own font or inherits it from the first portion in the paragraph. Returns **true** if bullet has own font and **true** if bullet inherits font from the first portion in the paragraph. Read-only Boolean. |
 | [NumberedBulletStartWith](numberedbulletstartwith) { get; } | Returns the first number which is used for group of numbered bullets. Read-only Int16. |
 | [NumberedBulletStyle](numberedbulletstyle) { get; } | Returns the style of a numbered bullet. Read-only [`NumberedBulletStyle`](../numberedbulletstyle). |
 | [Type](type) { get; } | Returns the bullet type of a paragraph. Read-only [`BulletType`](../bullettype). |

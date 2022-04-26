@@ -3,7 +3,7 @@ title: DateTime10
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 40
 url: /net/aspose.slides/fieldtype/datetime10/
 ---
 ## FieldType.DateTime10 property

@@ -3,7 +3,7 @@ title: IsAutomaticTickLabelSpacing
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 230
 url: /net/aspose.slides.charts/iaxis/isautomaticticklabelspacing/
 ---
 ## IAxis.IsAutomaticTickLabelSpacing property

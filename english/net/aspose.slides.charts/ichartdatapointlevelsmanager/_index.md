@@ -3,7 +3,7 @@ title: IChartDataPointLevelsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1730
+weight: 1710
 url: /net/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager interface
@@ -14,7 +14,7 @@ Container of data point levels. Applied for Treeamp and Sunburst series. Data po
 public interface IChartDataPointLevelsManager
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

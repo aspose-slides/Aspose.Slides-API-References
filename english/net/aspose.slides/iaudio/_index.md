@@ -3,7 +3,7 @@ title: IAudio
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4980
+weight: 4730
 url: /net/aspose.slides/iaudio/
 ---
 ## IAudio interface
@@ -14,12 +14,17 @@ Represents an embedded audio file.
 public interface IAudio
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [BinaryData](binarydata) { get; } | Returns the copy of an audio's data. In case of large amount of data consider using of [`GetStream`](./getstream) method to prevent unnecessary loading of audio's data into memory or even OutOfMemoryException. Read-only Byte[]. |
 | [ContentType](contenttype) { get; } | Returns a MIME type of an audio, encoded in [`BinaryData`](./binarydata). Read-only String. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetStream](getstream)() | Returns Stream stream for reading. Use 'using' or close stream after using. |
 
 ### See Also

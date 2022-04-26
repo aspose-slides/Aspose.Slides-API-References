@@ -3,10 +3,39 @@ title: AddVideoFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 180
 url: /net/aspose.slides/ishapecollection/addvideoframe/
 ---
 ## IShapeCollection.AddVideoFrame method (1 of 2)
+
+Adds a new video frame to the end of a collection.
+
+```csharp
+public IVideoFrame AddVideoFrame(float x, float y, float width, float height, string fname)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| x | Single | X coordinate of a new video frame. |
+| y | Single | Y coordinate of a new video frame. |
+| width | Single | Width of a new video frame. |
+| height | Single | Height of a new video frame. |
+| fname | String | Video file name. |
+
+## Return Value
+
+Created VideoFrame object.
+
+### See Also
+
+* interface [IVideoFrame](../../ivideoframe)
+* interface [IShapeCollection](../../ishapecollection)
+* namespace [Aspose.Slides](../../ishapecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IShapeCollection.AddVideoFrame method (2 of 2)
 
 Adds a new video frame to the end of a collection.
 
@@ -30,35 +59,6 @@ Created VideoFrame object.
 
 * interface [IVideoFrame](../../ivideoframe)
 * interface [IVideo](../../ivideo)
-* interface [IShapeCollection](../../ishapecollection)
-* namespace [Aspose.Slides](../../ishapecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IShapeCollection.AddVideoFrame method (2 of 2)
-
-Adds a new video frame to the end of a collection.
-
-```csharp
-public IVideoFrame AddVideoFrame(float x, float y, float width, float height, string fname)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| x | Single | X coordinate of a new video frame. |
-| y | Single | Y coordinate of a new video frame. |
-| width | Single | Width of a new video frame. |
-| height | Single | Height of a new video frame. |
-| fname | String | Video file name. |
-
-## Return Value
-
-Created VideoFrame object.
-
-### See Also
-
-* interface [IVideoFrame](../../ivideoframe)
 * interface [IShapeCollection](../../ishapecollection)
 * namespace [Aspose.Slides](../../ishapecollection)
 * assembly [Aspose.Slides](../../../)

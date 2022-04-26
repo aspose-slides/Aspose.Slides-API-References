@@ -3,7 +3,7 @@ title: ChartCellCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1180
+weight: 1160
 url: /net/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection class
@@ -14,17 +14,23 @@ Represents collection of a cells with data.
 public class ChartCellCollection : IChartCellCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the count of cells in collection. Read-only Int32. |
 | [Item](item) { get; } | Returns a cell (IChartDataCell) by index. |
-| [Add](add)(…) | Add new cell to the collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IChartDataCell) | Add new cell to the collection. |
+| [Add](add)(object) | Creates [`ChartDataCell`](../chartdatacell) from specified value and adds it to the collection. |
 | [GetCellsAddress](getcellsaddress)() | Returns address of the set of cells in workbook. |
 | [GetConcatenatedValuesFromCells](getconcatenatedvaluesfromcells)() | Concatenation string from all cells string values. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [RemoveAt](removeat)(…) | Removes a cell from the collection by index. |
+| [RemoveAt](removeat)(int) | Removes a cell from the collection by index. |
 
 ### See Also
 

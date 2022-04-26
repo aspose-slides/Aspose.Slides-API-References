@@ -3,7 +3,7 @@ title: ChartDataTable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 60
 url: /net/aspose.slides.charts/chart/chartdatatable/
 ---
 ## Chart.ChartDataTable property

@@ -3,7 +3,7 @@ title: MinValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 430
 url: /net/aspose.slides.charts/iaxis/minvalue/
 ---
 ## IAxis.MinValue property

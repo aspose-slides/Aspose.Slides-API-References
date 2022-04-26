@@ -3,7 +3,7 @@ title: IChartCategoryLevelsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1650
+weight: 1630
 url: /net/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 ## IChartCategoryLevelsManager interface
@@ -14,13 +14,18 @@ Managed container of the values of the chart category levels.
 public interface IChartCategoryLevelsManager
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Returns IChartDataCell object for defined level. |
-| [DeleteGroupingItem](deletegroupingitem)(…) | Delete grouping item for defined level. |
-| [SetGroupingItem](setgroupingitem)(…) | Sets grouping item for defined level. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [DeleteGroupingItem](deletegroupingitem)(int) | Delete grouping item for defined level. |
+| [SetGroupingItem](setgroupingitem)(int, object) | Sets grouping item for defined level. |
 
 ### See Also
 

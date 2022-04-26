@@ -3,7 +3,7 @@ title: XamlOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4540
+weight: 4290
 url: /net/aspose.slides.export.xaml/xamloptions/
 ---
 ## XamlOptions class
@@ -14,11 +14,16 @@ Options that control how a XAML document is saved.
 public class XamlOptions : SaveOptions, IXamlOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [XamlOptions](xamloptions)() | Creates the XamlOptions instance. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ExportHiddenSlides](exporthiddenslides) { get; set; } | Determines whether hidden slides will be exported. |
 | [OutputSaver](outputsaver) { get; set; } | Represents an implementation of IOutputSaver interface. |
 

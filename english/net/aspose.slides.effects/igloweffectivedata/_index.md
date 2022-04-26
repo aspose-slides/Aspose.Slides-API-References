@@ -3,7 +3,7 @@ title: IGlowEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3310
+weight: 3130
 url: /net/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents a Glow effect, in which a color blurred outlin
 public interface IGlowEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

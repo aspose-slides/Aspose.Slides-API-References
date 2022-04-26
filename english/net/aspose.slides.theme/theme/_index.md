@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10910
+weight: 10660
 url: /net/aspose.slides.theme/theme/
 ---
 ## Theme class
@@ -14,7 +14,7 @@ Represents a theme.
 public abstract class Theme : ITheme
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,6 +22,11 @@ public abstract class Theme : ITheme
 | abstract [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |
 | abstract [FormatScheme](formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatScheme`](../iformatscheme). |
 | [Presentation](presentation) { get; } | Returns the parent presentation. Read-only [`IPresentation`](../../aspose.slides/ipresentation). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective theme data with the inheritance applied. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: NotesSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8650
+weight: 8400
 url: /net/aspose.slides/notesslide/
 ---
 ## NotesSlide class
@@ -14,7 +14,7 @@ Represents a notes slide in a presentation.
 public class NotesSlide : BaseSlide, INotesSlide
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: DpiX
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 30
 url: /net/aspose.slides.export/tiffoptions/dpix/
 ---
 ## TiffOptions.DpiX property

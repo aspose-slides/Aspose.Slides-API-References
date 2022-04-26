@@ -3,7 +3,7 @@ title: IPatternFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6320
+weight: 6070
 url: /net/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData interface
@@ -14,14 +14,19 @@ Immutable object which contains effective pattern filling properties.
 public interface IPatternFormatEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [BackColor](backcolor) { get; } | Returns the background pattern color. Read-only Color. |
 | [ForeColor](forecolor) { get; } | Returns the foreground pattern color. Read-only Color. |
 | [PatternStyle](patternstyle) { get; } | Returns the pattern style. Read-only [`PatternStyle`](../patternstyle). |
-| [GetTileImage](gettileimage)(…) | Creates a tile image for the pattern fill with a specified colors. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetTileImage](gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
 ### Remarks
 

@@ -3,7 +3,7 @@ title: ISlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6710
+weight: 6460
 url: /net/aspose.slides/islide/
 ---
 ## ISlide interface
@@ -14,7 +14,7 @@ Represents a slide in a presentation.
 public interface ISlide : IBaseSlide, IOverrideThemeable
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,13 +25,26 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [LayoutSlide](layoutslide) { get; set; } | Returns or sets the layout slide for the current slide. Read/write [`ILayoutSlide`](../ilayoutslide). |
 | [NotesSlideManager](notesslidemanager) { get; } | Allow to access notes slide, add and remove it. Read-only [`INotesSlideManager`](../inotesslidemanager). |
 | [SlideNumber](slidenumber) { get; set; } | Returns a number of slide. Index of slide in [`Slides`](../ipresentation/slides) collection is always equal to SlideNumber - 1. Read/write Int32. |
-| [GetSlideComments](getslidecomments)(…) | Returns all slide comments added by specific author. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetSlideComments](getslidecomments)(ICommentAuthor) | Returns all slide comments added by specific author. |
 | [GetThumbnail](getthumbnail)() | Returns a Thumbnail Image object (20% of real size). |
-| [GetThumbnail](getthumbnail)(…) | Returns a Thumbnail Bitmap object with custom scaling. (6 methods) |
+| [GetThumbnail](getthumbnail)(IRenderingOptions) | Returns a Thumbnail Bitmap object. |
+| [GetThumbnail](getthumbnail)(ITiffOptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
+| [GetThumbnail](getthumbnail)(Size) | Returns a Thumbnail Bitmap object with specified size. |
+| [GetThumbnail](getthumbnail)(float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [GetThumbnail](getthumbnail)(IRenderingOptions, Size) | Returns a Thumbnail Bitmap object with specified size. |
+| [GetThumbnail](getthumbnail)(IRenderingOptions, float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [Remove](remove)() | Removes slide from presentation. |
-| [RenderToGraphics](rendertographics)(…) | Renders certain slide to a Graphics object. (3 methods) |
+| [RenderToGraphics](rendertographics)(IRenderingOptions, Graphics) | Renders certain slide to a Graphics object. |
+| [RenderToGraphics](rendertographics)(IRenderingOptions, Graphics, Size) | Renders certain slide to a Graphics object using specified size. |
+| [RenderToGraphics](rendertographics)(IRenderingOptions, Graphics, float, float) | Renders certain slide to a Graphics object with custom scaling. |
 | [Reset](reset)() | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
-| [WriteAsSvg](writeassvg)(…) | Saves content of slide as SVG file. (2 methods) |
+| [WriteAsSvg](writeassvg)(Stream) | Saves content of slide as SVG file. |
+| [WriteAsSvg](writeassvg)(Stream, ISVGOptions) | Saves content of slide as SVG file. |
 
 ### See Also
 

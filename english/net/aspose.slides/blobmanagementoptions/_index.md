@@ -3,7 +3,7 @@ title: BlobManagementOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 950
+weight: 930
 url: /net/aspose.slides/blobmanagementoptions/
 ---
 ## BlobManagementOptions class
@@ -14,11 +14,16 @@ Represents options which can be used to manage BLOB handling rules and other BLO
 public class BlobManagementOptions : IBlobManagementOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [BlobManagementOptions](blobmanagementoptions)() | Creates new default blob management options. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [IsTemporaryFilesAllowed](istemporaryfilesallowed) { get; set; } | Set that using of temporary files is not allowed to optimize memory consumption while working with large amounts of data during presentation's lifetime. If false, OutOfMemoryException can be thrown. |
 | [MaxBlobsBytesInMemory](maxblobsbytesinmemory) { get; set; } | A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. After this threshold was reached, all new BLOBs will be placed in temporary files and will not affect the total memory consumption of the process. [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) should be set to true to use this property. |
 | [PresentationLockingBehavior](presentationlockingbehavior) { get; set; } | Represents the locking behavior for the presentation's source (stream or file). |

@@ -3,7 +3,7 @@ title: MinorTickMark
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 400
 url: /net/aspose.slides.charts/axis/minortickmark/
 ---
 ## Axis.MinorTickMark property

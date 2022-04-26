@@ -3,7 +3,7 @@ title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 90
 url: /net/aspose.slides/slidecollection/copyto/
 ---
 ## SlideCollection.CopyTo method

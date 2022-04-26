@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides/icustomxmlpartcollection/add/
 ---
 ## ICustomXmlPartCollection.Add method (1 of 3)
@@ -43,38 +43,6 @@ Created custom xml part.
 Adds new custom xml part.
 
 ```csharp
-public ICustomXmlPart Add(Stream inputStream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputStream | Stream | The inputStream with xml data of new part to be added. |
-
-## Return Value
-
-Created custom xml part.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | inputStream is `null`. |
-| ArgumentException | Data in inputStream is empty or Sinvalid. |
-
-### See Also
-
-* interface [ICustomXmlPart](../../icustomxmlpart)
-* interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
-* namespace [Aspose.Slides](../../icustomxmlpartcollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ICustomXmlPartCollection.Add method (3 of 3)
-
-Adds new custom xml part.
-
-```csharp
 public ICustomXmlPart Add(string xmlString)
 ```
 
@@ -92,6 +60,38 @@ Created custom xml part.
 | --- | --- |
 | ArgumentNullException | xmlString is `null`. |
 | ArgumentException | xmlString is empty or xml-data is invalid. |
+
+### See Also
+
+* interface [ICustomXmlPart](../../icustomxmlpart)
+* interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
+* namespace [Aspose.Slides](../../icustomxmlpartcollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ICustomXmlPartCollection.Add method (3 of 3)
+
+Adds new custom xml part.
+
+```csharp
+public ICustomXmlPart Add(Stream inputStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | The inputStream with xml data of new part to be added. |
+
+## Return Value
+
+Created custom xml part.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | inputStream is `null`. |
+| ArgumentException | Data in inputStream is empty or Sinvalid. |
 
 ### See Also
 

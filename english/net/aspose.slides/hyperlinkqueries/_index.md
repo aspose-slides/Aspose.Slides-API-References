@@ -3,7 +3,7 @@ title: HyperlinkQueries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4930
+weight: 4680
 url: /net/aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries class
@@ -14,7 +14,7 @@ Provide easy access to contained hyperlinks.
 public sealed class HyperlinkQueries : IHyperlinkQueries
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |

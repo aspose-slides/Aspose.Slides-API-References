@@ -3,7 +3,7 @@ title: ShapeElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9330
+weight: 9080
 url: /net/aspose.slides/shapeelement/
 ---
 ## ShapeElement class
@@ -14,7 +14,7 @@ Represents a part of shape with same outline and fill properties.
 public class ShapeElement : IShapeElement
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

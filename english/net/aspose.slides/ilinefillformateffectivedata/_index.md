@@ -3,7 +3,7 @@ title: ILineFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5990
+weight: 5740
 url: /net/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which contains effective line filling properties.
 public interface ILineFillFormatEffectiveData : IFillParamSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

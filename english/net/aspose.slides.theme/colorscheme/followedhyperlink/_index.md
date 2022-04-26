@@ -3,7 +3,7 @@ title: FollowedHyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 90
 url: /net/aspose.slides.theme/colorscheme/followedhyperlink/
 ---
 ## ColorScheme.FollowedHyperlink property

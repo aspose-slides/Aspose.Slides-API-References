@@ -3,7 +3,7 @@ title: LastSavedBy
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 150
 url: /net/aspose.slides/idocumentproperties/lastsavedby/
 ---
 ## IDocumentProperties.LastSavedBy property

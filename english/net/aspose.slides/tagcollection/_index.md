@@ -3,7 +3,7 @@ title: TagCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10320
+weight: 10070
 url: /net/aspose.slides/tagcollection/
 ---
 ## TagCollection class
@@ -14,7 +14,7 @@ Represents the collection of tags (user defined pairs of strings)
 public sealed class TagCollection : ITagCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,17 +22,22 @@ public sealed class TagCollection : ITagCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; set; } | Returns or sets a key and a value pair of a tag. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Adds a new tag to collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string, string) | Adds a new tag to collection. |
 | [Clear](clear)() | Removes all tags from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains a specific name. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection into the specified array. |
+| [Contains](contains)(string) | Determines whether the collection contains a specific name. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection into the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [GetNameByIndex](getnamebyindex)(…) | Returns key of a tag at the specified index. |
+| [GetNameByIndex](getnamebyindex)(int) | Returns key of a tag at the specified index. |
 | [GetNamesOfTags](getnamesoftags)() | Returns names of tags. |
-| [GetValueByIndex](getvaluebyindex)(…) | Returns value of a tag at the specified index. |
-| [IndexOfName](indexofname)(…) | Returns the zero-based index of the specified key in the collection. |
-| [Remove](remove)(…) | Removes the tag with a specified name from the collection. |
-| [RemoveAt](removeat)(…) | Removes the tag at the specified index. |
+| [GetValueByIndex](getvaluebyindex)(int) | Returns value of a tag at the specified index. |
+| [IndexOfName](indexofname)(string) | Returns the zero-based index of the specified key in the collection. |
+| [Remove](remove)(string) | Removes the tag with a specified name from the collection. |
+| [RemoveAt](removeat)(int) | Removes the tag at the specified index. |
 
 ### See Also
 

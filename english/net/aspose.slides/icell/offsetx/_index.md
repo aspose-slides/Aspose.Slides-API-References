@@ -3,7 +3,7 @@ title: OffsetX
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 160
 url: /net/aspose.slides/icell/offsetx/
 ---
 ## ICell.OffsetX property

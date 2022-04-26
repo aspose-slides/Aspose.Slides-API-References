@@ -3,7 +3,7 @@ title: PositionLocked
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.slides/pictureframelock/positionlocked/
 ---
 ## PictureFrameLock.PositionLocked property

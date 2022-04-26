@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 240
 url: /net/aspose.slides.charts/ichartdatapointcollection/clear/
 ---
 ## IChartDataPointCollection.Clear method

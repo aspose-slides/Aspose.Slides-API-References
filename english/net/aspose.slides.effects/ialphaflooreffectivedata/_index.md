@@ -3,7 +3,7 @@ title: IAlphaFloorEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3070
+weight: 2890
 url: /net/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents an Alpha Floor effect. Alpha (opacity) values 
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

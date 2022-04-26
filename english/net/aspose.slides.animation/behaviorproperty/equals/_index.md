@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 1250
 url: /net/aspose.slides.animation/behaviorproperty/equals/
 ---
 ## BehaviorProperty.Equals method

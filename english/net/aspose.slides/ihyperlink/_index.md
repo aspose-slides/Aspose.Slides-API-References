@@ -3,7 +3,7 @@ title: IHyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5820
+weight: 5570
 url: /net/aspose.slides/ihyperlink/
 ---
 ## IHyperlink interface
@@ -14,7 +14,7 @@ Represents a hyperlink.
 public interface IHyperlink
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,12 @@ public interface IHyperlink
 | [TargetFrame](targetframe) { get; set; } | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/write String. |
 | [TargetSlide](targetslide) { get; } | If the HyperlinkEx targets specific slide returns this slide. If ths property become not null then property ExternalUrl become null. Read-only [`ISlide`](../islide). |
 | [Tooltip](tooltip) { get; set; } | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
-| [Equals](equals)(…) | Determines whether the two Hyperlink instances are equal. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Equals](equals)(IHyperlink) | Determines whether the two Hyperlink instances are equal. |
 
 ### See Also
 

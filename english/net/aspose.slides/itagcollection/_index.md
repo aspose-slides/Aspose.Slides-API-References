@@ -3,7 +3,7 @@ title: ITagCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6930
+weight: 6680
 url: /net/aspose.slides/itagcollection/
 ---
 ## ITagCollection interface
@@ -14,20 +14,25 @@ Represents the collection of tags (user defined pairs of strings)
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; set; } | Returns or sets a key and a value pair of a tag. |
-| [Add](add)(…) | Adds a new tag to collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string, string) | Adds a new tag to collection. |
 | [Clear](clear)() | Removes all tags from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains a specific name. |
-| [GetNameByIndex](getnamebyindex)(…) | Returns key of a tag at the specified index. |
+| [Contains](contains)(string) | Determines whether the collection contains a specific name. |
+| [GetNameByIndex](getnamebyindex)(int) | Returns key of a tag at the specified index. |
 | [GetNamesOfTags](getnamesoftags)() | Returns names of tags. |
-| [GetValueByIndex](getvaluebyindex)(…) | Returns value of a tag at the specified index. |
-| [IndexOfName](indexofname)(…) | Returns the zero-based index of the specified key in the collection. |
-| [Remove](remove)(…) | Removes the tag with a specified name from the collection. |
-| [RemoveAt](removeat)(…) | Removes the tag at the specified index. |
+| [GetValueByIndex](getvaluebyindex)(int) | Returns value of a tag at the specified index. |
+| [IndexOfName](indexofname)(string) | Returns the zero-based index of the specified key in the collection. |
+| [Remove](remove)(string) | Removes the tag with a specified name from the collection. |
+| [RemoveAt](removeat)(int) | Removes the tag at the specified index. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: IChartTextBlockFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1860
+weight: 1840
 url: /net/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat interface
@@ -14,7 +14,7 @@ Represents formatting properties for chart text elements.
 public interface IChartTextBlockFormat
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,7 @@ public interface IChartTextBlockFormat
 | [MarginTop](margintop) { get; set; } | Returns or sets the top margin (points) in a TextFrame. Changing of this property can produce a certain influence only for these chart parts: DataLabel and DataLabelFormat (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). Read/write Double. |
 | [RotationAngle](rotationangle) { get; set; } | Specifies the custom rotation that is being applied to the text within the bounding box. If it not specified, the rotation of the accompanying shape is used. If it is specified, then this is applied independently from the shape. That is the shape can have a rotation applied in addition to the text itself having a rotation applied to it. The resulted value of visual text rotation summarized from this property and predefined vertical type in property TextVerticalType. Read/write Single. |
 | [TextVerticalType](textverticaltype) { get; set; } | Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read/write [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](wraptext) { get; set; } | True if text is wrapped at TextFrame's margins. Changing of this property can produce a certain influence only for these chart parts: DataLabel and DataLabelFormat (full suport in PowerPoint 2007/2013). Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [WrapText](wraptext) { get; set; } | **True** if text is wrapped at TextFrame's margins. Changing of this property can produce a certain influence only for these chart parts: DataLabel and DataLabelFormat (full suport in PowerPoint 2007/2013). Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### See Also
 

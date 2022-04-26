@@ -3,7 +3,7 @@ title: AsIMathElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 10
 url: /net/aspose.slides.mathtext/imathborderbox/asimathelement/
 ---
 ## IMathBorderBox.AsIMathElement property

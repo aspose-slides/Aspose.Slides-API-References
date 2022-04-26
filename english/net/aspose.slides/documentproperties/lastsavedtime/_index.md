@@ -3,7 +3,7 @@ title: LastSavedTime
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 170
 url: /net/aspose.slides/documentproperties/lastsavedtime/
 ---
 ## DocumentProperties.LastSavedTime property

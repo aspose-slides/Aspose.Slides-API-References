@@ -3,7 +3,7 @@ title: FilterEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.slides.animation/filtereffect/
 ---
 ## FilterEffect class
@@ -14,11 +14,16 @@ Represent filter effect of behavior.
 public class FilterEffect : Behavior, IFilterEffect
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FilterEffect](filtereffect)() | Default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Reveal](reveal) { get; set; } | Represents that effect with behavior must reveal (in/out) Read/write [`FilterEffectRevealType`](../filtereffectrevealtype). |
 | [Subtype](subtype) { get; set; } | Represents subtype of filter effect. Read/write [`FilterEffectSubtype`](../filtereffectsubtype). |
 | [Type](type) { get; set; } | Represents type of filter effect. Read/write [`FilterEffectType`](../filtereffecttype). |

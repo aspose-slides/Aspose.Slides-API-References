@@ -3,7 +3,7 @@ title: IPortionFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6410
+weight: 6160
 url: /net/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory interface
@@ -14,12 +14,13 @@ Allows to create test portions
 public interface IPortionFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
 | [CreatePortion](createportion)() | Creates an empty text portion. |
-| [CreatePortion](createportion)(…) | Creates a text portion from specified string. (2 methods) |
+| [CreatePortion](createportion)(IPortion) | Creates a portion with the using of a specified portion data. |
+| [CreatePortion](createportion)(string) | Creates a text portion from specified string. |
 
 ### Remarks
 

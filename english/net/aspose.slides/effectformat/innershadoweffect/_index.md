@@ -3,7 +3,7 @@ title: InnerShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 40
 url: /net/aspose.slides/effectformat/innershadoweffect/
 ---
 ## EffectFormat.InnerShadowEffect property

@@ -3,7 +3,7 @@ title: CommentsPosition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.slides.export/inotescommentslayoutingoptions/commentsposition/
 ---
 ## INotesCommentsLayoutingOptions.CommentsPosition property
@@ -16,7 +16,7 @@ public CommentsPositions CommentsPosition { get; set; }
 
 ### Remarks
 
-Default is CommentsPositions.None.
+Default is **CommentsPositions.None**.
 
 ### See Also
 

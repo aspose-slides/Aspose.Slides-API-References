@@ -3,7 +3,7 @@ title: ISpreadsheetOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6790
+weight: 6540
 url: /net/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions interface
@@ -14,7 +14,7 @@ Represents options which can be used to specify additional spreadsheets behavior
 public interface ISpreadsheetOptions
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

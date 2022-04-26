@@ -3,7 +3,7 @@ title: Floor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 100
 url: /net/aspose.slides.charts/ichart/floor/
 ---
 ## IChart.Floor property

@@ -3,7 +3,7 @@ title: AddAlphaFloorEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addalphaflooreffect/
 ---
 ## ImageTransformOperationCollection.AddAlphaFloorEffect method

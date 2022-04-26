@@ -3,7 +3,7 @@ title: DisableFillOverlayEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.slides/ieffectformat/disablefilloverlayeffect/
 ---
 ## IEffectFormat.DisableFillOverlayEffect method

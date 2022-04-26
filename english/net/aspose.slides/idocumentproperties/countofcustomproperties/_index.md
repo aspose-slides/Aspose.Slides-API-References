@@ -3,7 +3,7 @@ title: CountOfCustomProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 90
 url: /net/aspose.slides/idocumentproperties/countofcustomproperties/
 ---
 ## IDocumentProperties.CountOfCustomProperties property

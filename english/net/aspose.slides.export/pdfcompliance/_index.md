@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4170
+weight: 3920
 url: /net/aspose.slides.export/pdfcompliance/
 ---
 ## PdfCompliance enumeration

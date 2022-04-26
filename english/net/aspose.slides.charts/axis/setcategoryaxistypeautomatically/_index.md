@@ -3,7 +3,7 @@ title: SetCategoryAxisTypeAutomatically
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 570
 url: /net/aspose.slides.charts/axis/setcategoryaxistypeautomatically/
 ---
 ## Axis.SetCategoryAxisTypeAutomatically method

@@ -3,7 +3,7 @@ title: IAlphaReplaceEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3150
+weight: 2970
 url: /net/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents and Alpha Replace effect. Effect alpha (opacit
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

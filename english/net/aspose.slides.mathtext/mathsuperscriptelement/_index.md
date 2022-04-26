@@ -3,7 +3,7 @@ title: MathSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8530
+weight: 8280
 url: /net/aspose.slides.mathtext/mathsuperscriptelement/
 ---
 ## MathSuperscriptElement class
@@ -14,12 +14,22 @@ Specifies the superscript object, which consists of a base and a reduced-size su
 public sealed class MathSuperscriptElement : BaseScript, IMathSuperscriptElement
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathSuperscriptElement](mathsuperscriptelement)(…) | Initializes a new instance of the MathSuperscriptElement class. |
+| [MathSuperscriptElement](mathsuperscriptelement)(IMathElement, IMathElement) | Initializes a new instance of the MathSuperscriptElement class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Superscript](superscript) { get; } | Superscript |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

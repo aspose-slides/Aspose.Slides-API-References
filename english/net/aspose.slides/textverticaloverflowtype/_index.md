@@ -3,7 +3,7 @@ title: TextVerticalOverflowType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10450
+weight: 10200
 url: /net/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType enumeration

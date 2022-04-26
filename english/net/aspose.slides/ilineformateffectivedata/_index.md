@@ -3,7 +3,7 @@ title: ILineFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6010
+weight: 5760
 url: /net/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which contains effective line formatting properties.
 public interface ILineFormatEffectiveData : ILineParamSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -35,7 +35,12 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | [SketchFormat](sketchformat) { get; } | Returns the sketch format of a line. Read-only [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](style) { get; } | Returns the line style. Read-only [`LineStyle`](../linestyle). |
 | [Width](width) { get; } | Returns the width of a line. Read-only Double. |
-| [Equals](equals)(…) | Determines whether the two ILineFormatEffectiveData instances are equal. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Equals](equals)(ILineFormatEffectiveData) | Determines whether the two ILineFormatEffectiveData instances are equal. |
 
 ### Remarks
 

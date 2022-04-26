@@ -3,7 +3,7 @@ title: WriteAsMathMl
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 120
 url: /net/aspose.slides.mathtext/mathparagraph/writeasmathml/
 ---
 ## MathParagraph.WriteAsMathMl method

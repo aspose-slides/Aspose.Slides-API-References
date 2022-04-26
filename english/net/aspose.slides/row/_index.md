@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9220
+weight: 8970
 url: /net/aspose.slides/row/
 ---
 ## Row class
@@ -14,14 +14,21 @@ Represents a row in a table.
 public sealed class Row : CellCollection, IRow
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Height](height) { get; } | Returns the height of a row. Read-only Double. |
 | [MinimalHeight](minimalheight) { get; set; } | Returns or sets the minimal possible height of a row. Read/write Double. |
 | [RowFormat](rowformat) { get; } | Returns the RowFormat object that contains formatting properties for this row. Read-only [`IRowFormat`](../irowformat). |
-| [SetTextFormat](settextformat)(…) | Sets defined portion format properties to all row cells' portions. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetTextFormat](settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all row cells' paragraphs. |
+| [SetTextFormat](settextformat)(IPortionFormat) | Sets defined portion format properties to all row cells' portions. |
+| [SetTextFormat](settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all row cells' text frames. |
 
 ### See Also
 

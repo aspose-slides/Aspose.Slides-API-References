@@ -3,7 +3,7 @@ title: SlideId
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.slides/ibaseslide/slideid/
 ---
 ## IBaseSlide.SlideId property

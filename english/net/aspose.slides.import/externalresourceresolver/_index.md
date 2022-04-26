@@ -3,7 +3,7 @@ title: ExternalResourceResolver
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7120
+weight: 6870
 url: /net/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver class
@@ -14,13 +14,18 @@ Callback class used to resolve external resources during Html, Svg documents imp
 public class ExternalResourceResolver : IExternalResourceResolver
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ExternalResourceResolver](externalresourceresolver)() | The default constructor. |
-| virtual [GetEntity](getentity)(…) | Maps a URI to an object containing the actual resource. |
-| virtual [ResolveUri](resolveuri)(…) | Resolves the absolute URI from the base and relative URIs. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [GetEntity](getentity)(string) | Maps a URI to an object containing the actual resource. |
+| virtual [ResolveUri](resolveuri)(string, string) | Resolves the absolute URI from the base and relative URIs. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: R1C1Formula
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides.charts/ichartdatacell/r1c1formula/
 ---
 ## IChartDataCell.R1C1Formula property

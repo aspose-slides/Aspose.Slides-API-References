@@ -3,7 +3,7 @@ title: Password
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.slides/loadoptions/password/
 ---
 ## LoadOptions.Password property

@@ -3,7 +3,7 @@ title: AsIMathElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 10
 url: /net/aspose.slides.mathtext/imathblock/asimathelement/
 ---
 ## IMathBlock.AsIMathElement property

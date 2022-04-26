@@ -3,34 +3,25 @@ title: Save
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 340
 url: /net/aspose.slides/ipresentation/save/
 ---
 ## IPresentation.Save method (1 of 9)
 
-Saves all slides of a presentation to a set of files representing XAML markup.
+Saves all slides of a presentation to a file with the specified format.
 
 ```csharp
-public void Save(IXamlOptions options)
+public void Save(string fname, SaveFormat format)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | IXamlOptions | The XAML format options. |
-
-### Examples
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation("pres.pptx"))
-{
-	pres.Save(new XamlOptions { ExportHiddenSlides = true });
-}
-```
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
 
 ### See Also
 
-* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
 * namespace [Aspose.Slides](../../ipresentation)
 * assembly [Aspose.Slides](../../../)
@@ -61,20 +52,22 @@ public void Save(Stream stream, SaveFormat format)
 
 ## IPresentation.Save method (3 of 9)
 
-Saves all slides of a presentation to a file with the specified format.
+Saves all slides of a presentation to a file with the specified format and with additional options.
 
 ```csharp
-public void Save(string fname, SaveFormat format)
+public void Save(string fname, SaveFormat format, ISaveOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
 
 ### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * interface [IPresentation](../../ipresentation)
 * namespace [Aspose.Slides](../../ipresentation)
 * assembly [Aspose.Slides](../../../)
@@ -82,37 +75,6 @@ public void Save(string fname, SaveFormat format)
 ---
 
 ## IPresentation.Save method (4 of 9)
-
-Saves specified slides of a presentation to a stream in the specified format.
-
-```csharp
-public void Save(Stream stream, int[] slides, SaveFormat format)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Output stream. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [IPresentation](../../ipresentation)
-* namespace [Aspose.Slides](../../ipresentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IPresentation.Save method (5 of 9)
 
 Saves all slides of a presentation to a stream in the specified format and with additional options.
 
@@ -142,7 +104,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ---
 
-## IPresentation.Save method (6 of 9)
+## IPresentation.Save method (5 of 9)
 
 Saves specified slides of a presentation to a file with the specified format.
 
@@ -173,24 +135,64 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ---
 
-## IPresentation.Save method (7 of 9)
+## IPresentation.Save method (6 of 9)
 
-Saves all slides of a presentation to a file with the specified format and with additional options.
+Saves specified slides of a presentation to a file with the specified format.
 
 ```csharp
-public void Save(string fname, SaveFormat format, ISaveOptions options)
+public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fname | String | Path to the created file. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
 | format | SaveFormat | Format of the exported data. |
 | options | ISaveOptions | Additional format options. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IPresentation](../../ipresentation)
+* namespace [Aspose.Slides](../../ipresentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IPresentation.Save method (7 of 9)
+
+Saves specified slides of a presentation to a stream in the specified format.
+
+```csharp
+public void Save(Stream stream, int[] slides, SaveFormat format)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Output stream. |
+| slides | Int32[] | Array with slide positions, starting from 1. |
+| format | SaveFormat | Format of the exported data. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | When stream or slides parameter is null. |
+| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
+| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [IPresentation](../../ipresentation)
 * namespace [Aspose.Slides](../../ipresentation)
 * assembly [Aspose.Slides](../../../)
@@ -232,31 +234,29 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 ## IPresentation.Save method (9 of 9)
 
-Saves specified slides of a presentation to a file with the specified format.
+Saves all slides of a presentation to a set of files representing XAML markup.
 
 ```csharp
-public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
+public void Save(IXamlOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fname | String | Path to the created file. |
-| slides | Int32[] | Array with slide positions, starting from 1. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
+| options | IXamlOptions | The XAML format options. |
 
-### Exceptions
+### Examples
 
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | When stream or slides parameter is null. |
-| ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
-| InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+	pres.Save(new XamlOptions { ExportHiddenSlides = true });
+}
+```
 
 ### See Also
 
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
-* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * interface [IPresentation](../../ipresentation)
 * namespace [Aspose.Slides](../../ipresentation)
 * assembly [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: Duotone
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2900
+weight: 2780
 url: /net/aspose.slides.effects/duotone/
 ---
 ## Duotone class
@@ -14,13 +14,18 @@ Represents a Duotone effect. For each pixel, combines Color1 and Color2 through 
 public class Duotone : ImageTransformOperation, IDuotone
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Color1](color1) { get; } | Returns target color format for dark pixels. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Color2](color2) { get; } | Returns target color format for light pixels. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| override [Equals](equals)(…) | Determines whether the specified [`Duotone`](../duotone) is equal to the current [`Duotone`](../duotone). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`Duotone`](../duotone) is equal to the current [`Duotone`](../duotone). |
 | [GetEffective](geteffective)() | Gets effective Duotone effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

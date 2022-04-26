@@ -3,7 +3,7 @@ title: IsSynchronized
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 70
 url: /net/aspose.slides.charts/chartdatapointcollection/issynchronized/
 ---
 ## ChartDataPointCollection.IsSynchronized property

@@ -3,7 +3,7 @@ title: ExtrusionViewPointOriginX
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1040
+weight: 220
 url: /net/aspose.slides.animation/behaviorproperty/extrusionviewpointoriginx/
 ---
 ## BehaviorProperty.ExtrusionViewPointOriginX property

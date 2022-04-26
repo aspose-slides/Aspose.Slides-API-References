@@ -3,7 +3,7 @@ title: RemoveWriteProtection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 100
 url: /net/aspose.slides/iprotectionmanager/removewriteprotection/
 ---
 ## IProtectionManager.RemoveWriteProtection method

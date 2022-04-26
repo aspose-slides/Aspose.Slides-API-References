@@ -3,7 +3,7 @@ title: TextStrikethroughType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10420
+weight: 10170
 url: /net/aspose.slides/textstrikethroughtype/
 ---
 ## TextStrikethroughType enumeration

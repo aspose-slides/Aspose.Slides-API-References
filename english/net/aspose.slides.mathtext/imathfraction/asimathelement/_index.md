@@ -3,7 +3,7 @@ title: AsIMathElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 10
 url: /net/aspose.slides.mathtext/imathfraction/asimathelement/
 ---
 ## IMathFraction.AsIMathElement property

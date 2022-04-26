@@ -3,7 +3,7 @@ title: SlideIndex
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 60
 url: /net/aspose.slides.export/ihtmlgenerator/slideindex/
 ---
 ## IHtmlGenerator.SlideIndex property

@@ -3,7 +3,7 @@ title: PresetShadowType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9180
+weight: 8930
 url: /net/aspose.slides/presetshadowtype/
 ---
 ## PresetShadowType enumeration

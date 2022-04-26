@@ -3,7 +3,7 @@ title: AdjustValueCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.slides/adjustvaluecollection/
 ---
 ## AdjustValueCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/adjustvaluecollection/
 Reprasents a collection of shape's adjustments.
 
 ```csharp
-public sealed class AdjustValueCollection : IAdjustValueCollection
+public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,10 +22,17 @@ public sealed class AdjustValueCollection : IAdjustValueCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns adjustment by index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [GeometryShape](../geometryshape)
 * interface [IAdjustValueCollection](../iadjustvaluecollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: RowCount
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 90
 url: /net/aspose.slides.mathtext/imathmatrix/rowcount/
 ---
 ## IMathMatrix.RowCount property

@@ -3,7 +3,7 @@ title: AlphaModulateFixed
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2780
+weight: 2720
 url: /net/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed class
@@ -14,12 +14,17 @@ Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are mul
 public class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Amount](amount) { get; set; } | Returns an amount of effect in percents. Read/write Single. |
-| override [Equals](equals)(…) | Determines whether the specified [`AlphaModulateFixed`](../alphamodulatefixed) is equal to the current [`AlphaModulateFixed`](../alphamodulatefixed). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`AlphaModulateFixed`](../alphamodulatefixed) is equal to the current [`AlphaModulateFixed`](../alphamodulatefixed). |
 | [GetEffective](geteffective)() | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

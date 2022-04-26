@@ -3,7 +3,7 @@ title: MathParagraph
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8420
+weight: 8170
 url: /net/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph class
@@ -14,23 +14,33 @@ Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 public class MathParagraph : IMathParagraph
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathParagraph](mathparagraph)() | Initializes a new instance of the MathParagraph class. |
-| [MathParagraph](mathparagraph)(…) | Initializes a new instance of the MathParagraph class. |
+| [MathParagraph](mathparagraph)(IMathBlock) | Initializes a new instance of the MathParagraph class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [Item](item) { get; set; } | Gets the item at the specified index. Read-only [`IMathBlock`](../imathblock). |
 | [Justification](justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
-| [Add](add)(…) | Adds IMathBlock to the end of collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IMathBlock) | Adds IMathBlock to the end of collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains a specific value. |
-| [IndexOf](indexof)(…) | Determines the index of a specific IMathBlock in collection. |
-| [Insert](insert)(…) | Inserts IMathBlock into the collection at the specified index. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection/&gt;. |
-| [RemoveAt](removeat)(…) | Removes an item at the specified index of the collection. |
-| [WriteAsMathMl](writeasmathml)(…) | Saves content of this [`MathParagraph`](../mathparagraph) as MathML |
+| [Contains](contains)(IMathBlock) | Determines whether the collection contains a specific value. |
+| [IndexOf](indexof)(IMathBlock) | Determines the index of a specific IMathBlock in collection. |
+| [Insert](insert)(int, IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
+| [Remove](remove)(IMathBlock) | Removes the first occurrence of a specific object from the collection/&gt;. |
+| [RemoveAt](removeat)(int) | Removes an item at the specified index of the collection. |
+| [WriteAsMathMl](writeasmathml)(Stream) | Saves content of this [`MathParagraph`](../mathparagraph) as MathML |
 
 ### Examples
 

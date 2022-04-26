@@ -3,7 +3,7 @@ title: IsVisible
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 310
 url: /net/aspose.slides.charts/iaxis/isvisible/
 ---
 ## IAxis.IsVisible property

@@ -3,7 +3,7 @@ title: KeepTextFlat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 60
 url: /net/aspose.slides/itextframeformat/keeptextflat/
 ---
 ## ITextFrameFormat.KeepTextFlat property

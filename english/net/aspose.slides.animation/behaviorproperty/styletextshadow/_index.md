@@ -3,7 +3,7 @@ title: StyleTextShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 1170
 url: /net/aspose.slides.animation/behaviorproperty/styletextshadow/
 ---
 ## BehaviorProperty.StyleTextShadow property

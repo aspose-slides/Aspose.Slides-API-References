@@ -3,7 +3,7 @@ title: Slide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.slides.theme/colorscheme/slide/
 ---
 ## ColorScheme.Slide property

@@ -3,7 +3,7 @@ title: NotesPositions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4150
+weight: 3900
 url: /net/aspose.slides.export/notespositions/
 ---
 ## NotesPositions enumeration

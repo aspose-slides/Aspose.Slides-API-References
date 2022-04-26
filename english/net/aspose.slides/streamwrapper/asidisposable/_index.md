@@ -3,7 +3,7 @@ title: AsIDisposable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 10
 url: /net/aspose.slides/streamwrapper/asidisposable/
 ---
 ## StreamWrapper.AsIDisposable property

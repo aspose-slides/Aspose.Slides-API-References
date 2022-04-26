@@ -3,7 +3,7 @@ title: UpdateAutomatic
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.slides/oleobjectframe/updateautomatic/
 ---
 ## OleObjectFrame.UpdateAutomatic property

@@ -3,7 +3,7 @@ title: IPresetShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3460
+weight: 3280
 url: /net/aspose.slides.effects/ipresetshadow/
 ---
 ## IPresetShadow interface
@@ -15,7 +15,7 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

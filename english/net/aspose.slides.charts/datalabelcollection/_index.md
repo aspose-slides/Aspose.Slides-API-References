@@ -3,7 +3,7 @@ title: DataLabelCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1440
+weight: 1420
 url: /net/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/datalabelcollection/
 Represents a series labels.
 
 ```csharp
-public class DataLabelCollection : IDataLabelCollection
+public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,12 +25,19 @@ public class DataLabelCollection : IDataLabelCollection
 | [IsVisible](isvisible) { get; } | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only Boolean. |
 | [Item](item) { get; } | Gets the data label for the data point with the specified index. |
 | [ParentSeries](parentseries) { get; } | Gets the parent series. Read-only [`IChartSeries`](../ichartseries). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 | [Hide](hide)() | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this. |
-| [IndexOf](indexof)(…) | Returns an index of the specified DataLabel in the collection. |
+| [IndexOf](indexof)(IDataLabel) | Returns an index of the specified DataLabel in the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartSeries](../chartseries)
 * interface [IDataLabelCollection](../idatalabelcollection)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

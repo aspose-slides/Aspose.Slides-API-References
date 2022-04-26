@@ -3,7 +3,7 @@ title: ActualHeight
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 20
 url: /net/aspose.slides.charts/datalabel/actualheight/
 ---
 ## DataLabel.ActualHeight property

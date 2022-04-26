@@ -3,7 +3,7 @@ title: ExplicitBreak
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 50
 url: /net/aspose.slides.mathtext/mathbox/explicitbreak/
 ---
 ## MathBox.ExplicitBreak property

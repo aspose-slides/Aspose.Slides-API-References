@@ -3,7 +3,7 @@ title: CreateColorChange
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.slides.effects/imagetransformoperationfactory/createcolorchange/
 ---
 ## ImageTransformOperationFactory.CreateColorChange method

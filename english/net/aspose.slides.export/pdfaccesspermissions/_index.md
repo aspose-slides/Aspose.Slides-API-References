@@ -3,7 +3,7 @@ title: PdfAccessPermissions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4160
+weight: 3910
 url: /net/aspose.slides.export/pdfaccesspermissions/
 ---
 ## PdfAccessPermissions enumeration
@@ -19,15 +19,15 @@ public enum PdfAccessPermissions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0x0` | Specifies that a user does not have access permissions. |
-| PrintDocument | `0x4` | Specifies whether a user may print the document (possibly not at the highest quality level, depending on whether bit HighQualityPrint is also set). |
-| ModifyContent | `0x8` | Specifies whether a user may modify the contents of the document by operations other than those controlled by bits AddOrModifyFields, FillExistingFields, AssembleDocument. |
-| CopyTextAndGraphics | `0x10` | Specifies whether a user may copy or otherwise extract text and graphics from the document by operations other than that controlled by bit ExtractTextAndGraphics. |
-| AddOrModifyFields | `0x20` | Specifies whether a user may add or modify text annotations, fill in interactive form fields, and, if bit ModifyContent is also set, create or modify interactive form fields (including signature fields). |
-| FillExistingFields | `0x100` | Specifies whether a user may fill in existing interactive form fields (including signature fields), even if bit AddOrModifyFields is clear. |
-| ExtractTextAndGraphics | `0x200` | Specifies whether a user may extract text and graphics in support of accessibility to users with disabilities or for other purposes. |
-| AssembleDocument | `0x400` | Specifies whether a user may assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if bit ModifyContent is clear. |
-| HighQualityPrint | `0x800` | Specifies whether a user may print the document to a representation from which a faithful digital copy of the PDF content could be generated. When this bit is clear (and bit PrintDocument is set), printing is limited to a low-level representation of the appearance, possibly of degraded quality. |
+| None | `0` | Specifies that a user does not have access permissions. |
+| PrintDocument | `4` | Specifies whether a user may print the document (possibly not at the highest quality level, depending on whether bit HighQualityPrint is also set). |
+| ModifyContent | `8` | Specifies whether a user may modify the contents of the document by operations other than those controlled by bits AddOrModifyFields, FillExistingFields, AssembleDocument. |
+| CopyTextAndGraphics | `10` | Specifies whether a user may copy or otherwise extract text and graphics from the document by operations other than that controlled by bit ExtractTextAndGraphics. |
+| AddOrModifyFields | `20` | Specifies whether a user may add or modify text annotations, fill in interactive form fields, and, if bit ModifyContent is also set, create or modify interactive form fields (including signature fields). |
+| FillExistingFields | `100` | Specifies whether a user may fill in existing interactive form fields (including signature fields), even if bit AddOrModifyFields is clear. |
+| ExtractTextAndGraphics | `200` | Specifies whether a user may extract text and graphics in support of accessibility to users with disabilities or for other purposes. |
+| AssembleDocument | `400` | Specifies whether a user may assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if bit ModifyContent is clear. |
+| HighQualityPrint | `800` | Specifies whether a user may print the document to a representation from which a faithful digital copy of the PDF content could be generated. When this bit is clear (and bit PrintDocument is set), printing is limited to a low-level representation of the appearance, possibly of degraded quality. |
 
 ### See Also
 

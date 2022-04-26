@@ -3,7 +3,7 @@ title: ISlideImageFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4010
+weight: 3760
 url: /net/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat interface

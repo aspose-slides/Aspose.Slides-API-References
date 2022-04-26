@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 80
 url: /net/aspose.slides/tabcollection/equals/
 ---
 ## TabCollection.Equals method
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ## Return Value
 
-true if the specified TabsEx is equal to the current TabsEx; otherwise, false.
+**true** if the specified TabsEx is equal to the current TabsEx; otherwise, **false**.
 
 ### See Also
 

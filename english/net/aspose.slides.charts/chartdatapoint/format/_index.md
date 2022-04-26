@@ -3,7 +3,7 @@ title: Format
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 100
 url: /net/aspose.slides.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format property

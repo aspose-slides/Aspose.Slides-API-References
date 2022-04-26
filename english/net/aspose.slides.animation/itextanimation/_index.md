@@ -3,7 +3,7 @@ title: ITextAnimation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 520
 url: /net/aspose.slides.animation/itextanimation/
 ---
 ## ITextAnimation interface
@@ -14,13 +14,18 @@ Represent text animation.
 public interface ITextAnimation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [BuildType](buildtype) { get; set; } | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write [`BuildType`](./buildtype). |
 | [EffectAnimateBackgroundShape](effectanimatebackgroundshape) { get; set; } | Linked shape effect with group or not (null) Read/write [`IEffect`](../ieffect). |
-| [AddEffect](addeffect)(…) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddEffect](addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
 
 ### See Also
 

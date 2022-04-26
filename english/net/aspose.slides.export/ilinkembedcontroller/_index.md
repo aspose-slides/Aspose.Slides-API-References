@@ -3,7 +3,7 @@ title: ILinkEmbedController
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3910
+weight: 3660
 url: /net/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController interface
@@ -14,13 +14,13 @@ Callback interface used to determine how object should be processed during savin
 public interface ILinkEmbedController
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetObjectStoringLocation](getobjectstoringlocation)(…) | Determines where object should be stored. This method is called once for each object id. It is not guaranteed that there won't be two objects with same data, semanticName and contentType but with different id. |
-| [GetUrl](geturl)(…) | Returns an URL to an external object. This method always called if [`GetObjectStoringLocation`](./getobjectstoringlocation) returned Link and may be called if [`GetObjectStoringLocation`](./getobjectstoringlocation) returned Embed but embedding is impossible. Can be called multiple time for same object id. |
-| [SaveExternal](saveexternal)(…) | Saves external object. |
+| [GetObjectStoringLocation](getobjectstoringlocation)(int, byte[], string, string, string) | Determines where object should be stored. This method is called once for each object id. It is not guaranteed that there won't be two objects with same data, semanticName and contentType but with different id. |
+| [GetUrl](geturl)(int, int) | Returns an URL to an external object. This method always called if [`GetObjectStoringLocation`](./getobjectstoringlocation) returned Link and may be called if [`GetObjectStoringLocation`](./getobjectstoringlocation) returned Embed but embedding is impossible. Can be called multiple time for same object id. |
+| [SaveExternal](saveexternal)(int, byte[]) | Saves external object. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: InitFontScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.slides.theme/ioverridetheme/initfontscheme/
 ---
 ## IOverrideTheme.InitFontScheme method

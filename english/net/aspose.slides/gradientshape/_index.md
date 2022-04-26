@@ -3,7 +3,7 @@ title: GradientShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4800
+weight: 4550
 url: /net/aspose.slides/gradientshape/
 ---
 ## GradientShape enumeration

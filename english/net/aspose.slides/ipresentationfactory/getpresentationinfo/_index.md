@@ -8,31 +8,6 @@ url: /net/aspose.slides/ipresentationfactory/getpresentationinfo/
 ---
 ## IPresentationFactory.GetPresentationInfo method (1 of 2)
 
-Gets info about presentation in specified stream.
-
-```csharp
-public IPresentationInfo GetPresentationInfo(Stream stream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Presentation stream. |
-
-## Return Value
-
-Presentation info.
-
-### See Also
-
-* interface [IPresentationInfo](../../ipresentationinfo)
-* interface [IPresentationFactory](../../ipresentationfactory)
-* namespace [Aspose.Slides](../../ipresentationfactory)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IPresentationFactory.GetPresentationInfo method (2 of 2)
-
 Gets info about presentation in specified file.
 
 ```csharp
@@ -46,6 +21,31 @@ public IPresentationInfo GetPresentationInfo(string file)
 ## Return Value
 
 Presentation info
+
+### See Also
+
+* interface [IPresentationInfo](../../ipresentationinfo)
+* interface [IPresentationFactory](../../ipresentationfactory)
+* namespace [Aspose.Slides](../../ipresentationfactory)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IPresentationFactory.GetPresentationInfo method (2 of 2)
+
+Gets info about presentation in specified stream.
+
+```csharp
+public IPresentationInfo GetPresentationInfo(Stream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Presentation stream. |
+
+## Return Value
+
+Presentation info.
 
 ### See Also
 

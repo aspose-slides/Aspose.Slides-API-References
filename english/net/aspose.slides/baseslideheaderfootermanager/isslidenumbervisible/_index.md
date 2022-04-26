@@ -3,7 +3,7 @@ title: IsSlideNumberVisible
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 30
 url: /net/aspose.slides/baseslideheaderfootermanager/isslidenumbervisible/
 ---
 ## BaseSlideHeaderFooterManager.IsSlideNumberVisible property

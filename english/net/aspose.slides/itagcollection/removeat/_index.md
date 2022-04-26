@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 100
 url: /net/aspose.slides/itagcollection/removeat/
 ---
 ## ITagCollection.RemoveAt method

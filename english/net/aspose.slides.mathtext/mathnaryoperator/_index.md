@@ -3,7 +3,7 @@ title: MathNaryOperator
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8390
+weight: 8140
 url: /net/aspose.slides.mathtext/mathnaryoperator/
 ---
 ## MathNaryOperator class
@@ -14,11 +14,18 @@ Specifies an N-ary mathematical object, such as Summation and Integral. It consi
 public sealed class MathNaryOperator : MathElementBase, IMathNaryOperator
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathNaryOperator](mathnaryoperator)(…) | Initializes a new instance of the MathNaryOperator class. (3 constructors) |
+| [MathNaryOperator](mathnaryoperator)(char, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [MathNaryOperator](mathnaryoperator)(char, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [MathNaryOperator](mathnaryoperator)(char, IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Base](base) { get; } | Base argument |
 | [GrowToMatchOperandHeight](growtomatchoperandheight) { get; set; } | Operator Character grows vertically to match its operand height |
 | [HideSubscript](hidesubscript) { get; set; } | Hide Subscript |
@@ -27,6 +34,11 @@ public sealed class MathNaryOperator : MathElementBase, IMathNaryOperator
 | [Operator](operator) { get; set; } | Nary Operator Character For example: '∑', '∫' |
 | [Subscript](subscript) { get; } | Specifies a subscript argument that, for example, in the case of an integral, sets the lower limit |
 | [Superscript](superscript) { get; } | Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

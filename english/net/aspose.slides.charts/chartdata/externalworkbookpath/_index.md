@@ -3,7 +3,7 @@ title: ExternalWorkbookPath
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 40
 url: /net/aspose.slides.charts/chartdata/externalworkbookpath/
 ---
 ## ChartData.ExternalWorkbookPath property

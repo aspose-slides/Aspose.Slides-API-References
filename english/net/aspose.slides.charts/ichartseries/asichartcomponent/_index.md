@@ -3,7 +3,7 @@ title: AsIChartComponent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 10
 url: /net/aspose.slides.charts/ichartseries/asichartcomponent/
 ---
 ## IChartSeries.AsIChartComponent property

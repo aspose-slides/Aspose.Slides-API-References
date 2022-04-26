@@ -3,7 +3,7 @@ title: SlideNumber
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 180
 url: /net/aspose.slides/fieldtype/slidenumber/
 ---
 ## FieldType.SlideNumber property

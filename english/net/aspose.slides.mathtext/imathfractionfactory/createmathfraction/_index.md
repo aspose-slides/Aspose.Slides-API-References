@@ -11,33 +11,6 @@ url: /net/aspose.slides.mathtext/imathfractionfactory/createmathfraction/
 Creates a math fraction
 
 ```csharp
-public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| numerator | IMathElement | Numerator |
-| denominator | IMathElement | Denominator |
-
-## Return Value
-
-New math fraction [`IMathFraction`](../../imathfraction)
-
-### See Also
-
-* interface [IMathFraction](../../imathfraction)
-* interface [IMathElement](../../imathelement)
-* interface [IMathFractionFactory](../../imathfractionfactory)
-* namespace [Aspose.Slides.MathText](../../imathfractionfactory)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IMathFractionFactory.CreateMathFraction method (2 of 2)
-
-Creates a math fraction
-
-```csharp
 public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator, 
     MathFractionTypes fractionType)
 ```
@@ -57,6 +30,33 @@ New math fraction [`IMathFraction`](../../imathfraction)
 * interface [IMathFraction](../../imathfraction)
 * interface [IMathElement](../../imathelement)
 * enum [MathFractionTypes](../../mathfractiontypes)
+* interface [IMathFractionFactory](../../imathfractionfactory)
+* namespace [Aspose.Slides.MathText](../../imathfractionfactory)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IMathFractionFactory.CreateMathFraction method (2 of 2)
+
+Creates a math fraction
+
+```csharp
+public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| numerator | IMathElement | Numerator |
+| denominator | IMathElement | Denominator |
+
+## Return Value
+
+New math fraction [`IMathFraction`](../../imathfraction)
+
+### See Also
+
+* interface [IMathFraction](../../imathfraction)
+* interface [IMathElement](../../imathelement)
 * interface [IMathFractionFactory](../../imathfractionfactory)
 * namespace [Aspose.Slides.MathText](../../imathfractionfactory)
 * assembly [Aspose.Slides](../../../)

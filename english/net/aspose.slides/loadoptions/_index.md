@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7390
+weight: 7140
 url: /net/aspose.slides/loadoptions/
 ---
 ## LoadOptions class
@@ -14,12 +14,17 @@ Allows to specify additional options (such as format or default font) when loadi
 public class LoadOptions : ILoadOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [LoadOptions](loadoptions)() | Creates new default load options. |
-| [LoadOptions](loadoptions)(…) | Creates new load options. |
+| [LoadOptions](loadoptions)(LoadFormat) | Creates new load options. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BlobManagementOptions](blobmanagementoptions) { get; set; } | Represents the options which can be used to manage Binary Large Objects (BLOBs) handling behavior, such as using of temporary files or max BLOBs bytes in memory. These options intended to set up the best performance/memory consumption ratio for a perticular environment or requirements. A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. |
 | [DefaultAsianFont](defaultasianfont) { get; set; } | Returns or sets Asian font used in case source font is not found. Read/write String. |
 | [DefaultRegularFont](defaultregularfont) { get; set; } | Returns or sets Regular font used in case source font is not found. Read/write String. |

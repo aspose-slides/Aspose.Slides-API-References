@@ -3,7 +3,7 @@ title: Connector
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2540
+weight: 2520
 url: /net/aspose.slides/connector/
 ---
 ## Connector class
@@ -14,7 +14,7 @@ Represents a connector.
 public class Connector : GeometryShape, IConnector
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,6 +25,11 @@ public class Connector : GeometryShape, IConnector
 | override [ShapeType](shapetype) { get; set; } | Returns or sets the AutoShape type. Read/write [`ShapeType`](../shapetype). |
 | [StartShapeConnectedTo](startshapeconnectedto) { get; set; } | Returns or sets the shape to attach the beginning of the connector to. Read/write [`IShape`](../ishape). |
 | [StartShapeConnectionSiteIndex](startshapeconnectionsiteindex) { get; set; } | Returns or sets the index of connection site for start shape. Read/write UInt32. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Reroute](reroute)() | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
 
 ### See Also

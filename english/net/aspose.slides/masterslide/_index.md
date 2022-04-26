@@ -3,7 +3,7 @@ title: MasterSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7560
+weight: 7310
 url: /net/aspose.slides/masterslide/
 ---
 ## MasterSlide class
@@ -14,7 +14,7 @@ Represents a master slide in a presentation.
 public class MasterSlide : BaseSlide, IMasterSlide
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -28,7 +28,12 @@ public class MasterSlide : BaseSlide, IMasterSlide
 | override [ShowMasterShapes](showmastershapes) { get; set; } | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns `false`. Read/write Boolean. |
 | [ThemeManager](thememanager) { get; } | Returns the theme manager. Read-only [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
 | [TitleStyle](titlestyle) { get; } | Returns the style of a title text. Read-only [`ITextStyle`](../itextstyle). |
-| [ApplyExternalThemeToDependingSlides](applyexternalthemetodependingslides)(…) | Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [ApplyExternalThemeToDependingSlides](applyexternalthemetodependingslides)(string) | Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides. |
 | [GetDependingSlides](getdependingslides)() | Returns an array with all slides, which depend on this master slide. |
 
 ### See Also

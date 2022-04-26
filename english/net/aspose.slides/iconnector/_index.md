@@ -3,7 +3,7 @@ title: IConnector
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5360
+weight: 5110
 url: /net/aspose.slides/iconnector/
 ---
 ## IConnector interface
@@ -14,7 +14,7 @@ Represents a connector.
 public interface IConnector : IGeometryShape
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,6 +25,11 @@ public interface IConnector : IGeometryShape
 | [ShapeLock](shapelock) { get; } | Returns shape's locks. Read-only [`IConnectorLock`](../iconnectorlock). |
 | [StartShapeConnectedTo](startshapeconnectedto) { get; set; } | Returns or sets the shape to attach the beginning of the connector to. Read/write [`IShape`](../ishape). |
 | [StartShapeConnectionSiteIndex](startshapeconnectionsiteindex) { get; set; } | Returns or sets the index of connection site for start shape. Read/write UInt32. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Reroute](reroute)() | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: Video
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11130
+weight: 10880
 url: /net/aspose.slides/video/
 ---
 ## Video class
@@ -14,12 +14,17 @@ Represents an image embedded into a presentation.
 public class Video : IVideo
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [BinaryData](binarydata) { get; } | Returns the copy of an audio's data. In case of large amount of data consider using of [`GetStream`](./getstream) method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only Byte[]. |
 | [ContentType](contenttype) { get; } | Returns a MIME type of an video, encoded in [`BinaryData`](./binarydata). Read-only String. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetStream](getstream)() | Returns Stream stream for reading. Use 'using' or close stream after using. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: HasRoundedCorners
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 120
 url: /net/aspose.slides.charts/chart/hasroundedcorners/
 ---
 ## Chart.HasRoundedCorners property

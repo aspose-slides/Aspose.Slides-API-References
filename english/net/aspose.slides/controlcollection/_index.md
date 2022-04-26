@@ -3,7 +3,7 @@ title: ControlCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2570
+weight: 2550
 url: /net/aspose.slides/controlcollection/
 ---
 ## ControlCollection class
@@ -14,7 +14,7 @@ A collection of ActiveX controls.
 public class ControlCollection : IControlCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,12 +22,17 @@ public class ControlCollection : IControlCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns a control at the specified position. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddControl](addcontrol)(…) | Creates and adds a new control to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddControl](addcontrol)(ControlType, float, float, float, float) | Creates and adds a new control to the collection. |
 | [Clear](clear)() | Removes all controls from the collection. |
-| [CopyTo](copyto)(…) | Copies the entire collection to the specified array. |
+| [CopyTo](copyto)(Array, int) | Copies the entire collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes an ActiveX control from the collection. |
-| [RemoveAt](removeat)(…) | Removes an ActiveX control stored at specified position from the collection. |
+| [Remove](remove)(IControl) | Removes an ActiveX control from the collection. |
+| [RemoveAt](removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
 
 ### See Also
 

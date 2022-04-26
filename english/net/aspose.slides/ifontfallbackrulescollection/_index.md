@@ -3,7 +3,7 @@ title: IFontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5580
+weight: 5330
 url: /net/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection interface
@@ -14,13 +14,18 @@ Represents a collection of FontFallBack rules, defined by user
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the rule at the specified index. Read-only [`IFontFallBackRule`](../ifontfallbackrule). |
-| [Add](add)(…) | Add a new FallBack rule to the end of the collection. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific FallBack rule from the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IFontFallBackRule) | Add a new FallBack rule to the end of the collection. |
+| [Remove](remove)(IFontFallBackRule) | Removes the first occurrence of a specific FallBack rule from the collection. |
 
 ### See Also
 

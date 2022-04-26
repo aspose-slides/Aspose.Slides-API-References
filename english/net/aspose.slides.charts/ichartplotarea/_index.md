@@ -3,7 +3,7 @@ title: IChartPlotArea
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1790
+weight: 1770
 url: /net/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea interface
@@ -14,7 +14,7 @@ Represents chart title properties.
 public interface IChartPlotArea : IActualLayout, ILayoutable
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -16,7 +16,7 @@ public bool DrawSlidesFrame { get; set; }
 
 ### Remarks
 
-Default is false.
+Default is **false**.
 
 ### See Also
 

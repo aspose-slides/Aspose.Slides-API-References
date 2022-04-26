@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.slides/digitalsignaturecollection/add/
 ---
 ## DigitalSignatureCollection.Add method

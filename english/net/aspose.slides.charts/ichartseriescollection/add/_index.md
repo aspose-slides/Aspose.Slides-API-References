@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides.charts/ichartseriescollection/add/
 ---
 ## IChartSeriesCollection.Add method (1 of 4)
@@ -34,38 +34,6 @@ New chart series.
 
 ## IChartSeriesCollection.Add method (2 of 4)
 
-Creates new chart series from [`IChartCellCollection`](../../ichartcellcollection) and adds it to the collection.
-
-```csharp
-public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cellsWithSeriesName | IChartCellCollection | Cells which contain series name. |
-| type | ChartType | Type set type of series |
-
-## Return Value
-
-Added chart series or series that already is in collection.
-
-### Remarks
-
-If chart series careted from same cell already in collection then method adds nothing and returns it's index.
-
-### See Also
-
-* interface [IChartSeries](../../ichartseries)
-* interface [IChartCellCollection](../../ichartcellcollection)
-* enum [ChartType](../../charttype)
-* interface [IChartSeriesCollection](../../ichartseriescollection)
-* namespace [Aspose.Slides.Charts](../../ichartseriescollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IChartSeriesCollection.Add method (3 of 4)
-
 Creates new chart series from [`IChartDataCell`](../../ichartdatacell) and adds it to the collection.
 
 ```csharp
@@ -89,6 +57,38 @@ If chart series careted from same cell already in collection then method adds no
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IChartDataCell](../../ichartdatacell)
+* enum [ChartType](../../charttype)
+* interface [IChartSeriesCollection](../../ichartseriescollection)
+* namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IChartSeriesCollection.Add method (3 of 4)
+
+Creates new chart series from [`IChartCellCollection`](../../ichartcellcollection) and adds it to the collection.
+
+```csharp
+public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cellsWithSeriesName | IChartCellCollection | Cells which contain series name. |
+| type | ChartType | Type set type of series |
+
+## Return Value
+
+Added chart series or series that already is in collection.
+
+### Remarks
+
+If chart series careted from same cell already in collection then method adds nothing and returns it's index.
+
+### See Also
+
+* interface [IChartSeries](../../ichartseries)
+* interface [IChartCellCollection](../../ichartcellcollection)
 * enum [ChartType](../../charttype)
 * interface [IChartSeriesCollection](../../ichartseriescollection)
 * namespace [Aspose.Slides.Charts](../../ichartseriescollection)

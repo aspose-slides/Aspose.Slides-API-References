@@ -3,7 +3,7 @@ title: CellInvalidFormulaException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10140
+weight: 9890
 url: /net/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException class
@@ -14,12 +14,19 @@ The exception that is thrown when a calculated formula is not correct or was not
 public class CellInvalidFormulaException : PptxEditException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception)() | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class. |
-| [CellInvalidFormulaException](cellinvalidformulaexception)(…) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message. (3 constructors) |
+| [CellInvalidFormulaException](cellinvalidformulaexception)(string) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message. |
+| [CellInvalidFormulaException](cellinvalidformulaexception)(string, Exception) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellInvalidFormulaException](cellinvalidformulaexception)(string, string) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message and a cell reference that contains the invalid formula. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Reference](reference) { get; } | Gets a cell reference that contains the invalid formula. |
 
 ### See Also

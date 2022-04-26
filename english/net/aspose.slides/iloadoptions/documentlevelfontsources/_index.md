@@ -3,7 +3,7 @@ title: DocumentLevelFontSources
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 50
 url: /net/aspose.slides/iloadoptions/documentlevelfontsources/
 ---
 ## ILoadOptions.DocumentLevelFontSources property

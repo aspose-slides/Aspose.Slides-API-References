@@ -3,7 +3,7 @@ title: IDoubleChartValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1950
+weight: 1930
 url: /net/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue interface
@@ -14,12 +14,17 @@ Represent double value which can be stored in pptx presentation document in two 
 public interface IDoubleChartValue : ISingleCellChartValue
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsISingleCellChartValue](asisinglecellchartvalue) { get; } | Allows to get base ISingleCellChartValue interface. Read-only [`ISingleCellChartValue`](../isinglecellchartvalue). |
 | [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets literal double value if DataSourceType = Charts.DataSourceType.DoubleLiterals. Read/write Double. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToDouble](todouble)() | Converst to double. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: BorderLeft
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.slides/icellformat/borderleft/
 ---
 ## ICellFormat.BorderLeft property

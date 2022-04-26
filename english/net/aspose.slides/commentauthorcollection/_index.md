@@ -3,7 +3,7 @@ title: CommentAuthorCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2510
+weight: 2490
 url: /net/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/commentauthorcollection/
 Represents a collection of comment authors.
 
 ```csharp
-public sealed class CommentAuthorCollection : ICommentAuthorCollection
+public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentAuthorCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,18 +22,25 @@ public sealed class CommentAuthorCollection : ICommentAuthorCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ICommentAuthor`](../icommentauthor). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddAuthor](addauthor)(…) | Add new author at the end of a collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddAuthor](addauthor)(string, string) | Add new author at the end of a collection. |
 | [Clear](clear)() | Removes all authors from a collection. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
-| [FindByName](findbyname)(…) | Find author in a collection by name. |
-| [FindByNameAndInitials](findbynameandinitials)(…) | Find author in a collection by name and initials. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [FindByName](findbyname)(string) | Find author in a collection by name. |
+| [FindByNameAndInitials](findbynameandinitials)(string, string) | Find author in a collection by name and initials. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes the first occurrence of the specified author in a collection. |
-| [RemoveAt](removeat)(…) | Removes the author at the specified index of the collection. |
+| [Remove](remove)(ICommentAuthor) | Removes the first occurrence of the specified author in a collection. |
+| [RemoveAt](removeat)(int) | Removes the author at the specified index of the collection. |
 | [ToArray](toarray)() | Creates and returns an array with all authors. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
 * interface [ICommentAuthorCollection](../icommentauthorcollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

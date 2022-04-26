@@ -3,7 +3,7 @@ title: IMathLeftSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7840
+weight: 7590
 url: /net/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement interface
@@ -14,7 +14,7 @@ Specifies the Sub-Superscript object, which consists of a base and a subscript a
 public interface IMathLeftSubSuperscriptElement : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

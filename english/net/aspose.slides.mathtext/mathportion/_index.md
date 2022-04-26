@@ -3,7 +3,7 @@ title: MathPortion
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8440
+weight: 8190
 url: /net/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion class
@@ -14,11 +14,16 @@ Represents a portion with mathematical context inside.
 public sealed class MathPortion : Portion, IMathPortion
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathPortion](mathportion)() | Initializes a new instance of the MathPortion class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [MathParagraph](mathparagraph) { get; } | Math paragraph |
 
 ### Examples

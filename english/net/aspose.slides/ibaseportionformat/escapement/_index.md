@@ -3,12 +3,12 @@ title: Escapement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 50
 url: /net/aspose.slides/ibaseportionformat/escapement/
 ---
 ## IBasePortionFormat.Escapement property
 
-Returns or sets the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). float.NaN means value is undefined and should be inherited from the Master. Read/write Single.
+Returns or sets the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). **float.NaN** means value is undefined and should be inherited from the Master. Read/write Single.
 
 ```csharp
 public float Escapement { get; set; }

@@ -16,7 +16,7 @@ public bool ShowCommentsByNoAuthor { get; set; }
 
 ### Remarks
 
-Default value is false.
+Default value is **false**.
 
 ### See Also
 

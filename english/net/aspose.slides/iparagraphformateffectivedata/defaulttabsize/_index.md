@@ -3,7 +3,7 @@ title: DefaultTabSize
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 40
 url: /net/aspose.slides/iparagraphformateffectivedata/defaulttabsize/
 ---
 ## IParagraphFormatEffectiveData.DefaultTabSize property

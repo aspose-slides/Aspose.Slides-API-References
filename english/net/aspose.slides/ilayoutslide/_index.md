@@ -3,7 +3,7 @@ title: ILayoutSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5910
+weight: 5660
 url: /net/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide interface
@@ -14,7 +14,7 @@ Represents a layout slide.
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,11 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the layout slide. Read-only [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [LayoutType](layouttype) { get; } | Returns layout type of this layout slide. Read-only [`SlideLayoutType`](../slidelayouttype). |
 | [MasterSlide](masterslide) { get; set; } | Returns or sets the master slide for a layout. Read/write [`IMasterSlide`](../imasterslide). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetDependingSlides](getdependingslides)() | Returns an array with all slides, which depend on this layout slide. |
 | [Remove](remove)() | Removes layout from presentation. |
 

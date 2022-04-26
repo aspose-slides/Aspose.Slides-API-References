@@ -3,7 +3,7 @@ title: INormalViewRestoredProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6170
+weight: 5920
 url: /net/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties interface
@@ -14,7 +14,7 @@ Specifies the sizing of the slide region ((width when a child of restoredTop, he
 public interface INormalViewRestoredProperties
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

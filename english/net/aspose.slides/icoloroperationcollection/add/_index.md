@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides/icoloroperationcollection/add/
 ---
 ## IColorOperationCollection.Add method (1 of 2)
@@ -11,12 +11,13 @@ url: /net/aspose.slides/icoloroperationcollection/add/
 Adds a new operation to the end of collection.
 
 ```csharp
-public IColorOperation Add(ColorTransformOperation operation)
+public IColorOperation Add(ColorTransformOperation operation, float parameter)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | operation | ColorTransformOperation | Operation type. |
+| parameter | Single | Operation's parameter. |
 
 ## Return Value
 
@@ -37,13 +38,12 @@ Added operation.
 Adds a new operation to the end of collection.
 
 ```csharp
-public IColorOperation Add(ColorTransformOperation operation, float parameter)
+public IColorOperation Add(ColorTransformOperation operation)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | operation | ColorTransformOperation | Operation type. |
-| parameter | Single | Operation's parameter. |
 
 ## Return Value
 

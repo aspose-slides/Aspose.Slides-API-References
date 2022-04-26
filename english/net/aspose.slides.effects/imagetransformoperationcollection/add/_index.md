@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 40
 url: /net/aspose.slides.effects/imagetransformoperationcollection/add/
 ---
 ## ImageTransformOperationCollection.Add method

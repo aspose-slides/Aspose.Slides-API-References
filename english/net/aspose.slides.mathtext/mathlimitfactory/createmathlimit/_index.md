@@ -3,21 +3,22 @@ title: CreateMathLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides.mathtext/mathlimitfactory/createmathlimit/
 ---
 ## MathLimitFactory.CreateMathLimit method (1 of 2)
 
-Creates IMathLimit with limit at the bottom
+Creates IMathLimit
 
 ```csharp
-public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
+public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool upperLimit)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | baseArg | IMathElement | Base argument to apply the limit |
 | limit | IMathElement | Limit element |
+| upperLimit | Boolean | Sets the placement of the limit on top |
 
 ## Return Value
 
@@ -35,17 +36,16 @@ new math limit
 
 ## MathLimitFactory.CreateMathLimit method (2 of 2)
 
-Creates IMathLimit
+Creates IMathLimit with limit at the bottom
 
 ```csharp
-public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool upperLimit)
+public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | baseArg | IMathElement | Base argument to apply the limit |
 | limit | IMathElement | Limit element |
-| upperLimit | Boolean | Sets the placement of the limit on top |
 
 ## Return Value
 

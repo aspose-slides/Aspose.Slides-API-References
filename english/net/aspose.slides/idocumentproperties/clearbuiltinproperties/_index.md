@@ -3,7 +3,7 @@ title: ClearBuiltInProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 250
 url: /net/aspose.slides/idocumentproperties/clearbuiltinproperties/
 ---
 ## IDocumentProperties.ClearBuiltInProperties method

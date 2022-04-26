@@ -3,7 +3,7 @@ title: GapDepth
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 120
 url: /net/aspose.slides.charts/chartseries/gapdepth/
 ---
 ## ChartSeries.GapDepth property

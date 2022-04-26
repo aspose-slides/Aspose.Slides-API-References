@@ -3,7 +3,7 @@ title: OrganizationChartLayout
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 60
 url: /net/aspose.slides.smartart/ismartartnode/organizationchartlayout/
 ---
 ## ISmartArtNode.OrganizationChartLayout property

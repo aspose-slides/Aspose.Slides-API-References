@@ -3,7 +3,7 @@ title: IGrayScaleEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3330
+weight: 3150
 url: /net/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which representsepresents a Gray Scale effect. Converts all eff
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

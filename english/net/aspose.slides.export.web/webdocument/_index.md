@@ -3,7 +3,7 @@ title: WebDocument
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4500
+weight: 4250
 url: /net/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument class
@@ -14,14 +14,24 @@ Represents a transition form of the presentation for saving into a web format.
 public class WebDocument
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [WebDocument](webdocument)(…) | [`WebDocument`](../webdocument) constructor. |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Global](global) { get; } | Returns global storage of the document. Read-only [`Storage`](../storage). |
 | [Input](input) { get; } |  |
 | [Output](output) { get; } | Returns collection of output elements of the document. Read-only [`Output`](./output). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Save](save)() |  |
 
 ### See Also

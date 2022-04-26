@@ -3,7 +3,7 @@ title: Height
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 30
 url: /net/aspose.slides/ppimage/height/
 ---
 ## PPImage.Height property

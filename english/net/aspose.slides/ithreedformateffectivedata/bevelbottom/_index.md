@@ -3,7 +3,7 @@ title: BevelBottom
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 20
 url: /net/aspose.slides/ithreedformateffectivedata/bevelbottom/
 ---
 ## IThreeDFormatEffectiveData.BevelBottom property

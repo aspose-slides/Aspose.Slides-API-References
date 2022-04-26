@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 120
 url: /net/aspose.slides/idocumentproperties/item/
 ---
 ## IDocumentProperties indexer
@@ -16,7 +16,7 @@ public object this[string name] { get; set; }
 
 ### Remarks
 
-Value can be int, float, double, string, bool or DateTime.
+Value can be **int**, **float**, **double**, **string**, **bool** or **DateTime**.
 
 ### See Also
 

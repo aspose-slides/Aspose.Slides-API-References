@@ -3,35 +3,10 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 190
 url: /net/aspose.slides/hyperlink/equals/
 ---
 ## Hyperlink.Equals method (1 of 2)
-
-Determines whether the two Hyperlink instances are equal.
-
-```csharp
-public bool Equals(IHyperlink hlink)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| hlink | IHyperlink | The Hyperlink to compare with the current Hyperlink. |
-
-## Return Value
-
-true if the specified Hyperlink is equal to the current Hyperlink; otherwise, false.
-
-### See Also
-
-* interface [IHyperlink](../../ihyperlink)
-* class [Hyperlink](../../hyperlink)
-* namespace [Aspose.Slides](../../hyperlink)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Hyperlink.Equals method (2 of 2)
 
 Determines whether the two Hyperlink instances are equal.
 
@@ -45,10 +20,35 @@ public override bool Equals(object obj)
 
 ## Return Value
 
-true if the specified Hyperlink is equal to the current Hyperlink; otherwise, false.
+**true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.
 
 ### See Also
 
+* class [Hyperlink](../../hyperlink)
+* namespace [Aspose.Slides](../../hyperlink)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Hyperlink.Equals method (2 of 2)
+
+Determines whether the two Hyperlink instances are equal.
+
+```csharp
+public bool Equals(IHyperlink hlink)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hlink | IHyperlink | The Hyperlink to compare with the current Hyperlink. |
+
+## Return Value
+
+**true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.
+
+### See Also
+
+* interface [IHyperlink](../../ihyperlink)
 * class [Hyperlink](../../hyperlink)
 * namespace [Aspose.Slides](../../hyperlink)
 * assembly [Aspose.Slides](../../../)

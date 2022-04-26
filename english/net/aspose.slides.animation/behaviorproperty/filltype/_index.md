@@ -3,7 +3,7 @@ title: FillType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 390
 url: /net/aspose.slides.animation/behaviorproperty/filltype/
 ---
 ## BehaviorProperty.FillType property

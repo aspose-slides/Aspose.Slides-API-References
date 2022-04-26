@@ -3,7 +3,7 @@ title: ICommentAuthor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5320
+weight: 5070
 url: /net/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor interface
@@ -14,13 +14,18 @@ Represents an author of comments.
 public interface ICommentAuthor
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Comments](comments) { get; } | Returns the collection of comments made by this author. Read-only [`ICommentCollection`](../icommentcollection). |
 | [Initials](initials) { get; set; } | Returns or sets the authors initials. Read/write String. |
 | [Name](name) { get; set; } | Returns or sets the author's name. Read/write String. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Remove](remove)() | Removes the author from the parent collection. |
 
 ### See Also

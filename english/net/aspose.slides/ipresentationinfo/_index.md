@@ -3,7 +3,7 @@ title: IPresentationInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6480
+weight: 6230
 url: /net/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo interface
@@ -14,7 +14,7 @@ Information about presentation file
 public interface IPresentationInfo
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,11 +22,17 @@ public interface IPresentationInfo
 | [IsPasswordProtected](ispasswordprotected) { get; } | Gets a value that indicates whether a binded presentation is protected by a password to open. |
 | [IsWriteProtected](iswriteprotected) { get; } | Gets a value that indicates whether a binded presentation is write protected. |
 | [LoadFormat](loadformat) { get; } | Gets format of the binded presentation. Read-only [`LoadFormat`](../loadformat). |
-| [CheckPassword](checkpassword)(…) | Checks whether a password is correct for a presentation protected with open password. |
-| [CheckWriteProtection](checkwriteprotection)(…) | Checks whether a password to modify is correct for a write protected presentation. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CheckPassword](checkpassword)(string) | Checks whether a password is correct for a presentation protected with open password. |
+| [CheckWriteProtection](checkwriteprotection)(string) | Checks whether a password to modify is correct for a write protected presentation. |
 | [ReadDocumentProperties](readdocumentproperties)() | Gets document properties of binded presentation. |
-| [UpdateDocumentProperties](updatedocumentproperties)(…) | Updates properties of binded presentation. |
-| [WriteBindedPresentation](writebindedpresentation)(…) | Writes binded presentation to stream. (2 methods) |
+| [UpdateDocumentProperties](updatedocumentproperties)(IDocumentProperties) | Updates properties of binded presentation. |
+| [WriteBindedPresentation](writebindedpresentation)(Stream) | Writes binded presentation to stream. |
+| [WriteBindedPresentation](writebindedpresentation)(string) | Writes binded presentation to file. |
 
 ### See Also
 

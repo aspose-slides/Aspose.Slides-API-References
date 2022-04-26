@@ -3,7 +3,7 @@ title: NumberFormatOfValues
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 230
 url: /net/aspose.slides.charts/chartseries/numberformatofvalues/
 ---
 ## ChartSeries.NumberFormatOfValues property

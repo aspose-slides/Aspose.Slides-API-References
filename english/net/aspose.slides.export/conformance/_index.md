@@ -3,7 +3,7 @@ title: Conformance
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3730
+weight: 3480
 url: /net/aspose.slides.export/conformance/
 ---
 ## Conformance enumeration

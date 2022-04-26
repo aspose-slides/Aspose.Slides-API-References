@@ -3,7 +3,7 @@ title: AudioVolumeMode
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 800
+weight: 790
 url: /net/aspose.slides/audiovolumemode/
 ---
 ## AudioVolumeMode enumeration

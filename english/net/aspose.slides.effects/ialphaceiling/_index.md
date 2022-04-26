@@ -3,7 +3,7 @@ title: IAlphaCeiling
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3040
+weight: 2860
 url: /net/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interface
@@ -15,7 +15,7 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

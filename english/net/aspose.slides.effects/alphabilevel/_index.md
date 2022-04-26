@@ -3,7 +3,7 @@ title: AlphaBiLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2680
+weight: 2670
 url: /net/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel class
@@ -14,12 +14,17 @@ Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the thresh
 public class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Threshold](threshold) { get; set; } | Returns effect threshold. Read/write Single. |
-| override [Equals](equals)(…) | Determines whether the specified [`AlphaBiLevel`](../alphabilevel) is equal to the current [`AlphaBiLevel`](../alphabilevel). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`AlphaBiLevel`](../alphabilevel) is equal to the current [`AlphaBiLevel`](../alphabilevel). |
 | [GetEffective](geteffective)() | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

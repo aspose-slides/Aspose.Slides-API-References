@@ -3,7 +3,7 @@ title: FontAlignment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4610
+weight: 4360
 url: /net/aspose.slides/fontalignment/
 ---
 ## FontAlignment enumeration

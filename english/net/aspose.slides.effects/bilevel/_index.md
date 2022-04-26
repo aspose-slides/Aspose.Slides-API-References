@@ -3,7 +3,7 @@ title: BiLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2820
+weight: 2740
 url: /net/aspose.slides.effects/bilevel/
 ---
 ## BiLevel class
@@ -14,11 +14,11 @@ Represents a Bi-Level (black/white) effect. Input colors whose luminance is less
 public class BiLevel : ImageTransformOperation, IBiLevel
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the specified [`BiLevel`](../bilevel) is equal to the current [`BiLevel`](../bilevel). |
+| override [Equals](equals)(object) | Determines whether the specified [`BiLevel`](../bilevel) is equal to the current [`BiLevel`](../bilevel). |
 | [GetEffective](geteffective)() | Gets effective Bi-Level effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

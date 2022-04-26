@@ -3,7 +3,7 @@ title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 150
 url: /net/aspose.slides/baseslide/joinportionswithsameformatting/
 ---
 ## BaseSlide.JoinPortionsWithSameFormatting method (1 of 2)

@@ -3,7 +3,7 @@ title: PptxEditException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9070
+weight: 8820
 url: /net/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException class
@@ -14,12 +14,13 @@ Represents an exception thrown when edit presentation error is detected.
 public class PptxEditException : PptxException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PptxEditException](pptxeditexception)() | Default constructor. |
-| [PptxEditException](pptxeditexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |
+| [PptxEditException](pptxeditexception)(string) | Constructor allowing a message to be added to this exception. |
+| [PptxEditException](pptxeditexception)(string, Exception) | Constructor for an exception containing a message and an embedded exception. |
 
 ### See Also
 

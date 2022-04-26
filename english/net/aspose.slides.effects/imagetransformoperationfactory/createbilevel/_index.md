@@ -3,7 +3,7 @@ title: CreateBiLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.slides.effects/imagetransformoperationfactory/createbilevel/
 ---
 ## ImageTransformOperationFactory.CreateBiLevel method

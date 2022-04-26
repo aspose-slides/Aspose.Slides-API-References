@@ -3,7 +3,7 @@ title: ApplyImageTransparent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 40
 url: /net/aspose.slides.export/pdfoptions/applyimagetransparent/
 ---
 ## PdfOptions.ApplyImageTransparent property

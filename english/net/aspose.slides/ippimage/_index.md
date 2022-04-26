@@ -3,7 +3,7 @@ title: IPPImage
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6240
+weight: 5990
 url: /net/aspose.slides/ippimage/
 ---
 ## IPPImage interface
@@ -14,7 +14,7 @@ Represents an image in a presentation.
 public interface IPPImage
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -26,7 +26,14 @@ public interface IPPImage
 | [Width](width) { get; } | Returns a width of an image. Read-only Int32. |
 | [X](x) { get; } | Returns a X-offset of an image. Read-only Int32. |
 | [Y](y) { get; } | Returns a Y-offset of an image. Read-only Int32. |
-| [ReplaceImage](replaceimage)(…) | Replaces image data. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [ReplaceImage](replaceimage)(byte[]) | Replaces image data. |
+| [ReplaceImage](replaceimage)(Image) | Replaces image. |
+| [ReplaceImage](replaceimage)(IPPImage) | Replaces image. |
 
 ### See Also
 

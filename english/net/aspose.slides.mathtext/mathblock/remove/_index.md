@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 160
 url: /net/aspose.slides.mathtext/mathblock/remove/
 ---
 ## MathBlock.Remove method

@@ -3,7 +3,7 @@ title: PathData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 20
 url: /net/aspose.slides/igeometrypath/pathdata/
 ---
 ## IGeometryPath.PathData property

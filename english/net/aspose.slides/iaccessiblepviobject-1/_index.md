@@ -3,7 +3,7 @@ title: IAccessiblePVIObject<T>
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4940
+weight: 4690
 url: /net/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject&lt;T&gt; interface
@@ -19,7 +19,7 @@ public interface IAccessiblePVIObject<T>
 | --- | --- | --- |
 | T |  | Type of effective data. |
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |

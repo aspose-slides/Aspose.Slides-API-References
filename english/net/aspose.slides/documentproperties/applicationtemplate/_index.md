@@ -3,7 +3,7 @@ title: ApplicationTemplate
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 20
 url: /net/aspose.slides/documentproperties/applicationtemplate/
 ---
 ## DocumentProperties.ApplicationTemplate property

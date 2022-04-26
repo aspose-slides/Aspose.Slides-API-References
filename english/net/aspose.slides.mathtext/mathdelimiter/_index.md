@@ -3,7 +3,7 @@ title: MathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8170
+weight: 7920
 url: /net/aspose.slides.mathtext/mathdelimiter/
 ---
 ## MathDelimiter class
@@ -14,19 +14,29 @@ Specifies the delimiter object, consisting of opening and closing characters (su
 public sealed class MathDelimiter : MathElementBase, IMathDelimiter
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathDelimiter](mathdelimiter)(…) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(IMathElement) | Initializes MathDelimiter with the specified element as single base argument |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Arguments](arguments) { get; } | One or more mathematical elements separated by delimiter characters |
 | [BeginningCharacter](beginningcharacter) { get; set; } | Delimiter Beginning Character specifies the beginning, or opening, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: '('. |
 | [DelimiterShape](delimitershape) { get; set; } | Specifies the shape of delimiters in the delimiter object. When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text and still be made to fit the entire height of their contents. When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
 | [EndingCharacter](endingcharacter) { get; set; } | Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
 | [GrowToMatchOperandHeight](growtomatchoperandheight) { get; set; } | Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
 | [SeparatorCharacter](separatorcharacter) { get; set; } | Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '&#x7C;'. |
-| [Delimit](delimit)(…) | Delimits arguments using the specified delimiter character |
-| override [Enclose](enclose)(…) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Delimit](delimit)(char) | Delimits arguments using the specified delimiter character |
+| override [Enclose](enclose)(char, char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

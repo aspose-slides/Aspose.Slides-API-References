@@ -3,7 +3,7 @@ title: TextVerticalType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.slides/textframeformat/textverticaltype/
 ---
 ## TextFrameFormat.TextVerticalType property

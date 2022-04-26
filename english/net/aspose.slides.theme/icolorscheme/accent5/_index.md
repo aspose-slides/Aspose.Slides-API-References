@@ -3,7 +3,7 @@ title: Accent5
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 50
 url: /net/aspose.slides.theme/icolorscheme/accent5/
 ---
 ## IColorScheme.Accent5 property

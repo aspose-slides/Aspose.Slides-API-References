@@ -3,7 +3,7 @@ title: ShadowOn
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 730
+weight: 720
 url: /net/aspose.slides.animation/behaviorproperty/shadowon/
 ---
 ## BehaviorProperty.ShadowOn property

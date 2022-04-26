@@ -3,7 +3,7 @@ title: IMathBlockCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7680
+weight: 7430
 url: /net/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection interface
@@ -14,20 +14,25 @@ Collection of math blocks (IMathBlock)
 public interface IMathBlockCollection : IEnumerable<IMathBlock>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Allows to get base IEnumerable interface IEnumerable |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [Item](item) { get; set; } | Gets the item at the specified index. Read-only [`IMathBlock`](../imathblock). |
-| [Add](add)(…) | Adds IMathBlock to the end of collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IMathBlock) | Adds IMathBlock to the end of collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains a specific value. |
-| [IndexOf](indexof)(…) | Determines the index of a specific IMathBlock in collection. |
-| [Insert](insert)(…) | Inserts IMathBlock into the collection at the specified index. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection/&gt;. |
-| [RemoveAt](removeat)(…) | Removes an item at the specified index of the collection. |
+| [Contains](contains)(IMathBlock) | Determines whether the collection contains a specific value. |
+| [IndexOf](indexof)(IMathBlock) | Determines the index of a specific IMathBlock in collection. |
+| [Insert](insert)(int, IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
+| [Remove](remove)(IMathBlock) | Removes the first occurrence of a specific object from the collection/&gt;. |
+| [RemoveAt](removeat)(int) | Removes an item at the specified index of the collection. |
 
 ### Examples
 

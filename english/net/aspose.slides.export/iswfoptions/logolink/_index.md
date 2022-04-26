@@ -3,7 +3,7 @@ title: LogoLink
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 60
 url: /net/aspose.slides.export/iswfoptions/logolink/
 ---
 ## ISwfOptions.LogoLink property

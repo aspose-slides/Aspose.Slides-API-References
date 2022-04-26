@@ -3,7 +3,7 @@ title: SectionSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9280
+weight: 9030
 url: /net/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/sectionslidecollection/
 Represents a collection of slides in the section.
 
 ```csharp
-public sealed class SectionSlideCollection : ISectionSlideCollection
+public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,11 +22,18 @@ public sealed class SectionSlideCollection : ISectionSlideCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISlide`](../islide). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies the entire collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies the entire collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Section](../section)
 * interface [ISectionSlideCollection](../isectionslidecollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

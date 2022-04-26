@@ -3,7 +3,7 @@ title: ChartCategory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1150
+weight: 1130
 url: /net/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory class
@@ -14,7 +14,7 @@ Represents chart categories.
 public class ChartCategory : IChartCategory
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,6 +23,11 @@ public class ChartCategory : IChartCategory
 | [GroupingLevels](groupinglevels) { get; } | Managed container of the values of the chart category grouping levels. Multi-level category contain more then one grouping level. Grouping levels indexing is zero-based. Read-only [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
 | [UseCell](usecell) { get; } | If true then AsCell property is actual. In other words, worksheet is used for storing category (this case supports a multi-level category). If false then AsLiteral property is actual. In other words, worksheet is NOT used for storing category (and this case doesn't support a multi-level categories). Read-only Boolean. |
 | [Value](value) { get; set; } | If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Read/write Object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Remove](remove)() | Removes category from chart. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: HighlightText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 70
 url: /net/aspose.slides/itextframe/highlighttext/
 ---
 ## ITextFrame.HighlightText method (1 of 2)

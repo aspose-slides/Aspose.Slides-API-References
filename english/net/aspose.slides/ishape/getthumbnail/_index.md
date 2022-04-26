@@ -3,7 +3,7 @@ title: GetThumbnail
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 300
 url: /net/aspose.slides/ishape/getthumbnail/
 ---
 ## IShape.GetThumbnail method (1 of 2)

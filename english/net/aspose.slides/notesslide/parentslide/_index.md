@@ -3,7 +3,7 @@ title: ParentSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.slides/notesslide/parentslide/
 ---
 ## NotesSlide.ParentSlide property

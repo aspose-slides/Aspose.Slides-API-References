@@ -3,7 +3,7 @@ title: Insert
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 100
 url: /net/aspose.slides.animation/behaviorpropertycollection/insert/
 ---
 ## BehaviorPropertyCollection.Insert method (1 of 2)

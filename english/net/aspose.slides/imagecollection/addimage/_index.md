@@ -3,20 +3,20 @@ title: AddImage
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.slides/imagecollection/addimage/
 ---
 ## ImageCollection.AddImage method (1 of 7)
 
-Adds an image to a presentation from specified buffer.
+Adds a copy of an image from an another presentation.
 
 ```csharp
-public IPPImage AddImage(byte[] buffer)
+public IPPImage AddImage(IPPImage imageSource)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buffer | Byte[] | Buffer. |
+| imageSource | IPPImage | Source image. |
 
 ## Return Value
 
@@ -62,63 +62,6 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 
 ## ImageCollection.AddImage method (3 of 7)
 
-Adds a copy of an image from an another presentation.
-
-```csharp
-public IPPImage AddImage(IPPImage imageSource)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| imageSource | IPPImage | Source image. |
-
-## Return Value
-
-Added image.
-
-### See Also
-
-* interface [IPPImage](../../ippimage)
-* class [ImageCollection](../../imagecollection)
-* namespace [Aspose.Slides](../../imagecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ImageCollection.AddImage method (4 of 7)
-
-Add an image to a presentation from Svg object.
-
-```csharp
-public IPPImage AddImage(ISvgImage svgImage)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| svgImage | ISvgImage | Svg image object [`ISvgImage`](../../isvgimage) |
-
-## Return Value
-
-Added image.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | When svgImage parameter is null. |
-
-### See Also
-
-* interface [IPPImage](../../ippimage)
-* interface [ISvgImage](../../isvgimage)
-* class [ImageCollection](../../imagecollection)
-* namespace [Aspose.Slides](../../imagecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ImageCollection.AddImage method (5 of 7)
-
 Add an image to a presentation from stream.
 
 ```csharp
@@ -146,7 +89,7 @@ This method can add WMF/EMF metafiles to a presentation without converting them 
 
 ---
 
-## ImageCollection.AddImage method (6 of 7)
+## ImageCollection.AddImage method (4 of 7)
 
 Add an image to a presentation from stream.
 
@@ -175,7 +118,7 @@ This method can add WMF/EMF metafiles to a presentation without converting them 
 
 ---
 
-## ImageCollection.AddImage method (7 of 7)
+## ImageCollection.AddImage method (5 of 7)
 
 Creates and adds an image to a presentation from stream.
 
@@ -196,6 +139,63 @@ Added [`IPPImage`](../../ippimage).
 
 * interface [IPPImage](../../ippimage)
 * enum [LoadingStreamBehavior](../../loadingstreambehavior)
+* class [ImageCollection](../../imagecollection)
+* namespace [Aspose.Slides](../../imagecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ImageCollection.AddImage method (6 of 7)
+
+Adds an image to a presentation from specified buffer.
+
+```csharp
+public IPPImage AddImage(byte[] buffer)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| buffer | Byte[] | Buffer. |
+
+## Return Value
+
+Added image.
+
+### See Also
+
+* interface [IPPImage](../../ippimage)
+* class [ImageCollection](../../imagecollection)
+* namespace [Aspose.Slides](../../imagecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ImageCollection.AddImage method (7 of 7)
+
+Add an image to a presentation from Svg object.
+
+```csharp
+public IPPImage AddImage(ISvgImage svgImage)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| svgImage | ISvgImage | Svg image object [`ISvgImage`](../../isvgimage) |
+
+## Return Value
+
+Added image.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | When svgImage parameter is null. |
+
+### See Also
+
+* interface [IPPImage](../../ippimage)
+* interface [ISvgImage](../../isvgimage)
 * class [ImageCollection](../../imagecollection)
 * namespace [Aspose.Slides](../../imagecollection)
 * assembly [Aspose.Slides](../../../)

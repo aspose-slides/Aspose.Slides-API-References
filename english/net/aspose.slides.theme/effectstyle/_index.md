@@ -3,7 +3,7 @@ title: EffectStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10510
+weight: 10260
 url: /net/aspose.slides.theme/effectstyle/
 ---
 ## EffectStyle class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.theme/effectstyle/
 Represents an effect style.
 
 ```csharp
-public class EffectStyle : IEffectStyle
+public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,6 +23,8 @@ public class EffectStyle : IEffectStyle
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [EffectStyleCollection](../effectstylecollection)
 * interface [IEffectStyle](../ieffectstyle)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

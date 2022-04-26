@@ -3,7 +3,7 @@ title: OrganizationChartLayoutType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10020
+weight: 9770
 url: /net/aspose.slides.smartart/organizationchartlayouttype/
 ---
 ## OrganizationChartLayoutType enumeration

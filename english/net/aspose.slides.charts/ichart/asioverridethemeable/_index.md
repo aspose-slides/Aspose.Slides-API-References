@@ -3,7 +3,7 @@ title: AsIOverrideThemeable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 30
 url: /net/aspose.slides.charts/ichart/asioverridethemeable/
 ---
 ## IChart.AsIOverrideThemeable property

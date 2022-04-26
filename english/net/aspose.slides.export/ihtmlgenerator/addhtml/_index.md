@@ -3,7 +3,7 @@ title: AddHtml
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 80
 url: /net/aspose.slides.export/ihtmlgenerator/addhtml/
 ---
 ## IHtmlGenerator.AddHtml method (1 of 3)
@@ -11,12 +11,12 @@ url: /net/aspose.slides.export/ihtmlgenerator/addhtml/
 Adds formatted HTML text.
 
 ```csharp
-public void AddHtml(char[] html)
+public void AddHtml(string html)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| html | Char[] | Text to add. |
+| html | String | Text to add. |
 
 ### See Also
 
@@ -31,12 +31,12 @@ public void AddHtml(char[] html)
 Adds formatted HTML text.
 
 ```csharp
-public void AddHtml(string html)
+public void AddHtml(char[] html)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| html | String | Text to add. |
+| html | Char[] | Text to add. |
 
 ### See Also
 

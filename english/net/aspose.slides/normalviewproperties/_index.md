@@ -3,7 +3,7 @@ title: NormalViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8620
+weight: 8370
 url: /net/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties class
@@ -14,7 +14,7 @@ Represents normal view properties. The normal view consists of three content reg
 public class NormalViewProperties : INormalViewProperties
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

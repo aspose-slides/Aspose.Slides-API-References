@@ -3,7 +3,7 @@ title: AddGrayScaleEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 180
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect/
 ---
 ## ImageTransformOperationCollection.AddGrayScaleEffect method

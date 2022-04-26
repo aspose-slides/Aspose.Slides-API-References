@@ -3,7 +3,7 @@ title: IPortionCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6400
+weight: 6150
 url: /net/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection interface
@@ -14,20 +14,25 @@ Represents a collection of a portions.
 public interface IPortionCollection : IEnumerable<IPortion>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [Item](item) { get; } | Gets the element at the specified index. |
-| [Add](add)(…) | Adds a Portion to the end of collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IPortion) | Adds a Portion to the end of collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the ICollection contains a specific value. |
-| [IndexOf](indexof)(…) | Determines the index of a specific portion in collection. |
-| [Insert](insert)(…) | Inserts a Portion into the collection at the specified index. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the ICollection. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index of the collection. |
+| [Contains](contains)(IPortion) | Determines whether the ICollection contains a specific value. |
+| [IndexOf](indexof)(IPortion) | Determines the index of a specific portion in collection. |
+| [Insert](insert)(int, IPortion) | Inserts a Portion into the collection at the specified index. |
+| [Remove](remove)(IPortion) | Removes the first occurrence of a specific object from the ICollection. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
 
 ### See Also
 

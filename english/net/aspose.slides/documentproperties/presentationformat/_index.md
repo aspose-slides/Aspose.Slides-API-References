@@ -3,7 +3,7 @@ title: PresentationFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 200
 url: /net/aspose.slides/documentproperties/presentationformat/
 ---
 ## DocumentProperties.PresentationFormat property

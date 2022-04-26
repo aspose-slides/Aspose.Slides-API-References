@@ -3,7 +3,7 @@ title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 80
 url: /net/aspose.slides/rowcollection/insertclone/
 ---
 ## RowCollection.InsertClone method

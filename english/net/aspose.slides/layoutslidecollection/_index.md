@@ -3,7 +3,7 @@ title: LayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7200
+weight: 6950
 url: /net/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection class
@@ -14,7 +14,7 @@ Represents a base class for collection of a layout slides.
 public class LayoutSlideCollection : ILayoutSlideCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,10 +22,15 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns the layout slide by index. Read-only [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
-| [GetByType](getbytype)(…) | Returns the first layout slide of specified type. A type of layout slide to find.[`LayoutSlide`](../layoutslide) with specified type or null if no layouts found. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetByType](getbytype)(SlideLayoutType) | Returns the first layout slide of specified type. A type of layout slide to find.[`LayoutSlide`](../layoutslide) with specified type or null if no layouts found. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes a layout from the collection. |
+| [Remove](remove)(ILayoutSlide) | Removes a layout from the collection. |
 | [RemoveUnused](removeunused)() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 
 ### See Also

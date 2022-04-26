@@ -3,7 +3,7 @@ title: FillFormatCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10550
+weight: 10300
 url: /net/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.theme/fillformatcollection/
 Represents the collection of fill styles.
 
 ```csharp
-public sealed class FillFormatCollection : IFillFormatCollection
+public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,11 +22,18 @@ public sealed class FillFormatCollection : IFillFormatCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [FormatScheme](../formatscheme)
 * interface [IFillFormatCollection](../ifillformatcollection)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

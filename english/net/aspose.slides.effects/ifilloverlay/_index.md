@@ -3,7 +3,7 @@ title: IFillOverlay
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3280
+weight: 3100
 url: /net/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay interface
@@ -15,7 +15,7 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: Cell
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1010
+weight: 990
 url: /net/aspose.slides/cell/
 ---
 ## Cell class
@@ -14,7 +14,7 @@ Represents a cell of a table.
 public class Cell : ICell
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -42,10 +42,15 @@ public class Cell : ICell
 | [TextFrame](textframe) { get; } | Returns the text frame of a cell. Read-only [`ITextFrame`](../itextframe). |
 | [TextVerticalType](textverticaltype) { get; set; } | Returns or sets the type of vertical text. Read/write [`TextVerticalType`](../textverticaltype). |
 | [Width](width) { get; } | Returns the width of the cell. Read-only Double. |
-| [SplitByColSpan](splitbycolspan)(…) | Splits the cell to two cells by index of column. |
-| [SplitByHeight](splitbyheight)(…) | Splits the cell by height. |
-| [SplitByRowSpan](splitbyrowspan)(…) | Splits the cell to two cells by index of row. |
-| [SplitByWidth](splitbywidth)(…) | Splits the cell by width. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SplitByColSpan](splitbycolspan)(int) | Splits the cell to two cells by index of column. |
+| [SplitByHeight](splitbyheight)(double) | Splits the cell by height. |
+| [SplitByRowSpan](splitbyrowspan)(int) | Splits the cell to two cells by index of row. |
+| [SplitByWidth](splitbywidth)(double) | Splits the cell by width. |
 
 ### See Also
 

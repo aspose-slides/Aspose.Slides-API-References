@@ -3,7 +3,7 @@ title: IBaseSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5110
+weight: 4860
 url: /net/aspose.slides/ibaseslide/
 ---
 ## IBaseSlide interface
@@ -14,7 +14,7 @@ Represents common data for all slide types.
 public interface IBaseSlide : IThemeable
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -29,8 +29,13 @@ public interface IBaseSlide : IThemeable
 | [SlideId](slideid) { get; } | Returns the ID of a slide. Read-only UInt32. |
 | [SlideShowTransition](slideshowtransition) { get; } | Returns the TransitionEx object which contains information about how the specified slide advances during a slide show. Read-only [`ISlideShowTransition`](../islideshowtransition). |
 | [Timeline](timeline) { get; } | Returns animation timeline object. Read-only [`IAnimationTimeLine`](../ianimationtimeline). |
-| [Equals](equals)(…) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-| [FindShapeByAltText](findshapebyalttext)(…) | Finds first occurrence of a shape with the specified alternative text. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Equals](equals)(IBaseSlide) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [FindShapeByAltText](findshapebyalttext)(string) | Finds first occurrence of a shape with the specified alternative text. |
 | [JoinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 
 ### See Also

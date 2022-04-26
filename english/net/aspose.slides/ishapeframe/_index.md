@@ -3,7 +3,7 @@ title: IShapeFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6670
+weight: 6420
 url: /net/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame interface
@@ -14,7 +14,7 @@ Represents shape frame's properties.
 public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

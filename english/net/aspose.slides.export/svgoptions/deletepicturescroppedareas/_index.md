@@ -3,7 +3,7 @@ title: DeletePicturesCroppedAreas
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 50
 url: /net/aspose.slides.export/svgoptions/deletepicturescroppedareas/
 ---
 ## SVGOptions.DeletePicturesCroppedAreas property

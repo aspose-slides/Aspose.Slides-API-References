@@ -3,7 +3,7 @@ title: SetUpperLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 170
 url: /net/aspose.slides.mathtext/mathelementbase/setupperlimit/
 ---
 ## MathElementBase.SetUpperLimit method (1 of 2)

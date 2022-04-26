@@ -3,7 +3,7 @@ title: ChartTextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1360
+weight: 1340
 url: /net/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat class
@@ -14,15 +14,20 @@ Specifies default text formatting for chart text elements.
 public class ChartTextFormat : IChartTextFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [ParagraphFormat](paragraphformat) { get; } | ParagraphFormat. Read-only [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](portionformat) { get; } | PortionFormat. Read-only [`IChartPortionFormat`](../ichartportionformat). |
 | [TextBlockFormat](textblockformat) { get; } | TextBlockFormat. Read-only [`IChartTextBlockFormat`](../icharttextblockformat). |
-| [CopyFrom](copyfrom)(…) | Copies text format from specified text frame. |
-| [CopyTo](copyto)(…) | Copies text format to specified text frame. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyFrom](copyfrom)(ITextFrame) | Copies text format from specified text frame. |
+| [CopyTo](copyto)(ITextFrame) | Copies text format to specified text frame. |
 
 ### See Also
 

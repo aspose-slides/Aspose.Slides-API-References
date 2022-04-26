@@ -3,7 +3,7 @@ title: AsISlideComponent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 70
 url: /net/aspose.slides.theme/icolorscheme/asislidecomponent/
 ---
 ## IColorScheme.AsISlideComponent property

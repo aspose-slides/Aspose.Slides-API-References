@@ -3,7 +3,7 @@ title: ShowConnectorLines
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 370
 url: /net/aspose.slides.charts/chartseries/showconnectorlines/
 ---
 ## ChartSeries.ShowConnectorLines property

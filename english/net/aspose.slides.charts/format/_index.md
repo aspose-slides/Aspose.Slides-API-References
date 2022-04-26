@@ -3,7 +3,7 @@ title: Format
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1560
+weight: 1540
 url: /net/aspose.slides.charts/format/
 ---
 ## Format class
@@ -14,7 +14,7 @@ Represents chart format properties.
 public class Format : PVIObject, IFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

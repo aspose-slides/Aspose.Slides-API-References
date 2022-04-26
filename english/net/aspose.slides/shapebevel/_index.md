@@ -3,7 +3,7 @@ title: ShapeBevel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9310
+weight: 9060
 url: /net/aspose.slides/shapebevel/
 ---
 ## ShapeBevel class
@@ -14,11 +14,16 @@ Contains the properties of shape's main face relief.
 public class ShapeBevel : PVIObject, IShapeBevel
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [ShapeBevel](shapebevel)(…) | Creates new instance. |
+| [ShapeBevel](shapebevel)(bool) | Creates new instance. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BevelType](beveltype) { get; set; } | Bevel type. Read/write [`BevelPresetType`](../bevelpresettype). |
 | [Height](height) { get; set; } | Bevel height. Read/write Double. |
 | [Width](width) { get; set; } | Bevel width. Read/write Double. |

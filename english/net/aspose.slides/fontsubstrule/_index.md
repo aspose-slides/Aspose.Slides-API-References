@@ -3,7 +3,7 @@ title: FontSubstRule
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4690
+weight: 4440
 url: /net/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule class
@@ -14,11 +14,17 @@ Represents font subtituition information
 public class FontSubstRule : IFontSubstRule
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [FontSubstRule](fontsubstrule)(…) | Creates new instance. (2 constructors) |
+| [FontSubstRule](fontsubstrule)(IFontData, IFontData) | Creates new instance. |
+| [FontSubstRule](fontsubstrule)(IFontData, IFontData, FontSubstCondition) | Creates new instance. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DestFont](destfont) { get; } | Font to use for substitution. Read-only [`IFontData`](../ifontdata). |
 | [ReplaceFontCondition](replacefontcondition) { get; } | Rule to apply for substitution. Read-only [`FontSubstCondition`](../fontsubstcondition). |
 | [SourceFont](sourcefont) { get; } | Font to substitute. Read-only [`IFontData`](../ifontdata). |

@@ -3,7 +3,7 @@ title: MathBorderBox
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8130
+weight: 7880
 url: /net/aspose.slides.mathtext/mathborderbox/
 ---
 ## MathBorderBox class
@@ -14,11 +14,17 @@ Draws a rectangular or some other border around the IMathElement.
 public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathBorderBox](mathborderbox)(…) | Creates MathBorderBox element with rectangular border (2 constructors) |
+| [MathBorderBox](mathborderbox)(IMathElement) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Creates MathBorderBox element |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Base](base) { get; } | Base argument |
 | [HideBottom](hidebottom) { get; set; } | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
 | [HideLeft](hideleft) { get; set; } | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
@@ -28,6 +34,11 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 | [StrikethroughHorizontal](strikethroughhorizontal) { get; set; } | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
 | [StrikethroughTopLeftToBottomRight](strikethroughtoplefttobottomright) { get; set; } | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
 | [StrikethroughVertical](strikethroughvertical) { get; set; } | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

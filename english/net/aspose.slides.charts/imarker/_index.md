@@ -3,7 +3,7 @@ title: IMarker
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2040
+weight: 2020
 url: /net/aspose.slides.charts/imarker/
 ---
 ## IMarker interface
@@ -14,7 +14,7 @@ Represents marker of a chert.
 public interface IMarker
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

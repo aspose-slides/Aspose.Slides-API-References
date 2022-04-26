@@ -3,7 +3,7 @@ title: Nary
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 100
 url: /net/aspose.slides.mathtext/imathelement/nary/
 ---
 ## IMathElement.Nary method (1 of 2)

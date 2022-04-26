@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8790
+weight: 8540
 url: /net/aspose.slides/paragraph/
 ---
 ## Paragraph class
@@ -14,16 +14,26 @@ Represents a paragraph of text.
 public sealed class Paragraph : IParagraph
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Paragraph](paragraph)() | Initializes a new instance of the Paragraph class with default properties. |
-| [Paragraph](paragraph)(…) | Copy constructor that initializes a new instance of a Paragraph class. |
+| [Paragraph](paragraph)(Paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [EndParagraphPortionFormat](endparagraphportionformat) { get; set; } | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
 | [ParagraphFormat](paragraphformat) { get; } | Returns the formatting object for this paragraph. Read-only [`IParagraphFormat`](../iparagraphformat). |
 | [Portions](portions) { get; } | Returns the collection of a text portions. Read-only [`IPortionCollection`](../iportioncollection). |
 | [Text](text) { get; set; } | Gets or sets the the plain text of a paragraph. Read/write String. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetRect](getrect)() | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
 | [JoinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting. |
 

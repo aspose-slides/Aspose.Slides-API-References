@@ -3,7 +3,7 @@ title: CrossesType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1420
+weight: 1400
 url: /net/aspose.slides.charts/crossestype/
 ---
 ## CrossesType enumeration

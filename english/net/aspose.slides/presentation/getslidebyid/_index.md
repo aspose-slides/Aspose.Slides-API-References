@@ -3,7 +3,7 @@ title: GetSlideById
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 300
 url: /net/aspose.slides/presentation/getslidebyid/
 ---
 ## Presentation.GetSlideById method

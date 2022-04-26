@@ -3,7 +3,7 @@ title: SyncRoot
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 40
 url: /net/aspose.slides.vba/vbamodulecollection/syncroot/
 ---
 ## VbaModuleCollection.SyncRoot property

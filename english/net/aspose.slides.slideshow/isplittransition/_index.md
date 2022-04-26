@@ -3,7 +3,7 @@ title: ISplitTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9660
+weight: 9410
 url: /net/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition interface
@@ -14,7 +14,7 @@ Split slide transition effect.
 public interface ISplitTransition : ITransitionValueBase
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

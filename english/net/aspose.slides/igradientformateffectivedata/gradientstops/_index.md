@@ -3,7 +3,7 @@ title: GradientStops
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.slides/igradientformateffectivedata/gradientstops/
 ---
 ## IGradientFormatEffectiveData.GradientStops property

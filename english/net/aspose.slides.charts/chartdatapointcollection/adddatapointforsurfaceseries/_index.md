@@ -3,35 +3,10 @@ title: AddDataPointForSurfaceSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 240
 url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries/
 ---
 ## ChartDataPointCollection.AddDataPointForSurfaceSeries method (1 of 2)
-
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) method).
-
-```csharp
-public IChartDataPoint AddDataPointForSurfaceSeries(double value)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | Double | Data point Value |
-
-## Return Value
-
-New data point.
-
-### See Also
-
-* interface [IChartDataPoint](../../ichartdatapoint)
-* class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ChartDataPointCollection.AddDataPointForSurfaceSeries method (2 of 2)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) method).
 
@@ -51,6 +26,31 @@ New data point.
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
+* class [ChartDataPointCollection](../../chartdatapointcollection)
+* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ChartDataPointCollection.AddDataPointForSurfaceSeries method (2 of 2)
+
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) method).
+
+```csharp
+public IChartDataPoint AddDataPointForSurfaceSeries(double value)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Double | Data point Value |
+
+## Return Value
+
+New data point.
+
+### See Also
+
+* interface [IChartDataPoint](../../ichartdatapoint)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
 * namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
 * assembly [Aspose.Slides](../../../)

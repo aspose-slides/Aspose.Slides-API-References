@@ -3,7 +3,7 @@ title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 240
 url: /net/aspose.slides/shapecollection/copyto/
 ---
 ## ShapeCollection.CopyTo method

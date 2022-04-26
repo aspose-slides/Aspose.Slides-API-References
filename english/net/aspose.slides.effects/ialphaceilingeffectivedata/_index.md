@@ -3,7 +3,7 @@ title: IAlphaCeilingEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3050
+weight: 2870
 url: /net/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents an Alpha Ceiling effect. Alpha (opacity) value
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

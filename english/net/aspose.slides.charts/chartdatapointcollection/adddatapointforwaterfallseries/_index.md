@@ -3,7 +3,7 @@ title: AddDataPointForWaterfallSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 260
 url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointforwaterfallseries/
 ---
 ## ChartDataPointCollection.AddDataPointForWaterfallSeries method

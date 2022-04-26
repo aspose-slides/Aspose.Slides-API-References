@@ -3,10 +3,42 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.slides/customxmlpartcollection/add/
 ---
 ## CustomXmlPartCollection.Add method (1 of 3)
+
+Adds new custom xml part.
+
+```csharp
+public ICustomXmlPart Add(string xmlString)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xmlString | String | The xml string of new part to be added. |
+
+## Return Value
+
+Created custom xml part.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | xmlString is `null`. |
+| ArgumentException | xmlString is empty or xml-data is invalid. |
+
+### See Also
+
+* interface [ICustomXmlPart](../../icustomxmlpart)
+* class [CustomXmlPartCollection](../../customxmlpartcollection)
+* namespace [Aspose.Slides](../../customxmlpartcollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## CustomXmlPartCollection.Add method (2 of 3)
 
 Adds new custom xml part.
 
@@ -38,7 +70,7 @@ Created custom xml part.
 
 ---
 
-## CustomXmlPartCollection.Add method (2 of 3)
+## CustomXmlPartCollection.Add method (3 of 3)
 
 Adds new custom xml part.
 
@@ -60,38 +92,6 @@ Created custom xml part.
 | --- | --- |
 | ArgumentNullException | inputStream is `null`. |
 | ArgumentException | Data in inputStream is empty or invalid. |
-
-### See Also
-
-* interface [ICustomXmlPart](../../icustomxmlpart)
-* class [CustomXmlPartCollection](../../customxmlpartcollection)
-* namespace [Aspose.Slides](../../customxmlpartcollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## CustomXmlPartCollection.Add method (3 of 3)
-
-Adds new custom xml part.
-
-```csharp
-public ICustomXmlPart Add(string xmlString)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xmlString | String | The xml string of new part to be added. |
-
-## Return Value
-
-Created custom xml part.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | xmlString is `null`. |
-| ArgumentException | xmlString is empty or xml-data is invalid. |
 
 ### See Also
 

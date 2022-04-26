@@ -3,7 +3,7 @@ title: DefaultPortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 30
 url: /net/aspose.slides/iparagraphformat/defaultportionformat/
 ---
 ## IParagraphFormat.DefaultPortionFormat property

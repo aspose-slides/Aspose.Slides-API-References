@@ -3,7 +3,7 @@ title: PieSplitCustomPointCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2250
+weight: 2230
 url: /net/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection class
@@ -14,7 +14,7 @@ Represents a collection of points for splitting point in a bar-of-pie or pie-of-
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,12 +23,19 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns chart data point for specified index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Adds data point by its index in parent series points collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IChartDataPoint) | Adds data point to collection. |
+| [Add](add)(int) | Adds data point by its index in parent series points collection. |
 | [Clear](clear)() | Removes all items from the ICollection. |
-| [Contains](contains)(…) | Determines whether the ICollection contains a specific value. |
-| [CopyTo](copyto)(…) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
+| [Contains](contains)(IChartDataPoint) | Determines whether the ICollection contains a specific value. |
+| [CopyTo](copyto)(IChartDataPoint[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes item from collection. (2 methods) |
+| [Remove](remove)(IChartDataPoint) | Removes item from collection. |
+| [Remove](remove)(int) | Removes item from collection by it index in parent series points collection. |
 
 ### See Also
 

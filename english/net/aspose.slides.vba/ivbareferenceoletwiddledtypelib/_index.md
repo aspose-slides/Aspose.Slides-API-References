@@ -3,7 +3,7 @@ title: IVbaReferenceOleTwiddledTypeLib
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11030
+weight: 10780
 url: /net/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib interface
@@ -14,7 +14,7 @@ Represents modified OLE Automation type library reference in which all controls 
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

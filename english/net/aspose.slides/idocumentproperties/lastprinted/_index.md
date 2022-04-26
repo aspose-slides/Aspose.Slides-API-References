@@ -3,7 +3,7 @@ title: LastPrinted
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 140
 url: /net/aspose.slides/idocumentproperties/lastprinted/
 ---
 ## IDocumentProperties.LastPrinted property

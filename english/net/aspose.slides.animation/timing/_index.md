@@ -3,7 +3,7 @@ title: Timing
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 750
+weight: 740
 url: /net/aspose.slides.animation/timing/
 ---
 ## Timing class
@@ -14,11 +14,16 @@ Represents animation timing.
 public class Timing : ITiming
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Timing](timing)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Accelerate](accelerate) { get; set; } | Describes the percentage of duration accelerate behavior effect. Read/write Single. |
 | [AutoReverse](autoreverse) { get; set; } | Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write Boolean. |
 | [Decelerate](decelerate) { get; set; } | Describes the percentage of duration decelerate behavior effect. Read/write Single. |

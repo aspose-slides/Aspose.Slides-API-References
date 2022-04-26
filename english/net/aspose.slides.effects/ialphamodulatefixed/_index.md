@@ -3,7 +3,7 @@ title: IAlphaModulateFixed
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3120
+weight: 2940
 url: /net/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed interface
@@ -15,7 +15,7 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

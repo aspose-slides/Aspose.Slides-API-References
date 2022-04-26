@@ -3,7 +3,7 @@ title: CenterY
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 20
 url: /net/aspose.slides/ishapeframe/centery/
 ---
 ## IShapeFrame.CenterY property

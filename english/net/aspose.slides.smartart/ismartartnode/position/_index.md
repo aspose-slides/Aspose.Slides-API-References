@@ -3,7 +3,7 @@ title: Position
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.slides.smartart/ismartartnode/position/
 ---
 ## ISmartArtNode.Position property

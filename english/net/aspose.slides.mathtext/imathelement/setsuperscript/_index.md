@@ -3,7 +3,7 @@ title: SetSuperscript
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 170
 url: /net/aspose.slides.mathtext/imathelement/setsuperscript/
 ---
 ## IMathElement.SetSuperscript method (1 of 2)

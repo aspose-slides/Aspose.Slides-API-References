@@ -3,7 +3,7 @@ title: ITint
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3520
+weight: 3340
 url: /net/aspose.slides.effects/itint/
 ---
 ## ITint interface
@@ -14,7 +14,7 @@ Represents a Tint effect. Shifts effect color values towards/away from hue by th
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

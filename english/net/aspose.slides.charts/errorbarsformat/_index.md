@@ -3,7 +3,7 @@ title: ErrorBarsFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1550
+weight: 1530
 url: /net/aspose.slides.charts/errorbarsformat/
 ---
 ## ErrorBarsFormat class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/errorbarsformat/
 Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) property).
 
 ```csharp
-public class ErrorBarsFormat : IErrorBarsFormat
+public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -28,6 +28,8 @@ public class ErrorBarsFormat : IErrorBarsFormat
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartSeries](../chartseries)
 * interface [IErrorBarsFormat](../ierrorbarsformat)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

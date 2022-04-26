@@ -3,7 +3,7 @@ title: Underbar
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 220
 url: /net/aspose.slides.mathtext/imathelement/underbar/
 ---
 ## IMathElement.Underbar method

@@ -3,7 +3,7 @@ title: MathArray
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8070
+weight: 7820
 url: /net/aspose.slides.mathtext/matharray/
 ---
 ## MathArray class
@@ -14,17 +14,28 @@ Specifies a vertical array of equations or any mathematical objects
 public sealed class MathArray : MathElementBase, IMathArray
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathArray](matharray)(…) | Creates a mathematical array and places the specified element in it (2 constructors) |
+| [MathArray](matharray)(IEnumerable&lt;IMathElement&gt;) | Creates a mathematical array and places specified elements in it |
+| [MathArray](matharray)(IMathElement) | Creates a mathematical array and places the specified element in it |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Arguments](arguments) { get; } | The set of items of the array |
 | [BaseJustification](basejustification) { get; set; } | Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
 | [MaximumDistribution](maximumdistribution) { get; set; } | Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
 | [ObjectDistribution](objectdistribution) { get; set; } | Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
 | [RowSpacing](rowspacing) { get; set; } | Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
 | [RowSpacingRule](rowspacingrule) { get; set; } | The type of vertical spacing between array elements Default: SingleLineGap |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

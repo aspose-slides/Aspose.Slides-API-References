@@ -3,7 +3,7 @@ title: Marker
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2210
+weight: 2190
 url: /net/aspose.slides.charts/marker/
 ---
 ## Marker class
@@ -14,7 +14,7 @@ Represents marker of a chert.
 public class Marker : IMarker
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

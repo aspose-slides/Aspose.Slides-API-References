@@ -3,7 +3,7 @@ title: LayoutSlideThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10840
+weight: 10590
 url: /net/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager class

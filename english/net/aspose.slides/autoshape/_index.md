@@ -3,7 +3,7 @@ title: AutoShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 810
+weight: 800
 url: /net/aspose.slides/autoshape/
 ---
 ## AutoShape class
@@ -14,15 +14,21 @@ Represents an AutoShape.
 public class AutoShape : GeometryShape, IAutoShape
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AutoShapeLock](autoshapelock) { get; } | Returns autoshape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |
+| [IsTextBox](istextbox) { get; } |  |
 | [ShapeLock](shapelock) { get; } | Returns shape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](textframe) { get; } | Returns TextFrame object for the AutoShape. Read-only [`ITextFrame`](../itextframe). |
 | [UseBackgroundFill](usebackgroundfill) { get; set; } | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write Boolean. |
-| virtual [AddTextFrame](addtextframe)(…) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [AddTextFrame](addtextframe)(string) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: LastVievedSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 50
 url: /net/aspose.slides/hyperlink/lastvievedslide/
 ---
 ## Hyperlink.LastVievedSlide property

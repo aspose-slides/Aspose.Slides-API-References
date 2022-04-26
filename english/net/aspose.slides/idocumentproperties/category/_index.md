@@ -3,7 +3,7 @@ title: Category
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 40
 url: /net/aspose.slides/idocumentproperties/category/
 ---
 ## IDocumentProperties.Category property

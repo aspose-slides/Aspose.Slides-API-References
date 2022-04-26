@@ -3,7 +3,7 @@ title: ShadowType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 740
+weight: 760
 url: /net/aspose.slides.animation/behaviorproperty/shadowtype/
 ---
 ## BehaviorProperty.ShadowType property

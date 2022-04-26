@@ -3,7 +3,7 @@ title: IsSynchronized
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 20
 url: /net/aspose.slides/coloroperationcollection/issynchronized/
 ---
 ## ColorOperationCollection.IsSynchronized property

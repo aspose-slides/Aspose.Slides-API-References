@@ -3,7 +3,7 @@ title: SoundName
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 70
 url: /net/aspose.slides.slideshow/slideshowtransition/soundname/
 ---
 ## SlideShowTransition.SoundName property

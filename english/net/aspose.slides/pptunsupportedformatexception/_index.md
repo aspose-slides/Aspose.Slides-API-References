@@ -3,7 +3,7 @@ title: PptUnsupportedFormatException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9050
+weight: 8800
 url: /net/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException class
@@ -14,12 +14,13 @@ Exception which thrown when presentation file format is unsupported.
 public class PptUnsupportedFormatException : PptReadException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception)() | Default constructor. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |
+| [PptUnsupportedFormatException](pptunsupportedformatexception)(string) | Constructor allowing a message to be added to this exception. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception)(string, Exception) | Constructor for an exception containing a message and an embedded exception. |
 
 ### See Also
 

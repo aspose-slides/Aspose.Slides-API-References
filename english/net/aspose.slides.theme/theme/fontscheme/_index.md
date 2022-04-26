@@ -3,7 +3,7 @@ title: FontScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.slides.theme/theme/fontscheme/
 ---
 ## Theme.FontScheme property

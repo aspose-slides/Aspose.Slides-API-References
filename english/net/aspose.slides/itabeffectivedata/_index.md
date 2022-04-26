@@ -3,7 +3,7 @@ title: ITabEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6880
+weight: 6630
 url: /net/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which contains effective text's tabulation stop properties.
 public interface ITabEffectiveData : IComparable
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

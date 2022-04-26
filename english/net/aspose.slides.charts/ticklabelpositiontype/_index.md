@@ -3,7 +3,7 @@ title: TickLabelPositionType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2320
+weight: 2300
 url: /net/aspose.slides.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType enumeration

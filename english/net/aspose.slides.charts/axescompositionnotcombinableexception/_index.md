@@ -3,7 +3,7 @@ title: AxesCompositionNotCombinableException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1040
+weight: 1020
 url: /net/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException class
@@ -14,12 +14,13 @@ Exception which thrown when axes composition of the series is not combinable wit
 public class AxesCompositionNotCombinableException : InvalidOperationException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception)() | Default constructor. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception)(string) | Constructor allowing a message to be added to this exception. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception)(string, Exception) | Constructor for an exception containing a message and an embedded exception. |
 
 ### See Also
 

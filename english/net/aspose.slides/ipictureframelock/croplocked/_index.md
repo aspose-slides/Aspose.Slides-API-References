@@ -3,7 +3,7 @@ title: CropLocked
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 50
 url: /net/aspose.slides/ipictureframelock/croplocked/
 ---
 ## IPictureFrameLock.CropLocked property

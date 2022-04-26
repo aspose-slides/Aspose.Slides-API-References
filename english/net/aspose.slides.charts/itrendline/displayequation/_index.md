@@ -3,7 +3,7 @@ title: DisplayEquation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 30
 url: /net/aspose.slides.charts/itrendline/displayequation/
 ---
 ## ITrendline.DisplayEquation property

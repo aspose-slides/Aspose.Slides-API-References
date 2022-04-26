@@ -3,7 +3,7 @@ title: IFontSubstRuleCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5610
+weight: 5360
 url: /net/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection interface
@@ -14,13 +14,18 @@ Represents collection of fonts substitution.
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. |
-| [Add](add)(…) | Adds the new font substitution rule to the collection |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IFontSubstRule) | Adds the new font substitution rule to the collection |
+| [Remove](remove)(IFontSubstRule) | Removes the first occurrence of a specific object from the collection. |
 
 ### See Also
 

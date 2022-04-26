@@ -3,7 +3,7 @@ title: Hyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4890
+weight: 4640
 url: /net/aspose.slides/hyperlink/
 ---
 ## Hyperlink class
@@ -14,11 +14,18 @@ Represents a hyperlink.
 public class Hyperlink : PVIObject, IHyperlink
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Hyperlink](hyperlink)(…) | Creates an instance of a hyperlink. (3 constructors) |
+| [Hyperlink](hyperlink)(ISlide) | Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
+| [Hyperlink](hyperlink)(string) | Creates an instance of a hyperlink. |
+| [Hyperlink](hyperlink)(Hyperlink, string, string, bool, bool, bool) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | static [EndShow](endshow) { get; } | Returns a hyperlink which ends the show. Read-only [`Hyperlink`](../hyperlink). |
 | static [FirstSlide](firstslide) { get; } | Returns a hyperlink to the first slide of the presentation. Read-only [`Hyperlink`](../hyperlink). |
 | static [LastSlide](lastslide) { get; } | Returns a hyperlink to the last slide of the presentation. Read-only [`Hyperlink`](../hyperlink). |
@@ -36,8 +43,13 @@ public class Hyperlink : PVIObject, IHyperlink
 | [TargetFrame](targetframe) { get; set; } | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 | [TargetSlide](targetslide) { get; } | If the Hyperlink targets specific slide returns this slide. Read-only [`ISlide`](../islide). |
 | [Tooltip](tooltip) { get; set; } | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
-| [Equals](equals)(…) | Determines whether the two Hyperlink instances are equal. |
-| override [Equals](equals)(…) | Determines whether the two Hyperlink instances are equal. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Equals](equals)(IHyperlink) | Determines whether the two Hyperlink instances are equal. |
+| override [Equals](equals)(object) | Determines whether the two Hyperlink instances are equal. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 | [operator ==](op_equality) | Tests two hyperlinks for equality. |
 | [operator !=](op_inequality) | Tests two hyperlinks for inequality. |

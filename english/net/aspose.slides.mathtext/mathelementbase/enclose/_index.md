@@ -3,41 +3,10 @@ title: Enclose
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.slides.mathtext/mathelementbase/enclose/
 ---
 ## MathElementBase.Enclose method (1 of 2)
-
-Encloses a math element in parenthesis
-
-```csharp
-public IMathDelimiter Enclose()
-```
-
-## Return Value
-
-The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes the parenthesis
-
-### Examples
-
-Example:
-
-```csharp
-[C#]
-IMathElement element = new MathematicalText("x");
-IMathDelimiter delimiter = element.Enclose();
-```
-
-### See Also
-
-* interface [IMathDelimiter](../../imathdelimiter)
-* class [MathElementBase](../../mathelementbase)
-* namespace [Aspose.Slides.MathText](../../mathelementbase)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## MathElementBase.Enclose method (2 of 2)
 
 Encloses a math element in specified characters such as parenthesis or another characters as framing
 
@@ -62,6 +31,37 @@ Example:
 [C#]
 IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose('[', ']');
+```
+
+### See Also
+
+* interface [IMathDelimiter](../../imathdelimiter)
+* class [MathElementBase](../../mathelementbase)
+* namespace [Aspose.Slides.MathText](../../mathelementbase)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## MathElementBase.Enclose method (2 of 2)
+
+Encloses a math element in parenthesis
+
+```csharp
+public IMathDelimiter Enclose()
+```
+
+## Return Value
+
+The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes the parenthesis
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+IMathElement element = new MathematicalText("x");
+IMathDelimiter delimiter = element.Enclose();
 ```
 
 ### See Also

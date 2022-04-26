@@ -3,7 +3,7 @@ title: AddDuotoneEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 160
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addduotoneeffect/
 ---
 ## ImageTransformOperationCollection.AddDuotoneEffect method

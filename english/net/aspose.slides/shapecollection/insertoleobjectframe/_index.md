@@ -3,7 +3,7 @@ title: InsertOleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 350
 url: /net/aspose.slides/shapecollection/insertoleobjectframe/
 ---
 ## ShapeCollection.InsertOleObjectFrame method (1 of 2)

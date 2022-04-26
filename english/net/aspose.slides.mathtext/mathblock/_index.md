@@ -3,7 +3,7 @@ title: MathBlock
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8110
+weight: 7860
 url: /net/aspose.slides.mathtext/mathblock/
 ---
 ## MathBlock class
@@ -14,31 +14,43 @@ Specifies an instance of mathematical text that contained within a MathParagraph
 public sealed class MathBlock : MathElementBase, IMathBlock
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathBlock](mathblock)() | Initializes a new instance of the MathBlock class. |
-| [MathBlock](mathblock)(…) | Creates a new mathematical block and puts specified element in it (2 constructors) |
+| [MathBlock](mathblock)(IEnumerable&lt;IMathElement&gt;) | Creates a new mathematical block and puts specified elements in it |
+| [MathBlock](mathblock)(IMathElement) | Creates a new mathematical block and puts specified element in it |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Gets the number of child math elements actually contained in the collection. Read-only Int32. |
 | [IsReadOnly](isreadonly) { get; } | Returns false because child elements collection can be modified. |
 | [Item](item) { get; set; } | Gets or sets IMathElement at the specified index. |
-| [Add](add)(…) | Adds a math element to the end of the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IMathElement) | Adds a math element to the end of the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains a specific value. |
-| [CopyTo](copyto)(…) | Copy to specified array. |
-| [Delimit](delimit)(…) | Delimits child elements with separator character (without the brackets) |
-| override [Enclose](enclose)(…) | Encloses child elements of this block in specified characters such as parenthesis or another characters as framing |
-| [Enclose](enclose)(…) | Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character |
+| [Contains](contains)(IMathElement) | Determines whether the collection contains a specific value. |
+| [CopyTo](copyto)(IMathElement[], int) | Copy to specified array. |
+| [Delimit](delimit)(char) | Delimits child elements with separator character (without the brackets) |
+| override [Enclose](enclose)(char, char) | Encloses child elements of this block in specified characters such as parenthesis or another characters as framing |
+| [Enclose](enclose)(char, char, char) | Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character |
 | [GetChildren](getchildren)() | Get children elements |
-| [IndexOf](indexof)(…) | Determines the index of a specific math element in collection. |
-| [Insert](insert)(…) | Inserts a MathElement into the collection at the specified index. |
-| override [Join](join)(…) | Joins a mathematical element with this mathematical block (2 methods) |
-| [JoinBlock](joinblock)(…) | Joins another mathematical block with this one |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index of the collection. |
+| [IndexOf](indexof)(IMathElement) | Determines the index of a specific math element in collection. |
+| [Insert](insert)(int, IMathElement) | Inserts a MathElement into the collection at the specified index. |
+| override [Join](join)(IMathElement) | Joins a mathematical element with this mathematical block |
+| override [Join](join)(string) | Joins a mathematical text with this mathematical block |
+| [JoinBlock](joinblock)(IMathBlock) | Joins another mathematical block with this one |
+| [Remove](remove)(IMathElement) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
 | override [ToMathArray](tomatharray)() | Puts child elements in a vertical array |
-| [WriteAsMathMl](writeasmathml)(…) | Saves content of this [`MathBlock`](../mathblock) as MathML |
+| [WriteAsMathMl](writeasmathml)(Stream) | Saves content of this [`MathBlock`](../mathblock) as MathML |
 
 ### Examples
 

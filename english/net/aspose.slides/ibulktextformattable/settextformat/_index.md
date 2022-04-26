@@ -8,27 +8,6 @@ url: /net/aspose.slides/ibulktextformattable/settextformat/
 ---
 ## IBulkTextFormattable.SetTextFormat method (1 of 3)
 
-Sets defined paragraph format properties to all element's paragraphs.
-
-```csharp
-public void SetTextFormat(IParagraphFormat source)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| source | IParagraphFormat | IParagraphFormat object with necessary properties set. |
-
-### See Also
-
-* interface [IParagraphFormat](../../iparagraphformat)
-* interface [IBulkTextFormattable](../../ibulktextformattable)
-* namespace [Aspose.Slides](../../ibulktextformattable)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IBulkTextFormattable.SetTextFormat method (2 of 3)
-
 Sets defined portion format properties to all element's portions.
 
 ```csharp
@@ -42,6 +21,27 @@ public void SetTextFormat(IPortionFormat source)
 ### See Also
 
 * interface [IPortionFormat](../../iportionformat)
+* interface [IBulkTextFormattable](../../ibulktextformattable)
+* namespace [Aspose.Slides](../../ibulktextformattable)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IBulkTextFormattable.SetTextFormat method (2 of 3)
+
+Sets defined paragraph format properties to all element's paragraphs.
+
+```csharp
+public void SetTextFormat(IParagraphFormat source)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | IParagraphFormat | IParagraphFormat object with necessary properties set. |
+
+### See Also
+
+* interface [IParagraphFormat](../../iparagraphformat)
 * interface [IBulkTextFormattable](../../ibulktextformattable)
 * namespace [Aspose.Slides](../../ibulktextformattable)
 * assembly [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: NotesSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8660
+weight: 8410
 url: /net/aspose.slides/notesslideheaderfootermanager/
 ---
 ## NotesSlideHeaderFooterManager class

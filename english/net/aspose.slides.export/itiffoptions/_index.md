@@ -3,7 +3,7 @@ title: ITiffOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4080
+weight: 3830
 url: /net/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions interface
@@ -14,7 +14,7 @@ Provides options that control how a presentation is saved in TIFF format.
 public interface ITiffOptions : ISaveOptions
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

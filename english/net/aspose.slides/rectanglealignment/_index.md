@@ -3,7 +3,7 @@ title: RectangleAlignment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9200
+weight: 8950
 url: /net/aspose.slides/rectanglealignment/
 ---
 ## RectangleAlignment enumeration

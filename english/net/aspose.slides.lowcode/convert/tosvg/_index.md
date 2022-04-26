@@ -37,6 +37,34 @@ Convert.ToSvg("pres.pptx");
 Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 
 ```csharp
+public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| getOutPath | GetOutPathCallback | Callback that returns the SVG output path for each slide in the presentation |
+
+### Examples
+
+```csharp
+Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
+```
+
+### See Also
+
+* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
+* class [Convert](../../convert)
+* namespace [Aspose.Slides.LowCode](../../convert)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Convert.ToSvg method (3 of 5)
+
+Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
+
+```csharp
 public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
 ```
 
@@ -64,7 +92,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ---
 
-## Convert.ToSvg method (3 of 5)
+## Convert.ToSvg method (4 of 5)
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 
@@ -90,34 +118,6 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 * class [Presentation](../../../aspose.slides/presentation)
 * interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
-* class [Convert](../../convert)
-* namespace [Aspose.Slides.LowCode](../../convert)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Convert.ToSvg method (4 of 5)
-
-Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
-
-```csharp
-public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presPath | String | Path of the input presentation |
-| getOutPath | GetOutPathCallback | Callback that returns the SVG output path for each slide in the presentation |
-
-### Examples
-
-```csharp
-Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
-```
-
-### See Also
-
-* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
 * class [Convert](../../convert)
 * namespace [Aspose.Slides.LowCode](../../convert)
 * assembly [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: CommentsPositions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3720
+weight: 3470
 url: /net/aspose.slides.export/commentspositions/
 ---
 ## CommentsPositions enumeration

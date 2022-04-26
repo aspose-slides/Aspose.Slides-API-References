@@ -3,7 +3,7 @@ title: PlotOnSecondAxis
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 330
 url: /net/aspose.slides.charts/ichartseries/plotonsecondaxis/
 ---
 ## IChartSeries.PlotOnSecondAxis property

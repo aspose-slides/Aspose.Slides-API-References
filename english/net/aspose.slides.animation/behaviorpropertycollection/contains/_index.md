@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 60
 url: /net/aspose.slides.animation/behaviorpropertycollection/contains/
 ---
 ## BehaviorPropertyCollection.Contains method (1 of 2)

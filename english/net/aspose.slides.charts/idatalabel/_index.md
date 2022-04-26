@@ -3,7 +3,7 @@ title: IDataLabel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1900
+weight: 1880
 url: /net/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel interface
@@ -14,7 +14,7 @@ Represents a series labels.
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,11 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [DataLabelFormat](datalabelformat) { get; } | Returns format of the data label. Read-only [`IDataLabelFormat`](../idatalabelformat). |
 | [IsVisible](isvisible) { get; } | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only Boolean. |
 | [ValueFromCell](valuefromcell) { get; set; } | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetActualLabelText](getactuallabeltext)() | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
 | [Hide](hide)() | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this. |
 

@@ -3,7 +3,7 @@ title: ColorOperation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2400
+weight: 2380
 url: /net/aspose.slides/coloroperation/
 ---
 ## ColorOperation class
@@ -14,14 +14,25 @@ Represents different color operations used for color transformations. Immutable 
 public class ColorOperation : IColorOperation
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [ColorOperation](coloroperation)(…) | Creates new color transform operation. (2 constructors) |
+| [ColorOperation](coloroperation)(ColorTransformOperation) | Creates new color transform operation. |
+| [ColorOperation](coloroperation)(ColorTransformOperation, float) | Creates new color transform operation. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [OperationType](operationtype) { get; } | Returns or sets the type of an operation. Read-only [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](parameter) { get; } | Returns a parameter of an operation. Read-only Single. |
-| override [Equals](equals)(…) | Determines whether the two ColorOperation instances are equal. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the two ColorOperation instances are equal. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also

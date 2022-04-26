@@ -3,7 +3,7 @@ title: IImageWrapperFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5880
+weight: 5630
 url: /net/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory interface
@@ -14,11 +14,13 @@ This interface allows to initialize IBitmapWrapper.
 public interface IImageWrapperFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateImageWrapper](createimagewrapper)(…) | Initializes a new instance of the BitmapWrapper class from the specified existing image. (3 methods) |
+| [CreateImageWrapper](createimagewrapper)(Image) | Initializes a new instance of the BitmapWrapper class from the specified existing image. |
+| [CreateImageWrapper](createimagewrapper)(Stream) | Initializes a new instance of the BitmapWrapper class from the specified data stream. |
+| [CreateImageWrapper](createimagewrapper)(string) | Initializes a new instance of the BitmapWrapper class from the specified file. |
 
 ### See Also
 

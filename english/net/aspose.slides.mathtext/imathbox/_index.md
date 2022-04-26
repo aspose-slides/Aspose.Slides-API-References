@@ -3,7 +3,7 @@ title: IMathBox
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7720
+weight: 7470
 url: /net/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox interface
@@ -14,7 +14,7 @@ Specifies the logical boxing (packaging) of mathematical element. For example, a
 public interface IMathBox : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

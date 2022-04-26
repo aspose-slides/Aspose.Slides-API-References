@@ -3,7 +3,7 @@ title: NameOfApplication
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 190
 url: /net/aspose.slides/documentproperties/nameofapplication/
 ---
 ## DocumentProperties.NameOfApplication property

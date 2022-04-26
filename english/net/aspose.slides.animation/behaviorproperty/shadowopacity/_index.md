@@ -3,7 +3,7 @@ title: ShadowOpacity
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 770
+weight: 730
 url: /net/aspose.slides.animation/behaviorproperty/shadowopacity/
 ---
 ## BehaviorProperty.ShadowOpacity property

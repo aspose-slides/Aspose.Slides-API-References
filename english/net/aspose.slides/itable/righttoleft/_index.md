@@ -3,7 +3,7 @@ title: RightToLeft
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 100
 url: /net/aspose.slides/itable/righttoleft/
 ---
 ## ITable.RightToLeft property

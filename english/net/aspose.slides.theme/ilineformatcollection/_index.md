@@ -3,7 +3,7 @@ title: ILineFormatCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10720
+weight: 10470
 url: /net/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection interface
@@ -14,7 +14,7 @@ Represents the collection of line styles.
 public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

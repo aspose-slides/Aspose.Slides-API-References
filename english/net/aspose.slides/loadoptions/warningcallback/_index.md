@@ -3,7 +3,7 @@ title: WarningCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 130
 url: /net/aspose.slides/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property

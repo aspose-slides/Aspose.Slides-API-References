@@ -3,7 +3,7 @@ title: BackgroundType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 850
+weight: 840
 url: /net/aspose.slides/backgroundtype/
 ---
 ## BackgroundType enumeration

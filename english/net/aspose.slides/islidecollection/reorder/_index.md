@@ -3,7 +3,7 @@ title: Reorder
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 120
 url: /net/aspose.slides/islidecollection/reorder/
 ---
 ## ISlideCollection.Reorder method (1 of 2)

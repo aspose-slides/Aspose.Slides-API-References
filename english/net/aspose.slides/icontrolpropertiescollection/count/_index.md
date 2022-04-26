@@ -3,7 +3,7 @@ title: Count
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.slides/icontrolpropertiescollection/count/
 ---
 ## IControlPropertiesCollection.Count property

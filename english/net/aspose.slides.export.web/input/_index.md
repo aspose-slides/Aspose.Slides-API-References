@@ -3,7 +3,7 @@ title: Input
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4450
+weight: 4200
 url: /net/aspose.slides.export.web/input/
 ---
 ## Input class
@@ -14,11 +14,11 @@ Represents a collection of input elements (templates) for !:IWebDocument.
 public sealed class Input
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddTemplate&lt;TContextObject&gt;](addtemplate)(…) |  |
+| [AddTemplate&lt;TContextObject&gt;](addtemplate)(string, string) |  |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: IsReadOnly
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 20
 url: /net/aspose.slides.effects/imagetransformoperationcollection/isreadonly/
 ---
 ## ImageTransformOperationCollection.IsReadOnly property

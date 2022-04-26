@@ -16,7 +16,7 @@ public bool SaveMetafilesAsPng { get; set; }
 
 ### Remarks
 
-Default is true.
+Default is **true**.
 
 ### See Also
 

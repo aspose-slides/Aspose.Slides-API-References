@@ -3,7 +3,7 @@ title: MathBarFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8100
+weight: 7850
 url: /net/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory class
@@ -14,12 +14,18 @@ Allows to create a math bar
 public class MathBarFactory : IMathBarFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathBarFactory](mathbarfactory)() | The default constructor. |
-| [CreateMathBar](createmathbar)(…) | Create a math bar by applying to the element (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateMathBar](createmathbar)(IMathElement) | Create a math bar by applying to the element |
+| [CreateMathBar](createmathbar)(IMathElement, MathTopBotPositions) | Create a math bar by applying to the element |
 
 ### Remarks
 

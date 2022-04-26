@@ -3,7 +3,7 @@ title: ICommandEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 380
 url: /net/aspose.slides.animation/icommandeffect/
 ---
 ## ICommandEffect interface
@@ -14,7 +14,7 @@ Represents a command effect for an animation behavior.
 public interface ICommandEffect : IBehavior
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

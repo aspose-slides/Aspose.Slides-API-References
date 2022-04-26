@@ -3,7 +3,7 @@ title: BackWall
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 40
 url: /net/aspose.slides.charts/chart/backwall/
 ---
 ## Chart.BackWall property

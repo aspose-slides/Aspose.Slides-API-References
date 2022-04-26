@@ -3,7 +3,7 @@ title: MathMatrix
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8370
+weight: 8120
 url: /net/aspose.slides.mathtext/mathmatrix/
 ---
 ## MathMatrix class
@@ -14,11 +14,16 @@ Specifies the Matrix object, consisting of child elements laid out in one or mor
 public sealed class MathMatrix : MathElementBase, IMathMatrix
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathMatrix](mathmatrix)(…) | Initializes a new instance of the MathMatrix class. |
+| [MathMatrix](mathmatrix)(int, int) | Initializes a new instance of the MathMatrix class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BaseJustification](basejustification) { get; set; } | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
 | [ColumnCount](columncount) { get; } | Number of columns in the matrix |
 | [ColumnGap](columngap) { get; set; } | The value of horizontal spacing between columns of a matrix; If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments. In other cases ignored. Default: 0 |
@@ -29,16 +34,21 @@ public sealed class MathMatrix : MathElementBase, IMathMatrix
 | [RowCount](rowcount) { get; } | Number of rows in the matrix |
 | [RowGap](rowgap) { get; set; } | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
 | [RowGapRule](rowgaprule) { get; set; } | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
-| [DeleteColumn](deletecolumn)(…) | Deletes the specified column |
-| [DeleteRow](deleterow)(…) | Deletes the specified row |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [DeleteColumn](deletecolumn)(int) | Deletes the specified column |
+| [DeleteRow](deleterow)(int) | Deletes the specified row |
 | [GetChildren](getchildren)() | Get children elements |
-| [GetColumnAlignment](getcolumnalignment)(…) | Get the horizontal alignment of the specified column |
-| [InsertColumnAfter](insertcolumnafter)(…) | Insert a new column after the specified one Initially all elements in the new column are null. |
-| [InsertColumnBefore](insertcolumnbefore)(…) | Insert a new column before the specified one Initially all elements in the new column are null. |
-| [InsertRowAfter](insertrowafter)(…) | Insert a new row after the specified one Initially all elements in the new row are null. |
-| [InsertRowBefore](insertrowbefore)(…) | Insert a new row before the specified one Initially all elements in the new row are null. |
-| [SetColumnAlignment](setcolumnalignment)(…) | Set the horizontal alignment of the specified column |
-| [SetColumnsAlignment](setcolumnsalignment)(…) | Set the horizontal alignment of the specified columns |
+| [GetColumnAlignment](getcolumnalignment)(int) | Get the horizontal alignment of the specified column |
+| [InsertColumnAfter](insertcolumnafter)(int) | Insert a new column after the specified one Initially all elements in the new column are null. |
+| [InsertColumnBefore](insertcolumnbefore)(int) | Insert a new column before the specified one Initially all elements in the new column are null. |
+| [InsertRowAfter](insertrowafter)(int) | Insert a new row after the specified one Initially all elements in the new row are null. |
+| [InsertRowBefore](insertrowbefore)(int) | Insert a new row before the specified one Initially all elements in the new row are null. |
+| [SetColumnAlignment](setcolumnalignment)(int, MathHorizontalAlignment) | Set the horizontal alignment of the specified column |
+| [SetColumnsAlignment](setcolumnsalignment)(int, uint, MathHorizontalAlignment) | Set the horizontal alignment of the specified columns |
 
 ### Examples
 

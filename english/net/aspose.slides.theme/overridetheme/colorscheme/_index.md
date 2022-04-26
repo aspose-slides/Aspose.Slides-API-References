@@ -3,7 +3,7 @@ title: ColorScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 10
 url: /net/aspose.slides.theme/overridetheme/colorscheme/
 ---
 ## OverrideTheme.ColorScheme property

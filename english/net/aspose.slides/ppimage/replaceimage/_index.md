@@ -3,7 +3,7 @@ title: ReplaceImage
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 110
 url: /net/aspose.slides/ppimage/replaceimage/
 ---
 ## PPImage.ReplaceImage method (1 of 3)

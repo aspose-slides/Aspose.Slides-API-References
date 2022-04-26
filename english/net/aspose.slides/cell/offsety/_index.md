@@ -3,7 +3,7 @@ title: OffsetY
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 160
 url: /net/aspose.slides/cell/offsety/
 ---
 ## Cell.OffsetY property

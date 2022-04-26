@@ -3,7 +3,7 @@ title: Light1
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 130
 url: /net/aspose.slides.theme/icolorscheme/light1/
 ---
 ## IColorScheme.Light1 property

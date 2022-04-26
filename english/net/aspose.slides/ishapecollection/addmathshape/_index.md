@@ -3,7 +3,7 @@ title: AddMathShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 110
 url: /net/aspose.slides/ishapecollection/addmathshape/
 ---
 ## IShapeCollection.AddMathShape method

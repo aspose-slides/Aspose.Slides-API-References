@@ -3,7 +3,7 @@ title: ZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11270
+weight: 11020
 url: /net/aspose.slides/zoomframe/
 ---
 ## ZoomFrame class
@@ -14,7 +14,7 @@ Represents a Slide Zoom object in a slide.
 public class ZoomFrame : ZoomObject, IZoomFrame
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

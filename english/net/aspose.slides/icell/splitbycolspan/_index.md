@@ -3,7 +3,7 @@ title: SplitByColSpan
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 240
 url: /net/aspose.slides/icell/splitbycolspan/
 ---
 ## ICell.SplitByColSpan method

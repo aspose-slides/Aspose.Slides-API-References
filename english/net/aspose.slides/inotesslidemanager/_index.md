@@ -3,7 +3,7 @@ title: INotesSlideManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6210
+weight: 5960
 url: /net/aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager interface
@@ -14,11 +14,16 @@ Notes slide manager.
 public interface INotesSlideManager
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [NotesSlide](notesslide) { get; } | Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide. Read-only [`INotesSlide`](../inotesslide). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [AddNotesSlide](addnotesslide)() | Returns the notes slide for the current slide, creating one if there isn't. |
 | [RemoveNotesSlide](removenotesslide)() | Removes notes slide of the current slide. |
 

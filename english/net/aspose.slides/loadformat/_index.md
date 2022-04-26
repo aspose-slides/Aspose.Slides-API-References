@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7380
+weight: 7130
 url: /net/aspose.slides/loadformat/
 ---
 ## LoadFormat enumeration

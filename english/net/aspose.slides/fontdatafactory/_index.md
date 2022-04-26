@@ -3,7 +3,7 @@ title: FontDataFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4640
+weight: 4390
 url: /net/aspose.slides/fontdatafactory/
 ---
 ## FontDataFactory class
@@ -14,12 +14,17 @@ FontData factory
 public class FontDataFactory : IFontDataFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FontDataFactory](fontdatafactory)() | The default constructor. |
-| [CreateFontData](createfontdata)(…) | Creates FontData with specified font name. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateFontData](createfontdata)(string) | Creates FontData with specified font name. |
 
 ### See Also
 

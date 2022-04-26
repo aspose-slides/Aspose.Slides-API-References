@@ -3,7 +3,7 @@ title: LanguageId
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 160
 url: /net/aspose.slides/baseportionformat/languageid/
 ---
 ## BasePortionFormat.LanguageId property

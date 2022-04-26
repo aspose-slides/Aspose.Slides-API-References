@@ -3,7 +3,7 @@ title: UnderflowBin
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 560
 url: /net/aspose.slides.charts/axis/underflowbin/
 ---
 ## Axis.UnderflowBin property

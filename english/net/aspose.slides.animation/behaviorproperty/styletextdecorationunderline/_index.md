@@ -3,7 +3,7 @@ title: StyleTextDecorationUnderline
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 1140
 url: /net/aspose.slides.animation/behaviorproperty/styletextdecorationunderline/
 ---
 ## BehaviorProperty.StyleTextDecorationUnderline property

@@ -3,7 +3,7 @@ title: AnchorCenter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 10
 url: /net/aspose.slides/cell/anchorcenter/
 ---
 ## Cell.AnchorCenter property

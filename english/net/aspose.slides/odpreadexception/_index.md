@@ -3,7 +3,7 @@ title: OdpReadException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8730
+weight: 8480
 url: /net/aspose.slides/odpreadexception/
 ---
 ## OdpReadException class
@@ -14,12 +14,13 @@ Represents an exception which thrown on presentation reading errors.
 public class OdpReadException : OdpException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [OdpReadException](odpreadexception)() | Default constructor |
-| [OdpReadException](odpreadexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |
+| [OdpReadException](odpreadexception)(string) | Constructor allowing a message to be added to this exception. |
+| [OdpReadException](odpreadexception)(string, Exception) | Constructor for an exception containing a message and an embedded exception. |
 
 ### See Also
 

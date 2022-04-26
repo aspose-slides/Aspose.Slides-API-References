@@ -3,7 +3,7 @@ title: SchemeColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 140
 url: /net/aspose.slides/colorformat/schemecolor/
 ---
 ## ColorFormat.SchemeColor property

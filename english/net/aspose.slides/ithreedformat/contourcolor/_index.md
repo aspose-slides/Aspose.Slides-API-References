@@ -3,7 +3,7 @@ title: ContourColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.slides/ithreedformat/contourcolor/
 ---
 ## IThreeDFormat.ContourColor property

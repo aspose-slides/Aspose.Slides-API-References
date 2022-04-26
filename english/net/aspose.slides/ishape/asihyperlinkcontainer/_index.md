@@ -3,7 +3,7 @@ title: AsIHyperlinkContainer
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 30
 url: /net/aspose.slides/ishape/asihyperlinkcontainer/
 ---
 ## IShape.AsIHyperlinkContainer property

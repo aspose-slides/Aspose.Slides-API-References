@@ -3,7 +3,7 @@ title: TextCapType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10360
+weight: 10110
 url: /net/aspose.slides/textcaptype/
 ---
 ## TextCapType enumeration

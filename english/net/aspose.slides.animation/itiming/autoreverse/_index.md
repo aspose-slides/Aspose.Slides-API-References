@@ -3,7 +3,7 @@ title: AutoReverse
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.slides.animation/itiming/autoreverse/
 ---
 ## ITiming.AutoReverse property

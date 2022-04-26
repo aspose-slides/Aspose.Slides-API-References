@@ -3,7 +3,7 @@ title: SideWall
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 200
 url: /net/aspose.slides.charts/ichart/sidewall/
 ---
 ## IChart.SideWall property

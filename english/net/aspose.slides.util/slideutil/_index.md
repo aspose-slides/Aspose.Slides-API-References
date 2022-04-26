@@ -3,7 +3,7 @@ title: SlideUtil
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10950
+weight: 10700
 url: /net/aspose.slides.util/slideutil/
 ---
 ## SlideUtil class
@@ -14,14 +14,18 @@ Offer methods which help to search shapes and text in a presentation.
 public static class SlideUtil
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| static [AlignShapes](alignshapes)(…) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. (4 methods) |
-| static [FindShape](findshape)(…) | Find shape by alternative text in a PPTX presentation. (2 methods) |
-| static [GetAllTextBoxes](getalltextboxes)(…) | Returns all text frames on a slide in a PPTX presentation. |
-| static [GetAllTextFrames](getalltextframes)(…) | Returns all text frames in a PPTX presentation. |
+| static [AlignShapes](alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| static [AlignShapes](alignshapes)(ShapesAlignmentType, bool, IGroupShape) | Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| static [AlignShapes](alignshapes)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| static [AlignShapes](alignshapes)(ShapesAlignmentType, bool, IGroupShape, int[]) | Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| static [FindShape](findshape)(IBaseSlide, string) | Find shape by alternative text on a slide in a PPTX presentation. |
+| static [FindShape](findshape)(IPresentation, string) | Find shape by alternative text in a PPTX presentation. |
+| static [GetAllTextBoxes](getalltextboxes)(IBaseSlide) | Returns all text frames on a slide in a PPTX presentation. |
+| static [GetAllTextFrames](getalltextframes)(IPresentation, bool) | Returns all text frames in a PPTX presentation. |
 
 ### See Also
 

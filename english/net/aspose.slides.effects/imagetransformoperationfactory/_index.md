@@ -3,7 +3,7 @@ title: ImageTransformOperationFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3570
+weight: 3390
 url: /net/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory class
@@ -14,28 +14,33 @@ Allows to create image transform operations
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ImageTransformOperationFactory](imagetransformoperationfactory)() | The default constructor. |
-| [CreateAlphaBiLevel](createalphabilevel)(…) | Creates Alpha BiLevel effect. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateAlphaBiLevel](createalphabilevel)(float) | Creates Alpha BiLevel effect. |
 | [CreateAlphaFloor](createalphafloor)() | Creates Alpha floor effect. |
 | [CreateAlphaInverse](createalphainverse)() | Creates Alpha inverse effect. |
 | [CreateAlphaModulate](createalphamodulate)() | Creates Alpha modulate effect. |
-| [CreateAlphaModulateFixed](createalphamodulatefixed)(…) | Creates Alpha modulate fixed effect. |
-| [CreateAlphaReplace](createalphareplace)(…) | Creates Alpha replace effect. |
+| [CreateAlphaModulateFixed](createalphamodulatefixed)(float) | Creates Alpha modulate fixed effect. |
+| [CreateAlphaReplace](createalphareplace)(float) | Creates Alpha replace effect. |
 | [CreateAlphCeiling](createalphceiling)() | Creates Alpha Ceiling effect. |
-| [CreateBiLevel](createbilevel)(…) | Creates BiLevel effect. |
-| [CreateBlur](createblur)(…) | Creates Blur effect. |
+| [CreateBiLevel](createbilevel)(float) | Creates BiLevel effect. |
+| [CreateBlur](createblur)(double, bool) | Creates Blur effect. |
 | [CreateColorChange](createcolorchange)() | Creates Color change effect. |
 | [CreateColorReplace](createcolorreplace)() | Creates Color replace effect. |
 | [CreateDuotone](createduotone)() | Creates Duotone effect. |
 | [CreateFillOverlay](createfilloverlay)() | Creates Fill overlay effect. |
 | [CreateGrayScale](creategrayscale)() | Creates Gray scale effect. |
-| [CreateHSL](createhsl)(…) | Creates Hue Saturation Luminance effect. |
-| [CreateLuminance](createluminance)(…) | Createtes Luminance effect. |
-| [CreateTint](createtint)(…) | Creates Tint effect. |
+| [CreateHSL](createhsl)(float, float, float) | Creates Hue Saturation Luminance effect. |
+| [CreateLuminance](createluminance)(float, float) | Createtes Luminance effect. |
+| [CreateTint](createtint)(float, float) | Creates Tint effect. |
 
 ### Remarks
 

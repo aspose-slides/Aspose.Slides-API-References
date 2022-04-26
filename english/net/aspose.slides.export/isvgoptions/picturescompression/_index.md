@@ -3,7 +3,7 @@ title: PicturesCompression
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.slides.export/isvgoptions/picturescompression/
 ---
 ## ISVGOptions.PicturesCompression property

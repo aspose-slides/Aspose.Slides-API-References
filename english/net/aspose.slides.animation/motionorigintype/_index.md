@@ -3,7 +3,7 @@ title: MotionOriginType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 580
 url: /net/aspose.slides.animation/motionorigintype/
 ---
 ## MotionOriginType enumeration

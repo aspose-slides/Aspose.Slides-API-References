@@ -3,7 +3,7 @@ title: ITrendline
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2120
+weight: 2100
 url: /net/aspose.slides.charts/itrendline/
 ---
 ## ITrendline interface
@@ -14,7 +14,7 @@ Class represents trend line of chart series
 public interface ITrendline : IOverridableText
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

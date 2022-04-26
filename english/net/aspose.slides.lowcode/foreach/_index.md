@@ -3,7 +3,7 @@ title: ForEach
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7440
+weight: 7190
 url: /net/aspose.slides.lowcode/foreach/
 ---
 ## ForEach class
@@ -14,16 +14,22 @@ Represents a group of methods intended to iterate over different [`Presentation`
 public static class ForEach
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| static [LayoutSlide](layoutslide)(…) | Iterate each [`LayoutSlide`](./layoutslide) in the [`Presentation`](../../aspose.slides/presentation). |
-| static [MasterSlide](masterslide)(…) | Iterate each [`MasterSlide`](./masterslide) in the [`Presentation`](../../aspose.slides/presentation). |
-| static [Paragraph](paragraph)(…) | Iterate each [`Paragraph`](./paragraph) in the [`Presentation`](../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
-| static [Portion](portion)(…) | Iterate each [`Portion`](./portion) in the [`Presentation`](../../aspose.slides/presentation). Portions will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
-| static [Shape](shape)(…) | Iterate each [`Shape`](./shape) in the [`Presentation`](../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) (2 methods) |
-| static [Slide](slide)(…) | Iterate each [`Slide`](./slide) in the [`Presentation`](../../aspose.slides/presentation). |
+| static [LayoutSlide](layoutslide)(Presentation, ForEachLayoutSlideCallback) | Iterate each [`LayoutSlide`](./layoutslide) in the [`Presentation`](../../aspose.slides/presentation). |
+| static [MasterSlide](masterslide)(Presentation, ForEachMasterSlideCallback) | Iterate each [`MasterSlide`](./masterslide) in the [`Presentation`](../../aspose.slides/presentation). |
+| static [Paragraph](paragraph)(Presentation, ForEachParagraphCallback) | Iterate each [`Paragraph`](./paragraph) in the [`Presentation`](../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
+| static [Portion](portion)(Presentation, ForEachPortionCallback) | Iterate each [`Portion`](./portion) in the [`Presentation`](../../aspose.slides/presentation). Portions will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
+| static [Shape](shape)(BaseSlide, ForEachShapeCallback) | Iterate each [`Shape`](./shape) in the [`BaseSlide`](../../aspose.slides/baseslide). [`BaseSlide`](../../aspose.slides/baseslide) is the base type for [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
+| static [Shape](shape)(Presentation, ForEachShapeCallback) | Iterate each [`Shape`](./shape) in the [`Presentation`](../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](./slide), [`MasterSlide`](./masterslide) and [`LayoutSlide`](./layoutslide) |
+| static [Slide](slide)(Presentation, ForEachSlideCallback) | Iterate each [`Slide`](./slide) in the [`Presentation`](../../aspose.slides/presentation). |
+
+## Other Members
+
+| Name | Description |
+| --- | --- |
 | delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) |  |
 | delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) |  |
 | delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) |  |

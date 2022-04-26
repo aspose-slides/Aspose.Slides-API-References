@@ -3,7 +3,7 @@ title: LineSketchType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7360
+weight: 7110
 url: /net/aspose.slides/linesketchtype/
 ---
 ## LineSketchType enumeration

@@ -3,7 +3,7 @@ title: IAlphaReplace
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3140
+weight: 2960
 url: /net/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace interface
@@ -15,7 +15,7 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

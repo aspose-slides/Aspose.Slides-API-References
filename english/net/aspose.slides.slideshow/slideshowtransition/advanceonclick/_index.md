@@ -3,7 +3,7 @@ title: AdvanceOnClick
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.slides.slideshow/slideshowtransition/advanceonclick/
 ---
 ## SlideShowTransition.AdvanceOnClick property

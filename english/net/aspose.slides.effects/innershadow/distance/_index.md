@@ -3,7 +3,7 @@ title: Distance
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 30
 url: /net/aspose.slides.effects/innershadow/distance/
 ---
 ## InnerShadow.Distance property

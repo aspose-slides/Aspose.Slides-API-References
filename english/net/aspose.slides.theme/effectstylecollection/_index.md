@@ -3,7 +3,7 @@ title: EffectStyleCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10520
+weight: 10270
 url: /net/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.theme/effectstylecollection/
 Represents a collection of effect styles.
 
 ```csharp
-public sealed class EffectStyleCollection : IEffectStyleCollection
+public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,11 +22,18 @@ public sealed class EffectStyleCollection : IEffectStyleCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns an element at specified position. Read-only [`EffectStyle`](../effectstyle). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [FormatScheme](../formatscheme)
 * interface [IEffectStyleCollection](../ieffectstylecollection)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

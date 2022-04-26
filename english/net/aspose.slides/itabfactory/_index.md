@@ -3,7 +3,7 @@ title: ITabFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6890
+weight: 6640
 url: /net/aspose.slides/itabfactory/
 ---
 ## ITabFactory interface
@@ -14,11 +14,11 @@ Allow to create ITab instances
 public interface ITabFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateTab](createtab)(…) | Creates a new ITab instance. |
+| [CreateTab](createtab)(double, TabAlignment) | Creates a new ITab instance. |
 
 ### Remarks
 

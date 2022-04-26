@@ -3,7 +3,7 @@ title: RevisionNumber
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 200
 url: /net/aspose.slides/idocumentproperties/revisionnumber/
 ---
 ## IDocumentProperties.RevisionNumber property

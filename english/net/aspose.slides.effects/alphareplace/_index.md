@@ -3,7 +3,7 @@ title: AlphaReplace
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2800
+weight: 2730
 url: /net/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace class
@@ -14,11 +14,11 @@ Represents and Alpha Replace effect. Effect alpha (opacity) values are replaced 
 public class AlphaReplace : ImageTransformOperation, IAlphaReplace
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the specified [`AlphaReplace`](../alphareplace) is equal to the current [`AlphaReplace`](../alphareplace). |
+| override [Equals](equals)(object) | Determines whether the specified [`AlphaReplace`](../alphareplace) is equal to the current [`AlphaReplace`](../alphareplace). |
 | [GetEffective](geteffective)() | Gets effective Alpha Replace effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

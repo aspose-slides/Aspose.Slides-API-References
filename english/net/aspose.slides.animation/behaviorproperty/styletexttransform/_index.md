@@ -3,7 +3,7 @@ title: StyleTextTransform
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 1180
 url: /net/aspose.slides.animation/behaviorproperty/styletexttransform/
 ---
 ## BehaviorProperty.StyleTextTransform property

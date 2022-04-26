@@ -3,7 +3,7 @@ title: MotionPathPointsType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 610
 url: /net/aspose.slides.animation/motionpathpointstype/
 ---
 ## MotionPathPointsType enumeration

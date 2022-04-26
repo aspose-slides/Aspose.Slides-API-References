@@ -3,7 +3,7 @@ title: DoughnutHoleSize
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 60
 url: /net/aspose.slides.charts/chartseries/doughnutholesize/
 ---
 ## ChartSeries.DoughnutHoleSize property

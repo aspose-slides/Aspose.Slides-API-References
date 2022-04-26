@@ -3,104 +3,10 @@ title: GetThumbnail
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 90
 url: /net/aspose.slides/islide/getthumbnail/
 ---
 ## ISlide.GetThumbnail method (1 of 7)
-
-Returns a Thumbnail Image object (20% of real size).
-
-```csharp
-public Bitmap GetThumbnail()
-```
-
-## Return Value
-
-Bitmap object Bitmap
-
-### See Also
-
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ISlide.GetThumbnail method (2 of 7)
-
-Returns a Thumbnail Bitmap object.
-
-```csharp
-public Bitmap GetThumbnail(IRenderingOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | IRenderingOptions | Rendering options. |
-
-## Return Value
-
-Bitmap objects.
-
-### See Also
-
-* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ISlide.GetThumbnail method (3 of 7)
-
-Returns a Thumbnail tiff bitmap object with specified parameters.
-
-```csharp
-public Bitmap GetThumbnail(ITiffOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | ITiffOptions | Tiff options. |
-
-## Return Value
-
-Bitmap object.
-
-### See Also
-
-* interface [ITiffOptions](../../../aspose.slides.export/itiffoptions)
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ISlide.GetThumbnail method (4 of 7)
-
-Returns a Thumbnail Bitmap object with specified size.
-
-```csharp
-public Bitmap GetThumbnail(Size imageSize)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| imageSize | Size | Size of the image to create. |
-
-## Return Value
-
-Bitmap object.
-
-### See Also
-
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ISlide.GetThumbnail method (5 of 7)
 
 Returns a Thumbnail Bitmap object with custom scaling.
 
@@ -125,18 +31,113 @@ Bitmap object Bitmap
 
 ---
 
-## ISlide.GetThumbnail method (6 of 7)
+## ISlide.GetThumbnail method (2 of 7)
+
+Returns a Thumbnail Image object (20% of real size).
+
+```csharp
+public Bitmap GetThumbnail()
+```
+
+## Return Value
+
+Bitmap object Bitmap
+
+### See Also
+
+* interface [ISlide](../../islide)
+* namespace [Aspose.Slides](../../islide)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ISlide.GetThumbnail method (3 of 7)
 
 Returns a Thumbnail Bitmap object with specified size.
 
 ```csharp
-public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
+public Bitmap GetThumbnail(Size imageSize)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageSize | Size | Size of the image to create. |
+
+## Return Value
+
+Bitmap object.
+
+### See Also
+
+* interface [ISlide](../../islide)
+* namespace [Aspose.Slides](../../islide)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ISlide.GetThumbnail method (4 of 7)
+
+Returns a Thumbnail tiff bitmap object with specified parameters.
+
+```csharp
+public Bitmap GetThumbnail(ITiffOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | ITiffOptions | Tiff options. |
+
+## Return Value
+
+Bitmap object.
+
+### See Also
+
+* interface [ITiffOptions](../../../aspose.slides.export/itiffoptions)
+* interface [ISlide](../../islide)
+* namespace [Aspose.Slides](../../islide)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ISlide.GetThumbnail method (5 of 7)
+
+Returns a Thumbnail Bitmap object.
+
+```csharp
+public Bitmap GetThumbnail(IRenderingOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | IRenderingOptions | Rendering options. |
-| imageSize | Size | Size of the image to create. |
+
+## Return Value
+
+Bitmap objects.
+
+### See Also
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interface [ISlide](../../islide)
+* namespace [Aspose.Slides](../../islide)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ISlide.GetThumbnail method (6 of 7)
+
+Returns a Thumbnail Bitmap object with custom scaling.
+
+```csharp
+public Bitmap GetThumbnail(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ## Return Value
 
@@ -153,17 +154,16 @@ Bitmap objects.
 
 ## ISlide.GetThumbnail method (7 of 7)
 
-Returns a Thumbnail Bitmap object with custom scaling.
+Returns a Thumbnail Bitmap object with specified size.
 
 ```csharp
-public Bitmap GetThumbnail(IRenderingOptions options, float scaleX, float scaleY)
+public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | IRenderingOptions | Rendering options. |
-| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
+| imageSize | Size | Size of the image to create. |
 
 ## Return Value
 

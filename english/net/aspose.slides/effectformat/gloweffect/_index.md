@@ -3,7 +3,7 @@ title: GlowEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 30
 url: /net/aspose.slides/effectformat/gloweffect/
 ---
 ## EffectFormat.GlowEffect property

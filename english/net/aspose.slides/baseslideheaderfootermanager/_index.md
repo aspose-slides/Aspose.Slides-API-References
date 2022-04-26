@@ -3,7 +3,7 @@ title: BaseSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 920
+weight: 900
 url: /net/aspose.slides/baseslideheaderfootermanager/
 ---
 ## BaseSlideHeaderFooterManager class
@@ -14,18 +14,23 @@ Represents manager which holds behavior of the footer, date-time, page number pl
 public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [IsDateTimeVisible](isdatetimevisible) { get; } | Gets value indicating that a date-time placeholder is present. ReadBoolean. |
 | [IsFooterVisible](isfootervisible) { get; } | Gets value indicating that a footer placeholder is present. Read Boolean. |
 | [IsSlideNumberVisible](isslidenumbervisible) { get; } | Gets value indicating that a page number placeholder is present. ReadBoolean. |
-| [SetDateTimeText](setdatetimetext)(…) | Sets text to slide date-time placeholder. |
-| [SetDateTimeVisibility](setdatetimevisibility)(…) | Changes slide date-time placeholder visibility. |
-| [SetFooterText](setfootertext)(…) | Sets text to slide footer placeholder. |
-| [SetFooterVisibility](setfootervisibility)(…) | Changes slide footer placeholder visibility. |
-| [SetSlideNumberVisibility](setslidenumbervisibility)(…) | Changes slide page number placeholder visibility. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetDateTimeText](setdatetimetext)(string) | Sets text to slide date-time placeholder. |
+| [SetDateTimeVisibility](setdatetimevisibility)(bool) | Changes slide date-time placeholder visibility. |
+| [SetFooterText](setfootertext)(string) | Sets text to slide footer placeholder. |
+| [SetFooterVisibility](setfootervisibility)(bool) | Changes slide footer placeholder visibility. |
+| [SetSlideNumberVisibility](setslidenumbervisibility)(bool) | Changes slide page number placeholder visibility. |
 
 ### See Also
 

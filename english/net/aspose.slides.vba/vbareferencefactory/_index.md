@@ -3,7 +3,7 @@ title: VbaReferenceFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11110
+weight: 10860
 url: /net/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory class
@@ -14,13 +14,23 @@ Allows to create VBA project references via COM interface
 public class VbaReferenceFactory : IVbaReferenceFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [VbaReferenceFactory](vbareferencefactory)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | static [Instance](instance) { get; } | VBA project references factory static instance. Read-only [`VbaReferenceFactory`](../vbareferencefactory). |
-| [CreateOleTypeLibReference](createoletypelibreference)(…) | Creates new OLE Automation type library reference. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateOleTypeLibReference](createoletypelibreference)(string, string) | Creates new OLE Automation type library reference. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Contains
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.slides/paragraphcollection/contains/
 ---
 ## ParagraphCollection.Contains method

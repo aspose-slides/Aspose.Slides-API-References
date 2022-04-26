@@ -3,7 +3,7 @@ title: Right
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 80
 url: /net/aspose.slides.charts/legend/right/
 ---
 ## Legend.Right property

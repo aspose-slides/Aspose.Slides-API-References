@@ -3,7 +3,7 @@ title: IModernComment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6150
+weight: 5900
 url: /net/aspose.slides/imoderncomment/
 ---
 ## IModernComment interface
@@ -14,7 +14,7 @@ Represents a comment on a slide.
 public interface IModernComment : IComment
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: StyleSRotation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 1120
 url: /net/aspose.slides.animation/behaviorproperty/stylesrotation/
 ---
 ## BehaviorProperty.StyleSRotation property

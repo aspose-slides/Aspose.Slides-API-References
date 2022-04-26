@@ -3,7 +3,7 @@ title: Legend
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.slides.charts/chart/legend/
 ---
 ## Chart.Legend property

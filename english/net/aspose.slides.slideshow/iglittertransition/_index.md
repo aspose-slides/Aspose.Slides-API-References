@@ -3,7 +3,7 @@ title: IGlitterTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9560
+weight: 9310
 url: /net/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition interface
@@ -14,7 +14,7 @@ Glitter slide transition effect.
 public interface IGlitterTransition : ITransitionValueBase
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

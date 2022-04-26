@@ -3,7 +3,7 @@ title: IMathFraction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7780
+weight: 7530
 url: /net/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction interface
@@ -14,7 +14,7 @@ Specifies the fraction object, consisting of a numerator and denominator separat
 public interface IMathFraction : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

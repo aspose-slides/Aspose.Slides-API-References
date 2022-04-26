@@ -3,7 +3,7 @@ title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7530
+weight: 7280
 url: /net/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection class
@@ -15,16 +15,16 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
     IMasterLayoutSlideCollection
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(…) | Adds a new layout slide to the end of the collection. |
-| [AddClone](addclone)(…) | Adds a copy of a specified layout slide to the end of the collection. |
-| [Insert](insert)(…) | Inserts a new layout slide to specified position of the collection. |
-| [InsertClone](insertclone)(…) | Inserts a copy of a specified layout slide to specified position of the collection. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index of the collection. |
-| [Reorder](reorder)(…) | Moves layout slide from the collection to the specified position. |
+| [Add](add)(SlideLayoutType, string) | Adds a new layout slide to the end of the collection. |
+| [AddClone](addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the end of the collection. |
+| [Insert](insert)(int, SlideLayoutType, string) | Inserts a new layout slide to specified position of the collection. |
+| [InsertClone](insertclone)(int, ILayoutSlide) | Inserts a copy of a specified layout slide to specified position of the collection. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
+| [Reorder](reorder)(int, ILayoutSlide) | Moves layout slide from the collection to the specified position. |
 
 ### See Also
 

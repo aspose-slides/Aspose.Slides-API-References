@@ -3,7 +3,7 @@ title: GrayScale
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2980
+weight: 2820
 url: /net/aspose.slides.effects/grayscale/
 ---
 ## GrayScale class
@@ -14,11 +14,11 @@ Represents a Gray Scale effect. Converts all effect color values to a shade of g
 public class GrayScale : ImageTransformOperation, IGrayScale
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the specified [`GrayScale`](../grayscale) is equal to the current [`GrayScale`](../grayscale). |
+| override [Equals](equals)(object) | Determines whether the specified [`GrayScale`](../grayscale) is equal to the current [`GrayScale`](../grayscale). |
 | [GetEffective](geteffective)() | Gets effective Gray Scale effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

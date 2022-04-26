@@ -3,7 +3,7 @@ title: TotalEditingTime
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 250
 url: /net/aspose.slides/documentproperties/totaleditingtime/
 ---
 ## DocumentProperties.TotalEditingTime property

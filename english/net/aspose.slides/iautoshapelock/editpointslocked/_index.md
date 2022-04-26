@@ -3,7 +3,7 @@ title: EditPointsLocked
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.slides/iautoshapelock/editpointslocked/
 ---
 ## IAutoShapeLock.EditPointsLocked property

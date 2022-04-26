@@ -3,7 +3,7 @@ title: IMathFractionFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7790
+weight: 7540
 url: /net/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory interface
@@ -14,11 +14,12 @@ Allows to create a math fraction
 public interface IMathFractionFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateMathFraction](createmathfraction)(…) | Creates a math fraction (2 methods) |
+| [CreateMathFraction](createmathfraction)(IMathElement, IMathElement) | Creates a math fraction |
+| [CreateMathFraction](createmathfraction)(IMathElement, IMathElement, MathFractionTypes) | Creates a math fraction |
 
 ### Remarks
 

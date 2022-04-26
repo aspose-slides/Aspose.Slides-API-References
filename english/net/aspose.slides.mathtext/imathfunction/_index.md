@@ -3,7 +3,7 @@ title: IMathFunction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7800
+weight: 7550
 url: /net/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction interface
@@ -14,7 +14,7 @@ Specifies a function of an argument.
 public interface IMathFunction : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

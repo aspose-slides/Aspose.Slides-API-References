@@ -3,10 +3,32 @@ title: ReplaceFont
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.slides/ifontsmanager/replacefont/
 ---
 ## IFontsManager.ReplaceFont method (1 of 3)
+
+Replace font in presentation
+
+```csharp
+public void ReplaceFont(IFontData sourceFont, IFontData destFont)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceFont | IFontData | Source font |
+| destFont | IFontData | Destination font |
+
+### See Also
+
+* interface [IFontData](../../ifontdata)
+* interface [IFontsManager](../../ifontsmanager)
+* namespace [Aspose.Slides](../../ifontsmanager)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IFontsManager.ReplaceFont method (2 of 3)
 
 Replace font in presentation using information provided in [`IFontSubstRule`](../../ifontsubstrule)
 
@@ -27,7 +49,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ---
 
-## IFontsManager.ReplaceFont method (2 of 3)
+## IFontsManager.ReplaceFont method (3 of 3)
 
 Replace font in presentation using information provided in collection of [`IFontSubstRule`](../../ifontsubstrule)
 
@@ -42,28 +64,6 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 ### See Also
 
 * interface [IFontSubstRuleCollection](../../ifontsubstrulecollection)
-* interface [IFontsManager](../../ifontsmanager)
-* namespace [Aspose.Slides](../../ifontsmanager)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IFontsManager.ReplaceFont method (3 of 3)
-
-Replace font in presentation
-
-```csharp
-public void ReplaceFont(IFontData sourceFont, IFontData destFont)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceFont | IFontData | Source font |
-| destFont | IFontData | Destination font |
-
-### See Also
-
-* interface [IFontData](../../ifontdata)
 * interface [IFontsManager](../../ifontsmanager)
 * namespace [Aspose.Slides](../../ifontsmanager)
 * assembly [Aspose.Slides](../../../)

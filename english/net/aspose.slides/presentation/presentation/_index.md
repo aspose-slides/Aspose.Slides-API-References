@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 10
 url: /net/aspose.slides/presentation/presentation/
 ---
 ## Presentation constructor (1 of 6)
@@ -81,6 +81,28 @@ fis.Close()
 
 ## Presentation constructor (4 of 6)
 
+This constructor is the primary mechanism for reading an existing Presentation.
+
+```csharp
+public Presentation(Stream stream, LoadOptions loadOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Input stream. |
+| loadOptions | LoadOptions | Additional load options. |
+
+### See Also
+
+* class [LoadOptions](../../loadoptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Presentation constructor (5 of 6)
+
 This constructor gets a source file path from which the contents of the Presentation are read.
 
 ```csharp
@@ -111,28 +133,6 @@ Dim pres As Presentation = New Presentation("demo.pptx")
 
 ### See Also
 
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Presentation constructor (5 of 6)
-
-This constructor is the primary mechanism for reading an existing Presentation.
-
-```csharp
-public Presentation(Stream stream, LoadOptions loadOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Input stream. |
-| loadOptions | LoadOptions | Additional load options. |
-
-### See Also
-
-* class [LoadOptions](../../loadoptions)
 * class [Presentation](../../presentation)
 * namespace [Aspose.Slides](../../presentation)
 * assembly [Aspose.Slides](../../../)

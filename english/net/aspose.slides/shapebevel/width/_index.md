@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.slides/shapebevel/width/
 ---
 ## ShapeBevel.Width property

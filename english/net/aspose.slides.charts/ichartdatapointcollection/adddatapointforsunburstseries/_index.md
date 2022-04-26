@@ -3,7 +3,7 @@ title: AddDataPointForSunburstSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 200
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforsunburstseries/
 ---
 ## IChartDataPointCollection.AddDataPointForSunburstSeries method

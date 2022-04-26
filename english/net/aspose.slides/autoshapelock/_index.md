@@ -3,7 +3,7 @@ title: AutoShapeLock
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 820
+weight: 810
 url: /net/aspose.slides/autoshapelock/
 ---
 ## AutoShapeLock class
@@ -14,7 +14,7 @@ Determines which operations are disabled on the parent AutoshapeEx.
 public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

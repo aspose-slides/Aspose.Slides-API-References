@@ -3,7 +3,7 @@ title: PieSplitType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2260
+weight: 2240
 url: /net/aspose.slides.charts/piesplittype/
 ---
 ## PieSplitType enumeration

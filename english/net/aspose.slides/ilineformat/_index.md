@@ -3,7 +3,7 @@ title: ILineFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6000
+weight: 5750
 url: /net/aspose.slides/ilineformat/
 ---
 ## ILineFormat interface
@@ -14,7 +14,7 @@ Represents format of a line.
 public interface ILineFormat : ILineParamSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -36,7 +36,12 @@ public interface ILineFormat : ILineParamSource
 | [SketchFormat](sketchformat) { get; } | Returns the sketch format of a line. Read-only [`ISketchFormat`](../isketchformat). |
 | [Style](style) { get; set; } | Returns or sets the line style. Read/write [`LineStyle`](../linestyle). |
 | [Width](width) { get; set; } | Returns or sets the width of a line. Read/write Double. |
-| [Equals](equals)(…) | Determines whether the two LineFormat instances are equal. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Equals](equals)(ILineFormat) | Determines whether the two LineFormat instances are equal. |
 | [GetEffective](geteffective)() | Gets effective line formatting data with the inheritance applied. |
 
 ### See Also

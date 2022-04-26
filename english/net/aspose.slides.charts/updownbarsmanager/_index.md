@@ -3,7 +3,7 @@ title: UpDownBarsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2380
+weight: 2360
 url: /net/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/updownbarsmanager/
 Provide access to up/down bars of Line- or Stock-chart.
 
 ```csharp
-public class UpDownBarsManager : IUpDownBarsManager
+public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,6 +25,8 @@ public class UpDownBarsManager : IUpDownBarsManager
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartSeriesGroup](../chartseriesgroup)
 * interface [IUpDownBarsManager](../iupdownbarsmanager)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

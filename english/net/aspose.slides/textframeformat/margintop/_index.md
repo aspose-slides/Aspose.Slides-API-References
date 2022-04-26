@@ -3,7 +3,7 @@ title: MarginTop
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 110
 url: /net/aspose.slides/textframeformat/margintop/
 ---
 ## TextFrameFormat.MarginTop property

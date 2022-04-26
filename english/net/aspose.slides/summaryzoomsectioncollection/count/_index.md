@@ -3,7 +3,7 @@ title: Count
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 10
 url: /net/aspose.slides/summaryzoomsectioncollection/count/
 ---
 ## SummaryZoomSectionCollection.Count property

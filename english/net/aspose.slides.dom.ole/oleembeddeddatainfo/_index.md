@@ -3,7 +3,7 @@ title: OleEmbeddedDataInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2630
+weight: 2610
 url: /net/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo class
@@ -14,12 +14,17 @@ Represents embedded data info for OLE object.
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo)() | Creates new embedded data info for OLE object. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo)(…) | Creates a new instance of an embedded data info for OLE object. File data of an embedded OLE object Byte[].File extension for the current embedded OLE object String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo)(byte[], string) | Creates a new instance of an embedded data info for OLE object. File data of an embedded OLE object Byte[].File extension for the current embedded OLE object String. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [EmbeddedFileData](embeddedfiledata) { get; } | Returns the file data of an embedded OLE object Read only Byte[]. |
 | [EmbeddedFileExtension](embeddedfileextension) { get; } | Returns the file extension for the current embedded OLE object Read only String. |
 

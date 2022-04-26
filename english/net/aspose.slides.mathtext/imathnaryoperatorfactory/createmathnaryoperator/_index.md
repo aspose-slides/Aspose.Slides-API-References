@@ -11,13 +11,16 @@ url: /net/aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator
 Creates IMathNaryOperator
 
 ```csharp
-public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElement baseArgument)
+public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElement baseArgument, 
+    IMathElement lowerLimit, IMathElement upperLimit)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | operatorSymbol | Char | The operator sign |
 | baseArgument | IMathElement | Base argument to apply operator |
+| lowerLimit | IMathElement | Lower limit |
+| upperLimit | IMathElement | Upper limit |
 
 ## Return Value
 
@@ -67,16 +70,13 @@ new IMathNaryOperator
 Creates IMathNaryOperator
 
 ```csharp
-public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElement baseArgument, 
-    IMathElement lowerLimit, IMathElement upperLimit)
+public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | operatorSymbol | Char | The operator sign |
 | baseArgument | IMathElement | Base argument to apply operator |
-| lowerLimit | IMathElement | Lower limit |
-| upperLimit | IMathElement | Upper limit |
 
 ## Return Value
 

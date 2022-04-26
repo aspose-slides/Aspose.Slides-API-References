@@ -3,7 +3,7 @@ title: Insert
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 80
 url: /net/aspose.slides/iportioncollection/insert/
 ---
 ## IPortionCollection.Insert method

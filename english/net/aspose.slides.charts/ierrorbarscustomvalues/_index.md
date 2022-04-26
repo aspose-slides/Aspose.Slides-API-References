@@ -3,7 +3,7 @@ title: IErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1960
+weight: 1940
 url: /net/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues interface
@@ -14,7 +14,7 @@ Specifies the errors bar values. It shall be used only when the Error bars value
 public interface IErrorBarsCustomValues
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

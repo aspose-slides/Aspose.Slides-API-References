@@ -3,7 +3,7 @@ title: IsVisible
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.slides.charts/ierrorbarsformat/isvisible/
 ---
 ## IErrorBarsFormat.IsVisible property

@@ -3,7 +3,7 @@ title: Slide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 60
 url: /net/aspose.slides.lowcode/foreach/slide/
 ---
 ## ForEach.Slide method

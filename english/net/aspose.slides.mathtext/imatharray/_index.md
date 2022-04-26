@@ -3,7 +3,7 @@ title: IMathArray
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7630
+weight: 7380
 url: /net/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray interface
@@ -14,7 +14,7 @@ Specifies a vertical array of equations or any mathematical objects
 public interface IMathArray : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

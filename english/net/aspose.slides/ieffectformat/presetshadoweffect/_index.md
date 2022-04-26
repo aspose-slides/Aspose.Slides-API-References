@@ -3,7 +3,7 @@ title: PresetShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 80
 url: /net/aspose.slides/ieffectformat/presetshadoweffect/
 ---
 ## IEffectFormat.PresetShadowEffect property

@@ -3,7 +3,7 @@ title: CellInvalidReferenceException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10150
+weight: 9900
 url: /net/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException class
@@ -14,12 +14,19 @@ The exception that is thrown when an invalid cell reference is encountered.
 public class CellInvalidReferenceException : PptxEditException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CellInvalidReferenceException](cellinvalidreferenceexception)() | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception)(…) | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class with a specified error message. (3 constructors) |
+| [CellInvalidReferenceException](cellinvalidreferenceexception)(string) | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class with a specified error message. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception)(string, Exception) | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception)(string, string) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message and an invalid cell reference. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Reference](reference) { get; } | Gets an invalid cell reference. |
 
 ### See Also

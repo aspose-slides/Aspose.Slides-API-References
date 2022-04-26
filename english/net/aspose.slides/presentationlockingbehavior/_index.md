@@ -3,7 +3,7 @@ title: PresentationLockingBehavior
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9150
+weight: 8900
 url: /net/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior enumeration

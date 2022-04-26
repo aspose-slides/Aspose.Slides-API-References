@@ -3,7 +3,7 @@ title: ExtrusionRotationAngleY
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1200
+weight: 150
 url: /net/aspose.slides.animation/behaviorproperty/extrusionrotationangley/
 ---
 ## BehaviorProperty.ExtrusionRotationAngleY property
