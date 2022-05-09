@@ -3,10 +3,67 @@ title: SetLicense
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.slides/license/setlicense/
 ---
 ## License.SetLicense method (1 of 2)
+
+Licenses the component.
+
+```csharp
+public void SetLicense(string licenseName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| licenseName | String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
+
+### Remarks
+
+Tries to find the license in the following locations:
+
+1. Explicit path.
+
+2. The folder of the component assembly.
+
+3. The folder of the client's calling assembly.
+
+4. The folder of the entry assembly.
+
+5. An embedded resource in the client's calling assembly.
+
+**Note:**On the .NET Compact Framework, tries to find the license only in these locations:
+
+1. Explicit path.
+
+2. An embedded resource in the client's calling assembly.
+
+### Examples
+
+In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly.
+
+```csharp
+[C#]
+
+License license = new License();
+license.SetLicense("MyLicense.lic");
+
+
+[Visual Basic]
+
+Dim license As License = New License
+license.SetLicense("MyLicense.lic")
+```
+
+### See Also
+
+* class [License](../../license)
+* namespace [Aspose.Slides](../../license)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## License.SetLicense method (2 of 2)
 
 Licenses the component.
 
@@ -35,47 +92,6 @@ license.SetLicense(myStream);
 
 Dim license as License = new License
 license.SetLicense(myStream)
-```
-
-### See Also
-
-* class [License](../../license)
-* namespace [Aspose.Slides](../../license)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## License.SetLicense method (2 of 2)
-
-Licenses the component.
-
-```csharp
-public void SetLicense(string licenseName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| licenseName | String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
-
-### Remarks
-
-Tries to find the license in the following locations:1. Explicit path.2. The folder of the component assembly.3. The folder of the client's calling assembly.4. The folder of the entry assembly.5. An embedded resource in the client's calling assembly.Note:On the .NET Compact Framework, tries to find the license only in these locations:1. Explicit path.2. An embedded resource in the client's calling assembly.
-
-### Examples
-
-In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly.
-
-```csharp
-[C#]
-
-License license = new License();
-license.SetLicense("MyLicense.lic");
-
-
-[Visual Basic]
-
-Dim license As License = New License
-license.SetLicense("MyLicense.lic")
 ```
 
 ### See Also

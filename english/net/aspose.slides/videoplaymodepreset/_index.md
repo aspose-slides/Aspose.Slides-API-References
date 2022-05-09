@@ -3,7 +3,7 @@ title: VideoPlayModePreset
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11160
+weight: 10910
 url: /net/aspose.slides/videoplaymodepreset/
 ---
 ## VideoPlayModePreset enumeration

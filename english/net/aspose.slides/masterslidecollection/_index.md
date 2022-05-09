@@ -3,7 +3,7 @@ title: MasterSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7570
+weight: 7320
 url: /net/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/masterslidecollection/
 Represents a collection of master slides.
 
 ```csharp
-public sealed class MasterSlideCollection : IMasterSlideCollection
+public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,16 +22,23 @@ public sealed class MasterSlideCollection : IMasterSlideCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`MasterSlide`](../masterslide). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddClone](addclone)(…) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddClone](addclone)(IMasterSlide) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [InsertClone](insertclone)(…) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index of the collection. |
-| [RemoveUnused](removeunused)(…) | Removes unused master slides. |
+| [InsertClone](insertclone)(int, IMasterSlide) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
+| [Remove](remove)(IMasterSlide) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
+| [RemoveUnused](removeunused)(bool) | Removes unused master slides. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
 * interface [IMasterSlideCollection](../imasterslidecollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: PropertyEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 660
+weight: 650
 url: /net/aspose.slides.animation/propertyeffect/
 ---
 ## PropertyEffect class
@@ -14,11 +14,16 @@ Represent property effect behavior.
 public class PropertyEffect : Behavior, IPropertyEffect
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PropertyEffect](propertyeffect)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [By](by) { get; set; } | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 | [CalcMode](calcmode) { get; set; } | Specifies the interpolation mode for the animation Read/write [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](from) { get; set; } | Specifies the starting value of the animation. Read/write String. |

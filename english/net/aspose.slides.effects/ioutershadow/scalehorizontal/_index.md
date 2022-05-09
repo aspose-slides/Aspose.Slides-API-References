@@ -3,7 +3,7 @@ title: ScaleHorizontal
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.slides.effects/ioutershadow/scalehorizontal/
 ---
 ## IOuterShadow.ScaleHorizontal property

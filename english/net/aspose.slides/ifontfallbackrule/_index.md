@@ -3,7 +3,7 @@ title: IFontFallBackRule
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5570
+weight: 5320
 url: /net/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule interface
@@ -14,7 +14,7 @@ Represents font fallback rule
 public interface IFontFallBackRule
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,13 +22,19 @@ public interface IFontFallBackRule
 | [Item](item) { get; } | Gets the font name at the specified index. |
 | [RangeEndIndex](rangeendindex) { get; } | Get last index of continuous unicode range. |
 | [RangeStartIndex](rangestartindex) { get; } | Get first index of continuous unicode range. |
-| [AddFallBackFonts](addfallbackfonts)(…) | Adds a new font(s) to the list of FallBack fonts. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddFallBackFonts](addfallbackfonts)(string) | Adds a new font(s) to the list of FallBack fonts. |
+| [AddFallBackFonts](addfallbackfonts)(string[]) | Adds a new fonts to the list of FallBack fonts. |
 | [Clear](clear)() | Removes all fonts from the list. |
-| [IndexOf](indexof)(…) | Returns an index of the specified rule in the collection. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific FallBack font from the list. |
-| [RemoveAt](removeat)(…) | Removes the FallBack font at the specified index of the list. |
+| [IndexOf](indexof)(string) | Returns an index of the specified rule in the collection. |
+| [Remove](remove)(string) | Removes the first occurrence of a specific FallBack font from the list. |
+| [RemoveAt](removeat)(int) | Removes the FallBack font at the specified index of the list. |
 | [ToArray](toarray)() | Creates and returns an array with all FallBack fonts for this rule. |
-| [ToArray](toarray)(…) | Creates and returns an array with all FallBack fonts from the specified range in list. |
+| [ToArray](toarray)(int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ITable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6900
+weight: 6650
 url: /net/aspose.slides/itable/
 ---
 ## ITable interface
@@ -14,7 +14,7 @@ Represents a table on a slide.
 public interface ITable : IBulkTextFormattable, IGraphicalObject
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -32,7 +32,12 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 | [StylePreset](stylepreset) { get; set; } | Get's or sets builtin table style. Read/write [`TableStylePreset`](../tablestylepreset). |
 | [TableFormat](tableformat) { get; } | Returns the TableFormat object that contains formatting properties for this table. Read-only [`ITableFormat`](../itableformat). |
 | [VerticalBanding](verticalbanding) { get; set; } | Determines whether the even columns has to be drawn with a different formatting. Read/write Boolean. |
-| [MergeCells](mergecells)(…) | Merges neighbour cells. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [MergeCells](mergecells)(ICell, ICell, bool) | Merges neighbour cells. |
 
 ### See Also
 

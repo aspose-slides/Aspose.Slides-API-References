@@ -3,7 +3,7 @@ title: BehaviorCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.slides.animation/behaviorcollection/
 ---
 ## BehaviorCollection class
@@ -14,22 +14,27 @@ Represents collection of behavior effects.
 public class BehaviorCollection : IBehaviorCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of behaviors in a collection. Read-only Int32. |
 | [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
 | [Item](item) { get; set; } | Retirns a behavior at the specified index. |
-| [Add](add)(…) | Add new behavior to a collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IBehavior) | Add new behavior to a collection. |
 | [Clear](clear)() | Removes all behaviors from a collection. |
-| [Contains](contains)(…) | Determines whether the ICollection contains a specific value. |
-| [CopyTo](copyto)(…) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
+| [Contains](contains)(IBehavior) | Determines whether the ICollection contains a specific value. |
+| [CopyTo](copyto)(IBehavior[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(…) | Determines the index of a specific item in the IList. |
-| [Insert](insert)(…) | Inserts new behavior to a collection at the specified index. |
-| [Remove](remove)(…) | Removes specified behavior from a collection. |
-| [RemoveAt](removeat)(…) | Removes behavior from a collection at the specified index. |
+| [IndexOf](indexof)(IBehavior) | Determines the index of a specific item in the IList. |
+| [Insert](insert)(int, IBehavior) | Inserts new behavior to a collection at the specified index. |
+| [Remove](remove)(IBehavior) | Removes specified behavior from a collection. |
+| [RemoveAt](removeat)(int) | Removes behavior from a collection at the specified index. |
 
 ### See Also
 

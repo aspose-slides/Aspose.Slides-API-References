@@ -3,7 +3,7 @@ title: Print
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 330
 url: /net/aspose.slides/presentation/print/
 ---
 ## Presentation.Print method (1 of 4)

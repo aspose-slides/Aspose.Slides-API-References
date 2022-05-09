@@ -3,7 +3,7 @@ title: EmbedFullFonts
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.slides.export/ipdfoptions/embedfullfonts/
 ---
 ## IPdfOptions.EmbedFullFonts property
@@ -16,7 +16,7 @@ public bool EmbedFullFonts { get; set; }
 
 ### Remarks
 
-Default is false.
+Default is **false**.
 
 ### See Also
 

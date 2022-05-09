@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4570
+weight: 4320
 url: /net/aspose.slides/fieldtype/
 ---
 ## FieldType class
@@ -14,11 +14,16 @@ Represents a type of field. This value determines which text will be set to the 
 public sealed class FieldType : IFieldType
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [FieldType](fieldtype)(…) | Initializes a new instance of FieldType class. |
+| [FieldType](fieldtype)(string) | Initializes a new instance of FieldType class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | static [DateTime](datetime) { get; } | Current date and time in default date time format for the rendering application. Read-only [`FieldType`](../fieldtype). |
 | static [DateTime1](datetime1) { get; } | Current date and time in a first predefined format (MM/DD/YYYY for english). Read-only [`FieldType`](../fieldtype). |
 | static [DateTime10](datetime10) { get; } | Current date and time in a tenth predefined format (hh:mm for english). Read-only [`FieldType`](../fieldtype). |
@@ -37,7 +42,12 @@ public sealed class FieldType : IFieldType
 | static [Header](header) { get; } | Slide's header. Read-only [`FieldType`](../fieldtype). |
 | static [SlideNumber](slidenumber) { get; } | Current slide's number. Read-only [`FieldType`](../fieldtype). |
 | [InternalString](internalstring) { get; set; } | Returns the internal name of this FieldType object. Read/write String. |
-| override [Equals](equals)(…) | Checks if this field is equal to another. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Checks if this field is equal to another. |
 | override [GetHashCode](gethashcode)() | Returns hashcode for this object. |
 | [operator ==](op_equality) | Checks if two FieldType objects is equal. |
 | [operator !=](op_inequality) | Checks if two FieldType objects is inequal. |

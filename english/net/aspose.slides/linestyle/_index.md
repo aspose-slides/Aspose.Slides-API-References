@@ -3,7 +3,7 @@ title: LineStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7370
+weight: 7120
 url: /net/aspose.slides/linestyle/
 ---
 ## LineStyle enumeration

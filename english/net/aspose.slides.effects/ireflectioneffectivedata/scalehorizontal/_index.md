@@ -3,7 +3,7 @@ title: ScaleHorizontal
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 100
 url: /net/aspose.slides.effects/ireflectioneffectivedata/scalehorizontal/
 ---
 ## IReflectionEffectiveData.ScaleHorizontal property

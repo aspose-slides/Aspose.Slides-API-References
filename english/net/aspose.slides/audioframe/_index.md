@@ -3,7 +3,7 @@ title: AudioFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 780
+weight: 770
 url: /net/aspose.slides/audioframe/
 ---
 ## AudioFrame class
@@ -14,7 +14,7 @@ Represents an audio clip on a slide.
 public class AudioFrame : PictureFrame, IAudioFrame
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

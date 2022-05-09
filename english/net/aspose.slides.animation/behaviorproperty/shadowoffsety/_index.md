@@ -3,7 +3,7 @@ title: ShadowOffsetY
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 710
 url: /net/aspose.slides.animation/behaviorproperty/shadowoffsety/
 ---
 ## BehaviorProperty.ShadowOffsetY property

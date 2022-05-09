@@ -3,7 +3,7 @@ title: BlackWhiteMode
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 940
+weight: 920
 url: /net/aspose.slides/blackwhitemode/
 ---
 ## BlackWhiteMode enumeration

@@ -3,7 +3,7 @@ title: IBaseShapeLock
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5100
+weight: 4850
 url: /net/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock interface
@@ -14,7 +14,7 @@ Represents Shape lock (disabled operation).
 public interface IBaseShapeLock
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

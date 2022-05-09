@@ -3,7 +3,7 @@ title: PresentationHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9130
+weight: 8880
 url: /net/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager class
@@ -15,18 +15,18 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
     IPresentationHeaderFooterManager
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetAllDateTimesText](setalldatetimestext)(…) | Sets text to all date-time placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master. |
-| [SetAllDateTimesVisibility](setalldatetimesvisibility)(…) | Changes all date-time placeholders visibility, including master slides, layout slides, slides, notes master, notes slides and handout master. |
-| [SetAllFootersText](setallfooterstext)(…) | Sets text to all footer placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master. |
-| [SetAllFootersVisibility](setallfootersvisibility)(…) | Changes all footer placeholders visibility, including master slides, layout slides, slides, notes master, notes slides and handout master. |
-| [SetAllHeadersText](setallheaderstext)(…) | Sets text to all header placeholders, including notes master, notes slides and handout master. |
-| [SetAllHeadersVisibility](setallheadersvisibility)(…) | Changes all header placeholders visibility, including notes master, notes slides and handout master. |
-| [SetAllSlideNumbersVisibility](setallslidenumbersvisibility)(…) | Changes all page number placeholders visibility, including master slides, layout slides, slides, notes master, notes slides and handout master. |
-| [SetVisibilityOnAllTitleSlides](setvisibilityonalltitleslides)(…) | Changes the footer, date-time and page number placeholders visibility for all title slides and for first layout slide. Title slides – slides based on first layout slide (regardless of type of this first layout). |
+| [SetAllDateTimesText](setalldatetimestext)(string) | Sets text to all date-time placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master. |
+| [SetAllDateTimesVisibility](setalldatetimesvisibility)(bool) | Changes all date-time placeholders visibility, including master slides, layout slides, slides, notes master, notes slides and handout master. |
+| [SetAllFootersText](setallfooterstext)(string) | Sets text to all footer placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master. |
+| [SetAllFootersVisibility](setallfootersvisibility)(bool) | Changes all footer placeholders visibility, including master slides, layout slides, slides, notes master, notes slides and handout master. |
+| [SetAllHeadersText](setallheaderstext)(string) | Sets text to all header placeholders, including notes master, notes slides and handout master. |
+| [SetAllHeadersVisibility](setallheadersvisibility)(bool) | Changes all header placeholders visibility, including notes master, notes slides and handout master. |
+| [SetAllSlideNumbersVisibility](setallslidenumbersvisibility)(bool) | Changes all page number placeholders visibility, including master slides, layout slides, slides, notes master, notes slides and handout master. |
+| [SetVisibilityOnAllTitleSlides](setvisibilityonalltitleslides)(bool) | Changes the footer, date-time and page number placeholders visibility for all title slides and for first layout slide. Title slides – slides based on first layout slide (regardless of type of this first layout). |
 
 ### See Also
 

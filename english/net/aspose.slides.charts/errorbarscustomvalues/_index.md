@@ -3,7 +3,7 @@ title: ErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1540
+weight: 1520
 url: /net/aspose.slides.charts/errorbarscustomvalues/
 ---
 ## ErrorBarsCustomValues class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/errorbarscustomvalues/
 Specifies the errors bar values. It shall be used only when the Error bars value type is Custom.
 
 ```csharp
-public class ErrorBarsCustomValues : IErrorBarsCustomValues
+public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,6 +25,8 @@ public class ErrorBarsCustomValues : IErrorBarsCustomValues
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartDataPoint](../chartdatapoint)
 * interface [IErrorBarsCustomValues](../ierrorbarscustomvalues)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

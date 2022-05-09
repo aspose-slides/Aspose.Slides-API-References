@@ -3,7 +3,7 @@ title: IGradientFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5720
+weight: 5470
 url: /net/aspose.slides/igradientformat/
 ---
 ## IGradientFormat interface
@@ -14,7 +14,7 @@ Represent a gradient format.
 public interface IGradientFormat : IFillParamSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

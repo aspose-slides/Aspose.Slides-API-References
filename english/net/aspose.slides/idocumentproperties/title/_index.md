@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 230
 url: /net/aspose.slides/idocumentproperties/title/
 ---
 ## IDocumentProperties.Title property

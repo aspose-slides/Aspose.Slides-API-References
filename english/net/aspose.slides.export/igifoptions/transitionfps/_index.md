@@ -3,7 +3,7 @@ title: TransitionFps
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.slides.export/igifoptions/transitionfps/
 ---
 ## IGifOptions.TransitionFps property

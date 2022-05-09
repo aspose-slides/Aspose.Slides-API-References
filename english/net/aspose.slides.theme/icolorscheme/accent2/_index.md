@@ -3,7 +3,7 @@ title: Accent2
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 20
 url: /net/aspose.slides.theme/icolorscheme/accent2/
 ---
 ## IColorScheme.Accent2 property

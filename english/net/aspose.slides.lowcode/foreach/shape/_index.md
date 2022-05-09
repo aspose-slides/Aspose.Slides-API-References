@@ -3,10 +3,45 @@ title: Shape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.slides.lowcode/foreach/shape/
 ---
 ## ForEach.Shape method (1 of 2)
+
+Iterate each `Shape` in the [`Presentation`](../../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)
+
+```csharp
+public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Presentation to iterate layout shapes |
+| forEachShape | ForEachShapeCallback | Callback that will be invoked for each shape |
+
+### Examples
+
+```csharp
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    ForEach.Shape(pres, (shape, slide, index) => 
+    {
+        System.Console.WriteLine($"{shape.Name}, index: {index}");
+    });
+} 
+```
+
+### See Also
+
+* class [Presentation](../../../aspose.slides/presentation)
+* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
+* class [ForEach](../../foreach)
+* namespace [Aspose.Slides.LowCode](../../foreach)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ForEach.Shape method (2 of 2)
 
 Iterate each [`Shape`](../shape) in the [`BaseSlide`](../../../aspose.slides/baseslide). [`BaseSlide`](../../../aspose.slides/baseslide) is the base type for [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)
 
@@ -37,41 +72,6 @@ public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 ### See Also
 
 * class [BaseSlide](../../../aspose.slides/baseslide)
-* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
-* class [ForEach](../../foreach)
-* namespace [Aspose.Slides.LowCode](../../foreach)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ForEach.Shape method (2 of 2)
-
-Iterate each `Shape` in the [`Presentation`](../../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)
-
-```csharp
-public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pres | Presentation | Presentation to iterate layout shapes |
-| forEachShape | ForEachShapeCallback | Callback that will be invoked for each shape |
-
-### Examples
-
-```csharp
-using (Presentation pres = new Presentation("pres.pptx"))
-{
-    ForEach.Shape(pres, (shape, slide, index) => 
-    {
-        System.Console.WriteLine($"{shape.Name}, index: {index}");
-    });
-} 
-```
-
-### See Also
-
-* class [Presentation](../../../aspose.slides/presentation)
 * delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
 * class [ForEach](../../foreach)
 * namespace [Aspose.Slides.LowCode](../../foreach)

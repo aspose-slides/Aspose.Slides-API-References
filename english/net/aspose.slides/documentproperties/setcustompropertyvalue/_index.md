@@ -3,7 +3,7 @@ title: SetCustomPropertyValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 340
 url: /net/aspose.slides/documentproperties/setcustompropertyvalue/
 ---
 ## DocumentProperties.SetCustomPropertyValue method (1 of 6)
@@ -29,6 +29,27 @@ public void SetCustomPropertyValue(string name, bool value)
 
 ## DocumentProperties.SetCustomPropertyValue method (2 of 6)
 
+Sets a named integer custom property.
+
+```csharp
+public void SetCustomPropertyValue(string name, int value)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | Int32 | Custom property value |
+
+### See Also
+
+* class [DocumentProperties](../../documentproperties)
+* namespace [Aspose.Slides](../../documentproperties)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## DocumentProperties.SetCustomPropertyValue method (3 of 6)
+
 Sets a named DateTime custom property.
 
 ```csharp
@@ -48,18 +69,18 @@ public void SetCustomPropertyValue(string name, DateTime value)
 
 ---
 
-## DocumentProperties.SetCustomPropertyValue method (3 of 6)
+## DocumentProperties.SetCustomPropertyValue method (4 of 6)
 
-Sets a named double custom property.
+Sets a named string custom property.
 
 ```csharp
-public void SetCustomPropertyValue(string name, double value)
+public void SetCustomPropertyValue(string name, string value)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | Name of the custom property to set |
-| value | Double | Custom property value |
+| value | String | Custom property value |
 
 ### See Also
 
@@ -69,7 +90,7 @@ public void SetCustomPropertyValue(string name, double value)
 
 ---
 
-## DocumentProperties.SetCustomPropertyValue method (4 of 6)
+## DocumentProperties.SetCustomPropertyValue method (5 of 6)
 
 Sets a named float custom property.
 
@@ -90,39 +111,18 @@ public void SetCustomPropertyValue(string name, float value)
 
 ---
 
-## DocumentProperties.SetCustomPropertyValue method (5 of 6)
-
-Sets a named integer custom property.
-
-```csharp
-public void SetCustomPropertyValue(string name, int value)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | String | Name of the custom property to set |
-| value | Int32 | Custom property value |
-
-### See Also
-
-* class [DocumentProperties](../../documentproperties)
-* namespace [Aspose.Slides](../../documentproperties)
-* assembly [Aspose.Slides](../../../)
-
----
-
 ## DocumentProperties.SetCustomPropertyValue method (6 of 6)
 
-Sets a named string custom property.
+Sets a named double custom property.
 
 ```csharp
-public void SetCustomPropertyValue(string name, string value)
+public void SetCustomPropertyValue(string name, double value)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | String | Name of the custom property to set |
-| value | String | Custom property value |
+| value | Double | Custom property value |
 
 ### See Also
 

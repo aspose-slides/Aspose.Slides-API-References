@@ -3,7 +3,7 @@ title: NotesSlideManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8670
+weight: 8420
 url: /net/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager class
@@ -11,19 +11,26 @@ url: /net/aspose.slides/notesslidemanager/
 Notes slide manager.
 
 ```csharp
-public sealed class NotesSlideManager : INotesSlideManager
+public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [NotesSlide](notesslide) { get; } | Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide. Read-only [`INotesSlide`](../inotesslide). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [AddNotesSlide](addnotesslide)() | Returns the notes slide for the current slide, creating one if there isn't. |
 | [RemoveNotesSlide](removenotesslide)() | Removes notes slide of the current slide. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Slide](../slide)
 * interface [INotesSlideManager](../inotesslidemanager)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

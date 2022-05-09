@@ -3,7 +3,7 @@ title: SymbolFont
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.slides/baseportionformat/symbolfont/
 ---
 ## BasePortionFormat.SymbolFont property

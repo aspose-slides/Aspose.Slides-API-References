@@ -3,7 +3,7 @@ title: MarginBottom
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 110
 url: /net/aspose.slides/icell/marginbottom/
 ---
 ## ICell.MarginBottom property

@@ -3,7 +3,7 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10220
+weight: 9970
 url: /net/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSectionCollection class
@@ -11,10 +11,11 @@ url: /net/aspose.slides/summaryzoomsectioncollection/
 Represents a collection of Summary Zoom Section objects.
 
 ```csharp
-public sealed class SummaryZoomSectionCollection : ISummaryZoomSectionCollection
+public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>, 
+    ISummaryZoomSectionCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,16 +23,23 @@ public sealed class SummaryZoomSectionCollection : ISummaryZoomSectionCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISummaryZoomSection`](../isummaryzoomsection). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddSummaryZoomSection](addsummaryzoomsection)(…) | Creates new Summary Zoom Section object and add it to the collection |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddSummaryZoomSection](addsummaryzoomsection)(ISection) | Creates new Summary Zoom Section object and add it to the collection |
 | [Clear](clear)() | Removes all SummaryZoomSection objects from the collection. |
-| [CopyTo](copyto)(…) | Copies the entire collection to the specified array. |
+| [CopyTo](copyto)(Array, int) | Copies the entire collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [GetSummarySection](getsummarysection)(…) | Returns Summary Zoom Section element for the given section. |
-| [IndexOf](indexof)(…) | Returns an index of the specified SummaryZoomSection object. |
-| [RemoveSummaryZoomSection](removesummaryzoomsection)(…) | Remove Summary Zoom Section object from the collection. |
+| [GetSummarySection](getsummarysection)(ISection) | Returns Summary Zoom Section element for the given section. |
+| [IndexOf](indexof)(ISummaryZoomSection) | Returns an index of the specified SummaryZoomSection object. |
+| [RemoveSummaryZoomSection](removesummaryzoomsection)(ISection) | Remove Summary Zoom Section object from the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [SummaryZoomFrame](../summaryzoomframe)
 * interface [ISummaryZoomSectionCollection](../isummaryzoomsectioncollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

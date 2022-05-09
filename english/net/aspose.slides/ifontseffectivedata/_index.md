@@ -3,7 +3,7 @@ title: IFontsEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5630
+weight: 5380
 url: /net/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which contains effective fonts set.
 public interface IFontsEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

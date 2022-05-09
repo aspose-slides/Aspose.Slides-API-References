@@ -3,7 +3,7 @@ title: AddEmbeddedFont
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.slides/fontsmanager/addembeddedfont/
 ---
 ## FontsManager.AddEmbeddedFont method (1 of 2)
@@ -11,11 +11,12 @@ url: /net/aspose.slides/fontsmanager/addembeddedfont/
 Adds the embedded font Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded
 
 ```csharp
-public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
+public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
 ```
 
 ### See Also
 
+* interface [IFontData](../../ifontdata)
 * enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * class [FontsManager](../../fontsmanager)
 * namespace [Aspose.Slides](../../fontsmanager)
@@ -28,12 +29,11 @@ public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 Adds the embedded font Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded
 
 ```csharp
-public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
+public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 ```
 
 ### See Also
 
-* interface [IFontData](../../ifontdata)
 * enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * class [FontsManager](../../fontsmanager)
 * namespace [Aspose.Slides](../../fontsmanager)

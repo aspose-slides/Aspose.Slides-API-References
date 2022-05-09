@@ -3,7 +3,7 @@ title: MergeCells
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 130
 url: /net/aspose.slides/table/mergecells/
 ---
 ## Table.MergeCells method

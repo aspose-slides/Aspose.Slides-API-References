@@ -3,7 +3,7 @@ title: PieSplitBy
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 300
 url: /net/aspose.slides.charts/chartseries/piesplitby/
 ---
 ## ChartSeries.PieSplitBy property

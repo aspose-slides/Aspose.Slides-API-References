@@ -3,7 +3,7 @@ title: LineFormatCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10850
+weight: 10600
 url: /net/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.theme/lineformatcollection/
 Represents the collection of line styles.
 
 ```csharp
-public sealed class LineFormatCollection : ILineFormatCollection
+public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,11 +22,18 @@ public sealed class LineFormatCollection : ILineFormatCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [FormatScheme](../formatscheme)
 * interface [ILineFormatCollection](../ilineformatcollection)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

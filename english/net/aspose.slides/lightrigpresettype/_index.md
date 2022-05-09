@@ -3,7 +3,7 @@ title: LightRigPresetType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7250
+weight: 7000
 url: /net/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType enumeration

@@ -3,7 +3,7 @@ title: InitFormatSchemeFromInherited
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 120
 url: /net/aspose.slides.theme/ioverridetheme/initformatschemefrominherited/
 ---
 ## IOverrideTheme.InitFormatSchemeFromInherited method

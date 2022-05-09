@@ -3,7 +3,7 @@ title: DisableReflectionEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.slides/ieffectformat/disablereflectioneffect/
 ---
 ## IEffectFormat.DisableReflectionEffect method

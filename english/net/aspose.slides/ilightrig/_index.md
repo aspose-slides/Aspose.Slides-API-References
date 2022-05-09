@@ -3,7 +3,7 @@ title: ILightRig
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5960
+weight: 5710
 url: /net/aspose.slides/ilightrig/
 ---
 ## ILightRig interface
@@ -14,14 +14,19 @@ Represents LightRig.
 public interface ILightRig
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Direction](direction) { get; set; } | Light direction. Read/write [`LightingDirection`](../lightingdirection). |
 | [LightType](lighttype) { get; set; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write [`LightRigPresetType`](../lightrigpresettype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetRotation](getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. |
-| [SetRotation](setrotation)(…) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
+| [SetRotation](setrotation)(float, float, float) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ReadPresentation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.slides/ipresentationfactory/readpresentation/
 ---
 ## IPresentationFactory.ReadPresentation method (1 of 6)
@@ -33,56 +33,6 @@ Read presentation
 
 ## IPresentationFactory.ReadPresentation method (2 of 6)
 
-Reads an existing presentation from stream
-
-```csharp
-public IPresentation ReadPresentation(Stream stream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Input stream to read |
-
-## Return Value
-
-Read presentation
-
-### See Also
-
-* interface [IPresentation](../../ipresentation)
-* interface [IPresentationFactory](../../ipresentationfactory)
-* namespace [Aspose.Slides](../../ipresentationfactory)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IPresentationFactory.ReadPresentation method (3 of 6)
-
-Reads an existing presentation from file
-
-```csharp
-public IPresentation ReadPresentation(string file)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| file | String | File name |
-
-## Return Value
-
-Read presentation
-
-### See Also
-
-* interface [IPresentation](../../ipresentation)
-* interface [IPresentationFactory](../../ipresentationfactory)
-* namespace [Aspose.Slides](../../ipresentationfactory)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IPresentationFactory.ReadPresentation method (4 of 6)
-
 Reads an existing presentation from array with additional load options
 
 ```csharp
@@ -108,7 +58,32 @@ Read presentation
 
 ---
 
-## IPresentationFactory.ReadPresentation method (5 of 6)
+## IPresentationFactory.ReadPresentation method (3 of 6)
+
+Reads an existing presentation from stream
+
+```csharp
+public IPresentation ReadPresentation(Stream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Input stream to read |
+
+## Return Value
+
+Read presentation
+
+### See Also
+
+* interface [IPresentation](../../ipresentation)
+* interface [IPresentationFactory](../../ipresentationfactory)
+* namespace [Aspose.Slides](../../ipresentationfactory)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IPresentationFactory.ReadPresentation method (4 of 6)
 
 Reads an existing presentation from stream with additional load options
 
@@ -129,6 +104,31 @@ Read presentation
 
 * interface [IPresentation](../../ipresentation)
 * interface [ILoadOptions](../../iloadoptions)
+* interface [IPresentationFactory](../../ipresentationfactory)
+* namespace [Aspose.Slides](../../ipresentationfactory)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IPresentationFactory.ReadPresentation method (5 of 6)
+
+Reads an existing presentation from file
+
+```csharp
+public IPresentation ReadPresentation(string file)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | File name |
+
+## Return Value
+
+Read presentation
+
+### See Also
+
+* interface [IPresentation](../../ipresentation)
 * interface [IPresentationFactory](../../ipresentationfactory)
 * namespace [Aspose.Slides](../../ipresentationfactory)
 * assembly [Aspose.Slides](../../../)

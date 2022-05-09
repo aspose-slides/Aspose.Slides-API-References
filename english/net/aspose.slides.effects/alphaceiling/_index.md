@@ -3,7 +3,7 @@ title: AlphaCeiling
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2700
+weight: 2680
 url: /net/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling class
@@ -14,11 +14,11 @@ Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are
 public class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the specified [`AlphaCeiling`](../alphaceiling) is equal to the current [`AlphaCeiling`](../alphaceiling). |
+| override [Equals](equals)(object) | Determines whether the specified [`AlphaCeiling`](../alphaceiling) is equal to the current [`AlphaCeiling`](../alphaceiling). |
 | [GetEffective](geteffective)() | Gets effective Alpha Ceiling effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

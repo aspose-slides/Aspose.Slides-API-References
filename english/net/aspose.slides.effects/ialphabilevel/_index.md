@@ -3,7 +3,7 @@ title: IAlphaBiLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3020
+weight: 2840
 url: /net/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel interface
@@ -15,7 +15,7 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

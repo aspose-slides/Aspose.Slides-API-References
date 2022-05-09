@@ -3,7 +3,7 @@ title: IThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10820
+weight: 10570
 url: /net/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager interface
@@ -14,11 +14,11 @@ Represent theme properties.
 public interface IThemeManager
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [ApplyColorScheme](applycolorscheme)(…) | Applies extra color scheme to a slide. |
+| [ApplyColorScheme](applycolorscheme)(IExtraColorScheme) | Applies extra color scheme to a slide. |
 | [CreateThemeEffective](createthemeeffective)() | Returns the theme object. |
 
 ### See Also

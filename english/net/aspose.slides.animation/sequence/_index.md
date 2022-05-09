@@ -3,7 +3,7 @@ title: Sequence
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 690
 url: /net/aspose.slides.animation/sequence/
 ---
 ## Sequence class
@@ -14,22 +14,30 @@ Represents sequence (collection of effects).
 public sealed class Sequence : ISequence
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of effects in a sequense. Read-only Int32. |
 | [Item](item) { get; } | Returns an effect at the specified index. |
 | [TriggerShape](triggershape) { get; set; } | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write [`IShape`](../../aspose.slides/ishape). |
-| [AddEffect](addeffect)(…) | Add new effect to the end of sequence. (4 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddEffect](addeffect)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Add new animation effect for paragraph to the end of sequence. |
+| [AddEffect](addeffect)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of sequence. |
+| [AddEffect](addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for category or series to the end of sequence. |
+| [AddEffect](addeffect)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
 | [Clear](clear)() | Removes all effects from a collection. |
-| [GetCount](getcount)(…) | Returns count of effects for the specified shape. |
-| [GetEffectsByParagraph](geteffectsbyparagraph)(…) | Returns array of effects for the specified paragraph. |
-| [GetEffectsByShape](geteffectsbyshape)(…) | Returns array of effects for the specified shape. |
+| [GetCount](getcount)(IShape) | Returns count of effects for the specified shape. |
+| [GetEffectsByParagraph](geteffectsbyparagraph)(IParagraph) | Returns array of effects for the specified paragraph. |
+| [GetEffectsByShape](geteffectsbyshape)(IShape) | Returns array of effects for the specified shape. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes specified effect from a collection. |
-| [RemoveAt](removeat)(…) | Removes an effect from a collection. |
-| [RemoveByShape](removebyshape)(…) | Remove effect for the specified shape. |
+| [Remove](remove)(IEffect) | Removes specified effect from a collection. |
+| [RemoveAt](removeat)(int) | Removes an effect from a collection. |
+| [RemoveByShape](removebyshape)(IShape) | Remove effect for the specified shape. |
 
 ### See Also
 

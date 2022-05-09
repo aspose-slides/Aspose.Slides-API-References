@@ -3,7 +3,7 @@ title: SolidFillColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.slides/fillformat/solidfillcolor/
 ---
 ## FillFormat.SolidFillColor property

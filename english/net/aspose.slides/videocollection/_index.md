@@ -3,7 +3,7 @@ title: VideoCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11140
+weight: 10890
 url: /net/aspose.slides/videocollection/
 ---
 ## VideoCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/videocollection/
 Represents a collection of Video objects.
 
 ```csharp
-public class VideoCollection : IVideoCollection
+public class VideoCollection : DomObject<Presentation>, IVideoCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,12 +22,22 @@ public class VideoCollection : IVideoCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IVideo`](../ivideo). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddVideo](addvideo)(…) | Adds a copy of an video file from an another presentation. (4 methods) |
-| [CopyTo](copyto)(…) | Copies videos to specified array starting from specified index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddVideo](addvideo)(byte[]) | Creates and adds a video to a presentation from byte array. |
+| [AddVideo](addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
+| [AddVideo](addvideo)(Stream) | Creates and adds a video to a presentation from stream. |
+| [AddVideo](addvideo)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
+| [CopyTo](copyto)(Array, int) | Copies videos to specified array starting from specified index. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
 * interface [IVideoCollection](../ivideocollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

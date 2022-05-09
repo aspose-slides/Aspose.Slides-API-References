@@ -3,7 +3,7 @@ title: IOleEmbeddedDataInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6220
+weight: 5970
 url: /net/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo interface
@@ -14,7 +14,7 @@ Represents embedded data info for OLE object.
 public interface IOleEmbeddedDataInfo
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

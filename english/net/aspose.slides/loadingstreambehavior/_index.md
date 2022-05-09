@@ -3,7 +3,7 @@ title: LoadingStreamBehavior
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7400
+weight: 7150
 url: /net/aspose.slides/loadingstreambehavior/
 ---
 ## LoadingStreamBehavior enumeration

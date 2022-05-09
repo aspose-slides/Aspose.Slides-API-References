@@ -3,7 +3,7 @@ title: IsAutomaticMaxValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 190
 url: /net/aspose.slides.charts/iaxis/isautomaticmaxvalue/
 ---
 ## IAxis.IsAutomaticMaxValue property

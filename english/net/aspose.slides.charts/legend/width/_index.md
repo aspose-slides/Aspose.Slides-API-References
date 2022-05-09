@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 100
 url: /net/aspose.slides.charts/legend/width/
 ---
 ## Legend.Width property

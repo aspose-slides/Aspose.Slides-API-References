@@ -3,7 +3,7 @@ title: DataSourceTypeForValues
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 30
 url: /net/aspose.slides.charts/ichartdatapointcollection/datasourcetypeforvalues/
 ---
 ## IChartDataPointCollection.DataSourceTypeForValues property

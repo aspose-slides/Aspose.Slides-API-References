@@ -3,7 +3,7 @@ title: SpaceWithin
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 160
 url: /net/aspose.slides/iparagraphformateffectivedata/spacewithin/
 ---
 ## IParagraphFormatEffectiveData.SpaceWithin property

@@ -3,10 +3,48 @@ title: AddFromPdf
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 50
 url: /net/aspose.slides/islidecollection/addfrompdf/
 ---
 ## ISlideCollection.AddFromPdf method (1 of 2)
+
+Creates slides from the PDF document and adds them to the end of the collection.
+
+```csharp
+public ISlide[] AddFromPdf(string path)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | A path to the PDF document |
+
+## Return Value
+
+Added slides
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    pres.Slides.AddFromPdf("document.pdf");
+    pres.Save("fromPdfDocument.pptx", SaveFormat.Pptx);
+}
+```
+
+### See Also
+
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ISlideCollection.AddFromPdf method (2 of 2)
 
 Creates slides from the PDF document and adds them to the end of the collection.
 
@@ -35,44 +73,6 @@ using (Presentation pres = new Presentation())
         pres.Slides.AddFromPdf(stream);
     }
     
-    pres.Save("fromPdfDocument.pptx", SaveFormat.Pptx);
-}
-```
-
-### See Also
-
-* interface [ISlide](../../islide)
-* interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ISlideCollection.AddFromPdf method (2 of 2)
-
-Creates slides from the PDF document and adds them to the end of the collection.
-
-```csharp
-public ISlide[] AddFromPdf(string path)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | String | A path to the PDF document |
-
-## Return Value
-
-Added slides
-
-### Examples
-
-Example:
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation())
-{
-    pres.Slides.AddFromPdf("document.pdf");
     pres.Save("fromPdfDocument.pptx", SaveFormat.Pptx);
 }
 ```

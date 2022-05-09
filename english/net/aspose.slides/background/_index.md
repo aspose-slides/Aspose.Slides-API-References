@@ -3,7 +3,7 @@ title: Background
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 840
+weight: 830
 url: /net/aspose.slides/background/
 ---
 ## Background class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/background/
 Represents background of a slide.
 
 ```csharp
-public class Background : PVIObject, IBackground
+public sealed class Background : PVIObject, IBackground
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,6 +25,11 @@ public class Background : PVIObject, IBackground
 | [StyleColor](stylecolor) { get; } | Return a ColorFormat for a BackgroundType.Themed fill. Read-only [`IColorFormat`](../icolorformat). |
 | [StyleIndex](styleindex) { get; set; } | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write UInt16. |
 | [Type](type) { get; set; } | Returns a type of background fill. Read/write [`BackgroundType`](../backgroundtype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective background data with the inheritance applied. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: SplitByRowSpan
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 270
 url: /net/aspose.slides/cell/splitbyrowspan/
 ---
 ## Cell.SplitByRowSpan method

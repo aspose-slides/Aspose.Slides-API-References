@@ -3,7 +3,7 @@ title: SyncRoot
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.slides.charts/chartdataworksheetcollection/syncroot/
 ---
 ## ChartDataWorksheetCollection.SyncRoot property

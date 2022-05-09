@@ -3,7 +3,7 @@ title: ProofDisabled
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 200
 url: /net/aspose.slides/baseportionformat/proofdisabled/
 ---
 ## BasePortionFormat.ProofDisabled property

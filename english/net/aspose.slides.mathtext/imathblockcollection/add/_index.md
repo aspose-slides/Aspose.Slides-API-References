@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.slides.mathtext/imathblockcollection/add/
 ---
 ## IMathBlockCollection.Add method

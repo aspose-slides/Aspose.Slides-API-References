@@ -3,7 +3,7 @@ title: IsChartTypeScatter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 130
 url: /net/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/
 ---
 ## ChartTypeCharacterizer.IsChartTypeScatter method

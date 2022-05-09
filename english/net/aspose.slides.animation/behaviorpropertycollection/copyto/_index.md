@@ -3,7 +3,7 @@ title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.slides.animation/behaviorpropertycollection/copyto/
 ---
 ## BehaviorPropertyCollection.CopyTo method

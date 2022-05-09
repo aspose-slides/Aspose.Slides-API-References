@@ -3,7 +3,7 @@ title: QuartileMethod
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 340
 url: /net/aspose.slides.charts/chartseries/quartilemethod/
 ---
 ## ChartSeries.QuartileMethod property

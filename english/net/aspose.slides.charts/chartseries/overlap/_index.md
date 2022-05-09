@@ -3,7 +3,7 @@ title: Overlap
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 270
 url: /net/aspose.slides.charts/chartseries/overlap/
 ---
 ## ChartSeries.Overlap property

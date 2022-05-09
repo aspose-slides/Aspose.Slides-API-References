@@ -3,7 +3,7 @@ title: GrowToMatchOperandHeight
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 60
 url: /net/aspose.slides.mathtext/mathdelimiter/growtomatchoperandheight/
 ---
 ## MathDelimiter.GrowToMatchOperandHeight property

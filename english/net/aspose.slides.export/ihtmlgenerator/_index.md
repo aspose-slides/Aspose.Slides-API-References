@@ -3,7 +3,7 @@ title: IHtmlGenerator
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3890
+weight: 3640
 url: /net/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator interface
@@ -14,7 +14,7 @@ Html generator.
 public interface IHtmlGenerator
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,9 +24,20 @@ public interface IHtmlGenerator
 | [SlideImageSizeUnit](slideimagesizeunit) { get; } | Returns a unit in which slide image size is specified. Read-only [`SvgCoordinateUnit`](../svgcoordinateunit). |
 | [SlideImageSizeUnitCode](slideimagesizeunitcode) { get; } | Returns a css code of unit in which slide image size is specified. Read-only String. |
 | [SlideIndex](slideindex) { get; } | Returns index of currently rendering slide. Read-only Int32. |
-| [AddAttributeValue](addattributevalue)(…) | Quotes attribute value and adds it to the html file. (3 methods) |
-| [AddHtml](addhtml)(…) | Adds formatted HTML text. (3 methods) |
-| [AddText](addtext)(…) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddAttributeValue](addattributevalue)(char[]) | Quotes attribute value and adds it to the html file. |
+| [AddAttributeValue](addattributevalue)(string) | Quotes attribute value and adds it to the html file. |
+| [AddAttributeValue](addattributevalue)(char[], int, int) | Quotes attribute value and adds it to the html file. |
+| [AddHtml](addhtml)(char[]) | Adds formatted HTML text. |
+| [AddHtml](addhtml)(string) | Adds formatted HTML text. |
+| [AddHtml](addhtml)(char[], int, int) | Adds formatted HTML text. |
+| [AddText](addtext)(char[]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [AddText](addtext)(string) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [AddText](addtext)(char[], int, int) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
 
 ### See Also
 

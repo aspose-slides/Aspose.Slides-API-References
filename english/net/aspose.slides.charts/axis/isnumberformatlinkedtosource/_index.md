@@ -3,7 +3,7 @@ title: IsNumberFormatLinkedToSource
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 270
 url: /net/aspose.slides.charts/axis/isnumberformatlinkedtosource/
 ---
 ## Axis.IsNumberFormatLinkedToSource property

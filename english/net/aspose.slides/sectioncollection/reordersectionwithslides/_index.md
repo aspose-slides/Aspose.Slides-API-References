@@ -3,7 +3,7 @@ title: ReorderSectionWithSlides
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 140
 url: /net/aspose.slides/sectioncollection/reordersectionwithslides/
 ---
 ## SectionCollection.ReorderSectionWithSlides method

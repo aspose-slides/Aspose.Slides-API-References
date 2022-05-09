@@ -3,7 +3,7 @@ title: RemoveEncryption
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 90
 url: /net/aspose.slides/iprotectionmanager/removeencryption/
 ---
 ## IProtectionManager.RemoveEncryption method

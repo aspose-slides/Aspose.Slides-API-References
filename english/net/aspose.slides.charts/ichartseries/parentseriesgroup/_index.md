@@ -3,7 +3,7 @@ title: ParentSeriesGroup
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 290
 url: /net/aspose.slides.charts/ichartseries/parentseriesgroup/
 ---
 ## IChartSeries.ParentSeriesGroup property

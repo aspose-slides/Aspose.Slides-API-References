@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 130
 url: /net/aspose.slides/baseslide/equals/
 ---
 ## BaseSlide.Equals method
@@ -20,7 +20,7 @@ public bool Equals(IBaseSlide slide)
 
 ## Return Value
 
-true if the specified IBaseSlide is equal to the current IBaseSlide; otherwise, false.
+**true** if the specified IBaseSlide is equal to the current IBaseSlide; otherwise, **false**.
 
 ### See Also
 

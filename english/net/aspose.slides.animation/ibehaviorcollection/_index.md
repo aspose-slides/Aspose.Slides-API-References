@@ -3,7 +3,7 @@ title: IBehaviorCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 320
 url: /net/aspose.slides.animation/ibehaviorcollection/
 ---
 ## IBehaviorCollection interface
@@ -14,20 +14,25 @@ Represents collection of behavior effects.
 public interface IBehaviorCollection : IEnumerable<IBehavior>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Returns the number of behaviors in a collection. Read-only Int32. |
 | [Item](item) { get; set; } | Returns a behavior at the specified index. |
-| [Add](add)(…) | Add new behavior to a collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IBehavior) | Add new behavior to a collection. |
 | [Clear](clear)() | Removes all behaviors from a collection. |
-| [Contains](contains)(…) | Determines whether the ICollection contains a specific value. |
-| [IndexOf](indexof)(…) | Determines the index of a specific item in the IList. |
-| [Insert](insert)(…) | Inserts new behavior to a collection at the specified index. |
-| [Remove](remove)(…) | Removes specified behavior from a collection. |
-| [RemoveAt](removeat)(…) | Removes behavior from a collection at the specified index. |
+| [Contains](contains)(IBehavior) | Determines whether the ICollection contains a specific value. |
+| [IndexOf](indexof)(IBehavior) | Determines the index of a specific item in the IList. |
+| [Insert](insert)(int, IBehavior) | Inserts new behavior to a collection at the specified index. |
+| [Remove](remove)(IBehavior) | Removes specified behavior from a collection. |
+| [RemoveAt](removeat)(int) | Removes behavior from a collection at the specified index. |
 
 ### See Also
 

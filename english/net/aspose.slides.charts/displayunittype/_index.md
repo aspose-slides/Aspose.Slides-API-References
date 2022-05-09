@@ -3,7 +3,7 @@ title: DisplayUnitType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1500
+weight: 1480
 url: /net/aspose.slides.charts/displayunittype/
 ---
 ## DisplayUnitType enumeration

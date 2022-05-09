@@ -3,7 +3,7 @@ title: FillFocus
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 300
 url: /net/aspose.slides.animation/behaviorproperty/fillfocus/
 ---
 ## BehaviorProperty.FillFocus property

@@ -3,7 +3,7 @@ title: WrapText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 120
 url: /net/aspose.slides/itextframeformateffectivedata/wraptext/
 ---
 ## ITextFrameFormatEffectiveData.WrapText property

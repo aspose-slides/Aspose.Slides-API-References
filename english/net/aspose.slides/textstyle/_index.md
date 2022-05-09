@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10430
+weight: 10180
 url: /net/aspose.slides/textstyle/
 ---
 ## TextStyle class
@@ -14,13 +14,23 @@ This class contains the text style formatting properties.
 public class TextStyle : PVIObject, ITextStyle
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [DefaultParagraphFormat](defaultparagraphformat) { get; } | Default paragraph propertiies. Read-only [`IParagraphFormat`](../iparagraphformat). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective text style formatting data with the inheritance applied. |
-| [GetLevel](getlevel)(…) | If level of style exist returns it, otherwise returns null. |
+| [GetLevel](getlevel)(int) | If level of style exist returns it, otherwise returns null. |
+
+## Other Members
+
+| Name | Description |
+| --- | --- |
 | static readonly [MaxLevelCount](maxlevelcount) | Maximum count of style levels that can be defined. Use it with GetLevel(int index) |
 
 ### See Also

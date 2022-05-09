@@ -3,7 +3,7 @@ title: Direction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.slides.effects/iinnershadow/direction/
 ---
 ## IInnerShadow.Direction property

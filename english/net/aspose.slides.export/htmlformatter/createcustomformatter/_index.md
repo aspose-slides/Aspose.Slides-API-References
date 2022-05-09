@@ -3,7 +3,7 @@ title: CreateCustomFormatter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.slides.export/htmlformatter/createcustomformatter/
 ---
 ## HtmlFormatter.CreateCustomFormatter method

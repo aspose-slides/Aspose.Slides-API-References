@@ -3,7 +3,7 @@ title: SmartTagClean
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.slides/portionformat/smarttagclean/
 ---
 ## PortionFormat.SmartTagClean property

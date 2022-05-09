@@ -3,7 +3,7 @@ title: ExtraColorScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10530
+weight: 10280
 url: /net/aspose.slides.theme/extracolorscheme/
 ---
 ## ExtraColorScheme class
@@ -14,7 +14,7 @@ Represents an additional color scheme which can be assigned to a slide.
 public class ExtraColorScheme : IExtraColorScheme
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

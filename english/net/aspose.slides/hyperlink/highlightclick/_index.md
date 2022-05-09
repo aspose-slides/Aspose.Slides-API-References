@@ -3,7 +3,7 @@ title: HighlightClick
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 130
 url: /net/aspose.slides/hyperlink/highlightclick/
 ---
 ## Hyperlink.HighlightClick property

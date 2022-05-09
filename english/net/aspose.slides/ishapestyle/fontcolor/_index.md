@@ -3,7 +3,7 @@ title: FontColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.slides/ishapestyle/fontcolor/
 ---
 ## IShapeStyle.FontColor property

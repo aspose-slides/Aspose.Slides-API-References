@@ -3,7 +3,7 @@ title: IsAutomaticTickMarksSpacing
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 240
 url: /net/aspose.slides.charts/iaxis/isautomatictickmarksspacing/
 ---
 ## IAxis.IsAutomaticTickMarksSpacing property

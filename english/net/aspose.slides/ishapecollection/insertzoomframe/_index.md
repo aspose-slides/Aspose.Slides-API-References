@@ -3,7 +3,7 @@ title: InsertZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 360
 url: /net/aspose.slides/ishapecollection/insertzoomframe/
 ---
 ## IShapeCollection.InsertZoomFrame method (1 of 2)

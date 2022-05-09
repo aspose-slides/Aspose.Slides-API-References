@@ -3,7 +3,7 @@ title: PictureFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8920
+weight: 8670
 url: /net/aspose.slides/pictureframe/
 ---
 ## PictureFrame class
@@ -14,7 +14,7 @@ Represents a frame with a picture inside.
 public class PictureFrame : GeometryShape, IPictureFrame
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

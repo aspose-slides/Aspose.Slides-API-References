@@ -3,7 +3,7 @@ title: ParagraphCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8800
+weight: 8550
 url: /net/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection class
@@ -11,30 +11,40 @@ url: /net/aspose.slides/paragraphcollection/
 Represents a collection of a paragraphs.
 
 ```csharp
-public sealed class ParagraphCollection : IParagraphCollection
+public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. |
-| [Add](add)(…) | Adds a Paragraph to the end of collection. (2 methods) |
-| [AddFromHtml](addfromhtml)(…) | Adds text from specified html string to the collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IParagraph) | Adds a Paragraph to the end of collection. |
+| [Add](add)(IParagraphCollection) | Adds a content of ParagraphCollection to the end of collection. |
+| [AddFromHtml](addfromhtml)(string) | Adds text from specified html string to the collection. |
+| [AddFromHtml](addfromhtml)(string, IExternalResourceResolver, string) | Adds text from specified html string to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the ICollection contains a specific value. |
-| [CopyTo](copyto)(…) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
-| [ExportToHtml](exporttohtml)(…) | Converts specifying paragraphs to the HTML and returns it as String object. |
+| [Contains](contains)(IParagraph) | Determines whether the ICollection contains a specific value. |
+| [CopyTo](copyto)(IParagraph[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
+| [ExportToHtml](exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converts specifying paragraphs to the HTML and returns it as String object. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(…) | Determines the index of a specific item in the IList. |
-| [Insert](insert)(…) | Inserts a Paragraph into the collection at the specified index. (2 methods) |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the ICollection. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index of the collection. |
+| [IndexOf](indexof)(IParagraph) | Determines the index of a specific item in the IList. |
+| [Insert](insert)(int, IParagraph) | Inserts a Paragraph into the collection at the specified index. |
+| [Insert](insert)(int, IParagraphCollection) | Inserts a content of ParagraphCollection into the collection at the specified index. |
+| [Remove](remove)(IParagraph) | Removes the first occurrence of a specific object from the ICollection. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [TextFrame](../textframe)
 * interface [IParagraphCollection](../iparagraphcollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

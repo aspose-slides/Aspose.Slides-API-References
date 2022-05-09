@@ -3,7 +3,7 @@ title: CellFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1030
+weight: 1010
 url: /net/aspose.slides/cellformat/
 ---
 ## CellFormat class
@@ -14,7 +14,7 @@ Represents format of a table cell.
 public class CellFormat : PVIObject, ICellFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,6 +25,11 @@ public class CellFormat : PVIObject, ICellFormat
 | [BorderRight](borderright) { get; } | Returns a right border line properties object. Read-only [`ILineFormat`](../ilineformat). |
 | [BorderTop](bordertop) { get; } | Returns a top border line properties object. Read-only [`ILineFormat`](../ilineformat). |
 | [FillFormat](fillformat) { get; } | Returns a cell fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective table cell formatting properties with inheritance and table styles applied. |
 
 ### See Also

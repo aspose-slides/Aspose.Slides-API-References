@@ -3,7 +3,7 @@ title: IBlobManagementOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5140
+weight: 4890
 url: /net/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions interface
@@ -14,7 +14,7 @@ A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. B
 public interface IBlobManagementOptions
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

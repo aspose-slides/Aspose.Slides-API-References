@@ -3,7 +3,7 @@ title: AddFromHtml
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 70
 url: /net/aspose.slides/slidecollection/addfromhtml/
 ---
 ## SlideCollection.AddFromHtml method (1 of 6)
@@ -11,20 +11,23 @@ url: /net/aspose.slides/slidecollection/addfromhtml/
 Creates slides from HTML text and adds them to the end of the collection.
 
 ```csharp
-public ISlide[] AddFromHtml(Stream htmlStream)
+public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| htmlStream | Stream | A Stream object which will be used as a source of a HTML file. |
+| htmlText | String | Html to add. |
+| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ## Return Value
 
-Added slides
+Added slides.
 
 ### See Also
 
 * interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SlideCollection](../../slidecollection)
 * namespace [Aspose.Slides](../../slidecollection)
 * assembly [Aspose.Slides](../../../)
@@ -61,6 +64,34 @@ Added slides
 Creates slides from HTML text and adds them to the end of the collection.
 
 ```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlReader | TextReader | TextReader object which will be used as a source of a HTML file. |
+| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+
+## Return Value
+
+Added slides.
+
+### See Also
+
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## SlideCollection.AddFromHtml method (4 of 6)
+
+Creates slides from HTML text and adds them to the end of the collection.
+
+```csharp
 public ISlide[] AddFromHtml(TextReader htmlReader)
 ```
 
@@ -81,7 +112,7 @@ Added slides
 
 ---
 
-## SlideCollection.AddFromHtml method (4 of 6)
+## SlideCollection.AddFromHtml method (5 of 6)
 
 Creates slides from HTML text and adds them to the end of the collection.
 
@@ -109,56 +140,25 @@ Added slides.
 
 ---
 
-## SlideCollection.AddFromHtml method (5 of 6)
-
-Creates slides from HTML text and adds them to the end of the collection.
-
-```csharp
-public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| htmlText | String | Html to add. |
-| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | String | An URI of the specified HTML. Used to resolve relative links. |
-
-## Return Value
-
-Added slides.
-
-### See Also
-
-* interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
-* class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
 ## SlideCollection.AddFromHtml method (6 of 6)
 
 Creates slides from HTML text and adds them to the end of the collection.
 
 ```csharp
-public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
+public ISlide[] AddFromHtml(Stream htmlStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| htmlReader | TextReader | TextReader object which will be used as a source of a HTML file. |
-| resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| htmlStream | Stream | A Stream object which will be used as a source of a HTML file. |
 
 ## Return Value
 
-Added slides.
+Added slides
 
 ### See Also
 
 * interface [ISlide](../../islide)
-* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SlideCollection](../../slidecollection)
 * namespace [Aspose.Slides](../../slidecollection)
 * assembly [Aspose.Slides](../../../)

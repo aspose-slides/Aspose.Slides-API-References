@@ -3,7 +3,7 @@ title: AsIGraphicalObject
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 10
 url: /net/aspose.slides/ioleobjectframe/asigraphicalobject/
 ---
 ## IOleObjectFrame.AsIGraphicalObject property

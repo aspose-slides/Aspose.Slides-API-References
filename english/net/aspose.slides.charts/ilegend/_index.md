@@ -3,7 +3,7 @@ title: ILegend
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2010
+weight: 1990
 url: /net/aspose.slides.charts/ilegend/
 ---
 ## ILegend interface
@@ -14,7 +14,7 @@ Represents chart's legend properties.
 public interface ILegend : IFormattedTextContainer, ILayoutable
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

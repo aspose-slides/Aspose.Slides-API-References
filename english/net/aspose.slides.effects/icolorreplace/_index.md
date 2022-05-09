@@ -3,7 +3,7 @@ title: IColorReplace
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3220
+weight: 3040
 url: /net/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace interface
@@ -15,7 +15,7 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

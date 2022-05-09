@@ -3,7 +3,7 @@ title: SlideShowTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9780
+weight: 9530
 url: /net/aspose.slides.slideshow/slideshowtransition/
 ---
 ## SlideShowTransition class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.slideshow/slideshowtransition/
 Represents slide show transition.
 
 ```csharp
-public class SlideShowTransition : ISlideShowTransition
+public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -28,11 +28,18 @@ public class SlideShowTransition : ISlideShowTransition
 | [Speed](speed) { get; set; } | Specifies the transition speed that is to be used when transitioning from the current slide to the next. Read/write [`TransitionSpeed`](../transitionspeed). |
 | [Type](type) { get; set; } | Type of transition. Read/write [`TransitionType`](../transitiontype). |
 | [Value](value) { get; } | Slide show transition value. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
-| override [Equals](equals)(…) | Determines whether the two SlideShowTransition instances are equal. Read/write Boolean. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the two SlideShowTransition instances are equal. Read/write Boolean. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [BaseSlide](../../aspose.slides/baseslide)
 * interface [ISlideShowTransition](../../aspose.slides/islideshowtransition)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

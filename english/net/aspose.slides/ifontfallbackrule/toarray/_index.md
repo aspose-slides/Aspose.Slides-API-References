@@ -3,7 +3,7 @@ title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 100
 url: /net/aspose.slides/ifontfallbackrule/toarray/
 ---
 ## IFontFallBackRule.ToArray method (1 of 2)

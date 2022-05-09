@@ -3,7 +3,7 @@ title: NumberedBulletStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.slides/ibulletformateffectivedata/numberedbulletstyle/
 ---
 ## IBulletFormatEffectiveData.NumberedBulletStyle property

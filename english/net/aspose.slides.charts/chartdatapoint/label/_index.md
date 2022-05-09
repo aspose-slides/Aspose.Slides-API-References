@@ -3,7 +3,7 @@ title: Label
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 130
 url: /net/aspose.slides.charts/chartdatapoint/label/
 ---
 ## ChartDataPoint.Label property

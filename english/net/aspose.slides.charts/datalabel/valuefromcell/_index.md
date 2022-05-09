@@ -3,7 +3,7 @@ title: ValueFromCell
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 140
 url: /net/aspose.slides.charts/datalabel/valuefromcell/
 ---
 ## DataLabel.ValueFromCell property

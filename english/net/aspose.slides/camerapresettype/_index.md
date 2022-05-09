@@ -3,7 +3,7 @@ title: CameraPresetType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1000
+weight: 980
 url: /net/aspose.slides/camerapresettype/
 ---
 ## CameraPresetType enumeration

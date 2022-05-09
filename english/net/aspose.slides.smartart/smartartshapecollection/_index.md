@@ -3,7 +3,7 @@ title: SmartArtShapeCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10100
+weight: 9850
 url: /net/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection class
@@ -14,7 +14,7 @@ Represents a collection of a SmartArt shapes
 public class SmartArtShapeCollection : ISmartArtShapeCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,12 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`SmartArtShape`](../smartartshape).&gt;. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.slides.charts/ichartcellcollection/add/
 ---
 ## IChartCellCollection.Add method (1 of 2)

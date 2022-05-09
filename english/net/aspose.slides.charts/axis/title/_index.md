@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 550
 url: /net/aspose.slides.charts/axis/title/
 ---
 ## Axis.Title property

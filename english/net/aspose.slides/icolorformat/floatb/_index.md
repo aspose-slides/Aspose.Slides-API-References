@@ -3,7 +3,7 @@ title: FloatB
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 60
 url: /net/aspose.slides/icolorformat/floatb/
 ---
 ## IColorFormat.FloatB property

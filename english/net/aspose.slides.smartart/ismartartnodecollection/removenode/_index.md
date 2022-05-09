@@ -3,7 +3,7 @@ title: RemoveNode
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.slides.smartart/ismartartnodecollection/removenode/
 ---
 ## ISmartArtNodeCollection.RemoveNode method (1 of 2)

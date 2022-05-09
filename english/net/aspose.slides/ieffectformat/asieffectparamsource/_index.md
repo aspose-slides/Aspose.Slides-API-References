@@ -3,7 +3,7 @@ title: AsIEffectParamSource
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 10
 url: /net/aspose.slides/ieffectformat/asieffectparamsource/
 ---
 ## IEffectFormat.AsIEffectParamSource property

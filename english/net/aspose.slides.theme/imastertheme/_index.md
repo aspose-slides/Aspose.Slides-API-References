@@ -3,7 +3,7 @@ title: IMasterTheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10740
+weight: 10490
 url: /net/aspose.slides.theme/imastertheme/
 ---
 ## IMasterTheme interface
@@ -14,7 +14,7 @@ Represents a master theme.
 public interface IMasterTheme : ITheme
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

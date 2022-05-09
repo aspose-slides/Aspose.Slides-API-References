@@ -3,7 +3,7 @@ title: HiLowLinesFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 90
 url: /net/aspose.slides.charts/chartseriesgroup/hilowlinesformat/
 ---
 ## ChartSeriesGroup.HiLowLinesFormat property

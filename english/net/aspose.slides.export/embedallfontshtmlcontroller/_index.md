@@ -3,7 +3,7 @@ title: EmbedAllFontsHtmlController
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3740
+weight: 3490
 url: /net/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController class
@@ -14,20 +14,25 @@ The formatting controller class to use for embedding all presentation fonts in W
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [EmbedAllFontsHtmlController](embedallfontshtmlcontroller)() | Creates new instance |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller)(…) | Creates new instance |
-| virtual [WriteAllFonts](writeallfonts)(…) | Write all fonts contained in [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](writedocumentend)(…) | Called to write html document footer. Called once per presentation conversion. |
-| virtual [WriteDocumentStart](writedocumentstart)(…) | Called to write html document header. Called once per presentation conversion. |
-| virtual [WriteFont](writefont)(…) | Writes data as base64 into HTML document itself |
-| virtual [WriteShapeEnd](writeshapeend)(…) | Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous. |
-| virtual [WriteShapeStart](writeshapestart)(…) | Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous. |
-| virtual [WriteSlideEnd](writeslideend)(…) | Called to write html slide footer. Called once per each of slides. |
-| virtual [WriteSlideStart](writeslidestart)(…) | Called to write html slide header. Called once per each of slides. |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller)(string[]) | Creates new instance |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [WriteAllFonts](writeallfonts)(IHtmlGenerator, IPresentation) | Write all fonts contained in [`Presentation`](../../aspose.slides/presentation). |
+| virtual [WriteDocumentEnd](writedocumentend)(IHtmlGenerator, IPresentation) | Called to write html document footer. Called once per presentation conversion. |
+| virtual [WriteDocumentStart](writedocumentstart)(IHtmlGenerator, IPresentation) | Called to write html document header. Called once per presentation conversion. |
+| virtual [WriteFont](writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Writes data as base64 into HTML document itself |
+| virtual [WriteShapeEnd](writeshapeend)(IHtmlGenerator, IShape) | Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous. |
+| virtual [WriteShapeStart](writeshapestart)(IHtmlGenerator, IShape) | Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous. |
+| virtual [WriteSlideEnd](writeslideend)(IHtmlGenerator, ISlide) | Called to write html slide footer. Called once per each of slides. |
+| virtual [WriteSlideStart](writeslidestart)(IHtmlGenerator, ISlide) | Called to write html slide header. Called once per each of slides. |
 
 ### See Also
 

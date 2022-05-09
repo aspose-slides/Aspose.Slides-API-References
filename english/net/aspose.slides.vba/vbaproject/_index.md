@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11080
+weight: 10830
 url: /net/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject class
@@ -14,15 +14,25 @@ Represents VBA project with presentation macros.
 public sealed class VbaProject : IVbaProject
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [VbaProject](vbaproject)() | This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
-| [VbaProject](vbaproject)(…) | This constructor loads VBA project from binary representation of OLE container. |
+| [VbaProject](vbaproject)(byte[]) | This constructor loads VBA project from binary representation of OLE container. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Modules](modules) { get; } | Returns the list of all modules that are contained in the VBA project. Read-only [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](name) { get; } | Returns the name of the VBA project. Read-only String. |
 | [References](references) { get; } | Returns the list of all references that are contained in the VBA project. Read-only [`IVbaReferenceCollection`](../ivbareferencecollection). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToBinary](tobinary)() | Returns the binary representation of the VBA project as OLE container |
 
 ### See Also

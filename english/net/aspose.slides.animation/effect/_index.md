@@ -3,7 +3,7 @@ title: Effect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.slides.animation/effect/
 ---
 ## Effect class
@@ -14,7 +14,7 @@ Represents animation effect.
 public class Effect : IEffect
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: ModernComment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8600
+weight: 8350
 url: /net/aspose.slides/moderncomment/
 ---
 ## ModernComment class
@@ -14,7 +14,7 @@ Represents a comment on a slide.
 public sealed class ModernComment : Comment, IModernComment
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

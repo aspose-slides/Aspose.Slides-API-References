@@ -3,7 +3,7 @@ title: CreateMathRightSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement/
 ---
 ## MathRightSubSuperscriptElementFactory.CreateMathRightSubSuperscriptElement method

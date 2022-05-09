@@ -3,7 +3,7 @@ title: AddDataPointForHistogramSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 130
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforhistogramseries/
 ---
 ## IChartDataPointCollection.AddDataPointForHistogramSeries method

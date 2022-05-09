@@ -3,7 +3,7 @@ title: Collect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7410
+weight: 7160
 url: /net/aspose.slides.lowcode/collect/
 ---
 ## Collect class
@@ -14,11 +14,11 @@ Represents a group of methods intended to collect model objects of different typ
 public static class Collect
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| static [Shapes](shapes)(…) | Collects all instances of [`Shape`](../../aspose.slides/shape) in the [`Presentation`](../../aspose.slides/presentation). |
+| static [Shapes](shapes)(Presentation) | Collects all instances of [`Shape`](../../aspose.slides/shape) in the [`Presentation`](../../aspose.slides/presentation). |
 
 ### Examples
 

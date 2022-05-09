@@ -3,7 +3,7 @@ title: MathSubscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8510
+weight: 8260
 url: /net/aspose.slides.mathtext/mathsubscriptelement/
 ---
 ## MathSubscriptElement class
@@ -14,12 +14,22 @@ Specifies the subscript object, which consists of a base and a reduced-size subs
 public sealed class MathSubscriptElement : BaseScript, IMathSubscriptElement
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathSubscriptElement](mathsubscriptelement)(…) | Initializes a new instance of the MathSubscriptElement class. |
+| [MathSubscriptElement](mathsubscriptelement)(IMathElement, IMathElement) | Initializes a new instance of the MathSubscriptElement class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Subscript](subscript) { get; } | Subscript |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

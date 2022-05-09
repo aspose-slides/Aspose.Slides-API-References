@@ -3,7 +3,7 @@ title: ISvgShapeFormattingController
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4040
+weight: 3790
 url: /net/aspose.slides.export/isvgshapeformattingcontroller/
 ---
 ## ISvgShapeFormattingController interface
@@ -14,11 +14,11 @@ Controls SVG shape generation.
 public interface ISvgShapeFormattingController
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [FormatShape](formatshape)(…) | This function is called before rendering of shape to SVG to allow user to control resulting SVG. |
+| [FormatShape](formatshape)(ISvgShape, IShape) | This function is called before rendering of shape to SVG to allow user to control resulting SVG. |
 
 ### See Also
 

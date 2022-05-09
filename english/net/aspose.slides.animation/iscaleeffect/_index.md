@@ -3,7 +3,7 @@ title: IScaleEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 480
 url: /net/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect interface
@@ -14,7 +14,7 @@ Represents animation scale effect.
 public interface IScaleEffect : IBehavior
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: MathRightSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8470
+weight: 8220
 url: /net/aspose.slides.mathtext/mathrightsubsuperscriptelement/
 ---
 ## MathRightSubSuperscriptElement class
@@ -14,14 +14,24 @@ Specifies the Sub-Superscript object, which consists of a base and a subscript a
 public sealed class MathRightSubSuperscriptElement : BaseScript, IMathRightSubSuperscriptElement
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathRightSubSuperscriptElement](mathrightsubsuperscriptelement)(…) | Initializes a new instance of the MathRightSubSuperscriptElement class. |
+| [MathRightSubSuperscriptElement](mathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathRightSubSuperscriptElement class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AlignScripts](alignscripts) { get; set; } | Specifies the alignment of subscript/superscript. When true, subscript and superscript are aligned horizontally to each other. When false, they are kerned to the shape of the base. Default value is false. |
 | [Subscript](subscript) { get; } | Subscript argument |
 | [Superscript](superscript) { get; } | Superscript argument |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

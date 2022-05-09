@@ -3,7 +3,7 @@ title: ShowComments
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.slides/viewproperties/showcomments/
 ---
 ## ViewProperties.ShowComments property

@@ -3,7 +3,7 @@ title: QuickStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.slides.smartart/smartart/quickstyle/
 ---
 ## SmartArt.QuickStyle property

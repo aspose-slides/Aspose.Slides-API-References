@@ -3,7 +3,7 @@ title: IEffectParamSource
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5490
+weight: 5240
 url: /net/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource interface

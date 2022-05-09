@@ -3,7 +3,7 @@ title: GradientStopCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4830
+weight: 4580
 url: /net/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData class
@@ -14,7 +14,7 @@ Represents a collection of GradientStopData objects.
 public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,12 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns the gradient stop by index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also

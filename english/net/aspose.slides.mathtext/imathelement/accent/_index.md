@@ -3,7 +3,7 @@ title: Accent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 10
 url: /net/aspose.slides.mathtext/imathelement/accent/
 ---
 ## IMathElement.Accent method

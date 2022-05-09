@@ -3,12 +3,12 @@ title: IsBulletHardColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 50
 url: /net/aspose.slides/ibulletformat/isbullethardcolor/
 ---
 ## IBulletFormat.IsBulletHardColor property
 
-Determines whether the bullet has own color or inherits it from the first portion in the paragraph. NullableBool.True if bullet has own color and NullableBool.False if bullet inherits color from the first portion in the paragraph. Read/write [`NullableBool`](../../nullablebool).
+Determines whether the bullet has own color or inherits it from the first portion in the paragraph. **NullableBool.True** if bullet has own color and **NullableBool.False** if bullet inherits color from the first portion in the paragraph. Read/write [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardColor { get; set; }

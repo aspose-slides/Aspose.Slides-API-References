@@ -3,20 +3,21 @@ title: GetTileImage
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.slides/ipatternformat/gettileimage/
 ---
 ## IPatternFormat.GetTileImage method (1 of 2)
 
-Creates a tile image for the pattern fill.
+Creates a tile image for the pattern fill with a specified colors.
 
 ```csharp
-public Bitmap GetTileImage(Color styleColor)
+public Bitmap GetTileImage(Color background, Color foreground)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| styleColor | Color | The default Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
+| background | Color | The background Color for the pattern. |
+| foreground | Color | The foreground Color for the pattern. |
 
 ## Return Value
 
@@ -32,16 +33,15 @@ Tile Bitmap.
 
 ## IPatternFormat.GetTileImage method (2 of 2)
 
-Creates a tile image for the pattern fill with a specified colors.
+Creates a tile image for the pattern fill.
 
 ```csharp
-public Bitmap GetTileImage(Color background, Color foreground)
+public Bitmap GetTileImage(Color styleColor)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| background | Color | The background Color for the pattern. |
-| foreground | Color | The foreground Color for the pattern. |
+| styleColor | Color | The default Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
 ## Return Value
 

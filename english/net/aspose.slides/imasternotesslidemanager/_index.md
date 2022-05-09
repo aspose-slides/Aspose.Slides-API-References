@@ -3,7 +3,7 @@ title: IMasterNotesSlideManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6100
+weight: 5850
 url: /net/aspose.slides/imasternotesslidemanager/
 ---
 ## IMasterNotesSlideManager interface
@@ -14,11 +14,16 @@ Master notes slide manager.
 public interface IMasterNotesSlideManager
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [MasterNotesSlide](masternotesslide) { get; } | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only [`IMasterNotesSlide`](../imasternotesslide). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [RemoveMasterNotesSlide](removemasternotesslide)() | Removes master notes slide. |
 | [SetDefaultMasterNotesSlide](setdefaultmasternotesslide)() | Sets defalut master notes slide for related notes slide. |
 

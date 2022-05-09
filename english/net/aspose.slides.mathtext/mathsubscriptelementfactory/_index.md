@@ -3,7 +3,7 @@ title: MathSubscriptElementFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8520
+weight: 8270
 url: /net/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory class
@@ -14,12 +14,17 @@ Allows to create IMathSubscriptElement
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathSubscriptElementFactory](mathsubscriptelementfactory)() | The default constructor. |
-| [CreateMathSubscriptElement](createmathsubscriptelement)(…) | Creates IMathSubscriptElement |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateMathSubscriptElement](createmathsubscriptelement)(IMathElement, IMathElement) | Creates IMathSubscriptElement |
 
 ### Remarks
 

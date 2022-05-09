@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 250
 url: /net/aspose.slides/ishape/width/
 ---
 ## IShape.Width property

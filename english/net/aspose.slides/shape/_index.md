@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9300
+weight: 9050
 url: /net/aspose.slides/shape/
 ---
 ## Shape class
@@ -14,7 +14,7 @@ Represents a shape on a slide.
 public class Shape : IShape
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -49,11 +49,17 @@ public class Shape : IShape
 | [X](x) { get; set; } | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write Single. |
 | [Y](y) { get; set; } | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write Single. |
 | virtual [ZOrderPosition](zorderposition) { get; } | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only Int32. |
-| [AddPlaceholder](addplaceholder)(…) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddPlaceholder](addplaceholder)(IPlaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [GetThumbnail](getthumbnail)() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
-| [GetThumbnail](getthumbnail)(…) | Returns shape thumbnail. |
+| [GetThumbnail](getthumbnail)(ShapeThumbnailBounds, float, float) | Returns shape thumbnail. |
 | [RemovePlaceholder](removeplaceholder)() | Defines that this shape isn't a placeholder. |
-| [WriteAsSvg](writeassvg)(…) | Saves content of Shape as SVG file. (2 methods) |
+| [WriteAsSvg](writeassvg)(Stream) | Saves content of Shape as SVG file. |
+| [WriteAsSvg](writeassvg)(Stream, ISVGOptions) | Saves content of Shape as SVG file. |
 
 ### See Also
 

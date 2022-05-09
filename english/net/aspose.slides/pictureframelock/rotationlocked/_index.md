@@ -3,7 +3,7 @@ title: RotationLocked
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 80
 url: /net/aspose.slides/pictureframelock/rotationlocked/
 ---
 ## PictureFrameLock.RotationLocked property

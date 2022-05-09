@@ -3,7 +3,7 @@ title: FillOpacity2
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 380
 url: /net/aspose.slides.animation/behaviorproperty/fillopacity2/
 ---
 ## BehaviorProperty.FillOpacity2 property

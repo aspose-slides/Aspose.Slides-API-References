@@ -3,7 +3,7 @@ title: EmbeddedAudio
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 70
 url: /net/aspose.slides/iaudioframe/embeddedaudio/
 ---
 ## IAudioFrame.EmbeddedAudio property

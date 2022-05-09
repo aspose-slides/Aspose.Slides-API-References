@@ -3,7 +3,7 @@ title: ColorReplace
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2880
+weight: 2770
 url: /net/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace class
@@ -14,12 +14,17 @@ Represents a Color Replacement effect. All effect colors are changed to a fixed 
 public class ColorReplace : ImageTransformOperation, IColorReplace
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Color](color) { get; } | Returns color format which will replace color of every pixel. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| override [Equals](equals)(…) | Determines whether the specified [`ColorReplace`](../colorreplace) is equal to the current [`ColorReplace`](../colorreplace). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`ColorReplace`](../colorreplace) is equal to the current [`ColorReplace`](../colorreplace). |
 | [GetEffective](geteffective)() | Gets effective Color Replacement effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

@@ -3,7 +3,7 @@ title: DataSourceTypeForBubbleSizes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 10
 url: /net/aspose.slides.charts/ichartdatapointcollection/datasourcetypeforbubblesizes/
 ---
 ## IChartDataPointCollection.DataSourceTypeForBubbleSizes property

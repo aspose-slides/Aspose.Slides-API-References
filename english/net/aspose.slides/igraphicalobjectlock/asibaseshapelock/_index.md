@@ -3,7 +3,7 @@ title: AsIBaseShapeLock
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 10
 url: /net/aspose.slides/igraphicalobjectlock/asibaseshapelock/
 ---
 ## IGraphicalObjectLock.AsIBaseShapeLock property

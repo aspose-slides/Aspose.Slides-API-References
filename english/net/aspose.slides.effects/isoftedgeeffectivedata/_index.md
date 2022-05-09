@@ -3,7 +3,7 @@ title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3510
+weight: 3330
 url: /net/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents a soft edge effect. The edges of the shape are
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: ImageCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7090
+weight: 6840
 url: /net/aspose.slides/imagecollection/
 ---
 ## ImageCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/imagecollection/
 Represents collection of PPImage.
 
 ```csharp
-public sealed class ImageCollection : IImageCollection
+public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,12 +22,25 @@ public sealed class ImageCollection : IImageCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IPPImage`](../ippimage). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddImage](addimage)(…) | Adds a copy of an image from an another presentation. (7 methods) |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddImage](addimage)(byte[]) | Adds an image to a presentation from specified buffer. |
+| [AddImage](addimage)(Image) | Add an image to a presentation. |
+| [AddImage](addimage)(IPPImage) | Adds a copy of an image from an another presentation. |
+| [AddImage](addimage)(ISvgImage) | Add an image to a presentation from Svg object. |
+| [AddImage](addimage)(MemoryStream) | Add an image to a presentation from stream. |
+| [AddImage](addimage)(Stream) | Add an image to a presentation from stream. |
+| [AddImage](addimage)(Stream, LoadingStreamBehavior) | Creates and adds an image to a presentation from stream. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
 * interface [IImageCollection](../iimagecollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

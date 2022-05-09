@@ -3,7 +3,7 @@ title: IAxis
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1590
+weight: 1570
 url: /net/aspose.slides.charts/iaxis/
 ---
 ## IAxis interface
@@ -14,7 +14,7 @@ Encapsulates the object that represents a chart's axis.
 public interface IAxis : IFormattedTextContainer
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -73,6 +73,11 @@ public interface IAxis : IFormattedTextContainer
 | [TickMarksSpacing](tickmarksspacing) { get; set; } | Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read/write UInt16. |
 | [Title](title) { get; } | Gets the axis' title. Read-only [`IChartTitle`](../icharttitle). |
 | [UnderflowBin](underflowbin) { get; set; } | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [SetCategoryAxisTypeAutomatically](setcategoryaxistypeautomatically)() | Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data. |
 
 ### See Also

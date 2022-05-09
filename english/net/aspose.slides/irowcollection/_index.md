@@ -3,7 +3,7 @@ title: IRowCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6550
+weight: 6300
 url: /net/aspose.slides/irowcollection/
 ---
 ## IRowCollection interface
@@ -14,14 +14,19 @@ Represents table row collection.
 public interface IRowCollection : IGenericCollection<IRow>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. |
-| [AddClone](addclone)(…) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [InsertClone](insertclone)(…) | Creates a copy of the specified template row and insert it at the specified position in a table. |
-| [RemoveAt](removeat)(…) | Removes a row at the specified position from a table. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddClone](addclone)(IRow, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [InsertClone](insertclone)(int, IRow, bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
+| [RemoveAt](removeat)(int, bool) | Removes a row at the specified position from a table. |
 
 ### See Also
 

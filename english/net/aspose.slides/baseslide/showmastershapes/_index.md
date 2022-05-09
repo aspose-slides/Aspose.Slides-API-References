@@ -3,7 +3,7 @@ title: ShowMasterShapes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 80
 url: /net/aspose.slides/baseslide/showmastershapes/
 ---
 ## BaseSlide.ShowMasterShapes property

@@ -3,7 +3,7 @@ title: Images
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 140
 url: /net/aspose.slides/presentation/images/
 ---
 ## Presentation.Images property

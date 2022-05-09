@@ -3,7 +3,7 @@ title: Legend
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2160
+weight: 2140
 url: /net/aspose.slides.charts/legend/
 ---
 ## Legend class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/legend/
 Represents chart's legend properties.
 
 ```csharp
-public class Legend : ILegend
+public class Legend : DomObject<Chart>, ILegend
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -33,6 +33,8 @@ public class Legend : ILegend
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Chart](../chart)
 * interface [ILegend](../ilegend)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: DataLabel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1430
+weight: 1410
 url: /net/aspose.slides.charts/datalabel/
 ---
 ## DataLabel class
@@ -14,11 +14,16 @@ Represents a series labels.
 public class DataLabel : IDataLabel
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [DataLabel](datalabel)(…) | Creates a new instance of DataLabel class. |
+| [DataLabel](datalabel)(IChartDataPoint) | Creates a new instance of DataLabel class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ActualHeight](actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
 | [ActualWidth](actualwidth) { get; } | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
 | [ActualX](actualx) { get; } | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
@@ -35,7 +40,12 @@ public class DataLabel : IDataLabel
 | [Width](width) { get; set; } | Returns or sets the width of a title as a fraction of the width of the chart. Read/write Single. |
 | [X](x) { get; set; } | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write Single. |
 | [Y](y) { get; set; } | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write Single. |
-| [AddTextFrameForOverriding](addtextframeforoverriding)(…) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddTextFrameForOverriding](addtextframeforoverriding)(string) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 | [GetActualLabelText](getactuallabeltext)() | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
 | [Hide](hide)() | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this. |
 

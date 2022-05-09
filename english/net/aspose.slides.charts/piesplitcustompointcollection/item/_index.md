@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 40
 url: /net/aspose.slides.charts/piesplitcustompointcollection/item/
 ---
 ## PieSplitCustomPointCollection indexer

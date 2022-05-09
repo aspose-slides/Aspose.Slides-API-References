@@ -3,21 +3,26 @@ title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 270
 url: /net/aspose.slides/ishapecollection/insertclone/
 ---
 ## IShapeCollection.InsertClone method (1 of 3)
 
-Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the *sourceShape*.
+Inserts a copy of a specified shape to specified position of the collection.
 
 ```csharp
-public IShape InsertClone(int index, IShape sourceShape)
+public IShape InsertClone(int index, IShape sourceShape, float x, float y, float width, 
+    float height)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | Int32 | Index of new shape. |
 | sourceShape | IShape | Shape to clone. |
+| x | Single | X coordinate of a new shape. |
+| y | Single | Y coordinate of a new shape. |
+| width | Single | Width of a new shape. |
+| height | Single | Height of a new shape. |
 
 ## Return Value
 
@@ -62,21 +67,16 @@ Inserted shape.
 
 ## IShapeCollection.InsertClone method (3 of 3)
 
-Inserts a copy of a specified shape to specified position of the collection.
+Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the *sourceShape*.
 
 ```csharp
-public IShape InsertClone(int index, IShape sourceShape, float x, float y, float width, 
-    float height)
+public IShape InsertClone(int index, IShape sourceShape)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | Int32 | Index of new shape. |
 | sourceShape | IShape | Shape to clone. |
-| x | Single | X coordinate of a new shape. |
-| y | Single | Y coordinate of a new shape. |
-| width | Single | Width of a new shape. |
-| height | Single | Height of a new shape. |
 
 ## Return Value
 

@@ -3,7 +3,7 @@ title: ResourceLoadingCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.slides/loadoptions/resourceloadingcallback/
 ---
 ## LoadOptions.ResourceLoadingCallback property

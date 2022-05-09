@@ -3,7 +3,7 @@ title: AsArgumentOfFunction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
 ---
 ## MathElementBase.AsArgumentOfFunction method (1 of 5)
@@ -48,6 +48,41 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 Takes specified function using this instance as the argument
 
 ```csharp
+public IMathFunction AsArgumentOfFunction(string functionName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionName | String | Function name |
+
+## Return Value
+
+New math element of type [`IMathFunction`](../../imathfunction)
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+IMathElement functionArg = new MathematicalText("x");
+IMathFunction func = functionArg.AsArgumentOfFunction("cos");
+```
+
+### See Also
+
+* interface [IMathFunction](../../imathfunction)
+* class [MathElementBase](../../mathelementbase)
+* namespace [Aspose.Slides.MathText](../../mathelementbase)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## MathElementBase.AsArgumentOfFunction method (3 of 5)
+
+Takes specified function using this instance as the argument
+
+```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
 ```
 
@@ -74,41 +109,6 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 * interface [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument)
-* class [MathElementBase](../../mathelementbase)
-* namespace [Aspose.Slides.MathText](../../mathelementbase)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## MathElementBase.AsArgumentOfFunction method (3 of 5)
-
-Takes specified function using this instance as the argument
-
-```csharp
-public IMathFunction AsArgumentOfFunction(string functionName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| functionName | String | Function name |
-
-## Return Value
-
-New math element of type [`IMathFunction`](../../imathfunction)
-
-### Examples
-
-Example:
-
-```csharp
-[C#]
-IMathElement functionArg = new MathematicalText("x");
-IMathFunction func = functionArg.AsArgumentOfFunction("cos");
-```
-
-### See Also
-
-* interface [IMathFunction](../../imathfunction)
 * class [MathElementBase](../../mathelementbase)
 * namespace [Aspose.Slides.MathText](../../mathelementbase)
 * assembly [Aspose.Slides](../../../)

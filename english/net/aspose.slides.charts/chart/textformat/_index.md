@@ -3,7 +3,7 @@ title: TextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.slides.charts/chart/textformat/
 ---
 ## Chart.TextFormat property

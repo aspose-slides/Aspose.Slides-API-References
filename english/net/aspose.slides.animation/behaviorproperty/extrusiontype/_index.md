@@ -3,7 +3,7 @@ title: ExtrusionType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1020
+weight: 210
 url: /net/aspose.slides.animation/behaviorproperty/extrusiontype/
 ---
 ## BehaviorProperty.ExtrusionType property

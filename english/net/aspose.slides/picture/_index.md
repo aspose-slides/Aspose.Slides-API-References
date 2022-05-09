@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8890
+weight: 8640
 url: /net/aspose.slides/picture/
 ---
 ## Picture class
@@ -14,7 +14,7 @@ Represents a picture in a presentation.
 public class Picture : PVIObject, ISlidesPicture
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,7 +23,12 @@ public class Picture : PVIObject, ISlidesPicture
 | [LinkPathLong](linkpathlong) { get; set; } | Returns of sets linked image's URL. Read/write String. |
 | [Presentation](presentation) { get; } | Returns the presentation. Read-only [`IPresentation`](../ipresentation). |
 | [Slide](slide) { get; } | Returns the parent slide of a picture. Read-only [`IBaseSlide`](../ibaseslide). |
-| override [Equals](equals)(…) | Compares with specified object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Compares with specified object. |
 | override [GetHashCode](gethashcode)() | Returns hash. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: SecondPieSize
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 360
 url: /net/aspose.slides.charts/chartseries/secondpiesize/
 ---
 ## ChartSeries.SecondPieSize property

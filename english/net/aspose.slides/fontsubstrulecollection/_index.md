@@ -3,7 +3,7 @@ title: FontSubstRuleCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4700
+weight: 4450
 url: /net/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection class
@@ -14,19 +14,29 @@ Represents collection of fonts substitution.
 public class FontSubstRuleCollection : IFontSubstRuleCollection
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FontSubstRuleCollection](fontsubstrulecollection)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Adds the new font substitution rule to the collection |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IFontSubstRule) | Adds the new font substitution rule to the collection |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the collection. |
+| [Remove](remove)(IFontSubstRule) | Removes the first occurrence of a specific object from the collection. |
 
 ### See Also
 

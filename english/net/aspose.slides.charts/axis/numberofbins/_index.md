@@ -3,7 +3,7 @@ title: NumberOfBins
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 450
 url: /net/aspose.slides.charts/axis/numberofbins/
 ---
 ## Axis.NumberOfBins property

@@ -3,7 +3,7 @@ title: ActualHeight
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 10
 url: /net/aspose.slides.charts/chartplotarea/actualheight/
 ---
 ## ChartPlotArea.ActualHeight property

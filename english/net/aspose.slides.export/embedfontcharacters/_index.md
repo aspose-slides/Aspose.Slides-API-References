@@ -3,7 +3,7 @@ title: EmbedFontCharacters
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3750
+weight: 3500
 url: /net/aspose.slides.export/embedfontcharacters/
 ---
 ## EmbedFontCharacters enumeration

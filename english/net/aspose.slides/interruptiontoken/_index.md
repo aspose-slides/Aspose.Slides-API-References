@@ -3,7 +3,7 @@ title: InterruptionToken
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7160
+weight: 6910
 url: /net/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken class
@@ -14,12 +14,17 @@ This class represents the token to use for signaling long running tasks whether 
 public class InterruptionToken : IInterruptionToken
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | static [None](none) { get; } | Represents an empty interruption token. Long-running operations will never be interrupted via [`Interrupt`](../interruptiontokensource/interrupt) when using this token. |
 | [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns Boolean.true if interruption was requested. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ThrowIfInterruptionRequested](throwifinterruptionrequested)() | Throws an OperationCanceledException if interruption was requested. |
 
 ### See Also

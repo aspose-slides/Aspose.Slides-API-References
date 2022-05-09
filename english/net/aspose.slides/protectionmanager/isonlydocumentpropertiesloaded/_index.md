@@ -3,7 +3,7 @@ title: IsOnlyDocumentPropertiesLoaded
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 40
 url: /net/aspose.slides/protectionmanager/isonlydocumentpropertiesloaded/
 ---
 ## ProtectionManager.IsOnlyDocumentPropertiesLoaded property

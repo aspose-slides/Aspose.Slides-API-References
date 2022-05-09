@@ -3,7 +3,7 @@ title: ObjectName
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 90
 url: /net/aspose.slides/ioleobjectframe/objectname/
 ---
 ## IOleObjectFrame.ObjectName property

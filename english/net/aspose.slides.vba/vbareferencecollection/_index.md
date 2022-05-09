@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11100
+weight: 10850
 url: /net/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
@@ -14,7 +14,7 @@ Represents a collection of a VBA Project references.
 public class VbaReferenceCollection : IVbaReferenceCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,8 +22,13 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Adds the new reference to references collection |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IVbaReference) | Adds the new reference to references collection |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also

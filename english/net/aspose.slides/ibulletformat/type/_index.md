@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 100
 url: /net/aspose.slides/ibulletformat/type/
 ---
 ## IBulletFormat.Type property

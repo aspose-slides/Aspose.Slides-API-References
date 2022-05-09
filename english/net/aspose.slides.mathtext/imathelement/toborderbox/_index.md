@@ -3,7 +3,7 @@ title: ToBorderBox
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 190
 url: /net/aspose.slides.mathtext/imathelement/toborderbox/
 ---
 ## IMathElement.ToBorderBox method (1 of 2)

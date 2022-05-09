@@ -3,7 +3,7 @@ title: ActualMinorUnit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 40
 url: /net/aspose.slides.charts/axis/actualminorunit/
 ---
 ## Axis.ActualMinorUnit property

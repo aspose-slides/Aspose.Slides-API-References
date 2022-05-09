@@ -3,7 +3,7 @@ title: AlternativeText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 10
 url: /net/aspose.slides/ishape/alternativetext/
 ---
 ## IShape.AlternativeText property

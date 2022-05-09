@@ -3,7 +3,7 @@ title: AddChart
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.slides/shapecollection/addchart/
 ---
 ## ShapeCollection.AddChart method (1 of 2)

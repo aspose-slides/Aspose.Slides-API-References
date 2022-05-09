@@ -3,7 +3,7 @@ title: PicturesCompression
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4200
+weight: 3950
 url: /net/aspose.slides.export/picturescompression/
 ---
 ## PicturesCompression enumeration

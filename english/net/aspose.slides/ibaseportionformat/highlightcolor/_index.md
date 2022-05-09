@@ -3,7 +3,7 @@ title: HighlightColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 110
 url: /net/aspose.slides/ibaseportionformat/highlightcolor/
 ---
 ## IBasePortionFormat.HighlightColor property

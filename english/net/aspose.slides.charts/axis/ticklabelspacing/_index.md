@@ -3,7 +3,7 @@ title: TickLabelSpacing
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 530
 url: /net/aspose.slides.charts/axis/ticklabelspacing/
 ---
 ## Axis.TickLabelSpacing property

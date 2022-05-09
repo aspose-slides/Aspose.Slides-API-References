@@ -3,7 +3,7 @@ title: TransitionValueBase
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9920
+weight: 9670
 url: /net/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase class
@@ -14,11 +14,11 @@ Base class for slide transition effects.
 public class TransitionValueBase : ITransitionValueBase
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the two TransitionValueBase instances are equal. |
+| override [Equals](equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also

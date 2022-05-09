@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11060
+weight: 10810
 url: /net/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule class
@@ -14,7 +14,7 @@ Represents module that is contained in VBA project.
 public sealed class VbaModule : IVbaModule
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

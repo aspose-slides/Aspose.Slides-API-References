@@ -3,7 +3,7 @@ title: Floor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 90
 url: /net/aspose.slides.charts/chart/floor/
 ---
 ## Chart.Floor property

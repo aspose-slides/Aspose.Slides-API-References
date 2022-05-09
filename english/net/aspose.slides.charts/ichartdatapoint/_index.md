@@ -3,7 +3,7 @@ title: IChartDataPoint
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1700
+weight: 1680
 url: /net/aspose.slides.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
@@ -14,7 +14,7 @@ Represents series data point.
 public interface IChartDataPoint : IActualLayout
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -35,6 +35,11 @@ public interface IChartDataPoint : IActualLayout
 | [Value](value) { get; } | Returns the value of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
 | [XValue](xvalue) { get; } | Returns the x value of chart data point. Read-only [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
 | [YValue](yvalue) { get; } | Returns the y value of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetAutomaticDataPointColor](getautomaticdatapointcolor)() | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. This color is used by default if FillType equals NotDefined. |
 | [Remove](remove)() | Removes DataPoint from chart series. |
 

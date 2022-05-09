@@ -3,7 +3,7 @@ title: GetThumbnails
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 310
 url: /net/aspose.slides/presentation/getthumbnails/
 ---
 ## Presentation.GetThumbnails method (1 of 6)
@@ -59,32 +59,6 @@ Bitmap objects.
 
 ## Presentation.GetThumbnails method (3 of 6)
 
-Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size.
-
-```csharp
-public Bitmap[] GetThumbnails(IRenderingOptions options, Size imageSize)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | IRenderingOptions | Tiff options. |
-| imageSize | Size | Size of the image to create. |
-
-## Return Value
-
-Bitmap objects.
-
-### See Also
-
-* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Presentation.GetThumbnails method (4 of 6)
-
 Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling.
 
 ```csharp
@@ -110,18 +84,45 @@ Bitmap objects.
 
 ---
 
-## Presentation.GetThumbnails method (5 of 6)
+## Presentation.GetThumbnails method (4 of 6)
 
-Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size.
+Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling.
 
 ```csharp
-public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, Size imageSize)
+public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | IRenderingOptions | Tiff options. |
 | slides | Int32[] | Array with slide positions, starting from 1. |
+| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
+
+## Return Value
+
+Bitmap objects.
+
+### See Also
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Presentation.GetThumbnails method (5 of 6)
+
+Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size.
+
+```csharp
+public Bitmap[] GetThumbnails(IRenderingOptions options, Size imageSize)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Tiff options. |
 | imageSize | Size | Size of the image to create. |
 
 ## Return Value
@@ -139,18 +140,17 @@ Bitmap objects.
 
 ## Presentation.GetThumbnails method (6 of 6)
 
-Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling.
+Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size.
 
 ```csharp
-public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, Size imageSize)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | IRenderingOptions | Tiff options. |
 | slides | Int32[] | Array with slide positions, starting from 1. |
-| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
+| imageSize | Size | Size of the image to create. |
 
 ## Return Value
 

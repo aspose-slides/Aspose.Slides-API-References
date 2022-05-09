@@ -3,7 +3,7 @@ title: HasTitle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 130
 url: /net/aspose.slides.charts/chart/hastitle/
 ---
 ## Chart.HasTitle property

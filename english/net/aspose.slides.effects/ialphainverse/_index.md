@@ -3,7 +3,7 @@ title: IAlphaInverse
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3080
+weight: 2900
 url: /net/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse interface
@@ -15,7 +15,7 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

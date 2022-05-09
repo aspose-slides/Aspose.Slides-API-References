@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.slides/coloroperation/equals/
 ---
 ## ColorOperation.Equals method
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ## Return Value
 
-true if the specified ColorOperation is equal to the current ColorOperation; otherwise, false.
+**true** if the specified ColorOperation is equal to the current ColorOperation; otherwise, **false**.
 
 ### See Also
 

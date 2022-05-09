@@ -3,7 +3,7 @@ title: AudioCdEndTrack
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.slides/audioframe/audiocdendtrack/
 ---
 ## AudioFrame.AudioCdEndTrack property

@@ -3,7 +3,7 @@ title: AddAudioFrameCD
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 60
 url: /net/aspose.slides/shapecollection/addaudioframecd/
 ---
 ## ShapeCollection.AddAudioFrameCD method

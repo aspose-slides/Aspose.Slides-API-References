@@ -3,7 +3,7 @@ title: GetPresentationText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.slides/ipresentationfactory/getpresentationtext/
 ---
 ## IPresentationFactory.GetPresentationText method (1 of 3)
@@ -11,12 +11,12 @@ url: /net/aspose.slides/ipresentationfactory/getpresentationtext/
 Retreieves the raw text from the slides
 
 ```csharp
-public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode)
+public IPresentationText GetPresentationText(string file, TextExtractionArrangingMode mode)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Input stream |
+| file | String | Input file |
 | mode | TextExtractionArrangingMode | Extraction mode |
 
 ## Return Value
@@ -38,12 +38,12 @@ The instance of PresentationText containing the SlideText array representing the
 Retreieves the raw text from the slides
 
 ```csharp
-public IPresentationText GetPresentationText(string file, TextExtractionArrangingMode mode)
+public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | String | Input file |
+| stream | Stream | Input stream |
 | mode | TextExtractionArrangingMode | Extraction mode |
 
 ## Return Value

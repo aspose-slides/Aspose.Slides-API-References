@@ -3,7 +3,7 @@ title: SetSlideNumberVisibility
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 80
 url: /net/aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility/
 ---
 ## BaseSlideHeaderFooterManager.SetSlideNumberVisibility method

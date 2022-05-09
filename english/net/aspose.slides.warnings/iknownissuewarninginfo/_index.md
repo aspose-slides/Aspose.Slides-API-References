@@ -3,7 +3,7 @@ title: IKnownIssueWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11190
+weight: 10940
 url: /net/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo interface
@@ -14,7 +14,7 @@ Represents a warning about known issue which won't be fixed in the near future.
 public interface IKnownIssueWarningInfo : IWarningInfo
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

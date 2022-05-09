@@ -3,7 +3,7 @@ title: RawFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 200
 url: /net/aspose.slides/ishape/rawframe/
 ---
 ## IShape.RawFrame property

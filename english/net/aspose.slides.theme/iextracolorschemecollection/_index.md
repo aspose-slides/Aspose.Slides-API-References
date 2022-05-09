@@ -3,7 +3,7 @@ title: IExtraColorSchemeCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10650
+weight: 10400
 url: /net/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection interface
@@ -14,7 +14,7 @@ Represents a collection of additional color schemes.
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

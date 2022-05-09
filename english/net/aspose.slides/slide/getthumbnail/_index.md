@@ -3,10 +3,35 @@ title: GetThumbnail
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 90
 url: /net/aspose.slides/slide/getthumbnail/
 ---
 ## Slide.GetThumbnail method (1 of 7)
+
+Returns a Thumbnail Bitmap object with custom scaling.
+
+```csharp
+public Bitmap GetThumbnail(float scaleX, float scaleY)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
+
+## Return Value
+
+Bitmap object.
+
+### See Also
+
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Slide.GetThumbnail method (2 of 7)
 
 Returns a Thumbnail Image object (20% of real size).
 
@@ -22,38 +47,31 @@ public Bitmap GetThumbnail()
 
 ---
 
-## Slide.GetThumbnail method (2 of 7)
+## Slide.GetThumbnail method (3 of 7)
 
-Returns a Thumbnail Bitmap object.
+Returns a Thumbnail Bitmap object with specified size.
 
 ```csharp
-public Bitmap GetThumbnail(IRenderingOptions options)
+public Bitmap GetThumbnail(Size imageSize)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | IRenderingOptions | Rendering options. |
+| imageSize | Size | Size of the image to create. |
 
 ## Return Value
 
-Bitmap objects.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+Bitmap object.
 
 ### See Also
 
-* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
 * class [Slide](../../slide)
 * namespace [Aspose.Slides](../../slide)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## Slide.GetThumbnail method (3 of 7)
+## Slide.GetThumbnail method (4 of 7)
 
 Returns a Thumbnail tiff bitmap object with specified parameters.
 
@@ -84,67 +102,17 @@ Bitmap object.
 
 ---
 
-## Slide.GetThumbnail method (4 of 7)
-
-Returns a Thumbnail Bitmap object with specified size.
-
-```csharp
-public Bitmap GetThumbnail(Size imageSize)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| imageSize | Size | Size of the image to create. |
-
-## Return Value
-
-Bitmap object.
-
-### See Also
-
-* class [Slide](../../slide)
-* namespace [Aspose.Slides](../../slide)
-* assembly [Aspose.Slides](../../../)
-
----
-
 ## Slide.GetThumbnail method (5 of 7)
 
-Returns a Thumbnail Bitmap object with custom scaling.
+Returns a Thumbnail Bitmap object.
 
 ```csharp
-public Bitmap GetThumbnail(float scaleX, float scaleY)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
-
-## Return Value
-
-Bitmap object.
-
-### See Also
-
-* class [Slide](../../slide)
-* namespace [Aspose.Slides](../../slide)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Slide.GetThumbnail method (6 of 7)
-
-Returns a Thumbnail Bitmap object with specified size.
-
-```csharp
-public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
+public Bitmap GetThumbnail(IRenderingOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | IRenderingOptions | Rendering options. |
-| imageSize | Size | Size of the image to create. |
 
 ## Return Value
 
@@ -154,7 +122,7 @@ Bitmap objects.
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+| InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 ### See Also
 
@@ -165,7 +133,7 @@ Bitmap objects.
 
 ---
 
-## Slide.GetThumbnail method (7 of 7)
+## Slide.GetThumbnail method (6 of 7)
 
 Returns a Thumbnail Bitmap object with custom scaling.
 
@@ -188,6 +156,38 @@ Bitmap objects.
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+### See Also
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Slide.GetThumbnail method (7 of 7)
+
+Returns a Thumbnail Bitmap object with specified size.
+
+```csharp
+public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | IRenderingOptions | Rendering options. |
+| imageSize | Size | Size of the image to create. |
+
+## Return Value
+
+Bitmap objects.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Thrown when options.NotesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
 ### See Also
 

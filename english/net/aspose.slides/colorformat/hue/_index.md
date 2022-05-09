@@ -3,7 +3,7 @@ title: Hue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 90
 url: /net/aspose.slides/colorformat/hue/
 ---
 ## ColorFormat.Hue property

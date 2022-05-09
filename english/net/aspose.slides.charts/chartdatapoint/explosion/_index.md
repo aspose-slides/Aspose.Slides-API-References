@@ -3,7 +3,7 @@ title: Explosion
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 90
 url: /net/aspose.slides.charts/chartdatapoint/explosion/
 ---
 ## ChartDataPoint.Explosion property

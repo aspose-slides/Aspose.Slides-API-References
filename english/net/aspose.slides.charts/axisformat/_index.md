@@ -3,7 +3,7 @@ title: AxisFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1080
+weight: 1060
 url: /net/aspose.slides.charts/axisformat/
 ---
 ## AxisFormat class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/axisformat/
 Represents chart format properties.
 
 ```csharp
-public class AxisFormat : IAxisFormat
+public class AxisFormat : DomObject<Axis>, IAxisFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,8 @@ public class AxisFormat : IAxisFormat
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Axis](../axis)
 * interface [IAxisFormat](../iaxisformat)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

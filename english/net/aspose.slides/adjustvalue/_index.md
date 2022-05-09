@@ -3,7 +3,7 @@ title: AdjustValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.slides/adjustvalue/
 ---
 ## AdjustValue class
@@ -14,7 +14,7 @@ Represents a geometry shape's adjustment value. These values affect shape's form
 public class AdjustValue : IAdjustValue
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

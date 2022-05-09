@@ -3,7 +3,7 @@ title: ShadowMatrixXtoY
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 850
+weight: 650
 url: /net/aspose.slides.animation/behaviorproperty/shadowmatrixxtoy/
 ---
 ## BehaviorProperty.ShadowMatrixXtoY property

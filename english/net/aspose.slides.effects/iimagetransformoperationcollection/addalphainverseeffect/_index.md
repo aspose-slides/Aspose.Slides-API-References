@@ -3,7 +3,7 @@ title: AddAlphaInverseEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect/
 ---
 ## IImageTransformOperationCollection.AddAlphaInverseEffect method

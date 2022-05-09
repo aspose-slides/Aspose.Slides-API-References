@@ -3,7 +3,7 @@ title: WebDocumentOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4510
+weight: 4260
 url: /net/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions class
@@ -14,11 +14,16 @@ Represents an options set for [`WebDocument`](../webdocument) saving.
 public class WebDocumentOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [WebDocumentOptions](webdocumentoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AnimateShapes](animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |
 | [AnimateTransitions](animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
 | [EmbedImages](embedimages) { get; set; } | Returns or sets images embedding option. Read/write Boolean. |

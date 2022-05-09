@@ -3,7 +3,7 @@ title: InsertConnector
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 330
 url: /net/aspose.slides/shapecollection/insertconnector/
 ---
 ## ShapeCollection.InsertConnector method (1 of 2)

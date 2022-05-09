@@ -3,7 +3,7 @@ title: MasterHandoutSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7510
+weight: 7260
 url: /net/aspose.slides/masterhandoutslide/
 ---
 ## MasterHandoutSlide class
@@ -14,7 +14,7 @@ Represents master slide for handouts.
 public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

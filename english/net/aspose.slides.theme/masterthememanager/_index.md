@@ -3,7 +3,7 @@ title: MasterThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10870
+weight: 10620
 url: /net/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager class
@@ -14,13 +14,18 @@ Provides access to presentation master theme.
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [IsOverrideThemeEnabled](isoverridethemeenabled) { get; set; } | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write Boolean. |
 | [OverrideTheme](overridetheme) { get; set; } | Returns the overriding theme object. Read/write [`IMasterTheme`](../imastertheme). |
-| [ApplyColorScheme](applycolorscheme)(…) | Applies extra color scheme to a slide. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [ApplyColorScheme](applycolorscheme)(IExtraColorScheme) | Applies extra color scheme to a slide. |
 | [CreateThemeEffective](createthemeeffective)() | Returns the theme object. |
 
 ### See Also

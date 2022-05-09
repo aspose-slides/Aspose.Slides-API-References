@@ -3,7 +3,7 @@ title: IsAutomaticMajorUnit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 180
 url: /net/aspose.slides.charts/iaxis/isautomaticmajorunit/
 ---
 ## IAxis.IsAutomaticMajorUnit property

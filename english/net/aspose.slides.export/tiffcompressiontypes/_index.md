@@ -3,7 +3,7 @@ title: TiffCompressionTypes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4380
+weight: 4130
 url: /net/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes enumeration

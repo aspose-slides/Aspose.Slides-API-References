@@ -3,7 +3,7 @@ title: CanWrite
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 40
 url: /net/aspose.slides/streamwrapper/canwrite/
 ---
 ## StreamWrapper.CanWrite property

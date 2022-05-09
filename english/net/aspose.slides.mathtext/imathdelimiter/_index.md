@@ -3,7 +3,7 @@ title: IMathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7740
+weight: 7490
 url: /net/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter interface
@@ -14,7 +14,7 @@ Specifies the delimiter object, consisting of opening and closing characters (su
 public interface IMathDelimiter : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,12 @@ public interface IMathDelimiter : IMathElement
 | [EndingCharacter](endingcharacter) { get; set; } | Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
 | [GrowToMatchOperandHeight](growtomatchoperandheight) { get; set; } | Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
 | [SeparatorCharacter](separatorcharacter) { get; set; } | Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '&#x7C;'. |
-| [Delimit](delimit)(…) | Delimits arguments using the specified delimiter character |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Delimit](delimit)(char) | Delimits arguments using the specified delimiter character |
 
 ### Examples
 

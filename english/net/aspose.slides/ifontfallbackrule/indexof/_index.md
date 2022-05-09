@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides/ifontfallbackrule/indexof/
 ---
 ## IFontFallBackRule.IndexOf method

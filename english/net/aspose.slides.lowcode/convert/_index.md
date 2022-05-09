@@ -3,7 +3,7 @@ title: Convert
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7420
+weight: 7170
 url: /net/aspose.slides.lowcode/convert/
 ---
 ## Convert class
@@ -14,13 +14,25 @@ Represents a group of methods intended to convert [`Presentation`](../../aspose.
 public static class Convert
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| static [AutoByExtension](autobyextension)(…) | Converts [`Presentation`](../../aspose.slides/presentation) using the passed output path extension to determine the required export format. |
-| static [ToPdf](topdf)(…) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. (4 methods) |
-| static [ToSvg](tosvg)(…) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. (5 methods) |
+| static [AutoByExtension](autobyextension)(string, string) | Converts [`Presentation`](../../aspose.slides/presentation) using the passed output path extension to determine the required export format. |
+| static [ToPdf](topdf)(Presentation, string) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
+| static [ToPdf](topdf)(string, string) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
+| static [ToPdf](topdf)(Presentation, string, IPdfOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
+| static [ToPdf](topdf)(string, string, IPdfOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
+| static [ToSvg](tosvg)(string) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+| static [ToSvg](tosvg)(Presentation, GetOutPathCallback) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+| static [ToSvg](tosvg)(Presentation, ISVGOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+| static [ToSvg](tosvg)(string, GetOutPathCallback) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+| static [ToSvg](tosvg)(Presentation, GetOutPathCallback, ISVGOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+
+## Other Members
+
+| Name | Description |
+| --- | --- |
 | delegate [GetOutPathCallback](convert.getoutpathcallback) |  |
 
 ### Examples

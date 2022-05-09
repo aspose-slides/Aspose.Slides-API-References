@@ -3,7 +3,7 @@ title: Chart
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 10
 url: /net/aspose.slides.charts/errorbarsformat/chart/
 ---
 ## ErrorBarsFormat.Chart property

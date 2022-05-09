@@ -3,7 +3,7 @@ title: LayoutSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7190
+weight: 6940
 url: /net/aspose.slides/layoutslide/
 ---
 ## LayoutSlide class
@@ -14,7 +14,7 @@ Represents a layout slide.
 public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,11 @@ public sealed class LayoutSlide : BaseSlide, ILayoutSlide
 | [MasterSlide](masterslide) { get; set; } | Returns or sets the master slide for a layout. Read/write [`IMasterSlide`](../imasterslide). |
 | override [ShowMasterShapes](showmastershapes) { get; set; } | Specifies if shapes on the master slide should be shown on slides or not. Read/write Boolean. |
 | [ThemeManager](thememanager) { get; } | Returns the overriding theme manager. Read-only [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetDependingSlides](getdependingslides)() | Returns an array with all slides, which depend on this layout slide. |
 | [Remove](remove)() | Removes layout from presentation. |
 

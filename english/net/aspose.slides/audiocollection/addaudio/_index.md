@@ -3,35 +3,10 @@ title: AddAudio
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.slides/audiocollection/addaudio/
 ---
 ## AudioCollection.AddAudio method (1 of 4)
-
-Creates and adds a audio to a presentation from byte array.
-
-```csharp
-public IAudio AddAudio(byte[] audioData)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| audioData | Byte[] | Audio bytes. |
-
-## Return Value
-
-Added audio.
-
-### See Also
-
-* interface [IAudio](../../iaudio)
-* class [AudioCollection](../../audiocollection)
-* namespace [Aspose.Slides](../../audiocollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## AudioCollection.AddAudio method (2 of 4)
 
 Adds a copy of an audio file from an another presentation.
 
@@ -56,7 +31,7 @@ Added audio.
 
 ---
 
-## AudioCollection.AddAudio method (3 of 4)
+## AudioCollection.AddAudio method (2 of 4)
 
 Creates and adds a audio to a presentation from stream.
 
@@ -81,7 +56,7 @@ Added audio.
 
 ---
 
-## AudioCollection.AddAudio method (4 of 4)
+## AudioCollection.AddAudio method (3 of 4)
 
 Creates and adds a audio to a presentation from stream.
 
@@ -102,6 +77,31 @@ Added audio.
 
 * interface [IAudio](../../iaudio)
 * enum [LoadingStreamBehavior](../../loadingstreambehavior)
+* class [AudioCollection](../../audiocollection)
+* namespace [Aspose.Slides](../../audiocollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AudioCollection.AddAudio method (4 of 4)
+
+Creates and adds a audio to a presentation from byte array.
+
+```csharp
+public IAudio AddAudio(byte[] audioData)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| audioData | Byte[] | Audio bytes. |
+
+## Return Value
+
+Added audio.
+
+### See Also
+
+* interface [IAudio](../../iaudio)
 * class [AudioCollection](../../audiocollection)
 * namespace [Aspose.Slides](../../audiocollection)
 * assembly [Aspose.Slides](../../../)

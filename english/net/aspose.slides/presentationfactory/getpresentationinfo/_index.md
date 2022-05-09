@@ -3,20 +3,20 @@ title: GetPresentationInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.slides/presentationfactory/getpresentationinfo/
 ---
 ## PresentationFactory.GetPresentationInfo method (1 of 2)
 
-Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream.
+Creates new PresentationInfo object from file and binds presentation to it.
 
 ```csharp
-public IPresentationInfo GetPresentationInfo(Stream stream)
+public IPresentationInfo GetPresentationInfo(string file)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Presentation stream. |
+| file | String | Presentation file. |
 
 ## Return Value
 
@@ -33,15 +33,15 @@ Presentation info binded to presentation.
 
 ## PresentationFactory.GetPresentationInfo method (2 of 2)
 
-Creates new PresentationInfo object from file and binds presentation to it.
+Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream.
 
 ```csharp
-public IPresentationInfo GetPresentationInfo(string file)
+public IPresentationInfo GetPresentationInfo(Stream stream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | String | Presentation file. |
+| stream | Stream | Presentation stream. |
 
 ## Return Value
 

@@ -3,7 +3,7 @@ title: ExtrusionColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.slides/threedformat/extrusioncolor/
 ---
 ## ThreeDFormat.ExtrusionColor property

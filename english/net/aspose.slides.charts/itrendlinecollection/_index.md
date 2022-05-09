@@ -3,7 +3,7 @@ title: ITrendlineCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2130
+weight: 2110
 url: /net/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection interface
@@ -14,15 +14,20 @@ Represents a collection of TrendlineEx
 public interface ITrendlineCollection : IEnumerable<ITrendline>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Allows to get base IEnumerable interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ITrendline`](../itrendline). |
-| [Add](add)(…) | Adds the new Trendline at the end of a collection and return it. |
-| [Remove](remove)(…) | Removes the specified value. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(TrendlineType) | Adds the new Trendline at the end of a collection and return it. |
+| [Remove](remove)(ITrendline) | Removes the specified value. |
 
 ### See Also
 

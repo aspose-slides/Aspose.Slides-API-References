@@ -3,7 +3,7 @@ title: IPlaceholder
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6380
+weight: 6130
 url: /net/aspose.slides/iplaceholder/
 ---
 ## IPlaceholder interface
@@ -14,7 +14,7 @@ Represents a placeholder on a slide.
 public interface IPlaceholder
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

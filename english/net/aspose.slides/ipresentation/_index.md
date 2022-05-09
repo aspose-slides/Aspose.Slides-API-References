@@ -3,7 +3,7 @@ title: IPresentation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6440
+weight: 6190
 url: /net/aspose.slides/ipresentation/
 ---
 ## IPresentation interface
@@ -14,7 +14,7 @@ Presentation document
 public interface IPresentation : IDisposable, IPresentationComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -47,12 +47,32 @@ public interface IPresentation : IDisposable, IPresentationComponent
 | [VbaProject](vbaproject) { get; set; } | Gets VBA project with presentation macros. Read/write [`IVbaProject`](../../aspose.slides.vba/ivbaproject). |
 | [Videos](videos) { get; } | Returns the collection of all embedded video files in the presentation. Read-only [`IVideoCollection`](../ivideocollection). |
 | [ViewProperties](viewproperties) { get; } | Gets presentation wide view properties. Read-only [`IViewProperties`](../iviewproperties). |
-| [GetSlideById](getslidebyid)(…) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
-| [GetThumbnails](getthumbnails)(…) | Returns a Thumbnail Bitmap objects for all slides of a presentation. (6 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetSlideById](getslidebyid)(uint) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
+| [GetThumbnails](getthumbnails)(IRenderingOptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
+| [GetThumbnails](getthumbnails)(IRenderingOptions, int[]) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
+| [GetThumbnails](getthumbnails)(IRenderingOptions, Size) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
+| [GetThumbnails](getthumbnails)(IRenderingOptions, float, float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
+| [GetThumbnails](getthumbnails)(IRenderingOptions, int[], Size) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
+| [GetThumbnails](getthumbnails)(IRenderingOptions, int[], float, float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
 | [JoinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
 | [Print](print)() | Prints the whole presentation to the default printer. |
-| [Print](print)(…) | Prints the presentation according to the specified printer settings, using the standard (no User Interface) print controller. (3 methods) |
-| [Save](save)(…) | Saves all slides of a presentation to a file with the specified format. (9 methods) |
+| [Print](print)(PrinterSettings) | Prints the presentation according to the specified printer settings, using the standard (no User Interface) print controller. |
+| [Print](print)(string) | Print the whole presentation to the specified printer, using the standard (no User Interface) print controller. |
+| [Print](print)(PrinterSettings, string) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a presentation name. |
+| [Save](save)(IXamlOptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
+| [Save](save)(Stream, SaveFormat) | Saves all slides of a presentation to a stream in the specified format. |
+| [Save](save)(string, SaveFormat) | Saves all slides of a presentation to a file with the specified format. |
+| [Save](save)(Stream, int[], SaveFormat) | Saves specified slides of a presentation to a stream in the specified format. |
+| [Save](save)(Stream, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [Save](save)(string, int[], SaveFormat) | Saves specified slides of a presentation to a file with the specified format. |
+| [Save](save)(string, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [Save](save)(Stream, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a stream in the specified format. |
+| [Save](save)(string, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a file with the specified format. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: EffectFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2930
+weight: 2790
 url: /net/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory class
@@ -14,12 +14,22 @@ Allows to create effects
 public class EffectFactory : IEffectFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [EffectFactory](effectfactory)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ImageTransformOperationFactory](imagetransformoperationfactory) { get; } | Returns ImageTransformOperationFactory. Read-only [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreateGlow](createglow)() | Creates Glow effect. |
 | [CreateInnerShadow](createinnershadow)() | Creates Inner shafow effect. |
 | [CreateOuterShadow](createoutershadow)() | Creates Outer shadow effect. |

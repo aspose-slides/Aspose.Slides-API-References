@@ -3,7 +3,7 @@ title: MathFraction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8210
+weight: 7960
 url: /net/aspose.slides.mathtext/mathfraction/
 ---
 ## MathFraction class
@@ -14,14 +14,25 @@ Specifies the fraction object, consisting of a numerator and denominator separat
 public sealed class MathFraction : MathElementBase, IMathFraction
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathFraction](mathfraction)(…) | Initializes MathFraction with the specified numerator, denominator and type (2 constructors) |
+| [MathFraction](mathfraction)(IMathElement, IMathElement) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| [MathFraction](mathfraction)(IMathElement, IMathElement, MathFractionTypes) | Initializes MathFraction with the specified numerator, denominator and type |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Denominator](denominator) { get; } | Denominator |
 | [FractionType](fractiontype) { get; set; } | Fraction type Default: Bar |
 | [Numerator](numerator) { get; } | Numerator |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

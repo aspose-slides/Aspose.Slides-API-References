@@ -3,7 +3,7 @@ title: Axis
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1060
+weight: 1040
 url: /net/aspose.slides.charts/axis/
 ---
 ## Axis class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/axis/
 Encapsulates the object that represents a chart's axis.
 
 ```csharp
-public class Axis : IAxis
+public class Axis : DomObject<AxesManager>, IAxis
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -74,10 +74,17 @@ public class Axis : IAxis
 | [TickMarksSpacing](tickmarksspacing) { get; set; } | Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read/write UInt16. |
 | [Title](title) { get; } | Gets the axis' title. Read-only [`IChartTitle`](../icharttitle). |
 | [UnderflowBin](underflowbin) { get; set; } | Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [SetCategoryAxisTypeAutomatically](setcategoryaxistypeautomatically)() | Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [AxesManager](../axesmanager)
 * interface [IAxis](../iaxis)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

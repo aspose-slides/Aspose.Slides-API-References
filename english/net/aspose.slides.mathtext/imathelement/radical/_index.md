@@ -3,7 +3,7 @@ title: Radical
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.slides.mathtext/imathelement/radical/
 ---
 ## IMathElement.Radical method (1 of 2)

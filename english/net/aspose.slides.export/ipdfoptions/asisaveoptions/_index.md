@@ -3,7 +3,7 @@ title: AsISaveOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 40
 url: /net/aspose.slides.export/ipdfoptions/asisaveoptions/
 ---
 ## IPdfOptions.AsISaveOptions property

@@ -3,7 +3,7 @@ title: SaveMetafilesAsPng
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.slides.export/ixpsoptions/savemetafilesaspng/
 ---
 ## IXpsOptions.SaveMetafilesAsPng property
@@ -16,7 +16,7 @@ public bool SaveMetafilesAsPng { get; set; }
 
 ### Remarks
 
-Default is true.
+Default is **true**.
 
 ### See Also
 

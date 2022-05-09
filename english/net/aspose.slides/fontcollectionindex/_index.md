@@ -3,7 +3,7 @@ title: FontCollectionIndex
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4620
+weight: 4370
 url: /net/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex enumeration

@@ -3,7 +3,7 @@ title: Luminance
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3600
+weight: 3410
 url: /net/aspose.slides.effects/luminance/
 ---
 ## Luminance class
@@ -14,11 +14,11 @@ Represents a Luminance effect. Brightness linearly shifts all colors closer to w
 public class Luminance : ImageTransformOperation, ILuminance
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the specified [`Luminance`](../luminance) is equal to the current [`Luminance`](../luminance). |
+| override [Equals](equals)(object) | Determines whether the specified [`Luminance`](../luminance) is equal to the current [`Luminance`](../luminance). |
 | [GetEffective](geteffective)() | Gets effective Luminance effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

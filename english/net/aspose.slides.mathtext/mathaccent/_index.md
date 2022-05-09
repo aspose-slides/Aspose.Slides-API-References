@@ -3,7 +3,7 @@ title: MathAccent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8050
+weight: 7800
 url: /net/aspose.slides.mathtext/mathaccent/
 ---
 ## MathAccent class
@@ -14,13 +14,24 @@ Specifies the accent function, consisting of a base and a combining diacritical 
 public sealed class MathAccent : MathElementBase, IMathAccent
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathAccent](mathaccent)(…) | Creates a math accent applying to a specified math element with the default accent character value (2 constructors) |
+| [MathAccent](mathaccent)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
+| [MathAccent](mathaccent)(IMathElement, char) | Creates a math accent applying to a specified math element |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Base](base) { get; } | The argument to which the accent was applied |
 | [Character](character) { get; set; } | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

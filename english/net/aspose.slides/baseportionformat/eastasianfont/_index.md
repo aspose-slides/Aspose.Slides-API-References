@@ -3,7 +3,7 @@ title: EastAsianFont
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 30
 url: /net/aspose.slides/baseportionformat/eastasianfont/
 ---
 ## BasePortionFormat.EastAsianFont property

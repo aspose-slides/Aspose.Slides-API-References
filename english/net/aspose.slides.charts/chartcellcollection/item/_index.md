@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.slides.charts/chartcellcollection/item/
 ---
 ## ChartCellCollection indexer

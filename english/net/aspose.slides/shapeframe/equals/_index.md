@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 140
 url: /net/aspose.slides/shapeframe/equals/
 ---
 ## ShapeFrame.Equals method (1 of 2)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ## Return Value
 
-True if obj is a ShapeFrame that has the same value as this instance; otherwise, false.
+**True** if obj is a ShapeFrame that has the same value as this instance; otherwise, **false**.
 
 ### See Also
 
@@ -44,7 +44,7 @@ public bool Equals(ShapeFrame value)
 
 ## Return Value
 
-True if value is a ShapeFrame that has the same value as this instance; otherwise, false.
+**True** if value is a ShapeFrame that has the same value as this instance; otherwise, **false**.
 
 ### See Also
 

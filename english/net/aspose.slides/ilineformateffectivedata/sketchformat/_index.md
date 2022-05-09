@@ -3,7 +3,7 @@ title: SketchFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 150
 url: /net/aspose.slides/ilineformateffectivedata/sketchformat/
 ---
 ## ILineFormatEffectiveData.SketchFormat property

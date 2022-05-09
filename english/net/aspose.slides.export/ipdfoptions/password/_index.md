@@ -3,7 +3,7 @@ title: Password
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 130
 url: /net/aspose.slides.export/ipdfoptions/password/
 ---
 ## IPdfOptions.Password property

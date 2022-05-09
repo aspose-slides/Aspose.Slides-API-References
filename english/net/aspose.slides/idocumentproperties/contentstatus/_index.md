@@ -3,7 +3,7 @@ title: ContentStatus
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 70
 url: /net/aspose.slides/idocumentproperties/contentstatus/
 ---
 ## IDocumentProperties.ContentStatus property

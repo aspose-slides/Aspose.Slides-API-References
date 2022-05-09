@@ -3,7 +3,7 @@ title: AccessPermissions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 20
 url: /net/aspose.slides.export/pdfoptions/accesspermissions/
 ---
 ## PdfOptions.AccessPermissions property

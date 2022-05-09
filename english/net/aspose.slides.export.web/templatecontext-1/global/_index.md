@@ -3,7 +3,7 @@ title: Global
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 10
 url: /net/aspose.slides.export.web/templatecontext-1/global/
 ---
 ## TemplateContext&lt;TObject&gt;.Global property

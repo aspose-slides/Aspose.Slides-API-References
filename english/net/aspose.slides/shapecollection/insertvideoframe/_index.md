@@ -3,7 +3,7 @@ title: InsertVideoFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 400
 url: /net/aspose.slides/shapecollection/insertvideoframe/
 ---
 ## ShapeCollection.InsertVideoFrame method

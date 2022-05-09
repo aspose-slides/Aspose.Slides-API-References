@@ -3,15 +3,15 @@ title: Item
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 60
 url: /net/aspose.slides.charts/ichartdatapointcollection/item/
 ---
 ## IChartDataPointCollection indexer (1 of 2)
 
-Return index of data point in this collection.
+Returns the series data point by index.
 
 ```csharp
-public int this[IChartDataPoint pt] { get; }
+public IChartDataPoint this[int index] { get; }
 ```
 
 ### See Also
@@ -25,10 +25,10 @@ public int this[IChartDataPoint pt] { get; }
 
 ## IChartDataPointCollection indexer (2 of 2)
 
-Returns the series data point by index.
+Return index of data point in this collection.
 
 ```csharp
-public IChartDataPoint this[int index] { get; }
+public int this[IChartDataPoint pt] { get; }
 ```
 
 ### See Also

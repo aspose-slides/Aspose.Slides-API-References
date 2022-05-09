@@ -3,7 +3,7 @@ title: GetValueByIndex
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 120
 url: /net/aspose.slides/tagcollection/getvaluebyindex/
 ---
 ## TagCollection.GetValueByIndex method

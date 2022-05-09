@@ -3,7 +3,7 @@ title: ImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 10
 url: /net/aspose.slides.effects/imagetransformocollectioneffectivedata/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData constructor

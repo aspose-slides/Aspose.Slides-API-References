@@ -3,7 +3,7 @@ title: IsNoEffects
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 60
 url: /net/aspose.slides/ieffectformateffectivedata/isnoeffects/
 ---
 ## IEffectFormatEffectiveData.IsNoEffects property

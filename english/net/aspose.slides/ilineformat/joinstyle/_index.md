@@ -3,7 +3,7 @@ title: JoinStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.slides/ilineformat/joinstyle/
 ---
 ## ILineFormat.JoinStyle property

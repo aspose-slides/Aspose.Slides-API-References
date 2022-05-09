@@ -3,7 +3,7 @@ title: PPImage
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8760
+weight: 8510
 url: /net/aspose.slides/ppimage/
 ---
 ## PPImage class
@@ -14,7 +14,7 @@ Represents an image in a presentation.
 public class PPImage : IDisposable, IPPImage
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -26,9 +26,16 @@ public class PPImage : IDisposable, IPPImage
 | [Width](width) { get; } | Returns a width of an image. Read-only Int32. |
 | [X](x) { get; } | Returns a X-offset of an image. Read-only Int32. |
 | [Y](y) { get; } | Returns a Y-offset of an image. Read-only Int32. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Dispose](dispose)() | Disposes object. |
 | override [GetHashCode](gethashcode)() | Returns the hash code of an image. |
-| [ReplaceImage](replaceimage)(…) | Replaces image data. The new image's data.When newImageData parameter is null. (3 methods) |
+| [ReplaceImage](replaceimage)(byte[]) | Replaces image data. The new image's data.When newImageData parameter is null. |
+| [ReplaceImage](replaceimage)(Image) | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null. |
+| [ReplaceImage](replaceimage)(IPPImage) | Replaces image data. The new IPPImage.When newImage parameter is null. |
 
 ### See Also
 

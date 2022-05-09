@@ -3,7 +3,7 @@ title: IDuotoneEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3250
+weight: 3070
 url: /net/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents a Duotone effect. For each pixel, combines clr
 public interface IDuotoneEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

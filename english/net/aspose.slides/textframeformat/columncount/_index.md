@@ -3,7 +3,7 @@ title: ColumnCount
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 50
 url: /net/aspose.slides/textframeformat/columncount/
 ---
 ## TextFrameFormat.ColumnCount property

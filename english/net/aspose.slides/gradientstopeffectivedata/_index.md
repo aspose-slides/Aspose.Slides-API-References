@@ -3,7 +3,7 @@ title: GradientStopEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4840
+weight: 4590
 url: /net/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData class
@@ -14,13 +14,18 @@ Immutable object which represents a gradient stop.
 public class GradientStopEffectiveData : IGradientStopEffectiveData
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Color](color) { get; } | Returns the color of a gradient stop. Read-only Color. |
 | [Position](position) { get; } | Returns the position (0..1) of a gradient stop. Read-only Single. |
-| override [Equals](equals)(…) | Determines whether the specified [`GradientStopEffectiveData`](../gradientstopeffectivedata) is equal to the current [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`GradientStopEffectiveData`](../gradientstopeffectivedata) is equal to the current [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
 | override [GetHashCode](gethashcode)() |  |
 
 ### See Also

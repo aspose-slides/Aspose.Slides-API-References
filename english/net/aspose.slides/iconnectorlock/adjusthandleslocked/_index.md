@@ -3,7 +3,7 @@ title: AdjustHandlesLocked
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 10
 url: /net/aspose.slides/iconnectorlock/adjusthandleslocked/
 ---
 ## IConnectorLock.AdjustHandlesLocked property

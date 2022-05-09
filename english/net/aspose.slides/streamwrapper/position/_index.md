@@ -3,7 +3,7 @@ title: Position
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 60
 url: /net/aspose.slides/streamwrapper/position/
 ---
 ## StreamWrapper.Position property

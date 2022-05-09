@@ -3,7 +3,7 @@ title: AxisPositionType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1090
+weight: 1070
 url: /net/aspose.slides.charts/axispositiontype/
 ---
 ## AxisPositionType enumeration

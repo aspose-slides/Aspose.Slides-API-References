@@ -3,7 +3,7 @@ title: Saturation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 130
 url: /net/aspose.slides/colorformat/saturation/
 ---
 ## ColorFormat.Saturation property

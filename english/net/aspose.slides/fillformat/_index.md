@@ -3,7 +3,7 @@ title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4590
+weight: 4340
 url: /net/aspose.slides/fillformat/
 ---
 ## FillFormat class
@@ -14,7 +14,7 @@ Represents a fill formatting options.
 public class FillFormat : PVIObject, IFillFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,11 @@ public class FillFormat : PVIObject, IFillFormat
 | [PictureFillFormat](picturefillformat) { get; } | Returns the picture fill format. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
 | [RotateWithShape](rotatewithshape) { get; set; } | Determines whether the fill should be rotated with shape. Read/write [`NullableBool`](../nullablebool). |
 | [SolidFillColor](solidfillcolor) { get; } | Returns the fill color. Read-only [`IColorFormat`](../icolorformat). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective fill formatting data with the inheritance applied. |
 
 ### See Also

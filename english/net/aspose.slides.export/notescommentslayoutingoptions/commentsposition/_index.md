@@ -16,7 +16,7 @@ public CommentsPositions CommentsPosition { get; set; }
 
 ### Remarks
 
-Default is CommentsPositions.None.
+Default is **CommentsPositions.None**.
 
 ### See Also
 

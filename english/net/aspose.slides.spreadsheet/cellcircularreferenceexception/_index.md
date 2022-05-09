@@ -3,7 +3,7 @@ title: CellCircularReferenceException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10130
+weight: 9880
 url: /net/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException class
@@ -14,12 +14,19 @@ The exception that is thrown when one or more circular references are detected w
 public class CellCircularReferenceException : PptxEditException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CellCircularReferenceException](cellcircularreferenceexception)() | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class. |
-| [CellCircularReferenceException](cellcircularreferenceexception)(…) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message. (3 constructors) |
+| [CellCircularReferenceException](cellcircularreferenceexception)(string) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message. |
+| [CellCircularReferenceException](cellcircularreferenceexception)(string, Exception) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellCircularReferenceException](cellcircularreferenceexception)(string, string) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message and circular cell reference. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Reference](reference) { get; } | Gets a circular cell reference. |
 
 ### See Also

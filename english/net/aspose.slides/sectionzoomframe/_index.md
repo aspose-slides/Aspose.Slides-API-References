@@ -3,7 +3,7 @@ title: SectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9290
+weight: 9040
 url: /net/aspose.slides/sectionzoomframe/
 ---
 ## SectionZoomFrame class
@@ -14,7 +14,7 @@ Represents a Section Zoom object in a slide.
 public class SectionZoomFrame : ZoomObject, ISectionZoomFrame
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

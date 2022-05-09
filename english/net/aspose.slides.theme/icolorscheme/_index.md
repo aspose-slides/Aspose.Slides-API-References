@@ -3,7 +3,7 @@ title: IColorScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10580
+weight: 10330
 url: /net/aspose.slides.theme/icolorscheme/
 ---
 ## IColorScheme interface
@@ -14,7 +14,7 @@ Stores theme-defined colors.
 public interface IColorScheme : ISlideComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: Superscript
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.slides.mathtext/imathsuperscriptelement/superscript/
 ---
 ## IMathSuperscriptElement.Superscript property

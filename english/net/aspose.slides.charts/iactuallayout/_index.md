@@ -3,7 +3,7 @@ title: IActualLayout
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1570
+weight: 1550
 url: /net/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout interface
@@ -14,7 +14,7 @@ Specifies actual position of a chart element.
 public interface IActualLayout
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

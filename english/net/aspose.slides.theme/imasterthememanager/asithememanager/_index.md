@@ -3,7 +3,7 @@ title: AsIThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.slides.theme/imasterthememanager/asithememanager/
 ---
 ## IMasterThemeManager.AsIThemeManager property

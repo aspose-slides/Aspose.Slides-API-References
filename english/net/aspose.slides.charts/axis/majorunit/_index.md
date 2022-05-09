@@ -3,7 +3,7 @@ title: MajorUnit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 360
 url: /net/aspose.slides.charts/axis/majorunit/
 ---
 ## Axis.MajorUnit property

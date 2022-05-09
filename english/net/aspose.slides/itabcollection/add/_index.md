@@ -3,35 +3,10 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides/itabcollection/add/
 ---
 ## ITabCollection.Add method (1 of 2)
-
-Adds a Tab to the collection.
-
-```csharp
-public int Add(ITab value)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | ITab | The Tab object to be added at the end of the collection. |
-
-## Return Value
-
-The index at which the tab was added.
-
-### See Also
-
-* interface [ITab](../../itab)
-* interface [ITabCollection](../../itabcollection)
-* namespace [Aspose.Slides](../../itabcollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ITabCollection.Add method (2 of 2)
 
 Adds a Tab to the collection.
 
@@ -52,6 +27,31 @@ Added tab.
 
 * interface [ITab](../../itab)
 * enum [TabAlignment](../../tabalignment)
+* interface [ITabCollection](../../itabcollection)
+* namespace [Aspose.Slides](../../itabcollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ITabCollection.Add method (2 of 2)
+
+Adds a Tab to the collection.
+
+```csharp
+public int Add(ITab value)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | ITab | The Tab object to be added at the end of the collection. |
+
+## Return Value
+
+The index at which the tab was added.
+
+### See Also
+
+* interface [ITab](../../itab)
 * interface [ITabCollection](../../itabcollection)
 * namespace [Aspose.Slides](../../itabcollection)
 * assembly [Aspose.Slides](../../../)

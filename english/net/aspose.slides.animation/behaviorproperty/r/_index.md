@@ -3,7 +3,7 @@ title: R
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 570
 url: /net/aspose.slides.animation/behaviorproperty/r/
 ---
 ## BehaviorProperty.R property

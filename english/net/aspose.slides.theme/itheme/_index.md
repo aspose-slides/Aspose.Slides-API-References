@@ -3,7 +3,7 @@ title: ITheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10800
+weight: 10550
 url: /net/aspose.slides.theme/itheme/
 ---
 ## ITheme interface
@@ -14,7 +14,7 @@ Represents a theme.
 public interface ITheme : IPresentationComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,6 +22,11 @@ public interface ITheme : IPresentationComponent
 | [ColorScheme](colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
 | [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |
 | [FormatScheme](formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatScheme`](../iformatscheme). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective theme data with the inheritance applied. |
 
 ### See Also

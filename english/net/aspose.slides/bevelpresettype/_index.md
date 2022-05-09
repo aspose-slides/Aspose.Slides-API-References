@@ -3,7 +3,7 @@ title: BevelPresetType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 930
+weight: 910
 url: /net/aspose.slides/bevelpresettype/
 ---
 ## BevelPresetType enumeration

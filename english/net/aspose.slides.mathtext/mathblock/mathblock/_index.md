@@ -3,7 +3,7 @@ title: MathBlock
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 10
 url: /net/aspose.slides.mathtext/mathblock/mathblock/
 ---
 ## MathBlock constructor (1 of 3)
@@ -33,6 +33,36 @@ MathBlock mathBlock = new MathBlock();
 
 ## MathBlock constructor (2 of 3)
 
+Creates a new mathematical block and puts specified element in it
+
+```csharp
+public MathBlock(IMathElement mathElement)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathElement | IMathElement | The mathematical element to put in the block |
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
+```
+
+### See Also
+
+* interface [IMathElement](../../imathelement)
+* class [MathBlock](../../mathblock)
+* namespace [Aspose.Slides.MathText](../../mathblock)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## MathBlock constructor (3 of 3)
+
 Creates a new mathematical block and puts specified elements in it
 
 ```csharp
@@ -51,36 +81,6 @@ Example:
 [C#]
 var elems = new IMathElement[2] { new MathematicalText("item1"), new MathematicalText("item2") };
 MathBlock mathBlock = new MathBlock(elems);
-```
-
-### See Also
-
-* interface [IMathElement](../../imathelement)
-* class [MathBlock](../../mathblock)
-* namespace [Aspose.Slides.MathText](../../mathblock)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## MathBlock constructor (3 of 3)
-
-Creates a new mathematical block and puts specified element in it
-
-```csharp
-public MathBlock(IMathElement mathElement)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| mathElement | IMathElement | The mathematical element to put in the block |
-
-### Examples
-
-Example:
-
-```csharp
-[C#]
-MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
 ```
 
 ### See Also

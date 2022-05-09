@@ -3,7 +3,7 @@ title: IsBubble3D
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 90
 url: /net/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
 ## IChartDataPoint.IsBubble3D property

@@ -3,7 +3,7 @@ title: OptionalBlackTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9720
+weight: 9470
 url: /net/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition class
@@ -14,7 +14,7 @@ Optional black slide transition effect.
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

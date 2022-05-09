@@ -3,7 +3,7 @@ title: IPresentationFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6460
+weight: 6210
 url: /net/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory interface
@@ -14,15 +14,23 @@ Allows to create presentation via COM interface
 public interface IPresentationFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
 | [CreatePresentation](createpresentation)() | Creates new presentation. |
-| [CreatePresentation](createpresentation)(…) | Creates new presentation with additional load options |
-| [GetPresentationInfo](getpresentationinfo)(…) | Gets info about presentation in specified file. (2 methods) |
-| [GetPresentationText](getpresentationtext)(…) | Retreieves the raw text from the slides (3 methods) |
-| [ReadPresentation](readpresentation)(…) | Reads an existing presentation from array (6 methods) |
+| [CreatePresentation](createpresentation)(ILoadOptions) | Creates new presentation with additional load options |
+| [GetPresentationInfo](getpresentationinfo)(Stream) | Gets info about presentation in specified stream. |
+| [GetPresentationInfo](getpresentationinfo)(string) | Gets info about presentation in specified file. |
+| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode) | Retreieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(string, TextExtractionArrangingMode) | Retreieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retreieves the raw text from the slides |
+| [ReadPresentation](readpresentation)(byte[]) | Reads an existing presentation from array |
+| [ReadPresentation](readpresentation)(Stream) | Reads an existing presentation from stream |
+| [ReadPresentation](readpresentation)(string) | Reads an existing presentation from file |
+| [ReadPresentation](readpresentation)(byte[], ILoadOptions) | Reads an existing presentation from array with additional load options |
+| [ReadPresentation](readpresentation)(Stream, ILoadOptions) | Reads an existing presentation from stream with additional load options |
+| [ReadPresentation](readpresentation)(string, ILoadOptions) | Reads an existing presentation from stream with additional load options |
 
 ### See Also
 

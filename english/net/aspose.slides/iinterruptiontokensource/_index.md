@@ -3,7 +3,7 @@ title: IInterruptionTokenSource
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5900
+weight: 5650
 url: /net/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource interface
@@ -14,12 +14,17 @@ Represents the source of [`IInterruptionToken`](../iinterruptiontoken).
 public interface IInterruptionTokenSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns true if interruption requested, false otherwise. |
 | [Token](token) { get; } | Returns new token binded to this [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Interrupt](interrupt)() | Intialize request for interruption. |
 
 ### See Also

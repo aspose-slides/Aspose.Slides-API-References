@@ -3,7 +3,7 @@ title: IChartDataWorkbook
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1740
+weight: 1720
 url: /net/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook interface
@@ -14,15 +14,24 @@ Provides access to embedded Excel workbook
 public interface IChartDataWorkbook
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Worksheets](worksheets) { get; } | Gets a collection of worksheets. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CalculateFormulas](calculateformulas)() | Calculates all formulas in the workbook and updates corresponding cells values. |
-| [Clear](clear)(…) | Clear all cells values on sheet |
-| [GetCell](getcell)(…) | Gets the cell that can be used for chart series or categories (5 methods) |
-| [GetCellCollection](getcellcollection)(…) | Gets the set of cells. |
+| [Clear](clear)(int) | Clear all cells values on sheet |
+| [GetCell](getcell)(int, string) | Gets the cell that can be used for chart series or categories |
+| [GetCell](getcell)(int, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](getcell)(int, string, object) | Gets the cell that can be used for chart series or categories |
+| [GetCell](getcell)(string, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](getcell)(int, int, int, object) | Gets the cell that can be used for chart series or categories |
+| [GetCellCollection](getcellcollection)(string, bool) | Gets the set of cells. |
 
 ### See Also
 

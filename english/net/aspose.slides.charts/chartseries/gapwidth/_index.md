@@ -3,7 +3,7 @@ title: GapWidth
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 130
 url: /net/aspose.slides.charts/chartseries/gapwidth/
 ---
 ## ChartSeries.GapWidth property

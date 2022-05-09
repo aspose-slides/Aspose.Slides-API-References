@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 130
 url: /net/aspose.slides/commentcollection/remove/
 ---
 ## CommentCollection.Remove method

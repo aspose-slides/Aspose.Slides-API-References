@@ -3,7 +3,7 @@ title: IChartCategoryCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1640
+weight: 1620
 url: /net/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection interface
@@ -14,18 +14,24 @@ Represents collection of [`IChartCategory`](../ichartcategory)
 public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [GroupingLevelCount](groupinglevelcount) { get; } | Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only Int32. |
 | [Item](item) { get; } | Gets the element at the specified index. |
 | [UseCells](usecells) { get; set; } | If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write Boolean. |
-| [Add](add)(…) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IChartDataCell) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
+| [Add](add)(object) | Creates new [`IChartCategory`](../ichartcategory) from value and adds it to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [IndexOf](indexof)(…) | Searches for the specified [`IChartCategory`](../ichartcategory) and returns the zero-based index of the first occurrence within the entire Collection |
-| [Remove](remove)(…) | Removes the specified value. |
-| [RemoveAt](removeat)(…) | Removes the element at the given index. |
+| [IndexOf](indexof)(IChartCategory) | Searches for the specified [`IChartCategory`](../ichartcategory) and returns the zero-based index of the first occurrence within the entire Collection |
+| [Remove](remove)(IChartCategory) | Removes the specified value. |
+| [RemoveAt](removeat)(int) | Removes the element at the given index. |
 
 ### See Also
 

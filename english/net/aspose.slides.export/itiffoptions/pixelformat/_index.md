@@ -3,7 +3,7 @@ title: PixelFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides.export/itiffoptions/pixelformat/
 ---
 ## ITiffOptions.PixelFormat property

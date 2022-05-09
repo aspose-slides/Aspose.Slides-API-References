@@ -3,7 +3,7 @@ title: ColumnGapRule
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 50
 url: /net/aspose.slides.mathtext/mathmatrix/columngaprule/
 ---
 ## MathMatrix.ColumnGapRule property

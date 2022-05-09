@@ -3,7 +3,7 @@ title: PictureFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8900
+weight: 8650
 url: /net/aspose.slides/picturefillformat/
 ---
 ## PictureFillFormat class
@@ -14,7 +14,7 @@ Represents a picture fill style.
 public class PictureFillFormat : PVIObject, IPictureFillFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

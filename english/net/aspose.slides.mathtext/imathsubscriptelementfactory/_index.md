@@ -3,7 +3,7 @@ title: IMathSubscriptElementFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8000
+weight: 7750
 url: /net/aspose.slides.mathtext/imathsubscriptelementfactory/
 ---
 ## IMathSubscriptElementFactory interface
@@ -14,11 +14,11 @@ Allows to create IMathSubscriptElement
 public interface IMathSubscriptElementFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateMathSubscriptElement](createmathsubscriptelement)(…) | Creates IMathSubscriptElement |
+| [CreateMathSubscriptElement](createmathsubscriptelement)(IMathElement, IMathElement) | Creates IMathSubscriptElement |
 
 ### Remarks
 

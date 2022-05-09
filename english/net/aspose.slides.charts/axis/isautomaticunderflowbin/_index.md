@@ -3,7 +3,7 @@ title: IsAutomaticUnderflowBin
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 250
 url: /net/aspose.slides.charts/axis/isautomaticunderflowbin/
 ---
 ## Axis.IsAutomaticUnderflowBin property

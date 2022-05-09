@@ -3,7 +3,7 @@ title: IChartSeriesCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1820
+weight: 1800
 url: /net/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection interface
@@ -14,17 +14,25 @@ Represents collection of [`IChartSeries`](../ichartseries)
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. |
-| [Add](add)(…) | Creates new chart series and adds it to the collection. (4 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(ChartType) | Creates new chart series and adds it to the collection. |
+| [Add](add)(IChartCellCollection, ChartType) | Creates new chart series from [`IChartCellCollection`](../ichartcellcollection) and adds it to the collection. |
+| [Add](add)(IChartDataCell, ChartType) | Creates new chart series from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
+| [Add](add)(string, ChartType) | Creates new chart series from value and adds it to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [IndexOf](indexof)(…) | Searches for the specified [`IChartSeries`](../ichartseries) and returns the zero-based index of the first occurrence within the entire Collection |
-| [Insert](insert)(…) | Creates new chart series and inserts it into the collection. |
-| [Remove](remove)(…) | Removes the specified value. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index |
+| [IndexOf](indexof)(IChartSeries) | Searches for the specified [`IChartSeries`](../ichartseries) and returns the zero-based index of the first occurrence within the entire Collection |
+| [Insert](insert)(int, ChartType) | Creates new chart series and inserts it into the collection. |
+| [Remove](remove)(IChartSeries) | Removes the specified value. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index |
 
 ### See Also
 

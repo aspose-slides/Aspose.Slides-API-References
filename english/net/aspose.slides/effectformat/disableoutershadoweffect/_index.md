@@ -3,7 +3,7 @@ title: DisableOuterShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.slides/effectformat/disableoutershadoweffect/
 ---
 ## EffectFormat.DisableOuterShadowEffect method

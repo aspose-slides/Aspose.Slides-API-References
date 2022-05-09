@@ -3,7 +3,7 @@ title: TrendlineCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2360
+weight: 2340
 url: /net/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection class
@@ -11,21 +11,28 @@ url: /net/aspose.slides.charts/trendlinecollection/
 Represents a collection of Trendline
 
 ```csharp
-public class TrendlineCollection : ITrendlineCollection
+public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`Trendline`](../trendline). |
-| [Add](add)(…) | Adds the new Trendline at the end of a collection and return it. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(TrendlineType) | Adds the new Trendline at the end of a collection and return it. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes the specified value. |
+| [Remove](remove)(ITrendline) | Removes the specified value. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartSeries](../chartseries)
 * interface [ITrendlineCollection](../itrendlinecollection)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

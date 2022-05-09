@@ -3,7 +3,7 @@ title: Rectangle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 70
 url: /net/aspose.slides/shapeframe/rectangle/
 ---
 ## ShapeFrame.Rectangle property

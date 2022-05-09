@@ -3,7 +3,7 @@ title: Chart
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1140
+weight: 1120
 url: /net/aspose.slides.charts/chart/
 ---
 ## Chart class
@@ -14,7 +14,7 @@ Represents an graphic chart on a slide.
 public class Chart : GraphicalObject, IChart
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -42,6 +42,11 @@ public class Chart : GraphicalObject, IChart
 | [ThemeManager](thememanager) { get; } | Returns theme manager. Read-only [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
 | [Type](type) { get; set; } | Returns or sets the chart type. Read/write [`ChartType`](../charttype). |
 | [UserShapes](usershapes) { get; } | Specify the shapes drawn on top of the chart. Read-only [`IGroupShape`](../../aspose.slides/igroupshape). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreateThemeEffective](createthemeeffective)() | Returns an effective theme for this chart. |
 | [ValidateChartLayout](validatechartlayout)() | Calculates actual values of chart elements. The actual values include position of elements that implement IActualLayout interface (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
 

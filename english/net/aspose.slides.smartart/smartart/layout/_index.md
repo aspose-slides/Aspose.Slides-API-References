@@ -3,7 +3,7 @@ title: Layout
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.slides.smartart/smartart/layout/
 ---
 ## SmartArt.Layout property

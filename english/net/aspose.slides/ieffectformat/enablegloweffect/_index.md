@@ -3,7 +3,7 @@ title: EnableGlowEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 200
 url: /net/aspose.slides/ieffectformat/enablegloweffect/
 ---
 ## IEffectFormat.EnableGlowEffect method

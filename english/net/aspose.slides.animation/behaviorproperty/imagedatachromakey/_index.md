@@ -3,7 +3,7 @@ title: ImageDataChromakey
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.slides.animation/behaviorproperty/imagedatachromakey/
 ---
 ## BehaviorProperty.ImageDataChromakey property

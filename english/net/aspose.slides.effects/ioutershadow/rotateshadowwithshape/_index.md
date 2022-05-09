@@ -3,7 +3,7 @@ title: RotateShadowWithShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.slides.effects/ioutershadow/rotateshadowwithshape/
 ---
 ## IOuterShadow.RotateShadowWithShape property

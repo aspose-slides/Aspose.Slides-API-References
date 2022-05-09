@@ -3,7 +3,7 @@ title: SkewOriginX
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 930
+weight: 860
 url: /net/aspose.slides.animation/behaviorproperty/skeworiginx/
 ---
 ## BehaviorProperty.SkewOriginX property

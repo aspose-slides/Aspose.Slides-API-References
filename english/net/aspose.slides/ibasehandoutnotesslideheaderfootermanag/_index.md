@@ -3,7 +3,7 @@ title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5060
+weight: 4810
 url: /net/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag interface
@@ -14,14 +14,19 @@ Represents manager which holds behavior of the placeholders, including header pl
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
 | [IsHeaderVisible](isheadervisible) { get; } | Gets value indicating that a header placeholder is present. Read Boolean. |
-| [SetHeaderText](setheadertext)(…) | Sets text to slide header placeholder. |
-| [SetHeaderVisibility](setheadervisibility)(…) | Changes slide header placeholder visibility. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetHeaderText](setheadertext)(string) | Sets text to slide header placeholder. |
+| [SetHeaderVisibility](setheadervisibility)(bool) | Changes slide header placeholder visibility. |
 
 ### Remarks
 

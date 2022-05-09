@@ -3,7 +3,7 @@ title: Volume
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 140
 url: /net/aspose.slides/iaudioframe/volume/
 ---
 ## IAudioFrame.Volume property

@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 130
 url: /net/aspose.slides.charts/chartcategorycollection/removeat/
 ---
 ## ChartCategoryCollection.RemoveAt method

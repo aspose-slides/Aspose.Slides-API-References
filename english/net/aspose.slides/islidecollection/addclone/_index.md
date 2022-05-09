@@ -3,7 +3,7 @@ title: AddClone
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides/islidecollection/addclone/
 ---
 ## ISlideCollection.AddClone method (1 of 4)
@@ -36,33 +36,6 @@ When cloning a slide between different presentations slide's master can be clone
 ---
 
 ## ISlideCollection.AddClone method (2 of 4)
-
-Adds a copy of a specified slide to the end of the collection.
-
-```csharp
-public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceSlide | ISlide | Slide to clone. |
-| destLayout | ILayoutSlide | Layout slide for a new slide. |
-
-## Return Value
-
-New slide.
-
-### See Also
-
-* interface [ISlide](../../islide)
-* interface [ILayoutSlide](../../ilayoutslide)
-* interface [ISlideCollection](../../islidecollection)
-* namespace [Aspose.Slides](../../islidecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ISlideCollection.AddClone method (3 of 4)
 
 Adds a copy of a specified slide to the end of the specified section.
 
@@ -106,6 +79,33 @@ using (IPresentation presentation = new Presentation())
 
 * interface [ISlide](../../islide)
 * interface [ISection](../../isection)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ISlideCollection.AddClone method (3 of 4)
+
+Adds a copy of a specified slide to the end of the collection.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceSlide | ISlide | Slide to clone. |
+| destLayout | ILayoutSlide | Layout slide for a new slide. |
+
+## Return Value
+
+New slide.
+
+### See Also
+
+* interface [ISlide](../../islide)
+* interface [ILayoutSlide](../../ilayoutslide)
 * interface [ISlideCollection](../../islidecollection)
 * namespace [Aspose.Slides](../../islidecollection)
 * assembly [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: GraphicalObject
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4850
+weight: 4600
 url: /net/aspose.slides/graphicalobject/
 ---
 ## GraphicalObject class
@@ -14,7 +14,7 @@ Represents abstract graphical object.
 public class GraphicalObject : Shape, IGraphicalObject
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

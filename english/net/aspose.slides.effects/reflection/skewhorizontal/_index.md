@@ -3,7 +3,7 @@ title: SkewHorizontal
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 110
 url: /net/aspose.slides.effects/reflection/skewhorizontal/
 ---
 ## Reflection.SkewHorizontal property

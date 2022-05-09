@@ -3,7 +3,7 @@ title: AlignShapes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.slides.util/slideutil/alignshapes/
 ---
 ## SlideUtil.AlignShapes method (1 of 4)
@@ -45,43 +45,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## SlideUtil.AlignShapes method (2 of 4)
 
-Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
-
-```csharp
-public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
-    IGroupShape groupShape)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
-| groupShape | IGroupShape | Parent group shape. |
-
-### Examples
-
-Example:
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation("pres.pptx"))
-{
-   SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, (GroupShape)slide.Shapes[0]);
-}
-```
-
-### See Also
-
-* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
-* interface [IGroupShape](../../../aspose.slides/igroupshape)
-* class [SlideUtil](../../slideutil)
-* namespace [Aspose.Slides.Util](../../slideutil)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## SlideUtil.AlignShapes method (3 of 4)
-
 Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
 
 ```csharp
@@ -120,6 +83,43 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 * enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
 * interface [IBaseSlide](../../../aspose.slides/ibaseslide)
+* class [SlideUtil](../../slideutil)
+* namespace [Aspose.Slides.Util](../../slideutil)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## SlideUtil.AlignShapes method (3 of 4)
+
+Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IGroupShape groupShape)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | Determines which type of alignment will be applied. |
+| alignToSlide | Boolean | If true, shapes will be aligned relative to the slide edges. |
+| groupShape | IGroupShape | Parent group shape. |
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, (GroupShape)slide.Shapes[0]);
+}
+```
+
+### See Also
+
+* enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* interface [IGroupShape](../../../aspose.slides/igroupshape)
 * class [SlideUtil](../../slideutil)
 * namespace [Aspose.Slides.Util](../../slideutil)
 * assembly [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 260
 url: /net/aspose.slides/ieffectformat/geteffective/
 ---
 ## IEffectFormat.GetEffective method

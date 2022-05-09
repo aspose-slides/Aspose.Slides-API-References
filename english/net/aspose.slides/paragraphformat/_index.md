@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8820
+weight: 8570
 url: /net/aspose.slides/paragraphformat/
 ---
 ## ParagraphFormat class
@@ -14,11 +14,16 @@ This class contains the paragraph formatting properties. Unlike [`IParagraphForm
 public class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphFormat
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ParagraphFormat](paragraphformat)() | Initializes a new instance of [`ParagraphFormat`](../paragraphformat) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Alignment](alignment) { get; set; } | Returns or sets the text alignment in a paragraph with no inheritance. Read/write [`TextAlignment`](../textalignment). |
 | [DefaultTabSize](defaulttabsize) { get; set; } | Returns or sets default tabulation size with no inheritance. Read/write Single. |
 | [EastAsianLineBreak](eastasianlinebreak) { get; set; } | Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write [`NullableBool`](../nullablebool). |
@@ -33,6 +38,11 @@ public class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphForma
 | [SpaceBefore](spacebefore) { get; set; } | Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write Single. |
 | [SpaceWithin](spacewithin) { get; set; } | Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write Single. |
 | [Tabs](tabs) { get; } | Returns tabulations of a paragraph. No inheritance applied. Read-only [`ITabCollection`](../itabcollection). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective paragraph formatting data with the inheritance applied. |
 
 ### Remarks

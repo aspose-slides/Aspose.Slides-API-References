@@ -3,7 +3,7 @@ title: ActualWidth
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 20
 url: /net/aspose.slides.charts/chartplotarea/actualwidth/
 ---
 ## ChartPlotArea.ActualWidth property

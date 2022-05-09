@@ -3,7 +3,7 @@ title: ColumnSpacing
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 50
 url: /net/aspose.slides/itextframeformat/columnspacing/
 ---
 ## ITextFrameFormat.ColumnSpacing property

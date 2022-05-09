@@ -3,7 +3,7 @@ title: IBlurEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3190
+weight: 3010
 url: /net/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents a Blur effect that is applied to the entire sh
 public interface IBlurEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

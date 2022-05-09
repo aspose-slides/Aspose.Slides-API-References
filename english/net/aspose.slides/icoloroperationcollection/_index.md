@@ -3,7 +3,7 @@ title: IColorOperationCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5260
+weight: 5010
 url: /net/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection interface
@@ -15,15 +15,22 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
     IGenericCollection<IColorOperation>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; set; } | Returns or sets the operation at the specified index. Read/write [`IColorOperation`](../icoloroperation). |
-| [Add](add)(…) | Adds a new operation to the end of collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(ColorTransformOperation) | Adds a new operation to the end of collection. |
+| [Add](add)(ColorTransformOperation, float) | Adds a new operation to the end of collection. |
 | [Clear](clear)() | Removes all color operations. |
-| [Insert](insert)(…) | Inserts the new operation to a collection. (2 methods) |
-| [RemoveAt](removeat)(…) | Removes the color operation from a collection. |
+| [Insert](insert)(int, ColorTransformOperation) | Inserts the new operation to a collection. |
+| [Insert](insert)(int, ColorTransformOperation, float) | Inserts the new operation to a collection. |
+| [RemoveAt](removeat)(int) | Removes the color operation from a collection. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ChartPlotArea
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1300
+weight: 1280
 url: /net/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/chartplotarea/
 Represents rectangle where chart should be plotted.
 
 ```csharp
-public class ChartPlotArea : IChartPlotArea
+public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -35,6 +35,8 @@ public class ChartPlotArea : IChartPlotArea
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Chart](../chart)
 * interface [IChartPlotArea](../ichartplotarea)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

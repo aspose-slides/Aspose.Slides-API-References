@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 10
 url: /net/aspose.slides/ishapecollection/item/
 ---
 ## IShapeCollection indexer

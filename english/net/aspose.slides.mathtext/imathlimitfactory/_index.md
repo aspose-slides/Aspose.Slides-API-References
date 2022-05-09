@@ -3,7 +3,7 @@ title: IMathLimitFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7860
+weight: 7610
 url: /net/aspose.slides.mathtext/imathlimitfactory/
 ---
 ## IMathLimitFactory interface
@@ -14,11 +14,12 @@ Allows to create IMathLimit
 public interface IMathLimitFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateMathLimit](createmathlimit)(…) | Creates IMathLimit (2 methods) |
+| [CreateMathLimit](createmathlimit)(IMathElement, IMathElement) | Creates IMathLimit with limit at the bottom |
+| [CreateMathLimit](createmathlimit)(IMathElement, IMathElement, bool) | Creates IMathLimit |
 
 ### Remarks
 

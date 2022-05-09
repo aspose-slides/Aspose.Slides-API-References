@@ -3,7 +3,7 @@ title: ISideDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9650
+weight: 9400
 url: /net/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition interface
@@ -14,7 +14,7 @@ Side direction slide transition effect.
 public interface ISideDirectionTransition : ITransitionValueBase
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

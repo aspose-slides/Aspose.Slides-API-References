@@ -3,7 +3,7 @@ title: UnderlineLineFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 260
 url: /net/aspose.slides/baseportionformat/underlinelineformat/
 ---
 ## BasePortionFormat.UnderlineLineFormat property

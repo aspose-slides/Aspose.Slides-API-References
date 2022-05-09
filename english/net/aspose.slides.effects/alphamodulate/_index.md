@@ -3,7 +3,7 @@ title: AlphaModulate
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2760
+weight: 2710
 url: /net/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate class
@@ -14,11 +14,11 @@ Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplie
 public class AlphaModulate : ImageTransformOperation, IAlphaModulate
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the specified [`AlphaModulate`](../alphamodulate) is equal to the current [`AlphaModulate`](../alphamodulate). |
+| override [Equals](equals)(object) | Determines whether the specified [`AlphaModulate`](../alphamodulate) is equal to the current [`AlphaModulate`](../alphamodulate). |
 | [GetEffective](geteffective)() | Gets effective Alpha Modulate effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

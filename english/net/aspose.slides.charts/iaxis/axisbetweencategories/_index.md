@@ -3,7 +3,7 @@ title: AxisBetweenCategories
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 90
 url: /net/aspose.slides.charts/iaxis/axisbetweencategories/
 ---
 ## IAxis.AxisBetweenCategories property

@@ -3,7 +3,7 @@ title: MinorUnit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 410
 url: /net/aspose.slides.charts/iaxis/minorunit/
 ---
 ## IAxis.MinorUnit property

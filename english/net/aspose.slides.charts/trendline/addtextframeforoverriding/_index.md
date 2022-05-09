@@ -3,7 +3,7 @@ title: AddTextFrameForOverriding
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 150
 url: /net/aspose.slides.charts/trendline/addtextframeforoverriding/
 ---
 ## Trendline.AddTextFrameForOverriding method

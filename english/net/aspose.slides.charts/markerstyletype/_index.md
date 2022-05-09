@@ -3,7 +3,7 @@ title: MarkerStyleType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2220
+weight: 2200
 url: /net/aspose.slides.charts/markerstyletype/
 ---
 ## MarkerStyleType enumeration

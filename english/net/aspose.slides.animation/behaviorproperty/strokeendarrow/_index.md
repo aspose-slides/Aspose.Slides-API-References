@@ -3,7 +3,7 @@ title: StrokeEndArrow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 910
 url: /net/aspose.slides.animation/behaviorproperty/strokeendarrow/
 ---
 ## BehaviorProperty.StrokeEndArrow property

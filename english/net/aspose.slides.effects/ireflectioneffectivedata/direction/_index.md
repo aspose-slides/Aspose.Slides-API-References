@@ -3,7 +3,7 @@ title: Direction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 30
 url: /net/aspose.slides.effects/ireflectioneffectivedata/direction/
 ---
 ## IReflectionEffectiveData.Direction property

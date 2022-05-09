@@ -3,7 +3,7 @@ title: IEffectEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3260
+weight: 3080
 url: /net/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData interface

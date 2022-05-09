@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8590
+weight: 8340
 url: /net/aspose.slides/metered/
 ---
 ## Metered class
@@ -14,12 +14,17 @@ Provides methods to set metered key.
 public class Metered
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Metered](metered)() | Initializes a new instance of this class. |
-| [SetMeteredKey](setmeteredkey)(…) | Sets metered public and private key |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetMeteredKey](setmeteredkey)(string, string) | Sets metered public and private key |
 | static [GetConsumptionCredit](getconsumptioncredit)() | Gets consumption credit |
 | static [GetConsumptionQuantity](getconsumptionquantity)() | Gets consumption file size |
 

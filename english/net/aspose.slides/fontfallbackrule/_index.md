@@ -3,7 +3,7 @@ title: FontFallBackRule
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4650
+weight: 4400
 url: /net/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule class
@@ -14,22 +14,34 @@ Represents font fallback rule
 public class FontFallBackRule : IFontFallBackRule
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [FontFallBackRule](fontfallbackrule)(…) | Creates new instance. (2 constructors) |
+| [FontFallBackRule](fontfallbackrule)(uint, uint, string) | Creates new instance. |
+| [FontFallBackRule](fontfallbackrule)(uint, uint, string[]) | Creates new instance. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Gets the number of fonts actually defined for range. Read-only Int32. |
 | [Item](item) { get; } | Gets the font name at the specified index. Read-only [`IFontFallBackRule`](../ifontfallbackrule). |
 | [RangeEndIndex](rangeendindex) { get; set; } | Get last index of continuous unicode range. |
 | [RangeStartIndex](rangestartindex) { get; set; } | Get first index of continuous unicode range. |
-| [AddFallBackFonts](addfallbackfonts)(…) | Adds a new font(s) to the list of FallBack fonts. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddFallBackFonts](addfallbackfonts)(string) | Adds a new font(s) to the list of FallBack fonts. |
+| [AddFallBackFonts](addfallbackfonts)(string[]) | Adds a new fonts to the list of FallBack fonts. |
 | [Clear](clear)() | Removes all fonts from the list. |
-| [IndexOf](indexof)(…) | Returns an index of the specified rule in the collection. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific FallBack font from the list. |
-| [RemoveAt](removeat)(…) | Removes the FallBack font at the specified index of the list. |
+| [IndexOf](indexof)(string) | Returns an index of the specified rule in the collection. |
+| [Remove](remove)(string) | Removes the first occurrence of a specific FallBack font from the list. |
+| [RemoveAt](removeat)(int) | Removes the FallBack font at the specified index of the list. |
 | [ToArray](toarray)() | Creates and returns an array with all FallBack fonts for this rule. |
-| [ToArray](toarray)(…) | Creates and returns an array with all FallBack fonts from the specified range in list. |
+| [ToArray](toarray)(int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
 
 ### See Also
 

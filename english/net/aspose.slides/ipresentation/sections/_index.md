@@ -3,7 +3,7 @@ title: Sections
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 230
 url: /net/aspose.slides/ipresentation/sections/
 ---
 ## IPresentation.Sections property

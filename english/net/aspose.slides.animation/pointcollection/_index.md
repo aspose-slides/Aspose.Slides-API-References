@@ -3,7 +3,7 @@ title: PointCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 640
+weight: 630
 url: /net/aspose.slides.animation/pointcollection/
 ---
 ## PointCollection class
@@ -14,13 +14,23 @@ Represent collection of animation points.
 public class PointCollection : IPointCollection
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PointCollection](pointcollection)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Returns the number of points in the collection. Read-only Int32. |
 | [Item](item) { get; } | Returns a point at the specified index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also

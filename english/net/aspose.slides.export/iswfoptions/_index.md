@@ -3,7 +3,7 @@ title: ISwfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4060
+weight: 3810
 url: /net/aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions interface
@@ -14,7 +14,7 @@ Provides options that control how a presentation is saved in SWF format.
 public interface ISwfOptions : ISaveOptions
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

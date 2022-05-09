@@ -3,7 +3,7 @@ title: SmartArtNodeCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10070
+weight: 9820
 url: /net/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection class
@@ -14,7 +14,7 @@ Represents a collection of SmartArt nodes.
 public class SmartArtNodeCollection : ISmartArtNodeCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,11 +22,17 @@ public class SmartArtNodeCollection : ISmartArtNodeCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns node by index |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [AddNode](addnode)() | Add new smart art node or sub node. |
-| [AddNodeByPosition](addnodebyposition)(…) | Add new node in the selected position of nodes collection |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+| [AddNodeByPosition](addnodebyposition)(int) | Add new node in the selected position of nodes collection |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [RemoveNode](removenode)(…) | Remove node or sub node by index (2 methods) |
+| [RemoveNode](removenode)(int) | Remove node or sub node by index |
+| [RemoveNode](removenode)(ISmartArtNode) | Remove node or sub node |
 
 ### See Also
 

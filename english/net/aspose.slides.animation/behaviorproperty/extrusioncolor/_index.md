@@ -3,7 +3,7 @@ title: ExtrusionColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1180
+weight: 30
 url: /net/aspose.slides.animation/behaviorproperty/extrusioncolor/
 ---
 ## BehaviorProperty.ExtrusionColor property

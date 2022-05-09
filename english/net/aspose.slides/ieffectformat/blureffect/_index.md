@@ -3,7 +3,7 @@ title: BlurEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 20
 url: /net/aspose.slides/ieffectformat/blureffect/
 ---
 ## IEffectFormat.BlurEffect property

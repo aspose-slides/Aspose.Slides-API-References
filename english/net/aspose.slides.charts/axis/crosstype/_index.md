@@ -3,7 +3,7 @@ title: CrossType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 140
 url: /net/aspose.slides.charts/axis/crosstype/
 ---
 ## Axis.CrossType property

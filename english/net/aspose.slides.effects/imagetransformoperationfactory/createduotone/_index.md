@@ -3,7 +3,7 @@ title: CreateDuotone
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.slides.effects/imagetransformoperationfactory/createduotone/
 ---
 ## ImageTransformOperationFactory.CreateDuotone method

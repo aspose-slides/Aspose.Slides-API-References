@@ -3,7 +3,7 @@ title: IFormatFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5660
+weight: 5410
 url: /net/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory interface
@@ -14,7 +14,7 @@ Allows to create formats via COM interface.
 public interface IFormatFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |

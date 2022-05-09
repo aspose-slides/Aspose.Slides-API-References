@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 120
 url: /net/aspose.slides.charts/chartplotarea/width/
 ---
 ## ChartPlotArea.Width property

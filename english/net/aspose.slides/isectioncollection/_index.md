@@ -3,7 +3,7 @@ title: ISectionCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6590
+weight: 6340
 url: /net/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection interface
@@ -14,19 +14,24 @@ Represents a collection of sections.
 public interface ISectionCollection : IGenericCollection<ISection>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISection`](../isection). |
-| [AddEmptySection](addemptysection)(…) | Add empty section to specified position of the collection. |
-| [AddSection](addsection)(…) | Add new section started form specific slide. |
-| [AppendEmptySection](appendemptysection)(…) | Add empty section to the end of the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddEmptySection](addemptysection)(string, int) | Add empty section to specified position of the collection. |
+| [AddSection](addsection)(string, ISlide) | Add new section started form specific slide. |
+| [AppendEmptySection](appendemptysection)(string) | Add empty section to the end of the collection. |
 | [Clear](clear)() | Removes all sections from the collection. |
-| [IndexOf](indexof)(…) | Returns an index of the specified section in the collection. |
-| [RemoveSection](removesection)(…) | Remove section. Slides contained in the section will be merged into previous section. |
-| [RemoveSectionWithSlides](removesectionwithslides)(…) | Remove section and slides contained in the section. |
-| [ReorderSectionWithSlides](reordersectionwithslides)(…) | Moves section and its slides from the collection to the specified position. |
+| [IndexOf](indexof)(ISection) | Returns an index of the specified section in the collection. |
+| [RemoveSection](removesection)(ISection) | Remove section. Slides contained in the section will be merged into previous section. |
+| [RemoveSectionWithSlides](removesectionwithslides)(ISection) | Remove section and slides contained in the section. |
+| [ReorderSectionWithSlides](reordersectionwithslides)(ISection, int) | Moves section and its slides from the collection to the specified position. |
 
 ### See Also
 

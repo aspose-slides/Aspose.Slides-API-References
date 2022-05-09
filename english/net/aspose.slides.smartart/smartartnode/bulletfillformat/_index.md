@@ -3,7 +3,7 @@ title: BulletFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 10
 url: /net/aspose.slides.smartart/smartartnode/bulletfillformat/
 ---
 ## SmartArtNode.BulletFillFormat property

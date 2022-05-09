@@ -3,7 +3,7 @@ title: IAlphaBiLevelEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3030
+weight: 2850
 url: /net/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents an Alpha Bi-Level effect. Alpha (Opacity) valu
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

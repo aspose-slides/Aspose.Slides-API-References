@@ -3,7 +3,7 @@ title: MathDelimiterShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8190
+weight: 7940
 url: /net/aspose.slides.mathtext/mathdelimitershape/
 ---
 ## MathDelimiterShape enumeration

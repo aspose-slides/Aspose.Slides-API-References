@@ -3,7 +3,7 @@ title: RowGapRule
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 110
 url: /net/aspose.slides.mathtext/imathmatrix/rowgaprule/
 ---
 ## IMathMatrix.RowGapRule property

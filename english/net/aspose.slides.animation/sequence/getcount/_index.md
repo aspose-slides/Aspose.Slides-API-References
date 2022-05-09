@@ -3,7 +3,7 @@ title: GetCount
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 60
 url: /net/aspose.slides.animation/sequence/getcount/
 ---
 ## Sequence.GetCount method

@@ -3,7 +3,7 @@ title: Object
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.slides.export.web/templatecontext-1/object/
 ---
 ## TemplateContext&lt;TObject&gt;.Object property

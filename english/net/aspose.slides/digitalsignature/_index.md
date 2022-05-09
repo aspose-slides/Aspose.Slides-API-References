@@ -3,7 +3,7 @@ title: DigitalSignature
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2640
+weight: 2620
 url: /net/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature class
@@ -14,11 +14,17 @@ Digital signature in signed file.
 public class DigitalSignature : IDigitalSignature
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [DigitalSignature](digitalsignature)(…) | Creates a new DigitalSignature object with the specified certificate. (2 constructors) |
+| [DigitalSignature](digitalsignature)(X509Certificate2) | Creates a new DigitalSignature object with the specified certificate. |
+| [DigitalSignature](digitalsignature)(string, string) | Creates a new DigitalSignature object with the specified certificate file path and password. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Certificate](certificate) { get; } | Certificate object that was used to sign the document. Read-only X509Certificate2. |
 | [Comments](comments) { get; set; } | The purpose of signature. Read/write String. |
 | [IsValid](isvalid) { get; } | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only Boolean. |

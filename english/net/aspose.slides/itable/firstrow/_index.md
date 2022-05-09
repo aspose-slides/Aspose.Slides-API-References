@@ -3,7 +3,7 @@ title: FirstRow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 50
 url: /net/aspose.slides/itable/firstrow/
 ---
 ## ITable.FirstRow property

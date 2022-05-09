@@ -3,7 +3,7 @@ title: ColorOffset
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset class
@@ -14,11 +14,16 @@ Represent color offset.
 public class ColorOffset : IColorOffset
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ColorOffset](coloroffset)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Value0](value0) { get; set; } | Defines first value of offset. Read/write Single. |
 | [Value1](value1) { get; set; } | Defines second value of offset. Read/write Single. |
 | [Value2](value2) { get; set; } | Defines third value of offset. Read/write Single. |

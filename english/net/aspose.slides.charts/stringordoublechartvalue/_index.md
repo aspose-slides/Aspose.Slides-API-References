@@ -3,7 +3,7 @@ title: StringOrDoubleChartValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2300
+weight: 2280
 url: /net/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue class
@@ -14,7 +14,7 @@ Represent string or double value which can be stored in pptx presentation docume
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,6 +22,11 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 | [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets value as literal double. Read/write Double. |
 | [AsLiteralString](asliteralstring) { get; set; } | Returns or sets value as literal string. Read/write String. |
 | override [Data](data) { get; set; } | Returns or sets Data object. Read/write Object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToDouble](todouble)() | Converts to double. |
 
 ### See Also

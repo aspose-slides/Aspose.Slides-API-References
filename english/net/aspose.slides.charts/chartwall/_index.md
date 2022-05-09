@@ -3,7 +3,7 @@ title: ChartWall
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1400
+weight: 1380
 url: /net/aspose.slides.charts/chartwall/
 ---
 ## ChartWall class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/chartwall/
 Represents walls on 3d charts.
 
 ```csharp
-public class ChartWall : IChartWall
+public class ChartWall : DomObject<Chart>, IChartWall
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,8 @@ public class ChartWall : IChartWall
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Chart](../chart)
 * interface [IChartWall](../ichartwall)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

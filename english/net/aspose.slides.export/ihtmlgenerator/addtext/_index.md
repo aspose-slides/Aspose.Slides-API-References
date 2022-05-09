@@ -3,7 +3,7 @@ title: AddText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 90
 url: /net/aspose.slides.export/ihtmlgenerator/addtext/
 ---
 ## IHtmlGenerator.AddText method (1 of 3)
@@ -11,12 +11,12 @@ url: /net/aspose.slides.export/ihtmlgenerator/addtext/
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
 
 ```csharp
-public void AddText(char[] text)
+public void AddText(string text)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | Char[] | Text to add. |
+| text | String | Text to add. |
 
 ### See Also
 
@@ -31,12 +31,12 @@ public void AddText(char[] text)
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
 
 ```csharp
-public void AddText(string text)
+public void AddText(char[] text)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | String | Text to add. |
+| text | Char[] | Text to add. |
 
 ### See Also
 

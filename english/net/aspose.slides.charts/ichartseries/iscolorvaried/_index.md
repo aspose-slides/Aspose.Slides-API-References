@@ -3,7 +3,7 @@ title: IsColorVaried
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 180
 url: /net/aspose.slides.charts/ichartseries/iscolorvaried/
 ---
 ## IChartSeries.IsColorVaried property

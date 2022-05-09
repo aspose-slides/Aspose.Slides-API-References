@@ -3,7 +3,7 @@ title: CreatedTime
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 110
 url: /net/aspose.slides/documentproperties/createdtime/
 ---
 ## DocumentProperties.CreatedTime property

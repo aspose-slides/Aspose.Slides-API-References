@@ -3,7 +3,7 @@ title: DrawSlidesFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 70
 url: /net/aspose.slides.export/ipdfoptions/drawslidesframe/
 ---
 ## IPdfOptions.DrawSlidesFrame property
@@ -16,7 +16,7 @@ public bool DrawSlidesFrame { get; set; }
 
 ### Remarks
 
-Default is false.
+Default is **false**.
 
 ### See Also
 

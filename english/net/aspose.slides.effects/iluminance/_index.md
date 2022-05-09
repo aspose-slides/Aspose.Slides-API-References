@@ -3,7 +3,7 @@ title: ILuminance
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3420
+weight: 3240
 url: /net/aspose.slides.effects/iluminance/
 ---
 ## ILuminance interface
@@ -15,7 +15,7 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

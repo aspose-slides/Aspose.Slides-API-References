@@ -3,7 +3,7 @@ title: OverflowBin
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 540
+weight: 460
 url: /net/aspose.slides.charts/axis/overflowbin/
 ---
 ## Axis.OverflowBin property

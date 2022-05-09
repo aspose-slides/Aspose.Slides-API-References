@@ -3,7 +3,7 @@ title: ContainsCustomProperty
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 270
 url: /net/aspose.slides/idocumentproperties/containscustomproperty/
 ---
 ## IDocumentProperties.ContainsCustomProperty method

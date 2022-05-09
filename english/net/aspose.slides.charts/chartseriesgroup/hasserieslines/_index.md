@@ -3,7 +3,7 @@ title: HasSeriesLines
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 80
 url: /net/aspose.slides.charts/chartseriesgroup/hasserieslines/
 ---
 ## ChartSeriesGroup.HasSeriesLines property

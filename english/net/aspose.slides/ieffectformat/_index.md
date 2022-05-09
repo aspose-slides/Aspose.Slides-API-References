@@ -3,7 +3,7 @@ title: IEffectFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5470
+weight: 5220
 url: /net/aspose.slides/ieffectformat/
 ---
 ## IEffectFormat interface
@@ -14,7 +14,7 @@ Represents effect properties of shape.
 public interface IEffectFormat : IEffectParamSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -28,6 +28,11 @@ public interface IEffectFormat : IEffectParamSource
 | [PresetShadowEffect](presetshadoweffect) { get; set; } | Preset shadow. Read/write [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](reflectioneffect) { get; set; } | Reflection. Read/write [`IReflection`](../../aspose.slides.effects/ireflection). |
 | [SoftEdgeEffect](softedgeeffect) { get; set; } | Soft edge. Read/write [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [DisableBlurEffect](disableblureffect)() | Disables blur effect. |
 | [DisableFillOverlayEffect](disablefilloverlayeffect)() | Disables fill overlay effect. |
 | [DisableGlowEffect](disablegloweffect)() | Disable glow effect. |
@@ -44,7 +49,7 @@ public interface IEffectFormat : IEffectParamSource
 | [EnableReflectionEffect](enablereflectioneffect)() | Enables reflection effect. |
 | [EnableSoftEdgeEffect](enablesoftedgeeffect)() | Enables soft edge effect. |
 | [GetEffective](geteffective)() | Gets effective effect formatting data with the inheritance applied. |
-| [SetBlurEffect](setblureffect)(…) | Sets blur effect. |
+| [SetBlurEffect](setblureffect)(double, bool) | Sets blur effect. |
 
 ### See Also
 

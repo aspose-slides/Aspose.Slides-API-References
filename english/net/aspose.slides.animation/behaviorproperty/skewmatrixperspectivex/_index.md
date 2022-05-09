@@ -3,7 +3,7 @@ title: SkewMatrixPerspectiveX
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 990
+weight: 770
 url: /net/aspose.slides.animation/behaviorproperty/skewmatrixperspectivex/
 ---
 ## BehaviorProperty.SkewMatrixPerspectiveX property

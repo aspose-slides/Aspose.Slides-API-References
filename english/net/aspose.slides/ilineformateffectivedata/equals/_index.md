@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 180
 url: /net/aspose.slides/ilineformateffectivedata/equals/
 ---
 ## ILineFormatEffectiveData.Equals method
@@ -20,7 +20,7 @@ public bool Equals(ILineFormatEffectiveData lf)
 
 ## Return Value
 
-true if the specified ILineFormatEffectiveData is equal to the current ILineFormatEffectiveData; otherwise, false.
+**true** if the specified ILineFormatEffectiveData is equal to the current ILineFormatEffectiveData; otherwise, **false**.
 
 ### See Also
 

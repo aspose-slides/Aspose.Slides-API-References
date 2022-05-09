@@ -3,7 +3,7 @@ title: SecondaryCategories
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 50
 url: /net/aspose.slides.charts/chartdata/secondarycategories/
 ---
 ## ChartData.SecondaryCategories property

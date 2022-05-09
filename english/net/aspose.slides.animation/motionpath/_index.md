@@ -3,7 +3,7 @@ title: MotionPath
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 600
+weight: 590
 url: /net/aspose.slides.animation/motionpath/
 ---
 ## MotionPath class
@@ -14,19 +14,29 @@ Represent motion path.
 public class MotionPath : IMotionPath
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MotionPath](motionpath)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Returns the number of paths in the collection. Read-only Int32. |
 | [Item](item) { get; } | Returns a command at the specified index. |
-| [Add](add)(…) | Add new command to path |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Add new command to path |
 | [Clear](clear)() | Removes all commands from the collection. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Insert](insert)(…) | Insert new command to path |
-| [Remove](remove)(…) | Removes specified commans from the collection. |
-| [RemoveAt](removeat)(…) | Removes a command at the specified index. |
+| [Insert](insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Insert new command to path |
+| [Remove](remove)(IMotionCmdPath) | Removes specified commans from the collection. |
+| [RemoveAt](removeat)(int) | Removes a command at the specified index. |
 
 ### See Also
 

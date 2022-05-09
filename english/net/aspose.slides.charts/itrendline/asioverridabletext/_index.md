@@ -3,7 +3,7 @@ title: AsIOverridableText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 10
 url: /net/aspose.slides.charts/itrendline/asioverridabletext/
 ---
 ## ITrendline.AsIOverridableText property

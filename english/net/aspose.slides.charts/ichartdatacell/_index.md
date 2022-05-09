@@ -3,7 +3,7 @@ title: IChartDataCell
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1690
+weight: 1670
 url: /net/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell interface
@@ -14,7 +14,7 @@ Represents cell for chart data.
 public interface IChartDataCell
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,12 @@ public interface IChartDataCell
 | [R1C1Formula](r1c1formula) { get; set; } | Gets or sets the formula in R1C1-style. |
 | [Row](row) { get; } | Returns the index of the row of worksheet in which the cell is located. Read-only Int32. |
 | [Value](value) { get; set; } | Gets or sets the value. Read/write Object. |
-| [Calculate](calculate)(…) | If the cell contains a formula, the value will be updated base on that formula. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Calculate](calculate)(bool) | If the cell contains a formula, the value will be updated base on that formula. |
 
 ### See Also
 

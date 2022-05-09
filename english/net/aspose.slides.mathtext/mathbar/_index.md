@@ -3,7 +3,7 @@ title: MathBar
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8090
+weight: 7840
 url: /net/aspose.slides.mathtext/mathbar/
 ---
 ## MathBar class
@@ -14,13 +14,24 @@ Specifies the bar function, consisting of a base argument and an overbar or unde
 public sealed class MathBar : MathElementBase, IMathBar
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathBar](mathbar)(…) | Initializes MathBar with overbar (Top position) (2 constructors) |
+| [MathBar](mathbar)(IMathElement) | Initializes MathBar with overbar (Top position) |
+| [MathBar](mathbar)(IMathElement, MathTopBotPositions) | Initializes MathBar with specified position |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Base](base) { get; } | Base argument |
 | [Position](position) { get; set; } | Position of the bar line. Default: Top |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

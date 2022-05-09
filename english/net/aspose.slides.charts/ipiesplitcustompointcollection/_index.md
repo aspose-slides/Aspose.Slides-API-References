@@ -3,7 +3,7 @@ title: IPieSplitCustomPointCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2070
+weight: 2050
 url: /net/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interface
@@ -14,14 +14,19 @@ Represents a collection of points that shall be drawn in the second pie or bar o
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. |
 | [Item](item) { get; } | Returns chart data point by index. |
-| [Add](add)(…) | Adds data point by its index in parent series points collection. |
-| [Remove](remove)(…) | Removes item from collection by it index in parent series points collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(int) | Adds data point by its index in parent series points collection. |
+| [Remove](remove)(int) | Removes item from collection by it index in parent series points collection. |
 
 ### See Also
 

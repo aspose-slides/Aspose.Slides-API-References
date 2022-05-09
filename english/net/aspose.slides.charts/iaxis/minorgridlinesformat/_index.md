@@ -3,7 +3,7 @@ title: MinorGridLinesFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 390
 url: /net/aspose.slides.charts/iaxis/minorgridlinesformat/
 ---
 ## IAxis.MinorGridLinesFormat property

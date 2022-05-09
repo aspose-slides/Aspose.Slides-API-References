@@ -3,7 +3,7 @@ title: Rotation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 230
 url: /net/aspose.slides/shape/rotation/
 ---
 ## Shape.Rotation property

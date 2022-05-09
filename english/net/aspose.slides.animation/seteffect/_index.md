@@ -3,7 +3,7 @@ title: SetEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 720
+weight: 710
 url: /net/aspose.slides.animation/seteffect/
 ---
 ## SetEffect class
@@ -14,11 +14,16 @@ Represents a set effect for an animation behavior.
 public class SetEffect : Behavior, ISetEffect
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [SetEffect](seteffect)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [To](to) { get; set; } | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
 
 ### See Also

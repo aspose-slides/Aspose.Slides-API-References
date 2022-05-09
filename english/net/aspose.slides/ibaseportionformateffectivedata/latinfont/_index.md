@@ -3,7 +3,7 @@ title: LatinFont
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 170
 url: /net/aspose.slides/ibaseportionformateffectivedata/latinfont/
 ---
 ## IBasePortionFormatEffectiveData.LatinFont property

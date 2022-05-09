@@ -3,7 +3,7 @@ title: HideDegree
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.slides.mathtext/mathradical/hidedegree/
 ---
 ## MathRadical.HideDegree property

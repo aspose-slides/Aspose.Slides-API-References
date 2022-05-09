@@ -3,7 +3,7 @@ title: SaveOptionsFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4280
+weight: 4030
 url: /net/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory class
@@ -14,11 +14,16 @@ Allows to create save options' instances
 public class SaveOptionsFactory : ISaveOptionsFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [SaveOptionsFactory](saveoptionsfactory)() | The default constructor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreatePptxOptions](createpptxoptions)() | Creates PPTX save options. |
 
 ### Remarks

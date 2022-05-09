@@ -3,7 +3,7 @@ title: InsertTable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.slides/shapecollection/inserttable/
 ---
 ## ShapeCollection.InsertTable method

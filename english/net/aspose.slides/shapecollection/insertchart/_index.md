@@ -3,7 +3,7 @@ title: InsertChart
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 310
 url: /net/aspose.slides/shapecollection/insertchart/
 ---
 ## ShapeCollection.InsertChart method (1 of 2)

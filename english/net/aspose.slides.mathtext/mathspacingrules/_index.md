@@ -3,7 +3,7 @@ title: MathSpacingRules
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8500
+weight: 8250
 url: /net/aspose.slides.mathtext/mathspacingrules/
 ---
 ## MathSpacingRules enumeration

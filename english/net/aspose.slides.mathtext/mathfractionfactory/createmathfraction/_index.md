@@ -3,33 +3,10 @@ title: CreateMathFraction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides.mathtext/mathfractionfactory/createmathfraction/
 ---
 ## MathFractionFactory.CreateMathFraction method (1 of 2)
-
-Creates a math fraction
-
-```csharp
-public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| numerator | IMathElement | Numerator |
-| denominator | IMathElement | Denominator |
-
-### See Also
-
-* interface [IMathFraction](../../imathfraction)
-* interface [IMathElement](../../imathelement)
-* class [MathFractionFactory](../../mathfractionfactory)
-* namespace [Aspose.Slides.MathText](../../mathfractionfactory)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## MathFractionFactory.CreateMathFraction method (2 of 2)
 
 Creates a math fraction
 
@@ -49,6 +26,29 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 * interface [IMathFraction](../../imathfraction)
 * interface [IMathElement](../../imathelement)
 * enum [MathFractionTypes](../../mathfractiontypes)
+* class [MathFractionFactory](../../mathfractionfactory)
+* namespace [Aspose.Slides.MathText](../../mathfractionfactory)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## MathFractionFactory.CreateMathFraction method (2 of 2)
+
+Creates a math fraction
+
+```csharp
+public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| numerator | IMathElement | Numerator |
+| denominator | IMathElement | Denominator |
+
+### See Also
+
+* interface [IMathFraction](../../imathfraction)
+* interface [IMathElement](../../imathelement)
 * class [MathFractionFactory](../../mathfractionfactory)
 * namespace [Aspose.Slides.MathText](../../mathfractionfactory)
 * assembly [Aspose.Slides](../../../)

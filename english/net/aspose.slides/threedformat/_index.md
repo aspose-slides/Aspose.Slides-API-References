@@ -3,7 +3,7 @@ title: ThreeDFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10920
+weight: 10670
 url: /net/aspose.slides/threedformat/
 ---
 ## ThreeDFormat class
@@ -14,7 +14,7 @@ Represents 3-D properties.
 public class ThreeDFormat : PVIObject, IThreeDFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -28,6 +28,11 @@ public class ThreeDFormat : PVIObject, IThreeDFormat
 | [ExtrusionHeight](extrusionheight) { get; set; } | Returns or sets the height of an extrusion effect. Read/write Double. |
 | [LightRig](lightrig) { get; } | Returns or sets the type of a light. Read-only [`ILightRig`](../ilightrig). |
 | [Material](material) { get; set; } | Returns or sets the type of a material. Read/write [`MaterialPresetType`](../materialpresettype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective 3-D formatting data with the inheritance applied. |
 
 ### See Also

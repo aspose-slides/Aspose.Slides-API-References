@@ -31,12 +31,12 @@ public SvgImage(byte[] data)
 Creates new SvgImage object.
 
 ```csharp
-public SvgImage(Stream stream)
+public SvgImage(string svgContent)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Svg stream. |
+| svgContent | String | Svg content. |
 
 ### See Also
 
@@ -51,12 +51,12 @@ public SvgImage(Stream stream)
 Creates new SvgImage object.
 
 ```csharp
-public SvgImage(string svgContent)
+public SvgImage(Stream stream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| svgContent | String | Svg content. |
+| stream | Stream | Svg stream. |
 
 ### See Also
 
@@ -94,12 +94,12 @@ public SvgImage(byte[] data, IExternalResourceResolver externalResResolver, stri
 Creates new SvgImage object.
 
 ```csharp
-public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, string baseUri)
+public SvgImage(string svgContent, IExternalResourceResolver externalResResolver, string baseUri)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Svg stream. |
+| svgContent | String | Svg content. |
 | externalResResolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 
@@ -117,12 +117,12 @@ public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, st
 Creates new SvgImage object.
 
 ```csharp
-public SvgImage(string svgContent, IExternalResourceResolver externalResResolver, string baseUri)
+public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, string baseUri)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| svgContent | String | Svg content. |
+| stream | Stream | Svg stream. |
 | externalResResolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
 

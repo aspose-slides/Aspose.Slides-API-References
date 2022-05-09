@@ -3,7 +3,7 @@ title: LabelOffset
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 480
+weight: 320
 url: /net/aspose.slides.charts/axis/labeloffset/
 ---
 ## Axis.LabelOffset property

@@ -3,7 +3,7 @@ title: ChartDataWorksheet
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1270
+weight: 1250
 url: /net/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/chartdataworksheet/
 Represents worksheet associated with [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
-public class ChartDataWorksheet : IChartDataWorksheet
+public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,6 +23,8 @@ public class ChartDataWorksheet : IChartDataWorksheet
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartDataWorksheetCollection](../chartdataworksheetcollection)
 * interface [IChartDataWorksheet](../ichartdataworksheet)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IPortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6420
+weight: 6170
 url: /net/aspose.slides/iportionformat/
 ---
 ## IPortionFormat interface
@@ -14,7 +14,7 @@ This class contains the text portion formatting properties. Unlike [`IPortionFor
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,6 +22,11 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | [AsIHyperlinkContainer](asihyperlinkcontainer) { get; } | Allows to get base IHyperlinkContainer interface. Read-only [`IHyperlinkContainer`](../ihyperlinkcontainer). |
 | [BookmarkId](bookmarkid) { get; set; } | Returns or sets bookmark identifier. Read/write String. |
 | [SmartTagClean](smarttagclean) { get; set; } | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write Boolean. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective portion formatting data with the inheritance applied. |
 
 ### Remarks

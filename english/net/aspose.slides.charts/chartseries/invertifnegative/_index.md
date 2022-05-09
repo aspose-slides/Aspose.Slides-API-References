@@ -3,7 +3,7 @@ title: InvertIfNegative
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 170
 url: /net/aspose.slides.charts/chartseries/invertifnegative/
 ---
 ## ChartSeries.InvertIfNegative property

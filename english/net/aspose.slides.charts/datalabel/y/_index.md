@@ -3,7 +3,7 @@ title: Y
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 170
 url: /net/aspose.slides.charts/datalabel/y/
 ---
 ## DataLabel.Y property

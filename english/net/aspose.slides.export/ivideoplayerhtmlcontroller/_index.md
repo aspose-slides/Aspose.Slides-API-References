@@ -3,7 +3,7 @@ title: IVideoPlayerHtmlController
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4090
+weight: 3840
 url: /net/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController interface
@@ -15,7 +15,7 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
     ISvgShapeFormattingController
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

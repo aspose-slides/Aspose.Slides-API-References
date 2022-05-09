@@ -3,7 +3,7 @@ title: Disable3DText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.slides.export/svgoptions/disable3dtext/
 ---
 ## SVGOptions.Disable3DText property

@@ -3,7 +3,7 @@ title: ReflectionEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 80
 url: /net/aspose.slides/effectformat/reflectioneffect/
 ---
 ## EffectFormat.ReflectionEffect property

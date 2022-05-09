@@ -3,7 +3,7 @@ title: IProtectionManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6510
+weight: 6260
 url: /net/aspose.slides/iprotectionmanager/
 ---
 ## IProtectionManager interface
@@ -14,7 +14,7 @@ Presentation password protestion management.
 public interface IProtectionManager
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,11 +24,16 @@ public interface IProtectionManager
 | [IsOnlyDocumentPropertiesLoaded](isonlydocumentpropertiesloaded) { get; } | This property makes sense, if presentation file is password protected and document properties of this file are public. Value of true means that only document properties are loaded from an encrypted presentation file without use of password. Value of false means that entire encrypted presentation is loaded with use of right password, not only document properties are loaded. If presentation isn't encrypted then property value is always false. If document properties of an encrypted file aren't public then property value is always false. If PresentationEx.EncryptDocumentProperties is true than IsOnlyDocumentPropertiesLoaded property value is always false. Read-only Boolean. |
 | [IsWriteProtected](iswriteprotected) { get; } | Gets a value indicating whether this presentation is write protected. Read-only Boolean. |
 | [ReadOnlyRecommended](readonlyrecommended) { get; set; } | Gets or sets read-only recommendation. Read/write Boolean. |
-| [CheckWriteProtection](checkwriteprotection)(…) | Determines whether a presentation is a password protected to modify. |
-| [Encrypt](encrypt)(…) | Encrypts Presentation with specified password. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CheckWriteProtection](checkwriteprotection)(string) | Determines whether a presentation is a password protected to modify. |
+| [Encrypt](encrypt)(string) | Encrypts Presentation with specified password. |
 | [RemoveEncryption](removeencryption)() | Removes the encryption. |
 | [RemoveWriteProtection](removewriteprotection)() | Removes write protection for this presentation. |
-| [SetWriteProtection](setwriteprotection)(…) | Set write protection for this presentation with specified password. |
+| [SetWriteProtection](setwriteprotection)(string) | Set write protection for this presentation with specified password. |
 
 ### See Also
 

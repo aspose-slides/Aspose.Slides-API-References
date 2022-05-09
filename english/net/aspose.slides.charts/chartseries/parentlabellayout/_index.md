@@ -3,7 +3,7 @@ title: ParentLabelLayout
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 280
 url: /net/aspose.slides.charts/chartseries/parentlabellayout/
 ---
 ## ChartSeries.ParentLabelLayout property

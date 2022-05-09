@@ -3,7 +3,7 @@ title: TextAnimationCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 740
+weight: 730
 url: /net/aspose.slides.animation/textanimationcollection/
 ---
 ## TextAnimationCollection class
@@ -14,17 +14,27 @@ Represents collection of text animations.
 public class TextAnimationCollection : ITextAnimationCollection
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TextAnimationCollection](textanimationcollection)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Returns a number of elements in the collection. Read-only Int32. |
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns element by index. (2 indexers) |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Add](add)() | Adds new text animation to the collection. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection into the specified array. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection into the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also

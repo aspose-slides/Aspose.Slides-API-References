@@ -3,7 +3,7 @@ title: Font
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 30
 url: /net/aspose.slides/ibulletformat/font/
 ---
 ## IBulletFormat.Font property

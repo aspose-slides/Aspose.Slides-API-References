@@ -3,7 +3,7 @@ title: Accent6
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 60
 url: /net/aspose.slides.theme/icolorschemeeffectivedata/accent6/
 ---
 ## IColorSchemeEffectiveData.Accent6 property

@@ -3,7 +3,7 @@ title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10380
+weight: 10130
 url: /net/aspose.slides/textframe/
 ---
 ## TextFrame class
@@ -14,7 +14,7 @@ Represents a TextFrame.
 public sealed class TextFrame : ITextFrame
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,8 +24,14 @@ public sealed class TextFrame : ITextFrame
 | [Slide](slide) { get; } | Returns the parent slide of a TextFrame. Read-only [`IBaseSlide`](../ibaseslide). |
 | [Text](text) { get; set; } | Gets or sets the plain text for a TextFrame. Read/write String. |
 | [TextFrameFormat](textframeformat) { get; } | Returns the formatting object for this TextFrame object. Read-only [`ITextFrameFormat`](../itextframeformat). |
-| [HighlightRegex](highlightregex)(…) | Highlight all matches of regular expression in text frame text using specified color. |
-| [HighlightText](highlighttext)(…) | Highlight all matches of sample in text frame text using specified color. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [HighlightRegex](highlightregex)(string, Color, ITextHighlightingOptions) | Highlight all matches of regular expression in text frame text using specified color. |
+| [HighlightText](highlighttext)(string, Color) | Highlight all matches of sample in text frame text using specified color. |
+| [HighlightText](highlighttext)(string, Color, ITextHighlightingOptions) | Highlight all matches of sample in text frame text using specified color. |
 | [JoinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs. |
 
 ### See Also

@@ -11,32 +11,6 @@ url: /net/aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupin
 Creates a math grouping character
 
 ```csharp
-public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| element | IMathElement | math element to apply grouping character |
-
-## Return Value
-
-new grouping character element
-
-### See Also
-
-* interface [IMathGroupingCharacter](../../imathgroupingcharacter)
-* interface [IMathElement](../../imathelement)
-* interface [IMathGroupingCharacterFactory](../../imathgroupingcharacterfactory)
-* namespace [Aspose.Slides.MathText](../../imathgroupingcharacterfactory)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IMathGroupingCharacterFactory.CreateMathGroupingCharacter method (2 of 2)
-
-Creates a math grouping character
-
-```csharp
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, char character, 
     MathTopBotPositions position, MathTopBotPositions verticalJustification)
 ```
@@ -57,6 +31,32 @@ new grouping character element
 * interface [IMathGroupingCharacter](../../imathgroupingcharacter)
 * interface [IMathElement](../../imathelement)
 * enum [MathTopBotPositions](../../mathtopbotpositions)
+* interface [IMathGroupingCharacterFactory](../../imathgroupingcharacterfactory)
+* namespace [Aspose.Slides.MathText](../../imathgroupingcharacterfactory)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IMathGroupingCharacterFactory.CreateMathGroupingCharacter method (2 of 2)
+
+Creates a math grouping character
+
+```csharp
+public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to apply grouping character |
+
+## Return Value
+
+new grouping character element
+
+### See Also
+
+* interface [IMathGroupingCharacter](../../imathgroupingcharacter)
+* interface [IMathElement](../../imathelement)
 * interface [IMathGroupingCharacterFactory](../../imathgroupingcharacterfactory)
 * namespace [Aspose.Slides.MathText](../../imathgroupingcharacterfactory)
 * assembly [Aspose.Slides](../../../)

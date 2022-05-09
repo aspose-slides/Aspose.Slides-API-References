@@ -3,7 +3,7 @@ title: RotationAngle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 120
 url: /net/aspose.slides/textframeformat/rotationangle/
 ---
 ## TextFrameFormat.RotationAngle property

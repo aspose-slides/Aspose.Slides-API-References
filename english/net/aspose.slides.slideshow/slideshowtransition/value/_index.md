@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.slides.slideshow/slideshowtransition/value/
 ---
 ## SlideShowTransition.Value property

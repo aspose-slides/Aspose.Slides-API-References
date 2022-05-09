@@ -3,7 +3,7 @@ title: ShowInnerPoints
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 380
 url: /net/aspose.slides.charts/ichartseries/showinnerpoints/
 ---
 ## IChartSeries.ShowInnerPoints property

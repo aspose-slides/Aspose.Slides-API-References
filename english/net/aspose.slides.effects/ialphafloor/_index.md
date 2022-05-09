@@ -3,7 +3,7 @@ title: IAlphaFloor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3060
+weight: 2880
 url: /net/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor interface
@@ -15,7 +15,7 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

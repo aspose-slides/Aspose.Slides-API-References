@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9240
+weight: 8990
 url: /net/aspose.slides/rowformat/
 ---
 ## RowFormat class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/rowformat/
 Represents format of a table row.
 
 ```csharp
-public class RowFormat : IRowFormat
+public class RowFormat : DomObject<Row>, IRowFormat
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
@@ -22,6 +22,8 @@ public class RowFormat : IRowFormat
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Row](../row)
 * interface [IRowFormat](../irowformat)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

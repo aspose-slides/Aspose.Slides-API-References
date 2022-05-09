@@ -3,7 +3,7 @@ title: TableStylePreset
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10310
+weight: 10060
 url: /net/aspose.slides/tablestylepreset/
 ---
 ## TableStylePreset enumeration

@@ -3,7 +3,7 @@ title: ShapeUtil
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10940
+weight: 10690
 url: /net/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil class
@@ -14,12 +14,12 @@ Offer methods which helps to process shapes objects.
 public static class ShapeUtil
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| static [GeometryPathToGraphicsPath](geometrypathtographicspath)(…) | Converts [`IGeometryPath`](../../aspose.slides/igeometrypath) to GraphicsPath.  GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the [`IGeometryPath`](../../aspose.slides/igeometrypath) to use in [`GeometryShape`](../../aspose.slides/geometryshape) via [`GraphicsPathToGeometryPath`](./graphicspathtogeometrypath) method. |
-| static [GraphicsPathToGeometryPath](graphicspathtogeometrypath)(…) | Converts a GraphicsPath to the [`IGeometryPath`](../../aspose.slides/igeometrypath) Return value of the method call can be used to change the geometry of a IGeometryShape object with IGeometryShape.SetGeometryPaths method. |
+| static [GeometryPathToGraphicsPath](geometrypathtographicspath)(IGeometryPath) | Converts [`IGeometryPath`](../../aspose.slides/igeometrypath) to GraphicsPath.  GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the [`IGeometryPath`](../../aspose.slides/igeometrypath) to use in [`GeometryShape`](../../aspose.slides/geometryshape) via [`GraphicsPathToGeometryPath`](./graphicspathtogeometrypath) method. |
+| static [GraphicsPathToGeometryPath](graphicspathtogeometrypath)(GraphicsPath) | Converts a GraphicsPath to the [`IGeometryPath`](../../aspose.slides/igeometrypath) Return value of the method call can be used to change the geometry of a IGeometryShape object with IGeometryShape.SetGeometryPaths method. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Material
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.slides/threedformat/material/
 ---
 ## ThreeDFormat.Material property

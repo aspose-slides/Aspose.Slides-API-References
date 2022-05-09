@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 370
 url: /net/aspose.slides/ishapecollection/remove/
 ---
 ## IShapeCollection.Remove method

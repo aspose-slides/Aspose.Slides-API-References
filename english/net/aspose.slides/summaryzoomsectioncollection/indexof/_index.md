@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 100
 url: /net/aspose.slides/summaryzoomsectioncollection/indexof/
 ---
 ## SummaryZoomSectionCollection.IndexOf method

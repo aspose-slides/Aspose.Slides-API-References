@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 170
 url: /net/aspose.slides.mathtext/mathblock/removeat/
 ---
 ## MathBlock.RemoveAt method

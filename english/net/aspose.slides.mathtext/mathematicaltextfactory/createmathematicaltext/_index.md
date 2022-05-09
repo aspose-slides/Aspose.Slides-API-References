@@ -3,7 +3,7 @@ title: CreateMathematicalText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext/
 ---
 ## MathematicalTextFactory.CreateMathematicalText method (1 of 4)

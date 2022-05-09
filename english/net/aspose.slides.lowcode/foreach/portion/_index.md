@@ -3,7 +3,7 @@ title: Portion
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.slides.lowcode/foreach/portion/
 ---
 ## ForEach.Portion method

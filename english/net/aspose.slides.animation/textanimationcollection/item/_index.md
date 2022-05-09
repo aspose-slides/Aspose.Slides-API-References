@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.slides.animation/textanimationcollection/item/
 ---
 ## TextAnimationCollection indexer (1 of 2)

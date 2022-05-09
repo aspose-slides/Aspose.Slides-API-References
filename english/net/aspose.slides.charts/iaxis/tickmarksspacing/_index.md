@@ -3,7 +3,7 @@ title: TickMarksSpacing
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 530
 url: /net/aspose.slides.charts/iaxis/tickmarksspacing/
 ---
 ## IAxis.TickMarksSpacing property

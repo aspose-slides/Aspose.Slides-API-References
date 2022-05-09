@@ -3,7 +3,7 @@ title: MotionEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 570
 url: /net/aspose.slides.animation/motioneffect/
 ---
 ## MotionEffect class
@@ -14,11 +14,16 @@ Represent motion effect behavior of effect.
 public class MotionEffect : Behavior, IMotionEffect
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MotionEffect](motioneffect)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Angle](angle) { get; set; } | Describes the relative angle of the motion path. Read/write Single. |
 | [By](by) { get; set; } | Describes the relative offset value for the animation (in percents). Read/write PointF. |
 | [From](from) { get; set; } | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write PointF. |

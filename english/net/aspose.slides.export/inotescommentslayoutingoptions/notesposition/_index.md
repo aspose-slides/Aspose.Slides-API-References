@@ -3,7 +3,7 @@ title: NotesPosition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.slides.export/inotescommentslayoutingoptions/notesposition/
 ---
 ## INotesCommentsLayoutingOptions.NotesPosition property
@@ -16,7 +16,7 @@ public NotesPositions NotesPosition { get; set; }
 
 ### Remarks
 
-Default is NotesPositions.None.
+Default is **NotesPositions.None**.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: OnlyLoadDocumentProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.slides/loadoptions/onlyloaddocumentproperties/
 ---
 ## LoadOptions.OnlyLoadDocumentProperties property

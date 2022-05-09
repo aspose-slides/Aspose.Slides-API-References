@@ -3,7 +3,7 @@ title: TextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 120
 url: /net/aspose.slides.charts/datalabel/textformat/
 ---
 ## DataLabel.TextFormat property

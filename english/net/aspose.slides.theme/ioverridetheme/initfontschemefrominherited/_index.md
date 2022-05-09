@@ -3,7 +3,7 @@ title: InitFontSchemeFromInherited
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 90
 url: /net/aspose.slides.theme/ioverridetheme/initfontschemefrominherited/
 ---
 ## IOverrideTheme.InitFontSchemeFromInherited method

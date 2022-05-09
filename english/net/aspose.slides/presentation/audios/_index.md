@@ -3,7 +3,7 @@ title: Audios
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 30
 url: /net/aspose.slides/presentation/audios/
 ---
 ## Presentation.Audios property

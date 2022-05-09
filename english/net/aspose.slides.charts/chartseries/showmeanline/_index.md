@@ -3,7 +3,7 @@ title: ShowMeanLine
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 390
 url: /net/aspose.slides.charts/chartseries/showmeanline/
 ---
 ## ChartSeries.ShowMeanLine property

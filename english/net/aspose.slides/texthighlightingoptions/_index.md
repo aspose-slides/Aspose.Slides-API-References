@@ -3,7 +3,7 @@ title: TextHighlightingOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10400
+weight: 10150
 url: /net/aspose.slides/texthighlightingoptions/
 ---
 ## TextHighlightingOptions class
@@ -14,11 +14,16 @@ Represents options which can be used to highlight text in text frame.
 public class TextHighlightingOptions : ITextHighlightingOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TextHighlightingOptions](texthighlightingoptions)() | Creates new default text highlighting options. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CaseSensitive](casesensitive) { get; set; } | Set true to use case-sensitive search, false - otherwise. Read/write Boolean. |
 | [WholeWordsOnly](wholewordsonly) { get; set; } | Set true to match only whole words, false - otherwise. Read/write Boolean. |
 

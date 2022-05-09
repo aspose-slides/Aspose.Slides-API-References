@@ -3,7 +3,7 @@ title: IComment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5310
+weight: 5060
 url: /net/aspose.slides/icomment/
 ---
 ## IComment interface
@@ -14,7 +14,7 @@ Represents a comment on a slide.
 public interface IComment
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,11 @@ public interface IComment
 | [Position](position) { get; set; } | Returns or sets the position of a comment on a slide. Read/write PointF. |
 | [Slide](slide) { get; } | Returns or sets the parent slide of a comment. Read-only [`ISlide`](../islide). |
 | [Text](text) { get; set; } | Returns or sets the plain text of a slide comment. Read/write String. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Remove](remove)() | Removes comment and all its replies from the parent collection. |
 
 ### See Also

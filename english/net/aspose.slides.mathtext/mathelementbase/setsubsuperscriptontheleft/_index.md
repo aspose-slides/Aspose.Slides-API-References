@@ -3,7 +3,7 @@ title: SetSubSuperscriptOnTheLeft
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 140
 url: /net/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft/
 ---
 ## MathElementBase.SetSubSuperscriptOnTheLeft method (1 of 2)

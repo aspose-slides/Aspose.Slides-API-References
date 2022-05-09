@@ -3,7 +3,7 @@ title: SpaceAfter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 140
 url: /net/aspose.slides/iparagraphformateffectivedata/spaceafter/
 ---
 ## IParagraphFormatEffectiveData.SpaceAfter property

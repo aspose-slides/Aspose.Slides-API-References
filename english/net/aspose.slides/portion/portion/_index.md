@@ -3,7 +3,7 @@ title: Portion
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 10
 url: /net/aspose.slides/portion/portion/
 ---
 ## Portion constructor (1 of 3)
@@ -27,7 +27,7 @@ public Portion()
 Initializes a new instance of the Portion class.
 
 ```csharp
-public Portion(Portion portion)
+public Portion(string str)
 ```
 
 ### See Also
@@ -43,7 +43,7 @@ public Portion(Portion portion)
 Initializes a new instance of the Portion class.
 
 ```csharp
-public Portion(string str)
+public Portion(Portion portion)
 ```
 
 ### See Also

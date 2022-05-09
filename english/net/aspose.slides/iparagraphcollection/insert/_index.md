@@ -3,7 +3,7 @@ title: Insert
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 90
 url: /net/aspose.slides/iparagraphcollection/insert/
 ---
 ## IParagraphCollection.Insert method (1 of 2)

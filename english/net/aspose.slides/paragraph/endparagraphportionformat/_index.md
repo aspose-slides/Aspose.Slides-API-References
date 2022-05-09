@@ -3,7 +3,7 @@ title: EndParagraphPortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 20
 url: /net/aspose.slides/paragraph/endparagraphportionformat/
 ---
 ## Paragraph.EndParagraphPortionFormat property

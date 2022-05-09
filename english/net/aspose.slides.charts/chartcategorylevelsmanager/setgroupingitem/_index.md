@@ -3,7 +3,7 @@ title: SetGroupingItem
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem/
 ---
 ## ChartCategoryLevelsManager.SetGroupingItem method

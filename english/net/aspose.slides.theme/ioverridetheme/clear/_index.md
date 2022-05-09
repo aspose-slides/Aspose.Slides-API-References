@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 30
 url: /net/aspose.slides.theme/ioverridetheme/clear/
 ---
 ## IOverrideTheme.Clear method

@@ -3,35 +3,10 @@ title: AddDataPointForPieSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 160
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforpieseries/
 ---
 ## IChartDataPointCollection.AddDataPointForPieSeries method (1 of 2)
-
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer.IsChartTypePie(ChartType) method).
-
-```csharp
-public IChartDataPoint AddDataPointForPieSeries(double value)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | Double | Data point Value |
-
-## Return Value
-
-New data point.
-
-### See Also
-
-* interface [IChartDataPoint](../../ichartdatapoint)
-* interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IChartDataPointCollection.AddDataPointForPieSeries method (2 of 2)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer.IsChartTypePie(ChartType) method).
 
@@ -51,6 +26,31 @@ New data point.
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IChartDataPointCollection.AddDataPointForPieSeries method (2 of 2)
+
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer.IsChartTypePie(ChartType) method).
+
+```csharp
+public IChartDataPoint AddDataPointForPieSeries(double value)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Double | Data point Value |
+
+## Return Value
+
+New data point.
+
+### See Also
+
+* interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * assembly [Aspose.Slides](../../../)

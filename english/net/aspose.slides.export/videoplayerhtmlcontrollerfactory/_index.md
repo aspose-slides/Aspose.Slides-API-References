@@ -3,7 +3,7 @@ title: VideoPlayerHtmlControllerFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4410
+weight: 4160
 url: /net/aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
 ## VideoPlayerHtmlControllerFactory class
@@ -14,12 +14,17 @@ Allows to create VideoPlayerHtmlController.
 public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | The default constructor. |
-| [CreateVideoPlayerHtmlController](createvideoplayerhtmlcontroller)(…) | Creates new `VideoPlayerHtmlController`. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateVideoPlayerHtmlController](createvideoplayerhtmlcontroller)(string, string, string) | Creates new `VideoPlayerHtmlController`. |
 
 ### Remarks
 

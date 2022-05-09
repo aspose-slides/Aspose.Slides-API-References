@@ -3,7 +3,7 @@ title: StreamWrapper
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10180
+weight: 9930
 url: /net/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper class
@@ -14,7 +14,7 @@ Aspose.IO.Stream wrapper for COM interface.
 public class StreamWrapper : IStreamWrapper
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,14 +25,19 @@ public class StreamWrapper : IStreamWrapper
 | [Length](length) { get; } | Gets the length in bytes of the stream. Read-only Int64. |
 | [Position](position) { get; } | Gets or sets the position within the current stream. Read-only Int64. |
 | [Stream](stream) { get; } | Gets a stream. Read-only Stream. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Close](close)() | Closes the current stream and releases any resources. |
 | [Dispose](dispose)() | Disposes object. |
 | [Flush](flush)() | Clears all buffers for this stream and causes any buffered data to be written to the underlying device. |
-| [Read](read)(…) | Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. |
+| [Read](read)(byte[], int, int) | Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. |
 | [ReadByte](readbyte)() | Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream. |
-| [Seek](seek)(…) | Sets the position within the current stream |
-| [Write](write)(…) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
-| [WriteByte](writebyte)(…) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
+| [Seek](seek)(long, SeekOrigin) | Sets the position within the current stream |
+| [Write](write)(byte[], int, int) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
+| [WriteByte](writebyte)(byte) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
 
 ### See Also
 

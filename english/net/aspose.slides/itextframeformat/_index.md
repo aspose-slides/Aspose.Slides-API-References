@@ -3,7 +3,7 @@ title: ITextFrameFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6950
+weight: 6700
 url: /net/aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat interface
@@ -14,7 +14,7 @@ Contains the TextFrame's formatting properties.
 public interface ITextFrameFormat
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -33,7 +33,12 @@ public interface ITextFrameFormat
 | [TextVerticalType](textverticaltype) { get; set; } | Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read/write [`TextVerticalType`](../textverticaltype). |
 | [ThreeDFormat](threedformat) { get; } | Returns the ThreeDFormat object that represents 3d effect properties for a text. Read-only [`IThreeDFormat`](../ithreedformat). |
 | [Transform](transform) { get; set; } | Gets or sets text wrapping shape. Read/write [`TextShapeType`](../textshapetype). |
-| [WrapText](wraptext) { get; set; } | True if text is wrapped at TextFrame's margins. Read/write [`NullableBool`](../nullablebool). |
+| [WrapText](wraptext) { get; set; } | **True** if text is wrapped at TextFrame's margins. Read/write [`NullableBool`](../nullablebool). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective text frame formatting data with the inheritance applied. |
 
 ### See Also

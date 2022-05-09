@@ -3,7 +3,7 @@ title: StrikethroughType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 230
 url: /net/aspose.slides/ibaseportionformateffectivedata/strikethroughtype/
 ---
 ## IBasePortionFormatEffectiveData.StrikethroughType property

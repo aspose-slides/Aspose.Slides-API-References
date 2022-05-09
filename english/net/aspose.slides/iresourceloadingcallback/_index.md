@@ -3,7 +3,7 @@ title: IResourceLoadingCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6530
+weight: 6280
 url: /net/aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
@@ -14,11 +14,11 @@ Callback interface used to manage external resources loading.
 public interface IResourceLoadingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [ResourceLoading](resourceloading)(…) | Callback method which regulates external resources loading. |
+| [ResourceLoading](resourceloading)(IResourceLoadingArgs) | Callback method which regulates external resources loading. |
 
 ### See Also
 

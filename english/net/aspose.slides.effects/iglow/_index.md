@@ -3,7 +3,7 @@ title: IGlow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3300
+weight: 3120
 url: /net/aspose.slides.effects/iglow/
 ---
 ## IGlow interface
@@ -14,7 +14,7 @@ Represents a Glow effect, in which a color blurred outline is added outside the 
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

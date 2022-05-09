@@ -3,7 +3,7 @@ title: MarginLeft
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 90
 url: /net/aspose.slides/paragraphformat/marginleft/
 ---
 ## ParagraphFormat.MarginLeft property

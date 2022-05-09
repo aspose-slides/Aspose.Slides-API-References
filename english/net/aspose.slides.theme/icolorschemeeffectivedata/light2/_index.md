@@ -3,7 +3,7 @@ title: Light2
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 130
 url: /net/aspose.slides.theme/icolorschemeeffectivedata/light2/
 ---
 ## IColorSchemeEffectiveData.Light2 property

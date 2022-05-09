@@ -3,7 +3,7 @@ title: ISvgShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4020
+weight: 3770
 url: /net/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape interface
@@ -14,12 +14,17 @@ Represents options for SVG shape.
 public interface ISvgShape
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Id](id) { get; set; } | Sets or gets id for the shape |
-| [SetEventHandler](seteventhandler)(…) | Sets event handler for the shape |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetEventHandler](seteventhandler)(SvgEvent, string) | Sets event handler for the shape |
 
 ### See Also
 

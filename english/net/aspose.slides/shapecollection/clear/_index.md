@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 230
 url: /net/aspose.slides/shapecollection/clear/
 ---
 ## ShapeCollection.Clear method

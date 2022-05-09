@@ -3,7 +3,7 @@ title: IReflection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3480
+weight: 3300
 url: /net/aspose.slides.effects/ireflection/
 ---
 ## IReflection interface
@@ -15,7 +15,7 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

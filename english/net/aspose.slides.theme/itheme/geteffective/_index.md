@@ -3,7 +3,7 @@ title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.slides.theme/itheme/geteffective/
 ---
 ## ITheme.GetEffective method

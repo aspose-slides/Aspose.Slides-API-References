@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 230
 url: /net/aspose.slides/fieldtype/op_inequality/
 ---
 ## FieldType Inequality operator

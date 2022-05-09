@@ -3,7 +3,7 @@ title: AddGroupShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 100
 url: /net/aspose.slides/ishapecollection/addgroupshape/
 ---
 ## IShapeCollection.AddGroupShape method (1 of 2)

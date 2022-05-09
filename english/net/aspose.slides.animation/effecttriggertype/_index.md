@@ -3,7 +3,7 @@ title: EffectTriggerType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 250
 url: /net/aspose.slides.animation/effecttriggertype/
 ---
 ## EffectTriggerType enumeration

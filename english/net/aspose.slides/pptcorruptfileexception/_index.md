@@ -3,7 +3,7 @@ title: PptCorruptFileException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9010
+weight: 8760
 url: /net/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException class
@@ -14,12 +14,13 @@ Exception which thrown when presentation file is probably corrupt.
 public class PptCorruptFileException : PptReadException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception)() | Default constructor. |
-| [PptCorruptFileException](pptcorruptfileexception)(…) | Constructor allowing a message to be added to this exception. (2 constructors) |
+| [PptCorruptFileException](pptcorruptfileexception)(string) | Constructor allowing a message to be added to this exception. |
+| [PptCorruptFileException](pptcorruptfileexception)(string, Exception) | Constructor for an exception containing a message and an embedded exception. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: IPortion
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6390
+weight: 6140
 url: /net/aspose.slides/iportion/
 ---
 ## IPortion interface
@@ -14,7 +14,7 @@ Represents a portion of text inside a text paragraph.
 public interface IPortion : ISlideComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,13 @@ public interface IPortion : ISlideComponent
 | [Field](field) { get; } | Returns a field of this portion. Read-only [`IField`](../ifield). |
 | [PortionFormat](portionformat) { get; } | Returns formatting object which contains explicitly set formatting properties of the text portion with no inheritance applied. Read-only [`IPortionFormat`](../iportionformat). |
 | [Text](text) { get; set; } | Gets or sets the plain text of a portion. Read/write String. |
-| [AddField](addfield)(…) | Converts this portion to the automaticaly updated field. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddField](addfield)(IFieldType) | Converts this portion to the automaticaly updated field. |
+| [AddField](addfield)(string) | Converts this portion to the automaticaly updated field. |
 | [GetCoordinates](getcoordinates)() | Get coordinates of the beginning of the portion. The X coordinate of point represents the portion beginning from the first character including left side bearing. The Y coordinate includes top side bearing. |
 | [GetRect](getrect)() | Get coordinates of rect that bounds portion. The rect includes all the lines of text in portion, including empty ones. |
 | [RemoveField](removefield)() | Converts this field portion to the simple portion. |

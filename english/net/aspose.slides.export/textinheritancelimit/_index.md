@@ -3,7 +3,7 @@ title: TextInheritanceLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4360
+weight: 4110
 url: /net/aspose.slides.export/textinheritancelimit/
 ---
 ## TextInheritanceLimit enumeration

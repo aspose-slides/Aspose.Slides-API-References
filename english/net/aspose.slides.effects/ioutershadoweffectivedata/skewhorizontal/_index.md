@@ -3,7 +3,7 @@ title: SkewHorizontal
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal/
 ---
 ## IOuterShadowEffectiveData.SkewHorizontal property

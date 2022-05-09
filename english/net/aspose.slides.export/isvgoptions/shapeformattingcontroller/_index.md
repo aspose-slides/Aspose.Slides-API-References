@@ -3,7 +3,7 @@ title: ShapeFormattingController
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 100
 url: /net/aspose.slides.export/isvgoptions/shapeformattingcontroller/
 ---
 ## ISVGOptions.ShapeFormattingController property

@@ -3,7 +3,7 @@ title: SkewVertical
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 120
 url: /net/aspose.slides.effects/ioutershadow/skewvertical/
 ---
 ## IOuterShadow.SkewVertical property

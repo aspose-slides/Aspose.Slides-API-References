@@ -3,7 +3,7 @@ title: TableFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10300
+weight: 10050
 url: /net/aspose.slides/tableformat/
 ---
 ## TableFormat class
@@ -11,18 +11,25 @@ url: /net/aspose.slides/tableformat/
 Represents format of a table.
 
 ```csharp
-public class TableFormat : ITableFormat
+public class TableFormat : DomObject<Table>, ITableFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [FillFormat](fillformat) { get; } | Returns a table fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective table formatting properties with inheritance and table styles applied. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Table](../table)
 * interface [ITableFormat](../itableformat)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10330
+weight: 10080
 url: /net/aspose.slides/textalignment/
 ---
 ## TextAlignment enumeration

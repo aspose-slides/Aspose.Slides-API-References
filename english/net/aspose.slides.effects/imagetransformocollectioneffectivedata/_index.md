@@ -3,7 +3,7 @@ title: ImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3540
+weight: 3360
 url: /net/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData class
@@ -14,17 +14,27 @@ Immutable object that represents a readonly collection of effective image transf
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Returns the number of image effects in a collection. Read-only Int32. |
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns element by index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection into the specified array. |
-| override [Equals](equals)(…) | Determines whether the specified object is equal to the current object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection into the specified array. |
+| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 

@@ -3,7 +3,7 @@ title: IsCustom
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 1230
 url: /net/aspose.slides.animation/behaviorproperty/iscustom/
 ---
 ## BehaviorProperty.IsCustom property

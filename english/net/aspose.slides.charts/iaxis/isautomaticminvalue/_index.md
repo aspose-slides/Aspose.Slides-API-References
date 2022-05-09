@@ -3,7 +3,7 @@ title: IsAutomaticMinValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 210
 url: /net/aspose.slides.charts/iaxis/isautomaticminvalue/
 ---
 ## IAxis.IsAutomaticMinValue property

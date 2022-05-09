@@ -3,7 +3,7 @@ title: MathematicalText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8570
+weight: 8320
 url: /net/aspose.slides.mathtext/mathematicaltext/
 ---
 ## MathematicalText class
@@ -14,12 +14,19 @@ Mathematical text
 public sealed class MathematicalText : MathElementBase, IMathematicalText
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathematicalText](mathematicaltext)() | Default constructor (create String.Empty Value) |
-| [MathematicalText](mathematicaltext)(…) | Create MathText with single symbol (3 constructors) |
+| [MathematicalText](mathematicaltext)(char) | Create MathText with single symbol |
+| [MathematicalText](mathematicaltext)(string) | Create MathematicalText from text |
+| [MathematicalText](mathematicaltext)(string, IPortionFormat) | Create MathematicalText from text and format settings |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Format](format) { get; } | Text formatting properties |
 | [Value](value) { get; set; } | Text value |
 

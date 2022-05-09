@@ -3,7 +3,7 @@ title: JpegQuality
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 40
 url: /net/aspose.slides.export/iswfoptions/jpegquality/
 ---
 ## ISwfOptions.JpegQuality property

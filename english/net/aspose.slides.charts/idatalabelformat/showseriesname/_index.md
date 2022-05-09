@@ -3,7 +3,7 @@ title: ShowSeriesName
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 140
 url: /net/aspose.slides.charts/idatalabelformat/showseriesname/
 ---
 ## IDataLabelFormat.ShowSeriesName property

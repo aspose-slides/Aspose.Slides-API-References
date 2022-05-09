@@ -3,7 +3,7 @@ title: ControlPropertiesCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2580
+weight: 2560
 url: /net/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection class
@@ -14,17 +14,22 @@ A collection of AcitveX properties.
 public class ControlPropertiesCollection : IControlPropertiesCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns a number of properties in the collection. Read-only Int32. |
 | [Item](item) { get; set; } | Returns or sets property. |
 | [NamesOfProperties](namesofproperties) { get; } | Returns the collection of properties names. Read-only ICollection. |
-| [Add](add)(…) | Adds a property to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string, string) | Adds a property to the collection. |
 | [Clear](clear)() | Removes all properties. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes a property with the specified name. |
+| [Remove](remove)(string) | Removes a property with the specified name. |
 
 ### See Also
 

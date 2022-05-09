@@ -3,7 +3,7 @@ title: MajorTickMark
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 350
 url: /net/aspose.slides.charts/axis/majortickmark/
 ---
 ## Axis.MajorTickMark property

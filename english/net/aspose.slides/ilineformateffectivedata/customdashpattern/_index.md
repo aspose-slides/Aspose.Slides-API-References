@@ -3,7 +3,7 @@ title: CustomDashPattern
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides/ilineformateffectivedata/customdashpattern/
 ---
 ## ILineFormatEffectiveData.CustomDashPattern property

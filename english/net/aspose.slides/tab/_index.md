@@ -3,7 +3,7 @@ title: Tab
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10250
+weight: 10000
 url: /net/aspose.slides/tab/
 ---
 ## Tab class
@@ -14,14 +14,24 @@ Represents a tabulation for a text.
 public sealed class Tab : PVIObject, ITab
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Tab](tab)(…) | Creates new Tab |
+| [Tab](tab)(double, TabAlignment) | Creates new Tab |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Alignment](alignment) { get; set; } | Returns or sets align style of a tab. Read/write [`TabAlignment`](../tabalignment). |
 | [Position](position) { get; set; } | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write Double. |
-| [CompareTo](compareto)(…) | Compares the current instance with another object of the same type. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CompareTo](compareto)(object) | Compares the current instance with another object of the same type. |
 
 ### See Also
 

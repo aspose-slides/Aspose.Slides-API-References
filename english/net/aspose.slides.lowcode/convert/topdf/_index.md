@@ -11,6 +11,62 @@ url: /net/aspose.slides.lowcode/convert/topdf/
 Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 
 ```csharp
+public static void ToPdf(string presPath, string outPath)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| outPath | String | Output path |
+
+### Examples
+
+```csharp
+Convert.ToPdf("pres.pptx", "pres.pdf");
+```
+
+### See Also
+
+* class [Convert](../../convert)
+* namespace [Aspose.Slides.LowCode](../../convert)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Convert.ToPdf method (2 of 4)
+
+Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
+
+```csharp
+public static void ToPdf(string presPath, string outPath, IPdfOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| outPath | String | Output path |
+| options | IPdfOptions | Output PDF options |
+
+### Examples
+
+```csharp
+Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfCompliance.PdfUa });
+```
+
+### See Also
+
+* interface [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
+* class [Convert](../../convert)
+* namespace [Aspose.Slides.LowCode](../../convert)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Convert.ToPdf method (3 of 4)
+
+Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
+
+```csharp
 public static void ToPdf(Presentation pres, string outPath)
 ```
 
@@ -37,34 +93,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ---
 
-## Convert.ToPdf method (2 of 4)
-
-Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
-
-```csharp
-public static void ToPdf(string presPath, string outPath)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presPath | String | Path of the input presentation |
-| outPath | String | Output path |
-
-### Examples
-
-```csharp
-Convert.ToPdf("pres.pptx", "pres.pdf");
-```
-
-### See Also
-
-* class [Convert](../../convert)
-* namespace [Aspose.Slides.LowCode](../../convert)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Convert.ToPdf method (3 of 4)
+## Convert.ToPdf method (4 of 4)
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 
@@ -90,35 +119,6 @@ using (Presentation pres = new Presentation("input.pptx"))
 ### See Also
 
 * class [Presentation](../../../aspose.slides/presentation)
-* interface [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
-* class [Convert](../../convert)
-* namespace [Aspose.Slides.LowCode](../../convert)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Convert.ToPdf method (4 of 4)
-
-Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
-
-```csharp
-public static void ToPdf(string presPath, string outPath, IPdfOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presPath | String | Path of the input presentation |
-| outPath | String | Output path |
-| options | IPdfOptions | Output PDF options |
-
-### Examples
-
-```csharp
-Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfCompliance.PdfUa });
-```
-
-### See Also
-
 * interface [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
 * class [Convert](../../convert)
 * namespace [Aspose.Slides.LowCode](../../convert)

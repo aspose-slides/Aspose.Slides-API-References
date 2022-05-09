@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9260
+weight: 9010
 url: /net/aspose.slides/section/
 ---
 ## Section class
@@ -11,20 +11,27 @@ url: /net/aspose.slides/section/
 Represents section of slides.
 
 ```csharp
-public class Section : ISection
+public class Section : DomObject<SectionCollection>, ISection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Name](name) { get; set; } | Name of the section. |
 | [SectionId](sectionid) { get; } | Section Id. |
 | [StartedFromSlide](startedfromslide) { get; } | Returns first slide of the section. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetSlidesListOfSection](getslideslistofsection)() | Returns list of slides in the section. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [SectionCollection](../sectioncollection)
 * interface [ISection](../isection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: CellCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1020
+weight: 1000
 url: /net/aspose.slides/cellcollection/
 ---
 ## CellCollection class
@@ -14,7 +14,7 @@ Represents a collection of cells.
 public abstract class CellCollection : ICellCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,12 @@ public abstract class CellCollection : ICellCollection
 | [Presentation](presentation) { get; } | Returns the parent presentation of a CellCollection. Read-only [`IPresentation`](../ipresentation). |
 | [Slide](slide) { get; } | Returns the parent slide of a CellCollection. Read-only [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also

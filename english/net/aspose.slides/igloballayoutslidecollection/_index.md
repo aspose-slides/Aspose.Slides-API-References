@@ -3,7 +3,7 @@ title: IGlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5710
+weight: 5460
 url: /net/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection interface
@@ -14,13 +14,19 @@ Represents a collection of all layout slides in presentation. Extends ILayoutSli
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsILayoutSlideCollection](asilayoutslidecollection) { get; } | Returns ILayoutSlideCollection interface. Read-only [`ILayoutSlideCollection`](../ilayoutslidecollection). |
-| [Add](add)(…) | Adds a new layout slide to the presentation. |
-| [AddClone](addclone)(…) | Adds a copy of a specified layout slide to the presentation. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IMasterSlide, SlideLayoutType, string) | Adds a new layout slide to the presentation. |
+| [AddClone](addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
+| [AddClone](addclone)(ILayoutSlide, IMasterSlide) | Adds a copy of a specified layout slide to the presentation. |
 
 ### See Also
 

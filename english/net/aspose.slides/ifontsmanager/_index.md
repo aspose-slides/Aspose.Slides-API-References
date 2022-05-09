@@ -3,7 +3,7 @@ title: IFontsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5650
+weight: 5400
 url: /net/aspose.slides/ifontsmanager/
 ---
 ## IFontsManager interface
@@ -14,17 +14,25 @@ Manages fonts across the presentation.
 public interface IFontsManager
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [FontFallBackRulesCollection](fontfallbackrulescollection) { get; set; } | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
 | [FontSubstRuleList](fontsubstrulelist) { get; set; } | Font substitutions to use when rendering Read/write [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
-| [AddEmbeddedFont](addembeddedfont)(…) | Adds the embedded font. Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddEmbeddedFont](addembeddedfont)(byte[], EmbedFontCharacters) | Adds the embedded font Keep in mind when adding any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded |
+| [AddEmbeddedFont](addembeddedfont)(IFontData, EmbedFontCharacters) | Adds the embedded font. Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded |
 | [GetEmbeddedFonts](getembeddedfonts)() | Returns the fonts embedded in the presentation |
 | [GetFonts](getfonts)() | Returns the fonts used in the presentation |
-| [RemoveEmbeddedFont](removeembeddedfont)(…) | Removes the embedded font |
-| [ReplaceFont](replacefont)(…) | Replace font in presentation (3 methods) |
+| [RemoveEmbeddedFont](removeembeddedfont)(IFontData) | Removes the embedded font |
+| [ReplaceFont](replacefont)(IFontSubstRule) | Replace font in presentation using information provided in [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](replacefont)(IFontSubstRuleCollection) | Replace font in presentation using information provided in collection of [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](replacefont)(IFontData, IFontData) | Replace font in presentation |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ShowCommentsByNoAuthor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 60
 url: /net/aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor/
 ---
 ## NotesCommentsLayoutingOptions.ShowCommentsByNoAuthor property
@@ -16,7 +16,7 @@ public bool ShowCommentsByNoAuthor { get; set; }
 
 ### Remarks
 
-Default value is false.
+Default value is **false**.
 
 ### See Also
 

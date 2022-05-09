@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2650
+weight: 2630
 url: /net/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/digitalsignaturecollection/
 Represents a collection of digital signatures attached to a document.
 
 ```csharp
-public class DigitalSignatureCollection : IDigitalSignatureCollection
+public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,14 +22,21 @@ public class DigitalSignatureCollection : IDigitalSignatureCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns the signature by index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [Add](add)(…) | Adds the signature at the end of collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IDigitalSignature) | Adds the signature at the end of collection. |
 | [Clear](clear)() | Removes all signatures from collection. |
-| [CopyTo](copyto)(…) | Copies all elements from the collection to the specified array. |
+| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [RemoveAt](removeat)(…) | Removes the signature at the specified index. |
+| [RemoveAt](removeat)(int) | Removes the signature at the specified index. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
 * interface [IDigitalSignatureCollection](../idigitalsignaturecollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IUpDownBarsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2140
+weight: 2120
 url: /net/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager interface
@@ -14,7 +14,7 @@ Provide access to up/down bars of Line- or Stock-chart.
 public interface IUpDownBarsManager
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

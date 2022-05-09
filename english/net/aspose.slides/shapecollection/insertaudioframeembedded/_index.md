@@ -3,10 +3,41 @@ title: InsertAudioFrameEmbedded
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 280
 url: /net/aspose.slides/shapecollection/insertaudioframeembedded/
 ---
 ## ShapeCollection.InsertAudioFrameEmbedded method (1 of 2)
+
+Insert an AudioFrame with embedded audio file. Embedded audio file sound can be a WAV only.
+
+```csharp
+public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
+    Stream audio_stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | The zero-based index at which value should be inserted. |
+| x | Single | X coordinate of a new audio frame. |
+| y | Single | Y coordinate of a new audio frame. |
+| width | Single | Width of a new audio frame. |
+| height | Single | Height of a new audio frame. |
+| audio_stream | Stream | Audio stream. |
+
+## Return Value
+
+Created AudioFrame object.
+
+### See Also
+
+* interface [IAudioFrame](../../iaudioframe)
+* class [ShapeCollection](../../shapecollection)
+* namespace [Aspose.Slides](../../shapecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## ShapeCollection.InsertAudioFrameEmbedded method (2 of 2)
 
 Insert an AudioFrame with embedded audio file. It uses audio file from Presentation.Audios list.
 
@@ -32,37 +63,6 @@ Created AudioFrame object.
 
 * interface [IAudioFrame](../../iaudioframe)
 * interface [IAudio](../../iaudio)
-* class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## ShapeCollection.InsertAudioFrameEmbedded method (2 of 2)
-
-Insert an AudioFrame with embedded audio file. Embedded audio file sound can be a WAV only.
-
-```csharp
-public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
-    Stream audio_stream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | Int32 | The zero-based index at which value should be inserted. |
-| x | Single | X coordinate of a new audio frame. |
-| y | Single | Y coordinate of a new audio frame. |
-| width | Single | Width of a new audio frame. |
-| height | Single | Height of a new audio frame. |
-| audio_stream | Stream | Audio stream. |
-
-## Return Value
-
-Created AudioFrame object.
-
-### See Also
-
-* interface [IAudioFrame](../../iaudioframe)
 * class [ShapeCollection](../../shapecollection)
 * namespace [Aspose.Slides](../../shapecollection)
 * assembly [Aspose.Slides](../../../)

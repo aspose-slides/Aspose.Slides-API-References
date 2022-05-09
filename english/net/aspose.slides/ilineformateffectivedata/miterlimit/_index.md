@@ -3,7 +3,7 @@ title: MiterLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 140
 url: /net/aspose.slides/ilineformateffectivedata/miterlimit/
 ---
 ## ILineFormatEffectiveData.MiterLimit property

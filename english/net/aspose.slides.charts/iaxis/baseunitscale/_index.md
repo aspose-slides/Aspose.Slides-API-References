@@ -3,7 +3,7 @@ title: BaseUnitScale
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 100
 url: /net/aspose.slides.charts/iaxis/baseunitscale/
 ---
 ## IAxis.BaseUnitScale property

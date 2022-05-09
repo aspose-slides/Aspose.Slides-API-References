@@ -3,7 +3,7 @@ title: PresentationFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9120
+weight: 8870
 url: /net/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory class
@@ -14,17 +14,35 @@ Allows to create presentation via COM interface
 public class PresentationFactory : IPresentationFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PresentationFactory](presentationfactory)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | static [Instance](instance) { get; } | Presentation factory static instance. Read-only [`PresentationFactory`](../presentationfactory). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreatePresentation](createpresentation)() | Creates new presentation. |
-| [CreatePresentation](createpresentation)(…) | Creates new presentation with additional load options |
-| [GetPresentationInfo](getpresentationinfo)(…) | Creates new PresentationInfo object from file and binds presentation to it. (2 methods) |
-| [GetPresentationText](getpresentationtext)(…) | Retreieves the raw text from the slides (3 methods) |
-| [ReadPresentation](readpresentation)(…) | Reads an existing presentation from array (6 methods) |
+| [CreatePresentation](createpresentation)(ILoadOptions) | Creates new presentation with additional load options |
+| [GetPresentationInfo](getpresentationinfo)(Stream) | Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream. |
+| [GetPresentationInfo](getpresentationinfo)(string) | Creates new PresentationInfo object from file and binds presentation to it. |
+| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode) | Retreieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(string, TextExtractionArrangingMode) | Retreieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retreieves the raw text from the slides |
+| [ReadPresentation](readpresentation)(byte[]) | Reads an existing presentation from array |
+| [ReadPresentation](readpresentation)(Stream) | Reads an existing presentation from stream |
+| [ReadPresentation](readpresentation)(string) | Reads an existing presentation from file |
+| [ReadPresentation](readpresentation)(byte[], ILoadOptions) | Reads an existing presentation from array with additional load options |
+| [ReadPresentation](readpresentation)(Stream, ILoadOptions) | Reads an existing presentation from stream with additional load options |
+| [ReadPresentation](readpresentation)(string, ILoadOptions) | Reads an existing presentation from stream with additional load options |
 
 ### See Also
 

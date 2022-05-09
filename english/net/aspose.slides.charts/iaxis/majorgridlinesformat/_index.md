@@ -3,7 +3,7 @@ title: MajorGridLinesFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 340
 url: /net/aspose.slides.charts/iaxis/majorgridlinesformat/
 ---
 ## IAxis.MajorGridLinesFormat property

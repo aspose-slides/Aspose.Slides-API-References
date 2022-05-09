@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.slides/shapecollection/indexof/
 ---
 ## ShapeCollection.IndexOf method

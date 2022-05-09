@@ -3,7 +3,7 @@ title: DataSourceType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1460
+weight: 1440
 url: /net/aspose.slides.charts/datasourcetype/
 ---
 ## DataSourceType enumeration

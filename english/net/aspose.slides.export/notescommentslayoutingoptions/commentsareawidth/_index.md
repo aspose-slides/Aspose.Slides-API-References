@@ -3,7 +3,7 @@ title: CommentsAreaWidth
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 30
 url: /net/aspose.slides.export/notescommentslayoutingoptions/commentsareawidth/
 ---
 ## NotesCommentsLayoutingOptions.CommentsAreaWidth property
@@ -16,7 +16,7 @@ public int CommentsAreaWidth { get; set; }
 
 ### Remarks
 
-Minimal and default value is 150.
+Minimal and default value is **150**.
 
 ### See Also
 

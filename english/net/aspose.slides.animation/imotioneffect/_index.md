@@ -3,7 +3,7 @@ title: IMotionEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 420
 url: /net/aspose.slides.animation/imotioneffect/
 ---
 ## IMotionEffect interface
@@ -14,7 +14,7 @@ Represent motion effect behavior of effect.
 public interface IMotionEffect : IBehavior
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

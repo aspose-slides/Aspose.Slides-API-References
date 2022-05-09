@@ -3,7 +3,7 @@ title: X
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 130
 url: /net/aspose.slides.charts/chartplotarea/x/
 ---
 ## ChartPlotArea.X property

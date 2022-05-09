@@ -3,7 +3,7 @@ title: MathBoxFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8160
+weight: 7910
 url: /net/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory class
@@ -14,12 +14,17 @@ Allows to create a math box
 public class MathBoxFactory : IMathBoxFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathBoxFactory](mathboxfactory)() | The default constructor. |
-| [CreateMathBox](createmathbox)(…) | Create a math box by applying to the element |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateMathBox](createmathbox)(IMathElement) | Create a math box by applying to the element |
 
 ### Remarks
 

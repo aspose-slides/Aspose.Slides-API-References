@@ -3,7 +3,7 @@ title: ICustomXmlPart
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5420
+weight: 5170
 url: /net/aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart interface
@@ -14,7 +14,7 @@ Represents custom xml part.
 public interface ICustomXmlPart
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,6 +22,11 @@ public interface ICustomXmlPart
 | [NamespaceSchemas](namespaceschemas) { get; } | Returns the collection XML schemas that are associated with the custom XML part. Read-only String[]. |
 | [XmlAsString](xmlasstring) { get; set; } | Returns or sets xml data as UTF-8 string. Read/write String. value is `null`.value is empty or xml-data is invalid. |
 | [XmlData](xmldata) { get; set; } | Returns or sets xml data. Read/write Byte[]. value is `null`.value is empty or xml-data is invalid. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Remove](remove)() | Removes the custom xml part from the presentation. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: Local
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.slides.export.web/templatecontext-1/local/
 ---
 ## TemplateContext&lt;TObject&gt;.Local property

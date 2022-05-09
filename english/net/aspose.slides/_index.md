@@ -12,7 +12,6 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 
 | Class | Description |
 | --- | --- |
-| abstract class [AccessibleEffectiveData&lt;TLocalData,TEffectiveData&gt;](./accessibleeffectivedata-2) | Immutable effective data object that handles inheritance, style/theme resolving and data caching. |
 | class [AdjustValue](./adjustvalue) | Represents a geometry shape's adjustment value. These values affect shape's form. |
 | class [AdjustValueCollection](./adjustvaluecollection) | Reprasents a collection of shape's adjustments. |
 | class [Audio](./audio) | Represents an embedded audio file. |
@@ -22,7 +21,6 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | class [AutoShapeLock](./autoshapelock) | Determines which operations are disabled on the parent AutoshapeEx. |
 | class [Backdrop3DScene](./backdrop3dscene) | Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to. |
 | class [Background](./background) | Represents background of a slide. |
-| abstract class [BaseEffectiveData&lt;TLocalData,TEffectiveData&gt;](./baseeffectivedata-2) | Immutable base effective data container. |
 | abstract class [BaseHandoutNotesSlideHeaderFooterManager](./basehandoutnotesslideheaderfootermanager) | Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides. |
 | abstract class [BaseHeaderFooterManager](./baseheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
 | abstract class [BasePortionFormat](./baseportionformat) | Common text portion formatting properties. |
@@ -58,6 +56,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | class [DigitalSignature](./digitalsignature) | Digital signature in signed file. |
 | class [DigitalSignatureCollection](./digitalsignaturecollection) | Represents a collection of digital signatures attached to a document. |
 | class [DocumentProperties](./documentproperties) | Represents properties of a presentation. |
+| abstract class [DomObject&lt;TParent&gt;](./domobject-1) |  |
 | class [EffectFormat](./effectformat) | Represents effect properties of shape. |
 | class [Field](./field) | Represents a field. |
 | class [FieldType](./fieldtype) | Represents a type of field. This value determines which text will be set to the field portion when it will be updated. |

@@ -3,7 +3,7 @@ title: IGradientFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5730
+weight: 5480
 url: /net/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData interface
@@ -14,7 +14,7 @@ Imutable object which contains effective gradient filling properties.
 public interface IGradientFormatEffectiveData : IFillParamSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

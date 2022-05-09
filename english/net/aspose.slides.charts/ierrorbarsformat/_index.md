@@ -3,7 +3,7 @@ title: IErrorBarsFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1970
+weight: 1950
 url: /net/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat interface
@@ -14,7 +14,7 @@ Represents error bars of chart series. ErrorBars custom values are in IChartData
 public interface IErrorBarsFormat : IChartComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

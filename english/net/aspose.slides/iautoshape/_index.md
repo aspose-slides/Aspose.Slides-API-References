@@ -3,7 +3,7 @@ title: IAutoShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5010
+weight: 4760
 url: /net/aspose.slides/iautoshape/
 ---
 ## IAutoShape interface
@@ -14,16 +14,22 @@ Represents an AutoShape.
 public interface IAutoShape : IGeometryShape
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIGeometryShape](asigeometryshape) { get; } | Allows to get base IGeometryShape interface. Read-only [`IGeometryShape`](../igeometryshape). |
 | [AutoShapeLock](autoshapelock) { get; } | Returns AutoShape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |
+| [IsTextBox](istextbox) { get; } |  |
 | [ShapeLock](shapelock) { get; } | Returns shape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](textframe) { get; } | Returns TextFrameEx object for the AutoShapeEx. Read-only [`ITextFrame`](../itextframe). |
 | [UseBackgroundFill](usebackgroundfill) { get; set; } | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write Boolean. |
-| [AddTextFrame](addtextframe)(…) | Adds a new TextFrameEx to a shape. If shape already has TextFrameEx then simply changes its text. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddTextFrame](addtextframe)(string) | Adds a new TextFrameEx to a shape. If shape already has TextFrameEx then simply changes its text. |
 
 ### See Also
 

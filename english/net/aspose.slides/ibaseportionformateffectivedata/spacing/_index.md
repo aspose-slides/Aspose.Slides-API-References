@@ -3,7 +3,7 @@ title: Spacing
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 220
 url: /net/aspose.slides/ibaseportionformateffectivedata/spacing/
 ---
 ## IBasePortionFormatEffectiveData.Spacing property

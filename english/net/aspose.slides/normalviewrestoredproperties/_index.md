@@ -3,7 +3,7 @@ title: NormalViewRestoredProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8630
+weight: 8380
 url: /net/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties class
@@ -14,7 +14,7 @@ Specifies the sizing of the slide region ((width when a child of restoredTop, he
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

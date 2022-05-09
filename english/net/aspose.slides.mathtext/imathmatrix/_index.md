@@ -3,7 +3,7 @@ title: IMathMatrix
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7870
+weight: 7620
 url: /net/aspose.slides.mathtext/imathmatrix/
 ---
 ## IMathMatrix interface
@@ -14,7 +14,7 @@ Specifies the Matrix object, consisting of child elements laid out in one or mor
 public interface IMathMatrix : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -29,15 +29,20 @@ public interface IMathMatrix : IMathElement
 | [RowCount](rowcount) { get; } | Number of rows in the matrix |
 | [RowGap](rowgap) { get; set; } | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
 | [RowGapRule](rowgaprule) { get; set; } | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
-| [DeleteColumn](deletecolumn)(…) | Deletes the specified column |
-| [DeleteRow](deleterow)(…) | Deletes the specified row |
-| [GetColumnAlignment](getcolumnalignment)(…) | Get the horizontal alignment of the specified column |
-| [InsertColumnAfter](insertcolumnafter)(…) | Insert a new column after the specified one Initially all elements in the new column are null. |
-| [InsertColumnBefore](insertcolumnbefore)(…) | Insert a new column before the specified one Initially all elements in the new column are null. |
-| [InsertRowAfter](insertrowafter)(…) | Insert a new row after the specified one Initially all elements in the new row are null. |
-| [InsertRowBefore](insertrowbefore)(…) | Insert a new row before the specified one Initially all elements in the new row are null. |
-| [SetColumnAlignment](setcolumnalignment)(…) | Set the horizontal alignment of the specified column |
-| [SetColumnsAlignment](setcolumnsalignment)(…) | Set the horizontal alignment of the specified columns |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [DeleteColumn](deletecolumn)(int) | Deletes the specified column |
+| [DeleteRow](deleterow)(int) | Deletes the specified row |
+| [GetColumnAlignment](getcolumnalignment)(int) | Get the horizontal alignment of the specified column |
+| [InsertColumnAfter](insertcolumnafter)(int) | Insert a new column after the specified one Initially all elements in the new column are null. |
+| [InsertColumnBefore](insertcolumnbefore)(int) | Insert a new column before the specified one Initially all elements in the new column are null. |
+| [InsertRowAfter](insertrowafter)(int) | Insert a new row after the specified one Initially all elements in the new row are null. |
+| [InsertRowBefore](insertrowbefore)(int) | Insert a new row before the specified one Initially all elements in the new row are null. |
+| [SetColumnAlignment](setcolumnalignment)(int, MathHorizontalAlignment) | Set the horizontal alignment of the specified column |
+| [SetColumnsAlignment](setcolumnsalignment)(int, uint, MathHorizontalAlignment) | Set the horizontal alignment of the specified columns |
 
 ### Examples
 

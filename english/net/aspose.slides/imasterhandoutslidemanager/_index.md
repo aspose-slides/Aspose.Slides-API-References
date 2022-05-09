@@ -3,7 +3,7 @@ title: IMasterHandoutSlideManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6060
+weight: 5810
 url: /net/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interface
@@ -14,11 +14,16 @@ Master handout slide manager.
 public interface IMasterHandoutSlideManager
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [MasterHandoutSlide](masterhandoutslide) { get; } | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only [`IMasterHandoutSlide`](../imasterhandoutslide). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [RemoveMasterHandoutSlide](removemasterhandoutslide)() | Removes master handout slide. |
 | [SetDefaultMasterHandoutSlide](setdefaultmasterhandoutslide)() | Sets default master handout slide to related handout slide. |
 

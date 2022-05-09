@@ -3,7 +3,7 @@ title: AsIFillParamSource
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 10
 url: /net/aspose.slides/ifillformat/asifillparamsource/
 ---
 ## IFillFormat.AsIFillParamSource property

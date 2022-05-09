@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 1240
 url: /net/aspose.slides.animation/behaviorproperty/value/
 ---
 ## BehaviorProperty.Value property

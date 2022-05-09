@@ -3,7 +3,7 @@ title: Output
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4460
+weight: 4210
 url: /net/aspose.slides.export.web/output/
 ---
 ## Output class
@@ -14,14 +14,18 @@ Represents a collection of output elements for !:IWebDocument.
 public sealed class Output
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(…) | Adds an output element for the image. (5 methods) |
-| [Add&lt;TContextObject&gt;](add)(…) |  |
-| [BindResource](bindresource)(…) | Binds resource to output file. |
-| [GetResourcePath](getresourcepath)(…) | Returns the path for a given resource. |
+| [Add](add)(string, Image) | Adds an output element for the image. |
+| [Add](add)(string, IPPImage) | Adds an output element for the image. |
+| [Add](add)(string, IVideo) | Adds an output element for the video. |
+| [Add](add)(string, string) | Adds an output element for the text content. |
+| [Add](add)(string, IFontData, FontStyle) | Adds an output element for the font. |
+| [Add&lt;TContextObject&gt;](add)(string, string, TContextObject) |  |
+| [BindResource](bindresource)(IOutputFile, object) | Binds resource to output file. |
+| [GetResourcePath](getresourcepath)(object) | Returns the path for a given resource. |
 
 ### See Also
 

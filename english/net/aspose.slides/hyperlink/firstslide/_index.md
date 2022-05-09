@@ -3,7 +3,7 @@ title: FirstSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 30
 url: /net/aspose.slides/hyperlink/firstslide/
 ---
 ## Hyperlink.FirstSlide property

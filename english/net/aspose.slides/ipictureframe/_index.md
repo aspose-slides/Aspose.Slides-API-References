@@ -3,7 +3,7 @@ title: IPictureFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6360
+weight: 6110
 url: /net/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame interface
@@ -14,7 +14,7 @@ Represents a frame with a picture inside.
 public interface IPictureFrame : IGeometryShape
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

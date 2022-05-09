@@ -3,7 +3,7 @@ title: ShapeFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9360
+weight: 9110
 url: /net/aspose.slides/shapeframe/
 ---
 ## ShapeFrame class
@@ -14,11 +14,16 @@ Represents shape frame's properties.
 public class ShapeFrame : IShapeFrame
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [ShapeFrame](shapeframe)(…) | Creates new shape frame's properties. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Creates new shape frame's properties. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CenterX](centerx) { get; } | Returns the X coordinate of a frame's center. Read-only Single. |
 | [CenterY](centery) { get; } | Returns the Y coordinate of a frame's center. Read-only Single. |
 | [FlipH](fliph) { get; } | Determines whether a frame is flipped horizontally. Read-only [`NullableBool`](../nullablebool). |
@@ -29,10 +34,15 @@ public class ShapeFrame : IShapeFrame
 | [Width](width) { get; } | Returns the width of a frame. Read-only Single. |
 | [X](x) { get; } | Returns the X coordinate of the upper-left corner of a frame. Read-only Single. |
 | [Y](y) { get; } | Returns the Y coordinate of the upper-left corner of a frame. Read-only Single. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Clones |
 | [CloneT](clonet)() | Clones. |
-| override [Equals](equals)(…) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](equals)(…) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](equals)(ShapeFrame) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](gethashcode)() | Returns a hash code for this object. |
 
 ### See Also

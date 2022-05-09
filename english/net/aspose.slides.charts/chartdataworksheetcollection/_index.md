@@ -3,7 +3,7 @@ title: ChartDataWorksheetCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1260
 url: /net/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection class
@@ -14,7 +14,7 @@ Represents the collection of worksheets of chart data workbook.
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,12 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Returns the worksheet by index. |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [CopyTo](copyto)(…) | Copy to specified array. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyTo](copyto)(Array, int) | Copy to specified array. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### Examples

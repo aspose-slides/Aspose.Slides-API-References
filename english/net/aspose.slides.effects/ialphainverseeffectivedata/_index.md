@@ -3,7 +3,7 @@ title: IAlphaInverseEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3090
+weight: 2910
 url: /net/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents an Alpha Inverse effect. Alpha (opacity) value
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

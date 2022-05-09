@@ -3,7 +3,7 @@ title: IBiLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3160
+weight: 2980
 url: /net/aspose.slides.effects/ibilevel/
 ---
 ## IBiLevel interface
@@ -14,7 +14,7 @@ Represents base IImageTransformOperation interface.
 public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

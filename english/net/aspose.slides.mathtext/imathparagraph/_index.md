@@ -3,7 +3,7 @@ title: IMathParagraph
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7920
+weight: 7670
 url: /net/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph interface
@@ -14,13 +14,18 @@ Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 public interface IMathParagraph : IMathBlockCollection
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIMathBlockCollection](asimathblockcollection) { get; } | Allows to get base IMathBlockCollection interface [`IMathBlockCollection`](../imathblockcollection) |
 | [Justification](justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
-| [WriteAsMathMl](writeasmathml)(…) | Saves content of this [`IMathParagraph`](../imathparagraph) as MathML |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [WriteAsMathMl](writeasmathml)(Stream) | Saves content of this [`IMathParagraph`](../imathparagraph) as MathML |
 
 ### Examples
 

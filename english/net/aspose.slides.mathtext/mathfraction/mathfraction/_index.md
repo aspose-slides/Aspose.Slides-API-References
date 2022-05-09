@@ -3,41 +3,10 @@ title: MathFraction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.slides.mathtext/mathfraction/mathfraction/
 ---
 ## MathFraction constructor (1 of 2)
-
-Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
-
-```csharp
-public MathFraction(IMathElement numerator, IMathElement denominator)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| numerator | IMathElement | Numerator |
-| denominator | IMathElement | Denominator |
-
-### Examples
-
-Example:
-
-```csharp
-[C#]
-MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### See Also
-
-* interface [IMathElement](../../imathelement)
-* class [MathFraction](../../mathfraction)
-* namespace [Aspose.Slides.MathText](../../mathfraction)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## MathFraction constructor (2 of 2)
 
 Initializes MathFraction with the specified numerator, denominator and type
 
@@ -65,6 +34,37 @@ MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new Math
 
 * interface [IMathElement](../../imathelement)
 * enum [MathFractionTypes](../../mathfractiontypes)
+* class [MathFraction](../../mathfraction)
+* namespace [Aspose.Slides.MathText](../../mathfraction)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## MathFraction constructor (2 of 2)
+
+Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+
+```csharp
+public MathFraction(IMathElement numerator, IMathElement denominator)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| numerator | IMathElement | Numerator |
+| denominator | IMathElement | Denominator |
+
+### Examples
+
+Example:
+
+```csharp
+[C#]
+MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
+```
+
+### See Also
+
+* interface [IMathElement](../../imathelement)
 * class [MathFraction](../../mathfraction)
 * namespace [Aspose.Slides.MathText](../../mathfraction)
 * assembly [Aspose.Slides](../../../)

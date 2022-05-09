@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 100
 url: /net/aspose.slides/ihyperlink/equals/
 ---
 ## IHyperlink.Equals method
@@ -20,7 +20,7 @@ public bool Equals(IHyperlink hlink)
 
 ## Return Value
 
-true if the specified Hyperlink is equal to the current Hyperlink; otherwise, false.
+**true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.
 
 ### See Also
 

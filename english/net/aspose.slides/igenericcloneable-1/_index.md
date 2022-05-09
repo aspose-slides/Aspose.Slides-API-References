@@ -3,7 +3,7 @@ title: IGenericCloneable<T>
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5670
+weight: 5420
 url: /net/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable&lt;T&gt; interface
@@ -18,11 +18,16 @@ public interface IGenericCloneable<T> : ICloneable
 | --- | --- | --- |
 | T |  | The type of object to clone |
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsICloneable](asicloneable) { get; } | Returns ICloneable interface. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CloneT](clonet)() | Creates a new object that is a copy of the current instance. |
 
 ### See Also

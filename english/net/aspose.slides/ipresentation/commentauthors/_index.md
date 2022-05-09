@@ -3,7 +3,7 @@ title: CommentAuthors
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 50
 url: /net/aspose.slides/ipresentation/commentauthors/
 ---
 ## IPresentation.CommentAuthors property

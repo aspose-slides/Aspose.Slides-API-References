@@ -3,7 +3,7 @@ title: ILuminanceEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3430
+weight: 3250
 url: /net/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData interface
@@ -14,7 +14,7 @@ Represents a Luminance effect. Brightness linearly shifts all colors closer to w
 public interface ILuminanceEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

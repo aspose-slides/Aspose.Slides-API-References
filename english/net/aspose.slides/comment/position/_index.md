@@ -3,7 +3,7 @@ title: Position
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.slides/comment/position/
 ---
 ## Comment.Position property

@@ -3,7 +3,7 @@ title: Luminance
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 110
 url: /net/aspose.slides/icolorformat/luminance/
 ---
 ## IColorFormat.Luminance property

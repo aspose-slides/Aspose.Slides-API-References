@@ -3,7 +3,7 @@ title: RangeStartIndex
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 40
 url: /net/aspose.slides/ifontfallbackrule/rangestartindex/
 ---
 ## IFontFallBackRule.RangeStartIndex property

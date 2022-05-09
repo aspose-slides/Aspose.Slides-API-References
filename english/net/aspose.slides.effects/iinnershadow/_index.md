@@ -3,7 +3,7 @@ title: IInnerShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3400
+weight: 3220
 url: /net/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow interface
@@ -15,7 +15,7 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
     IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

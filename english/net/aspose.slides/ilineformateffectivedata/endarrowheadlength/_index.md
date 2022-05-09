@@ -3,7 +3,7 @@ title: EndArrowheadLength
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 90
 url: /net/aspose.slides/ilineformateffectivedata/endarrowheadlength/
 ---
 ## ILineFormatEffectiveData.EndArrowheadLength property

@@ -3,7 +3,7 @@ title: DisplayUnit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 150
 url: /net/aspose.slides.charts/iaxis/displayunit/
 ---
 ## IAxis.DisplayUnit property

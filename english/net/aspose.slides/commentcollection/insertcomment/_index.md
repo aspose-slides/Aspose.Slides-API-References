@@ -3,7 +3,7 @@ title: InsertComment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 110
 url: /net/aspose.slides/commentcollection/insertcomment/
 ---
 ## CommentCollection.InsertComment method

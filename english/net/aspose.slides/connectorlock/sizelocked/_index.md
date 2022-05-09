@@ -3,7 +3,7 @@ title: SizeLocked
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.slides/connectorlock/sizelocked/
 ---
 ## ConnectorLock.SizeLocked property

@@ -3,7 +3,7 @@ title: Column
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2460
+weight: 2440
 url: /net/aspose.slides/column/
 ---
 ## Column class
@@ -14,13 +14,20 @@ Represents a column in a table.
 public sealed class Column : CellCollection, IColumn
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [ColumnFormat](columnformat) { get; } | Returns the ColumnFormat object that contains formatting properties for this column. Read-only [`IColumnFormat`](../icolumnformat). |
 | [Width](width) { get; set; } | Returns or sets the width of a column. Read/write Double. |
-| [SetTextFormat](settextformat)(…) | Sets defined portion format properties to all column cells' portions. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetTextFormat](settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all column cells' paragraphs. |
+| [SetTextFormat](settextformat)(IPortionFormat) | Sets defined portion format properties to all column cells' portions. |
+| [SetTextFormat](settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all column cells' text frames. |
 
 ### See Also
 

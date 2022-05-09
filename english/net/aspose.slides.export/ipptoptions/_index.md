@@ -3,7 +3,7 @@ title: IPptOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3940
+weight: 3690
 url: /net/aspose.slides.export/ipptoptions/
 ---
 ## IPptOptions interface
@@ -14,7 +14,7 @@ Provides options that control how a presentation is saved in PPT format.
 public interface IPptOptions : ISaveOptions
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

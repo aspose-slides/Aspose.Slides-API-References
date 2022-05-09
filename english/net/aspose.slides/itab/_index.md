@@ -3,7 +3,7 @@ title: ITab
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6860
+weight: 6610
 url: /net/aspose.slides/itab/
 ---
 ## ITab interface
@@ -14,7 +14,7 @@ Represents a tabulation for a text.
 public interface ITab : IComparable
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: ZOrderPosition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 310
 url: /net/aspose.slides/shape/zorderposition/
 ---
 ## Shape.ZOrderPosition property

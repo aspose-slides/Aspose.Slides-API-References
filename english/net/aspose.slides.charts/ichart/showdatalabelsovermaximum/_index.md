@@ -3,7 +3,7 @@ title: ShowDataLabelsOverMaximum
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.slides.charts/ichart/showdatalabelsovermaximum/
 ---
 ## IChart.ShowDataLabelsOverMaximum property

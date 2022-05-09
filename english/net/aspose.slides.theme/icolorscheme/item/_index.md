@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 120
 url: /net/aspose.slides.theme/icolorscheme/item/
 ---
 ## IColorScheme indexer

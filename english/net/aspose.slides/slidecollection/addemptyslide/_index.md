@@ -3,7 +3,7 @@ title: AddEmptySlide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.slides/slidecollection/addemptyslide/
 ---
 ## SlideCollection.AddEmptySlide method

@@ -3,7 +3,7 @@ title: MathNaryOperator
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.slides.mathtext/mathnaryoperator/mathnaryoperator/
 ---
 ## MathNaryOperator constructor (1 of 3)
@@ -11,13 +11,16 @@ url: /net/aspose.slides.mathtext/mathnaryoperator/mathnaryoperator/
 Initializes a new instance of the MathNaryOperator class.
 
 ```csharp
-public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
+public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit, 
+    IMathElement upperLimit)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | operatorSymbol | Char | Nary operator symbol |
 | baseArgument | IMathElement | Base argument |
+| lowerLimit | IMathElement | Lower limit |
+| upperLimit | IMathElement | Upper limit |
 
 ### Examples
 
@@ -25,7 +28,7 @@ Example:
 
 ```csharp
 [C#]
-IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"));
+IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i=0"), new MathematicalText("𝑛"));
 ```
 
 ### See Also
@@ -74,16 +77,13 @@ IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalTex
 Initializes a new instance of the MathNaryOperator class.
 
 ```csharp
-public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit, 
-    IMathElement upperLimit)
+public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | operatorSymbol | Char | Nary operator symbol |
 | baseArgument | IMathElement | Base argument |
-| lowerLimit | IMathElement | Lower limit |
-| upperLimit | IMathElement | Upper limit |
 
 ### Examples
 
@@ -91,7 +91,7 @@ Example:
 
 ```csharp
 [C#]
-IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i=0"), new MathematicalText("𝑛"));
+IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"));
 ```
 
 ### See Also

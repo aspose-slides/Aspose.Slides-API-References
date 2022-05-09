@@ -3,7 +3,7 @@ title: IThemeable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10830
+weight: 10580
 url: /net/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable interface
@@ -14,11 +14,16 @@ Represents objects that can be themed with [`ITheme`](../itheme).
 public interface IThemeable : ISlideComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsISlideComponent](asislidecomponent) { get; } | Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreateThemeEffective](createthemeeffective)() | Returns an effective theme for this themeable object. |
 
 ### See Also

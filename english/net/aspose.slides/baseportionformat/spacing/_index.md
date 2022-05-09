@@ -3,12 +3,12 @@ title: Spacing
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 210
 url: /net/aspose.slides/baseportionformat/spacing/
 ---
 ## BasePortionFormat.Spacing property
 
-Returns or sets the intercharacter spacing increment. float.NaN means value is undefined and should be inherited from the Master. Read/write Single.
+Returns or sets the intercharacter spacing increment. **float.NaN** means value is undefined and should be inherited from the Master. Read/write Single.
 
 ```csharp
 public float Spacing { get; set; }

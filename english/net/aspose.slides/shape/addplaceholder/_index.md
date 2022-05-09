@@ -3,7 +3,7 @@ title: AddPlaceholder
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 320
 url: /net/aspose.slides/shape/addplaceholder/
 ---
 ## Shape.AddPlaceholder method

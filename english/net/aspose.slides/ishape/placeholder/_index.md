@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 190
 url: /net/aspose.slides/ishape/placeholder/
 ---
 ## IShape.Placeholder property

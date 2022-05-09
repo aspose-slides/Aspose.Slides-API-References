@@ -3,7 +3,7 @@ title: Accent3
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 30
 url: /net/aspose.slides.theme/colorscheme/accent3/
 ---
 ## ColorScheme.Accent3 property

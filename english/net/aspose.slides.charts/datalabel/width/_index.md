@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 150
 url: /net/aspose.slides.charts/datalabel/width/
 ---
 ## DataLabel.Width property

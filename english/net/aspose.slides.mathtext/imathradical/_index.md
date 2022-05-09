@@ -3,7 +3,7 @@ title: IMathRadical
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7950
+weight: 7700
 url: /net/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical interface
@@ -14,7 +14,7 @@ Specifies the radical function, consisting of a base, and an optional degree. Ex
 public interface IMathRadical : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

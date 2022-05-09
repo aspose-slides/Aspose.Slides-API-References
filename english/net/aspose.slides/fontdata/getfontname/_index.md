@@ -3,7 +3,7 @@ title: GetFontName
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.slides/fontdata/getfontname/
 ---
 ## FontData.GetFontName method

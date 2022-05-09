@@ -3,7 +3,7 @@ title: Fonts
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4710
+weight: 4460
 url: /net/aspose.slides/fonts/
 ---
 ## Fonts class
@@ -14,7 +14,7 @@ Fonts collection.
 public class Fonts : IFonts
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

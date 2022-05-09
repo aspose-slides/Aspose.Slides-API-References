@@ -3,7 +3,7 @@ title: ISetEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 510
 url: /net/aspose.slides.animation/iseteffect/
 ---
 ## ISetEffect interface
@@ -14,7 +14,7 @@ Represents a set effect for an animation behavior.
 public interface ISetEffect : IBehavior
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

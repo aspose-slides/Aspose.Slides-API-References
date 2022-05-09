@@ -3,35 +3,10 @@ title: AddDataPointForBarSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforbarseries/
 ---
 ## IChartDataPointCollection.AddDataPointForBarSeries method (1 of 2)
-
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer.IsChartTypeColumn(ChartType) and ChartTypeCharacterizer.IsChartTypeBar(ChartType) method).
-
-```csharp
-public IChartDataPoint AddDataPointForBarSeries(double value)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | Double | Data point Value |
-
-## Return Value
-
-New data point.
-
-### See Also
-
-* interface [IChartDataPoint](../../ichartdatapoint)
-* interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IChartDataPointCollection.AddDataPointForBarSeries method (2 of 2)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer.IsChartTypeColumn(ChartType) and ChartTypeCharacterizer.IsChartTypeBar(ChartType) method).
 
@@ -51,6 +26,31 @@ New data point.
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IChartDataPointCollection.AddDataPointForBarSeries method (2 of 2)
+
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer.IsChartTypeColumn(ChartType) and ChartTypeCharacterizer.IsChartTypeBar(ChartType) method).
+
+```csharp
+public IChartDataPoint AddDataPointForBarSeries(double value)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Double | Data point Value |
+
+## Return Value
+
+New data point.
+
+### See Also
+
+* interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * assembly [Aspose.Slides](../../../)

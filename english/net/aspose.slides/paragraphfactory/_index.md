@@ -3,7 +3,7 @@ title: ParagraphFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8810
+weight: 8560
 url: /net/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory class
@@ -14,13 +14,18 @@ Allows to create paragraphs
 public class ParagraphFactory : IParagraphFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ParagraphFactory](paragraphfactory)() | The default constructor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreateParagraph](createparagraph)() | Creates a new empty paragraph. |
-| [CreateParagraph](createparagraph)(…) | Creates a new paragraph with specified paragraph data using. |
+| [CreateParagraph](createparagraph)(IParagraph) | Creates a new paragraph with specified paragraph data using. |
 
 ### Remarks
 

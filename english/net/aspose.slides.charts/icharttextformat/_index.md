@@ -3,7 +3,7 @@ title: IChartTextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1870
+weight: 1850
 url: /net/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat interface
@@ -14,15 +14,20 @@ Chart operate with restricted set of text format properties. IChartTextFormat, I
 public interface IChartTextFormat
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [ParagraphFormat](paragraphformat) { get; } | Returns paragraph format. Read-only [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](portionformat) { get; } | Returns portion format. Read-only [`IChartPortionFormat`](../ichartportionformat). |
 | [TextBlockFormat](textblockformat) { get; } | Returns format for the chart text elements. Read-only [`IChartTextBlockFormat`](../icharttextblockformat). |
-| [CopyFrom](copyfrom)(…) | Copies text format from specified text frame. |
-| [CopyTo](copyto)(…) | Copies text format to specified text frame. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyFrom](copyfrom)(ITextFrame) | Copies text format from specified text frame. |
+| [CopyTo](copyto)(ITextFrame) | Copies text format to specified text frame. |
 
 ### See Also
 

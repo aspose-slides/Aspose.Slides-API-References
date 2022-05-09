@@ -3,7 +3,7 @@ title: IPresentationComponent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6450
+weight: 6200
 url: /net/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent interface
@@ -14,7 +14,7 @@ Represents a component of a presentation.
 public interface IPresentationComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

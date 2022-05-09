@@ -3,7 +3,7 @@ title: Status
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.slides/imoderncomment/status/
 ---
 ## IModernComment.Status property

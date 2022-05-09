@@ -3,7 +3,7 @@ title: NumberFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 440
 url: /net/aspose.slides.charts/axis/numberformat/
 ---
 ## Axis.NumberFormat property

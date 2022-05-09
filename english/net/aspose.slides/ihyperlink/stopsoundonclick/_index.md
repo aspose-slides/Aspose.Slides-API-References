@@ -3,7 +3,7 @@ title: StopSoundOnClick
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 60
 url: /net/aspose.slides/ihyperlink/stopsoundonclick/
 ---
 ## IHyperlink.StopSoundOnClick property

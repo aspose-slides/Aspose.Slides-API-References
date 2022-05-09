@@ -3,7 +3,7 @@ title: DepthPercents
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 10
 url: /net/aspose.slides.charts/irotation3d/depthpercents/
 ---
 ## IRotation3D.DepthPercents property

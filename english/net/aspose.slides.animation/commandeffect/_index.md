@@ -3,7 +3,7 @@ title: CommandEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.slides.animation/commandeffect/
 ---
 ## CommandEffect class
@@ -14,11 +14,16 @@ Represents a command effect for an animation behavior.
 public class CommandEffect : Behavior, ICommandEffect
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CommandEffect](commandeffect)() | Creates new instance. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CommandString](commandstring) { get; set; } | Defines command string. Read/write String. |
 | [ShapeTarget](shapetarget) { get; set; } | Defines shape target of command effect. Read/write [`IShape`](../../aspose.slides/ishape). |
 | [Type](type) { get; set; } | Defines command effect type of behavior. Read/write [`CommandEffectType`](../commandeffecttype). |

@@ -3,7 +3,7 @@ title: SetExternalWorkbook
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 110
 url: /net/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---
 ## IChartData.SetExternalWorkbook method (1 of 2)

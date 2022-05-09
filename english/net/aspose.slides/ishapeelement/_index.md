@@ -3,7 +3,7 @@ title: IShapeElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6660
+weight: 6410
 url: /net/aspose.slides/ishapeelement/
 ---
 ## IShapeElement interface

@@ -3,7 +3,7 @@ title: IMathSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8010
+weight: 7760
 url: /net/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement interface
@@ -14,7 +14,7 @@ Specifies the superscript object, which consists of a base and a reduced-size su
 public interface IMathSuperscriptElement : IMathElement
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

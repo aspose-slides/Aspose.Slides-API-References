@@ -3,7 +3,7 @@ title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4770
+weight: 4520
 url: /net/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection class
@@ -15,12 +15,13 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
     IGlobalLayoutSlideCollection
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(…) | Adds a new layout slide to the presentation. |
-| [AddClone](addclone)(…) | Adds a copy of a specified layout slide to the presentation. (2 methods) |
+| [Add](add)(IMasterSlide, SlideLayoutType, string) | Adds a new layout slide to the presentation. |
+| [AddClone](addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
+| [AddClone](addclone)(ILayoutSlide, IMasterSlide) | Adds a copy of a specified layout slide to the presentation. |
 
 ### See Also
 

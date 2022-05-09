@@ -3,7 +3,7 @@ title: MoveTo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.slides/igeometrypath/moveto/
 ---
 ## IGeometryPath.MoveTo method (1 of 2)

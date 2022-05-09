@@ -3,7 +3,7 @@ title: SetSlideNumberAndChildSlideNumbersVisibility
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 60
 url: /net/aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
 ## IMasterSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility method

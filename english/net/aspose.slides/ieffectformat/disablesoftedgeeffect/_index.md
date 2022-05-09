@@ -3,7 +3,7 @@ title: DisableSoftEdgeEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 180
 url: /net/aspose.slides/ieffectformat/disablesoftedgeeffect/
 ---
 ## IEffectFormat.DisableSoftEdgeEffect method

@@ -3,7 +3,7 @@ title: Control
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2560
+weight: 2540
 url: /net/aspose.slides/control/
 ---
 ## Control class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/control/
 Represents an ActiveX control.
 
 ```csharp
-public class Control : IControl
+public class Control : DomObject<ControlCollection>, IControl
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -28,6 +28,8 @@ public class Control : IControl
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [ControlCollection](../controlcollection)
 * interface [IControl](../icontrol)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

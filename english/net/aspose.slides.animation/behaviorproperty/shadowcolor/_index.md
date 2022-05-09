@@ -3,7 +3,7 @@ title: ShadowColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 750
+weight: 600
 url: /net/aspose.slides.animation/behaviorproperty/shadowcolor/
 ---
 ## BehaviorProperty.ShadowColor property

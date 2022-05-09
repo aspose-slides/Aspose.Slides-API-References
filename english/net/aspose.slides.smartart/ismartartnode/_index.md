@@ -3,7 +3,7 @@ title: ISmartArtNode
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9980
+weight: 9730
 url: /net/aspose.slides.smartart/ismartartnode/
 ---
 ## ISmartArtNode interface
@@ -14,7 +14,7 @@ Represents node of a SmartArt diagram.
 public interface ISmartArtNode
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -27,6 +27,11 @@ public interface ISmartArtNode
 | [Position](position) { get; set; } | Returns or sets zero-based position of the node among sibling nodes. Read/write Int32. |
 | [Shapes](shapes) { get; } | Returns collections of all shapes associated with the node. Read-only [`ISmartArtShapeCollection`](../ismartartshapecollection). |
 | [TextFrame](textframe) { get; } | Returns or sets text of the node. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Remove](remove)() | Remove current node. |
 
 ### See Also

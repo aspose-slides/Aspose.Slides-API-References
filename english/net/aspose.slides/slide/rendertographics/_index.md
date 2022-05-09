@@ -3,7 +3,7 @@ title: RenderToGraphics
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 120
 url: /net/aspose.slides/slide/rendertographics/
 ---
 ## Slide.RenderToGraphics method (1 of 3)
@@ -36,17 +36,19 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics)
 
 ## Slide.RenderToGraphics method (2 of 3)
 
-Renders certain slide to a Graphics object using specified size.
+Renders certain slide to a Graphics object with custom scaling.
 
 ```csharp
-public void RenderToGraphics(IRenderingOptions options, Graphics graphics, Size renderingSize)
+public void RenderToGraphics(IRenderingOptions options, Graphics graphics, float scaleX, 
+    float scaleY)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | IRenderingOptions | Rendering options. |
 | graphics | Graphics | The object where to render to. |
-| renderingSize | Size | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
+| scaleX | Single | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
+| scaleY | Single | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
 
 ### Exceptions
 
@@ -65,19 +67,17 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics, Size 
 
 ## Slide.RenderToGraphics method (3 of 3)
 
-Renders certain slide to a Graphics object with custom scaling.
+Renders certain slide to a Graphics object using specified size.
 
 ```csharp
-public void RenderToGraphics(IRenderingOptions options, Graphics graphics, float scaleX, 
-    float scaleY)
+public void RenderToGraphics(IRenderingOptions options, Graphics graphics, Size renderingSize)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | IRenderingOptions | Rendering options. |
 | graphics | Graphics | The object where to render to. |
-| scaleX | Single | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
-| scaleY | Single | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
+| renderingSize | Size | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
 
 ### Exceptions
 

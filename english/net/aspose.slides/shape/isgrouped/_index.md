@@ -3,7 +3,7 @@ title: IsGrouped
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 140
 url: /net/aspose.slides/shape/isgrouped/
 ---
 ## Shape.IsGrouped property

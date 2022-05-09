@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4390
+weight: 4140
 url: /net/aspose.slides.export/tiffoptions/
 ---
 ## TiffOptions class
@@ -14,11 +14,16 @@ Provides options that control how a presentation is saved in TIFF format.
 public class TiffOptions : SaveOptions, ITiffOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TiffOptions](tiffoptions)() | Default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CompressionType](compressiontype) { get; set; } | Specifies the compression type. Read/write [`TiffCompressionTypes`](../tiffcompressiontypes). |
 | [DpiX](dpix) { get; set; } | Specifies the horizontal resolution in dots per inch. Read/write UInt32. |
 | [DpiY](dpiy) { get; set; } | Specifies the vertical resolution in dots per inch. Read/write UInt32. |

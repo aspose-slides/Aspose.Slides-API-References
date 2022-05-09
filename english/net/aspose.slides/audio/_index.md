@@ -3,7 +3,7 @@ title: Audio
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 760
+weight: 750
 url: /net/aspose.slides/audio/
 ---
 ## Audio class
@@ -11,19 +11,26 @@ url: /net/aspose.slides/audio/
 Represents an embedded audio file.
 
 ```csharp
-public class Audio : IAudio
+public class Audio : DomObject<AudioCollection>, IAudio
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [BinaryData](binarydata) { get; } | Returns the copy of an audio's data. In case of large amount of data consider using of [`GetStream`](./getstream) method to prevent unnecessary loading of audio's data into memory or even OutOfMemoryException. Read-only Byte[]. |
 | [ContentType](contenttype) { get; set; } | Returns a MIME type of an audio, encoded in [`BinaryData`](./binarydata). Read-only String. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetStream](getstream)() | Returns Stream stream for reading. Use 'using' or close stream after using. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [AudioCollection](../audiocollection)
 * interface [IAudio](../iaudio)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

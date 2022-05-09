@@ -11,31 +11,6 @@ url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforareaseri
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer.IsChartTypeArea(ChartType) method).
 
 ```csharp
-public IChartDataPoint AddDataPointForAreaSeries(double value)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | Double | Data point Value |
-
-## Return Value
-
-New data point.
-
-### See Also
-
-* interface [IChartDataPoint](../../ichartdatapoint)
-* interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## IChartDataPointCollection.AddDataPointForAreaSeries method (2 of 2)
-
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer.IsChartTypeArea(ChartType) method).
-
-```csharp
 public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
 ```
 
@@ -51,6 +26,31 @@ New data point.
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
+* interface [IChartDataPointCollection](../../ichartdatapointcollection)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## IChartDataPointCollection.AddDataPointForAreaSeries method (2 of 2)
+
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer.IsChartTypeArea(ChartType) method).
+
+```csharp
+public IChartDataPoint AddDataPointForAreaSeries(double value)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Double | Data point Value |
+
+## Return Value
+
+New data point.
+
+### See Also
+
+* interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
 * namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
 * assembly [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: Dark1
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 80
 url: /net/aspose.slides.theme/icolorscheme/dark1/
 ---
 ## IColorScheme.Dark1 property

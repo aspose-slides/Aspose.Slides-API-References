@@ -3,7 +3,7 @@ title: AdditionalCommonFontFamilies
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 30
 url: /net/aspose.slides.export/pdfoptions/additionalcommonfontfamilies/
 ---
 ## PdfOptions.AdditionalCommonFontFamilies property

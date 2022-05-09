@@ -3,7 +3,7 @@ title: CreatePresentation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.slides/presentationfactory/createpresentation/
 ---
 ## PresentationFactory.CreatePresentation method (1 of 2)

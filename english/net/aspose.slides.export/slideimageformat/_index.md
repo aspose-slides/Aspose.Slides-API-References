@@ -3,7 +3,7 @@ title: SlideImageFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4290
+weight: 4040
 url: /net/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat class
@@ -14,13 +14,18 @@ Determines format in which slide image will be saved for presentation to HTML ex
 public class SlideImageFormat : ISlideImageFormat
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [SlideImageFormat](slideimageformat)() | The default constructor. |
-| static [Bitmap](bitmap)(…) | Slides should be converted to a raster image. |
-| static [Svg](svg)(…) | Slides should converted to a SVG format. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| static [Bitmap](bitmap)(float, ImageFormat) | Slides should be converted to a raster image. |
+| static [Svg](svg)(SVGOptions) | Slides should converted to a SVG format. |
 
 ### See Also
 

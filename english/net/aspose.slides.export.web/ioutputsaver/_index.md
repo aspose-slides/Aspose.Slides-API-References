@@ -3,7 +3,7 @@ title: IOutputSaver
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4430
+weight: 4180
 url: /net/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver interface
@@ -14,11 +14,11 @@ Represents an output saving service.
 public interface IOutputSaver
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(…) | Saves the output file to the given path. |
+| [Save](save)(string, IOutputFile) | Saves the output file to the given path. |
 
 ### See Also
 

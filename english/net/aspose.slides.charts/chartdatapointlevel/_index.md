@@ -3,7 +3,7 @@ title: ChartDataPointLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1230
+weight: 1210
 url: /net/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/chartdatapointlevel/
 Represents data point level. Applies for Treemap and Sunburst chart.
 
 ```csharp
-public class ChartDataPointLevel : IChartDataPointLevel
+public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,6 +23,8 @@ public class ChartDataPointLevel : IChartDataPointLevel
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartDataPointLevelsManager](../chartdatapointlevelsmanager)
 * interface [IChartDataPointLevel](../ichartdatapointlevel)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

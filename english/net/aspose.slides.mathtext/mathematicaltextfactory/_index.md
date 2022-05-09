@@ -3,7 +3,7 @@ title: MathematicalTextFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8580
+weight: 8330
 url: /net/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory class
@@ -14,13 +14,20 @@ Allows to create a MathematicalText element
 public class MathematicalTextFactory : IMathematicalTextFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathematicalTextFactory](mathematicaltextfactory)() | The default constructor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreateMathematicalText](createmathematicaltext)() | Create empty mathematical text element |
-| [CreateMathematicalText](createmathematicaltext)(…) | Create mathematical text element with the specified value (3 methods) |
+| [CreateMathematicalText](createmathematicaltext)(char) | Create mathematical text element with the specified value |
+| [CreateMathematicalText](createmathematicaltext)(string) | Create empty mathematical text element with the specified value |
+| [CreateMathematicalText](createmathematicaltext)(string, IPortionFormat) | Create empty mathematical text element with the specified value and formatting properties |
 
 ### Remarks
 

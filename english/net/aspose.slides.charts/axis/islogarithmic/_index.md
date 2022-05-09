@@ -3,7 +3,7 @@ title: IsLogarithmic
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 260
 url: /net/aspose.slides.charts/axis/islogarithmic/
 ---
 ## Axis.IsLogarithmic property

@@ -3,7 +3,7 @@ title: ColorFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2390
+weight: 2370
 url: /net/aspose.slides/colorformat/
 ---
 ## ColorFormat class
@@ -14,7 +14,7 @@ Represents a color used in a presentation.
 public class ColorFormat : PVIObject, IColorFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -33,10 +33,15 @@ public class ColorFormat : PVIObject, IColorFormat
 | [Saturation](saturation) { get; set; } | Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write Single. |
 | [SchemeColor](schemecolor) { get; set; } | Returns or sets the color identified by a color scheme. Read/write [`SchemeColor`](../schemecolor). |
 | [SystemColor](systemcolor) { get; set; } | Returns or sets the color identified by the system color table. Read/write [`SystemColor`](../systemcolor). |
-| [CopyFrom](copyfrom)(…) | Copy color format from "color". |
-| override [Equals](equals)(…) | Checks for equality with specified object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CopyFrom](copyfrom)(IColorFormat) | Copy color format from "color". |
+| override [Equals](equals)(object) | Checks for equality with specified object. |
 | override [GetHashCode](gethashcode)() | Returns hash code. |
-| [ToString](tostring)(…) | Returns a String that represents the current color format. |
+| [ToString](tostring)(ColorStringFormat) | Returns a String that represents the current color format. |
 
 ### See Also
 

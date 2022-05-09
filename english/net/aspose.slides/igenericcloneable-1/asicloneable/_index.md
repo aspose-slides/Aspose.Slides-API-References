@@ -3,7 +3,7 @@ title: AsICloneable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.slides/igenericcloneable-1/asicloneable/
 ---
 ## IGenericCloneable&lt;T&gt;.AsICloneable property

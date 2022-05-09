@@ -3,7 +3,7 @@ title: GetCustomPropertyValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 320
 url: /net/aspose.slides/documentproperties/getcustompropertyvalue/
 ---
 ## DocumentProperties.GetCustomPropertyValue method (1 of 6)
@@ -29,6 +29,27 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 ## DocumentProperties.GetCustomPropertyValue method (2 of 6)
 
+Gets a named integer value from the custom properties.
+
+```csharp
+public void GetCustomPropertyValue(string name, out int value)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | Int32& | Custom property value |
+
+### See Also
+
+* class [DocumentProperties](../../documentproperties)
+* namespace [Aspose.Slides](../../documentproperties)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## DocumentProperties.GetCustomPropertyValue method (3 of 6)
+
 Gets a named DateTime value from the custom properties.
 
 ```csharp
@@ -48,18 +69,18 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 ---
 
-## DocumentProperties.GetCustomPropertyValue method (3 of 6)
+## DocumentProperties.GetCustomPropertyValue method (4 of 6)
 
-Gets a named double value from the custom properties.
+Gets a named string value from the custom properties.
 
 ```csharp
-public void GetCustomPropertyValue(string name, out double value)
+public void GetCustomPropertyValue(string name, out string value)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | Name of the custom property to get. |
-| value | Double& | Custom property value |
+| name | String | Name of the custom property to get |
+| value | String& | Custom property value |
 
 ### See Also
 
@@ -69,7 +90,7 @@ public void GetCustomPropertyValue(string name, out double value)
 
 ---
 
-## DocumentProperties.GetCustomPropertyValue method (4 of 6)
+## DocumentProperties.GetCustomPropertyValue method (5 of 6)
 
 Gets a named float value from the custom properties.
 
@@ -90,39 +111,18 @@ public void GetCustomPropertyValue(string name, out float value)
 
 ---
 
-## DocumentProperties.GetCustomPropertyValue method (5 of 6)
-
-Gets a named integer value from the custom properties.
-
-```csharp
-public void GetCustomPropertyValue(string name, out int value)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | String | Name of the custom property to get |
-| value | Int32& | Custom property value |
-
-### See Also
-
-* class [DocumentProperties](../../documentproperties)
-* namespace [Aspose.Slides](../../documentproperties)
-* assembly [Aspose.Slides](../../../)
-
----
-
 ## DocumentProperties.GetCustomPropertyValue method (6 of 6)
 
-Gets a named string value from the custom properties.
+Gets a named double value from the custom properties.
 
 ```csharp
-public void GetCustomPropertyValue(string name, out string value)
+public void GetCustomPropertyValue(string name, out double value)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | Name of the custom property to get |
-| value | String& | Custom property value |
+| name | String | Name of the custom property to get. |
+| value | Double& | Custom property value |
 
 ### See Also
 

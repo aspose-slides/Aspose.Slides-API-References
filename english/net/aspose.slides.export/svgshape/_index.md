@@ -3,7 +3,7 @@ title: SvgShape
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4330
+weight: 4080
 url: /net/aspose.slides.export/svgshape/
 ---
 ## SvgShape class
@@ -14,12 +14,17 @@ Represents options for SVG shape.
 public sealed class SvgShape : ISvgShape
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Id](id) { get; set; } | Gets shape id |
-| [SetEventHandler](seteventhandler)(…) | Sets event handler for the shape |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetEventHandler](seteventhandler)(SvgEvent, string) | Sets event handler for the shape |
 
 ### See Also
 

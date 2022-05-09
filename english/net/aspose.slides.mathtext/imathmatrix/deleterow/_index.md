@@ -3,7 +3,7 @@ title: DeleteRow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 130
 url: /net/aspose.slides.mathtext/imathmatrix/deleterow/
 ---
 ## IMathMatrix.DeleteRow method

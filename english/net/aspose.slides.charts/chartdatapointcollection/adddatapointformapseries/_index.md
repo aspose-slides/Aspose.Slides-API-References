@@ -3,7 +3,7 @@ title: AddDataPointForMapSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 180
 url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointformapseries/
 ---
 ## ChartDataPointCollection.AddDataPointForMapSeries method

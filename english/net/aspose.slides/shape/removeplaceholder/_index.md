@@ -3,7 +3,7 @@ title: RemovePlaceholder
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 340
 url: /net/aspose.slides/shape/removeplaceholder/
 ---
 ## Shape.RemovePlaceholder method

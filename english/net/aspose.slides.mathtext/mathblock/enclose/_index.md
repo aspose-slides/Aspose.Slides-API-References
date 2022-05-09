@@ -3,7 +3,7 @@ title: Enclose
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 100
 url: /net/aspose.slides.mathtext/mathblock/enclose/
 ---
 ## MathBlock.Enclose method (1 of 2)

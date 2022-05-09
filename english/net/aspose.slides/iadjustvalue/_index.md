@@ -3,7 +3,7 @@ title: IAdjustValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4950
+weight: 4700
 url: /net/aspose.slides/iadjustvalue/
 ---
 ## IAdjustValue interface
@@ -14,7 +14,7 @@ Represents a geometry shape's adjustment value. These values affect shape's form
 public interface IAdjustValue
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

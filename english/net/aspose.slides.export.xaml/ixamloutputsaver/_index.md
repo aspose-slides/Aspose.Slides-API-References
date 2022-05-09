@@ -3,7 +3,7 @@ title: IXamlOutputSaver
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4530
+weight: 4280
 url: /net/aspose.slides.export.xaml/ixamloutputsaver/
 ---
 ## IXamlOutputSaver interface
@@ -14,11 +14,11 @@ Represents an output saver implementation for transfer data to the external stor
 public interface IXamlOutputSaver
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(…) | Saves a bytes array to a destination location. |
+| [Save](save)(string, byte[]) | Saves a bytes array to a destination location. |
 
 ### See Also
 

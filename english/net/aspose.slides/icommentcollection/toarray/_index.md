@@ -3,7 +3,7 @@ title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.slides/icommentcollection/toarray/
 ---
 ## ICommentCollection.ToArray method (1 of 2)

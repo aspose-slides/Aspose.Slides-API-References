@@ -3,7 +3,7 @@ title: ParentLabelLayoutType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2230
+weight: 2210
 url: /net/aspose.slides.charts/parentlabellayouttype/
 ---
 ## ParentLabelLayoutType enumeration

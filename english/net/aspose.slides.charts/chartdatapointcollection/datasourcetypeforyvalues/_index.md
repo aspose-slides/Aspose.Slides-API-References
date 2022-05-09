@@ -3,7 +3,7 @@ title: DataSourceTypeForYValues
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 60
 url: /net/aspose.slides.charts/chartdatapointcollection/datasourcetypeforyvalues/
 ---
 ## ChartDataPointCollection.DataSourceTypeForYValues property

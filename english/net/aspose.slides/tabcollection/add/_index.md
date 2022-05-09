@@ -3,10 +3,32 @@ title: Add
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.slides/tabcollection/add/
 ---
 ## TabCollection.Add method (1 of 2)
+
+Adds a Tab to the collection.
+
+```csharp
+public ITab Add(double position, TabAlignment align)
+```
+
+## Return Value
+
+Added tab.
+
+### See Also
+
+* interface [ITab](../../itab)
+* enum [TabAlignment](../../tabalignment)
+* class [TabCollection](../../tabcollection)
+* namespace [Aspose.Slides](../../tabcollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## TabCollection.Add method (2 of 2)
 
 Adds a Tab to the collection.
 
@@ -25,28 +47,6 @@ The index at which the tab was added.
 ### See Also
 
 * interface [ITab](../../itab)
-* class [TabCollection](../../tabcollection)
-* namespace [Aspose.Slides](../../tabcollection)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## TabCollection.Add method (2 of 2)
-
-Adds a Tab to the collection.
-
-```csharp
-public ITab Add(double position, TabAlignment align)
-```
-
-## Return Value
-
-Added tab.
-
-### See Also
-
-* interface [ITab](../../itab)
-* enum [TabAlignment](../../tabalignment)
 * class [TabCollection](../../tabcollection)
 * namespace [Aspose.Slides](../../tabcollection)
 * assembly [Aspose.Slides](../../../)

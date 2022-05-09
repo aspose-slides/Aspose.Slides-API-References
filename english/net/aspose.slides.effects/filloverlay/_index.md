@@ -3,7 +3,7 @@ title: FillOverlay
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2940
+weight: 2800
 url: /net/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay class
@@ -14,13 +14,18 @@ Represents a Fill Overlay effect. A fill overlay may be used to specify an addit
 public class FillOverlay : ImageTransformOperation, IFillOverlay
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Blend](blend) { get; set; } | FillBlendMode. Read/write [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](fillformat) { get; } | Fill format. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
-| override [Equals](equals)(…) | Determines whether the specified [`FillOverlay`](../filloverlay) is equal to the current [`FillOverlay`](../filloverlay). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`FillOverlay`](../filloverlay) is equal to the current [`FillOverlay`](../filloverlay). |
 | [GetEffective](geteffective)() | Gets effective Fill Overlay effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

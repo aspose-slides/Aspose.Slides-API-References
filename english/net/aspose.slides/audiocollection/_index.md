@@ -3,7 +3,7 @@ title: AudioCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 770
+weight: 760
 url: /net/aspose.slides/audiocollection/
 ---
 ## AudioCollection class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/audiocollection/
 Represents a collection of embedded audio files.
 
 ```csharp
-public class AudioCollection : IAudioCollection
+public class AudioCollection : DomObject<Presentation>, IAudioCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,12 +22,22 @@ public class AudioCollection : IAudioCollection
 | [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IAudio`](../iaudio). |
 | [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
-| [AddAudio](addaudio)(…) | Adds a copy of an audio file from an another presentation. (4 methods) |
-| [CopyTo](copyto)(…) | Copies audios to specified array starting from specified index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddAudio](addaudio)(byte[]) | Creates and adds a audio to a presentation from byte array. |
+| [AddAudio](addaudio)(IAudio) | Adds a copy of an audio file from an another presentation. |
+| [AddAudio](addaudio)(Stream) | Creates and adds a audio to a presentation from stream. |
+| [AddAudio](addaudio)(Stream, LoadingStreamBehavior) | Creates and adds a audio to a presentation from stream. |
+| [CopyTo](copyto)(Array, int) | Copies audios to specified array starting from specified index. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Presentation](../presentation)
 * interface [IAudioCollection](../iaudiocollection)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

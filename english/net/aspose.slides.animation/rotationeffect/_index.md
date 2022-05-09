@@ -3,7 +3,7 @@ title: RotationEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 670
 url: /net/aspose.slides.animation/rotationeffect/
 ---
 ## RotationEffect class
@@ -14,11 +14,16 @@ Represent rotation behavior of effect.
 public class RotationEffect : Behavior, IRotationEffect
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [RotationEffect](rotationeffect)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [By](by) { get; set; } | Describes the relative offset value for the animation. Read/write Single. |
 | [From](from) { get; set; } | Describes the starting value for the animation. Read/write Single. |
 | [To](to) { get; set; } | Describes the ending value for the animation. Read/write Single. |

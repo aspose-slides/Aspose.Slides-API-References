@@ -3,7 +3,7 @@ title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 160
 url: /net/aspose.slides/paragraphformat/geteffective/
 ---
 ## ParagraphFormat.GetEffective method

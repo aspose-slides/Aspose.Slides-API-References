@@ -3,7 +3,7 @@ title: SoftEdgeEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 90
 url: /net/aspose.slides/effectformat/softedgeeffect/
 ---
 ## EffectFormat.SoftEdgeEffect property

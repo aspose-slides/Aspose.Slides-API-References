@@ -3,7 +3,7 @@ title: IChart
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1620
+weight: 1600
 url: /net/aspose.slides.charts/ichart/
 ---
 ## IChart interface
@@ -14,7 +14,7 @@ Represents an graphic chart on a slide.
 public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideThemeable
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -41,6 +41,11 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 | [Style](style) { get; set; } | Returns or sets the chart style. Read/write [`StyleType`](../styletype). |
 | [Type](type) { get; set; } | Returns or sets the chart type. Read/write [`ChartType`](../charttype). |
 | [UserShapes](usershapes) { get; } | Specify the shapes drawn on top of the chart. Read-only [`IGroupShape`](../../aspose.slides/igroupshape). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ValidateChartLayout](validatechartlayout)() | Calculates actual values of chart elements. Actual values inlude position of elements that implement IActualLayout interface (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
 
 ### See Also

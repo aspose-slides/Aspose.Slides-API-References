@@ -3,7 +3,7 @@ title: Y
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 300
 url: /net/aspose.slides/shape/y/
 ---
 ## Shape.Y property

@@ -3,7 +3,7 @@ title: IMathMatrixFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7880
+weight: 7630
 url: /net/aspose.slides.mathtext/imathmatrixfactory/
 ---
 ## IMathMatrixFactory interface
@@ -14,11 +14,11 @@ Allows to create a math matrix
 public interface IMathMatrixFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateMathMatrix](createmathmatrix)(…) | Creates a math matrix |
+| [CreateMathMatrix](createmathmatrix)(int, int) | Creates a math matrix |
 
 ### Remarks
 

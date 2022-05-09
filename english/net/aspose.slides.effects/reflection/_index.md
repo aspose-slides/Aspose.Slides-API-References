@@ -3,7 +3,7 @@ title: Reflection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3660
+weight: 3440
 url: /net/aspose.slides.effects/reflection/
 ---
 ## Reflection class
@@ -14,7 +14,7 @@ Represents a Reflection effect.
 public class Reflection : IReflection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -32,7 +32,12 @@ public class Reflection : IReflection
 | [SkewVertical](skewvertical) { get; set; } | Specifies the vertical skew angle. Read/write Double. |
 | [StartPosAlpha](startposalpha) { get; set; } | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read/write Single. |
 | [StartReflectionOpacity](startreflectionopacity) { get; set; } | Starting reflection opacity. (percents). Read/write Single. |
-| override [Equals](equals)(…) | Determines whether the specified [`Reflection`](../reflection) is equal to the current [`Reflection`](../reflection). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`Reflection`](../reflection) is equal to the current [`Reflection`](../reflection). |
 | [GetEffective](geteffective)() | Gets effective Reflection effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

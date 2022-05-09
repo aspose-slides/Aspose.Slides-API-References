@@ -3,7 +3,7 @@ title: ColorEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.slides.animation/coloreffect/
 ---
 ## ColorEffect class
@@ -14,11 +14,16 @@ Represents a color effect for an animation behavior.
 public class ColorEffect : Behavior, IColorEffect
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ColorEffect](coloreffect)() | Creates new instance. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [By](by) { get; set; } | Describes the relative offset value for the color animation. Read/write [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](colorspace) { get; set; } | Represent color space of behavior. Read/write [`ColorSpace`](../colorspace). |
 | [Direction](direction) { get; set; } | Specifies which direction to cycle the hue around the color wheel. Read/write [`ColorDirection`](../colordirection). |

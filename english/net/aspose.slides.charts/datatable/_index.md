@@ -3,7 +3,7 @@ title: DataTable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1480
+weight: 1460
 url: /net/aspose.slides.charts/datatable/
 ---
 ## DataTable class
@@ -11,10 +11,10 @@ url: /net/aspose.slides.charts/datatable/
 Represents data table properties.
 
 ```csharp
-public class DataTable : IDataTable
+public class DataTable : DomObject<Chart>, IDataTable
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -28,6 +28,8 @@ public class DataTable : IDataTable
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [Chart](../chart)
 * interface [IDataTable](../idatatable)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: PieSplitCustomPoints
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 140
 url: /net/aspose.slides.charts/chartseriesgroup/piesplitcustompoints/
 ---
 ## ChartSeriesGroup.PieSplitCustomPoints property

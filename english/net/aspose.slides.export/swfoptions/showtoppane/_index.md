@@ -3,7 +3,7 @@ title: ShowTopPane
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 150
 url: /net/aspose.slides.export/swfoptions/showtoppane/
 ---
 ## SwfOptions.ShowTopPane property

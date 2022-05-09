@@ -3,7 +3,7 @@ title: ShadowColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 40
 url: /net/aspose.slides.effects/innershadow/shadowcolor/
 ---
 ## InnerShadow.ShadowColor property

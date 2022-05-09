@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 70
 url: /net/aspose.slides/imagecollection/getenumerator/
 ---
 ## ImageCollection.GetEnumerator method

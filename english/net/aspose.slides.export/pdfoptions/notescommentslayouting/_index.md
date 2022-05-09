@@ -3,7 +3,7 @@ title: NotesCommentsLayouting
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 120
 url: /net/aspose.slides.export/pdfoptions/notescommentslayouting/
 ---
 ## PdfOptions.NotesCommentsLayouting property

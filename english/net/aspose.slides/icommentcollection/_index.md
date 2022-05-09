@@ -3,7 +3,7 @@ title: ICommentCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5340
+weight: 5090
 url: /net/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection interface
@@ -14,20 +14,25 @@ Represents a collection of comments of one author.
 public interface ICommentCollection : IGenericCollection<IComment>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Gets the element at the specified index. Read-only [`IComment`](../icomment). |
-| [AddComment](addcomment)(…) | Add new comment at the end of a collection. |
-| [AddModernComment](addmoderncomment)(…) | Add new modern comment at the end of a collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddComment](addcomment)(string, ISlide, PointF, DateTime) | Add new comment at the end of a collection. |
+| [AddModernComment](addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Add new modern comment at the end of a collection. |
 | [Clear](clear)() | Removes all comments from a collection. |
-| [InsertComment](insertcomment)(…) | Insert new comment to a collection at the specified index. |
-| [InsertModernComment](insertmoderncomment)(…) | Insert new modern comment to a collection at the specified index. |
-| [Remove](remove)(…) | Removes the first occurrence of the specified comment in a collection. |
-| [RemoveAt](removeat)(…) | Removes the element at the specified index in a collection. |
+| [InsertComment](insertcomment)(int, string, ISlide, PointF, DateTime) | Insert new comment to a collection at the specified index. |
+| [InsertModernComment](insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Insert new modern comment to a collection at the specified index. |
+| [Remove](remove)(IComment) | Removes the first occurrence of the specified comment in a collection. |
+| [RemoveAt](removeat)(int) | Removes the element at the specified index in a collection. |
 | [ToArray](toarray)() | Creates and returns an array with all comments. |
-| [ToArray](toarray)(…) | Creates and returns an array with all comments from the specified range. |
+| [ToArray](toarray)(int, int) | Creates and returns an array with all comments from the specified range. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ImageDataCropRight
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 460
 url: /net/aspose.slides.animation/behaviorproperty/imagedatacropright/
 ---
 ## BehaviorProperty.ImageDataCropRight property

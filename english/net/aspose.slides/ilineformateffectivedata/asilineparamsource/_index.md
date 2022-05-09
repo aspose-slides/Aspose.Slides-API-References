@@ -3,7 +3,7 @@ title: AsILineParamSource
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 20
 url: /net/aspose.slides/ilineformateffectivedata/asilineparamsource/
 ---
 ## ILineFormatEffectiveData.AsILineParamSource property

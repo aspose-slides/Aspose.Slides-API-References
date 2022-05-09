@@ -3,7 +3,7 @@ title: IBackground
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5040
+weight: 4790
 url: /net/aspose.slides/ibackground/
 ---
 ## IBackground interface
@@ -14,7 +14,7 @@ Represents background of a slide.
 public interface IBackground : IFillParamSource, ISlideComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,6 +25,11 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | [StyleColor](stylecolor) { get; } | Returns a ColorFormat for a BackgroundType.Themed fill. Read-only [`IColorFormat`](../icolorformat). |
 | [StyleIndex](styleindex) { get; set; } | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write UInt16. |
 | [Type](type) { get; set; } | Returns a type of background fill. Read/write [`BackgroundType`](../backgroundtype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective background data with the inheritance applied. |
 
 ### See Also

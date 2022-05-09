@@ -3,7 +3,7 @@ title: Marker
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 200
 url: /net/aspose.slides.charts/ichartseries/marker/
 ---
 ## IChartSeries.Marker property

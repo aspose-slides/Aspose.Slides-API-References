@@ -3,7 +3,7 @@ title: RenderingOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4230
+weight: 3980
 url: /net/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions class
@@ -14,11 +14,16 @@ Provides options that control how a presentation/slide is rendered.
 public class RenderingOptions : SaveOptions, IRenderingOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [RenderingOptions](renderingoptions)() | Default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [NotesCommentsLayouting](notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
 
 ### Examples

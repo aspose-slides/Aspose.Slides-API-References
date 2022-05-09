@@ -3,7 +3,7 @@ title: IsSeriesUsesYValueCoordinate
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 210
 url: /net/aspose.slides.charts/charttypecharacterizer/isseriesusesyvaluecoordinate/
 ---
 ## ChartTypeCharacterizer.IsSeriesUsesYValueCoordinate method

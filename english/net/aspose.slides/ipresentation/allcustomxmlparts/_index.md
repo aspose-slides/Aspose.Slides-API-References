@@ -3,7 +3,7 @@ title: AllCustomXmlParts
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 10
 url: /net/aspose.slides/ipresentation/allcustomxmlparts/
 ---
 ## IPresentation.AllCustomXmlParts property

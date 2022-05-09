@@ -3,7 +3,7 @@ title: ImageTransformOperationCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3560
+weight: 3380
 url: /net/aspose.slides.effects/imagetransformoperationcollection/
 ---
 ## ImageTransformOperationCollection class
@@ -15,37 +15,42 @@ public sealed class ImageTransformOperationCollection : PVIObject,
     IImageTransformOperationCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of image effects in a collection. Read-only Int32. |
 | [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
 | [Item](item) { get; } | Returns an [`ImageTransformOperation`](../imagetransformoperation) from the collection by it's index. |
-| [Add](add)(…) | Adds the new image effect to the end of a collection. |
-| [AddAlphaBiLevelEffect](addalphabileveleffect)(…) | Adds the new Alpha Bi-Level effect to the end of a collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IImageTransformOperation) | Adds the new image effect to the end of a collection. |
+| [AddAlphaBiLevelEffect](addalphabileveleffect)(float) | Adds the new Alpha Bi-Level effect to the end of a collection. |
 | [AddAlphaCeilingEffect](addalphaceilingeffect)() | Adds the new Alpha Ceiling effect to the end of a collection. |
 | [AddAlphaFloorEffect](addalphaflooreffect)() | Adds the new Alpha Floor effect to the end of a collection. |
 | [AddAlphaInverseEffect](addalphainverseeffect)() | Adds the new Alpha Inverse effect to the end of a collection. |
 | [AddAlphaModulateEffect](addalphamodulateeffect)() | Adds the new Alpha Modulate effect to the end of a collection. |
-| [AddAlphaModulateFixedEffect](addalphamodulatefixedeffect)(…) | Adds the new Alpha Modulate Fixed effect to the end of a collection. |
-| [AddAlphaReplaceEffect](addalphareplaceeffect)(…) | Adds the new Alpha Replace effect to the end of a collection. |
-| [AddBiLevelEffect](addbileveleffect)(…) | Adds the new Bi-Level (black/white) effect to the end of a collection. |
-| [AddBlurEffect](addblureffect)(…) | Adds the new Blur effect to the end of a collection. |
+| [AddAlphaModulateFixedEffect](addalphamodulatefixedeffect)(float) | Adds the new Alpha Modulate Fixed effect to the end of a collection. |
+| [AddAlphaReplaceEffect](addalphareplaceeffect)(float) | Adds the new Alpha Replace effect to the end of a collection. |
+| [AddBiLevelEffect](addbileveleffect)(float) | Adds the new Bi-Level (black/white) effect to the end of a collection. |
+| [AddBlurEffect](addblureffect)(double, bool) | Adds the new Blur effect to the end of a collection. |
 | [AddColorChangeEffect](addcolorchangeeffect)() | Adds the new Color Change effect to the end of a collection. |
 | [AddColorReplaceEffect](addcolorreplaceeffect)() | Adds the new Color Replacement effect to the end of a collection. |
 | [AddDuotoneEffect](addduotoneeffect)() | Adds the new Duotone effect to the end of a collection. |
 | [AddFillOverlayEffect](addfilloverlayeffect)() | Adds the new Fill Overlay effect to the end of a collection. |
 | [AddGrayScaleEffect](addgrayscaleeffect)() | Adds the new Gray Scale effect to the end of a collection. |
-| [AddHSLEffect](addhsleffect)(…) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
-| [AddLuminanceEffect](addluminanceeffect)(…) | Adds the new Luminance effect to the end of a collection. |
-| [AddTintEffect](addtinteffect)(…) | Adds the new Tint effect to the end of a collection. |
+| [AddHSLEffect](addhsleffect)(float, float, float) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
+| [AddLuminanceEffect](addluminanceeffect)(float, float) | Adds the new Luminance effect to the end of a collection. |
+| [AddTintEffect](addtinteffect)(float, float) | Adds the new Tint effect to the end of a collection. |
 | [Clear](clear)() | Removes all image effects from a collection. |
-| [Contains](contains)(…) | Determines whether the ICollection contains a specific value. |
-| [CopyTo](copyto)(…) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
+| [Contains](contains)(IImageTransformOperation) | Determines whether the ICollection contains a specific value. |
+| [CopyTo](copyto)(IImageTransformOperation[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(…) | Removes the first occurrence of a specific object from the ICollection. |
-| [RemoveAt](removeat)(…) | Removes an image effect from a collection at the specified index. |
+| [Remove](remove)(IImageTransformOperation) | Removes the first occurrence of a specific object from the ICollection. |
+| [RemoveAt](removeat)(int) | Removes an image effect from a collection at the specified index. |
 
 ### See Also
 

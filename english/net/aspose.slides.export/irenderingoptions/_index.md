@@ -3,7 +3,7 @@ title: IRenderingOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3960
+weight: 3710
 url: /net/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions interface
@@ -14,7 +14,7 @@ Provides options that control how a presentation/slide is rendered.
 public interface IRenderingOptions : ISaveOptions
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

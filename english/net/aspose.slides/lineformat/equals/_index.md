@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 180
 url: /net/aspose.slides/lineformat/equals/
 ---
 ## LineFormat.Equals method
@@ -20,7 +20,7 @@ public bool Equals(ILineFormat lineFormat)
 
 ## Return Value
 
-true if the specified LineFormat is equal to the current LineFormat; otherwise, false.
+**true** if the specified LineFormat is equal to the current LineFormat; otherwise, **false**.
 
 ### See Also
 

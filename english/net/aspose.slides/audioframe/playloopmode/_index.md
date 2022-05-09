@@ -3,7 +3,7 @@ title: PlayLoopMode
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.slides/audioframe/playloopmode/
 ---
 ## AudioFrame.PlayLoopMode property

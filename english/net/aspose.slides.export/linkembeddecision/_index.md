@@ -3,7 +3,7 @@ title: LinkEmbedDecision
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4130
+weight: 3880
 url: /net/aspose.slides.export/linkembeddecision/
 ---
 ## LinkEmbedDecision enumeration

@@ -3,7 +3,7 @@ title: AudioPlayModePreset
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 780
 url: /net/aspose.slides/audioplaymodepreset/
 ---
 ## AudioPlayModePreset enumeration

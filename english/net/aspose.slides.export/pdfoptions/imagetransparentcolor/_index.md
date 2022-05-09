@@ -3,7 +3,7 @@ title: ImageTransparentColor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 100
 url: /net/aspose.slides.export/pdfoptions/imagetransparentcolor/
 ---
 ## PdfOptions.ImageTransparentColor property

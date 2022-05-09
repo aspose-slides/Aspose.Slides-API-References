@@ -3,7 +3,7 @@ title: IDigitalSignature
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5440
+weight: 5190
 url: /net/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature interface
@@ -14,7 +14,7 @@ Digital signature in signed file.
 public interface IDigitalSignature
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

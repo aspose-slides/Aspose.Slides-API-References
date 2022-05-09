@@ -3,7 +3,7 @@ title: BehaviorPropertyCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.slides.animation/behaviorpropertycollection/
 ---
 ## BehaviorPropertyCollection class
@@ -14,22 +14,32 @@ Represents timing properties for the effect behavior.
 public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of properties stored in the collection. Read-only Int32. |
 | [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
 | [Item](item) { get; set; } | Returns a property at the specified index. |
-| [Add](add)(…) | Adds a new property to the collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(IBehaviorProperty) | Adds a new property to the collection. |
+| [Add](add)(string) | Adds a new property to the collection. |
 | [Clear](clear)() | Removes all properties from the collection. |
-| [Contains](contains)(…) | Determines whether the ICollection contains a specific value. (2 methods) |
-| [CopyTo](copyto)(…) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
+| [Contains](contains)(IBehaviorProperty) | Determines whether the ICollection contains a specific value. |
+| [Contains](contains)(string) | Determines whether the ICollection contains a specific value. |
+| [CopyTo](copyto)(IBehaviorProperty[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(…) | Determines the index of a specific item in the IList. (2 methods) |
-| [Insert](insert)(…) | Inserts a new property to the collection at the specified index. (2 methods) |
-| [Remove](remove)(…) | Removes specified property from the collection. (2 methods) |
-| [RemoveAt](removeat)(…) | Removes property at the specified index. |
+| [IndexOf](indexof)(IBehaviorProperty) | Determines the index of a specific item in the IList. |
+| [IndexOf](indexof)(string) | Determines the index of a specific item by property value in the IList. |
+| [Insert](insert)(int, IBehaviorProperty) | Inserts a new property to the collection at the specified index. |
+| [Insert](insert)(int, string) | Inserts a new property (with the specified property value) to the collection at the specified index. |
+| [Remove](remove)(IBehaviorProperty) | Removes specified property from the collection. |
+| [Remove](remove)(string) | Removes specified property from the collection. |
+| [RemoveAt](removeat)(int) | Removes property at the specified index. |
 
 ### See Also
 

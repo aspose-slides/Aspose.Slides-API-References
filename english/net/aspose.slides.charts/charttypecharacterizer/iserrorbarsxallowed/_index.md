@@ -3,7 +3,7 @@ title: IsErrorBarsXAllowed
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 160
 url: /net/aspose.slides.charts/charttypecharacterizer/iserrorbarsxallowed/
 ---
 ## ChartTypeCharacterizer.IsErrorBarsXAllowed method

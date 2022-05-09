@@ -3,7 +3,7 @@ title: IMorphTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9590
+weight: 9340
 url: /net/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition interface
@@ -14,7 +14,7 @@ Ripple slide transition effect.
 public interface IMorphTransition : ITransitionValueBase
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

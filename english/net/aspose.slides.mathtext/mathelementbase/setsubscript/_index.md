@@ -3,7 +3,7 @@ title: SetSubscript
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 130
 url: /net/aspose.slides.mathtext/mathelementbase/setsubscript/
 ---
 ## MathElementBase.SetSubscript method (1 of 2)

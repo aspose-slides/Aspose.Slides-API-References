@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 170
 url: /net/aspose.slides/cell/presentation/
 ---
 ## Cell.Presentation property

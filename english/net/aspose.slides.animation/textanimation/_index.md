@@ -3,7 +3,7 @@ title: TextAnimation
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 730
+weight: 720
 url: /net/aspose.slides.animation/textanimation/
 ---
 ## TextAnimation class
@@ -14,14 +14,24 @@ Represent text animation.
 public class TextAnimation : ITextAnimation
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TextAnimation](textanimation)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BuildType](buildtype) { get; set; } | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write [`BuildType`](../buildtype). |
 | [EffectAnimateBackgroundShape](effectanimatebackgroundshape) { get; set; } | Linked shape effect with group or not (null). Read/write [`IEffect`](../ieffect). |
-| [AddEffect](addeffect)(…) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddEffect](addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
 
 ### See Also
 

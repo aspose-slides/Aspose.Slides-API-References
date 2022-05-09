@@ -3,7 +3,7 @@ title: MathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8280
+weight: 8030
 url: /net/aspose.slides.mathtext/mathgroupingcharacter/
 ---
 ## MathGroupingCharacter class
@@ -14,15 +14,26 @@ Specifies a grouping symbol above or below an expression, usually to highlight t
 public sealed class MathGroupingCharacter : MathElementBase, IMathGroupingCharacter
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathGroupingCharacter](mathgroupingcharacter)(…) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) (2 constructors) |
+| [MathGroupingCharacter](mathgroupingcharacter)(IMathElement) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+| [MathGroupingCharacter](mathgroupingcharacter)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Initializes a new instance of the MathGroupingCharacter class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Base](base) { get; } | Base argument |
 | [Character](character) { get; set; } | Grouping Character Default value: U+23DF (BOTTOM CURLY BRACKET) |
 | [Position](position) { get; set; } | Position of grouping character. Default: Bottom |
 | [VerticalJustification](verticaljustification) { get; set; } | Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline Default: Bottom for Position=Top, and Top for Position=Bottom |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

@@ -3,7 +3,7 @@ title: LayoutTargetType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2150
+weight: 2130
 url: /net/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType enumeration

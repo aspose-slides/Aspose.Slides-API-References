@@ -3,7 +3,7 @@ title: DeleteColumn
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 120
 url: /net/aspose.slides.mathtext/mathmatrix/deletecolumn/
 ---
 ## MathMatrix.DeleteColumn method

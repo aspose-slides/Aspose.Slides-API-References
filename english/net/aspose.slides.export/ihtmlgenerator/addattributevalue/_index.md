@@ -3,7 +3,7 @@ title: AddAttributeValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 70
 url: /net/aspose.slides.export/ihtmlgenerator/addattributevalue/
 ---
 ## IHtmlGenerator.AddAttributeValue method (1 of 3)
@@ -11,12 +11,12 @@ url: /net/aspose.slides.export/ihtmlgenerator/addattributevalue/
 Quotes attribute value and adds it to the html file.
 
 ```csharp
-public void AddAttributeValue(char[] value)
+public void AddAttributeValue(string value)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | Char[] | Attribute value string. |
+| value | String | Attribute value string. |
 
 ### See Also
 
@@ -31,12 +31,12 @@ public void AddAttributeValue(char[] value)
 Quotes attribute value and adds it to the html file.
 
 ```csharp
-public void AddAttributeValue(string value)
+public void AddAttributeValue(char[] value)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | String | Attribute value string. |
+| value | Char[] | Attribute value string. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: PptxCorruptFileException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9060
+weight: 8810
 url: /net/aspose.slides/pptxcorruptfileexception/
 ---
 ## PptxCorruptFileException class
@@ -12,12 +12,13 @@ url: /net/aspose.slides/pptxcorruptfileexception/
 public class PptxCorruptFileException : PptxReadException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PptxCorruptFileException](pptxcorruptfileexception)() | The default constructor. |
-| [PptxCorruptFileException](pptxcorruptfileexception)(…) |  (2 constructors) |
+| [PptxCorruptFileException](pptxcorruptfileexception)(string) |  |
+| [PptxCorruptFileException](pptxcorruptfileexception)(string, Exception) |  |
 
 ### See Also
 

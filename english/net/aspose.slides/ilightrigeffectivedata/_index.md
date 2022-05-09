@@ -3,7 +3,7 @@ title: ILightRigEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5970
+weight: 5720
 url: /net/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData interface
@@ -14,12 +14,17 @@ Immutable object which contains effective light rig properties.
 public interface ILightRigEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Direction](direction) { get; } | Light direction. Read-only [`LightingDirection`](../lightingdirection). |
 | [LightType](lighttype) { get; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read-only [`LightRigPresetType`](../lightrigpresettype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetRotation](getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. First element in return array - latitude, second - longitude, third - revolution. |
 
 ### Remarks

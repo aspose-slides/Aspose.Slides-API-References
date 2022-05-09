@@ -3,7 +3,7 @@ title: LegacyDiagram
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7220
+weight: 6970
 url: /net/aspose.slides/legacydiagram/
 ---
 ## LegacyDiagram class
@@ -14,11 +14,16 @@ Represents a legacy diagram object.
 public class LegacyDiagram : GraphicalObject, ILegacyDiagram
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ConvertToGroupShape](converttogroupshape)() | Converts legacy digram to editable group shape. Created GroupShape object adds to parent group shape at the same position. |
 | [ConvertToSmartArt](converttosmartart)() | Converts legacy digram to editable SmartArt object. Created SmartArt object adds to parent group shape at the same position. |
 

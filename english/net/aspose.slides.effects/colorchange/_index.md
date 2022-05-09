@@ -3,7 +3,7 @@ title: ColorChange
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2860
+weight: 2760
 url: /net/aspose.slides.effects/colorchange/
 ---
 ## ColorChange class
@@ -14,13 +14,18 @@ Represents a Color Change effect. Instances of FromColor are replaced with insta
 public class ColorChange : ImageTransformOperation, IColorChange
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [FromColor](fromcolor) { get; } | Color which will be replaced. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [ToColor](tocolor) { get; } | Color which will replace. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| override [Equals](equals)(…) | Determines whether the specified [`ColorChange`](../colorchange) is equal to the current [`ColorChange`](../colorchange). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified [`ColorChange`](../colorchange) is equal to the current [`ColorChange`](../colorchange). |
 | [GetEffective](geteffective)() | Gets effective Color Change effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

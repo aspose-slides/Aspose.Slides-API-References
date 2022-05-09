@@ -3,7 +3,7 @@ title: ShapeStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9370
+weight: 9120
 url: /net/aspose.slides/shapestyle/
 ---
 ## ShapeStyle class
@@ -11,10 +11,10 @@ url: /net/aspose.slides/shapestyle/
 Represent shape's style reference.
 
 ```csharp
-public class ShapeStyle : IShapeStyle
+public class ShapeStyle : DomObject<Shape>, IShapeStyle
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -29,6 +29,8 @@ public class ShapeStyle : IShapeStyle
 
 ### See Also
 
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [Shape](../shape)
 * interface [IShapeStyle](../ishapestyle)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

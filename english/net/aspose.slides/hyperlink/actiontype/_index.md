@@ -3,7 +3,7 @@ title: ActionType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 100
 url: /net/aspose.slides/hyperlink/actiontype/
 ---
 ## Hyperlink.ActionType property

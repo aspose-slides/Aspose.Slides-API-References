@@ -3,7 +3,7 @@ title: MathFractionFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8220
+weight: 7970
 url: /net/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory class
@@ -14,12 +14,18 @@ Allows to create a math fraction
 public class MathFractionFactory : IMathFractionFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathFractionFactory](mathfractionfactory)() | The default constructor. |
-| [CreateMathFraction](createmathfraction)(…) | Creates a math fraction (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateMathFraction](createmathfraction)(IMathElement, IMathElement) | Creates a math fraction |
+| [CreateMathFraction](createmathfraction)(IMathElement, IMathElement, MathFractionTypes) | Creates a math fraction |
 
 ### Remarks
 

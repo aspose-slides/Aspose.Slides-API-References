@@ -3,7 +3,7 @@ title: MaxValue
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 380
 url: /net/aspose.slides.charts/axis/maxvalue/
 ---
 ## Axis.MaxValue property

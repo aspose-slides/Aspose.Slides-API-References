@@ -3,7 +3,7 @@ title: IMathNaryOperator
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7890
+weight: 7640
 url: /net/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator interface
@@ -14,7 +14,7 @@ Specifies an N-ary mathematical object, such as Summation and Integral. It consi
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

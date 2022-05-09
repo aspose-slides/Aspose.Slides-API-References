@@ -3,7 +3,7 @@ title: TabFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10280
+weight: 10030
 url: /net/aspose.slides/tabfactory/
 ---
 ## TabFactory class
@@ -14,12 +14,17 @@ Allows to create ITab instances
 public class TabFactory : ITabFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TabFactory](tabfactory)() | The default constructor. |
-| [CreateTab](createtab)(…) | Creates a new ITab instance. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateTab](createtab)(double, TabAlignment) | Creates a new ITab instance. |
 
 ### Remarks
 

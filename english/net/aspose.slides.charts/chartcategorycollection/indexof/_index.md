@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 110
 url: /net/aspose.slides.charts/chartcategorycollection/indexof/
 ---
 ## ChartCategoryCollection.IndexOf method

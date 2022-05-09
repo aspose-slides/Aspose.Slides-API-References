@@ -3,7 +3,7 @@ title: IResourceLoadingArgs
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6520
+weight: 6270
 url: /net/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs interface
@@ -14,13 +14,18 @@ Interface for external resource loading arguments.
 public interface IResourceLoadingArgs
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [OriginalUri](originaluri) { get; } | Original URI of the resource as specified in imported presentation. |
 | [Uri](uri) { get; set; } | URI of the resource which is used for downloading if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns Default. Initially it's set to original URI of the resource, but can be redefined to any value. |
-| [SetData](setdata)(…) | Sets user provided data of the resource which used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns UserProvided. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetData](setdata)(byte[]) | Sets user provided data of the resource which used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns UserProvided. |
 
 ### See Also
 

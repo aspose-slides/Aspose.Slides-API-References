@@ -3,7 +3,7 @@ title: ModernCommentStatus
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8610
+weight: 8360
 url: /net/aspose.slides/moderncommentstatus/
 ---
 ## ModernCommentStatus enumeration

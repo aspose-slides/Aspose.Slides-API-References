@@ -3,7 +3,7 @@ title: InsertSectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 370
 url: /net/aspose.slides/shapecollection/insertsectionzoomframe/
 ---
 ## ShapeCollection.InsertSectionZoomFrame method (1 of 2)

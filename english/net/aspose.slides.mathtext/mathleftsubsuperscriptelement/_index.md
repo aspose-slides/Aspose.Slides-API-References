@@ -3,7 +3,7 @@ title: MathLeftSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8330
+weight: 8080
 url: /net/aspose.slides.mathtext/mathleftsubsuperscriptelement/
 ---
 ## MathLeftSubSuperscriptElement class
@@ -14,13 +14,23 @@ Specifies the Sub-Superscript object, which consists of a base and a subscript a
 public sealed class MathLeftSubSuperscriptElement : BaseScript, IMathLeftSubSuperscriptElement
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathLeftSubSuperscriptElement](mathleftsubsuperscriptelement)(…) | Initializes a new instance of the MathLeftSubSuperscriptElement class. |
+| [MathLeftSubSuperscriptElement](mathleftsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathLeftSubSuperscriptElement class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Subscript](subscript) { get; } | Subscript |
 | [Superscript](superscript) { get; } | Superscript |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

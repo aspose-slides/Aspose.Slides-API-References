@@ -3,7 +3,7 @@ title: SetLowerLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.slides.mathtext/mathelementbase/setlowerlimit/
 ---
 ## MathElementBase.SetLowerLimit method (1 of 2)

@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 210
 url: /net/aspose.slides.charts/ichartseries/name/
 ---
 ## IChartSeries.Name property

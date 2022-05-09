@@ -3,7 +3,7 @@ title: ImageDataBlacklevel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 420
 url: /net/aspose.slides.animation/behaviorproperty/imagedatablacklevel/
 ---
 ## BehaviorProperty.ImageDataBlacklevel property

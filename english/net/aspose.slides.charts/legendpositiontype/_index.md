@@ -3,7 +3,7 @@ title: LegendPositionType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2200
+weight: 2180
 url: /net/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType enumeration

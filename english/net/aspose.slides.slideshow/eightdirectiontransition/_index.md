@@ -3,7 +3,7 @@ title: EightDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9480
+weight: 9230
 url: /net/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition class
@@ -14,7 +14,7 @@ Eight direction slide transition effect.
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

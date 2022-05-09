@@ -3,7 +3,7 @@ title: NextSlideIndex
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 10
 url: /net/aspose.slides.export/htmlgenerator/nextslideindex/
 ---
 ## HtmlGenerator.NextSlideIndex property

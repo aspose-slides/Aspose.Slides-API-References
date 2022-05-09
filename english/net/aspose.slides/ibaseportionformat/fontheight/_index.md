@@ -3,12 +3,12 @@ title: FontHeight
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 80
 url: /net/aspose.slides/ibaseportionformat/fontheight/
 ---
 ## IBasePortionFormat.FontHeight property
 
-Returns or sets the font height of a portion. float.NaN means height is undefined and should be inherited from the Master. Read/write Single.
+Returns or sets the font height of a portion. **float.NaN** means height is undefined and should be inherited from the Master. Read/write Single.
 
 ```csharp
 public float FontHeight { get; set; }

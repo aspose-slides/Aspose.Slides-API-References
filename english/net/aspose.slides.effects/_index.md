@@ -13,57 +13,33 @@ Contains classes for work with various effects in Microsoft PowerPoint presentat
 | Class | Description |
 | --- | --- |
 | class [AlphaBiLevel](./alphabilevel) | Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
-| class [AlphaBiLevelEffectiveData](./alphabileveleffectivedata) | Immutable object which represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
 | class [AlphaCeiling](./alphaceiling) | Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque. |
-| class [AlphaCeilingEffectiveData](./alphaceilingeffectivedata) | Immutable object which represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque. |
 | class [AlphaFloor](./alphafloor) | Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent. |
-| class [AlphaFloorEffectiveData](./alphaflooreffectivedata) | Immutable object which represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent. |
 | class [AlphaInverse](./alphainverse) | Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%. |
-| class [AlphaInverseEffectiveData](./alphainverseeffectivedata) | Immutable object which represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%. |
 | class [AlphaModulate](./alphamodulate) | Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate. |
-| class [AlphaModulateEffectiveData](./alphamodulateeffectivedata) | Immutable object which represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate. |
 | class [AlphaModulateFixed](./alphamodulatefixed) | Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage. |
-| class [AlphaModulateFixedEffectiveData](./alphamodulatefixedeffectivedata) | Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage. |
 | class [AlphaReplace](./alphareplace) | Represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha. |
-| class [AlphaReplaceEffectiveData](./alphareplaceeffectivedata) | Immutable object which represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha. |
 | class [BiLevel](./bilevel) | Represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect. |
-| class [BiLevelEffectiveData](./bileveleffectivedata) | Immutable object which represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect. |
 | class [Blur](./blur) | Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
-| class [BlurEffectiveData](./blureffectivedata) | Immutable object which represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
 | class [ColorChange](./colorchange) | Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor. |
-| class [ColorChangeEffectiveData](./colorchangeeffectivedata) | Immutable object which represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor. |
 | class [ColorReplace](./colorreplace) | Represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected. |
-| class [ColorReplaceEffectiveData](./colorreplaceeffectivedata) | Immutable object which represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected. |
 | class [Duotone](./duotone) | Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel. |
-| class [DuotoneEffectiveData](./duotoneeffectivedata) | Immutable object which represents a Duotone effect. For each pixel, combines clr1 and clr2 through a linear interpolation to determine the new color for that pixel. |
-| abstract class [EffectEffectiveData&lt;TLocalData,TEffectiveData&gt;](./effecteffectivedata-2) | Base class for immutable objects, which represent effect. |
 | class [EffectFactory](./effectfactory) | Allows to create effects |
 | class [FillOverlay](./filloverlay) | Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together. |
-| class [FillOverlayEffectiveData](./filloverlayeffectivedata) | Immutable object which represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together. |
 | class [Glow](./glow) | Represents a Glow effect, in which a color blurred outline is added outside the edges of the object. |
-| class [GlowEffectiveData](./gloweffectivedata) | Immutable object which represents a glow effect, in which a color blurred outline is added outside the edges of the object. |
 | class [GrayScale](./grayscale) | Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected. |
-| class [GrayScaleEffectiveData](./grayscaleeffectivedata) | Immutable object which representsepresents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected. |
 | class [HSL](./hsl) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
-| class [HSLEffectiveData](./hsleffectivedata) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
 | class [ImageTransformOCollectionEffectiveData](./imagetransformocollectioneffectivedata) | Immutable object that represents a readonly collection of effective image transform effects. |
 | abstract class [ImageTransformOperation](./imagetransformoperation) | Represents abstract image transformation effect. |
 | class [ImageTransformOperationCollection](./imagetransformoperationcollection) | Represents a collection of effects apllied to an image. |
 | class [ImageTransformOperationFactory](./imagetransformoperationfactory) | Allows to create image transform operations |
 | class [InnerShadow](./innershadow) | Represents a Inner Shadow effect. |
-| class [InnerShadowEffectiveData](./innershadoweffectivedata) | Immutable object which represents a inner shadow effect. |
 | class [Luminance](./luminance) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
-| class [LuminanceEffectiveData](./luminanceeffectivedata) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
 | class [OuterShadow](./outershadow) | Represents an Outer Shadow effect. |
-| class [OuterShadowEffectiveData](./outershadoweffectivedata) | Immutable object which represents a outer shadow effect. |
 | class [PresetShadow](./presetshadow) | Represents a Preset Shadow effect. |
-| class [PresetShadowEffectiveData](./presetshadoweffectivedata) | Immutable object which represents a preset shadow effect. |
 | class [Reflection](./reflection) | Represents a Reflection effect. |
-| class [ReflectionEffectiveData](./reflectioneffectivedata) | Immutable object which represents a reflection effect. |
 | class [SoftEdge](./softedge) | Represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected. |
-| class [SoftEdgeEffectiveData](./softedgeeffectivedata) | Immutable object which represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected. |
 | class [Tint](./tint) | Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
-| class [TintEffectiveData](./tinteffectivedata) | Immutable object which represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
 ## Interfaces
 
 | Interface | Description |

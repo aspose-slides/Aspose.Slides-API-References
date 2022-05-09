@@ -3,7 +3,7 @@ title: StrokeStartArrow
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 1010
 url: /net/aspose.slides.animation/behaviorproperty/strokestartarrow/
 ---
 ## BehaviorProperty.StrokeStartArrow property

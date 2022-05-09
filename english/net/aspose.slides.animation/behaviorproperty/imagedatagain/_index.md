@@ -3,7 +3,7 @@ title: ImageDataGain
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 480
 url: /net/aspose.slides.animation/behaviorproperty/imagedatagain/
 ---
 ## BehaviorProperty.ImageDataGain property

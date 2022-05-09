@@ -3,7 +3,7 @@ title: SkewVertical
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 120
 url: /net/aspose.slides.effects/reflection/skewvertical/
 ---
 ## Reflection.SkewVertical property

@@ -3,7 +3,7 @@ title: PositionLocked
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.slides/igroupshapelock/positionlocked/
 ---
 ## IGroupShapeLock.PositionLocked property

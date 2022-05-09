@@ -3,7 +3,7 @@ title: Comments
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 60
 url: /net/aspose.slides/documentproperties/comments/
 ---
 ## DocumentProperties.Comments property

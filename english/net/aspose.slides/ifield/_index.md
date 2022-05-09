@@ -3,7 +3,7 @@ title: IField
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5500
+weight: 5250
 url: /net/aspose.slides/ifield/
 ---
 ## IField interface
@@ -14,7 +14,7 @@ Represents a field.
 public interface IField : ISlideComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

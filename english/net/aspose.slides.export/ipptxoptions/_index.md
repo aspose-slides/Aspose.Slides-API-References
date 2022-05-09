@@ -3,7 +3,7 @@ title: IPptxOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3950
+weight: 3700
 url: /net/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions interface
@@ -14,7 +14,7 @@ Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPS
 public interface IPptxOptions : ISaveOptions
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

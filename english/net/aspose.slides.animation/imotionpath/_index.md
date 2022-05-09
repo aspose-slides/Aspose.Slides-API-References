@@ -3,7 +3,7 @@ title: IMotionPath
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 430
 url: /net/aspose.slides.animation/imotionpath/
 ---
 ## IMotionPath interface
@@ -14,18 +14,23 @@ Represent motion path.
 public interface IMotionPath : IEnumerable<IMotionCmdPath>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIEnumerable](asienumerable) { get; } | Allows to get base IBehavior interface. Read-only IEnumerable. |
 | [Count](count) { get; } | Returns the number of paths in the collection. Read-only Int32. |
 | [Item](item) { get; } | Returns a command at the specified index. |
-| [Add](add)(…) | Add new command to path |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Add new command to path |
 | [Clear](clear)() | Removes all commands from the collection. |
-| [Insert](insert)(…) | Insert new command to path |
-| [Remove](remove)(…) | Removes specified commans from the collection. |
-| [RemoveAt](removeat)(…) | Removes a command at the specified index. |
+| [Insert](insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Insert new command to path |
+| [Remove](remove)(IMotionCmdPath) | Removes specified commans from the collection. |
+| [RemoveAt](removeat)(int) | Removes a command at the specified index. |
 
 ### See Also
 

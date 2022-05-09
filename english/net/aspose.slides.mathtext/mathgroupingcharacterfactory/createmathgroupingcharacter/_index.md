@@ -3,36 +3,10 @@ title: CreateMathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 ## MathGroupingCharacterFactory.CreateMathGroupingCharacter method (1 of 2)
-
-Creates a math grouping character
-
-```csharp
-public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| element | IMathElement | math element to apply grouping character |
-
-## Return Value
-
-new grouping character element
-
-### See Also
-
-* interface [IMathGroupingCharacter](../../imathgroupingcharacter)
-* interface [IMathElement](../../imathelement)
-* class [MathGroupingCharacterFactory](../../mathgroupingcharacterfactory)
-* namespace [Aspose.Slides.MathText](../../mathgroupingcharacterfactory)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## MathGroupingCharacterFactory.CreateMathGroupingCharacter method (2 of 2)
 
 Creates a math grouping character
 
@@ -57,6 +31,32 @@ new grouping character element
 * interface [IMathGroupingCharacter](../../imathgroupingcharacter)
 * interface [IMathElement](../../imathelement)
 * enum [MathTopBotPositions](../../mathtopbotpositions)
+* class [MathGroupingCharacterFactory](../../mathgroupingcharacterfactory)
+* namespace [Aspose.Slides.MathText](../../mathgroupingcharacterfactory)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## MathGroupingCharacterFactory.CreateMathGroupingCharacter method (2 of 2)
+
+Creates a math grouping character
+
+```csharp
+public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| element | IMathElement | math element to apply grouping character |
+
+## Return Value
+
+new grouping character element
+
+### See Also
+
+* interface [IMathGroupingCharacter](../../imathgroupingcharacter)
+* interface [IMathElement](../../imathelement)
 * class [MathGroupingCharacterFactory](../../mathgroupingcharacterfactory)
 * namespace [Aspose.Slides.MathText](../../mathgroupingcharacterfactory)
 * assembly [Aspose.Slides](../../../)

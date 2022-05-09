@@ -3,12 +3,18 @@ title: SufficientResolution
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 160
 url: /net/aspose.slides.export/ipdfoptions/sufficientresolution/
 ---
 ## IPdfOptions.SufficientResolution property
 
-Returns or sets a value determining resolution of images inside PDF document. Property affects on file size, time of export and image quality.The default value is 96.Effect of this parameter depends on few factors. Algorithm tries to get best output image size according to the property value, source image size and image frame size. Using of similar property values may give the same result. Recommended to use step 16 or 32 to get visible effect. Read/write Single.
+Returns or sets a value determining resolution of images inside PDF document.
+
+Property affects on file size, time of export and image quality.
+
+The default value is **96**.
+
+Effect of this parameter depends on few factors. Algorithm tries to get best output image size according to the property value, source image size and image frame size. Using of similar property values may give the same result. Recommended to use step 16 or 32 to get visible effect. Read/write Single.
 
 ```csharp
 public float SufficientResolution { get; set; }

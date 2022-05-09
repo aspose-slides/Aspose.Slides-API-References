@@ -3,7 +3,7 @@ title: IsOverflowBin
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 500
+weight: 280
 url: /net/aspose.slides.charts/iaxis/isoverflowbin/
 ---
 ## IAxis.IsOverflowBin property

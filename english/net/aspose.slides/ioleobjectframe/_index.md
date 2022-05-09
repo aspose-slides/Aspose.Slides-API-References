@@ -3,7 +3,7 @@ title: IOleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6230
+weight: 5980
 url: /net/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame interface
@@ -14,7 +14,7 @@ Represents an OLE object on a slide.
 public interface IOleObjectFrame : IGraphicalObject
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -31,7 +31,12 @@ public interface IOleObjectFrame : IGraphicalObject
 | [SubstitutePictureFormat](substitutepictureformat) { get; } | Returns OleObject image fill properties object. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
 | [SubstitutePictureTitle](substitutepicturetitle) { get; set; } | Returns or sets the title for OleObject icon. Read/write String. |
 | [UpdateAutomatic](updateautomatic) { get; set; } | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write Boolean. |
-| [SetEmbeddedData](setembeddeddata)(…) | Sets information about OLE embedded data. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetEmbeddedData](setembeddeddata)(IOleEmbeddedDataInfo) | Sets information about OLE embedded data. |
 
 ### See Also
 

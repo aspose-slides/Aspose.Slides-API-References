@@ -3,7 +3,7 @@ title: IBiLevelEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3170
+weight: 2990
 url: /net/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents a Bi-Level (black/white) effect. Input colors 
 public interface IBiLevelEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

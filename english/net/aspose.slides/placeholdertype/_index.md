@@ -3,7 +3,7 @@ title: PlaceholderType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8960
+weight: 8710
 url: /net/aspose.slides/placeholdertype/
 ---
 ## PlaceholderType enumeration

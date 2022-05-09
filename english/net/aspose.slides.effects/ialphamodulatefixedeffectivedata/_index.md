@@ -3,7 +3,7 @@ title: IAlphaModulateFixedEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3130
+weight: 2950
 url: /net/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData interface
@@ -14,7 +14,7 @@ Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha (
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

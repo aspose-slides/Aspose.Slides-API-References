@@ -6,22 +6,12 @@ type: docs
 weight: 10
 url: /net/aspose.slides.export.web/output/add/
 ---
-## Output.Add method (1 of 6)
-
-Adds an output element for the image.
+## Output.Add&lt;TContextObject&gt; method (1 of 6)
 
 ```csharp
-public IOutputFile Add(string path, Image image)
+public IOutputFile Add<TContextObject>(string path, string templateKey, 
+    TContextObject contextObject)
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | String | Output path. |
-| image | Image | Image to output. |
-
-## Return Value
-
-[`IOutputFile`](../../ioutputfile) object for the image.
 
 ### See Also
 
@@ -61,6 +51,32 @@ public IOutputFile Add(string path, IPPImage image)
 
 ## Output.Add method (3 of 6)
 
+Adds an output element for the image.
+
+```csharp
+public IOutputFile Add(string path, Image image)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| image | Image | Image to output. |
+
+## Return Value
+
+[`IOutputFile`](../../ioutputfile) object for the image.
+
+### See Also
+
+* interface [IOutputFile](../../ioutputfile)
+* class [Output](../../output)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Output.Add method (4 of 6)
+
 Adds an output element for the video.
 
 ```csharp
@@ -80,32 +96,6 @@ public IOutputFile Add(string path, IVideo video)
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IVideo](../../../aspose.slides/ivideo)
-* class [Output](../../output)
-* namespace [Aspose.Slides.Export.Web](../../output)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Output.Add method (4 of 6)
-
-Adds an output element for the text content.
-
-```csharp
-public IOutputFile Add(string path, string textContent)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | String | Output path. |
-| textContent | String | Content to output. |
-
-## Return Value
-
-[`IOutputFile`](../../ioutputfile) object for the text content.
-
-### See Also
-
-* interface [IOutputFile](../../ioutputfile)
 * class [Output](../../output)
 * namespace [Aspose.Slides.Export.Web](../../output)
 * assembly [Aspose.Slides](../../../)
@@ -140,12 +130,22 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 
 ---
 
-## Output.Add&lt;TContextObject&gt; method (6 of 6)
+## Output.Add method (6 of 6)
+
+Adds an output element for the text content.
 
 ```csharp
-public IOutputFile Add<TContextObject>(string path, string templateKey, 
-    TContextObject contextObject)
+public IOutputFile Add(string path, string textContent)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| textContent | String | Content to output. |
+
+## Return Value
+
+[`IOutputFile`](../../ioutputfile) object for the text content.
 
 ### See Also
 

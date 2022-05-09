@@ -3,7 +3,7 @@ title: ITextStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6980
+weight: 6730
 url: /net/aspose.slides/itextstyle/
 ---
 ## ITextStyle interface
@@ -14,13 +14,18 @@ Text style formatting properties.
 public interface ITextStyle
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [DefaultParagraphFormat](defaultparagraphformat) { get; } | Default paragraph propertiies. Read-only [`IParagraphFormat`](../iparagraphformat). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective text style formatting data with the inheritance applied. |
-| [GetLevel](getlevel)(…) | If level of style exist returns it, otherwise returns null. |
+| [GetLevel](getlevel)(int) | If level of style exist returns it, otherwise returns null. |
 
 ### See Also
 

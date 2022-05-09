@@ -3,7 +3,7 @@ title: ISoftEdge
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 3500
+weight: 3320
 url: /net/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge interface
@@ -14,7 +14,7 @@ Represents a Soft Edge effect. The edges of the shape are blurred, while the fil
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

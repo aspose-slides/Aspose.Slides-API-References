@@ -3,7 +3,7 @@ title: AlphaFloor
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 2720
+weight: 2690
 url: /net/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor class
@@ -14,11 +14,11 @@ Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are chan
 public class AlphaFloor : ImageTransformOperation, IAlphaFloor
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(…) | Determines whether the specified [`AlphaFloor`](../alphafloor) is equal to the current [`AlphaFloor`](../alphafloor). |
+| override [Equals](equals)(object) | Determines whether the specified [`AlphaFloor`](../alphafloor) is equal to the current [`AlphaFloor`](../alphafloor). |
 | [GetEffective](geteffective)() | Gets effective Alpha Floor effect data with the inheritance applied. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
 

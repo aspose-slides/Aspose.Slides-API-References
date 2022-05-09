@@ -3,7 +3,7 @@ title: PVIObject
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8780
+weight: 8530
 url: /net/aspose.slides/pviobject/
 ---
 ## PVIObject class
@@ -14,12 +14,17 @@ Encapsulates basic service infrastructure for objects can be a subject of proper
 public abstract class PVIObject : ISlideComponent
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
-| override [Equals](equals)(…) | Compares with specified object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Compares with specified object. |
 | override [GetHashCode](gethashcode)() | Returns hash code. |
 
 ### See Also

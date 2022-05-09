@@ -3,7 +3,7 @@ title: IChartSeriesReadonlyCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1850
+weight: 1830
 url: /net/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection interface
@@ -14,7 +14,7 @@ Represents a readonly collection of [`IChartSeries`](../ichartseries)
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

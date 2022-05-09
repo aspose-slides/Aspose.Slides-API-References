@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 220
 url: /net/aspose.slides/fieldtype/op_equality/
 ---
 ## FieldType Equality operator

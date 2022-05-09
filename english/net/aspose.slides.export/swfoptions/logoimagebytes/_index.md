@@ -3,7 +3,7 @@ title: LogoImageBytes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 50
 url: /net/aspose.slides.export/swfoptions/logoimagebytes/
 ---
 ## SwfOptions.LogoImageBytes property

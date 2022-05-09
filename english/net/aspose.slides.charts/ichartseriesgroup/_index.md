@@ -3,7 +3,7 @@ title: IChartSeriesGroup
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1830
+weight: 1810
 url: /net/aspose.slides.charts/ichartseriesgroup/
 ---
 ## IChartSeriesGroup interface
@@ -14,7 +14,7 @@ Represents group of series.
 public interface IChartSeriesGroup : IChartComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

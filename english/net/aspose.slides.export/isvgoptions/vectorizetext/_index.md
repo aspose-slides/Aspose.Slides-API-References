@@ -3,7 +3,7 @@ title: VectorizeText
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 110
 url: /net/aspose.slides.export/isvgoptions/vectorizetext/
 ---
 ## ISVGOptions.VectorizeText property

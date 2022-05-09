@@ -3,7 +3,7 @@ title: ContentType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 80
 url: /net/aspose.slides/idocumentproperties/contenttype/
 ---
 ## IDocumentProperties.ContentType property

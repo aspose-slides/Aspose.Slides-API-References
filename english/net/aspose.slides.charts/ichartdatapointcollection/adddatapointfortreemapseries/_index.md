@@ -3,7 +3,7 @@ title: AddDataPointForTreemapSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 220
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointfortreemapseries/
 ---
 ## IChartDataPointCollection.AddDataPointForTreemapSeries method

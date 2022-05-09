@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 90
 url: /net/aspose.slides/bulletformat/picture/
 ---
 ## BulletFormat.Picture property

@@ -3,7 +3,7 @@ title: IMathNaryOperatorFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7900
+weight: 7650
 url: /net/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
 ## IMathNaryOperatorFactory interface
@@ -14,11 +14,13 @@ Allows to create IMathNaryOperator
 public interface IMathNaryOperatorFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateMathNaryOperator](createmathnaryoperator)(…) | Creates IMathNaryOperator (3 methods) |
+| [CreateMathNaryOperator](createmathnaryoperator)(char, IMathElement) | Creates IMathNaryOperator |
+| [CreateMathNaryOperator](createmathnaryoperator)(char, IMathElement, IMathElement) | Creates IMathNaryOperator |
+| [CreateMathNaryOperator](createmathnaryoperator)(char, IMathElement, IMathElement, IMathElement) | Creates IMathNaryOperator |
 
 ### Remarks
 

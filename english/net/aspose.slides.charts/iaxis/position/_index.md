@@ -3,7 +3,7 @@ title: Position
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 470
 url: /net/aspose.slides.charts/iaxis/position/
 ---
 ## IAxis.Position property

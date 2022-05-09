@@ -3,7 +3,7 @@ title: StreamWrapperFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10190
+weight: 9940
 url: /net/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory class
@@ -14,14 +14,20 @@ Factory of StreamWrappers. For COM interface.
 public class StreamWrapperFactory : IStreamWrapperFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [StreamWrapperFactory](streamwrapperfactory)() | The default constructor. |
-| [CreateFileStreamWrapper](createfilestreamwrapper)(…) | Creates FileStream with the specified path and creation mode. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CreateFileStreamWrapper](createfilestreamwrapper)(string, FileMode) | Creates FileStream with the specified path and creation mode. |
+| [CreateFileStreamWrapper](createfilestreamwrapper)(string, FileMode, FileAccess) | Creates FileStream with the specified path, creation mode, and read/write permission. |
 | [CreateMemoryStreamWrapper](creatememorystreamwrapper)() | Creates MemoryStream wrapper. |
-| [CreateMemoryStreamWrapper](creatememorystreamwrapper)(…) | Creates MemoryStream wrapper based on the specified byte array. |
+| [CreateMemoryStreamWrapper](creatememorystreamwrapper)(byte[]) | Creates MemoryStream wrapper based on the specified byte array. |
 
 ### See Also
 

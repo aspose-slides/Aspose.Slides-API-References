@@ -3,7 +3,7 @@ title: Masters
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 190
 url: /net/aspose.slides/ipresentation/masters/
 ---
 ## IPresentation.Masters property

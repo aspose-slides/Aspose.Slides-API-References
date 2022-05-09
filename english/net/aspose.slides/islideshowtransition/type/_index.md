@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.slides/islideshowtransition/type/
 ---
 ## ISlideShowTransition.Type property

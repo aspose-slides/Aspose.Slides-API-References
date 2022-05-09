@@ -3,7 +3,7 @@ title: IDataLabelCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1910
+weight: 1890
 url: /net/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection interface
@@ -14,7 +14,7 @@ Represents a series labels.
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -26,8 +26,13 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 | [IsVisible](isvisible) { get; } | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only Boolean. |
 | [Item](item) { get; } | Gets the data label for the data point with the specified index. |
 | [ParentSeries](parentseries) { get; } | Returns parent chart series. Read-only [`IChartSeries`](../ichartseries). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Hide](hide)() | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this. |
-| [IndexOf](indexof)(…) | Returns an index of the specified DataLabel in the collection. |
+| [IndexOf](indexof)(IDataLabel) | Returns an index of the specified DataLabel in the collection. |
 
 ### See Also
 

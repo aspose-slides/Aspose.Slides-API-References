@@ -3,7 +3,7 @@ title: ConnectionSiteCount
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 60
 url: /net/aspose.slides/ishape/connectionsitecount/
 ---
 ## IShape.ConnectionSiteCount property

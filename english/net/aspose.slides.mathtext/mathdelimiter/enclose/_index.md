@@ -3,7 +3,7 @@ title: Enclose
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 90
 url: /net/aspose.slides.mathtext/mathdelimiter/enclose/
 ---
 ## MathDelimiter.Enclose method

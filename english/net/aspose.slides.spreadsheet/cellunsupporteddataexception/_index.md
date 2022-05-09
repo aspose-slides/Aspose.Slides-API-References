@@ -3,7 +3,7 @@ title: CellUnsupportedDataException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10160
+weight: 9910
 url: /net/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException class
@@ -14,12 +14,13 @@ The exception that is thrown when an unsupported data is encountered in a spread
 public class CellUnsupportedDataException : PptxEditException
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CellUnsupportedDataException](cellunsupporteddataexception)() | Initializes a new instance of the [`CellUnsupportedDataException`](../cellunsupporteddataexception) class. |
-| [CellUnsupportedDataException](cellunsupporteddataexception)(…) | Initializes a new instance of the [`CellUnsupportedDataException`](../cellunsupporteddataexception) class with a specified error message. (2 constructors) |
+| [CellUnsupportedDataException](cellunsupporteddataexception)(string) | Initializes a new instance of the [`CellUnsupportedDataException`](../cellunsupporteddataexception) class with a specified error message. |
+| [CellUnsupportedDataException](cellunsupporteddataexception)(string, Exception) | Initializes a new instance of the [`CellUnsupportedDataException`](../cellunsupporteddataexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### See Also
 

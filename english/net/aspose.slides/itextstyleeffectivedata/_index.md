@@ -3,7 +3,7 @@ title: ITextStyleEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 6990
+weight: 6740
 url: /net/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData interface
@@ -14,12 +14,17 @@ Immutable object which contains effective text style properties.
 public interface ITextStyleEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [DefaultParagraphFormat](defaultparagraphformat) { get; } | Returns effective default paragraph properties. Read-only [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
-| [GetLevel](getlevel)(…) | Returns level of effective style. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetLevel](getlevel)(int) | Returns level of effective style. |
 
 ### Remarks
 

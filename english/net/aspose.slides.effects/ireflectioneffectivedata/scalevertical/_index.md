@@ -3,7 +3,7 @@ title: ScaleVertical
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 110
 url: /net/aspose.slides.effects/ireflectioneffectivedata/scalevertical/
 ---
 ## IReflectionEffectiveData.ScaleVertical property

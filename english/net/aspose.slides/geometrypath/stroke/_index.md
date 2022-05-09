@@ -3,7 +3,7 @@ title: Stroke
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 40
 url: /net/aspose.slides/geometrypath/stroke/
 ---
 ## GeometryPath.Stroke property

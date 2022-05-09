@@ -3,7 +3,7 @@ title: AddHSLEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 190
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
 ---
 ## ImageTransformOperationCollection.AddHSLEffect method

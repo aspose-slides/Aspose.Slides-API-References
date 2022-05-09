@@ -3,7 +3,7 @@ title: UpDownBars
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 200
 url: /net/aspose.slides.charts/ichartseriesgroup/updownbars/
 ---
 ## IChartSeriesGroup.UpDownBars property

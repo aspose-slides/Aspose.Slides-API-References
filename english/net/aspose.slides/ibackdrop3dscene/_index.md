@@ -3,7 +3,7 @@ title: IBackdrop3DScene
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 5030
+weight: 4780
 url: /net/aspose.slides/ibackdrop3dscene/
 ---
 ## IBackdrop3DScene interface
@@ -14,7 +14,7 @@ Defines a plane in which effects, such as glow and shadow, are applied in relati
 public interface IBackdrop3DScene
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: SyncRoot
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 40
 url: /net/aspose.slides/videocollection/syncroot/
 ---
 ## VideoCollection.SyncRoot property

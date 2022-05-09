@@ -3,7 +3,7 @@ title: BehaviorFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.slides.animation/behaviorfactory/
 ---
 ## BehaviorFactory class
@@ -14,11 +14,16 @@ Allows to create animation effects
 public class BehaviorFactory : IBehaviorFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [BehaviorFactory](behaviorfactory)() | The default constructor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreateColorEffect](createcoloreffect)() | Creates color effect. |
 | [CreateCommandEffect](createcommandeffect)() | Creates command effect. |
 | [CreateFilterEffect](createfiltereffect)() | Creates filter effect. |

@@ -3,7 +3,7 @@ title: IThemeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10810
+weight: 10560
 url: /net/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData interface
@@ -14,13 +14,18 @@ Immutable object which contains effective theme properties.
 public interface IThemeEffectiveData
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
 | [FormatScheme](formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
-| [GetColorScheme](getcolorscheme)(…) | Returns the color scheme. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetColorScheme](getcolorscheme)(Color) | Returns the color scheme. |
 
 ### Remarks
 

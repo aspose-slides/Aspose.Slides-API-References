@@ -3,31 +3,10 @@ title: SetTextFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 140
 url: /net/aspose.slides/table/settextformat/
 ---
 ## Table.SetTextFormat method (1 of 3)
-
-Sets defined paragraph format properties to all table cells' paragraphs.
-
-```csharp
-public void SetTextFormat(IParagraphFormat source)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| source | IParagraphFormat | IParagraphFormat object with necessary properties set. |
-
-### See Also
-
-* interface [IParagraphFormat](../../iparagraphformat)
-* class [Table](../../table)
-* namespace [Aspose.Slides](../../table)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Table.SetTextFormat method (2 of 3)
 
 Sets defined portion format properties to all table cells' portions.
 
@@ -42,6 +21,27 @@ public void SetTextFormat(IPortionFormat source)
 ### See Also
 
 * interface [IPortionFormat](../../iportionformat)
+* class [Table](../../table)
+* namespace [Aspose.Slides](../../table)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Table.SetTextFormat method (2 of 3)
+
+Sets defined paragraph format properties to all table cells' paragraphs.
+
+```csharp
+public void SetTextFormat(IParagraphFormat source)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | IParagraphFormat | IParagraphFormat object with necessary properties set. |
+
+### See Also
+
+* interface [IParagraphFormat](../../iparagraphformat)
 * class [Table](../../table)
 * namespace [Aspose.Slides](../../table)
 * assembly [Aspose.Slides](../../../)

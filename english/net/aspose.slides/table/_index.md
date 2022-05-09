@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10290
+weight: 10040
 url: /net/aspose.slides/table/
 ---
 ## Table class
@@ -14,7 +14,7 @@ Represents a table on a slide.
 public sealed class Table : GraphicalObject, ITable
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -30,8 +30,15 @@ public sealed class Table : GraphicalObject, ITable
 | [StylePreset](stylepreset) { get; set; } | Gets or sets builtin table style. Read/write [`TableStylePreset`](../tablestylepreset). |
 | [TableFormat](tableformat) { get; } | Returns the TableFormat object that contains formatting properties for this table. Read-only [`ITableFormat`](../itableformat). |
 | [VerticalBanding](verticalbanding) { get; set; } | Determines whether the even columns has to be drawn with a different formatting. Read/write Boolean. |
-| [MergeCells](mergecells)(…) | Merges neighbour cells. |
-| [SetTextFormat](settextformat)(…) | Sets defined portion format properties to all table cells' portions. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [MergeCells](mergecells)(ICell, ICell, bool) | Merges neighbour cells. |
+| [SetTextFormat](settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all table cells' paragraphs. |
+| [SetTextFormat](settextformat)(IPortionFormat) | Sets defined portion format properties to all table cells' portions. |
+| [SetTextFormat](settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all table cells' text frames. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: HasDataTable
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 110
 url: /net/aspose.slides.charts/ichart/hasdatatable/
 ---
 ## IChart.HasDataTable property

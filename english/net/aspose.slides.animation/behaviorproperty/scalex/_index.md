@@ -3,7 +3,7 @@ title: ScaleX
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 580
 url: /net/aspose.slides.animation/behaviorproperty/scalex/
 ---
 ## BehaviorProperty.ScaleX property

@@ -3,7 +3,7 @@ title: MathRadical
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8450
+weight: 8200
 url: /net/aspose.slides.mathtext/mathradical/
 ---
 ## MathRadical class
@@ -14,14 +14,24 @@ Specifies the radical function, consisting of a base, and an optional degree. Ex
 public sealed class MathRadical : MathElementBase, IMathRadical
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathRadical](mathradical)(…) | Initializes a new instance of the MathRadical class. |
+| [MathRadical](mathradical)(IMathElement, IMathElement) | Initializes a new instance of the MathRadical class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Base](base) { get; } | Base argument |
 | [Degree](degree) { get; } | Degree argument |
 | [HideDegree](hidedegree) { get; set; } | Hide degree When is true, the degree is not shown, as in √𝑥 |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetChildren](getchildren)() | Get children elements |
 
 ### Examples

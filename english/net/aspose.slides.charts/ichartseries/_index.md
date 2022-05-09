@@ -3,7 +3,7 @@ title: IChartSeries
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 1810
+weight: 1790
 url: /net/aspose.slides.charts/ichartseries/
 ---
 ## IChartSeries interface
@@ -14,7 +14,7 @@ Represents a chart series.
 public interface IChartSeries : IChartComponent
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -62,6 +62,11 @@ public interface IChartSeries : IChartComponent
 | [Smooth](smooth) { get; set; } | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. Read/write Boolean. |
 | [TrendLines](trendlines) { get; } | Collection of series trend lines Read-only [`ITrendlineCollection`](../itrendlinecollection). |
 | [Type](type) { get; set; } | Returns a type of this series. Read/write [`ChartType`](../charttype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetAutomaticSeriesColor](getautomaticseriescolor)() | Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined. |
 
 ### See Also

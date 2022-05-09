@@ -3,7 +3,7 @@ title: IMathArrayFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7640
+weight: 7390
 url: /net/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory interface
@@ -14,11 +14,12 @@ Allows to create a math array
 public interface IMathArrayFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateMathArray](creatematharray)(…) | Creates a math array and places the specified element in it (2 methods) |
+| [CreateMathArray](creatematharray)(IMathElement) | Creates a math array and places the specified element in it |
+| [CreateMathArray](creatematharray)(IMathElementCollection) | Creates a math array and places specified elements in it |
 
 ### Remarks
 

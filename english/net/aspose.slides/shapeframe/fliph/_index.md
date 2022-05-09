@@ -3,7 +3,7 @@ title: FlipH
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 40
 url: /net/aspose.slides/shapeframe/fliph/
 ---
 ## ShapeFrame.FlipH property

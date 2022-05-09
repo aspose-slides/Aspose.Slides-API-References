@@ -3,12 +3,12 @@ title: IsBulletHardFont
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 70
 url: /net/aspose.slides/ibulletformateffectivedata/isbullethardfont/
 ---
 ## IBulletFormatEffectiveData.IsBulletHardFont property
 
-Determines whether the bullet has own font or inherits it from the first portion in the paragraph. Returns true if bullet has own font and true if bullet inherits font from the first portion in the paragraph. Read-only Boolean.
+Determines whether the bullet has own font or inherits it from the first portion in the paragraph. Returns **true** if bullet has own font and **true** if bullet inherits font from the first portion in the paragraph. Read-only Boolean.
 
 ```csharp
 public bool IsBulletHardFont { get; }

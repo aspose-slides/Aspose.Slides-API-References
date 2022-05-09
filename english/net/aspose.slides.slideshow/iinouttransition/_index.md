@@ -3,7 +3,7 @@ title: IInOutTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9570
+weight: 9320
 url: /net/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition interface
@@ -14,7 +14,7 @@ In-Out slide transition effect.
 public interface IInOutTransition : ITransitionValueBase
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |

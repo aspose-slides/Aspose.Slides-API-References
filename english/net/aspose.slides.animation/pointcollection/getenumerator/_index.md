@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.slides.animation/pointcollection/getenumerator/
 ---
 ## PointCollection.GetEnumerator method

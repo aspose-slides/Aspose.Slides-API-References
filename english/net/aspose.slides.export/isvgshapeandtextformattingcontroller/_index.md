@@ -3,7 +3,7 @@ title: ISvgShapeAndTextFormattingController
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 4030
+weight: 3780
 url: /net/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController interface
@@ -14,12 +14,17 @@ Controls SVG shape and text generation.
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [AsISvgShapeFormattingController](asisvgshapeformattingcontroller) { get; } | Returns ISvgShapeFormattingController interface. |
-| [FormatText](formattext)(…) | This function is called before rendering of text portion to SVG to allow user to control resulting SVG. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [FormatText](formattext)(ISvgTSpan, IPortion, ITextFrame) | This function is called before rendering of text portion to SVG to allow user to control resulting SVG. |
 
 ### Examples
 

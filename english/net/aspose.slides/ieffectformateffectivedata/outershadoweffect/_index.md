@@ -3,7 +3,7 @@ title: OuterShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides/ieffectformateffectivedata/outershadoweffect/
 ---
 ## IEffectFormatEffectiveData.OuterShadowEffect property

@@ -3,7 +3,7 @@ title: PortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9000
+weight: 8750
 url: /net/aspose.slides/portionformat/
 ---
 ## PortionFormat class
@@ -14,16 +14,26 @@ This class contains the text portion formatting properties. Unlike [`IPortionFor
 public class PortionFormat : BasePortionFormat, IPortionFormat
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PortionFormat](portionformat)() | Initializes a new instance of [`PortionFormat`](../portionformat) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkId](bookmarkid) { get; set; } | Returns or sets bookmark identifier. Read/write String. |
 | [HyperlinkClick](hyperlinkclick) { get; set; } | Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../ihyperlink). |
 | [HyperlinkManager](hyperlinkmanager) { get; } | Hyperlinks manager. Read-only [`IHyperlinkManager`](../ihyperlinkmanager). |
 | [HyperlinkMouseOver](hyperlinkmouseover) { get; set; } | Returns or sets the hyperlink defined for mouse over. Read/write [`IHyperlink`](../ihyperlink). |
 | [SmartTagClean](smarttagclean) { get; set; } | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write Boolean. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEffective](geteffective)() | Gets effective portion formatting data with the inheritance applied. |
 
 ### Remarks
