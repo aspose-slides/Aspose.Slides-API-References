@@ -3,7 +3,7 @@ title: IMathMatrixFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7630
+weight: 7640
 url: /net/aspose.slides.mathtext/imathmatrixfactory/
 ---
 ## IMathMatrixFactory interface

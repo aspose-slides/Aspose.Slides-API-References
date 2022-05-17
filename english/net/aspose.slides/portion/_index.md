@@ -3,7 +3,7 @@ title: Portion
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8720
+weight: 8730
 url: /net/aspose.slides/portion/
 ---
 ## Portion class

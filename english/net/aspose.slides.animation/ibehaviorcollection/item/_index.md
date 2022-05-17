@@ -14,9 +14,9 @@ Returns a behavior at the specified index.
 public IBehavior this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Index of a behavior to return. |
+| Parameter | Description |
+| --- | --- |
+| index | Index of a behavior to return. |
 
 ## Return Value
 

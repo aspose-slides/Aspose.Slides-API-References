@@ -3,7 +3,7 @@ title: MathElementBase
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7950
+weight: 7960
 url: /net/aspose.slides.mathtext/mathelementbase/
 ---
 ## MathElementBase class

@@ -3,7 +3,7 @@ title: CornerDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9220
+weight: 9230
 url: /net/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition class

@@ -1,5 +1,5 @@
 ---
-title: IGenericCollection<T>
+title: IGenericCollectionT
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
@@ -14,9 +14,9 @@ Auxiliary generic collection interface.
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  |  |
+| Parameter | Description |
+| --- | --- |
+| T |  |
 
 ## Properties
 

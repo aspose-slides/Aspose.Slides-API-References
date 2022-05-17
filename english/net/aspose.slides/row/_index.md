@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8970
+weight: 8980
 url: /net/aspose.slides/row/
 ---
 ## Row class

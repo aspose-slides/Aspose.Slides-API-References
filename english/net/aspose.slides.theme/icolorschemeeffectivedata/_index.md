@@ -3,7 +3,7 @@ title: IColorSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10340
+weight: 10350
 url: /net/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData interface

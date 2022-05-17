@@ -3,7 +3,7 @@ title: IMathFractionFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7540
+weight: 7550
 url: /net/aspose.slides.mathtext/imathfractionfactory/
 ---
 ## IMathFractionFactory interface

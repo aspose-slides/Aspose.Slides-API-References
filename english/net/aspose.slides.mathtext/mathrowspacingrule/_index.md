@@ -3,7 +3,7 @@ title: MathRowSpacingRule
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8240
+weight: 8250
 url: /net/aspose.slides.mathtext/mathrowspacingrule/
 ---
 ## MathRowSpacingRule enumeration

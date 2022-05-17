@@ -3,7 +3,7 @@ title: IWheelTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9430
+weight: 9440
 url: /net/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition interface

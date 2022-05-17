@@ -8,7 +8,7 @@ url: /net/aspose.slides/presentationfactory/getpresentationtext/
 ---
 ## PresentationFactory.GetPresentationText method (1 of 3)
 
-Retreieves the raw text from the slides
+Retrieves the raw text from the slides
 
 ```csharp
 public IPresentationText GetPresentationText(string file, TextExtractionArrangingMode mode)
@@ -35,7 +35,7 @@ The instance of PresentationText containing the SlideText array representing the
 
 ## PresentationFactory.GetPresentationText method (2 of 3)
 
-Retreieves the raw text from the slides
+Retrieves the raw text from the slides
 
 ```csharp
 public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode)
@@ -62,7 +62,7 @@ The instance of PresentationText containing the SlideText array representing the
 
 ## PresentationFactory.GetPresentationText method (3 of 3)
 
-Retreieves the raw text from the slides
+Retrieves the raw text from the slides
 
 ```csharp
 public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode, 

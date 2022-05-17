@@ -3,7 +3,7 @@ title: Convert.GetOutPathCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7180
+weight: 7190
 url: /net/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 ## Convert.GetOutPathCallback delegate

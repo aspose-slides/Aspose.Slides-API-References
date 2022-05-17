@@ -14,9 +14,9 @@ Returns or sets a key and a value pair of a tag.
 public string this[string name] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | Key of a tag. |
+| Parameter | Description |
+| --- | --- |
+| name | Key of a tag. |
 
 ## Return Value
 

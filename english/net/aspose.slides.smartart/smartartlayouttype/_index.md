@@ -3,7 +3,7 @@ title: SmartArtLayoutType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9800
+weight: 9810
 url: /net/aspose.slides.smartart/smartartlayouttype/
 ---
 ## SmartArtLayoutType enumeration

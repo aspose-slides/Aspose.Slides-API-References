@@ -3,7 +3,7 @@ title: ShapeThumbnailBounds
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9130
+weight: 9140
 url: /net/aspose.slides/shapethumbnailbounds/
 ---
 ## ShapeThumbnailBounds enumeration

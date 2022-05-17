@@ -3,7 +3,7 @@ title: MathParagraph
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8170
+weight: 8180
 url: /net/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph class

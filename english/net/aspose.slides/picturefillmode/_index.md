@@ -3,7 +3,7 @@ title: PictureFillMode
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8660
+weight: 8670
 url: /net/aspose.slides/picturefillmode/
 ---
 ## PictureFillMode enumeration

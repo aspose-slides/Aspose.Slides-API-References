@@ -3,7 +3,7 @@ title: EightDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9230
+weight: 9240
 url: /net/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition class

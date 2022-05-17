@@ -3,7 +3,7 @@ title: MathAccent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7800
+weight: 7810
 url: /net/aspose.slides.mathtext/mathaccent/
 ---
 ## MathAccent class

@@ -14,9 +14,9 @@ Returns chart data point for specified index.
 public IChartDataPoint this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Index. |
+| Parameter | Description |
+| --- | --- |
+| index | Index. |
 
 ## Return Value
 

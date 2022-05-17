@@ -3,7 +3,7 @@ title: PictureFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8670
+weight: 8680
 url: /net/aspose.slides/pictureframe/
 ---
 ## PictureFrame class

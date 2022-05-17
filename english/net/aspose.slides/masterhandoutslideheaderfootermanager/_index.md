@@ -3,7 +3,7 @@ title: MasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7270
+weight: 7280
 url: /net/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
 ## MasterHandoutSlideHeaderFooterManager class

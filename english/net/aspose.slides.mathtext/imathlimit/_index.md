@@ -3,7 +3,7 @@ title: IMathLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7600
+weight: 7610
 url: /net/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit interface

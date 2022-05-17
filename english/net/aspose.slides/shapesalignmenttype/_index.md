@@ -3,7 +3,7 @@ title: ShapesAlignmentType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9150
+weight: 9160
 url: /net/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType enumeration

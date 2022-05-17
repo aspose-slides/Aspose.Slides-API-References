@@ -14,9 +14,9 @@ Returns an element at specified position. Read-only [`IEffectStyle`](../../ieffe
 public IEffectStyle this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Position of element. |
+| Parameter | Description |
+| --- | --- |
+| index | Position of element. |
 
 ## Return Value
 

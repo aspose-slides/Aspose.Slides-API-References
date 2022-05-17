@@ -3,7 +3,7 @@ title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9330
+weight: 9340
 url: /net/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition interface

@@ -1,5 +1,5 @@
 ---
-title: TemplateContext<TObject>
+title: TemplateContextTObject
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs

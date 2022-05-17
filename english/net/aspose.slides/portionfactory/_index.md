@@ -3,7 +3,7 @@ title: PortionFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8740
+weight: 8750
 url: /net/aspose.slides/portionfactory/
 ---
 ## PortionFactory class

@@ -14,12 +14,6 @@ Represents animation timing.
 public class Timing : ITiming
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [Timing](timing)() | The default constructor. |
-
 ## Properties
 
 | Name | Description |

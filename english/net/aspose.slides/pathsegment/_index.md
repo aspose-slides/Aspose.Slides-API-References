@@ -3,7 +3,7 @@ title: PathSegment
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8600
+weight: 8610
 url: /net/aspose.slides/pathsegment/
 ---
 ## PathSegment class

@@ -3,7 +3,7 @@ title: IColorScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10330
+weight: 10340
 url: /net/aspose.slides.theme/icolorscheme/
 ---
 ## IColorScheme interface

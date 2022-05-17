@@ -3,7 +3,7 @@ title: IFlyThroughTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9300
+weight: 9310
 url: /net/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition interface

@@ -3,7 +3,7 @@ title: IMathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7490
+weight: 7500
 url: /net/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter interface

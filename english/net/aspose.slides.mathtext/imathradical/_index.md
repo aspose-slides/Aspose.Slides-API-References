@@ -3,7 +3,7 @@ title: IMathRadical
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7700
+weight: 7710
 url: /net/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical interface

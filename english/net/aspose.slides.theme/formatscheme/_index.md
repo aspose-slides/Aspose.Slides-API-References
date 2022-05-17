@@ -3,7 +3,7 @@ title: FormatScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10320
+weight: 10330
 url: /net/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme class

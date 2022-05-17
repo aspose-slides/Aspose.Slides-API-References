@@ -3,7 +3,7 @@ title: MathArray
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7820
+weight: 7830
 url: /net/aspose.slides.mathtext/matharray/
 ---
 ## MathArray class

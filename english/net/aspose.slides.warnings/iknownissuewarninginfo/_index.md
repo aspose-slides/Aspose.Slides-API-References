@@ -3,7 +3,7 @@ title: IKnownIssueWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10940
+weight: 10950
 url: /net/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo interface

@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9020
+weight: 9030
 url: /net/aspose.slides/sectioncollection/
 ---
 ## SectionCollection class

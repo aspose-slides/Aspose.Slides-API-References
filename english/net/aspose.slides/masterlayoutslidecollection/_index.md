@@ -3,7 +3,7 @@ title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7280
+weight: 7290
 url: /net/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection class

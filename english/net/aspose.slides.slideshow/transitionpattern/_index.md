@@ -3,7 +3,7 @@ title: TransitionPattern
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9610
+weight: 9620
 url: /net/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern enumeration

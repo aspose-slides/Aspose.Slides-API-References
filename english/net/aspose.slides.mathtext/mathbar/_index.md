@@ -3,7 +3,7 @@ title: MathBar
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7840
+weight: 7850
 url: /net/aspose.slides.mathtext/mathbar/
 ---
 ## MathBar class

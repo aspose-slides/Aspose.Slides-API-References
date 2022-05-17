@@ -3,7 +3,7 @@ title: NormalViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8370
+weight: 8380
 url: /net/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties class

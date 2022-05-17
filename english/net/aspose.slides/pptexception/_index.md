@@ -3,7 +3,7 @@ title: PptException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8780
+weight: 8790
 url: /net/aspose.slides/pptexception/
 ---
 ## PptException class

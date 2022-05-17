@@ -3,7 +3,7 @@ title: MathBarFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7850
+weight: 7860
 url: /net/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory class

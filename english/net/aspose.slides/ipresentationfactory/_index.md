@@ -22,9 +22,9 @@ public interface IPresentationFactory
 | [CreatePresentation](createpresentation)(ILoadOptions) | Creates new presentation with additional load options |
 | [GetPresentationInfo](getpresentationinfo)(Stream) | Gets info about presentation in specified stream. |
 | [GetPresentationInfo](getpresentationinfo)(string) | Gets info about presentation in specified file. |
-| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode) | Retreieves the raw text from the slides |
-| [GetPresentationText](getpresentationtext)(string, TextExtractionArrangingMode) | Retreieves the raw text from the slides |
-| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retreieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(string, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retrieves the raw text from the slides |
 | [ReadPresentation](readpresentation)(byte[]) | Reads an existing presentation from array |
 | [ReadPresentation](readpresentation)(Stream) | Reads an existing presentation from stream |
 | [ReadPresentation](readpresentation)(string) | Reads an existing presentation from file |

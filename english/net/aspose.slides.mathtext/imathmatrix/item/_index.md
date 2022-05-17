@@ -14,10 +14,10 @@ Elements of matrix
 public IMathElement this[int row, int column] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row |  | The zero-based index of the row to get item |
-| column |  | The zero-based index of the column to get item |
+| Parameter | Description |
+| --- | --- |
+| row | The zero-based index of the row to get item |
+| column | The zero-based index of the column to get item |
 
 ### Examples
 

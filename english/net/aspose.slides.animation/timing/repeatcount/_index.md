@@ -3,7 +3,7 @@ title: RepeatCount
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.slides.animation/timing/repeatcount/
 ---
 ## Timing.RepeatCount property

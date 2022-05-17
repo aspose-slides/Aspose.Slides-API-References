@@ -3,7 +3,7 @@ title: Video
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10880
+weight: 10890
 url: /net/aspose.slides/video/
 ---
 ## Video class

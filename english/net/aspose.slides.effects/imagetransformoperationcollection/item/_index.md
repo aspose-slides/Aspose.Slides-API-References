@@ -14,9 +14,9 @@ Returns an [`ImageTransformOperation`](../../imagetransformoperation) from the c
 public IImageTransformOperation this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  |  |
+| Parameter | Description |
+| --- | --- |
+| index |  |
 
 ### See Also
 

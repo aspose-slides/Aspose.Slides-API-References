@@ -16,7 +16,7 @@ public IShapeFrame RawFrame { get; set; }
 
 ### Examples
 
-Code that attempts to assign undefined frame to IShape.Frame doesn't make sence in general case (particulary in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
+Code that attempts to assign undefined frame to IShape.Frame doesn't make sense in general case (particularly in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
 
 ```csharp
 IShape shape = ...;
@@ -61,7 +61,7 @@ IShapeCollection shapes = ...;
 }
 ```
 
-But IShape.RawFrame frame properties can be undefined. This make sence when shape is linked to placeholder. Then undefined shape frame values is overridden from the parent placeholder shape. If there is no parent placeholder shape for that shape then that shape uses default values when it evaluates effective frame based on its IShape.RawFrame. Default values are 0 and NullableBool.False for x, y, width, height, flipH, flipV and rotationAngle. For example:
+But IShape.RawFrame frame properties can be undefined. This make sense when shape is linked to placeholder. Then undefined shape frame values is overridden from the parent placeholder shape. If there is no parent placeholder shape for that shape then that shape uses default values when it evaluates effective frame based on its IShape.RawFrame. Default values are 0 and NullableBool.False for x, y, width, height, flipH, flipV and rotationAngle. For example:
 
 ```csharp
 IShape shape = ...; // shape is linked to placeholder

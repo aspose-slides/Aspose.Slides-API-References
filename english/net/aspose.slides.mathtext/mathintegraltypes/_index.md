@@ -3,7 +3,7 @@ title: MathIntegralTypes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8060
+weight: 8070
 url: /net/aspose.slides.mathtext/mathintegraltypes/
 ---
 ## MathIntegralTypes enumeration

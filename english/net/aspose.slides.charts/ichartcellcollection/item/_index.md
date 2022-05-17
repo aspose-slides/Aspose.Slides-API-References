@@ -14,9 +14,9 @@ Returns a cell (IChartDataCell) by index.
 public IChartDataCell this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Index of a cell. |
+| Parameter | Description |
+| --- | --- |
+| index | Index of a cell. |
 
 ## Return Value
 

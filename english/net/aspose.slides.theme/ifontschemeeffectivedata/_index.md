@@ -3,7 +3,7 @@ title: IFontSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10440
+weight: 10450
 url: /net/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData interface

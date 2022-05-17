@@ -3,7 +3,7 @@ title: MorphTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9460
+weight: 9470
 url: /net/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition class

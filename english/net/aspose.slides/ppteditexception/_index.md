@@ -3,7 +3,7 @@ title: PptEditException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8770
+weight: 8780
 url: /net/aspose.slides/ppteditexception/
 ---
 ## PptEditException class

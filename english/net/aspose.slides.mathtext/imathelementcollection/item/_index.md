@@ -14,9 +14,9 @@ Gets the element at the specified index. Read-only [`IMathElement`](../../imathe
 public IMathElement this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero-based index of the item to get |
+| Parameter | Description |
+| --- | --- |
+| index | The zero-based index of the item to get |
 
 ### Examples
 

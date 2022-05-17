@@ -3,7 +3,7 @@ title: IMathFraction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7530
+weight: 7540
 url: /net/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction interface

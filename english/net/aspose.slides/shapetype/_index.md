@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9140
+weight: 9150
 url: /net/aspose.slides/shapetype/
 ---
 ## ShapeType enumeration

@@ -3,7 +3,7 @@ title: IEightDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9280
+weight: 9290
 url: /net/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition interface

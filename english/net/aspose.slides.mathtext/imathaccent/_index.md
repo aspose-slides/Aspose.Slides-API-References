@@ -3,7 +3,7 @@ title: IMathAccent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7360
+weight: 7370
 url: /net/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent interface

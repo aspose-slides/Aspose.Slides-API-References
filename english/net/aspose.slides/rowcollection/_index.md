@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8980
+weight: 8990
 url: /net/aspose.slides/rowcollection/
 ---
 ## RowCollection class

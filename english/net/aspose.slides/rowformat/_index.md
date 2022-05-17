@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8990
+weight: 9000
 url: /net/aspose.slides/rowformat/
 ---
 ## RowFormat class

@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11010
+weight: 11020
 url: /net/aspose.slides.warnings/warningtype/
 ---
 ## WarningType enumeration

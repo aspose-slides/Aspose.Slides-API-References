@@ -3,7 +3,7 @@ title: IMathBox
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7470
+weight: 7480
 url: /net/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox interface

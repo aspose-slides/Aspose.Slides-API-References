@@ -3,7 +3,7 @@ title: ExtraColorSchemeCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10290
+weight: 10300
 url: /net/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection class

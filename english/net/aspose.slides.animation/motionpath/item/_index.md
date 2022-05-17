@@ -14,9 +14,9 @@ Returns a command at the specified index.
 public IMotionCmdPath this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  |  |
+| Parameter | Description |
+| --- | --- |
+| index |  |
 
 ### See Also
 

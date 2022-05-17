@@ -3,7 +3,7 @@ title: IMathSubscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7740
+weight: 7750
 url: /net/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interface

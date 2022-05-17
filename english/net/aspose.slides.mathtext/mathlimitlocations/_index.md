@@ -3,7 +3,7 @@ title: MathLimitLocations
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8110
+weight: 8120
 url: /net/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations enumeration

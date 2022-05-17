@@ -3,7 +3,7 @@ title: SplitTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9540
+weight: 9550
 url: /net/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition class

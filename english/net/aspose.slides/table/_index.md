@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10040
+weight: 10050
 url: /net/aspose.slides/table/
 ---
 ## Table class

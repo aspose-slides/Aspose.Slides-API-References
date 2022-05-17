@@ -3,7 +3,7 @@ title: IMathBorderBox
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7450
+weight: 7460
 url: /net/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox interface

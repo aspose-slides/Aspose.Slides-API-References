@@ -3,7 +3,7 @@ title: ILineFormatCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10470
+weight: 10480
 url: /net/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection interface

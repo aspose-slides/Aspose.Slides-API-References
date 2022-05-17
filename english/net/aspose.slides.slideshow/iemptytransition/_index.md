@@ -3,7 +3,7 @@ title: IEmptyTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9290
+weight: 9300
 url: /net/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition interface

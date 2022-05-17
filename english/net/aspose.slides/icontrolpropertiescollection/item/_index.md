@@ -14,9 +14,9 @@ Returns or sets property.
 public string this[string name] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | Name of property. |
+| Parameter | Description |
+| --- | --- |
+| name | Name of property. |
 
 ### See Also
 

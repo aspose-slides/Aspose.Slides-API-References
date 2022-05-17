@@ -3,7 +3,7 @@ title: ForEach
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7190
+weight: 7200
 url: /net/aspose.slides.lowcode/foreach/
 ---
 ## ForEach class

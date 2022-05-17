@@ -14,9 +14,9 @@ Returns the element at the specified index.
 public ICustomXmlPart this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero-based index of the element to get. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero-based index of the element to get. |
 
 ## Return Value
 

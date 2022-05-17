@@ -8,9 +8,15 @@ url: /net/aspose.slides/iautoshape/istextbox/
 ---
 ## IAutoShape.IsTextBox property
 
+Specifies if the shape is a text box.
+
 ```csharp
 public bool IsTextBox { get; }
 ```
+
+### Remarks
+
+If shape is not specified to be a text box does not mean that it cannot have text attached to it. A text box is merely a specialized shape with specific properties.
 
 ### See Also
 

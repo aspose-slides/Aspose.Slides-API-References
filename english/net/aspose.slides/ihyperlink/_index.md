@@ -25,7 +25,7 @@ public interface IHyperlink
 | [History](history) { get; set; } | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write Boolean. |
 | [StopSoundOnClick](stopsoundonclick) { get; set; } | Determines whether the sound should be stopped on hyperlink click. Read/write Boolean. |
 | [TargetFrame](targetframe) { get; set; } | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/write String. |
-| [TargetSlide](targetslide) { get; } | If the HyperlinkEx targets specific slide returns this slide. If ths property become not null then property ExternalUrl become null. Read-only [`ISlide`](../islide). |
+| [TargetSlide](targetslide) { get; } | If the HyperlinkEx targets specific slide returns this slide. If the property become not null then property ExternalUrl become null. Read-only [`ISlide`](../islide). |
 | [Tooltip](tooltip) { get; set; } | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
 
 ## Methods

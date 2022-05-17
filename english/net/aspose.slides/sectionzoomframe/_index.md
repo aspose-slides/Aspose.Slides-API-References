@@ -3,7 +3,7 @@ title: SectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9040
+weight: 9050
 url: /net/aspose.slides/sectionzoomframe/
 ---
 ## SectionZoomFrame class

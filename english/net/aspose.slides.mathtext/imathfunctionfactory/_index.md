@@ -3,7 +3,7 @@ title: IMathFunctionFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7560
+weight: 7570
 url: /net/aspose.slides.mathtext/imathfunctionfactory/
 ---
 ## IMathFunctionFactory interface

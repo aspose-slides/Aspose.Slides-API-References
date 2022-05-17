@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9010
+weight: 9020
 url: /net/aspose.slides/section/
 ---
 ## Section class

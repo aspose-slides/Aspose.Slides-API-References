@@ -3,7 +3,7 @@ title: SlideShowTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9530
+weight: 9540
 url: /net/aspose.slides.slideshow/slideshowtransition/
 ---
 ## SlideShowTransition class

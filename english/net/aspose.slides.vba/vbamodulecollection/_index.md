@@ -3,7 +3,7 @@ title: VbaModuleCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10820
+weight: 10830
 url: /net/aspose.slides.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class

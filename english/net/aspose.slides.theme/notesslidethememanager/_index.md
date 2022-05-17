@@ -3,7 +3,7 @@ title: NotesSlideThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10630
+weight: 10640
 url: /net/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager class

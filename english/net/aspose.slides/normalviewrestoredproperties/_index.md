@@ -3,7 +3,7 @@ title: NormalViewRestoredProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8380
+weight: 8390
 url: /net/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties class

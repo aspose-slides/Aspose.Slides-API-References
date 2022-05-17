@@ -3,7 +3,7 @@ title: TabFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10030
+weight: 10040
 url: /net/aspose.slides/tabfactory/
 ---
 ## TabFactory class

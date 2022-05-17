@@ -3,7 +3,7 @@ title: OOXMLCorruptFileException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8450
+weight: 8460
 url: /net/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException class

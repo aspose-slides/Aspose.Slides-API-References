@@ -3,7 +3,7 @@ title: ResourceLoadingAction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8960
+weight: 8970
 url: /net/aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration

@@ -3,7 +3,7 @@ title: SlideThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10650
+weight: 10660
 url: /net/aspose.slides.theme/slidethememanager/
 ---
 ## SlideThemeManager class

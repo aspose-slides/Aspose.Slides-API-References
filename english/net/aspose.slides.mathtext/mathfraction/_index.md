@@ -3,7 +3,7 @@ title: MathFraction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7960
+weight: 7970
 url: /net/aspose.slides.mathtext/mathfraction/
 ---
 ## MathFraction class

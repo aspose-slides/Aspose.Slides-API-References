@@ -14,9 +14,9 @@ Gets the item at the specified index. Read-only [`IMathBlock`](../../imathblock)
 public IMathBlock this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero-based index of the item to get |
+| Parameter | Description |
+| --- | --- |
+| index | The zero-based index of the item to get |
 
 ## Return Value
 

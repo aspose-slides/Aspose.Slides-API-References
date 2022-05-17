@@ -3,7 +3,7 @@ title: TagCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10070
+weight: 10080
 url: /net/aspose.slides/tagcollection/
 ---
 ## TagCollection class

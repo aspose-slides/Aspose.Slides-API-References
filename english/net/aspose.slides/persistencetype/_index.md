@@ -3,7 +3,7 @@ title: PersistenceType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8630
+weight: 8640
 url: /net/aspose.slides/persistencetype/
 ---
 ## PersistenceType enumeration

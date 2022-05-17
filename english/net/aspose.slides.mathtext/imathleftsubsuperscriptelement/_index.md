@@ -3,7 +3,7 @@ title: IMathLeftSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7590
+weight: 7600
 url: /net/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement interface

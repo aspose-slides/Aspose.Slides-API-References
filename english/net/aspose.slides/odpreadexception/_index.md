@@ -3,7 +3,7 @@ title: OdpReadException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8480
+weight: 8490
 url: /net/aspose.slides/odpreadexception/
 ---
 ## OdpReadException class

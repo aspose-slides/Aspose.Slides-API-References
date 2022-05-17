@@ -3,7 +3,7 @@ title: IMathParagraphFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7680
+weight: 7690
 url: /net/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory interface

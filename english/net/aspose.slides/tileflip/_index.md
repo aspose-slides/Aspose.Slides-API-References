@@ -3,7 +3,7 @@ title: TileFlip
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10680
+weight: 10690
 url: /net/aspose.slides/tileflip/
 ---
 ## TileFlip enumeration

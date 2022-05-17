@@ -3,7 +3,7 @@ title: IFillFormatCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10420
+weight: 10430
 url: /net/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData interface

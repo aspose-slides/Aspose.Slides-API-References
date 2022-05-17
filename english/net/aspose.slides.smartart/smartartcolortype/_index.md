@@ -3,7 +3,7 @@ title: SmartArtColorType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9790
+weight: 9800
 url: /net/aspose.slides.smartart/smartartcolortype/
 ---
 ## SmartArtColorType enumeration

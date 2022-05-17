@@ -3,7 +3,7 @@ title: TextVerticalType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10210
+weight: 10220
 url: /net/aspose.slides/textverticaltype/
 ---
 ## TextVerticalType enumeration

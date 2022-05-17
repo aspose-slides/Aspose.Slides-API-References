@@ -3,7 +3,7 @@ title: MathLimitFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8100
+weight: 8110
 url: /net/aspose.slides.mathtext/mathlimitfactory/
 ---
 ## MathLimitFactory class

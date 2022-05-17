@@ -3,7 +3,7 @@ title: ShapeElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9080
+weight: 9090
 url: /net/aspose.slides/shapeelement/
 ---
 ## ShapeElement class

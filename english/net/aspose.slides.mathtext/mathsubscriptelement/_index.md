@@ -3,7 +3,7 @@ title: MathSubscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8260
+weight: 8270
 url: /net/aspose.slides.mathtext/mathsubscriptelement/
 ---
 ## MathSubscriptElement class

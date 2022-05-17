@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8570
+weight: 8580
 url: /net/aspose.slides/paragraphformat/
 ---
 ## ParagraphFormat class

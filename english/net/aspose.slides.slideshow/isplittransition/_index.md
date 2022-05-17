@@ -3,7 +3,7 @@ title: ISplitTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9410
+weight: 9420
 url: /net/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition interface

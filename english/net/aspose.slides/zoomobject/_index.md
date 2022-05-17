@@ -3,7 +3,7 @@ title: ZoomObject
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11050
+weight: 11060
 url: /net/aspose.slides/zoomobject/
 ---
 ## ZoomObject class

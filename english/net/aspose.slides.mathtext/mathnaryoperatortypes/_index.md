@@ -3,7 +3,7 @@ title: MathNaryOperatorTypes
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8160
+weight: 8170
 url: /net/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes enumeration

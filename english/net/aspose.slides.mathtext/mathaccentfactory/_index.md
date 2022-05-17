@@ -3,7 +3,7 @@ title: MathAccentFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7810
+weight: 7820
 url: /net/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory class

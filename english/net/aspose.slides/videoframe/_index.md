@@ -3,7 +3,7 @@ title: VideoFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10900
+weight: 10910
 url: /net/aspose.slides/videoframe/
 ---
 ## VideoFrame class

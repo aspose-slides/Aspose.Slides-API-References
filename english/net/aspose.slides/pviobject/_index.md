@@ -3,7 +3,7 @@ title: PVIObject
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8530
+weight: 8540
 url: /net/aspose.slides/pviobject/
 ---
 ## PVIObject class

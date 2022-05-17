@@ -14,9 +14,9 @@ Returns a property at the specified index.
 public IBehaviorProperty this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Index of a property to return. |
+| Parameter | Description |
+| --- | --- |
+| index | Index of a property to return. |
 
 ## Return Value
 

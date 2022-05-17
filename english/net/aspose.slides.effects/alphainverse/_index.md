@@ -11,7 +11,7 @@ url: /net/aspose.slides.effects/alphainverse/
 Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%.
 
 ```csharp
-public class AlphaInverse : ImageTransformOperation, IAlphaInverse
+public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 ```
 
 ## Methods

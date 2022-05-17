@@ -3,7 +3,7 @@ title: Tab
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10000
+weight: 10010
 url: /net/aspose.slides/tab/
 ---
 ## Tab class

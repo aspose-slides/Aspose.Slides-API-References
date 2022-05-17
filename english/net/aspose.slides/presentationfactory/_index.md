@@ -3,7 +3,7 @@ title: PresentationFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8870
+weight: 8880
 url: /net/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory class
@@ -34,9 +34,9 @@ public class PresentationFactory : IPresentationFactory
 | [CreatePresentation](createpresentation)(ILoadOptions) | Creates new presentation with additional load options |
 | [GetPresentationInfo](getpresentationinfo)(Stream) | Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream. |
 | [GetPresentationInfo](getpresentationinfo)(string) | Creates new PresentationInfo object from file and binds presentation to it. |
-| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode) | Retreieves the raw text from the slides |
-| [GetPresentationText](getpresentationtext)(string, TextExtractionArrangingMode) | Retreieves the raw text from the slides |
-| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retreieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(string, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
+| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retrieves the raw text from the slides |
 | [ReadPresentation](readpresentation)(byte[]) | Reads an existing presentation from array |
 | [ReadPresentation](readpresentation)(Stream) | Reads an existing presentation from stream |
 | [ReadPresentation](readpresentation)(string) | Reads an existing presentation from file |

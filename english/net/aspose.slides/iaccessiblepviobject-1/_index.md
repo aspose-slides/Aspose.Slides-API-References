@@ -1,5 +1,5 @@
 ---
-title: IAccessiblePVIObject<T>
+title: IAccessiblePVIObjectT
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
@@ -15,9 +15,9 @@ public interface IAccessiblePVIObject<T>
     where T : class
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | Type of effective data. |
+| Parameter | Description |
+| --- | --- |
+| T | Type of effective data. |
 
 ## Methods
 

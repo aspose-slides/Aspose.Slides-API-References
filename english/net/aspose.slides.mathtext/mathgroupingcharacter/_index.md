@@ -3,7 +3,7 @@ title: MathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8030
+weight: 8040
 url: /net/aspose.slides.mathtext/mathgroupingcharacter/
 ---
 ## MathGroupingCharacter class

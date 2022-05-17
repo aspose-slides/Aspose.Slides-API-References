@@ -8,7 +8,7 @@ url: /net/aspose.slides/iprotectionmanager/
 ---
 ## IProtectionManager interface
 
-Presentation password protestion management.
+Presentation password protection management.
 
 ```csharp
 public interface IProtectionManager

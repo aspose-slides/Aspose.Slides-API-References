@@ -3,7 +3,7 @@ title: IMathElement
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7510
+weight: 7520
 url: /net/aspose.slides.mathtext/imathelement/
 ---
 ## IMathElement interface

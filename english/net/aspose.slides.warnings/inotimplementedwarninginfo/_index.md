@@ -3,7 +3,7 @@ title: INotImplementedWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10950
+weight: 10960
 url: /net/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo interface

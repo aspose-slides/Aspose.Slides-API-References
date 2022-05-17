@@ -3,7 +3,7 @@ title: IMathArray
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7380
+weight: 7390
 url: /net/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray interface

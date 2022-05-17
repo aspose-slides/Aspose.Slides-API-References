@@ -3,7 +3,7 @@ title: IMathDelimiterFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7500
+weight: 7510
 url: /net/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory interface

@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8640
+weight: 8650
 url: /net/aspose.slides/picture/
 ---
 ## Picture class

@@ -1,5 +1,5 @@
 ---
-title: DomObject<TParent>
+title: DomObjectTParent
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
@@ -8,9 +8,15 @@ url: /net/aspose.slides/domobject-1/
 ---
 ## DomObject&lt;TParent&gt; class
 
+Base DOM object
+
 ```csharp
 public abstract class DomObject<TParent>
 ```
+
+| Parameter | Description |
+| --- | --- |
+| TParent | Type of parent DOM object |
 
 ### See Also
 

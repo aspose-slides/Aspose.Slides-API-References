@@ -3,7 +3,7 @@ title: IMathAccentFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7370
+weight: 7380
 url: /net/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory interface

@@ -3,7 +3,7 @@ title: CellInvalidFormulaException
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9890
+weight: 9900
 url: /net/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException class

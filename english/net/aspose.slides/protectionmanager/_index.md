@@ -3,7 +3,7 @@ title: ProtectionManager
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8940
+weight: 8950
 url: /net/aspose.slides/protectionmanager/
 ---
 ## ProtectionManager class

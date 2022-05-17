@@ -3,7 +3,7 @@ title: IWarningCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10980
+weight: 10990
 url: /net/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback interface

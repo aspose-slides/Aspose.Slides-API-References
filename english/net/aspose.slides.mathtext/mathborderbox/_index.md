@@ -3,7 +3,7 @@ title: MathBorderBox
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7880
+weight: 7890
 url: /net/aspose.slides.mathtext/mathborderbox/
 ---
 ## MathBorderBox class

@@ -3,7 +3,7 @@ title: IMathBorderBoxFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7460
+weight: 7470
 url: /net/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory interface

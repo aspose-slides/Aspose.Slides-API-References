@@ -3,7 +3,7 @@ title: ZoomImageType
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11030
+weight: 11040
 url: /net/aspose.slides/zoomimagetype/
 ---
 ## ZoomImageType enumeration

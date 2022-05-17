@@ -3,7 +3,7 @@ title: IThemeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10560
+weight: 10570
 url: /net/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData interface

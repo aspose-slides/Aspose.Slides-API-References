@@ -3,7 +3,7 @@ title: ZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 11020
+weight: 11030
 url: /net/aspose.slides/zoomframe/
 ---
 ## ZoomFrame class

@@ -19,7 +19,7 @@ public class AutoShape : GeometryShape, IAutoShape
 | Name | Description |
 | --- | --- |
 | [AutoShapeLock](autoshapelock) { get; } | Returns autoshape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |
-| [IsTextBox](istextbox) { get; } |  |
+| [IsTextBox](istextbox) { get; } | Specifies if the shape is a text box. |
 | [ShapeLock](shapelock) { get; } | Returns shape's locks. Read-only [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](textframe) { get; } | Returns TextFrame object for the AutoShape. Read-only [`ITextFrame`](../itextframe). |
 | [UseBackgroundFill](usebackgroundfill) { get; set; } | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write Boolean. |

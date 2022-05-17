@@ -3,7 +3,7 @@ title: IEffectStyleCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10370
+weight: 10380
 url: /net/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData interface

@@ -3,7 +3,7 @@ title: IVbaReferenceOleTypeLib
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10790
+weight: 10800
 url: /net/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib interface

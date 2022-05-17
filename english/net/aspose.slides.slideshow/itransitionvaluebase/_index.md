@@ -3,7 +3,7 @@ title: ITransitionValueBase
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9420
+weight: 9430
 url: /net/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase interface

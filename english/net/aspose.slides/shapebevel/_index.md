@@ -3,7 +3,7 @@ title: ShapeBevel
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9060
+weight: 9070
 url: /net/aspose.slides/shapebevel/
 ---
 ## ShapeBevel class

@@ -3,7 +3,7 @@ title: MathLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8090
+weight: 8100
 url: /net/aspose.slides.mathtext/mathlimit/
 ---
 ## MathLimit class

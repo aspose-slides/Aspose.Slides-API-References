@@ -3,7 +3,7 @@ title: IMathElementCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7520
+weight: 7530
 url: /net/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection interface

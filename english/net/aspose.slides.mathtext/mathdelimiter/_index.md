@@ -3,7 +3,7 @@ title: MathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7920
+weight: 7930
 url: /net/aspose.slides.mathtext/mathdelimiter/
 ---
 ## MathDelimiter class

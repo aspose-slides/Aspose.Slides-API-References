@@ -3,7 +3,7 @@ title: MathBlock
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7860
+weight: 7870
 url: /net/aspose.slides.mathtext/mathblock/
 ---
 ## MathBlock class

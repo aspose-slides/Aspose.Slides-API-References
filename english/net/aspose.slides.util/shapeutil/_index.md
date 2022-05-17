@@ -3,7 +3,7 @@ title: ShapeUtil
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10690
+weight: 10700
 url: /net/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil class

@@ -3,7 +3,7 @@ title: RevealTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9490
+weight: 9500
 url: /net/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition class

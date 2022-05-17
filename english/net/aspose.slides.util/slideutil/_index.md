@@ -3,7 +3,7 @@ title: SlideUtil
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10700
+weight: 10710
 url: /net/aspose.slides.util/slideutil/
 ---
 ## SlideUtil class

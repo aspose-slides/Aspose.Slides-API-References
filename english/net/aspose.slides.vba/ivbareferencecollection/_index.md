@@ -3,7 +3,7 @@ title: IVbaReferenceCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10760
+weight: 10770
 url: /net/aspose.slides.vba/ivbareferencecollection/
 ---
 ## IVbaReferenceCollection interface

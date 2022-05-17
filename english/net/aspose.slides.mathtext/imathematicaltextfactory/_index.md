@@ -3,7 +3,7 @@ title: IMathematicalTextFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7790
+weight: 7800
 url: /net/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory interface

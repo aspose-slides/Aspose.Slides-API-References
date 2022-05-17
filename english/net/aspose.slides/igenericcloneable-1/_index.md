@@ -1,5 +1,5 @@
 ---
-title: IGenericCloneable<T>
+title: IGenericCloneableT
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
@@ -14,9 +14,9 @@ Represents generic version of ICloneable
 public interface IGenericCloneable<T> : ICloneable
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of object to clone |
+| Parameter | Description |
+| --- | --- |
+| T | The type of object to clone |
 
 ## Properties
 

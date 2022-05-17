@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8610
+weight: 8620
 url: /net/aspose.slides/patternformat/
 ---
 ## PatternFormat class

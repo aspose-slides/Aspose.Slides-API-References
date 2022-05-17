@@ -3,7 +3,7 @@ title: PictureFrameLock
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 8680
+weight: 8690
 url: /net/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock class

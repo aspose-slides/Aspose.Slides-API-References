@@ -3,7 +3,7 @@ title: MathBoxFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7910
+weight: 7920
 url: /net/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory class

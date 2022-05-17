@@ -8,7 +8,7 @@ url: /net/aspose.slides/ihyperlink/targetslide/
 ---
 ## IHyperlink.TargetSlide property
 
-If the HyperlinkEx targets specific slide returns this slide. If ths property become not null then property ExternalUrl become null. Read-only [`ISlide`](../../islide).
+If the HyperlinkEx targets specific slide returns this slide. If the property become not null then property ExternalUrl become null. Read-only [`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; }

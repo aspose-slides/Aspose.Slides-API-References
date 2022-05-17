@@ -3,7 +3,7 @@ title: VbaProjectFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 10840
+weight: 10850
 url: /net/aspose.slides.vba/vbaprojectfactory/
 ---
 ## VbaProjectFactory class

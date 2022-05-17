@@ -3,7 +3,7 @@ title: MathFunction
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7990
+weight: 8000
 url: /net/aspose.slides.mathtext/mathfunction/
 ---
 ## MathFunction class

@@ -16,7 +16,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | String | Presentatoin file. |
+| file | String | Presentation file. |
 
 ## Return Value
 

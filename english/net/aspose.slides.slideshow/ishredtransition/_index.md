@@ -3,7 +3,7 @@ title: IShredTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9390
+weight: 9400
 url: /net/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition interface

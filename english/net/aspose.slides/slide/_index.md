@@ -3,7 +3,7 @@ title: Slide
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 9170
+weight: 9180
 url: /net/aspose.slides/slide/
 ---
 ## Slide class

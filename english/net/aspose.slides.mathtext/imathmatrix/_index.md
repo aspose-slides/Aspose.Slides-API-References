@@ -3,7 +3,7 @@ title: IMathMatrix
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7620
+weight: 7630
 url: /net/aspose.slides.mathtext/imathmatrix/
 ---
 ## IMathMatrix interface

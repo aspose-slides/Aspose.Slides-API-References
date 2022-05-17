@@ -3,7 +3,7 @@ title: IMathBar
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7400
+weight: 7410
 url: /net/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar interface
