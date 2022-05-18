@@ -18,10 +18,10 @@ public interface IErrorBarsCustomValues
 
 | Name | Description |
 | --- | --- |
-| [XMinus](xminus) { get; } | Specifies the error bar value in the negative direction. Avalible if error bars value type is Custom and ErrorBarsXFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](xplus) { get; } | Specifies the error bar value in the positive direction. Avalible if error bars value type is Custom and ErrorBarsXFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](yminus) { get; } | Specifies the error bar value in the negative direction. Avalible if error bars value type is Custom and ErrorBarsYFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](yplus) { get; } | Specifies the error bar value in the positive direction. Avalible if error bars value type is Custom and ErrorBarsYFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Specifies the error bar value in the negative direction. Avalible if error bars value type is Custom and ErrorBarsXFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Specifies the error bar value in the positive direction. Avalible if error bars value type is Custom and ErrorBarsXFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Specifies the error bar value in the negative direction. Avalible if error bars value type is Custom and ErrorBarsYFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Specifies the error bar value in the positive direction. Avalible if error bars value type is Custom and ErrorBarsYFormat is allowed. In any other case this property returns null. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### See Also
 

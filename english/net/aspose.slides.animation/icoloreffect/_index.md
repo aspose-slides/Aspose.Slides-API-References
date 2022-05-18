@@ -18,12 +18,12 @@ public interface IColorEffect : IBehavior
 
 | Name | Description |
 | --- | --- |
-| [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
-| [By](by) { get; set; } | Describes the relative offset value for the color animation. Read/write [`IColorOffset`](../icoloroffset). |
-| [ColorSpace](colorspace) { get; set; } | Represent color space of behavior. Read/write [`ColorSpace`](./colorspace). |
-| [Direction](direction) { get; set; } | Specifies which direction to cycle the hue around the color wheel. Read/write [`ColorDirection`](../colordirection). |
-| [From](from) { get; set; } | This value is used to specify the starting color of behavior. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [To](to) { get; set; } | Describes resulting color for the animation color change. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Describes the relative offset value for the color animation. Read/write [`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | Represent color space of behavior. Read/write [`ColorSpace`](./colorspace). |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Specifies which direction to cycle the hue around the color wheel. Read/write [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | This value is used to specify the starting color of behavior. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Describes resulting color for the animation color change. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### See Also
 

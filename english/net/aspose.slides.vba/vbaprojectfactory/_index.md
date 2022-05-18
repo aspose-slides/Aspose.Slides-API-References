@@ -24,14 +24,14 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 | Name | Description |
 | --- | --- |
-| static [Instance](instance) { get; } | VBA project factory static instance. Read-only [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA project factory static instance. Read-only [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateVbaProject](createvbaproject)() | Creates new VBA project. |
-| [ReadVbaProject](readvbaproject)(byte[]) | Reads VBA project from OLE container. |
+| [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Creates new VBA project. |
+| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Reads VBA project from OLE container. |
 
 ### See Also
 

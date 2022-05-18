@@ -18,11 +18,11 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Direction](direction) { get; } | Direction of shadow. Read-only Single. |
-| [Distance](distance) { get; } | Distance of shadow. Read-only Double. |
-| [Preset](preset) { get; } | Preset. Read-only [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](shadowcolor) { get; } | Color of shadow. Read-only Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Direction of shadow. Read-only Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Distance of shadow. Read-only Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Preset. Read-only [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Color of shadow. Read-only Color. |
 
 ### See Also
 

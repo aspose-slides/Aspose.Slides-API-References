@@ -18,15 +18,15 @@ public interface IMotionEffect : IBehavior
 
 | Name | Description |
 | --- | --- |
-| [Angle](angle) { get; set; } | Describes the relative angle of the motion path. Read/write Single. |
-| [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
-| [By](by) { get; set; } | Describes the relative offset value for the animation (in percents). Read/write PointF. |
-| [From](from) { get; set; } | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write PointF. |
-| [Origin](origin) { get; set; } | Specifies what the origin of the motion path is relative to such as the layout of the slide, or the parent. Read/write [`MotionOriginType`](../motionorigintype). |
-| [Path](path) { get; set; } | Specifies the path primitive followed by coordinates for the animation motion. Read/write [`IMotionPath`](../imotionpath). |
-| [PathEditMode](patheditmode) { get; set; } | Specifies how the motion path moves when shape is moved. Read/write [`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](rotationcenter) { get; set; } | Describes the center of the rotation used to rotate a motion path by X angle. Read/write PointF. |
-| [To](to) { get; set; } | Specifies the target location for an animation motion effect (in percents). Read/write PointF. |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Describes the relative angle of the motion path. Read/write Single. |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Describes the relative offset value for the animation (in percents). Read/write PointF. |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write PointF. |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Specifies what the origin of the motion path is relative to such as the layout of the slide, or the parent. Read/write [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Specifies the path primitive followed by coordinates for the animation motion. Read/write [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Specifies how the motion path moves when shape is moved. Read/write [`MotionPathEditMode`](../motionpatheditmode). |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Describes the center of the rotation used to rotate a motion path by X angle. Read/write PointF. |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Specifies the target location for an animation motion effect (in percents). Read/write PointF. |
 
 ### See Also
 

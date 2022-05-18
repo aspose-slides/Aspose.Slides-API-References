@@ -18,8 +18,15 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Name | Description |
 | --- | --- |
-| [Direction](direction) { get; set; } | Direction of transition split. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](orientation) { get; set; } | Orientation of transition split. Read/write [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Direction of transition split. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientation of transition split. Read/write [`Orientation`](../../aspose.slides/orientation). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 

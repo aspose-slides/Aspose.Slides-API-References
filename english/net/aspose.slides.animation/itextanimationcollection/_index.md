@@ -18,7 +18,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns element by index. (2 indexers) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Returns element by index. (2 indexers) |
 
 ### See Also
 

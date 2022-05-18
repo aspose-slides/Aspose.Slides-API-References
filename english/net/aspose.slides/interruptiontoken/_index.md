@@ -18,14 +18,14 @@ public class InterruptionToken : IInterruptionToken
 
 | Name | Description |
 | --- | --- |
-| static [None](none) { get; } | Represents an empty interruption token. Long-running operations will never be interrupted via [`Interrupt`](../interruptiontokensource/interrupt) when using this token. |
-| [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns Boolean.true if interruption was requested. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Represents an empty interruption token. Long-running operations will never be interrupted via [`Interrupt`](../interruptiontokensource/interrupt) when using this token. |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Returns Boolean.true if interruption was requested. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ThrowIfInterruptionRequested](throwifinterruptionrequested)() | Throws an OperationCanceledException if interruption was requested. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Throws an OperationCanceledException if interruption was requested. |
 
 ### See Also
 

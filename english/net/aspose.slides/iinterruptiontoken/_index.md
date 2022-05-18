@@ -18,13 +18,13 @@ public interface IInterruptionToken
 
 | Name | Description |
 | --- | --- |
-| [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns Boolean.true if interruption was requested. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Returns Boolean.true if interruption was requested. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ThrowIfInterruptionRequested](throwifinterruptionrequested)() | Throws an OperationCanceledException if interruption was requested. Thrown when interruption was requested. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Throws an OperationCanceledException if interruption was requested. Thrown when interruption was requested. |
 
 ### See Also
 

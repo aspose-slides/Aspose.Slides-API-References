@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective table column formatting properties with inheritance and table styles applied. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Gets effective table column formatting properties with inheritance and table styles applied. |
 
 ### See Also
 

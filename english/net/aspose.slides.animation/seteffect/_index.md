@@ -24,7 +24,11 @@ public class SetEffect : Behavior, ISetEffect
 
 | Name | Description |
 | --- | --- |
-| [To](to) { get; set; } | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Represents whether animation behaviors are accumulated. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Represents whether the current animation behavior is combined with other running animations. Read/write [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Represents properties of behavior. Read-only [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Represents timing properties for the effect behavior. Read/write [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
 
 ### See Also
 

@@ -18,21 +18,21 @@ public sealed class PresentationInfo : IPresentationInfo
 
 | Name | Description |
 | --- | --- |
-| [IsEncrypted](isencrypted) { get; } | Gets True if binded presentation is encrypted, otherwise False. Read-only Boolean. |
-| [IsPasswordProtected](ispasswordprotected) { get; } | Gets a value that indicates whether a binded presentation is protected by a password to open. |
-| [IsWriteProtected](iswriteprotected) { get; } | Gets a value that indicates whether a binded presentation is write protected. |
-| [LoadFormat](loadformat) { get; } | Gets format of the binded presentation. Read-only [`LoadFormat`](../loadformat). |
+| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Gets True if binded presentation is encrypted, otherwise False. Read-only Boolean. |
+| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Gets a value that indicates whether a binded presentation is protected by a password to open. |
+| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Gets a value that indicates whether a binded presentation is write protected. |
+| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Gets format of the binded presentation. Read-only [`LoadFormat`](../loadformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CheckPassword](checkpassword)(string) | Checks whether a password is correct for a presentation protected with open password. |
-| [CheckWriteProtection](checkwriteprotection)(string) | Checks whether a password to modify is correct for a write protected presentation. |
-| [ReadDocumentProperties](readdocumentproperties)() | Gets document properties of binded presentation. |
-| [UpdateDocumentProperties](updatedocumentproperties)(IDocumentProperties) | Updates properties of binded presentation. |
-| [WriteBindedPresentation](writebindedpresentation)(Stream) | Writes binded presentation to stream. |
-| [WriteBindedPresentation](writebindedpresentation)(string) | Writes binded presentation to file. |
+| [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | Checks whether a password is correct for a presentation protected with open password. |
+| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Checks whether a password to modify is correct for a write protected presentation. |
+| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Gets document properties of binded presentation. |
+| [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Updates properties of binded presentation. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation)(Stream) | Writes binded presentation to stream. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation)(string) | Writes binded presentation to file. |
 
 ### See Also
 

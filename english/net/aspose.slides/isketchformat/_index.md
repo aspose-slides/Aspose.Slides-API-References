@@ -18,7 +18,7 @@ public interface ISketchFormat
 
 | Name | Description |
 | --- | --- |
-| [SketchType](sketchtype) { get; set; } | Returns or sets the sketch type. Read/write [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Returns or sets the sketch type. Read/write [`LineSketchType`](../linesketchtype). |
 
 ### See Also
 

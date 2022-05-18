@@ -18,8 +18,8 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | Name | Description |
 | --- | --- |
-| [AsCell](ascell) { get; set; } | Returns or sets chart data cell. Read/write [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](asibasechartvalue) { get; } | Allows to get base IBaseChartValue interface. Read-only [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Returns or sets chart data cell. Read/write [`IChartDataCell`](../ichartdatacell). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Allows to get base IBaseChartValue interface. Read-only [`IBaseChartValue`](../ibasechartvalue). |
 
 ### See Also
 

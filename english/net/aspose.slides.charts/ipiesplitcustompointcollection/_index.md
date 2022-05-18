@@ -18,15 +18,15 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. |
-| [Item](item) { get; } | Returns chart data point by index. |
+| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Returns IEnumerable interface. |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Returns chart data point by index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(int) | Adds data point by its index in parent series points collection. |
-| [Remove](remove)(int) | Removes item from collection by it index in parent series points collection. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Adds data point by its index in parent series points collection. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Removes item from collection by it index in parent series points collection. |
 
 ### See Also
 

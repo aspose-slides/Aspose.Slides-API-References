@@ -18,23 +18,23 @@ public interface IPdfOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AccessPermissions](accesspermissions) { get; set; } | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [`PdfAccessPermissions`](../pdfaccesspermissions). |
-| [AdditionalCommonFontFamilies](additionalcommonfontfamilies) { get; set; } | Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common. Read/write String[]. |
-| [ApplyImageTransparent](applyimagetransparent) { get; set; } | Applies the specified transparent color to an image if `true`. |
-| [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
-| [BestImagesCompressionRatio](bestimagescompressionratio) { get; set; } | Indicates if the most effective compression (instead of the default one) for each image must be selected automatically. If set to Boolean.true, for every image in presentation the most appropriate compression algorithm will be chosen, what will lead to the smaller size of the resulting PDF document. Best image compression ratio selection is computationally expensive and takes an additional amount of RAM, and this option is Boolean.false by default. |
-| [Compliance](compliance) { get; set; } | Desired conformance level for generated PDF document. Read/write [`PdfCompliance`](../pdfcompliance). |
-| [DrawSlidesFrame](drawslidesframe) { get; set; } | True to draw black frame around each slide. Read/write Boolean. |
-| [EmbedFullFonts](embedfullfonts) { get; set; } | Determines if all characters of font should be embedded or only used subset. Read/write Boolean. |
-| [EmbedTrueTypeFontsForASCII](embedtruetypefontsforascii) { get; set; } | True to embed true type fonts for ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Read/write Boolean. |
-| [ImageTransparentColor](imagetransparentcolor) { get; set; } | Gets or sets the image transparent color. |
-| [JpegQuality](jpegquality) { get; set; } | Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write Byte. |
-| [NotesCommentsLayouting](notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
-| [Password](password) { get; set; } | Setting user password to protect the PDF document. Read/write String. |
-| [SaveMetafilesAsPng](savemetafilesaspng) { get; set; } | True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean. |
-| [ShowHiddenSlides](showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
-| [SufficientResolution](sufficientresolution) { get; set; } | Returns or sets a value determining resolution of images inside PDF document. |
-| [TextCompression](textcompression) { get; set; } | Specifies compression type to be used for all textual content in the document. Read/write [`PdfTextCompression`](../pdftextcompression). |
+| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [`PdfAccessPermissions`](../pdfaccesspermissions). |
+| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common. Read/write String[]. |
+| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | Applies the specified transparent color to an image if `true`. |
+| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | Indicates if the most effective compression (instead of the default one) for each image must be selected automatically. If set to Boolean.true, for every image in presentation the most appropriate compression algorithm will be chosen, what will lead to the smaller size of the resulting PDF document. Best image compression ratio selection is computationally expensive and takes an additional amount of RAM, and this option is Boolean.false by default. |
+| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | Desired conformance level for generated PDF document. Read/write [`PdfCompliance`](../pdfcompliance). |
+| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | True to draw black frame around each slide. Read/write Boolean. |
+| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | Determines if all characters of font should be embedded or only used subset. Read/write Boolean. |
+| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | True to embed true type fonts for ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Read/write Boolean. |
+| [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | Gets or sets the image transparent color. |
+| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write Byte. |
+| [NotesCommentsLayouting](../../aspose.slides.export/ipdfoptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
+| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | Setting user password to protect the PDF document. Read/write String. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
+| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | Returns or sets a value determining resolution of images inside PDF document. |
+| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | Specifies compression type to be used for all textual content in the document. Read/write [`PdfTextCompression`](../pdftextcompression). |
 
 ### See Also
 

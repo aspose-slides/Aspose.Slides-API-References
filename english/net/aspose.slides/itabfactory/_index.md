@@ -18,7 +18,7 @@ public interface ITabFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateTab](createtab)(double, TabAlignment) | Creates a new ITab instance. |
+| [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | Creates a new ITab instance. |
 
 ### Remarks
 

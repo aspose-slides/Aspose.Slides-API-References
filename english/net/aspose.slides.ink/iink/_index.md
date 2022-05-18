@@ -18,7 +18,7 @@ public interface IInk : IGraphicalObject
 
 | Name | Description |
 | --- | --- |
-| [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### See Also
 

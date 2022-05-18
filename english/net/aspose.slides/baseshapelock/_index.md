@@ -18,7 +18,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 | Name | Description |
 | --- | --- |
-| [NoLocks](nolocks) { get; } | Return true if all lock-flags are disabled. Read-only Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Return true if all lock-flags are disabled. Read-only Boolean. |
 
 ### See Also
 

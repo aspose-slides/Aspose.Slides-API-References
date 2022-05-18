@@ -24,10 +24,10 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathematicalText](createmathematicaltext)() | Create empty mathematical text element |
-| [CreateMathematicalText](createmathematicaltext)(char) | Create mathematical text element with the specified value |
-| [CreateMathematicalText](createmathematicaltext)(string) | Create empty mathematical text element with the specified value |
-| [CreateMathematicalText](createmathematicaltext)(string, IPortionFormat) | Create empty mathematical text element with the specified value and formatting properties |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext)() | Create empty mathematical text element |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext)(char) | Create mathematical text element with the specified value |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext)(string) | Create empty mathematical text element with the specified value |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext)(string, IPortionFormat) | Create empty mathematical text element with the specified value and formatting properties |
 
 ### Remarks
 

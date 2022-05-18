@@ -18,25 +18,25 @@ public interface IStreamWrapper : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [AsIDisposable](asidisposable) { get; } | Allows to get base IDisposable interface. Read-only IDisposable. |
-| [CanRead](canread) { get; } | Gets a value indicating whether the current stream supports reading. Read-only Boolean. |
-| [CanSeek](canseek) { get; } | Gets a value indicating whether the current stream supports seeking. Read-only Boolean. |
-| [CanWrite](canwrite) { get; } | Gets a value indicating whether the current stream supports writing. Read-only Boolean. |
-| [Length](length) { get; } | Gets the length in bytes of the stream. Read-only Int64. |
-| [Position](position) { get; } | Gets the position within the current stream. Read-only Int64. |
-| [Stream](stream) { get; } | Gets a stream. Read-only Stream. |
+| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Allows to get base IDisposable interface. Read-only IDisposable. |
+| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Gets a value indicating whether the current stream supports reading. Read-only Boolean. |
+| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Gets a value indicating whether the current stream supports seeking. Read-only Boolean. |
+| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Gets a value indicating whether the current stream supports writing. Read-only Boolean. |
+| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Gets the length in bytes of the stream. Read-only Int64. |
+| [Position](../../aspose.slides/istreamwrapper/position) { get; } | Gets the position within the current stream. Read-only Int64. |
+| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Gets a stream. Read-only Stream. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Close](close)() | Closes the current stream and releases any resources. |
-| [Flush](flush)() | Clears all buffers for this stream and causes any buffered data to be written to the underlying device. |
-| [Read](read)(byte[], int, int) | Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. |
-| [ReadByte](readbyte)() | Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream. |
-| [Seek](seek)(long, SeekOrigin) | Sets the position within the current stream |
-| [Write](write)(byte[], int, int) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
-| [WriteByte](writebyte)(byte) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
+| [Close](../../aspose.slides/istreamwrapper/close)() | Closes the current stream and releases any resources. |
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | Clears all buffers for this stream and causes any buffered data to be written to the underlying device. |
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read. |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream. |
+| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Sets the position within the current stream |
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. |
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Writes a byte to the current position in the stream and advances the position within the stream by one byte. |
 
 ### See Also
 

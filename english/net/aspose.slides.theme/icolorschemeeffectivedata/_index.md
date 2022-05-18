@@ -18,19 +18,19 @@ public interface IColorSchemeEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [Accent1](accent1) { get; } | First accent color in the scheme. Read-only Color. |
-| [Accent2](accent2) { get; } | Second accent color in the scheme. Read-only Color. |
-| [Accent3](accent3) { get; } | Third accent color in the scheme. Read-only Color. |
-| [Accent4](accent4) { get; } | Fourth accent color in the scheme. Read-only Color. |
-| [Accent5](accent5) { get; } | Fifth accent color in the scheme. Read-only Color. |
-| [Accent6](accent6) { get; } | Sixth accent color in the scheme. Read-only Color. |
-| [Dark1](dark1) { get; } | First dark color in the scheme. Read-only Color. |
-| [Dark2](dark2) { get; } | Second dark color in the scheme. Read-only Color. |
-| [FollowedHyperlink](followedhyperlink) { get; } | Color for the visited hyperlinks. Read-only Color. |
-| [Hyperlink](hyperlink) { get; } | Color for the hyperlinks. Read-only Color. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only Color. |
-| [Light1](light1) { get; } | First light color in the scheme. Read-only Color. |
-| [Light2](light2) { get; } | Second light color in the scheme. Read-only Color. |
+| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | First accent color in the scheme. Read-only Color. |
+| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Second accent color in the scheme. Read-only Color. |
+| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | Third accent color in the scheme. Read-only Color. |
+| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | Fourth accent color in the scheme. Read-only Color. |
+| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | Fifth accent color in the scheme. Read-only Color. |
+| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | Sixth accent color in the scheme. Read-only Color. |
+| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | First dark color in the scheme. Read-only Color. |
+| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | Second dark color in the scheme. Read-only Color. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Color for the visited hyperlinks. Read-only Color. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Color for the hyperlinks. Read-only Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Gets the element at the specified index. Read-only Color. |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | First light color in the scheme. Read-only Color. |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Second light color in the scheme. Read-only Color. |
 
 ### Remarks
 

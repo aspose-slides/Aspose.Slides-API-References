@@ -18,11 +18,11 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](blurradius) { get; } | Blur radius. Read-only Double. |
-| [Direction](direction) { get; } | Direction of shadow. Read-only Single. |
-| [Distance](distance) { get; } | Distance of shadow. Read-only Double. |
-| [ShadowColor](shadowcolor) { get; } | Color of shadow. Read-only Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Blur radius. Read-only Double. |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Direction of shadow. Read-only Single. |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Distance of shadow. Read-only Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Color of shadow. Read-only Color. |
 
 ### See Also
 

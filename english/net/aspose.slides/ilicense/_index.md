@@ -18,9 +18,9 @@ public interface ILicense
 
 | Name | Description |
 | --- | --- |
-| [ResetLicense](resetlicense)() | Reset the license |
-| [SetLicense](setlicense)(Stream) | Licenses the component. |
-| [SetLicense](setlicense)(string) | Licenses the component. |
+| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Reset the license |
+| [SetLicense](../../aspose.slides/ilicense/setlicense)(Stream) | Licenses the component. |
+| [SetLicense](../../aspose.slides/ilicense/setlicense)(string) | Licenses the component. |
 
 ### Examples
 

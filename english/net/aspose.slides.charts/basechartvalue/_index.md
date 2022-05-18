@@ -18,8 +18,8 @@ public abstract class BaseChartValue : IBaseChartValue
 
 | Name | Description |
 | --- | --- |
-| abstract [Data](data) { get; set; } | Data. Read/write Object. |
-| [DataSourceType](datasourcetype) { get; set; } | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write [`DataSourceType`](../datasourcetype). |
+| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Data. Read/write Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write [`DataSourceType`](../datasourcetype). |
 
 ### See Also
 

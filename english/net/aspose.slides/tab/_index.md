@@ -24,14 +24,17 @@ public sealed class Tab : PVIObject, ITab
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Returns or sets align style of a tab. Read/write [`TabAlignment`](../tabalignment). |
-| [Position](position) { get; set; } | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write Double. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Returns or sets align style of a tab. Read/write [`TabAlignment`](../tabalignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write Double. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](compareto)(object) | Compares the current instance with another object of the same type. |
+| [CompareTo](../../aspose.slides/tab/compareto)(object) | Compares the current instance with another object of the same type. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

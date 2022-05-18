@@ -24,30 +24,30 @@ public class DataLabel : IDataLabel
 
 | Name | Description |
 | --- | --- |
-| [ActualHeight](actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
-| [ActualWidth](actualwidth) { get; } | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
-| [ActualX](actualx) { get; } | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
-| [ActualY](actualy) { get; } | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
-| [Bottom](bottom) { get; } | Bottom. Read-only Single. |
-| [Chart](chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
-| [DataLabelFormat](datalabelformat) { get; } | Returns data label format. Read-only [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](height) { get; set; } | Returns or sets the height of a title as a fraction of the height of the chart. Read/write Single. |
-| [IsVisible](isvisible) { get; } | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only Boolean. |
-| [Right](right) { get; } | Right. Read-only Single. |
-| [TextFormat](textformat) { get; } | Returns text format. Read-only [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](textframeforoverriding) { get; } | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](valuefromcell) { get; set; } | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
-| [Width](width) { get; set; } | Returns or sets the width of a title as a fraction of the width of the chart. Read/write Single. |
-| [X](x) { get; set; } | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write Single. |
-| [Y](y) { get; set; } | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Bottom. Read-only Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Returns data label format. Read-only [`IDataLabelFormat`](../idatalabelformat). |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Returns or sets the height of a title as a fraction of the height of the chart. Read/write Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only Boolean. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Right. Read-only Single. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Returns text format. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Returns or sets the width of a title as a fraction of the width of the chart. Read/write Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write Single. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddTextFrameForOverriding](addtextframeforoverriding)(string) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
-| [GetActualLabelText](getactuallabeltext)() | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
-| [Hide](hide)() | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this. |
 
 ### See Also
 

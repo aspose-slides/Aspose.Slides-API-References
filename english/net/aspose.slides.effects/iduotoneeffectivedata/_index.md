@@ -18,9 +18,9 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color1](color1) { get; } | Returns target color format for dark pixels. Read-only Color. |
-| [Color2](color2) { get; } | Returns target color format for light pixels. Read-only Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Returns target color format for dark pixels. Read-only Color. |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Returns target color format for light pixels. Read-only Color. |
 
 ### See Also
 

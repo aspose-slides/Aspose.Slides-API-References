@@ -18,14 +18,14 @@ public class Effect : IEffect
 
 | Name | Description |
 | --- | --- |
-| [Behaviors](behaviors) { get; set; } | Returns collection of behavior for effect. Read/write [`IBehaviorCollection`](../ibehaviorcollection). |
-| [PresetClassType](presetclasstype) { get; set; } | Defines class of effect. Read/write [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](sequence) { get; } | Returns a sequence for an effect. Read-only [`ISequence`](../isequence). |
-| [Subtype](subtype) { get; set; } | Defines subtype of effect. Read/write [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](targetshape) { get; } | Returns target shape for effect. Read-only [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](textanimation) { get; } | TextAnimation Read-only [`ITextAnimation`](../itextanimation). |
-| [Timing](timing) { get; set; } | Defines timing value for effect. Read/write [`ITiming`](../itiming). |
-| [Type](type) { get; set; } | Defines type of effect. Read/write [`EffectType`](../effecttype). |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Returns collection of behavior for effect. Read/write [`IBehaviorCollection`](../ibehaviorcollection). |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Defines class of effect. Read/write [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Returns a sequence for an effect. Read-only [`ISequence`](../isequence). |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Defines subtype of effect. Read/write [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Returns target shape for effect. Read-only [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Read-only [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Defines timing value for effect. Read/write [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Defines type of effect. Read/write [`EffectType`](../effecttype). |
 
 ### See Also
 

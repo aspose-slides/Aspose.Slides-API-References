@@ -18,17 +18,17 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](setdatetimeandchilddatetimestext)(string) | Sets text to layout slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
-| [SetDateTimeAndChildDateTimesVisibility](setdatetimeandchilddatetimesvisibility)(bool) | Changes layout slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
-| [SetFooterAndChildFootersText](setfooterandchildfooterstext)(string) | Sets text to layout slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
-| [SetFooterAndChildFootersVisibility](setfooterandchildfootersvisibility)(bool) | Changes layout slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on master slide. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](setslidenumberandchildslidenumbersvisibility)(bool) | Changes layout slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Sets text to layout slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Changes layout slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Sets text to layout slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Changes layout slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on master slide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Changes layout slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
 
 ### See Also
 

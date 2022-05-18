@@ -18,9 +18,17 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 | Name | Description |
 | --- | --- |
-| [AnchorPoint](anchorpoint) { get; set; } | Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read/write Single[]. |
-| [NormalVector](normalvector) { get; set; } | Returns or sets a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write Single[]. |
-| [UpVector](upvector) { get; set; } | Returns or sets a vector representing up. To be more precise, this attribute defines a vector representing up in relation to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read/write Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Returns or sets a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Returns or sets a vector representing up. To be more precise, this attribute defines a vector representing up in relation to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write Single[]. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

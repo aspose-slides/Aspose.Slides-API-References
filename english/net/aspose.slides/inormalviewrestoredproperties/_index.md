@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjust](autoadjust) { get; set; } | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write Boolean. |
-| [DimensionSize](dimensionsize) { get; set; } | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write Single. Throws when value less than 0 ar greater than 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write Single. Throws when value less than 0 ar greater than 100. |
 
 ### See Also
 

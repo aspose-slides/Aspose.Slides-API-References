@@ -18,10 +18,10 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](base) { get; } | Base argument |
-| [Subscript](subscript) { get; } | Subscript |
-| [Superscript](superscript) { get; } | Superscript |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Base argument |
+| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Subscript |
+| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Superscript |
 
 ### Examples
 

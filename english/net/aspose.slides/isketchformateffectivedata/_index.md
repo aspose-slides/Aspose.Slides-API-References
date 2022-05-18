@@ -18,7 +18,7 @@ public interface ISketchFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [SketchType](sketchtype) { get; } | Returns the sketch type. Read only [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Returns the sketch type. Read only [`LineSketchType`](../linesketchtype). |
 
 ### Remarks
 

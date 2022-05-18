@@ -18,11 +18,11 @@ public interface IScaleEffect : IBehavior
 
 | Name | Description |
 | --- | --- |
-| [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
-| [By](by) { get; set; } | describes the relative offset value for the animation (in percents). Read/write PointF. |
-| [From](from) { get; set; } | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write PointF. |
-| [To](to) { get; set; } | Specifies the target location for an animation scale effect (in percents). Read/write PointF. |
-| [ZoomContent](zoomcontent) { get; set; } | Determines whether a content should be zoomed. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | describes the relative offset value for the animation (in percents). Read/write PointF. |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write PointF. |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Specifies the target location for an animation scale effect (in percents). Read/write PointF. |
+| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Determines whether a content should be zoomed. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### See Also
 

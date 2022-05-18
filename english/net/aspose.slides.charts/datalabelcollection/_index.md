@@ -18,21 +18,21 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 | Name | Description |
 | --- | --- |
-| [Chart](chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
-| [Count](count) { get; } | Gets the number of all data labels in the collection. Read-only Int32. |
-| [CountOfVisibleDataLabels](countofvisibledatalabels) { get; } | Gets the number of visible data labels in the collection. Read-only Int32. |
-| [DefaultDataLabelFormat](defaultdatalabelformat) { get; } | Gets the default data label format. Read-only [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](isvisible) { get; } | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only Boolean. |
-| [Item](item) { get; } | Gets the data label for the data point with the specified index. |
-| [ParentSeries](parentseries) { get; } | Gets the parent series. Read-only [`IChartSeries`](../ichartseries). |
+| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Gets the number of all data labels in the collection. Read-only Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Gets the number of visible data labels in the collection. Read-only Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Gets the default data label format. Read-only [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Gets the data label for the data point with the specified index. |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Gets the parent series. Read-only [`IChartSeries`](../ichartseries). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Hide](hide)() | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this. |
-| [IndexOf](indexof)(IDataLabel) | Returns an index of the specified DataLabel in the collection. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this. |
+| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Returns an index of the specified DataLabel in the collection. |
 
 ### See Also
 

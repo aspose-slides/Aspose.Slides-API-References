@@ -18,27 +18,27 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`Comment`](../comment). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | Gets the element at the specified index. Read-only [`Comment`](../comment). |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddComment](addcomment)(string, ISlide, PointF, DateTime) | Add new comment at the end of a collection. |
-| [AddModernComment](addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Add new modern comment at the end of a collection. |
-| [Clear](clear)() | Removes all comments from a collection. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [FindCommentByIdx](findcommentbyidx)(int) | Finds a comment in the collection by index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [InsertComment](insertcomment)(int, string, ISlide, PointF, DateTime) | Insert new comment to a collection at the specified index. |
-| [InsertModernComment](insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Insert new modern comment to a collection at the specified index. |
-| [Remove](remove)(IComment) | Removes the first occurrence of the specified comment in a collection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index in a collection. |
-| [ToArray](toarray)() | Creates and returns an array with all comments. |
-| [ToArray](toarray)(int, int) | Creates and returns an array with all comments from the specified range. |
+| [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | Add new comment at the end of a collection. |
+| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Add new modern comment at the end of a collection. |
+| [Clear](../../aspose.slides/commentcollection/clear)() | Removes all comments from a collection. |
+| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Finds a comment in the collection by index. |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Insert new comment to a collection at the specified index. |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Insert new modern comment to a collection at the specified index. |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Removes the first occurrence of the specified comment in a collection. |
+| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Removes the element at the specified index in a collection. |
+| [ToArray](../../aspose.slides/commentcollection/toarray)() | Creates and returns an array with all comments. |
+| [ToArray](../../aspose.slides/commentcollection/toarray)(int, int) | Creates and returns an array with all comments from the specified range. |
 
 ### See Also
 

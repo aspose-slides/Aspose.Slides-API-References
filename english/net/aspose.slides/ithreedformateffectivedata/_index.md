@@ -18,17 +18,17 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | Name | Description |
 | --- | --- |
-| [AsIThreeDParamSource](asithreedparamsource) { get; } | Allows to get base IThreeDParamSource interface. Read-only [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](bevelbottom) { get; } | Returns the type of a bottom 3D bevel. Read-only [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](beveltop) { get; } | Returns the type of a top 3D bevel. Read-only [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](camera) { get; } | Returns the settings of a camera. Read-only [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](contourcolor) { get; } | Returns the color of a contour. Read-only Color. |
-| [ContourWidth](contourwidth) { get; } | Returns the width of a 3D contour. Read-only Double. |
-| [Depth](depth) { get; } | Returns the depth of a 3D shape. Read-only Double. |
-| [ExtrusionColor](extrusioncolor) { get; } | Returns the color of an extrusion. Read-only Color. |
-| [ExtrusionHeight](extrusionheight) { get; } | Returns the height of an extrusion effect. Read-only Double. |
-| [LightRig](lightrig) { get; } | Returns the type of a light. Read-only [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](material) { get; } | Returns the type of a material. Read-only [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Allows to get base IThreeDParamSource interface. Read-only [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Returns the type of a bottom 3D bevel. Read-only [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Returns the type of a top 3D bevel. Read-only [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Returns the settings of a camera. Read-only [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Returns the color of a contour. Read-only Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Returns the width of a 3D contour. Read-only Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Returns the depth of a 3D shape. Read-only Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Returns the color of an extrusion. Read-only Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Returns the height of an extrusion effect. Read-only Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Returns the type of a light. Read-only [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Returns the type of a material. Read-only [`MaterialPresetType`](../materialpresettype). |
 
 ### Remarks
 

@@ -18,9 +18,9 @@ public interface IHyperlinkContainer
 
 | Name | Description |
 | --- | --- |
-| [HyperlinkClick](hyperlinkclick) { get; set; } | Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](hyperlinkmanager) { get; } | Hyperlinks manager Read-only [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](hyperlinkmouseover) { get; set; } | Returns or sets the hyperlink defined for mouse over. Read/write [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hyperlinks manager Read-only [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Returns or sets the hyperlink defined for mouse over. Read/write [`IHyperlink`](../ihyperlink). |
 
 ### See Also
 

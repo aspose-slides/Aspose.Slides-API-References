@@ -18,8 +18,16 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; } | Returns the color of a gradient stop. Read-only [`IColorFormat`](../icolorformat). |
-| [Position](position) { get; set; } | Returns or sets the position (0..1) of a gradient stop. Read/write Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Returns the color of a gradient stop. Read-only [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Returns or sets the position (0..1) of a gradient stop. Read/write Single. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

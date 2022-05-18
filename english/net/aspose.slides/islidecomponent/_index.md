@@ -18,8 +18,8 @@ public interface ISlideComponent : IPresentationComponent
 
 | Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
-| [Slide](slide) { get; } | Returns the base slide. Read-only [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Returns the base slide. Read-only [`IBaseSlide`](../ibaseslide). |
 
 ### See Also
 

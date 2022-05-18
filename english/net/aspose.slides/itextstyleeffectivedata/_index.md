@@ -18,13 +18,13 @@ public interface ITextStyleEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [DefaultParagraphFormat](defaultparagraphformat) { get; } | Returns effective default paragraph properties. Read-only [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Returns effective default paragraph properties. Read-only [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetLevel](getlevel)(int) | Returns level of effective style. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Returns level of effective style. |
 
 ### Remarks
 

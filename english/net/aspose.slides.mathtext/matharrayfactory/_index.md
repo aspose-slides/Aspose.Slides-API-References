@@ -24,8 +24,8 @@ public class MathArrayFactory : IMathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathArray](creatematharray)(IMathElement) | Creates a math array and places the specified element in it |
-| [CreateMathArray](creatematharray)(IMathElementCollection) | Creates a math array and places specified elements in it |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray)(IMathElement) | Creates a math array and places the specified element in it |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray)(IMathElementCollection) | Creates a math array and places specified elements in it |
 
 ### Remarks
 

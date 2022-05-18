@@ -18,8 +18,8 @@ public interface IOleEmbeddedDataInfo
 
 | Name | Description |
 | --- | --- |
-| [EmbeddedFileData](embeddedfiledata) { get; } | Returns the file data of embedded OLE object Read only Byte[]. |
-| [EmbeddedFileExtension](embeddedfileextension) { get; } | Returns the file extension for the current embedded OLE object Read only String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Returns the file data of embedded OLE object Read only Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Returns the file extension for the current embedded OLE object Read only String. |
 
 ### See Also
 

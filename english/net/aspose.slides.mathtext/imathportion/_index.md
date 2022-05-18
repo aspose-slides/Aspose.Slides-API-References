@@ -18,7 +18,7 @@ public interface IMathPortion
 
 | Name | Description |
 | --- | --- |
-| [MathParagraph](mathparagraph) { get; } | Math paragraph |
+| [MathParagraph](../../aspose.slides.mathtext/imathportion/mathparagraph) { get; } | Math paragraph |
 
 ### Examples
 

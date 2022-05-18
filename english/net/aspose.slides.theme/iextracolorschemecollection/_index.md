@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns an color scheme by index. Read-only [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Returns an color scheme by index. Read-only [`IExtraColorScheme`](../iextracolorscheme). |
 
 ### See Also
 

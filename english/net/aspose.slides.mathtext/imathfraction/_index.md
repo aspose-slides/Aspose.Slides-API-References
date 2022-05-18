@@ -18,10 +18,10 @@ public interface IMathFraction : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Denominator](denominator) { get; } | Denominator |
-| [FractionType](fractiontype) { get; set; } | Fraction type Default: Bar |
-| [Numerator](numerator) { get; } | Numerator |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Denominator |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Fraction type Default: Bar |
+| [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Numerator |
 
 ### Examples
 

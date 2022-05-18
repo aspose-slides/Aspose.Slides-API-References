@@ -18,13 +18,13 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Name | Description |
 | --- | --- |
-| [ActiveXControlBinary](activexcontrolbinary) { get; } | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
-| [ClassId](classid) { get; set; } | Gets class id of this control. Read-only Guid. |
-| [Frame](frame) { get; set; } | Returns or sets control's frame. Read/write [`IShapeFrame`](../ishapeframe). |
-| [Name](name) { get; set; } | Gets or sets the name of this control. Read/write String. |
-| [Persistence](persistence) { get; } | Gets the method used to store properties of the ActiveX control. Read only [`PersistenceType`](../persistencetype). |
-| [Properties](properties) { get; } | Returns a collection of ActiveX properties. Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null. Read-only [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](substitutepictureformat) { get; } | Returns Control image fill properties object. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Gets class id of this control. Read-only Guid. |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | Returns or sets control's frame. Read/write [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/control/name) { get; set; } | Gets or sets the name of this control. Read/write String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Gets the method used to store properties of the ActiveX control. Read only [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Returns a collection of ActiveX properties. Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null. Read-only [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Returns Control image fill properties object. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### See Also
 

@@ -24,9 +24,9 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
-| [SetMeteredKey](setmeteredkey)(string, string) | Sets metered public and private key |
-| static [GetConsumptionCredit](getconsumptioncredit)() | Gets consumption credit |
-| static [GetConsumptionQuantity](getconsumptionquantity)() | Gets consumption file size |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Sets metered public and private key |
+| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Gets consumption credit |
+| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Gets consumption file size |
 
 ### Examples
 

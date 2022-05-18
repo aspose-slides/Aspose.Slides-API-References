@@ -18,21 +18,21 @@ public class ControlCollection : IControlCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns a number of objects in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns a control at the specified position. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Returns a number of objects in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/controlcollection/item) { get; } | Returns a control at the specified position. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddControl](addcontrol)(ControlType, float, float, float, float) | Creates and adds a new control to the collection. |
-| [Clear](clear)() | Removes all controls from the collection. |
-| [CopyTo](copyto)(Array, int) | Copies the entire collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(IControl) | Removes an ActiveX control from the collection. |
-| [RemoveAt](removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Creates and adds a new control to the collection. |
+| [Clear](../../aspose.slides/controlcollection/clear)() | Removes all controls from the collection. |
+| [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Copies the entire collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Removes an ActiveX control from the collection. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
 
 ### See Also
 

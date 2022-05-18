@@ -18,18 +18,18 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Gets the element at the specified index. |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IVbaReference) | Adds the new reference to references collection |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Adds the new reference to references collection |
+| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

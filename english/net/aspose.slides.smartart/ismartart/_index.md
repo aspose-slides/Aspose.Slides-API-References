@@ -18,13 +18,13 @@ public interface ISmartArt : IGraphicalObject
 
 | Name | Description |
 | --- | --- |
-| [AllNodes](allnodes) { get; } | Returns collections of all nodes in SmartArt object. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](colorstyle) { get; set; } | Return or set color style of the SmartArt object. Read/write [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](isreversed) { get; set; } | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write Boolean. |
-| [Layout](layout) { get; set; } | Return or set layout of the SmartArt object. Read/write [`SmartArtLayoutType`](../smartartlayouttype). |
-| [Nodes](nodes) { get; } | Returns collections of root nodes in SmartArt object. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](quickstyle) { get; set; } | Return or set quick style of the SmartArt object. Read/write [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Returns collections of all nodes in SmartArt object. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Return or set color style of the SmartArt object. Read/write [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Return or set layout of the SmartArt object. Read/write [`SmartArtLayoutType`](../smartartlayouttype). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Returns collections of root nodes in SmartArt object. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Return or set quick style of the SmartArt object. Read/write [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
 ### See Also
 

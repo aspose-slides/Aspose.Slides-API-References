@@ -18,13 +18,13 @@ public interface ISvgShape
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | Sets or gets id for the shape |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Sets or gets id for the shape |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetEventHandler](seteventhandler)(SvgEvent, string) | Sets event handler for the shape |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Sets event handler for the shape |
 
 ### See Also
 

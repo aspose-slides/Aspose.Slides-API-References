@@ -18,15 +18,15 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Gets the element at the specified index. Read-only [`IAudio`](../iaudio). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddAudio](addaudio)(byte[]) | Creates and adds a audio to a presentation from byte array. |
-| [AddAudio](addaudio)(IAudio) | Adds a copy of an audio file from an another presentation. |
-| [AddAudio](addaudio)(Stream, LoadingStreamBehavior) | Creates and adds a audio to a presentation from stream. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio)(byte[]) | Creates and adds a audio to a presentation from byte array. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio)(IAudio) | Adds a copy of an audio file from an another presentation. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio)(Stream, LoadingStreamBehavior) | Creates and adds a audio to a presentation from stream. |
 
 ### See Also
 

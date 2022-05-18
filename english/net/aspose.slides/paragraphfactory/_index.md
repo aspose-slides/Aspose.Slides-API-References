@@ -24,8 +24,8 @@ public class ParagraphFactory : IParagraphFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateParagraph](createparagraph)() | Creates a new empty paragraph. |
-| [CreateParagraph](createparagraph)(IParagraph) | Creates a new paragraph with specified paragraph data using. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph)() | Creates a new empty paragraph. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph)(IParagraph) | Creates a new paragraph with specified paragraph data using. |
 
 ### Remarks
 

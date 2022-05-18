@@ -18,17 +18,17 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](blurradius) { get; } | Blur radius. Read-only Double. |
-| [Direction](direction) { get; } | Direction of shadow. Read-only Single. |
-| [Distance](distance) { get; } | Distance of shadow. Read-only Double. |
-| [RectangleAlign](rectanglealign) { get; } | Rectangle alignment. Read-only [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](rotateshadowwithshape) { get; } | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read-only Boolean. |
-| [ScaleHorizontal](scalehorizontal) { get; } | Specifies the horizontal scaling factor, negative scaling causes a flip. Read-only Double. |
-| [ScaleVertical](scalevertical) { get; } | Specifies the vertical scaling factor, negative scaling causes a flip. Read-only Double. |
-| [ShadowColor](shadowcolor) { get; } | Color of shadow. Read-only Color. |
-| [SkewHorizontal](skewhorizontal) { get; } | Specifies the horizontal skew angle (in degrees). Read-only Double. |
-| [SkewVertical](skewvertical) { get; } | Specifies the vertical skew angle (in degrees). Read-only Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Blur radius. Read-only Double. |
+| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Direction of shadow. Read-only Single. |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Distance of shadow. Read-only Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Rectangle alignment. Read-only [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read-only Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Specifies the horizontal scaling factor, negative scaling causes a flip. Read-only Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Specifies the vertical scaling factor, negative scaling causes a flip. Read-only Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Color of shadow. Read-only Color. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Specifies the horizontal skew angle (in degrees). Read-only Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Specifies the vertical skew angle (in degrees). Read-only Double. |
 
 ### See Also
 

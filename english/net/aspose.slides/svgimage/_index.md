@@ -29,10 +29,10 @@ public class SvgImage : ISvgImage
 
 | Name | Description |
 | --- | --- |
-| [BaseUri](baseuri) { get; } | Returns base URI of the specified Svg. Used to resolve relative links. Read-only String. |
-| [ExternalResourceResolver](externalresourceresolver) { get; } | Return callback interface used to resolve external resources during Svg documents import. Read-only [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](svgcontent) { get; } | Returns SVG content. Read-only String. |
-| [SvgData](svgdata) { get; } | Returns SVG data. Read-only Byte[]. |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Returns base URI of the specified Svg. Used to resolve relative links. Read-only String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Return callback interface used to resolve external resources during Svg documents import. Read-only [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Returns SVG content. Read-only String. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Returns SVG data. Read-only Byte[]. |
 
 ### See Also
 

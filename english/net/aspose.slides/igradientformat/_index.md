@@ -18,13 +18,13 @@ public interface IGradientFormat : IFillParamSource
 
 | Name | Description |
 | --- | --- |
-| [AsIFillParamSource](asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](gradientdirection) { get; set; } | Returns or sets the style of a gradient. Read/write [`GradientDirection`](../gradientdirection). |
-| [GradientShape](gradientshape) { get; set; } | Returns or sets the shape of a gradient. Read/write [`GradientShape`](../gradientshape). |
-| [GradientStops](gradientstops) { get; } | Returns the collection of gradient stops. Read-only [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](lineargradientangle) { get; set; } | Returns or sets the angle of a gradient. Read/write Single. |
-| [LinearGradientScaled](lineargradientscaled) { get; set; } | Determines whether a gradient is scaled. Read/write [`NullableBool`](../nullablebool). |
-| [TileFlip](tileflip) { get; set; } | Returns or sets the flipping mode for a gradient. Read/write [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Returns or sets the style of a gradient. Read/write [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Returns or sets the shape of a gradient. Read/write [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Returns the collection of gradient stops. Read-only [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Returns or sets the angle of a gradient. Read/write Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Determines whether a gradient is scaled. Read/write [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Returns or sets the flipping mode for a gradient. Read/write [`TileFlip`](../tileflip). |
 
 ### See Also
 

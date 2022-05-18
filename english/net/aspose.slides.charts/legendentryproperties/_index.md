@@ -18,9 +18,9 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 | Name | Description |
 | --- | --- |
-| [Chart](chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
-| [Hide](hide) { get; set; } | Determines whether the legend entry is hide. Read/write Boolean. |
-| [TextFormat](textformat) { get; } | Returns text format. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Determines whether the legend entry is hide. Read/write Boolean. |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Returns text format. Read-only [`IChartTextFormat`](../icharttextformat). |
 
 ### See Also
 

@@ -18,7 +18,14 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | Name | Description |
 | --- | --- |
-| [Spokes](spokes) { get; set; } | Number spokes of wheel transition. Read/write UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Number spokes of wheel transition. Read/write UInt32. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 

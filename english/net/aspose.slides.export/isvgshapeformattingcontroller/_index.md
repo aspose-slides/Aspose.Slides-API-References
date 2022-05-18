@@ -18,7 +18,7 @@ public interface ISvgShapeFormattingController
 
 | Name | Description |
 | --- | --- |
-| [FormatShape](formatshape)(ISvgShape, IShape) | This function is called before rendering of shape to SVG to allow user to control resulting SVG. |
+| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | This function is called before rendering of shape to SVG to allow user to control resulting SVG. |
 
 ### See Also
 

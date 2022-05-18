@@ -18,16 +18,16 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Name | Description |
 | --- | --- |
-| [ItemId](itemid) { get; set; } | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only Guid. |
-| [NamespaceSchemas](namespaceschemas) { get; } | Returns the collection XML schemas that are associated with the custom XML part. Read-only String[]. |
-| [XmlAsString](xmlasstring) { get; set; } | Returns or sets xml data as UTF-8 string. Read/write String. value is `null`.value is empty or xml-data is invalid. |
-| [XmlData](xmldata) { get; set; } | Returns or sets xml data. Read/write Byte[]. value is `null`.value is empty or xml-data is invalid. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Returns the collection XML schemas that are associated with the custom XML part. Read-only String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Returns or sets xml data as UTF-8 string. Read/write String. value is `null`.value is empty or xml-data is invalid. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Returns or sets xml data. Read/write Byte[]. value is `null`.value is empty or xml-data is invalid. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Remove](remove)() | Removes the custom xml part from the presentation. |
+| [Remove](../../aspose.slides/customxmlpart/remove)() | Removes the custom xml part from the presentation. |
 
 ### See Also
 

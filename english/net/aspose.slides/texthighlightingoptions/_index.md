@@ -24,8 +24,8 @@ public class TextHighlightingOptions : ITextHighlightingOptions
 
 | Name | Description |
 | --- | --- |
-| [CaseSensitive](casesensitive) { get; set; } | Set true to use case-sensitive search, false - otherwise. Read/write Boolean. |
-| [WholeWordsOnly](wholewordsonly) { get; set; } | Set true to match only whole words, false - otherwise. Read/write Boolean. |
+| [CaseSensitive](../../aspose.slides/texthighlightingoptions/casesensitive) { get; set; } | Set true to use case-sensitive search, false - otherwise. Read/write Boolean. |
+| [WholeWordsOnly](../../aspose.slides/texthighlightingoptions/wholewordsonly) { get; set; } | Set true to match only whole words, false - otherwise. Read/write Boolean. |
 
 ### See Also
 

@@ -18,9 +18,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](radius) { get; set; } | Specifies the radius of blur to apply to the edges. Read/write Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Specifies the radius of blur to apply to the edges. Read/write Double. |
 
 ### See Also
 

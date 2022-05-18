@@ -18,9 +18,9 @@ public interface IFontScheme
 
 | Name | Description |
 | --- | --- |
-| [Major](major) { get; } | Returns the fonts collection for a "heading" part of the slide. Read-only [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](minor) { get; } | Returns the fonts collection for a "body" part of the slide. Read-only [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](name) { get; set; } | Returns the font scheme name. Read/write String. |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Returns the fonts collection for a "heading" part of the slide. Read-only [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Returns the fonts collection for a "body" part of the slide. Read-only [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Returns the font scheme name. Read/write String. |
 
 ### See Also
 

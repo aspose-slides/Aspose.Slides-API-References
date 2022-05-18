@@ -24,8 +24,8 @@ public class ExternalResourceResolver : IExternalResourceResolver
 
 | Name | Description |
 | --- | --- |
-| virtual [GetEntity](getentity)(string) | Maps a URI to an object containing the actual resource. |
-| virtual [ResolveUri](resolveuri)(string, string) | Resolves the absolute URI from the base and relative URIs. |
+| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Maps a URI to an object containing the actual resource. |
+| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Resolves the absolute URI from the base and relative URIs. |
 
 ### See Also
 

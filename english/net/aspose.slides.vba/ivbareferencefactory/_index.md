@@ -18,7 +18,7 @@ public interface IVbaReferenceFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateOleTypeLibReference](createoletypelibreference)(string, string) | Creates new OLE Automation type library reference. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | Creates new OLE Automation type library reference. |
 
 ### See Also
 

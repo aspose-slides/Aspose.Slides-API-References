@@ -18,19 +18,19 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns image by its index. |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | Returns image by its index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddImage](addimage)(byte[]) | Adds an image to a presentation from specified buffer. |
-| [AddImage](addimage)(Image) | Add an image to a presentation. |
-| [AddImage](addimage)(IPPImage) | Adds a copy of an image from an another presentation. |
-| [AddImage](addimage)(ISvgImage) | Add an image to a presentation from SVG object. |
-| [AddImage](addimage)(MemoryStream) | Adds image from a memory stream. |
-| [AddImage](addimage)(Stream) | Add an image to a presentation from stream. |
-| [AddImage](addimage)(Stream, LoadingStreamBehavior) | Creates and adds an image to a presentation from stream. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage)(byte[]) | Adds an image to a presentation from specified buffer. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage)(Image) | Add an image to a presentation. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage)(IPPImage) | Adds a copy of an image from an another presentation. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage)(ISvgImage) | Add an image to a presentation from SVG object. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage)(MemoryStream) | Adds image from a memory stream. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage)(Stream) | Add an image to a presentation from stream. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage)(Stream, LoadingStreamBehavior) | Creates and adds an image to a presentation from stream. |
 
 ### See Also
 

@@ -18,22 +18,22 @@ public interface IPPImage
 
 | Name | Description |
 | --- | --- |
-| [BinaryData](binarydata) { get; } | Returns the copy of an image's data. Read-only Byte[]. |
-| [ContentType](contenttype) { get; } | Returns a MIME type of an image, encoded in [`BinaryData`](./binarydata). Read-only String. |
-| [Height](height) { get; } | Returns a height of an image. Read-only Int32. |
-| [SvgImage](svgimage) { get; set; } | Returns or sets ISvgImage object [`ISvgImage`](../isvgimage) |
-| [SystemImage](systemimage) { get; } | Returns the copy of an image of the System.Drawing.Image type. Read-only Image. |
-| [Width](width) { get; } | Returns a width of an image. Read-only Int32. |
-| [X](x) { get; } | Returns a X-offset of an image. Read-only Int32. |
-| [Y](y) { get; } | Returns a Y-offset of an image. Read-only Int32. |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Returns the copy of an image's data. Read-only Byte[]. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Returns a MIME type of an image, encoded in [`BinaryData`](./binarydata). Read-only String. |
+| [Height](../../aspose.slides/ippimage/height) { get; } | Returns a height of an image. Read-only Int32. |
+| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Returns or sets ISvgImage object [`ISvgImage`](../isvgimage) |
+| [SystemImage](../../aspose.slides/ippimage/systemimage) { get; } | Returns the copy of an image of the System.Drawing.Image type. Read-only Image. |
+| [Width](../../aspose.slides/ippimage/width) { get; } | Returns a width of an image. Read-only Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | Returns a X-offset of an image. Read-only Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Returns a Y-offset of an image. Read-only Int32. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ReplaceImage](replaceimage)(byte[]) | Replaces image data. |
-| [ReplaceImage](replaceimage)(Image) | Replaces image. |
-| [ReplaceImage](replaceimage)(IPPImage) | Replaces image. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage)(byte[]) | Replaces image data. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage)(Image) | Replaces image. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage)(IPPImage) | Replaces image. |
 
 ### See Also
 

@@ -24,7 +24,7 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathSuperscriptElement](createmathsuperscriptelement)(IMathElement, IMathElement) | Creates IMathSuperscriptElement |
+| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | Creates IMathSuperscriptElement |
 
 ### Remarks
 

@@ -18,16 +18,16 @@ public interface ISlideSize
 
 | Name | Description |
 | --- | --- |
-| [Orientation](orientation) { get; set; } | Returns or sets the slide orientation. Changing this value will swap slide's dimensions. Read/write [`SlideOrientation`](../slideorientation). |
-| [Size](size) { get; } | Returns or sets the size in points. Assigning any value will reset [`Type`](./type) property to Custom and set [`Orientation`](./orientation). Read/write SizeF. |
-| [Type](type) { get; } | Returns or sets the type of slide size. Assigning any value except Custom will change [`Size`](./size) accordingly, but will keep [`Orientation`](./orientation) intact. Read/write [`SlideSizeType`](../slidesizetype). |
+| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | Returns or sets the slide orientation. Changing this value will swap slide's dimensions. Read/write [`SlideOrientation`](../slideorientation). |
+| [Size](../../aspose.slides/islidesize/size) { get; } | Returns or sets the size in points. Assigning any value will reset [`Type`](./type) property to Custom and set [`Orientation`](./orientation). Read/write SizeF. |
+| [Type](../../aspose.slides/islidesize/type) { get; } | Returns or sets the type of slide size. Assigning any value except Custom will change [`Size`](./size) accordingly, but will keep [`Orientation`](./orientation) intact. Read/write [`SlideSizeType`](../slidesizetype). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetSize](setsize)(SlideSizeType, SlideSizeScaleType) | Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change [`Size`](./size) accordingly, but will keep [`Orientation`](./orientation) intact. |
-| [SetSize](setsize)(float, float, SlideSizeScaleType) | Sets the size in points and scales content using scale type. Assigning any value will reset [`Type`](./type) property to Custom and set [`Orientation`](./orientation). |
+| [SetSize](../../aspose.slides/islidesize/setsize)(SlideSizeType, SlideSizeScaleType) | Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change [`Size`](./size) accordingly, but will keep [`Orientation`](./orientation) intact. |
+| [SetSize](../../aspose.slides/islidesize/setsize)(float, float, SlideSizeScaleType) | Sets the size in points and scales content using scale type. Assigning any value will reset [`Type`](./type) property to Custom and set [`Orientation`](./orientation). |
 
 ### See Also
 

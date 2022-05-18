@@ -18,17 +18,17 @@ public interface IConnectorLock : IBaseShapeLock
 
 | Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](adjusthandleslocked) { get; set; } | Determines whether a changing adjust values is forbidden. Read/write Boolean. |
-| [ArrowheadsLocked](arrowheadslocked) { get; set; } | Determines whether a changing arrowheads is forbidden. Read/write Boolean. |
-| [AsIBaseShapeLock](asibaseshapelock) { get; } | Allows to get base IBaseShapeLock interface. Read-only [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](aspectratiolocked) { get; set; } | Determines whether a shape have to preserve aspect ratio on resizing. Read/write Boolean. |
-| [EditPointsLocked](editpointslocked) { get; set; } | Determines whether a direct changing of contour of this shape is forbidden. Read/write Boolean. |
-| [GroupingLocked](groupinglocked) { get; set; } | Determines whether an adding this shape to a group is forbidden. Read/write Boolean. |
-| [PositionMove](positionmove) { get; set; } | Determines whether a moving this shape is forbidden. Read/write Boolean. |
-| [RotateLocked](rotatelocked) { get; set; } | Determines whether a changing rotation angle of this shape is forbidden. Read/write Boolean. |
-| [SelectLocked](selectlocked) { get; set; } | Determines whether a selecting this shape is forbidden. Read/write Boolean. |
-| [ShapeTypeLocked](shapetypelocked) { get; set; } | Determines whether a changing of a shape type is forbidden. Read/write Boolean. |
-| [SizeLocked](sizelocked) { get; set; } | Determines whether a resizing this shape is forbidden. Read/write Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Determines whether a changing adjust values is forbidden. Read/write Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Determines whether a changing arrowheads is forbidden. Read/write Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Allows to get base IBaseShapeLock interface. Read-only [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Determines whether a shape have to preserve aspect ratio on resizing. Read/write Boolean. |
+| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Determines whether a direct changing of contour of this shape is forbidden. Read/write Boolean. |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Determines whether an adding this shape to a group is forbidden. Read/write Boolean. |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Determines whether a moving this shape is forbidden. Read/write Boolean. |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Determines whether a changing rotation angle of this shape is forbidden. Read/write Boolean. |
+| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Determines whether a selecting this shape is forbidden. Read/write Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Determines whether a changing of a shape type is forbidden. Read/write Boolean. |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Determines whether a resizing this shape is forbidden. Read/write Boolean. |
 
 ### See Also
 

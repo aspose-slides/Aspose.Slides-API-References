@@ -18,21 +18,21 @@ public sealed class TextFrame : ITextFrame
 
 | Name | Description |
 | --- | --- |
-| [HyperlinkQueries](hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](paragraphs) { get; } | Returns the list of all paragraphs in a frame. Read-only [`IParagraphCollection`](../iparagraphcollection). |
-| [Presentation](presentation) { get; } | Returns the parent presentation of a TextFrame. Read-only [`IPresentation`](../ipresentation). |
-| [Slide](slide) { get; } | Returns the parent slide of a TextFrame. Read-only [`IBaseSlide`](../ibaseslide). |
-| [Text](text) { get; set; } | Gets or sets the plain text for a TextFrame. Read/write String. |
-| [TextFrameFormat](textframeformat) { get; } | Returns the formatting object for this TextFrame object. Read-only [`ITextFrameFormat`](../itextframeformat). |
+| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Returns the list of all paragraphs in a frame. Read-only [`IParagraphCollection`](../iparagraphcollection). |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Returns the parent presentation of a TextFrame. Read-only [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | Returns the parent slide of a TextFrame. Read-only [`IBaseSlide`](../ibaseslide). |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | Gets or sets the plain text for a TextFrame. Read/write String. |
+| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Returns the formatting object for this TextFrame object. Read-only [`ITextFrameFormat`](../itextframeformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [HighlightRegex](highlightregex)(string, Color, ITextHighlightingOptions) | Highlight all matches of regular expression in text frame text using specified color. |
-| [HighlightText](highlighttext)(string, Color) | Highlight all matches of sample in text frame text using specified color. |
-| [HighlightText](highlighttext)(string, Color, ITextHighlightingOptions) | Highlight all matches of sample in text frame text using specified color. |
-| [JoinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs. |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex)(string, Color, ITextHighlightingOptions) | Highlight all matches of regular expression in text frame text using specified color. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext)(string, Color) | Highlight all matches of sample in text frame text using specified color. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext)(string, Color, ITextHighlightingOptions) | Highlight all matches of sample in text frame text using specified color. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs. |
 
 ### See Also
 

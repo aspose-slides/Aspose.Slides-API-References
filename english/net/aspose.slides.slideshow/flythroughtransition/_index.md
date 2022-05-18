@@ -18,8 +18,15 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 | Name | Description |
 | --- | --- |
-| [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](hasbounce) { get; set; } | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write Boolean. |
+| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Direction of transition. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write Boolean. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 

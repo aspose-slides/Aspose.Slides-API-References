@@ -18,29 +18,29 @@ public interface IColorFormat : IFillParamSource
 
 | Name | Description |
 | --- | --- |
-| [AsIFillParamSource](asifillparamsource) { get; } | Returns IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
-| [B](b) { get; set; } | Returns or sets the blue component of a color. All color transformations are ignored. Read/write Byte. |
-| [Color](color) { get; set; } | Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write Color. |
-| [ColorTransform](colortransform) { get; } | Returns the collection of color transformations applied to a color. Read-only [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](colortype) { get; set; } | Returns or sets the color definition method. Read/write [`ColorType`](../colortype). |
-| [FloatB](floatb) { get; set; } | Returns or sets the blue component of a color. All color transformations are ignored. Read/write Single. |
-| [FloatG](floatg) { get; set; } | Returns or sets the green component of a color. All color transformations are ignored. Read/write Single. |
-| [FloatR](floatr) { get; set; } | Returns or sets the red component of a color. All color transformations are ignored. Read/write Single. |
-| [G](g) { get; set; } | Returns or sets the green component of a color. All color transformations are ignored. Read/write Byte. |
-| [Hue](hue) { get; set; } | Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write Single. |
-| [Luminance](luminance) { get; set; } | Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write Single. |
-| [PresetColor](presetcolor) { get; set; } | Returns or sets the color preset. Read/write [`PresetColor`](../presetcolor). |
-| [R](r) { get; set; } | Returns or sets the red component of a color. All color transformations are ignored. Read/write Byte. |
-| [Saturation](saturation) { get; set; } | Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write Single. |
-| [SchemeColor](schemecolor) { get; set; } | Returns or sets the color identified by a color scheme. Read/write [`SchemeColor`](../schemecolor). |
-| [SystemColor](systemcolor) { get; set; } | Returns or sets the color identified by the system color table. Read/write [`SystemColor`](../systemcolor). |
+| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Returns IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | Returns or sets the blue component of a color. All color transformations are ignored. Read/write Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Returns the collection of color transformations applied to a color. Read-only [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Returns or sets the color definition method. Read/write [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Returns or sets the blue component of a color. All color transformations are ignored. Read/write Single. |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Returns or sets the green component of a color. All color transformations are ignored. Read/write Single. |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Returns or sets the red component of a color. All color transformations are ignored. Read/write Single. |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | Returns or sets the green component of a color. All color transformations are ignored. Read/write Byte. |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write Single. |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Returns or sets the color preset. Read/write [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | Returns or sets the red component of a color. All color transformations are ignored. Read/write Byte. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write Single. |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Returns or sets the color identified by a color scheme. Read/write [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Returns or sets the color identified by the system color table. Read/write [`SystemColor`](../systemcolor). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CopyFrom](copyfrom)(IColorFormat) | Copy color format from "color". |
-| [ToString](tostring)(ColorStringFormat) | Returns a String that represents the current color format. |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Copy color format from "color". |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Returns a String that represents the current color format. |
 
 ### See Also
 

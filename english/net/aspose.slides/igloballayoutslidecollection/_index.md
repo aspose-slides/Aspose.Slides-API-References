@@ -18,15 +18,15 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 | Name | Description |
 | --- | --- |
-| [AsILayoutSlideCollection](asilayoutslidecollection) { get; } | Returns ILayoutSlideCollection interface. Read-only [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | Returns ILayoutSlideCollection interface. Read-only [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IMasterSlide, SlideLayoutType, string) | Adds a new layout slide to the presentation. |
-| [AddClone](addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
-| [AddClone](addclone)(ILayoutSlide, IMasterSlide) | Adds a copy of a specified layout slide to the presentation. |
+| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Adds a new layout slide to the presentation. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone)(ILayoutSlide, IMasterSlide) | Adds a copy of a specified layout slide to the presentation. |
 
 ### See Also
 

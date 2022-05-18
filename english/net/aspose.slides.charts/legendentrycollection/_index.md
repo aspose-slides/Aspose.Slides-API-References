@@ -18,8 +18,8 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of legend entries. Read-only Int32. |
-| [Item](item) { get; } | Gets properties of the legend entry corresponding to Chart.ChartData.Series[0].DataPoints[index] in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; or corresponding to Chart.ChartData.Series[index] for other chart types. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Gets the number of legend entries. Read-only Int32. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Gets properties of the legend entry corresponding to Chart.ChartData.Series[0].DataPoints[index] in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; or corresponding to Chart.ChartData.Series[index] for other chart types. |
 
 ### See Also
 

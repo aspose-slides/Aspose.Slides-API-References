@@ -18,9 +18,9 @@ public interface IMathAccent : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](base) { get; } | The argument to which the accent was applied |
-| [Character](character) { get; set; } | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | The argument to which the accent was applied |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
 
 ### Examples
 

@@ -18,30 +18,33 @@ public class LineFormat : PVIObject, ILineFormat
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Returns or sets the line alignment. Read/write [`LineAlignment`](../linealignment). |
-| [BeginArrowheadLength](beginarrowheadlength) { get; set; } | Returns or sets the arrowhead length at the beginning of a line. Read/write [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](beginarrowheadstyle) { get; set; } | Returns or sets the arrowhead style at the beginning of a line. Read/write [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](beginarrowheadwidth) { get; set; } | Returns or sets the arrowhead width at the beginning of a line. Read/write [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](capstyle) { get; set; } | Returns or sets the line cap style. Read/write [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](customdashpattern) { get; set; } | Returns or sets the custom dash pattern. Read/write Single[]. |
-| [DashStyle](dashstyle) { get; set; } | Returns or sets the line dash style. Read/write [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](endarrowheadlength) { get; set; } | Returns or sets the arrowhead length at the end of a line. Read/write [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](endarrowheadstyle) { get; set; } | Returns or sets the arrowhead style at the end of a line. Read/write [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](endarrowheadwidth) { get; set; } | Returns or sets the arrowhead width at the end of a line. Read/write [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](fillformat) { get; } | Returns the fill format of a line. Read-only [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](isformatnotdefined) { get; } | Returns true if line format is not defined (as just created, default). Read-only Boolean. |
-| [JoinStyle](joinstyle) { get; set; } | Returns or sets the lines join style. Read/write [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](miterlimit) { get; set; } | Returns or sets the miter limit of a line. Read/write Single. |
-| [SketchFormat](sketchformat) { get; } | Returns the sketch format of a line. Read-only [`ILineFillFormat`](../ilinefillformat). |
-| [Style](style) { get; set; } | Returns or sets the line style. Read/write [`LineStyle`](../linestyle). |
-| [Width](width) { get; set; } | Returns or sets the width of a line. Read/write Double. |
+| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Returns or sets the line alignment. Read/write [`LineAlignment`](../linealignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Returns or sets the arrowhead length at the beginning of a line. Read/write [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Returns or sets the arrowhead style at the beginning of a line. Read/write [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Returns or sets the arrowhead width at the beginning of a line. Read/write [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Returns or sets the line cap style. Read/write [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Returns or sets the custom dash pattern. Read/write Single[]. |
+| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Returns or sets the line dash style. Read/write [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Returns or sets the arrowhead length at the end of a line. Read/write [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Returns or sets the arrowhead style at the end of a line. Read/write [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Returns or sets the arrowhead width at the end of a line. Read/write [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Returns the fill format of a line. Read-only [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Returns true if line format is not defined (as just created, default). Read-only Boolean. |
+| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Returns or sets the lines join style. Read/write [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Returns or sets the miter limit of a line. Read/write Single. |
+| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Returns the sketch format of a line. Read-only [`ILineFillFormat`](../ilinefillformat). |
+| [Style](../../aspose.slides/lineformat/style) { get; set; } | Returns or sets the line style. Read/write [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | Returns or sets the width of a line. Read/write Double. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(ILineFormat) | Determines whether the two LineFormat instances are equal. |
-| [GetEffective](geteffective)() | Gets effective line formatting data with the inheritance applied. |
+| [Equals](../../aspose.slides/lineformat/equals)(ILineFormat) | Determines whether the two LineFormat instances are equal. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Gets effective line formatting data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

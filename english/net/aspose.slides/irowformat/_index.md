@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective table row formatting properties with inheritance and table styles applied. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Gets effective table row formatting properties with inheritance and table styles applied. |
 
 ### See Also
 

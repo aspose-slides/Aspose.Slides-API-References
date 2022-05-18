@@ -18,16 +18,17 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 | Name | Description |
 | --- | --- |
-| [AsCell](ascell) { get; set; } | Returns or sets chart data cell. Read/write [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets value as literal double. Read/write Double. |
-| [AsLiteralString](asliteralstring) { get; set; } | Returns or sets value as literal string. Read/write String. |
-| override [Data](data) { get; set; } | Returns or sets Data object. Read/write Object. |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Returns or sets chart data cell. Read/write [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Returns or sets value as literal double. Read/write Double. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Returns or sets value as literal string. Read/write String. |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Returns or sets Data object. Read/write Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write [`DataSourceType`](../datasourcetype). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToDouble](todouble)() | Converts to double. |
+| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Converts to double. |
 
 ### See Also
 

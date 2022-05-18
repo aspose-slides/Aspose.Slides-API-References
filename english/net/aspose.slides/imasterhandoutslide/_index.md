@@ -18,9 +18,9 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseSlide](asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](asimasterthemeable) { get; } | Returns IMasterThemeable interface. Read-only [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the master handout slide. Read-only [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Returns IMasterThemeable interface. Read-only [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Returns HeaderFooter manager of the master handout slide. Read-only [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### See Also
 

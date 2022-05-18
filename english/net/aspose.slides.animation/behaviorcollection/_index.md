@@ -18,23 +18,23 @@ public class BehaviorCollection : IBehaviorCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of behaviors in a collection. Read-only Int32. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
-| [Item](item) { get; set; } | Retirns a behavior at the specified index. |
+| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | Returns the number of behaviors in a collection. Read-only Int32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
+| [Item](../../aspose.slides.animation/behaviorcollection/item) { get; set; } | Retirns a behavior at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IBehavior) | Add new behavior to a collection. |
-| [Clear](clear)() | Removes all behaviors from a collection. |
-| [Contains](contains)(IBehavior) | Determines whether the ICollection contains a specific value. |
-| [CopyTo](copyto)(IBehavior[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(IBehavior) | Determines the index of a specific item in the IList. |
-| [Insert](insert)(int, IBehavior) | Inserts new behavior to a collection at the specified index. |
-| [Remove](remove)(IBehavior) | Removes specified behavior from a collection. |
-| [RemoveAt](removeat)(int) | Removes behavior from a collection at the specified index. |
+| [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | Add new behavior to a collection. |
+| [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | Removes all behaviors from a collection. |
+| [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | Determines whether the ICollection contains a specific value. |
+| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
+| [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | Determines the index of a specific item in the IList. |
+| [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | Inserts new behavior to a collection at the specified index. |
+| [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | Removes specified behavior from a collection. |
+| [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | Removes behavior from a collection at the specified index. |
 
 ### See Also
 

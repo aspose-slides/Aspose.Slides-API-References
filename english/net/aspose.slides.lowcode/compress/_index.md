@@ -18,8 +18,8 @@ public static class Compress
 
 | Name | Description |
 | --- | --- |
-| static [RemoveUnusedLayoutSlides](removeunusedlayoutslides)(Presentation) | Makes compression of the [`Presentation`](../../aspose.slides/presentation) by removing unused layout slides. |
-| static [RemoveUnusedMasterSlides](removeunusedmasterslides)(Presentation) | Makes compression of the [`Presentation`](../../aspose.slides/presentation) by removing unused master slides. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Makes compression of the [`Presentation`](../../aspose.slides/presentation) by removing unused layout slides. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Makes compression of the [`Presentation`](../../aspose.slides/presentation) by removing unused master slides. |
 
 ### Examples
 

@@ -24,16 +24,16 @@ public sealed class FontData : IFontData
 
 | Name | Description |
 | --- | --- |
-| [FontName](fontname) { get; } | Returns the font name. Read/write String. |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Returns the font name. Read/write String. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether two FontData instances are equal. |
-| [GetFontName](getfontname)(IThemeEffectiveData) | Returns the font name, replacing theme referrence with an actual font used. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
-| override [ToString](tostring)() | Returns string representation. |
+| override [Equals](../../aspose.slides/fontdata/equals)(object) | Determines whether two FontData instances are equal. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Returns the font name, replacing theme referrence with an actual font used. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| override [ToString](../../aspose.slides/fontdata/tostring)() | Returns string representation. |
 
 ### See Also
 

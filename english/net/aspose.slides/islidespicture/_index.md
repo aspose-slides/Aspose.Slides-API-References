@@ -18,10 +18,10 @@ public interface ISlidesPicture : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
-| [Image](image) { get; set; } | Returns or sets the embedded image. Read/write [`IPPImage`](../ippimage). |
-| [ImageTransform](imagetransform) { get; } | Returns the collection of image transform effects. Read-only [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](linkpathlong) { get; set; } | Returns of sets linked image's URL. Read/write String. |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Returns or sets the embedded image. Read/write [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Returns the collection of image transform effects. Read-only [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Returns of sets linked image's URL. Read/write String. |
 
 ### See Also
 

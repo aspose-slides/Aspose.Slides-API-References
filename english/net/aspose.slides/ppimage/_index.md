@@ -18,24 +18,24 @@ public class PPImage : IDisposable, IPPImage
 
 | Name | Description |
 | --- | --- |
-| [BinaryData](binarydata) { get; } | Returns the copy of an image's data. Read-only Byte[]. |
-| [ContentType](contenttype) { get; } | Returns a MIME type of an image, encoded in [`BinaryData`](./binarydata). Read-only String. |
-| [Height](height) { get; } | Returns a height of an image. Read-only Int32. |
-| [SvgImage](svgimage) { get; set; } | Returns or sets ISvgImage object [`ISvgImage`](../isvgimage) |
-| [SystemImage](systemimage) { get; } | Returns the copy of an image. Read-only Image. |
-| [Width](width) { get; } | Returns a width of an image. Read-only Int32. |
-| [X](x) { get; } | Returns a X-offset of an image. Read-only Int32. |
-| [Y](y) { get; } | Returns a Y-offset of an image. Read-only Int32. |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Returns the copy of an image's data. Read-only Byte[]. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Returns a MIME type of an image, encoded in [`BinaryData`](./binarydata). Read-only String. |
+| [Height](../../aspose.slides/ppimage/height) { get; } | Returns a height of an image. Read-only Int32. |
+| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Returns or sets ISvgImage object [`ISvgImage`](../isvgimage) |
+| [SystemImage](../../aspose.slides/ppimage/systemimage) { get; } | Returns the copy of an image. Read-only Image. |
+| [Width](../../aspose.slides/ppimage/width) { get; } | Returns a width of an image. Read-only Int32. |
+| [X](../../aspose.slides/ppimage/x) { get; } | Returns a X-offset of an image. Read-only Int32. |
+| [Y](../../aspose.slides/ppimage/y) { get; } | Returns a Y-offset of an image. Read-only Int32. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Disposes object. |
-| override [GetHashCode](gethashcode)() | Returns the hash code of an image. |
-| [ReplaceImage](replaceimage)(byte[]) | Replaces image data. The new image's data.When newImageData parameter is null. |
-| [ReplaceImage](replaceimage)(Image) | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null. |
-| [ReplaceImage](replaceimage)(IPPImage) | Replaces image data. The new IPPImage.When newImage parameter is null. |
+| [Dispose](../../aspose.slides/ppimage/dispose)() | Disposes object. |
+| override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Returns the hash code of an image. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage)(byte[]) | Replaces image data. The new image's data.When newImageData parameter is null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage)(Image) | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage)(IPPImage) | Replaces image data. The new IPPImage.When newImage parameter is null. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public interface ISmartArtShape : IGeometryShape
 
 | Name | Description |
 | --- | --- |
-| [AsIGeometryShape](asigeometryshape) { get; } | Allows to get base IGeometryShape interface. Read-only [`IGeometryShape`](../../aspose.slides/igeometryshape). |
-| [TextFrame](textframe) { get; } | Returns text of the SmartArt shape. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Allows to get base IGeometryShape interface. Read-only [`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Returns text of the SmartArt shape. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### See Also
 

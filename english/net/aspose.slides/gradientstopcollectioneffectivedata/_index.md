@@ -18,17 +18,17 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of gradient stops in a collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns the gradient stop by index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Returns the number of gradient stops in a collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Returns the gradient stop by index. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

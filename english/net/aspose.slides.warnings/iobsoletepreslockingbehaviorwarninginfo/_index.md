@@ -18,7 +18,7 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | Name | Description |
 | --- | --- |
-| [AsIWarningInfo](asiwarninginfo) { get; } | Returns IWarningInfo interface. Read-only [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Returns IWarningInfo interface. Read-only [`IWarningInfo`](../iwarninginfo). |
 
 ### See Also
 

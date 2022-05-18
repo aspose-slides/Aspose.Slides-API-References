@@ -18,12 +18,12 @@ public interface IHtmlFormattingController
 
 | Name | Description |
 | --- | --- |
-| [WriteDocumentEnd](writedocumentend)(IHtmlGenerator, IPresentation) | Called to write html document footer. Called once per presentation conversion. |
-| [WriteDocumentStart](writedocumentstart)(IHtmlGenerator, IPresentation) | Called to write html document header. Called once per presentation conversion. |
-| [WriteShapeEnd](writeshapeend)(IHtmlGenerator, IShape) | Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous. |
-| [WriteShapeStart](writeshapestart)(IHtmlGenerator, IShape) | Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous. |
-| [WriteSlideEnd](writeslideend)(IHtmlGenerator, ISlide) | Called to write html slide footer. Called once per each of slides. |
-| [WriteSlideStart](writeslidestart)(IHtmlGenerator, ISlide) | Called to write html slide header. Called once per each of slides. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Called to write html document footer. Called once per presentation conversion. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Called to write html document header. Called once per presentation conversion. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Called to write html slide footer. Called once per each of slides. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Called to write html slide header. Called once per each of slides. |
 
 ### See Also
 

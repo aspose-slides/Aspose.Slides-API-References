@@ -18,20 +18,20 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 | Name | Description |
 | --- | --- |
-| [GroupingLevelCount](groupinglevelcount) { get; } | Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only Int32. |
-| [Item](item) { get; } | Gets the element at the specified index. |
-| [UseCells](usecells) { get; set; } | If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write Boolean. |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only Int32. |
+| [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | Gets the element at the specified index. |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write Boolean. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IChartDataCell) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
-| [Add](add)(object) | Creates new [`IChartCategory`](../ichartcategory) from value and adds it to the collection. |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [IndexOf](indexof)(IChartCategory) | Searches for the specified [`IChartCategory`](../ichartcategory) and returns the zero-based index of the first occurrence within the entire Collection |
-| [Remove](remove)(IChartCategory) | Removes the specified value. |
-| [RemoveAt](removeat)(int) | Removes the element at the given index. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add)(IChartDataCell) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add)(object) | Creates new [`IChartCategory`](../ichartcategory) from value and adds it to the collection. |
+| [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | Removes all elements from the collection. |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Searches for the specified [`IChartCategory`](../ichartcategory) and returns the zero-based index of the first occurrence within the entire Collection |
+| [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | Removes the specified value. |
+| [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Removes the element at the given index. |
 
 ### See Also
 

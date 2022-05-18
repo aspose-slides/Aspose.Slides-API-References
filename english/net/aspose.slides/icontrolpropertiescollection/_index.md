@@ -18,18 +18,18 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
-| [Count](count) { get; } | Returns a number of properties in the collection. Read-only Int32. |
-| [Item](item) { get; set; } | Returns or sets property. |
-| [NamesOfProperties](namesofproperties) { get; } | Returns a number of properties in the collection. Read-only ICollection. |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Returns a number of properties in the collection. Read-only Int32. |
+| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Returns or sets property. |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Returns a number of properties in the collection. Read-only ICollection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, string) | Adds a property to the collection. |
-| [Clear](clear)() | Removes all properties. |
-| [Remove](remove)(string) | Removes a property with the specified name. |
+| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Adds a property to the collection. |
+| [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Removes all properties. |
+| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Removes a property with the specified name. |
 
 ### See Also
 

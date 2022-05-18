@@ -18,10 +18,10 @@ public class Placeholder : IPlaceholder
 
 | Name | Description |
 | --- | --- |
-| [Index](index) { get; } | Gets or sets the index of a placeholder. Read-only UInt32. |
-| [Orientation](orientation) { get; } | Gets or sets the orientation of a placeholder. Read-only [`Orientation`](../orientation). |
-| [Size](size) { get; } | Gets or sets the size of a placeholder. Read-only [`PlaceholderSize`](../placeholdersize). |
-| [Type](type) { get; } | Gets or sets the type of a placeholder. Read-only [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | Gets or sets the index of a placeholder. Read-only UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Gets or sets the orientation of a placeholder. Read-only [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | Gets or sets the size of a placeholder. Read-only [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | Gets or sets the type of a placeholder. Read-only [`PlaceholderType`](../placeholdertype). |
 
 ### See Also
 

@@ -18,16 +18,16 @@ public interface ITheme : IPresentationComponent
 
 | Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [ColorScheme](colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
-| [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatScheme`](../iformatscheme). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatScheme`](../iformatscheme). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective theme data with the inheritance applied. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Gets effective theme data with the inheritance applied. |
 
 ### See Also
 

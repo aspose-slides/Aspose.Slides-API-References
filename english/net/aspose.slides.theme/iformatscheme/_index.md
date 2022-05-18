@@ -18,11 +18,11 @@ public interface IFormatScheme : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](backgroundfillstyles) { get; } | Returns a collection of theme defined background fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](effectstyles) { get; } | Returns a collection of theme defined effect styles. Read-only [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](fillstyles) { get; } | Returns a collection of theme defined fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](linestyles) { get; } | Returns a collection of theme defined line styles. Read-only [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Returns a collection of theme defined background fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Returns a collection of theme defined effect styles. Read-only [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Returns a collection of theme defined fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Returns a collection of theme defined line styles. Read-only [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### See Also
 

@@ -24,12 +24,16 @@ public class PropertyEffect : Behavior, IPropertyEffect
 
 | Name | Description |
 | --- | --- |
-| [By](by) { get; set; } | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
-| [CalcMode](calcmode) { get; set; } | Specifies the interpolation mode for the animation Read/write [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](from) { get; set; } | Specifies the starting value of the animation. Read/write String. |
-| [Points](points) { get; set; } | Specifies the points of the animation. Read/write [`IPointCollection`](../ipointcollection). |
-| [To](to) { get; set; } | Specifies the ending value for the animation. Read/write String. |
-| [ValueType](valuetype) { get; set; } | Specifies the type of a property value. Read/write [`PropertyValueType`](../propertyvaluetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Represents whether animation behaviors are accumulated. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Represents whether the current animation behavior is combined with other running animations. Read/write [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+| [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | Specifies the interpolation mode for the animation Read/write [`PropertyCalcModeType`](../propertycalcmodetype). |
+| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | Specifies the starting value of the animation. Read/write String. |
+| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | Specifies the points of the animation. Read/write [`IPointCollection`](../ipointcollection). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Represents properties of behavior. Read-only [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Represents timing properties for the effect behavior. Read/write [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | Specifies the ending value for the animation. Read/write String. |
+| [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | Specifies the type of a property value. Read/write [`PropertyValueType`](../propertyvaluetype). |
 
 ### See Also
 

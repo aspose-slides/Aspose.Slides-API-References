@@ -18,23 +18,23 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns count of custom xml parts in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns the element at the specified index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Returns count of custom xml parts in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Returns the element at the specified index. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(byte[]) | Adds new custom xml part. |
-| [Add](add)(Stream) | Adds new custom xml part. |
-| [Add](add)(string) | Adds new custom xml part. |
-| [Clear](clear)() | Removes all items from the collection. |
-| [CopyTo](copyto)(Array, int) | Copy to specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(ICustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(int) | Removes custom xml part at the specified index. |
+| [Add](../../aspose.slides/customxmlpartcollection/add)(byte[]) | Adds new custom xml part. |
+| [Add](../../aspose.slides/customxmlpartcollection/add)(Stream) | Adds new custom xml part. |
+| [Add](../../aspose.slides/customxmlpartcollection/add)(string) | Adds new custom xml part. |
+| [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Removes all items from the collection. |
+| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Copy to specified array. |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Removes custom xml part at the specified index. |
 
 ### See Also
 

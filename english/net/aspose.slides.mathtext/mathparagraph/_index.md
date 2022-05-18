@@ -25,22 +25,22 @@ public class MathParagraph : IMathParagraph
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [Item](item) { get; set; } | Gets the item at the specified index. Read-only [`IMathBlock`](../imathblock). |
-| [Justification](justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Gets the item at the specified index. Read-only [`IMathBlock`](../imathblock). |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IMathBlock) | Adds IMathBlock to the end of collection. |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(IMathBlock) | Determines whether the collection contains a specific value. |
-| [IndexOf](indexof)(IMathBlock) | Determines the index of a specific IMathBlock in collection. |
-| [Insert](insert)(int, IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
-| [Remove](remove)(IMathBlock) | Removes the first occurrence of a specific object from the collection/&gt;. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index of the collection. |
-| [WriteAsMathMl](writeasmathml)(Stream) | Saves content of this [`MathParagraph`](../mathparagraph) as MathML |
+| [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Adds IMathBlock to the end of collection. |
+| [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Removes all elements from the collection. |
+| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Determines whether the collection contains a specific value. |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Determines the index of a specific IMathBlock in collection. |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Removes the first occurrence of a specific object from the collection/&gt;. |
+| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Removes an item at the specified index of the collection. |
+| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Saves content of this [`MathParagraph`](../mathparagraph) as MathML |
 
 ### Examples
 

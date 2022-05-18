@@ -18,12 +18,12 @@ public interface ILineFillFormat : IFillParamSource
 
 | Name | Description |
 | --- | --- |
-| [AsIFillParamSource](asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
-| [FillType](filltype) { get; set; } | Returns or sets the fill type. Read/write [`FillType`](../filltype). |
-| [GradientFormat](gradientformat) { get; } | Returns the gradient fill format. Read-only [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](patternformat) { get; } | Returns the pattern fill format. Read-only [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](rotatewithshape) { get; set; } | Determines whether the fill should be rotated with a shape. Read/write [`NullableBool`](../nullablebool). |
-| [SolidFillColor](solidfillcolor) { get; } | Returns the color of a solid fill. Read-only [`IColorFormat`](../icolorformat). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Returns or sets the fill type. Read/write [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Returns the gradient fill format. Read-only [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Returns the pattern fill format. Read-only [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Determines whether the fill should be rotated with a shape. Read/write [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Returns the color of a solid fill. Read-only [`IColorFormat`](../icolorformat). |
 
 ### See Also
 

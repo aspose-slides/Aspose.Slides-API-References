@@ -18,9 +18,9 @@ public interface IFonts
 
 | Name | Description |
 | --- | --- |
-| [ComplexScriptFont](complexscriptfont) { get; set; } | Returns or sets the complex script font. Read/write [`IFontData`](../ifontdata). |
-| [EastAsianFont](eastasianfont) { get; set; } | Returns or sets the East Asian font. Read/write [`IFontData`](../ifontdata). |
-| [LatinFont](latinfont) { get; set; } | Returns or sets the Latin font. Read/write [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Returns or sets the complex script font. Read/write [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Returns or sets the East Asian font. Read/write [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Returns or sets the Latin font. Read/write [`IFontData`](../ifontdata). |
 
 ### See Also
 

@@ -18,10 +18,10 @@ public interface IMathLimit : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](base) { get; } | Base argument |
-| [Limit](limit) { get; } | Limit argument |
-| [UpperLimit](upperlimit) { get; set; } | Specifies upper or lower limit |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Base argument |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Limit argument |
+| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Specifies upper or lower limit |
 
 ### Examples
 

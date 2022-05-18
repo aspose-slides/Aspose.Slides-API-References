@@ -18,13 +18,13 @@ public class NormalViewProperties : INormalViewProperties
 
 | Name | Description |
 | --- | --- |
-| [HorizontalBarState](horizontalbarstate) { get; set; } | Specifies the state that the horizontal splitter bar should be shown in. A horizontal splitter bar separates the slide from the content region below the slide. |
-| [PreferSingleView](prefersingleview) { get; set; } | Specifies whether the user prefers to see a full-window single-content region over the standard normal view with three content regions. If enabled, the application may choose to display one of the content regions in the entire window. Read/write Boolean. |
-| [RestoredLeft](restoredleft) { get; } | This element specifies the sizing of the side content region of the normal view, when the region is of a variable restored size(neither minimized nor maximized). Read opnly [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](restoredtop) { get; } | This element specifies the sizing of the top slide region of the normal view, when the region is of a variable restored size(neither minimized nor maximized). Read only [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](showoutlineicons) { get; set; } | Specifies whether the application should show icons if displaying outline content in any of the content regions of normal view mode. Read/write Boolean. |
-| [SnapVerticalSplitter](snapverticalsplitter) { get; set; } | Specifies whether the vertical splitter should snap to a minimized state when the side region is sufficiently small. Read/write Boolean. |
-| [VerticalBarState](verticalbarstate) { get; set; } | Specifies the state that the vertical splitter bar should be shown in. A vertical splitter bar separates the slide from the side content region. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Specifies the state that the horizontal splitter bar should be shown in. A horizontal splitter bar separates the slide from the content region below the slide. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Specifies whether the user prefers to see a full-window single-content region over the standard normal view with three content regions. If enabled, the application may choose to display one of the content regions in the entire window. Read/write Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | This element specifies the sizing of the side content region of the normal view, when the region is of a variable restored size(neither minimized nor maximized). Read opnly [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | This element specifies the sizing of the top slide region of the normal view, when the region is of a variable restored size(neither minimized nor maximized). Read only [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Specifies whether the application should show icons if displaying outline content in any of the content regions of normal view mode. Read/write Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Specifies whether the vertical splitter should snap to a minimized state when the side region is sufficiently small. Read/write Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Specifies the state that the vertical splitter bar should be shown in. A vertical splitter bar separates the slide from the side content region. |
 
 ### See Also
 

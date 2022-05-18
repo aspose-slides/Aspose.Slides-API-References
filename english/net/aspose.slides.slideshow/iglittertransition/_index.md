@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](pattern) { get; set; } | Specifies the shape of the visuals used during the transition. Read/write [`TransitionPattern`](../transitionpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Direction of transition. Read/write [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Specifies the shape of the visuals used during the transition. Read/write [`TransitionPattern`](../transitionpattern). |
 
 ### See Also
 

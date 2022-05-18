@@ -18,14 +18,14 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Name | Description |
 | --- | --- |
-| [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ConvertToGroupShape](converttogroupshape)() | Converts legacy digram to editable group shape. Created GroupShape object adds to parent group shape at the same position. |
-| [ConvertToSmartArt](converttosmartart)() | Converts legacy digram to editable SmartArt object. Created SmartArt object adds to parent group shape at the same position. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Converts legacy digram to editable group shape. Created GroupShape object adds to parent group shape at the same position. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Converts legacy digram to editable SmartArt object. Created SmartArt object adds to parent group shape at the same position. |
 
 ### See Also
 

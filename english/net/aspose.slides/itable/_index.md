@@ -18,26 +18,26 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](asibulktextformattable) { get; } | Allows to get base IBulkTextFormattable interface. Read-only [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](columns) { get; } | Returns the collectoin of columns. Read-only [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](firstcol) { get; set; } | Determines whether the first column of a table has to be drawn with a special formatting. Read/write Boolean. |
-| [FirstRow](firstrow) { get; set; } | Determines whether the first row of a table has to be drawn with a special formatting. Read/write Boolean. |
-| [HorizontalBanding](horizontalbanding) { get; set; } | Determines whether the even rows has to be drawn with a different formatting. Read/write Boolean. |
-| [Item](item) { get; } | Returns the cell at the specified column and row indexes. Read-only [`ICell`](../icell). |
-| [LastCol](lastcol) { get; set; } | Determines whether the last column of a table has to be drawn with a special formatting. Read/write Boolean. |
-| [LastRow](lastrow) { get; set; } | Determines whether the last row of a table has to be drawn with a special formatting. Read/write Boolean. |
-| [RightToLeft](righttoleft) { get; set; } | Determines whether the table has right to left reading order. Read-write Boolean. |
-| [Rows](rows) { get; } | Returns the collectoin of rows. Read-only [`IRowCollection`](../irowcollection). |
-| [StylePreset](stylepreset) { get; set; } | Get's or sets builtin table style. Read/write [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](tableformat) { get; } | Returns the TableFormat object that contains formatting properties for this table. Read-only [`ITableFormat`](../itableformat). |
-| [VerticalBanding](verticalbanding) { get; set; } | Determines whether the even columns has to be drawn with a different formatting. Read/write Boolean. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Allows to get base IBulkTextFormattable interface. Read-only [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Returns the collectoin of columns. Read-only [`IColumnCollection`](../icolumncollection). |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Determines whether the first column of a table has to be drawn with a special formatting. Read/write Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Determines whether the first row of a table has to be drawn with a special formatting. Read/write Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Determines whether the even rows has to be drawn with a different formatting. Read/write Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | Returns the cell at the specified column and row indexes. Read-only [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Determines whether the last column of a table has to be drawn with a special formatting. Read/write Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Determines whether the last row of a table has to be drawn with a special formatting. Read/write Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Determines whether the table has right to left reading order. Read-write Boolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Returns the collectoin of rows. Read-only [`IRowCollection`](../irowcollection). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Get's or sets builtin table style. Read/write [`TableStylePreset`](../tablestylepreset). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Returns the TableFormat object that contains formatting properties for this table. Read-only [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Determines whether the even columns has to be drawn with a different formatting. Read/write Boolean. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [MergeCells](mergecells)(ICell, ICell, bool) | Merges neighbour cells. |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Merges neighbour cells. |
 
 ### See Also
 

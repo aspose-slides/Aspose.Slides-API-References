@@ -18,17 +18,18 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | Name | Description |
 | --- | --- |
-| [AsCells](ascells) { get; set; } | Null value assigning is not allowed. Returning value always is not null. Read/write [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](asliteralstring) { get; set; } | Returns or sets value as literal string. Read/write String. |
-| override [Data](data) { get; set; } | Returns or sets Data object. Read/write Object. |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Null value assigning is not allowed. Returning value always is not null. Read/write [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Returns or sets value as literal string. Read/write String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Returns or sets Data object. Read/write Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write [`DataSourceType`](../datasourcetype). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](getcellsaddressinworkbook)() | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
-| [SetFromOneCell](setfromonecell)(IChartDataCell) | Sets value from specified cell. |
-| override [ToString](tostring)() | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Sets value from specified cell. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
 
 ### See Also
 

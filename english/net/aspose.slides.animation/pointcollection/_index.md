@@ -24,14 +24,14 @@ public class PointCollection : IPointCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of points in the collection. Read-only Int32. |
-| [Item](item) { get; } | Returns a point at the specified index. |
+| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Returns the number of points in the collection. Read-only Int32. |
+| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Returns a point at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

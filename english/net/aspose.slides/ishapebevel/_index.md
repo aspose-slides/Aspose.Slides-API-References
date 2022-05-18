@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | Name | Description |
 | --- | --- |
-| [BevelType](beveltype) { get; set; } | Bevel type. Read/write [`BevelPresetType`](../bevelpresettype). |
-| [Height](height) { get; set; } | Bevel height. Read/write Double. |
-| [Width](width) { get; set; } | Bevel width. Read/write Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Bevel type. Read/write [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Bevel height. Read/write Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Bevel width. Read/write Double. |
 
 ### See Also
 

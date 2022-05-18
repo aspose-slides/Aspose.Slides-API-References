@@ -24,9 +24,13 @@ public class CommandEffect : Behavior, ICommandEffect
 
 | Name | Description |
 | --- | --- |
-| [CommandString](commandstring) { get; set; } | Defines command string. Read/write String. |
-| [ShapeTarget](shapetarget) { get; set; } | Defines shape target of command effect. Read/write [`IShape`](../../aspose.slides/ishape). |
-| [Type](type) { get; set; } | Defines command effect type of behavior. Read/write [`CommandEffectType`](../commandeffecttype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Represents whether animation behaviors are accumulated. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Represents whether the current animation behavior is combined with other running animations. Read/write [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Defines command string. Read/write String. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Represents properties of behavior. Read-only [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Defines shape target of command effect. Read/write [`IShape`](../../aspose.slides/ishape). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Represents timing properties for the effect behavior. Read/write [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Defines command effect type of behavior. Read/write [`CommandEffectType`](../commandeffecttype). |
 
 ### See Also
 

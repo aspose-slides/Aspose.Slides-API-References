@@ -18,16 +18,16 @@ public interface IMathBorderBox : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](base) { get; } | Base argument |
-| [HideBottom](hidebottom) { get; set; } | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
-| [HideLeft](hideleft) { get; set; } | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
-| [HideRight](hideright) { get; set; } | Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
-| [HideTop](hidetop) { get; set; } | Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
-| [StrikethroughBottomLeftToTopRight](strikethroughbottomlefttotopright) { get; set; } | Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
-| [StrikethroughHorizontal](strikethroughhorizontal) { get; set; } | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
-| [StrikethroughTopLeftToBottomRight](strikethroughtoplefttobottomright) { get; set; } | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
-| [StrikethroughVertical](strikethroughvertical) { get; set; } | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Base argument |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
 
 ### Examples
 

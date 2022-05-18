@@ -24,7 +24,7 @@ public class MathMatrixFactory : IMathMatrixFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathMatrix](createmathmatrix)(int, int) | Creates a math matrix |
+| [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | Creates a math matrix |
 
 ### Remarks
 

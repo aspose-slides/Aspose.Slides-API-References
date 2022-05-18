@@ -18,9 +18,9 @@ public interface IHtml5Options : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AnimateShapes](animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |
-| [AnimateTransitions](animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
-| [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
 
 ### Examples
 

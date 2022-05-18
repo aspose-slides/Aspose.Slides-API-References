@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns the gradient stop by index. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Returns the gradient stop by index. |
 
 ### See Also
 

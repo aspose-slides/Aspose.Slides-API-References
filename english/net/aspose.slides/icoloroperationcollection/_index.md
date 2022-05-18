@@ -19,18 +19,18 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } | Returns or sets the operation at the specified index. Read/write [`IColorOperation`](../icoloroperation). |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Returns or sets the operation at the specified index. Read/write [`IColorOperation`](../icoloroperation). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(ColorTransformOperation) | Adds a new operation to the end of collection. |
-| [Add](add)(ColorTransformOperation, float) | Adds a new operation to the end of collection. |
-| [Clear](clear)() | Removes all color operations. |
-| [Insert](insert)(int, ColorTransformOperation) | Inserts the new operation to a collection. |
-| [Insert](insert)(int, ColorTransformOperation, float) | Inserts the new operation to a collection. |
-| [RemoveAt](removeat)(int) | Removes the color operation from a collection. |
+| [Add](../../aspose.slides/icoloroperationcollection/add)(ColorTransformOperation) | Adds a new operation to the end of collection. |
+| [Add](../../aspose.slides/icoloroperationcollection/add)(ColorTransformOperation, float) | Adds a new operation to the end of collection. |
+| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Removes all color operations. |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert)(int, ColorTransformOperation) | Inserts the new operation to a collection. |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert)(int, ColorTransformOperation, float) | Inserts the new operation to a collection. |
+| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Removes the color operation from a collection. |
 
 ### See Also
 

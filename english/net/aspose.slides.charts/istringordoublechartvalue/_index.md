@@ -18,15 +18,15 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | Name | Description |
 | --- | --- |
-| [AsISingleCellChartValue](asisinglecellchartvalue) { get; } | Allows to get base ISingleCellChartValue interface. Read-only [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals. Read/write Double. |
-| [AsLiteralString](asliteralstring) { get; set; } | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals. Read/write String. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Allows to get base ISingleCellChartValue interface. Read-only [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Returns or sets the literal double if DataSourceType property is DataSourceType.DoubleLiterals. Read/write Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals. Read/write String. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToDouble](todouble)() | Converts value to double. |
+| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Converts value to double. |
 
 ### See Also
 

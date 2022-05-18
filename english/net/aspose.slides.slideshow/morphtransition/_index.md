@@ -18,7 +18,14 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | Name | Description |
 | --- | --- |
-| [MorphType](morphtype) { get; set; } | Type of morph transition. Read/write [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Type of morph transition. Read/write [`TransitionMorphType`](../transitionmorphtype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 

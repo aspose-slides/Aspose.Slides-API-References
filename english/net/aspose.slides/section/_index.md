@@ -18,15 +18,15 @@ public class Section : DomObject<SectionCollection>, ISection
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Name of the section. |
-| [SectionId](sectionid) { get; } | Section Id. |
-| [StartedFromSlide](startedfromslide) { get; } | Returns first slide of the section. |
+| [Name](../../aspose.slides/section/name) { get; set; } | Name of the section. |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | Section Id. |
+| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Returns first slide of the section. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetSlidesListOfSection](getslideslistofsection)() | Returns list of slides in the section. |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | Returns list of slides in the section. |
 
 ### See Also
 

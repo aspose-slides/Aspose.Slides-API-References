@@ -18,18 +18,18 @@ public class SequenceCollection : ISequenceCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of elements in a collection Read-only Int32. |
-| [Item](item) { get; } | Returns a sequense at the specified index. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Returns the number of elements in a collection Read-only Int32. |
+| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Returns a sequense at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IShape) | Add new interactive sequence. Read/write [`Sequence`](../sequence). |
-| [Clear](clear)() | Removes all sequences from a collection. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(ISequence) | Removes specified sequence from a collection. |
-| [RemoveAt](removeat)(int) | Removes sequence at the specified index. |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Add new interactive sequence. Read/write [`Sequence`](../sequence). |
+| [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Removes all sequences from a collection. |
+| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Removes specified sequence from a collection. |
+| [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Removes sequence at the specified index. |
 
 ### See Also
 

@@ -18,17 +18,17 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns a number of elements in the collection. Read-only Int32, Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns an element at specified position. Read-only [`EffectStyle`](../effectstyle). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Returns a number of elements in the collection. Read-only Int32, Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Returns an element at specified position. Read-only [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

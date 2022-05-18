@@ -18,9 +18,9 @@ public interface IAnimationTimeLine
 
 | Name | Description |
 | --- | --- |
-| [InteractiveSequences](interactivesequences) { get; } | Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](mainsequence) { get; } | Returns main sequence which may contain only main effects collection. Read-only [`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](textanimationcollection) { get; } | Returns collection of text animations. Read-only [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Returns main sequence which may contain only main effects collection. Read-only [`ISequence`](../../aspose.slides.animation/isequence). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Returns collection of text animations. Read-only [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### See Also
 

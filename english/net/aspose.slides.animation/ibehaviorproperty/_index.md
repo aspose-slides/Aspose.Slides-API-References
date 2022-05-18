@@ -18,8 +18,8 @@ public interface IBehaviorProperty
 
 | Name | Description |
 | --- | --- |
-| [IsCustom](iscustom) { get; } | Shows if this property does not belong to the predefined properties list in the specification: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
-| [Value](value) { get; } | Value of the property |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Shows if this property does not belong to the predefined properties list in the specification: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | Value of the property |
 
 ### See Also
 

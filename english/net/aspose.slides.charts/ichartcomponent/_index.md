@@ -18,8 +18,8 @@ public interface IChartComponent : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Chart](chart) { get; } | Returns the chart. Read-only [`IChart`](../ichart). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Returns the chart. Read-only [`IChart`](../ichart). |
 
 ### See Also
 

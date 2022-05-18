@@ -18,11 +18,11 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseSlide](asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](asioverridethemeable) { get; } | Returns IOverrideThemeable interface. Read-only [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the notes slide. Read-only [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](notestextframe) { get; } | Returns a TextFrame with notes' text if there is one. Read-only [`ITextFrame`](../itextframe). |
-| [ParentSlide](parentslide) { get; } | Returns a ParentSlide Read-only [`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Returns IOverrideThemeable interface. Read-only [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Returns HeaderFooter manager of the notes slide. Read-only [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Returns a TextFrame with notes' text if there is one. Read-only [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Returns a ParentSlide Read-only [`ISlide`](../islide). |
 
 ### See Also
 

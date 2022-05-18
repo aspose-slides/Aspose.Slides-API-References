@@ -18,19 +18,19 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Gets the element at the specified index. |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddEmptyModule](addemptymodule)(string) | Adds a new empty module to the VBA Project. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(IVbaModule) | Removes the first occurrence of a specific object from the collection. |
+| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Adds a new empty module to the VBA Project. |
+| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Removes the first occurrence of a specific object from the collection. |
 
 ### See Also
 

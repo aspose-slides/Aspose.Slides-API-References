@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | Name | Description |
 | --- | --- |
-| [Description](description) { get; } | Returns a human readable description of this warning. Read-only String. |
-| [WarningType](warningtype) { get; } | Returns a type of warning. Read-only [`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Returns a human readable description of this warning. Read-only String. |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Returns a type of warning. Read-only [`WarningType`](./warningtype). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SendWarning](sendwarning)(IWarningCallback) | If receiver is not null ends warning to a specified receiver and throws the AbortRequestedException if receiver decided to abort a operation. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | If receiver is not null ends warning to a specified receiver and throws the AbortRequestedException if receiver decided to abort a operation. |
 
 ### See Also
 

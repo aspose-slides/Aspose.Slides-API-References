@@ -18,8 +18,8 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | Name | Description |
 | --- | --- |
-| [AsIFormattedTextContainer](asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](hide) { get; set; } | Returns or sets the hide flag of legend entry. Read/write Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Returns or sets the hide flag of legend entry. Read/write Boolean. |
 
 ### See Also
 

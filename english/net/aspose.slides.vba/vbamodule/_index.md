@@ -18,8 +18,8 @@ public sealed class VbaModule : IVbaModule
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; } | Gets the name of the module. Read-only String. |
-| [SourceCode](sourcecode) { get; set; } | Returns or sets the source code of the module. Read/write String. |
+| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Gets the name of the module. Read-only String. |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Returns or sets the source code of the module. Read/write String. |
 
 ### See Also
 

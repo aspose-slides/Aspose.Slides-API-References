@@ -18,8 +18,8 @@ public interface IFormattedTextContainer : IChartComponent
 
 | Name | Description |
 | --- | --- |
-| [AsIChartComponent](asichartcomponent) { get; } | Returns IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
-| [TextFormat](textformat) { get; } | Returns chart text format. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Returns IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Returns chart text format. Read-only [`IChartTextFormat`](../icharttextformat). |
 
 ### See Also
 

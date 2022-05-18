@@ -18,10 +18,10 @@ public interface IDigitalSignature
 
 | Name | Description |
 | --- | --- |
-| [Certificate](certificate) { get; } | Certificate object that was used to sign the document. Read-only X509Certificate2. |
-| [Comments](comments) { get; set; } | The purpose of signature. Read/write String. |
-| [IsValid](isvalid) { get; } | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only Boolean. |
-| [SignTime](signtime) { get; } | The time when the document was signed. Read-only DateTime. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Certificate object that was used to sign the document. Read-only X509Certificate2. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | The purpose of signature. Read/write String. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | The time when the document was signed. Read-only DateTime. |
 
 ### See Also
 

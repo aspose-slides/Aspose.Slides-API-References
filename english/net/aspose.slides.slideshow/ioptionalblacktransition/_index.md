@@ -18,8 +18,8 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 | Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](fromblack) { get; set; } | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write Boolean. |
 
 ### See Also
 

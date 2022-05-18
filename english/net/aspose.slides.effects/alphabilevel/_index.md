@@ -18,15 +18,16 @@ public class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 | Name | Description |
 | --- | --- |
-| [Threshold](threshold) { get; set; } | Returns effect threshold. Read/write Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Returns effect threshold. Read/write Single. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`AlphaBiLevel`](../alphabilevel) is equal to the current [`AlphaBiLevel`](../alphabilevel). |
-| [GetEffective](geteffective)() | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Determines whether the specified [`AlphaBiLevel`](../alphabilevel) is equal to the current [`AlphaBiLevel`](../alphabilevel). |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

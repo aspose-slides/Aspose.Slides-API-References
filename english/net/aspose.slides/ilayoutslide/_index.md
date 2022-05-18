@@ -18,19 +18,19 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseSlide](asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](asioverridethemeable) { get; } | Returns IOverrideThemeable interface. Read-only [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HasDependingSlides](hasdependingslides) { get; } | Returns true if there exists at least one slide that depends on this layout slide. Read-only Boolean. |
-| [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the layout slide. Read-only [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](layouttype) { get; } | Returns layout type of this layout slide. Read-only [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](masterslide) { get; set; } | Returns or sets the master slide for a layout. Read/write [`IMasterSlide`](../imasterslide). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Returns IOverrideThemeable interface. Read-only [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Returns true if there exists at least one slide that depends on this layout slide. Read-only Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Returns HeaderFooter manager of the layout slide. Read-only [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Returns layout type of this layout slide. Read-only [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Returns or sets the master slide for a layout. Read/write [`IMasterSlide`](../imasterslide). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetDependingSlides](getdependingslides)() | Returns an array with all slides, which depend on this layout slide. |
-| [Remove](remove)() | Removes layout from presentation. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Returns an array with all slides, which depend on this layout slide. |
+| [Remove](../../aspose.slides/ilayoutslide/remove)() | Removes layout from presentation. |
 
 ### See Also
 

@@ -18,9 +18,9 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [Amount](amount) { get; } | Returns effect amount. Read-only Single. |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](hue) { get; } | Returns hue. Read-only Single. |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Returns effect amount. Read-only Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Returns hue. Read-only Single. |
 
 ### See Also
 

@@ -18,17 +18,17 @@ public interface IImageWrapper : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [AsIDisposable](asidisposable) { get; } | Returns IDisposable interface. Read-only IDisposable. |
-| [Image](image) { get; } | Gets the Syste.Drawing.Image Read-only [`Image`](./image). |
-| [Size](size) { get; } | Gets the width and height, in pixels, of the Image Read-only [`Size`](./size). |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Returns IDisposable interface. Read-only IDisposable. |
+| [Image](../../aspose.slides/iimagewrapper/image) { get; } | Gets the Syste.Drawing.Image Read-only [`Image`](./image). |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Gets the width and height, in pixels, of the Image Read-only [`Size`](./size). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(string) | Saves Image to the specified file |
-| [Save](save)(Stream, PPImageFormat) | Saves the Image to the specified stream in the specified format. |
-| [Save](save)(string, PPImageFormat) | Saves the Image to the specified file in the specified format. |
+| [Save](../../aspose.slides/iimagewrapper/save)(string) | Saves Image to the specified file |
+| [Save](../../aspose.slides/iimagewrapper/save)(Stream, PPImageFormat) | Saves the Image to the specified stream in the specified format. |
+| [Save](../../aspose.slides/iimagewrapper/save)(string, PPImageFormat) | Saves the Image to the specified file in the specified format. |
 
 ### See Also
 

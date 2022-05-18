@@ -18,15 +18,15 @@ public interface IPatternFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [BackColor](backcolor) { get; } | Returns the background pattern color. Read-only Color. |
-| [ForeColor](forecolor) { get; } | Returns the foreground pattern color. Read-only Color. |
-| [PatternStyle](patternstyle) { get; } | Returns the pattern style. Read-only [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Returns the background pattern color. Read-only Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Returns the foreground pattern color. Read-only Color. |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Returns the pattern style. Read-only [`PatternStyle`](../patternstyle). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetTileImage](gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
+| [GetTileImage](../../aspose.slides/ipatternformateffectivedata/gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
 ### Remarks
 

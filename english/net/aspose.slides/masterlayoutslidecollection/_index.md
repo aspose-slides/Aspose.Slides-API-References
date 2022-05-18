@@ -15,16 +15,30 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
     IMasterLayoutSlideCollection
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Returns the number of layout slides in a collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Returns the layout slide by index. Read-only [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(SlideLayoutType, string) | Adds a new layout slide to the end of the collection. |
-| [AddClone](addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the end of the collection. |
-| [Insert](insert)(int, SlideLayoutType, string) | Inserts a new layout slide to specified position of the collection. |
-| [InsertClone](insertclone)(int, ILayoutSlide) | Inserts a copy of a specified layout slide to specified position of the collection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
-| [Reorder](reorder)(int, ILayoutSlide) | Moves layout slide from the collection to the specified position. |
+| [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Adds a new layout slide to the end of the collection. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the end of the collection. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Returns the first layout slide of specified type. A type of layout slide to find.[`LayoutSlide`](../layoutslide) with specified type or null if no layouts found. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Inserts a new layout slide to specified position of the collection. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Inserts a copy of a specified layout slide to specified position of the collection. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Removes a layout from the collection. |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Removes the element at the specified index of the collection. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Moves layout slide from the collection to the specified position. |
 
 ### See Also
 

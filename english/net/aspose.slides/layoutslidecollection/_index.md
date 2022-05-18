@@ -18,20 +18,20 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of layout slides in a collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns the layout slide by index. Read-only [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Returns the number of layout slides in a collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Returns the layout slide by index. Read-only [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetByType](getbytype)(SlideLayoutType) | Returns the first layout slide of specified type. A type of layout slide to find.[`LayoutSlide`](../layoutslide) with specified type or null if no layouts found. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(ILayoutSlide) | Removes a layout from the collection. |
-| [RemoveUnused](removeunused)() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Returns the first layout slide of specified type. A type of layout slide to find.[`LayoutSlide`](../layoutslide) with specified type or null if no layouts found. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Removes a layout from the collection. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 
 ### See Also
 

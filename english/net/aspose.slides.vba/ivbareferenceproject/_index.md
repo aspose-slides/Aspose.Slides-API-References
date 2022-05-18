@@ -18,7 +18,7 @@ public interface IVbaReferenceProject : IVbaReference
 
 | Name | Description |
 | --- | --- |
-| [AsIVbaReference](asivbareference) { get; } | Returns IVbaReference interface. Read-only [`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | Returns IVbaReference interface. Read-only [`IVbaReference`](../ivbareference). |
 
 ### See Also
 

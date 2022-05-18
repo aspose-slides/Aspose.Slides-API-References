@@ -18,17 +18,17 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Gets the element at the specified index. Read-only [`SmartArtShape`](../smartartshape).&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

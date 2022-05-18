@@ -18,7 +18,7 @@ public interface IResponsiveHtmlController : IHtmlFormattingController
 
 | Name | Description |
 | --- | --- |
-| [AsIHtmlFormattingController](asihtmlformattingcontroller) { get; } | Returns IHtmlFormattingController interface. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | Returns IHtmlFormattingController interface. |
 
 ### See Also
 

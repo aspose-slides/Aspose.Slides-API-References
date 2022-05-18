@@ -18,15 +18,15 @@ public interface ISection
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Name of the section. |
-| [SectionId](sectionid) { get; } | Section Id. |
-| [StartedFromSlide](startedfromslide) { get; } | Returns first slide of the section. |
+| [Name](../../aspose.slides/isection/name) { get; set; } | Name of the section. |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Section Id. |
+| [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Returns first slide of the section. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetSlidesListOfSection](getslideslistofsection)() | Returns list of slides in the section. |
+| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Returns list of slides in the section. |
 
 ### See Also
 

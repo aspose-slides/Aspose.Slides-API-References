@@ -18,7 +18,7 @@ public interface ISaveOptionsFactory
 
 | Name | Description |
 | --- | --- |
-| [CreatePptxOptions](createpptxoptions)() | Creates PPTX save options. |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Creates PPTX save options. |
 
 ### Remarks
 

@@ -18,17 +18,17 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the count. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns the worksheet by index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Returns the count. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Returns the worksheet by index. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CopyTo](copyto)(Array, int) | Copy to specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Copy to specified array. |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### Examples
 

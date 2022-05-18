@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [BorderBottom](borderbottom) { get; } | Returns bottom border line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](borderdiagonaldown) { get; } | Returns down diagonal line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](borderdiagonalup) { get; } | Returns up diagonal line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](borderleft) { get; } | Returns left border line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](borderright) { get; } | Returns right border line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](bordertop) { get; } | Returns top border line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](fillformat) { get; } | Returns fill format effective value. Read-only [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Returns bottom border line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Returns down diagonal line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Returns up diagonal line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Returns left border line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Returns right border line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Returns top border line format effective value. Read-only [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Returns fill format effective value. Read-only [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### See Also
 

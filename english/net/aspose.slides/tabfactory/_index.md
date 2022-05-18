@@ -24,7 +24,7 @@ public class TabFactory : ITabFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateTab](createtab)(double, TabAlignment) | Creates a new ITab instance. |
+| [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Creates a new ITab instance. |
 
 ### Remarks
 

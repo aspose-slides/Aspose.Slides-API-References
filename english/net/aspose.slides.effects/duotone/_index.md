@@ -18,16 +18,17 @@ public class Duotone : ImageTransformOperation, IDuotone
 
 | Name | Description |
 | --- | --- |
-| [Color1](color1) { get; } | Returns target color format for dark pixels. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](color2) { get; } | Returns target color format for light pixels. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Returns target color format for dark pixels. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Returns target color format for light pixels. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`Duotone`](../duotone) is equal to the current [`Duotone`](../duotone). |
-| [GetEffective](geteffective)() | Gets effective Duotone effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Determines whether the specified [`Duotone`](../duotone) is equal to the current [`Duotone`](../duotone). |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Gets effective Duotone effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

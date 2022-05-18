@@ -18,14 +18,14 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 | Name | Description |
 | --- | --- |
-| [AsIFillParamSource](asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](cropbottom) { get; } | Returns the number of percents of real image height that are cropped off the bottom of the picture. Read-only Single. |
-| [CropLeft](cropleft) { get; } | Returns the number of percents of real image width that are cropped off the left of the picture. Read-only Single. |
-| [CropRight](cropright) { get; } | Returns the number of percents of real image width that are cropped off the right of the picture. Read-only Single. |
-| [CropTop](croptop) { get; } | Returns the number of percents of real image height that are cropped off the top of the picture. Read-only Single. |
-| [Dpi](dpi) { get; } | Returns the dpi which is used to fill a picture. Read-only Int32. |
-| [Picture](picture) { get; } | Returns the picture. Read-only [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](picturefillmode) { get; } | Returns the picture fill mode. Read-only [`PictureFillMode`](../picturefillmode). |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Returns the number of percents of real image height that are cropped off the bottom of the picture. Read-only Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Returns the number of percents of real image width that are cropped off the left of the picture. Read-only Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Returns the number of percents of real image width that are cropped off the right of the picture. Read-only Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Returns the number of percents of real image height that are cropped off the top of the picture. Read-only Single. |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Returns the dpi which is used to fill a picture. Read-only Int32. |
+| [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Returns the picture. Read-only [`IPictureEffectiveData`](../ipictureeffectivedata). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Returns the picture fill mode. Read-only [`PictureFillMode`](../picturefillmode). |
 
 ### Remarks
 

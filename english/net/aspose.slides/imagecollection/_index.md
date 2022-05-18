@@ -18,24 +18,24 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns a number of images in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`IPPImage`](../ippimage). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Returns a number of images in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Gets the element at the specified index. Read-only [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddImage](addimage)(byte[]) | Adds an image to a presentation from specified buffer. |
-| [AddImage](addimage)(Image) | Add an image to a presentation. |
-| [AddImage](addimage)(IPPImage) | Adds a copy of an image from an another presentation. |
-| [AddImage](addimage)(ISvgImage) | Add an image to a presentation from Svg object. |
-| [AddImage](addimage)(MemoryStream) | Add an image to a presentation from stream. |
-| [AddImage](addimage)(Stream) | Add an image to a presentation from stream. |
-| [AddImage](addimage)(Stream, LoadingStreamBehavior) | Creates and adds an image to a presentation from stream. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [AddImage](../../aspose.slides/imagecollection/addimage)(byte[]) | Adds an image to a presentation from specified buffer. |
+| [AddImage](../../aspose.slides/imagecollection/addimage)(Image) | Add an image to a presentation. |
+| [AddImage](../../aspose.slides/imagecollection/addimage)(IPPImage) | Adds a copy of an image from an another presentation. |
+| [AddImage](../../aspose.slides/imagecollection/addimage)(ISvgImage) | Add an image to a presentation from Svg object. |
+| [AddImage](../../aspose.slides/imagecollection/addimage)(MemoryStream) | Add an image to a presentation from stream. |
+| [AddImage](../../aspose.slides/imagecollection/addimage)(Stream) | Add an image to a presentation from stream. |
+| [AddImage](../../aspose.slides/imagecollection/addimage)(Stream, LoadingStreamBehavior) | Creates and adds an image to a presentation from stream. |
+| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

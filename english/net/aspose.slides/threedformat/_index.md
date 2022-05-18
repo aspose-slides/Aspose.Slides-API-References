@@ -18,22 +18,25 @@ public class ThreeDFormat : PVIObject, IThreeDFormat
 
 | Name | Description |
 | --- | --- |
-| [BevelBottom](bevelbottom) { get; } | Returns or sets the type of a bottom 3D bevel. Read-only [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](beveltop) { get; } | Returns or sets the type of a top 3D bevel. Read-only [`IShapeBevel`](../ishapebevel). |
-| [Camera](camera) { get; } | Returns or sets the settings of a camera. Read-only [`ICamera`](../icamera). |
-| [ContourColor](contourcolor) { get; } | Returns or sets the color of a contour. Read-only [`IColorFormat`](../icolorformat). |
-| [ContourWidth](contourwidth) { get; set; } | Returns or sets the width of a 3D contour. Read/write Double. |
-| [Depth](depth) { get; set; } | Returns or sets the depth of a 3D shape. Read/write Double. |
-| [ExtrusionColor](extrusioncolor) { get; } | Returns or sets the color of an extrusion. Read-only [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](extrusionheight) { get; set; } | Returns or sets the height of an extrusion effect. Read/write Double. |
-| [LightRig](lightrig) { get; } | Returns or sets the type of a light. Read-only [`ILightRig`](../ilightrig). |
-| [Material](material) { get; set; } | Returns or sets the type of a material. Read/write [`MaterialPresetType`](../materialpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Returns or sets the type of a bottom 3D bevel. Read-only [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Returns or sets the type of a top 3D bevel. Read-only [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/threedformat/camera) { get; } | Returns or sets the settings of a camera. Read-only [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Returns or sets the color of a contour. Read-only [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Returns or sets the width of a 3D contour. Read/write Double. |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Returns or sets the depth of a 3D shape. Read/write Double. |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Returns or sets the color of an extrusion. Read-only [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Returns or sets the height of an extrusion effect. Read/write Double. |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Returns or sets the type of a light. Read-only [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | Returns or sets the type of a material. Read/write [`MaterialPresetType`](../materialpresettype). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective 3-D formatting data with the inheritance applied. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Gets effective 3-D formatting data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

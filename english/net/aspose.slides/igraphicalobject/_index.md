@@ -18,9 +18,9 @@ public interface IGraphicalObject : IShape
 
 | Name | Description |
 | --- | --- |
-| [AsIShape](asishape) { get; } | Allows to get base IShape interface. Read-only [`IShape`](../ishape). |
-| [GraphicalObjectLock](graphicalobjectlock) { get; } | Returns shape's locks. Read-only [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](shapelock) { get; } | Returns shape's locks. Read-only [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Allows to get base IShape interface. Read-only [`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Returns shape's locks. Read-only [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Returns shape's locks. Read-only [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
 ### See Also
 

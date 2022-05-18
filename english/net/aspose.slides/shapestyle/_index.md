@@ -18,14 +18,14 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 
 | Name | Description |
 | --- | --- |
-| [EffectColor](effectcolor) { get; } | Returns a shape's effect color. Read-only [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](effectstyleindex) { get; set; } | Returns or sets shape's effect column index in a style matrix. Read/write UInt32. |
-| [FillColor](fillcolor) { get; } | Returns a shape's fill color. Read-only [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](fillstyleindex) { get; set; } | Returns or sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. Read/write Int16. |
-| [FontCollectionIndex](fontcollectionindex) { get; set; } | Returns or sets shape's font index in a font collection. Read/write [`FontCollectionIndex`](../fontcollectionindex). |
-| [FontColor](fontcolor) { get; } | Returns a shape's font color. Read-only [`IColorFormat`](../icolorformat). |
-| [LineColor](linecolor) { get; } | Returns a shape's outline color. Read-only [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](linestyleindex) { get; set; } | Returns or sets line's column index in a style matrix. Read/write UInt16. |
+| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Returns a shape's effect color. Read-only [`IColorFormat`](../icolorformat). |
+| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | Returns or sets shape's effect column index in a style matrix. Read/write UInt32. |
+| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Returns a shape's fill color. Read-only [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Returns or sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. Read/write Int16. |
+| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Returns or sets shape's font index in a font collection. Read/write [`FontCollectionIndex`](../fontcollectionindex). |
+| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Returns a shape's font color. Read-only [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Returns a shape's outline color. Read-only [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | Returns or sets line's column index in a style matrix. Read/write UInt16. |
 
 ### See Also
 

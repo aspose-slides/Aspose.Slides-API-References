@@ -18,23 +18,23 @@ public sealed class TabCollection : ITabCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`Tab`](../tab). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | Gets the element at the specified index. Read-only [`Tab`](../tab). |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(ITab) | Adds a Tab to the collection. |
-| [Add](add)(double, TabAlignment) | Adds a Tab to the collection. |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| override [Equals](equals)(object) | Determines whether two TabsEx instances are equal. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| override [GetHashCode](gethashcode)() | Returns hash code for this object. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
+| [Add](../../aspose.slides/tabcollection/add)(ITab) | Adds a Tab to the collection. |
+| [Add](../../aspose.slides/tabcollection/add)(double, TabAlignment) | Adds a Tab to the collection. |
+| [Clear](../../aspose.slides/tabcollection/clear)() | Removes all elements from the collection. |
+| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| override [Equals](../../aspose.slides/tabcollection/equals)(object) | Determines whether two TabsEx instances are equal. |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Returns hash code for this object. |
+| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Removes the element at the specified index of the collection. |
 
 ### See Also
 

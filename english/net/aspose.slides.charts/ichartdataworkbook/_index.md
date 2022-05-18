@@ -18,20 +18,20 @@ public interface IChartDataWorkbook
 
 | Name | Description |
 | --- | --- |
-| [Worksheets](worksheets) { get; } | Gets a collection of worksheets. |
+| [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | Gets a collection of worksheets. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CalculateFormulas](calculateformulas)() | Calculates all formulas in the workbook and updates corresponding cells values. |
-| [Clear](clear)(int) | Clear all cells values on sheet |
-| [GetCell](getcell)(int, string) | Gets the cell that can be used for chart series or categories |
-| [GetCell](getcell)(int, int, int) | Gets the cell that can be used for chart series or categories |
-| [GetCell](getcell)(int, string, object) | Gets the cell that can be used for chart series or categories |
-| [GetCell](getcell)(string, int, int) | Gets the cell that can be used for chart series or categories |
-| [GetCell](getcell)(int, int, int, object) | Gets the cell that can be used for chart series or categories |
-| [GetCellCollection](getcellcollection)(string, bool) | Gets the set of cells. |
+| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Calculates all formulas in the workbook and updates corresponding cells values. |
+| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Clear all cells values on sheet |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell)(int, string) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell)(int, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell)(int, string, object) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell)(string, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell)(int, int, int, object) | Gets the cell that can be used for chart series or categories |
+| [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | Gets the set of cells. |
 
 ### See Also
 

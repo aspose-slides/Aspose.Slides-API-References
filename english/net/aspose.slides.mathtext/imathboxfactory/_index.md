@@ -18,7 +18,7 @@ public interface IMathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathBox](createmathbox)(IMathElement) | Create a math box by applying to the element |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Create a math box by applying to the element |
 
 ### Remarks
 

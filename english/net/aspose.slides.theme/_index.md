@@ -58,7 +58,7 @@ Contains classes for work with different types of themes.
 | [IOverrideThemeable](./ioverridethemeable) | Represents override theme manager. |
 | [IOverrideThemeManager](./ioverridethememanager) | Provides access to different types of overriden themes. |
 | [ITheme](./itheme) | Represents a theme. |
-| [IThemeable](./ithemeable) | Represents objects that can be themed with [`ITheme`](aspose.slides.theme/itheme). |
+| [IThemeable](./ithemeable) | Represents objects that can be themed with [`ITheme`](../aspose.slides.theme/itheme). |
 | [IThemeEffectiveData](./ithemeeffectivedata) | Immutable object which contains effective theme properties. |
 | [IThemeManager](./ithememanager) | Represent theme properties. |
 

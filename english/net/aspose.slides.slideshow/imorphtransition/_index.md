@@ -18,8 +18,8 @@ public interface IMorphTransition : ITransitionValueBase
 
 | Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](morphtype) { get; set; } | Type of morph transition. Read/write [`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Type of morph transition. Read/write [`TransitionMorphType`](../transitionmorphtype). |
 
 ### See Also
 

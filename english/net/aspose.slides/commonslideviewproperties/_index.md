@@ -18,8 +18,8 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Name | Description |
 | --- | --- |
-| [Scale](scale) { get; set; } | Specifies the view scaling ratio in percentages. Read/write Int32. |
-| [VariableScale](variablescale) { get; set; } | Specifies that the view content should automatically scale to best fit the current window size. Read/write Boolean. |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Specifies the view scaling ratio in percentages. Read/write Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Specifies that the view content should automatically scale to best fit the current window size. Read/write Boolean. |
 
 ### See Also
 

@@ -18,25 +18,25 @@ public interface IBaseSlide : IThemeable
 
 | Name | Description |
 | --- | --- |
-| [AsIThemeable](asithemeable) { get; } | Allows to get base IThemeable interface. Read-only [`IThemeable`](../../aspose.slides.theme/ithemeable). |
-| [Background](background) { get; } | Returns slide's background. Read-only [`IBackground`](../ibackground). |
-| [Controls](controls) { get; } | Returns the collection of ActiveX controls on a slide. Read-only [`IControlCollection`](../icontrolcollection). |
-| [CustomData](customdata) { get; } | Returns the slide's custom data. Read-only [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](name) { get; set; } | Returns or sets the name of a slide. Read/write String. |
-| [Shapes](shapes) { get; } | Returns the shapes of a slide. Read-only [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](showmastershapes) { get; set; } | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns `false`. Read/write Boolean. |
-| [SlideId](slideid) { get; } | Returns the ID of a slide. Read-only UInt32. |
-| [SlideShowTransition](slideshowtransition) { get; } | Returns the TransitionEx object which contains information about how the specified slide advances during a slide show. Read-only [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](timeline) { get; } | Returns animation timeline object. Read-only [`IAnimationTimeLine`](../ianimationtimeline). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Allows to get base IThemeable interface. Read-only [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | Returns slide's background. Read-only [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Returns the collection of ActiveX controls on a slide. Read-only [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Returns the slide's custom data. Read-only [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Returns or sets the name of a slide. Read/write String. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Returns the shapes of a slide. Read-only [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns `false`. Read/write Boolean. |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Returns the ID of a slide. Read-only UInt32. |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Returns the TransitionEx object which contains information about how the specified slide advances during a slide show. Read-only [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Returns animation timeline object. Read-only [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(IBaseSlide) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
-| [FindShapeByAltText](findshapebyalttext)(string) | Finds first occurrence of a shape with the specified alternative text. |
-| [JoinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Finds first occurrence of a shape with the specified alternative text. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 
 ### See Also
 

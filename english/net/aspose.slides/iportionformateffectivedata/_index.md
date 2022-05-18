@@ -18,10 +18,10 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](asibaseportionformateffectivedata) { get; } | Returns IBasePortionFormatEffectiveData interface. |
-| [BookmarkId](bookmarkid) { get; } | Returns bookmark identifier. Read-only String. |
-| [HyperlinkClick](hyperlinkclick) { get; } | Returns the hyperlink defined for mouse click. Read-only [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](hyperlinkmouseover) { get; } | Returns the hyperlink defined for mouse over. Read-only [`IHyperlink`](../ihyperlink). |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Returns IBasePortionFormatEffectiveData interface. |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Returns bookmark identifier. Read-only String. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Returns the hyperlink defined for mouse click. Read-only [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Returns the hyperlink defined for mouse over. Read-only [`IHyperlink`](../ihyperlink). |
 
 ### Remarks
 

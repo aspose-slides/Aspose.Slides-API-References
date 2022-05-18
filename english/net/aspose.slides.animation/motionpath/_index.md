@@ -24,19 +24,19 @@ public class MotionPath : IMotionPath
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of paths in the collection. Read-only Int32. |
-| [Item](item) { get; } | Returns a command at the specified index. |
+| [Count](../../aspose.slides.animation/motionpath/count) { get; } | Returns the number of paths in the collection. Read-only Int32. |
+| [Item](../../aspose.slides.animation/motionpath/item) { get; } | Returns a command at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Add new command to path |
-| [Clear](clear)() | Removes all commands from the collection. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Insert](insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Insert new command to path |
-| [Remove](remove)(IMotionCmdPath) | Removes specified commans from the collection. |
-| [RemoveAt](removeat)(int) | Removes a command at the specified index. |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Add new command to path |
+| [Clear](../../aspose.slides.animation/motionpath/clear)() | Removes all commands from the collection. |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Insert new command to path |
+| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Removes specified commans from the collection. |
+| [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Removes a command at the specified index. |
 
 ### See Also
 

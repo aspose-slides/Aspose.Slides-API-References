@@ -18,16 +18,16 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns node by index. Read-only [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Returns node by index. Read-only [`ISmartArtNode`](../ismartartnode) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddNode](addnode)() | Add new node or sub node. |
-| [AddNodeByPosition](addnodebyposition)(int) | Add new node in the selected position of nodes collection. |
-| [RemoveNode](removenode)(int) | Remove node or sub node by index. |
-| [RemoveNode](removenode)(ISmartArtNode) | Remove node or sub node. |
+| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Add new node or sub node. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Add new node in the selected position of nodes collection. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode)(int) | Remove node or sub node by index. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode)(ISmartArtNode) | Remove node or sub node. |
 
 ### See Also
 

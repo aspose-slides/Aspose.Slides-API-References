@@ -18,7 +18,7 @@ public interface IMetered
 
 | Name | Description |
 | --- | --- |
-| [SetMeteredKey](setmeteredkey)(string, string) | Sets metered public and private key. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Sets metered public and private key. |
 
 ### See Also
 

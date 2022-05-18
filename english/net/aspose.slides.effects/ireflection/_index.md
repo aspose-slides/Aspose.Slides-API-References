@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](blurradius) { get; set; } | Blur radius. Read/write Double. |
-| [Direction](direction) { get; set; } | Direction of reflection. Read/write Single. |
-| [Distance](distance) { get; set; } | Distance of reflection. Read/write Double. |
-| [EndPosAlpha](endposalpha) { get; set; } | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write Single. |
-| [EndReflectionOpacity](endreflectionopacity) { get; set; } | End reflection opacity. (percents). Read/write Single. |
-| [FadeDirection](fadedirection) { get; set; } | Specifies the direction to offset the reflection. (angle). Read/write Single. |
-| [RectangleAlign](rectanglealign) { get; set; } | Rectangle alignment. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](rotateshadowwithshape) { get; set; } | Specifies whether the reflection should rotate with the shape if the shape is rotated. Read/write Boolean. |
-| [ScaleHorizontal](scalehorizontal) { get; set; } | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read/write Double. |
-| [ScaleVertical](scalevertical) { get; set; } | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read/write Double. |
-| [SkewHorizontal](skewhorizontal) { get; set; } | Specifies the horizontal skew angle. Read/write Double. |
-| [SkewVertical](skewvertical) { get; set; } | Specifies the vertical skew angle. Read/write Double. |
-| [StartPosAlpha](startposalpha) { get; set; } | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read/write Single. |
-| [StartReflectionOpacity](startreflectionopacity) { get; set; } | Starting reflection opacity. (percents). Read/write Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Blur radius. Read/write Double. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Direction of reflection. Read/write Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Distance of reflection. Read/write Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | End reflection opacity. (percents). Read/write Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Specifies the direction to offset the reflection. (angle). Read/write Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Rectangle alignment. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Specifies whether the reflection should rotate with the shape if the shape is rotated. Read/write Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read/write Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read/write Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Specifies the horizontal skew angle. Read/write Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Specifies the vertical skew angle. Read/write Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read/write Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Starting reflection opacity. (percents). Read/write Single. |
 
 ### See Also
 

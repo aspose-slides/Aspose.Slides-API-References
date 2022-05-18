@@ -18,30 +18,30 @@ public interface IChartDataPoint : IActualLayout
 
 | Name | Description |
 | --- | --- |
-| [AsIActualLayout](asiactuallayout) { get; } | Returns IActualLayout interface. |
-| [BubbleSize](bubblesize) { get; } | Returns the bubble size of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](colorvalue) { get; } | Returns the color value of chart data point. Used with Map charts. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](datapointlevels) { get; } | Returns container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |
-| [ErrorBarsCustomValues](errorbarscustomvalues) { get; } | Represents series error bars values in case of Custom value type. Read-only [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](explosion) { get; set; } | Specifies the amount the data point shall be moved from the center of the pie. Read/write Int32. |
-| [Format](format) { get; set; } | Represents the formatting properties. Read/write [`IFormat`](../iformat). |
-| [InvertIfNegative](invertifnegative) { get; set; } | Specifies the data point shall invert its colors if the value is negative. Read/write Boolean. |
-| [IsBubble3D](isbubble3d) { get; set; } | Specifies that the bubbles have a 3-D effect applied to them. Read/write Boolean. |
-| [Label](label) { get; } | Represents the lable of chart data point. Read-only [`IDataLabel`](../idatalabel). |
-| [Marker](marker) { get; } | Specifies a data marker. Read-only [`IMarker`](../imarker). |
-| [RelatedLegendEntry](relatedlegendentry) { get; } | Properties of corresponding legend entry in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Read-only [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](setastotal) { get; set; } | Sets data point as total. Applied for Waterfall series type only. |
-| [SizeValue](sizevalue) { get; } | Returns the size value of chart data point. Used with Treemap and Sunburst charts. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](value) { get; } | Returns the value of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](xvalue) { get; } | Returns the x value of chart data point. Read-only [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](yvalue) { get; } | Returns the y value of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Returns IActualLayout interface. |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Returns the bubble size of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Returns the color value of chart data point. Used with Map charts. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Returns container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Represents series error bars values in case of Custom value type. Read-only [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Specifies the amount the data point shall be moved from the center of the pie. Read/write Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Represents the formatting properties. Read/write [`IFormat`](../iformat). |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Specifies the data point shall invert its colors if the value is negative. Read/write Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Specifies that the bubbles have a 3-D effect applied to them. Read/write Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Represents the lable of chart data point. Read-only [`IDataLabel`](../idatalabel). |
+| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Specifies a data marker. Read-only [`IMarker`](../imarker). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Properties of corresponding legend entry in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Read-only [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Sets data point as total. Applied for Waterfall series type only. |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Returns the size value of chart data point. Used with Treemap and Sunburst charts. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Returns the value of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Returns the x value of chart data point. Read-only [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Returns the y value of chart data point. Read-only [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetAutomaticDataPointColor](getautomaticdatapointcolor)() | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. This color is used by default if FillType equals NotDefined. |
-| [Remove](remove)() | Removes DataPoint from chart series. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. This color is used by default if FillType equals NotDefined. |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Removes DataPoint from chart series. |
 
 ### See Also
 

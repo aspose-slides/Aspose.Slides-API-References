@@ -18,16 +18,16 @@ public class Glow : IGlow
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; } | Color format. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](radius) { get; set; } | Radius. Read/write Double. |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | Color format. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Radius. Read/write Double. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`Glow`](../glow) is equal to the current [`Glow`](../glow). |
-| [GetEffective](geteffective)() | Gets effective Glow effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Determines whether the specified [`Glow`](../glow) is equal to the current [`Glow`](../glow). |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Gets effective Glow effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

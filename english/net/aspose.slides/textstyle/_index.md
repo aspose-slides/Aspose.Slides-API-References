@@ -18,14 +18,17 @@ public class TextStyle : PVIObject, ITextStyle
 
 | Name | Description |
 | --- | --- |
-| [DefaultParagraphFormat](defaultparagraphformat) { get; } | Default paragraph propertiies. Read-only [`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Default paragraph propertiies. Read-only [`IParagraphFormat`](../iparagraphformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective text style formatting data with the inheritance applied. |
-| [GetLevel](getlevel)(int) | If level of style exist returns it, otherwise returns null. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Gets effective text style formatting data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | If level of style exist returns it, otherwise returns null. |
 
 ## Other Members
 

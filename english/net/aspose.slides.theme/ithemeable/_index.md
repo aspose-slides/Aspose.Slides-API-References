@@ -18,13 +18,13 @@ public interface IThemeable : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AsISlideComponent](asislidecomponent) { get; } | Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateThemeEffective](createthemeeffective)() | Returns an effective theme for this themeable object. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Returns an effective theme for this themeable object. |
 
 ### See Also
 

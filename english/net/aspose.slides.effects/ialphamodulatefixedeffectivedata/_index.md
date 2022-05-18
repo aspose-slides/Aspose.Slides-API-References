@@ -18,8 +18,8 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [Amount](amount) { get; } | Returns an amount of effect in percents. Read-only Single. |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Returns an amount of effect in percents. Read-only Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### See Also
 

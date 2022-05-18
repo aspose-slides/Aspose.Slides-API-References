@@ -18,8 +18,8 @@ public interface IField : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
-| [Type](type) { get; set; } | Returns or sets field's type. Read/write [`IFieldType`](../ifieldtype). |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | Returns or sets field's type. Read/write [`IFieldType`](../ifieldtype). |
 
 ### See Also
 

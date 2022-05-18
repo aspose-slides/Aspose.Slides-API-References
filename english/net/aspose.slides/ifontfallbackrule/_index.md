@@ -18,23 +18,23 @@ public interface IFontFallBackRule
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of fonts actually defined for range. |
-| [Item](item) { get; } | Gets the font name at the specified index. |
-| [RangeEndIndex](rangeendindex) { get; } | Get last index of continuous unicode range. |
-| [RangeStartIndex](rangestartindex) { get; } | Get first index of continuous unicode range. |
+| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Gets the number of fonts actually defined for range. |
+| [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Gets the font name at the specified index. |
+| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Get last index of continuous unicode range. |
+| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Get first index of continuous unicode range. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddFallBackFonts](addfallbackfonts)(string) | Adds a new font(s) to the list of FallBack fonts. |
-| [AddFallBackFonts](addfallbackfonts)(string[]) | Adds a new fonts to the list of FallBack fonts. |
-| [Clear](clear)() | Removes all fonts from the list. |
-| [IndexOf](indexof)(string) | Returns an index of the specified rule in the collection. |
-| [Remove](remove)(string) | Removes the first occurrence of a specific FallBack font from the list. |
-| [RemoveAt](removeat)(int) | Removes the FallBack font at the specified index of the list. |
-| [ToArray](toarray)() | Creates and returns an array with all FallBack fonts for this rule. |
-| [ToArray](toarray)(int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts)(string) | Adds a new font(s) to the list of FallBack fonts. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts)(string[]) | Adds a new fonts to the list of FallBack fonts. |
+| [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Removes all fonts from the list. |
+| [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Returns an index of the specified rule in the collection. |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Removes the first occurrence of a specific FallBack font from the list. |
+| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Removes the FallBack font at the specified index of the list. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray)() | Creates and returns an array with all FallBack fonts for this rule. |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray)(int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
 
 ### See Also
 

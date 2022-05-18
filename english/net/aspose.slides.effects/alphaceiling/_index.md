@@ -14,13 +14,19 @@ Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are
 public class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`AlphaCeiling`](../alphaceiling) is equal to the current [`AlphaCeiling`](../alphaceiling). |
-| [GetEffective](geteffective)() | Gets effective Alpha Ceiling effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Determines whether the specified [`AlphaCeiling`](../alphaceiling) is equal to the current [`AlphaCeiling`](../alphaceiling). |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Gets effective Alpha Ceiling effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

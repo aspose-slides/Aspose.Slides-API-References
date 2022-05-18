@@ -18,21 +18,21 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Allows to get base IEnumerable interface IEnumerable |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [Item](item) { get; set; } | Gets the item at the specified index. Read-only [`IMathBlock`](../imathblock). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Allows to get base IEnumerable interface IEnumerable |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Gets the item at the specified index. Read-only [`IMathBlock`](../imathblock). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IMathBlock) | Adds IMathBlock to the end of collection. |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(IMathBlock) | Determines whether the collection contains a specific value. |
-| [IndexOf](indexof)(IMathBlock) | Determines the index of a specific IMathBlock in collection. |
-| [Insert](insert)(int, IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
-| [Remove](remove)(IMathBlock) | Removes the first occurrence of a specific object from the collection/&gt;. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index of the collection. |
+| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | Adds IMathBlock to the end of collection. |
+| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Removes all elements from the collection. |
+| [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Determines whether the collection contains a specific value. |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Determines the index of a specific IMathBlock in collection. |
+| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Removes the first occurrence of a specific object from the collection/&gt;. |
+| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Removes an item at the specified index of the collection. |
 
 ### Examples
 

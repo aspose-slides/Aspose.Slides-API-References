@@ -18,20 +18,20 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of rows actually contained in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns the row at the specified index. Read-only [`Row`](../row). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Gets the number of rows actually contained in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | Returns the row at the specified index. Read-only [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddClone](addclone)(IRow, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [InsertClone](insertclone)(int, IRow, bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
-| [RemoveAt](removeat)(int, bool) | Removes a row at the specified position from a table. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
+| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Removes a row at the specified position from a table. |
 
 ### See Also
 

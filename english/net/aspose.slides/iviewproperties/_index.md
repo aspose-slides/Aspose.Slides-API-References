@@ -18,11 +18,11 @@ public interface IViewProperties
 
 | Name | Description |
 | --- | --- |
-| [LastView](lastview) { get; set; } | Specifies the view mode that was used when the presentation document was last saved. Read/write [`ViewType`](../viewtype). |
-| [NormalViewProperties](normalviewproperties) { get; } | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](notesviewproperties) { get; } | Specifies common view properties associated with the notes view mode. Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](showcomments) { get; set; } | Specifies whether the slide comments should be shown. Read/write [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](slideviewproperties) { get; } | Specifies common view properties associated with the slide view mode. Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Specifies the view mode that was used when the presentation document was last saved. Read/write [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Specifies common view properties associated with the notes view mode. Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Specifies whether the slide comments should be shown. Read/write [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Specifies common view properties associated with the slide view mode. Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### See Also
 

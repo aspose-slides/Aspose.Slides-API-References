@@ -18,22 +18,30 @@ public class DataLabelFormat : PVIObject, IDataLabelFormat
 
 | Name | Description |
 | --- | --- |
-| [Chart](chart) { get; } | Returns the chart. Read-only [`IChart`](../ichart). |
-| [Format](format) { get; } | Represents the format of the data label. Read-only [`IFormat`](../iformat). |
-| [IsNumberFormatLinkedToSource](isnumberformatlinkedtosource) { get; set; } | Read/write Boolean. |
-| [NumberFormat](numberformat) { get; set; } | Represents the format string for the DataLabels object. Read/write String. |
-| [Position](position) { get; set; } | Represents the position of the data label. Read/write [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](separator) { get; set; } | Sets or returns a Variant representing the separator used for the data labels on a chart. Read/write String. |
-| [ShowBubbleSize](showbubblesize) { get; set; } | Represents a specified chart's data label bubble size value display behavior. True displays the bubble size value. False to hide. Read/write Boolean. |
-| [ShowCategoryName](showcategoryname) { get; set; } | Represents a specified chart's data label category name display behavior. True to display the category name for the data labels on a chart. False to hide. Read/write Boolean. |
-| [ShowLabelAsDataCallout](showlabelasdatacallout) { get; set; } | Determines either specified chart's data label will be displayed as data callout or as data label.  If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the ShowLabelAsDataCallout property for the new data labels in the DataLabelCollection collection. Set this property with value also sets this value to the ShowLabelAsDataCallout property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" cause to all DataLabels[i].ShowLabelAsDataCallout is equal to val). |
-| [ShowLabelValueFromCell](showlabelvaluefromcell) { get; set; } | Represents a specified chart's data label cell value display behavior. True displays cell value. False to hide. Read/write Boolean. |
-| [ShowLeaderLines](showleaderlines) { get; set; } | Represents a specified chart's data label leader lines display behavior. True displays the leader lines. False to hide. Read/write Boolean. |
-| [ShowLegendKey](showlegendkey) { get; set; } | Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. Read/write Boolean. |
-| [ShowPercentage](showpercentage) { get; set; } | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. Read/write Boolean. |
-| [ShowSeriesName](showseriesname) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. Read/write Boolean. |
-| [ShowValue](showvalue) { get; set; } | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. Read/write Boolean. |
-| [TextFormat](textformat) { get; } | Returns chart text format. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | Returns the chart. Read-only [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | Represents the format of the data label. Read-only [`IFormat`](../iformat). |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | Read/write Boolean. |
+| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | Represents the format string for the DataLabels object. Read/write String. |
+| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | Represents the position of the data label. Read/write [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | Sets or returns a Variant representing the separator used for the data labels on a chart. Read/write String. |
+| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | Represents a specified chart's data label bubble size value display behavior. True displays the bubble size value. False to hide. Read/write Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | Represents a specified chart's data label category name display behavior. True to display the category name for the data labels on a chart. False to hide. Read/write Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | Determines either specified chart's data label will be displayed as data callout or as data label.  If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the ShowLabelAsDataCallout property for the new data labels in the DataLabelCollection collection. Set this property with value also sets this value to the ShowLabelAsDataCallout property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" cause to all DataLabels[i].ShowLabelAsDataCallout is equal to val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | Represents a specified chart's data label cell value display behavior. True displays cell value. False to hide. Read/write Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | Represents a specified chart's data label leader lines display behavior. True displays the leader lines. False to hide. Read/write Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | Represents a specified chart's data label legend key display behavior. True if the data label legend key is visible. Read/write Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. Read/write Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. Read/write Boolean. |
+| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. Read/write Boolean. |
+| [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | Returns chart text format. Read-only [`IChartTextFormat`](../icharttextformat). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

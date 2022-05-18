@@ -18,11 +18,11 @@ public interface IGifOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
-| [DefaultDelay](defaultdelay) { get; set; } | Gets or sets default delay time [ms]. This value will be used if [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) is not set. The default value is 1000. |
-| [ExportHiddenSlides](exporthiddenslides) { get; set; } | Determines whether hidden slides will be exported. The default value is false. |
-| [FrameSize](framesize) { get; set; } | Gets or sets frame size. |
-| [TransitionFps](transitionfps) { get; set; } | Gets or sets transition FPS [frames/sec] The default value is 25. |
+| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Gets or sets default delay time [ms]. This value will be used if [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) is not set. The default value is 1000. |
+| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Determines whether hidden slides will be exported. The default value is false. |
+| [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Gets or sets frame size. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Gets or sets transition FPS [frames/sec] The default value is 25. |
 
 ### See Also
 

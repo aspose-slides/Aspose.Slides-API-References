@@ -18,7 +18,14 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Name | Description |
 | --- | --- |
-| [FromBlack](fromblack) { get; set; } | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write Boolean. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 

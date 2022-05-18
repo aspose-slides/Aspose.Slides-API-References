@@ -24,10 +24,10 @@ public class License : ILicense
 
 | Name | Description |
 | --- | --- |
-| [IsLicensed](islicensed)() | Check if licence is applied to component |
-| [ResetLicense](resetlicense)() | Reset the license |
-| [SetLicense](setlicense)(Stream) | Licenses the component. |
-| [SetLicense](setlicense)(string) | Licenses the component. |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | Check if licence is applied to component |
+| [ResetLicense](../../aspose.slides/license/resetlicense)() | Reset the license |
+| [SetLicense](../../aspose.slides/license/setlicense)(Stream) | Licenses the component. |
+| [SetLicense](../../aspose.slides/license/setlicense)(string) | Licenses the component. |
 
 ### Examples
 

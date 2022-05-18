@@ -24,7 +24,7 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 
 | Name | Description |
 | --- | --- |
-| [CreateMathRightSubSuperscriptElement](createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Creates an instance of IMathRightSubSuperscriptElementFactory |
+| [CreateMathRightSubSuperscriptElement](../../aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Creates an instance of IMathRightSubSuperscriptElementFactory |
 
 ### Remarks
 

@@ -18,15 +18,15 @@ public interface IVideoFrame : IPictureFrame
 
 | Name | Description |
 | --- | --- |
-| [AsIPictureFrame](asipictureframe) { get; } | Allows to get base IPictureFrame interface. Read-only [`IPictureFrame`](../ipictureframe). |
-| [EmbeddedVideo](embeddedvideo) { get; set; } | Returns or sets embedded video object. Read/write [`IVideo`](../ivideo). |
-| [FullScreenMode](fullscreenmode) { get; set; } | Determines whether a video is shown in full screen mode. Read/write Boolean. |
-| [HideAtShowing](hideatshowing) { get; set; } | Determines whether a VideoFrame is hidden. Read/write Boolean. |
-| [LinkPathLong](linkpathlong) { get; set; } | Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String. |
-| [PlayLoopMode](playloopmode) { get; set; } | Determines whether a video is looped. Read/write Boolean. |
-| [PlayMode](playmode) { get; set; } | Returns or sets the video play mode. Read/write [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](rewindvideo) { get; set; } | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write Boolean. |
-| [Volume](volume) { get; set; } | Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../audiovolumemode). |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Allows to get base IPictureFrame interface. Read-only [`IPictureFrame`](../ipictureframe). |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Returns or sets embedded video object. Read/write [`IVideo`](../ivideo). |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Determines whether a video is shown in full screen mode. Read/write Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Determines whether a VideoFrame is hidden. Read/write Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Determines whether a video is looped. Read/write Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Returns or sets the video play mode. Read/write [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write Boolean. |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../audiovolumemode). |
 
 ### See Also
 

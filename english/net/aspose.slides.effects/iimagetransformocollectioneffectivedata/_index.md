@@ -18,7 +18,7 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns element by index. |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | Returns element by index. |
 
 ### Remarks
 

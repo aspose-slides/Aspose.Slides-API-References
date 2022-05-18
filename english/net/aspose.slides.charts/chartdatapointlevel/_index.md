@@ -18,8 +18,8 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | Name | Description |
 | --- | --- |
-| [Format](format) { get; } | Represents formatting properties of data point level. Read/write [`IFormat`](../iformat). |
-| [Label](label) { get; } | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Represents formatting properties of data point level. Read/write [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only [`IDataLabel`](../idatalabel). |
 
 ### See Also
 

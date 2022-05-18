@@ -27,7 +27,7 @@ public class CellInvalidReferenceException : PptxEditException
 
 | Name | Description |
 | --- | --- |
-| [Reference](reference) { get; } | Gets an invalid cell reference. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Gets an invalid cell reference. |
 
 ### See Also
 

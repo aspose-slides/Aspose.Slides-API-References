@@ -18,7 +18,7 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](asibasetableformateffectivedata) { get; } | Allows to get base IBaseTableFormatEffectiveData interface. Read-only [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Allows to get base IBaseTableFormatEffectiveData interface. Read-only [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Remarks
 

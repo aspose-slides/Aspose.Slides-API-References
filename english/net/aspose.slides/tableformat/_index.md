@@ -18,13 +18,13 @@ public class TableFormat : DomObject<Table>, ITableFormat
 
 | Name | Description |
 | --- | --- |
-| [FillFormat](fillformat) { get; } | Returns a table fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Returns a table fill properties object. Read-only [`IFillFormat`](../ifillformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective table formatting properties with inheritance and table styles applied. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Gets effective table formatting properties with inheritance and table styles applied. |
 
 ### See Also
 

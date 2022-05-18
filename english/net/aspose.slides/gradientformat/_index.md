@@ -18,12 +18,20 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | Name | Description |
 | --- | --- |
-| [GradientDirection](gradientdirection) { get; set; } | Returns or sets the style of a gradient. Read/write [`GradientDirection`](../gradientdirection). |
-| [GradientShape](gradientshape) { get; set; } | Returns or sets the shape of a gradient. Read/write [`GradientShape`](../gradientshape). |
-| [GradientStops](gradientstops) { get; } | Returns the collection of gradient stops. Read-only [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](lineargradientangle) { get; set; } | Returns or sets the angle of a gradient. Read/write Single. |
-| [LinearGradientScaled](lineargradientscaled) { get; set; } | Determines whether a gradient is scaled. Read/write [`NullableBool`](../nullablebool). |
-| [TileFlip](tileflip) { get; set; } | Returns or sets the flipping mode for a gradient. Read/write [`TileFlip`](../tileflip). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Returns or sets the style of a gradient. Read/write [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Returns or sets the shape of a gradient. Read/write [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Returns the collection of gradient stops. Read-only [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Returns or sets the angle of a gradient. Read/write Single. |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Determines whether a gradient is scaled. Read/write [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Returns or sets the flipping mode for a gradient. Read/write [`TileFlip`](../tileflip). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public interface IMathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathAccent](createmathaccent)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
-| [CreateMathAccent](createmathaccent)(IMathElement, char) | Creates a math accent applying to a specified math element |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent)(IMathElement, char) | Creates a math accent applying to a specified math element |
 
 ### Remarks
 

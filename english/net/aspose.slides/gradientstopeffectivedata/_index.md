@@ -18,15 +18,15 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; } | Returns the color of a gradient stop. Read-only Color. |
-| [Position](position) { get; } | Returns the position (0..1) of a gradient stop. Read-only Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Returns the color of a gradient stop. Read-only Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Returns the position (0..1) of a gradient stop. Read-only Single. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`GradientStopEffectiveData`](../gradientstopeffectivedata) is equal to the current [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
-| override [GetHashCode](gethashcode)() |  |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Determines whether the specified [`GradientStopEffectiveData`](../gradientstopeffectivedata) is equal to the current [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
+| override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public interface IMasterThemeable : IThemeable
 
 | Name | Description |
 | --- | --- |
-| [AsIThemeable](asithemeable) { get; } | Returns IThemeable interface. Read-only [`IThemeable`](../ithemeable). |
-| [ThemeManager](thememanager) { get; } | Returns master theme manager. Read-only [`IMasterThemeManager`](../imasterthememanager). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Returns IThemeable interface. Read-only [`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Returns master theme manager. Read-only [`IMasterThemeManager`](../imasterthememanager). |
 
 ### See Also
 

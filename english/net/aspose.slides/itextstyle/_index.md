@@ -18,14 +18,14 @@ public interface ITextStyle
 
 | Name | Description |
 | --- | --- |
-| [DefaultParagraphFormat](defaultparagraphformat) { get; } | Default paragraph propertiies. Read-only [`IParagraphFormat`](../iparagraphformat). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Default paragraph propertiies. Read-only [`IParagraphFormat`](../iparagraphformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective text style formatting data with the inheritance applied. |
-| [GetLevel](getlevel)(int) | If level of style exist returns it, otherwise returns null. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Gets effective text style formatting data with the inheritance applied. |
+| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | If level of style exist returns it, otherwise returns null. |
 
 ### See Also
 

@@ -18,10 +18,22 @@ public sealed class ModernComment : Comment, IModernComment
 
 | Name | Description |
 | --- | --- |
-| [Shape](shape) { get; } | Returns a shape associated with the comment. Read-only [`IShape`](../ishape). |
-| [Status](status) { get; set; } | Gets or sets the status of the comment. Read/write [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](textselectionlength) { get; set; } | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write Int32. |
-| [TextSelectionStart](textselectionstart) { get; set; } | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write Int32. |
+| [Author](../../aspose.slides/comment/author) { get; } | Returns the author of a comment. Read-only [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Returns or sets the time of a comment creation. Setting this property to MinValue means no comment time is set. Read/write DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Gets or sets parent comment. Read/write [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Returns or sets the position of a comment on a slide. Read/write PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Returns a shape associated with the comment. Read-only [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Returns or sets the parent slide of a comment. Read-only [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Gets or sets the status of the comment. Read/write [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Returns or sets the plain text of a slide comment. Read/write String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write Int32. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Remove](../../aspose.slides/comment/remove)() | Removes comment and all its replies from the parent collection. |
 
 ### Examples
 

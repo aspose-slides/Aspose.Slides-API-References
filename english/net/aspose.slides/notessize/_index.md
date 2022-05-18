@@ -24,7 +24,7 @@ public class NotesSize : INotesSize
 
 | Name | Description |
 | --- | --- |
-| [Size](size) { get; set; } | Returns or sets the size in points. Read/write SizeF. |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | Returns or sets the size in points. Read/write SizeF. |
 
 ### See Also
 

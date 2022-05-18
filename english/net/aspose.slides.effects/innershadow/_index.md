@@ -18,18 +18,18 @@ public class InnerShadow : IInnerShadow
 
 | Name | Description |
 | --- | --- |
-| [BlurRadius](blurradius) { get; set; } | Blur radius. Read/write Double. |
-| [Direction](direction) { get; set; } | Direction of shadow. Read/write Single. |
-| [Distance](distance) { get; set; } | Distance of shadow. Read/write Double. |
-| [ShadowColor](shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Blur radius. Read/write Double. |
+| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Direction of shadow. Read/write Single. |
+| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Distance of shadow. Read/write Double. |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`InnerShadow`](../innershadow) is equal to the current [`InnerShadow`](../innershadow). |
-| [GetEffective](geteffective)() | Gets effective Inner Shadow effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Determines whether the specified [`InnerShadow`](../innershadow) is equal to the current [`InnerShadow`](../innershadow). |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Gets effective Inner Shadow effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

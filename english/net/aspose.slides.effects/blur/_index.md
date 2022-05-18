@@ -18,16 +18,17 @@ public class Blur : ImageTransformOperation, IBlur
 
 | Name | Description |
 | --- | --- |
-| [Grow](grow) { get; set; } | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write Boolean. |
-| [Radius](radius) { get; set; } | Returns or sets blur radius. Read/write Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Returns or sets blur radius. Read/write Double. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`Blur`](../blur) is equal to the current [`Blur`](../blur). |
-| [GetEffective](geteffective)() | Gets effective Blur effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Determines whether the specified [`Blur`](../blur) is equal to the current [`Blur`](../blur). |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Gets effective Blur effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

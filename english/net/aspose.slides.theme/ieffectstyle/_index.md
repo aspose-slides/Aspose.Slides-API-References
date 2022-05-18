@@ -18,8 +18,8 @@ public interface IEffectStyle
 
 | Name | Description |
 | --- | --- |
-| [EffectFormat](effectformat) { get; } | Returns an effect format. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](threedformat) { get; } | Returns an 3d format. Read-only [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Returns an effect format. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Returns an 3d format. Read-only [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### See Also
 

@@ -18,16 +18,16 @@ public interface IPatternFormat
 
 | Name | Description |
 | --- | --- |
-| [BackColor](backcolor) { get; } | Returns the background pattern color. Read-only [`IColorFormat`](../icolorformat). |
-| [ForeColor](forecolor) { get; } | Returns the foreground pattern color. Read-only [`IColorFormat`](../icolorformat). |
-| [PatternStyle](patternstyle) { get; set; } | Returns or sets the pattern style. Read/write [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Returns the background pattern color. Read-only [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Returns the foreground pattern color. Read-only [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Returns or sets the pattern style. Read/write [`PatternStyle`](../patternstyle). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetTileImage](gettileimage)(Color) | Creates a tile image for the pattern fill. |
-| [GetTileImage](gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
+| [GetTileImage](../../aspose.slides/ipatternformat/gettileimage)(Color) | Creates a tile image for the pattern fill. |
+| [GetTileImage](../../aspose.slides/ipatternformat/gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
 ### See Also
 

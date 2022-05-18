@@ -18,25 +18,25 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISection`](../isection). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | Gets the element at the specified index. Read-only [`ISection`](../isection). |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddEmptySection](addemptysection)(string, int) | Add empty section to specified position of the collection. |
-| [AddSection](addsection)(string, ISlide) | Add slides section started form specific slide. |
-| [AppendEmptySection](appendemptysection)(string) | Add empty section to the end of the collection. |
-| [Clear](clear)() | Removes all sections from the collection. |
-| [CopyTo](copyto)(Array, int) | Copies the entire collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(ISection) | Returns an index of the specified section in the collection. |
-| [RemoveSection](removesection)(ISection) | Remove section. Slides contained in the section will be merged into previous section. |
-| [RemoveSectionWithSlides](removesectionwithslides)(ISection) | Remove section and slides contained in the section. |
-| [ReorderSectionWithSlides](reordersectionwithslides)(ISection, int) | Moves section and its slides from the collection to the specified position. |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | Add empty section to specified position of the collection. |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | Add slides section started form specific slide. |
+| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Add empty section to the end of the collection. |
+| [Clear](../../aspose.slides/sectioncollection/clear)() | Removes all sections from the collection. |
+| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Copies the entire collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Returns an index of the specified section in the collection. |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Remove section. Slides contained in the section will be merged into previous section. |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Remove section and slides contained in the section. |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | Moves section and its slides from the collection to the specified position. |
 
 ### See Also
 

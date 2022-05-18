@@ -18,10 +18,10 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](asibulktextformattable) { get; } | Allows to get base IBulkTextFormattable interface. Read-only [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](asicellcollection) { get; } | Allows to get base ICellCollection interface. Read-only [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](columnformat) { get; } | Returns the ColumnFormat object that contains formatting properties for this column. Read-only [`IColumnFormat`](../icolumnformat). |
-| [Width](width) { get; set; } | Returns or sets the width of a column. Read/write Double. |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Allows to get base IBulkTextFormattable interface. Read-only [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Allows to get base ICellCollection interface. Read-only [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Returns the ColumnFormat object that contains formatting properties for this column. Read-only [`IColumnFormat`](../icolumnformat). |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Returns or sets the width of a column. Read/write Double. |
 
 ### See Also
 

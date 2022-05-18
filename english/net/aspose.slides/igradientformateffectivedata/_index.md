@@ -18,13 +18,13 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | Name | Description |
 | --- | --- |
-| [AsIFillParamSource](asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](gradientdirection) { get; } | Returns the style of a gradient. Read-only [`GradientDirection`](../gradientdirection). |
-| [GradientShape](gradientshape) { get; } | Returns the shape of a gradient. Read-only [`GradientShape`](../gradientshape). |
-| [GradientStops](gradientstops) { get; } | Returns the collection of gradient stops. Read-only [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
-| [LinearGradientAngle](lineargradientangle) { get; } | Returns the angle of a gradient. Read-only Single. |
-| [LinearGradientScaled](lineargradientscaled) { get; } | Determines whether a gradient is scaled. Read-only Boolean. |
-| [TileFlip](tileflip) { get; } | Returns the flipping mode for a gradient. Read-only [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Returns the style of a gradient. Read-only [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Returns the shape of a gradient. Read-only [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Returns the collection of gradient stops. Read-only [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Returns the angle of a gradient. Read-only Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Determines whether a gradient is scaled. Read-only Boolean. |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Returns the flipping mode for a gradient. Read-only [`TileFlip`](../tileflip). |
 
 ### Remarks
 

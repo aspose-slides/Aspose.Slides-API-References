@@ -18,16 +18,16 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | Name | Description |
 | --- | --- |
-| [AsIBasePortionFormat](asibaseportionformat) { get; } | Returns IBasePortionFormat interface. Read-only [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](asihyperlinkcontainer) { get; } | Allows to get base IHyperlinkContainer interface. Read-only [`IHyperlinkContainer`](../ihyperlinkcontainer). |
-| [BookmarkId](bookmarkid) { get; set; } | Returns or sets bookmark identifier. Read/write String. |
-| [SmartTagClean](smarttagclean) { get; set; } | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write Boolean. |
+| [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Returns IBasePortionFormat interface. Read-only [`IBasePortionFormat`](../ibaseportionformat). |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Allows to get base IHyperlinkContainer interface. Read-only [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Returns or sets bookmark identifier. Read/write String. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write Boolean. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective portion formatting data with the inheritance applied. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Gets effective portion formatting data with the inheritance applied. |
 
 ### Remarks
 

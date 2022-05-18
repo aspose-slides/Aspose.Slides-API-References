@@ -18,10 +18,10 @@ public interface IFilterEffect : IBehavior
 
 | Name | Description |
 | --- | --- |
-| [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
-| [Reveal](reveal) { get; set; } | Represents that effect with behavior must reveal (in/out) Read/write [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](subtype) { get; set; } | Represents subtype of filter effect. Read/write [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](type) { get; set; } | Represents type of filter effect. Read/write [`FilterEffectType`](../filtereffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Represents that effect with behavior must reveal (in/out) Read/write [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Represents subtype of filter effect. Read/write [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Represents type of filter effect. Read/write [`FilterEffectType`](../filtereffecttype). |
 
 ### See Also
 

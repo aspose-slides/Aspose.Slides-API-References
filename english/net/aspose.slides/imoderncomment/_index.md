@@ -18,11 +18,11 @@ public interface IModernComment : IComment
 
 | Name | Description |
 | --- | --- |
-| [AsIComment](asicomment) { get; } | Allows to get base IComment interface. Read-only [`IComment`](../icomment). |
-| [Shape](shape) { get; } | Returns a shape associated with the comment. Read-only [`IShape`](../ishape). |
-| [Status](status) { get; set; } | Returns or sets the status of the comment. Read/write [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](textselectionlength) { get; set; } | Returns or sets text selection length in text frame if the comment associated with AutoShape. Read/write Int32. |
-| [TextSelectionStart](textselectionstart) { get; set; } | Returns or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write Int32. |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Allows to get base IComment interface. Read-only [`IComment`](../icomment). |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Returns a shape associated with the comment. Read-only [`IShape`](../ishape). |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Returns or sets the status of the comment. Read/write [`ModernCommentStatus`](../moderncommentstatus). |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Returns or sets text selection length in text frame if the comment associated with AutoShape. Read/write Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Returns or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write Int32. |
 
 ### Examples
 

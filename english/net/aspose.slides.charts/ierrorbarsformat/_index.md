@@ -18,13 +18,13 @@ public interface IErrorBarsFormat : IChartComponent
 
 | Name | Description |
 | --- | --- |
-| [AsIChartComponent](asichartcomponent) { get; } | Returns IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
-| [Format](format) { get; set; } | Represents the format of the error bars. Read/write [`IFormat`](../iformat). |
-| [HasEndCap](hasendcap) { get; set; } | Specifies an end cap is not drawn on the error bars. Read/write Boolean. |
-| [IsVisible](isvisible) { get; set; } | Gets or sets Error Bars visibility. Read/write Boolean. |
-| [Type](type) { get; set; } | Gets or sets type of error bars. Read/write [`ErrorBarType`](../errorbartype). |
-| [Value](value) { get; set; } | Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. Read/write Single. |
-| [ValueType](valuetype) { get; set; } | Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) property of specific data point in DataPoints collection of series. Read/write [`ErrorBarValueType`](../errorbarvaluetype). |
+| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Returns IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
+| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Represents the format of the error bars. Read/write [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Specifies an end cap is not drawn on the error bars. Read/write Boolean. |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Gets or sets Error Bars visibility. Read/write Boolean. |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Gets or sets type of error bars. Read/write [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. Read/write Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) property of specific data point in DataPoints collection of series. Read/write [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### See Also
 

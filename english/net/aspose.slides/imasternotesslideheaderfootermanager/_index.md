@@ -18,19 +18,19 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](asibasehandoutnotesslideheaderfootermanag) { get; } | Returns IBaseHandoutNotesSlideHeaderFooterManag interface. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Returns IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](setdatetimeandchilddatetimestext)(string) | Sets text to master notes slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
-| [SetDateTimeAndChildDateTimesVisibility](setdatetimeandchilddatetimesvisibility)(bool) | Changes master notes slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
-| [SetFooterAndChildFootersText](setfooterandchildfooterstext)(string) | Sets text to master notes slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
-| [SetFooterAndChildFootersVisibility](setfooterandchildfootersvisibility)(bool) | Changes master notes slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
-| [SetHeaderAndChildHeadersText](setheaderandchildheaderstext)(string) | Sets text to master notes slide header placeholder and all child header placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
-| [SetHeaderAndChildHeadersVisibility](setheaderandchildheadersvisibility)(bool) | Changes master notes slide header placeholder and all child header placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](setslidenumberandchildslidenumbersvisibility)(bool) | Changes master notes slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Sets text to master notes slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Changes master notes slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Sets text to master notes slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Changes master notes slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Sets text to master notes slide header placeholder and all child header placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Changes master notes slide header placeholder and all child header placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Changes master notes slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
 ### See Also
 

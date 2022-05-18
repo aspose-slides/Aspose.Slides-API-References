@@ -18,9 +18,9 @@ public class AxisFormat : DomObject<Axis>, IAxisFormat
 
 | Name | Description |
 | --- | --- |
-| [Effect](effect) { get; } | Returns effects used for an axis. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](fill) { get; } | Returns fill style properties of an axis. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](line) { get; } | Returns line style properties of an axis. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Returns effects used for an axis. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Returns fill style properties of an axis. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Returns line style properties of an axis. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### See Also
 

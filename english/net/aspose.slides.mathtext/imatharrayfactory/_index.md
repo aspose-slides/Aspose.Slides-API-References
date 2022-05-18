@@ -18,8 +18,8 @@ public interface IMathArrayFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathArray](creatematharray)(IMathElement) | Creates a math array and places the specified element in it |
-| [CreateMathArray](creatematharray)(IMathElementCollection) | Creates a math array and places specified elements in it |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray)(IMathElement) | Creates a math array and places the specified element in it |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray)(IMathElementCollection) | Creates a math array and places specified elements in it |
 
 ### Remarks
 

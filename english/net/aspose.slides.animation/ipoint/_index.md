@@ -18,9 +18,9 @@ public interface IPoint
 
 | Name | Description |
 | --- | --- |
-| [Formula](formula) { get; set; } | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
-| [Time](time) { get; set; } | Represents time value. Read/write Single. |
-| [Value](value) { get; set; } | Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
+| [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | Represents time value. Read/write Single. |
+| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
 
 ### See Also
 

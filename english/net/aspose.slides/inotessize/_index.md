@@ -18,7 +18,7 @@ public interface INotesSize
 
 | Name | Description |
 | --- | --- |
-| [Size](size) { get; set; } | Returns or sets the size in points. Read/write SizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | Returns or sets the size in points. Read/write SizeF. |
 
 ### See Also
 

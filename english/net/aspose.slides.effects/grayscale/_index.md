@@ -14,13 +14,19 @@ Represents a Gray Scale effect. Converts all effect color values to a shade of g
 public class GrayScale : ImageTransformOperation, IGrayScale
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`GrayScale`](../grayscale) is equal to the current [`GrayScale`](../grayscale). |
-| [GetEffective](geteffective)() | Gets effective Gray Scale effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Determines whether the specified [`GrayScale`](../grayscale) is equal to the current [`GrayScale`](../grayscale). |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Gets effective Gray Scale effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

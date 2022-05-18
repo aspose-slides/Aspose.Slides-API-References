@@ -18,19 +18,19 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Allows to get base IBehavior interface. Read-only IEnumerable. |
-| [Count](count) { get; } | Returns the number of paths in the collection. Read-only Int32. |
-| [Item](item) { get; } | Returns a command at the specified index. |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Allows to get base IBehavior interface. Read-only IEnumerable. |
+| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Returns the number of paths in the collection. Read-only Int32. |
+| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Returns a command at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Add new command to path |
-| [Clear](clear)() | Removes all commands from the collection. |
-| [Insert](insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Insert new command to path |
-| [Remove](remove)(IMotionCmdPath) | Removes specified commans from the collection. |
-| [RemoveAt](removeat)(int) | Removes a command at the specified index. |
+| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Add new command to path |
+| [Clear](../../aspose.slides.animation/imotionpath/clear)() | Removes all commands from the collection. |
+| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Insert new command to path |
+| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Removes specified commans from the collection. |
+| [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Removes a command at the specified index. |
 
 ### See Also
 

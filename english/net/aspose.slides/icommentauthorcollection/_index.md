@@ -18,19 +18,19 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Gets the element at the specified index. Read-only [`ICommentAuthor`](../icommentauthor). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddAuthor](addauthor)(string, string) | Add new author at the end of a collection. |
-| [Clear](clear)() | Removes all authors from a collection. |
-| [FindByName](findbyname)(string) | Find author in a collection by name. |
-| [FindByNameAndInitials](findbynameandinitials)(string, string) | Find author in a collection by name and initials. |
-| [Remove](remove)(ICommentAuthor) | Removes the first occurrence of the specified author in a collection. |
-| [RemoveAt](removeat)(int) | Removes the author at the specified index of the collection. |
-| [ToArray](toarray)() | Creates and returns an array with all authors. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Add new author at the end of a collection. |
+| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Removes all authors from a collection. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Find author in a collection by name. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Find author in a collection by name and initials. |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Removes the first occurrence of the specified author in a collection. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Removes the author at the specified index of the collection. |
+| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Creates and returns an array with all authors. |
 
 ### See Also
 

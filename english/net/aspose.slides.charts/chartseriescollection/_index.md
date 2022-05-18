@@ -18,26 +18,26 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns a number of objects in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Returns a number of objects in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Gets the element at the specified index. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(ChartType) | Creates new chart series and adds it to the collection. |
-| [Add](add)(IChartCellCollection, ChartType) | Creates new chart series from [`ChartCellCollection`](../chartcellcollection) and adds it to the collection. |
-| [Add](add)(IChartDataCell, ChartType) | Creates new chart series from [`ChartDataCell`](../chartdatacell) and adds it to the collection. |
-| [Add](add)(string, ChartType) | Creates new chart series from value and adds it to the collection. |
-| [Clear](clear)() | Removes all controls from the collection. |
-| [CopyTo](copyto)(Array, int) | Copies the entire collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(IChartSeries) | Searches for the specified [`ChartSeries`](../chartseries) and returns the zero-based index of the first occurrence within the entire Collection |
-| [Insert](insert)(int, ChartType) | Creates new chart series and inserts it into the collection. |
-| [Remove](remove)(IChartSeries) | Removes the specified value. |
-| [RemoveAt](removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add)(ChartType) | Creates new chart series and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add)(IChartCellCollection, ChartType) | Creates new chart series from [`ChartCellCollection`](../chartcellcollection) and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add)(IChartDataCell, ChartType) | Creates new chart series from [`ChartDataCell`](../chartdatacell) and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add)(string, ChartType) | Creates new chart series from value and adds it to the collection. |
+| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Removes all controls from the collection. |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Copies the entire collection to the specified array. |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Searches for the specified [`ChartSeries`](../chartseries) and returns the zero-based index of the first occurrence within the entire Collection |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Creates new chart series and inserts it into the collection. |
+| [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Removes the specified value. |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
 
 ### See Also
 

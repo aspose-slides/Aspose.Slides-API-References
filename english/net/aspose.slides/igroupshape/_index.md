@@ -18,10 +18,10 @@ public interface IGroupShape : IShape
 
 | Name | Description |
 | --- | --- |
-| [AsIShape](asishape) { get; } | Allows to get base IShape interface. Read-only [`IShape`](../ishape). |
-| [GroupShapeLock](groupshapelock) { get; } | Returns shape's locks. Read-only [`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](shapelock) { get; } | Returns shape's locks. Read-only [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](shapes) { get; } | Returns the collection of shapes inside the group. Read-only [`IShapeCollection`](../ishapecollection). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Allows to get base IShape interface. Read-only [`IShape`](../ishape). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Returns shape's locks. Read-only [`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Returns shape's locks. Read-only [`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Returns the collection of shapes inside the group. Read-only [`IShapeCollection`](../ishapecollection). |
 
 ### See Also
 

@@ -18,9 +18,9 @@ public interface ITab : IComparable
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Returns or sets align style of a tab. Read/write [`TabAlignment`](../tabalignment). |
-| [AsIComparable](asicomparable) { get; } | Returns IComparable interface. Read-only IComparable. |
-| [Position](position) { get; set; } | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write Double. |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Returns or sets align style of a tab. Read/write [`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Returns IComparable interface. Read-only IComparable. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write Double. |
 
 ### See Also
 

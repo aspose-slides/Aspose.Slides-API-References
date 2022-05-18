@@ -24,8 +24,8 @@ public class MathLimitFactory : IMathLimitFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathLimit](createmathlimit)(IMathElement, IMathElement) | Creates IMathLimit with limit at the bottom |
-| [CreateMathLimit](createmathlimit)(IMathElement, IMathElement, bool) | Creates IMathLimit |
+| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit)(IMathElement, IMathElement) | Creates IMathLimit with limit at the bottom |
+| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit)(IMathElement, IMathElement, bool) | Creates IMathLimit |
 
 ### Remarks
 

@@ -18,7 +18,7 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. |
+| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Gets the element at the specified index. |
 
 ### See Also
 

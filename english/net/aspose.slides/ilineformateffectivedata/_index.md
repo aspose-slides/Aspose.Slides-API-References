@@ -18,29 +18,29 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; } | Returns the line alignment. Read-only [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](asilineparamsource) { get; } | Allows to get base ILineParamSource interface. Read-only [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](beginarrowheadlength) { get; } | Returns the arrowhead length at the beginning of a line. Read-only [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](beginarrowheadstyle) { get; } | Returns the arrowhead style at the beginning of a line. Read-only [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](beginarrowheadwidth) { get; } | Returns the arrowhead width at the beginning of a line. Read-only [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](capstyle) { get; } | Returns the line cap style. Read-only [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](customdashpattern) { get; } | Returns the custom dash pattern. Read-only Single[]. |
-| [DashStyle](dashstyle) { get; } | Returns the line dash style. Read-only [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](endarrowheadlength) { get; } | Returns the arrowhead length at the end of a line. Read-only [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](endarrowheadstyle) { get; } | Returns the arrowhead style at the end of a line. Read-only [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](endarrowheadwidth) { get; } | Returns the arrowhead width at the end of a line. Read-only [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](fillformat) { get; } | Returns the fill format of a line. Read-only [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](joinstyle) { get; } | Returns the lines join style. Read-only [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](miterlimit) { get; } | Returns the miter limit of a line. Read-only Single. |
-| [SketchFormat](sketchformat) { get; } | Returns the sketch format of a line. Read-only [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](style) { get; } | Returns the line style. Read-only [`LineStyle`](../linestyle). |
-| [Width](width) { get; } | Returns the width of a line. Read-only Double. |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Returns the line alignment. Read-only [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Allows to get base ILineParamSource interface. Read-only [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Returns the arrowhead length at the beginning of a line. Read-only [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Returns the arrowhead style at the beginning of a line. Read-only [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Returns the arrowhead width at the beginning of a line. Read-only [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Returns the line cap style. Read-only [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Returns the custom dash pattern. Read-only Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Returns the line dash style. Read-only [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Returns the arrowhead length at the end of a line. Read-only [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Returns the arrowhead style at the end of a line. Read-only [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Returns the arrowhead width at the end of a line. Read-only [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Returns the fill format of a line. Read-only [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Returns the lines join style. Read-only [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Returns the miter limit of a line. Read-only Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Returns the sketch format of a line. Read-only [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Returns the line style. Read-only [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Returns the width of a line. Read-only Double. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(ILineFormatEffectiveData) | Determines whether the two ILineFormatEffectiveData instances are equal. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Determines whether the two ILineFormatEffectiveData instances are equal. |
 
 ### Remarks
 

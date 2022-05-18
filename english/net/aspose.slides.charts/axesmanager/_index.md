@@ -18,11 +18,11 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 
 | Name | Description |
 | --- | --- |
-| [HorizontalAxis](horizontalaxis) { get; } | Gets the chart's horizontal axis. Read-only [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](secondaryhorizontalaxis) { get; } | Gets the chart's secondary horizontal axis. Read-only [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](secondaryverticalaxis) { get; } | Gets the chart's secondary vertical axis. Read-only [`IAxis`](../iaxis). |
-| [SeriesAxis](seriesaxis) { get; } | Gets the chart's series axis. Read-only [`IAxis`](../iaxis). |
-| [VerticalAxis](verticalaxis) { get; } | Gets the chart's vertical axis. Read-only [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Gets the chart's horizontal axis. Read-only [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Gets the chart's secondary horizontal axis. Read-only [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Gets the chart's secondary vertical axis. Read-only [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Gets the chart's series axis. Read-only [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Gets the chart's vertical axis. Read-only [`IAxis`](../iaxis). |
 
 ### See Also
 

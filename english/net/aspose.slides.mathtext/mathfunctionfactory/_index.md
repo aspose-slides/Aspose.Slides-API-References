@@ -24,8 +24,8 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathFunction](createmathfunction)(IMathElement, IMathElement) | Creates math function |
-| [CreateMathFunction](createmathfunction)(string, IMathElement) | Creates math function |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction)(IMathElement, IMathElement) | Creates math function |
+| [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction)(string, IMathElement) | Creates math function |
 
 ### Remarks
 

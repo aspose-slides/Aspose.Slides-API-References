@@ -18,16 +18,16 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | Name | Description |
 | --- | --- |
-| [AsIMultipleCellChartValue](asimultiplecellchartvalue) { get; } | Allows to get base IMultipleCellChartValue interface. Read-only [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](asliteralstring) { get; set; } | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals. Read/write String. |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Allows to get base IMultipleCellChartValue interface. Read-only [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals. Read/write String. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](getcellsaddressinworkbook)() | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
-| [SetFromOneCell](setfromonecell)(IChartDataCell) | Sets value from specified cell. |
-| [ToString](tostring)() | Returns string representation. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
+| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Sets value from specified cell. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Returns string representation. |
 
 ### See Also
 

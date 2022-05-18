@@ -18,16 +18,16 @@ public abstract class Theme : ITheme
 
 | Name | Description |
 | --- | --- |
-| abstract [ColorScheme](colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatScheme`](../iformatscheme). |
-| [Presentation](presentation) { get; } | Returns the parent presentation. Read-only [`IPresentation`](../../aspose.slides/ipresentation). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatScheme`](../iformatscheme). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Returns the parent presentation. Read-only [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective theme data with the inheritance applied. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Gets effective theme data with the inheritance applied. |
 
 ### See Also
 

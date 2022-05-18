@@ -18,16 +18,17 @@ public class FillOverlay : ImageTransformOperation, IFillOverlay
 
 | Name | Description |
 | --- | --- |
-| [Blend](blend) { get; set; } | FillBlendMode. Read/write [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](fillformat) { get; } | Fill format. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Read/write [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Fill format. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`FillOverlay`](../filloverlay) is equal to the current [`FillOverlay`](../filloverlay). |
-| [GetEffective](geteffective)() | Gets effective Fill Overlay effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Determines whether the specified [`FillOverlay`](../filloverlay) is equal to the current [`FillOverlay`](../filloverlay). |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Gets effective Fill Overlay effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

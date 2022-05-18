@@ -18,7 +18,7 @@ public interface ISvgTSpan
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | Gets or sets id for the "tspan" element |
+| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | Gets or sets id for the "tspan" element |
 
 ### See Also
 

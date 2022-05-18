@@ -18,15 +18,15 @@ public interface ICameraEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [CameraType](cameratype) { get; } | Camera type. Read-only [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](fieldofviewangle) { get; } | Camera FOV (0-180 deg, field of View). Read-only Single. |
-| [Zoom](zoom) { get; } | Camera zoom (positive value in percentage). Read-only Single. |
+| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Camera type. Read-only [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Camera FOV (0-180 deg, field of View). Read-only Single. |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Camera zoom (positive value in percentage). Read-only Single. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetRotation](getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
 
 ### Remarks
 

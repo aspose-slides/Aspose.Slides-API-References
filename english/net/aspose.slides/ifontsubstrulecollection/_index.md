@@ -18,14 +18,14 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Gets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IFontSubstRule) | Adds the new font substitution rule to the collection |
-| [Remove](remove)(IFontSubstRule) | Removes the first occurrence of a specific object from the collection. |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Adds the new font substitution rule to the collection |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Removes the first occurrence of a specific object from the collection. |
 
 ### See Also
 

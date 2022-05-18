@@ -18,8 +18,8 @@ public interface IThemeManager
 
 | Name | Description |
 | --- | --- |
-| [ApplyColorScheme](applycolorscheme)(IExtraColorScheme) | Applies extra color scheme to a slide. |
-| [CreateThemeEffective](createthemeeffective)() | Returns the theme object. |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | Applies extra color scheme to a slide. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | Returns the theme object. |
 
 ### See Also
 

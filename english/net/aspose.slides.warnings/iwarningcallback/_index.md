@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| [Warning](warning)(IWarningInfo) | Callback method which receives warning and decides whether operation should be aborted. |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Callback method which receives warning and decides whether operation should be aborted. |
 
 ### See Also
 

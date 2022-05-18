@@ -18,7 +18,7 @@ public sealed class Input
 
 | Name | Description |
 | --- | --- |
-| [AddTemplate&lt;TContextObject&gt;](addtemplate)(string, string) |  |
+| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) |  |
 
 ### See Also
 

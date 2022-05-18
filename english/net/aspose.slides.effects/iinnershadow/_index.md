@@ -19,12 +19,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](blurradius) { get; set; } | Blur radius. Read/write Double. |
-| [Direction](direction) { get; set; } | Direction of shadow. Read/write Single. |
-| [Distance](distance) { get; set; } | Distance of shadow. Read/write Double. |
-| [ShadowColor](shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Blur radius. Read/write Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Direction of shadow. Read/write Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Distance of shadow. Read/write Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### See Also
 

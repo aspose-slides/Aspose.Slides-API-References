@@ -18,7 +18,7 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Gets the element at the specified index. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### See Also
 

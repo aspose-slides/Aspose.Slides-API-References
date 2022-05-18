@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Name | Description |
 | --- | --- |
-| [Type](type) { get; set; } | Returns or sets field's type. Read/write [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Returns or sets field's type. Read/write [`IFieldType`](../ifieldtype). |
 
 ### See Also
 

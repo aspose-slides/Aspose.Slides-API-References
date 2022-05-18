@@ -14,6 +14,13 @@ Empty slide transition effect.
 public class EmptyTransition : TransitionValueBase, IEmptyTransition
 ```
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+
 ### See Also
 
 * class [TransitionValueBase](../transitionvaluebase)

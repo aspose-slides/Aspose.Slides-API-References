@@ -25,8 +25,8 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 | Name | Description |
 | --- | --- |
-| [EmbeddedFileData](embeddedfiledata) { get; } | Returns the file data of an embedded OLE object Read only Byte[]. |
-| [EmbeddedFileExtension](embeddedfileextension) { get; } | Returns the file extension for the current embedded OLE object Read only String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Returns the file data of an embedded OLE object Read only Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Returns the file extension for the current embedded OLE object Read only String. |
 
 ### See Also
 

@@ -18,7 +18,15 @@ public class SketchFormat : PVIObject, ISketchFormat
 
 | Name | Description |
 | --- | --- |
-| [SketchType](sketchtype) { get; set; } | Returns or sets the sketch type. Read/write [`LineSketchType`](../linesketchtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Returns or sets the sketch type. Read/write [`LineSketchType`](../linesketchtype). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

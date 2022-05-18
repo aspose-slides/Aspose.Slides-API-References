@@ -18,23 +18,23 @@ public class ChartTitle : IChartTitle
 
 | Name | Description |
 | --- | --- |
-| [Bottom](bottom) { get; } | Bottom. Read-only Single. |
-| [Chart](chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
-| [Format](format) { get; } | Returns the fill, line, effect styles of a title. Read-only [`IFormat`](../iformat). |
-| [Height](height) { get; set; } | Returns or sets the height of a title as a fraction of the height of the chart. Read/write Single. |
-| [Overlay](overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap title. Read/write Boolean. |
-| [Right](right) { get; } | Right. Read-only Single. |
-| [TextFormat](textformat) { get; } | Returns text format. Read-only [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](textframeforoverriding) { get; } | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text. Auto-generated text is an implicit property of the data label, the display unit label of the value axis, the axis title, the chart title, the label of the trendline. Auto-generated text is formatted with the IFormattedTextContainer.TextFormat property. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](width) { get; set; } | Returns or sets the width of a title as a fraction of the width of the chart. Read/write Single. |
-| [X](x) { get; set; } | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write Single. |
-| [Y](y) { get; set; } | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Bottom. Read-only Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Returns the parent chart. Read-only [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Returns the fill, line, effect styles of a title. Read-only [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Returns or sets the height of a title as a fraction of the height of the chart. Read/write Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap title. Read/write Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Right. Read-only Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Returns text format. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text. Auto-generated text is an implicit property of the data label, the display unit label of the value axis, the axis title, the chart title, the label of the trendline. Auto-generated text is formatted with the IFormattedTextContainer.TextFormat property. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Returns or sets the width of a title as a fraction of the width of the chart. Read/write Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write Single. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddTextFrameForOverriding](addtextframeforoverriding)(string) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 
 ### See Also
 

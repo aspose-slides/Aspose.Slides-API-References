@@ -24,9 +24,9 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateImageWrapper](createimagewrapper)(Image) | Initializes a new instance of the BitmapWrapper class from the specified existing image. |
-| [CreateImageWrapper](createimagewrapper)(Stream) | Initializes a new instance of the BitmapWrapper class from the specified data stream. |
-| [CreateImageWrapper](createimagewrapper)(string) | Initializes a new instance of the BitmapWrapper class from the specified file. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper)(Image) | Initializes a new instance of the BitmapWrapper class from the specified existing image. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper)(Stream) | Initializes a new instance of the BitmapWrapper class from the specified data stream. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper)(string) | Initializes a new instance of the BitmapWrapper class from the specified file. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public sealed class SvgTSpan : ISvgTSpan
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | Gets "tspan" element id |
+| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | Gets "tspan" element id |
 
 ### See Also
 

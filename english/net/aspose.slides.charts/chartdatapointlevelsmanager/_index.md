@@ -18,8 +18,8 @@ public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartData
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns data point levels count. |
-| [Item](item) { get; } | Returns IChartDataPointLevel object for defined level. |
+| [Count](../../aspose.slides.charts/chartdatapointlevelsmanager/count) { get; } | Returns data point levels count. |
+| [Item](../../aspose.slides.charts/chartdatapointlevelsmanager/item) { get; } | Returns IChartDataPointLevel object for defined level. |
 
 ### See Also
 

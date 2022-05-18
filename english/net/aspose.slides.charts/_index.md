@@ -20,7 +20,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | Exception which thrown when trying to combine 2D and 3D chart types. |
 | [Chart](./chart) | Represents an graphic chart on a slide. |
 | [ChartCategory](./chartcategory) | Represents chart categories. |
-| [ChartCategoryCollection](./chartcategorycollection) | Represents collection of [`ChartCategory`](aspose.slides.charts/chartcategory) |
+| [ChartCategoryCollection](./chartcategorycollection) | Represents collection of [`ChartCategory`](../aspose.slides.charts/chartcategory) |
 | [ChartCategoryLevelsManager](./chartcategorylevelsmanager) | Managed container of the values of the chart category levels. |
 | [ChartCellCollection](./chartcellcollection) | Represents collection of a cells with data. |
 | [ChartData](./chartdata) | Represents data used for a chart plotting. |
@@ -30,13 +30,13 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [ChartDataPointLevel](./chartdatapointlevel) | Represents data point level. Applies for Treemap and Sunburst chart. |
 | [ChartDataPointLevelsManager](./chartdatapointlevelsmanager) | Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |
 | [ChartDataWorkbook](./chartdataworkbook) | Provides access to embedded Excel workbook |
-| [ChartDataWorksheet](./chartdataworksheet) | Represents worksheet associated with [`IChartDataCell`](aspose.slides.charts/ichartdatacell) |
+| [ChartDataWorksheet](./chartdataworksheet) | Represents worksheet associated with [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
 | [ChartDataWorksheetCollection](./chartdataworksheetcollection) | Represents the collection of worksheets of chart data workbook. |
 | [ChartLinesFormat](./chartlinesformat) | Represents gridlines format properties. |
 | [ChartPlotArea](./chartplotarea) | Represents rectangle where chart should be plotted. |
-| [ChartPortionFormat](./chartportionformat) | This class contains the chart portion formatting properties used in charts. Unlike [`IPortionFormatEffectiveData`](aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
+| [ChartPortionFormat](./chartportionformat) | This class contains the chart portion formatting properties used in charts. Unlike [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
 | [ChartSeries](./chartseries) | Represents a chart series. |
-| [ChartSeriesCollection](./chartseriescollection) | Represents collection of [`ChartSeries`](aspose.slides.charts/chartseries) |
+| [ChartSeriesCollection](./chartseriescollection) | Represents collection of [`ChartSeries`](../aspose.slides.charts/chartseries) |
 | [ChartSeriesGroup](./chartseriesgroup) | Represents group of series. |
 | [ChartTextFormat](./charttextformat) | Specifies default text formatting for chart text elements. |
 | [ChartTitle](./charttitle) | Represents chart title properties. |
@@ -49,7 +49,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [DataTable](./datatable) | Represents data table properties. |
 | [DoubleChartValue](./doublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
 | [ErrorBarsCustomValues](./errorbarscustomvalues) | Specifies the errors bar values. It shall be used only when the Error bars value type is Custom. |
-| [ErrorBarsFormat](./errorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in [`ErrorBarsCustomValues`](aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) property). |
+| [ErrorBarsFormat](./errorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (../in [`ErrorBarsCustomValues`](aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) property). |
 | [Format](./format) | Represents chart format properties. |
 | [Legend](./legend) | Represents chart's legend properties. |
 | [LegendEntryCollection](./legendentrycollection) | Represents legends collection. |
@@ -73,7 +73,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [IBaseChartValue](./ibasechartvalue) | Represents a value of a chart. |
 | [IChart](./ichart) | Represents an graphic chart on a slide. |
 | [IChartCategory](./ichartcategory) | Represents chart categories. |
-| [IChartCategoryCollection](./ichartcategorycollection) | Represents collection of [`IChartCategory`](aspose.slides.charts/ichartcategory) |
+| [IChartCategoryCollection](./ichartcategorycollection) | Represents collection of [`IChartCategory`](../aspose.slides.charts/ichartcategory) |
 | [IChartCategoryLevelsManager](./ichartcategorylevelsmanager) | Managed container of the values of the chart category levels. |
 | [IChartCellCollection](./ichartcellcollection) | Represents collection of a cells with data. |
 | [IChartComponent](./ichartcomponent) | Represents a component of a chart. |
@@ -84,17 +84,17 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [IChartDataPointLevel](./ichartdatapointlevel) | Represents data point level. Applies for Treemap and Sunburst chart. |
 | [IChartDataPointLevelsManager](./ichartdatapointlevelsmanager) | Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |
 | [IChartDataWorkbook](./ichartdataworkbook) | Provides access to embedded Excel workbook |
-| [IChartDataWorksheet](./ichartdataworksheet) | Represents worksheet associated with [`IChartDataCell`](aspose.slides.charts/ichartdatacell) |
+| [IChartDataWorksheet](./ichartdataworksheet) | Represents worksheet associated with [`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
 | [IChartDataWorksheetCollection](./ichartdataworksheetcollection) | Represents the collection of worksheets of chart data workbook. |
 | [IChartLinesFormat](./ichartlinesformat) | Represents gridlines format properties. |
 | [IChartParagraphFormat](./ichartparagraphformat) | Represents a paragraph formatting properties of a chart. |
 | [IChartPlotArea](./ichartplotarea) | Represents chart title properties. |
 | [IChartPortionFormat](./ichartportionformat) | Represents the chart portion formatting properties used in charts. |
 | [IChartSeries](./ichartseries) | Represents a chart series. |
-| [IChartSeriesCollection](./ichartseriescollection) | Represents collection of [`IChartSeries`](aspose.slides.charts/ichartseries) |
+| [IChartSeriesCollection](./ichartseriescollection) | Represents collection of [`IChartSeries`](../aspose.slides.charts/ichartseries) |
 | [IChartSeriesGroup](./ichartseriesgroup) | Represents group of series. |
 | [IChartSeriesGroupCollection](./ichartseriesgroupcollection) | Represents the collection of groups of combinable series. |
-| [IChartSeriesReadonlyCollection](./ichartseriesreadonlycollection) | Represents a readonly collection of [`IChartSeries`](aspose.slides.charts/ichartseries) |
+| [IChartSeriesReadonlyCollection](./ichartseriesreadonlycollection) | Represents a readonly collection of [`IChartSeries`](../aspose.slides.charts/ichartseries) |
 | [IChartTextBlockFormat](./icharttextblockformat) | Represents formatting properties for chart text elements. |
 | [IChartTextFormat](./icharttextformat) | Chart operate with restricted set of text format properties. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat interfaces describe this restricted set. |
 | [IChartTitle](./icharttitle) | Represents chart title properties. |
@@ -106,7 +106,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [IDataTable](./idatatable) | Represents data table properties. |
 | [IDoubleChartValue](./idoublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
 | [IErrorBarsCustomValues](./ierrorbarscustomvalues) | Specifies the errors bar values. It shall be used only when the Error bars value type is Custom. |
-| [IErrorBarsFormat](./ierrorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in [`ErrorBarsCustomValues`](aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) property). |
+| [IErrorBarsFormat](./ierrorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (../in [`ErrorBarsCustomValues`](aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) property). |
 | [IFormat](./iformat) | Represents chart format properties. |
 | [IFormattedTextContainer](./iformattedtextcontainer) | Represents chart text format. |
 | [ILayoutable](./ilayoutable) | Specifies the exact position of a chart element. |
@@ -135,14 +135,14 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [ChartDataSourceType](./chartdatasourcetype) | Represents a type of data source of the chart |
 | [ChartShapeType](./chartshapetype) | Represents a shape of chart. |
 | [ChartType](./charttype) | Represents a type of chart. |
-| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup. For example: ChartType.PercentsStackedArea series cannot be simultaneously with ChartType.StackedArea series in one ChartSeriesGroup. But two or more ChartType.PercentsStackedArea can be in one ChartSeriesGroup simultaneously (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). And ChartType.Line series can be with ChartType.LineWithMarkers series simultaneously in one CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup. |
+| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup. For example: ChartType.PercentsStackedArea series cannot be simultaneously with ChartType.StackedArea series in one ChartSeriesGroup. But two or more ChartType.PercentsStackedArea can be in one ChartSeriesGroup simultaneously (../CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). And ChartType.Line series can be with ChartType.LineWithMarkers series simultaneously in one CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup. |
 | [CrossesType](./crossestype) | Determines where axis will cross. |
 | [DataSourceType](./datasourcetype) | Data source types. |
 | [DisplayBlanksAsType](./displayblanksastype) | Determines how missing data will be displayed. |
 | [DisplayUnitType](./displayunittype) | Determines multiplicity of the displayed data. |
 | [ErrorBarType](./errorbartype) | Represents type of error bar |
 | [ErrorBarValueType](./errorbarvaluetype) | Represents type of error bar value |
-| [LayoutTargetType](./layouttargettype) | If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). |
+| [LayoutTargetType](./layouttargettype) | If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (../not including axis and axis labels) or outside (../including axis and axis labels). |
 | [LegendDataLabelPosition](./legenddatalabelposition) | Determines position of data labels. |
 | [LegendPositionType](./legendpositiontype) | Determines a position of legend on a chart. |
 | [MarkerStyleType](./markerstyletype) | Determines form of marker on chart's data point. |

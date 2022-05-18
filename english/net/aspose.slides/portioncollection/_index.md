@@ -18,23 +18,23 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
-| [Item](item) { get; set; } | Gets the element at the specified index. |
+| [Count](../../aspose.slides/portioncollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
+| [Item](../../aspose.slides/portioncollection/item) { get; set; } | Gets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IPortion) | Adds a Portion to the end of collection. |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(IPortion) | Determines whether the ICollection contains a specific value. |
-| [CopyTo](copyto)(IPortion[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](indexof)(IPortion) | Determines the index of a specific item in the IList. |
-| [Insert](insert)(int, IPortion) | Inserts a Portion into the collection at the specified index. |
-| [Remove](remove)(IPortion) | Removes the first occurrence of a specific object from the ICollection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
+| [Add](../../aspose.slides/portioncollection/add)(IPortion) | Adds a Portion to the end of collection. |
+| [Clear](../../aspose.slides/portioncollection/clear)() | Removes all elements from the collection. |
+| [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Determines whether the ICollection contains a specific value. |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Determines the index of a specific item in the IList. |
+| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Inserts a Portion into the collection at the specified index. |
+| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Removes the first occurrence of a specific object from the ICollection. |
+| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Removes the element at the specified index of the collection. |
 
 ### See Also
 

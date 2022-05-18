@@ -18,15 +18,16 @@ public class ColorReplace : ImageTransformOperation, IColorReplace
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; } | Returns color format which will replace color of every pixel. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Returns color format which will replace color of every pixel. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`ColorReplace`](../colorreplace) is equal to the current [`ColorReplace`](../colorreplace). |
-| [GetEffective](geteffective)() | Gets effective Color Replacement effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Determines whether the specified [`ColorReplace`](../colorreplace) is equal to the current [`ColorReplace`](../colorreplace). |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Gets effective Color Replacement effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

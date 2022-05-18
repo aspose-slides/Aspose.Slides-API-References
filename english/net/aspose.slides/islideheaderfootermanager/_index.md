@@ -18,7 +18,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
 
 ### See Also
 

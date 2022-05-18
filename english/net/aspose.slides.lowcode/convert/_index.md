@@ -18,16 +18,16 @@ public static class Convert
 
 | Name | Description |
 | --- | --- |
-| static [AutoByExtension](autobyextension)(string, string) | Converts [`Presentation`](../../aspose.slides/presentation) using the passed output path extension to determine the required export format. |
-| static [ToPdf](topdf)(Presentation, string) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
-| static [ToPdf](topdf)(string, string) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
-| static [ToPdf](topdf)(Presentation, string, IPdfOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
-| static [ToPdf](topdf)(string, string, IPdfOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
-| static [ToSvg](tosvg)(string) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
-| static [ToSvg](tosvg)(Presentation, GetOutPathCallback) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
-| static [ToSvg](tosvg)(Presentation, ISVGOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
-| static [ToSvg](tosvg)(string, GetOutPathCallback) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
-| static [ToSvg](tosvg)(Presentation, GetOutPathCallback, ISVGOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Converts [`Presentation`](../../aspose.slides/presentation) using the passed output path extension to determine the required export format. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf)(Presentation, string) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf)(string, string) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf)(Presentation, string, IPdfOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf)(string, string, IPdfOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to PDF. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg)(string) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg)(Presentation, GetOutPathCallback) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg)(Presentation, ISVGOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg)(string, GetOutPathCallback) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg)(Presentation, GetOutPathCallback, ISVGOptions) | Converts [`Presentation`](../../aspose.slides/presentation) to SVG. |
 
 ## Other Members
 

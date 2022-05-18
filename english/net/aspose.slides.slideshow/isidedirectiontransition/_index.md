@@ -18,8 +18,8 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Direction of transition. Read/write [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### See Also
 

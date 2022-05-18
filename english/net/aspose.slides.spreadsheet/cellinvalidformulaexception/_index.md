@@ -27,7 +27,7 @@ public class CellInvalidFormulaException : PptxEditException
 
 | Name | Description |
 | --- | --- |
-| [Reference](reference) { get; } | Gets a cell reference that contains the invalid formula. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Gets a cell reference that contains the invalid formula. |
 
 ### See Also
 

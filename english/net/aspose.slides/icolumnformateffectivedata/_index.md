@@ -18,7 +18,7 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](asibasetableformateffectivedata) { get; } | Allows to get base IBaseTableFormatEffectiveData interface. Read-only [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Allows to get base IBaseTableFormatEffectiveData interface. Read-only [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Remarks
 

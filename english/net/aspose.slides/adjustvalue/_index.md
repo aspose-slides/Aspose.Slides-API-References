@@ -18,9 +18,9 @@ public class AdjustValue : IAdjustValue
 
 | Name | Description |
 | --- | --- |
-| [AngleValue](anglevalue) { get; set; } | Returns or sets value, interpreting it as angle in degrees. Read/write Single. |
-| [Name](name) { get; } | Returns a name of this adjustment value. Read-only String. |
-| [RawValue](rawvalue) { get; set; } | Returns or sets ajustment value "as is". Read/write Int64. |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Returns or sets value, interpreting it as angle in degrees. Read/write Single. |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | Returns a name of this adjustment value. Read-only String. |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Returns or sets ajustment value "as is". Read/write Int64. |
 
 ### See Also
 

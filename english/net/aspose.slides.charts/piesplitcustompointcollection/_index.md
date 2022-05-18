@@ -18,24 +18,24 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns or sets the count of chart data points. Read-only Int32. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns chart data point for specified index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Returns or sets the count of chart data points. Read-only Int32. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Gets a value indicating whether the ICollection is read-only. Read-only Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Returns chart data point for specified index. |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IChartDataPoint) | Adds data point to collection. |
-| [Add](add)(int) | Adds data point by its index in parent series points collection. |
-| [Clear](clear)() | Removes all items from the ICollection. |
-| [Contains](contains)(IChartDataPoint) | Determines whether the ICollection contains a specific value. |
-| [CopyTo](copyto)(IChartDataPoint[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(IChartDataPoint) | Removes item from collection. |
-| [Remove](remove)(int) | Removes item from collection by it index in parent series points collection. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add)(IChartDataPoint) | Adds data point to collection. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add)(int) | Adds data point by its index in parent series points collection. |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Removes all items from the ICollection. |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Determines whether the ICollection contains a specific value. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove)(IChartDataPoint) | Removes item from collection. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove)(int) | Removes item from collection by it index in parent series points collection. |
 
 ### See Also
 

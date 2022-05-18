@@ -18,9 +18,9 @@ public interface IPictureEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [Image](image) { get; } | Returns the embedded image. Read-only [`IPPImage`](../ippimage). |
-| [ImageTransform](imagetransform) { get; } | Returns the collection of image transform effects. Read-only [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](linkpathlong) { get; } | Returns linked image's URL. Read-only String. |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Returns the embedded image. Read-only [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Returns the collection of image transform effects. Read-only [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Returns linked image's URL. Read-only String. |
 
 ### Remarks
 

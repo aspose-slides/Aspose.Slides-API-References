@@ -18,14 +18,14 @@ public interface IMathParagraph : IMathBlockCollection
 
 | Name | Description |
 | --- | --- |
-| [AsIMathBlockCollection](asimathblockcollection) { get; } | Allows to get base IMathBlockCollection interface [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Allows to get base IMathBlockCollection interface [`IMathBlockCollection`](../imathblockcollection) |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [WriteAsMathMl](writeasmathml)(Stream) | Saves content of this [`IMathParagraph`](../imathparagraph) as MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Saves content of this [`IMathParagraph`](../imathparagraph) as MathML |
 
 ### Examples
 

@@ -18,18 +18,18 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
-| [Count](count) { get; } | Returns the number of elements in a collection Read-only Int32. |
-| [Item](item) { get; } | Returns a sequense at the specified index. |
+| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Returns the number of elements in a collection Read-only Int32. |
+| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | Returns a sequense at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IShape) | Add new interactive sequence. |
-| [Clear](clear)() | Removes all sequences from a collection. |
-| [Remove](remove)(ISequence) | Removes specified sequence from a collection. |
-| [RemoveAt](removeat)(int) | Removes sequence at the specified index. |
+| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | Add new interactive sequence. |
+| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | Removes all sequences from a collection. |
+| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | Removes specified sequence from a collection. |
+| [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | Removes sequence at the specified index. |
 
 ### See Also
 

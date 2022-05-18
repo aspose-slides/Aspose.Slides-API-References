@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | Name | Description |
 | --- | --- |
-| [ActualHeight](actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
-| [ActualWidth](actualwidth) { get; } | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
-| [ActualX](actualx) { get; } | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
-| [ActualY](actualy) { get; } | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
 
 ### See Also
 

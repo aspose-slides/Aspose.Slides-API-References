@@ -14,13 +14,19 @@ Represents a Luminance effect. Brightness linearly shifts all colors closer to w
 public class Luminance : ImageTransformOperation, ILuminance
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`Luminance`](../luminance) is equal to the current [`Luminance`](../luminance). |
-| [GetEffective](geteffective)() | Gets effective Luminance effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Determines whether the specified [`Luminance`](../luminance) is equal to the current [`Luminance`](../luminance). |
+| [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Gets effective Luminance effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

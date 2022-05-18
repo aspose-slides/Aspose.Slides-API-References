@@ -18,8 +18,8 @@ public interface IPptxOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AsISaveOptions](asisaveoptions) { get; } | Allows to get base ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
-| [Conformance](conformance) { get; set; } | Specifies the conformance class to which the Presentation document conforms. Default value is Ecma376_2006 |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Allows to get base ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Specifies the conformance class to which the Presentation document conforms. Default value is Ecma376_2006 |
 
 ### See Also
 

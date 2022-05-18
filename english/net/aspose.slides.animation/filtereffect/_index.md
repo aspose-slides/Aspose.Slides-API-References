@@ -24,9 +24,13 @@ public class FilterEffect : Behavior, IFilterEffect
 
 | Name | Description |
 | --- | --- |
-| [Reveal](reveal) { get; set; } | Represents that effect with behavior must reveal (in/out) Read/write [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](subtype) { get; set; } | Represents subtype of filter effect. Read/write [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](type) { get; set; } | Represents type of filter effect. Read/write [`FilterEffectType`](../filtereffecttype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Represents whether animation behaviors are accumulated. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Represents whether the current animation behavior is combined with other running animations. Read/write [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Represents properties of behavior. Read-only [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Represents that effect with behavior must reveal (in/out) Read/write [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Represents subtype of filter effect. Read/write [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Represents timing properties for the effect behavior. Read/write [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Represents type of filter effect. Read/write [`FilterEffectType`](../filtereffecttype). |
 
 ### See Also
 

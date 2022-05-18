@@ -18,14 +18,14 @@ public interface IInterruptionTokenSource
 
 | Name | Description |
 | --- | --- |
-| [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns true if interruption requested, false otherwise. |
-| [Token](token) { get; } | Returns new token binded to this [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Returns true if interruption requested, false otherwise. |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Returns new token binded to this [`IInterruptionTokenSource`](../iinterruptiontokensource). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Interrupt](interrupt)() | Intialize request for interruption. |
+| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Intialize request for interruption. |
 
 ### See Also
 

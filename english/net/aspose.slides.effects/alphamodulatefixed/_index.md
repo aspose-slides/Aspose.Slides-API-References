@@ -18,15 +18,16 @@ public class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
 
 | Name | Description |
 | --- | --- |
-| [Amount](amount) { get; set; } | Returns an amount of effect in percents. Read/write Single. |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Returns an amount of effect in percents. Read/write Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`AlphaModulateFixed`](../alphamodulatefixed) is equal to the current [`AlphaModulateFixed`](../alphamodulatefixed). |
-| [GetEffective](geteffective)() | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Determines whether the specified [`AlphaModulateFixed`](../alphamodulatefixed) is equal to the current [`AlphaModulateFixed`](../alphamodulatefixed). |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

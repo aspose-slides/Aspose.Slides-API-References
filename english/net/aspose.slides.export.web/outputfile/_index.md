@@ -18,7 +18,7 @@ public abstract class OutputFile : IOutputFile
 
 | Name | Description |
 | --- | --- |
-| abstract [Write](write)(Stream) | Writes the file content to the stream. |
+| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | Writes the file content to the stream. |
 
 ### See Also
 

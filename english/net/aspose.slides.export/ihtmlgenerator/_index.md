@@ -18,26 +18,26 @@ public interface IHtmlGenerator
 
 | Name | Description |
 | --- | --- |
-| [NextSlideIndex](nextslideindex) { get; } | Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide. Read-only Int32. |
-| [PreviousSlideIndex](previousslideindex) { get; } | Returns index of previously rendered slide or -1 if first slide is rendering. Read-only Int32. |
-| [SlideImageSize](slideimagesize) { get; } | Returns slide image size. Read-only SizeF. |
-| [SlideImageSizeUnit](slideimagesizeunit) { get; } | Returns a unit in which slide image size is specified. Read-only [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](slideimagesizeunitcode) { get; } | Returns a css code of unit in which slide image size is specified. Read-only String. |
-| [SlideIndex](slideindex) { get; } | Returns index of currently rendering slide. Read-only Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide. Read-only Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Returns index of previously rendered slide or -1 if first slide is rendering. Read-only Int32. |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Returns slide image size. Read-only SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Returns a unit in which slide image size is specified. Read-only [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Returns a css code of unit in which slide image size is specified. Read-only String. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Returns index of currently rendering slide. Read-only Int32. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddAttributeValue](addattributevalue)(char[]) | Quotes attribute value and adds it to the html file. |
-| [AddAttributeValue](addattributevalue)(string) | Quotes attribute value and adds it to the html file. |
-| [AddAttributeValue](addattributevalue)(char[], int, int) | Quotes attribute value and adds it to the html file. |
-| [AddHtml](addhtml)(char[]) | Adds formatted HTML text. |
-| [AddHtml](addhtml)(string) | Adds formatted HTML text. |
-| [AddHtml](addhtml)(char[], int, int) | Adds formatted HTML text. |
-| [AddText](addtext)(char[]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
-| [AddText](addtext)(string) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
-| [AddText](addtext)(char[], int, int) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue)(char[]) | Quotes attribute value and adds it to the html file. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue)(string) | Quotes attribute value and adds it to the html file. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue)(char[], int, int) | Quotes attribute value and adds it to the html file. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml)(char[]) | Adds formatted HTML text. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml)(string) | Adds formatted HTML text. |
+| [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml)(char[], int, int) | Adds formatted HTML text. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext)(char[]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext)(string) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext)(char[], int, int) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
 
 ### See Also
 

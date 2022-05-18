@@ -18,26 +18,26 @@ public sealed class TagCollection : ITagCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns a number of tags in the collectoin. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; set; } | Returns or sets a key and a value pair of a tag. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | Returns a number of tags in the collectoin. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Returns or sets a key and a value pair of a tag. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, string) | Adds a new tag to collection. |
-| [Clear](clear)() | Removes all tags from the collection. |
-| [Contains](contains)(string) | Determines whether the collection contains a specific name. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection into the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [GetNameByIndex](getnamebyindex)(int) | Returns key of a tag at the specified index. |
-| [GetNamesOfTags](getnamesoftags)() | Returns names of tags. |
-| [GetValueByIndex](getvaluebyindex)(int) | Returns value of a tag at the specified index. |
-| [IndexOfName](indexofname)(string) | Returns the zero-based index of the specified key in the collection. |
-| [Remove](remove)(string) | Removes the tag with a specified name from the collection. |
-| [RemoveAt](removeat)(int) | Removes the tag at the specified index. |
+| [Add](../../aspose.slides/tagcollection/add)(string, string) | Adds a new tag to collection. |
+| [Clear](../../aspose.slides/tagcollection/clear)() | Removes all tags from the collection. |
+| [Contains](../../aspose.slides/tagcollection/contains)(string) | Determines whether the collection contains a specific name. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Copies all elements from the collection into the specified array. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Returns key of a tag at the specified index. |
+| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Returns names of tags. |
+| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Returns value of a tag at the specified index. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Returns the zero-based index of the specified key in the collection. |
+| [Remove](../../aspose.slides/tagcollection/remove)(string) | Removes the tag with a specified name from the collection. |
+| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Removes the tag at the specified index. |
 
 ### See Also
 

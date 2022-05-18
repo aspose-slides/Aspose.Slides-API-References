@@ -18,8 +18,8 @@ public interface IMathFractionFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathFraction](createmathfraction)(IMathElement, IMathElement) | Creates a math fraction |
-| [CreateMathFraction](createmathfraction)(IMathElement, IMathElement, MathFractionTypes) | Creates a math fraction |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction)(IMathElement, IMathElement) | Creates a math fraction |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction)(IMathElement, IMathElement, MathFractionTypes) | Creates a math fraction |
 
 ### Remarks
 

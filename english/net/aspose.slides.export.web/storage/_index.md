@@ -24,9 +24,9 @@ public sealed class Storage
 
 | Name | Description |
 | --- | --- |
-| [ContainsKey](containskey)(string) | Determines whether the storage contains an element with the specified key. |
-| [Get&lt;TValue&gt;](get)(string) |  |
-| [Put&lt;TValue&gt;](put)(string, TValue) |  |
+| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | Determines whether the storage contains an element with the specified key. |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) |  |
+| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) |  |
 
 ### See Also
 

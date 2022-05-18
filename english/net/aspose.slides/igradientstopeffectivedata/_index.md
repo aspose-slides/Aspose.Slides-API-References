@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; } | Returns the color of a gradient stop. Read-only Color. |
-| [Position](position) { get; } | Returns the position (0..1) of a gradient stop. Read-only Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Returns the color of a gradient stop. Read-only Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Returns the position (0..1) of a gradient stop. Read-only Single. |
 
 ### See Also
 

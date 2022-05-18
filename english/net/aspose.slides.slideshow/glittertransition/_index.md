@@ -18,8 +18,15 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | Name | Description |
 | --- | --- |
-| [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](pattern) { get; set; } | Specifies the shape of the visuals used during the transition. Read/write [`TransitionPattern`](../transitionpattern). |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Direction of transition. Read/write [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Specifies the shape of the visuals used during the transition. Read/write [`TransitionPattern`](../transitionpattern). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 

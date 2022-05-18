@@ -18,14 +18,14 @@ public interface IBehaviorFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateColorEffect](createcoloreffect)() | Creates color effect. |
-| [CreateCommandEffect](createcommandeffect)() | Creates command effect. |
-| [CreateFilterEffect](createfiltereffect)() | Creates filter effect. |
-| [CreateMotionEffect](createmotioneffect)() | Creates motion effect. |
-| [CreatePropertyEffect](createpropertyeffect)() | Creates property effect. |
-| [CreateRotationEffect](createrotationeffect)() | Creates rotation effect. |
-| [CreateScaleEffect](createscaleeffect)() | Creates scale effect. |
-| [CreateSetEffect](createseteffect)() | Creates set effect. |
+| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | Creates color effect. |
+| [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | Creates command effect. |
+| [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | Creates filter effect. |
+| [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | Creates motion effect. |
+| [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | Creates property effect. |
+| [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Creates rotation effect. |
+| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Creates scale effect. |
+| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Creates set effect. |
 
 ### Remarks
 

@@ -18,31 +18,31 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
-| [Item](item) { get; } | Returns an [`IImageTransformOperation`](../iimagetransformoperation) from the collection by it's index. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Returns an [`IImageTransformOperation`](../iimagetransformoperation) from the collection by it's index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddAlphaBiLevelEffect](addalphabileveleffect)(float) | Adds the new Alpha Bi-Level effect to the end of a collection. |
-| [AddAlphaCeilingEffect](addalphaceilingeffect)() | Adds the new Alpha Ceiling effect to the end of a collection. |
-| [AddAlphaFloorEffect](addalphaflooreffect)() | Adds the new Alpha Floor effect to the end of a collection. |
-| [AddAlphaInverseEffect](addalphainverseeffect)() | Adds the new Alpha Inverse effect to the end of a collection. |
-| [AddAlphaModulateEffect](addalphamodulateeffect)() | Adds the new Alpha Modulate effect to the end of a collection. |
-| [AddAlphaModulateFixedEffect](addalphamodulatefixedeffect)(float) | Adds the new Alpha Modulate Fixed effect to the end of a collection. |
-| [AddAlphaReplaceEffect](addalphareplaceeffect)(float) | Adds the new Alpha Replace effect to the end of a collection. |
-| [AddBiLevelEffect](addbileveleffect)(float) | Adds the new Bi-Level (black/white) effect to the end of a collection. |
-| [AddBlurEffect](addblureffect)(double, bool) | Adds the new Blur effect to the end of a collection. |
-| [AddColorChangeEffect](addcolorchangeeffect)() | Adds the new Color Change effect to the end of a collection. |
-| [AddColorReplaceEffect](addcolorreplaceeffect)() | Adds the new Color Replacement effect to the end of a collection. |
-| [AddDuotoneEffect](addduotoneeffect)() | Adds the new Duotone effect to the end of a collection. |
-| [AddFillOverlayEffect](addfilloverlayeffect)() | Adds the new Fill Overlay effect to the end of a collection. |
-| [AddGrayScaleEffect](addgrayscaleeffect)() | Adds the new Gray Scale effect to the end of a collection. |
-| [AddHSLEffect](addhsleffect)(float, float, float) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
-| [AddLuminanceEffect](addluminanceeffect)(float, float) | Adds the new Luminance effect to the end of a collection. |
-| [AddTintEffect](addtinteffect)(float, float) | Adds the new Tint effect to the end of a collection. |
-| [RemoveAt](removeat)(int) | Removes an image effect from a collection at the specified index. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Adds the new Alpha Bi-Level effect to the end of a collection. |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Adds the new Alpha Ceiling effect to the end of a collection. |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Adds the new Alpha Floor effect to the end of a collection. |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Adds the new Alpha Inverse effect to the end of a collection. |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Adds the new Alpha Modulate effect to the end of a collection. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Adds the new Alpha Modulate Fixed effect to the end of a collection. |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Adds the new Alpha Replace effect to the end of a collection. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Adds the new Bi-Level (black/white) effect to the end of a collection. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Adds the new Blur effect to the end of a collection. |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Adds the new Color Change effect to the end of a collection. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Adds the new Color Replacement effect to the end of a collection. |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Adds the new Duotone effect to the end of a collection. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Adds the new Fill Overlay effect to the end of a collection. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Adds the new Gray Scale effect to the end of a collection. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Adds the new Luminance effect to the end of a collection. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Adds the new Tint effect to the end of a collection. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Removes an image effect from a collection at the specified index. |
 
 ### See Also
 

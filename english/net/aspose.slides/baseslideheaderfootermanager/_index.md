@@ -18,19 +18,19 @@ public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 
 | Name | Description |
 | --- | --- |
-| [IsDateTimeVisible](isdatetimevisible) { get; } | Gets value indicating that a date-time placeholder is present. ReadBoolean. |
-| [IsFooterVisible](isfootervisible) { get; } | Gets value indicating that a footer placeholder is present. Read Boolean. |
-| [IsSlideNumberVisible](isslidenumbervisible) { get; } | Gets value indicating that a page number placeholder is present. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Gets value indicating that a date-time placeholder is present. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Gets value indicating that a footer placeholder is present. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Gets value indicating that a page number placeholder is present. ReadBoolean. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetDateTimeText](setdatetimetext)(string) | Sets text to slide date-time placeholder. |
-| [SetDateTimeVisibility](setdatetimevisibility)(bool) | Changes slide date-time placeholder visibility. |
-| [SetFooterText](setfootertext)(string) | Sets text to slide footer placeholder. |
-| [SetFooterVisibility](setfootervisibility)(bool) | Changes slide footer placeholder visibility. |
-| [SetSlideNumberVisibility](setslidenumbervisibility)(bool) | Changes slide page number placeholder visibility. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Sets text to slide date-time placeholder. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Changes slide date-time placeholder visibility. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Sets text to slide footer placeholder. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Changes slide footer placeholder visibility. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Changes slide page number placeholder visibility. |
 
 ### See Also
 

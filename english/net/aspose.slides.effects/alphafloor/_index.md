@@ -14,13 +14,19 @@ Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are chan
 public class AlphaFloor : ImageTransformOperation, IAlphaFloor
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`AlphaFloor`](../alphafloor) is equal to the current [`AlphaFloor`](../alphafloor). |
-| [GetEffective](geteffective)() | Gets effective Alpha Floor effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Determines whether the specified [`AlphaFloor`](../alphafloor) is equal to the current [`AlphaFloor`](../alphafloor). |
+| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Gets effective Alpha Floor effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

@@ -18,8 +18,15 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 | Name | Description |
 | --- | --- |
-| [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](pattern) { get; set; } | Specifies the shape of the visuals used during the transition. Read/write [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Direction of transition. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Specifies the shape of the visuals used during the transition. Read/write [`TransitionShredPattern`](../transitionshredpattern). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 

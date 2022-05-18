@@ -18,19 +18,19 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 
 | Name | Description |
 | --- | --- |
-| [AsIActualLayout](asiactuallayout) { get; } | Returns IActualLayout interface. |
-| [AsILayoutable](asilayoutable) { get; } | Returns ILayoutable interface. Read-only [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](asioverridabletext) { get; } | Returns IOverridableText interface. Read-only [`IOverridableText`](../ioverridabletext). |
-| [DataLabelFormat](datalabelformat) { get; } | Returns format of the data label. Read-only [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](isvisible) { get; } | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only Boolean. |
-| [ValueFromCell](valuefromcell) { get; set; } | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
+| [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | Returns IActualLayout interface. |
+| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Returns ILayoutable interface. Read-only [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Returns IOverridableText interface. Read-only [`IOverridableText`](../ioverridabletext). |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Returns format of the data label. Read-only [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only Boolean. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetActualLabelText](getactuallabeltext)() | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
-| [Hide](hide)() | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this. |
 
 ### See Also
 

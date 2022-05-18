@@ -18,18 +18,18 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns a number of properties in the collection. Read-only Int32. |
-| [Item](item) { get; set; } | Returns or sets property. |
-| [NamesOfProperties](namesofproperties) { get; } | Returns the collection of properties names. Read-only ICollection. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Returns a number of properties in the collection. Read-only Int32. |
+| [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Returns or sets property. |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Returns the collection of properties names. Read-only ICollection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, string) | Adds a property to the collection. |
-| [Clear](clear)() | Removes all properties. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(string) | Removes a property with the specified name. |
+| [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Adds a property to the collection. |
+| [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Removes all properties. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Removes a property with the specified name. |
 
 ### See Also
 

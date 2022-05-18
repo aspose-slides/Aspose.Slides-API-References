@@ -18,18 +18,19 @@ public class Picture : PVIObject, ISlidesPicture
 
 | Name | Description |
 | --- | --- |
-| [Image](image) { get; set; } | Returns or sets the embedded image. Read/write [`IPPImage`](../ippimage). |
-| [ImageTransform](imagetransform) { get; } | Returns the collection of image transform effects. Read-only [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](linkpathlong) { get; set; } | Returns of sets linked image's URL. Read/write String. |
-| [Presentation](presentation) { get; } | Returns the presentation. Read-only [`IPresentation`](../ipresentation). |
-| [Slide](slide) { get; } | Returns the parent slide of a picture. Read-only [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Returns or sets the embedded image. Read/write [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Returns the collection of image transform effects. Read-only [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Returns of sets linked image's URL. Read/write String. |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | Returns the presentation. Read-only [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Returns the parent slide of a picture. Read-only [`IBaseSlide`](../ibaseslide). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Compares with specified object. |
-| override [GetHashCode](gethashcode)() | Returns hash. |
+| override [Equals](../../aspose.slides/picture/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Returns hash. |
 
 ### See Also
 

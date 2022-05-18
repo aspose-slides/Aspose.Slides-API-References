@@ -18,7 +18,7 @@ public interface IOutputSaver
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(string, IOutputFile) | Saves the output file to the given path. |
+| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | Saves the output file to the given path. |
 
 ### See Also
 

@@ -18,13 +18,13 @@ public interface IFontData
 
 | Name | Description |
 | --- | --- |
-| [FontName](fontname) { get; } | Returns the font name. Read-only String. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Returns the font name. Read-only String. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetFontName](getfontname)(IThemeEffectiveData) | Returns the font name, replacing theme referrence with an actual font used. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Returns the font name, replacing theme referrence with an actual font used. |
 
 ### See Also
 

@@ -18,14 +18,14 @@ public interface ITiffOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
-| [CompressionType](compressiontype) { get; set; } | Specifies the compression type. Read/write [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](dpix) { get; set; } | Specifies the horizontal resolution in dots per inch. Read/write UInt32. |
-| [DpiY](dpiy) { get; set; } | Specifies the vertical resolution in dots per inch. Read/write UInt32. |
-| [ImageSize](imagesize) { get; set; } | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write Size. |
-| [NotesCommentsLayouting](notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
-| [PixelFormat](pixelformat) { get; set; } | Specifies the pixel format for the generated images. Read/write [`ImagePixelFormat`](../imagepixelformat). |
-| [ShowHiddenSlides](showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
+| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Specifies the compression type. Read/write [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Specifies the horizontal resolution in dots per inch. Read/write UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Specifies the vertical resolution in dots per inch. Read/write UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write Size. |
+| [NotesCommentsLayouting](../../aspose.slides.export/itiffoptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Specifies the pixel format for the generated images. Read/write [`ImagePixelFormat`](../imagepixelformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
 
 ### See Also
 

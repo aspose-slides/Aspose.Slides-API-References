@@ -18,20 +18,20 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of elements in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns the signature by index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | Returns the number of elements in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | Returns the signature by index. |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IDigitalSignature) | Adds the signature at the end of collection. |
-| [Clear](clear)() | Removes all signatures from collection. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [RemoveAt](removeat)(int) | Removes the signature at the specified index. |
+| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | Adds the signature at the end of collection. |
+| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | Removes all signatures from collection. |
+| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | Removes the signature at the specified index. |
 
 ### See Also
 

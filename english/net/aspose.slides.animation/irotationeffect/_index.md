@@ -18,10 +18,10 @@ public interface IRotationEffect : IBehavior
 
 | Name | Description |
 | --- | --- |
-| [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
-| [By](by) { get; set; } | Describes the relative offset value for the animation. Read/write Single. |
-| [From](from) { get; set; } | Describes the starting value for the animation. Read/write Single. |
-| [To](to) { get; set; } | Describes the ending value for the animation. Read/write Single. |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Describes the relative offset value for the animation. Read/write Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Describes the starting value for the animation. Read/write Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Describes the ending value for the animation. Read/write Single. |
 
 ### See Also
 

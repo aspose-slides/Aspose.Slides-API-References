@@ -25,9 +25,9 @@ public class FontSubstRule : IFontSubstRule
 
 | Name | Description |
 | --- | --- |
-| [DestFont](destfont) { get; } | Font to use for substitution. Read-only [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](replacefontcondition) { get; } | Rule to apply for substitution. Read-only [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](sourcefont) { get; } | Font to substitute. Read-only [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Font to use for substitution. Read-only [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Rule to apply for substitution. Read-only [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Font to substitute. Read-only [`IFontData`](../ifontdata). |
 
 ### See Also
 

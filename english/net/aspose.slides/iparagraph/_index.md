@@ -18,18 +18,18 @@ public interface IParagraph : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](endparagraphportionformat) { get; set; } | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
-| [ParagraphFormat](paragraphformat) { get; } | Returns the formatting object for this paragraph. Read-only [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](portions) { get; } | Returns the collection of a text portions. Read-only [`IPortionCollection`](../iportioncollection). |
-| [Text](text) { get; set; } | Gets or sets the the plain text of a paragraph. Read/write String. |
+| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
+| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Returns the formatting object for this paragraph. Read-only [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Returns the collection of a text portions. Read-only [`IPortionCollection`](../iportioncollection). |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Gets or sets the the plain text of a paragraph. Read/write String. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetRect](getrect)() | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
-| [JoinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting. |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Joins runs with same formatting. |
 
 ### See Also
 

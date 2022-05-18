@@ -18,10 +18,10 @@ public sealed class FontsLoader : IFontsLoader
 
 | Name | Description |
 | --- | --- |
-| static [ClearCache](clearcache)() | Releases all custom fonts defined by user |
-| static [GetFontFolders](getfontfolders)() | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
-| static [LoadExternalFont](loadexternalfont)(byte[]) | Adds font from the binary data |
-| static [LoadExternalFonts](loadexternalfonts)(string[]) | Adds additional folders to seek fonts. |
+| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Releases all custom fonts defined by user |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
+| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Adds font from the binary data |
+| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Adds additional folders to seek fonts. |
 
 ### See Also
 

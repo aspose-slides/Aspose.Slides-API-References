@@ -24,8 +24,8 @@ public class MathBarFactory : IMathBarFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathBar](createmathbar)(IMathElement) | Create a math bar by applying to the element |
-| [CreateMathBar](createmathbar)(IMathElement, MathTopBotPositions) | Create a math bar by applying to the element |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar)(IMathElement) | Create a math bar by applying to the element |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar)(IMathElement, MathTopBotPositions) | Create a math bar by applying to the element |
 
 ### Remarks
 

@@ -24,11 +24,15 @@ public class ColorEffect : Behavior, IColorEffect
 
 | Name | Description |
 | --- | --- |
-| [By](by) { get; set; } | Describes the relative offset value for the color animation. Read/write [`IColorOffset`](../icoloroffset). |
-| [ColorSpace](colorspace) { get; set; } | Represent color space of behavior. Read/write [`ColorSpace`](../colorspace). |
-| [Direction](direction) { get; set; } | Specifies which direction to cycle the hue around the color wheel. Read/write [`ColorDirection`](../colordirection). |
-| [From](from) { get; set; } | This value is used to specify the starting color of behavior. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [To](to) { get; set; } | Describes resulting color for the animation color change. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Represents whether animation behaviors are accumulated. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Represents whether the current animation behavior is combined with other running animations. Read/write [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Describes the relative offset value for the color animation. Read/write [`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Represent color space of behavior. Read/write [`ColorSpace`](../colorspace). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Specifies which direction to cycle the hue around the color wheel. Read/write [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | This value is used to specify the starting color of behavior. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Represents properties of behavior. Read-only [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Represents timing properties for the effect behavior. Read/write [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Describes resulting color for the animation color change. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### See Also
 

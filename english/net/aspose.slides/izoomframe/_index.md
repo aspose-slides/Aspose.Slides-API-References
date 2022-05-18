@@ -18,7 +18,7 @@ public interface IZoomFrame : IZoomObject
 
 | Name | Description |
 | --- | --- |
-| [TargetSlide](targetslide) { get; set; } | Gets or sets the slide object that the Slide Zoom object links to. Read/write [`ISlide`](../islide). |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Gets or sets the slide object that the Slide Zoom object links to. Read/write [`ISlide`](../islide). |
 
 ### See Also
 

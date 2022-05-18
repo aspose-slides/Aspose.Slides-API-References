@@ -18,21 +18,21 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns a number of video files in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`IVideo`](../ivideo). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | Returns a number of video files in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/videocollection/item) { get; } | Gets the element at the specified index. Read-only [`IVideo`](../ivideo). |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddVideo](addvideo)(byte[]) | Creates and adds a video to a presentation from byte array. |
-| [AddVideo](addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
-| [AddVideo](addvideo)(Stream) | Creates and adds a video to a presentation from stream. |
-| [AddVideo](addvideo)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
-| [CopyTo](copyto)(Array, int) | Copies videos to specified array starting from specified index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo)(byte[]) | Creates and adds a video to a presentation from byte array. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo)(Stream) | Creates and adds a video to a presentation from stream. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Copies videos to specified array starting from specified index. |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

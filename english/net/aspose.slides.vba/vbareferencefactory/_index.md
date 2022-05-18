@@ -24,13 +24,13 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 | Name | Description |
 | --- | --- |
-| static [Instance](instance) { get; } | VBA project references factory static instance. Read-only [`VbaReferenceFactory`](../vbareferencefactory). |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA project references factory static instance. Read-only [`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateOleTypeLibReference](createoletypelibreference)(string, string) | Creates new OLE Automation type library reference. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Creates new OLE Automation type library reference. |
 
 ### See Also
 

@@ -24,9 +24,9 @@ public class PortionFactory : IPortionFactory
 
 | Name | Description |
 | --- | --- |
-| [CreatePortion](createportion)() | Creates an empty text portion. |
-| [CreatePortion](createportion)(IPortion) | Creates a portion with the using of a specified portion data. |
-| [CreatePortion](createportion)(string) | Creates a text portion from specified string. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion)() | Creates an empty text portion. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion)(IPortion) | Creates a portion with the using of a specified portion data. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion)(string) | Creates a text portion from specified string. |
 
 ### Remarks
 

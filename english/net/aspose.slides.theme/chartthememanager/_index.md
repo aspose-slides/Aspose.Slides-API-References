@@ -14,6 +14,20 @@ Provides access to chart theme overriden.
 public class ChartThemeManager : BaseOverrideThemeManager
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Determines whether OverrideTheme overrides inherited effective theme or not. To enable OverrideTheme for overriding use OverrideTheme.Init*() methods. To disable OverrideTheme from overriding use OverrideTheme.Clear() method. Read-only Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Returns the overriding theme object. Read/write [`IOverrideTheme`](../ioverridetheme). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Applies extra color scheme to a slide. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Returns the theme object. |
+
 ### See Also
 
 * class [BaseOverrideThemeManager](../baseoverridethememanager)

@@ -18,8 +18,8 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | Name | Description |
 | --- | --- |
-| [AsIVbaReference](asivbareference) { get; } | Returns IVbaReference interface. Read-only [`IVbaReference`](../ivbareference). |
-| [Libid](libid) { get; set; } | Represents the identifier of an Automation type library. Read/write String. |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Returns IVbaReference interface. Read-only [`IVbaReference`](../ivbareference). |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Represents the identifier of an Automation type library. Read/write String. |
 
 ### See Also
 

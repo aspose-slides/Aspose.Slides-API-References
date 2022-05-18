@@ -18,10 +18,18 @@ public class Format : PVIObject, IFormat
 
 | Name | Description |
 | --- | --- |
-| [Effect](effect) { get; } | Returns effects used for a chart. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](effect3d) { get; } | Returns 3D format of a chart. Read-only [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](fill) { get; } | Returns fill style properties of a chart. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](line) { get; } | Returns line style properties of a chart. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | Returns effects used for a chart. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Returns 3D format of a chart. Read-only [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | Returns fill style properties of a chart. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/format/line) { get; } | Returns line style properties of a chart. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

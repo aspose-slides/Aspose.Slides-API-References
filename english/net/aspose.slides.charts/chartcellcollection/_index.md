@@ -18,19 +18,19 @@ public class ChartCellCollection : IChartCellCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the count of cells in collection. Read-only Int32. |
-| [Item](item) { get; } | Returns a cell (IChartDataCell) by index. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Gets the count of cells in collection. Read-only Int32. |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Returns a cell (IChartDataCell) by index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IChartDataCell) | Add new cell to the collection. |
-| [Add](add)(object) | Creates [`ChartDataCell`](../chartdatacell) from specified value and adds it to the collection. |
-| [GetCellsAddress](getcellsaddress)() | Returns address of the set of cells in workbook. |
-| [GetConcatenatedValuesFromCells](getconcatenatedvaluesfromcells)() | Concatenation string from all cells string values. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [RemoveAt](removeat)(int) | Removes a cell from the collection by index. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add)(IChartDataCell) | Add new cell to the collection. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add)(object) | Creates [`ChartDataCell`](../chartdatacell) from specified value and adds it to the collection. |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Returns address of the set of cells in workbook. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Concatenation string from all cells string values. |
+| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Removes a cell from the collection by index. |
 
 ### See Also
 

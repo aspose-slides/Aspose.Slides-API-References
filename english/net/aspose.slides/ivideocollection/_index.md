@@ -18,15 +18,15 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | Gets the element at the specified index. Read-only [`IVideo`](../ivideo). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddVideo](addvideo)(byte[]) | Creates and adds a video to a presentation from byte array. |
-| [AddVideo](addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
-| [AddVideo](addvideo)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo)(byte[]) | Creates and adds a video to a presentation from byte array. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
 
 ### See Also
 

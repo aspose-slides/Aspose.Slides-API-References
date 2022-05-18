@@ -18,8 +18,8 @@ public interface IChartLinesFormat
 
 | Name | Description |
 | --- | --- |
-| [Effect](effect) { get; } | Returns effects used for a chart line. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](line) { get; } | Returns line style properties of a chart line. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Returns effects used for a chart line. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Returns line style properties of a chart line. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### See Also
 

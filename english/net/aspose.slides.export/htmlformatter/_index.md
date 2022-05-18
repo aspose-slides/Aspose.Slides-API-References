@@ -18,9 +18,9 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | Name | Description |
 | --- | --- |
-| static [CreateCustomFormatter](createcustomformatter)(IHtmlFormattingController) | Creates and returns HTML formatter for custom callback-driven html generation. |
-| static [CreateDocumentFormatter](createdocumentformatter)(string, bool) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
-| static [CreateSlideShowFormatter](createslideshowformatter)(string, bool) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
 
 ### See Also
 

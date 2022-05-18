@@ -18,24 +18,24 @@ public class OuterShadow : IOuterShadow
 
 | Name | Description |
 | --- | --- |
-| [BlurRadius](blurradius) { get; set; } | Blur radius. Read/write Double. |
-| [Direction](direction) { get; set; } | Direction of shadow. Read/write Single. |
-| [Distance](distance) { get; set; } | Distance of shadow. Read/write Double. |
-| [RectangleAlign](rectanglealign) { get; set; } | Rectangle alignment. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](rotateshadowwithshape) { get; set; } | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write Boolean. |
-| [ScaleHorizontal](scalehorizontal) { get; set; } | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write Double. |
-| [ScaleVertical](scalevertical) { get; set; } | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write Double. |
-| [ShadowColor](shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](skewhorizontal) { get; set; } | Specifies the horizontal skew angle (in degrees). Read/write Double. |
-| [SkewVertical](skewvertical) { get; set; } | Specifies the vertical skew angle (in degrees). Read/write Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Blur radius. Read/write Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Direction of shadow. Read/write Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Distance of shadow. Read/write Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Rectangle alignment. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Specifies the horizontal skew angle (in degrees). Read/write Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Specifies the vertical skew angle (in degrees). Read/write Double. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`OuterShadow`](../outershadow) is equal to the current [`OuterShadow`](../outershadow). |
-| [GetEffective](geteffective)() | Gets effective Outer Shadow effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Determines whether the specified [`OuterShadow`](../outershadow) is equal to the current [`OuterShadow`](../outershadow). |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Gets effective Outer Shadow effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

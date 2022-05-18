@@ -25,15 +25,15 @@ public sealed class VbaProject : IVbaProject
 
 | Name | Description |
 | --- | --- |
-| [Modules](modules) { get; } | Returns the list of all modules that are contained in the VBA project. Read-only [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](name) { get; } | Returns the name of the VBA project. Read-only String. |
-| [References](references) { get; } | Returns the list of all references that are contained in the VBA project. Read-only [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Returns the list of all modules that are contained in the VBA project. Read-only [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Returns the name of the VBA project. Read-only String. |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Returns the list of all references that are contained in the VBA project. Read-only [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToBinary](tobinary)() | Returns the binary representation of the VBA project as OLE container |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Returns the binary representation of the VBA project as OLE container |
 
 ### See Also
 

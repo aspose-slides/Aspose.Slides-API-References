@@ -18,7 +18,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 
 | Name | Description |
 | --- | --- |
-| [AsIWarningInfo](asiwarninginfo) { get; } | Returns IWarningInfo interface. Read-only [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Returns IWarningInfo interface. Read-only [`IWarningInfo`](../iwarninginfo). |
 
 ### See Also
 

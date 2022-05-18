@@ -18,9 +18,9 @@ public interface IMathBar : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](base) { get; } | Base argument |
-| [Position](position) { get; set; } | Position of the bar line. Default: Top |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Base argument |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Position of the bar line. Default: Top |
 
 ### Examples
 

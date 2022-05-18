@@ -18,16 +18,16 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Allows to get base IEnumerable interface. Read-only IEnumerable. |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`ITrendline`](../itrendline). |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Allows to get base IEnumerable interface. Read-only IEnumerable. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Gets the element at the specified index. Read-only [`ITrendline`](../itrendline). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(TrendlineType) | Adds the new Trendline at the end of a collection and return it. |
-| [Remove](remove)(ITrendline) | Removes the specified value. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Adds the new Trendline at the end of a collection and return it. |
+| [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Removes the specified value. |
 
 ### See Also
 

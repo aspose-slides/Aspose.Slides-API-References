@@ -18,16 +18,19 @@ public class PatternFormat : PVIObject, IPatternFormat
 
 | Name | Description |
 | --- | --- |
-| [BackColor](backcolor) { get; } | Returns the background pattern color. Read-only [`IColorFormat`](../icolorformat). |
-| [ForeColor](forecolor) { get; } | Returns the foreground pattern color. Read-only [`IColorFormat`](../icolorformat). |
-| [PatternStyle](patternstyle) { get; set; } | Returns or sets the pattern style. Read/write [`PatternStyle`](../patternstyle). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Returns the background pattern color. Read-only [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Returns the foreground pattern color. Read-only [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Returns or sets the pattern style. Read/write [`PatternStyle`](../patternstyle). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetTileImage](gettileimage)(Color) | Creates a tile image for the pattern fill. |
-| [GetTileImage](gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
+| [GetTileImage](../../aspose.slides/patternformat/gettileimage)(Color) | Creates a tile image for the pattern fill. |
+| [GetTileImage](../../aspose.slides/patternformat/gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
 ### See Also
 

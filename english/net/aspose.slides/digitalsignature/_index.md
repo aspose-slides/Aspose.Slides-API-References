@@ -25,10 +25,10 @@ public class DigitalSignature : IDigitalSignature
 
 | Name | Description |
 | --- | --- |
-| [Certificate](certificate) { get; } | Certificate object that was used to sign the document. Read-only X509Certificate2. |
-| [Comments](comments) { get; set; } | The purpose of signature. Read/write String. |
-| [IsValid](isvalid) { get; } | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only Boolean. |
-| [SignTime](signtime) { get; } | The time when the document was signed. Read-only DateTime. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Certificate object that was used to sign the document. Read-only X509Certificate2. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | The purpose of signature. Read/write String. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | The time when the document was signed. Read-only DateTime. |
 
 ### See Also
 

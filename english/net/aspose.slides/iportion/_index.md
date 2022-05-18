@@ -18,20 +18,20 @@ public interface IPortion : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
-| [Field](field) { get; } | Returns a field of this portion. Read-only [`IField`](../ifield). |
-| [PortionFormat](portionformat) { get; } | Returns formatting object which contains explicitly set formatting properties of the text portion with no inheritance applied. Read-only [`IPortionFormat`](../iportionformat). |
-| [Text](text) { get; set; } | Gets or sets the plain text of a portion. Read/write String. |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
+| [Field](../../aspose.slides/iportion/field) { get; } | Returns a field of this portion. Read-only [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Returns formatting object which contains explicitly set formatting properties of the text portion with no inheritance applied. Read-only [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | Gets or sets the plain text of a portion. Read/write String. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddField](addfield)(IFieldType) | Converts this portion to the automaticaly updated field. |
-| [AddField](addfield)(string) | Converts this portion to the automaticaly updated field. |
-| [GetCoordinates](getcoordinates)() | Get coordinates of the beginning of the portion. The X coordinate of point represents the portion beginning from the first character including left side bearing. The Y coordinate includes top side bearing. |
-| [GetRect](getrect)() | Get coordinates of rect that bounds portion. The rect includes all the lines of text in portion, including empty ones. |
-| [RemoveField](removefield)() | Converts this field portion to the simple portion. |
+| [AddField](../../aspose.slides/iportion/addfield)(IFieldType) | Converts this portion to the automaticaly updated field. |
+| [AddField](../../aspose.slides/iportion/addfield)(string) | Converts this portion to the automaticaly updated field. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Get coordinates of the beginning of the portion. The X coordinate of point represents the portion beginning from the first character including left side bearing. The Y coordinate includes top side bearing. |
+| [GetRect](../../aspose.slides/iportion/getrect)() | Get coordinates of rect that bounds portion. The rect includes all the lines of text in portion, including empty ones. |
+| [RemoveField](../../aspose.slides/iportion/removefield)() | Converts this field portion to the simple portion. |
 
 ### See Also
 

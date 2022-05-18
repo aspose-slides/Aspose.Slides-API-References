@@ -18,13 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | Name | Description |
 | --- | --- |
-| [AspectRatioLocked](aspectratiolocked) { get; set; } | Determines whether shape have to preserve aspect ratio on resizing. Read/write Boolean. |
-| [GroupingLocked](groupinglocked) { get; set; } | Determines whether adding this shape to a group is forbidden. Read/write Boolean. |
-| [PositionLocked](positionlocked) { get; set; } | Determines whether moving this shape is forbidden. Read/write Boolean. |
-| [RotationLocked](rotationlocked) { get; set; } | Determines whether changing rotation angle of this shape is forbidden. Read/write Boolean. |
-| [SelectLocked](selectlocked) { get; set; } | Determines whether selecting this shape is forbidden. Read/write Boolean. |
-| [SizeLocked](sizelocked) { get; set; } | Determines whether resizing this shape is forbidden. Read/write Boolean. |
-| [UngroupingLocked](ungroupinglocked) { get; set; } | Determines whether splitting this groupshape is forbidden. Read/write Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Determines whether shape have to preserve aspect ratio on resizing. Read/write Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Determines whether adding this shape to a group is forbidden. Read/write Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Return true if all lock-flags are disabled. Read-only Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Determines whether moving this shape is forbidden. Read/write Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Determines whether changing rotation angle of this shape is forbidden. Read/write Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Determines whether selecting this shape is forbidden. Read/write Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Determines whether resizing this shape is forbidden. Read/write Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Determines whether splitting this groupshape is forbidden. Read/write Boolean. |
 
 ### See Also
 

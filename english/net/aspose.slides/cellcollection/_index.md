@@ -18,19 +18,19 @@ public abstract class CellCollection : ICellCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of cells in a collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns a cell by it's position. Read-only [`Cell`](../cell). |
-| [Presentation](presentation) { get; } | Returns the parent presentation of a CellCollection. Read-only [`IPresentation`](../ipresentation). |
-| [Slide](slide) { get; } | Returns the parent slide of a CellCollection. Read-only [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Returns the number of cells in a collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Returns a cell by it's position. Read-only [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Returns the parent presentation of a CellCollection. Read-only [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Returns the parent slide of a CellCollection. Read-only [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

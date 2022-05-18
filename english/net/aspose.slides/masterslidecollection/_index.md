@@ -18,22 +18,22 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`MasterSlide`](../masterslide). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Gets the element at the specified index. Read-only [`MasterSlide`](../masterslide). |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddClone](addclone)(IMasterSlide) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [InsertClone](insertclone)(int, IMasterSlide) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
-| [Remove](remove)(IMasterSlide) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
-| [RemoveUnused](removeunused)(bool) | Removes unused master slides. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
+| [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Removes the element at the specified index of the collection. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Removes unused master slides. |
 
 ### See Also
 

@@ -18,21 +18,21 @@ public interface ISmartArtNode
 
 | Name | Description |
 | --- | --- |
-| [BulletFillFormat](bulletfillformat) { get; } | Returns the FillFormat object that contains fill formatting properties for a node bullet. Note: can return null for certain types of SmartArt layout which does not provide bullets for nodes. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](childnodes) { get; } | Returns collections of all child nodes of current node. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [IsAssistant](isassistant) { get; set; } | Returns or sets the node as assistant. Read/write Boolean. |
-| [IsHidden](ishidden) { get; } | Returns true if this node is a hidden node in the data model. Read-only Boolean. |
-| [Level](level) { get; } | Returns nesting level of the node. Read-only Int32. |
-| [OrganizationChartLayout](organizationchartlayout) { get; set; } | Returns or sets organization chart layout type associated with current node. Read/write [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](position) { get; set; } | Returns or sets zero-based position of the node among sibling nodes. Read/write Int32. |
-| [Shapes](shapes) { get; } | Returns collections of all shapes associated with the node. Read-only [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](textframe) { get; } | Returns or sets text of the node. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Returns the FillFormat object that contains fill formatting properties for a node bullet. Note: can return null for certain types of SmartArt layout which does not provide bullets for nodes. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | Returns collections of all child nodes of current node. Read-only [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | Returns or sets the node as assistant. Read/write Boolean. |
+| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | Returns true if this node is a hidden node in the data model. Read-only Boolean. |
+| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | Returns nesting level of the node. Read-only Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | Returns or sets organization chart layout type associated with current node. Read/write [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | Returns or sets zero-based position of the node among sibling nodes. Read/write Int32. |
+| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | Returns collections of all shapes associated with the node. Read-only [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | Returns or sets text of the node. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Remove](remove)() | Remove current node. |
+| [Remove](../../aspose.slides.smartart/ismartartnode/remove)() | Remove current node. |
 
 ### See Also
 

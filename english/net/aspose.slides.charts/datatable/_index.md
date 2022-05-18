@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Name | Description |
 | --- | --- |
-| [Chart](chart) { get; } | Returns chart. Read-only [`IChart`](../ichart). |
-| [Format](format) { get; } | Returns the line, fill, and effect styles of an object. Read-only [`IFormat`](../iformat). |
-| [HasBorderHorizontal](hasborderhorizontal) { get; set; } | True if the chart data table has horizontal cell borders. Read/write Boolean. |
-| [HasBorderOutline](hasborderoutline) { get; set; } | True if the chart data table has outline borders. Read/write Boolean. |
-| [HasBorderVertical](hasbordervertical) { get; set; } | True if the chart data table has vertical cell borders. Read/write Boolean. |
-| [ShowLegendKey](showlegendkey) { get; set; } | True if the data label legend key is visible. Read/write Boolean. |
-| [TextFormat](textformat) { get; } | Returns text format. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Returns chart. Read-only [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Returns the line, fill, and effect styles of an object. Read-only [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | True if the chart data table has horizontal cell borders. Read/write Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | True if the chart data table has outline borders. Read/write Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | True if the chart data table has vertical cell borders. Read/write Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | True if the data label legend key is visible. Read/write Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Returns text format. Read-only [`IChartTextFormat`](../icharttextformat). |
 
 ### See Also
 

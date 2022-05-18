@@ -18,7 +18,7 @@ public interface IXamlOutputSaver
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(string, byte[]) | Saves a bytes array to a destination location. |
+| [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | Saves a bytes array to a destination location. |
 
 ### See Also
 

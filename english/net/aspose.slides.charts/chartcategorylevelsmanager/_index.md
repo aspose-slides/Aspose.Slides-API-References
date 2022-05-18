@@ -18,14 +18,14 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns IChartDataCell object for defined level. |
+| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | Returns IChartDataCell object for defined level. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [DeleteGroupingItem](deletegroupingitem)(int) | Delete grouping item for defined level. |
-| [SetGroupingItem](setgroupingitem)(int, object) | Sets grouping item for defined level. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Delete grouping item for defined level. |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Sets grouping item for defined level. |
 
 ### See Also
 

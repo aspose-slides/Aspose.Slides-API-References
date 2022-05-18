@@ -18,18 +18,18 @@ public class PresetShadow : IPresetShadow
 
 | Name | Description |
 | --- | --- |
-| [Direction](direction) { get; set; } | Direction of shadow. Read/write Single. |
-| [Distance](distance) { get; set; } | Distance of shadow. Read/write Double. |
-| [Preset](preset) { get; set; } | Preset. Read/write [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Direction of shadow. Read/write Single. |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Distance of shadow. Read/write Double. |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Preset. Read/write [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Color of shadow. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`PresetShadow`](../presetshadow) is equal to the current [`PresetShadow`](../presetshadow). |
-| [GetEffective](geteffective)() | Gets effective Preset Shadow effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Determines whether the specified [`PresetShadow`](../presetshadow) is equal to the current [`PresetShadow`](../presetshadow). |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Gets effective Preset Shadow effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

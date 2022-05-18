@@ -18,7 +18,7 @@ public interface IOutputFile
 
 | Name | Description |
 | --- | --- |
-| [Write](write)(Stream) | Writes the file content to the stream. |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | Writes the file content to the stream. |
 
 ### See Also
 

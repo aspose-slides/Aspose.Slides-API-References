@@ -18,8 +18,8 @@ public interface IExternalResourceResolver
 
 | Name | Description |
 | --- | --- |
-| [GetEntity](getentity)(string) | Maps a URI to an object containing the actual resource. |
-| [ResolveUri](resolveuri)(string, string) | Resolves the absolute URI from the base and relative URIs. |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Maps a URI to an object containing the actual resource. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Resolves the absolute URI from the base and relative URIs. |
 
 ### See Also
 

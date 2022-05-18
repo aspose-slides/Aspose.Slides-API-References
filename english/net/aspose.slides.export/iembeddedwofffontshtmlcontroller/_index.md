@@ -18,7 +18,7 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 
 | Name | Description |
 | --- | --- |
-| [AsIHtmlFormattingController](asihtmlformattingcontroller) { get; } | Returns IHtmlFormattingController interface. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | Returns IHtmlFormattingController interface. |
 
 ### See Also
 

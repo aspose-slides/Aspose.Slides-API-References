@@ -18,9 +18,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](direction) { get; set; } | Direction of transition. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](hasbounce) { get; set; } | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Direction of transition. Read/write [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write Boolean. |
 
 ### See Also
 

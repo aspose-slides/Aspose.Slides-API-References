@@ -24,14 +24,14 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | Name | Description |
 | --- | --- |
-| [IsInterruptionRequested](isinterruptionrequested) { get; } | Returns true if interruption requested, false otherwise. |
-| [Token](token) { get; } | Returns new token binded to this [`InterruptionTokenSource`](../interruptiontokensource). |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Returns true if interruption requested, false otherwise. |
+| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | Returns new token binded to this [`InterruptionTokenSource`](../interruptiontokensource). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Interrupt](interrupt)() | Intialize request for interruption. |
+| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Intialize request for interruption. |
 
 ### See Also
 

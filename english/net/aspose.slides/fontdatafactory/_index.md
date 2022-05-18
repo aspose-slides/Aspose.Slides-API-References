@@ -24,7 +24,7 @@ public class FontDataFactory : IFontDataFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateFontData](createfontdata)(string) | Creates FontData with specified font name. |
+| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | Creates FontData with specified font name. |
 
 ### See Also
 

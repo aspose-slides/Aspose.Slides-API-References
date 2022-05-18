@@ -18,8 +18,8 @@ public class CustomData : ICustomData
 
 | Name | Description |
 | --- | --- |
-| [CustomXmlParts](customxmlparts) { get; } | Returns the custom xml parts collection. Read-only [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](tags) { get; } | Returns the Customer Data Tags collection. Read-only [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Returns the custom xml parts collection. Read-only [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Returns the Customer Data Tags collection. Read-only [`ITagCollection`](../itagcollection). |
 
 ### See Also
 

@@ -18,13 +18,13 @@ public interface IPropertyEffect : IBehavior
 
 | Name | Description |
 | --- | --- |
-| [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
-| [By](by) { get; set; } | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
-| [CalcMode](calcmode) { get; set; } | Specifies the interpolation mode for the animation Read/write [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](from) { get; set; } | Specifies the starting value of the animation. Read/write String. |
-| [Points](points) { get; set; } | Specifies the points of the animation. Read/write [`IPointCollection`](../ipointcollection). |
-| [To](to) { get; set; } | Specifies the ending value for the animation. Read/write String. |
-| [ValueType](valuetype) { get; set; } | Specifies the type of a property value. Read/write [`PropertyValueType`](../propertyvaluetype). |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Specifies the interpolation mode for the animation Read/write [`PropertyCalcModeType`](../propertycalcmodetype). |
+| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Specifies the starting value of the animation. Read/write String. |
+| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Specifies the points of the animation. Read/write [`IPointCollection`](../ipointcollection). |
+| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Specifies the ending value for the animation. Read/write String. |
+| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Specifies the type of a property value. Read/write [`PropertyValueType`](../propertyvaluetype). |
 
 ### See Also
 

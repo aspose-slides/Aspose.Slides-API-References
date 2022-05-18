@@ -18,9 +18,9 @@ public interface IMasterThemeManager : IThemeManager
 
 | Name | Description |
 | --- | --- |
-| [AsIThemeManager](asithememanager) { get; } | Allows to get base IThemeManager interface. Read-only [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](isoverridethemeenabled) { get; set; } | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write Boolean. |
-| [OverrideTheme](overridetheme) { get; set; } | Returns the overriding theme object. Read/write [`IMasterTheme`](../imastertheme). |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Allows to get base IThemeManager interface. Read-only [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Returns the overriding theme object. Read/write [`IMasterTheme`](../imastertheme). |
 
 ### See Also
 

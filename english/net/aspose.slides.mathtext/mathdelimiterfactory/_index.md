@@ -24,8 +24,8 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathDelimiter](createmathdelimiter)(IMathElement) | Create a math delimiter by applying to the element |
-| [CreateMathDelimiter](createmathdelimiter)(IMathElementCollection) | Create a math delimiter by applying to the element |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter)(IMathElement) | Create a math delimiter by applying to the element |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter)(IMathElementCollection) | Create a math delimiter by applying to the element |
 
 ### Remarks
 

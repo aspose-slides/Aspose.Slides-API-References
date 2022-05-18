@@ -18,7 +18,7 @@ public interface IFieldType
 
 | Name | Description |
 | --- | --- |
-| [InternalString](internalstring) { get; set; } | Returns the internal name of this FieldTypeEx object. Read/write String. |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Returns the internal name of this FieldTypeEx object. Read/write String. |
 
 ### See Also
 

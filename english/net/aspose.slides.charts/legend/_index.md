@@ -18,18 +18,18 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Name | Description |
 | --- | --- |
-| [Bottom](bottom) { get; } | Bottom. Read-only Single. |
-| [Chart](chart) { get; } | Returns the chart. Read-only [`IChart`](../ichart). |
-| [Entries](entries) { get; } | Gets legend entries. Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](format) { get; } | Returns the format of a legend. Read-only [`IFormat`](../iformat). |
-| [Height](height) { get; set; } | Returns or sets the height of a legend as a fraction of the height of the chart. Read/write Single. |
-| [Overlay](overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Read/write Boolean. |
-| [Position](position) { get; set; } | Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write [`LegendPositionType`](../legendpositiontype). |
-| [Right](right) { get; } | Right. Read-only Single. |
-| [TextFormat](textformat) { get; } | Text format. Read-only [`IChartTextFormat`](../icharttextformat). |
-| [Width](width) { get; set; } | Returns or sets the width of a legend as a fraction of the width of the chart. Read/write Single. |
-| [X](x) { get; set; } | Returns or sets the x coordinate of a legend as a fraction of the width of the chart. Read/write Single. |
-| [Y](y) { get; set; } | Returns or sets the y coordinate of a legend as a fraction of the height of the chart. Read/write Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Bottom. Read-only Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Returns the chart. Read-only [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Gets legend entries. Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Returns the format of a legend. Read-only [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Returns or sets the height of a legend as a fraction of the height of the chart. Read/write Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Read/write Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Right. Read-only Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Text format. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Returns or sets the width of a legend as a fraction of the width of the chart. Read/write Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Returns or sets the x coordinate of a legend as a fraction of the width of the chart. Read/write Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Returns or sets the y coordinate of a legend as a fraction of the height of the chart. Read/write Single. |
 
 ### See Also
 

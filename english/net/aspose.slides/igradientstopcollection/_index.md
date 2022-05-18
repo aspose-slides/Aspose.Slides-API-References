@@ -18,20 +18,20 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns the gradient stop by index. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Returns the gradient stop by index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(float, Color) | Creates the new gradient stop and adds it to the end of collection. |
-| [Add](add)(float, PresetColor) | Creates the new gradient stop and adds it to the end of collection. |
-| [Add](add)(float, SchemeColor) | Creates the new gradient stop and adds it to the end of collection. |
-| [Clear](clear)() | Removes all gradient stops from a collection. |
-| [Insert](insert)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [Insert](insert)(int, float, PresetColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [Insert](insert)(int, float, SchemeColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [RemoveAt](removeat)(int) | Removes a gradient stop at the specified index. |
+| [Add](../../aspose.slides/igradientstopcollection/add)(float, Color) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](../../aspose.slides/igradientstopcollection/add)(float, PresetColor) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](../../aspose.slides/igradientstopcollection/add)(float, SchemeColor) | Creates the new gradient stop and adds it to the end of collection. |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Removes all gradient stops from a collection. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert)(int, float, PresetColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert)(int, float, SchemeColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Removes a gradient stop at the specified index. |
 
 ### See Also
 

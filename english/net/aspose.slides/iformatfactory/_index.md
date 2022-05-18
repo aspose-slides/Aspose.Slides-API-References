@@ -18,9 +18,9 @@ public interface IFormatFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateParagraphFormat](createparagraphformat)() | Creates new [`IParagraphFormat`](../iparagraphformat). |
-| [CreatePortionFormat](createportionformat)() | Creates new [`IPortionFormat`](../iportionformat). |
-| [CreateTextFrameFormat](createtextframeformat)() | Creates new [`ITextFrameFormat`](../itextframeformat). |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | Creates new [`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | Creates new [`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | Creates new [`ITextFrameFormat`](../itextframeformat). |
 
 ### See Also
 

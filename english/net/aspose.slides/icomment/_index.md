@@ -18,18 +18,18 @@ public interface IComment
 
 | Name | Description |
 | --- | --- |
-| [Author](author) { get; } | Returns the author of a comment. Read-only [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](createdtime) { get; set; } | Returns or sets the time of a comment creation. Setting this property to MinValue means no comment time is set. Read/write DateTime. |
-| [ParentComment](parentcomment) { get; set; } | Gets or sets parent comment. Read/write [`IComment`](../icomment). |
-| [Position](position) { get; set; } | Returns or sets the position of a comment on a slide. Read/write PointF. |
-| [Slide](slide) { get; } | Returns or sets the parent slide of a comment. Read-only [`ISlide`](../islide). |
-| [Text](text) { get; set; } | Returns or sets the plain text of a slide comment. Read/write String. |
+| [Author](../../aspose.slides/icomment/author) { get; } | Returns the author of a comment. Read-only [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Returns or sets the time of a comment creation. Setting this property to MinValue means no comment time is set. Read/write DateTime. |
+| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Gets or sets parent comment. Read/write [`IComment`](../icomment). |
+| [Position](../../aspose.slides/icomment/position) { get; set; } | Returns or sets the position of a comment on a slide. Read/write PointF. |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | Returns or sets the parent slide of a comment. Read-only [`ISlide`](../islide). |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Returns or sets the plain text of a slide comment. Read/write String. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Remove](remove)() | Removes comment and all its replies from the parent collection. |
+| [Remove](../../aspose.slides/icomment/remove)() | Removes comment and all its replies from the parent collection. |
 
 ### See Also
 

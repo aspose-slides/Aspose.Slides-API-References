@@ -24,33 +24,33 @@ public sealed class FieldType : IFieldType
 
 | Name | Description |
 | --- | --- |
-| static [DateTime](datetime) { get; } | Current date and time in default date time format for the rendering application. Read-only [`FieldType`](../fieldtype). |
-| static [DateTime1](datetime1) { get; } | Current date and time in a first predefined format (MM/DD/YYYY for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime10](datetime10) { get; } | Current date and time in a tenth predefined format (hh:mm for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime11](datetime11) { get; } | Current date and time in a eleventh predefined format (hh:mm:ss for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime12](datetime12) { get; } | Current date and time in a twelfth predefined format (hh:mm AM/PM for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime13](datetime13) { get; } | Current date and time in a thirteenth predefined format (hh:mm:ss AM/PM for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime2](datetime2) { get; } | Current date and time in a second predefined format (Day, Month DD, YYYY for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime3](datetime3) { get; } | Current date and time in a third predefined format (DD Month YYYY for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime4](datetime4) { get; } | Current date and time in a fourth predefined format (Month DD, YYYY for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime5](datetime5) { get; } | Current date and time in a fifth predefined format (DD-Mon-YY for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime6](datetime6) { get; } | Current date and time in a sixth predefined format (Month YY for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime7](datetime7) { get; } | Current date and time in a seventh predefined format (Mon-YY for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime8](datetime8) { get; } | Current date and time in a eighth predefined format (MM/DD/YYYY hh:mm AM/PM for english). Read-only [`FieldType`](../fieldtype). |
-| static [DateTime9](datetime9) { get; } | Current date and time in a ninth predefined format (MM/DD/YYYY hh:mm:ss AM/PM for english). Read-only [`FieldType`](../fieldtype). |
-| static [Footer](footer) { get; } | Slide's footer. Read-only [`FieldType`](../fieldtype). |
-| static [Header](header) { get; } | Slide's header. Read-only [`FieldType`](../fieldtype). |
-| static [SlideNumber](slidenumber) { get; } | Current slide's number. Read-only [`FieldType`](../fieldtype). |
-| [InternalString](internalstring) { get; set; } | Returns the internal name of this FieldType object. Read/write String. |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Current date and time in default date time format for the rendering application. Read-only [`FieldType`](../fieldtype). |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Current date and time in a first predefined format (MM/DD/YYYY for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Current date and time in a tenth predefined format (hh:mm for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Current date and time in a eleventh predefined format (hh:mm:ss for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Current date and time in a twelfth predefined format (hh:mm AM/PM for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Current date and time in a thirteenth predefined format (hh:mm:ss AM/PM for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Current date and time in a second predefined format (Day, Month DD, YYYY for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Current date and time in a third predefined format (DD Month YYYY for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Current date and time in a fourth predefined format (Month DD, YYYY for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Current date and time in a fifth predefined format (DD-Mon-YY for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Current date and time in a sixth predefined format (Month YY for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Current date and time in a seventh predefined format (Mon-YY for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Current date and time in a eighth predefined format (MM/DD/YYYY hh:mm AM/PM for english). Read-only [`FieldType`](../fieldtype). |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Current date and time in a ninth predefined format (MM/DD/YYYY hh:mm:ss AM/PM for english). Read-only [`FieldType`](../fieldtype). |
+| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Slide's footer. Read-only [`FieldType`](../fieldtype). |
+| static [Header](../../aspose.slides/fieldtype/header) { get; } | Slide's header. Read-only [`FieldType`](../fieldtype). |
+| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Current slide's number. Read-only [`FieldType`](../fieldtype). |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Returns the internal name of this FieldType object. Read/write String. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Checks if this field is equal to another. |
-| override [GetHashCode](gethashcode)() | Returns hashcode for this object. |
-| [operator ==](op_equality) | Checks if two FieldType objects is equal. |
-| [operator !=](op_inequality) | Checks if two FieldType objects is inequal. |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | Checks if this field is equal to another. |
+| override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | Returns hashcode for this object. |
+| [operator ==](../../aspose.slides/fieldtype/op_equality) | Checks if two FieldType objects is equal. |
+| [operator !=](../../aspose.slides/fieldtype/op_inequality) | Checks if two FieldType objects is inequal. |
 
 ### See Also
 

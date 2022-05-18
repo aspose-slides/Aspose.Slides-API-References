@@ -18,17 +18,17 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [AsIMathElementCollection](asimathelementcollection) { get; } | Allows to get base IMathElementCollection interface [`IMathElementCollection`](../imathelementcollection) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Allows to get base IMathElementCollection interface [`IMathElementCollection`](../imathelementcollection) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Delimit](delimit)(char) | Delimits all child elements with separator character (without the brackets) |
-| [Enclose](enclose)(char, char, char) | Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character |
-| [JoinBlock](joinblock)(IMathBlock) | Joins another mathematical block with this one |
-| [WriteAsMathMl](writeasmathml)(Stream) | Saves content of this [`IMathBlock`](../imathblock) as MathML |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Delimits all child elements with separator character (without the brackets) |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Joins another mathematical block with this one |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Saves content of this [`IMathBlock`](../imathblock) as MathML |
 
 ### Examples
 

@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | Name | Description |
 | --- | --- |
-| [DownBarsFormat](downbarsformat) { get; } | Returns format of the down bars. Read-only [`IFormat`](../iformat). |
-| [GapWidth](gapwidth) { get; set; } | Returns or sets gap width. Read/write Int32. |
-| [HasUpDownBars](hasupdownbars) { get; set; } | Determines whether the chart has up/down bars. Read/write Boolean. |
-| [UpBarsFormat](upbarsformat) { get; } | Returns format of the up bars. Read-only [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Returns format of the down bars. Read-only [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Returns or sets gap width. Read/write Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Determines whether the chart has up/down bars. Read/write Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Returns format of the up bars. Read-only [`IFormat`](../iformat). |
 
 ### See Also
 

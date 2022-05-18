@@ -18,8 +18,8 @@ public interface IVbaProjectFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateVbaProject](createvbaproject)() | Creates new VBA project. |
-| [ReadVbaProject](readvbaproject)(byte[]) | Reads VBA project from OLE container. |
+| [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | Creates new VBA project. |
+| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | Reads VBA project from OLE container. |
 
 ### See Also
 

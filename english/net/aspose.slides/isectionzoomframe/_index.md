@@ -18,7 +18,7 @@ public interface ISectionZoomFrame : IZoomObject
 
 | Name | Description |
 | --- | --- |
-| [TargetSection](targetsection) { get; set; } | Gets or sets the section object that the Section Zoom object is linked to. Read/write [`ISection`](../isection). |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Gets or sets the section object that the Section Zoom object is linked to. Read/write [`ISection`](../isection). |
 
 ### See Also
 

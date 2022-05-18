@@ -18,14 +18,14 @@ public interface IControl : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [ActiveXControlBinary](activexcontrolbinary) { get; } | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
-| [AsISlideComponent](asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
-| [ClassId](classid) { get; } | Gets class id of this control. Read-only Guid. |
-| [Frame](frame) { get; set; } | Returns or sets control's frame. Read/write [`IShapeFrame`](../ishapeframe). |
-| [Name](name) { get; set; } | Returns the name of this control. Read/write String. |
-| [Persistence](persistence) { get; } | Gets the method used to store properties of the ActiveX control. Read only [`PersistenceType`](../persistencetype). |
-| [Properties](properties) { get; } | Returns a collection of ActiveX properties. Read-only [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](substitutepictureformat) { get; } | Returns ControlEx image fill properties object. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
+| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Allows to get base ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Gets class id of this control. Read-only Guid. |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Returns or sets control's frame. Read/write [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/icontrol/name) { get; set; } | Returns the name of this control. Read/write String. |
+| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Gets the method used to store properties of the ActiveX control. Read only [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/icontrol/properties) { get; } | Returns a collection of ActiveX properties. Read-only [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Returns ControlEx image fill properties object. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### See Also
 

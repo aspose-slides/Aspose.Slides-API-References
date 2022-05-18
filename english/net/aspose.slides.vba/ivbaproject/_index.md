@@ -18,15 +18,15 @@ public interface IVbaProject
 
 | Name | Description |
 | --- | --- |
-| [Modules](modules) { get; } | Returns the list of all modules that are contained in the VBA project. Read-only [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](name) { get; } | Returns the name of the VBA project. Read-only String. |
-| [References](references) { get; } | Returns the list of all references that are contained in the VBA project. Read-only [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Returns the list of all modules that are contained in the VBA project. Read-only [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Returns the name of the VBA project. Read-only String. |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Returns the list of all references that are contained in the VBA project. Read-only [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToBinary](tobinary)() | Returns the binary representation of the VBA project as OLE container. Read-only Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Returns the binary representation of the VBA project as OLE container. Read-only Byte[]. |
 
 ### See Also
 

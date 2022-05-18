@@ -18,7 +18,7 @@ public interface IPresentationComponent
 
 | Name | Description |
 | --- | --- |
-| [Presentation](presentation) { get; } | Returns the presentation. Read-only [`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Returns the presentation. Read-only [`IPresentation`](../ipresentation). |
 
 ### See Also
 

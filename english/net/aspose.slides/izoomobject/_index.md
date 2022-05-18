@@ -18,12 +18,12 @@ public interface IZoomObject : IGraphicalObject
 
 | Name | Description |
 | --- | --- |
-| [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
-| [Image](image) { get; set; } | Gets or sets image for zoom object. Read/write [`IPPImage`](../ippimage). |
-| [ImageType](imagetype) { get; set; } | Gets or sets the image type of a zoom object. Read/write [`ZoomImageType`](../zoomimagetype). Default value: Preview |
-| [ReturnToParent](returntoparent) { get; set; } | Gets or sets the navigation behavior in slideshow. Read/write Boolean. Default value: false |
-| [ShowBackground](showbackground) { get; set; } | Gets or sets value that specifies whether the Zoom will use the background of the destination slide. Read/write Boolean. Default value: true |
-| [TransitionDuration](transitionduration) { get; set; } | Gets or sets the duration of the transition between Zoom and slide. Read/write Single. Default value: 1.0f |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
+| [Image](../../aspose.slides/izoomobject/image) { get; set; } | Gets or sets image for zoom object. Read/write [`IPPImage`](../ippimage). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Gets or sets the image type of a zoom object. Read/write [`ZoomImageType`](../zoomimagetype). Default value: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Gets or sets the navigation behavior in slideshow. Read/write Boolean. Default value: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Gets or sets value that specifies whether the Zoom will use the background of the destination slide. Read/write Boolean. Default value: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Gets or sets the duration of the transition between Zoom and slide. Read/write Single. Default value: 1.0f |
 
 ### See Also
 

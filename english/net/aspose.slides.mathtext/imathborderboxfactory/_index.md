@@ -18,8 +18,8 @@ public interface IMathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathBorderBox](createmathborderbox)(IMathElement) | Create a math border box by applying to the element |
-| [CreateMathBorderBox](createmathborderbox)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Create a math border box by applying to the element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox)(IMathElement) | Create a math border box by applying to the element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Create a math border box by applying to the element |
 
 ### Remarks
 

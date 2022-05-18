@@ -18,10 +18,10 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](hue) { get; } | Returns hue percentage. Read-only Single. |
-| [Luminance](luminance) { get; } | Returns luminance percentage. Read-only Single. |
-| [Saturation](saturation) { get; } | Returns saturation percentage. Read-only Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Returns hue percentage. Read-only Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Returns luminance percentage. Read-only Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Returns saturation percentage. Read-only Single. |
 
 ### See Also
 

@@ -18,11 +18,11 @@ public interface INotesCommentsLayoutingOptions
 
 | Name | Description |
 | --- | --- |
-| [CommentsAreaColor](commentsareacolor) { get; set; } | Gets or sets the color of comments area (Applies only if comments are displayed on the right). |
-| [CommentsAreaWidth](commentsareawidth) { get; set; } | Gets or sets the width of the comment output area in pixels (Applies only if comments are displayed on the right). |
-| [CommentsPosition](commentsposition) { get; set; } | Gets or sets the position of the comments on the page. |
-| [NotesPosition](notesposition) { get; set; } | Gets or sets the position of the notes on the page. |
-| [ShowCommentsByNoAuthor](showcommentsbynoauthor) { get; set; } | Gets or sets the visibility of comments that do not have an author. If true then comments will be displayed. (Applies only if comments are displayed). |
+| [CommentsAreaColor](../../aspose.slides.export/inotescommentslayoutingoptions/commentsareacolor) { get; set; } | Gets or sets the color of comments area (Applies only if comments are displayed on the right). |
+| [CommentsAreaWidth](../../aspose.slides.export/inotescommentslayoutingoptions/commentsareawidth) { get; set; } | Gets or sets the width of the comment output area in pixels (Applies only if comments are displayed on the right). |
+| [CommentsPosition](../../aspose.slides.export/inotescommentslayoutingoptions/commentsposition) { get; set; } | Gets or sets the position of the comments on the page. |
+| [NotesPosition](../../aspose.slides.export/inotescommentslayoutingoptions/notesposition) { get; set; } | Gets or sets the position of the notes on the page. |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/inotescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Gets or sets the visibility of comments that do not have an author. If true then comments will be displayed. (Applies only if comments are displayed). |
 
 ### See Also
 

@@ -18,10 +18,10 @@ public interface IMotionCmdPath
 
 | Name | Description |
 | --- | --- |
-| [CommandType](commandtype) { get; set; } | Specifies command type. Read/write [`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](isrelative) { get; set; } | Determine command coordinates relative or not. Read/write Boolean. |
-| [Points](points) { get; set; } | Specifies points of command. Read/write PointF[]. |
-| [PointsType](pointstype) { get; set; } | Specifies command points type Read/write [`MotionPathPointsType`](../motionpathpointstype). |
+| [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | Specifies command type. Read/write [`MotionCommandPathType`](../motioncommandpathtype). |
+| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | Determine command coordinates relative or not. Read/write Boolean. |
+| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | Specifies points of command. Read/write PointF[]. |
+| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | Specifies command points type Read/write [`MotionPathPointsType`](../motionpathpointstype). |
 
 ### See Also
 

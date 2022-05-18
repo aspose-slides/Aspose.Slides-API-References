@@ -18,16 +18,17 @@ public class ColorChange : ImageTransformOperation, IColorChange
 
 | Name | Description |
 | --- | --- |
-| [FromColor](fromcolor) { get; } | Color which will be replaced. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](tocolor) { get; } | Color which will replace. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Color which will be replaced. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Color which will replace. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`ColorChange`](../colorchange) is equal to the current [`ColorChange`](../colorchange). |
-| [GetEffective](geteffective)() | Gets effective Color Change effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Determines whether the specified [`ColorChange`](../colorchange) is equal to the current [`ColorChange`](../colorchange). |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Gets effective Color Change effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

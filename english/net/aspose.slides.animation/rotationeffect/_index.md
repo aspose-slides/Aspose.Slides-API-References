@@ -24,9 +24,13 @@ public class RotationEffect : Behavior, IRotationEffect
 
 | Name | Description |
 | --- | --- |
-| [By](by) { get; set; } | Describes the relative offset value for the animation. Read/write Single. |
-| [From](from) { get; set; } | Describes the starting value for the animation. Read/write Single. |
-| [To](to) { get; set; } | Describes the ending value for the animation. Read/write Single. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Represents whether animation behaviors are accumulated. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Represents whether the current animation behavior is combined with other running animations. Read/write [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Describes the relative offset value for the animation. Read/write Single. |
+| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Describes the starting value for the animation. Read/write Single. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Represents properties of behavior. Read-only [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Represents timing properties for the effect behavior. Read/write [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Describes the ending value for the animation. Read/write Single. |
 
 ### See Also
 

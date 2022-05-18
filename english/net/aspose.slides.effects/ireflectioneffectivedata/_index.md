@@ -18,21 +18,21 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](blurradius) { get; } | Blur radius. Read-only Double. |
-| [Direction](direction) { get; } | Direction of reflection. Read-only Single. |
-| [Distance](distance) { get; } | Distance of reflection. Read-only Double. |
-| [EndPosAlpha](endposalpha) { get; } | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read-only Single. |
-| [EndReflectionOpacity](endreflectionopacity) { get; } | End reflection opacity. (percents). Read-only Single. |
-| [FadeDirection](fadedirection) { get; } | Specifies the direction to offset the reflection. (angle). Read-only Single. |
-| [RectangleAlign](rectanglealign) { get; } | Rectangle alignment. Read-only [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](rotateshadowwithshape) { get; } | Specifies whether the reflection should rotate with the shape if the shape is rotated. Read-only Boolean. |
-| [ScaleHorizontal](scalehorizontal) { get; } | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read-only Double. |
-| [ScaleVertical](scalevertical) { get; } | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read-only Double. |
-| [SkewHorizontal](skewhorizontal) { get; } | Specifies the horizontal skew angle. Read-only Double. |
-| [SkewVertical](skewvertical) { get; } | Specifies the vertical skew angle. Read-only Double. |
-| [StartPosAlpha](startposalpha) { get; } | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read-only Single. |
-| [StartReflectionOpacity](startreflectionopacity) { get; } | Starting reflection opacity. (percents). Read-only Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Blur radius. Read-only Double. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Direction of reflection. Read-only Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Distance of reflection. Read-only Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read-only Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | End reflection opacity. (percents). Read-only Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Specifies the direction to offset the reflection. (angle). Read-only Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Rectangle alignment. Read-only [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Specifies whether the reflection should rotate with the shape if the shape is rotated. Read-only Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read-only Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read-only Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Specifies the horizontal skew angle. Read-only Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Specifies the vertical skew angle. Read-only Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read-only Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Starting reflection opacity. (percents). Read-only Single. |
 
 ### See Also
 

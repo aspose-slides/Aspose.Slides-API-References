@@ -18,8 +18,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | Name | Description |
 | --- | --- |
-| [AsCells](ascells) { get; set; } | Returns or sets the collection of chart cells. Read/write [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](asibasechartvalue) { get; } | Allows to get base IBaseChartValue interface. Read-only [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Returns or sets the collection of chart cells. Read/write [`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Allows to get base IBaseChartValue interface. Read-only [`IBaseChartValue`](../ibasechartvalue). |
 
 ### See Also
 

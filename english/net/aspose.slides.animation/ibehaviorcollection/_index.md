@@ -18,21 +18,21 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
-| [Count](count) { get; } | Returns the number of behaviors in a collection. Read-only Int32. |
-| [Item](item) { get; set; } | Returns a behavior at the specified index. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Returns the number of behaviors in a collection. Read-only Int32. |
+| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Returns a behavior at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IBehavior) | Add new behavior to a collection. |
-| [Clear](clear)() | Removes all behaviors from a collection. |
-| [Contains](contains)(IBehavior) | Determines whether the ICollection contains a specific value. |
-| [IndexOf](indexof)(IBehavior) | Determines the index of a specific item in the IList. |
-| [Insert](insert)(int, IBehavior) | Inserts new behavior to a collection at the specified index. |
-| [Remove](remove)(IBehavior) | Removes specified behavior from a collection. |
-| [RemoveAt](removeat)(int) | Removes behavior from a collection at the specified index. |
+| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Add new behavior to a collection. |
+| [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Removes all behaviors from a collection. |
+| [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Determines whether the ICollection contains a specific value. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Determines the index of a specific item in the IList. |
+| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Inserts new behavior to a collection at the specified index. |
+| [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Removes specified behavior from a collection. |
+| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Removes behavior from a collection at the specified index. |
 
 ### See Also
 

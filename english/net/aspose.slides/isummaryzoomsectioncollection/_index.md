@@ -18,17 +18,17 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Gets the element at the specified index. Read-only [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddSummaryZoomSection](addsummaryzoomsection)(ISection) | Creates new Summary Zoom Section object and add it to the collection |
-| [Clear](clear)() | Removes all SummaryZoomSection objects from the collection. |
-| [GetSummarySection](getsummarysection)(ISection) | Returns Summary Zoom Section element for the given section. |
-| [IndexOf](indexof)(ISummaryZoomSection) | Returns an index of the specified SummaryZoomSection object. |
-| [RemoveSummaryZoomSection](removesummaryzoomsection)(ISection) | Remove Summary Zoom Section object from the collection. |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Creates new Summary Zoom Section object and add it to the collection |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Removes all SummaryZoomSection objects from the collection. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Returns Summary Zoom Section element for the given section. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Returns an index of the specified SummaryZoomSection object. |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Remove Summary Zoom Section object from the collection. |
 
 ### See Also
 

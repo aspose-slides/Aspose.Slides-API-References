@@ -18,14 +18,14 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the rule at the specified index. Read-only [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | Gets the rule at the specified index. Read-only [`IFontFallBackRule`](../ifontfallbackrule). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IFontFallBackRule) | Add a new FallBack rule to the end of the collection. |
-| [Remove](remove)(IFontFallBackRule) | Removes the first occurrence of a specific FallBack rule from the collection. |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Add a new FallBack rule to the end of the collection. |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Removes the first occurrence of a specific FallBack rule from the collection. |
 
 ### See Also
 

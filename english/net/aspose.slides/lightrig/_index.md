@@ -18,15 +18,18 @@ public class LightRig : PVIObject, ILightRig
 
 | Name | Description |
 | --- | --- |
-| [Direction](direction) { get; set; } | Light direction. Read/write [`LightingDirection`](../lightingdirection). |
-| [LightType](lighttype) { get; set; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write [`LightRigPresetType`](../lightrigpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Light direction. Read/write [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetRotation](getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
-| [SetRotation](setrotation)(float, float, float) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. If any of coordinate value is float.NaN, all rotation is undefined. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. If any of coordinate value is float.NaN, all rotation is undefined. |
 
 ### See Also
 

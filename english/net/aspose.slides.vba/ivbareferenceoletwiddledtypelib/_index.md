@@ -18,7 +18,7 @@ public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
 
 | Name | Description |
 | --- | --- |
-| [AsIVbaReference](asivbareference) { get; } | Returns IVbaReference interface. Read-only [`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | Returns IVbaReference interface. Read-only [`IVbaReference`](../ivbareference). |
 
 ### See Also
 

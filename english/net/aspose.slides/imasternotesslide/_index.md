@@ -18,10 +18,10 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseSlide](asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](asimasterthemeable) { get; } | Returns IMasterThemeable interface. Read-only [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the master notes slide. Read-only [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
-| [NotesStyle](notesstyle) { get; } | Returns the style of a notes text. Read-only [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Returns IMasterThemeable interface. Read-only [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Returns HeaderFooter manager of the master notes slide. Read-only [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Returns the style of a notes text. Read-only [`ITextStyle`](../itextstyle). |
 
 ### See Also
 

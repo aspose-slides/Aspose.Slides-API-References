@@ -18,25 +18,28 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of gradient stops in a collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns the gradient stop by index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Returns the number of gradient stops in a collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Returns the gradient stop by index. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(float, Color) | Creates the new gradient stop and adds it to the end of collection. |
-| [Add](add)(float, PresetColor) | Creates the new gradient stop and adds it to the end of collection. |
-| [Add](add)(float, SchemeColor) | Creates the new gradient stop and adds it to the end of collection. |
-| [Clear](clear)() | Removes all gradient stops from a collection. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Insert](insert)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [Insert](insert)(int, float, PresetColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [Insert](insert)(int, float, SchemeColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [RemoveAt](removeat)(int) | Removes a gradient stop at the specified index. |
+| [Add](../../aspose.slides/gradientstopcollection/add)(float, Color) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](../../aspose.slides/gradientstopcollection/add)(float, PresetColor) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](../../aspose.slides/gradientstopcollection/add)(float, SchemeColor) | Creates the new gradient stop and adds it to the end of collection. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Removes all gradient stops from a collection. |
+| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert)(int, float, PresetColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert)(int, float, SchemeColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Removes a gradient stop at the specified index. |
 
 ### See Also
 

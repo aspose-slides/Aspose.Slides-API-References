@@ -18,13 +18,13 @@ public interface IHyperlinkManager
 
 | Name | Description |
 | --- | --- |
-| [RemoveHyperlinkClick](removehyperlinkclick)() | Removes hyperlink on click. |
-| [RemoveHyperlinkMouseOver](removehyperlinkmouseover)() | Removes hyperlink mouse over. |
-| [SetExternalHyperlinkClick](setexternalhyperlinkclick)(string) | Set external hyperlink on click. |
-| [SetExternalHyperlinkMouseOver](setexternalhyperlinkmouseover)(string) | Sets external hyperlink mouse over. |
-| [SetInternalHyperlinkClick](setinternalhyperlinkclick)(ISlide) | Sets internal hyperlink on click. |
-| [SetInternalHyperlinkMouseOver](setinternalhyperlinkmouseover)(ISlide) | Sets internal hyperlink mouse over. |
-| [SetMacroHyperlinkClick](setmacrohyperlinkclick)(string) | Set Macro hyperlink on a click. |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Removes hyperlink on click. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Removes hyperlink mouse over. |
+| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Set external hyperlink on click. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Sets external hyperlink mouse over. |
+| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Sets internal hyperlink on click. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Sets internal hyperlink mouse over. |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Set Macro hyperlink on a click. |
 
 ### See Also
 

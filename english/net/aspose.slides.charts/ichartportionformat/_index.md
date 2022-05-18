@@ -18,7 +18,7 @@ public interface IChartPortionFormat : IBasePortionFormat
 
 | Name | Description |
 | --- | --- |
-| [AsIBasePortionFormat](asibaseportionformat) { get; } | Returns IBasePortionFormat interface. |
+| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | Returns IBasePortionFormat interface. |
 
 ### See Also
 

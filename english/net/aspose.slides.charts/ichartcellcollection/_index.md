@@ -18,19 +18,19 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Returns ICollection interface. Read-only IEnumerable. |
-| [Count](count) { get; } | Gets the count of cells in collection. Read-only Int32. |
-| [Item](item) { get; } | Returns a cell (IChartDataCell) by index. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Returns ICollection interface. Read-only IEnumerable. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Gets the count of cells in collection. Read-only Int32. |
+| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Returns a cell (IChartDataCell) by index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IChartDataCell) | Add new cell to the collection. |
-| [Add](add)(object) | Creates [`IChartDataCell`](../ichartdatacell) from specified value and adds it to the collection. |
-| [GetCellsAddress](getcellsaddress)() | Returns address of the set of cells in workbook. |
-| [GetConcatenatedValuesFromCells](getconcatenatedvaluesfromcells)() | Concatenation string from all cells string values. |
-| [RemoveAt](removeat)(int) | Removes a cell from the collection by index. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add)(IChartDataCell) | Add new cell to the collection. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add)(object) | Creates [`IChartDataCell`](../ichartdatacell) from specified value and adds it to the collection. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Returns address of the set of cells in workbook. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Concatenation string from all cells string values. |
+| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Removes a cell from the collection by index. |
 
 ### See Also
 

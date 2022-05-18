@@ -18,15 +18,15 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns the signature by index. |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | Returns the signature by index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IDigitalSignature) | Adds the signature at the end of collection. |
-| [Clear](clear)() | Removes all signatures from collection. |
-| [RemoveAt](removeat)(int) | Removes the signature at the specified index. |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Adds the signature at the end of collection. |
+| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Removes all signatures from collection. |
+| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Removes the signature at the specified index. |
 
 ### See Also
 

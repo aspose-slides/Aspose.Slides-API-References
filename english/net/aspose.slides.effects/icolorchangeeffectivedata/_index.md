@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [FromColor](fromcolor) { get; } | Color which will be replaced. Read-only Color. |
-| [ToColor](tocolor) { get; } | Color which will replace. Read-only Color. |
-| [UseAlpha](usealpha) { get; } | Returns a boolean value which determines if alpha component should be used. Read-only Boolean. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Color which will be replaced. Read-only Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Color which will replace. Read-only Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Returns a boolean value which determines if alpha component should be used. Read-only Boolean. |
 
 ### See Also
 

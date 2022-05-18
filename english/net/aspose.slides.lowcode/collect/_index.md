@@ -18,7 +18,7 @@ public static class Collect
 
 | Name | Description |
 | --- | --- |
-| static [Shapes](shapes)(Presentation) | Collects all instances of [`Shape`](../../aspose.slides/shape) in the [`Presentation`](../../aspose.slides/presentation). |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | Collects all instances of [`Shape`](../../aspose.slides/shape) in the [`Presentation`](../../aspose.slides/presentation). |
 
 ### Examples
 

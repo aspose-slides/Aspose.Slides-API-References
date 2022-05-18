@@ -22,8 +22,8 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 
 | Name | Description |
 | --- | --- |
-| [AsICollection](asicollection) { get; } | Returns ICollection interface. |
-| [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
+| [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | Returns ICollection interface. |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
 
 ### See Also
 

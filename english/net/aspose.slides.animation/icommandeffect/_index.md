@@ -18,10 +18,10 @@ public interface ICommandEffect : IBehavior
 
 | Name | Description |
 | --- | --- |
-| [AsIBehavior](asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
-| [CommandString](commandstring) { get; set; } | Defines command string. Read/write String. |
-| [ShapeTarget](shapetarget) { get; set; } | Defines shape target of command effect. Read/write [`IShape`](../../aspose.slides/ishape). |
-| [Type](type) { get; set; } | Defines command effect type of behavior. Read/write [`CommandEffectType`](../commandeffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Allows to get base IBehavior interface. Read-only [`IBehavior`](../ibehavior). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Defines command string. Read/write String. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Defines shape target of command effect. Read/write [`IShape`](../../aspose.slides/ishape). |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Defines command effect type of behavior. Read/write [`CommandEffectType`](../commandeffecttype). |
 
 ### See Also
 

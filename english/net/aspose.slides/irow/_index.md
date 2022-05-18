@@ -18,11 +18,11 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](asibulktextformattable) { get; } | Allows to get base IBulkTextFormattable interface. Read-only [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](asicellcollection) { get; } | Allows to get base ICellCollection interface. Read-only [`ICellCollection`](../icellcollection). |
-| [Height](height) { get; } | Returns the height of a row. Read-only Double. |
-| [MinimalHeight](minimalheight) { get; set; } | Returns or sets the minimal possible height of a row. Read/write Double. |
-| [RowFormat](rowformat) { get; } | Returns the RowFormat object that contains formatting properties for this row. Read-only [`IRowFormat`](../irowformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Allows to get base IBulkTextFormattable interface. Read-only [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Allows to get base ICellCollection interface. Read-only [`ICellCollection`](../icellcollection). |
+| [Height](../../aspose.slides/irow/height) { get; } | Returns the height of a row. Read-only Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Returns or sets the minimal possible height of a row. Read/write Double. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Returns the RowFormat object that contains formatting properties for this row. Read-only [`IRowFormat`](../irowformat). |
 
 ### See Also
 

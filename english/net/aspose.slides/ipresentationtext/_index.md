@@ -18,7 +18,7 @@ public interface IPresentationText
 
 | Name | Description |
 | --- | --- |
-| [SlidesText](slidestext) { get; } | An array of [`SlideText`](../islidetext) contains a presentation's text. |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | An array of [`SlideText`](../islidetext) contains a presentation's text. |
 
 ### See Also
 

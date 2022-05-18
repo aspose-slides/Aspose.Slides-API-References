@@ -18,7 +18,7 @@ public interface IResourceLoadingCallback
 
 | Name | Description |
 | --- | --- |
-| [ResourceLoading](resourceloading)(IResourceLoadingArgs) | Callback method which regulates external resources loading. |
+| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | Callback method which regulates external resources loading. |
 
 ### See Also
 

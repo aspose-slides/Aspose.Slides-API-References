@@ -18,8 +18,8 @@ public interface IMathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathGroupingCharacter](createmathgroupingcharacter)(IMathElement) | Creates a math grouping character |
-| [CreateMathGroupingCharacter](createmathgroupingcharacter)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Creates a math grouping character |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter)(IMathElement) | Creates a math grouping character |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Creates a math grouping character |
 
 ### Remarks
 

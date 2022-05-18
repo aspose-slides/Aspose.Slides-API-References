@@ -18,19 +18,19 @@ public interface IPresentationFactory
 
 | Name | Description |
 | --- | --- |
-| [CreatePresentation](createpresentation)() | Creates new presentation. |
-| [CreatePresentation](createpresentation)(ILoadOptions) | Creates new presentation with additional load options |
-| [GetPresentationInfo](getpresentationinfo)(Stream) | Gets info about presentation in specified stream. |
-| [GetPresentationInfo](getpresentationinfo)(string) | Gets info about presentation in specified file. |
-| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
-| [GetPresentationText](getpresentationtext)(string, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
-| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retrieves the raw text from the slides |
-| [ReadPresentation](readpresentation)(byte[]) | Reads an existing presentation from array |
-| [ReadPresentation](readpresentation)(Stream) | Reads an existing presentation from stream |
-| [ReadPresentation](readpresentation)(string) | Reads an existing presentation from file |
-| [ReadPresentation](readpresentation)(byte[], ILoadOptions) | Reads an existing presentation from array with additional load options |
-| [ReadPresentation](readpresentation)(Stream, ILoadOptions) | Reads an existing presentation from stream with additional load options |
-| [ReadPresentation](readpresentation)(string, ILoadOptions) | Reads an existing presentation from stream with additional load options |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation)() | Creates new presentation. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation)(ILoadOptions) | Creates new presentation with additional load options |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo)(Stream) | Gets info about presentation in specified stream. |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo)(string) | Gets info about presentation in specified file. |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext)(Stream, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext)(string, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retrieves the raw text from the slides |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation)(byte[]) | Reads an existing presentation from array |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation)(Stream) | Reads an existing presentation from stream |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation)(string) | Reads an existing presentation from file |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation)(byte[], ILoadOptions) | Reads an existing presentation from array with additional load options |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation)(Stream, ILoadOptions) | Reads an existing presentation from stream with additional load options |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation)(string, ILoadOptions) | Reads an existing presentation from stream with additional load options |
 
 ### See Also
 

@@ -18,21 +18,21 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [Item](item) { get; } | Gets the element at the specified index. |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [Item](../../aspose.slides/iportioncollection/item) { get; } | Gets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IPortion) | Adds a Portion to the end of collection. |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(IPortion) | Determines whether the ICollection contains a specific value. |
-| [IndexOf](indexof)(IPortion) | Determines the index of a specific portion in collection. |
-| [Insert](insert)(int, IPortion) | Inserts a Portion into the collection at the specified index. |
-| [Remove](remove)(IPortion) | Removes the first occurrence of a specific object from the ICollection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
+| [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Adds a Portion to the end of collection. |
+| [Clear](../../aspose.slides/iportioncollection/clear)() | Removes all elements from the collection. |
+| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Determines whether the ICollection contains a specific value. |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Determines the index of a specific portion in collection. |
+| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Inserts a Portion into the collection at the specified index. |
+| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Removes the first occurrence of a specific object from the ICollection. |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Removes the element at the specified index of the collection. |
 
 ### See Also
 

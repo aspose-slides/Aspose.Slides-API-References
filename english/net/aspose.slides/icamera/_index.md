@@ -18,16 +18,16 @@ public interface ICamera
 
 | Name | Description |
 | --- | --- |
-| [CameraType](cameratype) { get; set; } | Camera type Read/write [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, field of View) Read/write Single. |
-| [Zoom](zoom) { get; set; } | Camera zoom (positive value in percentage) Read/write Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Camera type Read/write [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, field of View) Read/write Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Camera zoom (positive value in percentage) Read/write Single. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetRotation](getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
-| [SetRotation](setrotation)(float, float, float) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. If any of coordinate value is float.NaN, all rotation is undefined. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. If any of coordinate value is float.NaN, all rotation is undefined. |
 
 ### See Also
 

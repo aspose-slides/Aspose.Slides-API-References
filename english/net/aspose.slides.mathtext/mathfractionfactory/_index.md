@@ -24,8 +24,8 @@ public class MathFractionFactory : IMathFractionFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathFraction](createmathfraction)(IMathElement, IMathElement) | Creates a math fraction |
-| [CreateMathFraction](createmathfraction)(IMathElement, IMathElement, MathFractionTypes) | Creates a math fraction |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction)(IMathElement, IMathElement) | Creates a math fraction |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction)(IMathElement, IMathElement, MathFractionTypes) | Creates a math fraction |
 
 ### Remarks
 

@@ -24,7 +24,7 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathRadical](createmathradical)(IMathElement, IMathElement) | Creates a math radical |
+| [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | Creates a math radical |
 
 ### Remarks
 

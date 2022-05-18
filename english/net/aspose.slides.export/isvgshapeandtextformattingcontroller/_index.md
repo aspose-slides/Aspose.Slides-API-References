@@ -18,13 +18,13 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | Name | Description |
 | --- | --- |
-| [AsISvgShapeFormattingController](asisvgshapeformattingcontroller) { get; } | Returns ISvgShapeFormattingController interface. |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | Returns ISvgShapeFormattingController interface. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [FormatText](formattext)(ISvgTSpan, IPortion, ITextFrame) | This function is called before rendering of text portion to SVG to allow user to control resulting SVG. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | This function is called before rendering of text portion to SVG to allow user to control resulting SVG. |
 
 ### Examples
 

@@ -18,26 +18,26 @@ public sealed class Sequence : ISequence
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of effects in a sequense. Read-only Int32. |
-| [Item](item) { get; } | Returns an effect at the specified index. |
-| [TriggerShape](triggershape) { get; set; } | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write [`IShape`](../../aspose.slides/ishape). |
+| [Count](../../aspose.slides.animation/sequence/count) { get; } | Returns the number of effects in a sequense. Read-only Int32. |
+| [Item](../../aspose.slides.animation/sequence/item) { get; } | Returns an effect at the specified index. |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write [`IShape`](../../aspose.slides/ishape). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddEffect](addeffect)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Add new animation effect for paragraph to the end of sequence. |
-| [AddEffect](addeffect)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of sequence. |
-| [AddEffect](addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for category or series to the end of sequence. |
-| [AddEffect](addeffect)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
-| [Clear](clear)() | Removes all effects from a collection. |
-| [GetCount](getcount)(IShape) | Returns count of effects for the specified shape. |
-| [GetEffectsByParagraph](geteffectsbyparagraph)(IParagraph) | Returns array of effects for the specified paragraph. |
-| [GetEffectsByShape](geteffectsbyshape)(IShape) | Returns array of effects for the specified shape. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(IEffect) | Removes specified effect from a collection. |
-| [RemoveAt](removeat)(int) | Removes an effect from a collection. |
-| [RemoveByShape](removebyshape)(IShape) | Remove effect for the specified shape. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Add new animation effect for paragraph to the end of sequence. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of sequence. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for category or series to the end of sequence. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
+| [Clear](../../aspose.slides.animation/sequence/clear)() | Removes all effects from a collection. |
+| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Returns count of effects for the specified shape. |
+| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Returns array of effects for the specified paragraph. |
+| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Returns array of effects for the specified shape. |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Removes specified effect from a collection. |
+| [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | Removes an effect from a collection. |
+| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Remove effect for the specified shape. |
 
 ### See Also
 

@@ -18,17 +18,25 @@ public sealed class Row : CellCollection, IRow
 
 | Name | Description |
 | --- | --- |
-| [Height](height) { get; } | Returns the height of a row. Read-only Double. |
-| [MinimalHeight](minimalheight) { get; set; } | Returns or sets the minimal possible height of a row. Read/write Double. |
-| [RowFormat](rowformat) { get; } | Returns the RowFormat object that contains formatting properties for this row. Read-only [`IRowFormat`](../irowformat). |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Returns the number of cells in a collection. Read-only Int32. |
+| [Height](../../aspose.slides/row/height) { get; } | Returns the height of a row. Read-only Double. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Returns a cell by it's position. Read-only [`Cell`](../cell). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Returns or sets the minimal possible height of a row. Read/write Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Returns the parent presentation of a CellCollection. Read-only [`IPresentation`](../ipresentation). |
+| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Returns the RowFormat object that contains formatting properties for this row. Read-only [`IRowFormat`](../irowformat). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Returns the parent slide of a CellCollection. Read-only [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetTextFormat](settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all row cells' paragraphs. |
-| [SetTextFormat](settextformat)(IPortionFormat) | Sets defined portion format properties to all row cells' portions. |
-| [SetTextFormat](settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all row cells' text frames. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [SetTextFormat](../../aspose.slides/row/settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all row cells' paragraphs. |
+| [SetTextFormat](../../aspose.slides/row/settextformat)(IPortionFormat) | Sets defined portion format properties to all row cells' portions. |
+| [SetTextFormat](../../aspose.slides/row/settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all row cells' text frames. |
 
 ### See Also
 

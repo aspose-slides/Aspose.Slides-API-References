@@ -14,13 +14,19 @@ Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplie
 public class AlphaModulate : ImageTransformOperation, IAlphaModulate
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`AlphaModulate`](../alphamodulate) is equal to the current [`AlphaModulate`](../alphamodulate). |
-| [GetEffective](geteffective)() | Gets effective Alpha Modulate effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Determines whether the specified [`AlphaModulate`](../alphamodulate) is equal to the current [`AlphaModulate`](../alphamodulate). |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Gets effective Alpha Modulate effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

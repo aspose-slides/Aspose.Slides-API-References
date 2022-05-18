@@ -18,19 +18,19 @@ public interface ICellFormat
 
 | Name | Description |
 | --- | --- |
-| [BorderBottom](borderbottom) { get; } | Returns a bottom border line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](borderdiagonaldown) { get; } | Returns a top-left to bottom-right diagonal line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](borderdiagonalup) { get; } | Returns a bottom-left to top-right diagonal line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderLeft](borderleft) { get; } | Returns a left border line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderRight](borderright) { get; } | Returns a right border line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderTop](bordertop) { get; } | Returns a top border line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [FillFormat](fillformat) { get; } | Returns a cell fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Returns a bottom border line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Returns a top-left to bottom-right diagonal line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Returns a bottom-left to top-right diagonal line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Returns a left border line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Returns a right border line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Returns a top border line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Returns a cell fill properties object. Read-only [`IFillFormat`](../ifillformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective table cell formatting properties with inheritance and table styles applied. |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Gets effective table cell formatting properties with inheritance and table styles applied. |
 
 ### See Also
 

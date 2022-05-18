@@ -18,15 +18,15 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Name | Description |
 | --- | --- |
-| [IsOverrideThemeEnabled](isoverridethemeenabled) { get; set; } | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write Boolean. |
-| [OverrideTheme](overridetheme) { get; set; } | Returns the overriding theme object. Read/write [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Returns the overriding theme object. Read/write [`IMasterTheme`](../imastertheme). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ApplyColorScheme](applycolorscheme)(IExtraColorScheme) | Applies extra color scheme to a slide. |
-| [CreateThemeEffective](createthemeeffective)() | Returns the theme object. |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Applies extra color scheme to a slide. |
+| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Returns the theme object. |
 
 ### See Also
 

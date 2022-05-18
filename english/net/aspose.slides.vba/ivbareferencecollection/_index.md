@@ -18,13 +18,13 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. |
+| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | Gets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IVbaReference) | Adds the new reference to references collection |
+| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | Adds the new reference to references collection |
 
 ### See Also
 

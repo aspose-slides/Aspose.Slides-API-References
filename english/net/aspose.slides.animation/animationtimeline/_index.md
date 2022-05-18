@@ -18,9 +18,9 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | Name | Description |
 | --- | --- |
-| [InteractiveSequences](interactivesequences) { get; } | Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only [`ISequenceCollection`](../isequencecollection). |
-| [MainSequence](mainsequence) { get; } | Returns main sequence which may contain only main effects collection. Read-only [`ISequence`](../isequence). |
-| [TextAnimationCollection](textanimationcollection) { get; } | Returns collection of text animations. Read-only [`ITextAnimationCollection`](../itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only [`ISequenceCollection`](../isequencecollection). |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Returns main sequence which may contain only main effects collection. Read-only [`ISequence`](../isequence). |
+| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Returns collection of text animations. Read-only [`ITextAnimationCollection`](../itextanimationcollection). |
 
 ### See Also
 

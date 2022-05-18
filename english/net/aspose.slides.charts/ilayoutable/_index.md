@@ -18,13 +18,13 @@ public interface ILayoutable : IChartComponent
 
 | Name | Description |
 | --- | --- |
-| [AsIChartComponent](asichartcomponent) { get; } | Allows to get base IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
-| [Bottom](bottom) { get; } | Gets the top of the chart element as a fraction of the height of the chart. Read-only Single. |
-| [Height](height) { get; set; } | Specifies the height of the chart element as a fraction of the height of the chart. Read/write Single. |
-| [Right](right) { get; } | Gets the right of the chart element as a fraction of the width of the chart. Read-only Single. |
-| [Width](width) { get; set; } | Specifies the width of the chart element as a fraction of the width of the chart. Read/write Single. |
-| [X](x) { get; set; } | Specifies the x location (left) of the chart element as a fraction of the width of the chart. Read/write Single. |
-| [Y](y) { get; set; } | Specifies the top of the chart element as a fraction of the height of the chart. Read/write Single. |
+| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Allows to get base IChartComponent interface. Read-only [`IChartComponent`](../ichartcomponent). |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Gets the top of the chart element as a fraction of the height of the chart. Read-only Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Specifies the height of the chart element as a fraction of the height of the chart. Read/write Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Gets the right of the chart element as a fraction of the width of the chart. Read-only Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Specifies the width of the chart element as a fraction of the width of the chart. Read/write Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Specifies the x location (left) of the chart element as a fraction of the width of the chart. Read/write Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Specifies the top of the chart element as a fraction of the height of the chart. Read/write Single. |
 
 ### See Also
 

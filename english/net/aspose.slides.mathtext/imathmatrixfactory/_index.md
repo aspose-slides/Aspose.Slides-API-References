@@ -18,7 +18,7 @@ public interface IMathMatrixFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathMatrix](createmathmatrix)(int, int) | Creates a math matrix |
+| [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | Creates a math matrix |
 
 ### Remarks
 

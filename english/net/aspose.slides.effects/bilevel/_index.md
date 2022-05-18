@@ -14,13 +14,19 @@ Represents a Bi-Level (black/white) effect. Input colors whose luminance is less
 public class BiLevel : ImageTransformOperation, IBiLevel
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`BiLevel`](../bilevel) is equal to the current [`BiLevel`](../bilevel). |
-| [GetEffective](geteffective)() | Gets effective Bi-Level effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Determines whether the specified [`BiLevel`](../bilevel) is equal to the current [`BiLevel`](../bilevel). |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Gets effective Bi-Level effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

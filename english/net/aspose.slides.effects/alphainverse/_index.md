@@ -14,13 +14,19 @@ Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtr
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`AlphaInverse`](../alphainverse) is equal to the current [`AlphaInverse`](../alphainverse). |
-| [GetEffective](geteffective)() | Gets effective Alpha Inverse effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Determines whether the specified [`AlphaInverse`](../alphainverse) is equal to the current [`AlphaInverse`](../alphainverse). |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Gets effective Alpha Inverse effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

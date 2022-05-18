@@ -18,10 +18,10 @@ public interface IFormat
 
 | Name | Description |
 | --- | --- |
-| [Effect](effect) { get; } | Returns effects used for a chart. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](effect3d) { get; } | Returns 3D format of a chart. Read-only [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](fill) { get; } | Returns fill style properties of a chart. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](line) { get; } | Returns line style properties of a chart. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Returns effects used for a chart. Read-only [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Returns 3D format of a chart. Read-only [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Returns fill style properties of a chart. Read-only [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | Returns line style properties of a chart. Read-only [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### See Also
 

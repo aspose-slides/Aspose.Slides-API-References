@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | Name | Description |
 | --- | --- |
-| [AsIHtmlFormattingController](asihtmlformattingcontroller) { get; } | Allows to get base IHtmlFormattingController interface. Read-only [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](asilinkembedcontroller) { get; } | Allows to get base ILinkEmbedController interface. Read-only [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](asisvgshapeformattingcontroller) { get; } | Allows to get base ISvgShapeFormattingController interface. Read-only [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Allows to get base IHtmlFormattingController interface. Read-only [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Allows to get base ILinkEmbedController interface. Read-only [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Allows to get base ISvgShapeFormattingController interface. Read-only [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### See Also
 

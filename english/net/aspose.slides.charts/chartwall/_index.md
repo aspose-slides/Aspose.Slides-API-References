@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | Name | Description |
 | --- | --- |
-| [Format](format) { get; } | Returns the wall fill, line, effect, 3d styles. Read-only [`IFormat`](../iformat). |
-| [PictureType](picturetype) { get; set; } | Return or sets the picture type. Read/write [`PictureType`](../picturetype). |
-| [Thickness](thickness) { get; set; } | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write Int32. |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Returns the wall fill, line, effect, 3d styles. Read-only [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Return or sets the picture type. Read/write [`PictureType`](../picturetype). |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write Int32. |
 
 ### See Also
 

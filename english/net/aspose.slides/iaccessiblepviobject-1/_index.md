@@ -23,7 +23,7 @@ public interface IAccessiblePVIObject<T>
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective data with the inheritance applied. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Gets effective data with the inheritance applied. |
 
 ### See Also
 

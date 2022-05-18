@@ -18,9 +18,9 @@ public interface IMathematicalText : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Format](format) { get; } | Text formatting properties |
-| [Value](value) { get; set; } | Text value |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Text formatting properties |
+| [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Text value |
 
 ### Examples
 

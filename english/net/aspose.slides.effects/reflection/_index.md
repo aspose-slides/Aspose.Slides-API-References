@@ -18,28 +18,28 @@ public class Reflection : IReflection
 
 | Name | Description |
 | --- | --- |
-| [BlurRadius](blurradius) { get; set; } | Blur radius. Read/write Double. |
-| [Direction](direction) { get; set; } | Direction of reflection. Read/write Single. |
-| [Distance](distance) { get; set; } | Distance of reflection. Read/write Double. |
-| [EndPosAlpha](endposalpha) { get; set; } | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write Single. |
-| [EndReflectionOpacity](endreflectionopacity) { get; set; } | End reflection opacity. (percents). Read/write Single. |
-| [FadeDirection](fadedirection) { get; set; } | Specifies the direction to offset the reflection. (angle). Read/write Single. |
-| [RectangleAlign](rectanglealign) { get; set; } | Rectangle alignment. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](rotateshadowwithshape) { get; set; } | Specifies whether the reflection should rotate with the shape if the shape is rotated. Read/write Boolean. |
-| [ScaleHorizontal](scalehorizontal) { get; set; } | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read/write Double. |
-| [ScaleVertical](scalevertical) { get; set; } | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read/write Double. |
-| [SkewHorizontal](skewhorizontal) { get; set; } | Specifies the horizontal skew angle. Read/write Double. |
-| [SkewVertical](skewvertical) { get; set; } | Specifies the vertical skew angle. Read/write Double. |
-| [StartPosAlpha](startposalpha) { get; set; } | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read/write Single. |
-| [StartReflectionOpacity](startreflectionopacity) { get; set; } | Starting reflection opacity. (percents). Read/write Single. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Blur radius. Read/write Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Direction of reflection. Read/write Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Distance of reflection. Read/write Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | End reflection opacity. (percents). Read/write Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Specifies the direction to offset the reflection. (angle). Read/write Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Rectangle alignment. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Specifies whether the reflection should rotate with the shape if the shape is rotated. Read/write Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read/write Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read/write Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Specifies the horizontal skew angle. Read/write Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Specifies the vertical skew angle. Read/write Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read/write Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Starting reflection opacity. (percents). Read/write Single. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`Reflection`](../reflection) is equal to the current [`Reflection`](../reflection). |
-| [GetEffective](geteffective)() | Gets effective Reflection effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Determines whether the specified [`Reflection`](../reflection) is equal to the current [`Reflection`](../reflection). |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Gets effective Reflection effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

@@ -18,9 +18,9 @@ public interface IShapeBevelEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [BevelType](beveltype) { get; } | Bevel type. Read-only [`BevelPresetType`](../bevelpresettype). |
-| [Height](height) { get; } | Bevel height. Read-only Double. |
-| [Width](width) { get; } | Bevel width. Read-only Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Bevel type. Read-only [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Bevel height. Read-only Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Bevel width. Read-only Double. |
 
 ### Remarks
 

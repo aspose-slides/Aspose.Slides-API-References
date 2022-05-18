@@ -24,7 +24,7 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 | Name | Description |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](createvideoplayerhtmlcontroller)(string, string, string) | Creates new `VideoPlayerHtmlController`. |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Creates new `VideoPlayerHtmlController`. |
 
 ### Remarks
 

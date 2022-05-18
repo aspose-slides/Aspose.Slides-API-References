@@ -18,14 +18,14 @@ public interface IMasterHandoutSlideManager
 
 | Name | Description |
 | --- | --- |
-| [MasterHandoutSlide](masterhandoutslide) { get; } | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [RemoveMasterHandoutSlide](removemasterhandoutslide)() | Removes master handout slide. |
-| [SetDefaultMasterHandoutSlide](setdefaultmasterhandoutslide)() | Sets default master handout slide to related handout slide. |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Removes master handout slide. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Sets default master handout slide to related handout slide. |
 
 ### See Also
 

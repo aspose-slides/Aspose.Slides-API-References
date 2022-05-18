@@ -18,14 +18,14 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 | Name | Description |
 | --- | --- |
-| [AsISingleCellChartValue](asisinglecellchartvalue) { get; } | Allows to get base ISingleCellChartValue interface. Read-only [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets literal double value if DataSourceType = Charts.DataSourceType.DoubleLiterals. Read/write Double. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Allows to get base ISingleCellChartValue interface. Read-only [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Returns or sets literal double value if DataSourceType = Charts.DataSourceType.DoubleLiterals. Read/write Double. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToDouble](todouble)() | Converst to double. |
+| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | Converst to double. |
 
 ### See Also
 

@@ -22,13 +22,13 @@ public interface IGenericCloneable<T> : ICloneable
 
 | Name | Description |
 | --- | --- |
-| [AsICloneable](asicloneable) { get; } | Returns ICloneable interface. |
+| [AsICloneable](../../aspose.slides/igenericcloneable`1/asicloneable) { get; } | Returns ICloneable interface. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CloneT](clonet)() | Creates a new object that is a copy of the current instance. |
+| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | Creates a new object that is a copy of the current instance. |
 
 ### See Also
 

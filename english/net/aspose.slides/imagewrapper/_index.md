@@ -18,17 +18,17 @@ public class ImageWrapper : IImageWrapper
 
 | Name | Description |
 | --- | --- |
-| [Image](image) { get; } | Gets Image. Read-only [`Image`](./image). |
-| [Size](size) { get; } | Gets the width and height, in pixels, of the Image. Read-only [`Size`](./size). |
+| [Image](../../aspose.slides/imagewrapper/image) { get; } | Gets Image. Read-only [`Image`](./image). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Gets the width and height, in pixels, of the Image. Read-only [`Size`](./size). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Dispose ImageWrapper |
-| [Save](save)(string) | Saves Image to the specified file |
-| [Save](save)(Stream, PPImageFormat) | Saves the Image to the specified stream in the specified format. |
-| [Save](save)(string, PPImageFormat) | Saves the Image to the specified file in the specified format. |
+| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Dispose ImageWrapper |
+| [Save](../../aspose.slides/imagewrapper/save)(string) | Saves Image to the specified file |
+| [Save](../../aspose.slides/imagewrapper/save)(Stream, PPImageFormat) | Saves the Image to the specified stream in the specified format. |
+| [Save](../../aspose.slides/imagewrapper/save)(string, PPImageFormat) | Saves the Image to the specified file in the specified format. |
 
 ### See Also
 

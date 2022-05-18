@@ -18,7 +18,7 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Gets the element at the specified index. Read-only [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### Remarks
 

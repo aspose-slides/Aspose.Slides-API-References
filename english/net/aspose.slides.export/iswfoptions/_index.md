@@ -18,23 +18,23 @@ public interface ISwfOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
-| [Compressed](compressed) { get; set; } | Specifies whether the generated SWF document should be compressed or not. Default is `true`. |
-| [EnableContextMenu](enablecontextmenu) { get; set; } | Enable/disable context menu. Default is true. |
-| [JpegQuality](jpegquality) { get; set; } | Specifies the quality of JPEG images. Default is 95. |
-| [LogoImageBytes](logoimagebytes) { get; set; } | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
-| [LogoLink](logolink) { get; set; } | Gets or sets the full hyperlink address for a logo. Has an effect only if a [`LogoImageBytes`](./logoimagebytes) is specified. |
-| [NotesCommentsLayouting](notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
-| [ShowBottomPane](showbottompane) { get; set; } | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
-| [ShowFullScreen](showfullscreen) { get; set; } | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |
-| [ShowHiddenSlides](showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
-| [ShowLeftPane](showleftpane) { get; set; } | Show/hide left pane. Can be overridden in flashvars. Default is true. |
-| [ShowPageBorder](showpageborder) { get; set; } | Specifies whether border around pages should be shown. Default is true. |
-| [ShowPageStepper](showpagestepper) { get; set; } | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
-| [ShowSearch](showsearch) { get; set; } | Show/hide search section. Can be overridden in flashvars. Default is true. |
-| [ShowTopPane](showtoppane) { get; set; } | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
-| [StartOpenLeftPane](startopenleftpane) { get; set; } | Start with opened left pane. Can be overridden in flashvars. Default is false. |
-| [ViewerIncluded](viewerincluded) { get; set; } | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is `true`. |
+| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Specifies whether the generated SWF document should be compressed or not. Default is `true`. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Enable/disable context menu. Default is true. |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Specifies the quality of JPEG images. Default is 95. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Gets or sets the full hyperlink address for a logo. Has an effect only if a [`LogoImageBytes`](./logoimagebytes) is specified. |
+| [NotesCommentsLayouting](../../aspose.slides.export/iswfoptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Show/hide left pane. Can be overridden in flashvars. Default is true. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Specifies whether border around pages should be shown. Default is true. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Show/hide search section. Can be overridden in flashvars. Default is true. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Start with opened left pane. Can be overridden in flashvars. Default is false. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is `true`. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public interface IMathFunctionFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathFunction](createmathfunction)(IMathElement, IMathElement) | Creates math function |
-| [CreateMathFunction](createmathfunction)(string, IMathElement) | Creates math function |
+| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction)(IMathElement, IMathElement) | Creates math function |
+| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction)(string, IMathElement) | Creates math function |
 
 ### Remarks
 

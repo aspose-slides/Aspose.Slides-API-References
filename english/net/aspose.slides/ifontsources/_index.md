@@ -18,8 +18,8 @@ public interface IFontSources
 
 | Name | Description |
 | --- | --- |
-| [FontFolders](fontfolders) { get; set; } | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
-| [MemoryFonts](memoryfonts) { get; set; } | A collection of fonts represented as byte arrays. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | A collection of fonts represented as byte arrays. |
 
 ### See Also
 

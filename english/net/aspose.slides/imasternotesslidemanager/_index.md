@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | Name | Description |
 | --- | --- |
-| [MasterNotesSlide](masternotesslide) { get; } | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [RemoveMasterNotesSlide](removemasternotesslide)() | Removes master notes slide. |
-| [SetDefaultMasterNotesSlide](setdefaultmasternotesslide)() | Sets defalut master notes slide for related notes slide. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Removes master notes slide. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Sets defalut master notes slide for related notes slide. |
 
 ### See Also
 

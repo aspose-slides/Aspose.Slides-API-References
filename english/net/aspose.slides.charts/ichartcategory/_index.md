@@ -18,17 +18,17 @@ public interface IChartCategory
 
 | Name | Description |
 | --- | --- |
-| [AsCell](ascell) { get; set; } | Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level "0". Read/write [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](asliteral) { get; set; } | Returns or sets AsLiteral if UseCell is false. Read/write Object. |
-| [GroupingLevels](groupinglevels) { get; } | Managed container of the values of the chart category grouping levels. Multi-level category contain more then one grouping level. Grouping levels indexing is zero-based. Read-only [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](usecell) { get; } | If true then AsCell property is actual. In other words, worksheet is used for storing category (this case supports a multi-level category). If false then AsLiteral property is actual. In other words, worksheet is NOT used for storing category (and this case doesn't support a multi-level categories). Read-only Boolean. |
-| [Value](value) { get; set; } | If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Read/write Object. |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level "0". Read/write [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Returns or sets AsLiteral if UseCell is false. Read/write Object. |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Managed container of the values of the chart category grouping levels. Multi-level category contain more then one grouping level. Grouping levels indexing is zero-based. Read-only [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | If true then AsCell property is actual. In other words, worksheet is used for storing category (this case supports a multi-level category). If false then AsLiteral property is actual. In other words, worksheet is NOT used for storing category (and this case doesn't support a multi-level categories). Read-only Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | If UseCell is true then this property represents AsCell.Value property. If UseCell is false then this property represents AsLiteral property. Read/write Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Remove](remove)() | Removes category from chart. |
+| [Remove](../../aspose.slides.charts/ichartcategory/remove)() | Removes category from chart. |
 
 ### See Also
 

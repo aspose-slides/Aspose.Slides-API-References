@@ -18,18 +18,18 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns the element at the specified index. |
+| [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | Returns the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(byte[]) | Adds new custom xml part. |
-| [Add](add)(Stream) | Adds new custom xml part. |
-| [Add](add)(string) | Adds new custom xml part. |
-| [Clear](clear)() | Removes all items from the collection. |
-| [Remove](remove)(ICustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(int) | Removes custom xml part at the specified index. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add)(byte[]) | Adds new custom xml part. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add)(Stream) | Adds new custom xml part. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add)(string) | Adds new custom xml part. |
+| [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Removes all items from the collection. |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Removes custom xml part at the specified index. |
 
 ### See Also
 

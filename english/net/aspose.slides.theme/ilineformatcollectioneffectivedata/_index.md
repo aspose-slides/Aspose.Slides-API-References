@@ -18,7 +18,7 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Gets the element at the specified index. Read-only [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
 ### Remarks
 

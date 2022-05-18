@@ -18,7 +18,7 @@ public class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective table column formatting properties with inheritance and table styles applied. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Gets effective table column formatting properties with inheritance and table styles applied. |
 
 ### See Also
 

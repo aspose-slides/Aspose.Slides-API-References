@@ -18,7 +18,7 @@ public interface IProgressCallback
 
 | Name | Description |
 | --- | --- |
-| [Reporting](reporting)(double) | Reports a progress update. |
+| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | Reports a progress update. |
 
 ### See Also
 

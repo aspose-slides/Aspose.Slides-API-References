@@ -18,38 +18,38 @@ public interface IEffectFormat : IEffectParamSource
 
 | Name | Description |
 | --- | --- |
-| [AsIEffectParamSource](asieffectparamsource) { get; } | Allows to get base IEffectParamSource interface. Read-only [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](blureffect) { get; set; } | Blur effect. Read/write [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](filloverlayeffect) { get; set; } | Fill overlay effect. Read/write [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](gloweffect) { get; set; } | Glow effect. Read/write [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](innershadoweffect) { get; set; } | Inner shadow. Read/write [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](isnoeffects) { get; } | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only Boolean. |
-| [OuterShadowEffect](outershadoweffect) { get; set; } | Outer shadow. Read/write [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](presetshadoweffect) { get; set; } | Preset shadow. Read/write [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](reflectioneffect) { get; set; } | Reflection. Read/write [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](softedgeeffect) { get; set; } | Soft edge. Read/write [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Allows to get base IEffectParamSource interface. Read-only [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Blur effect. Read/write [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Fill overlay effect. Read/write [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Glow effect. Read/write [`IGlow`](../../aspose.slides.effects/iglow). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Inner shadow. Read/write [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Outer shadow. Read/write [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Preset shadow. Read/write [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Reflection. Read/write [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Soft edge. Read/write [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [DisableBlurEffect](disableblureffect)() | Disables blur effect. |
-| [DisableFillOverlayEffect](disablefilloverlayeffect)() | Disables fill overlay effect. |
-| [DisableGlowEffect](disablegloweffect)() | Disable glow effect. |
-| [DisableInnerShadowEffect](disableinnershadoweffect)() | Disables inner shadow effect. |
-| [DisableOuterShadowEffect](disableoutershadoweffect)() | Disables outer shadow effect. |
-| [DisablePresetShadowEffect](disablepresetshadoweffect)() | Disables preset shadow effect. |
-| [DisableReflectionEffect](disablereflectioneffect)() | Disables reflection effect. |
-| [DisableSoftEdgeEffect](disablesoftedgeeffect)() | Disables soft edge effect. |
-| [EnableFillOverlayEffect](enablefilloverlayeffect)() | Enables fill overlay effect. |
-| [EnableGlowEffect](enablegloweffect)() | Enables glow effect. |
-| [EnableInnerShadowEffect](enableinnershadoweffect)() | Enables inner shadow effect. |
-| [EnableOuterShadowEffect](enableoutershadoweffect)() | Enables outer shadow effect. |
-| [EnablePresetShadowEffect](enablepresetshadoweffect)() | Enables preset shadows effect. |
-| [EnableReflectionEffect](enablereflectioneffect)() | Enables reflection effect. |
-| [EnableSoftEdgeEffect](enablesoftedgeeffect)() | Enables soft edge effect. |
-| [GetEffective](geteffective)() | Gets effective effect formatting data with the inheritance applied. |
-| [SetBlurEffect](setblureffect)(double, bool) | Sets blur effect. |
+| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Disables blur effect. |
+| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Disables fill overlay effect. |
+| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Disable glow effect. |
+| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Disables inner shadow effect. |
+| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Disables outer shadow effect. |
+| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Disables preset shadow effect. |
+| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Disables reflection effect. |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Disables soft edge effect. |
+| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Enables fill overlay effect. |
+| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Enables glow effect. |
+| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Enables inner shadow effect. |
+| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Enables outer shadow effect. |
+| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Enables preset shadows effect. |
+| [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Enables reflection effect. |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Enables soft edge effect. |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Gets effective effect formatting data with the inheritance applied. |
+| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Sets blur effect. |
 
 ### See Also
 

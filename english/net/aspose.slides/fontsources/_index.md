@@ -24,8 +24,8 @@ public class FontSources : IFontSources
 
 | Name | Description |
 | --- | --- |
-| [FontFolders](fontfolders) { get; set; } | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
-| [MemoryFonts](memoryfonts) { get; set; } | A collection of fonts represented as byte arrays. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | A collection of fonts represented as byte arrays. |
 
 ### See Also
 

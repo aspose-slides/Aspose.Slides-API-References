@@ -18,23 +18,23 @@ public interface IParagraphFormatEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; } | Returns the text alignment in a paragraph. Read-only [`TextAlignment`](../textalignment). |
-| [Bullet](bullet) { get; } | Returns a bullet format of a paragraph. Read-only [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](defaultportionformat) { get; } | Returns default portion format of a paragraph. Read-only [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](defaulttabsize) { get; } | Returns default tabulation size. Read-only Single. |
-| [Depth](depth) { get; } | Returns a depth of a paragraph. Read-only Int16. |
-| [EastAsianLineBreak](eastasianlinebreak) { get; } | Determines whether the East Asian line break is used in a paragraph. Read-only Boolean. |
-| [FontAlignment](fontalignment) { get; } | Returns a font alignment in a paragraph. Read-only [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](hangingpunctuation) { get; } | Determines whether the hanging punctuation is used in a paragraph. Read-only Boolean. |
-| [Indent](indent) { get; } | Returns paragraph First Line Indent/Hanging Indent. Hanging Indent can be defined with negative values. Read-only Single. |
-| [LatinLineBreak](latinlinebreak) { get; } | Determines whether the Latin line break is used in a paragraph. Read-only Boolean. |
-| [MarginLeft](marginleft) { get; } | Returns the left margin in a paragraph. Read-only Single. |
-| [MarginRight](marginright) { get; } | Returns the right margin in a paragraph. Read-only Single. |
-| [RightToLeft](righttoleft) { get; } | Determines whether the Right to Left writing is used in a paragraph. Read-only Boolean. |
-| [SpaceAfter](spaceafter) { get; } | Returns the amount of space after the last line in a paragraph. Read-only Single. |
-| [SpaceBefore](spacebefore) { get; } | Returns the amount of space before the first line in a paragraph. Read-only Single. |
-| [SpaceWithin](spacewithin) { get; } | Returns the amount of space between base lines in a paragraph. Read-only Single. |
-| [Tabs](tabs) { get; } | Returns tabulations of a paragraph. Read-only [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Returns the text alignment in a paragraph. Read-only [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Returns a bullet format of a paragraph. Read-only [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Returns default portion format of a paragraph. Read-only [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Returns default tabulation size. Read-only Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Returns a depth of a paragraph. Read-only Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Determines whether the East Asian line break is used in a paragraph. Read-only Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Returns a font alignment in a paragraph. Read-only [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Determines whether the hanging punctuation is used in a paragraph. Read-only Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Returns paragraph First Line Indent/Hanging Indent. Hanging Indent can be defined with negative values. Read-only Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Determines whether the Latin line break is used in a paragraph. Read-only Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Returns the left margin in a paragraph. Read-only Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Returns the right margin in a paragraph. Read-only Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Determines whether the Right to Left writing is used in a paragraph. Read-only Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Returns the amount of space after the last line in a paragraph. Read-only Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Returns the amount of space before the first line in a paragraph. Read-only Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Returns the amount of space between base lines in a paragraph. Read-only Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Returns tabulations of a paragraph. Read-only [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### Remarks
 

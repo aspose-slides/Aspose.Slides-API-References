@@ -18,19 +18,22 @@ public class CellFormat : PVIObject, ICellFormat
 
 | Name | Description |
 | --- | --- |
-| [BorderBottom](borderbottom) { get; } | Returns a bottom border line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](borderdiagonaldown) { get; } | Returns a top-left to bottom-right diagonal line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](borderdiagonalup) { get; } | Returns a bottom-left to top-right diagonal line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderLeft](borderleft) { get; } | Returns a left border line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderRight](borderright) { get; } | Returns a right border line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [BorderTop](bordertop) { get; } | Returns a top border line properties object. Read-only [`ILineFormat`](../ilineformat). |
-| [FillFormat](fillformat) { get; } | Returns a cell fill properties object. Read-only [`IFillFormat`](../ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Returns a bottom border line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Returns a top-left to bottom-right diagonal line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Returns a bottom-left to top-right diagonal line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Returns a left border line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Returns a right border line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Returns a top border line properties object. Read-only [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Returns a cell fill properties object. Read-only [`IFillFormat`](../ifillformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective table cell formatting properties with inheritance and table styles applied. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Gets effective table cell formatting properties with inheritance and table styles applied. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

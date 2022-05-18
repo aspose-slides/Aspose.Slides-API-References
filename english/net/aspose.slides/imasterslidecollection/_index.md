@@ -18,17 +18,17 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Gets the element at the specified index. Read-only [`IMasterSlide`](../imasterslide). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddClone](addclone)(IMasterSlide) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
-| [InsertClone](insertclone)(int, IMasterSlide) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
-| [Remove](remove)(IMasterSlide) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
-| [RemoveUnused](removeunused)(bool) | Removes unused master slides. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Removes the element at the specified index of the collection. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Removes unused master slides. |
 
 ### See Also
 

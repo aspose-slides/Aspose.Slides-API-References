@@ -18,15 +18,15 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | Gets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddClone](addclone)(IRow, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [InsertClone](insertclone)(int, IRow, bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
-| [RemoveAt](removeat)(int, bool) | Removes a row at the specified position from a table. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Creates a copy of the specified template row and insert it at the specified position in a table. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Removes a row at the specified position from a table. |
 
 ### See Also
 

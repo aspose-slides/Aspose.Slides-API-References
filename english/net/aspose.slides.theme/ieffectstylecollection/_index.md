@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns an element at specified position. Read-only [`IEffectStyle`](../ieffectstyle). |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Returns an element at specified position. Read-only [`IEffectStyle`](../ieffectstyle). |
 
 ### See Also
 

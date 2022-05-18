@@ -18,22 +18,22 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Gets the element at the specified index. Read-only [`IMathElement`](../imathelement). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IMathElement) | Adds a math element to the end of the collection. |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(IMathElement) | Determines whether the collection contains a specific value. |
-| [CopyTo](copyto)(IMathElement[], int) | Copy to specified array. |
-| [IndexOf](indexof)(IMathElement) | Determines the index of a specific math element in collection. |
-| [Insert](insert)(int, IMathElement) | Inserts a math element into the collection at the specified index. |
-| [Remove](remove)(IMathElement) | Removes the first occurrence of a specific object from the collection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
+| [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Adds a math element to the end of the collection. |
+| [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Removes all elements from the collection. |
+| [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Determines whether the collection contains a specific value. |
+| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Copy to specified array. |
+| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Determines the index of a specific math element in collection. |
+| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Inserts a math element into the collection at the specified index. |
+| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Removes the first occurrence of a specific object from the collection. |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Removes the element at the specified index of the collection. |
 
 ### Examples
 

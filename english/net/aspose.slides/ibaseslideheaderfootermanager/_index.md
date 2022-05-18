@@ -18,20 +18,20 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](asibaseheaderfootermanager) { get; } | Returns IBaseHeaderFooterManager interface. |
-| [IsDateTimeVisible](isdatetimevisible) { get; } | Gets value indicating that a date-time placeholder is present. ReadBoolean. |
-| [IsFooterVisible](isfootervisible) { get; } | Gets value indicating that a footer placeholder is present. Read Boolean. |
-| [IsSlideNumberVisible](isslidenumbervisible) { get; } | Gets value indicating that a page number placeholder is present. ReadBoolean. |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Returns IBaseHeaderFooterManager interface. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Gets value indicating that a date-time placeholder is present. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Gets value indicating that a footer placeholder is present. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Gets value indicating that a page number placeholder is present. ReadBoolean. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetDateTimeText](setdatetimetext)(string) | Sets text to slide date-time placeholder. |
-| [SetDateTimeVisibility](setdatetimevisibility)(bool) | Changes slide date-time placeholder visibility. |
-| [SetFooterText](setfootertext)(string) | Sets text to slide footer placeholder. |
-| [SetFooterVisibility](setfootervisibility)(bool) | Changes slide footer placeholder visibility. |
-| [SetSlideNumberVisibility](setslidenumbervisibility)(bool) | Changes slide page number placeholder visibility. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Sets text to slide date-time placeholder. |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Changes slide date-time placeholder visibility. |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Sets text to slide footer placeholder. |
+| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Changes slide footer placeholder visibility. |
+| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Changes slide page number placeholder visibility. |
 
 ### See Also
 

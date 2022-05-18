@@ -18,20 +18,20 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of columns in a collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns the column at the specified index. Read-only [`Column`](../column). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/columncollection/count) { get; } | Returns the number of columns in a collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/columncollection/item) { get; } | Returns the column at the specified index. Read-only [`Column`](../column). |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddClone](addclone)(IColumn, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [InsertClone](insertclone)(int, IColumn, bool) | Creates a copy of the specified template column and insert it at the specified position in a table. |
-| [RemoveAt](removeat)(int, bool) | Removes a column at the specified position from a table. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Creates a copy of the specified template column and insert it at the specified position in a table. |
+| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Removes a column at the specified position from a table. |
 
 ### See Also
 

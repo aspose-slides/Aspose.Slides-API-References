@@ -18,7 +18,7 @@ public interface IMathRadicalFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathRadical](createmathradical)(IMathElement, IMathElement) | Creates a math radical |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Creates a math radical |
 
 ### Remarks
 

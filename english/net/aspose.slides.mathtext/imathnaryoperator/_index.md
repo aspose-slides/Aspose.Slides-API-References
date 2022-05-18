@@ -18,11 +18,11 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [AsIMathNaryOperatorProperties](asimathnaryoperatorproperties) { get; } | Allows to get base IMathNaryOperatorProperties interface [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
-| [Base](base) { get; } | Base argument |
-| [Subscript](subscript) { get; } | Specifies a subscript argument that, for example, in the case of an integral, sets the lower limit |
-| [Superscript](superscript) { get; } | Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Allows to get base IMathNaryOperatorProperties interface [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
+| [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | Base argument |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Specifies a subscript argument that, for example, in the case of an integral, sets the lower limit |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit |
 
 ### Examples
 

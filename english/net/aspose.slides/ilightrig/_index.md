@@ -18,15 +18,15 @@ public interface ILightRig
 
 | Name | Description |
 | --- | --- |
-| [Direction](direction) { get; set; } | Light direction. Read/write [`LightingDirection`](../lightingdirection). |
-| [LightType](lighttype) { get; set; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Light direction. Read/write [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetRotation](getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. |
-| [SetRotation](setrotation)(float, float, float) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
 
 ### See Also
 

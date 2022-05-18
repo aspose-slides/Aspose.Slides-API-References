@@ -24,10 +24,10 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateFileStreamWrapper](createfilestreamwrapper)(string, FileMode) | Creates FileStream with the specified path and creation mode. |
-| [CreateFileStreamWrapper](createfilestreamwrapper)(string, FileMode, FileAccess) | Creates FileStream with the specified path, creation mode, and read/write permission. |
-| [CreateMemoryStreamWrapper](creatememorystreamwrapper)() | Creates MemoryStream wrapper. |
-| [CreateMemoryStreamWrapper](creatememorystreamwrapper)(byte[]) | Creates MemoryStream wrapper based on the specified byte array. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper)(string, FileMode) | Creates FileStream with the specified path and creation mode. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper)(string, FileMode, FileAccess) | Creates FileStream with the specified path, creation mode, and read/write permission. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper)() | Creates MemoryStream wrapper. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper)(byte[]) | Creates MemoryStream wrapper based on the specified byte array. |
 
 ### See Also
 

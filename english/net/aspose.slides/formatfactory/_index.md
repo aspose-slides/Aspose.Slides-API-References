@@ -24,15 +24,15 @@ public class FormatFactory : IFormatFactory
 
 | Name | Description |
 | --- | --- |
-| static [Instance](instance) { get; } | Format factory static instance. Read-only [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Format factory static instance. Read-only [`FormatFactory`](../formatfactory). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateParagraphFormat](createparagraphformat)() | Creates new [`IParagraphFormat`](../iparagraphformat). |
-| [CreatePortionFormat](createportionformat)() | Creates new [`IPortionFormat`](../iportionformat). |
-| [CreateTextFrameFormat](createtextframeformat)() | Creates new [`ITextFrameFormat`](../itextframeformat). |
+| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Creates new [`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Creates new [`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Creates new [`ITextFrameFormat`](../itextframeformat). |
 
 ### See Also
 

@@ -18,9 +18,9 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 | Name | Description |
 | --- | --- |
-| [AsIFillParamSource](asifillparamsource) { get; } | Returns IFillParamSource interface. |
-| [EffectFormat](effectformat) { get; } | Returns effective effect format. Read-only [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](fillformat) { get; } | Returns effective fill format. Read-only [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Returns IFillParamSource interface. |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Returns effective effect format. Read-only [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Returns effective fill format. Read-only [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Remarks
 

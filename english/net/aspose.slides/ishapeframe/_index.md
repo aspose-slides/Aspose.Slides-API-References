@@ -18,16 +18,16 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 | Name | Description |
 | --- | --- |
-| [CenterX](centerx) { get; } | Returns the X coordinate of a frame's center. Read-only Single. |
-| [CenterY](centery) { get; } | Returns the Y coordinate of a frame's center. Read-only Single. |
-| [FlipH](fliph) { get; } | Determines whether a frame is flipped horizontally. Read-only [`NullableBool`](../nullablebool). |
-| [FlipV](flipv) { get; } | Determines whether a frame is flipped vertically. Read-only [`NullableBool`](../nullablebool). |
-| [Height](height) { get; } | Returns the height of a frame. Read-only Single. |
-| [Rectangle](rectangle) { get; } | Returns the coordinates of a frame. Read-only RectangleF. |
-| [Rotation](rotation) { get; } | Returns the number of degrees a frame is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read-only Single. |
-| [Width](width) { get; } | Returns the width of a frame. Read-only Single. |
-| [X](x) { get; } | Returns the X coordinate of the upper-left corner of a frame. Read-only Single. |
-| [Y](y) { get; } | Returns the Y coordinate of the upper-left corner of a frame. Read-only Single. |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Returns the X coordinate of a frame's center. Read-only Single. |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Returns the Y coordinate of a frame's center. Read-only Single. |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Determines whether a frame is flipped horizontally. Read-only [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Determines whether a frame is flipped vertically. Read-only [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/ishapeframe/height) { get; } | Returns the height of a frame. Read-only Single. |
+| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Returns the coordinates of a frame. Read-only RectangleF. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Returns the number of degrees a frame is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read-only Single. |
+| [Width](../../aspose.slides/ishapeframe/width) { get; } | Returns the width of a frame. Read-only Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | Returns the X coordinate of the upper-left corner of a frame. Read-only Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | Returns the Y coordinate of the upper-left corner of a frame. Read-only Single. |
 
 ### See Also
 

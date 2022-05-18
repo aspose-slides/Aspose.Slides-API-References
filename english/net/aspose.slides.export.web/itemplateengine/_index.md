@@ -18,8 +18,8 @@ public interface ITemplateEngine
 
 | Name | Description |
 | --- | --- |
-| [AddTemplate](addtemplate)(string, string, Type) | Adds the template to the template collection. |
-| [Compile](compile)(string, object) | Transforms the template with the given key and model object to output. |
+| [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | Adds the template to the template collection. |
+| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Transforms the template with the given key and model object to output. |
 
 ### See Also
 

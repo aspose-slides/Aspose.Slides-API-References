@@ -18,25 +18,25 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | Name | Description |
 | --- | --- |
-| [AsIGraphicalObject](asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](embeddeddata) { get; } | Gets information about OLE embedded data. Read only [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](embeddedfilelabel) { get; } | Returns the file name of embedded OLE object |
-| [EmbeddedFileName](embeddedfilename) { get; } | Returns the path of embedded OLE object |
-| [IsObjectIcon](isobjecticon) { get; set; } | Determines whether an object is visible as icon. Read/write Boolean. |
-| [IsObjectLink](isobjectlink) { get; } | Determines whether an object is linked to external file. Read-only Boolean. |
-| [LinkFileName](linkfilename) { get; } | Returns the full path to a linked file. Short file name will be used. Read-only String. |
-| [LinkPathLong](linkpathlong) { get; set; } | Returns the full path to a linked file. Long file name will be used. Read/write String. |
-| [ObjectName](objectname) { get; set; } | Returns or sets the name of an object. Read/write String. |
-| [ObjectProgId](objectprogid) { get; set; } | Returns the ProgID of an object. Read olny String. |
-| [SubstitutePictureFormat](substitutepictureformat) { get; } | Returns OleObject image fill properties object. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](substitutepicturetitle) { get; set; } | Returns or sets the title for OleObject icon. Read/write String. |
-| [UpdateAutomatic](updateautomatic) { get; set; } | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write Boolean. |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Gets information about OLE embedded data. Read only [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Returns the file name of embedded OLE object |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Returns the path of embedded OLE object |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Determines whether an object is visible as icon. Read/write Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Determines whether an object is linked to external file. Read-only Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Returns the full path to a linked file. Short file name will be used. Read-only String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Returns the full path to a linked file. Long file name will be used. Read/write String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Returns or sets the name of an object. Read/write String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Returns the ProgID of an object. Read olny String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Returns OleObject image fill properties object. Read-only [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Returns or sets the title for OleObject icon. Read/write String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write Boolean. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetEmbeddedData](setembeddeddata)(IOleEmbeddedDataInfo) | Sets information about OLE embedded data. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Sets information about OLE embedded data. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISmartArtShape`](../ismartartshape). Zero-based index of the element |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Gets the element at the specified index. Read-only [`ISmartArtShape`](../ismartartshape). Zero-based index of the element |
 
 ### See Also
 

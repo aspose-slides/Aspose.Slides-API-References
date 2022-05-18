@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | Name | Description |
 | --- | --- |
-| [GrowToMatchOperandHeight](growtomatchoperandheight) { get; set; } | Operator Character grows vertically to match its operand height |
-| [HideSubscript](hidesubscript) { get; set; } | Hide Subscript |
-| [HideSuperscript](hidesuperscript) { get; set; } | Hide Superscript |
-| [LimitLocation](limitlocation) { get; set; } | The location of limits (subscript and superscript) |
-| [Operator](operator) { get; set; } | Nary Operator Character For example: '∑', '∫' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Operator Character grows vertically to match its operand height |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Hide Subscript |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Hide Superscript |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | The location of limits (subscript and superscript) |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary Operator Character For example: '∑', '∫' |
 
 ### See Also
 

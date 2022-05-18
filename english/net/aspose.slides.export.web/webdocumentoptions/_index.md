@@ -24,11 +24,11 @@ public class WebDocumentOptions
 
 | Name | Description |
 | --- | --- |
-| [AnimateShapes](animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |
-| [AnimateTransitions](animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
-| [EmbedImages](embedimages) { get; set; } | Returns or sets images embedding option. Read/write Boolean. |
-| [OutputSaver](outputsaver) { get; set; } | Returns or sets output saver. Read/write [`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](templateengine) { get; set; } | Returns or sets templates engine. Read/write [`ITemplateEngine`](../itemplateengine). |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Returns or sets images embedding option. Read/write Boolean. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Returns or sets output saver. Read/write [`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Returns or sets templates engine. Read/write [`ITemplateEngine`](../itemplateengine). |
 
 ### See Also
 

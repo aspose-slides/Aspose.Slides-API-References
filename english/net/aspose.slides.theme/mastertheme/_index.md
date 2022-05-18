@@ -18,11 +18,18 @@ public class MasterTheme : Theme, IMasterTheme
 
 | Name | Description |
 | --- | --- |
-| override [ColorScheme](colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](extracolorschemes) { get; } | Returns the collection of additional color schemes. These schemes don't affect presentation's look, they can be selected as main color scheme for a slide. Read-only [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| override [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatScheme`](../iformatscheme). |
-| [Name](name) { get; set; } | Returns the name of a theme. Read/write String. |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Returns the color scheme. Read-only [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Returns the collection of additional color schemes. These schemes don't affect presentation's look, they can be selected as main color scheme for a slide. Read-only [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Returns the font scheme. Read-only [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatScheme`](../iformatscheme). |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Returns the name of a theme. Read/write String. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Returns the parent presentation. Read-only [`IPresentation`](../../aspose.slides/ipresentation). |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Gets effective theme data with the inheritance applied. |
 
 ### See Also
 

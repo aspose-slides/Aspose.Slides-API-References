@@ -18,8 +18,8 @@ public class TransitionValueBase : ITransitionValueBase
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 

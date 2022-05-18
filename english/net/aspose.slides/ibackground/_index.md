@@ -18,19 +18,19 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AsIFillParamSource](asifillparamsource) { get; } | Returns IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](asislidecomponent) { get; } | Returns ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](effectformat) { get; } | Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](fillformat) { get; } | Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only [`IFillFormat`](../ifillformat). |
-| [StyleColor](stylecolor) { get; } | Returns a ColorFormat for a BackgroundType.Themed fill. Read-only [`IColorFormat`](../icolorformat). |
-| [StyleIndex](styleindex) { get; set; } | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write UInt16. |
-| [Type](type) { get; set; } | Returns a type of background fill. Read/write [`BackgroundType`](../backgroundtype). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Returns IFillParamSource interface. Read-only [`IFillParamSource`](../ifillparamsource). |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Returns ISlideComponent interface. Read-only [`ISlideComponent`](../islidecomponent). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only [`IFillFormat`](../ifillformat). |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Returns a ColorFormat for a BackgroundType.Themed fill. Read-only [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write UInt16. |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | Returns a type of background fill. Read/write [`BackgroundType`](../backgroundtype). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective background data with the inheritance applied. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Gets effective background data with the inheritance applied. |
 
 ### See Also
 

@@ -18,14 +18,14 @@ public interface IResourceLoadingArgs
 
 | Name | Description |
 | --- | --- |
-| [OriginalUri](originaluri) { get; } | Original URI of the resource as specified in imported presentation. |
-| [Uri](uri) { get; set; } | URI of the resource which is used for downloading if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns Default. Initially it's set to original URI of the resource, but can be redefined to any value. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Original URI of the resource as specified in imported presentation. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI of the resource which is used for downloading if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns Default. Initially it's set to original URI of the resource, but can be redefined to any value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetData](setdata)(byte[]) | Sets user provided data of the resource which used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns UserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Sets user provided data of the resource which used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns UserProvided. |
 
 ### See Also
 

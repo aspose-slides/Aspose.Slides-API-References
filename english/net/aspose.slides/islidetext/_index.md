@@ -18,10 +18,10 @@ public interface ISlideText
 
 | Name | Description |
 | --- | --- |
-| [LayoutText](layouttext) { get; } | The text on the layout page's shapes for this slide |
-| [MasterText](mastertext) { get; } | The text on the master page's shapes for this slide |
-| [NotesText](notestext) { get; } | The text on the notes page's shapes for this slide |
-| [Text](text) { get; } | The text on the slide's shapes |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | The text on the layout page's shapes for this slide |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | The text on the master page's shapes for this slide |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | The text on the notes page's shapes for this slide |
+| [Text](../../aspose.slides/islidetext/text) { get; } | The text on the slide's shapes |
 
 ### See Also
 

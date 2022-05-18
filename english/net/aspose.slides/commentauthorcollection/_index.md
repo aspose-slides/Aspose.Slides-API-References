@@ -18,24 +18,24 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Gets the number of elements actually contained in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Gets the element at the specified index. Read-only [`ICommentAuthor`](../icommentauthor). |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddAuthor](addauthor)(string, string) | Add new author at the end of a collection. |
-| [Clear](clear)() | Removes all authors from a collection. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [FindByName](findbyname)(string) | Find author in a collection by name. |
-| [FindByNameAndInitials](findbynameandinitials)(string, string) | Find author in a collection by name and initials. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](remove)(ICommentAuthor) | Removes the first occurrence of the specified author in a collection. |
-| [RemoveAt](removeat)(int) | Removes the author at the specified index of the collection. |
-| [ToArray](toarray)() | Creates and returns an array with all authors. |
+| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Add new author at the end of a collection. |
+| [Clear](../../aspose.slides/commentauthorcollection/clear)() | Removes all authors from a collection. |
+| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Find author in a collection by name. |
+| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Find author in a collection by name and initials. |
+| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Removes the first occurrence of the specified author in a collection. |
+| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Removes the author at the specified index of the collection. |
+| [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Creates and returns an array with all authors. |
 
 ### See Also
 

@@ -24,9 +24,9 @@ public class ColorOffset : IColorOffset
 
 | Name | Description |
 | --- | --- |
-| [Value0](value0) { get; set; } | Defines first value of offset. Read/write Single. |
-| [Value1](value1) { get; set; } | Defines second value of offset. Read/write Single. |
-| [Value2](value2) { get; set; } | Defines third value of offset. Read/write Single. |
+| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Defines first value of offset. Read/write Single. |
+| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Defines second value of offset. Read/write Single. |
+| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Defines third value of offset. Read/write Single. |
 
 ### See Also
 

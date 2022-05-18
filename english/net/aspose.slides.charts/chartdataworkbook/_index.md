@@ -18,20 +18,20 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | Name | Description |
 | --- | --- |
-| [Worksheets](worksheets) { get; } | Gets a collection of worksheets. |
+| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Gets a collection of worksheets. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CalculateFormulas](calculateformulas)() | Calculates all formulas in the workbook and updates corresponding cells values. |
-| [Clear](clear)(int) | Clear all cells values on sheet |
-| [GetCell](getcell)(int, string) | Gets the cell that can be used for chart series or categories |
-| [GetCell](getcell)(int, int, int) | Gets the cell that can be used for chart series or categories |
-| [GetCell](getcell)(int, string, object) | Gets the cell that can be used for chart series or categories |
-| [GetCell](getcell)(string, int, int) | Gets the cell that can be used for chart series or categories |
-| [GetCell](getcell)(int, int, int, object) | Gets the cell that can be used for chart series or categories |
-| [GetCellCollection](getcellcollection)(string, bool) | Gets the set of cells. |
+| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Calculates all formulas in the workbook and updates corresponding cells values. |
+| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Clear all cells values on sheet |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(int, string) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(int, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(int, string, object) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(string, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(int, int, int, object) | Gets the cell that can be used for chart series or categories |
+| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Gets the set of cells. |
 
 ### See Also
 

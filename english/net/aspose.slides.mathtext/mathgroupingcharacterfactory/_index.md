@@ -24,8 +24,8 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathGroupingCharacter](createmathgroupingcharacter)(IMathElement) | Creates a math grouping character |
-| [CreateMathGroupingCharacter](createmathgroupingcharacter)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Creates a math grouping character |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter)(IMathElement) | Creates a math grouping character |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Creates a math grouping character |
 
 ### Remarks
 

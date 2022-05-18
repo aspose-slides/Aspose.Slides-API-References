@@ -18,8 +18,8 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | Name | Description |
 | --- | --- |
-| [Index](index) { get; } | Gets the index of the worksheet. Read-only Int32. |
-| [Name](name) { get; } | Returns the name of the worksheet. Read-only String. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Gets the index of the worksheet. Read-only Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Returns the name of the worksheet. Read-only String. |
 
 ### See Also
 

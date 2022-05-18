@@ -24,15 +24,15 @@ public class WebDocument
 
 | Name | Description |
 | --- | --- |
-| [Global](global) { get; } | Returns global storage of the document. Read-only [`Storage`](../storage). |
-| [Input](input) { get; } |  |
-| [Output](output) { get; } | Returns collection of output elements of the document. Read-only [`Output`](./output). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Returns global storage of the document. Read-only [`Storage`](../storage). |
+| [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Returns collection of output elements of the document. Read-only [`Output`](./output). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](save)() |  |
+| [Save](../../aspose.slides.export.web/webdocument/save)() |  |
 
 ### See Also
 

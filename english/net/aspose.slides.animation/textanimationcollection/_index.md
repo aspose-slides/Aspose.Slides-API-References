@@ -24,18 +24,18 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns a number of elements in the collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns element by index. (2 indexers) |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Returns a number of elements in the collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | Returns element by index. (2 indexers) |
+| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)() | Adds new text animation to the collection. |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection into the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Add](../../aspose.slides.animation/textanimationcollection/add)() | Adds new text animation to the collection. |
+| [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Copies all elements from the collection into the specified array. |
+| [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 
 ### See Also
 

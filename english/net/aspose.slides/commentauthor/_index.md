@@ -18,15 +18,15 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Name | Description |
 | --- | --- |
-| [Comments](comments) { get; } | Returns the collection of comments made by this author. Read-only [`ICommentCollection`](../icommentcollection). |
-| [Initials](initials) { get; set; } | Returns or sets the authors initials. Read/write String. |
-| [Name](name) { get; set; } | Returns or sets the author's name. Read/write String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Returns the collection of comments made by this author. Read-only [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Returns or sets the authors initials. Read/write String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Returns or sets the author's name. Read/write String. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Remove](remove)() | Removes the author from the parent collection. |
+| [Remove](../../aspose.slides/commentauthor/remove)() | Removes the author from the parent collection. |
 
 ### See Also
 

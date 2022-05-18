@@ -18,8 +18,8 @@ public interface IRenderingOptions : ISaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AsISaveOptions](asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
-| [NotesCommentsLayouting](notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [NotesCommentsLayouting](../../aspose.slides.export/irenderingoptions/notescommentslayouting) { get; } | Provides options that control how notes and comments is placed in exported document. |
 
 ### Examples
 

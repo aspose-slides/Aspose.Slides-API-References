@@ -18,25 +18,25 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of operations in a collection. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; set; } | Returns or sets the operation at the specified index. Read/write [`ColorOperation`](../coloroperation). |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Returns the number of operations in a collection. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Returns or sets the operation at the specified index. Read/write [`ColorOperation`](../coloroperation). |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(ColorTransformOperation) | Adds a new operation to the end of collection. |
-| [Add](add)(ColorTransformOperation, float) | Adds a new operation to the end of collection. |
-| [Clear](clear)() | Removes all color operations. |
-| [Clone](clone)() | Creates a copy of a ColorOperationCollection collection. |
-| [CloneT](clonet)() | Clones current object |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Insert](insert)(int, ColorTransformOperation) | Inserts the new operation to a collection. |
-| [Insert](insert)(int, ColorTransformOperation, float) | Inserts the new operation to a collection. |
-| [RemoveAt](removeat)(int) | Removes the color operation from a collection. |
+| [Add](../../aspose.slides/coloroperationcollection/add)(ColorTransformOperation) | Adds a new operation to the end of collection. |
+| [Add](../../aspose.slides/coloroperationcollection/add)(ColorTransformOperation, float) | Adds a new operation to the end of collection. |
+| [Clear](../../aspose.slides/coloroperationcollection/clear)() | Removes all color operations. |
+| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Creates a copy of a ColorOperationCollection collection. |
+| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Clones current object |
+| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert)(int, ColorTransformOperation) | Inserts the new operation to a collection. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert)(int, ColorTransformOperation, float) | Inserts the new operation to a collection. |
+| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Removes the color operation from a collection. |
 
 ### See Also
 

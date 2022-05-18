@@ -18,9 +18,9 @@ public interface IMathFunction : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](base) { get; } | Function Argument |
-| [Name](name) { get; } | Function name For example, function names are sin and cos |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Function Argument |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Function name For example, function names are sin and cos |
 
 ### Examples
 

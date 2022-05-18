@@ -24,7 +24,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [BaseHandoutNotesSlideHeaderFooterManager](./basehandoutnotesslideheaderfootermanager) | Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides. |
 | [BaseHeaderFooterManager](./baseheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
 | [BasePortionFormat](./baseportionformat) | Common text portion formatting properties. |
-| [BaseShapeLock](./baseshapelock) | Represents a base class for locks (disabled operation). |
+| [BaseShapeLock](./baseshapelock) | Represents a base class for locks (../disabled operation). |
 | [BaseSlide](./baseslide) | Represents common data for all slide types. |
 | [BaseSlideHeaderFooterManager](./baseslideheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
 | [BlobManagementOptions](./blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
@@ -85,13 +85,13 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [GroupShape](./groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](./groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [Hyperlink](./hyperlink) | Represents a hyperlink. |
-| [HyperlinkManager](./hyperlinkmanager) | Provide hyperlinks management (adding, removing). |
+| [HyperlinkManager](./hyperlinkmanager) | Provide hyperlinks management (../adding, removing). |
 | [HyperlinkQueries](./hyperlinkqueries) | Provide easy access to contained hyperlinks. |
 | [ImageCollection](./imagecollection) | Represents collection of PPImage. |
 | [ImageWrapper](./imagewrapper) | System.Drawing.Image wrapper for COM interface. |
 | [ImageWrapperFactory](./imagewrapperfactory) | This class allows to initialize IBitmapWrapper. |
 | [InterruptionToken](./interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
-| [InterruptionTokenSource](./interruptiontokensource) | Represents the source of [`InterruptionToken`](aspose.slides/interruptiontoken). |
+| [InterruptionTokenSource](./interruptiontokensource) | Represents the source of [`InterruptionToken`](../aspose.slides/interruptiontoken). |
 | [InvalidPasswordException](./invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |
 | [LayoutSlide](./layoutslide) | Represents a layout slide. |
 | [LayoutSlideCollection](./layoutslidecollection) | Represents a base class for collection of a layout slides. |
@@ -101,7 +101,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [LightRig](./lightrig) | Represents LightRig. |
 | [LineFillFormat](./linefillformat) | Represents properties for lines filling. |
 | [LineFormat](./lineformat) | Represents format of a line. |
-| [LoadOptions](./loadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
+| [LoadOptions](./loadoptions) | Allows to specify additional options (../such as format or default font) when loading a presentation. |
 | [MasterHandoutSlide](./masterhandoutslide) | Represents master slide for handouts. |
 | [MasterHandoutSlideHeaderFooterManager](./masterhandoutslideheaderfootermanager) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |
 | [MasterLayoutSlideCollection](./masterlayoutslidecollection) | Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of master's layout slides. |
@@ -113,7 +113,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [Metered](./metered) | Provides methods to set metered key. |
 | [ModernComment](./moderncomment) | Represents a comment on a slide. |
 | [NormalViewProperties](./normalviewproperties) | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. |
-| [NormalViewRestoredProperties](./normalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
+| [NormalViewRestoredProperties](./normalviewrestoredproperties) | Specifies the sizing of the slide region (../(width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(../neither minimized nor maximized). |
 | [NotesSize](./notessize) | Represents a size of notes slide. |
 | [NotesSlide](./notesslide) | Represents a notes slide in a presentation. |
 | [NotesSlideHeaderFooterManager](./notesslideheaderfootermanager) | Represents manager which holds behavior of the notes slide placeholders, including header placeholder. |
@@ -126,7 +126,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [Paragraph](./paragraph) | Represents a paragraph of text. |
 | [ParagraphCollection](./paragraphcollection) | Represents a collection of a paragraphs. |
 | [ParagraphFactory](./paragraphfactory) | Allows to create paragraphs |
-| [ParagraphFormat](./paragraphformat) | This class contains the paragraph formatting properties. Unlike [`IParagraphFormatEffectiveData`](aspose.slides/iparagraphformateffectivedata), all properties of this class are writeable. |
+| [ParagraphFormat](./paragraphformat) | This class contains the paragraph formatting properties. Unlike [`IParagraphFormatEffectiveData`](../aspose.slides/iparagraphformateffectivedata), all properties of this class are writeable. |
 | [PathSegment](./pathsegment) | Represents segment of graphics path of GeometryShape |
 | [PatternFormat](./patternformat) | Represents a pattern to fill a shape. |
 | [Picture](./picture) | Represents a picture in a presentation. |
@@ -137,7 +137,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [Portion](./portion) | Represents a portion of text inside a text paragraph. |
 | [PortionCollection](./portioncollection) | Represents a collection of portions. |
 | [PortionFactory](./portionfactory) | Allows to create test portions |
-| [PortionFormat](./portionformat) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
+| [PortionFormat](./portionformat) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
 | [PPImage](./ppimage) | Represents an image in a presentation. |
 | [PptCorruptFileException](./pptcorruptfileexception) | Exception which thrown when presentation file is probably corrupt. |
 | [PptEditException](./ppteditexception) | Represents an exception thrown when edit presentation error is detected. |
@@ -186,7 +186,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [TabFactory](./tabfactory) | Allows to create ITab instances |
 | [Table](./table) | Represents a table on a slide. |
 | [TableFormat](./tableformat) | Represents format of a table. |
-| [TagCollection](./tagcollection) | Represents the collection of tags (user defined pairs of strings) |
+| [TagCollection](./tagcollection) | Represents the collection of tags (../user defined pairs of strings) |
 | [TextFrame](./textframe) | Represents a TextFrame. |
 | [TextFrameFormat](./textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
 | [TextHighlightingOptions](./texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
@@ -216,13 +216,13 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IBackgroundEffectiveData](./ibackgroundeffectivedata) | Immutable object which contains effective background properties. |
 | [IBaseHandoutNotesSlideHeaderFooterManag](./ibasehandoutnotesslideheaderfootermanag) | Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides. |
 | [IBaseHeaderFooterManager](./ibaseheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
-| [IBasePortionFormat](./ibaseportionformat) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
+| [IBasePortionFormat](./ibaseportionformat) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
 | [IBasePortionFormatEffectiveData](./ibaseportionformateffectivedata) | Base interface for immutable objects which contain effective text portion formatting properties. |
-| [IBaseShapeLock](./ibaseshapelock) | Represents Shape lock (disabled operation). |
+| [IBaseShapeLock](./ibaseshapelock) | Represents Shape lock (../disabled operation). |
 | [IBaseSlide](./ibaseslide) | Represents common data for all slide types. |
 | [IBaseSlideHeaderFooterManager](./ibaseslideheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
 | [IBaseTableFormatEffectiveData](./ibasetableformateffectivedata) | Base interface for immutable objects which contain effective table formatting properties. |
-| [IBlobManagementOptions](./iblobmanagementoptions) | A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. A number of techniques are used to optimize memory consumption while working with BLOBs - which was already stored in the presentation or be added later programmatically. Using [`IBlobManagementOptions`](aspose.slides/iblobmanagementoptions) you can change a different behavior aspects regarding BLOBs handling for the [`IPresentation`](aspose.slides/ipresentation) instance lifetime. |
+| [IBlobManagementOptions](./iblobmanagementoptions) | A Binary Large Object (../BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. A number of techniques are used to optimize memory consumption while working with BLOBs - which was already stored in the presentation or be added later programmatically. Using [`IBlobManagementOptions`](../aspose.slides/iblobmanagementoptions) you can change a different behavior aspects regarding BLOBs handling for the [`IPresentation`](../aspose.slides/ipresentation) instance lifetime. |
 | [IBulkTextFormattable](./ibulktextformattable) | Represents an object with possibility of bulk setting child text elements' formats. |
 | [IBulletFormat](./ibulletformat) | Represents paragraph bullet formatting properties. |
 | [IBulletFormatEffectiveData](./ibulletformateffectivedata) | Immutable object which contains effective paragraph bullet formatting properties. |
@@ -292,13 +292,13 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IGroupShapeLock](./igroupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [IHyperlink](./ihyperlink) | Represents a hyperlink. |
 | [IHyperlinkContainer](./ihyperlinkcontainer) | Represents hyperlink object. |
-| [IHyperlinkManager](./ihyperlinkmanager) | Provide hyperlinks management (adding, removing). |
+| [IHyperlinkManager](./ihyperlinkmanager) | Provide hyperlinks management (../adding, removing). |
 | [IHyperlinkQueries](./ihyperlinkqueries) | Provide easy access to contained hyperlinks. |
 | [IImageCollection](./iimagecollection) | Represents collection of PPImage. |
 | [IImageWrapper](./iimagewrapper) | System.Drawing.Image wrapper for COM interface. |
 | [IImageWrapperFactory](./iimagewrapperfactory) | This interface allows to initialize IBitmapWrapper. |
 | [IInterruptionToken](./iinterruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
-| [IInterruptionTokenSource](./iinterruptiontokensource) | Represents the source of [`IInterruptionToken`](aspose.slides/iinterruptiontoken). |
+| [IInterruptionTokenSource](./iinterruptiontokensource) | Represents the source of [`IInterruptionToken`](../aspose.slides/iinterruptiontoken). |
 | [ILayoutSlide](./ilayoutslide) | Represents a layout slide. |
 | [ILayoutSlideCollection](./ilayoutslidecollection) | Represents a base class for collection of a layout slides. |
 | [ILayoutSlideHeaderFooterManager](./ilayoutslideheaderfootermanager) | Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide. |
@@ -311,7 +311,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ILineFormat](./ilineformat) | Represents format of a line. |
 | [ILineFormatEffectiveData](./ilineformateffectivedata) | Immutable object which contains effective line formatting properties. |
 | [ILineParamSource](./ilineparamsource) | Auxiliary line parameters interface. |
-| [ILoadOptions](./iloadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
+| [ILoadOptions](./iloadoptions) | Allows to specify additional options (../such as format or default font) when loading a presentation. |
 | [IMasterHandoutSlide](./imasterhandoutslide) | Represents master slide for handouts. |
 | [IMasterHandoutSlideHeaderFooterManager](./imasterhandoutslideheaderfootermanager) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |
 | [IMasterHandoutSlideManager](./imasterhandoutslidemanager) | Master handout slide manager. |
@@ -325,7 +325,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IMetered](./imetered) | Provides methods to set metered key. |
 | [IModernComment](./imoderncomment) | Represents a comment on a slide. |
 | [INormalViewProperties](./inormalviewproperties) | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. |
-| [INormalViewRestoredProperties](./inormalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
+| [INormalViewRestoredProperties](./inormalviewrestoredproperties) | Specifies the sizing of the slide region (../(width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(../neither minimized nor maximized). |
 | [INotesSize](./inotessize) | Represents a size of notes slide. |
 | [INotesSlide](./inotesslide) | Represents a notes slide in a presentation. |
 | [INotesSlideHeaderFooterManager](./inotesslideheaderfootermanager) | Represents manager which holds behavior of the notes slide placeholders, including header placeholder. |
@@ -335,7 +335,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IParagraph](./iparagraph) | Represents a paragraph of a text. |
 | [IParagraphCollection](./iparagraphcollection) | Represents a collection of a paragraphs. |
 | [IParagraphFactory](./iparagraphfactory) | Allows to create paragraphs |
-| [IParagraphFormat](./iparagraphformat) | This class contains the paragraph formatting properties. Unlike [`IParagraphFormatEffectiveData`](aspose.slides/iparagraphformateffectivedata), all properties of this class are writeable. |
+| [IParagraphFormat](./iparagraphformat) | This class contains the paragraph formatting properties. Unlike [`IParagraphFormatEffectiveData`](../aspose.slides/iparagraphformateffectivedata), all properties of this class are writeable. |
 | [IParagraphFormatEffectiveData](./iparagraphformateffectivedata) | Immutable object which contains effective paragraph formatting properties. |
 | [IPathSegment](./ipathsegment) | Represents segment of graphics path of GeometryShape |
 | [IPatternFormat](./ipatternformat) | Represents a pattern to fill a shape. |
@@ -349,7 +349,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IPortion](./iportion) | Represents a portion of text inside a text paragraph. |
 | [IPortionCollection](./iportioncollection) | Represents a collection of a portions. |
 | [IPortionFactory](./iportionfactory) | Allows to create test portions |
-| [IPortionFormat](./iportionformat) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
+| [IPortionFormat](./iportionformat) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
 | [IPortionFormatEffectiveData](./iportionformateffectivedata) | Immutable object which contains effective text portion formatting properties. |
 | [IPPImage](./ippimage) | Represents an image in a presentation. |
 | [IPresentation](./ipresentation) | Presentation document |
@@ -401,7 +401,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ITable](./itable) | Represents a table on a slide. |
 | [ITableFormat](./itableformat) | Represents format of a table. |
 | [ITableFormatEffectiveData](./itableformateffectivedata) | Immutable object which contains effective table formatting properties. |
-| [ITagCollection](./itagcollection) | Represents the collection of tags (user defined pairs of strings) |
+| [ITagCollection](./itagcollection) | Represents the collection of tags (../user defined pairs of strings) |
 | [ITextFrame](./itextframe) | Represents a TextFrame. |
 | [ITextFrameFormat](./itextframeformat) | Contains the TextFrame's formatting properties. |
 | [ITextFrameFormatEffectiveData](./itextframeformateffectivedata) | Immutable object which contains effective text frame formatting properties. |
@@ -432,7 +432,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ColorStringFormat](./colorstringformat) | Represents a type of hyperlink action. |
 | [ColorTransformOperation](./colortransformoperation) | Defines color transform operation. |
 | [ColorType](./colortype) | Represents different color modes. |
-| [ControlType](./controltype) | Defines a control type which should be embedded by [`AddControl`](aspose.slides/icontrolcollection/addcontrol). |
+| [ControlType](./controltype) | Defines a control type which should be embedded by [`AddControl`](../aspose.slides/icontrolcollection/addcontrol). |
 | [FillBlendMode](./fillblendmode) | Determines blend mode. |
 | [FillType](./filltype) | Specifies the interior fill type of various visual objects. |
 | [FontAlignment](./fontalignment) | Represents vertical font alignment. |
@@ -454,7 +454,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [LineSketchType](./linesketchtype) | Represents which sketch type or effect a shape has been assigned. |
 | [LineStyle](./linestyle) | Represents the style of a line. |
 | [LoadFormat](./loadformat) | Indicates the format of the document that is to be loaded. |
-| [LoadingStreamBehavior](./loadingstreambehavior) | The Stream passed to a method is considered as a Binary Large Object (BLOB) (see [`IBlobManagementOptions`](aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how the Stream should be treated when it passed to the method. Depending on the requirements, different decisions could be made to provide the most efficient behavior. |
+| [LoadingStreamBehavior](./loadingstreambehavior) | The Stream passed to a method is considered as a Binary Large Object (../BLOB) (../see [`IBlobManagementOptions`](aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how the Stream should be treated when it passed to the method. Depending on the requirements, different decisions could be made to provide the most efficient behavior. |
 | [MaterialPresetType](./materialpresettype) | Constants which define material of shape. |
 | [ModernCommentStatus](./moderncommentstatus) | Represents the status of a modern comment. |
 | [NullableBool](./nullablebool) | Represents triple boolean values. |
@@ -468,7 +468,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [PlaceholderSize](./placeholdersize) | Represents the size of a placeholder. |
 | [PlaceholderType](./placeholdertype) | Represents the type of a placeholder. |
 | [PPImageFormat](./ppimageformat) | Image formats. This enum is replacement for `System.Drawing.Imaging.ImageFormat` class. It's needed for COM compatibility. |
-| [PresentationLockingBehavior](./presentationlockingbehavior) | Represents the behavior regarding treating the [`IPresentation`](aspose.slides/ipresentation) source (file or Stream) while loading and working with an instance of [`IPresentation`](aspose.slides/ipresentation). The source is the parameter passed to the [`IPresentation`](aspose.slides/ipresentation) constructor. In the example below, the source is the "pres.pptx" file: |
+| [PresentationLockingBehavior](./presentationlockingbehavior) | Represents the behavior regarding treating the [`IPresentation`](../aspose.slides/ipresentation) source (../file or Stream) while loading and working with an instance of [`IPresentation`](../aspose.slides/ipresentation). The source is the parameter passed to the [`IPresentation`](../aspose.slides/ipresentation) constructor. In the example below, the source is the "pres.pptx" file: |
 | [PresetColor](./presetcolor) | Represents predefined color presets. |
 | [PresetShadowType](./presetshadowtype) | Represents a preset for a shadow effect. |
 | [RectangleAlignment](./rectanglealignment) | Defines 2-dimension allignment. |

@@ -18,16 +18,16 @@ public interface ITiming
 
 | Name | Description |
 | --- | --- |
-| [Accelerate](accelerate) { get; set; } | Describes the percentage of duration accelerate behavior effect. Read/write Single. |
-| [AutoReverse](autoreverse) { get; set; } | Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write Boolean. |
-| [Decelerate](decelerate) { get; set; } | Describes the percentage of duration decelerate behavior effect. Read/write Single. |
-| [Duration](duration) { get; set; } | Describes the duration of animation effect. Read/write Single. |
-| [RepeatCount](repeatcount) { get; set; } | Describes the number of times the effect should repeat. Read/write Single. |
-| [RepeatDuration](repeatduration) { get; set; } | Describes the number of times the effect should repeat. Read/write Single. |
-| [Restart](restart) { get; set; } | Specifies if a effect is to restart after complete. Read/write [`EffectRestartType`](../effectrestarttype). |
-| [Speed](speed) { get; set; } | Specifies the percentage by which to speed up (or slow down) the timing. Read/write Single. |
-| [TriggerDelayTime](triggerdelaytime) { get; set; } | Describes delay time after trigger. Read/write Single. |
-| [TriggerType](triggertype) { get; set; } | Describes trigger type. Read/write [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Describes the percentage of duration accelerate behavior effect. Read/write Single. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write Boolean. |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Describes the percentage of duration decelerate behavior effect. Read/write Single. |
+| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Describes the duration of animation effect. Read/write Single. |
+| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Describes the number of times the effect should repeat. Read/write Single. |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Describes the number of times the effect should repeat. Read/write Single. |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Specifies if a effect is to restart after complete. Read/write [`EffectRestartType`](../effectrestarttype). |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Specifies the percentage by which to speed up (or slow down) the timing. Read/write Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Describes delay time after trigger. Read/write Single. |
+| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Describes trigger type. Read/write [`EffectTriggerType`](../effecttriggertype). |
 
 ### See Also
 

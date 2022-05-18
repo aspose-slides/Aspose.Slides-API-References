@@ -18,9 +18,9 @@ public interface ILinkEmbedController
 
 | Name | Description |
 | --- | --- |
-| [GetObjectStoringLocation](getobjectstoringlocation)(int, byte[], string, string, string) | Determines where object should be stored. This method is called once for each object id. It is not guaranteed that there won't be two objects with same data, semanticName and contentType but with different id. |
-| [GetUrl](geturl)(int, int) | Returns an URL to an external object. This method always called if [`GetObjectStoringLocation`](./getobjectstoringlocation) returned Link and may be called if [`GetObjectStoringLocation`](./getobjectstoringlocation) returned Embed but embedding is impossible. Can be called multiple time for same object id. |
-| [SaveExternal](saveexternal)(int, byte[]) | Saves external object. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Determines where object should be stored. This method is called once for each object id. It is not guaranteed that there won't be two objects with same data, semanticName and contentType but with different id. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Returns an URL to an external object. This method always called if [`GetObjectStoringLocation`](./getobjectstoringlocation) returned Link and may be called if [`GetObjectStoringLocation`](./getobjectstoringlocation) returned Embed but embedding is impossible. Can be called multiple time for same object id. |
+| [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Saves external object. |
 
 ### See Also
 

@@ -18,15 +18,15 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns the column at the specified index. Read-only [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | Returns the column at the specified index. Read-only [`IColumn`](../icolumn). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddClone](addclone)(IColumn, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
-| [InsertClone](insertclone)(int, IColumn, bool) | Creates a copy of the specified template column and insert it at the specified position in a table. |
-| [RemoveAt](removeat)(int, bool) | Removes a column at the specified position from a table. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Creates a copy of the specified template column and insert it at the specified position in a table. |
+| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Removes a column at the specified position from a table. |
 
 ### See Also
 

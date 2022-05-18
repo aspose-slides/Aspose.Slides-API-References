@@ -24,31 +24,31 @@ public sealed class GeometryPath : IGeometryPath
 
 | Name | Description |
 | --- | --- |
-| [FillMode](fillmode) { get; set; } | Sets fill mode |
-| [PathData](pathdata) { get; } | Returns geometry path of GeometryShape as an array of path segments. |
-| [Stroke](stroke) { get; set; } | Sets stroke appearance |
+| [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | Sets fill mode |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Returns geometry path of GeometryShape as an array of path segments. |
+| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Sets stroke appearance |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ArcTo](arcto)(float, float, float, float) | Appends the specified arc to the path. |
-| [CloseFigure](closefigure)() | Closes the current figure of this path |
-| [CubicBezierTo](cubicbezierto)(PointF, PointF, PointF) | Adds cubic Bezier curve at the end the path |
-| [CubicBezierTo](cubicbezierto)(PointF, PointF, PointF, uint) | Adds cubic Bezier curve to the specified place of the path |
-| [CubicBezierTo](cubicbezierto)(float, float, float, float, float, float) | Adds cubic Bezier curve at the end the path |
-| [CubicBezierTo](cubicbezierto)(float, float, float, float, float, float, uint) | Adds cubic Bezier curve to the specified place of the path |
-| [LineTo](lineto)(PointF) | Adds line to the end of the path |
-| [LineTo](lineto)(float, float) | Adds line to the end of the path |
-| [LineTo](lineto)(PointF, uint) | Adds line to the specified place of the path |
-| [LineTo](lineto)(float, float, uint) | Adds line to the specified place of the path |
-| [MoveTo](moveto)(PointF) | Sets next point position. |
-| [MoveTo](moveto)(float, float) | Sets next point position. |
-| [QuadraticBezierTo](quadraticbezierto)(PointF, PointF) | Adds quadratic Bezier curve at the end the path |
-| [QuadraticBezierTo](quadraticbezierto)(PointF, PointF, uint) | Adds quadratic Bezier curve to the specified place of the path |
-| [QuadraticBezierTo](quadraticbezierto)(float, float, float, float) | Adds quadratic Bezier curve at the end the path |
-| [QuadraticBezierTo](quadraticbezierto)(float, float, float, float, uint) | Adds quadratic Bezier curve to the specified place of the path |
-| [RemoveAt](removeat)(int) | Removes segment at the specified index of the geometry path. |
+| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Appends the specified arc to the path. |
+| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Closes the current figure of this path |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto)(PointF, PointF, PointF) | Adds cubic Bezier curve at the end the path |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto)(PointF, PointF, PointF, uint) | Adds cubic Bezier curve to the specified place of the path |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto)(float, float, float, float, float, float) | Adds cubic Bezier curve at the end the path |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto)(float, float, float, float, float, float, uint) | Adds cubic Bezier curve to the specified place of the path |
+| [LineTo](../../aspose.slides/geometrypath/lineto)(PointF) | Adds line to the end of the path |
+| [LineTo](../../aspose.slides/geometrypath/lineto)(float, float) | Adds line to the end of the path |
+| [LineTo](../../aspose.slides/geometrypath/lineto)(PointF, uint) | Adds line to the specified place of the path |
+| [LineTo](../../aspose.slides/geometrypath/lineto)(float, float, uint) | Adds line to the specified place of the path |
+| [MoveTo](../../aspose.slides/geometrypath/moveto)(PointF) | Sets next point position. |
+| [MoveTo](../../aspose.slides/geometrypath/moveto)(float, float) | Sets next point position. |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto)(PointF, PointF) | Adds quadratic Bezier curve at the end the path |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto)(PointF, PointF, uint) | Adds quadratic Bezier curve to the specified place of the path |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto)(float, float, float, float) | Adds quadratic Bezier curve at the end the path |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto)(float, float, float, float, uint) | Adds quadratic Bezier curve to the specified place of the path |
+| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Removes segment at the specified index of the geometry path. |
 
 ### See Also
 

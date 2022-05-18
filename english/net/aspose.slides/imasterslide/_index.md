@@ -18,22 +18,22 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseSlide](asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](asimasterthemeable) { get; } | Returns IMasterThemeable interface. Read-only [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](bodystyle) { get; } | Returns the style of a body text. Read-only [`ITextStyle`](../itextstyle). |
-| [HasDependingSlides](hasdependingslides) { get; } | Returns true if there exists at least one slide that depends on this master slide. Read-only Boolean. |
-| [HeaderFooterManager](headerfootermanager) { get; } | Returns HeaderFooter manager of the master slide. Read-only [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](layoutslides) { get; } | Returns the collection of child layout slides for this master slide. Read-only [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](otherstyle) { get; } | Returns the style of an other text. Read-only [`ITextStyle`](../itextstyle). |
-| [Preserve](preserve) { get; set; } | Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [`RemoveUnused`](../imasterslidecollection/removeunused) Read/write Boolean. |
-| [TitleStyle](titlestyle) { get; } | Returns the style of a title text. Read-only [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Returns IMasterThemeable interface. Read-only [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Returns the style of a body text. Read-only [`ITextStyle`](../itextstyle). |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Returns true if there exists at least one slide that depends on this master slide. Read-only Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Returns HeaderFooter manager of the master slide. Read-only [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Returns the collection of child layout slides for this master slide. Read-only [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Returns the style of an other text. Read-only [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [`RemoveUnused`](../imasterslidecollection/removeunused) Read/write Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Returns the style of a title text. Read-only [`ITextStyle`](../itextstyle). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](applyexternalthemetodependingslides)(string) | Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides. |
-| [GetDependingSlides](getdependingslides)() | Returns an array with all slides, which depend on this master slide. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Returns an array with all slides, which depend on this master slide. |
 
 ### See Also
 

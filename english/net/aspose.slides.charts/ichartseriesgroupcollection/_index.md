@@ -18,7 +18,7 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the series group by series. (2 indexers) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Gets the series group by series. (2 indexers) |
 
 ### Remarks
 

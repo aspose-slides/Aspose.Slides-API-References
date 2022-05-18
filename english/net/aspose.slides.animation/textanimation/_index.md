@@ -24,14 +24,14 @@ public class TextAnimation : ITextAnimation
 
 | Name | Description |
 | --- | --- |
-| [BuildType](buildtype) { get; set; } | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write [`BuildType`](../buildtype). |
-| [EffectAnimateBackgroundShape](effectanimatebackgroundshape) { get; set; } | Linked shape effect with group or not (null). Read/write [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write [`BuildType`](../buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Linked shape effect with group or not (null). Read/write [`IEffect`](../ieffect). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddEffect](addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group! |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public interface IOverrideThemeable : IThemeable
 
 | Name | Description |
 | --- | --- |
-| [AsIThemeable](asithemeable) { get; } | Returns IThemeable interface. Read-only [`IThemeable`](../ithemeable). |
-| [ThemeManager](thememanager) { get; } | Returns override theme manager. Read-only [`IOverrideThemeManager`](../ioverridethememanager). |
+| [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Returns IThemeable interface. Read-only [`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Returns override theme manager. Read-only [`IOverrideThemeManager`](../ioverridethememanager). |
 
 ### See Also
 

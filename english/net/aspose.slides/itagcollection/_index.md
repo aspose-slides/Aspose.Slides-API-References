@@ -18,21 +18,21 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } | Returns or sets a key and a value pair of a tag. |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Returns or sets a key and a value pair of a tag. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, string) | Adds a new tag to collection. |
-| [Clear](clear)() | Removes all tags from the collection. |
-| [Contains](contains)(string) | Determines whether the collection contains a specific name. |
-| [GetNameByIndex](getnamebyindex)(int) | Returns key of a tag at the specified index. |
-| [GetNamesOfTags](getnamesoftags)() | Returns names of tags. |
-| [GetValueByIndex](getvaluebyindex)(int) | Returns value of a tag at the specified index. |
-| [IndexOfName](indexofname)(string) | Returns the zero-based index of the specified key in the collection. |
-| [Remove](remove)(string) | Removes the tag with a specified name from the collection. |
-| [RemoveAt](removeat)(int) | Removes the tag at the specified index. |
+| [Add](../../aspose.slides/itagcollection/add)(string, string) | Adds a new tag to collection. |
+| [Clear](../../aspose.slides/itagcollection/clear)() | Removes all tags from the collection. |
+| [Contains](../../aspose.slides/itagcollection/contains)(string) | Determines whether the collection contains a specific name. |
+| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Returns key of a tag at the specified index. |
+| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Returns names of tags. |
+| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Returns value of a tag at the specified index. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Returns the zero-based index of the specified key in the collection. |
+| [Remove](../../aspose.slides/itagcollection/remove)(string) | Removes the tag with a specified name from the collection. |
+| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Removes the tag at the specified index. |
 
 ### See Also
 

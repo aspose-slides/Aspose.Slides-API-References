@@ -18,7 +18,7 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns the worksheet by index. |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | Returns the worksheet by index. |
 
 ### Examples
 

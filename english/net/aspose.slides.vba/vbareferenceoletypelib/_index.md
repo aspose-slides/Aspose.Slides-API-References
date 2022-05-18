@@ -24,8 +24,8 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 | Name | Description |
 | --- | --- |
-| [Libid](libid) { get; set; } | Represents the identifier of an Automation type library. Read/write String. |
-| [Name](name) { get; set; } | Represents the name of the VBA project reference. Read/write String. |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Represents the identifier of an Automation type library. Read/write String. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Represents the name of the VBA project reference. Read/write String. |
 
 ### See Also
 

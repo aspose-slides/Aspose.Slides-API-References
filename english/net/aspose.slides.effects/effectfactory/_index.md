@@ -24,18 +24,18 @@ public class EffectFactory : IEffectFactory
 
 | Name | Description |
 | --- | --- |
-| [ImageTransformOperationFactory](imagetransformoperationfactory) { get; } | Returns ImageTransformOperationFactory. Read-only [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Returns ImageTransformOperationFactory. Read-only [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateGlow](createglow)() | Creates Glow effect. |
-| [CreateInnerShadow](createinnershadow)() | Creates Inner shafow effect. |
-| [CreateOuterShadow](createoutershadow)() | Creates Outer shadow effect. |
-| [CreatePresetShadow](createpresetshadow)() | Creates Preset shadow effect. |
-| [CreateReflection](createreflection)() | Creates Reflection effect. |
-| [CreateSoftEdge](createsoftedge)() | Creates Soft Edge effect. |
+| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Creates Glow effect. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Creates Inner shafow effect. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Creates Outer shadow effect. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Creates Preset shadow effect. |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Creates Reflection effect. |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Creates Soft Edge effect. |
 
 ### Remarks
 

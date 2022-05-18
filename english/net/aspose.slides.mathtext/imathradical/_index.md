@@ -18,10 +18,10 @@ public interface IMathRadical : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](base) { get; } | Base argument |
-| [Degree](degree) { get; } | Degree argument |
-| [HideDegree](hidedegree) { get; set; } | Hide degree When is true, the degree is not shown, as in √𝑥 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Base argument |
+| [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Degree argument |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Hide degree When is true, the degree is not shown, as in √𝑥 |
 
 ### Examples
 

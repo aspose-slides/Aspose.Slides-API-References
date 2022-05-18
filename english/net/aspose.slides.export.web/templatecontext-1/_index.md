@@ -18,16 +18,16 @@ public sealed class TemplateContext<TObject>
 
 | Name | Description |
 | --- | --- |
-| [Global](global) { get; } | Returns global storage of the host document. Read-only [`Storage`](../storage). |
-| [Local](local) { get; } | Returns local storage of the current template context. Read-only [`Storage`](../storage). |
-| [Object](object) { get; } | Returns the model object. Read-only !:TObject. |
-| [Output](output) { get; } | Returns collection of output elements of the host document. Read-only [`Output`](./output). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Returns global storage of the host document. Read-only [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Returns local storage of the current template context. Read-only [`Storage`](../storage). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Returns the model object. Read-only !:TObject. |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Returns collection of output elements of the host document. Read-only [`Output`](./output). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SubModel&lt;TSubModel&gt;](submodel)(TSubModel) |  |
+| [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) |  |
 
 ### See Also
 

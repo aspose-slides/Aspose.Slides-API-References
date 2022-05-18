@@ -24,7 +24,7 @@ public class MathBoxFactory : IMathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathBox](createmathbox)(IMathElement) | Create a math box by applying to the element |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | Create a math box by applying to the element |
 
 ### Remarks
 

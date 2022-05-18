@@ -18,15 +18,15 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
-| [IsHeaderVisible](isheadervisible) { get; } | Gets value indicating that a header placeholder is present. Read Boolean. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Gets value indicating that a header placeholder is present. Read Boolean. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetHeaderText](setheadertext)(string) | Sets text to slide header placeholder. |
-| [SetHeaderVisibility](setheadervisibility)(bool) | Changes slide header placeholder visibility. |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Sets text to slide header placeholder. |
+| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Changes slide header placeholder visibility. |
 
 ### Remarks
 

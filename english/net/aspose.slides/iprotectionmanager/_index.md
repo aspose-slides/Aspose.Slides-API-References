@@ -18,22 +18,22 @@ public interface IProtectionManager
 
 | Name | Description |
 | --- | --- |
-| [EncryptDocumentProperties](encryptdocumentproperties) { get; set; } | This property makes sense, if presentation is password protected. If true then document properties is encrypted in presentation file. If false then document properties is public while presentation is encrypted. Read/write Boolean. |
-| [EncryptionPassword](encryptionpassword) { get; } | Returns encryption password. Read-only String. |
-| [IsEncrypted](isencrypted) { get; } | Gets a value indicating whether this instance is encrypted. Read-only Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](isonlydocumentpropertiesloaded) { get; } | This property makes sense, if presentation file is password protected and document properties of this file are public. Value of true means that only document properties are loaded from an encrypted presentation file without use of password. Value of false means that entire encrypted presentation is loaded with use of right password, not only document properties are loaded. If presentation isn't encrypted then property value is always false. If document properties of an encrypted file aren't public then property value is always false. If PresentationEx.EncryptDocumentProperties is true than IsOnlyDocumentPropertiesLoaded property value is always false. Read-only Boolean. |
-| [IsWriteProtected](iswriteprotected) { get; } | Gets a value indicating whether this presentation is write protected. Read-only Boolean. |
-| [ReadOnlyRecommended](readonlyrecommended) { get; set; } | Gets or sets read-only recommendation. Read/write Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | This property makes sense, if presentation is password protected. If true then document properties is encrypted in presentation file. If false then document properties is public while presentation is encrypted. Read/write Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Returns encryption password. Read-only String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Gets a value indicating whether this instance is encrypted. Read-only Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | This property makes sense, if presentation file is password protected and document properties of this file are public. Value of true means that only document properties are loaded from an encrypted presentation file without use of password. Value of false means that entire encrypted presentation is loaded with use of right password, not only document properties are loaded. If presentation isn't encrypted then property value is always false. If document properties of an encrypted file aren't public then property value is always false. If PresentationEx.EncryptDocumentProperties is true than IsOnlyDocumentPropertiesLoaded property value is always false. Read-only Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Gets a value indicating whether this presentation is write protected. Read-only Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Gets or sets read-only recommendation. Read/write Boolean. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CheckWriteProtection](checkwriteprotection)(string) | Determines whether a presentation is a password protected to modify. |
-| [Encrypt](encrypt)(string) | Encrypts Presentation with specified password. |
-| [RemoveEncryption](removeencryption)() | Removes the encryption. |
-| [RemoveWriteProtection](removewriteprotection)() | Removes write protection for this presentation. |
-| [SetWriteProtection](setwriteprotection)(string) | Set write protection for this presentation with specified password. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Determines whether a presentation is a password protected to modify. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Encrypts Presentation with specified password. |
+| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Removes the encryption. |
+| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Removes write protection for this presentation. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Set write protection for this presentation with specified password. |
 
 ### See Also
 

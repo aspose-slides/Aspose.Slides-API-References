@@ -18,9 +18,9 @@ public interface IFontsEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [ComplexScriptFont](complexscriptfont) { get; } | Returns the complex script font. Read-only [`IFontData`](../ifontdata). |
-| [EastAsianFont](eastasianfont) { get; } | Returns the East Asian font. Read-only [`IFontData`](../ifontdata). |
-| [LatinFont](latinfont) { get; } | Returns the Latin font. Read-only [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Returns the complex script font. Read-only [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Returns the East Asian font. Read-only [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Returns the Latin font. Read-only [`IFontData`](../ifontdata). |
 
 ### Remarks
 

@@ -18,9 +18,9 @@ public interface IMarker
 
 | Name | Description |
 | --- | --- |
-| [Format](format) { get; } | Gets the marker fill. Read-only [`IFormat`](../iformat). |
-| [Size](size) { get; set; } | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write Int32. |
-| [Symbol](symbol) { get; set; } | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/imarker/format) { get; } | Gets the marker fill. Read-only [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write [`MarkerStyleType`](../markerstyletype). |
 
 ### See Also
 

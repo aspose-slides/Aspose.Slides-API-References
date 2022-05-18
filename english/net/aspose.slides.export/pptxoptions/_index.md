@@ -24,7 +24,10 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 | Name | Description |
 | --- | --- |
-| [Conformance](conformance) { get; set; } | Specifies the conformance class to which the Presentation document conforms. Default value is Ecma376_2006 |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Specifies the conformance class to which the Presentation document conforms. Default value is Ecma376_2006 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### See Also
 

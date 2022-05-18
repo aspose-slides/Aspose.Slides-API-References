@@ -18,15 +18,15 @@ public class SoftEdge : ISoftEdge
 
 | Name | Description |
 | --- | --- |
-| [Radius](radius) { get; set; } | Specifies the radius of blur to apply to the edges. Read/write Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Specifies the radius of blur to apply to the edges. Read/write Double. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified [`SoftEdge`](../softedge) is equal to the current [`SoftEdge`](../softedge). |
-| [GetEffective](geteffective)() | Gets effective Soft Edge effect data with the inheritance applied. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Determines whether the specified [`SoftEdge`](../softedge) is equal to the current [`SoftEdge`](../softedge). |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Gets effective Soft Edge effect data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Serves as a hash function for a particular type. |
 
 ### See Also
 

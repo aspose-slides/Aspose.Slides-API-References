@@ -18,12 +18,12 @@ public interface IDataTable : IFormattedTextContainer
 
 | Name | Description |
 | --- | --- |
-| [AsIFormattedTextContainer](asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](format) { get; } | Returns the line, fill, and effect styles of an object. Read-only [`IFormat`](../iformat). |
-| [HasBorderHorizontal](hasborderhorizontal) { get; set; } | True if the chart data table has horizontal cell borders. Read/write Boolean. |
-| [HasBorderOutline](hasborderoutline) { get; set; } | True if the chart data table has outline borders. Read/write Boolean. |
-| [HasBorderVertical](hasbordervertical) { get; set; } | True if the chart data table has vertical cell borders. Read/write Boolean. |
-| [ShowLegendKey](showlegendkey) { get; set; } | True if the data label legend key is visible. Read/write Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Returns the line, fill, and effect styles of an object. Read-only [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True if the chart data table has horizontal cell borders. Read/write Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True if the chart data table has outline borders. Read/write Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True if the chart data table has vertical cell borders. Read/write Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True if the data label legend key is visible. Read/write Boolean. |
 
 ### See Also
 

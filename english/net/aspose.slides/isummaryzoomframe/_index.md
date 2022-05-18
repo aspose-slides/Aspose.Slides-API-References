@@ -18,8 +18,8 @@ public interface ISummaryZoomFrame : IGraphicalObject
 
 | Name | Description |
 | --- | --- |
-| [Layout](layout) { get; } | Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout. |
-| [SummaryZoomCollection](summaryzoomcollection) { get; } | Gets [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) for the Summary Zoom Frame object. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout. |
+| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Gets [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) for the Summary Zoom Frame object. |
 
 ### See Also
 

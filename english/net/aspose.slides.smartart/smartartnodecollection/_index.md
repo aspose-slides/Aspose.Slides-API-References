@@ -18,21 +18,21 @@ public class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns count of nodes in collection Read-only Int32 Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns node by index |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Returns count of nodes in collection Read-only Int32 Read-only Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Returns node by index |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddNode](addnode)() | Add new smart art node or sub node. |
-| [AddNodeByPosition](addnodebyposition)(int) | Add new node in the selected position of nodes collection |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [RemoveNode](removenode)(int) | Remove node or sub node by index |
-| [RemoveNode](removenode)(ISmartArtNode) | Remove node or sub node |
+| [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Add new smart art node or sub node. |
+| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Add new node in the selected position of nodes collection |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode)(int) | Remove node or sub node by index |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode)(ISmartArtNode) | Remove node or sub node |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public sealed class PathSegment : IPathSegment
 
 | Name | Description |
 | --- | --- |
-| [PathCommand](pathcommand) { get; } | Path type of the segment |
-| [SegmentData](segmentdata) { get; } | Path data of the segment |
+| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | Path type of the segment |
+| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | Path data of the segment |
 
 ### See Also
 

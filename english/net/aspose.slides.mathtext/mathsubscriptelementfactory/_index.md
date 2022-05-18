@@ -24,7 +24,7 @@ public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathSubscriptElement](createmathsubscriptelement)(IMathElement, IMathElement) | Creates IMathSubscriptElement |
+| [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | Creates IMathSubscriptElement |
 
 ### Remarks
 

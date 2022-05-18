@@ -18,9 +18,9 @@ public interface IMathNaryOperatorFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathNaryOperator](createmathnaryoperator)(char, IMathElement) | Creates IMathNaryOperator |
-| [CreateMathNaryOperator](createmathnaryoperator)(char, IMathElement, IMathElement) | Creates IMathNaryOperator |
-| [CreateMathNaryOperator](createmathnaryoperator)(char, IMathElement, IMathElement, IMathElement) | Creates IMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator)(char, IMathElement) | Creates IMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator)(char, IMathElement, IMathElement) | Creates IMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator)(char, IMathElement, IMathElement, IMathElement) | Creates IMathNaryOperator |
 
 ### Remarks
 

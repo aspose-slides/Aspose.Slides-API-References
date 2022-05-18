@@ -18,10 +18,10 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 | Name | Description |
 | --- | --- |
-| [DownBarsFormat](downbarsformat) { get; } | Returns the DownBars format. Read-only [`IFormat`](../iformat). |
-| [GapWidth](gapwidth) { get; set; } | GapWidth. Read/write Int32. |
-| [HasUpDownBars](hasupdownbars) { get; set; } | HasUpDownBars. Read/write Boolean. |
-| [UpBarsFormat](upbarsformat) { get; } | Returns the UpBars format. Read-only [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Returns the DownBars format. Read-only [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. Read/write Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. Read/write Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Returns the UpBars format. Read-only [`IFormat`](../iformat). |
 
 ### See Also
 

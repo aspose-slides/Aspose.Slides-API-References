@@ -18,16 +18,16 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Return a number of adjustments. Read-only Int32. |
-| [IsSynchronized](issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](item) { get; } | Returns adjustment by index. |
-| [SyncRoot](syncroot) { get; } | Returns a synchronization root. Read-only Object. |
+| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Return a number of adjustments. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Returns adjustment by index. |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CopyTo](copyto)(Array, int) | Copies all elements from the collection to the specified array. |
+| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 
 ### See Also
 

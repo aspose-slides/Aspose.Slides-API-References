@@ -18,9 +18,9 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](asienumerable) { get; } | Allows to get base IEnumerable interface. Read-only IEnumerable. |
-| [Count](count) { get; } | Returns the number of points in the collection. Read-only Int32. |
-| [Item](item) { get; } | Returns a point at the specified index. |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Allows to get base IEnumerable interface. Read-only IEnumerable. |
+| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Returns the number of points in the collection. Read-only Int32. |
+| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Returns a point at the specified index. |
 
 ### See Also
 

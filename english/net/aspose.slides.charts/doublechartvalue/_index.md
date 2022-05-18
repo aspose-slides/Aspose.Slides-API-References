@@ -18,15 +18,16 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 | Name | Description |
 | --- | --- |
-| [AsCell](ascell) { get; set; } | Returns or sets chart data cell. Read/write [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](asliteraldouble) { get; set; } | Returns or sets value as literal double. Read/write Double. |
-| override [Data](data) { get; set; } | Returns or sets Data object. Read/write Object. |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Returns or sets chart data cell. Read/write [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Returns or sets value as literal double. Read/write Double. |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Returns or sets Data object. Read/write Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write [`DataSourceType`](../datasourcetype). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToDouble](todouble)() | Converts to Double. |
+| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Converts to Double. |
 
 ### See Also
 

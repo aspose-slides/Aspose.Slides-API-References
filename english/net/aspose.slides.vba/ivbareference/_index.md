@@ -18,7 +18,7 @@ public interface IVbaReference
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Represents the name of the VBA project reference. Read/write String. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Represents the name of the VBA project reference. Read/write String. |
 
 ### See Also
 

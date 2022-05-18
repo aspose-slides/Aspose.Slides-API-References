@@ -18,14 +18,14 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | Name | Description |
 | --- | --- |
-| [NotesSlide](notesslide) { get; } | Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide. Read-only [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide. Read-only [`INotesSlide`](../inotesslide). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddNotesSlide](addnotesslide)() | Returns the notes slide for the current slide, creating one if there isn't. |
-| [RemoveNotesSlide](removenotesslide)() | Removes notes slide of the current slide. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Returns the notes slide for the current slide, creating one if there isn't. |
+| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Removes notes slide of the current slide. |
 
 ### See Also
 

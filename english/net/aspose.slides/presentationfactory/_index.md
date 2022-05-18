@@ -24,25 +24,25 @@ public class PresentationFactory : IPresentationFactory
 
 | Name | Description |
 | --- | --- |
-| static [Instance](instance) { get; } | Presentation factory static instance. Read-only [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Presentation factory static instance. Read-only [`PresentationFactory`](../presentationfactory). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreatePresentation](createpresentation)() | Creates new presentation. |
-| [CreatePresentation](createpresentation)(ILoadOptions) | Creates new presentation with additional load options |
-| [GetPresentationInfo](getpresentationinfo)(Stream) | Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream. |
-| [GetPresentationInfo](getpresentationinfo)(string) | Creates new PresentationInfo object from file and binds presentation to it. |
-| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
-| [GetPresentationText](getpresentationtext)(string, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
-| [GetPresentationText](getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retrieves the raw text from the slides |
-| [ReadPresentation](readpresentation)(byte[]) | Reads an existing presentation from array |
-| [ReadPresentation](readpresentation)(Stream) | Reads an existing presentation from stream |
-| [ReadPresentation](readpresentation)(string) | Reads an existing presentation from file |
-| [ReadPresentation](readpresentation)(byte[], ILoadOptions) | Reads an existing presentation from array with additional load options |
-| [ReadPresentation](readpresentation)(Stream, ILoadOptions) | Reads an existing presentation from stream with additional load options |
-| [ReadPresentation](readpresentation)(string, ILoadOptions) | Reads an existing presentation from stream with additional load options |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation)() | Creates new presentation. |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation)(ILoadOptions) | Creates new presentation with additional load options |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo)(Stream) | Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo)(string) | Creates new PresentationInfo object from file and binds presentation to it. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext)(Stream, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext)(string, TextExtractionArrangingMode) | Retrieves the raw text from the slides |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext)(Stream, TextExtractionArrangingMode, ILoadOptions) | Retrieves the raw text from the slides |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation)(byte[]) | Reads an existing presentation from array |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation)(Stream) | Reads an existing presentation from stream |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation)(string) | Reads an existing presentation from file |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation)(byte[], ILoadOptions) | Reads an existing presentation from array with additional load options |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation)(Stream, ILoadOptions) | Reads an existing presentation from stream with additional load options |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation)(string, ILoadOptions) | Reads an existing presentation from stream with additional load options |
 
 ### See Also
 

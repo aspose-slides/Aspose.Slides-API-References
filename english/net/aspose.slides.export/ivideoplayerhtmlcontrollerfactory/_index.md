@@ -18,7 +18,7 @@ public interface IVideoPlayerHtmlControllerFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](createvideoplayerhtmlcontroller)(string, string, string) | Create video player HTML controller. |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Create video player HTML controller. |
 
 ### Remarks
 

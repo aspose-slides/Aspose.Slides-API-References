@@ -18,18 +18,18 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | Name | Description |
 | --- | --- |
-| [AsILayoutSlideCollection](asilayoutslidecollection) { get; } | Returns ILayoutSlideCollection interface. Read-only [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Returns ILayoutSlideCollection interface. Read-only [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(SlideLayoutType, string) | Adds a new layout slide to the end of the collection. |
-| [AddClone](addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the end of the collection. |
-| [Insert](insert)(int, SlideLayoutType, string) | Inserts a new layout slide to specified position of the collection. |
-| [InsertClone](insertclone)(int, ILayoutSlide) | Inserts a copy of a specified layout slide to specified position of the collection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index of the collection. |
-| [Reorder](reorder)(int, ILayoutSlide) | Moves layout slide from the collection to the specified position. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Adds a new layout slide to the end of the collection. |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the end of the collection. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Inserts a new layout slide to specified position of the collection. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Inserts a copy of a specified layout slide to specified position of the collection. |
+| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Removes the element at the specified index of the collection. |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Moves layout slide from the collection to the specified position. |
 
 ### See Also
 

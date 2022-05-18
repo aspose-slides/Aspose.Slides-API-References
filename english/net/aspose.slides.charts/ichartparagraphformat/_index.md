@@ -18,20 +18,20 @@ public interface IChartParagraphFormat
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Returns or sets the text alignment in a paragraph. Read/write [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](defaulttabsize) { get; set; } | Returns or sets default tabulation size. Read/write Single. |
-| [EastAsianLineBreak](eastasianlinebreak) { get; set; } | Determines whether the East Asian line break is used in a paragraph. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](fontalignment) { get; set; } | Returns or sets a font alignment in a paragraph. Read/write [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](hangingpunctuation) { get; set; } | Determines whether the hanging punctuation is used in a paragraph. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](indent) { get; set; } | Returns or sets paragraph First Line Indent/Hanging Indent. Hanging Indent can be defined with negative values. Read/write Single. |
-| [LatinLineBreak](latinlinebreak) { get; set; } | Determines whether the Latin line break is used in a paragraph. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](marginleft) { get; set; } | Returns or sets the left margin in a paragraph. Read/write Single. |
-| [MarginRight](marginright) { get; set; } | Returns or sets the right margin in a paragraph. Read/write Single. |
-| [RightToLeft](righttoleft) { get; set; } | Determines whether the Right to Left writing is used in a paragraph. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](spaceafter) { get; set; } | Returns or sets the amount of space after the last line in a paragraph. Read/write Single. |
-| [SpaceBefore](spacebefore) { get; set; } | Returns or sets the amount of space before the first line in a paragraph. Read/write Single. |
-| [SpaceWithin](spacewithin) { get; set; } | Returns or sets the amount of space between base lines in a paragraph. Read/write Single. |
-| [Tabs](tabs) { get; } | Returns tabulations of a paragraph. Read-only [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Returns or sets the text alignment in a paragraph. Read/write [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Returns or sets default tabulation size. Read/write Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Determines whether the East Asian line break is used in a paragraph. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Returns or sets a font alignment in a paragraph. Read/write [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Determines whether the hanging punctuation is used in a paragraph. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Returns or sets paragraph First Line Indent/Hanging Indent. Hanging Indent can be defined with negative values. Read/write Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Determines whether the Latin line break is used in a paragraph. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Returns or sets the left margin in a paragraph. Read/write Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Returns or sets the right margin in a paragraph. Read/write Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Determines whether the Right to Left writing is used in a paragraph. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Returns or sets the amount of space after the last line in a paragraph. Read/write Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Returns or sets the amount of space before the first line in a paragraph. Read/write Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Returns or sets the amount of space between base lines in a paragraph. Read/write Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Returns tabulations of a paragraph. Read-only [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### See Also
 

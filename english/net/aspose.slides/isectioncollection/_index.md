@@ -18,20 +18,20 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Gets the element at the specified index. Read-only [`ISection`](../isection). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddEmptySection](addemptysection)(string, int) | Add empty section to specified position of the collection. |
-| [AddSection](addsection)(string, ISlide) | Add new section started form specific slide. |
-| [AppendEmptySection](appendemptysection)(string) | Add empty section to the end of the collection. |
-| [Clear](clear)() | Removes all sections from the collection. |
-| [IndexOf](indexof)(ISection) | Returns an index of the specified section in the collection. |
-| [RemoveSection](removesection)(ISection) | Remove section. Slides contained in the section will be merged into previous section. |
-| [RemoveSectionWithSlides](removesectionwithslides)(ISection) | Remove section and slides contained in the section. |
-| [ReorderSectionWithSlides](reordersectionwithslides)(ISection, int) | Moves section and its slides from the collection to the specified position. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Add empty section to specified position of the collection. |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Add new section started form specific slide. |
+| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Add empty section to the end of the collection. |
+| [Clear](../../aspose.slides/isectioncollection/clear)() | Removes all sections from the collection. |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Returns an index of the specified section in the collection. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Remove section. Slides contained in the section will be merged into previous section. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Remove section and slides contained in the section. |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Moves section and its slides from the collection to the specified position. |
 
 ### See Also
 

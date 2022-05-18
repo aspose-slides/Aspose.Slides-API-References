@@ -18,7 +18,7 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](asibasehandoutnotesslideheaderfootermanag) { get; } | Returns IBaseHandoutNotesSlideHeaderFooterManag interface. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Returns IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
 ### See Also
 

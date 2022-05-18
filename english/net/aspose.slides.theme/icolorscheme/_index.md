@@ -18,20 +18,20 @@ public interface IColorScheme : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [Accent1](accent1) { get; } | First accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](accent2) { get; } | Second accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](accent3) { get; } | Third accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](accent4) { get; } | Fourth accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](accent5) { get; } | Fifth accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](accent6) { get; } | Sixth accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AsISlideComponent](asislidecomponent) { get; } | Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Dark1](dark1) { get; } | First dark color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](dark2) { get; } | Second dark color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](followedhyperlink) { get; } | Color for the visited hyperlinks. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](hyperlink) { get; } | Color for the hyperlinks. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](item) { get; } | Gets the element at the specified index. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](light1) { get; } | First light color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](light2) { get; } | Second light color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | First accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Second accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Third accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Fourth accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Fifth accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Sixth accent color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | First dark color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Second dark color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | Color for the visited hyperlinks. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | Color for the hyperlinks. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Gets the element at the specified index. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | First light color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Second light color in the scheme. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### See Also
 

@@ -18,9 +18,9 @@ public interface IMathSubscriptElement : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](base) { get; } | Base argument |
-| [Subscript](subscript) { get; } | Subscript |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Base argument |
+| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Subscript |
 
 ### Examples
 

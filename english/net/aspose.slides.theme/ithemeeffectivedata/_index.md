@@ -18,14 +18,14 @@ public interface IThemeEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [FontScheme](fontscheme) { get; } | Returns the font scheme. Read-only [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Returns the font scheme. Read-only [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Returns the shape format scheme. Read-only [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetColorScheme](getcolorscheme)(Color) | Returns the color scheme. |
+| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Returns the color scheme. |
 
 ### Remarks
 

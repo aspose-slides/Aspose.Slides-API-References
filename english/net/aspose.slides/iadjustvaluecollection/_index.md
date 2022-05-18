@@ -18,9 +18,9 @@ public interface IAdjustValueCollection : ICollection
 
 | Name | Description |
 | --- | --- |
-| [AsICollection](asicollection) { get; } | Allows to get base ICollection interface. Read-only ICollection. |
-| [AsIEnumerable](asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
-| [Item](item) { get; } | Returns adjustment by index. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Allows to get base ICollection interface. Read-only ICollection. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Returns adjustment by index. |
 
 ### See Also
 

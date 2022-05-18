@@ -18,8 +18,8 @@ public interface IPathSegment
 
 | Name | Description |
 | --- | --- |
-| [PathCommand](pathcommand) { get; } | Path type of the segment |
-| [SegmentData](segmentdata) { get; } | Path data of the segment |
+| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Path type of the segment |
+| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Path data of the segment |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public interface IVbaModule
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; } | Name of the module. Read-only String. |
-| [SourceCode](sourcecode) { get; set; } | Source code of the module. Read/write String. |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Name of the module. Read-only String. |
+| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Source code of the module. Read/write String. |
 
 ### See Also
 

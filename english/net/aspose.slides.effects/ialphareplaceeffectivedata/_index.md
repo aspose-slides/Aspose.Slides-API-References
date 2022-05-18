@@ -18,8 +18,8 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [Alpha](alpha) { get; } | Returns new alpha value in the interval [0..1] Read-only Single. |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Returns new alpha value in the interval [0..1] Read-only Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### See Also
 

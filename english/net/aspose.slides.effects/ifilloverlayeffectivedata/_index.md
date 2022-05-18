@@ -18,9 +18,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Blend](blend) { get; } | FillBlendMode. Read-only [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](fillformat) { get; } | Fill format. Read-only [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Read-only [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill format. Read-only [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### See Also
 

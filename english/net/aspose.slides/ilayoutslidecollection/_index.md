@@ -18,15 +18,15 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns the layout slide by index. Read-only [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Returns the layout slide by index. Read-only [`ILayoutSlide`](../ilayoutslide). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetByType](getbytype)(SlideLayoutType) | Returns the first layout slide of specified type. |
-| [Remove](remove)(ILayoutSlide) | Removes a layout from the collection. |
-| [RemoveUnused](removeunused)() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Returns the first layout slide of specified type. |
+| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Removes a layout from the collection. |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 
 ### See Also
 

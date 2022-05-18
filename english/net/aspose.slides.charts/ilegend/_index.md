@@ -18,12 +18,12 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 
 | Name | Description |
 | --- | --- |
-| [AsIFormattedTextContainer](asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](asilayoutable) { get; } | Allows to get base ILayoutable interface. Read-only [`ILayoutable`](../ilayoutable). |
-| [Entries](entries) { get; } | Gets legend entries. Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](format) { get; } | Returns the format of a legend. Read-only [`IFormat`](../iformat). |
-| [Overlay](overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Read/write Boolean. |
-| [Position](position) { get; set; } | Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write [`LegendPositionType`](../legendpositiontype). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Allows to get base ILayoutable interface. Read-only [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Gets legend entries. Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Returns the format of a legend. Read-only [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Read/write Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write [`LegendPositionType`](../legendpositiontype). |
 
 ### See Also
 

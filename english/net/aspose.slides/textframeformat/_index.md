@@ -24,27 +24,30 @@ public class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameForma
 
 | Name | Description |
 | --- | --- |
-| [AnchoringType](anchoringtype) { get; set; } | Returns or sets vertical anchor text in a TextFrameEx. Read/write [`TextAnchorType`](../textanchortype). |
-| [AutofitType](autofittype) { get; set; } | Returns or sets text's autofit mode. Read/write [`TextAutofitType`](../textautofittype). |
-| [CenterText](centertext) { get; set; } | If NullableBool.True then text should be centered in box horizontally. Read/write [`NullableBool`](../nullablebool). |
-| [ColumnCount](columncount) { get; set; } | Returns or sets number of columns in the text area. This value must be a positive number. Otherwise, the value will be set to zero. Value 0 means undefined value. Read/write Int32. |
-| [ColumnSpacing](columnspacing) { get; set; } | Returns or sets the space between text columns in the text area (in points). This should only apply when there is more than 1 column present. This value must be a positive number. Otherwise, the value will be set to zero. Read/write Double. |
-| [KeepTextFlat](keeptextflat) { get; set; } | Gets or sets keeping text flat even if a 3-D Rotation effect was applied. Read/write Boolean. |
-| [MarginBottom](marginbottom) { get; set; } | Returns or sets the bottom margin (points) in a TextFrame. Read/write Double. |
-| [MarginLeft](marginleft) { get; set; } | Returns or sets the left margin (points) in a TextFrame. Read/write Double. |
-| [MarginRight](marginright) { get; set; } | Returns or sets the right margin (points) in a TextFrame. Read/write Double. |
-| [MarginTop](margintop) { get; set; } | Returns or sets the top margin (points) in a TextFrame. Read/write Double. |
-| [RotationAngle](rotationangle) { get; set; } | Specifies custom the rotation that is being applied to the text within the bounding box. If it not specified, the rotation of the accompanying shape is used. If it is specified, then this is applied independently from the shape. That is the shape can have a rotation applied in addition to the text itself having a rotation applied to it. The resulted value of visual text rotation summarized from this property and predefined vertical type in property TextVerticalType. Read/write Single. |
-| [TextVerticalType](textverticaltype) { get; set; } | Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read/write [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](threedformat) { get; } | Returns the ThreeDFormat object that represents 3d effect properties for a text. Read-only [`IThreeDFormat`](../ithreedformat). |
-| [Transform](transform) { get; set; } | Gets or sets text wrapping shape. Read/write [`TextShapeType`](../textshapetype). |
-| [WrapText](wraptext) { get; set; } | **True** if text is wrapped at TextFrame's margins. Read/write [`NullableBool`](../nullablebool). |
+| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | Returns or sets vertical anchor text in a TextFrameEx. Read/write [`TextAnchorType`](../textanchortype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | Returns or sets text's autofit mode. Read/write [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | If NullableBool.True then text should be centered in box horizontally. Read/write [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | Returns or sets number of columns in the text area. This value must be a positive number. Otherwise, the value will be set to zero. Value 0 means undefined value. Read/write Int32. |
+| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | Returns or sets the space between text columns in the text area (in points). This should only apply when there is more than 1 column present. This value must be a positive number. Otherwise, the value will be set to zero. Read/write Double. |
+| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | Gets or sets keeping text flat even if a 3-D Rotation effect was applied. Read/write Boolean. |
+| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | Returns or sets the bottom margin (points) in a TextFrame. Read/write Double. |
+| [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | Returns or sets the left margin (points) in a TextFrame. Read/write Double. |
+| [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | Returns or sets the right margin (points) in a TextFrame. Read/write Double. |
+| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | Returns or sets the top margin (points) in a TextFrame. Read/write Double. |
+| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | Specifies custom the rotation that is being applied to the text within the bounding box. If it not specified, the rotation of the accompanying shape is used. If it is specified, then this is applied independently from the shape. That is the shape can have a rotation applied in addition to the text itself having a rotation applied to it. The resulted value of visual text rotation summarized from this property and predefined vertical type in property TextVerticalType. Read/write Single. |
+| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read/write [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | Returns the ThreeDFormat object that represents 3d effect properties for a text. Read-only [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | Gets or sets text wrapping shape. Read/write [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **True** if text is wrapped at TextFrame's margins. Read/write [`NullableBool`](../nullablebool). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEffective](geteffective)() | Gets effective text frame formatting data with the inheritance applied. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | Gets effective text frame formatting data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
 

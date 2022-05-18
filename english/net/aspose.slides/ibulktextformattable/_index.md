@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Name | Description |
 | --- | --- |
-| [SetTextFormat](settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all element's paragraphs. |
-| [SetTextFormat](settextformat)(IPortionFormat) | Sets defined portion format properties to all element's portions. |
-| [SetTextFormat](settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all element's text frames. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all element's paragraphs. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat)(IPortionFormat) | Sets defined portion format properties to all element's portions. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all element's text frames. |
 
 ### See Also
 

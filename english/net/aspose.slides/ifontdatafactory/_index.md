@@ -18,7 +18,7 @@ public interface IFontDataFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateFontData](createfontdata)(string) | Creates FontData with specified font name. |
+| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | Creates FontData with specified font name. |
 
 ### See Also
 

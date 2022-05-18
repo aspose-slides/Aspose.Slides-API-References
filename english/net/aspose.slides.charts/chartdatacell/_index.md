@@ -18,21 +18,21 @@ public class ChartDataCell : IChartDataCell
 
 | Name | Description |
 | --- | --- |
-| [ChartDataWorksheet](chartdataworksheet) { get; } | Gets the worksheet. Read-only [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](column) { get; } | Returns the index of the column of worksheet in which the cell is located. Read-only Int32. |
-| [CustomNumberFormat](customnumberformat) { get; set; } | Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String. |
-| [Formula](formula) { get; set; } | Gets or sets the formula in A1-style. |
-| [IsHidden](ishidden) { get; } | Determines whether the cell is hidden. Read-only Boolean. |
-| [PresetNumberFormat](presetnumberformat) { get; set; } | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]". Read/write Byte. |
-| [R1C1Formula](r1c1formula) { get; set; } | Gets or sets the formula in R1C1-style. |
-| [Row](row) { get; } | Returns the index of the row of worksheet in which the cell is located. Read-only Int32. |
-| [Value](value) { get; set; } | Gets or sets the value. Read/write Object. |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | Gets the worksheet. Read-only [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | Returns the index of the column of worksheet in which the cell is located. Read-only Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String. |
+| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | Gets or sets the formula in A1-style. |
+| [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | Determines whether the cell is hidden. Read-only Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]". Read/write Byte. |
+| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Gets or sets the formula in R1C1-style. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Returns the index of the row of worksheet in which the cell is located. Read-only Int32. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Gets or sets the value. Read/write Object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Calculate](calculate)(bool) | If the cell contains a formula, the value will be updated base on that formula. |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | If the cell contains a formula, the value will be updated base on that formula. |
 
 ### See Also
 

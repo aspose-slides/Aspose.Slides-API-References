@@ -18,12 +18,12 @@ public class FormatScheme : IFormatScheme
 
 | Name | Description |
 | --- | --- |
-| [BackgroundFillStyles](backgroundfillstyles) { get; } | Returns a collection of theme defined background fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](effectstyles) { get; } | Returns a collection of theme defined effect styles. Read-only [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](fillstyles) { get; } | Returns a collection of theme defined fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](linestyles) { get; } | Returns a collection of theme defined line styles. Read-only [`ILineFormatCollection`](../ilineformatcollection). |
-| [Presentation](presentation) { get; } | Returns the parent presentation. Read-only [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](slide) { get; } | Returns the parent slide. Read-only [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Returns a collection of theme defined background fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Returns a collection of theme defined effect styles. Read-only [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Returns a collection of theme defined fill styles. Read-only [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Returns a collection of theme defined line styles. Read-only [`ILineFormatCollection`](../ilineformatcollection). |
+| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Returns the parent presentation. Read-only [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Returns the parent slide. Read-only [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### See Also
 

@@ -18,10 +18,10 @@ public interface IFormatSchemeEffectiveData
 
 | Name | Description |
 | --- | --- |
-| [GetBackgroundFillStyles](getbackgroundfillstyles)(Color) | Returns a collection of theme defined background fill styles. |
-| [GetEffectStyles](geteffectstyles)(Color) | Returns a collection of theme defined effect styles. |
-| [GetFillStyles](getfillstyles)(Color) | Returns a collection of theme defined fill styles. |
-| [GetLineStyles](getlinestyles)(Color) | Returns a collection of theme defined line styles. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Returns a collection of theme defined background fill styles. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Returns a collection of theme defined effect styles. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Returns a collection of theme defined fill styles. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Returns a collection of theme defined line styles. |
 
 ### Remarks
 

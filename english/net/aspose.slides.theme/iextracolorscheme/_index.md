@@ -18,8 +18,8 @@ public interface IExtraColorScheme
 
 | Name | Description |
 | --- | --- |
-| [ColorScheme](colorscheme) { get; } | Returns a color scheme. Read-only [`IColorScheme`](../icolorscheme). |
-| [Name](name) { get; } | Returns a name of this scheme. Read-only String. |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Returns a color scheme. Read-only [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Returns a name of this scheme. Read-only String. |
 
 ### See Also
 

@@ -24,26 +24,26 @@ public class ShapeFrame : IShapeFrame
 
 | Name | Description |
 | --- | --- |
-| [CenterX](centerx) { get; } | Returns the X coordinate of a frame's center. Read-only Single. |
-| [CenterY](centery) { get; } | Returns the Y coordinate of a frame's center. Read-only Single. |
-| [FlipH](fliph) { get; } | Determines whether a frame is flipped horizontally. Read-only [`NullableBool`](../nullablebool). |
-| [FlipV](flipv) { get; } | Determines whether a frame is flipped vertically. Read-only [`NullableBool`](../nullablebool). |
-| [Height](height) { get; } | Returns the height of a frame. Read-only Single. |
-| [Rectangle](rectangle) { get; } | Returns the coordinates of a frame. Read-only RectangleF. |
-| [Rotation](rotation) { get; } | Returns the number of degrees a frame is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read-only Single. |
-| [Width](width) { get; } | Returns the width of a frame. Read-only Single. |
-| [X](x) { get; } | Returns the X coordinate of the upper-left corner of a frame. Read-only Single. |
-| [Y](y) { get; } | Returns the Y coordinate of the upper-left corner of a frame. Read-only Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Returns the X coordinate of a frame's center. Read-only Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Returns the Y coordinate of a frame's center. Read-only Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Determines whether a frame is flipped horizontally. Read-only [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Determines whether a frame is flipped vertically. Read-only [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Returns the height of a frame. Read-only Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Returns the coordinates of a frame. Read-only RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Returns the number of degrees a frame is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read-only Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Returns the width of a frame. Read-only Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Returns the X coordinate of the upper-left corner of a frame. Read-only Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Returns the Y coordinate of the upper-left corner of a frame. Read-only Single. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](clone)() | Clones |
-| [CloneT](clonet)() | Clones. |
-| override [Equals](equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](equals)(ShapeFrame) | Returns a value indicating whether this instance is equal to a specified object. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this object. |
+| [Clone](../../aspose.slides/shapeframe/clone)() | Clones |
+| [CloneT](../../aspose.slides/shapeframe/clonet)() | Clones. |
+| override [Equals](../../aspose.slides/shapeframe/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.slides/shapeframe/equals)(ShapeFrame) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Returns a hash code for this object. |
 
 ### See Also
 

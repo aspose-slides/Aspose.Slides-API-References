@@ -18,13 +18,13 @@ public interface IMathArray : IMathElement
 
 | Name | Description |
 | --- | --- |
-| [Arguments](arguments) { get; } | The set of items of the array |
-| [AsIMathElement](asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
-| [BaseJustification](basejustification) { get; set; } | Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
-| [MaximumDistribution](maximumdistribution) { get; set; } | Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
-| [ObjectDistribution](objectdistribution) { get; set; } | Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
-| [RowSpacing](rowspacing) { get; set; } | Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
-| [RowSpacingRule](rowspacingrule) { get; set; } | The type of vertical spacing between array elements |
+| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | The set of items of the array |
+| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Allows to get base IMathElement interface [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
+| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | The type of vertical spacing between array elements |
 
 ### Examples
 

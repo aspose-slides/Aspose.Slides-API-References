@@ -18,16 +18,16 @@ public interface IChartTextFormat
 
 | Name | Description |
 | --- | --- |
-| [ParagraphFormat](paragraphformat) { get; } | Returns paragraph format. Read-only [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](portionformat) { get; } | Returns portion format. Read-only [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](textblockformat) { get; } | Returns format for the chart text elements. Read-only [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Returns paragraph format. Read-only [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Returns portion format. Read-only [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Returns format for the chart text elements. Read-only [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CopyFrom](copyfrom)(ITextFrame) | Copies text format from specified text frame. |
-| [CopyTo](copyto)(ITextFrame) | Copies text format to specified text frame. |
+| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Copies text format from specified text frame. |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Copies text format to specified text frame. |
 
 ### See Also
 

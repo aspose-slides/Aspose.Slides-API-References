@@ -18,8 +18,8 @@ public interface IChartDataWorksheet
 
 | Name | Description |
 | --- | --- |
-| [Index](index) { get; } | Gets the index. Read-only Int32. |
-| [Name](name) { get; } | Gets the name. Read-only String. |
+| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | Gets the index. Read-only Int32. |
+| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | Gets the name. Read-only String. |
 
 ### See Also
 

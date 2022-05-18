@@ -27,7 +27,7 @@ public class CellCircularReferenceException : PptxEditException
 
 | Name | Description |
 | --- | --- |
-| [Reference](reference) { get; } | Gets a circular cell reference. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Gets a circular cell reference. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public interface IChartDataPointLevel
 
 | Name | Description |
 | --- | --- |
-| [Format](format) { get; } | Represents formatting properties of data point level. Read/write [`IFormat`](../iformat). |
-| [Label](label) { get; } | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Represents formatting properties of data point level. Read/write [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only [`IDataLabel`](../idatalabel). |
 
 ### See Also
 

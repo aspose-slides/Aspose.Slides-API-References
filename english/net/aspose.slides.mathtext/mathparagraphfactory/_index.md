@@ -24,8 +24,8 @@ public class MathParagraphFactory : IMathParagraphFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathParagraph](createmathparagraph)() | Create empty math paragraph |
-| [CreateMathParagraph](createmathparagraph)(IMathBlock) | Creates a math paragraph and places the specified math block in it |
+| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph)() | Create empty math paragraph |
+| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph)(IMathBlock) | Creates a math paragraph and places the specified math block in it |
 
 ### Remarks
 

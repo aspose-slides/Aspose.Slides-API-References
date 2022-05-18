@@ -24,9 +24,9 @@ public class MathBlockFactory : IMathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathBlock](createmathblock)() | Create a math block |
-| [CreateMathBlock](createmathblock)(IMathElement) | Create a math block and place the element in it |
-| [CreateMathBlock](createmathblock)(IMathElementCollection) | Create a math block and place elements in it |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock)() | Create a math block |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock)(IMathElement) | Create a math block and place the element in it |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock)(IMathElementCollection) | Create a math block and place elements in it |
 
 ### Remarks
 

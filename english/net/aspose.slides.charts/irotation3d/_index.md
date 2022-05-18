@@ -18,12 +18,12 @@ public interface IRotation3D
 
 | Name | Description |
 | --- | --- |
-| [DepthPercents](depthpercents) { get; set; } | Returns or sets the depth of a 3D chart as a percentage of a chart width (between 20 and 2000 percent). Read/write UInt16. |
-| [HeightPercents](heightpercents) { get; set; } | Specifies the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). Read/write UInt16. |
-| [Perspective](perspective) { get; set; } | Returns or sets the perspective value (field of view angle) for 3D charts (between 0 and 100). Ignored if RightAngleAxes property value is true. Read/write Byte. |
-| [RightAngleAxes](rightangleaxes) { get; set; } | Determines whether the chart axes are at right angles, rather than drawn in perspective. In other words it determines whether the chart angles of axes are independent from chart rotation or elevation. Read/write Boolean. |
-| [RotationX](rotationx) { get; set; } | Returns or sets the rotation degree around the X-axis, i.e. in the Y direction for 3D charts (between -90 and 90 degrees). The property matches with the 21.2.2.157 rotX (X Rotation) item in ECMA-376 and with the "Y Rotation" option in PowerPoint 2007+. Read/write SByte. |
-| [RotationY](rotationy) { get; set; } | Returns or sets the rotation degree around the Y-axis, i.e. in the X direction for 3D charts (between 0 and 360 degrees). The property matches with the 21.2.2.158 rotY (Y Rotation) item in ECMA-376 and with the "X Rotation" option in PowerPoint 2007+. Read/write UInt16. |
+| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | Returns or sets the depth of a 3D chart as a percentage of a chart width (between 20 and 2000 percent). Read/write UInt16. |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | Specifies the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). Read/write UInt16. |
+| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | Returns or sets the perspective value (field of view angle) for 3D charts (between 0 and 100). Ignored if RightAngleAxes property value is true. Read/write Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | Determines whether the chart axes are at right angles, rather than drawn in perspective. In other words it determines whether the chart angles of axes are independent from chart rotation or elevation. Read/write Boolean. |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | Returns or sets the rotation degree around the X-axis, i.e. in the Y direction for 3D charts (between -90 and 90 degrees). The property matches with the 21.2.2.157 rotX (X Rotation) item in ECMA-376 and with the "Y Rotation" option in PowerPoint 2007+. Read/write SByte. |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Returns or sets the rotation degree around the Y-axis, i.e. in the X direction for 3D charts (between 0 and 360 degrees). The property matches with the 21.2.2.158 rotY (Y Rotation) item in ECMA-376 and with the "X Rotation" option in PowerPoint 2007+. Read/write UInt16. |
 
 ### See Also
 

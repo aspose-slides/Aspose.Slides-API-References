@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Name | Description |
 | --- | --- |
-| [AutoAdjust](autoadjust) { get; set; } | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write Boolean. |
-| [DimensionSize](dimensionsize) { get; set; } | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write Single. |
 
 ### See Also
 

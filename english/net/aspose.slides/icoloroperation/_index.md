@@ -18,8 +18,8 @@ public interface IColorOperation
 
 | Name | Description |
 | --- | --- |
-| [OperationType](operationtype) { get; } | Returns or sets the type of an operation. Read-only [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](parameter) { get; } | Returns a parameter of an operation. Read-only Single. |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Returns or sets the type of an operation. Read-only [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Returns a parameter of an operation. Read-only Single. |
 
 ### See Also
 

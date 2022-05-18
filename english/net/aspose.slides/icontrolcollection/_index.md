@@ -18,16 +18,16 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns a control at the specified position. |
+| [Item](../../aspose.slides/icontrolcollection/item) { get; } | Returns a control at the specified position. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddControl](addcontrol)(ControlType, float, float, float, float) | Creates and adds a new control to the collection. |
-| [Clear](clear)() | Removes all controls from the collection. |
-| [Remove](remove)(IControl) | Removes an ActiveX control from the collection. |
-| [RemoveAt](removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Creates and adds a new control to the collection. |
+| [Clear](../../aspose.slides/icontrolcollection/clear)() | Removes all controls from the collection. |
+| [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Removes an ActiveX control from the collection. |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
 
 ### See Also
 

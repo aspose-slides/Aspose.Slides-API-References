@@ -25,15 +25,15 @@ public class ColorOperation : IColorOperation
 
 | Name | Description |
 | --- | --- |
-| [OperationType](operationtype) { get; } | Returns or sets the type of an operation. Read-only [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](parameter) { get; } | Returns a parameter of an operation. Read-only Single. |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Returns or sets the type of an operation. Read-only [`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Returns a parameter of an operation. Read-only Single. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the two ColorOperation instances are equal. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| override [Equals](../../aspose.slides/coloroperation/equals)(object) | Determines whether the two ColorOperation instances are equal. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### See Also
 

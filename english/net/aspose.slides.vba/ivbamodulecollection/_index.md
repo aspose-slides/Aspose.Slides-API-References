@@ -18,14 +18,14 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the element at the specified index. |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Gets the element at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddEmptyModule](addemptymodule)(string) | Adds a new empty module to the VBA Project. |
-| [Remove](remove)(IVbaModule) | Removes the first occurrence of a specific object from the collection. |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Adds a new empty module to the VBA Project. |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Removes the first occurrence of a specific object from the collection. |
 
 ### See Also
 
