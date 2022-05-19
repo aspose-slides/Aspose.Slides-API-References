@@ -16,7 +16,7 @@ Contains classes for work with animation in Microsoft PowerPoint presentations.
 | [Behavior](./behavior) | Represent base class behavior of effect. |
 | [BehaviorCollection](./behaviorcollection) | Represents collection of behavior effects. |
 | [BehaviorFactory](./behaviorfactory) | Allows to create animation effects |
-| [BehaviorProperty](./behaviorproperty) | Represent property types for animation behavior. Follows the list of properties from https://msdn.microsoft.com/en-us/library/dd949052(../v=office.15).aspx and https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(../v=office.15).aspx |
+| [BehaviorProperty](./behaviorproperty) | Represent property types for animation behavior. Follows the list of properties from https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx and https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
 | [BehaviorPropertyCollection](./behaviorpropertycollection) | Represents timing properties for the effect behavior. |
 | [ColorEffect](./coloreffect) | Represents a color effect for an animation behavior. |
 | [ColorOffset](./coloroffset) | Represent color offset. |
@@ -31,7 +31,7 @@ Contains classes for work with animation in Microsoft PowerPoint presentations.
 | [PropertyEffect](./propertyeffect) | Represent property effect behavior. |
 | [RotationEffect](./rotationeffect) | Represent rotation behavior of effect. |
 | [ScaleEffect](./scaleeffect) | Represents animation scale effect. |
-| [Sequence](./sequence) | Represents sequence (../collection of effects). |
+| [Sequence](./sequence) | Represents sequence (collection of effects). |
 | [SequenceCollection](./sequencecollection) | Represents collection of interactive sequences. |
 | [SetEffect](./seteffect) | Represents a set effect for an animation behavior. |
 | [TextAnimation](./textanimation) | Represent text animation. |
@@ -44,7 +44,7 @@ Contains classes for work with animation in Microsoft PowerPoint presentations.
 | [IBehavior](./ibehavior) | Represent base class behavior of effect. |
 | [IBehaviorCollection](./ibehaviorcollection) | Represents collection of behavior effects. |
 | [IBehaviorFactory](./ibehaviorfactory) | Allows to create animation effects |
-| [IBehaviorProperty](./ibehaviorproperty) | Represent property types for animation behavior. Follows the list of properties from https://msdn.microsoft.com/en-us/library/dd949052(../v=office.15).aspx and https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(../v=office.15).aspx |
+| [IBehaviorProperty](./ibehaviorproperty) | Represent property types for animation behavior. Follows the list of properties from https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx and https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
 | [IBehaviorPropertyCollection](./ibehaviorpropertycollection) | Represents timing properties for the effect behavior. |
 | [IColorEffect](./icoloreffect) | Represents a color effect for an animation behavior. |
 | [IColorOffset](./icoloroffset) | Represent color offset. |
@@ -59,7 +59,7 @@ Contains classes for work with animation in Microsoft PowerPoint presentations.
 | [IPropertyEffect](./ipropertyeffect) | Represent property effect behavior. |
 | [IRotationEffect](./irotationeffect) | Represent rotation behavior of effect. |
 | [IScaleEffect](./iscaleeffect) | Represents animation scale effect. |
-| [ISequence](./isequence) | Represents sequence (../collection of effects). |
+| [ISequence](./isequence) | Represents sequence (collection of effects). |
 | [ISequenceCollection](./isequencecollection) | Represents collection of interactive sequences. |
 | [ISetEffect](./iseteffect) | Represents a set effect for an animation behavior. |
 | [ITextAnimation](./itextanimation) | Represent text animation. |

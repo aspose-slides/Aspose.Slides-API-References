@@ -23,7 +23,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [NotesCommentsLayoutingOptions](./notescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |
 | [PdfOptions](./pdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
 | [PptOptions](./pptoptions) | Provides options that control how a presentation is saved in PPT format. |
-| [PptxOptions](./pptxoptions) | Represents options for saving OpenXml presentations (../PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
+| [PptxOptions](./pptxoptions) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
 | [RenderingOptions](./renderingoptions) | Provides options that control how a presentation/slide is rendered. |
 | [ResponsiveHtmlController](./responsivehtmlcontroller) | Responsive HTML Controller |
 | [SaveOptions](./saveoptions) | Abstract class with options that control how a presentation is saved. |
@@ -31,7 +31,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [SlideImageFormat](./slideimageformat) | Determines format in which slide image will be saved for presentation to HTML export. |
 | [SVGOptions](./svgoptions) | Represents an SVG options. |
 | [SvgShape](./svgshape) | Represents options for SVG shape. |
-| [SvgTSpan](./svgtspan) | Represents options for SVG text portion (../"tspan"). |
+| [SvgTSpan](./svgtspan) | Represents options for SVG text portion ("tspan"). |
 | [SwfOptions](./swfoptions) | Provides options that control how a presentation is saved in Swf format. |
 | [TextToHtmlConversionOptions](./texttohtmlconversionoptions) | Options for extracting HTML from the Pptx text. |
 | [TiffOptions](./tiffoptions) | Provides options that control how a presentation is saved in TIFF format. |
@@ -54,7 +54,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [INotesCommentsLayoutingOptions](./inotescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |
 | [IPdfOptions](./ipdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
 | [IPptOptions](./ipptoptions) | Provides options that control how a presentation is saved in PPT format. |
-| [IPptxOptions](./ipptxoptions) | Represents options for saving OpenXml presentations (../PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
+| [IPptxOptions](./ipptxoptions) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
 | [IRenderingOptions](./irenderingoptions) | Provides options that control how a presentation/slide is rendered. |
 | [IResponsiveHtmlController](./iresponsivehtmlcontroller) | Responsive HTML Controller |
 | [ISaveOptions](./isaveoptions) | Options that control how a presentation is saved. |
@@ -64,7 +64,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [ISvgShape](./isvgshape) | Represents options for SVG shape. |
 | [ISvgShapeAndTextFormattingController](./isvgshapeandtextformattingcontroller) | Controls SVG shape and text generation. |
 | [ISvgShapeFormattingController](./isvgshapeformattingcontroller) | Controls SVG shape generation. |
-| [ISvgTSpan](./isvgtspan) | Represents options for SVG text portion (../"tspan"). |
+| [ISvgTSpan](./isvgtspan) | Represents options for SVG text portion ("tspan"). |
 | [ISwfOptions](./iswfoptions) | Provides options that control how a presentation is saved in SWF format. |
 | [ITextToHtmlConversionOptions](./itexttohtmlconversionoptions) | Options for extracting HTML from the Pptx text. |
 | [ITiffOptions](./itiffoptions) | Provides options that control how a presentation is saved in TIFF format. |

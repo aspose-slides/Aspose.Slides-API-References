@@ -49,7 +49,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [DataTable](./datatable) | Represents data table properties. |
 | [DoubleChartValue](./doublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
 | [ErrorBarsCustomValues](./errorbarscustomvalues) | Specifies the errors bar values. It shall be used only when the Error bars value type is Custom. |
-| [ErrorBarsFormat](./errorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (../in [`ErrorBarsCustomValues`](aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) property). |
+| [ErrorBarsFormat](./errorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) property). |
 | [Format](./format) | Represents chart format properties. |
 | [Legend](./legend) | Represents chart's legend properties. |
 | [LegendEntryCollection](./legendentrycollection) | Represents legends collection. |
@@ -106,7 +106,7 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [IDataTable](./idatatable) | Represents data table properties. |
 | [IDoubleChartValue](./idoublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
 | [IErrorBarsCustomValues](./ierrorbarscustomvalues) | Specifies the errors bar values. It shall be used only when the Error bars value type is Custom. |
-| [IErrorBarsFormat](./ierrorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (../in [`ErrorBarsCustomValues`](aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) property). |
+| [IErrorBarsFormat](./ierrorbarsformat) | Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in [`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) property). |
 | [IFormat](./iformat) | Represents chart format properties. |
 | [IFormattedTextContainer](./iformattedtextcontainer) | Represents chart text format. |
 | [ILayoutable](./ilayoutable) | Specifies the exact position of a chart element. |
@@ -135,14 +135,14 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [ChartDataSourceType](./chartdatasourcetype) | Represents a type of data source of the chart |
 | [ChartShapeType](./chartshapetype) | Represents a shape of chart. |
 | [ChartType](./charttype) | Represents a type of chart. |
-| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup. For example: ChartType.PercentsStackedArea series cannot be simultaneously with ChartType.StackedArea series in one ChartSeriesGroup. But two or more ChartType.PercentsStackedArea can be in one ChartSeriesGroup simultaneously (../CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). And ChartType.Line series can be with ChartType.LineWithMarkers series simultaneously in one CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup. |
+| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup. For example: ChartType.PercentsStackedArea series cannot be simultaneously with ChartType.StackedArea series in one ChartSeriesGroup. But two or more ChartType.PercentsStackedArea can be in one ChartSeriesGroup simultaneously (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). And ChartType.Line series can be with ChartType.LineWithMarkers series simultaneously in one CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup. |
 | [CrossesType](./crossestype) | Determines where axis will cross. |
 | [DataSourceType](./datasourcetype) | Data source types. |
 | [DisplayBlanksAsType](./displayblanksastype) | Determines how missing data will be displayed. |
 | [DisplayUnitType](./displayunittype) | Determines multiplicity of the displayed data. |
 | [ErrorBarType](./errorbartype) | Represents type of error bar |
 | [ErrorBarValueType](./errorbarvaluetype) | Represents type of error bar value |
-| [LayoutTargetType](./layouttargettype) | If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (../not including axis and axis labels) or outside (../including axis and axis labels). |
+| [LayoutTargetType](./layouttargettype) | If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). |
 | [LegendDataLabelPosition](./legenddatalabelposition) | Determines position of data labels. |
 | [LegendPositionType](./legendpositiontype) | Determines a position of legend on a chart. |
 | [MarkerStyleType](./markerstyletype) | Determines form of marker on chart's data point. |
