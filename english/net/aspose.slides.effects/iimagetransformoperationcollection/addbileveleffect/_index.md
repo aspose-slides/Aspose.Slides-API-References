@@ -18,7 +18,7 @@ public IBiLevel AddBiLevelEffect(float threshold)
 | --- | --- | --- |
 | threshold | Single | the luminance threshold for the Bi-Level effect. Values greater than or equal to the threshold are set to white. Values lesser than the threshold are set to black. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

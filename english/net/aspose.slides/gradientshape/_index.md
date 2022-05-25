@@ -14,7 +14,7 @@ Represents the shape of gradient fill.
 public enum GradientShape : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

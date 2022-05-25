@@ -14,7 +14,7 @@ Clones current object
 public IColorOperationCollection CloneT()
 ```
 
-## Return Value
+### Return Value
 
 Clone
 

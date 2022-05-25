@@ -14,7 +14,7 @@ Represents the rule to use for adding new embedding font into [`IPresentation`](
 public enum EmbedFontCharacters
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

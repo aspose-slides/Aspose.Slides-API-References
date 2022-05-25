@@ -18,7 +18,7 @@ public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
 | --- | --- | --- |
 | slide | IBaseSlide | Scanned slide. |
 
-## Return Value
+### Return Value
 
 Array of [`TextFrame`](../../../aspose.slides/textframe) objects.
 

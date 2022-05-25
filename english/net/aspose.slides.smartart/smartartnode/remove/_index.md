@@ -14,7 +14,7 @@ Remove current node.
 public bool Remove()
 ```
 
-## Return Value
+### Return Value
 
 `True` if removed succesfully, otherwise `false`
 

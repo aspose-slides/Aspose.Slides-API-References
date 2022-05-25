@@ -14,7 +14,7 @@ Constants which define light preset types.
 public enum LightRigPresetType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

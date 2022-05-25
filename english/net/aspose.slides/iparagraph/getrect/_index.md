@@ -14,7 +14,7 @@ Get coordinates of rect that bounds paragraph. The rect includes all the lines o
 public RectangleF GetRect()
 ```
 
-## Return Value
+### Return Value
 
 Rectangle that bounds paragraph RectangleF
 

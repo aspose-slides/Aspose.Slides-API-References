@@ -14,7 +14,7 @@ Gets effective 3-D formatting data with the inheritance applied.
 public IThreeDFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
 

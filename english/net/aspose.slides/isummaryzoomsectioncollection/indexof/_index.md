@@ -18,7 +18,7 @@ public int IndexOf(ISummaryZoomSection summaryZoomSection)
 | --- | --- | --- |
 | summaryZoomSection | ISummaryZoomSection | SummaryZoomSection object to find [`ISummaryZoomSection`](../../isummaryzoomsection). |
 
-## Return Value
+### Return Value
 
 Index of a SummaryZoomSection object or -1 if SummaryZoomSection object not from this collection.
 

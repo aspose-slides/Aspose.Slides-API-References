@@ -18,7 +18,7 @@ public bool CheckWriteProtection(string password)
 | --- | --- | --- |
 | password | String | The password to check. |
 
-## Return Value
+### Return Value
 
 True if the presentation is write protected and the password is correct. False otherwise.
 

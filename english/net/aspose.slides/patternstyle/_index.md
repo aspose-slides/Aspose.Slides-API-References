@@ -14,7 +14,7 @@ Represents the pattern style.
 public enum PatternStyle : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

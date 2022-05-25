@@ -18,7 +18,7 @@ public IMathDelimiter Delimit(char separatorCharacter)
 | --- | --- | --- |
 | separatorCharacter | Char | delimiter character |
 
-## Return Value
+### Return Value
 
 This object after applying the delimiter character
 

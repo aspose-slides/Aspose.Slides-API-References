@@ -22,7 +22,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | lowerLimit | IMathElement | Lower limit |
 | upperLimit | IMathElement | Upper limit |
 
-## Return Value
+### Return Value
 
 new IMathNaryOperator
 
@@ -51,7 +51,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | baseArgument | IMathElement | Base argument to apply operator |
 | lowerLimit | IMathElement | Lower limit |
 
-## Return Value
+### Return Value
 
 new IMathNaryOperator
 
@@ -78,7 +78,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | operatorSymbol | Char | The operator sign |
 | baseArgument | IMathElement | Base argument to apply operator |
 
-## Return Value
+### Return Value
 
 new IMathNaryOperator
 

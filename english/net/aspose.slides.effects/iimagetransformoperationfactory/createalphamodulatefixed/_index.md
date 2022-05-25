@@ -18,7 +18,7 @@ public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
 | --- | --- | --- |
 | amount | Single | Amount. |
 
-## Return Value
+### Return Value
 
 Alpha modulate fixed effect.
 

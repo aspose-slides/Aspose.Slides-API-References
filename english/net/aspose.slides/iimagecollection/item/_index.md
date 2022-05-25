@@ -18,7 +18,7 @@ public IPPImage this[int index] { get; }
 | --- | --- |
 | index | Index. |
 
-## Return Value
+### Return Value
 
 Image.
 

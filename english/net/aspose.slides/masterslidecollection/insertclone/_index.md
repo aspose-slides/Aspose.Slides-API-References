@@ -19,7 +19,7 @@ public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
 | index | Int32 | Index of new slide. |
 | sourceMaster | IMasterSlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 Inserted master slide.
 

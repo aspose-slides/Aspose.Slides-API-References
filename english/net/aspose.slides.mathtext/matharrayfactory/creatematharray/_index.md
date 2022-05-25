@@ -18,7 +18,7 @@ public IMathArray CreateMathArray(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to place in array |
 
-## Return Value
+### Return Value
 
 new math array
 
@@ -44,7 +44,7 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 | --- | --- | --- |
 | elements | IMathElementCollection | math elements to place in array |
 
-## Return Value
+### Return Value
 
 new math array
 

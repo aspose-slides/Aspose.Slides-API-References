@@ -18,7 +18,7 @@ public bool Remove(ICustomXmlPart item)
 | --- | --- | --- |
 | item | ICustomXmlPart | The custom xml part to remove. |
 
-## Return Value
+### Return Value
 
 `true` if item is successfully removed; otherwise, `false`.
 

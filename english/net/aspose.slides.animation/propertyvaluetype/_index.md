@@ -14,7 +14,7 @@ Represent property value types.
 public enum PropertyValueType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

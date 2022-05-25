@@ -14,7 +14,7 @@ text box alignment within a text area.
 public enum TextAnchorType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

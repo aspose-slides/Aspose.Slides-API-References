@@ -18,7 +18,7 @@ public bool CheckPassword(string password)
 | --- | --- | --- |
 | password | String | The password to check. |
 
-## Return Value
+### Return Value
 
 True if the presentation is protected with open password and the password is correct and false otherwise.
 

@@ -14,7 +14,7 @@ Returns Stream stream for reading. Use 'using' or close stream after using.
 public Stream GetStream()
 ```
 
-## Return Value
+### Return Value
 
 Stream for reading.
 

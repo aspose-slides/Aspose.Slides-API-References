@@ -18,7 +18,7 @@ public IMathRadical Radical(IMathElement degree)
 | --- | --- | --- |
 | degree | IMathElement | Argument of Radical |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathRadical`](../../imathradical)
 
@@ -54,7 +54,7 @@ public IMathRadical Radical(string degree)
 | --- | --- | --- |
 | degree | String | Argument of Radical |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathRadical`](../../imathradical)
 

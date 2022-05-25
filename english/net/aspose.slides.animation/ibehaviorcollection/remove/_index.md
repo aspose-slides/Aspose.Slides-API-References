@@ -18,7 +18,7 @@ public bool Remove(IBehavior item)
 | --- | --- | --- |
 | item | IBehavior | Behavior to remove. |
 
-## Return Value
+### Return Value
 
 True if a behavior removed successfully Boolean
 

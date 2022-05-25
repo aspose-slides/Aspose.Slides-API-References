@@ -18,7 +18,7 @@ public IColorSchemeEffectiveData GetColorScheme(Color styleColor)
 | --- | --- | --- |
 | styleColor | Color | Color Color |
 
-## Return Value
+### Return Value
 
 Color scheme [`IColorSchemeEffectiveData`](../../icolorschemeeffectivedata)
 

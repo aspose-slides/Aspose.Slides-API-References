@@ -19,7 +19,7 @@ public IGradientStop Add(float position, Color color)
 | position | Single | Position of the new gradient stop. |
 | color | Color | Color of the new radient stop. |
 
-## Return Value
+### Return Value
 
 Index of the new gradient stop in the collection.
 
@@ -45,7 +45,7 @@ public IGradientStop Add(float position, PresetColor presetColor)
 | position | Single | Position of the new gradient stop. |
 | presetColor | PresetColor | Color of the new radient stop. |
 
-## Return Value
+### Return Value
 
 Index of the new gradient stop in the collection.
 
@@ -72,7 +72,7 @@ public IGradientStop Add(float position, SchemeColor schemeColor)
 | position | Single | Position of the new gradient stop. |
 | schemeColor | SchemeColor | Color of the new radient stop. |
 
-## Return Value
+### Return Value
 
 Index of the new gradient stop in the collection.
 

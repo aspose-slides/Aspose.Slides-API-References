@@ -14,7 +14,7 @@ Represents the style of the numbered bullets.
 public enum NumberedBulletStyle : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

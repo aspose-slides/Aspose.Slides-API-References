@@ -14,7 +14,7 @@ Creates an empty text portion.
 public IPortion CreatePortion()
 ```
 
-## Return Value
+### Return Value
 
 Portion.
 
@@ -39,7 +39,7 @@ public IPortion CreatePortion(string str)
 | --- | --- | --- |
 | str | String | String. |
 
-## Return Value
+### Return Value
 
 Portion.
 
@@ -64,7 +64,7 @@ public IPortion CreatePortion(IPortion portion)
 | --- | --- | --- |
 | portion | IPortion | A portion to use. |
 
-## Return Value
+### Return Value
 
 Portion.
 

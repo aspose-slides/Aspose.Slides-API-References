@@ -18,7 +18,7 @@ public static bool IsErrorBarsYAllowed(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Series type. |
 
-## Return Value
+### Return Value
 
 True if allowed, otherwise false.
 

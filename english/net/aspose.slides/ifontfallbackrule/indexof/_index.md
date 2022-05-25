@@ -18,7 +18,7 @@ public int IndexOf(string fontName)
 | --- | --- | --- |
 | fontName | String | Font's name to find. |
 
-## Return Value
+### Return Value
 
 Index of a font or -1 if font not found in list.
 

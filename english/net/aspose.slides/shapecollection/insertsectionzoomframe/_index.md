@@ -24,7 +24,7 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 | height | Single | Height of a new Section Zoom frame Single. |
 | section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
 
-## Return Value
+### Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 
@@ -75,7 +75,7 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 | section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
 | image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
-## Return Value
+### Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 

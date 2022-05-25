@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The SlideShowTransition to compare with the current SlideShowTransition. |
 
-## Return Value
+### Return Value
 
 **true** if the specified SlideShowTransition is equal to the current SlideShowTransition; otherwise, **false**.
 

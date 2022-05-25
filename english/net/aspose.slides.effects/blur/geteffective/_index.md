@@ -14,7 +14,7 @@ Gets effective Blur effect data with the inheritance applied.
 public IBlurEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IBlurEffectiveData`](../../iblureffectivedata).
 

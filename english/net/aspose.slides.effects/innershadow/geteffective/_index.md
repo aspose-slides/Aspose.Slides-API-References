@@ -14,7 +14,7 @@ Gets effective Inner Shadow effect data with the inheritance applied.
 public IInnerShadowEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IInnerShadowEffectiveData`](../../iinnershadoweffectivedata).
 

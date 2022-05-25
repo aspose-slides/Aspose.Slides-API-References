@@ -18,7 +18,7 @@ public IChartSeries Add(ChartType type)
 | --- | --- | --- |
 | type | ChartType | Type of series |
 
-## Return Value
+### Return Value
 
 New chart series.
 
@@ -45,7 +45,7 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 | cellWithSeriesName | IChartDataCell | Cell which contain series name. |
 | type | ChartType | Type set type of series |
 
-## Return Value
+### Return Value
 
 Added chart series or series that already is in collection.
 
@@ -77,7 +77,7 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 | cellsWithSeriesName | IChartCellCollection | Cells which contain series name. |
 | type | ChartType | Type set type of series |
 
-## Return Value
+### Return Value
 
 Added chart series or series that already is in collection.
 
@@ -109,7 +109,7 @@ public IChartSeries Add(string name, ChartType type)
 | name | String | Series name. |
 | type | ChartType | Type set type of series |
 
-## Return Value
+### Return Value
 
 Added chart series.
 

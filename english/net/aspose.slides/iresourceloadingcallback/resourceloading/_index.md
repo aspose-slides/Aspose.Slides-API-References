@@ -18,7 +18,7 @@ public ResourceLoadingAction ResourceLoading(IResourceLoadingArgs args)
 | --- | --- | --- |
 | args | IResourceLoadingArgs | The loading resource data [`IResourceLoadingArgs`](../../iresourceloadingargs). |
 
-## Return Value
+### Return Value
 
 The resource loading decision [`ResourceLoadingAction`](../../resourceloadingaction).
 

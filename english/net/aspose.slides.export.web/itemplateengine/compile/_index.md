@@ -19,7 +19,7 @@ public string Compile(string key, object model)
 | key | String | Key for the template in the template collection. |
 | model | Object | Model object with data for transformation. |
 
-## Return Value
+### Return Value
 
 Resulting output as a String.
 

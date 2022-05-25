@@ -14,7 +14,7 @@ Gets effective Color Change effect data with the inheritance applied.
 public IColorChangeEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IColorChangeEffectiveData`](../../icolorchangeeffectivedata).
 

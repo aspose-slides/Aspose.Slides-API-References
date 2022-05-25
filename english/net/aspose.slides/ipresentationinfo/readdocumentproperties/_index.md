@@ -14,7 +14,7 @@ Gets document properties of binded presentation.
 public IDocumentProperties ReadDocumentProperties()
 ```
 
-## Return Value
+### Return Value
 
 Document properties [`IDocumentProperties`](../../idocumentproperties)
 

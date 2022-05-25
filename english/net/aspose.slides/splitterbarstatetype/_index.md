@@ -14,7 +14,7 @@ Specifies the state that the splitter bar should be shown in. The splitter bar s
 public enum SplitterBarStateType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

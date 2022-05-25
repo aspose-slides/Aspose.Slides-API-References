@@ -14,7 +14,7 @@ Returns an automatic color of data point based on series index, data point index
 public Color GetAutomaticDataPointColor()
 ```
 
-## Return Value
+### Return Value
 
 Automatic color of data point Color
 

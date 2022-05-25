@@ -14,7 +14,7 @@ Adds the new Alpha Inverse effect to the end of a collection.
 public IAlphaInverse AddAlphaInverseEffect()
 ```
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

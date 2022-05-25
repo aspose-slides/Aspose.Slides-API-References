@@ -14,7 +14,7 @@ Determines where axis will cross.
 public enum CrossesType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

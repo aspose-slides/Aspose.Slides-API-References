@@ -14,7 +14,7 @@ Represents the rule to render notes into exported document
 public enum NotesPositions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

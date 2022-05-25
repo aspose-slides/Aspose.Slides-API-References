@@ -14,7 +14,7 @@ Gets effective line formatting data with the inheritance applied.
 public ILineFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 

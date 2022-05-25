@@ -19,7 +19,7 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 | fileName | String | File name String |
 | fileMode | FileMode | File mode FileMode |
 
-## Return Value
+### Return Value
 
 Stream wrapper for COM interface [`IStreamWrapper`](../../istreamwrapper)
 
@@ -47,7 +47,7 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 | fileMode | FileMode | File mode FileMode |
 | fileAccess | FileAccess | File access FileAccess |
 
-## Return Value
+### Return Value
 
 Stream wrapper for COM interface [`IStreamWrapper`](../../istreamwrapper)
 

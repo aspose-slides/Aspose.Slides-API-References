@@ -18,7 +18,7 @@ public string ToString(ColorStringFormat format)
 | --- | --- | --- |
 | format | ColorStringFormat | A type of color string format. |
 
-## Return Value
+### Return Value
 
 A string that represents the current color format.
 

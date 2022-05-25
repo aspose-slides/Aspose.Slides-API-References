@@ -14,7 +14,7 @@ Specifies how the motion path moves when the target shape is moved
 public enum MotionPathEditMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

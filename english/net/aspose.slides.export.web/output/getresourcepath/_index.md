@@ -18,7 +18,7 @@ public string GetResourcePath(object obj)
 | --- | --- | --- |
 | obj | Object | Resource object. |
 
-## Return Value
+### Return Value
 
 Resource path.
 

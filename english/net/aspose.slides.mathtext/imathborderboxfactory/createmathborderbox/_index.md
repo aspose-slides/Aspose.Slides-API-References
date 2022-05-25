@@ -18,7 +18,7 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to apply border box |
 
-## Return Value
+### Return Value
 
 new border box element
 
@@ -54,7 +54,7 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 | strikethroughBottomLeftToTopRight | Boolean | Border Box Strikethrough Bottom-Left to Top-Right |
 | strikethroughTopLeftToBottomRight | Boolean | Border Box Strikethrough Top-Left to Bottom-Right |
 
-## Return Value
+### Return Value
 
 new border box element
 

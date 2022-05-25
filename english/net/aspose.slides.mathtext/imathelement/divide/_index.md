@@ -18,7 +18,7 @@ public IMathFraction Divide(IMathElement denominator)
 | --- | --- | --- |
 | denominator | IMathElement | Denominator |
 
-## Return Value
+### Return Value
 
 new fraction
 
@@ -54,7 +54,7 @@ public IMathFraction Divide(string denominator)
 | --- | --- | --- |
 | denominator | String | Denominator |
 
-## Return Value
+### Return Value
 
 new fraction
 
@@ -90,7 +90,7 @@ public IMathFraction Divide(IMathElement denominator, MathFractionTypes fraction
 | denominator | IMathElement | Denominator |
 | fractionType | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
 
-## Return Value
+### Return Value
 
 new fraction
 
@@ -128,7 +128,7 @@ public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
 | denominator | String | Denominator |
 | fractionType | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
 
-## Return Value
+### Return Value
 
 new fraction
 

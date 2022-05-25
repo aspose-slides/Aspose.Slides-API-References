@@ -14,7 +14,7 @@ Places this element in a non-visual box (logical grouping) which is used to grou
 public IMathBox ToBox()
 ```
 
-## Return Value
+### Return Value
 
 Logical box with this element placed inside
 

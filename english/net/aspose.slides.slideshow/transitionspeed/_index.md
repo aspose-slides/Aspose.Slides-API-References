@@ -14,7 +14,7 @@ Represent transition speed types.
 public enum TransitionSpeed
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

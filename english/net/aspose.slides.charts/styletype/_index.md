@@ -14,7 +14,7 @@ Represents chart style.
 public enum StyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

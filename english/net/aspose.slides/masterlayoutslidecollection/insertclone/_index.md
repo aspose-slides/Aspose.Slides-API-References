@@ -19,7 +19,7 @@ public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
 | index | Int32 | Index of new slide. |
 | sourceLayout | ILayoutSlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 

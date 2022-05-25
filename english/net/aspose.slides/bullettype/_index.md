@@ -14,7 +14,7 @@ Represents the type of the extended bullets.
 public enum BulletType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

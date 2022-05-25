@@ -14,7 +14,7 @@ Specifies the interior fill type of various visual objects.
 public enum FillType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -19,7 +19,7 @@ public ICommentAuthor[] FindByNameAndInitials(string name, string initials)
 | name | String | Name of an author to find. |
 | initials | String | Initials of an author to find. |
 
-## Return Value
+### Return Value
 
 Author or null.
 

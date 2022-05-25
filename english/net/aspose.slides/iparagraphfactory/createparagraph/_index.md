@@ -14,7 +14,7 @@ Creates a new empty paragraph.
 public IParagraph CreateParagraph()
 ```
 
-## Return Value
+### Return Value
 
 Paragraph.
 
@@ -39,7 +39,7 @@ public IParagraph CreateParagraph(IParagraph paragraph)
 | --- | --- | --- |
 | paragraph | IParagraph | A paragraph to use data. |
 
-## Return Value
+### Return Value
 
 Paragraph.
 

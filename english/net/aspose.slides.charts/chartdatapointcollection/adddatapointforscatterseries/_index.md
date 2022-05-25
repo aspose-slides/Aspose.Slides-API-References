@@ -19,7 +19,7 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChar
 | xValue | IChartDataCell | Data point XValue |
 | yValue | IChartDataCell | Data point YValue |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -46,7 +46,7 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCel
 | xValue | Double | Data point XValue |
 | yValue | IChartDataCell | Data point YValue |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -73,7 +73,7 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCel
 | xValue | String | Data point XValue |
 | yValue | IChartDataCell | Data point YValue |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -100,7 +100,7 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, doubl
 | xValue | IChartDataCell | Data point XValue |
 | yValue | Double | Data point YValue |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -127,7 +127,7 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue
 | xValue | Double | Data point XValue |
 | yValue | Double | Data point YValue |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -153,7 +153,7 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue
 | xValue | String | Data point XValue |
 | yValue | Double | Data point YValue |
 
-## Return Value
+### Return Value
 
 New data point.
 

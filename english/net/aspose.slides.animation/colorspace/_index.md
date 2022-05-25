@@ -14,7 +14,7 @@ Represents color space for color effect behavior.
 public enum ColorSpace
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies a direction restricted to the values of left and right.
 public enum TransitionLeftRightDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

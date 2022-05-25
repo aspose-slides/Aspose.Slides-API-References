@@ -14,7 +14,7 @@ Represent trigger type of effect.
 public enum EffectTriggerType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

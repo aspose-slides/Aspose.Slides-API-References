@@ -18,7 +18,7 @@ public IAlphaReplace CreateAlphaReplace(float alpha)
 | --- | --- | --- |
 | alpha | Single | Alpha |
 
-## Return Value
+### Return Value
 
 Alpha replace effect.
 

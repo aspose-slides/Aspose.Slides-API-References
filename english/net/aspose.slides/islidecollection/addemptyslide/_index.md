@@ -18,7 +18,7 @@ public ISlide AddEmptySlide(ILayoutSlide layout)
 | --- | --- | --- |
 | layout | ILayoutSlide | Layout for a slide. |
 
-## Return Value
+### Return Value
 
 Added slide.
 

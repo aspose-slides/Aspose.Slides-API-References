@@ -14,7 +14,7 @@ Creates and returns an array with all shapse in it.
 public IShape[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`Shape`](../../shape)
 
@@ -35,7 +35,7 @@ Creates and returns an array with all shapes from the specified range in it. An 
 public IShape[] ToArray(int startIndex, int count)
 ```
 
-## Return Value
+### Return Value
 
 Array of [`Shape`](../../shape)
 

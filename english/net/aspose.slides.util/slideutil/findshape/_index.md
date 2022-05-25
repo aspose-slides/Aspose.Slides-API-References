@@ -19,7 +19,7 @@ public static IShape FindShape(IPresentation pres, string altText)
 | pres | IPresentation | Scanned presentation. |
 | altText | String | Alternative text of a shape. |
 
-## Return Value
+### Return Value
 
 Shape or null.
 
@@ -46,7 +46,7 @@ public static IShape FindShape(IBaseSlide slide, string altText)
 | slide | IBaseSlide | Scanned slide. |
 | altText | String | Alternative text of a shape. |
 
-## Return Value
+### Return Value
 
 Shape or null.
 

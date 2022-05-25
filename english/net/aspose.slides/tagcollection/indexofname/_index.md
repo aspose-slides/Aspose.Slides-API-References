@@ -18,7 +18,7 @@ public int IndexOfName(string name)
 | --- | --- | --- |
 | name | String | The name to locate in the collection. |
 
-## Return Value
+### Return Value
 
 The zero-based index of key, if key is found in the collection; otherwise, -1.
 

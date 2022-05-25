@@ -18,7 +18,7 @@ public static bool IsSeriesUsesBubbleSizeCoordinate(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Series type. |
 
-## Return Value
+### Return Value
 
 True if can be used, otherwise false.
 

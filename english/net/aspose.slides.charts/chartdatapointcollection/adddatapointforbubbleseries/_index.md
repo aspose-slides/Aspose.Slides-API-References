@@ -21,7 +21,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -50,7 +50,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -79,7 +79,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -108,7 +108,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 | yValue | Double | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -137,7 +137,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 | yValue | Double | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -166,7 +166,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 | yValue | Double | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -195,7 +195,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -224,7 +224,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -253,7 +253,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -282,7 +282,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 | yValue | Double | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -310,7 +310,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 | yValue | Double | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -337,7 +337,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 | yValue | Double | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-## Return Value
+### Return Value
 
 New data point.
 

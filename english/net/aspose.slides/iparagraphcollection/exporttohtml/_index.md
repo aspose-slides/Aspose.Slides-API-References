@@ -21,7 +21,7 @@ public string ExportToHtml(int firstParagraphIndex, int paragraphsCount,
 | paragraphsCount | Int32 | Paragraph count Int32 |
 | options | ITextToHtmlConversionOptions | Convert options [`ITextToHtmlConversionOptions`](../../../aspose.slides.export/itexttohtmlconversionoptions) |
 
-## Return Value
+### Return Value
 
 Generated HTML.
 

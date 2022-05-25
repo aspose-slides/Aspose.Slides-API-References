@@ -18,7 +18,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 | --- | --- | --- |
 | sourceLayout | ILayoutSlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 Added slide.
 
@@ -48,7 +48,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
 | sourceLayout | ILayoutSlide | Slide to clone. |
 | destMaster | IMasterSlide | Master slide for a new layout. |
 
-## Return Value
+### Return Value
 
 Added slide.
 

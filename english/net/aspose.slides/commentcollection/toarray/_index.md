@@ -14,7 +14,7 @@ Creates and returns an array with all comments.
 public IComment[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`Comment`](../../comment).
 
@@ -40,7 +40,7 @@ public IComment[] ToArray(int startIndex, int count)
 | startIndex | Int32 | An index of a first comment to return. |
 | count | Int32 | A number of comments to return. |
 
-## Return Value
+### Return Value
 
 Array of [`Comment`](../../comment).
 

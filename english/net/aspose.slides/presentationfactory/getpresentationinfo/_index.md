@@ -18,7 +18,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 | --- | --- | --- |
 | file | String | Presentation file. |
 
-## Return Value
+### Return Value
 
 Presentation info binded to presentation.
 
@@ -43,7 +43,7 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Presentation stream. |
 
-## Return Value
+### Return Value
 
 Presentation info binded to presentation.
 

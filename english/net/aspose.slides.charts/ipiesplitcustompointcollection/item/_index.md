@@ -18,7 +18,7 @@ public IChartDataPoint this[int index] { get; }
 | --- | --- |
 | index | Index of data-point. |
 
-## Return Value
+### Return Value
 
 Chart data point.
 

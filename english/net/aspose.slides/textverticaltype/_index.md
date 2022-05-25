@@ -14,7 +14,7 @@ Determines vertical writing mode for a text.
 public enum TextVerticalType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

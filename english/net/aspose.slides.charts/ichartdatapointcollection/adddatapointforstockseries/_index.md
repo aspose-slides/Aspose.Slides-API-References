@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point Value. |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -44,7 +44,7 @@ public IChartDataPoint AddDataPointForStockSeries(double value)
 | --- | --- | --- |
 | value | Double | Data point Value. |
 
-## Return Value
+### Return Value
 
 New data point.
 

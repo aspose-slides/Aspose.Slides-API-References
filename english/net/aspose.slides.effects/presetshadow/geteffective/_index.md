@@ -14,7 +14,7 @@ Gets effective Preset Shadow effect data with the inheritance applied.
 public IPresetShadowEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IPresetShadowEffectiveData`](../../ipresetshadoweffectivedata).
 

@@ -14,7 +14,7 @@ Represents types of accumulation of effect behaviors.
 public enum BehaviorAccumulateType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Provides options that control how a presentation is compressed in TIFF format.
 public enum TiffCompressionTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

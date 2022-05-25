@@ -14,7 +14,7 @@ Places this element in a border-box
 public IMathBorderBox ToBorderBox()
 ```
 
-## Return Value
+### Return Value
 
 Border-box with this element placed inside
 
@@ -57,7 +57,7 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 | strikethroughBottomLeftToTopRight | Boolean | Border Box Strikethrough Bottom-Left to Top-Right |
 | strikethroughTopLeftToBottomRight | Boolean | Border Box Strikethrough Top-Left to Bottom-Right |
 
-## Return Value
+### Return Value
 
 Border-box with this element placed inside
 

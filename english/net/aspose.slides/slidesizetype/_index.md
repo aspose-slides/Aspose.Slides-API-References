@@ -14,7 +14,7 @@ Represents the slide size preset.
 public enum SlideSizeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

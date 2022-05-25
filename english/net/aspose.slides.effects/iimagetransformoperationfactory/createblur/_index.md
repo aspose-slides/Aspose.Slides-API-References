@@ -19,7 +19,7 @@ public IBlur CreateBlur(double radius, bool grow)
 | radius | Double | Radius. |
 | grow | Boolean | Grow. |
 
-## Return Value
+### Return Value
 
 Blur effect.
 

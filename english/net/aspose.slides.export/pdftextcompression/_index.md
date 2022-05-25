@@ -14,7 +14,7 @@ Constants which define the type of a compression applied to all content in the P
 public enum PdfTextCompression
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

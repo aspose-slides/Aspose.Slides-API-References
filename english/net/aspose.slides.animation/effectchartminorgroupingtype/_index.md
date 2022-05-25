@@ -14,7 +14,7 @@ Represents the type of an animation effect for chart's element in series or cate
 public enum EffectChartMinorGroupingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

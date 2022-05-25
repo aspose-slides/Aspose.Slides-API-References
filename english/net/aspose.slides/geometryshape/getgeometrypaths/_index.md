@@ -14,7 +14,7 @@ Returns the copy of path of the geometry shape. Coordinates are relative to the 
 public IGeometryPath[] GetGeometryPaths()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`IGeometryPath`](../../igeometrypath)
 

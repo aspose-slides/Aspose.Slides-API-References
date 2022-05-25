@@ -18,7 +18,7 @@ public ILayoutSlide GetByType(SlideLayoutType type)
 | --- | --- | --- |
 | type | SlideLayoutType | A type of layout slide to find. |
 
-## Return Value
+### Return Value
 
 [`ILayoutSlide`](../../ilayoutslide) with specified type or null if no layouts found.
 

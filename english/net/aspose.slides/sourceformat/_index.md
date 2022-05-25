@@ -14,7 +14,7 @@ Represents source file format.
 public enum SourceFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

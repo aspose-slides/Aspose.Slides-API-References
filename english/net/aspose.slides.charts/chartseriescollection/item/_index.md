@@ -14,7 +14,7 @@ Gets the element at the specified index.
 public IChartSeries this[int index] { get; }
 ```
 
-## Return Value
+### Return Value
 
 The element at the specified index.
 

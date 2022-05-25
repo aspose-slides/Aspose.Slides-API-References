@@ -14,7 +14,7 @@ Gets effective Glow effect data with the inheritance applied.
 public IGlowEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IGlowEffectiveData`](../../igloweffectivedata).
 

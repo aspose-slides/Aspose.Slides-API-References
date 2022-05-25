@@ -18,7 +18,7 @@ public ILineFormatCollectionEffectiveData GetLineStyles(Color styleColor)
 | --- | --- | --- |
 | styleColor | Color | Color Color |
 
-## Return Value
+### Return Value
 
 Collection of effective line formats [`ILineFormatCollectionEffectiveData`](../../ilineformatcollectioneffectivedata)
 

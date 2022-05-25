@@ -14,7 +14,7 @@ Gets effective Alpha Inverse effect data with the inheritance applied.
 public IAlphaInverseEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IAlphaInverseEffectiveData`](../../ialphainverseeffectivedata).
 

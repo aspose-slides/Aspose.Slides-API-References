@@ -14,7 +14,7 @@ Determines how missing data will be displayed.
 public enum DisplayBlanksAsType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public IMathBlock Join(IMathElement mathElement)
 | --- | --- | --- |
 | mathElement | IMathElement | The element to be joined |
 
-## Return Value
+### Return Value
 
 A new IMathBlock containing this instance and specified argument
 
@@ -54,7 +54,7 @@ public IMathBlock Join(string mathText)
 | --- | --- | --- |
 | mathText | String | Mathematical text to be joined |
 
-## Return Value
+### Return Value
 
 A new IMathBlock containing this instance and specified argument
 

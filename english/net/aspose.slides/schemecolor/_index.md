@@ -14,7 +14,7 @@ Represents colors in a color scheme.
 public enum SchemeColor
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

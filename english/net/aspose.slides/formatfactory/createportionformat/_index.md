@@ -14,7 +14,7 @@ Creates new [`IPortionFormat`](../../iportionformat).
 public IPortionFormat CreatePortionFormat()
 ```
 
-## Return Value
+### Return Value
 
 New portion format.
 

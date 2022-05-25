@@ -14,7 +14,7 @@ Gets effective Alpha Modulate effect data with the inheritance applied.
 public IAlphaModulateEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IAlphaModulateEffectiveData`](../../ialphamodulateeffectivedata).
 

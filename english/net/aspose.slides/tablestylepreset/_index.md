@@ -14,7 +14,7 @@ Represents builtin table styles.
 public enum TableStylePreset
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

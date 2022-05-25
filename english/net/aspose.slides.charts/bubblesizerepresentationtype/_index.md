@@ -14,7 +14,7 @@ Specifies the possible ways to represent data as bubble chart sizes.
 public enum BubbleSizeRepresentationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

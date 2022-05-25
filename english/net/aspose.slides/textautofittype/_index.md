@@ -14,7 +14,7 @@ Represents text autofit mode.
 public enum TextAutofitType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

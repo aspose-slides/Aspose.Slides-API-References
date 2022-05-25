@@ -18,7 +18,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 | --- | --- | --- |
 | sourceLayout | ILayoutSlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 Added slide.
 

@@ -14,7 +14,7 @@ Create a math block
 public IMathBlock CreateMathBlock()
 ```
 
-## Return Value
+### Return Value
 
 new math block
 
@@ -39,7 +39,7 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 | --- | --- | --- |
 | mathElement | IMathElement | A math element |
 
-## Return Value
+### Return Value
 
 new math block
 
@@ -65,7 +65,7 @@ public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 | --- | --- | --- |
 | mathElements | IMathElementCollection | math elements |
 
-## Return Value
+### Return Value
 
 new math block
 

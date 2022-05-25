@@ -14,7 +14,7 @@ Represents the orientation of a shape.
 public enum Orientation : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

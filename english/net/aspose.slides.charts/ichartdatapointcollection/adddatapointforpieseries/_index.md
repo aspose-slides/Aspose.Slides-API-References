@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -44,7 +44,7 @@ public IChartDataPoint AddDataPointForPieSeries(double value)
 | --- | --- | --- |
 | value | Double | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 

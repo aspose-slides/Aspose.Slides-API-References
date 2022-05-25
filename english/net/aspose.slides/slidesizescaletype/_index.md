@@ -14,7 +14,7 @@ Represents the scale type of slide content.
 public enum SlideSizeScaleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

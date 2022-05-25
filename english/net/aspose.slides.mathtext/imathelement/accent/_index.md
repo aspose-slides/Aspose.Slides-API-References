@@ -18,7 +18,7 @@ public IMathAccent Accent(char accentCharacter)
 | --- | --- | --- |
 | accentCharacter | Char | Accent character. The value should be within the range of (U+0300–U+036F) or (U+20D0–U+20EF) |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathAccent`](../../imathaccent)
 

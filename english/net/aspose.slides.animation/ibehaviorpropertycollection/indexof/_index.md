@@ -18,7 +18,7 @@ public int IndexOf(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | value of the property |
 
-## Return Value
+### Return Value
 
 The index of the property with the specified value
 

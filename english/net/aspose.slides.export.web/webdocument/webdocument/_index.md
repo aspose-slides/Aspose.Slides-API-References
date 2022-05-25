@@ -18,7 +18,7 @@ public WebDocument(WebDocumentOptions options)
 | --- | --- | --- |
 | options | WebDocumentOptions | Options set for the document. |
 
-## Return Value
+### Return Value
 
 A new instance of [`WebDocument`](../../webdocument).
 

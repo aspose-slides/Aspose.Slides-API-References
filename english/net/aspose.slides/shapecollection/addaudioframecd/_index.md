@@ -21,7 +21,7 @@ public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
 | width | Single | Width of a new audio frame. |
 | height | Single | Height of a new audio frame. |
 
-## Return Value
+### Return Value
 
 Created AudioFrame object.
 

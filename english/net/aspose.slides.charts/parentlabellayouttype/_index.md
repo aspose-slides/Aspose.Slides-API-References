@@ -14,7 +14,7 @@ Represents layout of category data labels. Used with Treemap series only.
 public enum ParentLabelLayoutType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

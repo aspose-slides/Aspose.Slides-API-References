@@ -18,7 +18,7 @@ public IMasterSlide AddClone(IMasterSlide sourceMaster)
 | --- | --- | --- |
 | sourceMaster | IMasterSlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 Added slide.
 

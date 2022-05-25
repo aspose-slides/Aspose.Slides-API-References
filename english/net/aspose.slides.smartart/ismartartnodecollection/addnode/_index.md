@@ -14,7 +14,7 @@ Add new node or sub node.
 public ISmartArtNode AddNode()
 ```
 
-## Return Value
+### Return Value
 
 Added node
 

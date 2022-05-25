@@ -14,7 +14,7 @@ Presentation view types
 public enum ViewType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

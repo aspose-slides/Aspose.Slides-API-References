@@ -18,7 +18,7 @@ public IAlphaReplace AddAlphaReplaceEffect(float alpha)
 | --- | --- | --- |
 | alpha | Single | The new opacity value. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

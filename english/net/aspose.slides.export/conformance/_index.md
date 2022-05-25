@@ -14,7 +14,7 @@ Specifies the conformance class to which the PresentationML document conforms.
 public enum Conformance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

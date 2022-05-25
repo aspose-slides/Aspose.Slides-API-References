@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if obj is a ShapeFrame that has the same value as this instance; otherwise, **false**.
 
@@ -42,7 +42,7 @@ public bool Equals(ShapeFrame value)
 | --- | --- | --- |
 | value | ShapeFrame | The ShapeFRameEx to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if value is a ShapeFrame that has the same value as this instance; otherwise, **false**.
 

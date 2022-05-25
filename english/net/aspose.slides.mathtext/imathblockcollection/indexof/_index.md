@@ -18,7 +18,7 @@ public int IndexOf(IMathBlock item)
 | --- | --- | --- |
 | item | IMathBlock | The item to locate in the collection. |
 
-## Return Value
+### Return Value
 
 The index of *item* if found in the collection; otherwise, -1.
 

@@ -21,7 +21,7 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
 | subScript | IMathElement | lower right index |
 | superScript | IMathElement | upper right index |
 
-## Return Value
+### Return Value
 
 new IMathLeftSubSuperscriptElement
 

@@ -14,7 +14,7 @@ Controls the depth of the text properties inheritance.
 public enum TextInheritanceLimit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

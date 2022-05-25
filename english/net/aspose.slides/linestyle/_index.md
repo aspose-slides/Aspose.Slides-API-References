@@ -14,7 +14,7 @@ Represents the style of a line.
 public enum LineStyle : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

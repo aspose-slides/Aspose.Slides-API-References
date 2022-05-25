@@ -18,7 +18,7 @@ public Stream GetEntity(string absoluteUri)
 | --- | --- | --- |
 | absoluteUri | String | Absolute URI to the object. |
 
-## Return Value
+### Return Value
 
 A Stream object or null if resource cannot be streamed.
 

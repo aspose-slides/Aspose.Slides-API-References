@@ -14,7 +14,7 @@ Constants which define light directions.
 public enum LightingDirection
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

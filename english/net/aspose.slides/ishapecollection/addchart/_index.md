@@ -22,7 +22,7 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | width | Single | Chart's width. |
 | height | Single | Chart's height. |
 
-## Return Value
+### Return Value
 
 Created chart.
 
@@ -54,7 +54,7 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | height | Single | Chart's height. |
 | initWithSample | Boolean | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
 
-## Return Value
+### Return Value
 
 Created chart.
 

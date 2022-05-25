@@ -18,7 +18,7 @@ public int IndexOf(IPortion item)
 | --- | --- | --- |
 | item | IPortion | The object to locate in the IList. |
 
-## Return Value
+### Return Value
 
 The index of *item* if found in the list; otherwise, -1.
 

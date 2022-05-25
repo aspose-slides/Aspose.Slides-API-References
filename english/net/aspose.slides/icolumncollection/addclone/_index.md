@@ -19,7 +19,7 @@ public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)
 | templ | IColumn | Column which is used as a template. |
 | withAttachedColumns | Boolean | True to copy also all columns attached to the template row. |
 
-## Return Value
+### Return Value
 
 Added columns.
 

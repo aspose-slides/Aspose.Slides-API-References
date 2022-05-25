@@ -18,7 +18,7 @@ public IComment[] GetSlideComments(ICommentAuthor author)
 | --- | --- | --- |
 | author | ICommentAuthor | Author of comments to find or null to return all comments. |
 
-## Return Value
+### Return Value
 
 Array of [`Comment`](../../comment).
 

@@ -18,7 +18,7 @@ public ISlide[] AddFromPdf(string path)
 | --- | --- | --- |
 | path | String | A path to the PDF document |
 
-## Return Value
+### Return Value
 
 Added slides
 
@@ -56,7 +56,7 @@ public ISlide[] AddFromPdf(Stream pdfStream)
 | --- | --- | --- |
 | pdfStream | Stream | A stream which will be used as a source of the PDF document |
 
-## Return Value
+### Return Value
 
 Added slides
 

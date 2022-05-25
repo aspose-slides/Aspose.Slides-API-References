@@ -14,7 +14,7 @@ Gets effective theme data with the inheritance applied.
 public IThemeEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IThemeEffectiveData`](../../ithemeeffectivedata).
 

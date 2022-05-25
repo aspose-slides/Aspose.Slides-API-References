@@ -18,7 +18,7 @@ public IChartDataCell this[int index] { get; }
 | --- | --- |
 | index | Index of a cell. |
 
-## Return Value
+### Return Value
 
 Cell with data.
 

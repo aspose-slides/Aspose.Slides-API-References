@@ -14,7 +14,7 @@ Represents a rule fot font substitution
 public enum FontSubstCondition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

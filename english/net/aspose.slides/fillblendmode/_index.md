@@ -14,7 +14,7 @@ Determines blend mode.
 public enum FillBlendMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

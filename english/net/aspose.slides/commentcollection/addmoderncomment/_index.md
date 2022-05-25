@@ -23,7 +23,7 @@ public IModernComment AddModernComment(string text, ISlide slide, IShape shape, 
 | position | PointF | Position on a slide where to add a new modern comment. |
 | creationTime | DateTime | Time of a modern comment creation. |
 
-## Return Value
+### Return Value
 
 Added modern comment.
 

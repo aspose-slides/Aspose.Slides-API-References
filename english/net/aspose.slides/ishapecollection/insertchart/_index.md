@@ -23,7 +23,7 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | height | Single | Chart's height. |
 | index | Int32 | Chart's position in the collection. |
 
-## Return Value
+### Return Value
 
 Created chart.
 
@@ -56,7 +56,7 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | index | Int32 | Chart's position in the collection. |
 | initWithSample | Boolean | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
 
-## Return Value
+### Return Value
 
 Created chart.
 

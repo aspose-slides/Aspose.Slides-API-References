@@ -14,7 +14,7 @@ Represent types of points in animation motion path.
 public enum MotionPathPointsType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

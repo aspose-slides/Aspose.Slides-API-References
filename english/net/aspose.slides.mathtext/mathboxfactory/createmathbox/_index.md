@@ -18,7 +18,7 @@ public IMathBox CreateMathBox(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to apply box |
 
-## Return Value
+### Return Value
 
 new box element
 

@@ -18,7 +18,7 @@ public bool Contains(IMathBlock mathBlock)
 | --- | --- | --- |
 | mathBlock | IMathBlock | The object to locate in the collection. |
 
-## Return Value
+### Return Value
 
 true if *mathBlock* is found in the collection; otherwise, false.
 

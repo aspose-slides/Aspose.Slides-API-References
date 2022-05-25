@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`Reflection`](../../reflection) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

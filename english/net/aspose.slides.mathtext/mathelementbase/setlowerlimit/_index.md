@@ -18,7 +18,7 @@ public IMathLimit SetLowerLimit(IMathElement limit)
 | --- | --- | --- |
 | limit | IMathElement | limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 
@@ -55,7 +55,7 @@ public IMathLimit SetLowerLimit(string limit)
 | --- | --- | --- |
 | limit | String | limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 

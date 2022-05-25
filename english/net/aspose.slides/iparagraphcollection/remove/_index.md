@@ -18,7 +18,7 @@ public bool Remove(IParagraph item)
 | --- | --- | --- |
 | item | IParagraph | The paragraph to remove from collection. |
 
-## Return Value
+### Return Value
 
 true if *item* was successfully removed; otherwise, false.
 

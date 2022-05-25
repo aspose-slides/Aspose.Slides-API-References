@@ -19,7 +19,7 @@ public Bitmap GetTileImage(Color background, Color foreground)
 | background | Color | The background Color for the pattern. |
 | foreground | Color | The foreground Color for the pattern. |
 
-## Return Value
+### Return Value
 
 Tile Bitmap.
 

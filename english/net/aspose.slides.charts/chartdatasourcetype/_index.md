@@ -14,7 +14,7 @@ Represents a type of data source of the chart
 public enum ChartDataSourceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

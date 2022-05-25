@@ -14,7 +14,7 @@ Represent types of command for animation motion effect behavior.
 public enum MotionCommandPathType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

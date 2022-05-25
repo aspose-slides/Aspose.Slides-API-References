@@ -14,7 +14,7 @@ Represents source of hyperlink color.
 public enum HyperlinkColorSource
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

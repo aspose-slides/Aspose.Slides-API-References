@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForMapSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point ColorValue |
 
-## Return Value
+### Return Value
 
 New data point.
 

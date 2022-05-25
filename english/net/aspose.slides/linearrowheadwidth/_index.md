@@ -14,7 +14,7 @@ Represents the width of an arrowhead.
 public enum LineArrowheadWidth : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to apply delimiter |
 
-## Return Value
+### Return Value
 
 new math delimiter
 
@@ -44,7 +44,7 @@ public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
 | --- | --- | --- |
 | mathElements | IMathElementCollection | math elements to apply delimiter |
 
-## Return Value
+### Return Value
 
 new math delimiter
 

@@ -14,7 +14,7 @@ Specifies the summary zoom layout.
 public enum ZoomLayout
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

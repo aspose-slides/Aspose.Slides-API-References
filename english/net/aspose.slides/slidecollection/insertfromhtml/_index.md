@@ -22,7 +22,7 @@ public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceReso
 | resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
-## Return Value
+### Return Value
 
 Added slides.
 
@@ -49,7 +49,7 @@ public ISlide[] InsertFromHtml(int index, string htmlText)
 | index | Int32 | Position to insert. |
 | htmlText | String | Html to add. |
 
-## Return Value
+### Return Value
 
 Added slides
 
@@ -78,7 +78,7 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader,
 | resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
-## Return Value
+### Return Value
 
 Added slides.
 
@@ -105,7 +105,7 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader)
 | index | Int32 | Position to insert. |
 | htmlReader | TextReader | TextReader object which will be used as a source of a HTML file. |
 
-## Return Value
+### Return Value
 
 Added slides
 
@@ -134,7 +134,7 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
 | resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
-## Return Value
+### Return Value
 
 Added slides.
 
@@ -161,7 +161,7 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream)
 | index | Int32 | Position to insert. |
 | htmlStream | Stream | A Stream object which will be used as a source of a HTML file. |
 
-## Return Value
+### Return Value
 
 Added slides
 

@@ -14,7 +14,7 @@ Represents different color modes.
 public enum ColorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

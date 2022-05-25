@@ -14,7 +14,7 @@ Gets effective table cell formatting properties with inheritance and table style
 public ICellFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ICellFormatEffectiveData`](../../icellformateffectivedata).
 

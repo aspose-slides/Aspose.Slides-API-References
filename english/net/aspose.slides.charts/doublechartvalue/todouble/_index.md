@@ -14,7 +14,7 @@ Converts to Double.
 public double ToDouble()
 ```
 
-## Return Value
+### Return Value
 
 Returns LiteralDouble if DataSourceType equals DoubleLiterals. If DataSourceType equals Worksheet returns successfully converted to double cell value, otherwise returns NaN.
 

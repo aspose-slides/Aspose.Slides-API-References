@@ -18,7 +18,7 @@ public ISlide AddClone(ISlide sourceSlide)
 | --- | --- | --- |
 | sourceSlide | ISlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 New slide.
 
@@ -48,7 +48,7 @@ public ISlide AddClone(ISlide sourceSlide, ISection section)
 | sourceSlide | ISlide | Slide to clone. |
 | section | ISection | Section for a new slide. |
 
-## Return Value
+### Return Value
 
 New slide.
 
@@ -98,7 +98,7 @@ public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
 | sourceSlide | ISlide | Slide to clone. |
 | destLayout | ILayoutSlide | Layout slide for a new slide. |
 
-## Return Value
+### Return Value
 
 New slide.
 
@@ -126,7 +126,7 @@ public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCl
 | destMaster | IMasterSlide | Master slide for a new slide. |
 | allowCloneMissingLayout | Boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
-## Return Value
+### Return Value
 
 New slide.
 

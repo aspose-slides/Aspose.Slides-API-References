@@ -14,7 +14,7 @@ Gets effective Soft Edge effect data with the inheritance applied.
 public ISoftEdgeEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ISoftEdgeEffectiveData`](../../isoftedgeeffectivedata).
 

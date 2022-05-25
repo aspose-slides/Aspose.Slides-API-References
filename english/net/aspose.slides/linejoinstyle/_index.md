@@ -14,7 +14,7 @@ Represents the lines join style.
 public enum LineJoinStyle : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

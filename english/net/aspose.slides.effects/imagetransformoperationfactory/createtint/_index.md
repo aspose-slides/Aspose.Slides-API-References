@@ -19,7 +19,7 @@ public ITint CreateTint(float hue, float amount)
 | hue | Single | Hue. |
 | amount | Single | Amount. |
 
-## Return Value
+### Return Value
 
 Tint effect.
 

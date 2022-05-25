@@ -19,7 +19,7 @@ public ILuminance AddLuminanceEffect(float brightness, float contrast)
 | brightness | Single | The percent to change the brightness. |
 | contrast | Single | The percent to change the contrast. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

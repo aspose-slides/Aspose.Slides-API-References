@@ -22,7 +22,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 | upperLimit | IMathElement | Upper limit of integral |
 | limitLocations | MathLimitLocations | location of limits |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
@@ -64,7 +64,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 | lowerLimit | IMathElement | Lower limit of integral |
 | upperLimit | IMathElement | Upper limit of integral |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
@@ -102,7 +102,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType)
 | --- | --- | --- |
 | integralType | MathIntegralTypes | Integral type |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
@@ -142,7 +142,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 | upperLimit | String | Upper limit of integral |
 | limitLocations | MathLimitLocations | location of limits |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
@@ -182,7 +182,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 | lowerLimit | String | Lower limit of integral |
 | upperLimit | String | Upper limit of integral |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 

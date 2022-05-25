@@ -14,7 +14,7 @@ Top/bottom positions enumeration
 public enum MathTopBotPositions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

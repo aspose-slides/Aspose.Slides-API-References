@@ -14,7 +14,7 @@ Defines whether the Zoom object is using the slide preview or a cover image.
 public enum ZoomImageType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

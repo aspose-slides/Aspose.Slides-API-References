@@ -25,7 +25,7 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 | height | Single | The height of shape's frame. |
 | image | IPPImage | The image of picture frame. |
 
-## Return Value
+### Return Value
 
 Created PictureFrame object.
 

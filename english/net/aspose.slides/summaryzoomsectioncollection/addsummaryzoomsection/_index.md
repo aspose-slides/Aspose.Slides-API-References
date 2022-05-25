@@ -18,7 +18,7 @@ public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 | --- | --- | --- |
 | section | ISection | Section for a new Summary Zoom Section element [`ISection`](../../isection) |
 
-## Return Value
+### Return Value
 
 Added [`ISummaryZoomFrame`](../../isummaryzoomframe) element
 

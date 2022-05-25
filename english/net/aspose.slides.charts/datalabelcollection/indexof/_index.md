@@ -18,7 +18,7 @@ public int IndexOf(IDataLabel value)
 | --- | --- | --- |
 | value | IDataLabel | DataLabel to find. |
 
-## Return Value
+### Return Value
 
 Index of a DataLabel or -1 if DataLabel not from this collection.
 

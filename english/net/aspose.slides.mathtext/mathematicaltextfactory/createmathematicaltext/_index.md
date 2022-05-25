@@ -14,7 +14,7 @@ Create empty mathematical text element
 public IMathematicalText CreateMathematicalText()
 ```
 
-## Return Value
+### Return Value
 
 new Mathematical Text
 
@@ -39,7 +39,7 @@ public IMathematicalText CreateMathematicalText(char mathSymbol)
 | --- | --- | --- |
 | mathSymbol | Char | single symbol to use as text value |
 
-## Return Value
+### Return Value
 
 new Mathematical Text
 
@@ -64,7 +64,7 @@ public IMathematicalText CreateMathematicalText(string mathText)
 | --- | --- | --- |
 | mathText | String | text value |
 
-## Return Value
+### Return Value
 
 new Mathematical Text
 
@@ -90,7 +90,7 @@ public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat 
 | mathText | String | text value |
 | portionFormat | IPortionFormat | text format settings |
 
-## Return Value
+### Return Value
 
 new Mathematical Text
 

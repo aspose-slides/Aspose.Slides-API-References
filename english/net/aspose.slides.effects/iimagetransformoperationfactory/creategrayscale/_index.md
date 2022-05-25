@@ -14,7 +14,7 @@ Creates Gray scale effect.
 public IGrayScale CreateGrayScale()
 ```
 
-## Return Value
+### Return Value
 
 Returns gray scale effect.
 

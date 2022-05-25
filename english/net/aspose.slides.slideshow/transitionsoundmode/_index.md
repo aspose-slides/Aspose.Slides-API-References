@@ -14,7 +14,7 @@ Represent sound mode of transition.
 public enum TransitionSoundMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

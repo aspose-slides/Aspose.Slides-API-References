@@ -18,7 +18,7 @@ public IFillFormatCollectionEffectiveData GetFillStyles(Color styleColor)
 | --- | --- | --- |
 | styleColor | Color | Color Color |
 
-## Return Value
+### Return Value
 
 Collection of effective fill formats [`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
 

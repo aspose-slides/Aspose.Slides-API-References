@@ -24,7 +24,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 | height | Single | Height of a new OLE frame. |
 | dataInfo | IOleEmbeddedDataInfo | Embedded data info [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
-## Return Value
+### Return Value
 
 Created OLE object.
 
@@ -68,7 +68,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 | className | String | Name of an OLE class. |
 | path | String | Path to the linked file. |
 
-## Return Value
+### Return Value
 
 Created OLE object.
 

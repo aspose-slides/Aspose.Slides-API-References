@@ -14,7 +14,7 @@ Represents a way to handle external fonts used for text drawing.
 public enum SvgExternalFontsHandling
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

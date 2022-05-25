@@ -14,7 +14,7 @@ Sets default master handout slide to related handout slide.
 public IMasterHandoutSlide SetDefaultMasterHandoutSlide()
 ```
 
-## Return Value
+### Return Value
 
 Master handout slide [`IMasterHandoutSlide`](../../imasterhandoutslide)
 

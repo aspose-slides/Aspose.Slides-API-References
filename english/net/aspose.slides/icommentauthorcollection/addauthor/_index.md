@@ -19,7 +19,7 @@ public ICommentAuthor AddAuthor(string name, string initials)
 | name | String | Name of a new author. |
 | initials | String | Initials of a new author. |
 
-## Return Value
+### Return Value
 
 New [`ICommentAuthor`](../../icommentauthor) object.
 

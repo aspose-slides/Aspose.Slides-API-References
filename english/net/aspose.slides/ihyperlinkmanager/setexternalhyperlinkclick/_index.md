@@ -18,7 +18,7 @@ public IHyperlink SetExternalHyperlinkClick(string url)
 | --- | --- | --- |
 | url | String | Hyperlink URL. |
 
-## Return Value
+### Return Value
 
 Hyperlink object [`IHyperlink`](../../ihyperlink)
 

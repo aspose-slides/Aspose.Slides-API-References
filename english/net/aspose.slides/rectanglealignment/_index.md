@@ -14,7 +14,7 @@ Defines 2-dimension allignment.
 public enum RectangleAlignment : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

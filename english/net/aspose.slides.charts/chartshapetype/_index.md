@@ -14,7 +14,7 @@ Represents a shape of chart.
 public enum ChartShapeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

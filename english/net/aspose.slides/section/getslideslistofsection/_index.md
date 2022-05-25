@@ -14,7 +14,7 @@ Returns list of slides in the section.
 public ISectionSlideCollection GetSlidesListOfSection()
 ```
 
-## Return Value
+### Return Value
 
 List of slides.
 

@@ -18,7 +18,7 @@ public IMathDelimiter Delimit(char separatorCharacter)
 | --- | --- | --- |
 | separatorCharacter | Char | Character used as a separator |
 
-## Return Value
+### Return Value
 
 Instance of IMathDelimiter element
 

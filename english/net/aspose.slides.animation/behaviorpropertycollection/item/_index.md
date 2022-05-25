@@ -18,7 +18,7 @@ public IBehaviorProperty this[int index] { get; set; }
 | --- | --- |
 | index | Index of a property to return. |
 
-## Return Value
+### Return Value
 
 Animation behavior property.
 

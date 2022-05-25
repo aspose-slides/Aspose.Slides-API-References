@@ -18,7 +18,7 @@ public bool Remove(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | Value of the property to remove. |
 
-## Return Value
+### Return Value
 
 True if a property removed successfully Boolean
 

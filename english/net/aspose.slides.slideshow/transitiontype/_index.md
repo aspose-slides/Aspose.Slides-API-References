@@ -14,7 +14,7 @@ Represent slide show transition type.
 public enum TransitionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

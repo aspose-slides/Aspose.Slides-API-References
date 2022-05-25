@@ -14,7 +14,7 @@ Represents a type of hyperlink action.
 public enum ColorStringFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

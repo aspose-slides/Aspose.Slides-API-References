@@ -19,7 +19,7 @@ public ISection AddSection(string name, ISlide startedFromSlide)
 | name | String | Name of the section |
 | startedFromSlide | ISlide | First slide of section |
 
-## Return Value
+### Return Value
 
 Added section.
 

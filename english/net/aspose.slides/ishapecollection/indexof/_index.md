@@ -18,7 +18,7 @@ public int IndexOf(IShape shape)
 | --- | --- | --- |
 | shape | IShape | The shape to locate in the collection. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
 

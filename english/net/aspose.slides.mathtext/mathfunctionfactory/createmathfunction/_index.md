@@ -19,7 +19,7 @@ public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement base
 | funcName | IMathElement | Element used as a function name |
 | baseArgument | IMathElement | Element used as a function argument |
 
-## Return Value
+### Return Value
 
 new math function
 
@@ -46,7 +46,7 @@ public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgume
 | funcName | String | Function name |
 | baseArgument | IMathElement | Element used as a function argument |
 
-## Return Value
+### Return Value
 
 new math function
 

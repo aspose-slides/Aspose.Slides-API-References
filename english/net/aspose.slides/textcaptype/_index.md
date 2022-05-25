@@ -14,7 +14,7 @@ Represents the type of text capitalisation.
 public enum TextCapType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

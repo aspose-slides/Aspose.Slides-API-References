@@ -14,7 +14,7 @@ Returns names of tags.
 public string[] GetNamesOfTags()
 ```
 
-## Return Value
+### Return Value
 
 Names of tags.
 

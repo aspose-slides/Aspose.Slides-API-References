@@ -14,7 +14,7 @@ Adds the new Gray Scale effect to the end of a collection.
 public IGrayScale AddGrayScaleEffect()
 ```
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

@@ -19,7 +19,7 @@ public Bitmap GetThumbnail(float scaleX, float scaleY)
 | scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
 
-## Return Value
+### Return Value
 
 Bitmap object Bitmap
 
@@ -39,7 +39,7 @@ Returns a Thumbnail Image object (20% of real size).
 public Bitmap GetThumbnail()
 ```
 
-## Return Value
+### Return Value
 
 Bitmap object Bitmap
 
@@ -63,7 +63,7 @@ public Bitmap GetThumbnail(Size imageSize)
 | --- | --- | --- |
 | imageSize | Size | Size of the image to create. |
 
-## Return Value
+### Return Value
 
 Bitmap object.
 
@@ -87,7 +87,7 @@ public Bitmap GetThumbnail(ITiffOptions options)
 | --- | --- | --- |
 | options | ITiffOptions | Tiff options. |
 
-## Return Value
+### Return Value
 
 Bitmap object.
 
@@ -112,7 +112,7 @@ public Bitmap GetThumbnail(IRenderingOptions options)
 | --- | --- | --- |
 | options | IRenderingOptions | Rendering options. |
 
-## Return Value
+### Return Value
 
 Bitmap objects.
 
@@ -139,7 +139,7 @@ public Bitmap GetThumbnail(IRenderingOptions options, float scaleX, float scaleY
 | scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
 
-## Return Value
+### Return Value
 
 Bitmap objects.
 
@@ -165,7 +165,7 @@ public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
 | options | IRenderingOptions | Rendering options. |
 | imageSize | Size | Size of the image to create. |
 
-## Return Value
+### Return Value
 
 Bitmap objects.
 

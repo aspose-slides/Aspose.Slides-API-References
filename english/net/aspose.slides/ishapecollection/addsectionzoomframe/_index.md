@@ -23,7 +23,7 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 | height | Single | Height of a new Section Zoom frame Single. |
 | section | ISection | The section object referenced by the Section Zoom frame [`ISection`](../../isection). |
 
-## Return Value
+### Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 
@@ -73,7 +73,7 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 | section | ISection | The section object referenced by the Section Zoom frame [`ISection`](../../isection). |
 | image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
-## Return Value
+### Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 

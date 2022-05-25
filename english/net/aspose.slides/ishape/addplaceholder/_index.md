@@ -18,7 +18,7 @@ public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)
 | --- | --- | --- |
 | placeholderToCopyFrom | IPlaceholder | Placeholder to copy content from. |
 
-## Return Value
+### Return Value
 
 New [`IPlaceholder`](../../iplaceholder).
 

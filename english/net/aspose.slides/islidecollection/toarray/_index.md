@@ -14,7 +14,7 @@ Creates and returns an array with all slides in it.
 public ISlide[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`ISlide`](../../islide)
 
@@ -40,7 +40,7 @@ public ISlide[] ToArray(int startIndex, int count)
 | startIndex | Int32 | An index of a first slide to add. |
 | count | Int32 | A number of slides to add. |
 
-## Return Value
+### Return Value
 
 Array of [`ISlide`](../../islide)
 

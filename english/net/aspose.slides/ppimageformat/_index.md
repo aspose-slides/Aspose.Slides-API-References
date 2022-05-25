@@ -14,7 +14,7 @@ Image formats. This enum is replacement for `System.Drawing.Imaging.ImageFormat`
 public enum PPImageFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

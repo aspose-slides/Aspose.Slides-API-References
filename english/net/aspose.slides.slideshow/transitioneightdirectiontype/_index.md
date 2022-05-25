@@ -14,7 +14,7 @@ Represent eight direction transition types.
 public enum TransitionEightDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

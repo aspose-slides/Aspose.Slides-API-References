@@ -18,7 +18,7 @@ public ITextFrame AddTextFrame(string text)
 | --- | --- | --- |
 | text | String | Default text for a new TextFrame. |
 
-## Return Value
+### Return Value
 
 New [`ITextFrame`](../../itextframe) object.
 

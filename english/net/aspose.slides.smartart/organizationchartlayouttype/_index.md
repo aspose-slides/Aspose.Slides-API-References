@@ -14,7 +14,7 @@ Represents formatting type the child nodes in an organization chart
 public enum OrganizationChartLayoutType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

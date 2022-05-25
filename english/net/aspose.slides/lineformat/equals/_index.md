@@ -18,7 +18,7 @@ public bool Equals(ILineFormat lineFormat)
 | --- | --- | --- |
 | lineFormat | ILineFormat | The LineFormat to compare with the current LineFormat. |
 
-## Return Value
+### Return Value
 
 **true** if the specified LineFormat is equal to the current LineFormat; otherwise, **false**.
 

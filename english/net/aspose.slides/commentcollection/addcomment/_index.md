@@ -21,7 +21,7 @@ public IComment AddComment(string text, ISlide slide, PointF position, DateTime 
 | position | PointF | Position on a slide where to add a new comment. |
 | creationTime | DateTime | Time of a comment creation. |
 
-## Return Value
+### Return Value
 
 Added comment.
 

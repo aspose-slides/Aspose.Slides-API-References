@@ -14,7 +14,7 @@ Gets effective Alpha Bi-Level effect data with the inheritance applied.
 public IAlphaBiLevelEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IAlphaBiLevelEffectiveData`](../../ialphabileveleffectivedata).
 

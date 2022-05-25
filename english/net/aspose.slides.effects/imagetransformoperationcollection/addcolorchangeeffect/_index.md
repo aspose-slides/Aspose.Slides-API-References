@@ -14,7 +14,7 @@ Adds the new Color Change effect to the end of a collection.
 public IColorChange AddColorChangeEffect()
 ```
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

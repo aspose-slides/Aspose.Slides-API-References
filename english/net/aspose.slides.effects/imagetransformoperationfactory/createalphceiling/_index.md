@@ -14,7 +14,7 @@ Creates Alpha Ceiling effect.
 public IAlphaCeiling CreateAlphCeiling()
 ```
 
-## Return Value
+### Return Value
 
 Alpha Ceiling effect.
 

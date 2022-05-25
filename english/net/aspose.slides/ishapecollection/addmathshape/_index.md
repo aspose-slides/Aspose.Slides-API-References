@@ -21,7 +21,7 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 | width | Single | The width of shape's frame. |
 | height | Single | The height of shape's frame. |
 
-## Return Value
+### Return Value
 
 Created AutoShape object.
 

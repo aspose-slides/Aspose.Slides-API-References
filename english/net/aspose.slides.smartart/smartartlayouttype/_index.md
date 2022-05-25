@@ -14,7 +14,7 @@ Represents layout type of a SmartArt diagram.
 public enum SmartArtLayoutType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

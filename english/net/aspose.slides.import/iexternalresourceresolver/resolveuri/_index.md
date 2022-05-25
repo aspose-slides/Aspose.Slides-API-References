@@ -19,7 +19,7 @@ public string ResolveUri(string baseUri, string relativeUri)
 | baseUri | String | Base URI of linking objects |
 | relativeUri | String | Relative URI to the linked object. |
 
-## Return Value
+### Return Value
 
 Absolute URI or null if the relative URI cannot be resolved.
 

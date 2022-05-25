@@ -20,7 +20,7 @@ public IHSL CreateHSL(float hue, float saturation, float luminance)
 | saturation | Single | Saturation. |
 | luminance | Single | Luminance. |
 
-## Return Value
+### Return Value
 
 HSL effect.
 

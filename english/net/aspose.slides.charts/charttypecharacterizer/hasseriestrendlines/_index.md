@@ -18,7 +18,7 @@ public static bool HasSeriesTrendLines(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Series type. |
 
-## Return Value
+### Return Value
 
 True if present otherwise false.
 

@@ -14,7 +14,7 @@ Returns an array with all slides, which depend on this layout slide.
 public ISlide[] GetDependingSlides()
 ```
 
-## Return Value
+### Return Value
 
 Array with all slides, which depend on this layout slide
 

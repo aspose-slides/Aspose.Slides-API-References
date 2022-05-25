@@ -14,7 +14,7 @@ Mathematical integral types
 public enum MathIntegralTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

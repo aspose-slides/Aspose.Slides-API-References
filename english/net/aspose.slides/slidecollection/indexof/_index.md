@@ -18,7 +18,7 @@ public int IndexOf(ISlide slide)
 | --- | --- | --- |
 | slide | ISlide | Slide to find. |
 
-## Return Value
+### Return Value
 
 Index of a slide or -1 if slide not from this collection.
 

@@ -14,7 +14,7 @@ Creates a copy of a ColorOperationCollection collection.
 public object Clone()
 ```
 
-## Return Value
+### Return Value
 
 New [`ColorOperationCollection`](../../coloroperationcollection) collection.
 

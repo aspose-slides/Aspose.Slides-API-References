@@ -14,7 +14,7 @@ Represents style scheme of a SmartArt diagram.
 public enum SmartArtQuickStyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

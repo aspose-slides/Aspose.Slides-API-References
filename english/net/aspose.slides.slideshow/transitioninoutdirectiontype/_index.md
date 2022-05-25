@@ -14,7 +14,7 @@ Represent in or out direction transition types.
 public enum TransitionInOutDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

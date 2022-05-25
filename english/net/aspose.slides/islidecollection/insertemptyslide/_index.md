@@ -19,7 +19,7 @@ public ISlide InsertEmptySlide(int index, ILayoutSlide layout)
 | index | Int32 | Index of a new slide. |
 | layout | ILayoutSlide | Layout for a slide. |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 

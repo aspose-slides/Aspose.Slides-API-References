@@ -14,7 +14,7 @@ Puts in a vertical array
 public virtual IMathArray ToMathArray()
 ```
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathArray`](../../imatharray)
 

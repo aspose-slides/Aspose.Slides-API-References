@@ -14,7 +14,7 @@ Gets effective Fill Overlay effect data with the inheritance applied.
 public IFillOverlayEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IFillOverlayEffectiveData`](../../ifilloverlayeffectivedata).
 

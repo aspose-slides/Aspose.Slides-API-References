@@ -18,7 +18,7 @@ public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
 | --- | --- | --- |
 | fname | String | Path to the external theme file (.thmx). |
 
-## Return Value
+### Return Value
 
 New themed MasterSlide.
 

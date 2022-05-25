@@ -14,7 +14,7 @@ Determines how object will be processed during saving.
 public enum LinkEmbedDecision
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

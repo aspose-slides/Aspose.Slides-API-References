@@ -19,7 +19,7 @@ public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string lib
 | name | String | Name of the VBA project reference String |
 | libid | String | Identifier of an Automation type library String |
 
-## Return Value
+### Return Value
 
 New OLE Automation type library reference [`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
 

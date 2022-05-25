@@ -14,7 +14,7 @@ Determines how picture will fill area.
 public enum PictureFillMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

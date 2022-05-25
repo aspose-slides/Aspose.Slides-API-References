@@ -14,7 +14,7 @@ Nary operator IMathNaryOperator types (excluding integrals) For integrals [`Math
 public enum MathNaryOperatorTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

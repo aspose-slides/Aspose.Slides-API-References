@@ -30,11 +30,11 @@ public class TextStyle : PVIObject, ITextStyle
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 | [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | If level of style exist returns it, otherwise returns null. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| static readonly [MaxLevelCount](maxlevelcount) | Maximum count of style levels that can be defined. Use it with GetLevel(int index) |
+| static readonly [MaxLevelCount](../../aspose.slides/textstyle/maxlevelcount) | Maximum count of style levels that can be defined. Use it with GetLevel(int index) |
 
 ### See Also
 

@@ -20,7 +20,7 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 | row | Int32 | The row. |
 | column | Int32 | The column. |
 
-## Return Value
+### Return Value
 
 Cell object
 
@@ -47,7 +47,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 | row | Int32 | The row. |
 | column | Int32 | The column. |
 
-## Return Value
+### Return Value
 
 Cell object
 
@@ -73,7 +73,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 | worksheetIndex | Int32 | Index of the worksheet. |
 | cellName | String | Name of the cell. |
 
-## Return Value
+### Return Value
 
 Cell object
 
@@ -100,7 +100,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 | cellName | String | Name of the cell. |
 | value | Object | The value. |
 
-## Return Value
+### Return Value
 
 Cell object
 
@@ -128,7 +128,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column, object va
 | column | Int32 | The column. |
 | value | Object | The value. |
 
-## Return Value
+### Return Value
 
 Cell object
 

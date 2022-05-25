@@ -18,7 +18,7 @@ public IShape FindShapeByAltText(string altText)
 | --- | --- | --- |
 | altText | String | Alternative text. |
 
-## Return Value
+### Return Value
 
 Shape object or null.
 

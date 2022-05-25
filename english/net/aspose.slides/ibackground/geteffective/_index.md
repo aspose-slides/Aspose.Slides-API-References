@@ -14,7 +14,7 @@ Gets effective background data with the inheritance applied.
 public IBackgroundEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 

@@ -19,7 +19,7 @@ public IMathMatrix CreateMathMatrix(int rowCount, int columnCount)
 | rowCount | Int32 | row count |
 | columnCount | Int32 | column count |
 
-## Return Value
+### Return Value
 
 new math matrix
 

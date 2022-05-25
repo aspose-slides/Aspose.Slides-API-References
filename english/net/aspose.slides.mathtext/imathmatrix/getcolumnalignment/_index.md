@@ -18,7 +18,7 @@ public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
 | --- | --- | --- |
 | columnIndex | Int32 | Zero-based column index |
 
-## Return Value
+### Return Value
 
 Horizontal Alignment of specified column
 

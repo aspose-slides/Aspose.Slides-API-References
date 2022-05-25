@@ -14,7 +14,7 @@ Enumeration of types of shape thumbnail bounds.
 public enum ShapeThumbnailBounds
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

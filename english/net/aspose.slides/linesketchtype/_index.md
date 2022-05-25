@@ -14,7 +14,7 @@ Represents which sketch type or effect a shape has been assigned.
 public enum LineSketchType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

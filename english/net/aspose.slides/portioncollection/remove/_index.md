@@ -18,7 +18,7 @@ public bool Remove(IPortion item)
 | --- | --- | --- |
 | item | IPortion | The object to remove from the ICollection. |
 
-## Return Value
+### Return Value
 
 true if *item* was successfully removed from the ICollection; otherwise, false. This method also returns false if *item* is not found in the original ICollection.
 

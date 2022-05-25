@@ -14,7 +14,7 @@ Gets effective Reflection effect data with the inheritance applied.
 public IReflectionEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IReflectionEffectiveData`](../../ireflectioneffectivedata).
 

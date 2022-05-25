@@ -18,7 +18,7 @@ public bool Contains(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | Value of the property to locate in the ICollection. |
 
-## Return Value
+### Return Value
 
 true if *propertyValue* is found in the ICollection; otherwise, false.
 

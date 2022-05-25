@@ -14,7 +14,7 @@ Represents an index in a colorscheme.
 public enum ColorSchemeIndex : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

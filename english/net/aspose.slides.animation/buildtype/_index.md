@@ -14,7 +14,7 @@ Determines how text will appear on a shape during animation.
 public enum BuildType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

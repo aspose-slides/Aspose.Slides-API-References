@@ -14,7 +14,7 @@ Returns type of quartile method
 public enum QuartileMethodType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

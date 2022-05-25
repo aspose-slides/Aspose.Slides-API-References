@@ -14,7 +14,7 @@ Specifies justification of the math paragraph (a series of adjacent instances of
 public enum MathJustification
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

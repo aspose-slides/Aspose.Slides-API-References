@@ -14,7 +14,7 @@ Represent restart types for timing.
 public enum EffectRestartType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

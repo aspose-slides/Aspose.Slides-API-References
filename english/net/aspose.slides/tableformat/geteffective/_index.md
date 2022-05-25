@@ -14,7 +14,7 @@ Gets effective table formatting properties with inheritance and table styles app
 public ITableFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ITableFormatEffectiveData`](../../itableformateffectivedata).
 

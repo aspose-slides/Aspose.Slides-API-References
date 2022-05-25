@@ -18,7 +18,7 @@ public IEffectStyleCollectionEffectiveData GetEffectStyles(Color styleColor)
 | --- | --- | --- |
 | styleColor | Color | Color Color |
 
-## Return Value
+### Return Value
 
 Collection of effective effect styles [`IEffectStyleCollectionEffectiveData`](../../ieffectstylecollectioneffectivedata)
 

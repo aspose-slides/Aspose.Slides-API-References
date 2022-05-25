@@ -14,7 +14,7 @@ Creates new [`ITextFrameFormat`](../../itextframeformat).
 public ITextFrameFormat CreateTextFrameFormat()
 ```
 
-## Return Value
+### Return Value
 
 New text frame format.
 

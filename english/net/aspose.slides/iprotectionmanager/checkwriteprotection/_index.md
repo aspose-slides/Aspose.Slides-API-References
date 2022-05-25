@@ -18,7 +18,7 @@ public bool CheckWriteProtection(string password)
 | --- | --- | --- |
 | password | String | The password for checking. |
 
-## Return Value
+### Return Value
 
 True if the password is valid; otherwise, false.
 

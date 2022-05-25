@@ -14,7 +14,7 @@ Creates filter effect.
 public IFilterEffect CreateFilterEffect()
 ```
 
-## Return Value
+### Return Value
 
 Filter effect.
 

@@ -14,7 +14,7 @@ Represents additive type for effect behavior.
 public enum BehaviorAdditiveType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

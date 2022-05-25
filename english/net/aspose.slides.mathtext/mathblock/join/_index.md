@@ -18,7 +18,7 @@ public override IMathBlock Join(IMathElement mathElement)
 | --- | --- | --- |
 | mathElement | IMathElement | The element to be joined |
 
-## Return Value
+### Return Value
 
 The current instance of IMathBlock
 
@@ -55,7 +55,7 @@ public override IMathBlock Join(string mathText)
 | --- | --- | --- |
 | mathText | String | Mathematical text to be joined |
 
-## Return Value
+### Return Value
 
 A new IMathBlock containing this instance and specified argument
 

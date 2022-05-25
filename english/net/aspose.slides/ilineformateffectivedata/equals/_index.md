@@ -18,7 +18,7 @@ public bool Equals(ILineFormatEffectiveData lf)
 | --- | --- | --- |
 | lf | ILineFormatEffectiveData | The ILineFormatEffectiveData to compare with the current ILineFormatEffectiveData. |
 
-## Return Value
+### Return Value
 
 **true** if the specified ILineFormatEffectiveData is equal to the current ILineFormatEffectiveData; otherwise, **false**.
 

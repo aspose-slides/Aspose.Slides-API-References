@@ -14,7 +14,7 @@ Gets effective table row formatting properties with inheritance and table styles
 public IRowFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IRowFormatEffectiveData`](../../irowformateffectivedata).
 

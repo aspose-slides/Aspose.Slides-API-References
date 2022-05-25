@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForFunnelSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point value |
 
-## Return Value
+### Return Value
 
 New data point.
 

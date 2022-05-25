@@ -14,7 +14,7 @@ Represents subtypes of animation effect.
 public enum EffectSubtype
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

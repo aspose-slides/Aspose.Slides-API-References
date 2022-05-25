@@ -14,7 +14,7 @@ Represent effect class types.
 public enum EffectPresetClassType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

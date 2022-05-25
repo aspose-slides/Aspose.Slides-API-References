@@ -14,7 +14,7 @@ Gets effective portion formatting data with the inheritance applied.
 public IPortionFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
 

@@ -14,7 +14,7 @@ Creates new presentation.
 public IPresentation CreatePresentation()
 ```
 
-## Return Value
+### Return Value
 
 New presentation
 
@@ -39,7 +39,7 @@ public IPresentation CreatePresentation(ILoadOptions options)
 | --- | --- | --- |
 | options | ILoadOptions | Load options |
 
-## Return Value
+### Return Value
 
 New presentation
 

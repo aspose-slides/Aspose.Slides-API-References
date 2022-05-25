@@ -18,7 +18,7 @@ public int CompareTo(object obj)
 | --- | --- | --- |
 | obj | Object | An object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 A 32-bit integer that indicates the relative order of the comparands. The return value has these meanings:  &lt; 0 - This instance is less than obj. = 0 - This instance is equal to obj. &gt; 0 - This instance is greater than obj.
 

@@ -14,7 +14,7 @@ Writes the internally contained Excel workbook it into an in-memory stream.
 public MemoryStream ReadWorkbookStream()
 ```
 
-## Return Value
+### Return Value
 
 Returns an instance of `MemoryStream` containing a copy of the internally contained Excel workbook.
 

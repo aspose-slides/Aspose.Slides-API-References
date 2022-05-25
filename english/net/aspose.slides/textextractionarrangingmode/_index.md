@@ -14,7 +14,7 @@ Represents the mode to use during text extraction
 public enum TextExtractionArrangingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

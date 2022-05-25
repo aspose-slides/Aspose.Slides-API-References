@@ -14,7 +14,7 @@ Represents the type of text strikethrough.
 public enum TextStrikethroughType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -23,7 +23,7 @@ public LinkEmbedDecision GetObjectStoringLocation(int id, byte[] entityData, str
 | contentType | String | MIME type of object. |
 | recomendedExtension | String | File name extension, recommended for this MIME type. |
 
-## Return Value
+### Return Value
 
 Decision
 

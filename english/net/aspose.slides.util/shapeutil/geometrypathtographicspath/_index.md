@@ -18,7 +18,7 @@ public static GraphicsPath GeometryPathToGraphicsPath(IGeometryPath geometryPath
 | --- | --- | --- |
 | geometryPath | IGeometryPath |  |
 
-## Return Value
+### Return Value
 
 Graphics path
 

@@ -14,7 +14,7 @@ Represents the tab alignment.
 public enum TabAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

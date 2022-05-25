@@ -14,7 +14,7 @@ Gets effective Bi-Level effect data with the inheritance applied.
 public IBiLevelEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IBiLevelEffectiveData`](../../ibileveleffectivedata).
 

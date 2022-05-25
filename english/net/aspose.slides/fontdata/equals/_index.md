@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The FontData to compare with the current FontData. |
 
-## Return Value
+### Return Value
 
 **true** if the specified FontData is equal to the current FontData; otherwise, **false**.
 

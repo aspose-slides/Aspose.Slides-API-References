@@ -14,7 +14,7 @@ Specifies a geometric pattern that tiles together to fill a larger area.
 public enum TransitionPattern
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

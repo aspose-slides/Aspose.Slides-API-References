@@ -18,7 +18,7 @@ public ICustomXmlPart Add(byte[] xmlData)
 | --- | --- | --- |
 | xmlData | Byte[] | The xml data of new part to be added. |
 
-## Return Value
+### Return Value
 
 Created custom xml part.
 
@@ -50,7 +50,7 @@ public ICustomXmlPart Add(string xmlString)
 | --- | --- | --- |
 | xmlString | String | The xml string of new part to be added. |
 
-## Return Value
+### Return Value
 
 Created custom xml part.
 
@@ -82,7 +82,7 @@ public ICustomXmlPart Add(Stream inputStream)
 | --- | --- | --- |
 | inputStream | Stream | The inputStream with xml data of new part to be added. |
 
-## Return Value
+### Return Value
 
 Created custom xml part.
 

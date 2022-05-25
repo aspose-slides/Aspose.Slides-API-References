@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The TransitionValueBase to compare with the current TransitionValueBase. |
 
-## Return Value
+### Return Value
 
 **true** if the specified TransitionValueBase is equal to the current TransitionValueBase; otherwise, **false**.
 

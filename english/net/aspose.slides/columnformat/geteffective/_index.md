@@ -14,7 +14,7 @@ Gets effective table column formatting properties with inheritance and table sty
 public IColumnFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IColumnFormatEffectiveData`](../../icolumnformateffectivedata).
 

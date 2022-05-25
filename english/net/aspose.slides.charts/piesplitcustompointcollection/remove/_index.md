@@ -18,7 +18,7 @@ public bool Remove(IChartDataPoint dataPoint)
 | --- | --- | --- |
 | dataPoint | IChartDataPoint | Data point remove to. |
 
-## Return Value
+### Return Value
 
 true if item is successfully removed; otherwise, false. This method also returns false if item was not found in the System.Collections.Generic.List{T}.
 

@@ -18,7 +18,7 @@ public static BehaviorProperty GetOrCreateByValue(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | value of the property |
 
-## Return Value
+### Return Value
 
 instance of BehaviorProperty
 

@@ -23,7 +23,7 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 | height | Single | The height of diagram's frame. |
 | layoutType | SmartArtLayoutType | The type of SmartArt diagram |
 
-## Return Value
+### Return Value
 
 Create SmartArt diagram
 

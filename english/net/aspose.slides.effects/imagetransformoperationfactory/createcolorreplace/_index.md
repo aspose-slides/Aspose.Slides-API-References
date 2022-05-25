@@ -14,7 +14,7 @@ Creates Color replace effect.
 public IColorReplace CreateColorReplace()
 ```
 
-## Return Value
+### Return Value
 
 Color replace effect.
 

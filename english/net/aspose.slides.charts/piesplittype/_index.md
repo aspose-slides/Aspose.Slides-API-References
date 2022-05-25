@@ -14,7 +14,7 @@ Represents a type of splitting points in the second pie or bar on a pie-of-pie o
 public enum PieSplitType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

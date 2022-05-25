@@ -18,7 +18,7 @@ public IGroupShape InsertGroupShape(int index)
 | --- | --- | --- |
 | index | Int32 | The zero-based index at which value should be inserted. |
 
-## Return Value
+### Return Value
 
 Created GroupShape object.
 

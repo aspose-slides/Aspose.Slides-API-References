@@ -22,7 +22,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 | height | Single | Height of a new video frame. |
 | fname | String | Video file name. |
 
-## Return Value
+### Return Value
 
 Created VideoFrame object.
 
@@ -51,7 +51,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 | height | Single | Height of a new video frame. |
 | video | IVideo | Video to add. |
 
-## Return Value
+### Return Value
 
 Created VideoFrame object.
 

@@ -14,7 +14,7 @@ Represents the size of a placeholder.
 public enum PlaceholderSize : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

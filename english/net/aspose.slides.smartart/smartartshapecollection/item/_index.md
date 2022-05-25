@@ -18,7 +18,7 @@ public ISmartArtShape this[int index] { get; }
 | --- | --- |
 | index |  |
 
-## Return Value
+### Return Value
 
 The SmartArt shape
 

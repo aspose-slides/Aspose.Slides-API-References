@@ -14,7 +14,7 @@ Creates property effect.
 public IPropertyEffect CreatePropertyEffect()
 ```
 
-## Return Value
+### Return Value
 
 Property effect.
 

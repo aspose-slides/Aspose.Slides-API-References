@@ -14,7 +14,7 @@ Adds new text animation to the collection.
 public TextAnimation Add()
 ```
 
-## Return Value
+### Return Value
 
 Added `TextAnimation`
 

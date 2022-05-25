@@ -39,7 +39,7 @@ public int Add(IParagraphCollection value)
 | --- | --- | --- |
 | value | IParagraphCollection | The ParagraphCollection to be added to the end of the collection. |
 
-## Return Value
+### Return Value
 
 The index at which the Paragraph has been added or -1 if there are nothing to add.
 

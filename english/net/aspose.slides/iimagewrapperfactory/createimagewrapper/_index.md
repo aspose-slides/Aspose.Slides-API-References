@@ -18,7 +18,7 @@ public IImageWrapper CreateImageWrapper(Image image)
 | --- | --- | --- |
 | image | Image | Existing Image Image |
 
-## Return Value
+### Return Value
 
 New instance of a [`IImageWrapper`](../../iimagewrapper)
 
@@ -43,7 +43,7 @@ public IImageWrapper CreateImageWrapper(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Data stream Stream |
 
-## Return Value
+### Return Value
 
 New instance of a [`IImageWrapper`](../../iimagewrapper)
 
@@ -68,7 +68,7 @@ public IImageWrapper CreateImageWrapper(string fileName)
 | --- | --- | --- |
 | fileName | String | File name String |
 
-## Return Value
+### Return Value
 
 New instance of a [`IImageWrapper`](../../iimagewrapper)
 

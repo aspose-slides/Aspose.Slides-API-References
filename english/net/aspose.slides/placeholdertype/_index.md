@@ -14,7 +14,7 @@ Represents the type of a placeholder.
 public enum PlaceholderType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

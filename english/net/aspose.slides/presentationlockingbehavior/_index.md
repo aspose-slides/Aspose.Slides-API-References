@@ -22,7 +22,7 @@ For this example, the source ("pres.pptx" file) will be locked for a [`IPresenta
 public enum PresentationLockingBehavior
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

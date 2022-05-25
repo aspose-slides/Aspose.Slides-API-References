@@ -14,7 +14,7 @@ Fraction Types
 public enum MathFractionTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

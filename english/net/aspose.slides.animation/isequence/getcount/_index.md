@@ -18,7 +18,7 @@ public int GetCount(IShape shape)
 | --- | --- | --- |
 | shape | IShape | Shape object [`IShape`](../../../aspose.slides/ishape) |
 
-## Return Value
+### Return Value
 
 Count of effects Int32
 

@@ -19,7 +19,7 @@ public IMathRadical CreateMathRadical(IMathElement baseArgument, IMathElement de
 | baseArgument | IMathElement | Base argument to apply radical |
 | degreeArgument | IMathElement | Degree value |
 
-## Return Value
+### Return Value
 
 new radical element
 

@@ -18,7 +18,7 @@ public ReturnAction Warning(IWarningInfo warning)
 | --- | --- | --- |
 | warning | IWarningInfo | Warning to process. |
 
-## Return Value
+### Return Value
 
 Abortion decision [`ReturnAction`](../../returnaction).
 

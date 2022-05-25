@@ -14,7 +14,7 @@ Gets effective text frame formatting data with the inheritance applied.
 public ITextFrameFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata).
 

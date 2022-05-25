@@ -18,7 +18,7 @@ public IAdjustValue this[int index] { get; }
 | --- | --- |
 | index | adjustment's index. |
 
-## Return Value
+### Return Value
 
 [`IAdjustValue`](../../iadjustvalue).
 

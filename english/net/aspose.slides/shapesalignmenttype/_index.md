@@ -14,7 +14,7 @@ Defines a way to change the placement of selected shapes on the slide.
 public enum ShapesAlignmentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

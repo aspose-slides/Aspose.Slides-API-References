@@ -18,7 +18,7 @@ public bool Equals(IHyperlink hlink)
 | --- | --- | --- |
 | hlink | IHyperlink | The Hyperlink to compare with the current Hyperlink. |
 
-## Return Value
+### Return Value
 
 **true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.
 

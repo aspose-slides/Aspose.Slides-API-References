@@ -18,7 +18,7 @@ public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 | --- | --- | --- |
 | superscript | IMathElement | Superscript (upper index on the right) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
@@ -55,7 +55,7 @@ public IMathSuperscriptElement SetSuperscript(string superscript)
 | --- | --- | --- |
 | superscript | String | Superscript (upper index on the right) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 

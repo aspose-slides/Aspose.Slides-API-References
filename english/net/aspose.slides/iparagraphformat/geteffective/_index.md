@@ -14,7 +14,7 @@ Gets effective paragraph formatting data with the inheritance applied.
 public IParagraphFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 

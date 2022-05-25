@@ -19,7 +19,7 @@ public ITab Add(double position, TabAlignment align)
 | position | Double | Tab position. |
 | align | TabAlignment | Tab alignment. |
 
-## Return Value
+### Return Value
 
 Added tab.
 
@@ -45,7 +45,7 @@ public int Add(ITab value)
 | --- | --- | --- |
 | value | ITab | The Tab object to be added at the end of the collection. |
 
-## Return Value
+### Return Value
 
 The index at which the tab was added.
 

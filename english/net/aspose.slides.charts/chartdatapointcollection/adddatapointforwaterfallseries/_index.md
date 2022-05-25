@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForWaterfallSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 

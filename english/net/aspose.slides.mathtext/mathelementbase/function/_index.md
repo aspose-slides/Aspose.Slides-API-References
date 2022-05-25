@@ -18,7 +18,7 @@ public IMathFunction Function(IMathElement functionArgument)
 | --- | --- | --- |
 | functionArgument | IMathElement | An argument of the function |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
@@ -55,7 +55,7 @@ public IMathFunction Function(string functionArgument)
 | --- | --- | --- |
 | functionArgument | String | An argument of the function |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 

@@ -14,7 +14,7 @@ Creates and returns an array with all FallBack fonts for this rule.
 public string[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of String
 
@@ -50,7 +50,7 @@ public string[] ToArray(int startIndex, int count)
 | startIndex | Int32 | An index of a first font to add. |
 | count | Int32 | A number of fonts to add. |
 
-## Return Value
+### Return Value
 
 Array of String
 

@@ -18,7 +18,7 @@ public ISection AppendEmptySection(string name)
 | --- | --- | --- |
 | name | String | Name of the section |
 
-## Return Value
+### Return Value
 
 Added section.
 

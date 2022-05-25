@@ -22,7 +22,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 | position | MathTopBotPositions | position of grouping character |
 | verticalJustification | MathTopBotPositions | vertical justification |
 
-## Return Value
+### Return Value
 
 new grouping character element
 
@@ -49,7 +49,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to apply grouping character |
 
-## Return Value
+### Return Value
 
 new grouping character element
 

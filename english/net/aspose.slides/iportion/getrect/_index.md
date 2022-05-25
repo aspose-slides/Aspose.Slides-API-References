@@ -14,7 +14,7 @@ Get coordinates of rect that bounds portion. The rect includes all the lines of 
 public RectangleF GetRect()
 ```
 
-## Return Value
+### Return Value
 
 Rectangle that bounds portion RectangleF
 

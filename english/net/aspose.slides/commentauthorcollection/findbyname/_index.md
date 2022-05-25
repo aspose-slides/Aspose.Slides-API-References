@@ -18,7 +18,7 @@ public ICommentAuthor[] FindByName(string name)
 | --- | --- | --- |
 | name | String | Name of an author to find. |
 
-## Return Value
+### Return Value
 
 Author or null.
 

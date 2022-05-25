@@ -14,7 +14,7 @@ Gets effective Alpha Modulate Fixed effect data with the inheritance applied.
 public IAlphaModulateFixedEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IAlphaModulateFixedEffectiveData`](../../ialphamodulatefixedeffectivedata).
 

@@ -18,7 +18,7 @@ public IMathAccent CreateMathAccent(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to apply accent |
 
-## Return Value
+### Return Value
 
 new math accent
 
@@ -45,7 +45,7 @@ public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
 | element | IMathElement | math element to apply accent |
 | accentCharacter | Char | accent character |
 
-## Return Value
+### Return Value
 
 new math accent
 

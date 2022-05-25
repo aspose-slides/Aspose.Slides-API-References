@@ -14,7 +14,7 @@ Represent side direction transition types.
 public enum TransitionSideDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

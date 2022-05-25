@@ -20,7 +20,7 @@ public ICell MergeCells(ICell cell1, ICell cell2, bool allowSplitting)
 | cell2 | ICell | Cell to merge. |
 | allowSplitting | Boolean | True to allow cells splitting. |
 
-## Return Value
+### Return Value
 
 Merged cell.
 

@@ -18,7 +18,7 @@ public IAlphaBiLevel AddAlphaBiLevelEffect(float threshold)
 | --- | --- | --- |
 | threshold | Single | The threshold value for the alpha bi-level effect. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

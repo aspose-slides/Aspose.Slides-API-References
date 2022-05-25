@@ -14,7 +14,7 @@ Creates and returns an array with all slides in it.
 public ISlide[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`Slide`](../../slide)
 
@@ -35,7 +35,7 @@ Creates and returns an array with all slides from the specified range in it. An 
 public ISlide[] ToArray(int startIndex, int count)
 ```
 
-## Return Value
+### Return Value
 
 Array of [`Slide`](../../slide)
 

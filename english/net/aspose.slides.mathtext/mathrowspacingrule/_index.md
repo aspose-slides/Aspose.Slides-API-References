@@ -14,7 +14,7 @@ The type of vertical spacing between columns in a matrix or array
 public enum MathRowSpacingRule
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

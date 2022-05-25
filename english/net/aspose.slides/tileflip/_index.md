@@ -14,7 +14,7 @@ Defines tile flipping mode.
 public enum TileFlip
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

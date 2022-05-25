@@ -14,7 +14,7 @@ Creates Soft Edge effect.
 public ISoftEdge CreateSoftEdge()
 ```
 
-## Return Value
+### Return Value
 
 Soft Edge effect.
 

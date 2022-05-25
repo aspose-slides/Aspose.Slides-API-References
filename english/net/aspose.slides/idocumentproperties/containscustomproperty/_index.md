@@ -18,7 +18,7 @@ public bool ContainsCustomProperty(string name)
 | --- | --- | --- |
 | name | String | Name of a custom property to check. |
 
-## Return Value
+### Return Value
 
 Return true if property exists, false overwise.
 

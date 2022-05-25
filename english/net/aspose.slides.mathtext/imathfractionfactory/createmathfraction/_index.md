@@ -21,7 +21,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 | denominator | IMathElement | Denominator |
 | fractionType | MathFractionTypes | Fraction type |
 
-## Return Value
+### Return Value
 
 New math fraction [`IMathFraction`](../../imathfraction)
 
@@ -49,7 +49,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 | numerator | IMathElement | Numerator |
 | denominator | IMathElement | Denominator |
 
-## Return Value
+### Return Value
 
 New math fraction [`IMathFraction`](../../imathfraction)
 

@@ -14,7 +14,7 @@ Gets effective Alpha Replace effect data with the inheritance applied.
 public IAlphaReplaceEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IAlphaReplaceEffectiveData`](../../ialphareplaceeffectivedata).
 

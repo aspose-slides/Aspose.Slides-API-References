@@ -14,7 +14,7 @@ Get coordinates of the beginning of the portion. The X coordinate of point repre
 public PointF GetCoordinates()
 ```
 
-## Return Value
+### Return Value
 
 Coordinates of the beginning of the portion PointF
 

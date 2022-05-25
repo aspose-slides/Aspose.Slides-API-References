@@ -14,7 +14,7 @@ Creates Alpha inverse effect.
 public IAlphaInverse CreateAlphaInverse()
 ```
 
-## Return Value
+### Return Value
 
 Alpha inverst effect.
 

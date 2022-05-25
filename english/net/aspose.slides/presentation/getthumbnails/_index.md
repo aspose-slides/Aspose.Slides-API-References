@@ -18,7 +18,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options)
 | --- | --- | --- |
 | options | IRenderingOptions | Tiff options. |
 
-## Return Value
+### Return Value
 
 Bitmap objects.
 
@@ -44,7 +44,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides)
 | options | IRenderingOptions | Tiff options. |
 | slides | Int32[] | Array with slide positions, starting from 1. |
 
-## Return Value
+### Return Value
 
 Bitmap objects.
 
@@ -71,7 +71,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, float scaleX, float sca
 | scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
 
-## Return Value
+### Return Value
 
 Bitmap objects.
 
@@ -99,7 +99,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, float sca
 | scaleX | Single | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | Single | The value by which to scale this Thumbnail in the y-axis direction. |
 
-## Return Value
+### Return Value
 
 Bitmap objects.
 
@@ -125,7 +125,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, Size imageSize)
 | options | IRenderingOptions | Tiff options. |
 | imageSize | Size | Size of the image to create. |
 
-## Return Value
+### Return Value
 
 Bitmap objects.
 
@@ -152,7 +152,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, Size imag
 | slides | Int32[] | Array with slide positions, starting from 1. |
 | imageSize | Size | Size of the image to create. |
 
-## Return Value
+### Return Value
 
 Bitmap objects.
 

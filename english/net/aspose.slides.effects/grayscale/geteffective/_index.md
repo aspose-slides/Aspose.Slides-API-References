@@ -14,7 +14,7 @@ Gets effective Gray Scale effect data with the inheritance applied.
 public IGrayScaleEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IGrayScaleEffectiveData`](../../igrayscaleeffectivedata).
 

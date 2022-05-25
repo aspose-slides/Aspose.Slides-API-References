@@ -14,7 +14,7 @@ Determines a position of axis.
 public enum AxisPositionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Creates Alpha modulate effect.
 public IAlphaModulate CreateAlphaModulate()
 ```
 
-## Return Value
+### Return Value
 
 Alpha modulate effect.
 

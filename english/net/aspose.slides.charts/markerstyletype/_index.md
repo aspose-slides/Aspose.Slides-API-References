@@ -14,7 +14,7 @@ Determines form of marker on chart's data point.
 public enum MarkerStyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

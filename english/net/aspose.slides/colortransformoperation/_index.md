@@ -14,7 +14,7 @@ Defines color transform operation.
 public enum ColorTransformOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

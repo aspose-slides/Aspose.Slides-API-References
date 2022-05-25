@@ -18,7 +18,7 @@ public ITrendline Add(TrendlineType trendlineType)
 | --- | --- | --- |
 | trendlineType | TrendlineType | Trendline type [`TrendlineType`](../../trendlinetype) |
 
-## Return Value
+### Return Value
 
 New Trendline [`ITrendline`](../../itrendline)
 

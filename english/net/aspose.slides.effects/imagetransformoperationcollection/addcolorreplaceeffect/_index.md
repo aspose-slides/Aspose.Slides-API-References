@@ -14,7 +14,7 @@ Adds the new Color Replacement effect to the end of a collection.
 public IColorReplace AddColorReplaceEffect()
 ```
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

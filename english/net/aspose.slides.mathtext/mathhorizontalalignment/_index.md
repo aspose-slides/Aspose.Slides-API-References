@@ -14,7 +14,7 @@ Horizontal Alignment
 public enum MathHorizontalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

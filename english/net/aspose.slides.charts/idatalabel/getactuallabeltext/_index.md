@@ -14,7 +14,7 @@ Returns actual label text based on DataLabelFormat settings or TextFrameForOverr
 public string GetActualLabelText()
 ```
 
-## Return Value
+### Return Value
 
 Actual label text String
 

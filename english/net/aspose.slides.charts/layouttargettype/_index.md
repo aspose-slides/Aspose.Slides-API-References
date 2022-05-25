@@ -14,7 +14,7 @@ If layout of the plot area defined manually this property specifies whether to l
 public enum LayoutTargetType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

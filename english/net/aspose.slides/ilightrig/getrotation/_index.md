@@ -14,7 +14,7 @@ A rotation is defined through the use of a latitude coordinate, a longitude coor
 public float[] GetRotation()
 ```
 
-## Return Value
+### Return Value
 
 Rotation coordinates as Single[]
 

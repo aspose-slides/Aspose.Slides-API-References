@@ -14,7 +14,7 @@ Gets effective effect formatting data with the inheritance applied.
 public IEffectFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 

@@ -14,7 +14,7 @@ Specifies the manner in which a path should be filled
 public enum PathFillModeType : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents vertical font alignment.
 public enum FontAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

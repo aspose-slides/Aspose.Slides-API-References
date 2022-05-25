@@ -14,7 +14,7 @@ Gets or sets the plain text of a portion. Read/write String.
 public string Text { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text.
 

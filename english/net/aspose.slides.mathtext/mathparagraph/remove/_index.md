@@ -18,7 +18,7 @@ public bool Remove(IMathBlock mathBlock)
 | --- | --- | --- |
 | mathBlock | IMathBlock | The object to remove from the collection. |
 
-## Return Value
+### Return Value
 
 true if *mathBlock* was successfully removed from the collection; otherwise, false. This method also returns false if *mathBlock* is not found in the original collection/&gt;.
 

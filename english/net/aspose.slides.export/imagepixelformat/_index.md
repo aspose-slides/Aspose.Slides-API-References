@@ -14,7 +14,7 @@ Specifies the pixel format for the generated images.
 public enum ImagePixelFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

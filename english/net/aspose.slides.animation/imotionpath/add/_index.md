@@ -22,7 +22,7 @@ public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPo
 | ptsType | MotionPathPointsType | Type of points in animation motion path [`MotionPathPointsType`](../../motionpathpointstype) |
 | bRelativeCoord | Boolean | Indicates whether to use relative coordinates or not Boolean |
 
-## Return Value
+### Return Value
 
 Command of a path [`IMotionCmdPath`](../../imotioncmdpath)
 

@@ -14,7 +14,7 @@ Represents the slide orientation.
 public enum SlideOrientation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

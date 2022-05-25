@@ -14,7 +14,7 @@ Determines how colored shape should be transformed into black and white.
 public enum BlackWhiteMode : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

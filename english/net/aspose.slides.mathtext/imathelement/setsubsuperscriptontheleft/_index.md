@@ -20,7 +20,7 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement su
 | subscript | IMathElement | Subscript (lower index on the left) |
 | superscript | IMathElement | Superscript (upper index on the left) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
@@ -59,7 +59,7 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscrip
 | subscript | String | Subscript (lower index on the left) |
 | superscript | String | Superscript (upper index on the left) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 

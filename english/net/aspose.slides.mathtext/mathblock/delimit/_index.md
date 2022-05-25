@@ -18,7 +18,7 @@ public IMathDelimiter Delimit(char separatorCharacter)
 | --- | --- | --- |
 | separatorCharacter | Char | Separator character |
 
-## Return Value
+### Return Value
 
 The math element of type [`IMathDelimiter`](../../imathdelimiter)
 

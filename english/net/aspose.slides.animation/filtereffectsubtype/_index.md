@@ -14,7 +14,7 @@ Represents filter effect subtypes.
 public enum FilterEffectSubtype
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

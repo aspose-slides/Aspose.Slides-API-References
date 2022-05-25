@@ -18,7 +18,7 @@ public IChartCategory Add(IChartDataCell chartDataCell)
 | --- | --- | --- |
 | chartDataCell | IChartDataCell | Cell used to create chart category. |
 
-## Return Value
+### Return Value
 
 Added or existing category.
 
@@ -44,7 +44,7 @@ public IChartCategory Add(object value)
 | --- | --- | --- |
 | value | Object | The value. |
 
-## Return Value
+### Return Value
 
 Added [`IChartCategory`](../../ichartcategory).
 

@@ -18,7 +18,7 @@ public IAlphaModulateFixed AddAlphaModulateFixedEffect(float amount)
 | --- | --- | --- |
 | amount | Single | The percentage amount to scale the alpha. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

@@ -22,7 +22,7 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
-## Return Value
+### Return Value
 
 New effect object [`IEffect`](../../ieffect)
 
@@ -55,7 +55,7 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
-## Return Value
+### Return Value
 
 New effect object [`IEffect`](../../ieffect)
 
@@ -106,7 +106,7 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
-## Return Value
+### Return Value
 
 New effect object [`IEffect`](../../ieffect)
 
@@ -144,7 +144,7 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
-## Return Value
+### Return Value
 
 New effect object [`IEffect`](../../ieffect)
 

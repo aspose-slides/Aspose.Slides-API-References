@@ -14,7 +14,7 @@ Gets or sets the image transparent color.
 public Color ImageTransparentColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color of the image transparent.
 

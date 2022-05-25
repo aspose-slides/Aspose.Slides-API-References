@@ -14,7 +14,7 @@ Returns the notes slide for the current slide, creating one if there isn't.
 public INotesSlide AddNotesSlide()
 ```
 
-## Return Value
+### Return Value
 
 [`INotesSlide`](../../inotesslide) for this slide.
 

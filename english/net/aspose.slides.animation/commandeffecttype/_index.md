@@ -14,7 +14,7 @@ Represents command effect type for command effect behavior.
 public enum CommandEffectType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

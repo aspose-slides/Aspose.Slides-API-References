@@ -14,7 +14,7 @@ Represents different text alignment styles.
 public enum TextAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

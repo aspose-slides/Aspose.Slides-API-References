@@ -14,7 +14,7 @@ Creates new [`IParagraphFormat`](../../iparagraphformat).
 public IParagraphFormat CreateParagraphFormat()
 ```
 
-## Return Value
+### Return Value
 
 New paragraph format.
 

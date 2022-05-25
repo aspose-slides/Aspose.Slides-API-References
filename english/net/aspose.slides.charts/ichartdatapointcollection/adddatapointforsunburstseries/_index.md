@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForSunburstSeries(IChartDataCell sizeValue)
 | --- | --- | --- |
 | sizeValue | IChartDataCell | Data point SizeValue |
 
-## Return Value
+### Return Value
 
 New data point.
 

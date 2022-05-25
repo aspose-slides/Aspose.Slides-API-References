@@ -24,7 +24,7 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y, float
 | width | Single | Width of a new shape. |
 | height | Single | Height of a new shape. |
 
-## Return Value
+### Return Value
 
 Inserted shape.
 
@@ -52,7 +52,7 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 | x | Single | X coordinate of a new shape. |
 | y | Single | Y coordinate of a new shape. |
 
-## Return Value
+### Return Value
 
 Inserted shape.
 
@@ -78,7 +78,7 @@ public IShape InsertClone(int index, IShape sourceShape)
 | index | Int32 | Index of new shape. |
 | sourceShape | IShape | Shape to clone. |
 
-## Return Value
+### Return Value
 
 Inserted shape.
 

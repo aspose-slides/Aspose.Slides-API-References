@@ -22,7 +22,7 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 | width | Single | Width of a new shape. |
 | height | Single | Height of a new shape. |
 
-## Return Value
+### Return Value
 
 New shape.
 
@@ -49,7 +49,7 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 | x | Single | X coordinate of a new shape. |
 | y | Single | Y coordinate of a new shape. |
 
-## Return Value
+### Return Value
 
 New shape.
 
@@ -74,7 +74,7 @@ public IShape AddClone(IShape sourceShape)
 | --- | --- | --- |
 | sourceShape | IShape | Shape to clone. |
 
-## Return Value
+### Return Value
 
 New shape.
 

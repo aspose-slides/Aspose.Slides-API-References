@@ -14,7 +14,7 @@ Sets a bar on the top of this element
 public IMathBar Overbar()
 ```
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathBar`](../../imathbar)
 

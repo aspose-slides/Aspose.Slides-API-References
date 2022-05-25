@@ -14,7 +14,7 @@ Represents how shape element should be filled.
 public enum ShapeElementFillSource : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

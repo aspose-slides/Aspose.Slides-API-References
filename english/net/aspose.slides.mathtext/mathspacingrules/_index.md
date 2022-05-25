@@ -14,7 +14,7 @@ Types of gap (horizontal spacing) between columns of a matrix
 public enum MathSpacingRules
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

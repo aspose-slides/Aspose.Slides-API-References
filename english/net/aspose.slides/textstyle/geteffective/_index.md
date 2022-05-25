@@ -14,7 +14,7 @@ Gets effective text style formatting data with the inheritance applied.
 public ITextStyleEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ITextStyleEffectiveData`](../../itextstyleeffectivedata).
 

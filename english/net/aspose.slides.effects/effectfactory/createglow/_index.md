@@ -14,7 +14,7 @@ Creates Glow effect.
 public IGlow CreateGlow()
 ```
 
-## Return Value
+### Return Value
 
 Glow effect.
 

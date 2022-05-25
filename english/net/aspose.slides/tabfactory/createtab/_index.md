@@ -19,7 +19,7 @@ public ITab CreateTab(double position, TabAlignment align)
 | position | Double | Tab position. |
 | align | TabAlignment | Align. |
 
-## Return Value
+### Return Value
 
 Created tab.
 

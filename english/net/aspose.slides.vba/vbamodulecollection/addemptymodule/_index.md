@@ -18,7 +18,7 @@ public IVbaModule AddEmptyModule(string name)
 | --- | --- | --- |
 | name | String | Name of the module |
 
-## Return Value
+### Return Value
 
 Added module.
 

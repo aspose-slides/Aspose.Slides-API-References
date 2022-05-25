@@ -14,7 +14,7 @@ Creates and returns an array with all authors.
 public ICommentAuthor[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`ICommentAuthor`](../../icommentauthor)
 

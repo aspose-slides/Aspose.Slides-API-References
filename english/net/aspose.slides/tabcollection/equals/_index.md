@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The TabsEx to compare with the current TabsEx. |
 
-## Return Value
+### Return Value
 
 **true** if the specified TabsEx is equal to the current TabsEx; otherwise, **false**.
 

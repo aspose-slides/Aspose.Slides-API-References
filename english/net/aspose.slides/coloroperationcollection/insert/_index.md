@@ -20,7 +20,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation, f
 | operation | ColorTransformOperation | Operation type. |
 | parameter | Single | Operation's parameter. |
 
-## Return Value
+### Return Value
 
 Inserted operation.
 
@@ -47,7 +47,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation)
 | position | Int32 | The index at which the operation will be inserted. |
 | operation | ColorTransformOperation | Operation type. |
 
-## Return Value
+### Return Value
 
 Inserted operation.
 

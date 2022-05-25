@@ -14,7 +14,7 @@ Represents filter reveal type.
 public enum FilterEffectRevealType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

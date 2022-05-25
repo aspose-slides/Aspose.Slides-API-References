@@ -22,7 +22,7 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 | height | Single | Height of a new Zoom frame Single. |
 | slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
 
-## Return Value
+### Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 
@@ -72,7 +72,7 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 | slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
 | image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
-## Return Value
+### Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 

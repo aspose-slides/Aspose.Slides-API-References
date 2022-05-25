@@ -14,7 +14,7 @@ Represents the type of an animation effect.
 public enum EffectType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

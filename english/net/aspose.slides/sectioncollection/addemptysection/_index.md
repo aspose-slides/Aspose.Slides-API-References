@@ -19,7 +19,7 @@ public ISection AddEmptySection(string name, int index)
 | name | String | Name of the section |
 | index | Int32 | Index of new section. |
 
-## Return Value
+### Return Value
 
 Added section.
 

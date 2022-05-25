@@ -14,7 +14,7 @@ Represents graphics path commands
 public enum PathCommandType : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

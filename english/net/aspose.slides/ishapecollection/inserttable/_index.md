@@ -22,7 +22,7 @@ public ITable InsertTable(int index, float x, float y, double[] columnWidths, do
 | columnWidths | Double[] | Array of doubles which represents widths of columns in the table. |
 | rowHeights | Double[] | Array of doubles which represents heights of rows in the table. |
 
-## Return Value
+### Return Value
 
 Created Table object.
 

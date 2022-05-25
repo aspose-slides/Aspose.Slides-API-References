@@ -14,7 +14,7 @@ Vertical Alignment
 public enum MathVerticalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

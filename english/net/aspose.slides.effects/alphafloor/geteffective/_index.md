@@ -14,7 +14,7 @@ Gets effective Alpha Floor effect data with the inheritance applied.
 public IAlphaFloorEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IAlphaFloorEffectiveData`](../../ialphaflooreffectivedata).
 

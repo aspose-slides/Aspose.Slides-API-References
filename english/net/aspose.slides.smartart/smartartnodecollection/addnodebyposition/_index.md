@@ -18,7 +18,7 @@ public ISmartArtNode AddNodeByPosition(int position)
 | --- | --- | --- |
 | position | Int32 | Zero-base node position |
 
-## Return Value
+### Return Value
 
 Added node
 

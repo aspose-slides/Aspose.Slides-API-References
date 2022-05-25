@@ -18,7 +18,7 @@ public IAlphaBiLevel CreateAlphaBiLevel(float threshold)
 | --- | --- | --- |
 | threshold | Single | Threshold. |
 
-## Return Value
+### Return Value
 
 Alpha BiLevel effect.
 

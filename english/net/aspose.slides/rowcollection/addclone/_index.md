@@ -19,7 +19,7 @@ public IRow[] AddClone(IRow templ, bool withAttachedRows)
 | templ | IRow | Row which is used as a template. |
 | withAttachedRows | Boolean | True to copy also all rows attached to the template row. |
 
-## Return Value
+### Return Value
 
 Added rows.
 

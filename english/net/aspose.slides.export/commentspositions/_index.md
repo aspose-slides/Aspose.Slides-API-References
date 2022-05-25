@@ -14,7 +14,7 @@ Represents the rule to render comments into exported document
 public enum CommentsPositions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

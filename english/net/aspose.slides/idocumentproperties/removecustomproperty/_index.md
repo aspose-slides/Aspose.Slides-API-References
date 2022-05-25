@@ -18,7 +18,7 @@ public bool RemoveCustomProperty(string name)
 | --- | --- | --- |
 | name | String | Name of a custom property to remove. |
 
-## Return Value
+### Return Value
 
 Return true if a property was removed, false overwise.
 

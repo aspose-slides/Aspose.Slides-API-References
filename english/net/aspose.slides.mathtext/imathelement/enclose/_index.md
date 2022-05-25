@@ -14,7 +14,7 @@ Encloses a math element in parenthesis
 public IMathDelimiter Enclose()
 ```
 
-## Return Value
+### Return Value
 
 The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes the parenthesis
 
@@ -50,7 +50,7 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
 | beginningCharacter | Char | Beginning character (usually left bracket) |
 | endingCharacter | Char | Ending character (usually right bracket) |
 
-## Return Value
+### Return Value
 
 The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes specified characters as framing
 

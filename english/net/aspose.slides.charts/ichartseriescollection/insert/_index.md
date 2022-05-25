@@ -19,7 +19,7 @@ public IChartSeries Insert(int index, ChartType type)
 | index | Int32 | Index for insertion Int32 |
 | type | ChartType | Chart type [`ChartType`](../../charttype) |
 
-## Return Value
+### Return Value
 
 New chart series [`IChartSeries`](../../ichartseries)
 

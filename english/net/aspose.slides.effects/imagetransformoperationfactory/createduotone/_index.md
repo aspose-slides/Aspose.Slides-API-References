@@ -14,7 +14,7 @@ Creates Duotone effect.
 public IDuotone CreateDuotone()
 ```
 
-## Return Value
+### Return Value
 
 Duotone effect.
 

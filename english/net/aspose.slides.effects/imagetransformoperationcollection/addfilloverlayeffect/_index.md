@@ -14,7 +14,7 @@ Adds the new Fill Overlay effect to the end of a collection.
 public IFillOverlay AddFillOverlayEffect()
 ```
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

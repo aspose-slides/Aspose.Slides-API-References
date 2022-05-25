@@ -24,7 +24,7 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 | height | Single | Height of a new audio frame. |
 | audio_stream | Stream | Audio stream. |
 
-## Return Value
+### Return Value
 
 Created AudioFrame object.
 
@@ -55,7 +55,7 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 | height | Single | Height of a new audio frame. |
 | audio | IAudio | Audio from Presentation.Audios list. |
 
-## Return Value
+### Return Value
 
 Created AudioFrame object.
 

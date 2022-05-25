@@ -14,7 +14,7 @@ Determines mode of bar picture filling.
 public enum PictureType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

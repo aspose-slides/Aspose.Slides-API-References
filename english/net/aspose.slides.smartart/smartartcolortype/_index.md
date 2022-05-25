@@ -14,7 +14,7 @@ Represents color scheme of a SmartArt diagram.
 public enum SmartArtColorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

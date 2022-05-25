@@ -14,7 +14,7 @@ Represents text vertical overflow type.
 public enum TextVerticalOverflowType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

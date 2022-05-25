@@ -14,7 +14,7 @@ Common mathematical functions of one argument
 public enum MathFunctionsOfOneArgument
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

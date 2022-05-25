@@ -14,7 +14,7 @@ Create empty math paragraph
 public IMathParagraph CreateMathParagraph()
 ```
 
-## Return Value
+### Return Value
 
 new math paragraph
 
@@ -39,7 +39,7 @@ public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
 | --- | --- | --- |
 | mathBlock | IMathBlock | math block to place in the paragraph |
 
-## Return Value
+### Return Value
 
 new math paragraph
 

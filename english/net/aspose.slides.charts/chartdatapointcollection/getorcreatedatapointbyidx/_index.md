@@ -18,7 +18,7 @@ public IChartDataPoint GetOrCreateDataPointByIdx(uint index)
 | --- | --- | --- |
 | index | UInt32 | Index. |
 
-## Return Value
+### Return Value
 
 Returns data point with requested index.
 

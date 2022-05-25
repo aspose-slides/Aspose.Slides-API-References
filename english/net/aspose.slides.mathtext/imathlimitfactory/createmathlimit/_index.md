@@ -20,7 +20,7 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 | limit | IMathElement | Limit element |
 | upperLimit | Boolean | Sets the placement of the limit on top |
 
-## Return Value
+### Return Value
 
 new math limit
 
@@ -47,7 +47,7 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
 | baseArg | IMathElement | Base argument to apply the limit |
 | limit | IMathElement | Limit element |
 
-## Return Value
+### Return Value
 
 new math limit
 

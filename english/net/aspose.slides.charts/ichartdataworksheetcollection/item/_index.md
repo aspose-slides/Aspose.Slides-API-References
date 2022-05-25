@@ -18,7 +18,7 @@ public IChartDataWorksheet this[int index] { get; }
 | --- | --- |
 | index | Index of the worksheet in the collection. |
 
-## Return Value
+### Return Value
 
 Instance of the IChartDataWorksheet.
 

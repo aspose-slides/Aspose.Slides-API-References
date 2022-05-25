@@ -14,7 +14,7 @@ Gets effective data with the inheritance applied.
 public T GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 An effective data object.
 

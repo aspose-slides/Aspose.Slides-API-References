@@ -20,7 +20,7 @@ public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 | saturation | Single | The percentage by which the saturation is adjusted. |
 | luminance | Single | The percentage by which the luminance is adjusted. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

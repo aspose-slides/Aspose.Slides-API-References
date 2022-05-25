@@ -14,7 +14,7 @@ Gets effective Tint effect data with the inheritance applied.
 public ITintEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ITintEffectiveData`](../../itinteffectivedata).
 

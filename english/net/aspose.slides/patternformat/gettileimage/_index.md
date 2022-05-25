@@ -19,7 +19,7 @@ public Bitmap GetTileImage(Color background, Color foreground)
 | background | Color | The background Color for the pattern. |
 | foreground | Color | The foreground Color for the pattern. |
 
-## Return Value
+### Return Value
 
 Tile Bitmap.
 
@@ -43,7 +43,7 @@ public Bitmap GetTileImage(Color styleColor)
 | --- | --- | --- |
 | styleColor | Color | The default Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
-## Return Value
+### Return Value
 
 Tile Bitmap.
 

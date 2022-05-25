@@ -24,7 +24,7 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
 | position | PointF | Position on a slide where to add a new modern comment. |
 | creationTime | DateTime | Time of a modern comment creation. |
 
-## Return Value
+### Return Value
 
 Inserted modern comment.
 

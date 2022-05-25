@@ -14,7 +14,7 @@ Adds the new Alpha Modulate effect to the end of a collection.
 public IAlphaModulate AddAlphaModulateEffect()
 ```
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

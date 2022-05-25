@@ -19,7 +19,7 @@ public static bool operator ==(FieldType a, FieldType b)
 | a | FieldType | First FieldType to compare. |
 | b | FieldType | Second FieldType to compare. |
 
-## Return Value
+### Return Value
 
 True if FieldType objects are equal.
 

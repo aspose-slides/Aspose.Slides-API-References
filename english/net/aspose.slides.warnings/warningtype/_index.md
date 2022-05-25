@@ -14,7 +14,7 @@ Represents a type of warning.
 public enum WarningType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

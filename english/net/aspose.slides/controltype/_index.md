@@ -14,7 +14,7 @@ Defines a control type which should be embedded by [`AddControl`](../icontrolcol
 public enum ControlType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

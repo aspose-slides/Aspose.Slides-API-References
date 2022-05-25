@@ -14,7 +14,7 @@ Gets effective Outer Shadow effect data with the inheritance applied.
 public IOuterShadowEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IOuterShadowEffectiveData`](../../ioutershadoweffectivedata).
 

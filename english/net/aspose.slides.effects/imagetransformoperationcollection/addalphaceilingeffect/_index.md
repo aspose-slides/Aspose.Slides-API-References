@@ -14,7 +14,7 @@ Adds the new Alpha Ceiling effect to the end of a collection.
 public IAlphaCeiling AddAlphaCeilingEffect()
 ```
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

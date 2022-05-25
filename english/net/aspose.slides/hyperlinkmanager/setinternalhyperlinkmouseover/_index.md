@@ -18,7 +18,7 @@ public IHyperlink SetInternalHyperlinkMouseOver(ISlide targetSlide)
 | --- | --- | --- |
 | targetSlide | ISlide | Target slide. |
 
-## Return Value
+### Return Value
 
 Hyperlink.
 

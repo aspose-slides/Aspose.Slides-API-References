@@ -14,7 +14,7 @@ Check if licence is applied to component
 public bool IsLicensed()
 ```
 
-## Return Value
+### Return Value
 
 `True` if component is licensed, otherwise `false`
 

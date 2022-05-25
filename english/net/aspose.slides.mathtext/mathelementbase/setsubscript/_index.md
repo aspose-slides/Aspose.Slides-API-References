@@ -18,7 +18,7 @@ public IMathSubscriptElement SetSubscript(IMathElement subscript)
 | --- | --- | --- |
 | subscript | IMathElement | Subscript (lower index on the right) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathSubscriptElement`](../../imathsubscriptelement)
 
@@ -55,7 +55,7 @@ public IMathSubscriptElement SetSubscript(string subscript)
 | --- | --- | --- |
 | subscript | String | Subscript (lower index on the right) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathSubscriptElement`](../../imathsubscriptelement)
 

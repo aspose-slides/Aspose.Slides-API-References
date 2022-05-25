@@ -18,7 +18,7 @@ public static bool IsSeriesUsesYValueCoordinate(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Series type. |
 
-## Return Value
+### Return Value
 
 True if uses otherwise false.
 

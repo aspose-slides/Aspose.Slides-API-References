@@ -14,7 +14,7 @@ Gets effective Luminance effect data with the inheritance applied.
 public ILuminanceEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ILuminanceEffectiveData`](../../iluminanceeffectivedata).
 

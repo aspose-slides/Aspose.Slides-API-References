@@ -14,7 +14,7 @@ Gets effective fill formatting data with the inheritance applied.
 public IFillFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 

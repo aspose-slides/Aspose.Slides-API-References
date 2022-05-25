@@ -14,7 +14,7 @@ Reads a byte from the stream and advances the position within the stream by one 
 public int ReadByte()
 ```
 
-## Return Value
+### Return Value
 
 Read byte Int32
 

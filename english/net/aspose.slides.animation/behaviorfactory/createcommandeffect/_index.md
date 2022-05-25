@@ -14,7 +14,7 @@ Creates command effect.
 public ICommandEffect CreateCommandEffect()
 ```
 
-## Return Value
+### Return Value
 
 Command effect.
 

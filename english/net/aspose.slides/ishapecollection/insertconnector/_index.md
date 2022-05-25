@@ -24,7 +24,7 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 | width | Single | The width of shape's frame. |
 | height | Single | The height of shape's frame. |
 
-## Return Value
+### Return Value
 
 Created Connector object.
 
@@ -57,7 +57,7 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 | height | Single | The height of shape's frame. |
 | createFromTemplate | Boolean | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
 
-## Return Value
+### Return Value
 
 Created Connector object.
 

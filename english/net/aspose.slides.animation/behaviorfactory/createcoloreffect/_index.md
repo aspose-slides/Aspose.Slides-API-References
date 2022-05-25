@@ -14,7 +14,7 @@ Creates color effect.
 public IColorEffect CreateColorEffect()
 ```
 
-## Return Value
+### Return Value
 
 Color effect.
 

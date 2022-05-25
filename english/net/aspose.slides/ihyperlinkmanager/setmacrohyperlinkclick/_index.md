@@ -18,7 +18,7 @@ public IHyperlink SetMacroHyperlinkClick(string macroName)
 | --- | --- | --- |
 | macroName | String | Name of the macro |
 
-## Return Value
+### Return Value
 
 Hyperlink object [`IHyperlink`](../../ihyperlink)
 

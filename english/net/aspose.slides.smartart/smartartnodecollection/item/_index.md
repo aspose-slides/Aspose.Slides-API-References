@@ -18,7 +18,7 @@ public ISmartArtNode this[int index] { get; }
 | --- | --- |
 | index | The zero-based index of the element |
 
-## Return Value
+### Return Value
 
 The SmartArt node
 

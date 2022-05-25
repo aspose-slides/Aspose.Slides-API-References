@@ -19,7 +19,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide)
 | index | Int32 | Index of new slide. |
 | sourceSlide | ISlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 
@@ -50,7 +50,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout
 | sourceSlide | ISlide | Slide to clone. |
 | destLayout | ILayoutSlide | Layout slide for a new slide. |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 
@@ -80,7 +80,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster
 | destMaster | IMasterSlide | Master slide for a new slide. |
 | allowCloneMissingLayout | Boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 

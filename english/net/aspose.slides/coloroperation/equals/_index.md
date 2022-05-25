@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The ColorOperation to compare with the current ColorOperation. |
 
-## Return Value
+### Return Value
 
 **true** if the specified ColorOperation is equal to the current ColorOperation; otherwise, **false**.
 

@@ -14,7 +14,7 @@ Creates MemoryStream wrapper.
 public IStreamWrapper CreateMemoryStreamWrapper()
 ```
 
-## Return Value
+### Return Value
 
 Stream wrapper for COM interface [`IStreamWrapper`](../../istreamwrapper)
 
@@ -39,7 +39,7 @@ public IStreamWrapper CreateMemoryStreamWrapper(byte[] buffer)
 | --- | --- | --- |
 | buffer | Byte[] | Byte array Byte[] |
 
-## Return Value
+### Return Value
 
 Stream wrapper for COM interface [`IStreamWrapper`](../../istreamwrapper)
 

@@ -14,7 +14,7 @@ Creates new VBA project.
 public IVbaProject CreateVbaProject()
 ```
 
-## Return Value
+### Return Value
 
 New VBA project
 

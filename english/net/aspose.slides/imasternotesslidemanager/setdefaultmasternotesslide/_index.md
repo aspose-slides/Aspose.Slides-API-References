@@ -14,7 +14,7 @@ Sets defalut master notes slide for related notes slide.
 public IMasterNotesSlide SetDefaultMasterNotesSlide()
 ```
 
-## Return Value
+### Return Value
 
 Defalut master notes slide [`IMasterNotesSlide`](../../imasternotesslide)
 

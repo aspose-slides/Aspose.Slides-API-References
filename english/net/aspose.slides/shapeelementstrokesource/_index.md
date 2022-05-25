@@ -14,7 +14,7 @@ Represents how shape element should be drawn.
 public enum ShapeElementStrokeSource : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

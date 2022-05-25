@@ -19,7 +19,7 @@ public IColorOperation Add(ColorTransformOperation operation, float parameter)
 | operation | ColorTransformOperation | Operation type. |
 | parameter | Single | Operation's parameter. |
 
-## Return Value
+### Return Value
 
 Added operation.
 
@@ -45,7 +45,7 @@ public IColorOperation Add(ColorTransformOperation operation)
 | --- | --- | --- |
 | operation | ColorTransformOperation | Operation type. |
 
-## Return Value
+### Return Value
 
 Added operation.
 

@@ -14,7 +14,7 @@ Represent corner direction transition types.
 public enum TransitionCornerDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

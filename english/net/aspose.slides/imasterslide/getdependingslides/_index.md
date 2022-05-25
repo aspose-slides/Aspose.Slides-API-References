@@ -14,7 +14,7 @@ Returns an array with all slides, which depend on this master slide.
 public ISlide[] GetDependingSlides()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`ISlide`](../../islide), which depend on this master slide
 

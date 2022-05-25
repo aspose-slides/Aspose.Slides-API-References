@@ -14,7 +14,7 @@ Returns an automatic color of series based on series index and chart style. This
 public Color GetAutomaticSeriesColor()
 ```
 
-## Return Value
+### Return Value
 
 Automatic color of series Color
 

@@ -18,7 +18,7 @@ public int IndexOf(ISection section)
 | --- | --- | --- |
 | section | ISection | Section to find. |
 
-## Return Value
+### Return Value
 
 Index of a section or -1 if section not from this collection.
 

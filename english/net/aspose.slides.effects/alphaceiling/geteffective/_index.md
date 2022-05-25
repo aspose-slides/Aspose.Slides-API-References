@@ -14,7 +14,7 @@ Gets effective Alpha Ceiling effect data with the inheritance applied.
 public IAlphaCeilingEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IAlphaCeilingEffectiveData`](../../ialphaceilingeffectivedata).
 

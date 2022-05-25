@@ -14,7 +14,7 @@ Represents the lines alignment type.
 public enum LineAlignment : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

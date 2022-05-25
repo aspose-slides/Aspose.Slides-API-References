@@ -18,7 +18,7 @@ public IVideo AddVideo(IVideo video)
 | --- | --- | --- |
 | video | IVideo | Source video. |
 
-## Return Value
+### Return Value
 
 Added video.
 
@@ -44,7 +44,7 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 | stream | Stream | Stream to add video file from. |
 | loadingStreamBehavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
-## Return Value
+### Return Value
 
 Added [`IVideo`](../../ivideo).
 
@@ -70,7 +70,7 @@ public IVideo AddVideo(byte[] videoData)
 | --- | --- | --- |
 | videoData | Byte[] | Video bytes. |
 
-## Return Value
+### Return Value
 
 Added video.
 

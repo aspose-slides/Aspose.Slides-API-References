@@ -14,7 +14,7 @@ Represents the slide layout type.
 public enum SlideLayoutType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

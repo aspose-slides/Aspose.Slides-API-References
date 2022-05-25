@@ -14,7 +14,7 @@ Represent fill types.
 public enum EffectFillType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents type of trend line
 public enum TrendlineType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

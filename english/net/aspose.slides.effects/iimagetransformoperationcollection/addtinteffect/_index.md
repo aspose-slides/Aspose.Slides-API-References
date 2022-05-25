@@ -19,7 +19,7 @@ public ITint AddTintEffect(float hue, float amount)
 | hue | Single | The hue towards which to tint. |
 | amount | Single | Specifies by how much the color value is shifted. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

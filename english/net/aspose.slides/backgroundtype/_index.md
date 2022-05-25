@@ -14,7 +14,7 @@ Defines the slide background fill source.
 public enum BackgroundType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

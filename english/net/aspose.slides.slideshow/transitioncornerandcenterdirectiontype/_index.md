@@ -14,7 +14,7 @@ Specifies a direction restricted to the corners and center.
 public enum TransitionCornerAndCenterDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

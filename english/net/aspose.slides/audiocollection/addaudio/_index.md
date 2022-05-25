@@ -18,7 +18,7 @@ public IAudio AddAudio(IAudio audio)
 | --- | --- | --- |
 | audio | IAudio | Source audio. |
 
-## Return Value
+### Return Value
 
 Added audio.
 
@@ -43,7 +43,7 @@ public IAudio AddAudio(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Stream to add audio from. |
 
-## Return Value
+### Return Value
 
 Added audio.
 
@@ -69,7 +69,7 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 | stream | Stream | Stream to add video audio from. |
 | loadingStreamBehavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
-## Return Value
+### Return Value
 
 Added audio.
 
@@ -95,7 +95,7 @@ public IAudio AddAudio(byte[] audioData)
 | --- | --- | --- |
 | audioData | Byte[] | Audio bytes. |
 
-## Return Value
+### Return Value
 
 Added audio.
 

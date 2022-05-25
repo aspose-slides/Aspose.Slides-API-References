@@ -14,7 +14,7 @@ The Stream passed to a method is considered as a Binary Large Object (BLOB) (see
 public enum LoadingStreamBehavior
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

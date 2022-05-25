@@ -14,7 +14,7 @@ Represents aggregation type of category axis. Used with Histogram or HistogramPa
 public enum AxisAggregationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

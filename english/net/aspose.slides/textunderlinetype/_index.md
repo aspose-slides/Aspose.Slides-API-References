@@ -14,7 +14,7 @@ Represents the type of text underline.
 public enum TextUnderlineType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

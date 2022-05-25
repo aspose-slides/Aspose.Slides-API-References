@@ -18,7 +18,7 @@ public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 | --- | --- | --- |
 | functionName | IMathElement | Function name |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
@@ -55,7 +55,7 @@ public IMathFunction AsArgumentOfFunction(string functionName)
 | --- | --- | --- |
 | functionName | String | Function name |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
@@ -90,7 +90,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionTyp
 | --- | --- | --- |
 | functionType | MathFunctionsOfOneArgument | One of the common function type of one argument |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
@@ -129,7 +129,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 | functionType | MathFunctionsOfTwoArguments | One of the common function type of two arguments: Log, Lim, Min, Max |
 | additionalArgument | IMathElement | Additional argument depending on the type of function |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 
@@ -169,7 +169,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 | functionType | MathFunctionsOfTwoArguments | One of the common function type of two arguments: Log, Lim, Min, Max |
 | additionalArgument | String | Additional argument depending on the type of function |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathFunction`](../../imathfunction)
 

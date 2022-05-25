@@ -14,7 +14,7 @@ Places this element in a group using a bottom curly bracket
 public IMathGroupingCharacter Group()
 ```
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
@@ -51,7 +51,7 @@ public IMathGroupingCharacter Group(char character, MathTopBotPositions position
 | position | MathTopBotPositions | Position of grouping character |
 | verticalJustification | MathTopBotPositions | Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 

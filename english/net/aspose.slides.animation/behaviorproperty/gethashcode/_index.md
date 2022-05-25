@@ -14,7 +14,7 @@ Calculates and returns hach code based on the [`Value`](../value) property
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 Returns hash code for this object
 

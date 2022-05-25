@@ -14,7 +14,7 @@ Represents text wrapping shape.
 public enum TextShapeType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

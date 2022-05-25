@@ -14,7 +14,7 @@ Gets effective Hue/Saturation/Luminance effect data with the inheritance applied
 public IHSLEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IHSLEffectiveData`](../../ihsleffectivedata).
 

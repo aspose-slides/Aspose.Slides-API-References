@@ -18,7 +18,7 @@ public IEffect[] GetEffectsByShape(IShape shape)
 | --- | --- | --- |
 | shape | IShape | Shape object [`IShape`](../../../aspose.slides/ishape) |
 
-## Return Value
+### Return Value
 
 Array of effects [`IEffect`](../../ieffect)
 

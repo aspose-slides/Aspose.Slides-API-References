@@ -18,7 +18,7 @@ public string GetNameByIndex(int index)
 | --- | --- | --- |
 | index | Int32 | Index of a tag to return. |
 
-## Return Value
+### Return Value
 
 Key of a tag.
 

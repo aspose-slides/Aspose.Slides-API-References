@@ -18,7 +18,7 @@ public IEffect[] GetEffectsByParagraph(IParagraph paragraph)
 | --- | --- | --- |
 | paragraph | IParagraph | Paragraph object [`IParagraph`](../../../aspose.slides/iparagraph) |
 
-## Return Value
+### Return Value
 
 Array of effects [`IEffect`](../../ieffect)
 

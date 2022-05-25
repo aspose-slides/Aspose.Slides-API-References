@@ -14,7 +14,7 @@ Represents color direction for color effect behavior.
 public enum ColorDirection
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

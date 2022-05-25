@@ -14,7 +14,7 @@ Determines position of data labels.
 public enum LegendDataLabelPosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

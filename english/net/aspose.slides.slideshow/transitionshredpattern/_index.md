@@ -14,7 +14,7 @@ Specifies a geometric shape that tiles together to fill a larger area.
 public enum TransitionShredPattern
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

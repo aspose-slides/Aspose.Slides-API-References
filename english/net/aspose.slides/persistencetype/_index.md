@@ -14,7 +14,7 @@ Specifies the method used to store properties of the ActiveX control.
 public enum PersistenceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

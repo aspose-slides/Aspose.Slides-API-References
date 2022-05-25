@@ -18,7 +18,7 @@ public IPPImage AddImage(IPPImage imageSource)
 | --- | --- | --- |
 | imageSource | IPPImage | Source image. |
 
-## Return Value
+### Return Value
 
 Added image.
 
@@ -43,7 +43,7 @@ public IPPImage AddImage(Image image)
 | --- | --- | --- |
 | image | Image | Image to add. |
 
-## Return Value
+### Return Value
 
 Added image.
 
@@ -72,7 +72,7 @@ public IPPImage AddImage(MemoryStream stream)
 | --- | --- | --- |
 | stream | MemoryStream | Stream to add image from. |
 
-## Return Value
+### Return Value
 
 Added image.
 
@@ -101,7 +101,7 @@ public IPPImage AddImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Stream to add image from. |
 
-## Return Value
+### Return Value
 
 Added image.
 
@@ -131,7 +131,7 @@ public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehav
 | stream | Stream | Stream to add image file from. |
 | loadingStreamBehavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
-## Return Value
+### Return Value
 
 Added [`IPPImage`](../../ippimage).
 
@@ -157,7 +157,7 @@ public IPPImage AddImage(byte[] buffer)
 | --- | --- | --- |
 | buffer | Byte[] | Buffer. |
 
-## Return Value
+### Return Value
 
 Added image.
 
@@ -182,7 +182,7 @@ public IPPImage AddImage(ISvgImage svgImage)
 | --- | --- | --- |
 | svgImage | ISvgImage | Svg image object [`ISvgImage`](../../isvgimage) |
 
-## Return Value
+### Return Value
 
 Added image.
 

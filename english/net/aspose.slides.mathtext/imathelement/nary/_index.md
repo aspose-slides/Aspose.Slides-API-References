@@ -21,7 +21,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
 | lowerLimit | IMathElement | The lower limit |
 | upperLimit | IMathElement | The upper limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
@@ -61,7 +61,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 | lowerLimit | String | The lower limit |
 | upperLimit | String | The upper limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 

@@ -14,7 +14,7 @@ Get all IHyperlinkContainer subobjects that contain not null HyperlinkClick. Wit
 public IList<IHyperlinkContainer> GetHyperlinkClicks()
 ```
 
-## Return Value
+### Return Value
 
 All IHyperlinkContainer subobjects that contain not null HyperlinkClick
 

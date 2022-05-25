@@ -14,7 +14,7 @@ Represents the pictures compression level
 public enum PicturesCompression
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

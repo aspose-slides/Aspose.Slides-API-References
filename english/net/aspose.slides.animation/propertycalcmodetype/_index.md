@@ -14,7 +14,7 @@ Represent calc mode for animation property.
 public enum PropertyCalcModeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

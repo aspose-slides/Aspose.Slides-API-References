@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | Field to compare. |
 
-## Return Value
+### Return Value
 
 True if fields are equal.
 

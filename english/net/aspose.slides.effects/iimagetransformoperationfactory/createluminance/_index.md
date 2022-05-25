@@ -19,7 +19,7 @@ public ILuminance CreateLuminance(float brightness, float contrast)
 | brightness | Single | Brightness. |
 | contrast | Single | Contrast. |
 
-## Return Value
+### Return Value
 
 Luminance effect.
 

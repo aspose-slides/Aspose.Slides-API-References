@@ -21,7 +21,7 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 | endingCharacter | Char | Ending character (usually right bracket) |
 | separatorCharacter | Char | Separator character |
 
-## Return Value
+### Return Value
 
 The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes specified characters as framing and delimiter
 

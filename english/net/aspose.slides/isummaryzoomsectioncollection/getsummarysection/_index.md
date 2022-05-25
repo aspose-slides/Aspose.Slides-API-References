@@ -18,7 +18,7 @@ public ISummaryZoomSection GetSummarySection(ISection section)
 | --- | --- | --- |
 | section | ISection | Section to find [`ISection`](../../isection) |
 
-## Return Value
+### Return Value
 
 [`ISummaryZoomSection`](../../isummaryzoomsection) or null if collection does not contains element for the section.
 

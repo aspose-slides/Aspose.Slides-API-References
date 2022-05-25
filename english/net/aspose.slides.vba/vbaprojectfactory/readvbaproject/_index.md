@@ -14,7 +14,7 @@ Reads VBA project from OLE container.
 public IVbaProject ReadVbaProject(byte[] data)
 ```
 
-## Return Value
+### Return Value
 
 Read VBA project
 

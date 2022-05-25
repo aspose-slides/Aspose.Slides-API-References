@@ -14,7 +14,7 @@ Represents type of error bar value
 public enum ErrorBarValueType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public bool Remove(IMathElement item)
 | --- | --- | --- |
 | item | IMathElement | The object to remove from the collection. |
 
-## Return Value
+### Return Value
 
 true if *item* was successfully removed from the collection; otherwise, false. This method also returns false if *item* is not found in the original collection.
 

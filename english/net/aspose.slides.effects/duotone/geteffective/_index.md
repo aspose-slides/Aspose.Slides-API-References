@@ -14,7 +14,7 @@ Gets effective Duotone effect data with the inheritance applied.
 public IDuotoneEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IDuotoneEffectiveData`](../../iduotoneeffectivedata).
 

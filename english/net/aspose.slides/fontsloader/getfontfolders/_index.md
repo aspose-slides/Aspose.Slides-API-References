@@ -14,7 +14,7 @@ Gets font folders. Returns folders that have been added with LoadExternalFonts m
 public static string[] GetFontFolders()
 ```
 
-## Return Value
+### Return Value
 
 array containing folder names
 

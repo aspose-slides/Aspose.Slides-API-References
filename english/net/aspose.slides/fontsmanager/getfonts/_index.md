@@ -14,7 +14,7 @@ Returns the fonts used in the presentation
 public IFontData[] GetFonts()
 ```
 
-## Return Value
+### Return Value
 
 An array of fonts
 

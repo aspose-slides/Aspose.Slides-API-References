@@ -14,7 +14,7 @@ Represents the style of an arrowhead.
 public enum LineArrowheadStyle : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

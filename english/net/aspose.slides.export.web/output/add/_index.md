@@ -35,7 +35,7 @@ public IOutputFile Add(string path, IPPImage image)
 | path | String | Output path. |
 | image | IPPImage | Image to output. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the image.
 
@@ -62,7 +62,7 @@ public IOutputFile Add(string path, Image image)
 | path | String | Output path. |
 | image | Image | Image to output. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the image.
 
@@ -88,7 +88,7 @@ public IOutputFile Add(string path, IVideo video)
 | path | String | Output path. |
 | video | IVideo | Video to output. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the video.
 
@@ -116,7 +116,7 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 | fontData | IFontData | Font to output. |
 | fontStyle | FontStyle | Font style. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the font.
 
@@ -143,7 +143,7 @@ public IOutputFile Add(string path, string textContent)
 | path | String | Output path. |
 | textContent | String | Content to output. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the text content.
 

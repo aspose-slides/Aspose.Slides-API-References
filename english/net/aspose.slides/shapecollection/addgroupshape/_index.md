@@ -14,7 +14,7 @@ Creates a new GroupShape and adds it to the end of the collection. GroupShape fr
 public IGroupShape AddGroupShape()
 ```
 
-## Return Value
+### Return Value
 
 Created GroupShape object.
 
@@ -43,7 +43,7 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 | width | Single | The width of the group of the shape group frame. |
 | height | Single | The height of a group of the shape group frame. |
 
-## Return Value
+### Return Value
 
 Created GroupShape object.
 

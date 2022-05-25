@@ -18,7 +18,7 @@ public bool Equals(IBaseSlide slide)
 | --- | --- | --- |
 | slide | IBaseSlide | The IBaseSlide to compare with the current IBaseSlide. |
 
-## Return Value
+### Return Value
 
 **true** if the specified IBaseSlide is equal to the current IBaseSlide; otherwise, **false**.
 

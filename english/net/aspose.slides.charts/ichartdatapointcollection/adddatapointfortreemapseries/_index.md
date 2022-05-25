@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForTreemapSeries(IChartDataCell sizeValue)
 | --- | --- | --- |
 | sizeValue | IChartDataCell | Data point SizeValue |
 
-## Return Value
+### Return Value
 
 New data point.
 

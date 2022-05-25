@@ -15,7 +15,7 @@ Contains a set of flags specifying which access permissions should be granted wh
 public enum PdfAccessPermissions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

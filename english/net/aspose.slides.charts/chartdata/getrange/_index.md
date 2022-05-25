@@ -14,7 +14,7 @@ Gets chart data range.
 public string GetRange()
 ```
 
-## Return Value
+### Return Value
 
 Cells data range formula. E.g: "Sheet1!$A$1:$C$4"
 

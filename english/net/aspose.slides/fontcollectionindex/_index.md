@@ -14,7 +14,7 @@ Represents font's index in a collection.
 public enum FontCollectionIndex : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

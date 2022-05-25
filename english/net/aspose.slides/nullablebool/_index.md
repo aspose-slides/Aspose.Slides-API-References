@@ -14,7 +14,7 @@ Represents triple boolean values.
 public enum NullableBool : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

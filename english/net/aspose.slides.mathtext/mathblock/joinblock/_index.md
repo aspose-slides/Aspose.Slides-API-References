@@ -18,7 +18,7 @@ public IMathBlock JoinBlock(IMathBlock other)
 | --- | --- | --- |
 | other | IMathBlock | The joining block |
 
-## Return Value
+### Return Value
 
 this mathematical block after joining
 

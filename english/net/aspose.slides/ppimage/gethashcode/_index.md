@@ -14,7 +14,7 @@ Returns the hash code of an image.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 Hash code.
 

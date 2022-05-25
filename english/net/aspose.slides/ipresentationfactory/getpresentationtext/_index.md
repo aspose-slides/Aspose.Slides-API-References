@@ -19,7 +19,7 @@ public IPresentationText GetPresentationText(string file, TextExtractionArrangin
 | file | String | Input file |
 | mode | TextExtractionArrangingMode | Extraction mode |
 
-## Return Value
+### Return Value
 
 The instance of PresentationText containing the SlideText array representing the raw slides text
 
@@ -46,7 +46,7 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 | stream | Stream | Input stream |
 | mode | TextExtractionArrangingMode | Extraction mode |
 
-## Return Value
+### Return Value
 
 The instance of PresentationText containing the SlideText array representing the raw slides text
 
@@ -75,7 +75,7 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 | mode | TextExtractionArrangingMode | Extraction mode |
 | options | ILoadOptions | Load options |
 
-## Return Value
+### Return Value
 
 The instance of PresentationText containing the SlideText array representing the raw slides text
 

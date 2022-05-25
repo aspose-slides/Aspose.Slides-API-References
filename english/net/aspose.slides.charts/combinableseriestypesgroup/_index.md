@@ -14,7 +14,7 @@ Enumeration of groups of combinable series types. Each element relates to group 
 public enum CombinableSeriesTypesGroup
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

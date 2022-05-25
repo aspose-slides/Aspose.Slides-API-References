@@ -18,7 +18,7 @@ public ISequence Add(IShape shapeTrigger)
 | --- | --- | --- |
 | shapeTrigger | IShape | Shape object [`IShape`](../../../aspose.slides/ishape) |
 
-## Return Value
+### Return Value
 
 New sequence [`ISequence`](../../isequence)
 

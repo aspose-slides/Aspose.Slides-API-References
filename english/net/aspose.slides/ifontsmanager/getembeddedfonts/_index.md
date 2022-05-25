@@ -14,7 +14,7 @@ Returns the fonts embedded in the presentation
 public IFontData[] GetEmbeddedFonts()
 ```
 
-## Return Value
+### Return Value
 
 Embedded fonts [`IFontData`](../../ifontdata)[]
 

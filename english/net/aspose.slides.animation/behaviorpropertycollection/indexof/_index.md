@@ -18,7 +18,7 @@ public int IndexOf(IBehaviorProperty item)
 | --- | --- | --- |
 | item | IBehaviorProperty | The object to locate in the IList. |
 
-## Return Value
+### Return Value
 
 The index of *item* if found in the list; otherwise, -1.
 
@@ -43,7 +43,7 @@ public int IndexOf(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | value of the property |
 
-## Return Value
+### Return Value
 
 The index of the property with the specified value
 

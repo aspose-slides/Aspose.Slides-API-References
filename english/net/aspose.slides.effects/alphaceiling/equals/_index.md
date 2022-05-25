@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`AlphaCeiling`](../../alphaceiling) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

@@ -14,7 +14,7 @@ Converts legacy digram to editable SmartArt object. Created SmartArt object adds
 public ISmartArt ConvertToSmartArt()
 ```
 
-## Return Value
+### Return Value
 
 Created SmartArt object.
 

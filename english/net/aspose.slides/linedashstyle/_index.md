@@ -14,7 +14,7 @@ Represents the line dash style.
 public enum LineDashStyle : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

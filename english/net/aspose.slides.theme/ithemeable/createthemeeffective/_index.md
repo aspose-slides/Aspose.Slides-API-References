@@ -14,7 +14,7 @@ Returns an effective theme for this themeable object.
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-## Return Value
+### Return Value
 
 Effective theme [`IThemeEffectiveData`](../../ithemeeffectivedata)
 

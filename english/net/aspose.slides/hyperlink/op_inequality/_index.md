@@ -19,7 +19,7 @@ public static bool operator !=(Hyperlink hlink1, Hyperlink hlink2)
 | hlink1 | Hyperlink | First hyperlink to be tested. |
 | hlink2 | Hyperlink | Second hyperlink to be tested. |
 
-## Return Value
+### Return Value
 
 **False** if hyperlinks are equal.
 

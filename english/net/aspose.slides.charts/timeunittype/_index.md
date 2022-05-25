@@ -14,7 +14,7 @@ Represents the base unit for the category axis
 public enum TimeUnitType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

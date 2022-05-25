@@ -18,7 +18,7 @@ public IBiLevel CreateBiLevel(float threshold)
 | --- | --- | --- |
 | threshold | Single | Threshold. |
 
-## Return Value
+### Return Value
 
 BiLevel effect.
 

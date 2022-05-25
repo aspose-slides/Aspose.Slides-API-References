@@ -18,7 +18,7 @@ public IMathBar CreateMathBar(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to apply bar |
 
-## Return Value
+### Return Value
 
 new math bar element
 
@@ -45,7 +45,7 @@ public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position
 | element | IMathElement | Math element to apply bar |
 | position | MathTopBotPositions | Position of the bar |
 
-## Return Value
+### Return Value
 
 new math bar element
 

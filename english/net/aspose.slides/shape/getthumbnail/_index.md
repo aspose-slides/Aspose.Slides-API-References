@@ -14,7 +14,7 @@ Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type 
 public Bitmap GetThumbnail()
 ```
 
-## Return Value
+### Return Value
 
 Shape thumbnail.
 
@@ -40,7 +40,7 @@ public Bitmap GetThumbnail(ShapeThumbnailBounds bounds, float scaleX, float scal
 | scaleX | Single | X scale |
 | scaleY | Single | Y scale |
 
-## Return Value
+### Return Value
 
 Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
 

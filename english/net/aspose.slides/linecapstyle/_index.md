@@ -14,7 +14,7 @@ Represents the line cap style.
 public enum LineCapStyle : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

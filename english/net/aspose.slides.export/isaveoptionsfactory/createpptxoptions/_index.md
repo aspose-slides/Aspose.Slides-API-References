@@ -14,7 +14,7 @@ Creates PPTX save options.
 public IPptxOptions CreatePptxOptions()
 ```
 
-## Return Value
+### Return Value
 
 Save options.
 

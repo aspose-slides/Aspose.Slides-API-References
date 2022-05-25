@@ -14,7 +14,7 @@ Creates scale effect.
 public IScaleEffect CreateScaleEffect()
 ```
 
-## Return Value
+### Return Value
 
 Scale effect.
 

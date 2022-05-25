@@ -14,7 +14,7 @@ Gets effective bullet formatting data with the inheritance applied.
 public IBulletFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 

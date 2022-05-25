@@ -14,7 +14,7 @@ Returns an enumerator that iterates through the collection.
 public IEnumerator<ISlide> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 A IEnumerator that can be used to iterate through the collection.
 

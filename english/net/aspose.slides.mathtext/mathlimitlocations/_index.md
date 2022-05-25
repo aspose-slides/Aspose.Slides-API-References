@@ -14,7 +14,7 @@ Location of limits (subscript/superscript) in n-ary operators.
 public enum MathLimitLocations
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

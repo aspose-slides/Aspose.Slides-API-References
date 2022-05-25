@@ -14,7 +14,7 @@ Converts legacy digram to editable group shape. Created GroupShape object adds t
 public IGroupShape ConvertToGroupShape()
 ```
 
-## Return Value
+### Return Value
 
 Created GroupShape object.
 

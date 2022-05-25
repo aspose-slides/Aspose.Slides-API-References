@@ -14,7 +14,7 @@ Creates new OLE Automation type library reference.
 public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string libid)
 ```
 
-## Return Value
+### Return Value
 
 New OLE Automation type library reference
 

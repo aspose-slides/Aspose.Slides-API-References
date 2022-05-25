@@ -14,7 +14,7 @@ Determines multiplicity of the displayed data.
 public enum DisplayUnitType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
