@@ -1,0 +1,78 @@
+---
+title: ChartSeries
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет ряд диаграммы.
+type: docs
+weight: 1300
+url: /ru/net/aspose.slides.charts/chartseries/
+---
+## ChartSeries class
+
+Представляет ряд диаграммы.
+
+```csharp
+public class ChartSeries : IChartSeries
+```
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [Bar3DShape](../../aspose.slides.charts/chartseries/bar3dshape) { get; set; } | Задает форму ряда трехмерной гистограммы. Изменение значения этого свойства может привести к автоматическому изменению Типа серии. Чтение/запись[`ChartShapeType`](../chartshapetype). |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/chartseries/bubblesizerepresentation) { get; } | Указывает, как значения размера пузырьков представлены на пузырьковой диаграмме. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.BubbleSizeRepresentation для значения изменения. |
+| [BubbleSizeScale](../../aspose.slides.charts/chartseries/bubblesizescale) { get; } | Определяет коэффициент масштабирования для пузырьковой диаграммы (может быть от 0 до 300 процентов размера по умолчанию). Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.BubbleSizeScale для значения изменения. |
+| [Chart](../../aspose.slides.charts/chartseries/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения[`IChart`](../ichart). |
+| [DataPoints](../../aspose.slides.charts/chartseries/datapoints) { get; } | Возвращает набор точек данных этой серии. Только для чтения[`IChartDataPointCollection`](../ichartdatapointcollection). |
+| [DoughnutHoleSize](../../aspose.slides.charts/chartseries/doughnutholesize) { get; } | Задает размер отверстия в кольцевой диаграмме (может составлять от 10 до 90 процентов от размера области графика). Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.DoughnutHoleSize для значения изменения. Только для чтенияByte. |
+| [ErrorBarsXFormat](../../aspose.slides.charts/chartseries/errorbarsxformat) { get; } | Представляет ErrorBars серии с направлением X.  ErrorBars с направлением X доступно для серий типа площадь, полоса, разброс и пузырек. Для любых других типов диаграмм это свойство возвращает значение null (включая трехмерные диаграммы). В случае пользовательских значений используйте коллекцию DataPoints для указания значения (со свойством[`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).  Только для чтения[`IErrorBarsFormat`](../ierrorbarsformat). |
+| [ErrorBarsYFormat](../../aspose.slides.charts/chartseries/errorbarsyformat) { get; } | Представляет ErrorBars серии с направлением Y.  ErrorBars с направлением Y доступно для серий типа площадь, полоса, линия, разброс и пузырек. Для любых других типов диаграмм это свойство возвращает значение null (включая трехмерные диаграммы). В случае пользовательских значений используйте коллекцию DataPoints для указания значения (со свойством[`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).  Только для чтения[`IErrorBarsFormat`](../ierrorbarsformat). |
+| [Explosion](../../aspose.slides.charts/chartseries/explosion) { get; set; } | Расстояние открытого сектора круговой диаграммы от центра круговой диаграммы выражается в процентах от диаметра круговой диаграммы. Чтение/записьInt32. |
+| [FirstSliceAngle](../../aspose.slides.charts/chartseries/firstsliceangle) { get; } | Указывает угол первого фрагмента круговой или кольцевой диаграммы, в градусах (по часовой стрелке сверху, от 0 до 360 градусов). Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.FirstSliceAngle для значения изменения. Только для чтенияUInt16. |
+| [Format](../../aspose.slides.charts/chartseries/format) { get; } | Возвращает формат серии. Только для чтения[`IFormat`](../iformat). |
+| [GapDepth](../../aspose.slides.charts/chartseries/gapdepth) { get; } | Возвращает или задает расстояние в процентах от ширины маркера между рядами данных на трехмерной диаграмме. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.GapDepth для значения изменения. Только для чтенияInt32. |
+| [GapWidth](../../aspose.slides.charts/chartseries/gapwidth) { get; } | Задает расстояние между кластерами полос или столбцов в процентах от ширины полосы или столбца. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.GapWidth для значения изменения. Только для чтенияInt32. |
+| [HasSeriesLines](../../aspose.slides.charts/chartseries/hasserieslines) { get; } | Определяет, есть ли строки серии для этой серии и родственных серий. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.HasSeriesLines для значения изменения. Используйте свойство ParentSeriesGroup.SeriesLinesFormat для форматирования строк серии. Только чтениеBoolean. |
+| [HasUpDownBars](../../aspose.slides.charts/chartseries/hasupdownbars) { get; } | Определяет, имеет ли линейный или фондовый график столбцы вверх/вниз. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство ParentSeriesGroup.UpDownBars.HasUpDownBars для чтения/записи для значения изменения. Используйте свойство ParentSeriesGroup.UpDownBars для форматирования баров вверх/вниз. Только чтениеBoolean. |
+| [InvertedSolidFillColor](../../aspose.slides.charts/chartseries/invertedsolidfillcolor) { get; } | Задает инвертирование сплошного цвета для серии. Чтобы применить настройку цвета, установите формат серии FillType в FillType.Solid. Чтение/запись[`ColorFormat`](../../aspose.slides/colorformat). |
+| [InvertIfNegative](../../aspose.slides.charts/chartseries/invertifnegative) { get; set; } | Указывает, что полоса, столбец или серия пузырьков должны инвертировать свои цвета, если значение отрицательное. Чтение/записьBoolean. |
+| [IsColorVaried](../../aspose.slides.charts/chartseries/iscolorvaried) { get; } | Указывает, что каждый маркер данных в серии имеет свой цвет. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.IsColorVaried для значения изменения. Только чтениеBoolean. |
+| [Labels](../../aspose.slides.charts/chartseries/labels) { get; } | Возвращает метки серии. Только для чтения[`IDataLabelCollection`](../idatalabelcollection). |
+| [Marker](../../aspose.slides.charts/chartseries/marker) { get; } | Маркер. Только для чтения[`IMarker`](../imarker). |
+| [Name](../../aspose.slides.charts/chartseries/name) { get; } | Возвращает имя серии. Только для чтения[`IStringChartValue`](../istringchartvalue). |
+| [NumberFormatOfBubbleSizes](../../aspose.slides.charts/chartseries/numberformatofbubblesizes) { get; set; } | NumberFormatOfBubbleSizes. Чтение/записьString. |
+| [NumberFormatOfValues](../../aspose.slides.charts/chartseries/numberformatofvalues) { get; set; } | NumberFormatOfValues. Чтение/записьString. |
+| [NumberFormatOfXValues](../../aspose.slides.charts/chartseries/numberformatofxvalues) { get; set; } | NumberFormatOfXValues. Чтение/записьString. |
+| [NumberFormatOfYValues](../../aspose.slides.charts/chartseries/numberformatofyvalues) { get; set; } | NumberFormatOfYValues. Чтение/записьString. |
+| [Order](../../aspose.slides.charts/chartseries/order) { get; set; } | Возвращает порядок ряда. Чтение/записьInt32. |
+| [Overlap](../../aspose.slides.charts/chartseries/overlap) { get; } | Указывает, сколько полос и столбцов должно перекрываться на двумерных диаграммах (от -100 до 100). Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.Overlap для значения изменения. Только для чтенияSByte. |
+| [ParentLabelLayout](../../aspose.slides.charts/chartseries/parentlabellayout) { get; set; } | Представляет макет меток родительской категории. Применяется только к диаграммам Treemap. |
+| [ParentSeriesGroup](../../aspose.slides.charts/chartseries/parentseriesgroup) { get; } | ParentSeriesGroup. Только для чтения[`IChartSeriesGroup`](../ichartseriesgroup). |
+| [PieSplitBy](../../aspose.slides.charts/chartseries/piesplitby) { get; } | Указывает, как определить, какие точки данных находятся во второй круговой диаграмме или столбце на круговой или столбчатой диаграмме . Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство ParentSeriesGroup.PieSplitBy для чтения/записи для значения изменения. Только для чтения[`PieSplitType`](../piesplittype). |
+| [PieSplitCustomPoints](../../aspose.slides.charts/chartseries/piesplitcustompoints) { get; } | Пользовательская информация о разделении для круговой или столбчатой диаграммы с пользовательским разделением. Содержит точки данных, которые должны быть отображены во второй круговой диаграмме или столбце в круговой или столбчатой диаграмме. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства Только для чтения[`PieSplitCustomPointCollection`](../piesplitcustompointcollection). |
+| [PieSplitPosition](../../aspose.slides.charts/chartseries/piesplitposition) { get; } | Указывает значение, которое должно использоваться для определения того, какие точки данных находятся во втором круге или столбце на круге или столбце круговая диаграмма. Используется вместе со свойством PieSplitBy. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.PieSplitPosition для значения изменения. Только для чтенияDouble. |
+| [PlotOnSecondAxis](../../aspose.slides.charts/chartseries/plotonsecondaxis) { get; set; } | Указывает, нанесен ли этот ряд на второстепенную ось. Чтение/записьBoolean. |
+| [QuartileMethod](../../aspose.slides.charts/chartseries/quartilemethod) { get; set; } | Представляет метод квартилей. Применяется только к диаграммам BoxAndWhisker. |
+| [RelatedLegendEntry](../../aspose.slides.charts/chartseries/relatedlegendentry) { get; } | Представляет запись легенды, связанную с этой серией Только для чтения[`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SecondPieSize](../../aspose.slides.charts/chartseries/secondpiesize) { get; } | Задает размер второй круговой диаграммы или столбца круговой диаграммы или столбчатой диаграммы в виде процент от размера первого круга (может быть от 5 до 200 процентов). Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства. Итак, это свойство доступно только для чтения. Используйте свойство ParentSeriesGroup для доступа к родительской группе серий. Используйте свойство чтения/записи ParentSeriesGroup.SecondPieSize для значения изменения. Только для чтенияUInt16. |
+| [ShowConnectorLines](../../aspose.slides.charts/chartseries/showconnectorlines) { get; set; } | Представляет соединительные линии. Применяется только к диаграммам водопада. |
+| [ShowInnerPoints](../../aspose.slides.charts/chartseries/showinnerpoints) { get; set; } | Представляет внутренние точки. Истинно, если внутренние точки отображаются на диаграмме BoxAndWhisker. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean. |
+| [ShowMeanLine](../../aspose.slides.charts/chartseries/showmeanline) { get; set; } | Представляет среднюю линию. Истинно, если на диаграмме BoxAndWhisker отображаются средние линии. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean. |
+| [ShowMeanMarkers](../../aspose.slides.charts/chartseries/showmeanmarkers) { get; set; } | Представляет средние маркеры. Истинно, если на диаграмме BoxAndWhisker отображаются средние маркеры. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean. |
+| [ShowOutlierPoints](../../aspose.slides.charts/chartseries/showoutlierpoints) { get; set; } | Представляет точки выбросов. Значение true, если на диаграмме BoxAndWhisker отображаются точки выброса. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean. |
+| [Smooth](../../aspose.slides.charts/chartseries/smooth) { get; set; } | Представляет сглаживание кривой. Значение true, если сглаживание кривой включено для линейной диаграммы или точечной диаграммы. Применяется только к линейным и точечным графикам, связанным линиями. Чтение/записьBoolean. |
+| [TrendLines](../../aspose.slides.charts/chartseries/trendlines) { get; } | Коллекция трендовых линий ряда. Только для чтения[`ITrendlineCollection`](../itrendlinecollection). |
+| [Type](../../aspose.slides.charts/chartseries/type) { get; set; } | Возвращает тип этой серии. Чтение/запись[`ChartType`](../charttype). |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [GetAutomaticSeriesColor](../../aspose.slides.charts/chartseries/getautomaticseriescolor)() | Возвращает автоматический цвет ряда на основе индекса ряда и стиля диаграммы. Этот цвет используется по умолчанию, если FillType равно NotDefined. |
+
+### Смотрите также
+
+* interface [IChartSeries](../ichartseries)
+* пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
+* сборка [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
