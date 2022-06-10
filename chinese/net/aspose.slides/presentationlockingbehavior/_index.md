@@ -1,14 +1,22 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Slides for .NET API 参考
-description: 表示关于处理IPresentation./ipresentation源文件或 Stream同时加载和使用IPresentation./ipresentation的实例  源是传递给IPresentation./ipresentation构造函数的参数在下面的 示例中源是pres.pptx文件  ltcodegt LoadOptions loadOptions  新 LoadOptions  BlobManagementOptions   PresentationLockingBehavior  PresentationLockingBehavior.KeepLocked   using IPresentation pres  new Presentationpres.pptx loadOptions   lt/codegt 对于此示例源pres.pptx文件将被锁定为IPresentation./ipresentation 实例生命周期即不能由其他进程更改或删除
+description: 表示关于处理IPresentation./ipresentation源文件或 Stream同时加载和使用IPresentation./ipresentation的实例  源是传递给IPresentation./ipresentation构造函数的参数在下面的 示例中源是pres.pptx文件
 type: docs
 weight: 8910
 url: /zh/net/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior enumeration
 
-表示关于处理[`IPresentation`](../ipresentation)源（文件或 Stream)，同时加载和使用[`IPresentation`](../ipresentation)的实例。  源是传递给[`IPresentation`](../ipresentation)构造函数的参数。在下面的 示例中，源是“pres.pptx”文件:  &lt;code&gt; LoadOptions loadOptions = 新 LoadOptions { BlobManagementOptions = { PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked } }; using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { } &lt;/code&gt; 对于此示例，源（“pres.pptx”文件）将被锁定为[`IPresentation`](../ipresentation) 实例生命周期，即不能由其他进程更改或删除。
+表示关于处理[`IPresentation`](../ipresentation)源（文件或 Stream)，同时加载和使用[`IPresentation`](../ipresentation)的实例。  源是传递给[`IPresentation`](../ipresentation)构造函数的参数。在下面的 示例中，源是“pres.pptx”文件:
+   
+```csharp
+LoadOptions loadOptions = new LoadOptions { 
+  BlobManagementOptions = { PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked } };
+using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
+``` 
+
+ 对于此示例，源（“pres.pptx”文件）将被锁定为[`IPresentation`](../ipresentation) 实例生命周期，即不能由其他进程更改或删除。
 
 ```csharp
 public enum PresentationLockingBehavior

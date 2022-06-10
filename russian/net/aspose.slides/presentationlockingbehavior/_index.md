@@ -1,14 +1,22 @@
 ---
 title: PresentationLockingBehavior
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение в отношении обработкиIPresentation./ipresentationисточника файла или Stream при загрузке и работе с экземпляромIPresentation./ipresentation.  Источник  это параметр передаваемый конструкторуIPresentation./ipresentation. В приведенном ниже примере источником является файл pres.pptx  ltcodegt LoadOptions loadOptions  new LoadOptions  BlobManagementOptions   PresentationLockingBehavior  PresentationLockingBehavior.KeepLocked   using IPresentation pres  new Presentationpres.pptx loadOptions   lt/codegt В этом примере источник файл pres.pptx будет заблокирован на время жизни экземпляраIPresentation./ipresentation  т.е. быть изменены или удалены другим процессом.
+description: Представляет поведение в отношении обработкиIPresentation./ipresentationисточника файла или Stream при загрузке и работе с экземпляромIPresentation./ipresentation.  Источник  это параметр передаваемый конструкторуIPresentation./ipresentation. В приведенном ниже примере источником является файл pres.pptx
 type: docs
 weight: 8910
 url: /ru/net/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior enumeration
 
-Представляет поведение в отношении обработки[`IPresentation`](../ipresentation)источника (файла или Stream) при загрузке и работе с экземпляром[`IPresentation`](../ipresentation).  Источник — это параметр, передаваемый конструктору[`IPresentation`](../ipresentation). В приведенном ниже примере источником является файл "pres.pptx":  &lt;code&gt; LoadOptions loadOptions = new LoadOptions { BlobManagementOptions = { PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked } }; using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { } &lt;/code&gt; В этом примере источник (файл "pres.pptx") будет заблокирован на время жизни экземпляра[`IPresentation`](../ipresentation) , т.е. быть изменены или удалены другим процессом.
+Представляет поведение в отношении обработки[`IPresentation`](../ipresentation)источника (файла или Stream) при загрузке и работе с экземпляром[`IPresentation`](../ipresentation).  Источник — это параметр, передаваемый конструктору[`IPresentation`](../ipresentation). В приведенном ниже примере источником является файл "pres.pptx": 
+ 
+```csharp
+LoadOptions loadOptions = new LoadOptions { 
+  BlobManagementOptions = { PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked } };
+using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
+``` 
+
+В этом примере источник (файл "pres.pptx") будет заблокирован на время жизни экземпляра[`IPresentation`](../ipresentation) , т.е. быть изменены или удалены другим процессом.
 
 ```csharp
 public enum PresentationLockingBehavior
