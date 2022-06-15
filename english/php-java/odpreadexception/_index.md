@@ -14,6 +14,6 @@ url: /php-java/odpreadexception/
 
 | name | description |
 | --- | --- |
-| [OdpReadException](/php-java/odpreadexception/odpreadexception/)() | Default constructor |
-| [OdpReadException](/php-java/odpreadexception/odpreadexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [OdpReadException](/php-java/odpreadexception/odpreadexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [OdpReadException](/slides/php-java/odpreadexception/odpreadexception/)() | Default constructor |
+| [OdpReadException](/slides/php-java/odpreadexception/odpreadexception/)(String) | Constructor allowing a message to be added to this exception. |
+| [OdpReadException](/slides/php-java/odpreadexception/odpreadexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

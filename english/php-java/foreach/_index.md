@@ -21,16 +21,16 @@ url: /php-java/foreach/
 
 | name | description |
 | --- | --- |
-| [ForEach](/php-java/foreach/foreach/)() |  |
+| [ForEach](/slides/php-java/foreach/foreach/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [layoutSlide](/php-java/foreach/layoutslide/)(Presentation, ForEach.ForEachLayoutSlideCallback) | void | Iterate each #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the Presentation. |
-| [masterSlide](/php-java/foreach/masterslide/)(Presentation, ForEach.ForEachMasterSlideCallback) | void | Iterate each #masterSlide(Presentation,ForEachMasterSlideCallback) in the Presentation. |
-| [paragraph](/php-java/foreach/paragraph/)(Presentation, ForEach.ForEachParagraphCallback) | void | Iterate each #paragraph(Presentation,ForEachParagraphCallback) in the Presentation. |
-| [portion](/php-java/foreach/portion/)(Presentation, ForEach.ForEachPortionCallback) | void | Iterate each #portion(Presentation,ForEachPortionCallback) in the Presentation. |
-| [shape](/php-java/foreach/shape/)(Presentation, ForEach.ForEachShapeCallback) | void | Iterate each Shape in the Presentation. |
-| [shape](/php-java/foreach/shape/)(BaseSlide, ForEach.ForEachShapeCallback) | void | Iterate each Shape in the BaseSlide. |
-| [slide](/php-java/foreach/slide/)(Presentation, ForEach.ForEachSlideCallback) | void | Iterate each #slide(Presentation,ForEachSlideCallback) in the Presentation. |
+| [layoutSlide](/slides/php-java/foreach/layoutslide/)(Presentation, ForEach.ForEachLayoutSlideCallback) | void | Iterate each #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the Presentation. |
+| [masterSlide](/slides/php-java/foreach/masterslide/)(Presentation, ForEach.ForEachMasterSlideCallback) | void | Iterate each #masterSlide(Presentation,ForEachMasterSlideCallback) in the Presentation. |
+| [paragraph](/slides/php-java/foreach/paragraph/)(Presentation, ForEach.ForEachParagraphCallback) | void | Iterate each #paragraph(Presentation,ForEachParagraphCallback) in the Presentation. |
+| [portion](/slides/php-java/foreach/portion/)(Presentation, ForEach.ForEachPortionCallback) | void | Iterate each #portion(Presentation,ForEachPortionCallback) in the Presentation. |
+| [shape](/slides/php-java/foreach/shape/)(Presentation, ForEach.ForEachShapeCallback) | void | Iterate each Shape in the Presentation. |
+| [shape](/slides/php-java/foreach/shape/)(BaseSlide, ForEach.ForEachShapeCallback) | void | Iterate each Shape in the BaseSlide. |
+| [slide](/slides/php-java/foreach/slide/)(Presentation, ForEach.ForEachSlideCallback) | void | Iterate each #slide(Presentation,ForEachSlideCallback) in the Presentation. |

@@ -14,6 +14,6 @@ url: /php-java/interruptiontoken/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getNone](/php-java/interruptiontoken/getnone/)() | InterruptionToken | Represents an empty interruption token. Long-running operations will never be interrupted via InterruptionTokenSource#interrupt when using this token. |
-| [isInterruptionRequested](/php-java/interruptiontoken/isinterruptionrequested/)() | boolean | Returns true if interruption was requested. |
-| [throwIfInterruptionRequested](/php-java/interruptiontoken/throwifinterruptionrequested/)() | void | Throws an if interruption was requested. |
+| [getNone](/slides/php-java/interruptiontoken/getnone/)() | InterruptionToken | Represents an empty interruption token. Long-running operations will never be interrupted via InterruptionTokenSource#interrupt when using this token. |
+| [isInterruptionRequested](/slides/php-java/interruptiontoken/isinterruptionrequested/)() | boolean | Returns true if interruption was requested. |
+| [throwIfInterruptionRequested](/slides/php-java/interruptiontoken/throwifinterruptionrequested/)() | void | Throws an if interruption was requested. |

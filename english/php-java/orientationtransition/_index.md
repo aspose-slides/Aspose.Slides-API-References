@@ -14,5 +14,5 @@ url: /php-java/orientationtransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDirection](/php-java/orientationtransition/getdirection/)() | byte | Direction of transition. Read/write Orientation. |
-| [setDirection](/php-java/orientationtransition/setdirection/)(byte) | void | Direction of transition. Read/write Orientation. |
+| [getDirection](/slides/php-java/orientationtransition/getdirection/)() | byte | Direction of transition. Read/write Orientation. |
+| [setDirection](/slides/php-java/orientationtransition/setdirection/)(byte) | void | Direction of transition. Read/write Orientation. |

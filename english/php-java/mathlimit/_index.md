@@ -19,15 +19,15 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathLimit](/php-java/mathlimit/mathlimit/)(IMathElement, IMathElement, boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](/php-java/mathlimit/mathlimit/)(IMathElement, IMathElement) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit](/slides/php-java/mathlimit/mathlimit/)(IMathElement, IMathElement, boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit](/slides/php-java/mathlimit/mathlimit/)(IMathElement, IMathElement) | Initializes a new instance of the MathLimit class with lower limit |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getBase](/php-java/mathlimit/getbase/)() | IMathElement | Base argument |
-| [getChildren](/php-java/mathlimit/getchildren/)() | IMathElement | Get children elements |
-| [getLimit](/php-java/mathlimit/getlimit/)() | IMathElement | Limit argument |
-| [getUpperLimit](/php-java/mathlimit/getupperlimit/)() | boolean | Specifies upper or lower limit |
-| [setUpperLimit](/php-java/mathlimit/setupperlimit/)(boolean) | void | Specifies upper or lower limit |
+| [getBase](/slides/php-java/mathlimit/getbase/)() | IMathElement | Base argument |
+| [getChildren](/slides/php-java/mathlimit/getchildren/)() | IMathElement | Get children elements |
+| [getLimit](/slides/php-java/mathlimit/getlimit/)() | IMathElement | Limit argument |
+| [getUpperLimit](/slides/php-java/mathlimit/getupperlimit/)() | boolean | Specifies upper or lower limit |
+| [setUpperLimit](/slides/php-java/mathlimit/setupperlimit/)(boolean) | void | Specifies upper or lower limit |

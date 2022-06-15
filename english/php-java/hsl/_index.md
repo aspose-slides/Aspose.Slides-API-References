@@ -15,6 +15,6 @@ url: /php-java/hsl/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/hsl/equals/)(Object) | boolean | Determines whether the specified HSL is equal to the current HSL. |
-| [getEffective](/php-java/hsl/geteffective/)() | IHSLEffectiveData | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
-| [hashCode](/php-java/hsl/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [equals](/slides/php-java/hsl/equals/)(Object) | boolean | Determines whether the specified HSL is equal to the current HSL. |
+| [getEffective](/slides/php-java/hsl/geteffective/)() | IHSLEffectiveData | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
+| [hashCode](/slides/php-java/hsl/hashcode/)() | int | Serves as a hash function for a particular type. |

@@ -14,7 +14,7 @@ url: /php-java/masterhandoutslide/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getHeaderFooterManager](/php-java/masterhandoutslide/getheaderfootermanager/)() | IMasterHandoutSlideHeaderFooterManager | Returns HeaderFooter manager of the master handout slide. Read-only IMasterHandoutSlideHeaderFooterManager. |
-| [getShowMasterShapes](/php-java/masterhandoutslide/getshowmastershapes/)() | boolean | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
-| [getThemeManager](/php-java/masterhandoutslide/getthememanager/)() | IMasterThemeManager | Returns the theme manager. Read-only IMasterThemeManager. |
-| [setShowMasterShapes](/php-java/masterhandoutslide/setshowmastershapes/)(boolean) | void | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
+| [getHeaderFooterManager](/slides/php-java/masterhandoutslide/getheaderfootermanager/)() | IMasterHandoutSlideHeaderFooterManager | Returns HeaderFooter manager of the master handout slide. Read-only IMasterHandoutSlideHeaderFooterManager. |
+| [getShowMasterShapes](/slides/php-java/masterhandoutslide/getshowmastershapes/)() | boolean | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
+| [getThemeManager](/slides/php-java/masterhandoutslide/getthememanager/)() | IMasterThemeManager | Returns the theme manager. Read-only IMasterThemeManager. |
+| [setShowMasterShapes](/slides/php-java/masterhandoutslide/setshowmastershapes/)(boolean) | void | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |

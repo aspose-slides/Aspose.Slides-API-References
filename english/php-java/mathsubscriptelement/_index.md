@@ -20,11 +20,11 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathSubscriptElement](/php-java/mathsubscriptelement/mathsubscriptelement/)(IMathElement, IMathElement) | Initializes a new instance of the MathSubscriptElement class. |
+| [MathSubscriptElement](/slides/php-java/mathsubscriptelement/mathsubscriptelement/)(IMathElement, IMathElement) | Initializes a new instance of the MathSubscriptElement class. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getChildren](/php-java/mathsubscriptelement/getchildren/)() | IMathElement | Get children elements |
-| [getSubscript](/php-java/mathsubscriptelement/getsubscript/)() | IMathElement | Subscript |
+| [getChildren](/slides/php-java/mathsubscriptelement/getchildren/)() | IMathElement | Get children elements |
+| [getSubscript](/slides/php-java/mathsubscriptelement/getsubscript/)() | IMathElement | Subscript |

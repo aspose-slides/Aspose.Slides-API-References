@@ -14,13 +14,13 @@ url: /php-java/formatfactory/
 
 | name | description |
 | --- | --- |
-| [FormatFactory](/php-java/formatfactory/formatfactory/)() |  |
+| [FormatFactory](/slides/php-java/formatfactory/formatfactory/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [createParagraphFormat](/php-java/formatfactory/createparagraphformat/)() | IParagraphFormat | Creates new IParagraphFormat. |
-| [createPortionFormat](/php-java/formatfactory/createportionformat/)() | IPortionFormat | Creates new IPortionFormat. |
-| [createTextFrameFormat](/php-java/formatfactory/createtextframeformat/)() | ITextFrameFormat | Creates new ITextFrameFormat. |
-| [getInstance](/php-java/formatfactory/getinstance/)() | FormatFactory | Format factory static instance. Read-only FormatFactory. |
+| [createParagraphFormat](/slides/php-java/formatfactory/createparagraphformat/)() | IParagraphFormat | Creates new IParagraphFormat. |
+| [createPortionFormat](/slides/php-java/formatfactory/createportionformat/)() | IPortionFormat | Creates new IPortionFormat. |
+| [createTextFrameFormat](/slides/php-java/formatfactory/createtextframeformat/)() | ITextFrameFormat | Creates new ITextFrameFormat. |
+| [getInstance](/slides/php-java/formatfactory/getinstance/)() | FormatFactory | Format factory static instance. Read-only FormatFactory. |

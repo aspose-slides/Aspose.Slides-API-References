@@ -15,7 +15,7 @@ url: /php-java/alphainverse/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/alphainverse/equals/)(Object) | boolean | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
-| [getEffective](/php-java/alphainverse/geteffective/)() | IAlphaInverseEffectiveData | Gets effective Alpha Inverse effect data with the inheritance applied. |
-| [getVersion](/php-java/alphainverse/getversion/)() | long |  |
-| [hashCode](/php-java/alphainverse/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [equals](/slides/php-java/alphainverse/equals/)(Object) | boolean | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
+| [getEffective](/slides/php-java/alphainverse/geteffective/)() | IAlphaInverseEffectiveData | Gets effective Alpha Inverse effect data with the inheritance applied. |
+| [getVersion](/slides/php-java/alphainverse/getversion/)() | long |  |
+| [hashCode](/slides/php-java/alphainverse/hashcode/)() | int | Serves as a hash function for a particular type. |

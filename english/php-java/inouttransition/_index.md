@@ -14,5 +14,5 @@ url: /php-java/inouttransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDirection](/php-java/inouttransition/getdirection/)() | int | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
-| [setDirection](/php-java/inouttransition/setdirection/)(int) | void | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
+| [getDirection](/slides/php-java/inouttransition/getdirection/)() | int | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
+| [setDirection](/slides/php-java/inouttransition/setdirection/)(int) | void | Direction of a transition effect. Read/write TransitionInOutDirectionType. |

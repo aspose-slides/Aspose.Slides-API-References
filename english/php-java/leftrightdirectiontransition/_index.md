@@ -14,5 +14,5 @@ url: /php-java/leftrightdirectiontransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDirection](/php-java/leftrightdirectiontransition/getdirection/)() | int | Direction of transition. Read/write TransitionLeftRightDirectionType. |
-| [setDirection](/php-java/leftrightdirectiontransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| [getDirection](/slides/php-java/leftrightdirectiontransition/getdirection/)() | int | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| [setDirection](/slides/php-java/leftrightdirectiontransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionLeftRightDirectionType. |

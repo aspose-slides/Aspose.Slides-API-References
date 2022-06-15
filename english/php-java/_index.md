@@ -8,8 +8,6 @@ description: Aspose.Slides are Microsoft PowerPoint® management APIs that enabl
 is_root: true
 ---
 
-**Namespace:** Aspose.Slides
-
 ## Classes
 
 | name | description |

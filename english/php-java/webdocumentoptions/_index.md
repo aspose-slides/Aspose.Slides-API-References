@@ -14,19 +14,19 @@ url: /php-java/webdocumentoptions/
 
 | name | description |
 | --- | --- |
-| [WebDocumentOptions](/php-java/webdocumentoptions/webdocumentoptions/)() |  |
+| [WebDocumentOptions](/slides/php-java/webdocumentoptions/webdocumentoptions/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getAnimateShapes](/php-java/webdocumentoptions/getanimateshapes/)() | boolean | Returns or sets shapes animation option. Read/write boolean. |
-| [getAnimateTransitions](/php-java/webdocumentoptions/getanimatetransitions/)() | boolean | Returns or sets transitions animation option. Read/write boolean. |
-| [getEmbedImages](/php-java/webdocumentoptions/getembedimages/)() | boolean | Returns or sets images embedding option. Read/write boolean. |
-| [getOutputSaver](/php-java/webdocumentoptions/getoutputsaver/)() | IOutputSaver | Returns or sets output saver. Read/write IOutputSaver. |
-| [getTemplateEngine](/php-java/webdocumentoptions/gettemplateengine/)() | ITemplateEngine | Returns or sets templates engine. Read/write ITemplateEngine. |
-| [setAnimateShapes](/php-java/webdocumentoptions/setanimateshapes/)(boolean) | void | Returns or sets shapes animation option. Read/write boolean. |
-| [setAnimateTransitions](/php-java/webdocumentoptions/setanimatetransitions/)(boolean) | void | Returns or sets transitions animation option. Read/write boolean. |
-| [setEmbedImages](/php-java/webdocumentoptions/setembedimages/)(boolean) | void | Returns or sets images embedding option. Read/write boolean. |
-| [setOutputSaver](/php-java/webdocumentoptions/setoutputsaver/)(IOutputSaver) | void | Returns or sets output saver. Read/write IOutputSaver. |
-| [setTemplateEngine](/php-java/webdocumentoptions/settemplateengine/)(ITemplateEngine) | void | Returns or sets templates engine. Read/write ITemplateEngine. |
+| [getAnimateShapes](/slides/php-java/webdocumentoptions/getanimateshapes/)() | boolean | Returns or sets shapes animation option. Read/write boolean. |
+| [getAnimateTransitions](/slides/php-java/webdocumentoptions/getanimatetransitions/)() | boolean | Returns or sets transitions animation option. Read/write boolean. |
+| [getEmbedImages](/slides/php-java/webdocumentoptions/getembedimages/)() | boolean | Returns or sets images embedding option. Read/write boolean. |
+| [getOutputSaver](/slides/php-java/webdocumentoptions/getoutputsaver/)() | IOutputSaver | Returns or sets output saver. Read/write IOutputSaver. |
+| [getTemplateEngine](/slides/php-java/webdocumentoptions/gettemplateengine/)() | ITemplateEngine | Returns or sets templates engine. Read/write ITemplateEngine. |
+| [setAnimateShapes](/slides/php-java/webdocumentoptions/setanimateshapes/)(boolean) | void | Returns or sets shapes animation option. Read/write boolean. |
+| [setAnimateTransitions](/slides/php-java/webdocumentoptions/setanimatetransitions/)(boolean) | void | Returns or sets transitions animation option. Read/write boolean. |
+| [setEmbedImages](/slides/php-java/webdocumentoptions/setembedimages/)(boolean) | void | Returns or sets images embedding option. Read/write boolean. |
+| [setOutputSaver](/slides/php-java/webdocumentoptions/setoutputsaver/)(IOutputSaver) | void | Returns or sets output saver. Read/write IOutputSaver. |
+| [setTemplateEngine](/slides/php-java/webdocumentoptions/settemplateengine/)(ITemplateEngine) | void | Returns or sets templates engine. Read/write ITemplateEngine. |

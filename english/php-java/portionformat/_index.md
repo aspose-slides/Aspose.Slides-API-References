@@ -17,19 +17,19 @@ url: /php-java/portionformat/
 
 | name | description |
 | --- | --- |
-| [PortionFormat](/php-java/portionformat/portionformat/)() | Initializes a new instance of PortionFormat class. |
+| [PortionFormat](/slides/php-java/portionformat/portionformat/)() | Initializes a new instance of PortionFormat class. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getBookmarkId](/php-java/portionformat/getbookmarkid/)() | String | Returns or sets bookmark identifier. Read/write String. |
-| [getEffective](/php-java/portionformat/geteffective/)() | IPortionFormatEffectiveData | Gets effective portion formatting data with the inheritance applied. |
-| [getHyperlinkClick](/php-java/portionformat/gethyperlinkclick/)() | IHyperlink | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
-| [getHyperlinkManager](/php-java/portionformat/gethyperlinkmanager/)() | IHyperlinkManager | Hyperlinks manager. Read-only IHyperlinkManager. |
-| [getHyperlinkMouseOver](/php-java/portionformat/gethyperlinkmouseover/)() | IHyperlink | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
-| [getSmartTagClean](/php-java/portionformat/getsmarttagclean/)() | boolean | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
-| [setBookmarkId](/php-java/portionformat/setbookmarkid/)(String) | void | Returns or sets bookmark identifier. Read/write String. |
-| [setHyperlinkClick](/php-java/portionformat/sethyperlinkclick/)(IHyperlink) | void | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
-| [setHyperlinkMouseOver](/php-java/portionformat/sethyperlinkmouseover/)(IHyperlink) | void | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
-| [setSmartTagClean](/php-java/portionformat/setsmarttagclean/)(boolean) | void | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
+| [getBookmarkId](/slides/php-java/portionformat/getbookmarkid/)() | String | Returns or sets bookmark identifier. Read/write String. |
+| [getEffective](/slides/php-java/portionformat/geteffective/)() | IPortionFormatEffectiveData | Gets effective portion formatting data with the inheritance applied. |
+| [getHyperlinkClick](/slides/php-java/portionformat/gethyperlinkclick/)() | IHyperlink | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| [getHyperlinkManager](/slides/php-java/portionformat/gethyperlinkmanager/)() | IHyperlinkManager | Hyperlinks manager. Read-only IHyperlinkManager. |
+| [getHyperlinkMouseOver](/slides/php-java/portionformat/gethyperlinkmouseover/)() | IHyperlink | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| [getSmartTagClean](/slides/php-java/portionformat/getsmarttagclean/)() | boolean | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
+| [setBookmarkId](/slides/php-java/portionformat/setbookmarkid/)(String) | void | Returns or sets bookmark identifier. Read/write String. |
+| [setHyperlinkClick](/slides/php-java/portionformat/sethyperlinkclick/)(IHyperlink) | void | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| [setHyperlinkMouseOver](/slides/php-java/portionformat/sethyperlinkmouseover/)(IHyperlink) | void | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| [setSmartTagClean](/slides/php-java/portionformat/setsmarttagclean/)(boolean) | void | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |

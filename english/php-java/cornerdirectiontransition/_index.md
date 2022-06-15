@@ -14,5 +14,5 @@ url: /php-java/cornerdirectiontransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDirection](/php-java/cornerdirectiontransition/getdirection/)() | int | Direction of transition. Read/write TransitionCornerDirectionType. |
-| [setDirection](/php-java/cornerdirectiontransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionCornerDirectionType. |
+| [getDirection](/slides/php-java/cornerdirectiontransition/getdirection/)() | int | Direction of transition. Read/write TransitionCornerDirectionType. |
+| [setDirection](/slides/php-java/cornerdirectiontransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionCornerDirectionType. |

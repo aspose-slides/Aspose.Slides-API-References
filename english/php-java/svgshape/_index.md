@@ -14,6 +14,6 @@ url: /php-java/svgshape/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getId](/php-java/svgshape/getid/)() | String | Gets shape id |
-| [setEventHandler](/php-java/svgshape/seteventhandler/)(int, String) | void | Sets event handler for the shape |
-| [setId](/php-java/svgshape/setid/)(String) | void | Gets shape id |
+| [getId](/slides/php-java/svgshape/getid/)() | String | Gets shape id |
+| [setEventHandler](/slides/php-java/svgshape/seteventhandler/)(int, String) | void | Sets event handler for the shape |
+| [setId](/slides/php-java/svgshape/setid/)(String) | void | Gets shape id |

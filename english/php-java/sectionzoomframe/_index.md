@@ -14,5 +14,5 @@ url: /php-java/sectionzoomframe/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getTargetSection](/php-java/sectionzoomframe/gettargetsection/)() | ISection | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
-| [setTargetSection](/php-java/sectionzoomframe/settargetsection/)(ISection) | void | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+| [getTargetSection](/slides/php-java/sectionzoomframe/gettargetsection/)() | ISection | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+| [setTargetSection](/slides/php-java/sectionzoomframe/settargetsection/)(ISection) | void | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |

@@ -14,5 +14,5 @@ url: /php-java/svgtspan/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getId](/php-java/svgtspan/getid/)() | String | Gets "tspan" element id |
-| [setId](/php-java/svgtspan/setid/)(String) | void | Gets "tspan" element id |
+| [getId](/slides/php-java/svgtspan/getid/)() | String | Gets "tspan" element id |
+| [setId](/slides/php-java/svgtspan/setid/)(String) | void | Gets "tspan" element id |

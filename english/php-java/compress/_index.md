@@ -27,11 +27,11 @@ url: /php-java/compress/
 
 | name | description |
 | --- | --- |
-| [Compress](/php-java/compress/compress/)() |  |
+| [Compress](/slides/php-java/compress/compress/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [removeUnusedLayoutSlides](/php-java/compress/removeunusedlayoutslides/)(Presentation) | void | Makes compression of the Presentation by removing unused layout slides. |
-| [removeUnusedMasterSlides](/php-java/compress/removeunusedmasterslides/)(Presentation) | void | Makes compression of the Presentation by removing unused master slides. |
+| [removeUnusedLayoutSlides](/slides/php-java/compress/removeunusedlayoutslides/)(Presentation) | void | Makes compression of the Presentation by removing unused layout slides. |
+| [removeUnusedMasterSlides](/slides/php-java/compress/removeunusedmasterslides/)(Presentation) | void | Makes compression of the Presentation by removing unused master slides. |

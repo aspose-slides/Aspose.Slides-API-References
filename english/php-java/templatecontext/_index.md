@@ -14,8 +14,8 @@ url: /php-java/templatecontext/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getGlobal](/php-java/templatecontext/getglobal/)() | Storage | Returns global storage of the host document. Read-only Storage. |
-| [getLocal](/php-java/templatecontext/getlocal/)() | Storage | Returns local storage of the current template context. Read-only Storage. |
-| [getObject](/php-java/templatecontext/getobject/)() | TObject | Returns the model object. Read-only Object. |
-| [getOutput](/php-java/templatecontext/getoutput/)() | Output | Returns collection of output elements of the host document. Read-only Output( #getOutput). |
-| [subModel](/php-java/templatecontext/submodel/)(TSubModel) | TemplateContext | Creates a child template context. |
+| [getGlobal](/slides/php-java/templatecontext/getglobal/)() | Storage | Returns global storage of the host document. Read-only Storage. |
+| [getLocal](/slides/php-java/templatecontext/getlocal/)() | Storage | Returns local storage of the current template context. Read-only Storage. |
+| [getObject](/slides/php-java/templatecontext/getobject/)() | TObject | Returns the model object. Read-only Object. |
+| [getOutput](/slides/php-java/templatecontext/getoutput/)() | Output | Returns collection of output elements of the host document. Read-only Output( #getOutput). |
+| [subModel](/slides/php-java/templatecontext/submodel/)(TSubModel) | TemplateContext | Creates a child template context. |

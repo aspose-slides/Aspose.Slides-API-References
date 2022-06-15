@@ -14,8 +14,8 @@ url: /php-java/adjustvaluecollection/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getSyncRoot](/php-java/adjustvaluecollection/getsyncroot/)() | Object | Returns a synchronization root. Read-only Object. |
-| [get_Item](/php-java/adjustvaluecollection/get_item/)(int) | IAdjustValue | Returns adjustment by index. |
-| [isSynchronized](/php-java/adjustvaluecollection/issynchronized/)() | boolean | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](/php-java/adjustvaluecollection/iterator/)() | IEnumerator | Returns an enumerator for the entire collection. |
-| [size](/php-java/adjustvaluecollection/size/)() | int | Return a number of adjustments. Read-only int. |
+| [getSyncRoot](/slides/php-java/adjustvaluecollection/getsyncroot/)() | Object | Returns a synchronization root. Read-only Object. |
+| [get_Item](/slides/php-java/adjustvaluecollection/get_item/)(int) | IAdjustValue | Returns adjustment by index. |
+| [isSynchronized](/slides/php-java/adjustvaluecollection/issynchronized/)() | boolean | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [iterator](/slides/php-java/adjustvaluecollection/iterator/)() | IEnumerator | Returns an enumerator for the entire collection. |
+| [size](/slides/php-java/adjustvaluecollection/size/)() | int | Return a number of adjustments. Read-only int. |

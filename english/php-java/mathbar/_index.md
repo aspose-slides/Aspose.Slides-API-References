@@ -19,14 +19,14 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathBar](/php-java/mathbar/mathbar/)(IMathElement) | Initializes MathBar with overbar (Top position) |
-| [MathBar](/php-java/mathbar/mathbar/)(IMathElement, int) | Initializes MathBar with specified position |
+| [MathBar](/slides/php-java/mathbar/mathbar/)(IMathElement) | Initializes MathBar with overbar (Top position) |
+| [MathBar](/slides/php-java/mathbar/mathbar/)(IMathElement, int) | Initializes MathBar with specified position |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getBase](/php-java/mathbar/getbase/)() | IMathElement | Base argument |
-| [getChildren](/php-java/mathbar/getchildren/)() | IMathElement | Get children elements |
-| [getPosition](/php-java/mathbar/getposition/)() | int | Position of the bar line. Default: Top |
-| [setPosition](/php-java/mathbar/setposition/)(int) | void | Position of the bar line. Default: Top |
+| [getBase](/slides/php-java/mathbar/getbase/)() | IMathElement | Base argument |
+| [getChildren](/slides/php-java/mathbar/getchildren/)() | IMathElement | Get children elements |
+| [getPosition](/slides/php-java/mathbar/getposition/)() | int | Position of the bar line. Default: Top |
+| [setPosition](/slides/php-java/mathbar/setposition/)(int) | void | Position of the bar line. Default: Top |

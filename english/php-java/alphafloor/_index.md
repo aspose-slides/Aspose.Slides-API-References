@@ -16,6 +16,6 @@ url: /php-java/alphafloor/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/alphafloor/equals/)(Object) | boolean | Determines whether the specified AlphaFloor is equal to the current AlphaFloor. |
-| [getEffective](/php-java/alphafloor/geteffective/)() | IAlphaFloorEffectiveData | Gets effective Alpha Floor effect data with the inheritance applied. |
-| [hashCode](/php-java/alphafloor/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [equals](/slides/php-java/alphafloor/equals/)(Object) | boolean | Determines whether the specified AlphaFloor is equal to the current AlphaFloor. |
+| [getEffective](/slides/php-java/alphafloor/geteffective/)() | IAlphaFloorEffectiveData | Gets effective Alpha Floor effect data with the inheritance applied. |
+| [hashCode](/slides/php-java/alphafloor/hashcode/)() | int | Serves as a hash function for a particular type. |

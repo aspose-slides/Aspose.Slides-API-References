@@ -14,12 +14,12 @@ url: /php-java/picture/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/picture/equals/)(Object) | boolean | Compares with specified object. |
-| [getImage](/php-java/picture/getimage/)() | IPPImage | Returns or sets the embedded image. Read/write IPPImage. |
-| [getImageTransform](/php-java/picture/getimagetransform/)() | IImageTransformOperationCollection | Returns the collection of image transform effects. Read-only IImageTransformOperationCollection. |
-| [getLinkPathLong](/php-java/picture/getlinkpathlong/)() | String | Returns of sets linked image's URL. Read/write String. |
-| [getPresentation](/php-java/picture/getpresentation/)() | Presentation | Returns the presentation. Read-only IPresentation. |
-| [getSlide](/php-java/picture/getslide/)() | BaseSlide | Returns the parent slide of a picture. Read-only IBaseSlide. |
-| [hashCode](/php-java/picture/hashcode/)() | int | Returns hash. |
-| [setImage](/php-java/picture/setimage/)(IPPImage) | void | Returns or sets the embedded image. Read/write IPPImage. |
-| [setLinkPathLong](/php-java/picture/setlinkpathlong/)(String) | void | Returns of sets linked image's URL. Read/write String. |
+| [equals](/slides/php-java/picture/equals/)(Object) | boolean | Compares with specified object. |
+| [getImage](/slides/php-java/picture/getimage/)() | IPPImage | Returns or sets the embedded image. Read/write IPPImage. |
+| [getImageTransform](/slides/php-java/picture/getimagetransform/)() | IImageTransformOperationCollection | Returns the collection of image transform effects. Read-only IImageTransformOperationCollection. |
+| [getLinkPathLong](/slides/php-java/picture/getlinkpathlong/)() | String | Returns of sets linked image's URL. Read/write String. |
+| [getPresentation](/slides/php-java/picture/getpresentation/)() | Presentation | Returns the presentation. Read-only IPresentation. |
+| [getSlide](/slides/php-java/picture/getslide/)() | BaseSlide | Returns the parent slide of a picture. Read-only IBaseSlide. |
+| [hashCode](/slides/php-java/picture/hashcode/)() | int | Returns hash. |
+| [setImage](/slides/php-java/picture/setimage/)(IPPImage) | void | Returns or sets the embedded image. Read/write IPPImage. |
+| [setLinkPathLong](/slides/php-java/picture/setlinkpathlong/)(String) | void | Returns of sets linked image's URL. Read/write String. |

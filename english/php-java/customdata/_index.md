@@ -14,5 +14,5 @@ url: /php-java/customdata/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getCustomXmlParts](/php-java/customdata/getcustomxmlparts/)() | ICustomXmlPartCollection | Returns the custom xml parts collection. Read-only ICustomXmlPartCollection. |
-| [getTags](/php-java/customdata/gettags/)() | ITagCollection | Returns the Customer Data Tags collection. Read-only ITagCollection. |
+| [getCustomXmlParts](/slides/php-java/customdata/getcustomxmlparts/)() | ICustomXmlPartCollection | Returns the custom xml parts collection. Read-only ICustomXmlPartCollection. |
+| [getTags](/slides/php-java/customdata/gettags/)() | ITagCollection | Returns the Customer Data Tags collection. Read-only ITagCollection. |

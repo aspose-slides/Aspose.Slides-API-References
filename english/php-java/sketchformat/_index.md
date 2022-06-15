@@ -14,5 +14,5 @@ url: /php-java/sketchformat/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getSketchType](/php-java/sketchformat/getsketchtype/)() | int | Returns or sets the sketch type. Read/write LineSketchType. |
-| [setSketchType](/php-java/sketchformat/setsketchtype/)(int) | void | Returns or sets the sketch type. Read/write LineSketchType. |
+| [getSketchType](/slides/php-java/sketchformat/getsketchtype/)() | int | Returns or sets the sketch type. Read/write LineSketchType. |
+| [setSketchType](/slides/php-java/sketchformat/setsketchtype/)(int) | void | Returns or sets the sketch type. Read/write LineSketchType. |

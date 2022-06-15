@@ -14,5 +14,5 @@ url: /php-java/rippletransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDirection](/php-java/rippletransition/getdirection/)() | int | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
-| [setDirection](/php-java/rippletransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
+| [getDirection](/slides/php-java/rippletransition/getdirection/)() | int | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
+| [setDirection](/slides/php-java/rippletransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |

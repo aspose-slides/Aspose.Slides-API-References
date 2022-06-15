@@ -14,6 +14,6 @@ url: /php-java/video/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getBinaryData](/php-java/video/getbinarydata/)() | byte | Returns the copy of an audio's data. In case of large amount of data consider using of #getStream method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only byte[]. |
-| [getContentType](/php-java/video/getcontenttype/)() | String | Returns a MIME type of an video, encoded in ( #getBinaryData). Read-only String. |
-| [getStream](/php-java/video/getstream/)() | InputStream | Returns Stream stream for reading. Use 'using' or close stream after using. |
+| [getBinaryData](/slides/php-java/video/getbinarydata/)() | byte | Returns the copy of an audio's data. In case of large amount of data consider using of #getStream method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only byte[]. |
+| [getContentType](/slides/php-java/video/getcontenttype/)() | String | Returns a MIME type of an video, encoded in ( #getBinaryData). Read-only String. |
+| [getStream](/slides/php-java/video/getstream/)() | InputStream | Returns Stream stream for reading. Use 'using' or close stream after using. |

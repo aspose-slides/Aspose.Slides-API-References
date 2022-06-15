@@ -14,4 +14,4 @@ url: /php-java/baseshapelock/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getNoLocks](/php-java/baseshapelock/getnolocks/)() | boolean | Return true if all lock-flags are disabled. Read-only boolean. |
+| [getNoLocks](/slides/php-java/baseshapelock/getnolocks/)() | boolean | Return true if all lock-flags are disabled. Read-only boolean. |

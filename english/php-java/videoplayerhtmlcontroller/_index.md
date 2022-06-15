@@ -14,19 +14,19 @@ url: /php-java/videoplayerhtmlcontroller/
 
 | name | description |
 | --- | --- |
-| [VideoPlayerHtmlController](/php-java/videoplayerhtmlcontroller/videoplayerhtmlcontroller/)(String, String, String) | Creates a new instance of controller |
+| [VideoPlayerHtmlController](/slides/php-java/videoplayerhtmlcontroller/videoplayerhtmlcontroller/)(String, String, String) | Creates a new instance of controller |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [formatShape](/php-java/videoplayerhtmlcontroller/formatshape/)(ISvgShape, IShape) | void |  |
-| [getObjectStoringLocation](/php-java/videoplayerhtmlcontroller/getobjectstoringlocation/)(int, byte[], String, String, String) | int |  |
-| [getUrl](/php-java/videoplayerhtmlcontroller/geturl/)(int, int) | String |  |
-| [saveExternal](/php-java/videoplayerhtmlcontroller/saveexternal/)(int, byte[]) | void |  |
-| [writeDocumentEnd](/php-java/videoplayerhtmlcontroller/writedocumentend/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeDocumentStart](/php-java/videoplayerhtmlcontroller/writedocumentstart/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeShapeEnd](/php-java/videoplayerhtmlcontroller/writeshapeend/)(IHtmlGenerator, IShape) | void |  |
-| [writeShapeStart](/php-java/videoplayerhtmlcontroller/writeshapestart/)(IHtmlGenerator, IShape) | void |  |
-| [writeSlideEnd](/php-java/videoplayerhtmlcontroller/writeslideend/)(IHtmlGenerator, ISlide) | void |  |
-| [writeSlideStart](/php-java/videoplayerhtmlcontroller/writeslidestart/)(IHtmlGenerator, ISlide) | void |  |
+| [formatShape](/slides/php-java/videoplayerhtmlcontroller/formatshape/)(ISvgShape, IShape) | void |  |
+| [getObjectStoringLocation](/slides/php-java/videoplayerhtmlcontroller/getobjectstoringlocation/)(int, byte[], String, String, String) | int |  |
+| [getUrl](/slides/php-java/videoplayerhtmlcontroller/geturl/)(int, int) | String |  |
+| [saveExternal](/slides/php-java/videoplayerhtmlcontroller/saveexternal/)(int, byte[]) | void |  |
+| [writeDocumentEnd](/slides/php-java/videoplayerhtmlcontroller/writedocumentend/)(IHtmlGenerator, IPresentation) | void |  |
+| [writeDocumentStart](/slides/php-java/videoplayerhtmlcontroller/writedocumentstart/)(IHtmlGenerator, IPresentation) | void |  |
+| [writeShapeEnd](/slides/php-java/videoplayerhtmlcontroller/writeshapeend/)(IHtmlGenerator, IShape) | void |  |
+| [writeShapeStart](/slides/php-java/videoplayerhtmlcontroller/writeshapestart/)(IHtmlGenerator, IShape) | void |  |
+| [writeSlideEnd](/slides/php-java/videoplayerhtmlcontroller/writeslideend/)(IHtmlGenerator, ISlide) | void |  |
+| [writeSlideStart](/slides/php-java/videoplayerhtmlcontroller/writeslidestart/)(IHtmlGenerator, ISlide) | void |  |

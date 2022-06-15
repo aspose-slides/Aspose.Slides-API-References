@@ -14,5 +14,5 @@ url: /php-java/morphtransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getMorphType](/php-java/morphtransition/getmorphtype/)() | int | Type of morph transition. Read/write TransitionMorphType. |
-| [setMorphType](/php-java/morphtransition/setmorphtype/)(int) | void | Type of morph transition. Read/write TransitionMorphType. |
+| [getMorphType](/slides/php-java/morphtransition/getmorphtype/)() | int | Type of morph transition. Read/write TransitionMorphType. |
+| [setMorphType](/slides/php-java/morphtransition/setmorphtype/)(int) | void | Type of morph transition. Read/write TransitionMorphType. |

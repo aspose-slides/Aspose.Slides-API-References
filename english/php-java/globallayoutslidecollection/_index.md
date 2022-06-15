@@ -16,6 +16,6 @@ url: /php-java/globallayoutslidecollection/
 
 | name | return type | description |
 | --- | --- | --- |
-| [add](/php-java/globallayoutslidecollection/add/)(IMasterSlide, byte, String) | ILayoutSlide | Adds a new layout slide to the presentation. |
-| [addClone](/php-java/globallayoutslidecollection/addclone/)(ILayoutSlide) | ILayoutSlide | Adds a copy of a specified layout slide to the presentation. |
-| [addClone](/php-java/globallayoutslidecollection/addclone/)(ILayoutSlide, IMasterSlide) | ILayoutSlide | Adds a copy of a specified layout slide to the presentation. |
+| [add](/slides/php-java/globallayoutslidecollection/add/)(IMasterSlide, byte, String) | ILayoutSlide | Adds a new layout slide to the presentation. |
+| [addClone](/slides/php-java/globallayoutslidecollection/addclone/)(ILayoutSlide) | ILayoutSlide | Adds a copy of a specified layout slide to the presentation. |
+| [addClone](/slides/php-java/globallayoutslidecollection/addclone/)(ILayoutSlide, IMasterSlide) | ILayoutSlide | Adds a copy of a specified layout slide to the presentation. |

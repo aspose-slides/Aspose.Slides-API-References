@@ -15,7 +15,7 @@ url: /php-java/fontsloader/
 
 | name | return type | description |
 | --- | --- | --- |
-| [clearCache](/php-java/fontsloader/clearcache/)() | void | Releases all custom fonts defined by user This method needs to clear cache with custom fonts defined by user. |
-| [getFontFolders](/php-java/fontsloader/getfontfolders/)() | String | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
-| [loadExternalFont](/php-java/fontsloader/loadexternalfont/)(byte[]) | void | Adds font from the binary data |
-| [loadExternalFonts](/php-java/fontsloader/loadexternalfonts/)(java.lang.String[]) | void | Adds additional folders to seek fonts. |
+| [clearCache](/slides/php-java/fontsloader/clearcache/)() | void | Releases all custom fonts defined by user This method needs to clear cache with custom fonts defined by user. |
+| [getFontFolders](/slides/php-java/fontsloader/getfontfolders/)() | String | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
+| [loadExternalFont](/slides/php-java/fontsloader/loadexternalfont/)(byte[]) | void | Adds font from the binary data |
+| [loadExternalFonts](/slides/php-java/fontsloader/loadexternalfonts/)(java.lang.String[]) | void | Adds additional folders to seek fonts. |

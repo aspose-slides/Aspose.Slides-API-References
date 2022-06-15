@@ -29,13 +29,13 @@ url: /php-java/html5options/
 
 | name | description |
 | --- | --- |
-| [Html5Options](/php-java/html5options/html5options/)() |  |
+| [Html5Options](/slides/php-java/html5options/html5options/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getAnimateShapes](/php-java/html5options/getanimateshapes/)() | boolean | Returns or sets shapes animation option. Read/write boolean. |
-| [getAnimateTransitions](/php-java/html5options/getanimatetransitions/)() | boolean | Returns or sets transitions animation option. Read/write boolean. |
-| [setAnimateShapes](/php-java/html5options/setanimateshapes/)(boolean) | void | Returns or sets shapes animation option. Read/write boolean. |
-| [setAnimateTransitions](/php-java/html5options/setanimatetransitions/)(boolean) | void | Returns or sets transitions animation option. Read/write boolean. |
+| [getAnimateShapes](/slides/php-java/html5options/getanimateshapes/)() | boolean | Returns or sets shapes animation option. Read/write boolean. |
+| [getAnimateTransitions](/slides/php-java/html5options/getanimatetransitions/)() | boolean | Returns or sets transitions animation option. Read/write boolean. |
+| [setAnimateShapes](/slides/php-java/html5options/setanimateshapes/)(boolean) | void | Returns or sets shapes animation option. Read/write boolean. |
+| [setAnimateTransitions](/slides/php-java/html5options/setanimatetransitions/)(boolean) | void | Returns or sets transitions animation option. Read/write boolean. |

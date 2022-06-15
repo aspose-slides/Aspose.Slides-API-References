@@ -14,12 +14,12 @@ url: /php-java/interruptiontokensource/
 
 | name | description |
 | --- | --- |
-| [InterruptionTokenSource](/php-java/interruptiontokensource/interruptiontokensource/)() | Creates a new InterruptionTokenSource. |
+| [InterruptionTokenSource](/slides/php-java/interruptiontokensource/interruptiontokensource/)() | Creates a new InterruptionTokenSource. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getToken](/php-java/interruptiontokensource/gettoken/)() | InterruptionToken | Returns new token binded to this InterruptionTokenSource. |
-| [interrupt](/php-java/interruptiontokensource/interrupt/)() | void | Initialize request for interruption. |
-| [isInterruptionRequested](/php-java/interruptiontokensource/isinterruptionrequested/)() | boolean | Returns true if interruption requested, false otherwise. |
+| [getToken](/slides/php-java/interruptiontokensource/gettoken/)() | InterruptionToken | Returns new token binded to this InterruptionTokenSource. |
+| [interrupt](/slides/php-java/interruptiontokensource/interrupt/)() | void | Initialize request for interruption. |
+| [isInterruptionRequested](/slides/php-java/interruptiontokensource/isinterruptionrequested/)() | boolean | Returns true if interruption requested, false otherwise. |

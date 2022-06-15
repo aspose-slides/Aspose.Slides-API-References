@@ -14,5 +14,5 @@ url: /php-java/summaryzoomframe/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getLayout](/php-java/summaryzoomframe/getlayout/)() | int | Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout. |
-| [getSummaryZoomCollection](/php-java/summaryzoomframe/getsummaryzoomcollection/)() | ISummaryZoomSectionCollection | Gets ISummaryZoomSectionCollection for the Summary Zoom Frame object. |
+| [getLayout](/slides/php-java/summaryzoomframe/getlayout/)() | int | Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout. |
+| [getSummaryZoomCollection](/slides/php-java/summaryzoomframe/getsummaryzoomcollection/)() | ISummaryZoomSectionCollection | Gets ISummaryZoomSectionCollection for the Summary Zoom Frame object. |

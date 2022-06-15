@@ -14,5 +14,5 @@ url: /php-java/optionalblacktransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getFromBlack](/php-java/optionalblacktransition/getfromblack/)() | boolean | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write boolean. |
-| [setFromBlack](/php-java/optionalblacktransition/setfromblack/)(boolean) | void | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write boolean. |
+| [getFromBlack](/slides/php-java/optionalblacktransition/getfromblack/)() | boolean | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write boolean. |
+| [setFromBlack](/slides/php-java/optionalblacktransition/setfromblack/)(boolean) | void | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write boolean. |

@@ -14,5 +14,5 @@ url: /php-java/eightdirectiontransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDirection](/php-java/eightdirectiontransition/getdirection/)() | int | Direction of transition. Read/write TransitionEightDirectionType. |
-| [setDirection](/php-java/eightdirectiontransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionEightDirectionType. |
+| [getDirection](/slides/php-java/eightdirectiontransition/getdirection/)() | int | Direction of transition. Read/write TransitionEightDirectionType. |
+| [setDirection](/slides/php-java/eightdirectiontransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionEightDirectionType. |

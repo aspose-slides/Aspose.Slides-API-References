@@ -23,12 +23,12 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathLeftSubSuperscriptElement](/php-java/mathleftsubsuperscriptelement/mathleftsubsuperscriptelement/)(IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathLeftSubSuperscriptElement class. |
+| [MathLeftSubSuperscriptElement](/slides/php-java/mathleftsubsuperscriptelement/mathleftsubsuperscriptelement/)(IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathLeftSubSuperscriptElement class. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getChildren](/php-java/mathleftsubsuperscriptelement/getchildren/)() | IMathElement | Get children elements |
-| [getSubscript](/php-java/mathleftsubsuperscriptelement/getsubscript/)() | IMathElement | Subscript |
-| [getSuperscript](/php-java/mathleftsubsuperscriptelement/getsuperscript/)() | IMathElement | Superscript |
+| [getChildren](/slides/php-java/mathleftsubsuperscriptelement/getchildren/)() | IMathElement | Get children elements |
+| [getSubscript](/slides/php-java/mathleftsubsuperscriptelement/getsubscript/)() | IMathElement | Subscript |
+| [getSuperscript](/slides/php-java/mathleftsubsuperscriptelement/getsuperscript/)() | IMathElement | Superscript |

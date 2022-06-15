@@ -14,6 +14,6 @@ url: /php-java/pptxeditexception/
 
 | name | description |
 | --- | --- |
-| [PptxEditException](/php-java/pptxeditexception/pptxeditexception/)() | Default constructor. |
-| [PptxEditException](/php-java/pptxeditexception/pptxeditexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptxEditException](/php-java/pptxeditexception/pptxeditexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptxEditException](/slides/php-java/pptxeditexception/pptxeditexception/)() | Default constructor. |
+| [PptxEditException](/slides/php-java/pptxeditexception/pptxeditexception/)(String) | Constructor allowing a message to be added to this exception. |
+| [PptxEditException](/slides/php-java/pptxeditexception/pptxeditexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

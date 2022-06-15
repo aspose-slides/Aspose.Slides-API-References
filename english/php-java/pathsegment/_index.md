@@ -14,5 +14,5 @@ url: /php-java/pathsegment/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getPathCommand](/php-java/pathsegment/getpathcommand/)() | byte | Path type of the segment |
-| [getSegmentData](/php-java/pathsegment/getsegmentdata/)() | float | Path data of the segment |
+| [getPathCommand](/slides/php-java/pathsegment/getpathcommand/)() | byte | Path type of the segment |
+| [getSegmentData](/slides/php-java/pathsegment/getsegmentdata/)() | float | Path data of the segment |

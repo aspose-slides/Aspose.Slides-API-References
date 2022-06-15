@@ -15,6 +15,6 @@ url: /php-java/grayscale/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/grayscale/equals/)(Object) | boolean | Determines whether the specified GrayScale is equal to the current GrayScale. |
-| [getEffective](/php-java/grayscale/geteffective/)() | IGrayScaleEffectiveData | Gets effective Gray Scale effect data with the inheritance applied. |
-| [hashCode](/php-java/grayscale/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [equals](/slides/php-java/grayscale/equals/)(Object) | boolean | Determines whether the specified GrayScale is equal to the current GrayScale. |
+| [getEffective](/slides/php-java/grayscale/geteffective/)() | IGrayScaleEffectiveData | Gets effective Gray Scale effect data with the inheritance applied. |
+| [hashCode](/slides/php-java/grayscale/hashcode/)() | int | Serves as a hash function for a particular type. |

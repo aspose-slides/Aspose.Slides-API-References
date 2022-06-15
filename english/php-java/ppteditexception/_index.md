@@ -14,6 +14,6 @@ url: /php-java/ppteditexception/
 
 | name | description |
 | --- | --- |
-| [PptEditException](/php-java/ppteditexception/ppteditexception/)() | Default constructor. |
-| [PptEditException](/php-java/ppteditexception/ppteditexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptEditException](/php-java/ppteditexception/ppteditexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptEditException](/slides/php-java/ppteditexception/ppteditexception/)() | Default constructor. |
+| [PptEditException](/slides/php-java/ppteditexception/ppteditexception/)(String) | Constructor allowing a message to be added to this exception. |
+| [PptEditException](/slides/php-java/ppteditexception/ppteditexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

@@ -16,8 +16,8 @@ url: /php-java/colorreplace/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/colorreplace/equals/)(Object) | boolean | Determines whether the specified ColorReplace is equal to the current ColorReplace. |
-| [getColor](/php-java/colorreplace/getcolor/)() | IColorFormat | Returns color format which will replace color of every pixel. Read-only IColorFormat. |
-| [getEffective](/php-java/colorreplace/geteffective/)() | IColorReplaceEffectiveData | Gets effective Color Replacement effect data with the inheritance applied. |
-| [getVersion](/php-java/colorreplace/getversion/)() | long |  |
-| [hashCode](/php-java/colorreplace/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [equals](/slides/php-java/colorreplace/equals/)(Object) | boolean | Determines whether the specified ColorReplace is equal to the current ColorReplace. |
+| [getColor](/slides/php-java/colorreplace/getcolor/)() | IColorFormat | Returns color format which will replace color of every pixel. Read-only IColorFormat. |
+| [getEffective](/slides/php-java/colorreplace/geteffective/)() | IColorReplaceEffectiveData | Gets effective Color Replacement effect data with the inheritance applied. |
+| [getVersion](/slides/php-java/colorreplace/getversion/)() | long |  |
+| [hashCode](/slides/php-java/colorreplace/hashcode/)() | int | Serves as a hash function for a particular type. |

@@ -14,6 +14,6 @@ url: /php-java/pptxreadexception/
 
 | name | description |
 | --- | --- |
-| [PptxReadException](/php-java/pptxreadexception/pptxreadexception/)() | Default constructor. |
-| [PptxReadException](/php-java/pptxreadexception/pptxreadexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptxReadException](/php-java/pptxreadexception/pptxreadexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptxReadException](/slides/php-java/pptxreadexception/pptxreadexception/)() | Default constructor. |
+| [PptxReadException](/slides/php-java/pptxreadexception/pptxreadexception/)(String) | Constructor allowing a message to be added to this exception. |
+| [PptxReadException](/slides/php-java/pptxreadexception/pptxreadexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

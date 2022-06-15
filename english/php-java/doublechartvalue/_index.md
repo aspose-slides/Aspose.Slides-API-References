@@ -16,10 +16,10 @@ url: /php-java/doublechartvalue/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getAsCell](/php-java/doublechartvalue/getascell/)() | IChartDataCell | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [getAsLiteralDouble](/php-java/doublechartvalue/getasliteraldouble/)() | double | Returns or sets value as literal double. Read/write double. |
-| [getData](/php-java/doublechartvalue/getdata/)() | Object | Returns or sets Data object. Read/write Object. |
-| [setAsCell](/php-java/doublechartvalue/setascell/)(IChartDataCell) | void | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [setAsLiteralDouble](/php-java/doublechartvalue/setasliteraldouble/)(double) | void | Returns or sets value as literal double. Read/write double. |
-| [setData](/php-java/doublechartvalue/setdata/)(Object) | void | Returns or sets Data object. Read/write Object. |
-| [toDouble](/php-java/doublechartvalue/todouble/)() | double | Converts to double. |
+| [getAsCell](/slides/php-java/doublechartvalue/getascell/)() | IChartDataCell | Returns or sets chart data cell. Read/write IChartDataCell. |
+| [getAsLiteralDouble](/slides/php-java/doublechartvalue/getasliteraldouble/)() | double | Returns or sets value as literal double. Read/write double. |
+| [getData](/slides/php-java/doublechartvalue/getdata/)() | Object | Returns or sets Data object. Read/write Object. |
+| [setAsCell](/slides/php-java/doublechartvalue/setascell/)(IChartDataCell) | void | Returns or sets chart data cell. Read/write IChartDataCell. |
+| [setAsLiteralDouble](/slides/php-java/doublechartvalue/setasliteraldouble/)(double) | void | Returns or sets value as literal double. Read/write double. |
+| [setData](/slides/php-java/doublechartvalue/setdata/)(Object) | void | Returns or sets Data object. Read/write Object. |
+| [toDouble](/slides/php-java/doublechartvalue/todouble/)() | double | Converts to double. |

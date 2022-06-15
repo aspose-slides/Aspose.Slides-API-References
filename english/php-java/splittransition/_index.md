@@ -14,7 +14,7 @@ url: /php-java/splittransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDirection](/php-java/splittransition/getdirection/)() | int | Direction of transition split. Read/write TransitionInOutDirectionType. |
-| [getOrientation](/php-java/splittransition/getorientation/)() | byte | Orientation of transition split. Read/write Orientation. |
-| [setDirection](/php-java/splittransition/setdirection/)(int) | void | Direction of transition split. Read/write TransitionInOutDirectionType. |
-| [setOrientation](/php-java/splittransition/setorientation/)(byte) | void | Orientation of transition split. Read/write Orientation. |
+| [getDirection](/slides/php-java/splittransition/getdirection/)() | int | Direction of transition split. Read/write TransitionInOutDirectionType. |
+| [getOrientation](/slides/php-java/splittransition/getorientation/)() | byte | Orientation of transition split. Read/write Orientation. |
+| [setDirection](/slides/php-java/splittransition/setdirection/)(int) | void | Direction of transition split. Read/write TransitionInOutDirectionType. |
+| [setOrientation](/slides/php-java/splittransition/setorientation/)(byte) | void | Orientation of transition split. Read/write Orientation. |

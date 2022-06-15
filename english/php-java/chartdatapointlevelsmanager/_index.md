@@ -15,5 +15,5 @@ url: /php-java/chartdatapointlevelsmanager/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getCount](/php-java/chartdatapointlevelsmanager/getcount/)() | int | Returns data point levels count. |
-| [get_Item](/php-java/chartdatapointlevelsmanager/get_item/)(int) | IChartDataPointLevel | Returns IChartDataPointLevel object for defined level. |
+| [getCount](/slides/php-java/chartdatapointlevelsmanager/getcount/)() | int | Returns data point levels count. |
+| [get_Item](/slides/php-java/chartdatapointlevelsmanager/get_item/)(int) | IChartDataPointLevel | Returns IChartDataPointLevel object for defined level. |

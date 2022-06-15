@@ -16,6 +16,6 @@ url: /php-java/alphamodulate/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/alphamodulate/equals/)(Object) | boolean | Determines whether the specified AlphaModulate is equal to the current AlphaModulate. |
-| [getEffective](/php-java/alphamodulate/geteffective/)() | IAlphaModulateEffectiveData | Gets effective Alpha Modulate effect data with the inheritance applied. |
-| [hashCode](/php-java/alphamodulate/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [equals](/slides/php-java/alphamodulate/equals/)(Object) | boolean | Determines whether the specified AlphaModulate is equal to the current AlphaModulate. |
+| [getEffective](/slides/php-java/alphamodulate/geteffective/)() | IAlphaModulateEffectiveData | Gets effective Alpha Modulate effect data with the inheritance applied. |
+| [hashCode](/slides/php-java/alphamodulate/hashcode/)() | int | Serves as a hash function for a particular type. |

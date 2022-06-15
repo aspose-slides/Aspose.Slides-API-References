@@ -16,9 +16,9 @@ url: /php-java/masterlayoutslidecollection/
 
 | name | return type | description |
 | --- | --- | --- |
-| [add](/php-java/masterlayoutslidecollection/add/)(byte, String) | ILayoutSlide | Adds a new layout slide to the end of the collection. |
-| [addClone](/php-java/masterlayoutslidecollection/addclone/)(ILayoutSlide) | ILayoutSlide | Adds a copy of a specified layout slide to the end of the collection. |
-| [insert](/php-java/masterlayoutslidecollection/insert/)(int, byte, String) | ILayoutSlide | Inserts a new layout slide to specified position of the collection. |
-| [insertClone](/php-java/masterlayoutslidecollection/insertclone/)(int, ILayoutSlide) | ILayoutSlide | Inserts a copy of a specified layout slide to specified position of the collection. |
-| [removeAt](/php-java/masterlayoutslidecollection/removeat/)(int) | void | Removes the element at the specified index of the collection. |
-| [reorder](/php-java/masterlayoutslidecollection/reorder/)(int, ILayoutSlide) | void | Moves layout slide from the collection to the specified position. |
+| [add](/slides/php-java/masterlayoutslidecollection/add/)(byte, String) | ILayoutSlide | Adds a new layout slide to the end of the collection. |
+| [addClone](/slides/php-java/masterlayoutslidecollection/addclone/)(ILayoutSlide) | ILayoutSlide | Adds a copy of a specified layout slide to the end of the collection. |
+| [insert](/slides/php-java/masterlayoutslidecollection/insert/)(int, byte, String) | ILayoutSlide | Inserts a new layout slide to specified position of the collection. |
+| [insertClone](/slides/php-java/masterlayoutslidecollection/insertclone/)(int, ILayoutSlide) | ILayoutSlide | Inserts a copy of a specified layout slide to specified position of the collection. |
+| [removeAt](/slides/php-java/masterlayoutslidecollection/removeat/)(int) | void | Removes the element at the specified index of the collection. |
+| [reorder](/slides/php-java/masterlayoutslidecollection/reorder/)(int, ILayoutSlide) | void | Moves layout slide from the collection to the specified position. |

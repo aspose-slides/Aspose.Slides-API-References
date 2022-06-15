@@ -14,10 +14,10 @@ url: /php-java/fontdatafactory/
 
 | name | description |
 | --- | --- |
-| [FontDataFactory](/php-java/fontdatafactory/fontdatafactory/)() |  |
+| [FontDataFactory](/slides/php-java/fontdatafactory/fontdatafactory/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [createFontData](/php-java/fontdatafactory/createfontdata/)(String) | IFontData | Creates FontData with specified font name. |
+| [createFontData](/slides/php-java/fontdatafactory/createfontdata/)(String) | IFontData | Creates FontData with specified font name. |

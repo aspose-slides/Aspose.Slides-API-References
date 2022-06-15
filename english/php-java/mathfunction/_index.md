@@ -19,13 +19,13 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathFunction](/php-java/mathfunction/mathfunction/)(IMathElement, IMathElement) | Initializes a new instance of the MathFunction class. |
-| [MathFunction](/php-java/mathfunction/mathfunction/)(String, IMathElement) | Initializes a new instance of the MathFunction class. |
+| [MathFunction](/slides/php-java/mathfunction/mathfunction/)(IMathElement, IMathElement) | Initializes a new instance of the MathFunction class. |
+| [MathFunction](/slides/php-java/mathfunction/mathfunction/)(String, IMathElement) | Initializes a new instance of the MathFunction class. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getBase](/php-java/mathfunction/getbase/)() | IMathElement | Function Argument |
-| [getChildren](/php-java/mathfunction/getchildren/)() | IMathElement | Get children elements |
-| [getName](/php-java/mathfunction/getname/)() | IMathElement | Function name For example, function names are sin and cos |
+| [getBase](/slides/php-java/mathfunction/getbase/)() | IMathElement | Function Argument |
+| [getChildren](/slides/php-java/mathfunction/getchildren/)() | IMathElement | Get children elements |
+| [getName](/slides/php-java/mathfunction/getname/)() | IMathElement | Function name For example, function names are sin and cos |
