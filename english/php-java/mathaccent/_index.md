@@ -21,14 +21,14 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathAccent](/php-java/mathaccent/mathaccent/)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
-| [MathAccent](/php-java/mathaccent/mathaccent/)(IMathElement, char) | Creates a math accent applying to a specified math element |
+| [MathAccent](/slides/php-java/mathaccent/mathaccent/)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
+| [MathAccent](/slides/php-java/mathaccent/mathaccent/)(IMathElement, char) | Creates a math accent applying to a specified math element |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getBase](/php-java/mathaccent/getbase/)() | IMathElement | The argument to which the accent was applied |
-| [getCharacter](/php-java/mathaccent/getcharacter/)() | char | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
-| [getChildren](/php-java/mathaccent/getchildren/)() | IMathElement | Get children elements |
-| [setCharacter](/php-java/mathaccent/setcharacter/)(char) | void | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
+| [getBase](/slides/php-java/mathaccent/getbase/)() | IMathElement | The argument to which the accent was applied |
+| [getCharacter](/slides/php-java/mathaccent/getcharacter/)() | char | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
+| [getChildren](/slides/php-java/mathaccent/getchildren/)() | IMathElement | Get children elements |
+| [setCharacter](/slides/php-java/mathaccent/setcharacter/)(char) | void | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |

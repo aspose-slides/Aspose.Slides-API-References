@@ -14,5 +14,5 @@ url: /php-java/extracolorscheme/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getColorScheme](/php-java/extracolorscheme/getcolorscheme/)() | IColorScheme | Returns a color scheme. Read-only IColorScheme. |
-| [getName](/php-java/extracolorscheme/getname/)() | String | Returns a name of this scheme. Read-only String. |
+| [getColorScheme](/slides/php-java/extracolorscheme/getcolorscheme/)() | IColorScheme | Returns a color scheme. Read-only IColorScheme. |
+| [getName](/slides/php-java/extracolorscheme/getname/)() | String | Returns a name of this scheme. Read-only String. |

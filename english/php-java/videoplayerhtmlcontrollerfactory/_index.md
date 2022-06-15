@@ -16,10 +16,10 @@ url: /php-java/videoplayerhtmlcontrollerfactory/
 
 | name | description |
 | --- | --- |
-| [VideoPlayerHtmlControllerFactory](/php-java/videoplayerhtmlcontrollerfactory/videoplayerhtmlcontrollerfactory/)() |  |
+| [VideoPlayerHtmlControllerFactory](/slides/php-java/videoplayerhtmlcontrollerfactory/videoplayerhtmlcontrollerfactory/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [createVideoPlayerHtmlController](/php-java/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/)(String, String, String) | IVideoPlayerHtmlController | Creates new VideoPlayerHtmlController. |
+| [createVideoPlayerHtmlController](/slides/php-java/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/)(String, String, String) | IVideoPlayerHtmlController | Creates new VideoPlayerHtmlController. |

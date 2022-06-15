@@ -21,15 +21,15 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathFraction](/php-java/mathfraction/mathfraction/)(IMathElement, IMathElement, int) | Initializes MathFraction with the specified numerator, denominator and type |
-| [MathFraction](/php-java/mathfraction/mathfraction/)(IMathElement, IMathElement) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
+| [MathFraction](/slides/php-java/mathfraction/mathfraction/)(IMathElement, IMathElement, int) | Initializes MathFraction with the specified numerator, denominator and type |
+| [MathFraction](/slides/php-java/mathfraction/mathfraction/)(IMathElement, IMathElement) | Initializes a MathFraction of type 'Bar' with the specified numerator and denominator |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getChildren](/php-java/mathfraction/getchildren/)() | IMathElement | Get children elements |
-| [getDenominator](/php-java/mathfraction/getdenominator/)() | IMathElement | Denominator |
-| [getFractionType](/php-java/mathfraction/getfractiontype/)() | int | Fraction type Default: Bar |
-| [getNumerator](/php-java/mathfraction/getnumerator/)() | IMathElement | Numerator |
-| [setFractionType](/php-java/mathfraction/setfractiontype/)(int) | void | Fraction type Default: Bar |
+| [getChildren](/slides/php-java/mathfraction/getchildren/)() | IMathElement | Get children elements |
+| [getDenominator](/slides/php-java/mathfraction/getdenominator/)() | IMathElement | Denominator |
+| [getFractionType](/slides/php-java/mathfraction/getfractiontype/)() | int | Fraction type Default: Bar |
+| [getNumerator](/slides/php-java/mathfraction/getnumerator/)() | IMathElement | Numerator |
+| [setFractionType](/slides/php-java/mathfraction/setfractiontype/)(int) | void | Fraction type Default: Bar |

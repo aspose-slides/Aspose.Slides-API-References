@@ -14,5 +14,5 @@ url: /php-java/chartdataworksheet/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getIndex](/php-java/chartdataworksheet/getindex/)() | int | Gets the index of the worksheet. Read-only int. |
-| [getName](/php-java/chartdataworksheet/getname/)() | String | Returns the name of the worksheet. Read-only String. |
+| [getIndex](/slides/php-java/chartdataworksheet/getindex/)() | int | Gets the index of the worksheet. Read-only int. |
+| [getName](/slides/php-java/chartdataworksheet/getname/)() | String | Returns the name of the worksheet. Read-only String. |

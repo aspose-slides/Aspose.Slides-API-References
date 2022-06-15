@@ -15,10 +15,10 @@ url: /php-java/filloverlay/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/filloverlay/equals/)(Object) | boolean | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
-| [getBlend](/php-java/filloverlay/getblend/)() | int | FillBlendMode. Read/write FillBlendMode. |
-| [getEffective](/php-java/filloverlay/geteffective/)() | IFillOverlayEffectiveData | Gets effective Fill Overlay effect data with the inheritance applied. |
-| [getFillFormat](/php-java/filloverlay/getfillformat/)() | IFillFormat | Fill format. Read-only IFillFormat. |
-| [getVersion](/php-java/filloverlay/getversion/)() | long |  |
-| [hashCode](/php-java/filloverlay/hashcode/)() | int | Serves as a hash function for a particular type. |
-| [setBlend](/php-java/filloverlay/setblend/)(int) | void | FillBlendMode. Read/write FillBlendMode. |
+| [equals](/slides/php-java/filloverlay/equals/)(Object) | boolean | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
+| [getBlend](/slides/php-java/filloverlay/getblend/)() | int | FillBlendMode. Read/write FillBlendMode. |
+| [getEffective](/slides/php-java/filloverlay/geteffective/)() | IFillOverlayEffectiveData | Gets effective Fill Overlay effect data with the inheritance applied. |
+| [getFillFormat](/slides/php-java/filloverlay/getfillformat/)() | IFillFormat | Fill format. Read-only IFillFormat. |
+| [getVersion](/slides/php-java/filloverlay/getversion/)() | long |  |
+| [hashCode](/slides/php-java/filloverlay/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [setBlend](/slides/php-java/filloverlay/setblend/)(int) | void | FillBlendMode. Read/write FillBlendMode. |

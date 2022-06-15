@@ -14,11 +14,11 @@ url: /php-java/vbareferencefactory/
 
 | name | description |
 | --- | --- |
-| [VbaReferenceFactory](/php-java/vbareferencefactory/vbareferencefactory/)() |  |
+| [VbaReferenceFactory](/slides/php-java/vbareferencefactory/vbareferencefactory/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [createOleTypeLibReference](/php-java/vbareferencefactory/createoletypelibreference/)(String, String) | IVbaReferenceOleTypeLib | Creates new OLE Automation type library reference. |
-| [getInstance](/php-java/vbareferencefactory/getinstance/)() | VbaReferenceFactory | VBA project references factory static instance. Read-only VbaReferenceFactory. |
+| [createOleTypeLibReference](/slides/php-java/vbareferencefactory/createoletypelibreference/)(String, String) | IVbaReferenceOleTypeLib | Creates new OLE Automation type library reference. |
+| [getInstance](/slides/php-java/vbareferencefactory/getinstance/)() | VbaReferenceFactory | VBA project references factory static instance. Read-only VbaReferenceFactory. |

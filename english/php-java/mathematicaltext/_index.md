@@ -19,16 +19,16 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathematicalText](/php-java/mathematicaltext/mathematicaltext/)() | Default constructor (create String.Empty Value) |
-| [MathematicalText](/php-java/mathematicaltext/mathematicaltext/)(char) | Create MathText with single symbol |
-| [MathematicalText](/php-java/mathematicaltext/mathematicaltext/)(String) | Create MathematicalText from text |
-| [MathematicalText](/php-java/mathematicaltext/mathematicaltext/)(String, IPortionFormat) | Create MathematicalText from text and format settings |
+| [MathematicalText](/slides/php-java/mathematicaltext/mathematicaltext/)() | Default constructor (create String.Empty Value) |
+| [MathematicalText](/slides/php-java/mathematicaltext/mathematicaltext/)(char) | Create MathText with single symbol |
+| [MathematicalText](/slides/php-java/mathematicaltext/mathematicaltext/)(String) | Create MathematicalText from text |
+| [MathematicalText](/slides/php-java/mathematicaltext/mathematicaltext/)(String, IPortionFormat) | Create MathematicalText from text and format settings |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getChildren](/php-java/mathematicaltext/getchildren/)() | IMathElement | Get children elements |
-| [getFormat](/php-java/mathematicaltext/getformat/)() | IPortionFormat | Text formatting properties |
-| [getValue](/php-java/mathematicaltext/getvalue/)() | String | Text value |
-| [setValue](/php-java/mathematicaltext/setvalue/)(String) | void | Text value |
+| [getChildren](/slides/php-java/mathematicaltext/getchildren/)() | IMathElement | Get children elements |
+| [getFormat](/slides/php-java/mathematicaltext/getformat/)() | IPortionFormat | Text formatting properties |
+| [getValue](/slides/php-java/mathematicaltext/getvalue/)() | String | Text value |
+| [setValue](/slides/php-java/mathematicaltext/setvalue/)(String) | void | Text value |

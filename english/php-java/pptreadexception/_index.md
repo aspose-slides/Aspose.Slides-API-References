@@ -14,6 +14,6 @@ url: /php-java/pptreadexception/
 
 | name | description |
 | --- | --- |
-| [PptReadException](/php-java/pptreadexception/pptreadexception/)() | Default constructor. |
-| [PptReadException](/php-java/pptreadexception/pptreadexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptReadException](/php-java/pptreadexception/pptreadexception/)(String, Exception) | Constructor for an exception containing a message and an embedded exception. |
+| [PptReadException](/slides/php-java/pptreadexception/pptreadexception/)() | Default constructor. |
+| [PptReadException](/slides/php-java/pptreadexception/pptreadexception/)(String) | Constructor allowing a message to be added to this exception. |
+| [PptReadException](/slides/php-java/pptreadexception/pptreadexception/)(String, Exception) | Constructor for an exception containing a message and an embedded exception. |

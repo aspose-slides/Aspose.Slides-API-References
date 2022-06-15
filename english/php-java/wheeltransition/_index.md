@@ -14,5 +14,5 @@ url: /php-java/wheeltransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getSpokes](/php-java/wheeltransition/getspokes/)() | long | Number spokes of wheel transition. Read/write long. |
-| [setSpokes](/php-java/wheeltransition/setspokes/)(long) | void | Number spokes of wheel transition. Read/write long. |
+| [getSpokes](/slides/php-java/wheeltransition/getspokes/)() | long | Number spokes of wheel transition. Read/write long. |
+| [setSpokes](/slides/php-java/wheeltransition/setspokes/)(long) | void | Number spokes of wheel transition. Read/write long. |

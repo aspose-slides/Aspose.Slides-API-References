@@ -14,11 +14,11 @@ url: /php-java/notessize/
 
 | name | description |
 | --- | --- |
-| [NotesSize](/php-java/notessize/notessize/)() |  |
+| [NotesSize](/slides/php-java/notessize/notessize/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getSize](/php-java/notessize/getsize/)() | Dimension2D | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
-| [setSize](/php-java/notessize/setsize/)(Dimension2D) | void | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
+| [getSize](/slides/php-java/notessize/getsize/)() | Dimension2D | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
+| [setSize](/slides/php-java/notessize/setsize/)(Dimension2D) | void | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |

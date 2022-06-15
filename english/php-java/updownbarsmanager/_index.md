@@ -14,9 +14,9 @@ url: /php-java/updownbarsmanager/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDownBarsFormat](/php-java/updownbarsmanager/getdownbarsformat/)() | IFormat | Returns the DownBars format. Read-only IFormat. |
-| [getGapWidth](/php-java/updownbarsmanager/getgapwidth/)() | int | GapWidth. Read/write int. |
-| [getUpBarsFormat](/php-java/updownbarsmanager/getupbarsformat/)() | IFormat | Returns the UpBars format. Read-only IFormat. |
-| [hasUpDownBars](/php-java/updownbarsmanager/hasupdownbars/)() | boolean | HasUpDownBars. Read/write boolean. |
-| [setGapWidth](/php-java/updownbarsmanager/setgapwidth/)(int) | void | GapWidth. Read/write int. |
-| [setUpDownBars](/php-java/updownbarsmanager/setupdownbars/)(boolean) | void | HasUpDownBars. Read/write boolean. |
+| [getDownBarsFormat](/slides/php-java/updownbarsmanager/getdownbarsformat/)() | IFormat | Returns the DownBars format. Read-only IFormat. |
+| [getGapWidth](/slides/php-java/updownbarsmanager/getgapwidth/)() | int | GapWidth. Read/write int. |
+| [getUpBarsFormat](/slides/php-java/updownbarsmanager/getupbarsformat/)() | IFormat | Returns the UpBars format. Read-only IFormat. |
+| [hasUpDownBars](/slides/php-java/updownbarsmanager/hasupdownbars/)() | boolean | HasUpDownBars. Read/write boolean. |
+| [setGapWidth](/slides/php-java/updownbarsmanager/setgapwidth/)(int) | void | GapWidth. Read/write int. |
+| [setUpDownBars](/slides/php-java/updownbarsmanager/setupdownbars/)(boolean) | void | HasUpDownBars. Read/write boolean. |

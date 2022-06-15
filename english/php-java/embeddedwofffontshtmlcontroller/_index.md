@@ -14,16 +14,16 @@ url: /php-java/embeddedwofffontshtmlcontroller/
 
 | name | description |
 | --- | --- |
-| [EmbeddedWoffFontsHtmlController](/php-java/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/)() | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](/php-java/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/)(IHtmlFormattingController) | Creates new instance. |
+| [EmbeddedWoffFontsHtmlController](/slides/php-java/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/)() | Creates new instance. |
+| [EmbeddedWoffFontsHtmlController](/slides/php-java/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/)(IHtmlFormattingController) | Creates new instance. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [writeDocumentEnd](/php-java/embeddedwofffontshtmlcontroller/writedocumentend/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeDocumentStart](/php-java/embeddedwofffontshtmlcontroller/writedocumentstart/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeShapeEnd](/php-java/embeddedwofffontshtmlcontroller/writeshapeend/)(IHtmlGenerator, IShape) | void |  |
-| [writeShapeStart](/php-java/embeddedwofffontshtmlcontroller/writeshapestart/)(IHtmlGenerator, IShape) | void |  |
-| [writeSlideEnd](/php-java/embeddedwofffontshtmlcontroller/writeslideend/)(IHtmlGenerator, ISlide) | void |  |
-| [writeSlideStart](/php-java/embeddedwofffontshtmlcontroller/writeslidestart/)(IHtmlGenerator, ISlide) | void |  |
+| [writeDocumentEnd](/slides/php-java/embeddedwofffontshtmlcontroller/writedocumentend/)(IHtmlGenerator, IPresentation) | void |  |
+| [writeDocumentStart](/slides/php-java/embeddedwofffontshtmlcontroller/writedocumentstart/)(IHtmlGenerator, IPresentation) | void |  |
+| [writeShapeEnd](/slides/php-java/embeddedwofffontshtmlcontroller/writeshapeend/)(IHtmlGenerator, IShape) | void |  |
+| [writeShapeStart](/slides/php-java/embeddedwofffontshtmlcontroller/writeshapestart/)(IHtmlGenerator, IShape) | void |  |
+| [writeSlideEnd](/slides/php-java/embeddedwofffontshtmlcontroller/writeslideend/)(IHtmlGenerator, ISlide) | void |  |
+| [writeSlideStart](/slides/php-java/embeddedwofffontshtmlcontroller/writeslidestart/)(IHtmlGenerator, ISlide) | void |  |

@@ -14,5 +14,5 @@ url: /php-java/chartlinesformat/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getEffect](/php-java/chartlinesformat/geteffect/)() | IEffectFormat | Returns effects used for a chart line. Read-only IEffectFormat. |
-| [getLine](/php-java/chartlinesformat/getline/)() | ILineFormat | Returns line style properties of a chart line. Read-only ILineFormat. |
+| [getEffect](/slides/php-java/chartlinesformat/geteffect/)() | IEffectFormat | Returns effects used for a chart line. Read-only IEffectFormat. |
+| [getLine](/slides/php-java/chartlinesformat/getline/)() | ILineFormat | Returns line style properties of a chart line. Read-only ILineFormat. |

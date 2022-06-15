@@ -14,6 +14,6 @@ url: /php-java/pptxexception/
 
 | name | description |
 | --- | --- |
-| [PptxException](/php-java/pptxexception/pptxexception/)() | Default constructor. |
-| [PptxException](/php-java/pptxexception/pptxexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptxException](/php-java/pptxexception/pptxexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptxException](/slides/php-java/pptxexception/pptxexception/)() | Default constructor. |
+| [PptxException](/slides/php-java/pptxexception/pptxexception/)(String) | Constructor allowing a message to be added to this exception. |
+| [PptxException](/slides/php-java/pptxexception/pptxexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

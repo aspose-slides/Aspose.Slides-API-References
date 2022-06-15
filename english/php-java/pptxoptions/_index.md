@@ -14,11 +14,11 @@ url: /php-java/pptxoptions/
 
 | name | description |
 | --- | --- |
-| [PptxOptions](/php-java/pptxoptions/pptxoptions/)() | Creates new instance of PptxOptions |
+| [PptxOptions](/slides/php-java/pptxoptions/pptxoptions/)() | Creates new instance of PptxOptions |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getConformance](/php-java/pptxoptions/getconformance/)() | int | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
-| [setConformance](/php-java/pptxoptions/setconformance/)(int) | void | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
+| [getConformance](/slides/php-java/pptxoptions/getconformance/)() | int | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
+| [setConformance](/slides/php-java/pptxoptions/setconformance/)(int) | void | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |

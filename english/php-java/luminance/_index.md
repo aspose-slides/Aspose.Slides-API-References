@@ -16,6 +16,6 @@ url: /php-java/luminance/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/luminance/equals/)(Object) | boolean | Determines whether the specified Luminance is equal to the current Luminance. |
-| [getEffective](/php-java/luminance/geteffective/)() | ILuminanceEffectiveData | Gets effective Luminance effect data with the inheritance applied. |
-| [hashCode](/php-java/luminance/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [equals](/slides/php-java/luminance/equals/)(Object) | boolean | Determines whether the specified Luminance is equal to the current Luminance. |
+| [getEffective](/slides/php-java/luminance/geteffective/)() | ILuminanceEffectiveData | Gets effective Luminance effect data with the inheritance applied. |
+| [hashCode](/slides/php-java/luminance/hashcode/)() | int | Serves as a hash function for a particular type. |

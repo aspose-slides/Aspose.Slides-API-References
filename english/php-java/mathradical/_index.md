@@ -20,14 +20,14 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathRadical](/php-java/mathradical/mathradical/)(IMathElement, IMathElement) | Initializes a new instance of the MathRadical class. |
+| [MathRadical](/slides/php-java/mathradical/mathradical/)(IMathElement, IMathElement) | Initializes a new instance of the MathRadical class. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getBase](/php-java/mathradical/getbase/)() | IMathElement | Base argument |
-| [getChildren](/php-java/mathradical/getchildren/)() | IMathElement | Get children elements |
-| [getDegree](/php-java/mathradical/getdegree/)() | IMathElement | Degree argument |
-| [getHideDegree](/php-java/mathradical/gethidedegree/)() | boolean | Hide degree When is true, the degree is not shown, as in ?? |
-| [setHideDegree](/php-java/mathradical/sethidedegree/)(boolean) | void | Hide degree When is true, the degree is not shown, as in ?? |
+| [getBase](/slides/php-java/mathradical/getbase/)() | IMathElement | Base argument |
+| [getChildren](/slides/php-java/mathradical/getchildren/)() | IMathElement | Get children elements |
+| [getDegree](/slides/php-java/mathradical/getdegree/)() | IMathElement | Degree argument |
+| [getHideDegree](/slides/php-java/mathradical/gethidedegree/)() | boolean | Hide degree When is true, the degree is not shown, as in ?? |
+| [setHideDegree](/slides/php-java/mathradical/sethidedegree/)(boolean) | void | Hide degree When is true, the degree is not shown, as in ?? |

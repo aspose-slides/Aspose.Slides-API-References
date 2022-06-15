@@ -14,6 +14,6 @@ url: /php-java/ooxmlcorruptfileexception/
 
 | name | description |
 | --- | --- |
-| [OOXMLCorruptFileException](/php-java/ooxmlcorruptfileexception/ooxmlcorruptfileexception/)() | Default constructor. |
-| [OOXMLCorruptFileException](/php-java/ooxmlcorruptfileexception/ooxmlcorruptfileexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [OOXMLCorruptFileException](/php-java/ooxmlcorruptfileexception/ooxmlcorruptfileexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [OOXMLCorruptFileException](/slides/php-java/ooxmlcorruptfileexception/ooxmlcorruptfileexception/)() | Default constructor. |
+| [OOXMLCorruptFileException](/slides/php-java/ooxmlcorruptfileexception/ooxmlcorruptfileexception/)(String) | Constructor allowing a message to be added to this exception. |
+| [OOXMLCorruptFileException](/slides/php-java/ooxmlcorruptfileexception/ooxmlcorruptfileexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

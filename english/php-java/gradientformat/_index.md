@@ -14,14 +14,14 @@ url: /php-java/gradientformat/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getGradientDirection](/php-java/gradientformat/getgradientdirection/)() | int | Returns or sets the style of a gradient. Read/write GradientDirection. |
-| [getGradientShape](/php-java/gradientformat/getgradientshape/)() | byte | Returns or sets the shape of a gradient. Read/write GradientShape. |
-| [getGradientStops](/php-java/gradientformat/getgradientstops/)() | IGradientStopCollection | Returns the collection of gradient stops. Read-only IGradientStopCollection. |
-| [getLinearGradientAngle](/php-java/gradientformat/getlineargradientangle/)() | float | Returns or sets the angle of a gradient. Read/write float. |
-| [getLinearGradientScaled](/php-java/gradientformat/getlineargradientscaled/)() | byte | Determines whether a gradient is scaled. Read/write NullableBool. |
-| [getTileFlip](/php-java/gradientformat/gettileflip/)() | int | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
-| [setGradientDirection](/php-java/gradientformat/setgradientdirection/)(int) | void | Returns or sets the style of a gradient. Read/write GradientDirection. |
-| [setGradientShape](/php-java/gradientformat/setgradientshape/)(byte) | void | Returns or sets the shape of a gradient. Read/write GradientShape. |
-| [setLinearGradientAngle](/php-java/gradientformat/setlineargradientangle/)(float) | void | Returns or sets the angle of a gradient. Read/write float. |
-| [setLinearGradientScaled](/php-java/gradientformat/setlineargradientscaled/)(byte) | void | Determines whether a gradient is scaled. Read/write NullableBool. |
-| [setTileFlip](/php-java/gradientformat/settileflip/)(int) | void | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
+| [getGradientDirection](/slides/php-java/gradientformat/getgradientdirection/)() | int | Returns or sets the style of a gradient. Read/write GradientDirection. |
+| [getGradientShape](/slides/php-java/gradientformat/getgradientshape/)() | byte | Returns or sets the shape of a gradient. Read/write GradientShape. |
+| [getGradientStops](/slides/php-java/gradientformat/getgradientstops/)() | IGradientStopCollection | Returns the collection of gradient stops. Read-only IGradientStopCollection. |
+| [getLinearGradientAngle](/slides/php-java/gradientformat/getlineargradientangle/)() | float | Returns or sets the angle of a gradient. Read/write float. |
+| [getLinearGradientScaled](/slides/php-java/gradientformat/getlineargradientscaled/)() | byte | Determines whether a gradient is scaled. Read/write NullableBool. |
+| [getTileFlip](/slides/php-java/gradientformat/gettileflip/)() | int | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
+| [setGradientDirection](/slides/php-java/gradientformat/setgradientdirection/)(int) | void | Returns or sets the style of a gradient. Read/write GradientDirection. |
+| [setGradientShape](/slides/php-java/gradientformat/setgradientshape/)(byte) | void | Returns or sets the shape of a gradient. Read/write GradientShape. |
+| [setLinearGradientAngle](/slides/php-java/gradientformat/setlineargradientangle/)(float) | void | Returns or sets the angle of a gradient. Read/write float. |
+| [setLinearGradientScaled](/slides/php-java/gradientformat/setlineargradientscaled/)(byte) | void | Determines whether a gradient is scaled. Read/write NullableBool. |
+| [setTileFlip](/slides/php-java/gradientformat/settileflip/)(int) | void | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |

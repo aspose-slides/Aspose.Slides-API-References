@@ -14,7 +14,7 @@ url: /php-java/commonslideviewproperties/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getScale](/php-java/commonslideviewproperties/getscale/)() | int | Specifies the view scaling ratio in percentages. Read/write int. |
-| [getVariableScale](/php-java/commonslideviewproperties/getvariablescale/)() | boolean | Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |
-| [setScale](/php-java/commonslideviewproperties/setscale/)(int) | void | Specifies the view scaling ratio in percentages. Read/write int. |
-| [setVariableScale](/php-java/commonslideviewproperties/setvariablescale/)(boolean) | void | Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |
+| [getScale](/slides/php-java/commonslideviewproperties/getscale/)() | int | Specifies the view scaling ratio in percentages. Read/write int. |
+| [getVariableScale](/slides/php-java/commonslideviewproperties/getvariablescale/)() | boolean | Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |
+| [setScale](/slides/php-java/commonslideviewproperties/setscale/)(int) | void | Specifies the view scaling ratio in percentages. Read/write int. |
+| [setVariableScale](/slides/php-java/commonslideviewproperties/setvariablescale/)(boolean) | void | Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |

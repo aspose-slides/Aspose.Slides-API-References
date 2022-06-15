@@ -14,4 +14,4 @@ url: /php-java/presentationtext/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getSlidesText](/php-java/presentationtext/getslidestext/)() | ISlideText | An array of ISlideText contains a presentation's text. |
+| [getSlidesText](/slides/php-java/presentationtext/getslidestext/)() | ISlideText | An array of ISlideText contains a presentation's text. |

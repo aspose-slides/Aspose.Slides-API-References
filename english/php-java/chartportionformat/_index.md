@@ -22,4 +22,4 @@ url: /php-java/chartportionformat/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getVersion](/php-java/chartportionformat/getversion/)() | long |  |
+| [getVersion](/slides/php-java/chartportionformat/getversion/)() | long |  |

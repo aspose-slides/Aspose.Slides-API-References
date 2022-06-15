@@ -28,10 +28,10 @@ url: /php-java/moderncomment/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getShape](/php-java/moderncomment/getshape/)() | IShape | Returns a shape associated with the comment. Read-only IShape. |
-| [getStatus](/php-java/moderncomment/getstatus/)() | byte | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
-| [getTextSelectionLength](/php-java/moderncomment/gettextselectionlength/)() | int | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
-| [getTextSelectionStart](/php-java/moderncomment/gettextselectionstart/)() | int | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
-| [setStatus](/php-java/moderncomment/setstatus/)(byte) | void | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
-| [setTextSelectionLength](/php-java/moderncomment/settextselectionlength/)(int) | void | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
-| [setTextSelectionStart](/php-java/moderncomment/settextselectionstart/)(int) | void | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+| [getShape](/slides/php-java/moderncomment/getshape/)() | IShape | Returns a shape associated with the comment. Read-only IShape. |
+| [getStatus](/slides/php-java/moderncomment/getstatus/)() | byte | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+| [getTextSelectionLength](/slides/php-java/moderncomment/gettextselectionlength/)() | int | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+| [getTextSelectionStart](/slides/php-java/moderncomment/gettextselectionstart/)() | int | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+| [setStatus](/slides/php-java/moderncomment/setstatus/)(byte) | void | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+| [setTextSelectionLength](/slides/php-java/moderncomment/settextselectionlength/)(int) | void | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+| [setTextSelectionStart](/slides/php-java/moderncomment/settextselectionstart/)(int) | void | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |

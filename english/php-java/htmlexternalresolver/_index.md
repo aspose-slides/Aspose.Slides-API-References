@@ -14,11 +14,11 @@ url: /php-java/htmlexternalresolver/
 
 | name | description |
 | --- | --- |
-| [HtmlExternalResolver](/php-java/htmlexternalresolver/htmlexternalresolver/)() |  |
+| [HtmlExternalResolver](/slides/php-java/htmlexternalresolver/htmlexternalresolver/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getEntity](/php-java/htmlexternalresolver/getentity/)(String) | InputStream | Maps a URI to an object containing the actual resource. |
-| [resolveUri](/php-java/htmlexternalresolver/resolveuri/)(String, String) | String | Resolves the absolute URI from the base and relative URIs. |
+| [getEntity](/slides/php-java/htmlexternalresolver/getentity/)(String) | InputStream | Maps a URI to an object containing the actual resource. |
+| [resolveUri](/slides/php-java/htmlexternalresolver/resolveuri/)(String, String) | String | Resolves the absolute URI from the base and relative URIs. |

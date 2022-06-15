@@ -14,7 +14,7 @@ url: /php-java/tableformat/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getEffective](/php-java/tableformat/geteffective/)() | ITableFormatEffectiveData | Gets effective table formatting properties with inheritance and table styles applied. |
-| [getFillFormat](/php-java/tableformat/getfillformat/)() | IFillFormat | Returns a table fill properties object. Read-only IFillFormat. |
-| [getParent_IPresentationComponent](/php-java/tableformat/getparent_ipresentationcomponent/)() | IPresentationComponent |  |
-| [getVersion](/php-java/tableformat/getversion/)() | long |  |
+| [getEffective](/slides/php-java/tableformat/geteffective/)() | ITableFormatEffectiveData | Gets effective table formatting properties with inheritance and table styles applied. |
+| [getFillFormat](/slides/php-java/tableformat/getfillformat/)() | IFillFormat | Returns a table fill properties object. Read-only IFillFormat. |
+| [getParent_IPresentationComponent](/slides/php-java/tableformat/getparent_ipresentationcomponent/)() | IPresentationComponent |  |
+| [getVersion](/slides/php-java/tableformat/getversion/)() | long |  |

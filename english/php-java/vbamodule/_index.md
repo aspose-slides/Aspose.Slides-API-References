@@ -14,6 +14,6 @@ url: /php-java/vbamodule/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getName](/php-java/vbamodule/getname/)() | String | Gets the name of the module. Read-only String. |
-| [getSourceCode](/php-java/vbamodule/getsourcecode/)() | String | Returns or sets the source code of the module. Read/write String. |
-| [setSourceCode](/php-java/vbamodule/setsourcecode/)(String) | void | Returns or sets the source code of the module. Read/write String. |
+| [getName](/slides/php-java/vbamodule/getname/)() | String | Gets the name of the module. Read-only String. |
+| [getSourceCode](/slides/php-java/vbamodule/getsourcecode/)() | String | Returns or sets the source code of the module. Read/write String. |
+| [setSourceCode](/slides/php-java/vbamodule/setsourcecode/)(String) | void | Returns or sets the source code of the module. Read/write String. |

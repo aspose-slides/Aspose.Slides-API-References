@@ -14,7 +14,7 @@ url: /php-java/shapeelement/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getFillSource](/php-java/shapeelement/getfillsource/)() | byte | Returns information about how to fill an element. Read-only ShapeElementFillSource. |
-| [getGraphicsPath](/php-java/shapeelement/getgraphicspath/)() | Shape | Returns an element's path. Read-only java.awt.geom.GeneralPath. |
-| [getParentShape](/php-java/shapeelement/getparentshape/)() | Shape | Returns a Shape_PPT for which element was created. Read-only Shape. |
-| [getStrokeSource](/php-java/shapeelement/getstrokesource/)() | byte | Returns information about how to stroke an element. Read-only ShapeElementStrokeSource. |
+| [getFillSource](/slides/php-java/shapeelement/getfillsource/)() | byte | Returns information about how to fill an element. Read-only ShapeElementFillSource. |
+| [getGraphicsPath](/slides/php-java/shapeelement/getgraphicspath/)() | Shape | Returns an element's path. Read-only java.awt.geom.GeneralPath. |
+| [getParentShape](/slides/php-java/shapeelement/getparentshape/)() | Shape | Returns a Shape_PPT for which element was created. Read-only Shape. |
+| [getStrokeSource](/slides/php-java/shapeelement/getstrokesource/)() | byte | Returns information about how to stroke an element. Read-only ShapeElementStrokeSource. |

@@ -16,8 +16,8 @@ url: /php-java/alphabilevel/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/alphabilevel/equals/)(Object) | boolean | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
-| [getEffective](/php-java/alphabilevel/geteffective/)() | IAlphaBiLevelEffectiveData | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
-| [getThreshold](/php-java/alphabilevel/getthreshold/)() | float | Returns effect threshold. Read/write float. |
-| [hashCode](/php-java/alphabilevel/hashcode/)() | int | Serves as a hash function for a particular type. |
-| [setThreshold](/php-java/alphabilevel/setthreshold/)(float) | void | Returns effect threshold. Read/write float. |
+| [equals](/slides/php-java/alphabilevel/equals/)(Object) | boolean | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
+| [getEffective](/slides/php-java/alphabilevel/geteffective/)() | IAlphaBiLevelEffectiveData | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
+| [getThreshold](/slides/php-java/alphabilevel/getthreshold/)() | float | Returns effect threshold. Read/write float. |
+| [hashCode](/slides/php-java/alphabilevel/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [setThreshold](/slides/php-java/alphabilevel/setthreshold/)(float) | void | Returns effect threshold. Read/write float. |

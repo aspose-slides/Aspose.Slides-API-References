@@ -14,5 +14,5 @@ url: /php-java/chartdatapointlevel/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getFormat](/php-java/chartdatapointlevel/getformat/)() | IFormat | Represents formatting properties of data point level. Read/write IFormat. |
-| [getLabel](/php-java/chartdatapointlevel/getlabel/)() | IDataLabel | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only IDataLabel. |
+| [getFormat](/slides/php-java/chartdatapointlevel/getformat/)() | IFormat | Represents formatting properties of data point level. Read/write IFormat. |
+| [getLabel](/slides/php-java/chartdatapointlevel/getlabel/)() | IDataLabel | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only IDataLabel. |

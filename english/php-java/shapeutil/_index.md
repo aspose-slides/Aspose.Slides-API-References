@@ -14,11 +14,11 @@ url: /php-java/shapeutil/
 
 | name | description |
 | --- | --- |
-| [ShapeUtil](/php-java/shapeutil/shapeutil/)() |  |
+| [ShapeUtil](/slides/php-java/shapeutil/shapeutil/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [geometryPathToGraphicsPath](/php-java/shapeutil/geometrypathtographicspath/)(IGeometryPath) | Shape | Converts IGeometryPath to java.awt.Shape. GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the IGeometryPath to use in GeometryShape via #graphicsPathToGeometryPath(java.awt.Shape graphicsPath) method. |
-| [graphicsPathToGeometryPath](/php-java/shapeutil/graphicspathtogeometrypath/)(Shape) | IGeometryPath | Converts a java.awt.Shape graphicsPath to the IGeometryPath |
+| [geometryPathToGraphicsPath](/slides/php-java/shapeutil/geometrypathtographicspath/)(IGeometryPath) | Shape | Converts IGeometryPath to java.awt.Shape. GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the IGeometryPath to use in GeometryShape via #graphicsPathToGeometryPath(java.awt.Shape graphicsPath) method. |
+| [graphicsPathToGeometryPath](/slides/php-java/shapeutil/graphicspathtogeometrypath/)(Shape) | IGeometryPath | Converts a java.awt.Shape graphicsPath to the IGeometryPath |

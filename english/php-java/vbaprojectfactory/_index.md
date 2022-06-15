@@ -14,12 +14,12 @@ url: /php-java/vbaprojectfactory/
 
 | name | description |
 | --- | --- |
-| [VbaProjectFactory](/php-java/vbaprojectfactory/vbaprojectfactory/)() |  |
+| [VbaProjectFactory](/slides/php-java/vbaprojectfactory/vbaprojectfactory/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [createVbaProject](/php-java/vbaprojectfactory/createvbaproject/)() | IVbaProject | Creates new VBA project. |
-| [getInstance](/php-java/vbaprojectfactory/getinstance/)() | VbaProjectFactory | VBA project factory static instance. Read-only VbaProjectFactory. |
-| [readVbaProject](/php-java/vbaprojectfactory/readvbaproject/)(byte[]) | IVbaProject | Reads VBA project from OLE container. |
+| [createVbaProject](/slides/php-java/vbaprojectfactory/createvbaproject/)() | IVbaProject | Creates new VBA project. |
+| [getInstance](/slides/php-java/vbaprojectfactory/getinstance/)() | VbaProjectFactory | VBA project factory static instance. Read-only VbaProjectFactory. |
+| [readVbaProject](/slides/php-java/vbaprojectfactory/readvbaproject/)(byte[]) | IVbaProject | Reads VBA project from OLE container. |

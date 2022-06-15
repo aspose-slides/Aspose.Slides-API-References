@@ -17,6 +17,6 @@ url: /php-java/bilevel/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/bilevel/equals/)(Object) | boolean | Determines whether the specified BiLevel is equal to the current BiLevel. |
-| [getEffective](/php-java/bilevel/geteffective/)() | IBiLevelEffectiveData | Gets effective Bi-Level effect data with the inheritance applied. |
-| [hashCode](/php-java/bilevel/hashcode/)() | int | Serves as a hash function for a particular type. |
+| [equals](/slides/php-java/bilevel/equals/)(Object) | boolean | Determines whether the specified BiLevel is equal to the current BiLevel. |
+| [getEffective](/slides/php-java/bilevel/geteffective/)() | IBiLevelEffectiveData | Gets effective Bi-Level effect data with the inheritance applied. |
+| [hashCode](/slides/php-java/bilevel/hashcode/)() | int | Serves as a hash function for a particular type. |

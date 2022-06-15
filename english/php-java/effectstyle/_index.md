@@ -14,5 +14,5 @@ url: /php-java/effectstyle/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getEffectFormat](/php-java/effectstyle/geteffectformat/)() | IEffectFormat | Returns an effect format. Read-only IEffectFormat. |
-| [getThreeDFormat](/php-java/effectstyle/getthreedformat/)() | IThreeDFormat | Returns an 3d format. Read-only IThreeDFormat. |
+| [getEffectFormat](/slides/php-java/effectstyle/geteffectformat/)() | IEffectFormat | Returns an effect format. Read-only IEffectFormat. |
+| [getThreeDFormat](/slides/php-java/effectstyle/getthreedformat/)() | IThreeDFormat | Returns an 3d format. Read-only IThreeDFormat. |

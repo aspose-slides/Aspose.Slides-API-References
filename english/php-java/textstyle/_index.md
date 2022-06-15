@@ -21,6 +21,6 @@ url: /php-java/textstyle/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDefaultParagraphFormat](/php-java/textstyle/getdefaultparagraphformat/)() | IParagraphFormat | Default paragraph propertiies. Read-only IParagraphFormat. |
-| [getEffective](/php-java/textstyle/geteffective/)() | ITextStyleEffectiveData | Gets effective text style formatting data with the inheritance applied. |
-| [getLevel](/php-java/textstyle/getlevel/)(int) | IParagraphFormat | If level of style exist returns it, otherwise returns null. |
+| [getDefaultParagraphFormat](/slides/php-java/textstyle/getdefaultparagraphformat/)() | IParagraphFormat | Default paragraph propertiies. Read-only IParagraphFormat. |
+| [getEffective](/slides/php-java/textstyle/geteffective/)() | ITextStyleEffectiveData | Gets effective text style formatting data with the inheritance applied. |
+| [getLevel](/slides/php-java/textstyle/getlevel/)(int) | IParagraphFormat | If level of style exist returns it, otherwise returns null. |

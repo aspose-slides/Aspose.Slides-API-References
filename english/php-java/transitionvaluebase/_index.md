@@ -14,5 +14,5 @@ url: /php-java/transitionvaluebase/
 
 | name | return type | description |
 | --- | --- | --- |
-| [equals](/php-java/transitionvaluebase/equals/)(Object) | boolean | Determines whether the two TransitionValueBase instances are equal. |
-| [hashCode](/php-java/transitionvaluebase/hashcode/)() | int | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| [equals](/slides/php-java/transitionvaluebase/equals/)(Object) | boolean | Determines whether the two TransitionValueBase instances are equal. |
+| [hashCode](/slides/php-java/transitionvaluebase/hashcode/)() | int | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |

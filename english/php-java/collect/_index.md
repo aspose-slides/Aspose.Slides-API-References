@@ -28,10 +28,10 @@ url: /php-java/collect/
 
 | name | description |
 | --- | --- |
-| [Collect](/php-java/collect/collect/)() |  |
+| [Collect](/slides/php-java/collect/collect/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [shapes](/php-java/collect/shapes/)(Presentation) | IGenericEnumerable | Collects all instances of Shape in the Presentation. |
+| [shapes](/slides/php-java/collect/shapes/)(Presentation) | IGenericEnumerable | Collects all instances of Shape in the Presentation. |

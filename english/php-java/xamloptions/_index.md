@@ -28,13 +28,13 @@ url: /php-java/xamloptions/
 
 | name | description |
 | --- | --- |
-| [XamlOptions](/php-java/xamloptions/xamloptions/)() | Creates the XamlOptions instance. |
+| [XamlOptions](/slides/php-java/xamloptions/xamloptions/)() | Creates the XamlOptions instance. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getExportHiddenSlides](/php-java/xamloptions/getexporthiddenslides/)() | boolean | Determines whether hidden slides will be exported. |
-| [getOutputSaver](/php-java/xamloptions/getoutputsaver/)() | IXamlOutputSaver | Represents an implementation of IOutputSaver interface. |
-| [setExportHiddenSlides](/php-java/xamloptions/setexporthiddenslides/)(boolean) | void | Determines whether hidden slides will be exported. |
-| [setOutputSaver](/php-java/xamloptions/setoutputsaver/)(IXamlOutputSaver) | void | Represents an implementation of IOutputSaver interface. |
+| [getExportHiddenSlides](/slides/php-java/xamloptions/getexporthiddenslides/)() | boolean | Determines whether hidden slides will be exported. |
+| [getOutputSaver](/slides/php-java/xamloptions/getoutputsaver/)() | IXamlOutputSaver | Represents an implementation of IOutputSaver interface. |
+| [setExportHiddenSlides](/slides/php-java/xamloptions/setexporthiddenslides/)(boolean) | void | Determines whether hidden slides will be exported. |
+| [setOutputSaver](/slides/php-java/xamloptions/setoutputsaver/)(IXamlOutputSaver) | void | Represents an implementation of IOutputSaver interface. |

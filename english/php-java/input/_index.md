@@ -14,4 +14,4 @@ url: /php-java/input/
 
 | name | return type | description |
 | --- | --- | --- |
-| [addTemplate](/php-java/input/addtemplate/)(String, String) | void | Adds a template to the collection. |
+| [addTemplate](/slides/php-java/input/addtemplate/)(String, String) | void | Adds a template to the collection. |

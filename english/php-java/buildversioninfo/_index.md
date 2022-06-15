@@ -25,4 +25,4 @@ url: /php-java/buildversioninfo/
 
 | name | description |
 | --- | --- |
-| [BuildVersionInfo](/php-java/buildversioninfo/buildversioninfo/)() |  |
+| [BuildVersionInfo](/slides/php-java/buildversioninfo/buildversioninfo/)() |  |

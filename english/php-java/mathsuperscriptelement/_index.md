@@ -20,11 +20,11 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathSuperscriptElement](/php-java/mathsuperscriptelement/mathsuperscriptelement/)(IMathElement, IMathElement) | Initializes a new instance of the MathSuperscriptElement class. |
+| [MathSuperscriptElement](/slides/php-java/mathsuperscriptelement/mathsuperscriptelement/)(IMathElement, IMathElement) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getChildren](/php-java/mathsuperscriptelement/getchildren/)() | IMathElement | Get children elements |
-| [getSuperscript](/php-java/mathsuperscriptelement/getsuperscript/)() | IMathElement | Superscript |
+| [getChildren](/slides/php-java/mathsuperscriptelement/getchildren/)() | IMathElement | Get children elements |
+| [getSuperscript](/slides/php-java/mathsuperscriptelement/getsuperscript/)() | IMathElement | Superscript |

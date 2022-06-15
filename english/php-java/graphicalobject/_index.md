@@ -14,4 +14,4 @@ url: /php-java/graphicalobject/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getGraphicalObjectLock](/php-java/graphicalobject/getgraphicalobjectlock/)() | IGraphicalObjectLock | Returns shape's locks. Read-only IGraphicalObjectLock. |
+| [getGraphicalObjectLock](/slides/php-java/graphicalobject/getgraphicalobjectlock/)() | IGraphicalObjectLock | Returns shape's locks. Read-only IGraphicalObjectLock. |

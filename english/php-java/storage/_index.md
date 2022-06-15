@@ -14,12 +14,12 @@ url: /php-java/storage/
 
 | name | description |
 | --- | --- |
-| [Storage](/php-java/storage/storage/)() |  |
+| [Storage](/slides/php-java/storage/storage/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [containsKey](/php-java/storage/containskey/)(String) | boolean | Determines whether the storage contains an element with the specified key. |
-| [get](/php-java/storage/get/)(String) | TValue | Gets the data from the storage. |
-| [put](/php-java/storage/put/)(String, TValue) | void | Puts the value into the storage. |
+| [containsKey](/slides/php-java/storage/containskey/)(String) | boolean | Determines whether the storage contains an element with the specified key. |
+| [get](/slides/php-java/storage/get/)(String) | TValue | Gets the data from the storage. |
+| [put](/slides/php-java/storage/put/)(String, TValue) | void | Puts the value into the storage. |

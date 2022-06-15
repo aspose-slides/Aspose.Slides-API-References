@@ -29,10 +29,10 @@ Example:
 
 | name | description |
 | --- | --- |
-| [MathPortion](/php-java/mathportion/mathportion/)() | Initializes a new instance of the MathPortion class. |
+| [MathPortion](/slides/php-java/mathportion/mathportion/)() | Initializes a new instance of the MathPortion class. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getMathParagraph](/php-java/mathportion/getmathparagraph/)() | IMathParagraph | Math paragraph |
+| [getMathParagraph](/slides/php-java/mathportion/getmathparagraph/)() | IMathParagraph | Math paragraph |

@@ -15,7 +15,7 @@ url: /php-java/normalviewrestoredproperties/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getAutoAdjust](/php-java/normalviewrestoredproperties/getautoadjust/)() | boolean | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write boolean. |
-| [getDimensionSize](/php-java/normalviewrestoredproperties/getdimensionsize/)() | float | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write float. |
-| [setAutoAdjust](/php-java/normalviewrestoredproperties/setautoadjust/)(boolean) | void | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write boolean. |
-| [setDimensionSize](/php-java/normalviewrestoredproperties/setdimensionsize/)(float) | void | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write float. |
+| [getAutoAdjust](/slides/php-java/normalviewrestoredproperties/getautoadjust/)() | boolean | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write boolean. |
+| [getDimensionSize](/slides/php-java/normalviewrestoredproperties/getdimensionsize/)() | float | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write float. |
+| [setAutoAdjust](/slides/php-java/normalviewrestoredproperties/setautoadjust/)(boolean) | void | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write boolean. |
+| [setDimensionSize](/slides/php-java/normalviewrestoredproperties/setdimensionsize/)(float) | void | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write float. |

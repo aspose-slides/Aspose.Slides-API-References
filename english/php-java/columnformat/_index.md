@@ -14,6 +14,6 @@ url: /php-java/columnformat/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getEffective](/php-java/columnformat/geteffective/)() | IColumnFormatEffectiveData | Gets effective table column formatting properties with inheritance and table styles applied. |
-| [getParent_IPresentationComponent](/php-java/columnformat/getparent_ipresentationcomponent/)() | IPresentationComponent |  |
-| [getVersion](/php-java/columnformat/getversion/)() | long |  |
+| [getEffective](/slides/php-java/columnformat/geteffective/)() | IColumnFormatEffectiveData | Gets effective table column formatting properties with inheritance and table styles applied. |
+| [getParent_IPresentationComponent](/slides/php-java/columnformat/getparent_ipresentationcomponent/)() | IPresentationComponent |  |
+| [getVersion](/slides/php-java/columnformat/getversion/)() | long |  |

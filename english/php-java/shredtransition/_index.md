@@ -14,7 +14,7 @@ url: /php-java/shredtransition/
 
 | name | return type | description |
 | --- | --- | --- |
-| [getDirection](/php-java/shredtransition/getdirection/)() | int | Direction of transition. Read/write TransitionInOutDirectionType. |
-| [getPattern](/php-java/shredtransition/getpattern/)() | int | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
-| [setDirection](/php-java/shredtransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionInOutDirectionType. |
-| [setPattern](/php-java/shredtransition/setpattern/)(int) | void | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
+| [getDirection](/slides/php-java/shredtransition/getdirection/)() | int | Direction of transition. Read/write TransitionInOutDirectionType. |
+| [getPattern](/slides/php-java/shredtransition/getpattern/)() | int | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
+| [setDirection](/slides/php-java/shredtransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionInOutDirectionType. |
+| [setPattern](/slides/php-java/shredtransition/setpattern/)(int) | void | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |

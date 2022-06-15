@@ -12,12 +12,12 @@ Auxiliary class that allows to define default Locale for current thread
 
 | name | description |
 | --- | --- |
-| [CurrentThreadSettings](/php-java/currentthreadsettings/currentthreadsettings/)() |  |
+| [CurrentThreadSettings](/slides/php-java/currentthreadsettings/currentthreadsettings/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getLocale](/php-java/currentthreadsettings/getlocale/)() | Locale | Returns default Locale for current thread. |
-| [setLocale](/php-java/currentthreadsettings/setlocale/)(Locale) | void | Sets default Locale for current thread. |
-| [setLocale](/php-java/currentthreadsettings/setlocale/)(String) | void | Sets default Locale for current thread. |
+| [getLocale](/slides/php-java/currentthreadsettings/getlocale/)() | Locale | Returns default Locale for current thread. |
+| [setLocale](/slides/php-java/currentthreadsettings/setlocale/)(Locale) | void | Sets default Locale for current thread. |
+| [setLocale](/slides/php-java/currentthreadsettings/setlocale/)(String) | void | Sets default Locale for current thread. |

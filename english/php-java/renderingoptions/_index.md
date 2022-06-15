@@ -32,10 +32,10 @@ url: /php-java/renderingoptions/
 
 | name | description |
 | --- | --- |
-| [RenderingOptions](/php-java/renderingoptions/renderingoptions/)() | Default constructor. |
+| [RenderingOptions](/slides/php-java/renderingoptions/renderingoptions/)() | Default constructor. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getNotesCommentsLayouting](/php-java/renderingoptions/getnotescommentslayouting/)() | INotesCommentsLayoutingOptions | Provides options that control how notes and comments is placed in exported document. |
+| [getNotesCommentsLayouting](/slides/php-java/renderingoptions/getnotescommentslayouting/)() | INotesCommentsLayoutingOptions | Provides options that control how notes and comments is placed in exported document. |

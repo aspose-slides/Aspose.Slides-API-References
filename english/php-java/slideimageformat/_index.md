@@ -14,11 +14,11 @@ url: /php-java/slideimageformat/
 
 | name | description |
 | --- | --- |
-| [SlideImageFormat](/php-java/slideimageformat/slideimageformat/)() |  |
+| [SlideImageFormat](/slides/php-java/slideimageformat/slideimageformat/)() |  |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [bitmap](/php-java/slideimageformat/bitmap/)(float, String) | SlideImageFormat | Slides should be converted to a raster image. |
-| [svg](/php-java/slideimageformat/svg/)(SVGOptions) | SlideImageFormat | Slides should converted to a SVG format. |
+| [bitmap](/slides/php-java/slideimageformat/bitmap/)(float, String) | SlideImageFormat | Slides should be converted to a raster image. |
+| [svg](/slides/php-java/slideimageformat/svg/)(SVGOptions) | SlideImageFormat | Slides should converted to a SVG format. |

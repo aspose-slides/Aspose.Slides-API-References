@@ -14,13 +14,13 @@ url: /php-java/fontsources/
 
 | name | description |
 | --- | --- |
-| [FontSources](/php-java/fontsources/fontsources/)() | Creates new default font options. |
+| [FontSources](/slides/php-java/fontsources/fontsources/)() | Creates new default font options. |
 
 ## Methods
 
 | name | return type | description |
 | --- | --- | --- |
-| [getFontFolders](/php-java/fontsources/getfontfolders/)() | String | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
-| [getMemoryFonts](/php-java/fontsources/getmemoryfonts/)() | byte | A collection of fonts represented as byte arrays. |
-| [setFontFolders](/php-java/fontsources/setfontfolders/)(java.lang.String[]) | void | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
-| [setMemoryFonts](/php-java/fontsources/setmemoryfonts/)(byte[][]) | void | A collection of fonts represented as byte arrays. |
+| [getFontFolders](/slides/php-java/fontsources/getfontfolders/)() | String | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| [getMemoryFonts](/slides/php-java/fontsources/getmemoryfonts/)() | byte | A collection of fonts represented as byte arrays. |
+| [setFontFolders](/slides/php-java/fontsources/setfontfolders/)(java.lang.String[]) | void | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| [setMemoryFonts](/slides/php-java/fontsources/setmemoryfonts/)(byte[][]) | void | A collection of fonts represented as byte arrays. |
