@@ -1,0 +1,18 @@
+---
+title: getIntercept
+type: docs
+weight: 80
+url: /php-java/trendline/getintercept/
+---
+
+# getIntercept() method
+
+ Specifies the value where the trendline shall cross the y axis. This property shall be supported only
+ when the trendline type is exp, linear, or poly.
+ Read/write  double.
+  
+
+##  Returns
+double
+
+

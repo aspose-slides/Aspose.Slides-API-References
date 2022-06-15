@@ -1,0 +1,17 @@
+---
+title: getGradientStops
+type: docs
+weight: 30
+url: /php-java/gradientformat/getgradientstops/
+---
+
+# getGradientStops() method
+
+ Returns the collection of gradient stops.
+ Read-only  IGradientStopCollection.
+ 
+
+##  Returns
+IGradientStopCollection
+
+

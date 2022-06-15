@@ -1,0 +1,34 @@
+---
+title: add
+type: docs
+weight: 20
+url: /php-java/fontfallbackrulescollection/add/
+---
+
+# add(com.aspose.slides.IFontFallBackRule) method
+
+ Add a specified FallBack rule to the end of the collection.
+ 
+
+ 
+```php
+  $pres = new Presentation();
+  try {
+    // Getting of empty or preinitialized rules collection from FontsManager
+    $rulesList = $pres->getFontsManager()->getFontFallBackRulesCollection();
+    // Adding of new rule to collection
+    $rulesList->add(new FontFallBackRule(0x400, 0x4ff, "Times New Roman"));
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
+##  Parameters
+
+| name | description |
+| --- | --- |
+| sourceRule | Specified rule for adding |
+
+

@@ -1,0 +1,17 @@
+---
+title: getShapes
+type: docs
+weight: 30
+url: /php-java/groupshape/getshapes/
+---
+
+# getShapes() method
+
+ Returns the collection of shapes inside the group.
+ Read-only  IShapeCollection.
+ 
+
+##  Returns
+IShapeCollection
+
+

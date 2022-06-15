@@ -1,0 +1,13 @@
+---
+title: getShowPageBorder
+type: docs
+weight: 120
+url: /php-java/swfoptions/getshowpageborder/
+---
+
+# getShowPageBorder() method
+
+ Specifies whether border around pages should be shown. Default is true. 
+ 
+
+

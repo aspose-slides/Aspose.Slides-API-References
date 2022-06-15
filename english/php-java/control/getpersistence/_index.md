@@ -1,0 +1,28 @@
+---
+title: getPersistence
+type: docs
+weight: 50
+url: /php-java/control/getpersistence/
+---
+
+# getPersistence() method
+
+ Gets the method used to store properties of the ActiveX control.
+ Read only  PersistenceType.
+ 
+
+ Next example shows the using Persistence property for checking if properties of ActiveX object may be changed as XML based ActiveX properties:
+ 
+```php
+  if ($control->getPersistence() == PersistenceType::PersistPropertyBag) {
+    $control->getProperties()->set_Item("Value", $value);
+  } else {
+    YourMethodHere($control->getActiveXControlBinary());// Use your own method for managing ActiveX properties stored in its binary file
+
+  }
+```
+
+##  Returns
+PersistenceType
+
+

@@ -1,0 +1,17 @@
+---
+title: getBy
+type: docs
+weight: 20
+url: /php-java/rotationeffect/getby/
+---
+
+# getBy() method
+
+ Describes the relative offset value for the animation.
+ Read/write  float.
+ 
+
+##  Returns
+float
+
+

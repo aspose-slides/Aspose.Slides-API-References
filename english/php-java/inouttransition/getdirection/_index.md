@@ -1,0 +1,17 @@
+---
+title: getDirection
+type: docs
+weight: 10
+url: /php-java/inouttransition/getdirection/
+---
+
+# getDirection() method
+
+ Direction of a transition effect.
+ Read/write  TransitionInOutDirectionType.
+ 
+
+##  Returns
+TransitionInOutDirectionType
+
+

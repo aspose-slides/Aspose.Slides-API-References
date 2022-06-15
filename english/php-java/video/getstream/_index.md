@@ -1,0 +1,17 @@
+---
+title: getStream
+type: docs
+weight: 40
+url: /php-java/video/getstream/
+---
+
+# getStream() method
+
+ Returns Stream stream for reading.
+ Use 'using' or close stream after using.
+ 
+
+##  Returns
+Stream for reading.
+
+

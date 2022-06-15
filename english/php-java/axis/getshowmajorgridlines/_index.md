@@ -1,0 +1,17 @@
+---
+title: getShowMajorGridLines
+type: docs
+weight: 340
+url: /php-java/axis/getshowmajorgridlines/
+---
+
+# getShowMajorGridLines() method
+
+ To hide major gridline set MajorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill.
+ Read-only  boolean.
+ 
+
+##  Returns
+boolean
+
+

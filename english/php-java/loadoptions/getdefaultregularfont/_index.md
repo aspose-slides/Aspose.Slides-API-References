@@ -1,0 +1,17 @@
+---
+title: getDefaultRegularFont
+type: docs
+weight: 50
+url: /php-java/loadoptions/getdefaultregularfont/
+---
+
+# getDefaultRegularFont() method
+
+ Returns or sets Regular font used in case source font is not found.
+ Read/write  String.
+ 
+
+##  Returns
+String
+
+

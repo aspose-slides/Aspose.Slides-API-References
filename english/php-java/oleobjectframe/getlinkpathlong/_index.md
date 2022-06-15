@@ -1,0 +1,17 @@
+---
+title: getLinkPathLong
+type: docs
+weight: 50
+url: /php-java/oleobjectframe/getlinkpathlong/
+---
+
+# getLinkPathLong() method
+
+ Returns the full path to a linked file. Long file name will be used.
+ Read/write  String.
+ 
+
+##  Returns
+String
+
+

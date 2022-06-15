@@ -1,0 +1,17 @@
+---
+title: getTextInheritanceLimit
+type: docs
+weight: 50
+url: /php-java/texttohtmlconversionoptions/gettextinheritancelimit/
+---
+
+# getTextInheritanceLimit() method
+
+ Returns or sets inhering depth for text properties.
+ Read/write  TextInheritanceLimit.
+ 
+
+##  Returns
+TextInheritanceLimit
+
+
