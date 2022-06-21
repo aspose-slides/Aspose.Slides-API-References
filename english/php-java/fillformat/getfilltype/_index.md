@@ -1,17 +1,22 @@
 ---
 title: getFillType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/fillformat/getfilltype/
 ---
 
-# getFillType() method
+## getFillType() method
 
  Returns or sets the type of filling.
  Read/write  FillType.
  
 
-##  Returns
+### Returns
 FillType
+
+
+---
 
 

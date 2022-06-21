@@ -1,23 +1,25 @@
 ---
 title: FontDataFactory
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/fontdatafactory/
 ---
 
-# FontDataFactory class
+## FontDataFactory class
 
  FontData factory
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [FontDataFactory](/slides/php-java/fontdatafactory/fontdatafactory/)() |  |
+| [FontDataFactory](fontdatafactory)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [createFontData](/slides/php-java/fontdatafactory/createfontdata/)(String) | IFontData | Creates FontData with specified font name. |
+| Name | Description |
+| --- | --- |
+| [createFontData](createfontdata)(String) | Creates FontData with specified font name. |

@@ -1,19 +1,21 @@
 ---
 title: EmbedFontCharacters
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/embedfontcharacters/
 ---
 
-# EmbedFontCharacters class
+## EmbedFontCharacters class
 
  Represents the rule to use for adding new embedding font into  IPresentation
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| All | Embed all characters (best for editing by other people). |
-| OnlyUsed | Embed only the characters used in the presentation (best for reducing file size). |
+| Name | Value | Description |
+| --- | --- | --- |
+| All | 1 | Embed all characters (best for editing by other people). |
+| OnlyUsed | 0 | Embed only the characters used in the presentation (best for reducing file size). |
 

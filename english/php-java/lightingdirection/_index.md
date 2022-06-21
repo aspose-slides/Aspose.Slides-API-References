@@ -1,26 +1,28 @@
 ---
 title: LightingDirection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/lightingdirection/
 ---
 
-# LightingDirection class
+## LightingDirection class
 
  Constants which define light directions.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Bottom |  |
-| BottomLeft |  |
-| BottomRight |  |
-| Left |  |
-| NotDefined |  |
-| Right |  |
-| Top |  |
-| TopLeft |  |
-| TopRight |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Bottom | 5 |  |
+| BottomLeft | 6 |  |
+| BottomRight | 4 |  |
+| Left | 7 |  |
+| NotDefined | -1 |  |
+| Right | 3 |  |
+| Top | 1 |  |
+| TopLeft | 0 |  |
+| TopRight | 2 |  |
 

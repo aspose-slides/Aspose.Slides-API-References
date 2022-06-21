@@ -1,18 +1,20 @@
 ---
 title: ControlType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/controltype/
 ---
 
-# ControlType class
+## ControlType class
 
  Defines a control type which should be embedded by  IControlCollection#addControl(int,float,float,float,float).
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| WindowsMediaPlayer | Windows Media Player control. |
+| Name | Value | Description |
+| --- | --- | --- |
+| WindowsMediaPlayer | 0 | Windows Media Player control. |
 

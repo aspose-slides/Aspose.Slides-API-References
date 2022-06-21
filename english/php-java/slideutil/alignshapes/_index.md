@@ -1,11 +1,13 @@
 ---
 title: alignShapes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/slideutil/alignshapes/
 ---
 
-# alignShapes(int, boolean, com.aspose.slides.IShapeCollection) method
+## alignShapes(int, boolean, com.aspose.slides.IShapeCollection) method
 
  Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -23,16 +25,19 @@ Example:
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | alignmentType | Determines which type of alignment will be applied. |
 | alignToSlide | If true, shapes will be aligned relative to the slide edges |
 | shapes | Shapes collection to be aligned |
 
 
-# alignShapes(int, boolean, com.aspose.slides.IBaseSlide) method
+---
+
+
+## alignShapes(int, boolean, com.aspose.slides.IBaseSlide) method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -50,16 +55,19 @@ Example:
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | alignmentType | Determines which type of alignment will be applied. |
 | alignToSlide | If true, shapes will be aligned relative to the slide edges. |
 | slide | Parent slide. |
 
 
-# alignShapes(int, boolean, com.aspose.slides.IBaseSlide, int[]) method
+---
+
+
+## alignShapes(int, boolean, com.aspose.slides.IBaseSlide, int[]) method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -80,9 +88,9 @@ Example:
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | alignmentType | Determines which type of alignment will be applied. |
 | alignToSlide | If true, shapes will be aligned relative to the slide edges. |
@@ -90,7 +98,10 @@ Example:
 | shapeIndexes | Indexes of shapes to be aligned. |
 
 
-# alignShapes(int, boolean, com.aspose.slides.IGroupShape) method
+---
+
+
+## alignShapes(int, boolean, com.aspose.slides.IGroupShape) method
 
  Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -109,16 +120,19 @@ Example:
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | alignmentType | Determines which type of alignment will be applied. |
 | alignToSlide | If true, shapes will be aligned relative to the slide edges. |
 | groupShape | Parent group shape. |
 
 
-# alignShapes(int, boolean, com.aspose.slides.IGroupShape, int[]) method
+---
+
+
+## alignShapes(int, boolean, com.aspose.slides.IGroupShape, int[]) method
 
  Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -137,13 +151,16 @@ Example:
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | alignmentType | Determines which type of alignment will be applied. |
 | alignToSlide | If true, shapes will be aligned relative to the slide edges. |
 | groupShape | Parent group shape. |
 | shapeIndexes | Indexes of shapes to be aligned. |
+
+
+---
 
 

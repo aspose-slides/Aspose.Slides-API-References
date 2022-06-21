@@ -1,11 +1,13 @@
 ---
 title: insert
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/mathparagraph/insert/
 ---
 
-# insert(int, com.aspose.slides.IMathBlock) method
+## insert(int, com.aspose.slides.IMathBlock) method
 
  Inserts IMathBlock into the collection at the specified index.
  
@@ -18,11 +20,14 @@ Example:
   $mathParagraph->insert(0, $block);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index at which an item should be inserted. |
 | mathBlock | The IMathBlock to insert. |
+
+
+---
 
 

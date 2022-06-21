@@ -1,17 +1,22 @@
 ---
 title: getInitials
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/commentauthor/getinitials/
 ---
 
-# getInitials() method
+## getInitials() method
 
  Returns or sets the authors initials.
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

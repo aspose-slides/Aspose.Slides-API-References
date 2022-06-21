@@ -1,11 +1,13 @@
 ---
 title: clear
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/summaryzoomsectioncollection/clear/
 ---
 
-# clear() method
+## clear() method
 
  Removes all SummaryZoomSection objects from the collection.
  
@@ -23,5 +25,8 @@ The example demonstrates getting Summary Zoom Section element by index:
     }
   }
 ```
+
+
+---
 
 

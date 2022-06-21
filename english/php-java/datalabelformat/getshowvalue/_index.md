@@ -1,11 +1,13 @@
 ---
 title: getShowValue
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 140
 url: /php-java/datalabelformat/getshowvalue/
 ---
 
-# getShowValue() method
+## getShowValue() method
 
  Represents a specified chart's data label percentage value display behavior. 
  True displays the percentage value. False to hide.
@@ -20,7 +22,10 @@ url: /php-java/datalabelformat/getshowvalue/
  all DataLabels.get_Item(i).getShowValue() is equal to val).
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

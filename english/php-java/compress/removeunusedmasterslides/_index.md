@@ -1,11 +1,13 @@
 ---
 title: removeUnusedMasterSlides
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/compress/removeunusedmasterslides/
 ---
 
-# removeUnusedMasterSlides(com.aspose.slides.Presentation) method
+## removeUnusedMasterSlides(com.aspose.slides.Presentation) method
 
  Makes compression of the  Presentation by removing unused master slides.  
  
@@ -23,13 +25,16 @@ url: /php-java/compress/removeunusedmasterslides/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | The presentation instance |
 
-##  Returns
+### Returns
 Presentation
+
+
+---
 
 

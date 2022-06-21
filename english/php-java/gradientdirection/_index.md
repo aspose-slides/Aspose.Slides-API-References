@@ -1,23 +1,25 @@
 ---
 title: GradientDirection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/gradientdirection/
 ---
 
-# GradientDirection class
+## GradientDirection class
 
  Represents the gradient style.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| FromCenter | From Center |
-| FromCorner1 | From Top Left Corner |
-| FromCorner2 | From Top Right Corner |
-| FromCorner3 | From Bottom Left Corner |
-| FromCorner4 | From Bottom Right Corner |
-| NotDefined | Not defined |
+| Name | Value | Description |
+| --- | --- | --- |
+| FromCenter | 4 | From Center |
+| FromCorner1 | 0 | From Top Left Corner |
+| FromCorner2 | 1 | From Top Right Corner |
+| FromCorner3 | 2 | From Bottom Left Corner |
+| FromCorner4 | 3 | From Bottom Right Corner |
+| NotDefined | -1 | Not defined |
 

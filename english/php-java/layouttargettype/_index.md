@@ -1,11 +1,13 @@
 ---
 title: LayoutTargetType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/layouttargettype/
 ---
 
-# LayoutTargetType class
+## LayoutTargetType class
 
  If layout of the plot area defined manually this property specifies whether 
  to layout the plot area by its inside (not including axis and axis labels) or outside
@@ -14,8 +16,8 @@ url: /php-java/layouttargettype/
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Inner | Specifies that the plot area size shall determine the size of the plot area, not including the tick marks and axis labels. |
-| Outer | Specifies that the plot area size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Inner | 0 | Specifies that the plot area size shall determine the size of the plot area, not including the tick marks and axis labels. |
+| Outer | 1 | Specifies that the plot area size shall determine the size of the plot area, the tick marks, and the axis labels. |
 

@@ -1,17 +1,22 @@
 ---
 title: getShapes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/groupshape/getshapes/
 ---
 
-# getShapes() method
+## getShapes() method
 
  Returns the collection of shapes inside the group.
  Read-only  IShapeCollection.
  
 
-##  Returns
+### Returns
 IShapeCollection
+
+
+---
 
 

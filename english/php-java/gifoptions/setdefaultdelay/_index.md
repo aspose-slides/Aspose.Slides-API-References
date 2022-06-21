@@ -1,11 +1,13 @@
 ---
 title: setDefaultDelay
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/gifoptions/setdefaultdelay/
 ---
 
-# setDefaultDelay(int) method
+## setDefaultDelay(int) method
 
  Gets or sets default delay time [ms]. This value will be used if ( ISlideShowTransition#getAdvanceAfterTime/ ISlideShowTransition#setAdvanceAfterTime(long)) is not set.
  The default value is 1000.
@@ -25,7 +27,10 @@ url: /php-java/gifoptions/setdefaultdelay/
   }
 ```
 
-##  Returns
+### Returns
 ISlideShowTransition#setAdvanceAfterTime(long)
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getParentSeriesGroup
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 270
 url: /php-java/chartseries/getparentseriesgroup/
 ---
 
-# getParentSeriesGroup() method
+## getParentSeriesGroup() method
 
  ParentSeriesGroup.
  Read-only  IChartSeriesGroup.
  
 
-##  Returns
+### Returns
 IChartSeriesGroup
+
+
+---
 
 

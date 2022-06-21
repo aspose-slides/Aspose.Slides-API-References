@@ -1,21 +1,25 @@
 ---
 title: VideoPlayerHtmlController
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/videoplayerhtmlcontroller/videoplayerhtmlcontroller/
 ---
 
-# VideoPlayerHtmlController(java.lang.String, java.lang.String, java.lang.String) constructor
+## VideoPlayerHtmlController(java.lang.String, java.lang.String, java.lang.String) constructor
 
- Creates a new instance of controller
- 
+Creates a new instance of controller
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Parameter |Description |
 | --- | --- |
 | path | The path where video and audio files will be generated |
 | fileName | The name of the HTML file |
 | baseUri | The base URI which will be used for links generating |
+ 
+
+---
 
 

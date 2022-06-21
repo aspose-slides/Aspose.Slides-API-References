@@ -1,22 +1,24 @@
 ---
 title: BulletType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/bullettype/
 ---
 
-# BulletType class
+## BulletType class
 
  Represents the type of the extended bullets.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| None |  |
-| NotDefined |  |
-| Numbered | Numbered bullets. |
-| Picture | Picture bullets. |
-| Symbol | Sysmbol bullets. |
+| Name | Value | Description |
+| --- | --- | --- |
+| None | 0 |  |
+| NotDefined | -1 |  |
+| Numbered | 2 | Numbered bullets. |
+| Picture | 3 | Picture bullets. |
+| Symbol | 1 | Sysmbol bullets. |
 

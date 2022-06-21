@@ -1,11 +1,13 @@
 ---
 title: setNumberFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 170
 url: /php-java/datalabelformat/setnumberformat/
 ---
 
-# setNumberFormat(java.lang.String) method
+## setNumberFormat(java.lang.String) method
 
  Represents the format string for the DataLabels object.
  Read/write  String.
@@ -20,7 +22,10 @@ url: /php-java/datalabelformat/setnumberformat/
  all DataLabels.get_Item(i).getNumberFormat() is equal to val).
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

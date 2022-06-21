@@ -1,11 +1,13 @@
 ---
 title: setShowBackground
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/zoomobject/setshowbackground/
 ---
 
-# setShowBackground(boolean) method
+## setShowBackground(boolean) method
 
  Gets or sets value that specifies whether the Zoom will use the background of the destination slide.
  Read/write  boolean.
@@ -25,7 +27,10 @@ the example demonstrates removing the background of an image of a Zoom object:
   }
 ```
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

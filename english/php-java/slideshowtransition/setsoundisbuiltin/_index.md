@@ -1,11 +1,13 @@
 ---
 title: setSoundIsBuiltIn
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 160
 url: /php-java/slideshowtransition/setsoundisbuiltin/
 ---
 
-# setSoundIsBuiltIn(boolean) method
+## setSoundIsBuiltIn(boolean) method
 
  Specifies whether or not this sound is a built-in sound. If this attribute is set to true then
  the generating application is alerted to check the name attribute specified for this sound
@@ -13,7 +15,10 @@ url: /php-java/slideshowtransition/setsoundisbuiltin/
  Read-write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

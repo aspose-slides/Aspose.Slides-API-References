@@ -1,17 +1,19 @@
 ---
 title: PresentationText
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/presentationtext/
 ---
 
-# PresentationText class
+## PresentationText class
 
  Represents the text extracted from the presentation
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getSlidesText](/slides/php-java/presentationtext/getslidestext/)() | ISlideText | An array of ISlideText contains a presentation's text. |
+| Name | Description |
+| --- | --- |
+| [getSlidesText](getslidestext)() | An array of ISlideText contains a presentation's text. |

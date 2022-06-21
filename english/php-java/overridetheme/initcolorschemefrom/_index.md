@@ -1,22 +1,30 @@
 ---
 title: initColorSchemeFrom
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/overridetheme/initcolorschemefrom/
 ---
 
-# initColorSchemeFrom(com.aspose.slides.IColorScheme) method
+## initColorSchemeFrom(com.aspose.slides.IColorScheme) method
 
  Init ColorScheme with new object for overriding ColorScheme of InheritedTheme.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | colorScheme | Data to initialize from. |
 
-##  Exception
-com.aspose.ms.System.ArgumentNullException Thrown if the colorScheme parameter is null.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | com.aspose.ms.System.ArgumentNullException | Thrown if the colorScheme parameter is null. |
+
+
+---
 
 

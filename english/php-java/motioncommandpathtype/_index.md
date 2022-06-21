@@ -1,22 +1,24 @@
 ---
 title: MotionCommandPathType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/motioncommandpathtype/
 ---
 
-# MotionCommandPathType class
+## MotionCommandPathType class
 
  Represent types of command for animation motion effect behavior.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| CloseLoop |  |
-| CurveTo |  |
-| End |  |
-| LineTo |  |
-| MoveTo |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| CloseLoop | 3 |  |
+| CurveTo | 2 |  |
+| End | 4 |  |
+| LineTo | 1 |  |
+| MoveTo | 0 |  |
 

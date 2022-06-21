@@ -1,18 +1,20 @@
 ---
 title: InOutTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/inouttransition/
 ---
 
-# InOutTransition class
+## InOutTransition class
 
  In-Out slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDirection](/slides/php-java/inouttransition/getdirection/)() | int | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
-| [setDirection](/slides/php-java/inouttransition/setdirection/)(int) | void | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
+| Name | Description |
+| --- | --- |
+| [getDirection](getdirection)() | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
+| [setDirection](setdirection)(int) | Direction of a transition effect. Read/write TransitionInOutDirectionType. |

@@ -1,53 +1,61 @@
 ---
 title: CellInvalidFormulaException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/cellinvalidformulaexception/cellinvalidformulaexception/
 ---
 
-# CellInvalidFormulaException() constructor
+## CellInvalidFormulaException() constructor
 
- Initializes a new instance of the  CellInvalidFormulaException class.
+Initializes a new instance of the CellInvalidFormulaException class.
  
 
+---
 
-# CellInvalidFormulaException(java.lang.String) constructor
 
- Initializes a new instance of the  CellInvalidFormulaException class with a specified error message.
- 
+## CellInvalidFormulaException(java.lang.String) constructor
 
-##  Parameters
+Initializes a new instance of the CellInvalidFormulaException class with a specified error message.
 
-| name | description |
+### Parameters
+
+| Parameter |Description |
 | --- | --- |
 | message | A string that describes the error. |
-
-
-# CellInvalidFormulaException(java.lang.String, java.lang.RuntimeException) constructor
-
- Initializes a new instance of the  CellInvalidFormulaException class with a specified error message
- and a reference to the inner exception that is the cause of this exception.
  
 
-##  Parameters
+---
 
-| name | description |
+
+## CellInvalidFormulaException(java.lang.String, java.lang.RuntimeException) constructor
+
+Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a reference to the inner exception that is the cause of this exception.
+
+### Parameters
+
+| Parameter |Description |
 | --- | --- |
 | message | A string that describes the error. |
 | innerException | The exception that is the cause of the current exception. |
-
-
-# CellInvalidFormulaException(java.lang.String, java.lang.String) constructor
-
- Initializes a new instance of the  CellInvalidFormulaException class with a specified error message
- and a cell reference that contains the invalid formula.
  
 
-##  Parameters
+---
 
-| name | description |
+
+## CellInvalidFormulaException(java.lang.String, java.lang.String) constructor
+
+Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a cell reference that contains the invalid formula.
+
+### Parameters
+
+| Parameter |Description |
 | --- | --- |
 | message | A string that describes the error. |
 | reference | A string that describes a reference to the inner exception |
+ 
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: RenderingOptions
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/renderingoptions/
 ---
 
-# RenderingOptions class
+## RenderingOptions class
 
  Provides options that control how a presentation/slide is rendered.
  
@@ -30,12 +32,12 @@ url: /php-java/renderingoptions/
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [RenderingOptions](/slides/php-java/renderingoptions/renderingoptions/)() | Default constructor. |
+| [RenderingOptions](renderingoptions)() | Default constructor. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getNotesCommentsLayouting](/slides/php-java/renderingoptions/getnotescommentslayouting/)() | INotesCommentsLayoutingOptions | Provides options that control how notes and comments is placed in exported document. |
+| Name | Description |
+| --- | --- |
+| [getNotesCommentsLayouting](getnotescommentslayouting)() | Provides options that control how notes and comments is placed in exported document. |

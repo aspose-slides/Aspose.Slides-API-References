@@ -1,23 +1,25 @@
 ---
 title: FontAlignment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/fontalignment/
 ---
 
-# FontAlignment class
+## FontAlignment class
 
  Represents vertical font alignment.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Automatic |  |
-| Baseline |  |
-| Bottom |  |
-| Center |  |
-| Default |  |
-| Top |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Automatic | 0 |  |
+| Baseline | 4 |  |
+| Bottom | 3 |  |
+| Center | 2 |  |
+| Default | -1 |  |
+| Top | 1 |  |
 

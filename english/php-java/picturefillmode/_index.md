@@ -1,19 +1,21 @@
 ---
 title: PictureFillMode
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/picturefillmode/
 ---
 
-# PictureFillMode class
+## PictureFillMode class
 
  Determines how picture will fill area.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Stretch |  |
-| Tile |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Stretch | 1 |  |
+| Tile | 0 |  |
 

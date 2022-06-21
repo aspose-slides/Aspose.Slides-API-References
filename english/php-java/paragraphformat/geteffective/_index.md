@@ -1,11 +1,13 @@
 ---
 title: getEffective
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/paragraphformat/geteffective/
 ---
 
-# getEffective() method
+## getEffective() method
 
  Gets effective paragraph formatting data with the inheritance applied.
  
@@ -27,7 +29,10 @@ url: /php-java/paragraphformat/geteffective/
   }
 ```
 
-##  Returns
+### Returns
 A IParagraphFormatEffectiveData.
+
+
+---
 
 

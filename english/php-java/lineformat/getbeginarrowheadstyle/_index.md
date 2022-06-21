@@ -1,17 +1,22 @@
 ---
 title: getBeginArrowheadStyle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/lineformat/getbeginarrowheadstyle/
 ---
 
-# getBeginArrowheadStyle() method
+## getBeginArrowheadStyle() method
 
  Returns or sets the arrowhead style at the beginning of a line.
  Read/write  LineArrowheadStyle.
  
 
-##  Returns
+### Returns
 LineArrowheadStyle
+
+
+---
 
 

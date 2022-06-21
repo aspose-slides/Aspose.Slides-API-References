@@ -1,21 +1,23 @@
 ---
 title: TransitionSideDirectionType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/transitionsidedirectiontype/
 ---
 
-# TransitionSideDirectionType class
+## TransitionSideDirectionType class
 
  Represent side direction transition types.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Down |  |
-| Left |  |
-| Right |  |
-| Up |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Down | 2 |  |
+| Left | 0 |  |
+| Right | 3 |  |
+| Up | 1 |  |
 

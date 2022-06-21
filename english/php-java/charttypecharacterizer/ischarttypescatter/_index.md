@@ -1,11 +1,13 @@
 ---
 title: isChartTypeScatter
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 140
 url: /php-java/charttypecharacterizer/ischarttypescatter/
 ---
 
-# isChartTypeScatter(int) method
+## isChartTypeScatter(int) method
 
  Return true if chartType is one of Scatter subtypes.
  Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
@@ -16,7 +18,10 @@ url: /php-java/charttypecharacterizer/ischarttypescatter/
   ChartType#ScatterWithStraightLinesAndMarkers.
  
 
-##  Returns
+### Returns
 ChartType#ScatterWithStraightLinesAndMarkers
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getGapDepth
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 130
 url: /php-java/chartseries/getgapdepth/
 ---
 
-# getGapDepth() method
+## getGapDepth() method
 
  Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart.
  This is the property not only of this series but of all series of parent series 
@@ -18,7 +20,10 @@ url: /php-java/chartseries/getgapdepth/
  This is the projection of the property ParentSeriesGroup.GapDepth.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

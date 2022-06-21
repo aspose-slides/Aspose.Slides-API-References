@@ -1,11 +1,13 @@
 ---
 title: remove
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/fontfallbackrulescollection/remove/
 ---
 
-# remove(com.aspose.slides.IFontFallBackRule) method
+## remove(com.aspose.slides.IFontFallBackRule) method
 
  Removes the first occurrence of a specific FallBack rule from the collection.
  
@@ -30,10 +32,13 @@ url: /php-java/fontfallbackrulescollection/remove/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | targetRule | The rule to remove from the collection. |
+
+
+---
 
 

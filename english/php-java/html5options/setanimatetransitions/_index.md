@@ -1,11 +1,13 @@
 ---
 title: setAnimateTransitions
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/html5options/setanimatetransitions/
 ---
 
-# setAnimateTransitions(boolean) method
+## setAnimateTransitions(boolean) method
 
  Returns or sets transitions animation option.
  Read/write  boolean.
@@ -25,7 +27,10 @@ url: /php-java/html5options/setanimatetransitions/
   }
 ```
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

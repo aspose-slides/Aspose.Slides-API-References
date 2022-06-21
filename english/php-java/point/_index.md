@@ -1,29 +1,31 @@
 ---
 title: Point
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/point/
 ---
 
-# Point class
+## Point class
 
  Represent animation point.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [Point](/slides/php-java/point/point/)() | Default constructor. |
-| [Point](/slides/php-java/point/point/)(float, Object, String) | Create animation point with time, value and formula. |
+| [Point](point)() | Default constructor. |
+| [Point](point)(float, Object, String) | Create animation point with time, value and formula. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getFormula](/slides/php-java/point/getformula/)() | String | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
-| [getTime](/slides/php-java/point/gettime/)() | float | Represents time value. Read/write float. |
-| [getValue](/slides/php-java/point/getvalue/)() | Object | Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
-| [setFormula](/slides/php-java/point/setformula/)(String) | void | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
-| [setTime](/slides/php-java/point/settime/)(float) | void | Represents time value. Read/write float. |
-| [setValue](/slides/php-java/point/setvalue/)(Object) | void | Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+| Name | Description |
+| --- | --- |
+| [getFormula](getformula)() | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
+| [getTime](gettime)() | Represents time value. Read/write float. |
+| [getValue](getvalue)() | Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+| [setFormula](setformula)(String) | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
+| [setTime](settime)(float) | Represents time value. Read/write float. |
+| [setValue](setvalue)(Object) | Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |

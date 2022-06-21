@@ -1,26 +1,28 @@
 ---
 title: ZoomObject
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/zoomobject/
 ---
 
-# ZoomObject class
+## ZoomObject class
 
  Represents an Zoom object in a slide.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getImage](/slides/php-java/zoomobject/getimage/)() | IPPImage | Gets or sets image for zoom object. Read/write IPPImage. |
-| [getImageType](/slides/php-java/zoomobject/getimagetype/)() | int | Gets or sets the image type of a zoom object. Read/write ZoomImageType. Default value: Preview Specifies whether the Zoom object is using the slide preview or a cover image. |
-| [getReturnToParent](/slides/php-java/zoomobject/getreturntoparent/)() | boolean | Gets or sets the navigation behavior in slideshow. Read/write boolean. Default value: false True value of the property specifies return to parent navigation behavior in slideshow. |
-| [getShowBackground](/slides/php-java/zoomobject/getshowbackground/)() | boolean | Gets or sets value that specifies whether the Zoom will use the background of the destination slide. Read/write boolean. Default value: true |
-| [getTransitionDuration](/slides/php-java/zoomobject/gettransitionduration/)() | float | Gets or sets the duration of the transition between Zoom and slide. Read/write float. Default value: 1.0f If not specified (TransitionDur = 0), it will use the destination slide transition and the timings associated with that transition. |
-| [setImage](/slides/php-java/zoomobject/setimage/)(IPPImage) | void | Gets or sets image for zoom object. Read/write IPPImage. |
-| [setImageType](/slides/php-java/zoomobject/setimagetype/)(int) | void | Gets or sets the image type of a zoom object. Read/write ZoomImageType. Default value: Preview Specifies whether the Zoom object is using the slide preview or a cover image. |
-| [setReturnToParent](/slides/php-java/zoomobject/setreturntoparent/)(boolean) | void | Gets or sets the navigation behavior in slideshow. Read/write boolean. Default value: false True value of the property specifies return to parent navigation behavior in slideshow. |
-| [setShowBackground](/slides/php-java/zoomobject/setshowbackground/)(boolean) | void | Gets or sets value that specifies whether the Zoom will use the background of the destination slide. Read/write boolean. Default value: true |
-| [setTransitionDuration](/slides/php-java/zoomobject/settransitionduration/)(float) | void | Gets or sets the duration of the transition between Zoom and slide. Read/write float. Default value: 1.0f If not specified (TransitionDur = 0), it will use the destination slide transition and the timings associated with that transition. |
+| Name | Description |
+| --- | --- |
+| [getImage](getimage)() | Gets or sets image for zoom object. Read/write IPPImage. |
+| [getImageType](getimagetype)() | Gets or sets the image type of a zoom object. Read/write ZoomImageType. Default value: Preview Specifies whether the Zoom object is using the slide preview or a cover image. |
+| [getReturnToParent](getreturntoparent)() | Gets or sets the navigation behavior in slideshow. Read/write boolean. Default value: false True value of the property specifies return to parent navigation behavior in slideshow. |
+| [getShowBackground](getshowbackground)() | Gets or sets value that specifies whether the Zoom will use the background of the destination slide. Read/write boolean. Default value: true |
+| [getTransitionDuration](gettransitionduration)() | Gets or sets the duration of the transition between Zoom and slide. Read/write float. Default value: 1.0f If not specified (TransitionDur = 0), it will use the destination slide transition and the timings associated with that transition. |
+| [setImage](setimage)(IPPImage) | Gets or sets image for zoom object. Read/write IPPImage. |
+| [setImageType](setimagetype)(int) | Gets or sets the image type of a zoom object. Read/write ZoomImageType. Default value: Preview Specifies whether the Zoom object is using the slide preview or a cover image. |
+| [setReturnToParent](setreturntoparent)(boolean) | Gets or sets the navigation behavior in slideshow. Read/write boolean. Default value: false True value of the property specifies return to parent navigation behavior in slideshow. |
+| [setShowBackground](setshowbackground)(boolean) | Gets or sets value that specifies whether the Zoom will use the background of the destination slide. Read/write boolean. Default value: true |
+| [setTransitionDuration](settransitionduration)(float) | Gets or sets the duration of the transition between Zoom and slide. Read/write float. Default value: 1.0f If not specified (TransitionDur = 0), it will use the destination slide transition and the timings associated with that transition. |

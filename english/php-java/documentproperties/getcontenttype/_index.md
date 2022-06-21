@@ -1,17 +1,22 @@
 ---
 title: getContentType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 140
 url: /php-java/documentproperties/getcontenttype/
 ---
 
-# getContentType() method
+## getContentType() method
 
  Returns or sets the content type of a presentation.
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

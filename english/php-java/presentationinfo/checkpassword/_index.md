@@ -1,11 +1,13 @@
 ---
 title: checkPassword
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/presentationinfo/checkpassword/
 ---
 
-# checkPassword(java.lang.String) method
+## checkPassword(java.lang.String) method
 
  Checks whether a password is correct for a presentation protected with open password.
  
@@ -16,16 +18,22 @@ url: /php-java/presentationinfo/checkpassword/
   $isPasswordCorrect = $info->checkPassword("my_password");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | password | The password to check. When the password is null or empty, this method returns false. |
 
-##  Returns
+### Returns
 True if the presentation is protected with open password and the password is correct and false otherwise.
 
-##  Exception
-NotSupportedException if format is not supported to check passwords.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | NotSupportedException | if format is not supported to check passwords. |
+
+
+---
 
 

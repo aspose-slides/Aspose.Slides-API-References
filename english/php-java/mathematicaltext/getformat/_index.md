@@ -1,11 +1,13 @@
 ---
 title: getFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/mathematicaltext/getformat/
 ---
 
-# getFormat() method
+## getFormat() method
 
  Text formatting properties
  
@@ -15,5 +17,8 @@ Example:
   $mathText = new MathematicalText("x+y");
   $mathText->getFormat()->setFontHeight(28);
 ```
+
+
+---
 
 

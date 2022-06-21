@@ -1,11 +1,13 @@
 ---
 title: setEncryptDocumentProperties
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/protectionmanager/setencryptdocumentproperties/
 ---
 
-# setEncryptDocumentProperties(boolean) method
+## setEncryptDocumentProperties(boolean) method
 
  This property makes sense, if presentation is password protected.
  If true then document properties is encrypted in presentation file.
@@ -13,7 +15,10 @@ url: /php-java/protectionmanager/setencryptdocumentproperties/
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

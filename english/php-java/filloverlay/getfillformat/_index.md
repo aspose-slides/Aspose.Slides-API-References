@@ -1,17 +1,22 @@
 ---
 title: getFillFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/filloverlay/getfillformat/
 ---
 
-# getFillFormat() method
+## getFillFormat() method
 
  Fill format.
  Read-only  IFillFormat.
  
 
-##  Returns
+### Returns
 IFillFormat
+
+
+---
 
 

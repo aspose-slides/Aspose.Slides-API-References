@@ -1,11 +1,13 @@
 ---
 title: getNormalVector
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/backdrop3dscene/getnormalvector/
 ---
 
-# getNormalVector() method
+## getNormalVector() method
 
  Returns or sets a normal vector. To be more precise, this attribute defines a vector
  normal to the face of the backdrop plane. Vector represented by array of 3 float values
@@ -13,7 +15,10 @@ url: /php-java/backdrop3dscene/getnormalvector/
  Read/write  float[].
  
 
-##  Returns
+### Returns
 float[]
+
+
+---
 
 

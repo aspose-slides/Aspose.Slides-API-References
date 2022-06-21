@@ -1,11 +1,13 @@
 ---
 title: setColumnGap
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 230
 url: /php-java/mathmatrix/setcolumngap/
 ---
 
-# setColumnGap(long) method
+## setColumnGap(long) method
 
  The value of horizontal spacing between columns of a matrix;
  If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point)
@@ -20,5 +22,8 @@ Example:
   $matrix->setColumnGapRule(MathSpacingRules.Exactly);
   $matrix->setColumnGap(20);
 ```
+
+
+---
 
 

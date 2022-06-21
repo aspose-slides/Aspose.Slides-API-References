@@ -1,14 +1,19 @@
 ---
 title: isCustom
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 1260
 url: /php-java/behaviorproperty/iscustom/
 ---
 
-# isCustom() method
+## isCustom() method
 
  Shows if this property does not belong to the predefined properties list in the specification:
  https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx
  
+
+
+---
 
 

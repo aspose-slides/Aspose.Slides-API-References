@@ -1,18 +1,20 @@
 ---
 title: WheelTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/wheeltransition/
 ---
 
-# WheelTransition class
+## WheelTransition class
 
  Wheel slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getSpokes](/slides/php-java/wheeltransition/getspokes/)() | long | Number spokes of wheel transition. Read/write long. |
-| [setSpokes](/slides/php-java/wheeltransition/setspokes/)(long) | void | Number spokes of wheel transition. Read/write long. |
+| Name | Description |
+| --- | --- |
+| [getSpokes](getspokes)() | Number spokes of wheel transition. Read/write long. |
+| [setSpokes](setspokes)(long) | Number spokes of wheel transition. Read/write long. |

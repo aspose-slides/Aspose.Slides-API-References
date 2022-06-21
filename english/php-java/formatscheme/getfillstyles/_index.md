@@ -1,17 +1,22 @@
 ---
 title: getFillStyles
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/formatscheme/getfillstyles/
 ---
 
-# getFillStyles() method
+## getFillStyles() method
 
  Returns a collection of theme defined fill styles.
  Read-only  IFillFormatCollection.
  
 
-##  Returns
+### Returns
 IFillFormatCollection
+
+
+---
 
 

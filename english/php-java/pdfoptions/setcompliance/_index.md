@@ -1,11 +1,13 @@
 ---
 title: setCompliance
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 220
 url: /php-java/pdfoptions/setcompliance/
 ---
 
-# setCompliance(int) method
+## setCompliance(int) method
 
  Desired conformance level for generated PDF document.
  Read/write  PdfCompliance.
@@ -13,7 +15,10 @@ url: /php-java/pdfoptions/setcompliance/
  Default is  PdfCompliance#Pdf15.
  
 
-##  Returns
+### Returns
 PdfCompliance#Pdf15
+
+
+---
 
 

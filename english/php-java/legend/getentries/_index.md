@@ -1,17 +1,22 @@
 ---
 title: getEntries
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/legend/getentries/
 ---
 
-# getEntries() method
+## getEntries() method
 
  Gets legend entries.
  Read-only  ILegendEntryCollection.
  
 
-##  Returns
+### Returns
 ILegendEntryCollection
+
+
+---
 
 

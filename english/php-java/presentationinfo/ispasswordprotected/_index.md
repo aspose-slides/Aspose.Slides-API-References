@@ -1,11 +1,13 @@
 ---
 title: isPasswordProtected
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/presentationinfo/ispasswordprotected/
 ---
 
-# isPasswordProtected() method
+## isPasswordProtected() method
 
  Gets a value that indicates whether a binded presentation is protected by a password to open.
  
@@ -17,5 +19,8 @@ url: /php-java/presentationinfo/ispasswordprotected/
     echo("The presentation '" + $presentationFilePath + "' is protected by password to open.");
   }
 ```
+
+
+---
 
 

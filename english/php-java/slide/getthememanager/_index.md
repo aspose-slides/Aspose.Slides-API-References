@@ -1,17 +1,22 @@
 ---
 title: getThemeManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/slide/getthememanager/
 ---
 
-# getThemeManager() method
+## getThemeManager() method
 
  Returns the overriding theme manager.
  Read-only  IOverrideThemeManager.
  
 
-##  Returns
+### Returns
 IOverrideThemeManager
+
+
+---
 
 

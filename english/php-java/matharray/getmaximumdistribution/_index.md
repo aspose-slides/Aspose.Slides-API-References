@@ -1,11 +1,13 @@
 ---
 title: getMaximumDistribution
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/matharray/getmaximumdistribution/
 ---
 
-# getMaximumDistribution() method
+## getMaximumDistribution() method
 
  Maximum Distribution
  When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.).
@@ -16,5 +18,8 @@ Example:
   $mathArray = new MathArray(new MathematicalText("item1"));
   $mathArray->setMaximumDistribution(true);
 ```
+
+
+---
 
 

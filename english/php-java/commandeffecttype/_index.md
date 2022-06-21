@@ -1,21 +1,23 @@
 ---
 title: CommandEffectType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/commandeffecttype/
 ---
 
-# CommandEffectType class
+## CommandEffectType class
 
  Represents command effect type for command effect behavior.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Call |  |
-| Event |  |
-| NotDefined |  |
-| Verb |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Call | 1 |  |
+| Event | 0 |  |
+| NotDefined | -1 |  |
+| Verb | 2 |  |
 

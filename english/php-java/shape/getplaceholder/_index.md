@@ -1,17 +1,22 @@
 ---
 title: getPlaceholder
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 200
 url: /php-java/shape/getplaceholder/
 ---
 
-# getPlaceholder() method
+## getPlaceholder() method
 
  Returns the placeholder for a shape. Returns null if the shape has no placeholder.
  Read-only  IPlaceholder.
  
 
-##  Returns
+### Returns
 IPlaceholder
+
+
+---
 
 

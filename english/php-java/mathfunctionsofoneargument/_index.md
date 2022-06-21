@@ -1,43 +1,45 @@
 ---
 title: MathFunctionsOfOneArgument
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathfunctionsofoneargument/
 ---
 
-# MathFunctionsOfOneArgument class
+## MathFunctionsOfOneArgument class
 
  Common mathematical functions of one argument
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| ArcCos | Arccosine |
-| ArcCot | Arccotangent |
-| ArcCsc | Arccosecant |
-| ArcSec | Arcsecant |
-| ArcSin | Arcsine |
-| ArcTan | Arctangent |
-| Cos | Cosine |
-| Cot | Cotangent |
-| Csc | ?osecant |
-| HyperbolicArcCos | Hyperbolic arccosine |
-| HyperbolicArcCot | Hyperbolic arccotangent |
-| HyperbolicArcCsc | Hyperbolic arccosecant |
-| HyperbolicArcSec | Hyperbolic arcsecant |
-| HyperbolicArcSin | Hyperbolic arcsine |
-| HyperbolicArcTan | Hyperbolic arctangent |
-| HyperbolicCos | Hyperbolic Cosine |
-| HyperbolicCot | Hyperbolic Cotangent |
-| HyperbolicCsc | Hyperbolic ?osecant |
-| HyperbolicSec | Hyperbolic Secant |
-| HyperbolicSin | Hyperbolic sine |
-| HyperbolicTan | Hyperbolic Tangent |
-| Lg | Decimal logarithm |
-| Ln | Natural logarithm |
-| Sec | Secant |
-| Sin | Sine |
-| Tan | Tangent |
+| Name | Value | Description |
+| --- | --- | --- |
+| ArcCos | 15 | Arccosine |
+| ArcCot | 19 | Arccotangent |
+| ArcCsc | 17 | Arccosecant |
+| ArcSec | 18 | Arcsecant |
+| ArcSin | 14 | Arcsine |
+| ArcTan | 16 | Arctangent |
+| Cos | 1 | Cosine |
+| Cot | 5 | Cotangent |
+| Csc | 3 | ?osecant |
+| HyperbolicArcCos | 21 | Hyperbolic arccosine |
+| HyperbolicArcCot | 25 | Hyperbolic arccotangent |
+| HyperbolicArcCsc | 23 | Hyperbolic arccosecant |
+| HyperbolicArcSec | 24 | Hyperbolic arcsecant |
+| HyperbolicArcSin | 20 | Hyperbolic arcsine |
+| HyperbolicArcTan | 22 | Hyperbolic arctangent |
+| HyperbolicCos | 7 | Hyperbolic Cosine |
+| HyperbolicCot | 11 | Hyperbolic Cotangent |
+| HyperbolicCsc | 9 | Hyperbolic ?osecant |
+| HyperbolicSec | 10 | Hyperbolic Secant |
+| HyperbolicSin | 6 | Hyperbolic sine |
+| HyperbolicTan | 8 | Hyperbolic Tangent |
+| Lg | 12 | Decimal logarithm |
+| Ln | 13 | Natural logarithm |
+| Sec | 4 | Secant |
+| Sin | 0 | Sine |
+| Tan | 2 | Tangent |
 

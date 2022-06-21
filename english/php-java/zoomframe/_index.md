@@ -1,18 +1,20 @@
 ---
 title: ZoomFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/zoomframe/
 ---
 
-# ZoomFrame class
+## ZoomFrame class
 
  Represents a Slide Zoom object in a slide.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getTargetSlide](/slides/php-java/zoomframe/gettargetslide/)() | ISlide | Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |
-| [setTargetSlide](/slides/php-java/zoomframe/settargetslide/)(ISlide) | void | Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |
+| Name | Description |
+| --- | --- |
+| [getTargetSlide](gettargetslide)() | Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |
+| [setTargetSlide](settargetslide)(ISlide) | Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |

@@ -1,11 +1,13 @@
 ---
 title: Tint
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/tint/
 ---
 
-# Tint class
+## Tint class
 
  Represents a Tint effect.
  Shifts effect color values towards/away from hue by the specified amount.
@@ -13,8 +15,8 @@ url: /php-java/tint/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/tint/equals/)(Object) | boolean | Determines whether the specified Tint is equal to the current Tint. |
-| [getEffective](/slides/php-java/tint/geteffective/)() | ITintEffectiveData | Gets effective Tint effect data with the inheritance applied. |
-| [hashCode](/slides/php-java/tint/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified Tint is equal to the current Tint. |
+| [getEffective](geteffective)() | Gets effective Tint effect data with the inheritance applied. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

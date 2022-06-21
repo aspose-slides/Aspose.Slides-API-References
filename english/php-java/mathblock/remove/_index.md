@@ -1,11 +1,13 @@
 ---
 title: remove
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 230
 url: /php-java/mathblock/remove/
 ---
 
-# remove(com.aspose.slides.IMathElement) method
+## remove(com.aspose.slides.IMathElement) method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -19,13 +21,16 @@ Example:
   $mathBlock->Remove($plusElement);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | item | The object to remove from the collection. |
 
-##  Returns
+### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
+
+
+---
 
 

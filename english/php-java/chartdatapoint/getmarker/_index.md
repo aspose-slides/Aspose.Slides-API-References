@@ -1,17 +1,22 @@
 ---
 title: getMarker
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 140
 url: /php-java/chartdatapoint/getmarker/
 ---
 
-# getMarker() method
+## getMarker() method
 
  Specifies a data marker.
  Read-only  IMarker.
  
 
-##  Returns
+### Returns
 IMarker
+
+
+---
 
 

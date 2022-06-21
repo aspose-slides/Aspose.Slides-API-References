@@ -1,17 +1,22 @@
 ---
 title: getDistance
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/reflection/getdistance/
 ---
 
-# getDistance() method
+## getDistance() method
 
  Distance of reflection.
  Read/write  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

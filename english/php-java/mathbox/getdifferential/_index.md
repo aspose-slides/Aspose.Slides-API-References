@@ -1,11 +1,13 @@
 ---
 title: getDifferential
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/mathbox/getdifferential/
 ---
 
-# getDifferential() method
+## getDifferential() method
 
  Differential
  When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate 
@@ -20,5 +22,8 @@ Example:
   $baseArg = new MathematicalText("x")->join($differential);
   $integral = $baseArg->integral(MathIntegralTypes.Simple, "0", "1");
 ```
+
+
+---
 
 

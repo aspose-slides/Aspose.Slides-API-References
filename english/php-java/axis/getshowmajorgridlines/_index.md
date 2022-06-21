@@ -1,17 +1,22 @@
 ---
 title: getShowMajorGridLines
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 340
 url: /php-java/axis/getshowmajorgridlines/
 ---
 
-# getShowMajorGridLines() method
+## getShowMajorGridLines() method
 
  To hide major gridline set MajorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill.
  Read-only  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

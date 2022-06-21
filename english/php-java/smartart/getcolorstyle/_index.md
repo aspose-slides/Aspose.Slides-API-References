@@ -1,17 +1,22 @@
 ---
 title: getColorStyle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/smartart/getcolorstyle/
 ---
 
-# getColorStyle() method
+## getColorStyle() method
 
  Returns or sets color style of SmartArt object.
  Read/write  SmartArtColorType.
  
 
-##  Returns
+### Returns
 SmartArtColorType
+
+
+---
 
 

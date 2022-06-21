@@ -1,28 +1,30 @@
 ---
 title: FontsManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/fontsmanager/
 ---
 
-# FontsManager class
+## FontsManager class
 
  Manages fonts across the presentation.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [addEmbeddedFont](/slides/php-java/fontsmanager/addembeddedfont/)(IFontData, int) | void | Adds the embedded font |
-| [addEmbeddedFont](/slides/php-java/fontsmanager/addembeddedfont/)(byte[], int) | void | Adds the embedded font |
-| [getEmbeddedFonts](/slides/php-java/fontsmanager/getembeddedfonts/)() | IFontData | Returns the fonts embedded in the presentation |
-| [getFontFallBackRulesCollection](/slides/php-java/fontsmanager/getfontfallbackrulescollection/)() | IFontFallBackRulesCollection | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
-| [getFontSubstRuleList](/slides/php-java/fontsmanager/getfontsubstrulelist/)() | IFontSubstRuleCollection | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
-| [getFonts](/slides/php-java/fontsmanager/getfonts/)() | IFontData | Returns the fonts used in the presentation |
-| [removeEmbeddedFont](/slides/php-java/fontsmanager/removeembeddedfont/)(IFontData) | void | Removes the embedded font |
-| [replaceFont](/slides/php-java/fontsmanager/replacefont/)(IFontData, IFontData) | void | Replace font in presentation |
-| [replaceFont](/slides/php-java/fontsmanager/replacefont/)(IFontSubstRule) | void | Replace font in presentation using information provided in FontSubstRule |
-| [replaceFont](/slides/php-java/fontsmanager/replacefont/)(IFontSubstRuleCollection) | void | Replace font in presentation using information provided in collection of FontSubstRule |
-| [setFontFallBackRulesCollection](/slides/php-java/fontsmanager/setfontfallbackrulescollection/)(IFontFallBackRulesCollection) | void | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
-| [setFontSubstRuleList](/slides/php-java/fontsmanager/setfontsubstrulelist/)(IFontSubstRuleCollection) | void | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
+| Name | Description |
+| --- | --- |
+| [addEmbeddedFont](addembeddedfont)(IFontData, int) | Adds the embedded font |
+| [addEmbeddedFont](addembeddedfont)(byte[], int) | Adds the embedded font |
+| [getEmbeddedFonts](getembeddedfonts)() | Returns the fonts embedded in the presentation |
+| [getFontFallBackRulesCollection](getfontfallbackrulescollection)() | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
+| [getFontSubstRuleList](getfontsubstrulelist)() | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
+| [getFonts](getfonts)() | Returns the fonts used in the presentation |
+| [removeEmbeddedFont](removeembeddedfont)(IFontData) | Removes the embedded font |
+| [replaceFont](replacefont)(IFontData, IFontData) | Replace font in presentation |
+| [replaceFont](replacefont)(IFontSubstRule) | Replace font in presentation using information provided in FontSubstRule |
+| [replaceFont](replacefont)(IFontSubstRuleCollection) | Replace font in presentation using information provided in collection of FontSubstRule |
+| [setFontFallBackRulesCollection](setfontfallbackrulescollection)(IFontFallBackRulesCollection) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
+| [setFontSubstRuleList](setfontsubstrulelist)(IFontSubstRuleCollection) | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |

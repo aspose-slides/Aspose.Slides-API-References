@@ -1,11 +1,13 @@
 ---
 title: MasterLayoutSlideCollection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/masterlayoutslidecollection/
 ---
 
-# MasterLayoutSlideCollection class
+## MasterLayoutSlideCollection class
 
  Represents a collections of all layout slides of defined master slide.
  Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering 
@@ -14,11 +16,11 @@ url: /php-java/masterlayoutslidecollection/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [add](/slides/php-java/masterlayoutslidecollection/add/)(byte, String) | ILayoutSlide | Adds a new layout slide to the end of the collection. |
-| [addClone](/slides/php-java/masterlayoutslidecollection/addclone/)(ILayoutSlide) | ILayoutSlide | Adds a copy of a specified layout slide to the end of the collection. |
-| [insert](/slides/php-java/masterlayoutslidecollection/insert/)(int, byte, String) | ILayoutSlide | Inserts a new layout slide to specified position of the collection. |
-| [insertClone](/slides/php-java/masterlayoutslidecollection/insertclone/)(int, ILayoutSlide) | ILayoutSlide | Inserts a copy of a specified layout slide to specified position of the collection. |
-| [removeAt](/slides/php-java/masterlayoutslidecollection/removeat/)(int) | void | Removes the element at the specified index of the collection. |
-| [reorder](/slides/php-java/masterlayoutslidecollection/reorder/)(int, ILayoutSlide) | void | Moves layout slide from the collection to the specified position. |
+| Name | Description |
+| --- | --- |
+| [add](add)(byte, String) | Adds a new layout slide to the end of the collection. |
+| [addClone](addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the end of the collection. |
+| [insert](insert)(int, byte, String) | Inserts a new layout slide to specified position of the collection. |
+| [insertClone](insertclone)(int, ILayoutSlide) | Inserts a copy of a specified layout slide to specified position of the collection. |
+| [removeAt](removeat)(int) | Removes the element at the specified index of the collection. |
+| [reorder](reorder)(int, ILayoutSlide) | Moves layout slide from the collection to the specified position. |

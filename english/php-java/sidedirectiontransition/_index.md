@@ -1,18 +1,20 @@
 ---
 title: SideDirectionTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/sidedirectiontransition/
 ---
 
-# SideDirectionTransition class
+## SideDirectionTransition class
 
  Side direction slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDirection](/slides/php-java/sidedirectiontransition/getdirection/)() | int | Direction of transition. Read/write TransitionSideDirectionType. |
-| [setDirection](/slides/php-java/sidedirectiontransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionSideDirectionType. |
+| Name | Description |
+| --- | --- |
+| [getDirection](getdirection)() | Direction of transition. Read/write TransitionSideDirectionType. |
+| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionSideDirectionType. |

@@ -1,17 +1,22 @@
 ---
 title: getSpokes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/wheeltransition/getspokes/
 ---
 
-# getSpokes() method
+## getSpokes() method
 
  Number spokes of wheel transition.
  Read/write  long.
  
 
-##  Returns
+### Returns
 long
+
+
+---
 
 

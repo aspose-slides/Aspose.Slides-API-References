@@ -1,17 +1,22 @@
 ---
 title: setShowMasterShapes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/notesslide/setshowmastershapes/
 ---
 
-# setShowMasterShapes(boolean) method
+## setShowMasterShapes(boolean) method
 
  Specifies if shapes on the master slide should be shown on slides or not.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

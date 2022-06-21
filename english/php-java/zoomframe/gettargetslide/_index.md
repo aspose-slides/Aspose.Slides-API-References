@@ -1,11 +1,13 @@
 ---
 title: getTargetSlide
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/zoomframe/gettargetslide/
 ---
 
-# getTargetSlide() method
+## getTargetSlide() method
 
  Gets or sets the slide object that the Slide Zoom object links to.
  Read/write  ISlide.
@@ -17,7 +19,10 @@ Next example demonstrates changing target slide and creates new image for the Sl
   $zoomFrame->setTargetSlide($pres->getSlides()->get_Item(2));
 ```
 
-##  Returns
+### Returns
 ISlide
+
+
+---
 
 

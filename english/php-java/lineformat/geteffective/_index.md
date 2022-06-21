@@ -1,11 +1,13 @@
 ---
 title: getEffective
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/lineformat/geteffective/
 ---
 
-# getEffective() method
+## getEffective() method
 
  Gets effective line formatting data with the inheritance applied.
  
@@ -26,7 +28,10 @@ url: /php-java/lineformat/geteffective/
   }
 ```
 
-##  Returns
+### Returns
 A ILineFormatEffectiveData.
+
+
+---
 
 

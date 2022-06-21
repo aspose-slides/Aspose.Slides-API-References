@@ -1,20 +1,22 @@
 ---
 title: ShapeElementStrokeSource
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/shapeelementstrokesource/
 ---
 
-# ShapeElementStrokeSource class
+## ShapeElementStrokeSource class
 
  Represents how shape element should be drawn.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| NoStroke | Don't stroke primitive. |
-| OwnStroke | Use own stroke. |
-| Shape | Use shape's LineFormat. |
+| Name | Value | Description |
+| --- | --- | --- |
+| NoStroke | 0 | Don't stroke primitive. |
+| OwnStroke | 2 | Use own stroke. |
+| Shape | 1 | Use shape's LineFormat. |
 

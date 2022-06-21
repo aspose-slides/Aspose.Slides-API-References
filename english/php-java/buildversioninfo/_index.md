@@ -1,28 +1,30 @@
 ---
 title: BuildVersionInfo
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/buildversioninfo/
 ---
 
-# BuildVersionInfo class
+## BuildVersionInfo class
 
  Contains information about version of Aspose.Slides.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| AssemblyVersion | Version of Aspose.Slides assembly. |
-| FileVersion | Version of assembly file. |
-| Product | Product name of Aspose.Slides |
-| ProductMajor | Major version number. |
-| ProductMinor | Minor version number. |
+| Name | Value | Description |
+| --- | --- | --- |
+| AssemblyVersion | 22.4 | Version of Aspose.Slides assembly. |
+| FileVersion | 22.4 | Version of assembly file. |
+| Product | Aspose.Slides for Java | Product name of Aspose.Slides |
+| ProductMajor | 22 | Major version number. |
+| ProductMinor | 4 | Minor version number. |
 
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [BuildVersionInfo](/slides/php-java/buildversioninfo/buildversioninfo/)() |  |
+| [BuildVersionInfo](buildversioninfo)() |  |

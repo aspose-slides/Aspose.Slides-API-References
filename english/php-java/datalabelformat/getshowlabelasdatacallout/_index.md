@@ -1,11 +1,13 @@
 ---
 title: getShowLabelAsDataCallout
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/datalabelformat/getshowlabelasdatacallout/
 ---
 
-# getShowLabelAsDataCallout() method
+## getShowLabelAsDataCallout() method
 
  Determines either specified chart's data label will be displayed as data callout or as data label.
  
@@ -17,5 +19,8 @@ url: /php-java/datalabelformat/getshowlabelasdatacallout/
  (i.e. "DataLabels.getDefaultDataLabelFormat().setShowLabelAsDataCallout(val);" cause to 
  all DataLabels.get_Item(i).getShowLabelAsDataCallout() is equal to val).
  
+
+
+---
 
 

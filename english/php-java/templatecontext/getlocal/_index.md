@@ -1,17 +1,22 @@
 ---
 title: getLocal
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/templatecontext/getlocal/
 ---
 
-# getLocal() method
+## getLocal() method
 
  Returns local storage of the current template context.
  Read-only  Storage.
  
 
-##  Returns
+### Returns
 Storage
+
+
+---
 
 

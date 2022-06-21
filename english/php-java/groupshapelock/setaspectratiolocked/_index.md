@@ -1,17 +1,22 @@
 ---
 title: setAspectRatioLocked
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/groupshapelock/setaspectratiolocked/
 ---
 
-# setAspectRatioLocked(boolean) method
+## setAspectRatioLocked(boolean) method
 
  Determines whether shape have to preserve aspect ratio on resizing.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

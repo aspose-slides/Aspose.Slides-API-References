@@ -1,17 +1,22 @@
 ---
 title: getRows
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/table/getrows/
 ---
 
-# getRows() method
+## getRows() method
 
  Returns the collectoin of rows.
  Read-only  IRowCollection.
  
 
-##  Returns
+### Returns
 IRowCollection
+
+
+---
 
 

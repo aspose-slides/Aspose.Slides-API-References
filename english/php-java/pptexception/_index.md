@@ -1,19 +1,21 @@
 ---
 title: PptException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/pptexception/
 ---
 
-# PptException class
+## PptException class
 
  Represents a standard internal exception type.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [PptException](/slides/php-java/pptexception/pptexception/)() | Default constructor. |
-| [PptException](/slides/php-java/pptexception/pptexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptException](/slides/php-java/pptexception/pptexception/)(String, Exception) | Constructor for an exception containing a message and an embedded exception. |
+| [PptException](pptexception)() | Default constructor. |
+| [PptException](pptexception)(String) | Constructor allowing a message to be added to this exception. |
+| [PptException](pptexception)(String, Exception) | Constructor for an exception containing a message and an embedded exception. |

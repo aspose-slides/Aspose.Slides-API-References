@@ -1,21 +1,23 @@
 ---
 title: PropertyCalcModeType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/propertycalcmodetype/
 ---
 
-# PropertyCalcModeType class
+## PropertyCalcModeType class
 
  Represent calc mode for animation property.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Discrete |  |
-| Formula |  |
-| Linear |  |
-| NotDefined |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Discrete | 0 |  |
+| Formula | 2 |  |
+| Linear | 1 |  |
+| NotDefined | -1 |  |
 

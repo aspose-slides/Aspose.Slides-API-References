@@ -1,23 +1,25 @@
 ---
 title: Row
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/row/
 ---
 
-# Row class
+## Row class
 
  Represents a row in a table.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getHeight](/slides/php-java/row/getheight/)() | double | Returns the height of a row. Read-only double. |
-| [getMinimalHeight](/slides/php-java/row/getminimalheight/)() | double | Returns or sets the minimal possible height of a row. Read/write double. |
-| [getRowFormat](/slides/php-java/row/getrowformat/)() | IRowFormat | Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormat. |
-| [setMinimalHeight](/slides/php-java/row/setminimalheight/)(double) | void | Returns or sets the minimal possible height of a row. Read/write double. |
-| [setTextFormat](/slides/php-java/row/settextformat/)(IPortionFormat) | void | Sets defined portion format properties to all row cells' portions. |
-| [setTextFormat](/slides/php-java/row/settextformat/)(IParagraphFormat) | void | Sets defined paragraph format properties to all row cells' paragraphs. |
-| [setTextFormat](/slides/php-java/row/settextformat/)(ITextFrameFormat) | void | Sets defined text frame format properties to all row cells' text frames. |
+| Name | Description |
+| --- | --- |
+| [getHeight](getheight)() | Returns the height of a row. Read-only double. |
+| [getMinimalHeight](getminimalheight)() | Returns or sets the minimal possible height of a row. Read/write double. |
+| [getRowFormat](getrowformat)() | Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormat. |
+| [setMinimalHeight](setminimalheight)(double) | Returns or sets the minimal possible height of a row. Read/write double. |
+| [setTextFormat](settextformat)(IPortionFormat) | Sets defined portion format properties to all row cells' portions. |
+| [setTextFormat](settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all row cells' paragraphs. |
+| [setTextFormat](settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all row cells' text frames. |

@@ -1,22 +1,24 @@
 ---
 title: EffectFillType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/effectfilltype/
 ---
 
-# EffectFillType class
+## EffectFillType class
 
  Represent fill types.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Freeze |  |
-| Hold |  |
-| NotDefined |  |
-| Remove |  |
-| Transition |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Freeze | 1 |  |
+| Hold | 2 |  |
+| NotDefined | -1 |  |
+| Remove | 0 |  |
+| Transition | 3 |  |
 

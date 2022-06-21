@@ -1,19 +1,21 @@
 ---
 title: PptxCorruptFileException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/pptxcorruptfileexception/
 ---
 
-# PptxCorruptFileException class
+## PptxCorruptFileException class
 
  Exception which thrown when presentation file is probably corrupt.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [PptxCorruptFileException](/slides/php-java/pptxcorruptfileexception/pptxcorruptfileexception/)() | Default constructor. |
-| [PptxCorruptFileException](/slides/php-java/pptxcorruptfileexception/pptxcorruptfileexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptxCorruptFileException](/slides/php-java/pptxcorruptfileexception/pptxcorruptfileexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptxCorruptFileException](pptxcorruptfileexception)() | Default constructor. |
+| [PptxCorruptFileException](pptxcorruptfileexception)(String) | Constructor allowing a message to be added to this exception. |
+| [PptxCorruptFileException](pptxcorruptfileexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

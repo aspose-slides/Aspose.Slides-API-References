@@ -1,11 +1,13 @@
 ---
 title: getEffective
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/background/geteffective/
 ---
 
-# getEffective() method
+## getEffective() method
 
  Gets effective background data with the inheritance applied.
  
@@ -25,7 +27,10 @@ url: /php-java/background/geteffective/
   }
 ```
 
-##  Returns
+### Returns
 A IBackgroundEffectiveData.
+
+
+---
 
 

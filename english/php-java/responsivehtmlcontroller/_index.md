@@ -1,29 +1,31 @@
 ---
 title: ResponsiveHtmlController
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/responsivehtmlcontroller/
 ---
 
-# ResponsiveHtmlController class
+## ResponsiveHtmlController class
 
  Responsive HTML Controller
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [ResponsiveHtmlController](/slides/php-java/responsivehtmlcontroller/responsivehtmlcontroller/)() | Creates new instance |
-| [ResponsiveHtmlController](/slides/php-java/responsivehtmlcontroller/responsivehtmlcontroller/)(IHtmlFormattingController) | Creates new instance |
+| [ResponsiveHtmlController](responsivehtmlcontroller)() | Creates new instance |
+| [ResponsiveHtmlController](responsivehtmlcontroller)(IHtmlFormattingController) | Creates new instance |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [writeDocumentEnd](/slides/php-java/responsivehtmlcontroller/writedocumentend/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeDocumentStart](/slides/php-java/responsivehtmlcontroller/writedocumentstart/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeShapeEnd](/slides/php-java/responsivehtmlcontroller/writeshapeend/)(IHtmlGenerator, IShape) | void |  |
-| [writeShapeStart](/slides/php-java/responsivehtmlcontroller/writeshapestart/)(IHtmlGenerator, IShape) | void |  |
-| [writeSlideEnd](/slides/php-java/responsivehtmlcontroller/writeslideend/)(IHtmlGenerator, ISlide) | void |  |
-| [writeSlideStart](/slides/php-java/responsivehtmlcontroller/writeslidestart/)(IHtmlGenerator, ISlide) | void |  |
+| Name | Description |
+| --- | --- |
+| [writeDocumentEnd](writedocumentend)(IHtmlGenerator, IPresentation) |  |
+| [writeDocumentStart](writedocumentstart)(IHtmlGenerator, IPresentation) |  |
+| [writeShapeEnd](writeshapeend)(IHtmlGenerator, IShape) |  |
+| [writeShapeStart](writeshapestart)(IHtmlGenerator, IShape) |  |
+| [writeSlideEnd](writeslideend)(IHtmlGenerator, ISlide) |  |
+| [writeSlideStart](writeslidestart)(IHtmlGenerator, ISlide) |  |

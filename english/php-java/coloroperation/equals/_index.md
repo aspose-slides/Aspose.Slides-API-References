@@ -1,22 +1,27 @@
 ---
 title: equals
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/coloroperation/equals/
 ---
 
-# equals(java.lang.Object) method
+## equals(java.lang.Object) method
 
  Determines whether the two ColorOperation instances are equal.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | obj | The ColorOperation to compare with the current ColorOperation. |
 
-##  Returns
+### Returns
 true if the specified ColorOperation is equal to the current ColorOperation; otherwise, false.
+
+
+---
 
 

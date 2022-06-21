@@ -1,28 +1,30 @@
 ---
 title: ColorOffset
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/coloroffset/
 ---
 
-# ColorOffset class
+## ColorOffset class
 
  Represent color offset.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [ColorOffset](/slides/php-java/coloroffset/coloroffset/)() |  |
+| [ColorOffset](coloroffset)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getValue0](/slides/php-java/coloroffset/getvalue0/)() | float | Defines first value of offset. Read/write float. |
-| [getValue1](/slides/php-java/coloroffset/getvalue1/)() | float | Defines second value of offset. Read/write float. |
-| [getValue2](/slides/php-java/coloroffset/getvalue2/)() | float | Defines third value of offset. Read/write float. |
-| [setValue0](/slides/php-java/coloroffset/setvalue0/)(float) | void | Defines first value of offset. Read/write float. |
-| [setValue1](/slides/php-java/coloroffset/setvalue1/)(float) | void | Defines second value of offset. Read/write float. |
-| [setValue2](/slides/php-java/coloroffset/setvalue2/)(float) | void | Defines third value of offset. Read/write float. |
+| Name | Description |
+| --- | --- |
+| [getValue0](getvalue0)() | Defines first value of offset. Read/write float. |
+| [getValue1](getvalue1)() | Defines second value of offset. Read/write float. |
+| [getValue2](getvalue2)() | Defines third value of offset. Read/write float. |
+| [setValue0](setvalue0)(float) | Defines first value of offset. Read/write float. |
+| [setValue1](setvalue1)(float) | Defines second value of offset. Read/write float. |
+| [setValue2](setvalue2)(float) | Defines third value of offset. Read/write float. |

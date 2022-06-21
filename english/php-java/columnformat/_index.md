@@ -1,19 +1,21 @@
 ---
 title: ColumnFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/columnformat/
 ---
 
-# ColumnFormat class
+## ColumnFormat class
 
  Represents format of a table column.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getEffective](/slides/php-java/columnformat/geteffective/)() | IColumnFormatEffectiveData | Gets effective table column formatting properties with inheritance and table styles applied. |
-| [getParent_IPresentationComponent](/slides/php-java/columnformat/getparent_ipresentationcomponent/)() | IPresentationComponent |  |
-| [getVersion](/slides/php-java/columnformat/getversion/)() | long |  |
+| Name | Description |
+| --- | --- |
+| [getEffective](geteffective)() | Gets effective table column formatting properties with inheritance and table styles applied. |
+| [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
+| [getVersion](getversion)() |  |

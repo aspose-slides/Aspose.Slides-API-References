@@ -1,19 +1,21 @@
 ---
 title: PptCorruptFileException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/pptcorruptfileexception/
 ---
 
-# PptCorruptFileException class
+## PptCorruptFileException class
 
  Exception which thrown when presentation file is probably corrupt.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [PptCorruptFileException](/slides/php-java/pptcorruptfileexception/pptcorruptfileexception/)() | Default constructor. |
-| [PptCorruptFileException](/slides/php-java/pptcorruptfileexception/pptcorruptfileexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptCorruptFileException](/slides/php-java/pptcorruptfileexception/pptcorruptfileexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptCorruptFileException](pptcorruptfileexception)() | Default constructor. |
+| [PptCorruptFileException](pptcorruptfileexception)(String) | Constructor allowing a message to be added to this exception. |
+| [PptCorruptFileException](pptcorruptfileexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

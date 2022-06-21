@@ -1,21 +1,23 @@
 ---
 title: TabAlignment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/tabalignment/
 ---
 
-# TabAlignment class
+## TabAlignment class
 
  Represents the tab alignment.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Center | Center alignment |
-| Decimal | Decimal alignment |
-| Left | Left alignment |
-| Right | Right alignment |
+| Name | Value | Description |
+| --- | --- | --- |
+| Center | 1 | Center alignment |
+| Decimal | 3 | Decimal alignment |
+| Left | 0 | Left alignment |
+| Right | 2 | Right alignment |
 

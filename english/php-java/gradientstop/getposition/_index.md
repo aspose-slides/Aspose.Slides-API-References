@@ -1,17 +1,22 @@
 ---
 title: getPosition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/gradientstop/getposition/
 ---
 
-# getPosition() method
+## getPosition() method
 
  Returns or sets the position (0..1) of a gradient stop.
  Read/write  float.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

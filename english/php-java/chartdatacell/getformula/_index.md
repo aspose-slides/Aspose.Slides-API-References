@@ -1,11 +1,13 @@
 ---
 title: getFormula
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/chartdatacell/getformula/
 ---
 
-# getFormula() method
+## getFormula() method
 
  Gets or sets the formula in A1-style.
  
@@ -15,5 +17,8 @@ url: /php-java/chartdatacell/getformula/
   $cell = $workbook->getCell(0, "B2");
   $cell->setFormula("1 + SUM(F2:H5)");
 ```
+
+
+---
 
 

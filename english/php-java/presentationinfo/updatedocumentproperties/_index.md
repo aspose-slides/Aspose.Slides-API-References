@@ -1,11 +1,13 @@
 ---
 title: updateDocumentProperties
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/presentationinfo/updatedocumentproperties/
 ---
 
-# updateDocumentProperties(com.aspose.slides.IDocumentProperties) method
+## updateDocumentProperties(com.aspose.slides.IDocumentProperties) method
 
  Updates properties of binded presentation.
  
@@ -22,7 +24,10 @@ url: /php-java/presentationinfo/updatedocumentproperties/
   $info->writeBindedPresentation("new_pres.pptx");
 ```
 
-##  Returns
+### Returns
 #readDocumentProperties
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: ChartDataPointLevelsManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/chartdatapointlevelsmanager/
 ---
 
-# ChartDataPointLevelsManager class
+## ChartDataPointLevelsManager class
 
  Container of data point levels. Applied for Treeamp and Sunburst series.
  Data point levels indexing is zero-based.
@@ -13,7 +15,7 @@ url: /php-java/chartdatapointlevelsmanager/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getCount](/slides/php-java/chartdatapointlevelsmanager/getcount/)() | int | Returns data point levels count. |
-| [get_Item](/slides/php-java/chartdatapointlevelsmanager/get_item/)(int) | IChartDataPointLevel | Returns IChartDataPointLevel object for defined level. |
+| Name | Description |
+| --- | --- |
+| [getCount](getcount)() | Returns data point levels count. |
+| [get_Item](get_item)(int) | Returns IChartDataPointLevel object for defined level. |

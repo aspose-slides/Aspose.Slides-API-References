@@ -1,19 +1,21 @@
 ---
 title: PdfTextCompression
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/pdftextcompression/
 ---
 
-# PdfTextCompression class
+## PdfTextCompression class
 
  Constants which define the type of a compression applied to all content in the PDF file except images.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Flate | Flate (ZIP) compression. |
-| None | No compression. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Flate | 1 | Flate (ZIP) compression. |
+| None | 0 | No compression. |
 

@@ -1,21 +1,26 @@
 ---
 title: setFooterAndChildFootersVisibility
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/masterslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
 
-# setFooterAndChildFootersVisibility(boolean) method
+## setFooterAndChildFootersVisibility(boolean) method
 
  Changes master slide footer placeholder and all child footer placeholders visibility.
  Child placeholders mean placeholders are contained on depending layout slides and depending slides.
  Depending layout slides and slides use and depend on master slide.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | isVisible | true - makes a footer placeholders visible, otherwise - hides them. |
+
+
+---
 
 

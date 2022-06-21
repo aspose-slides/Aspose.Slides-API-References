@@ -1,11 +1,13 @@
 ---
 title: BiLevel
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/bilevel/
 ---
 
-# BiLevel class
+## BiLevel class
 
  Represents a Bi-Level (black/white) effect.
  Input colors whose luminance is less than the specified threshold value are changed to black.
@@ -15,8 +17,8 @@ url: /php-java/bilevel/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/bilevel/equals/)(Object) | boolean | Determines whether the specified BiLevel is equal to the current BiLevel. |
-| [getEffective](/slides/php-java/bilevel/geteffective/)() | IBiLevelEffectiveData | Gets effective Bi-Level effect data with the inheritance applied. |
-| [hashCode](/slides/php-java/bilevel/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified BiLevel is equal to the current BiLevel. |
+| [getEffective](geteffective)() | Gets effective Bi-Level effect data with the inheritance applied. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

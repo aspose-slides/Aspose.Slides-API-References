@@ -1,11 +1,13 @@
 ---
 title: getHeight
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 100
 url: /php-java/shape/getheight/
 ---
 
-# getHeight() method
+## getHeight() method
 
  Returns or sets the height of the shape.
  Read/write  float.
@@ -14,7 +16,10 @@ url: /php-java/shape/getheight/
  Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

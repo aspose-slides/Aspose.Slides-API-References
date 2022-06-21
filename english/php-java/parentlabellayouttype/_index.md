@@ -1,20 +1,22 @@
 ---
 title: ParentLabelLayoutType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/parentlabellayouttype/
 ---
 
-# ParentLabelLayoutType class
+## ParentLabelLayoutType class
 
  Represents layout of category data labels. Used with Treemap series only.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Banner | Specifies that parent category labels are shown as banner |
-| None | Specifies that parent category labels are not drawn |
-| Overlapping | Specifies that parent category labels are shown as overlapping |
+| Name | Value | Description |
+| --- | --- | --- |
+| Banner | 0 | Specifies that parent category labels are shown as banner |
+| None | 1 | Specifies that parent category labels are not drawn |
+| Overlapping | 2 | Specifies that parent category labels are shown as overlapping |
 

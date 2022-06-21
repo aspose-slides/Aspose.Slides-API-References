@@ -1,30 +1,32 @@
 ---
 title: FontSubstRuleCollection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/fontsubstrulecollection/
 ---
 
-# FontSubstRuleCollection class
+## FontSubstRuleCollection class
 
  Represents collection of fonts substitution.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [FontSubstRuleCollection](/slides/php-java/fontsubstrulecollection/fontsubstrulecollection/)() |  |
+| [FontSubstRuleCollection](fontsubstrulecollection)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [add](/slides/php-java/fontsubstrulecollection/add/)(IFontSubstRule) | void | Adds the new font substitution rule to the collection |
-| [getSyncRoot](/slides/php-java/fontsubstrulecollection/getsyncroot/)() | Object | Returns a synchronization root. Read-only Object. |
-| [get_Item](/slides/php-java/fontsubstrulecollection/get_item/)(int) | IFontSubstRule | Gets the element at the specified index. |
-| [isSynchronized](/slides/php-java/fontsubstrulecollection/issynchronized/)() | boolean | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](/slides/php-java/fontsubstrulecollection/iterator/)() | IGenericEnumerator | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](/slides/php-java/fontsubstrulecollection/iteratorjava/)() | IGenericEnumerator | Returns a java iterator for the entire collection. |
-| [remove](/slides/php-java/fontsubstrulecollection/remove/)(IFontSubstRule) | void | Removes the first occurrence of a specific object from the collection. |
-| [size](/slides/php-java/fontsubstrulecollection/size/)() | int | Gets the number of elements actually contained in the collection. Read-only int. |
+| Name | Description |
+| --- | --- |
+| [add](add)(IFontSubstRule) | Adds the new font substitution rule to the collection |
+| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
+| [get_Item](get_item)(int) | Gets the element at the specified index. |
+| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
+| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
+| [remove](remove)(IFontSubstRule) | Removes the first occurrence of a specific object from the collection. |
+| [size](size)() | Gets the number of elements actually contained in the collection. Read-only int. |

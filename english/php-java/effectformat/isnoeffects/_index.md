@@ -1,17 +1,22 @@
 ---
 title: isNoEffects
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 250
 url: /php-java/effectformat/isnoeffects/
 ---
 
-# isNoEffects() method
+## isNoEffects() method
 
  Returns true if all effects are disabled (as just created, default EffectFormat object).
  Read-only  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

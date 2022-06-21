@@ -1,20 +1,22 @@
 ---
 title: ShredTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/shredtransition/
 ---
 
-# ShredTransition class
+## ShredTransition class
 
  Shred slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDirection](/slides/php-java/shredtransition/getdirection/)() | int | Direction of transition. Read/write TransitionInOutDirectionType. |
-| [getPattern](/slides/php-java/shredtransition/getpattern/)() | int | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
-| [setDirection](/slides/php-java/shredtransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionInOutDirectionType. |
-| [setPattern](/slides/php-java/shredtransition/setpattern/)(int) | void | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
+| Name | Description |
+| --- | --- |
+| [getDirection](getdirection)() | Direction of transition. Read/write TransitionInOutDirectionType. |
+| [getPattern](getpattern)() | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |
+| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionInOutDirectionType. |
+| [setPattern](setpattern)(int) | Specifies the shape of the visuals used during the transition. Read/write TransitionShredPattern. |

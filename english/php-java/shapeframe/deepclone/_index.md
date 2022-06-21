@@ -1,16 +1,21 @@
 ---
 title: deepClone
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/shapeframe/deepclone/
 ---
 
-# deepClone() method
+## deepClone() method
 
  Clones
  
 
-##  Returns
+### Returns
 Cloned shape frame.
+
+
+---
 
 

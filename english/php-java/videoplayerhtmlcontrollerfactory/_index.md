@@ -1,11 +1,13 @@
 ---
 title: VideoPlayerHtmlControllerFactory
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/videoplayerhtmlcontrollerfactory/
 ---
 
-# VideoPlayerHtmlControllerFactory class
+## VideoPlayerHtmlControllerFactory class
 
  Allows to create VideoPlayerHtmlController.
  
@@ -14,12 +16,12 @@ url: /php-java/videoplayerhtmlcontrollerfactory/
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [VideoPlayerHtmlControllerFactory](/slides/php-java/videoplayerhtmlcontrollerfactory/videoplayerhtmlcontrollerfactory/)() |  |
+| [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [createVideoPlayerHtmlController](/slides/php-java/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/)(String, String, String) | IVideoPlayerHtmlController | Creates new VideoPlayerHtmlController. |
+| Name | Description |
+| --- | --- |
+| [createVideoPlayerHtmlController](createvideoplayerhtmlcontroller)(String, String, String) | Creates new VideoPlayerHtmlController. |

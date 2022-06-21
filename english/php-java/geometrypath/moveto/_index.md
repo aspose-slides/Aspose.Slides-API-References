@@ -1,32 +1,40 @@
 ---
 title: moveTo
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 150
 url: /php-java/geometrypath/moveto/
 ---
 
-# moveTo(java.awt.geom.Point2D.Float) method
+## moveTo(java.awt.geom.Point2D.Float) method
 
  Sets next point position.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | point | Point position |
 
 
-# moveTo(float, float) method
+---
+
+
+## moveTo(float, float) method
 
  Sets next point position.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of the point |
 | y | Y Coordinate of the point |
+
+
+---
 
 

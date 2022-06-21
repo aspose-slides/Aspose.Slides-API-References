@@ -1,19 +1,21 @@
 ---
 title: MathDelimiterShape
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathdelimitershape/
 ---
 
-# MathDelimiterShape class
+## MathDelimiterShape class
 
  The location and size of the delimiters relative to the content of the operands
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Centered | Centered to math axis |
-| Match | Match to content |
+| Name | Value | Description |
+| --- | --- | --- |
+| Centered | 0 | Centered to math axis |
+| Match | 1 | Match to content |
 

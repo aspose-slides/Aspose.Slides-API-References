@@ -1,17 +1,22 @@
 ---
 title: get_Item
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/extracolorschemecollection/get_item/
 ---
 
-# get_Item(int) method
+## get_Item(int) method
 
  Returns an color scheme by index.
  Read-only  ExtraColorScheme.
  
 
-##  Returns
+### Returns
 ExtraColorScheme
+
+
+---
 
 

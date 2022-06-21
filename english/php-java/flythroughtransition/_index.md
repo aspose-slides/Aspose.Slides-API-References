@@ -1,20 +1,22 @@
 ---
 title: FlyThroughTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/flythroughtransition/
 ---
 
-# FlyThroughTransition class
+## FlyThroughTransition class
 
  Fly-through slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDirection](/slides/php-java/flythroughtransition/getdirection/)() | int | Direction of transition. Read/write TransitionInOutDirectionType. |
-| [hasBounce](/slides/php-java/flythroughtransition/hasbounce/)() | boolean | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write boolean. |
-| [setBounce](/slides/php-java/flythroughtransition/setbounce/)(boolean) | void | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write boolean. |
-| [setDirection](/slides/php-java/flythroughtransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionInOutDirectionType. |
+| Name | Description |
+| --- | --- |
+| [getDirection](getdirection)() | Direction of transition. Read/write TransitionInOutDirectionType. |
+| [hasBounce](hasbounce)() | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write boolean. |
+| [setBounce](setbounce)(boolean) | Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write boolean. |
+| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionInOutDirectionType. |

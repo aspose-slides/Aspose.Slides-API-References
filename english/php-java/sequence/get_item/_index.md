@@ -1,22 +1,27 @@
 ---
 title: get_Item
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/sequence/get_item/
 ---
 
-# get_Item(int) method
+## get_Item(int) method
 
  Returns an effect at the specified index.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | Index of element. |
 
-##  Returns
+### Returns
 The IEffect object.
+
+
+---
 
 

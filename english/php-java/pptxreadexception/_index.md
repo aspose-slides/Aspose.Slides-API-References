@@ -1,19 +1,21 @@
 ---
 title: PptxReadException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/pptxreadexception/
 ---
 
-# PptxReadException class
+## PptxReadException class
 
  Represents an exception which thrown on presentation reading errors.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [PptxReadException](/slides/php-java/pptxreadexception/pptxreadexception/)() | Default constructor. |
-| [PptxReadException](/slides/php-java/pptxreadexception/pptxreadexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptxReadException](/slides/php-java/pptxreadexception/pptxreadexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptxReadException](pptxreadexception)() | Default constructor. |
+| [PptxReadException](pptxreadexception)(String) | Constructor allowing a message to be added to this exception. |
+| [PptxReadException](pptxreadexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

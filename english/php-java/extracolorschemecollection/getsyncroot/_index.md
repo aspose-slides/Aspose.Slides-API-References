@@ -1,11 +1,13 @@
 ---
 title: getSyncRoot
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/extracolorschemecollection/getsyncroot/
 ---
 
-# getSyncRoot() method
+## getSyncRoot() method
 
  Returns an object that can be used to synchronize access to the collection.
  Read-only  Object.
@@ -14,7 +16,10 @@ url: /php-java/extracolorschemecollection/getsyncroot/
  Read-only  Object.
  
 
-##  Returns
+### Returns
 Object
+
+
+---
 
 

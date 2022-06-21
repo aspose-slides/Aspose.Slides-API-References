@@ -1,70 +1,84 @@
 ---
 title: add
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/chartseriescollection/add/
 ---
 
-# add(int) method
+## add(int) method
 
  Creates new chart series and adds it to the collection. 
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | type | Type of series |
 
-##  Returns
+### Returns
 New chart series.
 
 
-# add(com.aspose.slides.IChartDataCell, int) method
+---
+
+
+## add(com.aspose.slides.IChartDataCell, int) method
 
  Creates new chart series from  ChartDataCell and adds it to the collection. 
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | cellWithSeriesName | Cell which contain series name. |
 | type | Type set type of series If chart series careted from same cell already in collection then method adds nothing and returns it's index. |
 
-##  Returns
+### Returns
 ChartDataCell
 
 
-# add(com.aspose.slides.IChartCellCollection, int) method
+---
+
+
+## add(com.aspose.slides.IChartCellCollection, int) method
 
  Creates new chart series from  ChartCellCollection and adds it to the collection. 
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | cellsWithSeriesName | Cells which contain series name. |
 | type | Type set type of series If chart series careted from same cell already in collection then method adds nothing and returns it's index. |
 
-##  Returns
+### Returns
 ChartCellCollection
 
 
-# add(java.lang.String, int) method
+---
+
+
+## add(java.lang.String, int) method
 
  Creates new chart series from value and adds it to the collection. 
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | name | Series name. |
 | type | Type set type of series |
 
-##  Returns
+### Returns
 Added chart series.
+
+
+---
 
 

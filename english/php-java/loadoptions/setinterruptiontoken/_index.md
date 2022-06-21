@@ -1,11 +1,13 @@
 ---
 title: setInterruptionToken
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 200
 url: /php-java/loadoptions/setinterruptiontoken/
 ---
 
-# setInterruptionToken(com.aspose.slides.IInterruptionToken) method
+## setInterruptionToken(com.aspose.slides.IInterruptionToken) method
 
  The token to monitor for interruption requests.
  
@@ -14,7 +16,10 @@ url: /php-java/loadoptions/setinterruptiontoken/
  the  InterruptionTokenSource.
  
 
-##  Returns
+### Returns
 InterruptionTokenSource
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getXPlus
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/errorbarscustomvalues/getxplus/
 ---
 
-# getXPlus() method
+## getXPlus() method
 
  Specifies the error bar value in the positive direction. 
  Available if error bars value type is Custom and ErrorBarsXFormat is allowed. 
@@ -13,7 +15,10 @@ url: /php-java/errorbarscustomvalues/getxplus/
  Read-only  IDoubleChartValue.
  
 
-##  Returns
+### Returns
 IDoubleChartValue
+
+
+---
 
 

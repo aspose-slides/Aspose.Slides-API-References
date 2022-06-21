@@ -1,11 +1,13 @@
 ---
 title: getSaveMetafilesAsPng
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/xpsoptions/getsavemetafilesaspng/
 ---
 
-# getSaveMetafilesAsPng() method
+## getSaveMetafilesAsPng() method
 
  True to convert all metafiles used in a presentation to the PNG images.
  Read/write  boolean.
@@ -13,7 +15,10 @@ url: /php-java/xpsoptions/getsavemetafilesaspng/
  Default is true.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: addModernComment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/commentcollection/addmoderncomment/
 ---
 
-# addModernComment(java.lang.String, com.aspose.slides.ISlide, com.aspose.slides.IShape, java.awt.geom.Point2D.Float, java.util.Date) method
+## addModernComment(java.lang.String, com.aspose.slides.ISlide, com.aspose.slides.IShape, java.awt.geom.Point2D.Float, java.util.Date) method
 
  Add new modern comment at the end of a collection.
  
@@ -24,9 +26,9 @@ url: /php-java/commentcollection/addmoderncomment/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | text | Plain text of a new modern comment. |
 | slide | Slide in a presentation where to add a new modern comment. |
@@ -34,7 +36,10 @@ url: /php-java/commentcollection/addmoderncomment/
 | position | Position on a slide where to add a new modern comment. |
 | creationTime | Time of a modern comment creation. |
 
-##  Returns
+### Returns
 Added modern comment.
+
+
+---
 
 

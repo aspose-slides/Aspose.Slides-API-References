@@ -1,20 +1,22 @@
 ---
 title: RevealTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/revealtransition/
 ---
 
-# RevealTransition class
+## RevealTransition class
 
  Reveal slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDirection](/slides/php-java/revealtransition/getdirection/)() | int | Direction of transition. Read/write TransitionLeftRightDirectionType. |
-| [getThroughBlack](/slides/php-java/revealtransition/getthroughblack/)() | boolean | Specifies whether the transition fades through black. Read/write boolean. |
-| [setDirection](/slides/php-java/revealtransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionLeftRightDirectionType. |
-| [setThroughBlack](/slides/php-java/revealtransition/setthroughblack/)(boolean) | void | Specifies whether the transition fades through black. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| [getDirection](getdirection)() | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| [getThroughBlack](getthroughblack)() | Specifies whether the transition fades through black. Read/write boolean. |
+| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| [setThroughBlack](setthroughblack)(boolean) | Specifies whether the transition fades through black. Read/write boolean. |

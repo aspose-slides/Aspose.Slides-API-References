@@ -1,17 +1,22 @@
 ---
 title: getType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 100
 url: /php-java/bulletformat/gettype/
 ---
 
-# getType() method
+## getType() method
 
  Returns or sets the bullet type of a paragraph with no inheritance.
  Read/write  BulletType.
  
 
-##  Returns
+### Returns
 BulletType
+
+
+---
 
 

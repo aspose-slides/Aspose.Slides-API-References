@@ -1,11 +1,13 @@
 ---
 title: MathNaryOperator
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathnaryoperator/
 ---
 
-# MathNaryOperator class
+## MathNaryOperator class
 
  Specifies an N-ary mathematical object, such as Summation and Integral.
  It consists of an operator, a base (or operand), and optional upper and lower limits. 
@@ -19,27 +21,27 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathNaryOperator](/slides/php-java/mathnaryoperator/mathnaryoperator/)(char, IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
-| [MathNaryOperator](/slides/php-java/mathnaryoperator/mathnaryoperator/)(char, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
-| [MathNaryOperator](/slides/php-java/mathnaryoperator/mathnaryoperator/)(char, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [MathNaryOperator](mathnaryoperator)(char, IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [MathNaryOperator](mathnaryoperator)(char, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [MathNaryOperator](mathnaryoperator)(char, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getBase](/slides/php-java/mathnaryoperator/getbase/)() | IMathElement | Base argument |
-| [getChildren](/slides/php-java/mathnaryoperator/getchildren/)() | IMathElement | Get children elements |
-| [getGrowToMatchOperandHeight](/slides/php-java/mathnaryoperator/getgrowtomatchoperandheight/)() | boolean | Operator Character grows vertically to match its operand height |
-| [getHideSubscript](/slides/php-java/mathnaryoperator/gethidesubscript/)() | boolean | Hide Subscript |
-| [getHideSuperscript](/slides/php-java/mathnaryoperator/gethidesuperscript/)() | boolean | Hide Superscript |
-| [getLimitLocation](/slides/php-java/mathnaryoperator/getlimitlocation/)() | int | The location of limits (subscript and superscript) |
-| [getOperator](/slides/php-java/mathnaryoperator/getoperator/)() | char | Nary Operator Character For example: '?', '?' |
-| [getSubscript](/slides/php-java/mathnaryoperator/getsubscript/)() | IMathElement | Specifies a subscript argument that, for example, in the case of an integral, sets the lower limit |
-| [getSuperscript](/slides/php-java/mathnaryoperator/getsuperscript/)() | IMathElement | Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit |
-| [setGrowToMatchOperandHeight](/slides/php-java/mathnaryoperator/setgrowtomatchoperandheight/)(boolean) | void | Operator Character grows vertically to match its operand height |
-| [setHideSubscript](/slides/php-java/mathnaryoperator/sethidesubscript/)(boolean) | void | Hide Subscript |
-| [setHideSuperscript](/slides/php-java/mathnaryoperator/sethidesuperscript/)(boolean) | void | Hide Superscript |
-| [setLimitLocation](/slides/php-java/mathnaryoperator/setlimitlocation/)(int) | void | The location of limits (subscript and superscript) |
-| [setOperator](/slides/php-java/mathnaryoperator/setoperator/)(char) | void | Nary Operator Character For example: '?', '?' |
+| Name | Description |
+| --- | --- |
+| [getBase](getbase)() | Base argument |
+| [getChildren](getchildren)() | Get children elements |
+| [getGrowToMatchOperandHeight](getgrowtomatchoperandheight)() | Operator Character grows vertically to match its operand height |
+| [getHideSubscript](gethidesubscript)() | Hide Subscript |
+| [getHideSuperscript](gethidesuperscript)() | Hide Superscript |
+| [getLimitLocation](getlimitlocation)() | The location of limits (subscript and superscript) |
+| [getOperator](getoperator)() | Nary Operator Character For example: '?', '?' |
+| [getSubscript](getsubscript)() | Specifies a subscript argument that, for example, in the case of an integral, sets the lower limit |
+| [getSuperscript](getsuperscript)() | Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit |
+| [setGrowToMatchOperandHeight](setgrowtomatchoperandheight)(boolean) | Operator Character grows vertically to match its operand height |
+| [setHideSubscript](sethidesubscript)(boolean) | Hide Subscript |
+| [setHideSuperscript](sethidesuperscript)(boolean) | Hide Superscript |
+| [setLimitLocation](setlimitlocation)(int) | The location of limits (subscript and superscript) |
+| [setOperator](setoperator)(char) | Nary Operator Character For example: '?', '?' |

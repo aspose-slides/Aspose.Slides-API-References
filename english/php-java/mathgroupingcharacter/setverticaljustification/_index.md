@@ -1,11 +1,13 @@
 ---
 title: setVerticalJustification
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/mathgroupingcharacter/setverticaljustification/
 ---
 
-# setVerticalJustification(int) method
+## setVerticalJustification(int) method
 
  Vertical justification of group character.
  Specifies the alignment of the object with respect to the baseline.
@@ -20,5 +22,8 @@ Example:
   $groupingCharacter = new MathGroupingCharacter(new MathematicalText("abc"));
   $groupingCharacter->setVerticalJustification(MathTopBotPositions.Top);
 ```
+
+
+---
 
 

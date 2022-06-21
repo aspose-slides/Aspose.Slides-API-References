@@ -1,19 +1,24 @@
 ---
 title: removeAt
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/digitalsignaturecollection/removeat/
 ---
 
-# removeAt(int) method
+## removeAt(int) method
 
  Removes the signature at the specified index.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | Index of the signature that should be deleted. |
+
+
+---
 
 

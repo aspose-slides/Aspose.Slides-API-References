@@ -1,23 +1,25 @@
 ---
 title: TextAnchorType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/textanchortype/
 ---
 
-# TextAnchorType class
+## TextAnchorType class
 
  text box alignment within a text area.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Bottom |  |
-| Center |  |
-| Distributed |  |
-| Justified |  |
-| NotDefined |  |
-| Top |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Bottom | 2 |  |
+| Center | 1 |  |
+| Distributed | 4 |  |
+| Justified | 3 |  |
+| NotDefined | -1 |  |
+| Top | 0 |  |
 

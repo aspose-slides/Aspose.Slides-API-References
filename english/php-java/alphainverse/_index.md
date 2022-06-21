@@ -1,11 +1,13 @@
 ---
 title: AlphaInverse
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/alphainverse/
 ---
 
-# AlphaInverse class
+## AlphaInverse class
 
  Represents an Alpha Inverse effect.
  Alpha (opacity) values are inverted by subtracting from 100%.
@@ -13,9 +15,9 @@ url: /php-java/alphainverse/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/alphainverse/equals/)(Object) | boolean | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
-| [getEffective](/slides/php-java/alphainverse/geteffective/)() | IAlphaInverseEffectiveData | Gets effective Alpha Inverse effect data with the inheritance applied. |
-| [getVersion](/slides/php-java/alphainverse/getversion/)() | long |  |
-| [hashCode](/slides/php-java/alphainverse/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
+| [getEffective](geteffective)() | Gets effective Alpha Inverse effect data with the inheritance applied. |
+| [getVersion](getversion)() |  |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

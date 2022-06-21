@@ -1,11 +1,13 @@
 ---
 title: getSeriesGroups
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/chartdata/getseriesgroups/
 ---
 
-# getSeriesGroups() method
+## getSeriesGroups() method
 
  Gets the groups of series.
  Read-only  IChartSeriesGroupCollection.
@@ -23,7 +25,10 @@ url: /php-java/chartdata/getseriesgroups/
  Each of "series group properties" can have a read-only projection in ChartSeries class.
  
 
-##  Returns
+### Returns
 IChartSeriesGroupCollection
+
+
+---
 
 

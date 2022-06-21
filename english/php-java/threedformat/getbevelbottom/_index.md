@@ -1,17 +1,22 @@
 ---
 title: getBevelBottom
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/threedformat/getbevelbottom/
 ---
 
-# getBevelBottom() method
+## getBevelBottom() method
 
  Returns or sets the type of a bottom 3D bevel.
  Read-only  IShapeBevel.
  
 
-##  Returns
+### Returns
 IShapeBevel
+
+
+---
 
 

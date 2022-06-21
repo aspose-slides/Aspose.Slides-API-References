@@ -1,17 +1,22 @@
 ---
 title: getRelativeScaleWidth
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/pictureframe/getrelativescalewidth/
 ---
 
-# getRelativeScaleWidth() method
+## getRelativeScaleWidth() method
 
  Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.
  Read/write  float.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

@@ -1,17 +1,19 @@
 ---
 title: Input
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/input/
 ---
 
-# Input class
+## Input class
 
  Represents a collection of input elements (templates) for IWebDocument.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [addTemplate](/slides/php-java/input/addtemplate/)(String, String) | void | Adds a template to the collection. |
+| Name | Description |
+| --- | --- |
+| [addTemplate](addtemplate)(String, String) | Adds a template to the collection. |

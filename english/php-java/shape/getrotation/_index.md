@@ -1,11 +1,13 @@
 ---
 title: getRotation
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 230
 url: /php-java/shape/getrotation/
 ---
 
-# getRotation() method
+## getRotation() method
 
  Returns or sets the number of degrees the specified shape is rotated around
  the z-axis. A positive value indicates clockwise rotation; a negative value
@@ -16,7 +18,10 @@ url: /php-java/shape/getrotation/
  Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

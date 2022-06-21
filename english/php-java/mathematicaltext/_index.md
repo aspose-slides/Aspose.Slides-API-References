@@ -1,11 +1,13 @@
 ---
 title: MathematicalText
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathematicaltext/
 ---
 
-# MathematicalText class
+## MathematicalText class
 
  Mathematical text
  
@@ -17,18 +19,18 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathematicalText](/slides/php-java/mathematicaltext/mathematicaltext/)() | Default constructor (create String.Empty Value) |
-| [MathematicalText](/slides/php-java/mathematicaltext/mathematicaltext/)(char) | Create MathText with single symbol |
-| [MathematicalText](/slides/php-java/mathematicaltext/mathematicaltext/)(String) | Create MathematicalText from text |
-| [MathematicalText](/slides/php-java/mathematicaltext/mathematicaltext/)(String, IPortionFormat) | Create MathematicalText from text and format settings |
+| [MathematicalText](mathematicaltext)() | Default constructor (create String.Empty Value) |
+| [MathematicalText](mathematicaltext)(char) | Create MathText with single symbol |
+| [MathematicalText](mathematicaltext)(String) | Create MathematicalText from text |
+| [MathematicalText](mathematicaltext)(String, IPortionFormat) | Create MathematicalText from text and format settings |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getChildren](/slides/php-java/mathematicaltext/getchildren/)() | IMathElement | Get children elements |
-| [getFormat](/slides/php-java/mathematicaltext/getformat/)() | IPortionFormat | Text formatting properties |
-| [getValue](/slides/php-java/mathematicaltext/getvalue/)() | String | Text value |
-| [setValue](/slides/php-java/mathematicaltext/setvalue/)(String) | void | Text value |
+| Name | Description |
+| --- | --- |
+| [getChildren](getchildren)() | Get children elements |
+| [getFormat](getformat)() | Text formatting properties |
+| [getValue](getvalue)() | Text value |
+| [setValue](setvalue)(String) | Text value |

@@ -1,24 +1,26 @@
 ---
 title: NotesSize
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/notessize/
 ---
 
-# NotesSize class
+## NotesSize class
 
  Represents a size of notes slide.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [NotesSize](/slides/php-java/notessize/notessize/)() |  |
+| [NotesSize](notessize)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getSize](/slides/php-java/notessize/getsize/)() | Dimension2D | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
-| [setSize](/slides/php-java/notessize/setsize/)(Dimension2D) | void | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
+| Name | Description |
+| --- | --- |
+| [getSize](getsize)() | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
+| [setSize](setsize)(Dimension2D) | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |

@@ -1,11 +1,13 @@
 ---
 title: MathPortion
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathportion/
 ---
 
-# MathPortion class
+## MathPortion class
 
  Represents a portion with mathematical context inside.
  
@@ -27,12 +29,12 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathPortion](/slides/php-java/mathportion/mathportion/)() | Initializes a new instance of the MathPortion class. |
+| [MathPortion](mathportion)() | Initializes a new instance of the MathPortion class. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getMathParagraph](/slides/php-java/mathportion/getmathparagraph/)() | IMathParagraph | Math paragraph |
+| Name | Description |
+| --- | --- |
+| [getMathParagraph](getmathparagraph)() | Math paragraph |

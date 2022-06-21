@@ -1,11 +1,13 @@
 ---
 title: getZOrderPosition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 330
 url: /php-java/shape/getzorderposition/
 ---
 
-# getZOrderPosition() method
+## getZOrderPosition() method
 
  Returns the position of a shape in the z-order.
  Shapes[0] returns the shape at the back of the z-order,
@@ -13,7 +15,10 @@ url: /php-java/shape/getzorderposition/
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

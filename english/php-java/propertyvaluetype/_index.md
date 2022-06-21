@@ -1,21 +1,23 @@
 ---
 title: PropertyValueType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/propertyvaluetype/
 ---
 
-# PropertyValueType class
+## PropertyValueType class
 
  Represent property value types.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Color |  |
-| NotDefined |  |
-| Number |  |
-| String |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Color | 2 |  |
+| NotDefined | -1 |  |
+| Number | 1 |  |
+| String | 0 |  |
 

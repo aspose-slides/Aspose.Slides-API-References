@@ -1,17 +1,22 @@
 ---
 title: setName
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/mastertheme/setname/
 ---
 
-# setName(java.lang.String) method
+## setName(java.lang.String) method
 
  Returns the name of a theme.
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

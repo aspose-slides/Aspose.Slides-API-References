@@ -1,20 +1,22 @@
 ---
 title: MotionPathEditMode
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/motionpatheditmode/
 ---
 
-# MotionPathEditMode class
+## MotionPathEditMode class
 
  Specifies how the motion path moves when the target shape is moved
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Fixed |  |
-| NotDefined |  |
-| Relative |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Fixed | 1 |  |
+| NotDefined | -1 |  |
+| Relative | 0 |  |
 

@@ -1,17 +1,22 @@
 ---
 title: size
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/layoutslidecollection/size/
 ---
 
-# size() method
+## size() method
 
  Returns the number of layout slides in a collection.
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

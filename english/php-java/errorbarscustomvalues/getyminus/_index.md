@@ -1,11 +1,13 @@
 ---
 title: getYMinus
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/errorbarscustomvalues/getyminus/
 ---
 
-# getYMinus() method
+## getYMinus() method
 
  Specifies the error bar value in the negative direction. 
  Available if error bars value type is Custom and ErrorBarsYFormat is allowed. 
@@ -13,7 +15,10 @@ url: /php-java/errorbarscustomvalues/getyminus/
  Read-only  IDoubleChartValue.
  
 
-##  Returns
+### Returns
 IDoubleChartValue
+
+
+---
 
 

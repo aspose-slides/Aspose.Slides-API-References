@@ -1,18 +1,23 @@
 ---
 title: setSoundLoop
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 170
 url: /php-java/slideshowtransition/setsoundloop/
 ---
 
-# setSoundLoop(boolean) method
+## setSoundLoop(boolean) method
 
  This attribute specifies if the sound will loop until the next sound event occurs in
  slideshow.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

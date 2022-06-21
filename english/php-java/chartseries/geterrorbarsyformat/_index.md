@@ -1,11 +1,13 @@
 ---
 title: getErrorBarsYFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/chartseries/geterrorbarsyformat/
 ---
 
-# getErrorBarsYFormat() method
+## getErrorBarsYFormat() method
 
  Represents ErrorBars of series with derection Y.
  Read-only  IErrorBarsFormat.
@@ -16,7 +18,10 @@ url: /php-java/chartseries/geterrorbarsyformat/
  (with ( IChartDataPoint#getErrorBarsCustomValues) property).
  
 
-##  Returns
+### Returns
 IChartDataPoint#getErrorBarsCustomValues
+
+
+---
 
 

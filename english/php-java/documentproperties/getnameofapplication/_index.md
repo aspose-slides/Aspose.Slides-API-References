@@ -1,17 +1,22 @@
 ---
 title: getNameOfApplication
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 300
 url: /php-java/documentproperties/getnameofapplication/
 ---
 
-# getNameOfApplication() method
+## getNameOfApplication() method
 
  Returns or sets the name of the application.
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

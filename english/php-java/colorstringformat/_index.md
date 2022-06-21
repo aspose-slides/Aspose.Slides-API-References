@@ -1,18 +1,20 @@
 ---
 title: ColorStringFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/colorstringformat/
 ---
 
-# ColorStringFormat class
+## ColorStringFormat class
 
  Represents a type of hyperlink action.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Vml | VML color string format. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Vml | 0 | VML color string format. |
 

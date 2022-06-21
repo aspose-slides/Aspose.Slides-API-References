@@ -1,18 +1,20 @@
 ---
 title: insertComment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/commentcollection/insertcomment/
 ---
 
-# insertComment(int, java.lang.String, com.aspose.slides.ISlide, java.awt.geom.Point2D.Float, java.util.Date) method
+## insertComment(int, java.lang.String, com.aspose.slides.ISlide, java.awt.geom.Point2D.Float, java.util.Date) method
 
  Insert new comment to a collection at the specified index.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | Index of the element in a collection at which comment should be inserted. |
 | text | Plain text of a new comment. |
@@ -20,7 +22,10 @@ url: /php-java/commentcollection/insertcomment/
 | position | Position on a slide where to add a new comment. |
 | creationTime | Time of a comment creation. |
 
-##  Returns
+### Returns
 Inserted comment.
+
+
+---
 
 

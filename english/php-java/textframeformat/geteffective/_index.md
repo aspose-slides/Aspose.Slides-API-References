@@ -1,11 +1,13 @@
 ---
 title: getEffective
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/textframeformat/geteffective/
 ---
 
-# getEffective() method
+## getEffective() method
 
  Gets effective text frame formatting data with the inheritance applied.
  
@@ -32,7 +34,10 @@ url: /php-java/textframeformat/geteffective/
   }
 ```
 
-##  Returns
+### Returns
 A ITextFrameFormatEffectiveData.
+
+
+---
 
 

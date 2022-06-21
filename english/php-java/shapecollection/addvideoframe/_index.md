@@ -1,18 +1,20 @@
 ---
 title: addVideoFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 250
 url: /php-java/shapecollection/addvideoframe/
 ---
 
-# addVideoFrame(float, float, float, float, java.lang.String) method
+## addVideoFrame(float, float, float, float, java.lang.String) method
 
  Adds a new video frame to the end of a collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new video frame. |
 | y | Y coordinate of a new video frame. |
@@ -20,18 +22,21 @@ url: /php-java/shapecollection/addvideoframe/
 | height | Height of a new video frame. |
 | fname | Video file name. |
 
-##  Returns
+### Returns
 Created VideoFrame object.
 
 
-# addVideoFrame(float, float, float, float, com.aspose.slides.IVideo) method
+---
+
+
+## addVideoFrame(float, float, float, float, com.aspose.slides.IVideo) method
 
  Adds a new video frame to the end of a collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new video frame. |
 | y | Y coordinate of a new video frame. |
@@ -39,7 +44,10 @@ Created VideoFrame object.
 | height | Height of a new video frame. |
 | video | Video to add. |
 
-##  Returns
+### Returns
 Created VideoFrame object.
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/masterhandoutslideheaderfootermanager/
 ---
 
-# MasterHandoutSlideHeaderFooterManager class
+## MasterHandoutSlideHeaderFooterManager class
 
  Represents manager which holds behavior of the master handout slide placeholders, including header placeholder.
  

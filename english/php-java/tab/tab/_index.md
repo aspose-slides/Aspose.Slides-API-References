@@ -1,20 +1,24 @@
 ---
 title: Tab
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/tab/tab/
 ---
 
-# Tab(double, int) constructor
+## Tab(double, int) constructor
 
- Creates new Tab
- 
+Creates new Tab
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Parameter |Description |
 | --- | --- |
 | position | Tab position. |
 | align | Align. |
+ 
+
+---
 
 

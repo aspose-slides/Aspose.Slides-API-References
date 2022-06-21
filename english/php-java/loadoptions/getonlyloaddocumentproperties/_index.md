@@ -1,11 +1,13 @@
 ---
 title: getOnlyLoadDocumentProperties
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 100
 url: /php-java/loadoptions/getonlyloaddocumentproperties/
 ---
 
-# getOnlyLoadDocumentProperties() method
+## getOnlyLoadDocumentProperties() method
 
  This property makes sense, if presentation file is password protected.
  Value of true means that only document properties must be loaded from an encrypted 
@@ -18,7 +20,10 @@ url: /php-java/loadoptions/getonlyloaddocumentproperties/
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

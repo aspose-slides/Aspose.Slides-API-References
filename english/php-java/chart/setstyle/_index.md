@@ -1,17 +1,22 @@
 ---
 title: setStyle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 310
 url: /php-java/chart/setstyle/
 ---
 
-# setStyle(int) method
+## setStyle(int) method
 
  Returns or sets the chart style.
  Read/write  StyleType.
  
 
-##  Returns
+### Returns
 StyleType
+
+
+---
 
 

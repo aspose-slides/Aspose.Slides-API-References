@@ -1,14 +1,15 @@
 ---
 title: MathAccent
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/mathaccent/mathaccent/
 ---
 
-# MathAccent(com.aspose.slides.IMathElement) constructor
+## MathAccent(com.aspose.slides.IMathElement) constructor
 
- Creates a math accent applying to a specified math element with the default accent character value
- 
+Creates a math accent applying to a specified math element with the default accent character value
 Example:
  
 ```php
@@ -16,17 +17,19 @@ Example:
   $accent = new MathAccent($baseElement);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Parameter |Description |
 | --- | --- |
 | element | a math element to apply accent |
-
-
-# MathAccent(com.aspose.slides.IMathElement, char) constructor
-
- Creates a math accent applying to a specified math element
  
+
+---
+
+
+## MathAccent(com.aspose.slides.IMathElement, char) constructor
+
+Creates a math accent applying to a specified math element
 Example:
  
 ```php
@@ -34,11 +37,14 @@ Example:
   $accent = new MathAccent($baseElement, '~');
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Parameter |Description |
 | --- | --- |
 | element | math element to apply accent |
 | accentCharacter | accent character |
+ 
+
+---
 
 

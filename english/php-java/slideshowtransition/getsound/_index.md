@@ -1,17 +1,22 @@
 ---
 title: getSound
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/slideshowtransition/getsound/
 ---
 
-# getSound() method
+## getSound() method
 
  Returns or sets the embedded audio data.
  Read/write  IAudio.
  
 
-##  Returns
+### Returns
 IAudio
+
+
+---
 
 

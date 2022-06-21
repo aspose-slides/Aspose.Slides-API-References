@@ -1,11 +1,13 @@
 ---
 title: setExplicitBreak
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/mathbox/setexplicitbreak/
 ---
 
-# setExplicitBreak(byte) method
+## setExplicitBreak(byte) method
 
  Explicit break specifies whether there is a line break at the start of the Box object, 
  such that the line wraps at the start of the box object.
@@ -20,5 +22,8 @@ Example:
   $box = new MathematicalText("==")->toBox();
   $box->setExplicitBreak(1);
 ```
+
+
+---
 
 

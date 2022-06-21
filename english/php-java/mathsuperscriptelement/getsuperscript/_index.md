@@ -1,11 +1,13 @@
 ---
 title: getSuperscript
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/mathsuperscriptelement/getsuperscript/
 ---
 
-# getSuperscript() method
+## getSuperscript() method
 
  Superscript
  
@@ -17,5 +19,8 @@ Example:
   $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
   $IMathElement = $superscriptElement->getSuperscript();
 ```
+
+
+---
 
 

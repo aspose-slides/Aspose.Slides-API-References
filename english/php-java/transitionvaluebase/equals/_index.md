@@ -1,22 +1,27 @@
 ---
 title: equals
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/transitionvaluebase/equals/
 ---
 
-# equals(java.lang.Object) method
+## equals(java.lang.Object) method
 
  Determines whether the two TransitionValueBase instances are equal.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | obj | The TransitionValueBase to compare with the current TransitionValueBase. |
 
-##  Returns
+### Returns
 true if the specified TransitionValueBase is equal to the current TransitionValueBase; otherwise, false.
+
+
+---
 
 

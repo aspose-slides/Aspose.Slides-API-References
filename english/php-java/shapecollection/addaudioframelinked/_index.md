@@ -1,18 +1,20 @@
 ---
 title: addAudioFrameLinked
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/shapecollection/addaudioframelinked/
 ---
 
-# addAudioFrameLinked(float, float, float, float, java.lang.String) method
+## addAudioFrameLinked(float, float, float, float, java.lang.String) method
 
  Adds a new audio frame with linked audio file to the end of a collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new audio frame. |
 | y | Y coordinate of a new audio frame. |
@@ -20,7 +22,10 @@ url: /php-java/shapecollection/addaudioframelinked/
 | height | Height of a new audio frame. |
 | fname | Audio file name. |
 
-##  Returns
+### Returns
 Created AudioFrame object.
+
+
+---
 
 

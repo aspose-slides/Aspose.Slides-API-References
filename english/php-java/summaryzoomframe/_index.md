@@ -1,18 +1,20 @@
 ---
 title: SummaryZoomFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/summaryzoomframe/
 ---
 
-# SummaryZoomFrame class
+## SummaryZoomFrame class
 
  Represents a Summary Zoom object in a slide.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getLayout](/slides/php-java/summaryzoomframe/getlayout/)() | int | Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout. |
-| [getSummaryZoomCollection](/slides/php-java/summaryzoomframe/getsummaryzoomcollection/)() | ISummaryZoomSectionCollection | Gets ISummaryZoomSectionCollection for the Summary Zoom Frame object. |
+| Name | Description |
+| --- | --- |
+| [getLayout](getlayout)() | Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout. |
+| [getSummaryZoomCollection](getsummaryzoomcollection)() | Gets ISummaryZoomSectionCollection for the Summary Zoom Frame object. |

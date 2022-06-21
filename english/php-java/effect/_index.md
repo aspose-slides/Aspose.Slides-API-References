@@ -1,29 +1,31 @@
 ---
 title: Effect
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/effect/
 ---
 
-# Effect class
+## Effect class
 
  Represents animation effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getBehaviors](/slides/php-java/effect/getbehaviors/)() | IBehaviorCollection | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
-| [getPresetClassType](/slides/php-java/effect/getpresetclasstype/)() | int | Defines class of effect. Read/write EffectPresetClassType. |
-| [getSequence](/slides/php-java/effect/getsequence/)() | ISequence | Returns a sequence for an effect. Read-only ISequence. |
-| [getSubtype](/slides/php-java/effect/getsubtype/)() | int | Defines subtype of effect. Read/write EffectSubtype. |
-| [getTargetShape](/slides/php-java/effect/gettargetshape/)() | IShape | Returns target shape for effect. Read-only IShape. |
-| [getTextAnimation](/slides/php-java/effect/gettextanimation/)() | ITextAnimation | TextAnimation Read-only ITextAnimation. |
-| [getTiming](/slides/php-java/effect/gettiming/)() | ITiming | Defines timing value for effect. Read/write ITiming. |
-| [getType](/slides/php-java/effect/gettype/)() | int | Defines type of effect. Read/write EffectType. |
-| [setBehaviors](/slides/php-java/effect/setbehaviors/)(IBehaviorCollection) | void | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
-| [setPresetClassType](/slides/php-java/effect/setpresetclasstype/)(int) | void | Defines class of effect. Read/write EffectPresetClassType. |
-| [setSubtype](/slides/php-java/effect/setsubtype/)(int) | void | Defines subtype of effect. Read/write EffectSubtype. |
-| [setTiming](/slides/php-java/effect/settiming/)(ITiming) | void | Defines timing value for effect. Read/write ITiming. |
-| [setType](/slides/php-java/effect/settype/)(int) | void | Defines type of effect. Read/write EffectType. |
+| Name | Description |
+| --- | --- |
+| [getBehaviors](getbehaviors)() | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+| [getPresetClassType](getpresetclasstype)() | Defines class of effect. Read/write EffectPresetClassType. |
+| [getSequence](getsequence)() | Returns a sequence for an effect. Read-only ISequence. |
+| [getSubtype](getsubtype)() | Defines subtype of effect. Read/write EffectSubtype. |
+| [getTargetShape](gettargetshape)() | Returns target shape for effect. Read-only IShape. |
+| [getTextAnimation](gettextanimation)() | TextAnimation Read-only ITextAnimation. |
+| [getTiming](gettiming)() | Defines timing value for effect. Read/write ITiming. |
+| [getType](gettype)() | Defines type of effect. Read/write EffectType. |
+| [setBehaviors](setbehaviors)(IBehaviorCollection) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+| [setPresetClassType](setpresetclasstype)(int) | Defines class of effect. Read/write EffectPresetClassType. |
+| [setSubtype](setsubtype)(int) | Defines subtype of effect. Read/write EffectSubtype. |
+| [setTiming](settiming)(ITiming) | Defines timing value for effect. Read/write ITiming. |
+| [setType](settype)(int) | Defines type of effect. Read/write EffectType. |

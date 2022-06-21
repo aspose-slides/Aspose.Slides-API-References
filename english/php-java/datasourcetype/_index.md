@@ -1,20 +1,22 @@
 ---
 title: DataSourceType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/datasourcetype/
 ---
 
-# DataSourceType class
+## DataSourceType class
 
  Data source types.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| DoubleLiterals | Use fast-access double variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values. |
-| StringLiterals | Use fast-access string variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values. |
-| Worksheet | Use CellXls objects for storing XValue, YValue, Value or BubbleSize of data point in worksheet. |
+| Name | Value | Description |
+| --- | --- | --- |
+| DoubleLiterals | 2 | Use fast-access double variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values. |
+| StringLiterals | 1 | Use fast-access string variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values. |
+| Worksheet | 0 | Use CellXls objects for storing XValue, YValue, Value or BubbleSize of data point in worksheet. |
 

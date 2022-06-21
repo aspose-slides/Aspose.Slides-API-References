@@ -1,14 +1,15 @@
 ---
 title: MathPortion
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/mathportion/mathportion/
 ---
 
-# MathPortion() constructor
+## MathPortion() constructor
 
- Initializes a new instance of the MathPortion class.
- 
+Initializes a new instance of the MathPortion class.
 Example:
  
 ```php
@@ -24,5 +25,8 @@ Example:
     }
   }
 ```
+ 
+
+---
 
 

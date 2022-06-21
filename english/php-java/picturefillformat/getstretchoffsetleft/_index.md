@@ -1,11 +1,13 @@
 ---
 title: getStretchOffsetLeft
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/picturefillformat/getstretchoffsetleft/
 ---
 
-# getStretchOffsetLeft() method
+## getStretchOffsetLeft() method
 
  Returns or sets left edge of the fill rectangle that is defined by a percentage offset 
  from the left edge of the shape's bounding box. 
@@ -13,7 +15,10 @@ url: /php-java/picturefillformat/getstretchoffsetleft/
  Read/write  float.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

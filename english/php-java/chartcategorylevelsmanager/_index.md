@@ -1,19 +1,21 @@
 ---
 title: ChartCategoryLevelsManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/chartcategorylevelsmanager/
 ---
 
-# ChartCategoryLevelsManager class
+## ChartCategoryLevelsManager class
 
  Managed container of the values of the chart category levels.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [deleteGroupingItem](/slides/php-java/chartcategorylevelsmanager/deletegroupingitem/)(int) | void | Delete grouping item for defined level. |
-| [get_Item](/slides/php-java/chartcategorylevelsmanager/get_item/)(int) | IChartDataCell | Returns IChartDataCell object for defined level. |
-| [setGroupingItem](/slides/php-java/chartcategorylevelsmanager/setgroupingitem/)(int, Object) | void | Sets grouping item for defined level. |
+| Name | Description |
+| --- | --- |
+| [deleteGroupingItem](deletegroupingitem)(int) | Delete grouping item for defined level. |
+| [get_Item](get_item)(int) | Returns IChartDataCell object for defined level. |
+| [setGroupingItem](setgroupingitem)(int, Object) | Sets grouping item for defined level. |

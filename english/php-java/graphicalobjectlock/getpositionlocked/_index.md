@@ -1,17 +1,22 @@
 ---
 title: getPositionLocked
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/graphicalobjectlock/getpositionlocked/
 ---
 
-# getPositionLocked() method
+## getPositionLocked() method
 
  Determines whether moving this shape is forbidden.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

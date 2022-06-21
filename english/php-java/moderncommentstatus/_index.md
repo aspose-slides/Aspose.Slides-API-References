@@ -1,21 +1,23 @@
 ---
 title: ModernCommentStatus
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/moderncommentstatus/
 ---
 
-# ModernCommentStatus class
+## ModernCommentStatus class
 
  Represents the status of a modern comment.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Active | Active. |
-| Closed | Closed. |
-| NotDefined | Not Defined. |
-| Resolved | Resolved. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Active | 1 | Active. |
+| Closed | 3 | Closed. |
+| NotDefined | 0 | Not Defined. |
+| Resolved | 2 | Resolved. |
 

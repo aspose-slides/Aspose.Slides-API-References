@@ -1,11 +1,13 @@
 ---
 title: MathBar
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathbar/
 ---
 
-# MathBar class
+## MathBar class
 
  Specifies the bar function, consisting of a base argument and an overbar or underbar
  
@@ -17,16 +19,16 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathBar](/slides/php-java/mathbar/mathbar/)(IMathElement) | Initializes MathBar with overbar (Top position) |
-| [MathBar](/slides/php-java/mathbar/mathbar/)(IMathElement, int) | Initializes MathBar with specified position |
+| [MathBar](mathbar)(IMathElement) | Initializes MathBar with overbar (Top position) |
+| [MathBar](mathbar)(IMathElement, int) | Initializes MathBar with specified position |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getBase](/slides/php-java/mathbar/getbase/)() | IMathElement | Base argument |
-| [getChildren](/slides/php-java/mathbar/getchildren/)() | IMathElement | Get children elements |
-| [getPosition](/slides/php-java/mathbar/getposition/)() | int | Position of the bar line. Default: Top |
-| [setPosition](/slides/php-java/mathbar/setposition/)(int) | void | Position of the bar line. Default: Top |
+| Name | Description |
+| --- | --- |
+| [getBase](getbase)() | Base argument |
+| [getChildren](getchildren)() | Get children elements |
+| [getPosition](getposition)() | Position of the bar line. Default: Top |
+| [setPosition](setposition)(int) | Position of the bar line. Default: Top |

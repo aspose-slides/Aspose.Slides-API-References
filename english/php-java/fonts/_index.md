@@ -1,22 +1,24 @@
 ---
 title: Fonts
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/fonts/
 ---
 
-# Fonts class
+## Fonts class
 
  Fonts collection.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getComplexScriptFont](/slides/php-java/fonts/getcomplexscriptfont/)() | IFontData | Returns or sets the complex script font. Read/write IFontData. |
-| [getEastAsianFont](/slides/php-java/fonts/geteastasianfont/)() | IFontData | Returns or sets the East Asian font. Read/write IFontData. |
-| [getLatinFont](/slides/php-java/fonts/getlatinfont/)() | IFontData | Returns or sets the Latin font. Read/write IFontData. |
-| [setComplexScriptFont](/slides/php-java/fonts/setcomplexscriptfont/)(IFontData) | void | Returns or sets the complex script font. Read/write IFontData. |
-| [setEastAsianFont](/slides/php-java/fonts/seteastasianfont/)(IFontData) | void | Returns or sets the East Asian font. Read/write IFontData. |
-| [setLatinFont](/slides/php-java/fonts/setlatinfont/)(IFontData) | void | Returns or sets the Latin font. Read/write IFontData. |
+| Name | Description |
+| --- | --- |
+| [getComplexScriptFont](getcomplexscriptfont)() | Returns or sets the complex script font. Read/write IFontData. |
+| [getEastAsianFont](geteastasianfont)() | Returns or sets the East Asian font. Read/write IFontData. |
+| [getLatinFont](getlatinfont)() | Returns or sets the Latin font. Read/write IFontData. |
+| [setComplexScriptFont](setcomplexscriptfont)(IFontData) | Returns or sets the complex script font. Read/write IFontData. |
+| [setEastAsianFont](seteastasianfont)(IFontData) | Returns or sets the East Asian font. Read/write IFontData. |
+| [setLatinFont](setlatinfont)(IFontData) | Returns or sets the Latin font. Read/write IFontData. |

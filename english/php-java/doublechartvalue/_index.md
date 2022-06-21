@@ -1,11 +1,13 @@
 ---
 title: DoubleChartValue
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/doublechartvalue/
 ---
 
-# DoubleChartValue class
+## DoubleChartValue class
 
  Represent double value which can be stored in pptx presentation document in two ways:
  1) in cell/cells of workbook related to chart;
@@ -14,12 +16,12 @@ url: /php-java/doublechartvalue/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getAsCell](/slides/php-java/doublechartvalue/getascell/)() | IChartDataCell | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [getAsLiteralDouble](/slides/php-java/doublechartvalue/getasliteraldouble/)() | double | Returns or sets value as literal double. Read/write double. |
-| [getData](/slides/php-java/doublechartvalue/getdata/)() | Object | Returns or sets Data object. Read/write Object. |
-| [setAsCell](/slides/php-java/doublechartvalue/setascell/)(IChartDataCell) | void | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [setAsLiteralDouble](/slides/php-java/doublechartvalue/setasliteraldouble/)(double) | void | Returns or sets value as literal double. Read/write double. |
-| [setData](/slides/php-java/doublechartvalue/setdata/)(Object) | void | Returns or sets Data object. Read/write Object. |
-| [toDouble](/slides/php-java/doublechartvalue/todouble/)() | double | Converts to double. |
+| Name | Description |
+| --- | --- |
+| [getAsCell](getascell)() | Returns or sets chart data cell. Read/write IChartDataCell. |
+| [getAsLiteralDouble](getasliteraldouble)() | Returns or sets value as literal double. Read/write double. |
+| [getData](getdata)() | Returns or sets Data object. Read/write Object. |
+| [setAsCell](setascell)(IChartDataCell) | Returns or sets chart data cell. Read/write IChartDataCell. |
+| [setAsLiteralDouble](setasliteraldouble)(double) | Returns or sets value as literal double. Read/write double. |
+| [setData](setdata)(Object) | Returns or sets Data object. Read/write Object. |
+| [toDouble](todouble)() | Converts to double. |

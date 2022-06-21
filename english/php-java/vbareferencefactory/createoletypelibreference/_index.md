@@ -1,16 +1,21 @@
 ---
 title: createOleTypeLibReference
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/vbareferencefactory/createoletypelibreference/
 ---
 
-# createOleTypeLibReference(java.lang.String, java.lang.String) method
+## createOleTypeLibReference(java.lang.String, java.lang.String) method
 
  Creates new OLE Automation type library reference.
  
 
-##  Returns
+### Returns
 New OLE Automation type library reference
+
+
+---
 
 

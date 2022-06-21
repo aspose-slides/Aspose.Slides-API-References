@@ -1,101 +1,124 @@
 ---
 title: addImage
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/imagecollection/addimage/
 ---
 
-# addImage(com.aspose.slides.IPPImage) method
+## addImage(com.aspose.slides.IPPImage) method
 
  Adds a copy of an image from an another presentation.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | imageSource | Source image. |
 
-##  Returns
+### Returns
 Added image.
 
 
-# addImage(java.awt.image.BufferedImage) method
+---
+
+
+## addImage(java.awt.image.BufferedImage) method
 
  Add an image to a presentation.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | image | Image to add. This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
 
-##  Returns
+### Returns
 Added image.
 
 
-# addImage(java.io.InputStream) method
+---
+
+
+## addImage(java.io.InputStream) method
 
  Add an image to a presentation from stream.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | stream | Stream to add image from. This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
 
-##  Returns
+### Returns
 Added image.
 
 
-# addImage(java.io.InputStream, int) method
+---
+
+
+## addImage(java.io.InputStream, int) method
 
  Creates and adds an image to a presentation from stream.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | stream | Stream to add image file from. |
 | loadingStreamBehavior | The behavior which will be applied to the stream. |
 
-##  Returns
+### Returns
 Added IPPImage.
 
 
-# addImage(byte[]) method
+---
+
+
+## addImage(byte[]) method
 
  Adds an image to a presentation from specified buffer.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | buffer | Buffer. |
 
-##  Returns
+### Returns
 Added image.
 
 
-# addImage(com.aspose.slides.ISvgImage) method
+---
+
+
+## addImage(com.aspose.slides.ISvgImage) method
 
  Add an image to a presentation from Svg object. 
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | svgImage | Svg image object ISvgImage |
 
-##  Returns
+### Returns
 Added image.
 
-##  Exception
-ArgumentNullException When svgImage parameter is null.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentNullException | When svgImage parameter is null. |
+
+
+---
 
 

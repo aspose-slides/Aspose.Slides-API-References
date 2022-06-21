@@ -1,13 +1,18 @@
 ---
 title: setGroupingItem
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/chartcategorylevelsmanager/setgroupingitem/
 ---
 
-# setGroupingItem(int, java.lang.Object) method
+## setGroupingItem(int, java.lang.Object) method
 
  Sets grouping item for defined level.
  
+
+
+---
 
 

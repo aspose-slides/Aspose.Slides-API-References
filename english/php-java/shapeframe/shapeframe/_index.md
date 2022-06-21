@@ -1,18 +1,19 @@
 ---
 title: ShapeFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/shapeframe/shapeframe/
 ---
 
-# ShapeFrame(float, float, float, float, byte, byte, float) constructor
+## ShapeFrame(float, float, float, float, byte, byte, float) constructor
 
- Creates new shape frame's properties.
- 
+Creates new shape frame's properties.
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Parameter |Description |
 | --- | --- |
 | x | X coordinate of a frame. |
 | y | Y coordinate of a frame. |
@@ -21,5 +22,8 @@ url: /php-java/shapeframe/shapeframe/
 | flipH | True if a frame flipped horizontally. |
 | flipV | True if a frame flipped vertivally. |
 | rotationAngle | Number of degrees a frame is rotated. |
+ 
+
+---
 
 

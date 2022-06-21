@@ -1,17 +1,22 @@
 ---
 title: getStyle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 170
 url: /php-java/lineformat/getstyle/
 ---
 
-# getStyle() method
+## getStyle() method
 
  Returns or sets the line style.
  Read/write  LineStyle.
  
 
-##  Returns
+### Returns
 LineStyle
+
+
+---
 
 

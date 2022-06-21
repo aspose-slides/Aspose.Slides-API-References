@@ -1,11 +1,13 @@
 ---
 title: setShowPercentage
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 270
 url: /php-java/datalabelformat/setshowpercentage/
 ---
 
-# setShowPercentage(boolean) method
+## setShowPercentage(boolean) method
 
  Represents a specified chart's data label percentage value display behavior. 
  True displays the percentage value. False to hide.
@@ -20,7 +22,10 @@ url: /php-java/datalabelformat/setshowpercentage/
  all DataLabels.get_Item(i).getShowPercentage() is equal to val).
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

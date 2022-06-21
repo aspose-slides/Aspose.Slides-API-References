@@ -1,11 +1,13 @@
 ---
 title: setFormula
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/point/setformula/
 ---
 
-# setFormula(java.lang.String) method
+## setFormula(java.lang.String) method
 
  Formulas within values, from, to, by attributes can be made up of these:
  Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod)
@@ -19,7 +21,10 @@ url: /php-java/point/setformula/
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

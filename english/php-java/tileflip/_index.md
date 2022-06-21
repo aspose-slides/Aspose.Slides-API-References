@@ -1,22 +1,24 @@
 ---
 title: TileFlip
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/tileflip/
 ---
 
-# TileFlip class
+## TileFlip class
 
  Defines tile flipping mode.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| FlipBoth |  |
-| FlipX |  |
-| FlipY |  |
-| NoFlip |  |
-| NotDefined |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| FlipBoth | 3 |  |
+| FlipX | 1 |  |
+| FlipY | 2 |  |
+| NoFlip | 0 |  |
+| NotDefined | -1 |  |
 

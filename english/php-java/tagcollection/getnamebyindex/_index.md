@@ -1,22 +1,27 @@
 ---
 title: getNameByIndex
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/tagcollection/getnamebyindex/
 ---
 
-# getNameByIndex(int) method
+## getNameByIndex(int) method
 
  Returns key of a tag at the specified index.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | Index of a tag to return. |
 
-##  Returns
+### Returns
 Key of a tag.
+
+
+---
 
 

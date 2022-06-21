@@ -1,19 +1,21 @@
 ---
 title: TransitionShredPattern
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/transitionshredpattern/
 ---
 
-# TransitionShredPattern class
+## TransitionShredPattern class
 
  Specifies a geometric shape that tiles together to fill a larger area.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Rectangle | Small rectangles |
-| Strip | Vertical strips |
+| Name | Value | Description |
+| --- | --- | --- |
+| Rectangle | 1 | Small rectangles |
+| Strip | 0 | Vertical strips |
 

@@ -1,29 +1,31 @@
 ---
 title: ColorSchemeIndex
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/colorschemeindex/
 ---
 
-# ColorSchemeIndex class
+## ColorSchemeIndex class
 
  Represents an index in a colorscheme.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Accent1 | Accent 1. |
-| Accent2 | Accent 2. |
-| Accent3 | Accent 3. |
-| Accent4 | Accent 4. |
-| Accent5 | Accent 5. |
-| Accent6 | Accent 6. |
-| Dark1 | Dark 1. |
-| Dark2 | Dark 2. |
-| FollowedHyperlink | Followed Hyperlink. |
-| Hyperlink | Hyperlink. |
-| Light1 | Light 1. |
-| Light2 | Light 2. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Accent1 | 4 | Accent 1. |
+| Accent2 | 5 | Accent 2. |
+| Accent3 | 6 | Accent 3. |
+| Accent4 | 7 | Accent 4. |
+| Accent5 | 8 | Accent 5. |
+| Accent6 | 9 | Accent 6. |
+| Dark1 | 0 | Dark 1. |
+| Dark2 | 2 | Dark 2. |
+| FollowedHyperlink | 11 | Followed Hyperlink. |
+| Hyperlink | 10 | Hyperlink. |
+| Light1 | 1 | Light 1. |
+| Light2 | 3 | Light 2. |
 

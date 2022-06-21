@@ -1,11 +1,13 @@
 ---
 title: removeSummaryZoomSection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/summaryzoomsectioncollection/removesummaryzoomsection/
 ---
 
-# removeSummaryZoomSection(com.aspose.slides.ISection) method
+## removeSummaryZoomSection(com.aspose.slides.ISection) method
 
  Remove Summary Zoom Section object from the collection.
  
@@ -24,10 +26,13 @@ The example demonstrates getting Summary Zoom Section element by index:
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | section | Section for which the Summary Zoom Section element is to be removed ISection. |
+
+
+---
 
 

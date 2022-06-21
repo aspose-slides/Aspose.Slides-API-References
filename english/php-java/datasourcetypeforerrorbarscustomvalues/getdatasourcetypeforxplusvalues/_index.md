@@ -1,11 +1,13 @@
 ---
 title: getDataSourceTypeForXPlusValues
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/datasourcetypeforerrorbarscustomvalues/getdatasourcetypeforxplusvalues/
 ---
 
-# getDataSourceTypeForXPlusValues() method
+## getDataSourceTypeForXPlusValues() method
 
  Specifies whether AsCell or AsLiteralString or AsLiteralDouble property 
  is actual in data points XPlus property object for error bars custom values. In other words it specifies 
@@ -13,7 +15,10 @@ url: /php-java/datasourcetypeforerrorbarscustomvalues/getdatasourcetypeforxplusv
  Read/write  DataSourceType.
  
 
-##  Returns
+### Returns
 DataSourceType
+
+
+---
 
 

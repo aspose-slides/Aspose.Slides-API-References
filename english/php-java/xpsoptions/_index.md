@@ -1,28 +1,30 @@
 ---
 title: XpsOptions
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/xpsoptions/
 ---
 
-# XpsOptions class
+## XpsOptions class
 
  Provides options that control how a presentation is saved in XPS format.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [XpsOptions](/slides/php-java/xpsoptions/xpsoptions/)() | Default constructor. |
+| [XpsOptions](xpsoptions)() | Default constructor. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDrawSlidesFrame](/slides/php-java/xpsoptions/getdrawslidesframe/)() | boolean | True to draw black frame around each slide. Read/write boolean. Default is false. |
-| [getSaveMetafilesAsPng](/slides/php-java/xpsoptions/getsavemetafilesaspng/)() | boolean | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
-| [getShowHiddenSlides](/slides/php-java/xpsoptions/getshowhiddenslides/)() | boolean | Specifies whether the generated document should include hidden slides or not. Default is false. |
-| [setDrawSlidesFrame](/slides/php-java/xpsoptions/setdrawslidesframe/)(boolean) | void | True to draw black frame around each slide. Read/write boolean. Default is false. |
-| [setSaveMetafilesAsPng](/slides/php-java/xpsoptions/setsavemetafilesaspng/)(boolean) | void | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
-| [setShowHiddenSlides](/slides/php-java/xpsoptions/setshowhiddenslides/)(boolean) | void | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| Name | Description |
+| --- | --- |
+| [getDrawSlidesFrame](getdrawslidesframe)() | True to draw black frame around each slide. Read/write boolean. Default is false. |
+| [getSaveMetafilesAsPng](getsavemetafilesaspng)() | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+| [getShowHiddenSlides](getshowhiddenslides)() | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| [setDrawSlidesFrame](setdrawslidesframe)(boolean) | True to draw black frame around each slide. Read/write boolean. Default is false. |
+| [setSaveMetafilesAsPng](setsavemetafilesaspng)(boolean) | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+| [setShowHiddenSlides](setshowhiddenslides)(boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |

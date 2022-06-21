@@ -1,11 +1,13 @@
 ---
 title: setColumnsAlignment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 250
 url: /php-java/mathmatrix/setcolumnsalignment/
 ---
 
-# setColumnsAlignment(int, long, int) method
+## setColumnsAlignment(int, long, int) method
 
  Set the horizontal alignment of the specified columns
  
@@ -16,12 +18,15 @@ Example:
   $matrix->setColumnAlignment(0, 3, MathHorizontalAlignment.Left);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | columnIndex | Zero-based index of the first column to set alignment |
 | columnsCount | The number of columns to specify the alignment |
 | val | New value of horizontal alignment of specified column |
+
+
+---
 
 

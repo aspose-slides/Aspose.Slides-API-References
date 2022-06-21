@@ -1,223 +1,261 @@
 ---
 title: addDataPointForBubbleSeries
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/chartdatapointcollection/adddatapointforbubbleseries/
 ---
 
-# addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
+## addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(double, com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
+---
+
+
+## addDataPointForBubbleSeries(double, com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(java.lang.String, com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
+---
+
+
+## addDataPointForBubbleSeries(java.lang.String, com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, double, com.aspose.slides.IChartDataCell) method
+---
+
+
+## addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, double, com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(double, double, com.aspose.slides.IChartDataCell) method
+---
+
+
+## addDataPointForBubbleSeries(double, double, com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(java.lang.String, double, com.aspose.slides.IChartDataCell) method
+---
+
+
+## addDataPointForBubbleSeries(java.lang.String, double, com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell, double) method
+---
+
+
+## addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell, double) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(double, com.aspose.slides.IChartDataCell, double) method
+---
+
+
+## addDataPointForBubbleSeries(double, com.aspose.slides.IChartDataCell, double) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(java.lang.String, com.aspose.slides.IChartDataCell, double) method
+---
+
+
+## addDataPointForBubbleSeries(java.lang.String, com.aspose.slides.IChartDataCell, double) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, double, double) method
+---
+
+
+## addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, double, double) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(double, double, double) method
+---
+
+
+## addDataPointForBubbleSeries(double, double, double) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
 
 
-# addDataPointForBubbleSeries(java.lang.String, double, double) method
+---
+
+
+## addDataPointForBubbleSeries(java.lang.String, double, double) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | xValue | Data point XValue |
 | yValue | Data point YValue |
 | bubbleSize | Data point BubbleSize |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
+
+
+---
 
 

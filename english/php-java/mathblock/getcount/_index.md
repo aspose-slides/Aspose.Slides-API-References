@@ -1,11 +1,13 @@
 ---
 title: getCount
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/mathblock/getcount/
 ---
 
-# getCount() method
+## getCount() method
 
  Gets the number of child math elements actually contained in the collection.
  Read-only  int.
@@ -17,7 +19,10 @@ Example:
   $count = $mathBlock->getCount();
 ```
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

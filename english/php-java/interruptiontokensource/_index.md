@@ -1,25 +1,27 @@
 ---
 title: InterruptionTokenSource
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/interruptiontokensource/
 ---
 
-# InterruptionTokenSource class
+## InterruptionTokenSource class
 
  Represents the source of  InterruptionToken.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [InterruptionTokenSource](/slides/php-java/interruptiontokensource/interruptiontokensource/)() | Creates a new InterruptionTokenSource. |
+| [InterruptionTokenSource](interruptiontokensource)() | Creates a new InterruptionTokenSource. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getToken](/slides/php-java/interruptiontokensource/gettoken/)() | InterruptionToken | Returns new token binded to this InterruptionTokenSource. |
-| [interrupt](/slides/php-java/interruptiontokensource/interrupt/)() | void | Initialize request for interruption. |
-| [isInterruptionRequested](/slides/php-java/interruptiontokensource/isinterruptionrequested/)() | boolean | Returns true if interruption requested, false otherwise. |
+| Name | Description |
+| --- | --- |
+| [getToken](gettoken)() | Returns new token binded to this InterruptionTokenSource. |
+| [interrupt](interrupt)() | Initialize request for interruption. |
+| [isInterruptionRequested](isinterruptionrequested)() | Returns true if interruption requested, false otherwise. |

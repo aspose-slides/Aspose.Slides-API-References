@@ -1,17 +1,22 @@
 ---
 title: setKeepTextFlat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 240
 url: /php-java/textframeformat/setkeeptextflat/
 ---
 
-# setKeepTextFlat(boolean) method
+## setKeepTextFlat(boolean) method
 
  Gets or sets keeping text flat even if a 3-D Rotation effect was applied.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

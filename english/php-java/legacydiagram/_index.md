@@ -1,18 +1,20 @@
 ---
 title: LegacyDiagram
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/legacydiagram/
 ---
 
-# LegacyDiagram class
+## LegacyDiagram class
 
  Represents a legacy diagram object.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [convertToGroupShape](/slides/php-java/legacydiagram/converttogroupshape/)() | IGroupShape | Converts legacy digram to editable group shape. Created GroupShape object adds to parent group shape at the same position. |
-| [convertToSmartArt](/slides/php-java/legacydiagram/converttosmartart/)() | ISmartArt | Converts legacy digram to editable SmartArt object. Created SmartArt object adds to parent group shape at the same position. |
+| Name | Description |
+| --- | --- |
+| [convertToGroupShape](converttogroupshape)() | Converts legacy digram to editable group shape. Created GroupShape object adds to parent group shape at the same position. |
+| [convertToSmartArt](converttosmartart)() | Converts legacy digram to editable SmartArt object. Created SmartArt object adds to parent group shape at the same position. |

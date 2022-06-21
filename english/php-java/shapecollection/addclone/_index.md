@@ -1,18 +1,20 @@
 ---
 title: addClone
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/shapecollection/addclone/
 ---
 
-# addClone(com.aspose.slides.IShape, float, float, float, float) method
+## addClone(com.aspose.slides.IShape, float, float, float, float) method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | sourceShape | Shape to clone. |
 | x | X coordinate of a new shape. |
@@ -20,41 +22,50 @@ url: /php-java/shapecollection/addclone/
 | width | Width of a new shape. |
 | height | Height of a new shape. |
 
-##  Returns
+### Returns
 New shape.
 
 
-# addClone(com.aspose.slides.IShape, float, float) method
+---
+
+
+## addClone(com.aspose.slides.IShape, float, float) method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | sourceShape | Shape to clone. |
 | x | X coordinate of a new shape. |
 | y | Y coordinate of a new shape. |
 
-##  Returns
+### Returns
 Shape
 
 
-# addClone(com.aspose.slides.IShape) method
+---
+
+
+## addClone(com.aspose.slides.IShape) method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | sourceShape | Shape to clone. |
 
-##  Returns
+### Returns
 Shape
+
+
+---
 
 

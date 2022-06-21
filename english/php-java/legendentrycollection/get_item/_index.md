@@ -1,11 +1,13 @@
 ---
 title: get_Item
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/legendentrycollection/get_item/
 ---
 
-# get_Item(int) method
+## get_Item(int) method
 
  Gets properties of the legend entry corresponding to Chart.ChartData.Series[0].DataPoints[index]
  in case of chart type from this list:
@@ -17,5 +19,8 @@ url: /php-java/legendentrycollection/get_item/
    ChartType.PieOfPie;
  or corresponding to Chart.ChartData.Series[index] for other chart types.
  
+
+
+---
 
 

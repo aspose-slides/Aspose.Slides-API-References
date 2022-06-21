@@ -1,19 +1,21 @@
 ---
 title: SmartArtShape
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/smartartshape/
 ---
 
-# SmartArtShape class
+## SmartArtShape class
 
  Represents SmartArt shape
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getShapeType](/slides/php-java/smartartshape/getshapetype/)() | int | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
-| [getTextFrame](/slides/php-java/smartartshape/gettextframe/)() | ITextFrame | Returns text of the SmartArt shape. Read-only ITextFrame. |
-| [setShapeType](/slides/php-java/smartartshape/setshapetype/)(int) | void | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
+| Name | Description |
+| --- | --- |
+| [getShapeType](getshapetype)() | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
+| [getTextFrame](gettextframe)() | Returns text of the SmartArt shape. Read-only ITextFrame. |
+| [setShapeType](setshapetype)(int) | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |

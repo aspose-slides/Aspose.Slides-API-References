@@ -1,11 +1,13 @@
 ---
 title: MathLimit
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathlimit/
 ---
 
-# MathLimit class
+## MathLimit class
 
  Specifies the Limit object, consisting of text on the baseline and reduced-size text immediately above or below it.
  
@@ -17,17 +19,17 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathLimit](/slides/php-java/mathlimit/mathlimit/)(IMathElement, IMathElement, boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](/slides/php-java/mathlimit/mathlimit/)(IMathElement, IMathElement) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit](mathlimit)(IMathElement, IMathElement, boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit](mathlimit)(IMathElement, IMathElement) | Initializes a new instance of the MathLimit class with lower limit |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getBase](/slides/php-java/mathlimit/getbase/)() | IMathElement | Base argument |
-| [getChildren](/slides/php-java/mathlimit/getchildren/)() | IMathElement | Get children elements |
-| [getLimit](/slides/php-java/mathlimit/getlimit/)() | IMathElement | Limit argument |
-| [getUpperLimit](/slides/php-java/mathlimit/getupperlimit/)() | boolean | Specifies upper or lower limit |
-| [setUpperLimit](/slides/php-java/mathlimit/setupperlimit/)(boolean) | void | Specifies upper or lower limit |
+| Name | Description |
+| --- | --- |
+| [getBase](getbase)() | Base argument |
+| [getChildren](getchildren)() | Get children elements |
+| [getLimit](getlimit)() | Limit argument |
+| [getUpperLimit](getupperlimit)() | Specifies upper or lower limit |
+| [setUpperLimit](setupperlimit)(boolean) | Specifies upper or lower limit |

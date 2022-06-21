@@ -1,11 +1,13 @@
 ---
 title: ChartThemeManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/chartthememanager/
 ---
 
-# ChartThemeManager class
+## ChartThemeManager class
 
  Provides access to chart theme overriden.
  

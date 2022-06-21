@@ -1,20 +1,22 @@
 ---
 title: MathLimitLocations
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathlimitlocations/
 ---
 
-# MathLimitLocations class
+## MathLimitLocations class
 
  Location of limits (subscript/superscript) in n-ary operators.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| NotDefined | Not defined |
-| SubscriptSuperscript | Limits draw as subscript and superscript |
-| UnderOver | Limits draw at top and bottom of the operator symbol |
+| Name | Value | Description |
+| --- | --- | --- |
+| NotDefined | 0 | Not defined |
+| SubscriptSuperscript | 2 | Limits draw as subscript and superscript |
+| UnderOver | 1 | Limits draw at top and bottom of the operator symbol |
 

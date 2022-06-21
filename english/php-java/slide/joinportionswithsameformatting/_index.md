@@ -1,13 +1,18 @@
 ---
 title: joinPortionsWithSameFormatting
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 190
 url: /php-java/slide/joinportionswithsameformatting/
 ---
 
-# joinPortionsWithSameFormatting() method
+## joinPortionsWithSameFormatting() method
 
  Joins runs with same formatting in all paragraphs in all acceptable shapes.
  
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: setBy
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/rotationeffect/setby/
 ---
 
-# setBy(float) method
+## setBy(float) method
 
  Describes the relative offset value for the animation.
  Read/write  float.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

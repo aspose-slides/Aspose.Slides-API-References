@@ -1,11 +1,13 @@
 ---
 title: getDrawSlidesFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/pdfoptions/getdrawslidesframe/
 ---
 
-# getDrawSlidesFrame() method
+## getDrawSlidesFrame() method
 
   True to draw black frame around each slide.
   Read/write  boolean.
@@ -13,7 +15,10 @@ url: /php-java/pdfoptions/getdrawslidesframe/
  Default is false.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

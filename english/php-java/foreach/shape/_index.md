@@ -1,11 +1,13 @@
 ---
 title: shape
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/foreach/shape/
 ---
 
-# shape(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachShapeCallback) method
+## shape(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachShapeCallback) method
 
  Iterate each  Shape in the  Presentation.
  
@@ -15,18 +17,21 @@ url: /php-java/foreach/shape/
   $pres = new Presentation("pres.pptx");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | Presentation to iterate layout shapes |
 | forEachShape | Callback that will be invoked for each shape Shapes will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
-##  Returns
+### Returns
 Presentation
 
 
-# shape(com.aspose.slides.BaseSlide, com.aspose.slides.ForEach.ForEachShapeCallback) method
+---
+
+
+## shape(com.aspose.slides.BaseSlide, com.aspose.slides.ForEach.ForEachShapeCallback) method
 
  Iterate each  Shape in the  BaseSlide.
  
@@ -36,14 +41,17 @@ Presentation
   $pres = new Presentation("pres.pptx");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | baseSlide | Slide to iterate layout shapes |
 | forEachShape | Callback that will be invoked for each shape BaseSlide is the base type for #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
-##  Returns
+### Returns
 BaseSlide
+
+
+---
 
 

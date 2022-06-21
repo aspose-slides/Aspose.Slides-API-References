@@ -1,11 +1,13 @@
 ---
 title: getLastSavedTime
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 280
 url: /php-java/documentproperties/getlastsavedtime/
 ---
 
-# getLastSavedTime() method
+## getLastSavedTime() method
 
  Returns the date when a presentation was modified last time.
  Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). 
@@ -13,7 +15,10 @@ url: /php-java/documentproperties/getlastsavedtime/
  Please see the example in  IPresentationInfo#updateDocumentProperties(IDocumentProperties) method summary.
  
 
-##  Returns
+### Returns
 IPresentationInfo#updateDocumentProperties(IDocumentProperties)
+
+
+---
 
 

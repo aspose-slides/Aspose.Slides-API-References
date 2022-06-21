@@ -1,11 +1,13 @@
 ---
 title: getTextFrameForOverriding
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/charttitle/gettextframeforoverriding/
 ---
 
-# getTextFrameForOverriding() method
+## getTextFrameForOverriding() method
 
  Can contain a rich formatted text. If this property is not null then this 
  formatted text value overrides auto-generated text.
@@ -15,7 +17,10 @@ url: /php-java/charttitle/gettextframeforoverriding/
  Read-only  ITextFrame.
  
 
-##  Returns
+### Returns
 ITextFrame
+
+
+---
 
 

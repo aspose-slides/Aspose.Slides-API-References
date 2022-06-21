@@ -1,11 +1,13 @@
 ---
 title: addDataPointForMapSeries
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 240
 url: /php-java/chartdatapointcollection/adddatapointformapseries/
 ---
 
-# addDataPointForMapSeries(com.aspose.slides.IChartDataCell) method
+## addDataPointForMapSeries(com.aspose.slides.IChartDataCell) method
 
   Creates the new data point and adds it to the end of collection.
   Applicable for series which chart type is Map.
@@ -28,13 +30,16 @@ url: /php-java/chartdatapointcollection/adddatapointformapseries/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | value | Data point ColorValue |
 
-##  Returns
+### Returns
 New data point.
+
+
+---
 
 

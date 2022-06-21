@@ -1,11 +1,13 @@
 ---
 title: getDataSourceTypeForYMinusValues
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/datasourcetypeforerrorbarscustomvalues/getdatasourcetypeforyminusvalues/
 ---
 
-# getDataSourceTypeForYMinusValues() method
+## getDataSourceTypeForYMinusValues() method
 
  Specifies whether AsCell or AsLiteralString or AsLiteralDouble property 
  is actual in data points YMinus property object for error bars custom values. In other words it specifies 
@@ -13,7 +15,10 @@ url: /php-java/datasourcetypeforerrorbarscustomvalues/getdatasourcetypeforyminus
  Read/write  DataSourceType.
  
 
-##  Returns
+### Returns
 DataSourceType
+
+
+---
 
 

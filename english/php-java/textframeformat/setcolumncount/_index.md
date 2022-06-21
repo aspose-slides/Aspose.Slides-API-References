@@ -1,11 +1,13 @@
 ---
 title: setColumnCount
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 220
 url: /php-java/textframeformat/setcolumncount/
 ---
 
-# setColumnCount(int) method
+## setColumnCount(int) method
 
  Returns or sets number of columns in the text area.
  This value must be a positive number. Otherwise, the value will be set to zero. 
@@ -13,7 +15,10 @@ url: /php-java/textframeformat/setcolumncount/
  Read/write  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

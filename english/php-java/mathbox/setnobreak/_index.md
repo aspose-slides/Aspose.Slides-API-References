@@ -1,11 +1,13 @@
 ---
 title: setNoBreak
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 130
 url: /php-java/mathbox/setnobreak/
 ---
 
-# setNoBreak(boolean) method
+## setNoBreak(boolean) method
 
  No break
  This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box.
@@ -19,5 +21,8 @@ Example:
   $box = new MathBox(new MathematicalText("*****"));
   $box->setNoBreak(false);
 ```
+
+
+---
 
 

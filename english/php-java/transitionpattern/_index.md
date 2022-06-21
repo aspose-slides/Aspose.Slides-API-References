@@ -1,19 +1,21 @@
 ---
 title: TransitionPattern
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/transitionpattern/
 ---
 
-# TransitionPattern class
+## TransitionPattern class
 
  Specifies a geometric pattern that tiles together to fill a larger area.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Diamond | Diamond tile pattern |
-| Hexagon | Hexagon tile pattern |
+| Name | Value | Description |
+| --- | --- | --- |
+| Diamond | 0 | Diamond tile pattern |
+| Hexagon | 1 | Hexagon tile pattern |
 

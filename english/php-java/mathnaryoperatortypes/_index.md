@@ -1,11 +1,13 @@
 ---
 title: MathNaryOperatorTypes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathnaryoperatortypes/
 ---
 
-# MathNaryOperatorTypes class
+## MathNaryOperatorTypes class
 
  Nary operator IMathNaryOperator types (excluding integrals)
  For integrals  MathIntegralTypes
@@ -13,13 +15,13 @@ url: /php-java/mathnaryoperatortypes/
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| CoProduct | Coproduct: '?' |
-| Intersection | Intersection: '?' |
-| LogicalAnd | Logical And: '?' |
-| LogicalOr | Logical Or: '?' |
-| Product | Product: '?' |
-| Summation | Summation: '?' |
-| Union | Union: '?' |
+| Name | Value | Description |
+| --- | --- | --- |
+| CoProduct | 2 | Coproduct: '?' |
+| Intersection | 3 | Intersection: '?' |
+| LogicalAnd | 5 | Logical And: '?' |
+| LogicalOr | 6 | Logical Or: '?' |
+| Product | 1 | Product: '?' |
+| Summation | 0 | Summation: '?' |
+| Union | 4 | Union: '?' |
 

@@ -1,11 +1,13 @@
 ---
 title: FillOverlay
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/filloverlay/
 ---
 
-# FillOverlay class
+## FillOverlay class
 
  Represents a Fill Overlay effect. A fill overlay may be used to specify
  an additional fill for an object and blend the two fills together.
@@ -13,12 +15,12 @@ url: /php-java/filloverlay/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/filloverlay/equals/)(Object) | boolean | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
-| [getBlend](/slides/php-java/filloverlay/getblend/)() | int | FillBlendMode. Read/write FillBlendMode. |
-| [getEffective](/slides/php-java/filloverlay/geteffective/)() | IFillOverlayEffectiveData | Gets effective Fill Overlay effect data with the inheritance applied. |
-| [getFillFormat](/slides/php-java/filloverlay/getfillformat/)() | IFillFormat | Fill format. Read-only IFillFormat. |
-| [getVersion](/slides/php-java/filloverlay/getversion/)() | long |  |
-| [hashCode](/slides/php-java/filloverlay/hashcode/)() | int | Serves as a hash function for a particular type. |
-| [setBlend](/slides/php-java/filloverlay/setblend/)(int) | void | FillBlendMode. Read/write FillBlendMode. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
+| [getBlend](getblend)() | FillBlendMode. Read/write FillBlendMode. |
+| [getEffective](geteffective)() | Gets effective Fill Overlay effect data with the inheritance applied. |
+| [getFillFormat](getfillformat)() | Fill format. Read-only IFillFormat. |
+| [getVersion](getversion)() |  |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| [setBlend](setblend)(int) | FillBlendMode. Read/write FillBlendMode. |

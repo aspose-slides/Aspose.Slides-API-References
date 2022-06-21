@@ -1,20 +1,22 @@
 ---
 title: ResourceLoadingAction
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/resourceloadingaction/
 ---
 
-# ResourceLoadingAction class
+## ResourceLoadingAction class
 
  Specifies the mode of external resource loading.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Default | Aspose.Slides will load external resource as usual. |
-| Skip | Aspose.Slides will skip loading of external resource. Only link without data will be stored for an image. |
-| UserProvided | Aspose.Slides will use byte array provided by user in IResourceLoadingArgs#setData(byte[]) as image data. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Default | 0 | Aspose.Slides will load external resource as usual. |
+| Skip | 1 | Aspose.Slides will skip loading of external resource. Only link without data will be stored for an image. |
+| UserProvided | 2 | Aspose.Slides will use byte array provided by user in IResourceLoadingArgs#setData(byte[]) as image data. |
 

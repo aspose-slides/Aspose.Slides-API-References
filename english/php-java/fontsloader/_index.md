@@ -1,11 +1,13 @@
 ---
 title: FontsLoader
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/fontsloader/
 ---
 
-# FontsLoader class
+## FontsLoader class
 
  Class for loading custom fonts defined by user.
  Should be used before creating any presentation objects.
@@ -13,9 +15,9 @@ url: /php-java/fontsloader/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [clearCache](/slides/php-java/fontsloader/clearcache/)() | void | Releases all custom fonts defined by user This method needs to clear cache with custom fonts defined by user. |
-| [getFontFolders](/slides/php-java/fontsloader/getfontfolders/)() | String | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
-| [loadExternalFont](/slides/php-java/fontsloader/loadexternalfont/)(byte[]) | void | Adds font from the binary data |
-| [loadExternalFonts](/slides/php-java/fontsloader/loadexternalfonts/)(java.lang.String[]) | void | Adds additional folders to seek fonts. |
+| Name | Description |
+| --- | --- |
+| [clearCache](clearcache)() | Releases all custom fonts defined by user This method needs to clear cache with custom fonts defined by user. |
+| [getFontFolders](getfontfolders)() | Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders |
+| [loadExternalFont](loadexternalfont)(byte[]) | Adds font from the binary data |
+| [loadExternalFonts](loadexternalfonts)(java.lang.String[]) | Adds additional folders to seek fonts. |

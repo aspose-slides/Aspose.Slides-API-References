@@ -1,26 +1,28 @@
 ---
 title: CellInvalidFormulaException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/cellinvalidformulaexception/
 ---
 
-# CellInvalidFormulaException class
+## CellInvalidFormulaException class
 
  The exception that is thrown when a calculated formula is not correct or was not parsed. 
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [CellInvalidFormulaException](/slides/php-java/cellinvalidformulaexception/cellinvalidformulaexception/)() | Initializes a new instance of the CellInvalidFormulaException class. |
-| [CellInvalidFormulaException](/slides/php-java/cellinvalidformulaexception/cellinvalidformulaexception/)(String) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message. |
-| [CellInvalidFormulaException](/slides/php-java/cellinvalidformulaexception/cellinvalidformulaexception/)(String, RuntimeException) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [CellInvalidFormulaException](/slides/php-java/cellinvalidformulaexception/cellinvalidformulaexception/)(String, String) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a cell reference that contains the invalid formula. |
+| [CellInvalidFormulaException](cellinvalidformulaexception)() | Initializes a new instance of the CellInvalidFormulaException class. |
+| [CellInvalidFormulaException](cellinvalidformulaexception)(String) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message. |
+| [CellInvalidFormulaException](cellinvalidformulaexception)(String, RuntimeException) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellInvalidFormulaException](cellinvalidformulaexception)(String, String) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a cell reference that contains the invalid formula. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getReference](/slides/php-java/cellinvalidformulaexception/getreference/)() | String | Gets a cell reference that contains the invalid formula. |
+| Name | Description |
+| --- | --- |
+| [getReference](getreference)() | Gets a cell reference that contains the invalid formula. |

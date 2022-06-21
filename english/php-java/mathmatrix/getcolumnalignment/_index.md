@@ -1,11 +1,13 @@
 ---
 title: getColumnAlignment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/mathmatrix/getcolumnalignment/
 ---
 
-# getColumnAlignment(int) method
+## getColumnAlignment(int) method
 
  Get the horizontal alignment of the specified column
  
@@ -16,13 +18,16 @@ Example:
   $alignment = $matrix->getColumnAlignment(0);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | columnIndex | Zero-based column index |
 
-##  Returns
+### Returns
 Horizontal Alignment of specified column
+
+
+---
 
 

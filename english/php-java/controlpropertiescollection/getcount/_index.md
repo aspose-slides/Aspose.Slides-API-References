@@ -1,17 +1,22 @@
 ---
 title: getCount
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/controlpropertiescollection/getcount/
 ---
 
-# getCount() method
+## getCount() method
 
  Returns a number of properties in the collection.
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

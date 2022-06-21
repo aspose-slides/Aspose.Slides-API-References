@@ -1,19 +1,21 @@
 ---
 title: TransitionInOutDirectionType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/transitioninoutdirectiontype/
 ---
 
-# TransitionInOutDirectionType class
+## TransitionInOutDirectionType class
 
  Represent in or out direction transition types.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| In |  |
-| Out |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| In | 0 |  |
+| Out | 1 |  |
 

@@ -1,11 +1,13 @@
 ---
 title: MotionOriginType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/motionorigintype/
 ---
 
-# MotionOriginType class
+## MotionOriginType class
 
  Specifies what the origin of the motion path is relative to.
  Such as the layout of the slide, or the parent.
@@ -13,9 +15,9 @@ url: /php-java/motionorigintype/
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Layout |  |
-| NotDefined |  |
-| Parent |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Layout | 1 |  |
+| NotDefined | -1 |  |
+| Parent | 0 |  |
 

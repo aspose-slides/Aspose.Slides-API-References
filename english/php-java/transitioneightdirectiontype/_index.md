@@ -1,25 +1,27 @@
 ---
 title: TransitionEightDirectionType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/transitioneightdirectiontype/
 ---
 
-# TransitionEightDirectionType class
+## TransitionEightDirectionType class
 
  Represent eight direction transition types.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Down |  |
-| Left |  |
-| LeftDown |  |
-| LeftUp |  |
-| Right |  |
-| RightDown |  |
-| RightUp |  |
-| Up |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Down | 6 |  |
+| Left | 4 |  |
+| LeftDown | 0 |  |
+| LeftUp | 1 |  |
+| Right | 7 |  |
+| RightDown | 2 |  |
+| RightUp | 3 |  |
+| Up | 5 |  |
 

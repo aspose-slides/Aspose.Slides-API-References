@@ -1,11 +1,13 @@
 ---
 title: MathSubscriptElement
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathsubscriptelement/
 ---
 
-# MathSubscriptElement class
+## MathSubscriptElement class
 
  Specifies the subscript object, which consists of a base 
  and a reduced-size subscript placed below and to the right.
@@ -18,13 +20,13 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathSubscriptElement](/slides/php-java/mathsubscriptelement/mathsubscriptelement/)(IMathElement, IMathElement) | Initializes a new instance of the MathSubscriptElement class. |
+| [MathSubscriptElement](mathsubscriptelement)(IMathElement, IMathElement) | Initializes a new instance of the MathSubscriptElement class. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getChildren](/slides/php-java/mathsubscriptelement/getchildren/)() | IMathElement | Get children elements |
-| [getSubscript](/slides/php-java/mathsubscriptelement/getsubscript/)() | IMathElement | Subscript |
+| Name | Description |
+| --- | --- |
+| [getChildren](getchildren)() | Get children elements |
+| [getSubscript](getsubscript)() | Subscript |

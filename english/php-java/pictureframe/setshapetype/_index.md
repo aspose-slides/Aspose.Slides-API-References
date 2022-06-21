@@ -1,11 +1,13 @@
 ---
 title: setShapeType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/pictureframe/setshapetype/
 ---
 
-# setShapeType(int) method
+## setShapeType(int) method
 
  Returns or sets the AutoShape type for a PictureFrame.
  There are allowable all items of the set  ShapeType, 
@@ -23,7 +25,10 @@ url: /php-java/pictureframe/setshapetype/
  Read/write  ShapeType.
  
 
-##  Returns
+### Returns
 ShapeType
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getFirstSliceAngle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/chartseries/getfirstsliceangle/
 ---
 
-# getFirstSliceAngle() method
+## getFirstSliceAngle() method
 
  Specifies the angle of the first pie or doughnut chart slice, 
  in degrees (clockwise from up, from 0 to 360 degrees).
@@ -19,7 +21,10 @@ url: /php-java/chartseries/getfirstsliceangle/
  This is the projection of the property ParentSeriesGroup.FirstSliceAngle.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

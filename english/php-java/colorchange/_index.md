@@ -1,11 +1,13 @@
 ---
 title: ColorChange
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/colorchange/
 ---
 
-# ColorChange class
+## ColorChange class
 
  Represents a Color Change effect.
  Instances of FromColor are replaced with instances of ToColor.
@@ -13,11 +15,11 @@ url: /php-java/colorchange/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/colorchange/equals/)(Object) | boolean | Determines whether the specified ColorChange is equal to the current ColorChange. |
-| [getEffective](/slides/php-java/colorchange/geteffective/)() | IColorChangeEffectiveData | Gets effective Color Change effect data with the inheritance applied. |
-| [getFromColor](/slides/php-java/colorchange/getfromcolor/)() | IColorFormat | Color which will be replaced. Read-only IColorFormat. |
-| [getToColor](/slides/php-java/colorchange/gettocolor/)() | IColorFormat | Color which will replace. Read-only IColorFormat. |
-| [getVersion](/slides/php-java/colorchange/getversion/)() | long |  |
-| [hashCode](/slides/php-java/colorchange/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified ColorChange is equal to the current ColorChange. |
+| [getEffective](geteffective)() | Gets effective Color Change effect data with the inheritance applied. |
+| [getFromColor](getfromcolor)() | Color which will be replaced. Read-only IColorFormat. |
+| [getToColor](gettocolor)() | Color which will replace. Read-only IColorFormat. |
+| [getVersion](getversion)() |  |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

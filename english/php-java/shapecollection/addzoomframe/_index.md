@@ -1,11 +1,13 @@
 ---
 title: addZoomFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 270
 url: /php-java/shapecollection/addzoomframe/
 ---
 
-# addZoomFrame(float, float, float, float, com.aspose.slides.ISlide) method
+## addZoomFrame(float, float, float, float, com.aspose.slides.ISlide) method
 
  Adds a new Zoom object to the end of a collection.
  
@@ -24,9 +26,9 @@ url: /php-java/shapecollection/addzoomframe/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new Zoom frame float. |
 | y | Y coordinate of a new Zoom frame float. |
@@ -34,14 +36,20 @@ url: /php-java/shapecollection/addzoomframe/
 | height | Height of a new Zoom frame float. |
 | slide | The slide object referenced by the Zoom frame ISlide. |
 
-##  Returns
+### Returns
 Created Zoom object IZoomFrame.
 
-##  Exception
-ArgumentException Referenced slide does not belong to the current presentation.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Referenced slide does not belong to the current presentation. |
 
 
-# addZoomFrame(float, float, float, float, com.aspose.slides.ISlide, com.aspose.slides.IPPImage) method
+---
+
+
+## addZoomFrame(float, float, float, float, com.aspose.slides.ISlide, com.aspose.slides.IPPImage) method
 
  Adds a new Zoom object to the end of a collection.
  
@@ -61,9 +69,9 @@ ArgumentException Referenced slide does not belong to the current presentation.
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new Zoom frame float. |
 | y | Y coordinate of a new Zoom frame float. |
@@ -72,10 +80,16 @@ ArgumentException Referenced slide does not belong to the current presentation.
 | slide | The slide object referenced by the Zoom frame ISlide. |
 | image | The image for the referenced slide IPPImage |
 
-##  Returns
+### Returns
 Created Zoom object IZoomFrame.
 
-##  Exception
-ArgumentException Referenced slide does not belong to the current presentation.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Referenced slide does not belong to the current presentation. |
+
+
+---
 
 

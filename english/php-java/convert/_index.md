@@ -1,11 +1,13 @@
 ---
 title: Convert
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/convert/
 ---
 
-# Convert class
+## Convert class
 
  Represents a group of methods intended to convert  Presentation.
  
@@ -17,21 +19,21 @@ url: /php-java/convert/
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [Convert](/slides/php-java/convert/convert/)() |  |
+| [Convert](convert)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [autoByExtension](/slides/php-java/convert/autobyextension/)(String, String) | void | Converts Presentation using the passed output path extension to determine the required export format. |
-| [toPdf](/slides/php-java/convert/topdf/)(String, String) | void | Converts Presentation to PDF. |
-| [toPdf](/slides/php-java/convert/topdf/)(String, String, IPdfOptions) | void | Converts Presentation to PDF. |
-| [toPdf](/slides/php-java/convert/topdf/)(Presentation, String) | void | Converts Presentation to PDF. |
-| [toPdf](/slides/php-java/convert/topdf/)(Presentation, String, IPdfOptions) | void | Converts Presentation to PDF. |
-| [toSvg](/slides/php-java/convert/tosvg/)(String) | void | Converts Presentation to SVG. |
-| [toSvg](/slides/php-java/convert/tosvg/)(String, Convert.GetOutPathCallback) | void | Converts Presentation to SVG. |
-| [toSvg](/slides/php-java/convert/tosvg/)(Presentation, Convert.GetOutPathCallback) | void | Converts Presentation to SVG. |
-| [toSvg](/slides/php-java/convert/tosvg/)(Presentation, ISVGOptions) | void | Converts Presentation to SVG. |
-| [toSvg](/slides/php-java/convert/tosvg/)(Presentation, Convert.GetOutPathCallback, ISVGOptions) | void | Converts Presentation to SVG. |
+| Name | Description |
+| --- | --- |
+| [autoByExtension](autobyextension)(String, String) | Converts Presentation using the passed output path extension to determine the required export format. |
+| [toPdf](topdf)(String, String) | Converts Presentation to PDF. |
+| [toPdf](topdf)(String, String, IPdfOptions) | Converts Presentation to PDF. |
+| [toPdf](topdf)(Presentation, String) | Converts Presentation to PDF. |
+| [toPdf](topdf)(Presentation, String, IPdfOptions) | Converts Presentation to PDF. |
+| [toSvg](tosvg)(String) | Converts Presentation to SVG. |
+| [toSvg](tosvg)(String, Convert.GetOutPathCallback) | Converts Presentation to SVG. |
+| [toSvg](tosvg)(Presentation, Convert.GetOutPathCallback) | Converts Presentation to SVG. |
+| [toSvg](tosvg)(Presentation, ISVGOptions) | Converts Presentation to SVG. |
+| [toSvg](tosvg)(Presentation, Convert.GetOutPathCallback, ISVGOptions) | Converts Presentation to SVG. |

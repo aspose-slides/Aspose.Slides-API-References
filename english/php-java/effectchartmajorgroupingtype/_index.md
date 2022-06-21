@@ -1,19 +1,21 @@
 ---
 title: EffectChartMajorGroupingType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/effectchartmajorgroupingtype/
 ---
 
-# EffectChartMajorGroupingType class
+## EffectChartMajorGroupingType class
 
  Represents the type of an animation effect for chart's element.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| ByCategory | Animate chart by category |
-| BySeries | Animate chart by series |
+| Name | Value | Description |
+| --- | --- | --- |
+| ByCategory | 1 | Animate chart by category |
+| BySeries | 0 | Animate chart by series |
 

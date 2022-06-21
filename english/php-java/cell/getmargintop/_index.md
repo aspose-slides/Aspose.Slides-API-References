@@ -1,17 +1,22 @@
 ---
 title: getMarginTop
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/cell/getmargintop/
 ---
 
-# getMarginTop() method
+## getMarginTop() method
 
  Returns or sets the top margin in a TextFrame.
  Read/write  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

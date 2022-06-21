@@ -1,11 +1,13 @@
 ---
 title: setPosition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 190
 url: /php-java/datalabelformat/setposition/
 ---
 
-# setPosition(int) method
+## setPosition(int) method
 
  Represents the position of the data label.
  Read/write  LegendDataLabelPosition.
@@ -20,7 +22,10 @@ url: /php-java/datalabelformat/setposition/
  all DataLabels.get_Item(i).getPosition() is equal to val).
  
 
-##  Returns
+### Returns
 LegendDataLabelPosition
+
+
+---
 
 

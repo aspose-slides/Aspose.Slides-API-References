@@ -1,11 +1,13 @@
 ---
 title: getArguments
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/mathdelimiter/getarguments/
 ---
 
-# getArguments() method
+## getArguments() method
 
  One or more mathematical elements separated by delimiter characters
  
@@ -15,5 +17,8 @@ Example:
   $delimiter = new MathematicalText("x")->join("y")->enclose();
   $arguments = $delimiter->getArguments();
 ```
+
+
+---
 
 

@@ -1,19 +1,21 @@
 ---
 title: EffectChartMinorGroupingType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/effectchartminorgroupingtype/
 ---
 
-# EffectChartMinorGroupingType class
+## EffectChartMinorGroupingType class
 
  Represents the type of an animation effect for chart's element in series or category.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| ByElementInCategory | Animate chart by element in category |
-| ByElementInSeries | Animate chart by element in series |
+| Name | Value | Description |
+| --- | --- | --- |
+| ByElementInCategory | 1 | Animate chart by element in category |
+| ByElementInSeries | 0 | Animate chart by element in series |
 

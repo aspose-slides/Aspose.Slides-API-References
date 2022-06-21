@@ -1,11 +1,13 @@
 ---
 title: getOperatorEmulator
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/mathbox/getoperatoremulator/
 ---
 
-# getOperatorEmulator() method
+## getOperatorEmulator() method
 
  Operator Emulator.
  When true, the box and its contents behave as a single operator and inherit the properties of an operator. 
@@ -19,5 +21,8 @@ Example:
   $box = new MathBox(new MathematicalText("=="));
   $box->setOperatorEmulator(true);
 ```
+
+
+---
 
 

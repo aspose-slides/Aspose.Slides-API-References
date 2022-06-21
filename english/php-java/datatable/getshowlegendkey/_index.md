@@ -1,17 +1,22 @@
 ---
 title: getShowLegendKey
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/datatable/getshowlegendkey/
 ---
 
-# getShowLegendKey() method
+## getShowLegendKey() method
 
  True if the data label legend key is visible.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

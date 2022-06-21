@@ -1,11 +1,13 @@
 ---
 title: getSeparator
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/datalabelformat/getseparator/
 ---
 
-# getSeparator() method
+## getSeparator() method
 
  Sets or returns a Variant representing the separator used for the data labels on a chart.
  Read/write  String.
@@ -19,7 +21,10 @@ url: /php-java/datalabelformat/getseparator/
  all DataLabels.get_Item(i).getSeparator() is equal to val).
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

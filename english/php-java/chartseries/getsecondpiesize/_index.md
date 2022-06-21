@@ -1,11 +1,13 @@
 ---
 title: getSecondPieSize
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 360
 url: /php-java/chartseries/getsecondpiesize/
 ---
 
-# getSecondPieSize() method
+## getSecondPieSize() method
 
  Specifies the size of the second pie or bar of a pie-of-pie chart or 
  a bar-of-pie chart, as a percentage of the size of the first pie (can 
@@ -20,7 +22,10 @@ url: /php-java/chartseries/getsecondpiesize/
  This is the projection of the property ParentSeriesGroup.SecondPieSize.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

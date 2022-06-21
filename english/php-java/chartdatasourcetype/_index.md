@@ -1,19 +1,21 @@
 ---
 title: ChartDataSourceType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/chartdatasourcetype/
 ---
 
-# ChartDataSourceType class
+## ChartDataSourceType class
 
  Represents a type of data source of the chart
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| ExternalWorkbook | External data source. |
-| InternalWorkbook | Internal data source. |
+| Name | Value | Description |
+| --- | --- | --- |
+| ExternalWorkbook | 1 | External data source. |
+| InternalWorkbook | 0 | Internal data source. |
 

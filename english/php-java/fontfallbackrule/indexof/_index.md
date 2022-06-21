@@ -1,11 +1,13 @@
 ---
 title: indexOf
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 100
 url: /php-java/fontfallbackrule/indexof/
 ---
 
-# indexOf(java.lang.String) method
+## indexOf(java.lang.String) method
 
  Returns an index of the specified rule in the collection.
  
@@ -18,13 +20,16 @@ url: /php-java/fontfallbackrule/indexof/
   $tahomaIndex = $newRule->indexOf("Tahoma");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | fontName | Font's name to find. |
 
-##  Returns
+### Returns
 Index of a font or -1 if font not found in list.
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getOutput
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/webdocument/getoutput/
 ---
 
-# getOutput() method
+## getOutput() method
 
   Returns collection of output elements of the document.
   Read-only  Output( #getOutput).
@@ -21,7 +23,10 @@ url: /php-java/webdocument/getoutput/
   $document->save();
 ```
 
-##  Returns
+### Returns
 #getOutput
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getName
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/vbaproject/getname/
 ---
 
-# getName() method
+## getName() method
 
  Returns the name of the VBA project.
  Read-only  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

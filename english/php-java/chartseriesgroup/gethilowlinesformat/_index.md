@@ -1,14 +1,19 @@
 ---
 title: getHiLowLinesFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/chartseriesgroup/gethilowlinesformat/
 ---
 
-# getHiLowLinesFormat() method
+## getHiLowLinesFormat() method
 
  Specifies HiLowLines format. 
  HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types.
  
+
+
+---
 
 

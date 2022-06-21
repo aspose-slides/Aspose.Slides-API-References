@@ -1,11 +1,13 @@
 ---
 title: shapes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/collect/shapes/
 ---
 
-# shapes(com.aspose.slides.Presentation) method
+## shapes(com.aspose.slides.Presentation) method
 
  Collects all instances of  Shape in the  Presentation. 
  
@@ -32,13 +34,16 @@ url: /php-java/collect/shapes/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | Presentation to collect shapes |
 
-##  Returns
+### Returns
 Presentation
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getCount
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/fontfallbackrule/getcount/
 ---
 
-# getCount() method
+## getCount() method
 
  Gets the number of fonts actually defined for range.
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

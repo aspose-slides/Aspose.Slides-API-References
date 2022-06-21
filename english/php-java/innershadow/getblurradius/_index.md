@@ -1,17 +1,22 @@
 ---
 title: getBlurRadius
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/innershadow/getblurradius/
 ---
 
-# getBlurRadius() method
+## getBlurRadius() method
 
  Blur radius.
  Read/write  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

@@ -1,23 +1,25 @@
 ---
 title: MathIntegralTypes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathintegraltypes/
 ---
 
-# MathIntegralTypes class
+## MathIntegralTypes class
 
  Mathematical integral types
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Contour | Contour Integral: '?' |
-| Double | Double Integral: '?' |
-| Simple | Integral: '?' |
-| Surface | Surface Integral: '?' |
-| Triple | Triple Integral: '?' |
-| Volume | VolumeIntegral: '?' |
+| Name | Value | Description |
+| --- | --- | --- |
+| Contour | 3 | Contour Integral: '?' |
+| Double | 1 | Double Integral: '?' |
+| Simple | 0 | Integral: '?' |
+| Surface | 4 | Surface Integral: '?' |
+| Triple | 2 | Triple Integral: '?' |
+| Volume | 5 | VolumeIntegral: '?' |
 

@@ -1,13 +1,18 @@
 ---
 title: getStrokeColor
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 900
 url: /php-java/behaviorproperty/getstrokecolor/
 ---
 
-# getStrokeColor() method
+## getStrokeColor() method
 
  Represents 'stroke.color' property
  
+
+
+---
 
 

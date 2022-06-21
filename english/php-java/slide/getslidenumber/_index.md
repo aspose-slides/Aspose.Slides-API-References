@@ -1,18 +1,23 @@
 ---
 title: getSlideNumber
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/slide/getslidenumber/
 ---
 
-# getSlideNumber() method
+## getSlideNumber() method
 
  Returns a number of slide.
  Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber.
  Read/write  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

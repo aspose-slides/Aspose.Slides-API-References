@@ -1,17 +1,22 @@
 ---
 title: getY
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/ppimage/gety/
 ---
 
-# getY() method
+## getY() method
 
  Returns a Y-offset of an image.
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

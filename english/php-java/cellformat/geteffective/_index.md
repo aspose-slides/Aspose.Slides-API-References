@@ -1,11 +1,13 @@
 ---
 title: getEffective
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/cellformat/geteffective/
 ---
 
-# getEffective() method
+## getEffective() method
 
  Gets effective table cell formatting properties with inheritance and table styles applied.
  
@@ -29,7 +31,10 @@ url: /php-java/cellformat/geteffective/
   }
 ```
 
-##  Returns
+### Returns
 A ICellFormatEffectiveData.
+
+
+---
 
 

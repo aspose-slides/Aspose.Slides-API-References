@@ -1,11 +1,13 @@
 ---
 title: MathParagraph
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathparagraph/
 ---
 
-# MathParagraph class
+## MathParagraph class
 
  Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
  
@@ -19,27 +21,27 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathParagraph](/slides/php-java/mathparagraph/mathparagraph/)() | Initializes a new instance of the MathParagraph class. |
-| [MathParagraph](/slides/php-java/mathparagraph/mathparagraph/)(IMathBlock) | Initializes a new instance of the MathParagraph class. |
+| [MathParagraph](mathparagraph)() | Initializes a new instance of the MathParagraph class. |
+| [MathParagraph](mathparagraph)(IMathBlock) | Initializes a new instance of the MathParagraph class. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [add](/slides/php-java/mathparagraph/add/)(IMathBlock) | void | Adds IMathBlock to the end of collection. |
-| [clear](/slides/php-java/mathparagraph/clear/)() | void | Removes all elements from the collection. |
-| [contains](/slides/php-java/mathparagraph/contains/)(IMathBlock) | boolean | Determines whether the collection contains a specific value. |
-| [getCount](/slides/php-java/mathparagraph/getcount/)() | int | Gets the number of elements actually contained in the collection. Read-only int. |
-| [getJustification](/slides/php-java/mathparagraph/getjustification/)() | int | Paragraph Justification Default value: CenteredAsGroup |
-| [get_Item](/slides/php-java/mathparagraph/get_item/)(int) | IMathBlock | Gets the item at the specified index. Read-only IMathBlock. |
-| [indexOf](/slides/php-java/mathparagraph/indexof/)(IMathBlock) | int | Determines the index of a specific IMathBlock in collection. |
-| [insert](/slides/php-java/mathparagraph/insert/)(int, IMathBlock) | void | Inserts IMathBlock into the collection at the specified index. |
-| [iterator](/slides/php-java/mathparagraph/iterator/)() | IGenericEnumerator |  |
-| [iteratorJava](/slides/php-java/mathparagraph/iteratorjava/)() | IEnumerator |  |
-| [remove](/slides/php-java/mathparagraph/remove/)(IMathBlock) | boolean | Removes the first occurrence of a specific object from the collection. |
-| [removeAt](/slides/php-java/mathparagraph/removeat/)(int) | void | Removes an item at the specified index of the collection. |
-| [setJustification](/slides/php-java/mathparagraph/setjustification/)(int) | void | Paragraph Justification Default value: CenteredAsGroup |
-| [set_Item](/slides/php-java/mathparagraph/set_item/)(int, IMathBlock) | void | Gets the item at the specified index. Read-only IMathBlock. |
-| [writeAsMathMl](/slides/php-java/mathparagraph/writeasmathml/)(OutputStream) | void | Saves content of this MathParagraph as MathML |
+| Name | Description |
+| --- | --- |
+| [add](add)(IMathBlock) | Adds IMathBlock to the end of collection. |
+| [clear](clear)() | Removes all elements from the collection. |
+| [contains](contains)(IMathBlock) | Determines whether the collection contains a specific value. |
+| [getCount](getcount)() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [getJustification](getjustification)() | Paragraph Justification Default value: CenteredAsGroup |
+| [get_Item](get_item)(int) | Gets the item at the specified index. Read-only IMathBlock. |
+| [indexOf](indexof)(IMathBlock) | Determines the index of a specific IMathBlock in collection. |
+| [insert](insert)(int, IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
+| [iterator](iterator)() |  |
+| [iteratorJava](iteratorjava)() |  |
+| [remove](remove)(IMathBlock) | Removes the first occurrence of a specific object from the collection. |
+| [removeAt](removeat)(int) | Removes an item at the specified index of the collection. |
+| [setJustification](setjustification)(int) | Paragraph Justification Default value: CenteredAsGroup |
+| [set_Item](set_item)(int, IMathBlock) | Gets the item at the specified index. Read-only IMathBlock. |
+| [writeAsMathMl](writeasmathml)(OutputStream) | Saves content of this MathParagraph as MathML |

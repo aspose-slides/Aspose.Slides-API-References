@@ -1,11 +1,13 @@
 ---
 title: AlphaFloor
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/alphafloor/
 ---
 
-# AlphaFloor class
+## AlphaFloor class
 
  Represents an Alpha Floor effect.
  Alpha (opacity) values less than 100% are changed to zero.
@@ -14,8 +16,8 @@ url: /php-java/alphafloor/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/alphafloor/equals/)(Object) | boolean | Determines whether the specified AlphaFloor is equal to the current AlphaFloor. |
-| [getEffective](/slides/php-java/alphafloor/geteffective/)() | IAlphaFloorEffectiveData | Gets effective Alpha Floor effect data with the inheritance applied. |
-| [hashCode](/slides/php-java/alphafloor/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified AlphaFloor is equal to the current AlphaFloor. |
+| [getEffective](geteffective)() | Gets effective Alpha Floor effect data with the inheritance applied. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

@@ -1,11 +1,13 @@
 ---
 title: getDoughnutHoleSize
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/chartseries/getdoughnutholesize/
 ---
 
-# getDoughnutHoleSize() method
+## getDoughnutHoleSize() method
 
  Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents 
  of the size of the plot area.).
@@ -19,7 +21,10 @@ url: /php-java/chartseries/getdoughnutholesize/
  This is the projection of the property ParentSeriesGroup.DoughnutHoleSize.
  
 
-##  Returns
+### Returns
 byte
+
+
+---
 
 

@@ -1,20 +1,22 @@
 ---
 title: SourceFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/sourceformat/
 ---
 
-# SourceFormat class
+## SourceFormat class
 
  Represents source file format.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Odp | Odp format. |
-| Ppt | PPT format. |
-| Pptx | Pptx format. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Odp | 2 | Odp format. |
+| Ppt | 0 | PPT format. |
+| Pptx | 1 | Pptx format. |
 

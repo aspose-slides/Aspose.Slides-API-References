@@ -1,22 +1,24 @@
 ---
 title: FillBlendMode
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/fillblendmode/
 ---
 
-# FillBlendMode class
+## FillBlendMode class
 
  Determines blend mode.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Darken | Darken blend mode. |
-| Lighten | Lighten blend mode. |
-| Multiply | Multiply blend mode. |
-| Overlay | Overlay blend mode. |
-| Screen | Screen blend mode. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Darken | 0 | Darken blend mode. |
+| Lighten | 1 | Lighten blend mode. |
+| Multiply | 2 | Multiply blend mode. |
+| Overlay | 3 | Overlay blend mode. |
+| Screen | 4 | Screen blend mode. |
 

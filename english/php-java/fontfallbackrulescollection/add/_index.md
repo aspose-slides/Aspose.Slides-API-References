@@ -1,11 +1,13 @@
 ---
 title: add
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/fontfallbackrulescollection/add/
 ---
 
-# add(com.aspose.slides.IFontFallBackRule) method
+## add(com.aspose.slides.IFontFallBackRule) method
 
  Add a specified FallBack rule to the end of the collection.
  
@@ -25,10 +27,13 @@ url: /php-java/fontfallbackrulescollection/add/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | sourceRule | Specified rule for adding |
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getReturnToParent
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/zoomobject/getreturntoparent/
 ---
 
-# getReturnToParent() method
+## getReturnToParent() method
 
  Gets or sets the navigation behavior in slideshow.
  Read/write  boolean.
@@ -27,7 +29,10 @@ Example:
   }
 ```
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getPieSplitBy
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 290
 url: /php-java/chartseries/getpiesplitby/
 ---
 
-# getPieSplitBy() method
+## getPieSplitBy() method
 
  Specifies how to determine which data points are in the second pie or bar 
  on a pie-of-pie or bar-of-pie chart.
@@ -21,7 +23,10 @@ url: /php-java/chartseries/getpiesplitby/
  information with ParentSeriesGroup.PieSplitCustomPoints property.
  
 
-##  Returns
+### Returns
 PieSplitType
+
+
+---
 
 

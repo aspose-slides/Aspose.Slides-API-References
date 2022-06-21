@@ -1,13 +1,18 @@
 ---
 title: removeEncryption
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/protectionmanager/removeencryption/
 ---
 
-# removeEncryption() method
+## removeEncryption() method
 
  Removes the encryption.
  
+
+
+---
 
 

@@ -1,25 +1,27 @@
 ---
 title: OleEmbeddedDataInfo
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/oleembeddeddatainfo/
 ---
 
-# OleEmbeddedDataInfo class
+## OleEmbeddedDataInfo class
 
  Represents embedded data info for OLE object.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [OleEmbeddedDataInfo](/slides/php-java/oleembeddeddatainfo/oleembeddeddatainfo/)() | Creates new embedded data info for OLE object. |
-| [OleEmbeddedDataInfo](/slides/php-java/oleembeddeddatainfo/oleembeddeddatainfo/)(byte[], String) | Creates a new instance of an embedded data info for OLE object. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo)() | Creates new embedded data info for OLE object. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo)(byte[], String) | Creates a new instance of an embedded data info for OLE object. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getEmbeddedFileData](/slides/php-java/oleembeddeddatainfo/getembeddedfiledata/)() | byte | Returns the file data of an embedded OLE object Read only byte[]. |
-| [getEmbeddedFileExtension](/slides/php-java/oleembeddeddatainfo/getembeddedfileextension/)() | String | Returns the file extension for the current embedded OLE object Read only String. |
+| Name | Description |
+| --- | --- |
+| [getEmbeddedFileData](getembeddedfiledata)() | Returns the file data of an embedded OLE object Read only byte[]. |
+| [getEmbeddedFileExtension](getembeddedfileextension)() | Returns the file extension for the current embedded OLE object Read only String. |

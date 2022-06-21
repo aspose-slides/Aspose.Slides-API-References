@@ -1,20 +1,22 @@
 ---
 title: insertAutoShape
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 390
 url: /php-java/shapecollection/insertautoshape/
 ---
 
-# insertAutoShape(int, int, float, float, float, float) method
+## insertAutoShape(int, int, float, float, float, float) method
 
  Creates a new AutoShape, tunes it from default template and inserts it to 
  the collection at the specified index.
  Note: the type of the shape will be determined by the shapeType parameter.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index at which value should be inserted. |
 | shapeType | An ShapeType of shape. |
@@ -23,19 +25,22 @@ url: /php-java/shapecollection/insertautoshape/
 | width | The width of shape's frame. |
 | height | The height of shape's frame. |
 
-##  Returns
+### Returns
 Created AutoShape object.
 
 
-# insertAutoShape(int, int, float, float, float, float, boolean) method
+---
+
+
+## insertAutoShape(int, int, float, float, float, float, boolean) method
 
  Creates a new AutoShape and inserts it to the collection at the specified index.
  Note: the type of the shape will be determined by the shapeType parameter.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index at which value should be inserted. |
 | shapeType | An ShapeType of shape. |
@@ -45,7 +50,10 @@ Created AutoShape object.
 | height | The height of shape's frame. |
 | createFromTemplate | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
 
-##  Returns
+### Returns
 Created AutoShape object.
+
+
+---
 
 

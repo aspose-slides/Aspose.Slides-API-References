@@ -1,17 +1,22 @@
 ---
 title: getColorType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/colorformat/getcolortype/
 ---
 
-# getColorType() method
+## getColorType() method
 
  Returns or sets the color definition method.
  Read/write  ColorType.
  
 
-##  Returns
+### Returns
 ColorType
+
+
+---
 
 

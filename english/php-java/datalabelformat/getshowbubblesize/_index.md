@@ -1,11 +1,13 @@
 ---
 title: getShowBubbleSize
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/datalabelformat/getshowbubblesize/
 ---
 
-# getShowBubbleSize() method
+## getShowBubbleSize() method
 
  Represents a specified chart's data label bubble size value display behavior. 
  True displays the bubble size value. False to hide.
@@ -20,7 +22,10 @@ url: /php-java/datalabelformat/getshowbubblesize/
  all DataLabels.get_Item(i).getShowBubbleSize() is equal to val).
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: set_Item
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 170
 url: /php-java/mathparagraph/set_item/
 ---
 
-# set_Item(int, com.aspose.slides.IMathBlock) method
+## set_Item(int, com.aspose.slides.IMathBlock) method
 
  Gets the item at the specified index.
  Read-only  IMathBlock.
@@ -20,14 +22,17 @@ Example:
   $block = $mathParagraph->get_Item(1);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | value | The block of a mathematical text. |
 | index | The zero-based index of the item to get |
 
-##  Returns
+### Returns
 IMathBlock
+
+
+---
 
 

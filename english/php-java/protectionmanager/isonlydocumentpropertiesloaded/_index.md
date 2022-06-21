@@ -1,11 +1,13 @@
 ---
 title: isOnlyDocumentPropertiesLoaded
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/protectionmanager/isonlydocumentpropertiesloaded/
 ---
 
-# isOnlyDocumentPropertiesLoaded() method
+## isOnlyDocumentPropertiesLoaded() method
 
  This property makes sense, if presentation file is password protected and document 
  properties of this file are public.
@@ -20,7 +22,10 @@ url: /php-java/protectionmanager/isonlydocumentpropertiesloaded/
  Read-only  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

@@ -1,22 +1,27 @@
 ---
 title: subModel
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/templatecontext/submodel/
 ---
 
-# subModel(TSubModel) method
+## subModel(TSubModel) method
 
  Creates a child template context.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | subModel | Child model object. |
 
-##  Returns
+### Returns
 New template context with given model and parent's output collection and global storage.
+
+
+---
 
 

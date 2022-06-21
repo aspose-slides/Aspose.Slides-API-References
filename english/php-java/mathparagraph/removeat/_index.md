@@ -1,11 +1,13 @@
 ---
 title: removeAt
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 150
 url: /php-java/mathparagraph/removeat/
 ---
 
-# removeAt(int) method
+## removeAt(int) method
 
  Removes an item at the specified index of the collection.
  
@@ -19,10 +21,13 @@ Example:
   $mathParagraph->removeAt(0);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index of the item to remove. |
+
+
+---
 
 

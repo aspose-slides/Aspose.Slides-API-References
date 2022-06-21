@@ -1,26 +1,28 @@
 ---
 title: VbaReferenceOleTypeLib
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/vbareferenceoletypelib/
 ---
 
-# VbaReferenceOleTypeLib class
+## VbaReferenceOleTypeLib class
 
  Represents OLE Automation type library reference.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [VbaReferenceOleTypeLib](/slides/php-java/vbareferenceoletypelib/vbareferenceoletypelib/)(String, String) | This constructor creates new OLE Automation type library reference. |
+| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(String, String) | This constructor creates new OLE Automation type library reference. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getLibid](/slides/php-java/vbareferenceoletypelib/getlibid/)() | String | Represents the identifier of an Automation type library. Read/write String. |
-| [getName](/slides/php-java/vbareferenceoletypelib/getname/)() | String | Represents the name of the VBA project reference. Read/write String. |
-| [setLibid](/slides/php-java/vbareferenceoletypelib/setlibid/)(String) | void | Represents the identifier of an Automation type library. Read/write String. |
-| [setName](/slides/php-java/vbareferenceoletypelib/setname/)(String) | void | Represents the name of the VBA project reference. Read/write String. |
+| Name | Description |
+| --- | --- |
+| [getLibid](getlibid)() | Represents the identifier of an Automation type library. Read/write String. |
+| [getName](getname)() | Represents the name of the VBA project reference. Read/write String. |
+| [setLibid](setlibid)(String) | Represents the identifier of an Automation type library. Read/write String. |
+| [setName](setname)(String) | Represents the name of the VBA project reference. Read/write String. |

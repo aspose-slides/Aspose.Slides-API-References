@@ -1,11 +1,13 @@
 ---
 title: hasUpDownBars
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 470
 url: /php-java/chartseries/hasupdownbars/
 ---
 
-# hasUpDownBars() method
+## hasUpDownBars() method
 
  Determines whether Line- or Stock-chart has a up/down bars.
  This is the property not only of this series but of all series of parent series 
@@ -19,7 +21,10 @@ url: /php-java/chartseries/hasupdownbars/
  This is the projection of the property ParentSeriesGroup.UpDownBars.HasUpDownBars.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: setVisible
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 1010
 url: /php-java/axis/setvisible/
 ---
 
-# setVisible(boolean) method
+## setVisible(boolean) method
 
   Represents if the axis is visible.
   Read/write  boolean.
   
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

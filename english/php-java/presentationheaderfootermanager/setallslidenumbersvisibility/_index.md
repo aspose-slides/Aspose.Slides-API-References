@@ -1,20 +1,25 @@
 ---
 title: setAllSlideNumbersVisibility
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/presentationheaderfootermanager/setallslidenumbersvisibility/
 ---
 
-# setAllSlideNumbersVisibility(boolean) method
+## setAllSlideNumbersVisibility(boolean) method
 
  Changes all page number placeholders visibility, including master slides, layout slides, slides, 
  notes master, notes slides and handout master.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | isVisible | true - makes a page number placeholders visible, otherwise - hides them. |
+
+
+---
 
 

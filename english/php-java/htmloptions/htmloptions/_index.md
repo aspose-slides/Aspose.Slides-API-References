@@ -1,25 +1,31 @@
 ---
 title: HtmlOptions
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/htmloptions/htmloptions/
 ---
 
-# HtmlOptions(com.aspose.slides.ILinkEmbedController) constructor
+## HtmlOptions(com.aspose.slides.ILinkEmbedController) constructor
 
- Creates a new HtmlOptions object specifiing callback.
- 
+Creates a new HtmlOptions object specifiing callback.
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Parameter |Description |
 | --- | --- |
 | linkEmbedController | Callback object which controls saving project. |
-
-
-# HtmlOptions() constructor
-
- Creates a new HtmlOptions object for saving into single HTML file.
  
+
+---
+
+
+## HtmlOptions() constructor
+
+Creates a new HtmlOptions object for saving into single HTML file.
+ 
+
+---
 
 

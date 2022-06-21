@@ -1,19 +1,21 @@
 ---
 title: OdpReadException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/odpreadexception/
 ---
 
-# OdpReadException class
+## OdpReadException class
 
  Represents an exception which thrown on presentation reading errors.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [OdpReadException](/slides/php-java/odpreadexception/odpreadexception/)() | Default constructor |
-| [OdpReadException](/slides/php-java/odpreadexception/odpreadexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [OdpReadException](/slides/php-java/odpreadexception/odpreadexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [OdpReadException](odpreadexception)() | Default constructor |
+| [OdpReadException](odpreadexception)(String) | Constructor allowing a message to be added to this exception. |
+| [OdpReadException](odpreadexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

@@ -1,11 +1,13 @@
 ---
 title: deleteColumn
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/mathmatrix/deletecolumn/
 ---
 
-# deleteColumn(int) method
+## deleteColumn(int) method
 
  Deletes the specified column
  
@@ -16,13 +18,19 @@ Example:
   $matrix->deleteColumn(0);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | columnIndex | The zero-based index of the column to delete. |
 
-##  Exception
-ArgumentOutOfRangeException If columnIndex less than zero or greater or equal to the ColumnCount
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentOutOfRangeException | If columnIndex less than zero or greater or equal to the ColumnCount |
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: AlphaBiLevel
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/alphabilevel/
 ---
 
-# AlphaBiLevel class
+## AlphaBiLevel class
 
  Represents an Alpha Bi-Level effect.
  Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and
@@ -14,10 +16,10 @@ url: /php-java/alphabilevel/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/alphabilevel/equals/)(Object) | boolean | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
-| [getEffective](/slides/php-java/alphabilevel/geteffective/)() | IAlphaBiLevelEffectiveData | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
-| [getThreshold](/slides/php-java/alphabilevel/getthreshold/)() | float | Returns effect threshold. Read/write float. |
-| [hashCode](/slides/php-java/alphabilevel/hashcode/)() | int | Serves as a hash function for a particular type. |
-| [setThreshold](/slides/php-java/alphabilevel/setthreshold/)(float) | void | Returns effect threshold. Read/write float. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
+| [getEffective](geteffective)() | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
+| [getThreshold](getthreshold)() | Returns effect threshold. Read/write float. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| [setThreshold](setthreshold)(float) | Returns effect threshold. Read/write float. |

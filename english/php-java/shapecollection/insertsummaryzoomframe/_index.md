@@ -1,11 +1,13 @@
 ---
 title: insertSummaryZoomFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 540
 url: /php-java/shapecollection/insertsummaryzoomframe/
 ---
 
-# insertSummaryZoomFrame(int, float, float, float, float) method
+## insertSummaryZoomFrame(int, float, float, float, float) method
 
  Creates a new Summary Zoom object and inserts it to a collection at the specified index.
  
@@ -24,9 +26,9 @@ url: /php-java/shapecollection/insertsummaryzoomframe/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index at which Section Zoom frame should be inserted. |
 | x | X coordinate of a new Section Zoom frame float. |
@@ -34,10 +36,16 @@ url: /php-java/shapecollection/insertsummaryzoomframe/
 | width | Width of a new Section Zoom frame float. |
 | height | Height of a new Section Zoom frame float. This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation. |
 
-##  Returns
+### Returns
 Created Summary Zoom object ISummaryZoomFrame.
 
-##  Exception
-PptxEditException There are no sections in the presentation, or the target slide does not belong to any section.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | PptxEditException | There are no sections in the presentation, or the target slide does not belong to any section. |
+
+
+---
 
 

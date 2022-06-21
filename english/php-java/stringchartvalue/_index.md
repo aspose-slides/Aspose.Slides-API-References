@@ -1,11 +1,13 @@
 ---
 title: StringChartValue
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/stringchartvalue/
 ---
 
-# StringChartValue class
+## StringChartValue class
 
  Represent string value which can be stored in pptx presentation document in two ways:
  1) in cell/cells of workbook related to chart;
@@ -14,14 +16,14 @@ url: /php-java/stringchartvalue/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getAsCells](/slides/php-java/stringchartvalue/getascells/)() | IChartCellCollection | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
-| [getAsLiteralString](/slides/php-java/stringchartvalue/getasliteralstring/)() | String | Returns or sets value as literal string. Read/write String. |
-| [getCellsAddressInWorkbook](/slides/php-java/stringchartvalue/getcellsaddressinworkbook/)() | String | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
-| [getData](/slides/php-java/stringchartvalue/getdata/)() | Object | Returns or sets Data object. Read/write Object. |
-| [setAsCells](/slides/php-java/stringchartvalue/setascells/)(IChartCellCollection) | void | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
-| [setAsLiteralString](/slides/php-java/stringchartvalue/setasliteralstring/)(String) | void | Returns or sets value as literal string. Read/write String. |
-| [setData](/slides/php-java/stringchartvalue/setdata/)(Object) | void | Returns or sets Data object. Read/write Object. |
-| [setFromOneCell](/slides/php-java/stringchartvalue/setfromonecell/)(IChartDataCell) | void | Sets value from specified cell. |
-| [toString](/slides/php-java/stringchartvalue/tostring/)() | String | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
+| Name | Description |
+| --- | --- |
+| [getAsCells](getascells)() | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
+| [getAsLiteralString](getasliteralstring)() | Returns or sets value as literal string. Read/write String. |
+| [getCellsAddressInWorkbook](getcellsaddressinworkbook)() | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
+| [getData](getdata)() | Returns or sets Data object. Read/write Object. |
+| [setAsCells](setascells)(IChartCellCollection) | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
+| [setAsLiteralString](setasliteralstring)(String) | Returns or sets value as literal string. Read/write String. |
+| [setData](setdata)(Object) | Returns or sets Data object. Read/write Object. |
+| [setFromOneCell](setfromonecell)(IChartDataCell) | Sets value from specified cell. |
+| [toString](tostring)() | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |

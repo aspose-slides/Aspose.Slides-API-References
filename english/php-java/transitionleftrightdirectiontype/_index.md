@@ -1,19 +1,21 @@
 ---
 title: TransitionLeftRightDirectionType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/transitionleftrightdirectiontype/
 ---
 
-# TransitionLeftRightDirectionType class
+## TransitionLeftRightDirectionType class
 
  Specifies a direction restricted to the values of left and right.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Left |  |
-| Right |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Left | 0 |  |
+| Right | 1 |  |
 

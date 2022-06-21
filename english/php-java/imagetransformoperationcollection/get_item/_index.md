@@ -1,22 +1,27 @@
 ---
 title: get_Item
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 220
 url: /php-java/imagetransformoperationcollection/get_item/
 ---
 
-# get_Item(int) method
+## get_Item(int) method
 
  Returns an  ImageTransformOperation from the collection by it's index.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | Index of element. |
 
-##  Returns
+### Returns
 ImageTransformOperation
+
+
+---
 
 

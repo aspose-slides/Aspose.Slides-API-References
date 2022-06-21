@@ -1,26 +1,28 @@
 ---
 title: TextStyle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/textstyle/
 ---
 
-# TextStyle class
+## TextStyle class
 
  This class contains the text style formatting properties.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| MaxLevelCount | Maximum count of style levels that can be defined. Use it with #getLevel(int) for (int i = 0; i &lt; TextStyle.MaxLevelCount; i++) { IParagraphFormat paragraphFormat = getLevel(i); ... } |
+| Name | Value | Description |
+| --- | --- | --- |
+| MaxLevelCount | 9 | Maximum count of style levels that can be defined. Use it with #getLevel(int) for (int i = 0; i &lt; TextStyle.MaxLevelCount; i++) { IParagraphFormat paragraphFormat = getLevel(i); ... } |
 
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDefaultParagraphFormat](/slides/php-java/textstyle/getdefaultparagraphformat/)() | IParagraphFormat | Default paragraph propertiies. Read-only IParagraphFormat. |
-| [getEffective](/slides/php-java/textstyle/geteffective/)() | ITextStyleEffectiveData | Gets effective text style formatting data with the inheritance applied. |
-| [getLevel](/slides/php-java/textstyle/getlevel/)(int) | IParagraphFormat | If level of style exist returns it, otherwise returns null. |
+| Name | Description |
+| --- | --- |
+| [getDefaultParagraphFormat](getdefaultparagraphformat)() | Default paragraph propertiies. Read-only IParagraphFormat. |
+| [getEffective](geteffective)() | Gets effective text style formatting data with the inheritance applied. |
+| [getLevel](getlevel)(int) | If level of style exist returns it, otherwise returns null. |

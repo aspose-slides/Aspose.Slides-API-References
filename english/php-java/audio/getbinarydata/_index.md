@@ -1,11 +1,13 @@
 ---
 title: getBinaryData
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/audio/getbinarydata/
 ---
 
-# getBinaryData() method
+## getBinaryData() method
 
  Returns the copy of an audio's data. In case of large amount of data consider 
  using of  #getStream method to prevent unnecessary  loading of audio's
@@ -13,7 +15,10 @@ url: /php-java/audio/getbinarydata/
  Read-only  byte[].
  
 
-##  Returns
+### Returns
 byte[]
+
+
+---
 
 

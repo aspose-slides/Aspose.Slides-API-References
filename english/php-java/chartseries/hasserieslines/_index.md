@@ -1,11 +1,13 @@
 ---
 title: hasSeriesLines
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 460
 url: /php-java/chartseries/hasserieslines/
 ---
 
-# hasSeriesLines() method
+## hasSeriesLines() method
 
  Determines whether there are series lines for this series and kindred series.
  This is the property not only of this series but of all series of parent series 
@@ -19,7 +21,10 @@ url: /php-java/chartseries/hasserieslines/
  This is the projection of the property ParentSeriesGroup.HasSeriesLines.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

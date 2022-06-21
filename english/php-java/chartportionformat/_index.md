@@ -1,11 +1,13 @@
 ---
 title: ChartPortionFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/chartportionformat/
 ---
 
-# ChartPortionFormat class
+## ChartPortionFormat class
 
  This class contains the chart portion formatting properties used in charts.
  Unlike  IPortionFormatEffectiveData, all properties of this class are writeable.
@@ -20,6 +22,6 @@ url: /php-java/chartportionformat/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getVersion](/slides/php-java/chartportionformat/getversion/)() | long |  |
+| Name | Description |
+| --- | --- |
+| [getVersion](getversion)() |  |

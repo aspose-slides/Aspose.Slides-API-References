@@ -1,19 +1,21 @@
 ---
 title: VbaModule
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/vbamodule/
 ---
 
-# VbaModule class
+## VbaModule class
 
  Represents module that is contained in VBA project.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getName](/slides/php-java/vbamodule/getname/)() | String | Gets the name of the module. Read-only String. |
-| [getSourceCode](/slides/php-java/vbamodule/getsourcecode/)() | String | Returns or sets the source code of the module. Read/write String. |
-| [setSourceCode](/slides/php-java/vbamodule/setsourcecode/)(String) | void | Returns or sets the source code of the module. Read/write String. |
+| Name | Description |
+| --- | --- |
+| [getName](getname)() | Gets the name of the module. Read-only String. |
+| [getSourceCode](getsourcecode)() | Returns or sets the source code of the module. Read/write String. |
+| [setSourceCode](setsourcecode)(String) | Returns or sets the source code of the module. Read/write String. |

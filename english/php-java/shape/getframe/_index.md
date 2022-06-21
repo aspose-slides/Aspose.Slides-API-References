@@ -1,11 +1,13 @@
 ---
 title: getFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/shape/getframe/
 ---
 
-# getFrame() method
+## getFrame() method
 
  Returns or sets the shape frame's properties.
  Read/write  IShapeFrame.
@@ -17,7 +19,10 @@ url: /php-java/shape/getframe/
  You can set undefined values for RawFrame instance properties.
  
 
-##  Returns
+### Returns
 IShapeFrame
+
+
+---
 
 

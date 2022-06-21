@@ -1,11 +1,13 @@
 ---
 title: masterSlide
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/foreach/masterslide/
 ---
 
-# masterSlide(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachMasterSlideCallback) method
+## masterSlide(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachMasterSlideCallback) method
 
  Iterate each  #masterSlide(Presentation,ForEachMasterSlideCallback) in the  Presentation.
  
@@ -15,14 +17,17 @@ url: /php-java/foreach/masterslide/
   $pres = new Presentation("pres.pptx");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | Presentation to iterate master slides |
 | forEachMasterSlide | Callback that will be invoked for each master slide |
 
-##  Returns
+### Returns
 Presentation
+
+
+---
 
 

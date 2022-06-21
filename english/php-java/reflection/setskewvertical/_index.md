@@ -1,17 +1,22 @@
 ---
 title: setSkewVertical
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 320
 url: /php-java/reflection/setskewvertical/
 ---
 
-# setSkewVertical(double) method
+## setSkewVertical(double) method
 
  Specifies the vertical skew angle.
  Read/write  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

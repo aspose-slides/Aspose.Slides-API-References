@@ -1,18 +1,23 @@
 ---
 title: getLineFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/groupshape/getlineformat/
 ---
 
-# getLineFormat() method
+## getLineFormat() method
 
  Returns the LineFormat object that contains line formatting properties for a shape.
  Note: Returns null for GroupShape objects because they don't have line properties.
  Read-only  ILineFormat.
  
 
-##  Returns
+### Returns
 ILineFormat
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: add
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/digitalsignaturecollection/add/
 ---
 
-# add(com.aspose.slides.IDigitalSignature) method
+## add(com.aspose.slides.IDigitalSignature) method
 
  Adds the signature at the end of collection.
  
@@ -25,10 +27,13 @@ url: /php-java/digitalsignaturecollection/add/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | signature | Signature to add. |
+
+
+---
 
 

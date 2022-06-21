@@ -1,11 +1,13 @@
 ---
 title: setShowLeaderLines
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 250
 url: /php-java/datalabelformat/setshowleaderlines/
 ---
 
-# setShowLeaderLines(boolean) method
+## setShowLeaderLines(boolean) method
 
  Represents a specified chart's data label leader lines display behavior. 
  True displays the leader lines. False to hide.
@@ -20,7 +22,10 @@ url: /php-java/datalabelformat/setshowleaderlines/
  all DataLabels.get_Item(i).getShowLeaderLines() is equal to val).
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

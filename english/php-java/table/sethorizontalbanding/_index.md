@@ -1,17 +1,22 @@
 ---
 title: setHorizontalBanding
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 170
 url: /php-java/table/sethorizontalbanding/
 ---
 
-# setHorizontalBanding(boolean) method
+## setHorizontalBanding(boolean) method
 
  Determines whether the even rows has to be drawn with a different formatting.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

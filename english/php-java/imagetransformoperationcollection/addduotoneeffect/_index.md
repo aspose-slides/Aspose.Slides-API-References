@@ -1,16 +1,21 @@
 ---
 title: addDuotoneEffect
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/imagetransformoperationcollection/addduotoneeffect/
 ---
 
-# addDuotoneEffect() method
+## addDuotoneEffect() method
 
  Adds the new Duotone effect to the end of a collection.
  
 
-##  Returns
+### Returns
 Index of the new image effect in a collection.
+
+
+---
 
 

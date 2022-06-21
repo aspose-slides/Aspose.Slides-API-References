@@ -1,25 +1,33 @@
 ---
 title: get_Item
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/customxmlpartcollection/get_item/
 ---
 
-# get_Item(int) method
+## get_Item(int) method
 
  Returns the element at the specified index.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index of the element to get. |
 
-##  Returns
+### Returns
 The element at the specified index.
 
-##  Exception
-com.aspose.ms.System.ArgumentOutOfRangeException index is less than 0.-or-index is equal to or greater than Count
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | com.aspose.ms.System.ArgumentOutOfRangeException | index is less than 0.-or-index is equal to or greater than Count |
+
+
+---
 
 

@@ -1,68 +1,82 @@
 ---
 title: addAudio
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/audiocollection/addaudio/
 ---
 
-# addAudio(com.aspose.slides.IAudio) method
+## addAudio(com.aspose.slides.IAudio) method
 
  Adds a copy of an audio file from an another presentation.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | audio | Source audio. |
 
-##  Returns
+### Returns
 Added audio.
 
 
-# addAudio(java.io.InputStream) method
+---
+
+
+## addAudio(java.io.InputStream) method
 
  Creates and adds a audio to a presentation from stream.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | stream | Stream to add audio from. |
 
-##  Returns
+### Returns
 Added audio.
 
 
-# addAudio(java.io.InputStream, int) method
+---
+
+
+## addAudio(java.io.InputStream, int) method
 
  Creates and adds a audio to a presentation from stream.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | stream | Stream to add video audio from. |
 | loadingStreamBehavior | The behavior which will be applied to the stream. |
 
-##  Returns
+### Returns
 Added audio.
 
 
-# addAudio(byte[]) method
+---
+
+
+## addAudio(byte[]) method
 
  Creates and adds a audio to a presentation from byte array.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | audioData | Audio bytes. |
 
-##  Returns
+### Returns
 Added audio.
+
+
+---
 
 

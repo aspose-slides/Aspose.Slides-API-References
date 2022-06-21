@@ -1,32 +1,34 @@
 ---
 title: TagCollection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/tagcollection/
 ---
 
-# TagCollection class
+## TagCollection class
 
  Represents the collection of tags (user defined pairs of strings)
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [add](/slides/php-java/tagcollection/add/)(String, String) | int | Adds a new tag to collection. |
-| [clear](/slides/php-java/tagcollection/clear/)() | void | Removes all tags from the collection. |
-| [contains](/slides/php-java/tagcollection/contains/)(String) | boolean | Determines whether the collection contains a specific name. |
-| [getNameByIndex](/slides/php-java/tagcollection/getnamebyindex/)(int) | String | Returns key of a tag at the specified index. |
-| [getNamesOfTags](/slides/php-java/tagcollection/getnamesoftags/)() | String | Returns names of tags. |
-| [getSyncRoot](/slides/php-java/tagcollection/getsyncroot/)() | Object | Returns a synchronization root. Read-only Object. |
-| [getValueByIndex](/slides/php-java/tagcollection/getvaluebyindex/)(int) | String | Returns value of a tag at the specified index. |
-| [get_Item](/slides/php-java/tagcollection/get_item/)(String) | String | Returns or sets a key and a value pair of a tag. |
-| [indexOfName](/slides/php-java/tagcollection/indexofname/)(String) | int | Returns the zero-based index of the specified key in the collection. |
-| [isSynchronized](/slides/php-java/tagcollection/issynchronized/)() | boolean | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](/slides/php-java/tagcollection/iterator/)() | IGenericEnumerator | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](/slides/php-java/tagcollection/iteratorjava/)() | IGenericEnumerator | Returns a java iterator for the entire collection. |
-| [remove](/slides/php-java/tagcollection/remove/)(String) | void | Removes the tag with a specified name from the collection. |
-| [removeAt](/slides/php-java/tagcollection/removeat/)(int) | void | Removes the tag at the specified index. |
-| [set_Item](/slides/php-java/tagcollection/set_item/)(String, String) | void | Returns or sets a key and a value pair of a tag. |
-| [size](/slides/php-java/tagcollection/size/)() | int | Returns a number of tags in the collectoin. Read-only int. |
+| Name | Description |
+| --- | --- |
+| [add](add)(String, String) | Adds a new tag to collection. |
+| [clear](clear)() | Removes all tags from the collection. |
+| [contains](contains)(String) | Determines whether the collection contains a specific name. |
+| [getNameByIndex](getnamebyindex)(int) | Returns key of a tag at the specified index. |
+| [getNamesOfTags](getnamesoftags)() | Returns names of tags. |
+| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
+| [getValueByIndex](getvaluebyindex)(int) | Returns value of a tag at the specified index. |
+| [get_Item](get_item)(String) | Returns or sets a key and a value pair of a tag. |
+| [indexOfName](indexofname)(String) | Returns the zero-based index of the specified key in the collection. |
+| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
+| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
+| [remove](remove)(String) | Removes the tag with a specified name from the collection. |
+| [removeAt](removeat)(int) | Removes the tag at the specified index. |
+| [set_Item](set_item)(String, String) | Returns or sets a key and a value pair of a tag. |
+| [size](size)() | Returns a number of tags in the collectoin. Read-only int. |

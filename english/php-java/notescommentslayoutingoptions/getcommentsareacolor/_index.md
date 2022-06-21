@@ -1,11 +1,13 @@
 ---
 title: getCommentsAreaColor
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/notescommentslayoutingoptions/getcommentsareacolor/
 ---
 
-# getCommentsAreaColor() method
+## getCommentsAreaColor() method
 
   Gets or sets the color of comments area
   (Applies only if comments are displayed on the right).
@@ -13,7 +15,10 @@ url: /php-java/notescommentslayoutingoptions/getcommentsareacolor/
  Default is  java.awt.Color#BLUE.
  
 
-##  Returns
+### Returns
 java.awt.Color#BLUE
+
+
+---
 
 

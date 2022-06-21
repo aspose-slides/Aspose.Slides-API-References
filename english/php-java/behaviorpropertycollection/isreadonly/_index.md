@@ -1,17 +1,22 @@
 ---
 title: isReadOnly
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 170
 url: /php-java/behaviorpropertycollection/isreadonly/
 ---
 
-# isReadOnly() method
+## isReadOnly() method
 
  Gets a value indicating whether the  IGenericCollection is read-only.
  Read-only  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

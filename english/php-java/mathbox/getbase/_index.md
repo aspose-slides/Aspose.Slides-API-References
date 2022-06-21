@@ -1,11 +1,13 @@
 ---
 title: getBase
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/mathbox/getbase/
 ---
 
-# getBase() method
+## getBase() method
 
  Base argument
  
@@ -15,5 +17,8 @@ Example:
   $box = new MathBox(new MathematicalText("=="));
   $base = $box->getBase();
 ```
+
+
+---
 
 

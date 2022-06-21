@@ -1,67 +1,69 @@
 ---
 title: EffectSubtype
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/effectsubtype/
 ---
 
-# EffectSubtype class
+## EffectSubtype class
 
  Represents subtypes of animation effect.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Across |  |
-| Bottom |  |
-| BottomLeft |  |
-| BottomRight |  |
-| Center |  |
-| Clockwise |  |
-| CounterClockwise |  |
-| Down |  |
-| DownLeft |  |
-| DownRight |  |
-| FontAllCaps |  |
-| FontBold |  |
-| FontItalic |  |
-| FontShadow |  |
-| FontStrikethrough |  |
-| FontUnderline |  |
-| Gradual |  |
-| GradualAndCycleClockwise |  |
-| GradualAndCycleCounterClockwise |  |
-| Horizontal |  |
-| HorizontalIn |  |
-| HorizontalOut |  |
-| In |  |
-| InBottom |  |
-| InCenter |  |
-| InSlightly |  |
-| Instant |  |
-| Left |  |
-| None |  |
-| OrdinalMask |  |
-| Out |  |
-| OutBottom |  |
-| OutCenter |  |
-| OutSlightly |  |
-| Right |  |
-| Slightly |  |
-| Top |  |
-| TopLeft |  |
-| TopRight |  |
-| Up |  |
-| UpLeft |  |
-| UpRight |  |
-| Vertical |  |
-| VerticalIn |  |
-| VerticalOut |  |
-| Wheel1 |  |
-| Wheel2 |  |
-| Wheel3 |  |
-| Wheel4 |  |
-| Wheel8 |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Across | 1 |  |
+| Bottom | 2 |  |
+| BottomLeft | 3 |  |
+| BottomRight | 4 |  |
+| Center | 5 |  |
+| Clockwise | 6 |  |
+| CounterClockwise | 7 |  |
+| Down | 10 |  |
+| DownLeft | 11 |  |
+| DownRight | 12 |  |
+| FontAllCaps | 13 |  |
+| FontBold | 14 |  |
+| FontItalic | 15 |  |
+| FontShadow | 16 |  |
+| FontStrikethrough | 17 |  |
+| FontUnderline | 18 |  |
+| Gradual | 19 |  |
+| GradualAndCycleClockwise | 8 |  |
+| GradualAndCycleCounterClockwise | 9 |  |
+| Horizontal | 20 |  |
+| HorizontalIn | 21 |  |
+| HorizontalOut | 22 |  |
+| In | 23 |  |
+| InBottom | 24 |  |
+| InCenter | 25 |  |
+| InSlightly | 26 |  |
+| Instant | 27 |  |
+| Left | 28 |  |
+| None | 0 |  |
+| OrdinalMask | 29 |  |
+| Out | 30 |  |
+| OutBottom | 31 |  |
+| OutCenter | 32 |  |
+| OutSlightly | 33 |  |
+| Right | 34 |  |
+| Slightly | 35 |  |
+| Top | 36 |  |
+| TopLeft | 37 |  |
+| TopRight | 38 |  |
+| Up | 39 |  |
+| UpLeft | 40 |  |
+| UpRight | 41 |  |
+| Vertical | 42 |  |
+| VerticalIn | 43 |  |
+| VerticalOut | 44 |  |
+| Wheel1 | 45 |  |
+| Wheel2 | 46 |  |
+| Wheel3 | 47 |  |
+| Wheel4 | 48 |  |
+| Wheel8 | 49 |  |
 

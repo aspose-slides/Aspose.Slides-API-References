@@ -1,11 +1,13 @@
 ---
 title: contains
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/mathblock/contains/
 ---
 
-# contains(com.aspose.slides.IMathElement) method
+## contains(com.aspose.slides.IMathElement) method
 
  Determines whether the collection contains a specific value.
  
@@ -19,13 +21,16 @@ Example:
   $contains = $mathBlock->Contains($plusElement);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | item | The object to locate in the collection. |
 
-##  Returns
+### Returns
 true if item is found in the collection; otherwise, false.
+
+
+---
 
 

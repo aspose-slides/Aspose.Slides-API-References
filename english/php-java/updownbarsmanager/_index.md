@@ -1,22 +1,24 @@
 ---
 title: UpDownBarsManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/updownbarsmanager/
 ---
 
-# UpDownBarsManager class
+## UpDownBarsManager class
 
  Provide access to up/down bars of Line- or Stock-chart.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDownBarsFormat](/slides/php-java/updownbarsmanager/getdownbarsformat/)() | IFormat | Returns the DownBars format. Read-only IFormat. |
-| [getGapWidth](/slides/php-java/updownbarsmanager/getgapwidth/)() | int | GapWidth. Read/write int. |
-| [getUpBarsFormat](/slides/php-java/updownbarsmanager/getupbarsformat/)() | IFormat | Returns the UpBars format. Read-only IFormat. |
-| [hasUpDownBars](/slides/php-java/updownbarsmanager/hasupdownbars/)() | boolean | HasUpDownBars. Read/write boolean. |
-| [setGapWidth](/slides/php-java/updownbarsmanager/setgapwidth/)(int) | void | GapWidth. Read/write int. |
-| [setUpDownBars](/slides/php-java/updownbarsmanager/setupdownbars/)(boolean) | void | HasUpDownBars. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| [getDownBarsFormat](getdownbarsformat)() | Returns the DownBars format. Read-only IFormat. |
+| [getGapWidth](getgapwidth)() | GapWidth. Read/write int. |
+| [getUpBarsFormat](getupbarsformat)() | Returns the UpBars format. Read-only IFormat. |
+| [hasUpDownBars](hasupdownbars)() | HasUpDownBars. Read/write boolean. |
+| [setGapWidth](setgapwidth)(int) | GapWidth. Read/write int. |
+| [setUpDownBars](setupdownbars)(boolean) | HasUpDownBars. Read/write boolean. |

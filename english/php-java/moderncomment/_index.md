@@ -1,11 +1,13 @@
 ---
 title: ModernComment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/moderncomment/
 ---
 
-# ModernComment class
+## ModernComment class
 
  Represents a comment on a slide.
  
@@ -26,12 +28,12 @@ url: /php-java/moderncomment/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getShape](/slides/php-java/moderncomment/getshape/)() | IShape | Returns a shape associated with the comment. Read-only IShape. |
-| [getStatus](/slides/php-java/moderncomment/getstatus/)() | byte | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
-| [getTextSelectionLength](/slides/php-java/moderncomment/gettextselectionlength/)() | int | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
-| [getTextSelectionStart](/slides/php-java/moderncomment/gettextselectionstart/)() | int | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
-| [setStatus](/slides/php-java/moderncomment/setstatus/)(byte) | void | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
-| [setTextSelectionLength](/slides/php-java/moderncomment/settextselectionlength/)(int) | void | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
-| [setTextSelectionStart](/slides/php-java/moderncomment/settextselectionstart/)(int) | void | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+| Name | Description |
+| --- | --- |
+| [getShape](getshape)() | Returns a shape associated with the comment. Read-only IShape. |
+| [getStatus](getstatus)() | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+| [getTextSelectionLength](gettextselectionlength)() | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+| [getTextSelectionStart](gettextselectionstart)() | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+| [setStatus](setstatus)(byte) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+| [setTextSelectionLength](settextselectionlength)(int) | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+| [setTextSelectionStart](settextselectionstart)(int) | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |

@@ -1,21 +1,23 @@
 ---
 title: TransitionCornerDirectionType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/transitioncornerdirectiontype/
 ---
 
-# TransitionCornerDirectionType class
+## TransitionCornerDirectionType class
 
  Represent corner direction transition types.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| LeftDown |  |
-| LeftUp |  |
-| RightDown |  |
-| RightUp |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| LeftDown | 0 |  |
+| LeftUp | 1 |  |
+| RightDown | 2 |  |
+| RightUp | 3 |  |
 

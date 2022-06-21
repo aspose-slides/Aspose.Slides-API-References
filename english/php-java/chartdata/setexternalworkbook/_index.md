@@ -1,11 +1,13 @@
 ---
 title: setExternalWorkbook
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/chartdata/setexternalworkbook/
 ---
 
-# setExternalWorkbook(java.lang.String) method
+## setExternalWorkbook(java.lang.String) method
 
  Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook.  
  
@@ -24,17 +26,23 @@ url: /php-java/chartdata/setexternalworkbook/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | workbookPath | Path to the target workbook |
 
-##  Exception
-InvalidOperationException External workbook is not available or can't be loaded.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | InvalidOperationException | External workbook is not available or can't be loaded. |
 
 
-# setExternalWorkbook(java.lang.String, boolean) method
+---
+
+
+## setExternalWorkbook(java.lang.String, boolean) method
 
  Sets external workbook as a data source for the chart. 
  
@@ -53,14 +61,20 @@ InvalidOperationException External workbook is not available or can't be loaded.
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | workbookPath | Path to the target workbook |
 | updateChartData | If value is false only workbook path will be updated. Chart data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available. If value is true chart data will be updated from the target workbook. |
 
-##  Exception
-InvalidOperationException External workbook is not available or can't be loaded.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | InvalidOperationException | External workbook is not available or can't be loaded. |
+
+
+---
 
 

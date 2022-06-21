@@ -1,22 +1,24 @@
 ---
 title: LegendEntryProperties
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/legendentryproperties/
 ---
 
-# LegendEntryProperties class
+## LegendEntryProperties class
 
  Represents legend properties of a chart.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getChart](/slides/php-java/legendentryproperties/getchart/)() | IChart | Returns the parent chart. Read-only IChart. |
-| [getHide](/slides/php-java/legendentryproperties/gethide/)() | boolean | Determines whether the legend entry is hide. Read/write boolean. |
-| [getPresentation](/slides/php-java/legendentryproperties/getpresentation/)() | IPresentation | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
-| [getSlide](/slides/php-java/legendentryproperties/getslide/)() | IBaseSlide | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
-| [getTextFormat](/slides/php-java/legendentryproperties/gettextformat/)() | IChartTextFormat | Returns text format. Read-only IChartTextFormat. |
-| [setHide](/slides/php-java/legendentryproperties/sethide/)(boolean) | void | Determines whether the legend entry is hide. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| [getChart](getchart)() | Returns the parent chart. Read-only IChart. |
+| [getHide](gethide)() | Determines whether the legend entry is hide. Read/write boolean. |
+| [getPresentation](getpresentation)() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+| [getSlide](getslide)() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+| [getTextFormat](gettextformat)() | Returns text format. Read-only IChartTextFormat. |
+| [setHide](sethide)(boolean) | Determines whether the legend entry is hide. Read/write boolean. |

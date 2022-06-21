@@ -1,17 +1,22 @@
 ---
 title: getOrientation
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/slidesize/getorientation/
 ---
 
-# getOrientation() method
+## getOrientation() method
 
  Returns or sets the slide orientation.
  Read/write  SlideOrientation.
  Changing this value will swap slide's dimensions.
 
-##  Returns
+### Returns
 SlideOrientation
+
+
+---
 
 

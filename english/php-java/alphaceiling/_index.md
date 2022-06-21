@@ -1,11 +1,13 @@
 ---
 title: AlphaCeiling
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/alphaceiling/
 ---
 
-# AlphaCeiling class
+## AlphaCeiling class
 
  Represents an Alpha Ceiling effect.
  Alpha (opacity) values greater than zero are changed to 100%.
@@ -14,8 +16,8 @@ url: /php-java/alphaceiling/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/alphaceiling/equals/)(Object) | boolean | Determines whether the specified AlphaCeiling is equal to the current AlphaCeiling. |
-| [getEffective](/slides/php-java/alphaceiling/geteffective/)() | IAlphaCeilingEffectiveData | Gets effective Alpha Ceiling effect data with the inheritance applied. |
-| [hashCode](/slides/php-java/alphaceiling/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified AlphaCeiling is equal to the current AlphaCeiling. |
+| [getEffective](geteffective)() | Gets effective Alpha Ceiling effect data with the inheritance applied. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

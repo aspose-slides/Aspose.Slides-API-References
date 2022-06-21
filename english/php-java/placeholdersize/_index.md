@@ -1,20 +1,22 @@
 ---
 title: PlaceholderSize
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/placeholdersize/
 ---
 
-# PlaceholderSize class
+## PlaceholderSize class
 
  Represents the size of a placeholder.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Full | Full. |
-| Half | Half. |
-| Quarter | Quarter. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Full | 0 | Full. |
+| Half | 1 | Half. |
+| Quarter | 2 | Quarter. |
 
