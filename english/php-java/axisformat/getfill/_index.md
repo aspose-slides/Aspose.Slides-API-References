@@ -1,17 +1,22 @@
 ---
 title: getFill
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/axisformat/getfill/
 ---
 
-# getFill() method
+## getFill() method
 
  Returns fill style properties of an axis.
  Read-only  IFillFormat.
  
 
-##  Returns
+### Returns
 IFillFormat
+
+
+---
 
 

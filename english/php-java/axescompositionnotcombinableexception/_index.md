@@ -1,11 +1,13 @@
 ---
 title: AxesCompositionNotCombinableException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/axescompositionnotcombinableexception/
 ---
 
-# AxesCompositionNotCombinableException class
+## AxesCompositionNotCombinableException class
 
  Exception which thrown when axes composition of the series is not combinable with present axes 
  composition in chart.
@@ -13,8 +15,8 @@ url: /php-java/axescompositionnotcombinableexception/
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [AxesCompositionNotCombinableException](/slides/php-java/axescompositionnotcombinableexception/axescompositionnotcombinableexception/)() | Default constructor. |
-| [AxesCompositionNotCombinableException](/slides/php-java/axescompositionnotcombinableexception/axescompositionnotcombinableexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [AxesCompositionNotCombinableException](/slides/php-java/axescompositionnotcombinableexception/axescompositionnotcombinableexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception)() | Default constructor. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception)(String) | Constructor allowing a message to be added to this exception. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

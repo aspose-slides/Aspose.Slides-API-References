@@ -1,17 +1,22 @@
 ---
 title: getDistance
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/innershadow/getdistance/
 ---
 
-# getDistance() method
+## getDistance() method
 
  Distance of shadow.
  Read/write  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

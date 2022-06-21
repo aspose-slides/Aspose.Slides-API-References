@@ -1,11 +1,13 @@
 ---
 title: setWidth
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 480
 url: /php-java/shape/setwidth/
 ---
 
-# setWidth(float) method
+## setWidth(float) method
 
  Returns or sets the width of the shape.
  Read/write  float.
@@ -14,7 +16,10 @@ url: /php-java/shape/setwidth/
  Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

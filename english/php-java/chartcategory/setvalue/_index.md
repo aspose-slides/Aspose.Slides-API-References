@@ -1,18 +1,23 @@
 ---
 title: setValue
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 100
 url: /php-java/chartcategory/setvalue/
 ---
 
-# setValue(java.lang.Object) method
+## setValue(java.lang.Object) method
 
  If UseCell is true then this property represents AsCell.Value property.
  If UseCell is false then this property represents AsLiteral property.
  Read/write  Object.
  
 
-##  Returns
+### Returns
 Object
+
+
+---
 
 

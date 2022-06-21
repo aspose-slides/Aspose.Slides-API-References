@@ -1,17 +1,22 @@
 ---
 title: size
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 250
 url: /php-java/behaviorpropertycollection/size/
 ---
 
-# size() method
+## size() method
 
  Returns the number of properties stored in the collection.
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getJustification
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/mathparagraph/getjustification/
 ---
 
-# getJustification() method
+## getJustification() method
 
  Paragraph Justification 
  Default value: CenteredAsGroup
@@ -17,5 +19,8 @@ Example:
   $mathParagraph = $shape->getTextFrame()->getParagraphs()->get_Item(0)->getPortions()->get_Item(0)->getMathParagraph();
   $mathParagraph->setJustification(MathJustification.LeftJustified);
 ```
+
+
+---
 
 

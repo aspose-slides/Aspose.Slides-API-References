@@ -1,24 +1,26 @@
 ---
 title: VbaReferenceFactory
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/vbareferencefactory/
 ---
 
-# VbaReferenceFactory class
+## VbaReferenceFactory class
 
  Allows to create VBA project references via COM interface
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [VbaReferenceFactory](/slides/php-java/vbareferencefactory/vbareferencefactory/)() |  |
+| [VbaReferenceFactory](vbareferencefactory)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [createOleTypeLibReference](/slides/php-java/vbareferencefactory/createoletypelibreference/)(String, String) | IVbaReferenceOleTypeLib | Creates new OLE Automation type library reference. |
-| [getInstance](/slides/php-java/vbareferencefactory/getinstance/)() | VbaReferenceFactory | VBA project references factory static instance. Read-only VbaReferenceFactory. |
+| Name | Description |
+| --- | --- |
+| [createOleTypeLibReference](createoletypelibreference)(String, String) | Creates new OLE Automation type library reference. |
+| [getInstance](getinstance)() | VBA project references factory static instance. Read-only VbaReferenceFactory. |

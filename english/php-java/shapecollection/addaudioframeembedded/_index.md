@@ -1,20 +1,22 @@
 ---
 title: addAudioFrameEmbedded
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/shapecollection/addaudioframeembedded/
 ---
 
-# addAudioFrameEmbedded(float, float, float, float, java.io.InputStream) method
+## addAudioFrameEmbedded(float, float, float, float, java.io.InputStream) method
 
  Adds a new audio frame with embedded audio file to the end of a collection.
  Embedded audio file can be a WAV only.
  It adds new audio into Presentation.Audios list.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new audio frame. |
 | y | Y coordinate of a new audio frame. |
@@ -22,19 +24,22 @@ url: /php-java/shapecollection/addaudioframeembedded/
 | height | Height of a new audio frame. |
 | audio_stream | Inout stream with audio data. |
 
-##  Returns
+### Returns
 Created AudioFrame object.
 
 
-# addAudioFrameEmbedded(float, float, float, float, com.aspose.slides.IAudio) method
+---
+
+
+## addAudioFrameEmbedded(float, float, float, float, com.aspose.slides.IAudio) method
 
  Adds a new audio frame with embedded audio file to the end of a collection.
  It uses audio file from Presentation.Audios list.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new audio frame. |
 | y | Y coordinate of a new audio frame. |
@@ -42,7 +47,10 @@ Created AudioFrame object.
 | height | Height of a new audio frame. |
 | audio | Audio from Presentation.Audios list. |
 
-##  Returns
+### Returns
 Created AudioFrame object.
+
+
+---
 
 

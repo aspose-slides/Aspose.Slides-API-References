@@ -1,17 +1,22 @@
 ---
 title: getHyperlinkMouseOver
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 140
 url: /php-java/shape/gethyperlinkmouseover/
 ---
 
-# getHyperlinkMouseOver() method
+## getHyperlinkMouseOver() method
 
  Returns or sets the hyperlink defined for mouse over.
  Read/write  IHyperlink.
  
 
-##  Returns
+### Returns
 IHyperlink
+
+
+---
 
 

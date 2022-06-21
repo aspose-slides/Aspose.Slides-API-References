@@ -1,27 +1,29 @@
 ---
 title: LegendDataLabelPosition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/legenddatalabelposition/
 ---
 
-# LegendDataLabelPosition class
+## LegendDataLabelPosition class
 
  Determines position of data labels.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| BestFit | Specifies that data labels shall be displayed in the best position. |
-| Bottom | Specifies that data labels shall be displayed below the data marker. |
-| Center | Specifies that data labels shall be displayed centered on the data marker. |
-| InsideBase | Specifies that data labels shall be displayed inside the base of the data marker. |
-| InsideEnd | Specifies that data labels shall be displayed inside the end of the data marker. |
-| Left | Specifies that data labels shall be displayed to the left of the data marker. |
-| NotDefined | Position is not defined. |
-| OutsideEnd | Specifies that data labels shall be displayed outside the end of the data marker. |
-| Right | Specifies that data labels shall be displayed to the right of the data marker. |
-| Top | Specifies that data labels shall be displayed above the data marker. |
+| Name | Value | Description |
+| --- | --- | --- |
+| BestFit | 1 | Specifies that data labels shall be displayed in the best position. |
+| Bottom | 0 | Specifies that data labels shall be displayed below the data marker. |
+| Center | 2 | Specifies that data labels shall be displayed centered on the data marker. |
+| InsideBase | 3 | Specifies that data labels shall be displayed inside the base of the data marker. |
+| InsideEnd | 4 | Specifies that data labels shall be displayed inside the end of the data marker. |
+| Left | 5 | Specifies that data labels shall be displayed to the left of the data marker. |
+| NotDefined | -1 | Position is not defined. |
+| OutsideEnd | 6 | Specifies that data labels shall be displayed outside the end of the data marker. |
+| Right | 7 | Specifies that data labels shall be displayed to the right of the data marker. |
+| Top | 8 | Specifies that data labels shall be displayed above the data marker. |
 

@@ -1,25 +1,27 @@
 ---
 title: VbaProjectFactory
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/vbaprojectfactory/
 ---
 
-# VbaProjectFactory class
+## VbaProjectFactory class
 
  Allows to create VBA project via COM interface
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [VbaProjectFactory](/slides/php-java/vbaprojectfactory/vbaprojectfactory/)() |  |
+| [VbaProjectFactory](vbaprojectfactory)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [createVbaProject](/slides/php-java/vbaprojectfactory/createvbaproject/)() | IVbaProject | Creates new VBA project. |
-| [getInstance](/slides/php-java/vbaprojectfactory/getinstance/)() | VbaProjectFactory | VBA project factory static instance. Read-only VbaProjectFactory. |
-| [readVbaProject](/slides/php-java/vbaprojectfactory/readvbaproject/)(byte[]) | IVbaProject | Reads VBA project from OLE container. |
+| Name | Description |
+| --- | --- |
+| [createVbaProject](createvbaproject)() | Creates new VBA project. |
+| [getInstance](getinstance)() | VBA project factory static instance. Read-only VbaProjectFactory. |
+| [readVbaProject](readvbaproject)(byte[]) | Reads VBA project from OLE container. |

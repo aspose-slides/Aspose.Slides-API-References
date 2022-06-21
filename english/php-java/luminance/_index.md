@@ -1,11 +1,13 @@
 ---
 title: Luminance
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/luminance/
 ---
 
-# Luminance class
+## Luminance class
 
  Represents a Luminance effect.
  Brightness linearly shifts all colors closer to white or black.
@@ -14,8 +16,8 @@ url: /php-java/luminance/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/luminance/equals/)(Object) | boolean | Determines whether the specified Luminance is equal to the current Luminance. |
-| [getEffective](/slides/php-java/luminance/geteffective/)() | ILuminanceEffectiveData | Gets effective Luminance effect data with the inheritance applied. |
-| [hashCode](/slides/php-java/luminance/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified Luminance is equal to the current Luminance. |
+| [getEffective](geteffective)() | Gets effective Luminance effect data with the inheritance applied. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

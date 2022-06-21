@@ -1,11 +1,13 @@
 ---
 title: Compress
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/compress/
 ---
 
-# Compress class
+## Compress class
 
  Represents a group of methods intended to compress  Presentation.
  
@@ -25,13 +27,13 @@ url: /php-java/compress/
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [Compress](/slides/php-java/compress/compress/)() |  |
+| [Compress](compress)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [removeUnusedLayoutSlides](/slides/php-java/compress/removeunusedlayoutslides/)(Presentation) | void | Makes compression of the Presentation by removing unused layout slides. |
-| [removeUnusedMasterSlides](/slides/php-java/compress/removeunusedmasterslides/)(Presentation) | void | Makes compression of the Presentation by removing unused master slides. |
+| Name | Description |
+| --- | --- |
+| [removeUnusedLayoutSlides](removeunusedlayoutslides)(Presentation) | Makes compression of the Presentation by removing unused layout slides. |
+| [removeUnusedMasterSlides](removeunusedmasterslides)(Presentation) | Makes compression of the Presentation by removing unused master slides. |

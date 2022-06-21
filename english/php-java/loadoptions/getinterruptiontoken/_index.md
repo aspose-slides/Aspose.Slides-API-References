@@ -1,11 +1,13 @@
 ---
 title: getInterruptionToken
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/loadoptions/getinterruptiontoken/
 ---
 
-# getInterruptionToken() method
+## getInterruptionToken() method
 
  The token to monitor for interruption requests.
  
@@ -14,7 +16,10 @@ url: /php-java/loadoptions/getinterruptiontoken/
  the  InterruptionTokenSource.
  
 
-##  Returns
+### Returns
 InterruptionTokenSource
+
+
+---
 
 

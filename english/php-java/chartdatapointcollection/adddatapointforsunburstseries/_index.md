@@ -1,23 +1,28 @@
 ---
 title: addDataPointForSunburstSeries
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 370
 url: /php-java/chartdatapointcollection/adddatapointforsunburstseries/
 ---
 
-# addDataPointForSunburstSeries(com.aspose.slides.IChartDataCell) method
+## addDataPointForSunburstSeries(com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chart type is Sunburst.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | sizeValue | Data point SizeValue |
 
-##  Returns
+### Returns
 New data point.
+
+
+---
 
 

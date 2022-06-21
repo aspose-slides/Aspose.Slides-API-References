@@ -1,22 +1,24 @@
 ---
 title: AudioVolumeMode
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/audiovolumemode/
 ---
 
-# AudioVolumeMode class
+## AudioVolumeMode class
 
  Constants which define audio volume.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Loud | Loud sound volume. |
-| Low | Low sound volume. |
-| Medium | Medium sound volume. |
-| Mixed |  |
-| Mute | Zero sound volume. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Loud | 3 | Loud sound volume. |
+| Low | 1 | Low sound volume. |
+| Medium | 2 | Medium sound volume. |
+| Mixed | -1 |  |
+| Mute | 0 | Zero sound volume. |
 

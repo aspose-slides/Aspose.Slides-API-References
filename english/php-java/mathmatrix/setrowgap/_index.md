@@ -1,11 +1,13 @@
 ---
 title: setRowGap
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 280
 url: /php-java/mathmatrix/setrowgap/
 ---
 
-# setRowGap(long) method
+## setRowGap(long) method
 
  The value of vertical spacing between rows of a matrix;
  If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point)
@@ -19,5 +21,8 @@ Example:
   $matrix->setRowGapRule(MathSpacingRules.Exactly);
   $matrix->setRowGap(20);
 ```
+
+
+---
 
 

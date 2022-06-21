@@ -1,20 +1,22 @@
 ---
 title: Field
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/field/
 ---
 
-# Field class
+## Field class
 
  Represents a field.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getPresentation](/slides/php-java/field/getpresentation/)() | IPresentation | Returns the parent presentation of a paragraph. Read-only IPresentation. |
-| [getSlide](/slides/php-java/field/getslide/)() | IBaseSlide | Returns the parent slide of a paragraph. Read-only BaseSlide. |
-| [getType](/slides/php-java/field/gettype/)() | IFieldType | Returns or sets field's type. Read/write IFieldType. |
-| [setType](/slides/php-java/field/settype/)(IFieldType) | void | Returns or sets field's type. Read/write IFieldType. |
+| Name | Description |
+| --- | --- |
+| [getPresentation](getpresentation)() | Returns the parent presentation of a paragraph. Read-only IPresentation. |
+| [getSlide](getslide)() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
+| [getType](gettype)() | Returns or sets field's type. Read/write IFieldType. |
+| [setType](settype)(IFieldType) | Returns or sets field's type. Read/write IFieldType. |

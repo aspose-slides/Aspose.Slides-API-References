@@ -1,11 +1,13 @@
 ---
 title: getValueType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/errorbarsformat/getvaluetype/
 ---
 
-# getValueType() method
+## getValueType() method
 
  Represents possible ways to determine the length of the error bars. 
  In case of custom value type to specify value use ( IChartDataPoint#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series.
@@ -13,7 +15,10 @@ url: /php-java/errorbarsformat/getvaluetype/
  Read/write  ErrorBarValueType.
  
 
-##  Returns
+### Returns
 ErrorBarValueType
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getTiming
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/effect/gettiming/
 ---
 
-# getTiming() method
+## getTiming() method
 
  Defines timing value for effect.
  Read/write  ITiming.
  
 
-##  Returns
+### Returns
 ITiming
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getBubbleSizeScale
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/chartseries/getbubblesizescale/
 ---
 
-# getBubbleSizeScale() method
+## getBubbleSizeScale() method
 
  Specifies the scale factor for the bubble chart (can be 
  between 0 and 300 percents of the default size).
@@ -17,5 +19,8 @@ url: /php-java/chartseries/getbubblesizescale/
  
  This is the projection of the property ParentSeriesGroup.BubbleSizeScale.
  
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getSummarySection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/summaryzoomsectioncollection/getsummarysection/
 ---
 
-# getSummarySection(com.aspose.slides.ISection) method
+## getSummarySection(com.aspose.slides.ISection) method
 
  Returns Summary Zoom Section element for the given section.
  
@@ -24,13 +26,16 @@ The example demonstrates getting Summary Zoom Section element by index:
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | section | Section to find ISection |
 
-##  Returns
+### Returns
 ISummaryZoomSection or null if collection does not contains element for the section.
+
+
+---
 
 

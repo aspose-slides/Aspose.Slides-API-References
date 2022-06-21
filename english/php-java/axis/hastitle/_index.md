@@ -1,17 +1,22 @@
 ---
 title: hasTitle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 440
 url: /php-java/axis/hastitle/
 ---
 
-# hasTitle() method
+## hasTitle() method
 
  Determines whether a axis has a visible title.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getPlayMode
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/videoframe/getplaymode/
 ---
 
-# getPlayMode() method
+## getPlayMode() method
 
  Returns or sets the video play mode.
  Read/write  VideoPlayModePreset.
  
 
-##  Returns
+### Returns
 VideoPlayModePreset
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: setShowLegendKey
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 260
 url: /php-java/datalabelformat/setshowlegendkey/
 ---
 
-# setShowLegendKey(boolean) method
+## setShowLegendKey(boolean) method
 
  Represents a specified chart's data label legend key display behavior. 
  True if the data label legend key is visible.
@@ -20,7 +22,10 @@ url: /php-java/datalabelformat/setshowlegendkey/
  all DataLabels.get_Item(i).getShowLegendKey() is equal to val).
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

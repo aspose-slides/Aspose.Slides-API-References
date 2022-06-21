@@ -1,11 +1,13 @@
 ---
 title: ColorReplace
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/colorreplace/
 ---
 
-# ColorReplace class
+## ColorReplace class
 
  Represents a Color Replacement effect.
  All effect colors are changed to a fixed color.
@@ -14,10 +16,10 @@ url: /php-java/colorreplace/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/colorreplace/equals/)(Object) | boolean | Determines whether the specified ColorReplace is equal to the current ColorReplace. |
-| [getColor](/slides/php-java/colorreplace/getcolor/)() | IColorFormat | Returns color format which will replace color of every pixel. Read-only IColorFormat. |
-| [getEffective](/slides/php-java/colorreplace/geteffective/)() | IColorReplaceEffectiveData | Gets effective Color Replacement effect data with the inheritance applied. |
-| [getVersion](/slides/php-java/colorreplace/getversion/)() | long |  |
-| [hashCode](/slides/php-java/colorreplace/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified ColorReplace is equal to the current ColorReplace. |
+| [getColor](getcolor)() | Returns color format which will replace color of every pixel. Read-only IColorFormat. |
+| [getEffective](geteffective)() | Gets effective Color Replacement effect data with the inheritance applied. |
+| [getVersion](getversion)() |  |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

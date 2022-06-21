@@ -1,17 +1,22 @@
 ---
 title: getFillFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/background/getfillformat/
 ---
 
-# getFillFormat() method
+## getFillFormat() method
 
  Returns a FillFormat for BackgroundType.OwnBackground fill.
  Read-only  IFillFormat.
  
 
-##  Returns
+### Returns
 IFillFormat
+
+
+---
 
 

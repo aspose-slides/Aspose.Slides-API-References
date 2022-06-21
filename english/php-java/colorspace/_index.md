@@ -1,20 +1,22 @@
 ---
 title: ColorSpace
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/colorspace/
 ---
 
-# ColorSpace class
+## ColorSpace class
 
  Represents color space for color effect behavior.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| HSL |  |
-| NotDefined |  |
-| RGB |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| HSL | 1 |  |
+| NotDefined | -1 |  |
+| RGB | 0 |  |
 

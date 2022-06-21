@@ -1,24 +1,26 @@
 ---
 title: MotionCmdPath
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/motioncmdpath/
 ---
 
-# MotionCmdPath class
+## MotionCmdPath class
 
  Represent one command of a path.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getCommandType](/slides/php-java/motioncmdpath/getcommandtype/)() | int | Specifies command type. Read/write MotionCommandPathType. |
-| [getPoints](/slides/php-java/motioncmdpath/getpoints/)() | Float | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
-| [getPointsType](/slides/php-java/motioncmdpath/getpointstype/)() | int | Specifies command points type Read/write MotionPathPointsType. |
-| [isRelative](/slides/php-java/motioncmdpath/isrelative/)() | boolean | Determine command coordinates relative or not. Read/write boolean. |
-| [setCommandType](/slides/php-java/motioncmdpath/setcommandtype/)(int) | void | Specifies command type. Read/write MotionCommandPathType. |
-| [setPoints](/slides/php-java/motioncmdpath/setpoints/)(java.awt.geom.Point2D.Float[]) | void | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
-| [setPointsType](/slides/php-java/motioncmdpath/setpointstype/)(int) | void | Specifies command points type Read/write MotionPathPointsType. |
-| [setRelative](/slides/php-java/motioncmdpath/setrelative/)(boolean) | void | Determine command coordinates relative or not. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| [getCommandType](getcommandtype)() | Specifies command type. Read/write MotionCommandPathType. |
+| [getPoints](getpoints)() | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
+| [getPointsType](getpointstype)() | Specifies command points type Read/write MotionPathPointsType. |
+| [isRelative](isrelative)() | Determine command coordinates relative or not. Read/write boolean. |
+| [setCommandType](setcommandtype)(int) | Specifies command type. Read/write MotionCommandPathType. |
+| [setPoints](setpoints)(java.awt.geom.Point2D.Float[]) | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
+| [setPointsType](setpointstype)(int) | Specifies command points type Read/write MotionPathPointsType. |
+| [setRelative](setrelative)(boolean) | Determine command coordinates relative or not. Read/write boolean. |

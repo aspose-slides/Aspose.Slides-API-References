@@ -1,22 +1,27 @@
 ---
 title: equals
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/fieldtype/equals/
 ---
 
-# equals(java.lang.Object) method
+## equals(java.lang.Object) method
 
  Checks if this field is equal to another.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | obj | Field to compare. |
 
-##  Returns
+### Returns
 True if fields are equal.
+
+
+---
 
 

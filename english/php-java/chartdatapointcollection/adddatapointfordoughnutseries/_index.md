@@ -1,39 +1,47 @@
 ---
 title: addDataPointForDoughnutSeries
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 180
 url: /php-java/chartdatapointcollection/adddatapointfordoughnutseries/
 ---
 
-# addDataPointForDoughnutSeries(com.aspose.slides.IChartDataCell) method
+## addDataPointForDoughnutSeries(com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Doughnut subtypes (see also  ChartTypeCharacterizer#isChartTypeDoughnut(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | value | Data point Value |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeDoughnut(int)
 
 
-# addDataPointForDoughnutSeries(double) method
+---
+
+
+## addDataPointForDoughnutSeries(double) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Doughnut subtypes (see also  ChartTypeCharacterizer#isChartTypeDoughnut(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | value | Data point Value |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeDoughnut(int)
+
+
+---
 
 

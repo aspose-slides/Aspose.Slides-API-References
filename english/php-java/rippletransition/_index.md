@@ -1,18 +1,20 @@
 ---
 title: RippleTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/rippletransition/
 ---
 
-# RippleTransition class
+## RippleTransition class
 
  Ripple slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDirection](/slides/php-java/rippletransition/getdirection/)() | int | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
-| [setDirection](/slides/php-java/rippletransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
+| Name | Description |
+| --- | --- |
+| [getDirection](getdirection)() | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |
+| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionCornerAndCenterDirectionType. |

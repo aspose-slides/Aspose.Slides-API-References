@@ -1,11 +1,13 @@
 ---
 title: insertColumnBefore
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 180
 url: /php-java/mathmatrix/insertcolumnbefore/
 ---
 
-# insertColumnBefore(int) method
+## insertColumnBefore(int) method
 
  Insert a new column before the specified one
  Initially all elements in the new column are null.
@@ -17,10 +19,13 @@ Example:
   $matrix->insertColumnBefore(0);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | columnIndex | Index of the column before which to insert a new one |
+
+
+---
 
 

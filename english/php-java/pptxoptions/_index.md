@@ -1,24 +1,26 @@
 ---
 title: PptxOptions
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/pptxoptions/
 ---
 
-# PptxOptions class
+## PptxOptions class
 
  Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [PptxOptions](/slides/php-java/pptxoptions/pptxoptions/)() | Creates new instance of PptxOptions |
+| [PptxOptions](pptxoptions)() | Creates new instance of PptxOptions |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getConformance](/slides/php-java/pptxoptions/getconformance/)() | int | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
-| [setConformance](/slides/php-java/pptxoptions/setconformance/)(int) | void | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
+| Name | Description |
+| --- | --- |
+| [getConformance](getconformance)() | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
+| [setConformance](setconformance)(int) | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |

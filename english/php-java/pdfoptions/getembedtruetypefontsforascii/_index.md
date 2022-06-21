@@ -1,11 +1,13 @@
 ---
 title: getEmbedTrueTypeFontsForASCII
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/pdfoptions/getembedtruetypefontsforascii/
 ---
 
-# getEmbedTrueTypeFontsForASCII() method
+## getEmbedTrueTypeFontsForASCII() method
 
  Determines if Aspose.Slides will embed common fonts for ASCII (33..127 code range) text.
  Fonts for character codes greater than 127 are always embedded.
@@ -15,7 +17,10 @@ url: /php-java/pdfoptions/getembedtruetypefontsforascii/
  Default is true.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

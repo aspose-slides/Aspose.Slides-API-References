@@ -1,11 +1,13 @@
 ---
 title: addFallBackFonts
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/fontfallbackrule/addfallbackfonts/
 ---
 
-# addFallBackFonts(java.lang.String) method
+## addFallBackFonts(java.lang.String) method
 
  Adds a new font(s) to the list of FallBack fonts.
  
@@ -20,14 +22,17 @@ url: /php-java/fontfallbackrule/addfallbackfonts/
   $newRule->addFallBackFonts("Tahoma, Times New Roman");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | fontName | Font's name or names (delimited by comma) for FallBack |
 
 
-# addFallBackFonts(java.lang.String[]) method
+---
+
+
+## addFallBackFonts(java.lang.String[]) method
 
  Adds a new fonts to the list of FallBack fonts.
  
@@ -40,10 +45,13 @@ url: /php-java/fontfallbackrule/addfallbackfonts/
   $newRule->addFallBackFonts(new String[]{ "MS Gothic", "Tahoma, Times New Roman" });
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | fontNames | Font's name or names (delimited by comma) for FallBack |
+
+
+---
 
 

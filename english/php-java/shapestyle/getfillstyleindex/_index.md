@@ -1,11 +1,13 @@
 ---
 title: getFillStyleIndex
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/shapestyle/getfillstyleindex/
 ---
 
-# getFillStyleIndex() method
+## getFillStyleIndex() method
 
  Returns or sets shape's fill column index in style matrices.
  0 means no fill,
@@ -14,7 +16,10 @@ url: /php-java/shapestyle/getfillstyleindex/
  Read/write  short.
  
 
-##  Returns
+### Returns
 short
+
+
+---
 
 

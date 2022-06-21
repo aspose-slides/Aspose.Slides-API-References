@@ -1,11 +1,13 @@
 ---
 title: getPortionFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/portion/getportionformat/
 ---
 
-# getPortionFormat() method
+## getPortionFormat() method
 
  Returns oformatting bject which contains explicitly set formatting properties of the text portion with no inheritance applied.
  Read-only  IPortionFormat.
@@ -13,7 +15,10 @@ url: /php-java/portion/getportionformat/
  In order to get the effective values including inherited ones use the  PortionFormat#getEffective method.
  
 
-##  Returns
+### Returns
 PortionFormat#getEffective
+
+
+---
 
 

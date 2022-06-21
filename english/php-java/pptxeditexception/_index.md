@@ -1,19 +1,21 @@
 ---
 title: PptxEditException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/pptxeditexception/
 ---
 
-# PptxEditException class
+## PptxEditException class
 
  Represents an exception thrown when edit presentation error is detected.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [PptxEditException](/slides/php-java/pptxeditexception/pptxeditexception/)() | Default constructor. |
-| [PptxEditException](/slides/php-java/pptxeditexception/pptxeditexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptxEditException](/slides/php-java/pptxeditexception/pptxeditexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptxEditException](pptxeditexception)() | Default constructor. |
+| [PptxEditException](pptxeditexception)(String) | Constructor allowing a message to be added to this exception. |
+| [PptxEditException](pptxeditexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

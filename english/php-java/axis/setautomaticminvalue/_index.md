@@ -1,17 +1,22 @@
 ---
 title: setAutomaticMinValue
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 620
 url: /php-java/axis/setautomaticminvalue/
 ---
 
-# setAutomaticMinValue(boolean) method
+## setAutomaticMinValue(boolean) method
 
   Indicates whether the min value is automatically assigned.
   Read/write  boolean.
   
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

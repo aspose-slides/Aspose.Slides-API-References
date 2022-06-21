@@ -1,17 +1,22 @@
 ---
 title: setSymbol
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/marker/setsymbol/
 ---
 
-# setSymbol(int) method
+## setSymbol(int) method
 
  Represents the marker style in a line chart, scatter chart, or radar chart.
  Read/write  MarkerStyleType.
  
 
-##  Returns
+### Returns
 MarkerStyleType
+
+
+---
 
 

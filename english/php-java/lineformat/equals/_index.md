@@ -1,22 +1,27 @@
 ---
 title: equals
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/lineformat/equals/
 ---
 
-# equals(com.aspose.slides.ILineFormat) method
+## equals(com.aspose.slides.ILineFormat) method
 
  Determines whether the two LineFormat instances are equal.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | lineFormat | The LineFormat to compare with the current LineFormat. |
 
-##  Returns
+### Returns
 true if the specified LineFormat is equal to the current LineFormat; otherwise, false.
+
+
+---
 
 

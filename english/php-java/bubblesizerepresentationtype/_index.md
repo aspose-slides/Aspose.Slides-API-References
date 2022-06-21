@@ -1,19 +1,21 @@
 ---
 title: BubbleSizeRepresentationType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/bubblesizerepresentationtype/
 ---
 
-# BubbleSizeRepresentationType class
+## BubbleSizeRepresentationType class
 
  Specifies the possible ways to represent data as bubble chart sizes.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Area | Specifies the area of the bubbles shall be proportional to the bubble size value. |
-| Width | Specifies the radius of the bubbles shall be proportional to the bubble size value. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Area | 0 | Specifies the area of the bubbles shall be proportional to the bubble size value. |
+| Width | 1 | Specifies the radius of the bubbles shall be proportional to the bubble size value. |
 

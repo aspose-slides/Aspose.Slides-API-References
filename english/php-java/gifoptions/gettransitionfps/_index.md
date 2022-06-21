@@ -1,11 +1,13 @@
 ---
 title: getTransitionFps
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/gifoptions/gettransitionfps/
 ---
 
-# getTransitionFps() method
+## getTransitionFps() method
 
  Gets or sets transition FPS [frames/sec]
  The default value is 25.
@@ -24,5 +26,8 @@ url: /php-java/gifoptions/gettransitionfps/
     }
   }
 ```
+
+
+---
 
 

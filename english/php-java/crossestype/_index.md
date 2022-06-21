@@ -1,20 +1,22 @@
 ---
 title: CrossesType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/crossestype/
 ---
 
-# CrossesType class
+## CrossesType class
 
  Determines where axis will cross.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| AxisCrossesAtZero | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
-| Custom | Custom value from property CrossAt |
-| Maximum | The axis crosses at the maximum value. |
+| Name | Value | Description |
+| --- | --- | --- |
+| AxisCrossesAtZero | 0 | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
+| Custom | 2 | Custom value from property CrossAt |
+| Maximum | 1 | The axis crosses at the maximum value. |
 

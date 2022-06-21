@@ -1,17 +1,22 @@
 ---
 title: getOverrideTheme
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/masterthememanager/getoverridetheme/
 ---
 
-# getOverrideTheme() method
+## getOverrideTheme() method
 
  Returns the overriding theme object.
  Read/write  IMasterTheme.
  
 
-##  Returns
+### Returns
 IMasterTheme
+
+
+---
 
 

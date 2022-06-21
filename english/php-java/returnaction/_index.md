@@ -1,19 +1,21 @@
 ---
 title: ReturnAction
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/returnaction/
 ---
 
-# ReturnAction class
+## ReturnAction class
 
  Represents warning callback decision options.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Abort | Operation should be aborted. |
-| Continue | Operation should be continued. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Abort | 1 | Operation should be aborted. |
+| Continue | 0 | Operation should be continued. |
 

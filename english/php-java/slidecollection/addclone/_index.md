@@ -1,26 +1,31 @@
 ---
 title: addClone
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/slidecollection/addclone/
 ---
 
-# addClone(com.aspose.slides.ISlide) method
+## addClone(com.aspose.slides.ISlide) method
 
  Adds a copy of a specified slide to the end of the collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | sourceSlide | Slide to clone. When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use #addClone(ISlide,ILayoutSlide) or #addClone(ISlide,IMasterSlide,boolean) for cloning slides, IGlobalLayoutSlideCollection#addClone(ILayoutSlide) or IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) for cloning layouts and IMasterSlideCollection#addClone(IMasterSlide) for cloning masters. |
 
-##  Returns
+### Returns
 New slide.
 
 
-# addClone(com.aspose.slides.ISlide, com.aspose.slides.ISection) method
+---
+
+
+## addClone(com.aspose.slides.ISlide, com.aspose.slides.ISection) method
 
  Adds a copy of a specified slide to the end of the specified section.
  
@@ -41,37 +46,46 @@ New slide.
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | sourceSlide | Slide to clone. |
 | section | Section for a new slide. |
 
-##  Returns
+### Returns
 New slide.
 
-##  Exception
-PptxEditException When section parameter contains wrong or invalid value.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | PptxEditException | When section parameter contains wrong or invalid value. |
 
 
-# addClone(com.aspose.slides.ISlide, com.aspose.slides.ILayoutSlide) method
+---
+
+
+## addClone(com.aspose.slides.ISlide, com.aspose.slides.ILayoutSlide) method
 
  Adds a copy of a specified slide to the end of the collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | sourceSlide | Slide to clone. |
 | destLayout | Layout slide for a new slide. |
 
-##  Returns
+### Returns
 New slide.
 
 
-# addClone(com.aspose.slides.ISlide, com.aspose.slides.IMasterSlide, boolean) method
+---
+
+
+## addClone(com.aspose.slides.ISlide, com.aspose.slides.IMasterSlide, boolean) method
 
  Adds a copy of a specified source slide to the end of the collection.
  Appropriate layout will be selected automatically from the specified 
@@ -82,18 +96,24 @@ New slide.
  is false).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | sourceSlide | Slide to clone. |
 | destMaster | Master slide for a new slide. |
 | allowCloneMissingLayout | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
-##  Returns
+### Returns
 New slide.
 
-##  Exception
-PptxEditException Thrown if there is no appropriate layout in specified master and allowCloneMissingLayout is false.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | PptxEditException | Thrown if there is no appropriate layout in specified master and allowCloneMissingLayout is false. |
+
+
+---
 
 

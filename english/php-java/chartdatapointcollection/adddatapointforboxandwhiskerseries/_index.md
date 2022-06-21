@@ -1,23 +1,28 @@
 ---
 title: addDataPointForBoxAndWhiskerSeries
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/chartdatapointcollection/adddatapointforboxandwhiskerseries/
 ---
 
-# addDataPointForBoxAndWhiskerSeries(com.aspose.slides.IChartDataCell) method
+## addDataPointForBoxAndWhiskerSeries(com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chart type is BoxAndWhisker.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | value | Data point Value |
 
-##  Returns
+### Returns
 New data point.
+
+
+---
 
 

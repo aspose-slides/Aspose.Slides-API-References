@@ -1,17 +1,22 @@
 ---
 title: setDirection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/leftrightdirectiontransition/setdirection/
 ---
 
-# setDirection(int) method
+## setDirection(int) method
 
  Direction of transition.
  Read/write  TransitionLeftRightDirectionType.
  
 
-##  Returns
+### Returns
 TransitionLeftRightDirectionType
+
+
+---
 
 

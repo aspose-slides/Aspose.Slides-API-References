@@ -1,11 +1,13 @@
 ---
 title: insertSectionZoomFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 520
 url: /php-java/shapecollection/insertsectionzoomframe/
 ---
 
-# insertSectionZoomFrame(int, float, float, float, float, com.aspose.slides.ISection) method
+## insertSectionZoomFrame(int, float, float, float, float, com.aspose.slides.ISection) method
 
  Creates a new Section Zoom object and inserts into to a collection at the specified index.
  
@@ -24,9 +26,9 @@ url: /php-java/shapecollection/insertsectionzoomframe/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index at which Section Zoom frame should be inserted. |
 | x | X coordinate of a new Section Zoom frame float. |
@@ -35,14 +37,20 @@ url: /php-java/shapecollection/insertsectionzoomframe/
 | height | Height of a new Section Zoom frame float. |
 | section | The slide object referenced by the Section Zoom frame ISection. |
 
-##  Returns
+### Returns
 Created Section Zoom object ISectionZoomFrame.
 
-##  Exception
-ArgumentException Referenced section does not belong to the current presentation or does not contains any slides.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
 
 
-# insertSectionZoomFrame(int, float, float, float, float, com.aspose.slides.ISection, com.aspose.slides.IPPImage) method
+---
+
+
+## insertSectionZoomFrame(int, float, float, float, float, com.aspose.slides.ISection, com.aspose.slides.IPPImage) method
 
  Creates a new Section Zoom object and inserts it to a collection at the specified index.
  
@@ -62,9 +70,9 @@ ArgumentException Referenced section does not belong to the current presentation
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index at which Section Zoom frame should be inserted. |
 | x | X coordinate of a new Section Zoom frame float. |
@@ -74,10 +82,16 @@ ArgumentException Referenced section does not belong to the current presentation
 | section | The slide object referenced by the Section Zoom frame ISection. |
 | image | The image for the referenced slide IPPImage |
 
-##  Returns
+### Returns
 Created Section Zoom object ISectionZoomFrame.
 
-##  Exception
-ArgumentException Referenced section does not belong to the current presentation or does not contains any slides.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
+
+
+---
 
 

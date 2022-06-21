@@ -1,17 +1,22 @@
 ---
 title: setFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/control/setframe/
 ---
 
-# setFrame(com.aspose.slides.IShapeFrame) method
+## setFrame(com.aspose.slides.IShapeFrame) method
 
  Returns or sets control's frame.
  Read/write  IShapeFrame.
  
 
-##  Returns
+### Returns
 IShapeFrame
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getTargetSection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/sectionzoomframe/gettargetsection/
 ---
 
-# getTargetSection() method
+## getTargetSection() method
 
  Gets or sets the section object that the Section Zoom object links to.
  Read/write  ISection.
@@ -24,7 +26,10 @@ Next example demonstrates changing target section and creates new image for the 
   }
 ```
 
-##  Returns
+### Returns
 ISection
+
+
+---
 
 

@@ -1,18 +1,20 @@
 ---
 title: ExtraColorScheme
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/extracolorscheme/
 ---
 
-# ExtraColorScheme class
+## ExtraColorScheme class
 
  Represents an additional color scheme which can be assigned to a slide.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getColorScheme](/slides/php-java/extracolorscheme/getcolorscheme/)() | IColorScheme | Returns a color scheme. Read-only IColorScheme. |
-| [getName](/slides/php-java/extracolorscheme/getname/)() | String | Returns a name of this scheme. Read-only String. |
+| Name | Description |
+| --- | --- |
+| [getColorScheme](getcolorscheme)() | Returns a color scheme. Read-only IColorScheme. |
+| [getName](getname)() | Returns a name of this scheme. Read-only String. |

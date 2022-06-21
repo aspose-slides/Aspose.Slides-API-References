@@ -1,14 +1,19 @@
 ---
 title: getHorizontalBarState
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/normalviewproperties/gethorizontalbarstate/
 ---
 
-# getHorizontalBarState() method
+## getHorizontalBarState() method
 
  Specifies the state that the horizontal splitter bar should be shown in.
  A horizontal splitter bar separates the slide from the content region below the slide.
  
+
+
+---
 
 

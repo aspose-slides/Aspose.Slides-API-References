@@ -1,24 +1,26 @@
 ---
 title: SlideImageFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/slideimageformat/
 ---
 
-# SlideImageFormat class
+## SlideImageFormat class
 
  Determines format in which slide image will be saved for presentation to HTML export.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [SlideImageFormat](/slides/php-java/slideimageformat/slideimageformat/)() |  |
+| [SlideImageFormat](slideimageformat)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [bitmap](/slides/php-java/slideimageformat/bitmap/)(float, String) | SlideImageFormat | Slides should be converted to a raster image. |
-| [svg](/slides/php-java/slideimageformat/svg/)(SVGOptions) | SlideImageFormat | Slides should converted to a SVG format. |
+| Name | Description |
+| --- | --- |
+| [bitmap](bitmap)(float, String) | Slides should be converted to a raster image. |
+| [svg](svg)(SVGOptions) | Slides should converted to a SVG format. |

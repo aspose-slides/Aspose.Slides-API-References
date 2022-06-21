@@ -1,11 +1,13 @@
 ---
 title: getGlobal
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/webdocument/getglobal/
 ---
 
-# getGlobal() method
+## getGlobal() method
 
   Returns global storage of the document.
   Read-only  Storage.
@@ -22,7 +24,10 @@ Using this ( #getGlobal) property (implementation of  Storage interface) a
   $document->save();
 ```
 
-##  Returns
+### Returns
 Storage
+
+
+---
 
 

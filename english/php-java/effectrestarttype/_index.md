@@ -1,21 +1,23 @@
 ---
 title: EffectRestartType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/effectrestarttype/
 ---
 
-# EffectRestartType class
+## EffectRestartType class
 
  Represent restart types for timing.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Always |  |
-| Never |  |
-| NotDefined |  |
-| WhenNotActive |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Always | 0 |  |
+| Never | 2 |  |
+| NotDefined | -1 |  |
+| WhenNotActive | 1 |  |
 

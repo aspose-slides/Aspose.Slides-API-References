@@ -1,11 +1,13 @@
 ---
 title: deleteRow
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/mathmatrix/deleterow/
 ---
 
-# deleteRow(int) method
+## deleteRow(int) method
 
  Deletes the specified row
  
@@ -16,13 +18,19 @@ Example:
   $matrix->deleteRow(0);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | rowIndex | The zero-based index of the row to delete. |
 
-##  Exception
-ArgumentOutOfRangeException If rowIndex less than zero or greater or equal to the RowCount
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentOutOfRangeException | If rowIndex less than zero or greater or equal to the RowCount |
+
+
+---
 
 

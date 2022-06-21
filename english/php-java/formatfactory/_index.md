@@ -1,26 +1,28 @@
 ---
 title: FormatFactory
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/formatfactory/
 ---
 
-# FormatFactory class
+## FormatFactory class
 
  Allows to create formats via COM interface.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [FormatFactory](/slides/php-java/formatfactory/formatfactory/)() |  |
+| [FormatFactory](formatfactory)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [createParagraphFormat](/slides/php-java/formatfactory/createparagraphformat/)() | IParagraphFormat | Creates new IParagraphFormat. |
-| [createPortionFormat](/slides/php-java/formatfactory/createportionformat/)() | IPortionFormat | Creates new IPortionFormat. |
-| [createTextFrameFormat](/slides/php-java/formatfactory/createtextframeformat/)() | ITextFrameFormat | Creates new ITextFrameFormat. |
-| [getInstance](/slides/php-java/formatfactory/getinstance/)() | FormatFactory | Format factory static instance. Read-only FormatFactory. |
+| Name | Description |
+| --- | --- |
+| [createParagraphFormat](createparagraphformat)() | Creates new IParagraphFormat. |
+| [createPortionFormat](createportionformat)() | Creates new IPortionFormat. |
+| [createTextFrameFormat](createtextframeformat)() | Creates new ITextFrameFormat. |
+| [getInstance](getinstance)() | Format factory static instance. Read-only FormatFactory. |

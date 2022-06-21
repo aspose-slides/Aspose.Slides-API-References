@@ -1,20 +1,22 @@
 ---
 title: SlideSizeScaleType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/slidesizescaletype/
 ---
 
-# SlideSizeScaleType class
+## SlideSizeScaleType class
 
  Represents the scale type of slide content.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| DoNotScale | Do not scale. |
-| EnsureFit | Scale to ensure fit. |
-| Maximize | Maximize size of content. |
+| Name | Value | Description |
+| --- | --- | --- |
+| DoNotScale | 0 | Do not scale. |
+| EnsureFit | 1 | Scale to ensure fit. |
+| Maximize | 2 | Maximize size of content. |
 

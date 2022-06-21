@@ -1,17 +1,22 @@
 ---
 title: getScaleVertical
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 140
 url: /php-java/reflection/getscalevertical/
 ---
 
-# getScaleVertical() method
+## getScaleVertical() method
 
  Specifies the vertical scaling factor, negative scaling causes a flip. (percents)
  Read/write  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: setBaseJustification
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 210
 url: /php-java/mathmatrix/setbasejustification/
 ---
 
-# setBaseJustification(int) method
+## setBaseJustification(int) method
 
  Specifies the vertical justification respect to surrounding text. 
  Possible values are top, bottom, and center.
@@ -17,5 +19,8 @@ Example:
   $matrix = new MathMatrix(2, 3);
   $matrix->setBaseJustification(MathVerticalAlignment.Center);
 ```
+
+
+---
 
 

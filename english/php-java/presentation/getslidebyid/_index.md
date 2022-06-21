@@ -1,22 +1,27 @@
 ---
 title: getSlideById
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 310
 url: /php-java/presentation/getslidebyid/
 ---
 
-# getSlideById(long) method
+## getSlideById(long) method
 
  Returns a Slide, MasterSlide or LayoutSlide by Id.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | id | Id of a slide. |
 
-##  Returns
+### Returns
 IBaseSlide object.
+
+
+---
 
 

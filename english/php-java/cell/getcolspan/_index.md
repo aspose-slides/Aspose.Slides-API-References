@@ -1,11 +1,13 @@
 ---
 title: getColSpan
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/cell/getcolspan/
 ---
 
-# getColSpan() method
+## getColSpan() method
 
  Returns the number of grid columns in the parent table's table grid
  which shall be spanned by the current cell. This property allows cells
@@ -14,7 +16,10 @@ url: /php-java/cell/getcolspan/
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

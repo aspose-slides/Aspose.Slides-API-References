@@ -1,23 +1,25 @@
 ---
 title: LineFillFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/linefillformat/
 ---
 
-# LineFillFormat class
+## LineFillFormat class
 
  Represents properties for lines filling.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getFillType](/slides/php-java/linefillformat/getfilltype/)() | byte | Returns or sets the fill type. Read/write FillType. |
-| [getGradientFormat](/slides/php-java/linefillformat/getgradientformat/)() | IGradientFormat | Returns the gradient fill format. Read-only IGradientFormat. |
-| [getPatternFormat](/slides/php-java/linefillformat/getpatternformat/)() | IPatternFormat | Returns the pattern fill format. Read-only IPatternFormat. |
-| [getRotateWithShape](/slides/php-java/linefillformat/getrotatewithshape/)() | byte | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
-| [getSolidFillColor](/slides/php-java/linefillformat/getsolidfillcolor/)() | IColorFormat | Returns the color of a solid fill. Read-only IColorFormat. |
-| [setFillType](/slides/php-java/linefillformat/setfilltype/)(byte) | void | Returns or sets the fill type. Read/write FillType. |
-| [setRotateWithShape](/slides/php-java/linefillformat/setrotatewithshape/)(byte) | void | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
+| Name | Description |
+| --- | --- |
+| [getFillType](getfilltype)() | Returns or sets the fill type. Read/write FillType. |
+| [getGradientFormat](getgradientformat)() | Returns the gradient fill format. Read-only IGradientFormat. |
+| [getPatternFormat](getpatternformat)() | Returns the pattern fill format. Read-only IPatternFormat. |
+| [getRotateWithShape](getrotatewithshape)() | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
+| [getSolidFillColor](getsolidfillcolor)() | Returns the color of a solid fill. Read-only IColorFormat. |
+| [setFillType](setfilltype)(byte) | Returns or sets the fill type. Read/write FillType. |
+| [setRotateWithShape](setrotatewithshape)(byte) | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |

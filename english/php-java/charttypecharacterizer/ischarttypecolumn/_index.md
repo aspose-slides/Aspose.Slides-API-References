@@ -1,11 +1,13 @@
 ---
 title: isChartTypeColumn
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/charttypecharacterizer/ischarttypecolumn/
 ---
 
-# isChartTypeColumn(int) method
+## isChartTypeColumn(int) method
 
  Return true if chartType is one of Column subtypes.
  Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
@@ -30,7 +32,10 @@ url: /php-java/charttypecharacterizer/ischarttypecolumn/
   ChartType#Pyramid3D.
  
 
-##  Returns
+### Returns
 ChartType#Pyramid3D
+
+
+---
 
 

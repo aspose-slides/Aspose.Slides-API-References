@@ -1,27 +1,29 @@
 ---
 title: RectangleAlignment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/rectanglealignment/
 ---
 
-# RectangleAlignment class
+## RectangleAlignment class
 
  Defines 2-dimension allignment.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Bottom |  |
-| BottomLeft |  |
-| BottomRight |  |
-| Center |  |
-| Left |  |
-| NotDefined |  |
-| Right |  |
-| Top |  |
-| TopLeft |  |
-| TopRight |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Bottom | 7 |  |
+| BottomLeft | 6 |  |
+| BottomRight | 8 |  |
+| Center | 4 |  |
+| Left | 3 |  |
+| NotDefined | -1 |  |
+| Right | 5 |  |
+| Top | 1 |  |
+| TopLeft | 0 |  |
+| TopRight | 2 |  |
 

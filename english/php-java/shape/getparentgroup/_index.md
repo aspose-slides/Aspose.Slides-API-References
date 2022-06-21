@@ -1,11 +1,13 @@
 ---
 title: getParentGroup
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 180
 url: /php-java/shape/getparentgroup/
 ---
 
-# getParentGroup() method
+## getParentGroup() method
 
  Returns parent GroupShape object if shape is grouped. Otherwise returns null.
  Read-only  IGroupShape.
@@ -13,7 +15,10 @@ url: /php-java/shape/getparentgroup/
  Property ( #isGrouped) determines whether the shape is grouped.
  
 
-##  Returns
+### Returns
 #isGrouped
+
+
+---
 
 

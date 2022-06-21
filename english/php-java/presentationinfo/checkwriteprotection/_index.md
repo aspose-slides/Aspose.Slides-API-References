@@ -1,11 +1,13 @@
 ---
 title: checkWriteProtection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/presentationinfo/checkwriteprotection/
 ---
 
-# checkWriteProtection(java.lang.String) method
+## checkWriteProtection(java.lang.String) method
 
  Checks whether a password to modify is correct for a write protected presentation.
  
@@ -18,16 +20,22 @@ url: /php-java/presentationinfo/checkwriteprotection/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | password | The password to check. 1. You should check the ( #isWriteProtected) property before calling this method. 2. When password is null or empty, this method returns false. |
 
-##  Returns
+### Returns
 True if the presentation is write protected and the password is correct. False otherwise.
 
-##  Exception
-InvalidOperationException If a presentation is protected by a password to open or format does not support write protection
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | InvalidOperationException | If a presentation is protected by a password to open or format does not support write protection |
+
+
+---
 
 

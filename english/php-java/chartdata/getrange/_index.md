@@ -1,11 +1,13 @@
 ---
 title: getRange
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/chartdata/getrange/
 ---
 
-# getRange() method
+## getRange() method
 
   Gets chart data range.
   
@@ -23,10 +25,16 @@ url: /php-java/chartdata/getrange/
   }
 ```
 
-##  Returns
+### Returns
 Cells data range formula. E.g: "Sheet1!$A$1:$C$4"
 
-##  Exception
-InvalidOperationException Chart doesn't use workbook as a data source
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | InvalidOperationException | Chart doesn't use workbook as a data source |
+
+
+---
 
 

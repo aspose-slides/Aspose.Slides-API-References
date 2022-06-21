@@ -1,17 +1,22 @@
 ---
 title: getColor
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/glow/getcolor/
 ---
 
-# getColor() method
+## getColor() method
 
  Color format.
  Read-only  IColorFormat.
  
 
-##  Returns
+### Returns
 IColorFormat
+
+
+---
 
 

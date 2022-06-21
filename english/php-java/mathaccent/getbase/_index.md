@@ -1,11 +1,13 @@
 ---
 title: getBase
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/mathaccent/getbase/
 ---
 
-# getBase() method
+## getBase() method
 
  The argument to which the accent was applied
  
@@ -15,5 +17,8 @@ Example:
   $accent = new MathematicalText("x")->accent('~');
   $base = $accent->getBase();
 ```
+
+
+---
 
 

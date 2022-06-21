@@ -1,17 +1,22 @@
 ---
 title: getFieldOfViewAngle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/camera/getfieldofviewangle/
 ---
 
-# getFieldOfViewAngle() method
+## getFieldOfViewAngle() method
 
  Camera FOV (0-180 deg, field of View).
  Read/write  float.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

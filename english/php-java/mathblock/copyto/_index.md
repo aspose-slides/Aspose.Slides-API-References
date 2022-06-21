@@ -1,11 +1,13 @@
 ---
 title: copyTo
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/mathblock/copyto/
 ---
 
-# copyTo(com.aspose.slides.IMathElement[], int) method
+## copyTo(com.aspose.slides.IMathElement[], int) method
 
  Copy to specified array.
  
@@ -20,11 +22,14 @@ Example:
   $mathBlock->copyTo($destinationArray, 0);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | array | Array to copy to. |
 | arrayIndex | Index to begin copying. |
+
+
+---
 
 

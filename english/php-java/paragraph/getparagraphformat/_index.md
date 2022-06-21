@@ -1,11 +1,13 @@
 ---
 title: getParagraphFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/paragraph/getparagraphformat/
 ---
 
-# getParagraphFormat() method
+## getParagraphFormat() method
 
  Returns the formatting object for this paragraph.
  Read-only  IParagraphFormat.
@@ -13,7 +15,10 @@ url: /php-java/paragraph/getparagraphformat/
  In order to get the effective values including inherited ones use the  ParagraphFormat#getEffective method.
  
 
-##  Returns
+### Returns
 ParagraphFormat#getEffective
+
+
+---
 
 

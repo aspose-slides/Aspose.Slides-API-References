@@ -1,11 +1,13 @@
 ---
 title: getLayoutTargetType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/chartplotarea/getlayouttargettype/
 ---
 
-# getLayoutTargetType() method
+## getLayoutTargetType() method
 
   If layout of the plot area defined manually this property specifies whether 
   to layout the plot area by its inside (not including axis and axis labels) or outside
@@ -45,7 +47,10 @@ url: /php-java/chartplotarea/getlayouttargettype/
   }
 ```
 
-##  Returns
+### Returns
 #setLayoutTargetType(int)
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getBase
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/mathlimit/getbase/
 ---
 
-# getBase() method
+## getBase() method
 
  Base argument
  
@@ -15,5 +17,8 @@ Example:
   $limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("???"));
   $baseArg = $limitElement->getBase();
 ```
+
+
+---
 
 

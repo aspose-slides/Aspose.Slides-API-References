@@ -1,22 +1,24 @@
 ---
 title: PatternFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/patternformat/
 ---
 
-# PatternFormat class
+## PatternFormat class
 
  Represents a pattern to fill a shape.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getBackColor](/slides/php-java/patternformat/getbackcolor/)() | IColorFormat | Returns the background pattern color. Read-only IColorFormat. |
-| [getForeColor](/slides/php-java/patternformat/getforecolor/)() | IColorFormat | Returns the foreground pattern color. Read-only IColorFormat. |
-| [getPatternStyle](/slides/php-java/patternformat/getpatternstyle/)() | byte | Returns or sets the pattern style. Read/write PatternStyle. |
-| [getTileImage](/slides/php-java/patternformat/gettileimage/)(Color, Color) | BufferedImage | Creates a tile image for the pattern fill with a specified colors. |
-| [getTileImage](/slides/php-java/patternformat/gettileimage/)(Color) | BufferedImage | Creates a tile image for the pattern fill. |
-| [setPatternStyle](/slides/php-java/patternformat/setpatternstyle/)(byte) | void | Returns or sets the pattern style. Read/write PatternStyle. |
+| Name | Description |
+| --- | --- |
+| [getBackColor](getbackcolor)() | Returns the background pattern color. Read-only IColorFormat. |
+| [getForeColor](getforecolor)() | Returns the foreground pattern color. Read-only IColorFormat. |
+| [getPatternStyle](getpatternstyle)() | Returns or sets the pattern style. Read/write PatternStyle. |
+| [getTileImage](gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
+| [getTileImage](gettileimage)(Color) | Creates a tile image for the pattern fill. |
+| [setPatternStyle](setpatternstyle)(byte) | Returns or sets the pattern style. Read/write PatternStyle. |

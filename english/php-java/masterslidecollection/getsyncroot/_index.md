@@ -1,17 +1,22 @@
 ---
 title: getSyncRoot
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/masterslidecollection/getsyncroot/
 ---
 
-# getSyncRoot() method
+## getSyncRoot() method
 
  Returns a synchronization root.
  Read-only  Object.
  
 
-##  Returns
+### Returns
 Object
+
+
+---
 
 

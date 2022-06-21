@@ -1,17 +1,22 @@
 ---
 title: getLatinFont
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/fonts/getlatinfont/
 ---
 
-# getLatinFont() method
+## getLatinFont() method
 
  Returns or sets the Latin font.
  Read/write  IFontData.
  
 
-##  Returns
+### Returns
 IFontData
+
+
+---
 
 

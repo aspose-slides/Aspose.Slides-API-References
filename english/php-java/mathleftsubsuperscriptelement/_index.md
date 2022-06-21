@@ -1,11 +1,13 @@
 ---
 title: MathLeftSubSuperscriptElement
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathleftsubsuperscriptelement/
 ---
 
-# MathLeftSubSuperscriptElement class
+## MathLeftSubSuperscriptElement class
 
  Specifies the Sub-Superscript object, which consists of a base 
  and a subscript and superscript placed to the left of the base.
@@ -21,14 +23,14 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathLeftSubSuperscriptElement](/slides/php-java/mathleftsubsuperscriptelement/mathleftsubsuperscriptelement/)(IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathLeftSubSuperscriptElement class. |
+| [MathLeftSubSuperscriptElement](mathleftsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathLeftSubSuperscriptElement class. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getChildren](/slides/php-java/mathleftsubsuperscriptelement/getchildren/)() | IMathElement | Get children elements |
-| [getSubscript](/slides/php-java/mathleftsubsuperscriptelement/getsubscript/)() | IMathElement | Subscript |
-| [getSuperscript](/slides/php-java/mathleftsubsuperscriptelement/getsuperscript/)() | IMathElement | Superscript |
+| Name | Description |
+| --- | --- |
+| [getChildren](getchildren)() | Get children elements |
+| [getSubscript](getsubscript)() | Subscript |
+| [getSuperscript](getsuperscript)() | Superscript |

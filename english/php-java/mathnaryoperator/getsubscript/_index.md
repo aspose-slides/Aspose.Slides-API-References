@@ -1,11 +1,13 @@
 ---
 title: getSubscript
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/mathnaryoperator/getsubscript/
 ---
 
-# getSubscript() method
+## getSubscript() method
 
  Specifies a subscript argument that, for example, in the case of an integral, sets the lower limit
  
@@ -15,5 +17,8 @@ Example:
   $naryOperator = new MathematicalText("x")->nary(MathNaryOperatorTypes.Summation, "x=1", "100");
   $subscriptArg = $naryOperator->getSubscript();
 ```
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getContentStatus
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 130
 url: /php-java/documentproperties/getcontentstatus/
 ---
 
-# getContentStatus() method
+## getContentStatus() method
 
  Returns or sets the content status of a presentation.
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: setHideSubscript
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 150
 url: /php-java/mathnaryoperator/sethidesubscript/
 ---
 
-# setHideSubscript(boolean) method
+## setHideSubscript(boolean) method
 
  Hide Subscript
  
@@ -15,5 +17,8 @@ Example:
   $naryOperator = new MathematicalText("x")->nary(MathNaryOperatorTypes.Summation, "x=1", "100");
   $naryOperator->setHideSubscript(true);
 ```
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: MathBox
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathbox/
 ---
 
-# MathBox class
+## MathBox class
 
  Specifies the logical boxing (packaging) of mathematical element.
  For example, a boxed object can serve as an operator emulator with or without an alignment point, 
@@ -20,23 +22,23 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathBox](/slides/php-java/mathbox/mathbox/)(IMathElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(IMathElement) | Initializes MathBox with the specified element as an argument |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getAlignmentPoint](/slides/php-java/mathbox/getalignmentpoint/)() | boolean | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
-| [getBase](/slides/php-java/mathbox/getbase/)() | IMathElement | Base argument |
-| [getChildren](/slides/php-java/mathbox/getchildren/)() | IMathElement | Get children elements |
-| [getDifferential](/slides/php-java/mathbox/getdifferential/)() | boolean | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
-| [getExplicitBreak](/slides/php-java/mathbox/getexplicitbreak/)() | byte | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
-| [getNoBreak](/slides/php-java/mathbox/getnobreak/)() | boolean | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
-| [getOperatorEmulator](/slides/php-java/mathbox/getoperatoremulator/)() | boolean | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
-| [setAlignmentPoint](/slides/php-java/mathbox/setalignmentpoint/)(boolean) | void | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
-| [setDifferential](/slides/php-java/mathbox/setdifferential/)(boolean) | void | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
-| [setExplicitBreak](/slides/php-java/mathbox/setexplicitbreak/)(byte) | void | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
-| [setNoBreak](/slides/php-java/mathbox/setnobreak/)(boolean) | void | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
-| [setOperatorEmulator](/slides/php-java/mathbox/setoperatoremulator/)(boolean) | void | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
+| Name | Description |
+| --- | --- |
+| [getAlignmentPoint](getalignmentpoint)() | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
+| [getBase](getbase)() | Base argument |
+| [getChildren](getchildren)() | Get children elements |
+| [getDifferential](getdifferential)() | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
+| [getExplicitBreak](getexplicitbreak)() | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
+| [getNoBreak](getnobreak)() | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
+| [getOperatorEmulator](getoperatoremulator)() | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
+| [setAlignmentPoint](setalignmentpoint)(boolean) | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
+| [setDifferential](setdifferential)(boolean) | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
+| [setExplicitBreak](setexplicitbreak)(byte) | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
+| [setNoBreak](setnobreak)(boolean) | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
+| [setOperatorEmulator](setoperatoremulator)(boolean) | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |

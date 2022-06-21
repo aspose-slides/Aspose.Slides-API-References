@@ -1,17 +1,22 @@
 ---
 title: getShadowColor
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/outershadow/getshadowcolor/
 ---
 
-# getShadowColor() method
+## getShadowColor() method
 
  Color of shadow.
  Read-only  IColorFormat.
  
 
-##  Returns
+### Returns
 IColorFormat
+
+
+---
 
 

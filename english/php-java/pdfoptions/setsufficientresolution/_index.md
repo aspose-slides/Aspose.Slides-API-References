@@ -1,11 +1,13 @@
 ---
 title: setSufficientResolution
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 310
 url: /php-java/pdfoptions/setsufficientresolution/
 ---
 
-# setSufficientResolution(float) method
+## setSufficientResolution(float) method
 
  Returns or sets a value determining resolution of images inside PDF document.
  Read/write  float.
@@ -16,7 +18,10 @@ url: /php-java/pdfoptions/setsufficientresolution/
  The default value is 96.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: Blur
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/blur/
 ---
 
-# Blur class
+## Blur class
 
  Represents a Blur effect that is applied to the entire shape, including its fill.
  All color channels, including alpha, are affected.
@@ -13,12 +15,12 @@ url: /php-java/blur/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/blur/equals/)(Object) | boolean | Determines whether the specified Blur is equal to the current Blur. |
-| [getEffective](/slides/php-java/blur/geteffective/)() | IBlurEffectiveData | Gets effective Blur effect data with the inheritance applied. |
-| [getGrow](/slides/php-java/blur/getgrow/)() | boolean | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
-| [getRadius](/slides/php-java/blur/getradius/)() | double | Returns or sets blur radius. Read/write double. |
-| [hashCode](/slides/php-java/blur/hashcode/)() | int | Serves as a hash function for a particular type. |
-| [setGrow](/slides/php-java/blur/setgrow/)(boolean) | void | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
-| [setRadius](/slides/php-java/blur/setradius/)(double) | void | Returns or sets blur radius. Read/write double. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified Blur is equal to the current Blur. |
+| [getEffective](geteffective)() | Gets effective Blur effect data with the inheritance applied. |
+| [getGrow](getgrow)() | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
+| [getRadius](getradius)() | Returns or sets blur radius. Read/write double. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| [setGrow](setgrow)(boolean) | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
+| [setRadius](setradius)(double) | Returns or sets blur radius. Read/write double. |

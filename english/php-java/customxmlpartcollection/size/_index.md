@@ -1,17 +1,22 @@
 ---
 title: size
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 140
 url: /php-java/customxmlpartcollection/size/
 ---
 
-# size() method
+## size() method
 
  Returns count of custom xml parts in the collection.
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getExportHiddenSlides
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/xamloptions/getexporthiddenslides/
 ---
 
-# getExportHiddenSlides() method
+## getExportHiddenSlides() method
 
  Determines whether hidden slides will be exported.
  
@@ -23,5 +25,8 @@ url: /php-java/xamloptions/getexporthiddenslides/
     }
   }
 ```
+
+
+---
 
 

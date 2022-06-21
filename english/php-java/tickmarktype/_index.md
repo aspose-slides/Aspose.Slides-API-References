@@ -1,21 +1,23 @@
 ---
 title: TickMarkType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/tickmarktype/
 ---
 
-# TickMarkType class
+## TickMarkType class
 
  Represents the tick mark type for the specified axis.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Cross | Specifies the tick marks shall cross the axis. |
-| Inside | Specifies the tick marks shall be inside the plot area. |
-| None | Specifies there shall be no tick marks. |
-| Outside | Specifies the tick marks shall be outside the plot area. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Cross | 0 | Specifies the tick marks shall cross the axis. |
+| Inside | 1 | Specifies the tick marks shall be inside the plot area. |
+| None | 2 | Specifies there shall be no tick marks. |
+| Outside | 3 | Specifies the tick marks shall be outside the plot area. |
 

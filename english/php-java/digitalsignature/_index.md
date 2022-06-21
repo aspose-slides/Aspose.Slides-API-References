@@ -1,28 +1,30 @@
 ---
 title: DigitalSignature
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/digitalsignature/
 ---
 
-# DigitalSignature class
+## DigitalSignature class
 
  Digital signature in signed file.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [DigitalSignature](/slides/php-java/digitalsignature/digitalsignature/)(byte[], String) | Creates a new DigitalSignature object with the specified certificate. |
-| [DigitalSignature](/slides/php-java/digitalsignature/digitalsignature/)(String, String) | Creates a new DigitalSignature object with the specified certificate file path and password. |
+| [DigitalSignature](digitalsignature)(byte[], String) | Creates a new DigitalSignature object with the specified certificate. |
+| [DigitalSignature](digitalsignature)(String, String) | Creates a new DigitalSignature object with the specified certificate file path and password. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getCertificate](/slides/php-java/digitalsignature/getcertificate/)() | byte | Certificate object that was used to sign the document. Read-only byte[]. |
-| [getComments](/slides/php-java/digitalsignature/getcomments/)() | String | The purpose of signature. Read/write String. |
-| [getSignTime](/slides/php-java/digitalsignature/getsigntime/)() | Date | The time when the document was signed. Read-only java.util.Date. |
-| [isValid](/slides/php-java/digitalsignature/isvalid/)() | boolean | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
-| [setComments](/slides/php-java/digitalsignature/setcomments/)(String) | void | The purpose of signature. Read/write String. |
+| Name | Description |
+| --- | --- |
+| [getCertificate](getcertificate)() | Certificate object that was used to sign the document. Read-only byte[]. |
+| [getComments](getcomments)() | The purpose of signature. Read/write String. |
+| [getSignTime](getsigntime)() | The time when the document was signed. Read-only java.util.Date. |
+| [isValid](isvalid)() | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
+| [setComments](setcomments)(String) | The purpose of signature. Read/write String. |

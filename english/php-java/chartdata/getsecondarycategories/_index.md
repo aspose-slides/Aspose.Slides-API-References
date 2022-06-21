@@ -1,11 +1,13 @@
 ---
 title: getSecondaryCategories
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/chartdata/getsecondarycategories/
 ---
 
-# getSecondaryCategories() method
+## getSecondaryCategories() method
 
  Gets the secondary categories if  #getUseSecondaryCategories/ #setUseSecondaryCategories(boolean) property is true.
  Read-only  IChartCategoryCollection.
@@ -26,7 +28,10 @@ url: /php-java/chartdata/getsecondarycategories/
   // related categories are series.getChart().getChartData().getCategories()
 ```
 
-##  Returns
+### Returns
 #getCategories
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getWidth
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 180
 url: /php-java/lineformat/getwidth/
 ---
 
-# getWidth() method
+## getWidth() method
 
  Returns or sets the width of a line.
  Read/write  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

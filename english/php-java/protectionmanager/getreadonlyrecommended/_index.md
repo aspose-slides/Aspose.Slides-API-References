@@ -1,11 +1,13 @@
 ---
 title: getReadOnlyRecommended
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/protectionmanager/getreadonlyrecommended/
 ---
 
-# getReadOnlyRecommended() method
+## getReadOnlyRecommended() method
 
  Gets or sets read-only recommendation.
  Read/write  boolean.
@@ -18,7 +20,10 @@ url: /php-java/protectionmanager/getreadonlyrecommended/
   $pres->save("ReadOnlyPresentation.pptx", SaveFormat.Pptx);
 ```
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

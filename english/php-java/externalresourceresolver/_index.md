@@ -1,24 +1,26 @@
 ---
 title: ExternalResourceResolver
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/externalresourceresolver/
 ---
 
-# ExternalResourceResolver class
+## ExternalResourceResolver class
 
  Callback class used to resolve external resources during Html, Svg documents import.
  Using this resolver could create a vulnerability when client provided HTML or SVG file will make server software to obtain local or network file. Use with caution. It is recommended not to specify ExternalResourceResolver at all (only embedded objects will be read) or create some subclass which checks if specified uri is valid.
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [ExternalResourceResolver](/slides/php-java/externalresourceresolver/externalresourceresolver/)() |  |
+| [ExternalResourceResolver](externalresourceresolver)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getEntity](/slides/php-java/externalresourceresolver/getentity/)(String) | InputStream | Maps a URI to an object containing the actual resource. |
-| [resolveUri](/slides/php-java/externalresourceresolver/resolveuri/)(String, String) | String | Resolves the absolute URI from the base and relative URIs. |
+| Name | Description |
+| --- | --- |
+| [getEntity](getentity)(String) | Maps a URI to an object containing the actual resource. |
+| [resolveUri](resolveuri)(String, String) | Resolves the absolute URI from the base and relative URIs. |

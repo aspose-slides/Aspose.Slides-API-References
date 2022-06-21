@@ -1,17 +1,22 @@
 ---
 title: getGradientStops
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/gradientformat/getgradientstops/
 ---
 
-# getGradientStops() method
+## getGradientStops() method
 
  Returns the collection of gradient stops.
  Read-only  IGradientStopCollection.
  
 
-##  Returns
+### Returns
 IGradientStopCollection
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getExportHiddenSlides
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/gifoptions/getexporthiddenslides/
 ---
 
-# getExportHiddenSlides() method
+## getExportHiddenSlides() method
 
  Determines whether hidden slides will be exported.
  The default value is false. 
@@ -24,5 +26,8 @@ url: /php-java/gifoptions/getexporthiddenslides/
     }
   }
 ```
+
+
+---
 
 

@@ -1,23 +1,25 @@
 ---
 title: CurrentThreadSettings
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/currentthreadsettings/
 ---
 
-# CurrentThreadSettings class
+## CurrentThreadSettings class
 Auxiliary class that allows to define default Locale for current thread
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [CurrentThreadSettings](/slides/php-java/currentthreadsettings/currentthreadsettings/)() |  |
+| [CurrentThreadSettings](currentthreadsettings)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getLocale](/slides/php-java/currentthreadsettings/getlocale/)() | Locale | Returns default Locale for current thread. |
-| [setLocale](/slides/php-java/currentthreadsettings/setlocale/)(Locale) | void | Sets default Locale for current thread. |
-| [setLocale](/slides/php-java/currentthreadsettings/setlocale/)(String) | void | Sets default Locale for current thread. |
+| Name | Description |
+| --- | --- |
+| [getLocale](getlocale)() | Returns default Locale for current thread. |
+| [setLocale](setlocale)(Locale) | Sets default Locale for current thread. |
+| [setLocale](setlocale)(String) | Sets default Locale for current thread. |

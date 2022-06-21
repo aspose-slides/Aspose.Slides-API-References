@@ -1,26 +1,28 @@
 ---
 title: WebDocument
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/webdocument/
 ---
 
-# WebDocument class
+## WebDocument class
 
  Represents a transition form of the presentation for saving into a web format.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [WebDocument](/slides/php-java/webdocument/webdocument/)(WebDocumentOptions) | WebDocument constructor. |
+| [WebDocument](webdocument)(WebDocumentOptions) | WebDocument constructor. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getGlobal](/slides/php-java/webdocument/getglobal/)() | Storage | Returns global storage of the document. Read-only Storage. |
-| [getInput](/slides/php-java/webdocument/getinput/)() | Input | Returns collection of input elements (templates) of the document. Read-only Input( #getInput). |
-| [getOutput](/slides/php-java/webdocument/getoutput/)() | Output | Returns collection of output elements of the document. Read-only Output( #getOutput). |
-| [save](/slides/php-java/webdocument/save/)() | void | Saves the document output. |
+| Name | Description |
+| --- | --- |
+| [getGlobal](getglobal)() | Returns global storage of the document. Read-only Storage. |
+| [getInput](getinput)() | Returns collection of input elements (templates) of the document. Read-only Input( #getInput). |
+| [getOutput](getoutput)() | Returns collection of output elements of the document. Read-only Output( #getOutput). |
+| [save](save)() | Saves the document output. |

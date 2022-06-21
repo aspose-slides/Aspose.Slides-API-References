@@ -1,11 +1,13 @@
 ---
 title: MathRadical
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathradical/
 ---
 
-# MathRadical class
+## MathRadical class
 
  Specifies the radical function, consisting of a base, and an optional degree.
  Example of radical object is ??.
@@ -18,16 +20,16 @@ Example:
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MathRadical](/slides/php-java/mathradical/mathradical/)(IMathElement, IMathElement) | Initializes a new instance of the MathRadical class. |
+| [MathRadical](mathradical)(IMathElement, IMathElement) | Initializes a new instance of the MathRadical class. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getBase](/slides/php-java/mathradical/getbase/)() | IMathElement | Base argument |
-| [getChildren](/slides/php-java/mathradical/getchildren/)() | IMathElement | Get children elements |
-| [getDegree](/slides/php-java/mathradical/getdegree/)() | IMathElement | Degree argument |
-| [getHideDegree](/slides/php-java/mathradical/gethidedegree/)() | boolean | Hide degree When is true, the degree is not shown, as in ?? |
-| [setHideDegree](/slides/php-java/mathradical/sethidedegree/)(boolean) | void | Hide degree When is true, the degree is not shown, as in ?? |
+| Name | Description |
+| --- | --- |
+| [getBase](getbase)() | Base argument |
+| [getChildren](getchildren)() | Get children elements |
+| [getDegree](getdegree)() | Degree argument |
+| [getHideDegree](gethidedegree)() | Hide degree When is true, the degree is not shown, as in ?? |
+| [setHideDegree](sethidedegree)(boolean) | Hide degree When is true, the degree is not shown, as in ?? |

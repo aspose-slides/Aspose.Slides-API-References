@@ -1,11 +1,13 @@
 ---
 title: removeAt
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/fontfallbackrule/removeat/
 ---
 
-# removeAt(int) method
+## removeAt(int) method
 
  Removes the FallBack font at the specified index of the list.
  
@@ -18,10 +20,13 @@ url: /php-java/fontfallbackrule/removeat/
   $newRule->remove(2);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index of the font to remove. |
+
+
+---
 
 

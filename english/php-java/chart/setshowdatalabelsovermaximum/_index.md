@@ -1,17 +1,22 @@
 ---
 title: setShowDataLabelsOverMaximum
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 300
 url: /php-java/chart/setshowdatalabelsovermaximum/
 ---
 
-# setShowDataLabelsOverMaximum(boolean) method
+## setShowDataLabelsOverMaximum(boolean) method
 
  Specifies data labels over the maximum of the chart shall be shown.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

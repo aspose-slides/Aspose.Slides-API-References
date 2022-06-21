@@ -1,11 +1,17 @@
 ---
 title: RotationEffect
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/rotationeffect/rotationeffect/
 ---
 
-# RotationEffect() constructor
+## RotationEffect() constructor
 
+
+ 
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: addSummaryZoomSection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/summaryzoomsectioncollection/addsummaryzoomsection/
 ---
 
-# addSummaryZoomSection(com.aspose.slides.ISection) method
+## addSummaryZoomSection(com.aspose.slides.ISection) method
 
  Creates new Summary Zoom Section object and add it to the collection
  
@@ -24,16 +26,22 @@ The example demonstrates getting Summary Zoom Section element by index:
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | section | Section for a new Summary Zoom Section element ISection If an element for this section already exists in the collection, the existing element is returned. |
 
-##  Returns
+### Returns
 Added ISummaryZoomFrame element
 
-##  Exception
-ArgumentException Referenced section does not belong to the current presentation or does not contains any slides.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Referenced section does not belong to the current presentation or does not contains any slides. |
+
+
+---
 
 

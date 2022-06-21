@@ -1,11 +1,13 @@
 ---
 title: isChartTypePie
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/charttypecharacterizer/ischarttypepie/
 ---
 
-# isChartTypePie(int) method
+## isChartTypePie(int) method
 
  Return true if chartType is one of Pie subtypes.
  Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
@@ -17,7 +19,10 @@ url: /php-java/charttypecharacterizer/ischarttypepie/
   ChartType#PieOfPie.
  
 
-##  Returns
+### Returns
 ChartType#PieOfPie
+
+
+---
 
 

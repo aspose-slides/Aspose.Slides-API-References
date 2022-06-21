@@ -1,21 +1,23 @@
 ---
 title: TextCapType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/textcaptype/
 ---
 
-# TextCapType class
+## TextCapType class
 
  Represents the type of text capitalisation.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| All |  |
-| None |  |
-| NotDefined |  |
-| Small |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| All | 2 |  |
+| None | 0 |  |
+| NotDefined | -1 |  |
+| Small | 1 |  |
 

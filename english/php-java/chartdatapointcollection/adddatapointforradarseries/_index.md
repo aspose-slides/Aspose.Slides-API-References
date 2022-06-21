@@ -1,39 +1,47 @@
 ---
 title: addDataPointForRadarSeries
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 270
 url: /php-java/chartdatapointcollection/adddatapointforradarseries/
 ---
 
-# addDataPointForRadarSeries(com.aspose.slides.IChartDataCell) method
+## addDataPointForRadarSeries(com.aspose.slides.IChartDataCell) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Radar subtypes (see also  ChartTypeCharacterizer#isChartTypeRadar(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | value | Data point Value |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeRadar(int)
 
 
-# addDataPointForRadarSeries(double) method
+---
+
+
+## addDataPointForRadarSeries(double) method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Radar subtypes (see also  ChartTypeCharacterizer#isChartTypeRadar(int) method).
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | value | Data point Value |
 
-##  Returns
+### Returns
 ChartTypeCharacterizer#isChartTypeRadar(int)
+
+
+---
 
 

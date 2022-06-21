@@ -1,20 +1,22 @@
 ---
 title: FontCollectionIndex
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/fontcollectionindex/
 ---
 
-# FontCollectionIndex class
+## FontCollectionIndex class
 
  Represents font's index in a collection.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Major |  |
-| Minor |  |
-| None |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Major | 2 |  |
+| Minor | 1 |  |
+| None | 0 |  |
 

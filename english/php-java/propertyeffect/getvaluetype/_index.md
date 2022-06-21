@@ -1,17 +1,22 @@
 ---
 title: getValueType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/propertyeffect/getvaluetype/
 ---
 
-# getValueType() method
+## getValueType() method
 
  Specifies the type of a property value.
  Read/write  PropertyValueType.
  
 
-##  Returns
+### Returns
 PropertyValueType
+
+
+---
 
 

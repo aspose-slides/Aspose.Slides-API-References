@@ -1,11 +1,13 @@
 ---
 title: remove
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/fontfallbackrule/remove/
 ---
 
-# remove(java.lang.String) method
+## remove(java.lang.String) method
 
  Removes the first occurrence of a specific FallBack font from the list.
  
@@ -18,10 +20,13 @@ url: /php-java/fontfallbackrule/remove/
   $newRule->remove("Tahoma");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | fontName | The font's name to remove from the list. |
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: SplitterBarStateType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/splitterbarstatetype/
 ---
 
-# SplitterBarStateType class
+## SplitterBarStateType class
 
  Specifies the state that the splitter bar should be shown in. The splitter bar separates a primary and
  secondary region within a viewing area.
@@ -13,9 +15,9 @@ url: /php-java/splitterbarstatetype/
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Maximized | The primary region occupies the greatest amount of the viewing area allowed by the application. |
-| Minimized | The primary region occupies the least amount of the viewing area allowed by the application. |
-| Restored | The primary region has a specific intermediate size. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Maximized | 2 | The primary region occupies the greatest amount of the viewing area allowed by the application. |
+| Minimized | 0 | The primary region occupies the least amount of the viewing area allowed by the application. |
+| Restored | 1 | The primary region has a specific intermediate size. |
 

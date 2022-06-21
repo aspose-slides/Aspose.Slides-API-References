@@ -1,23 +1,25 @@
 ---
 title: ShapeElementFillSource
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/shapeelementfillsource/
 ---
 
-# ShapeElementFillSource class
+## ShapeElementFillSource class
 
  Represents how shape element should be filled.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Darken | Use darken shape's fill. |
-| DarkenLess | Use less darken shape's fill. |
-| Lighten | Use lighten shape's fill. |
-| LightenLess | Use less lighten shape's fill. |
-| NoFill | Don't fill primitive. |
-| Shape | Use shape's fill. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Darken | 4 | Use darken shape's fill. |
+| DarkenLess | 5 | Use less darken shape's fill. |
+| Lighten | 2 | Use lighten shape's fill. |
+| LightenLess | 3 | Use less lighten shape's fill. |
+| NoFill | 0 | Don't fill primitive. |
+| Shape | 1 | Use shape's fill. |
 

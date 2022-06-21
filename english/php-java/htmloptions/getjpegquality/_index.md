@@ -1,11 +1,13 @@
 ---
 title: getJpegQuality
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/htmloptions/getjpegquality/
 ---
 
-# getJpegQuality() method
+## getJpegQuality() method
 
  Returns or sets a value determining the quality of the JPEG images inside PDF document.
  Read/write  byte.
@@ -16,7 +18,10 @@ url: /php-java/htmloptions/getjpegquality/
  The default value is 95.
  
 
-##  Returns
+### Returns
 byte
+
+
+---
 
 

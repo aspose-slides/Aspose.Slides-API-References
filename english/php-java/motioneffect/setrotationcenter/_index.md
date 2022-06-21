@@ -1,17 +1,22 @@
 ---
 title: setRotationCenter
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 160
 url: /php-java/motioneffect/setrotationcenter/
 ---
 
-# setRotationCenter(java.awt.geom.Point2D.Float) method
+## setRotationCenter(java.awt.geom.Point2D.Float) method
 
  Describes the center of the rotation used to rotate a motion path by X angle.
  Read/write  java.awt.geom.Point2D.Float.
  
 
-##  Returns
+### Returns
 java.awt.geom.Point2D.Float
+
+
+---
 
 

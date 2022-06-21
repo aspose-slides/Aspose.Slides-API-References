@@ -1,24 +1,26 @@
 ---
 title: PptOptions
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/pptoptions/
 ---
 
-# PptOptions class
+## PptOptions class
 
  Provides options that control how a presentation is saved in PPT format.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [PptOptions](/slides/php-java/pptoptions/pptoptions/)() |  |
+| [PptOptions](pptoptions)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getRootDirectoryClsid](/slides/php-java/pptoptions/getrootdirectoryclsid/)() | UUID | Represents the object class GUID (CLSID) that is stored in the root directory entry. Can be used for COM activation of the document's application. The default value is '64818D11-4F9B-11CF-86EA-00AA00B929E8' that corresponds to 'Microsoft Powerpoint.Slide.8'. |
-| [setRootDirectoryClsid](/slides/php-java/pptoptions/setrootdirectoryclsid/)(UUID) | void | Represents the object class GUID (CLSID) that is stored in the root directory entry. Can be used for COM activation of the document's application. The default value is '64818D11-4F9B-11CF-86EA-00AA00B929E8' that corresponds to 'Microsoft Powerpoint.Slide.8'. |
+| Name | Description |
+| --- | --- |
+| [getRootDirectoryClsid](getrootdirectoryclsid)() | Represents the object class GUID (CLSID) that is stored in the root directory entry. Can be used for COM activation of the document's application. The default value is '64818D11-4F9B-11CF-86EA-00AA00B929E8' that corresponds to 'Microsoft Powerpoint.Slide.8'. |
+| [setRootDirectoryClsid](setrootdirectoryclsid)(UUID) | Represents the object class GUID (CLSID) that is stored in the root directory entry. Can be used for COM activation of the document's application. The default value is '64818D11-4F9B-11CF-86EA-00AA00B929E8' that corresponds to 'Microsoft Powerpoint.Slide.8'. |

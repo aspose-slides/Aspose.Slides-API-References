@@ -1,19 +1,21 @@
 ---
 title: CellUnsupportedDataException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/cellunsupporteddataexception/
 ---
 
-# CellUnsupportedDataException class
+## CellUnsupportedDataException class
 
  The exception that is thrown when an unsupported data is encountered in a spreadsheet cell.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [CellUnsupportedDataException](/slides/php-java/cellunsupporteddataexception/cellunsupporteddataexception/)() | Initializes a new instance of the CellUnsupportedDataException class. |
-| [CellUnsupportedDataException](/slides/php-java/cellunsupporteddataexception/cellunsupporteddataexception/)(String) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message. |
-| [CellUnsupportedDataException](/slides/php-java/cellunsupporteddataexception/cellunsupporteddataexception/)(String, RuntimeException) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellUnsupportedDataException](cellunsupporteddataexception)() | Initializes a new instance of the CellUnsupportedDataException class. |
+| [CellUnsupportedDataException](cellunsupporteddataexception)(String) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message. |
+| [CellUnsupportedDataException](cellunsupporteddataexception)(String, RuntimeException) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message and a reference to the inner exception that is the cause of this exception. |

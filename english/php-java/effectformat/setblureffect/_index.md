@@ -1,30 +1,38 @@
 ---
 title: setBlurEffect
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 260
 url: /php-java/effectformat/setblureffect/
 ---
 
-# setBlurEffect(com.aspose.slides.IBlur) method
+## setBlurEffect(com.aspose.slides.IBlur) method
 
  Blur effect.
  Read/write  IBlur.
  
 
-##  Returns
+### Returns
 IBlur
 
 
-# setBlurEffect(double, boolean) method
+---
+
+
+## setBlurEffect(double, boolean) method
 
  Sets blur effect.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | radius | Radius. |
 | grow | Grow. |
+
+
+---
 
 

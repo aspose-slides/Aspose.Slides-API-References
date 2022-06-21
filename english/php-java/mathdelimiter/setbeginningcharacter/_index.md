@@ -1,11 +1,13 @@
 ---
 title: setBeginningCharacter
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/mathdelimiter/setbeginningcharacter/
 ---
 
-# setBeginningCharacter(char) method
+## setBeginningCharacter(char) method
 
  Delimiter Beginning Character specifies the beginning, or opening, delimiter character. 
  Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces.
@@ -17,5 +19,8 @@ Example:
   $delimiter = new MathematicalText("x")->join("y")->enclose();
   $delimiter->setBeginningCharacter('[');
 ```
+
+
+---
 
 

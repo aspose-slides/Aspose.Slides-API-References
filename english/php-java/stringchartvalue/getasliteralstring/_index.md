@@ -1,17 +1,22 @@
 ---
 title: getAsLiteralString
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/stringchartvalue/getasliteralstring/
 ---
 
-# getAsLiteralString() method
+## getAsLiteralString() method
 
  Returns or sets value as literal string.
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

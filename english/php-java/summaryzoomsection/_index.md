@@ -1,20 +1,22 @@
 ---
 title: SummaryZoomSection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/summaryzoomsection/
 ---
 
-# SummaryZoomSection class
+## SummaryZoomSection class
 
  Represents a Summary Zoom Section object in a Summary Zoom frame.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDescription](/slides/php-java/summaryzoomsection/getdescription/)() | String | Returns the text description of the Summary Zoom Section object. |
-| [getTitle](/slides/php-java/summaryzoomsection/gettitle/)() | String | Returns the text title of the Summary Zoom Section object. |
-| [setDescription](/slides/php-java/summaryzoomsection/setdescription/)(String) | void | Returns the text description of the Summary Zoom Section object. |
-| [setTitle](/slides/php-java/summaryzoomsection/settitle/)(String) | void | Returns the text title of the Summary Zoom Section object. |
+| Name | Description |
+| --- | --- |
+| [getDescription](getdescription)() | Returns the text description of the Summary Zoom Section object. |
+| [getTitle](gettitle)() | Returns the text title of the Summary Zoom Section object. |
+| [setDescription](setdescription)(String) | Returns the text description of the Summary Zoom Section object. |
+| [setTitle](settitle)(String) | Returns the text title of the Summary Zoom Section object. |

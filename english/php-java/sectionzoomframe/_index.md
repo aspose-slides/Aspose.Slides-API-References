@@ -1,18 +1,20 @@
 ---
 title: SectionZoomFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/sectionzoomframe/
 ---
 
-# SectionZoomFrame class
+## SectionZoomFrame class
 
  Represents a Section Zoom object in a slide.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getTargetSection](/slides/php-java/sectionzoomframe/gettargetsection/)() | ISection | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
-| [setTargetSection](/slides/php-java/sectionzoomframe/settargetsection/)(ISection) | void | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+| Name | Description |
+| --- | --- |
+| [getTargetSection](gettargetsection)() | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+| [setTargetSection](settargetsection)(ISection) | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |

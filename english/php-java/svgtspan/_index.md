@@ -1,18 +1,20 @@
 ---
 title: SvgTSpan
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/svgtspan/
 ---
 
-# SvgTSpan class
+## SvgTSpan class
 
  Represents options for SVG text portion ("tspan").
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getId](/slides/php-java/svgtspan/getid/)() | String | Gets "tspan" element id |
-| [setId](/slides/php-java/svgtspan/setid/)(String) | void | Gets "tspan" element id |
+| Name | Description |
+| --- | --- |
+| [getId](getid)() | Gets "tspan" element id |
+| [setId](setid)(String) | Gets "tspan" element id |

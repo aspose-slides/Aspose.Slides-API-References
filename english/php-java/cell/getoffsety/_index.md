@@ -1,17 +1,22 @@
 ---
 title: getOffsetY
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 150
 url: /php-java/cell/getoffsety/
 ---
 
-# getOffsetY() method
+## getOffsetY() method
 
  Returns a distance from top side of a table to top side of a cell.
  Read-only  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

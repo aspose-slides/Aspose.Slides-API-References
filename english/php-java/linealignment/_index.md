@@ -1,20 +1,22 @@
 ---
 title: LineAlignment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/linealignment/
 ---
 
-# LineAlignment class
+## LineAlignment class
 
  Represents the lines alignment type.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Center |  |
-| Inset |  |
-| NotDefined |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Center | 0 |  |
+| Inset | 1 |  |
+| NotDefined | -1 |  |
 

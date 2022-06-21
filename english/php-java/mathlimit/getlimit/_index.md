@@ -1,11 +1,13 @@
 ---
 title: getLimit
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/mathlimit/getlimit/
 ---
 
-# getLimit() method
+## getLimit() method
 
  Limit argument
  
@@ -15,5 +17,8 @@ Example:
   $limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("???"));
   $limitArg = $limitElement->getLimit();
 ```
+
+
+---
 
 

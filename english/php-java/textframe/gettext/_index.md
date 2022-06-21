@@ -1,18 +1,23 @@
 ---
 title: getText
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/textframe/gettext/
 ---
 
-# getText() method
+## getText() method
 
  Gets or sets the plain text for a TextFrame.
  Read/write  String.
  Value: 
  The text.
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

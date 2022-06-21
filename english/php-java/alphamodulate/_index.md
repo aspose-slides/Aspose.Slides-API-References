@@ -1,11 +1,13 @@
 ---
 title: AlphaModulate
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/alphamodulate/
 ---
 
-# AlphaModulate class
+## AlphaModulate class
 
  Represents an Alpha Modulate effect.
  Effect alpha (opacity) values are multiplied by a fixed percentage.
@@ -14,8 +16,8 @@ url: /php-java/alphamodulate/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/alphamodulate/equals/)(Object) | boolean | Determines whether the specified AlphaModulate is equal to the current AlphaModulate. |
-| [getEffective](/slides/php-java/alphamodulate/geteffective/)() | IAlphaModulateEffectiveData | Gets effective Alpha Modulate effect data with the inheritance applied. |
-| [hashCode](/slides/php-java/alphamodulate/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified AlphaModulate is equal to the current AlphaModulate. |
+| [getEffective](geteffective)() | Gets effective Alpha Modulate effect data with the inheritance applied. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

@@ -1,11 +1,13 @@
 ---
 title: getBaseJustification
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/matharray/getbasejustification/
 ---
 
-# getBaseJustification() method
+## getBaseJustification() method
 
  Specifies alignment of the array relative to surrounding text
  Text outside of the array can be aligned with the bottom, top, or center of a array object.
@@ -17,5 +19,8 @@ Example:
   $mathArray = new MathArray(new MathematicalText("item1"));
   $mathArray->setBaseJustification(MathVerticalAlignment.Top);
 ```
+
+
+---
 
 

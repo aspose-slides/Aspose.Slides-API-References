@@ -1,11 +1,13 @@
 ---
 title: isWriteProtected
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/presentationinfo/iswriteprotected/
 ---
 
-# isWriteProtected() method
+## isWriteProtected() method
 
  Gets a value that indicates whether a binded presentation is write protected.
  
@@ -19,5 +21,8 @@ url: /php-java/presentationinfo/iswriteprotected/
     echo("The presentation '" + $presentationFilePath + "' is protected by password to open.");
   }
 ```
+
+
+---
 
 

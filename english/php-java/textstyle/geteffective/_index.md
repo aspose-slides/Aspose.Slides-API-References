@@ -1,11 +1,13 @@
 ---
 title: getEffective
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/textstyle/geteffective/
 ---
 
-# getEffective() method
+## getEffective() method
 
  Gets effective text style formatting data with the inheritance applied.
  
@@ -32,7 +34,10 @@ url: /php-java/textstyle/geteffective/
   }
 ```
 
-##  Returns
+### Returns
 A ITextStyleEffectiveData.
+
+
+---
 
 

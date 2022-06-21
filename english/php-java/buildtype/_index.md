@@ -1,24 +1,26 @@
 ---
 title: BuildType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/buildtype/
 ---
 
-# BuildType class
+## BuildType class
 
  Determines how text will appear on a shape during animation.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| AllParagraphsAtOnce | All paragraph. |
-| AsOneObject | With containing shape. |
-| ByLevelParagraphs1 | By groups of paragraphs of depth 1. |
-| ByLevelParagraphs2 | By groups of paragraphs of depth 2. |
-| ByLevelParagraphs3 | By groups of paragraphs of depth 3. |
-| ByLevelParagraphs4 | By groups of paragraphs of depth 4. |
-| ByLevelParagraphs5 | By groups of paragraphs of depth 5. |
+| Name | Value | Description |
+| --- | --- | --- |
+| AllParagraphsAtOnce | 1 | All paragraph. |
+| AsOneObject | 0 | With containing shape. |
+| ByLevelParagraphs1 | 2 | By groups of paragraphs of depth 1. |
+| ByLevelParagraphs2 | 3 | By groups of paragraphs of depth 2. |
+| ByLevelParagraphs3 | 4 | By groups of paragraphs of depth 3. |
+| ByLevelParagraphs4 | 5 | By groups of paragraphs of depth 4. |
+| ByLevelParagraphs5 | 6 | By groups of paragraphs of depth 5. |
 

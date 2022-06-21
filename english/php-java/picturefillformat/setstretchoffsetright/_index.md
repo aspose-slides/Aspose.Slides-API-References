@@ -1,11 +1,13 @@
 ---
 title: setStretchOffsetRight
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 200
 url: /php-java/picturefillformat/setstretchoffsetright/
 ---
 
-# setStretchOffsetRight(float) method
+## setStretchOffsetRight(float) method
 
  Returns or sets right edge of the fill rectangle that is defined by a percentage offset 
  from the right edge of the shape's bounding box. 
@@ -13,7 +15,10 @@ url: /php-java/picturefillformat/setstretchoffsetright/
  Read/write  float.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

@@ -1,17 +1,19 @@
 ---
 title: BaseShapeLock
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/baseshapelock/
 ---
 
-# BaseShapeLock class
+## BaseShapeLock class
 
  Represents a base class for locks (disabled operation).
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getNoLocks](/slides/php-java/baseshapelock/getnolocks/)() | boolean | Return true if all lock-flags are disabled. Read-only boolean. |
+| Name | Description |
+| --- | --- |
+| [getNoLocks](getnolocks)() | Return true if all lock-flags are disabled. Read-only boolean. |

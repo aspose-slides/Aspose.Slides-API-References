@@ -1,33 +1,35 @@
 ---
 title: Paragraph
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/paragraph/
 ---
 
-# Paragraph class
+## Paragraph class
 
  Represents a paragraph of text.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [Paragraph](/slides/php-java/paragraph/paragraph/)() | Initializes a new instance of the Paragraph class with default properties. |
-| [Paragraph](/slides/php-java/paragraph/paragraph/)(Paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
+| [Paragraph](paragraph)() | Initializes a new instance of the Paragraph class with default properties. |
+| [Paragraph](paragraph)(Paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getEndParagraphPortionFormat](/slides/php-java/paragraph/getendparagraphportionformat/)() | IPortionFormat | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
-| [getParagraphFormat](/slides/php-java/paragraph/getparagraphformat/)() | IParagraphFormat | Returns the formatting object for this paragraph. Read-only IParagraphFormat. The formatting object contains the formatting parameters defined for the current paragraph only, inherited data is not applied. In order to get the effective values including inherited ones use the ParagraphFormat#getEffective method. |
-| [getPortions](/slides/php-java/paragraph/getportions/)() | IPortionCollection | Returns the collection of a text portions. Read-only IPortionCollection. |
-| [getPresentation](/slides/php-java/paragraph/getpresentation/)() | IPresentation | Returns the parent presentation of a paragraph. Read-only IPresentation. |
-| [getRect](/slides/php-java/paragraph/getrect/)() | Float | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
-| [getSlide](/slides/php-java/paragraph/getslide/)() | IBaseSlide | Returns the parent slide of a paragraph. Read-only BaseSlide. |
-| [getText](/slides/php-java/paragraph/gettext/)() | String | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
-| [joinPortionsWithSameFormatting](/slides/php-java/paragraph/joinportionswithsameformatting/)() | void | Joins runs with same formatting. |
-| [setEndParagraphPortionFormat](/slides/php-java/paragraph/setendparagraphportionformat/)(IPortionFormat) | void | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
-| [setText](/slides/php-java/paragraph/settext/)(String) | void | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
+| Name | Description |
+| --- | --- |
+| [getEndParagraphPortionFormat](getendparagraphportionformat)() | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
+| [getParagraphFormat](getparagraphformat)() | Returns the formatting object for this paragraph. Read-only IParagraphFormat. The formatting object contains the formatting parameters defined for the current paragraph only, inherited data is not applied. In order to get the effective values including inherited ones use the ParagraphFormat#getEffective method. |
+| [getPortions](getportions)() | Returns the collection of a text portions. Read-only IPortionCollection. |
+| [getPresentation](getpresentation)() | Returns the parent presentation of a paragraph. Read-only IPresentation. |
+| [getRect](getrect)() | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
+| [getSlide](getslide)() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
+| [getText](gettext)() | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
+| [joinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting. |
+| [setEndParagraphPortionFormat](setendparagraphportionformat)(IPortionFormat) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
+| [setText](settext)(String) | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |

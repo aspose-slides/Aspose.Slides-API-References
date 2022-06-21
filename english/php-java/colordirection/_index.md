@@ -1,20 +1,22 @@
 ---
 title: ColorDirection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/colordirection/
 ---
 
-# ColorDirection class
+## ColorDirection class
 
  Represents color direction for color effect behavior.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Clockwise |  |
-| CounterClockwise |  |
-| NotDefined |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Clockwise | 0 |  |
+| CounterClockwise | 1 |  |
+| NotDefined | -1 |  |
 

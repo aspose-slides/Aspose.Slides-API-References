@@ -1,17 +1,22 @@
 ---
 title: getFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/errorbarsformat/getformat/
 ---
 
-# getFormat() method
+## getFormat() method
 
  Represents the format of the error bars.
  Read/write  IFormat.
  
 
-##  Returns
+### Returns
 IFormat
+
+
+---
 
 

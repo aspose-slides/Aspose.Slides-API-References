@@ -1,11 +1,13 @@
 ---
 title: toSvg
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/convert/tosvg/
 ---
 
-# toSvg(java.lang.String) method
+## toSvg(java.lang.String) method
 
  Converts  Presentation to SVG.
  
@@ -15,17 +17,20 @@ url: /php-java/convert/tosvg/
   Convert->toSvg("pres.pptx");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | presPath | Path of the input presentation |
 
-##  Returns
+### Returns
 Presentation
 
 
-# toSvg(java.lang.String, com.aspose.slides.Convert.GetOutPathCallback) method
+---
+
+
+## toSvg(java.lang.String, com.aspose.slides.Convert.GetOutPathCallback) method
 
  Converts  Presentation to SVG.
  
@@ -34,18 +39,21 @@ Presentation
 ```php
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | presPath | Path of the input presentation |
 | getOutPath | Callback that returns the SVG output path for each slide in the presentation |
 
-##  Returns
+### Returns
 Presentation
 
 
-# toSvg(com.aspose.slides.Presentation, com.aspose.slides.Convert.GetOutPathCallback) method
+---
+
+
+## toSvg(com.aspose.slides.Presentation, com.aspose.slides.Convert.GetOutPathCallback) method
 
  Converts  Presentation to SVG.
  
@@ -55,18 +63,21 @@ Presentation
   $pres = new Presentation("input.pptx");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | Input presentation |
 | getOutPath | Callback that returns the SVG output path for each slide in the presentation |
 
-##  Returns
+### Returns
 Presentation
 
 
-# toSvg(com.aspose.slides.Presentation, com.aspose.slides.ISVGOptions) method
+---
+
+
+## toSvg(com.aspose.slides.Presentation, com.aspose.slides.ISVGOptions) method
 
  Converts  Presentation to SVG.
  
@@ -85,18 +96,21 @@ Presentation
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | Input presentation |
 | options | SVG export options |
 
-##  Returns
+### Returns
 Presentation
 
 
-# toSvg(com.aspose.slides.Presentation, com.aspose.slides.Convert.GetOutPathCallback, com.aspose.slides.ISVGOptions) method
+---
+
+
+## toSvg(com.aspose.slides.Presentation, com.aspose.slides.Convert.GetOutPathCallback, com.aspose.slides.ISVGOptions) method
 
  Converts  Presentation to SVG.
  
@@ -108,15 +122,18 @@ Presentation
   $svgOptions->setVectorizeText(true);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | Input presentation |
 | getOutPath | Callback that returns the SVG output path for each slide in the presentation |
 | options | SVG export options |
 
-##  Returns
+### Returns
 Presentation
+
+
+---
 
 

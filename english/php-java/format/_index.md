@@ -1,20 +1,22 @@
 ---
 title: Format
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/format/
 ---
 
-# Format class
+## Format class
 
  Represents chart format properties.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getEffect](/slides/php-java/format/geteffect/)() | IEffectFormat | Returns effects used for a chart. Read-only IEffectFormat. |
-| [getEffect3D](/slides/php-java/format/geteffect3d/)() | IThreeDFormat | Returns 3D format of a chart. Read-only IThreeDFormat. |
-| [getFill](/slides/php-java/format/getfill/)() | IFillFormat | Returns fill style properties of a chart. Read-only IFillFormat. |
-| [getLine](/slides/php-java/format/getline/)() | ILineFormat | Returns line style properties of a chart. Read-only ILineFormat. |
+| Name | Description |
+| --- | --- |
+| [getEffect](geteffect)() | Returns effects used for a chart. Read-only IEffectFormat. |
+| [getEffect3D](geteffect3d)() | Returns 3D format of a chart. Read-only IThreeDFormat. |
+| [getFill](getfill)() | Returns fill style properties of a chart. Read-only IFillFormat. |
+| [getLine](getline)() | Returns line style properties of a chart. Read-only ILineFormat. |

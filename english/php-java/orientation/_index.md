@@ -1,19 +1,21 @@
 ---
 title: Orientation
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/orientation/
 ---
 
-# Orientation class
+## Orientation class
 
  Represents the orientation of a shape.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Horizontal | Horizontal. |
-| Vertical | Vertical. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Horizontal | 0 | Horizontal. |
+| Vertical | 1 | Vertical. |
 

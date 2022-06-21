@@ -1,11 +1,13 @@
 ---
 title: setDescription
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/summaryzoomsection/setdescription/
 ---
 
-# setDescription(java.lang.String) method
+## setDescription(java.lang.String) method
 
  Returns the text description of the Summary Zoom Section object. 
  
@@ -15,5 +17,8 @@ Example:
   $zoomSection = $zoomFrame->getSummaryZoomCollection()->get_Item(1);
   $zoomSection->setDescription("Description");
 ```
+
+
+---
 
 

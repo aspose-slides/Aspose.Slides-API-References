@@ -1,11 +1,13 @@
 ---
 title: getImageType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/zoomobject/getimagetype/
 ---
 
-# getImageType() method
+## getImageType() method
 
  Gets or sets the image type of a zoom object.
  Read/write  ZoomImageType.
@@ -30,7 +32,10 @@ Next example demonstrates changing Image Type to Preview value.
   }
 ```
 
-##  Returns
+### Returns
 ZoomImageType
+
+
+---
 
 

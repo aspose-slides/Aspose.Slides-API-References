@@ -1,11 +1,13 @@
 ---
 title: setNumberFormatLinkedToSource
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 180
 url: /php-java/datalabelformat/setnumberformatlinkedtosource/
 ---
 
-# setNumberFormatLinkedToSource(boolean) method
+## setNumberFormatLinkedToSource(boolean) method
 
  Read/write  boolean.
  
@@ -18,7 +20,10 @@ url: /php-java/datalabelformat/setnumberformatlinkedtosource/
  all DataLabels.get_Item(i).isNumberFormatLinkedToSource() is equal to val).
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

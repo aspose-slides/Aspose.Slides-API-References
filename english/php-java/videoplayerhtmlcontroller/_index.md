@@ -1,32 +1,34 @@
 ---
 title: VideoPlayerHtmlController
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/videoplayerhtmlcontroller/
 ---
 
-# VideoPlayerHtmlController class
+## VideoPlayerHtmlController class
 
  This class allows export of video and audio files into a HTML
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [VideoPlayerHtmlController](/slides/php-java/videoplayerhtmlcontroller/videoplayerhtmlcontroller/)(String, String, String) | Creates a new instance of controller |
+| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(String, String, String) | Creates a new instance of controller |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [formatShape](/slides/php-java/videoplayerhtmlcontroller/formatshape/)(ISvgShape, IShape) | void |  |
-| [getObjectStoringLocation](/slides/php-java/videoplayerhtmlcontroller/getobjectstoringlocation/)(int, byte[], String, String, String) | int |  |
-| [getUrl](/slides/php-java/videoplayerhtmlcontroller/geturl/)(int, int) | String |  |
-| [saveExternal](/slides/php-java/videoplayerhtmlcontroller/saveexternal/)(int, byte[]) | void |  |
-| [writeDocumentEnd](/slides/php-java/videoplayerhtmlcontroller/writedocumentend/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeDocumentStart](/slides/php-java/videoplayerhtmlcontroller/writedocumentstart/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeShapeEnd](/slides/php-java/videoplayerhtmlcontroller/writeshapeend/)(IHtmlGenerator, IShape) | void |  |
-| [writeShapeStart](/slides/php-java/videoplayerhtmlcontroller/writeshapestart/)(IHtmlGenerator, IShape) | void |  |
-| [writeSlideEnd](/slides/php-java/videoplayerhtmlcontroller/writeslideend/)(IHtmlGenerator, ISlide) | void |  |
-| [writeSlideStart](/slides/php-java/videoplayerhtmlcontroller/writeslidestart/)(IHtmlGenerator, ISlide) | void |  |
+| Name | Description |
+| --- | --- |
+| [formatShape](formatshape)(ISvgShape, IShape) |  |
+| [getObjectStoringLocation](getobjectstoringlocation)(int, byte[], String, String, String) |  |
+| [getUrl](geturl)(int, int) |  |
+| [saveExternal](saveexternal)(int, byte[]) |  |
+| [writeDocumentEnd](writedocumentend)(IHtmlGenerator, IPresentation) |  |
+| [writeDocumentStart](writedocumentstart)(IHtmlGenerator, IPresentation) |  |
+| [writeShapeEnd](writeshapeend)(IHtmlGenerator, IShape) |  |
+| [writeShapeStart](writeshapestart)(IHtmlGenerator, IShape) |  |
+| [writeSlideEnd](writeslideend)(IHtmlGenerator, ISlide) |  |
+| [writeSlideStart](writeslidestart)(IHtmlGenerator, ISlide) |  |

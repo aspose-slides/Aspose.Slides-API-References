@@ -1,11 +1,13 @@
 ---
 title: getUpVector
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/backdrop3dscene/getupvector/
 ---
 
-# getUpVector() method
+## getUpVector() method
 
  Returns or sets a vector representing up. To be more precise, this attribute defines a vector
  representing up in relation to the face of the backdrop plane. Vector represented by array
@@ -13,7 +15,10 @@ url: /php-java/backdrop3dscene/getupvector/
  Read/write  float[].
  
 
-##  Returns
+### Returns
 float[]
+
+
+---
 
 

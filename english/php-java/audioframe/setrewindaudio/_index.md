@@ -1,11 +1,13 @@
 ---
 title: setRewindAudio
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 240
 url: /php-java/audioframe/setrewindaudio/
 ---
 
-# setRewindAudio(boolean) method
+## setRewindAudio(boolean) method
 
   Determines whether audio is automatically rewinded to start after playing. 
   Read/write  boolean.
@@ -30,7 +32,10 @@ url: /php-java/audioframe/setrewindaudio/
   }
 ```
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: MasterSlideHeaderFooterManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/masterslideheaderfootermanager/
 ---
 
-# MasterSlideHeaderFooterManager class
+## MasterSlideHeaderFooterManager class
 
  Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders.
  Child placeholders mean placeholders are contained on depending layout slides and depending slides.
@@ -14,10 +16,10 @@ url: /php-java/masterslideheaderfootermanager/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [setDateTimeAndChildDateTimesText](/slides/php-java/masterslideheaderfootermanager/setdatetimeandchilddatetimestext/)(String) | void | Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
-| [setDateTimeAndChildDateTimesVisibility](/slides/php-java/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/)(boolean) | void | Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
-| [setFooterAndChildFootersText](/slides/php-java/masterslideheaderfootermanager/setfooterandchildfooterstext/)(String) | void | Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
-| [setFooterAndChildFootersVisibility](/slides/php-java/masterslideheaderfootermanager/setfooterandchildfootersvisibility/)(boolean) | void | Changes master slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
-| [setSlideNumberAndChildSlideNumbersVisibility](/slides/php-java/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/)(boolean) | void | Changes master slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| Name | Description |
+| --- | --- |
+| [setDateTimeAndChildDateTimesText](setdatetimeandchilddatetimestext)(String) | Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| [setDateTimeAndChildDateTimesVisibility](setdatetimeandchilddatetimesvisibility)(boolean) | Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| [setFooterAndChildFootersText](setfooterandchildfooterstext)(String) | Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| [setFooterAndChildFootersVisibility](setfooterandchildfootersvisibility)(boolean) | Changes master slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| [setSlideNumberAndChildSlideNumbersVisibility](setslidenumberandchildslidenumbersvisibility)(boolean) | Changes master slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |

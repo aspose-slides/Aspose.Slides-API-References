@@ -1,11 +1,13 @@
 ---
 title: setY
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 500
 url: /php-java/shape/sety/
 ---
 
-# setY(float) method
+## setY(float) method
 
  Returns or sets the y-coordinate of the upper-left corner of the shape.
  Read/write  float.
@@ -14,7 +16,10 @@ url: /php-java/shape/sety/
  Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

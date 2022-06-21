@@ -1,17 +1,22 @@
 ---
 title: getRowFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/row/getrowformat/
 ---
 
-# getRowFormat() method
+## getRowFormat() method
 
  Returns the RowFormat object that contains formatting properties for this row.
  Read-only  IRowFormat.
  
 
-##  Returns
+### Returns
 IRowFormat
+
+
+---
 
 

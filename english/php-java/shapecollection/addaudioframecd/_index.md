@@ -1,25 +1,30 @@
 ---
 title: addAudioFrameCD
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/shapecollection/addaudioframecd/
 ---
 
-# addAudioFrameCD(float, float, float, float) method
+## addAudioFrameCD(float, float, float, float) method
 
  Adds an AudioFrame with CD to the end of collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new audio frame. |
 | y | Y coordinate of a new audio frame. |
 | width | Width of a new audio frame. |
 | height | Height of a new audio frame. |
 
-##  Returns
+### Returns
 Created AudioFrame object.
+
+
+---
 
 

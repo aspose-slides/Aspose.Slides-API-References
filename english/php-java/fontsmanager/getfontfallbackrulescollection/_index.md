@@ -1,11 +1,13 @@
 ---
 title: getFontFallBackRulesCollection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/fontsmanager/getfontfallbackrulescollection/
 ---
 
-# getFontFallBackRulesCollection() method
+## getFontFallBackRulesCollection() method
 
  Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality
  Read/write  IFontFallBackRulesCollection.
@@ -33,7 +35,10 @@ url: /php-java/fontsmanager/getfontfallbackrulescollection/
   }
 ```
 
-##  Returns
+### Returns
 IFontFallBackRulesCollection
+
+
+---
 
 

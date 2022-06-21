@@ -1,26 +1,28 @@
 ---
 title: SpreadsheetOptions
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/spreadsheetoptions/
 ---
 
-# SpreadsheetOptions class
+## SpreadsheetOptions class
 
  Represents options which can be used to specify additional spreadsheets behavior.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [SpreadsheetOptions](/slides/php-java/spreadsheetoptions/spreadsheetoptions/)() | Initializes a new instance of the SpreadsheetOptions class. |
+| [SpreadsheetOptions](spreadsheetoptions)() | Initializes a new instance of the SpreadsheetOptions class. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getPreferredCulture](/slides/php-java/spreadsheetoptions/getpreferredculture/)() | Locale | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
-| [getRecoverWorkbookFromChartCache](/slides/php-java/spreadsheetoptions/getrecoverworkbookfromchartcache/)() | boolean | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
-| [setPreferredCulture](/slides/php-java/spreadsheetoptions/setpreferredculture/)(Locale) | void | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
-| [setRecoverWorkbookFromChartCache](/slides/php-java/spreadsheetoptions/setrecoverworkbookfromchartcache/)(boolean) | void | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
+| Name | Description |
+| --- | --- |
+| [getPreferredCulture](getpreferredculture)() | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
+| [getRecoverWorkbookFromChartCache](getrecoverworkbookfromchartcache)() | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
+| [setPreferredCulture](setpreferredculture)(Locale) | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
+| [setRecoverWorkbookFromChartCache](setrecoverworkbookfromchartcache)(boolean) | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |

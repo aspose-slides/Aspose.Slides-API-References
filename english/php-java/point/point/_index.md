@@ -1,27 +1,33 @@
 ---
 title: Point
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/point/point/
 ---
 
-# Point() constructor
+## Point() constructor
 
- Default constructor.
+Default constructor.
  
 
+---
 
-# Point(float, java.lang.Object, java.lang.String) constructor
 
- Create animation point with time, value and formula.
- 
+## Point(float, java.lang.Object, java.lang.String) constructor
 
-##  Parameters
+Create animation point with time, value and formula.
 
-| name | description |
+### Parameters
+
+| Parameter |Description |
 | --- | --- |
 | time | Time value. |
 | value | Point value. |
 | formula | Formula. |
+ 
+
+---
 
 

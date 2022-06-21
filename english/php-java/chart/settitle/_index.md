@@ -1,17 +1,22 @@
 ---
 title: setTitle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 320
 url: /php-java/chart/settitle/
 ---
 
-# setTitle(boolean) method
+## setTitle(boolean) method
 
  Determines whether a chart has a visible title.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

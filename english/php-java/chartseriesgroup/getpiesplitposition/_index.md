@@ -1,11 +1,13 @@
 ---
 title: getPieSplitPosition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 130
 url: /php-java/chartseriesgroup/getpiesplitposition/
 ---
 
-# getPieSplitPosition() method
+## getPieSplitPosition() method
 
  Specifies a value that shall be used to determine which data points 
  are in the second pie or bar on a pie-of-pie or bar-of-pie chart. 
@@ -13,7 +15,10 @@ url: /php-java/chartseriesgroup/getpiesplitposition/
  Read/write  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

@@ -1,24 +1,26 @@
 ---
 title: Output
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/output/
 ---
 
-# Output class
+## Output class
 
  Represents a collection of output elements for IWebDocument.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [add](/slides/php-java/output/add/)(String, String, TContextObject) | IOutputFile | Adds an output element for the context object. |
-| [add](/slides/php-java/output/add/)(String, IPPImage) | IOutputFile | Adds an output element for the image. |
-| [add](/slides/php-java/output/add/)(String, BufferedImage) | IOutputFile | Adds an output element for the image. |
-| [add](/slides/php-java/output/add/)(String, IVideo) | IOutputFile | Adds an output element for the video. |
-| [add](/slides/php-java/output/add/)(String, IFontData, int) | IOutputFile | Adds an output element for the font. |
-| [add](/slides/php-java/output/add/)(String, String) | IOutputFile | Adds an output element for the text content. |
-| [bindResource](/slides/php-java/output/bindresource/)(IOutputFile, Object) | void | Binds resource to output file. |
-| [getResourcePath](/slides/php-java/output/getresourcepath/)(Object) | String | Returns the path for a given resource. |
+| Name | Description |
+| --- | --- |
+| [add](add)(String, String, TContextObject) | Adds an output element for the context object. |
+| [add](add)(String, IPPImage) | Adds an output element for the image. |
+| [add](add)(String, BufferedImage) | Adds an output element for the image. |
+| [add](add)(String, IVideo) | Adds an output element for the video. |
+| [add](add)(String, IFontData, int) | Adds an output element for the font. |
+| [add](add)(String, String) | Adds an output element for the text content. |
+| [bindResource](bindresource)(IOutputFile, Object) | Binds resource to output file. |
+| [getResourcePath](getresourcepath)(Object) | Returns the path for a given resource. |

@@ -1,11 +1,13 @@
 ---
 title: setRecoverWorkbookFromChartCache
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/spreadsheetoptions/setrecoverworkbookfromchartcache/
 ---
 
-# setRecoverWorkbookFromChartCache(boolean) method
+## setRecoverWorkbookFromChartCache(boolean) method
 
   If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache.
   
@@ -27,7 +29,13 @@ url: /php-java/spreadsheetoptions/setrecoverworkbookfromchartcache/
   }
 ```
 
-##  Exception
-InvalidOperationException Thrown when external workbook in unavailable and RecoverWorkbookFromChartCache property value is false.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when external workbook in unavailable and RecoverWorkbookFromChartCache property value is false. |
+
+
+---
 
 

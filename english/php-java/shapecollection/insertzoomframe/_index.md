@@ -1,11 +1,13 @@
 ---
 title: insertZoomFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 570
 url: /php-java/shapecollection/insertzoomframe/
 ---
 
-# insertZoomFrame(int, float, float, float, float, com.aspose.slides.ISlide) method
+## insertZoomFrame(int, float, float, float, float, com.aspose.slides.ISlide) method
 
  Creates a new Zoom object and inserts it to a collection at the specified index.
  
@@ -24,9 +26,9 @@ url: /php-java/shapecollection/insertzoomframe/
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index at which Zoom frame should be inserted. |
 | x | X coordinate of a new Zoom frame float. |
@@ -35,14 +37,20 @@ url: /php-java/shapecollection/insertzoomframe/
 | height | Height of a new Zoom frame float. |
 | slide | The slide object referenced by the Zoom frame ISlide. |
 
-##  Returns
+### Returns
 Created Zoom object IZoomFrame.
 
-##  Exception
-ArgumentException Referenced slide does not belong to the current presentation.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Referenced slide does not belong to the current presentation. |
 
 
-# insertZoomFrame(int, float, float, float, float, com.aspose.slides.ISlide, com.aspose.slides.IPPImage) method
+---
+
+
+## insertZoomFrame(int, float, float, float, float, com.aspose.slides.ISlide, com.aspose.slides.IPPImage) method
 
  Creates a new Zoom object and inserts it to a collection at the specified index.
  
@@ -62,9 +70,9 @@ ArgumentException Referenced slide does not belong to the current presentation.
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index at which Zoom frame should be inserted. |
 | x | X coordinate of a new Zoom frame float. |
@@ -74,10 +82,16 @@ ArgumentException Referenced slide does not belong to the current presentation.
 | slide | The slide object referenced by the Zoom frame ISlide. |
 | image | The image for the referenced slide IPPImage |
 
-##  Returns
+### Returns
 Created Zoom object IZoomFrame.
 
-##  Exception
-ArgumentException Referenced slide does not belong to the current presentation.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Referenced slide does not belong to the current presentation. |
+
+
+---
 
 

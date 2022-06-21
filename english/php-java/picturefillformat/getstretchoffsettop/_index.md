@@ -1,11 +1,13 @@
 ---
 title: getStretchOffsetTop
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/picturefillformat/getstretchoffsettop/
 ---
 
-# getStretchOffsetTop() method
+## getStretchOffsetTop() method
 
  Returns or sets top edge of the fill rectangle that is defined by a percentage offset 
  from the top edge of the shape's bounding box. 
@@ -13,7 +15,10 @@ url: /php-java/picturefillformat/getstretchoffsettop/
  Read/write  float.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

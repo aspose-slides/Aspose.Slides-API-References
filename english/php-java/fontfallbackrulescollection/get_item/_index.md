@@ -1,11 +1,13 @@
 ---
 title: get_Item
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/fontfallbackrulescollection/get_item/
 ---
 
-# get_Item(int) method
+## get_Item(int) method
 
  Gets the rule at the specified index.
  Read-only  IFontFallBackRule.
@@ -29,7 +31,10 @@ url: /php-java/fontfallbackrulescollection/get_item/
   }
 ```
 
-##  Returns
+### Returns
 IFontFallBackRule
+
+
+---
 
 

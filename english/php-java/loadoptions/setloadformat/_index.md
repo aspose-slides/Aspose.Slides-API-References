@@ -1,17 +1,22 @@
 ---
 title: setLoadFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 210
 url: /php-java/loadoptions/setloadformat/
 ---
 
-# setLoadFormat(int) method
+## setLoadFormat(int) method
 
  Returns or sets format of a presentation to load.
  Read/write  LoadFormat.
  
 
-##  Returns
+### Returns
 LoadFormat
+
+
+---
 
 

@@ -1,19 +1,24 @@
 ---
 title: removeAt
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 630
 url: /php-java/shapecollection/removeat/
 ---
 
-# removeAt(int) method
+## removeAt(int) method
 
  Removes the element at the specified index of the collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index of the element to remove. |
+
+
+---
 
 

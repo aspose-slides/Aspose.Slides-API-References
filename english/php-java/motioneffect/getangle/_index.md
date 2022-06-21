@@ -1,17 +1,22 @@
 ---
 title: getAngle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/motioneffect/getangle/
 ---
 
-# getAngle() method
+## getAngle() method
 
  Describes the relative angle of the motion path.
  Read/write  float.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

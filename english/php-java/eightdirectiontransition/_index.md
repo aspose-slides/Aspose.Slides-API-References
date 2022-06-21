@@ -1,18 +1,20 @@
 ---
 title: EightDirectionTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/eightdirectiontransition/
 ---
 
-# EightDirectionTransition class
+## EightDirectionTransition class
 
  Eight direction slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDirection](/slides/php-java/eightdirectiontransition/getdirection/)() | int | Direction of transition. Read/write TransitionEightDirectionType. |
-| [setDirection](/slides/php-java/eightdirectiontransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionEightDirectionType. |
+| Name | Description |
+| --- | --- |
+| [getDirection](getdirection)() | Direction of transition. Read/write TransitionEightDirectionType. |
+| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionEightDirectionType. |

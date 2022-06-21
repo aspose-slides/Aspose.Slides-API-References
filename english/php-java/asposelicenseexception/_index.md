@@ -1,17 +1,19 @@
 ---
 title: AsposeLicenseException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/asposelicenseexception/
 ---
 
-# AsposeLicenseException class
+## AsposeLicenseException class
 This exception is thrown if any errors with license are detected.
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [AsposeLicenseException](/slides/php-java/asposelicenseexception/asposelicenseexception/)() | Creates a new AsposeLicenseException. |
-| [AsposeLicenseException](/slides/php-java/asposelicenseexception/asposelicenseexception/)(String) | Creates a new AsposeLicenseException with a message string. |
-| [AsposeLicenseException](/slides/php-java/asposelicenseexception/asposelicenseexception/)(String, Throwable) | Creates a new AsposeLicenseException with a message string and a reason. |
+| [AsposeLicenseException](asposelicenseexception)() | Creates a new AsposeLicenseException. |
+| [AsposeLicenseException](asposelicenseexception)(String) | Creates a new AsposeLicenseException with a message string. |
+| [AsposeLicenseException](asposelicenseexception)(String, Throwable) | Creates a new AsposeLicenseException with a message string and a reason. |

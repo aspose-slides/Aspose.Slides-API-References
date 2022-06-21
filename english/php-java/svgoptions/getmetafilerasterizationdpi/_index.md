@@ -1,17 +1,22 @@
 ---
 title: getMetafileRasterizationDpi
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 100
 url: /php-java/svgoptions/getmetafilerasterizationdpi/
 ---
 
-# getMetafileRasterizationDpi() method
+## getMetafileRasterizationDpi() method
 
  Returns or sets the lower resolution limit for metafile rasterization.
  Read/write  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

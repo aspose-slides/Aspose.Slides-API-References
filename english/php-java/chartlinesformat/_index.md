@@ -1,18 +1,20 @@
 ---
 title: ChartLinesFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/chartlinesformat/
 ---
 
-# ChartLinesFormat class
+## ChartLinesFormat class
 
  Represents gridlines format properties.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getEffect](/slides/php-java/chartlinesformat/geteffect/)() | IEffectFormat | Returns effects used for a chart line. Read-only IEffectFormat. |
-| [getLine](/slides/php-java/chartlinesformat/getline/)() | ILineFormat | Returns line style properties of a chart line. Read-only ILineFormat. |
+| Name | Description |
+| --- | --- |
+| [getEffect](geteffect)() | Returns effects used for a chart line. Read-only IEffectFormat. |
+| [getLine](getline)() | Returns line style properties of a chart line. Read-only ILineFormat. |

@@ -1,17 +1,22 @@
 ---
 title: setBeginArrowheadWidth
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 230
 url: /php-java/lineformat/setbeginarrowheadwidth/
 ---
 
-# setBeginArrowheadWidth(byte) method
+## setBeginArrowheadWidth(byte) method
 
  Returns or sets the arrowhead width at the beginning of a line.
  Read/write  LineArrowheadWidth.
  
 
-##  Returns
+### Returns
 LineArrowheadWidth
+
+
+---
 
 

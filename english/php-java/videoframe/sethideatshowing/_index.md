@@ -1,17 +1,22 @@
 ---
 title: setHideAtShowing
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/videoframe/sethideatshowing/
 ---
 
-# setHideAtShowing(boolean) method
+## setHideAtShowing(boolean) method
 
  Determines whether a VideoFrame is hidden.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

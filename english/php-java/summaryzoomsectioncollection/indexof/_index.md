@@ -1,11 +1,13 @@
 ---
 title: indexOf
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/summaryzoomsectioncollection/indexof/
 ---
 
-# indexOf(com.aspose.slides.ISummaryZoomSection) method
+## indexOf(com.aspose.slides.ISummaryZoomSection) method
 
  Returns an index of the specified SummaryZoomSection object.
  
@@ -25,13 +27,16 @@ The example demonstrates getting Summary Zoom Section element by index:
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | summaryZoomSection | SummaryZoomSection object to find ISummaryZoomSection. |
 
-##  Returns
+### Returns
 Index of a SummaryZoomSection object or -1 if SummaryZoomSection object not from this collection.
+
+
+---
 
 

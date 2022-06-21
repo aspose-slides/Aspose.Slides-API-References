@@ -1,11 +1,13 @@
 ---
 title: HSL
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/hsl/
 ---
 
-# HSL class
+## HSL class
 
  Represents a Hue/Saturation/Luminance effect.
  The hue, saturation, and luminance may each be adjusted relative to its current value.
@@ -13,8 +15,8 @@ url: /php-java/hsl/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/hsl/equals/)(Object) | boolean | Determines whether the specified HSL is equal to the current HSL. |
-| [getEffective](/slides/php-java/hsl/geteffective/)() | IHSLEffectiveData | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
-| [hashCode](/slides/php-java/hsl/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified HSL is equal to the current HSL. |
+| [getEffective](geteffective)() | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

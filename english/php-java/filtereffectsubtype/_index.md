@@ -1,44 +1,46 @@
 ---
 title: FilterEffectSubtype
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/filtereffectsubtype/
 ---
 
-# FilterEffectSubtype class
+## FilterEffectSubtype class
 
  Represents filter effect subtypes.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Across |  |
-| Down |  |
-| DownLeft |  |
-| DownRight |  |
-| FromBottom |  |
-| FromLeft |  |
-| FromRight |  |
-| FromTop |  |
-| Horizontal |  |
-| In |  |
-| InHorizontal |  |
-| InVertical |  |
-| Left |  |
-| None |  |
-| Out |  |
-| OutHorizontal |  |
-| OutVertical |  |
-| Right |  |
-| Spokes1 |  |
-| Spokes2 |  |
-| Spokes3 |  |
-| Spokes4 |  |
-| Spokes8 |  |
-| Up |  |
-| UpLeft |  |
-| UpRight |  |
-| Vertical |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Across | 1 |  |
+| Down | 2 |  |
+| DownLeft | 3 |  |
+| DownRight | 4 |  |
+| FromBottom | 5 |  |
+| FromLeft | 6 |  |
+| FromRight | 7 |  |
+| FromTop | 8 |  |
+| Horizontal | 9 |  |
+| In | 10 |  |
+| InHorizontal | 11 |  |
+| InVertical | 12 |  |
+| Left | 13 |  |
+| None | 0 |  |
+| Out | 14 |  |
+| OutHorizontal | 15 |  |
+| OutVertical | 16 |  |
+| Right | 17 |  |
+| Spokes1 | 18 |  |
+| Spokes2 | 19 |  |
+| Spokes3 | 20 |  |
+| Spokes4 | 21 |  |
+| Spokes8 | 22 |  |
+| Up | 23 |  |
+| UpLeft | 24 |  |
+| UpRight | 25 |  |
+| Vertical | 26 |  |
 

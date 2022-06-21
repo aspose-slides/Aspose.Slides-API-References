@@ -1,19 +1,21 @@
 ---
 title: HyperlinkColorSource
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/hyperlinkcolorsource/
 ---
 
-# HyperlinkColorSource class
+## HyperlinkColorSource class
 
  Represents source of hyperlink color.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| PortionFormat | Portion format. |
-| Styles | Styles. |
+| Name | Value | Description |
+| --- | --- | --- |
+| PortionFormat | 1 | Portion format. |
+| Styles | 0 | Styles. |
 

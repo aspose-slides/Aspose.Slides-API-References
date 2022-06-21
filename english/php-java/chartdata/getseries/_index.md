@@ -1,17 +1,22 @@
 ---
 title: getSeries
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/chartdata/getseries/
 ---
 
-# getSeries() method
+## getSeries() method
 
  Gets the series.
  Read-only  IChartSeriesCollection.
  
 
-##  Returns
+### Returns
 IChartSeriesCollection
+
+
+---
 
 

@@ -1,20 +1,22 @@
 ---
 title: BackgroundType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/backgroundtype/
 ---
 
-# BackgroundType class
+## BackgroundType class
 
  Defines the slide background fill source.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| NotDefined |  |
-| OwnBackground |  |
-| Themed |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| NotDefined | -1 |  |
+| OwnBackground | 1 |  |
+| Themed | 0 |  |
 

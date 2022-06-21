@@ -1,26 +1,28 @@
 ---
 title: PointCollection
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/pointcollection/
 ---
 
-# PointCollection class
+## PointCollection class
 
  Represent collection of animation points.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [PointCollection](/slides/php-java/pointcollection/pointcollection/)() |  |
+| [PointCollection](pointcollection)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getCount](/slides/php-java/pointcollection/getcount/)() | int | Returns the number of points in the collection. Read-only int. |
-| [get_Item](/slides/php-java/pointcollection/get_item/)(int) | IPoint | Returns a point at the specified index. |
-| [iterator](/slides/php-java/pointcollection/iterator/)() | IGenericEnumerator | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](/slides/php-java/pointcollection/iteratorjava/)() | IGenericEnumerator | Returns a java iterator for the entire collection. |
+| Name | Description |
+| --- | --- |
+| [getCount](getcount)() | Returns the number of points in the collection. Read-only int. |
+| [get_Item](get_item)(int) | Returns a point at the specified index. |
+| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
+| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |

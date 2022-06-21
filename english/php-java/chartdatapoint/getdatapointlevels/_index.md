@@ -1,14 +1,19 @@
 ---
 title: getDataPointLevels
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/chartdatapoint/getdatapointlevels/
 ---
 
-# getDataPointLevels() method
+## getDataPointLevels() method
 
  Returns container of  data point levels. Applied for Treeamp and Sunburst series.
  Data point levels indexing is zero-based.
  
+
+
+---
 
 

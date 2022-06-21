@@ -1,11 +1,13 @@
 ---
 title: getTextCompression
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 170
 url: /php-java/pdfoptions/gettextcompression/
 ---
 
-# getTextCompression() method
+## getTextCompression() method
 
  Specifies compression type to be used for all textual content in the document.
  Read/write  PdfTextCompression.
@@ -13,7 +15,10 @@ url: /php-java/pdfoptions/gettextcompression/
  Default is  PdfTextCompression#Flate.
  
 
-##  Returns
+### Returns
 PdfTextCompression#Flate
+
+
+---
 
 

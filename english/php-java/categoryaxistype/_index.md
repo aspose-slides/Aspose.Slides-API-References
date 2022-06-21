@@ -1,19 +1,21 @@
 ---
 title: CategoryAxisType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/categoryaxistype/
 ---
 
-# CategoryAxisType class
+## CategoryAxisType class
 
  Represents a type of a category axis.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Date | Specifies category axis is a date axis. |
-| Text | Specifies category axis is a text axis. |
+| Name | Value | Description |
+| --- | --- | --- |
+| Date | 1 | Specifies category axis is a date axis. |
+| Text | 0 | Specifies category axis is a text axis. |
 

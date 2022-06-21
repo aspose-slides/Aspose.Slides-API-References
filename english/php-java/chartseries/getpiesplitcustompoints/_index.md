@@ -1,11 +1,13 @@
 ---
 title: getPieSplitCustomPoints
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 300
 url: /php-java/chartseries/getpiesplitcustompoints/
 ---
 
-# getPieSplitCustomPoints() method
+## getPieSplitCustomPoints() method
 
  The custom split information for a pie-of-pie or bar-of-pie chart with a custom split.
  Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or 
@@ -17,7 +19,10 @@ url: /php-java/chartseries/getpiesplitcustompoints/
  This is the projection of the property ParentSeriesGroup.PieSplitCustomPoints.
  
 
-##  Returns
+### Returns
 PieSplitCustomPointCollection
+
+
+---
 
 

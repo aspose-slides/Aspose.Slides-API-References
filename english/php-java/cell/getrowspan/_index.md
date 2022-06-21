@@ -1,11 +1,13 @@
 ---
 title: getRowSpan
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 180
 url: /php-java/cell/getrowspan/
 ---
 
-# getRowSpan() method
+## getRowSpan() method
 
  Returns the number of rows that a merged cell spans. This is used in combination
  with the vMerge attribute on other cells in order to specify the beginning cell
@@ -13,7 +15,10 @@ url: /php-java/cell/getrowspan/
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

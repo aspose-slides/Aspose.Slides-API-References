@@ -1,18 +1,20 @@
 ---
 title: LeftRightDirectionTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/leftrightdirectiontransition/
 ---
 
-# LeftRightDirectionTransition class
+## LeftRightDirectionTransition class
 
  Left-right direction slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDirection](/slides/php-java/leftrightdirectiontransition/getdirection/)() | int | Direction of transition. Read/write TransitionLeftRightDirectionType. |
-| [setDirection](/slides/php-java/leftrightdirectiontransition/setdirection/)(int) | void | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| Name | Description |
+| --- | --- |
+| [getDirection](getdirection)() | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionLeftRightDirectionType. |

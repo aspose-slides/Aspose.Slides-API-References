@@ -1,11 +1,13 @@
 ---
 title: XamlOptions
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/xamloptions/
 ---
 
-# XamlOptions class
+## XamlOptions class
 
  Options that control how a XAML document is saved.
  
@@ -26,15 +28,15 @@ url: /php-java/xamloptions/
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [XamlOptions](/slides/php-java/xamloptions/xamloptions/)() | Creates the XamlOptions instance. |
+| [XamlOptions](xamloptions)() | Creates the XamlOptions instance. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getExportHiddenSlides](/slides/php-java/xamloptions/getexporthiddenslides/)() | boolean | Determines whether hidden slides will be exported. |
-| [getOutputSaver](/slides/php-java/xamloptions/getoutputsaver/)() | IXamlOutputSaver | Represents an implementation of IOutputSaver interface. |
-| [setExportHiddenSlides](/slides/php-java/xamloptions/setexporthiddenslides/)(boolean) | void | Determines whether hidden slides will be exported. |
-| [setOutputSaver](/slides/php-java/xamloptions/setoutputsaver/)(IXamlOutputSaver) | void | Represents an implementation of IOutputSaver interface. |
+| Name | Description |
+| --- | --- |
+| [getExportHiddenSlides](getexporthiddenslides)() | Determines whether hidden slides will be exported. |
+| [getOutputSaver](getoutputsaver)() | Represents an implementation of IOutputSaver interface. |
+| [setExportHiddenSlides](setexporthiddenslides)(boolean) | Determines whether hidden slides will be exported. |
+| [setOutputSaver](setoutputsaver)(IXamlOutputSaver) | Represents an implementation of IOutputSaver interface. |

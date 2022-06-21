@@ -1,17 +1,22 @@
 ---
 title: getUngroupingLocked
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/groupshapelock/getungroupinglocked/
 ---
 
-# getUngroupingLocked() method
+## getUngroupingLocked() method
 
  Determines whether splitting this groupshape is forbidden.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

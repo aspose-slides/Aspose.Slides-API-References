@@ -1,17 +1,22 @@
 ---
 title: getTo
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/propertyeffect/getto/
 ---
 
-# getTo() method
+## getTo() method
 
  Specifies the ending value for the animation.
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

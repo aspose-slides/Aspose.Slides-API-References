@@ -1,13 +1,18 @@
 ---
 title: getFillColor2
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 300
 url: /php-java/behaviorproperty/getfillcolor2/
 ---
 
-# getFillColor2() method
+## getFillColor2() method
 
  Represents 'fill.color2' property
  
+
+
+---
 
 

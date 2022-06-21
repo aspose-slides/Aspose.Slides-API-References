@@ -1,11 +1,13 @@
 ---
 title: getEffective
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/columnformat/geteffective/
 ---
 
-# getEffective() method
+## getEffective() method
 
  Gets effective table column formatting properties with inheritance and table styles applied.
  
@@ -29,7 +31,10 @@ url: /php-java/columnformat/geteffective/
   }
 ```
 
-##  Returns
+### Returns
 A IColumnFormatEffectiveData.
+
+
+---
 
 

@@ -1,13 +1,18 @@
 ---
 title: getShowLeftPane
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/swfoptions/getshowleftpane/
 ---
 
-# getShowLeftPane() method
+## getShowLeftPane() method
 
  Show/hide left pane. Can be overridden in flashvars. Default is true. 
  
+
+
+---
 
 

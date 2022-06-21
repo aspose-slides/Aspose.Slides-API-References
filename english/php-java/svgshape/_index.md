@@ -1,19 +1,21 @@
 ---
 title: SvgShape
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/svgshape/
 ---
 
-# SvgShape class
+## SvgShape class
 
  Represents options for SVG shape.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getId](/slides/php-java/svgshape/getid/)() | String | Gets shape id |
-| [setEventHandler](/slides/php-java/svgshape/seteventhandler/)(int, String) | void | Sets event handler for the shape |
-| [setId](/slides/php-java/svgshape/setid/)(String) | void | Gets shape id |
+| Name | Description |
+| --- | --- |
+| [getId](getid)() | Gets shape id |
+| [setEventHandler](seteventhandler)(int, String) | Sets event handler for the shape |
+| [setId](setid)(String) | Gets shape id |

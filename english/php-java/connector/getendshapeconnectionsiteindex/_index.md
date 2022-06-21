@@ -1,20 +1,28 @@
 ---
 title: getEndShapeConnectionSiteIndex
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/connector/getendshapeconnectionsiteindex/
 ---
 
-# getEndShapeConnectionSiteIndex() method
+## getEndShapeConnectionSiteIndex() method
 
  Returns or sets the index of connection site for end shape.
  Read/write  long.
  
 
-##  Returns
+### Returns
 long
 
-##  Exception
-ArgumentException Thrown when value is less than EndShapeConnectedTo.ConnectionSiteCount
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when value is less than EndShapeConnectedTo.ConnectionSiteCount |
+
+
+---
 
 

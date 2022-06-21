@@ -1,23 +1,28 @@
 ---
 title: get_Item
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/smartartshapecollection/get_item/
 ---
 
-# get_Item(int) method
+## get_Item(int) method
 
  Gets the element at the specified index.
  Read-only  SmartArtShape.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | Index of shape |
 
-##  Returns
+### Returns
 SmartArtShape
+
+
+---
 
 

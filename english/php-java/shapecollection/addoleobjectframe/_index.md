@@ -1,11 +1,13 @@
 ---
 title: addOleObjectFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 170
 url: /php-java/shapecollection/addoleobjectframe/
 ---
 
-# addOleObjectFrame(float, float, float, float, com.aspose.slides.IOleEmbeddedDataInfo) method
+## addOleObjectFrame(float, float, float, float, com.aspose.slides.IOleEmbeddedDataInfo) method
 
  Adds a new OLE object to the end of a collection.
  
@@ -18,9 +20,9 @@ url: /php-java/shapecollection/addoleobjectframe/
   $oleObjectFrame = $slidees->getShapes()->addOleObjectFrame(150, 20, 50, 50, $dataInfo);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new OLE frame. |
 | y | Y coordinate of a new OLE frame. |
@@ -28,18 +30,21 @@ url: /php-java/shapecollection/addoleobjectframe/
 | height | Height of a new OLE frame. |
 | dataInfo | Embedded data info IOleEmbeddedDataInfo. |
 
-##  Returns
+### Returns
 Created OLE object.
 
 
-# addOleObjectFrame(float, float, float, float, java.lang.String, java.lang.String) method
+---
+
+
+## addOleObjectFrame(float, float, float, float, java.lang.String, java.lang.String) method
 
  Adds a new OLE object to the end of a collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | x | X coordinate of a new OLE frame. |
 | y | Y coordinate of a new OLE frame. |
@@ -48,7 +53,10 @@ Created OLE object.
 | className | Name of an OLE class. |
 | path | Path to the linked file.The path is stored in the presentation as is. If a relative path is specified the corresponding file will be inaccessible when opening the presentation from a different directory. |
 
-##  Returns
+### Returns
 Created OLE object.
+
+
+---
 
 

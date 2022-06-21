@@ -1,11 +1,13 @@
 ---
 title: setShowCategoryName
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 220
 url: /php-java/datalabelformat/setshowcategoryname/
 ---
 
-# setShowCategoryName(boolean) method
+## setShowCategoryName(boolean) method
 
  Represents a specified chart's data label category name display behavior.
  True to display the category name for the data labels on a chart. False to hide.
@@ -20,7 +22,10 @@ url: /php-java/datalabelformat/setshowcategoryname/
  all DataLabels.get_Item(i).getShowCategoryName() is equal to val).
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getBase
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/mathnaryoperator/getbase/
 ---
 
-# getBase() method
+## getBase() method
 
  Base argument
  
@@ -15,5 +17,8 @@ Example:
   $naryOperator = new MathematicalText("x")->nary(MathNaryOperatorTypes.Summation, "x=1", "100");
   $baseArg = $naryOperator->getBase();
 ```
+
+
+---
 
 

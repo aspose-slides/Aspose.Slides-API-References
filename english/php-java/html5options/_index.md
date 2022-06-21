@@ -1,11 +1,13 @@
 ---
 title: Html5Options
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/html5options/
 ---
 
-# Html5Options class
+## Html5Options class
 
  Represents a HTML5 exporting options.
  
@@ -27,15 +29,15 @@ url: /php-java/html5options/
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [Html5Options](/slides/php-java/html5options/html5options/)() |  |
+| [Html5Options](html5options)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getAnimateShapes](/slides/php-java/html5options/getanimateshapes/)() | boolean | Returns or sets shapes animation option. Read/write boolean. |
-| [getAnimateTransitions](/slides/php-java/html5options/getanimatetransitions/)() | boolean | Returns or sets transitions animation option. Read/write boolean. |
-| [setAnimateShapes](/slides/php-java/html5options/setanimateshapes/)(boolean) | void | Returns or sets shapes animation option. Read/write boolean. |
-| [setAnimateTransitions](/slides/php-java/html5options/setanimatetransitions/)(boolean) | void | Returns or sets transitions animation option. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| [getAnimateShapes](getanimateshapes)() | Returns or sets shapes animation option. Read/write boolean. |
+| [getAnimateTransitions](getanimatetransitions)() | Returns or sets transitions animation option. Read/write boolean. |
+| [setAnimateShapes](setanimateshapes)(boolean) | Returns or sets shapes animation option. Read/write boolean. |
+| [setAnimateTransitions](setanimatetransitions)(boolean) | Returns or sets transitions animation option. Read/write boolean. |

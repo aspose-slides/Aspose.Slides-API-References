@@ -1,17 +1,22 @@
 ---
 title: getParagraphs
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/textframe/getparagraphs/
 ---
 
-# getParagraphs() method
+## getParagraphs() method
 
  Returns the list of all paragraphs in a frame.
  Read-only  IParagraphCollection.
  
 
-##  Returns
+### Returns
 IParagraphCollection
+
+
+---
 
 

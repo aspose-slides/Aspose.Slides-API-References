@@ -1,18 +1,20 @@
 ---
 title: OrientationTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/orientationtransition/
 ---
 
-# OrientationTransition class
+## OrientationTransition class
 
  Orientation slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getDirection](/slides/php-java/orientationtransition/getdirection/)() | byte | Direction of transition. Read/write Orientation. |
-| [setDirection](/slides/php-java/orientationtransition/setdirection/)(byte) | void | Direction of transition. Read/write Orientation. |
+| Name | Description |
+| --- | --- |
+| [getDirection](getdirection)() | Direction of transition. Read/write Orientation. |
+| [setDirection](setdirection)(byte) | Direction of transition. Read/write Orientation. |

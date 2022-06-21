@@ -1,17 +1,22 @@
 ---
 title: getSlideImageSizeUnitCode
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 140
 url: /php-java/htmlgenerator/getslideimagesizeunitcode/
 ---
 
-# getSlideImageSizeUnitCode() method
+## getSlideImageSizeUnitCode() method
 
  Returns a css code of unit in which slide image size is specified.
  Read-only  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

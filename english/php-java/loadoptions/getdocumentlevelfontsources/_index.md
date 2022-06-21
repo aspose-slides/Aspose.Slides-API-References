@@ -1,14 +1,19 @@
 ---
 title: getDocumentLevelFontSources
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/loadoptions/getdocumentlevelfontsources/
 ---
 
-# getDocumentLevelFontSources() method
+## getDocumentLevelFontSources() method
 
  Specifies sources for external fonts to be used by the presentation.
  These fonts are available to the presentation throughout its lifetime and are not shared with other presentations
  
+
+
+---
 
 

@@ -1,18 +1,20 @@
 ---
 title: EffectStyle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/effectstyle/
 ---
 
-# EffectStyle class
+## EffectStyle class
 
  Represents an effect style.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getEffectFormat](/slides/php-java/effectstyle/geteffectformat/)() | IEffectFormat | Returns an effect format. Read-only IEffectFormat. |
-| [getThreeDFormat](/slides/php-java/effectstyle/getthreedformat/)() | IThreeDFormat | Returns an 3d format. Read-only IThreeDFormat. |
+| Name | Description |
+| --- | --- |
+| [getEffectFormat](geteffectformat)() | Returns an effect format. Read-only IEffectFormat. |
+| [getThreeDFormat](getthreedformat)() | Returns an 3d format. Read-only IThreeDFormat. |

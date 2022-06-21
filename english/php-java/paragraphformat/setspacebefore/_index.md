@@ -1,11 +1,13 @@
 ---
 title: setSpaceBefore
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 330
 url: /php-java/paragraphformat/setspacebefore/
 ---
 
-# setSpaceBefore(float) method
+## setSpaceBefore(float) method
 
  Returns or sets the amount of space before the first line in a paragraph with no inheritance.
  A positive value specifies the percentage of the font size that the white space should be.
@@ -13,7 +15,10 @@ url: /php-java/paragraphformat/setspacebefore/
  Read/write  float.
  
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getLightType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/lightrig/getlighttype/
 ---
 
-# getLightType() method
+## getLightType() method
 
  Represents a preset light right that can be applied to a shape. 
  The light rig represents a group of lights oriented
@@ -13,7 +15,10 @@ url: /php-java/lightrig/getlighttype/
  Read/write  LightRigPresetType.
  
 
-##  Returns
+### Returns
 LightRigPresetType
+
+
+---
 
 

@@ -1,21 +1,23 @@
 ---
 title: MathFractionTypes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/mathfractiontypes/
 ---
 
-# MathFractionTypes class
+## MathFractionTypes class
 
  Fraction Types
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Bar | Bar Fraction |
-| Linear | Linear Fraction |
-| NoBar | No-Bar Fraction (Stack) |
-| Skewed | Skewed |
+| Name | Value | Description |
+| --- | --- | --- |
+| Bar | 1 | Bar Fraction |
+| Linear | 3 | Linear Fraction |
+| NoBar | 4 | No-Bar Fraction (Stack) |
+| Skewed | 2 | Skewed |
 

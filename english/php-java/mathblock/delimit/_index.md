@@ -1,11 +1,13 @@
 ---
 title: delimit
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/mathblock/delimit/
 ---
 
-# delimit(char) method
+## delimit(char) method
 
  Delimits child elements with separator character (without the brackets)
  
@@ -16,13 +18,16 @@ Example:
   $delimiterElement = $mathBlock->delimit('|');
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | separatorCharacter | Separator character |
 
-##  Returns
+### Returns
 The math element of type IMathDelimiter
+
+
+---
 
 

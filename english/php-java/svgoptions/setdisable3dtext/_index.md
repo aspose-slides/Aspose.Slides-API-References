@@ -1,17 +1,22 @@
 ---
 title: setDisable3DText
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 170
 url: /php-java/svgoptions/setdisable3dtext/
 ---
 
-# setDisable3DText(boolean) method
+## setDisable3DText(boolean) method
 
  Determines whether the 3D text is disabled in SVG.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

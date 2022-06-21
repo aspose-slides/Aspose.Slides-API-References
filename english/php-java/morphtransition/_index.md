@@ -1,18 +1,20 @@
 ---
 title: MorphTransition
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/morphtransition/
 ---
 
-# MorphTransition class
+## MorphTransition class
 
  Ripple slide transition effect.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getMorphType](/slides/php-java/morphtransition/getmorphtype/)() | int | Type of morph transition. Read/write TransitionMorphType. |
-| [setMorphType](/slides/php-java/morphtransition/setmorphtype/)(int) | void | Type of morph transition. Read/write TransitionMorphType. |
+| Name | Description |
+| --- | --- |
+| [getMorphType](getmorphtype)() | Type of morph transition. Read/write TransitionMorphType. |
+| [setMorphType](setmorphtype)(int) | Type of morph transition. Read/write TransitionMorphType. |

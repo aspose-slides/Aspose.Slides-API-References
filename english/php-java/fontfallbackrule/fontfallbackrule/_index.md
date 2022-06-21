@@ -1,14 +1,15 @@
 ---
 title: FontFallBackRule
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/fontfallbackrule/fontfallbackrule/
 ---
 
-# FontFallBackRule(long, long, java.lang.String) constructor
+## FontFallBackRule(long, long, java.lang.String) constructor
 
- Creates new instance.
- 
+Creates new instance.
 
  
 ```php
@@ -18,19 +19,21 @@ url: /php-java/fontfallbackrule/fontfallbackrule/
   $newRule = new FontFallBackRule(0x3040, 0x309f, "MS Mincho, MS Gothic, Tahoma");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Parameter |Description |
 | --- | --- |
 | startIndex | Start index of unicode range |
 | endIndex | End index of unicode range |
 | fontNames | Font's name or names (delimited by comma) for FallBack |
-
-
-# FontFallBackRule(long, long, java.lang.String[]) constructor
-
- Creates new instance.
  
+
+---
+
+
+## FontFallBackRule(long, long, java.lang.String[]) constructor
+
+Creates new instance.
 
  
 ```php
@@ -40,12 +43,15 @@ url: /php-java/fontfallbackrule/fontfallbackrule/
   $newRule = new FontFallBackRule(0x3040, 0x309f, new String[]{ "MS Gothic", "Tahoma, Times New Roman" });
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Parameter |Description |
 | --- | --- |
 | startIndex | Start index of unicode range |
 | endIndex | End index of unicode range |
 | fontNames | Font's name or names (delimited by comma) for FallBack |
+ 
+
+---
 
 

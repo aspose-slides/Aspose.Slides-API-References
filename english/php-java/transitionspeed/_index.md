@@ -1,20 +1,22 @@
 ---
 title: TransitionSpeed
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/transitionspeed/
 ---
 
-# TransitionSpeed class
+## TransitionSpeed class
 
  Represent transition speed types.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Fast |  |
-| Medium |  |
-| Slow |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Fast | 0 |  |
+| Medium | 1 |  |
+| Slow | 2 |  |
 

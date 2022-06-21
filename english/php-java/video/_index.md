@@ -1,19 +1,21 @@
 ---
 title: Video
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/video/
 ---
 
-# Video class
+## Video class
 
  Represents an image embedded into a presentation.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getBinaryData](/slides/php-java/video/getbinarydata/)() | byte | Returns the copy of an audio's data. In case of large amount of data consider using of #getStream method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only byte[]. |
-| [getContentType](/slides/php-java/video/getcontenttype/)() | String | Returns a MIME type of an video, encoded in ( #getBinaryData). Read-only String. |
-| [getStream](/slides/php-java/video/getstream/)() | InputStream | Returns Stream stream for reading. Use 'using' or close stream after using. |
+| Name | Description |
+| --- | --- |
+| [getBinaryData](getbinarydata)() | Returns the copy of an audio's data. In case of large amount of data consider using of #getStream method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only byte[]. |
+| [getContentType](getcontenttype)() | Returns a MIME type of an video, encoded in ( #getBinaryData). Read-only String. |
+| [getStream](getstream)() | Returns Stream stream for reading. Use 'using' or close stream after using. |

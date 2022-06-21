@@ -1,11 +1,13 @@
 ---
 title: getGroupingLevels
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/chartcategory/getgroupinglevels/
 ---
 
-# getGroupingLevels() method
+## getGroupingLevels() method
 
  Managed container of the values of the chart category grouping levels.
  Multi-level category contain more then one grouping level.
@@ -13,7 +15,10 @@ url: /php-java/chartcategory/getgroupinglevels/
  Read-only  IChartCategoryLevelsManager.
  
 
-##  Returns
+### Returns
 IChartCategoryLevelsManager
+
+
+---
 
 

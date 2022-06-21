@@ -1,11 +1,13 @@
 ---
 title: getTransitionDuration
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/zoomobject/gettransitionduration/
 ---
 
-# getTransitionDuration() method
+## getTransitionDuration() method
 
  Gets or sets the duration of the transition between Zoom and slide.
  Read/write  float.
@@ -27,7 +29,10 @@ the example demonstrates changing the duration of the transition between Zoom an
   }
 ```
 
-##  Returns
+### Returns
 float
+
+
+---
 
 

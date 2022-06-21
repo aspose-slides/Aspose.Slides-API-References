@@ -1,11 +1,13 @@
 ---
 title: portion
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/foreach/portion/
 ---
 
-# portion(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachPortionCallback) method
+## portion(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachPortionCallback) method
 
  Iterate each  #portion(Presentation,ForEachPortionCallback) in the  Presentation.
  
@@ -15,14 +17,17 @@ url: /php-java/foreach/portion/
   $pres = new Presentation("pres.pptx");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | Presentation to iterate portions |
 | forEachPortion | Callback that will be invoked for each portion Portions will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
-##  Returns
+### Returns
 Presentation
+
+
+---
 
 

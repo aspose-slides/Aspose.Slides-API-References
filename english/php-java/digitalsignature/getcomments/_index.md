@@ -1,17 +1,22 @@
 ---
 title: getComments
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/digitalsignature/getcomments/
 ---
 
-# getComments() method
+## getComments() method
 
  The purpose of signature.
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

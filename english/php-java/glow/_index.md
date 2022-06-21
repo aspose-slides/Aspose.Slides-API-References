@@ -1,11 +1,13 @@
 ---
 title: Glow
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/glow/
 ---
 
-# Glow class
+## Glow class
 
  Represents a Glow effect, in which a color blurred outline 
  is added outside the edges of the object.
@@ -13,13 +15,13 @@ url: /php-java/glow/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/glow/equals/)(Object) | boolean | Determines whether the specified Glow is equal to the current Glow. |
-| [getColor](/slides/php-java/glow/getcolor/)() | IColorFormat | Color format. Read-only IColorFormat. |
-| [getEffective](/slides/php-java/glow/geteffective/)() | IGlowEffectiveData | Gets effective Glow effect data with the inheritance applied. |
-| [getParent_IPresentationComponent](/slides/php-java/glow/getparent_ipresentationcomponent/)() | IPresentationComponent |  |
-| [getRadius](/slides/php-java/glow/getradius/)() | double | Radius. Read/write double. |
-| [getVersion](/slides/php-java/glow/getversion/)() | long |  |
-| [hashCode](/slides/php-java/glow/hashcode/)() | int | Serves as a hash function for a particular type. |
-| [setRadius](/slides/php-java/glow/setradius/)(double) | void | Radius. Read/write double. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified Glow is equal to the current Glow. |
+| [getColor](getcolor)() | Color format. Read-only IColorFormat. |
+| [getEffective](geteffective)() | Gets effective Glow effect data with the inheritance applied. |
+| [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
+| [getRadius](getradius)() | Radius. Read/write double. |
+| [getVersion](getversion)() |  |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| [setRadius](setradius)(double) | Radius. Read/write double. |

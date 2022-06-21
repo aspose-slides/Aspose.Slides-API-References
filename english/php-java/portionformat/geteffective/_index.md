@@ -1,11 +1,13 @@
 ---
 title: getEffective
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/portionformat/geteffective/
 ---
 
-# getEffective() method
+## getEffective() method
 
  Gets effective portion formatting data with the inheritance applied.
  
@@ -27,7 +29,10 @@ url: /php-java/portionformat/geteffective/
   }
 ```
 
-##  Returns
+### Returns
 A IPortionFormatEffectiveData.
+
+
+---
 
 

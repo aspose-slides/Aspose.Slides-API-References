@@ -1,23 +1,25 @@
 ---
 title: ViewProperties
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/viewproperties/
 ---
 
-# ViewProperties class
+## ViewProperties class
 
  Presentation wide view properties.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getLastView](/slides/php-java/viewproperties/getlastview/)() | int | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
-| [getNormalViewProperties](/slides/php-java/viewproperties/getnormalviewproperties/)() | INormalViewProperties | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only INormalViewProperties. |
-| [getNotesViewProperties](/slides/php-java/viewproperties/getnotesviewproperties/)() | ICommonSlideViewProperties | Specifies common view properties associated with the notes view mode. Read-only ICommonSlideViewProperties. |
-| [getShowComments](/slides/php-java/viewproperties/getshowcomments/)() | byte | Specifies whether the slide comments should be shown. Read/write NullableBool. |
-| [getSlideViewProperties](/slides/php-java/viewproperties/getslideviewproperties/)() | ICommonSlideViewProperties | Specifies common view properties associated with the slide view mode. Read-only ICommonSlideViewProperties. |
-| [setLastView](/slides/php-java/viewproperties/setlastview/)(int) | void | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
-| [setShowComments](/slides/php-java/viewproperties/setshowcomments/)(byte) | void | Specifies whether the slide comments should be shown. Read/write NullableBool. |
+| Name | Description |
+| --- | --- |
+| [getLastView](getlastview)() | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
+| [getNormalViewProperties](getnormalviewproperties)() | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only INormalViewProperties. |
+| [getNotesViewProperties](getnotesviewproperties)() | Specifies common view properties associated with the notes view mode. Read-only ICommonSlideViewProperties. |
+| [getShowComments](getshowcomments)() | Specifies whether the slide comments should be shown. Read/write NullableBool. |
+| [getSlideViewProperties](getslideviewproperties)() | Specifies common view properties associated with the slide view mode. Read-only ICommonSlideViewProperties. |
+| [setLastView](setlastview)(int) | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
+| [setShowComments](setshowcomments)(byte) | Specifies whether the slide comments should be shown. Read/write NullableBool. |

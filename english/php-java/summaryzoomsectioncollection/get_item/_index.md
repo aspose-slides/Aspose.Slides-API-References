@@ -1,11 +1,13 @@
 ---
 title: get_Item
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/summaryzoomsectioncollection/get_item/
 ---
 
-# get_Item(int) method
+## get_Item(int) method
 
  Gets the element at the specified index.
  Read-only  ISummaryZoomSection.
@@ -25,7 +27,10 @@ The example demonstrates getting Summary Zoom Section element by index:
   }
 ```
 
-##  Returns
+### Returns
 ISummaryZoomSection
+
+
+---
 
 

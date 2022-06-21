@@ -1,23 +1,31 @@
 ---
 title: getCount
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/sequence/getcount/
 ---
 
-# getCount() method
+## getCount() method
 
  Returns the number of effects in a sequense.
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
 
 
-# getCount(com.aspose.slides.IShape) method
+---
+
+
+## getCount(com.aspose.slides.IShape) method
 
  Returns count of effects for the specified shape.
  
+
+
+---
 
 

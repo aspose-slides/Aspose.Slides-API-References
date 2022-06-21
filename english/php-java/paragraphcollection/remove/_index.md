@@ -1,25 +1,33 @@
 ---
 title: remove
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 200
 url: /php-java/paragraphcollection/remove/
 ---
 
-# remove(com.aspose.slides.IParagraph) method
+## remove(com.aspose.slides.IParagraph) method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | item | The object to remove from the IGenericCollection. |
 
-##  Returns
+### Returns
 IGenericCollection
 
-##  Exception
-NotSupportedException The IGenericCollection is read-only.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | NotSupportedException | The IGenericCollection is read-only. |
+
+
+---
 
 

@@ -1,11 +1,16 @@
 ---
 title: notify
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 190
 url: /php-java/paragraphcollection/notify/
 ---
 
-# notify(java.lang.Object) method
+## notify(java.lang.Object) method
 
+
+
+---
 
 

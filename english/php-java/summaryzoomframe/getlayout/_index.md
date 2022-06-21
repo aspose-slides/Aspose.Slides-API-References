@@ -1,11 +1,13 @@
 ---
 title: getLayout
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/summaryzoomframe/getlayout/
 ---
 
-# getLayout() method
+## getLayout() method
 
  Gets layout of Summary Zoom Sections in the frame.
  Default value is GridLayout.
@@ -23,5 +25,8 @@ The example demonstrates getting Summary Zoom Section element by index:
     }
   }
 ```
+
+
+---
 
 

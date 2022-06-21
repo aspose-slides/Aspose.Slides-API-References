@@ -1,11 +1,13 @@
 ---
 title: isChartTypeArea
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/charttypecharacterizer/ischarttypearea/
 ---
 
-# isChartTypeArea(int) method
+## isChartTypeArea(int) method
 
  Return true if chartType is one of Area subtypes.
  Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
@@ -17,7 +19,10 @@ url: /php-java/charttypecharacterizer/ischarttypearea/
   ChartType#Area3D.
  
 
-##  Returns
+### Returns
 ChartType#Area3D
+
+
+---
 
 

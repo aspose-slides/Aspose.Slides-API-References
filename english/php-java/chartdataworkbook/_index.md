@@ -1,25 +1,27 @@
 ---
 title: ChartDataWorkbook
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/chartdataworkbook/
 ---
 
-# ChartDataWorkbook class
+## ChartDataWorkbook class
 
  Provides access to embedded Excel workbook
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [calculateFormulas](/slides/php-java/chartdataworkbook/calculateformulas/)() | void | Calculates all formulas in the workbook and updates corresponding cells values. |
-| [clear](/slides/php-java/chartdataworkbook/clear/)(int) | void | Clear all cells values on sheet |
-| [getCell](/slides/php-java/chartdataworkbook/getcell/)(String, int, int) | IChartDataCell | Gets the cell that can be used for chart series or categories |
-| [getCell](/slides/php-java/chartdataworkbook/getcell/)(int, int, int) | IChartDataCell | Gets the cell that can be used for chart series or categories |
-| [getCell](/slides/php-java/chartdataworkbook/getcell/)(int, String) | IChartDataCell | Gets the cell that can be used for chart series or categories |
-| [getCell](/slides/php-java/chartdataworkbook/getcell/)(int, String, Object) | IChartDataCell | Gets the cell that can be used for chart series or categories |
-| [getCell](/slides/php-java/chartdataworkbook/getcell/)(int, int, int, Object) | IChartDataCell | Gets the cell that can be used for chart series or categories |
-| [getCellCollection](/slides/php-java/chartdataworkbook/getcellcollection/)(String, boolean) | IChartCellCollection | Gets the set of cells. |
-| [getWorksheets](/slides/php-java/chartdataworkbook/getworksheets/)() | IChartDataWorksheetCollection | Gets a collection of worksheets. |
+| Name | Description |
+| --- | --- |
+| [calculateFormulas](calculateformulas)() | Calculates all formulas in the workbook and updates corresponding cells values. |
+| [clear](clear)(int) | Clear all cells values on sheet |
+| [getCell](getcell)(String, int, int) | Gets the cell that can be used for chart series or categories |
+| [getCell](getcell)(int, int, int) | Gets the cell that can be used for chart series or categories |
+| [getCell](getcell)(int, String) | Gets the cell that can be used for chart series or categories |
+| [getCell](getcell)(int, String, Object) | Gets the cell that can be used for chart series or categories |
+| [getCell](getcell)(int, int, int, Object) | Gets the cell that can be used for chart series or categories |
+| [getCellCollection](getcellcollection)(String, boolean) | Gets the set of cells. |
+| [getWorksheets](getworksheets)() | Gets a collection of worksheets. |

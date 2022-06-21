@@ -1,16 +1,24 @@
 ---
 title: initColorSchemeFromInherited
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 80
 url: /php-java/overridetheme/initcolorschemefrominherited/
 ---
 
-# initColorSchemeFromInherited() method
+## initColorSchemeFromInherited() method
 
  Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme.
  
 
-##  Exception
-com.aspose.ms.System.InvalidOperationException Thrown if the ColorScheme is already initialized (not null).
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | com.aspose.ms.System.InvalidOperationException | Thrown if the ColorScheme is already initialized (not null). |
+
+
+---
 
 

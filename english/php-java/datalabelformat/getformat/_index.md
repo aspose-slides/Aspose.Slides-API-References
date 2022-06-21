@@ -1,11 +1,13 @@
 ---
 title: getFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/datalabelformat/getformat/
 ---
 
-# getFormat() method
+## getFormat() method
 
  Represents the format of the data label.
  Read-only  IFormat.
@@ -14,7 +16,10 @@ url: /php-java/datalabelformat/getformat/
  property represents the default format for the new data labels in the DataLabelCollection collection.
  
 
-##  Returns
+### Returns
 IFormat
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: size
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 100
 url: /php-java/fontsubstrulecollection/size/
 ---
 
-# size() method
+## size() method
 
  Gets the number of elements actually contained in the collection.
  Read-only  int.
  
 
-##  Returns
+### Returns
 int
+
+
+---
 
 

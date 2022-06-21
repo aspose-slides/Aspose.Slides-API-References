@@ -1,16 +1,21 @@
 ---
 title: toString
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 60
 url: /php-java/fontdata/tostring/
 ---
 
-# toString() method
+## toString() method
 
  Returns string representation.
  
 
-##  Returns
+### Returns
 String representatoin.
+
+
+---
 
 

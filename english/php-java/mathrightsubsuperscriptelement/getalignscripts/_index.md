@@ -1,11 +1,13 @@
 ---
 title: getAlignScripts
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/mathrightsubsuperscriptelement/getalignscripts/
 ---
 
-# getAlignScripts() method
+## getAlignScripts() method
 
  Specifies the alignment of subscript/superscript. 
  When true, subscript and superscript are aligned horizontally to each other.
@@ -21,5 +23,8 @@ Example:
   $subsuperscript = new MathRightSubSuperscriptElement($baseElement, $subscript, $superscript);
   $subsuperscript->setAlignScripts(true);
 ```
+
+
+---
 
 

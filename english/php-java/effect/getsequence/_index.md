@@ -1,17 +1,22 @@
 ---
 title: getSequence
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/effect/getsequence/
 ---
 
-# getSequence() method
+## getSequence() method
 
  Returns a sequence for an effect.
  Read-only  ISequence.
  
 
-##  Returns
+### Returns
 ISequence
+
+
+---
 
 

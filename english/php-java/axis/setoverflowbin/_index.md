@@ -1,19 +1,27 @@
 ---
 title: setOverflowBin
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 900
 url: /php-java/axis/setoverflowbin/
 ---
 
-# setOverflowBin(boolean) method
+## setOverflowBin(boolean) method
 
  Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value.
  
 
 
-# setOverflowBin(double) method
+---
+
+
+## setOverflowBin(double) method
 
  Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true. 
  
+
+
+---
 
 

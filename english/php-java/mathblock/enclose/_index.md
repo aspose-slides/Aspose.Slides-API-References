@@ -1,11 +1,13 @@
 ---
 title: enclose
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 90
 url: /php-java/mathblock/enclose/
 ---
 
-# enclose(char, char) method
+## enclose(char, char) method
 
  Encloses child elements of this block in specified characters such as parenthesis or another characters as framing
  
@@ -16,18 +18,21 @@ Example:
   $delimiter = $block->enclose('[', ']');
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | beginningCharacter | Beginning character (usually left bracket) |
 | endingCharacter | Ending character (usually right bracket) |
 
-##  Returns
+### Returns
 The math element of type IMathDelimiter which includes specified characters as framing
 
 
-# enclose(char, char, char) method
+---
+
+
+## enclose(char, char, char) method
 
  Encloses child elements of this block in specified characters such as parenthesis or another as framing
  and delimit with a separator character
@@ -39,15 +44,18 @@ Example:
   $delimiterElement = $mathBlock->enclose('{', '}', '%');
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | beginningCharacter | Beginning character (usually left bracket) |
 | endingCharacter | Ending character (usually right bracket) |
 | separatorCharacter | Separator character |
 
-##  Returns
+### Returns
 The math element of type IMathDelimiter which includes specified characters as framing and delimiter
+
+
+---
 
 

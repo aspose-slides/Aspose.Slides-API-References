@@ -1,29 +1,34 @@
 ---
 title: addEffect
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/sequence/addeffect/
 ---
 
-# addEffect(com.aspose.slides.IShape, int, int, int) method
+## addEffect(com.aspose.slides.IShape, int, int, int) method
 
  Add new effect to the end of sequence.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | shape | Shape object IShape for adding an effect |
 | effectType | Type of an animation effect EffectType |
 | subtype | Subtypes of animation effect EffectSubtype |
 | triggerType | Trigger type of effect EffectTriggerType |
 
-##  Returns
+### Returns
 New effect object IEffect
 
 
-# addEffect(com.aspose.slides.IParagraph, int, int, int) method
+---
+
+
+## addEffect(com.aspose.slides.IParagraph, int, int, int) method
 
   Add new animation effect for paragraph to the end of sequence.
   
@@ -44,27 +49,30 @@ New effect object IEffect
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | paragraph | Paragraph object IParagraph |
 | effectType | Type of an animation effect EffectType |
 | subtype | Subtypes of animation effect EffectSubtype |
 | triggerType | Trigger type of effect EffectTriggerType |
 
-##  Returns
+### Returns
 New effect object IEffect
 
 
-# addEffect(com.aspose.slides.IChart, int, int, int, int, int) method
+---
+
+
+## addEffect(com.aspose.slides.IChart, int, int, int, int, int) method
 
  Adds the new chart animation effect for category or series to the end of sequence.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | chart | Chart object IChart |
 | type | Type of an animation effect EffectChartMinorGroupingType |
@@ -73,18 +81,21 @@ New effect object IEffect
 | subtype | Subtypes of animation effect EffectSubtype |
 | triggerType | Trigger type of effect EffectTriggerType |
 
-##  Returns
+### Returns
 New effect object IEffect
 
 
-# addEffect(com.aspose.slides.IChart, int, int, int, int, int, int) method
+---
+
+
+## addEffect(com.aspose.slides.IChart, int, int, int, int, int, int) method
 
  Adds the new chart animation effect for elements in category or series to the end of sequence.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | chart | Chart object IChart |
 | type | Type of an animation effect EffectChartMinorGroupingType |
@@ -94,7 +105,10 @@ New effect object IEffect
 | subtype | Subtypes of animation effect EffectSubtype |
 | triggerType | Trigger type of effect EffectTriggerType |
 
-##  Returns
+### Returns
 New effect object IEffect
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: getOverlap
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 250
 url: /php-java/chartseries/getoverlap/
 ---
 
-# getOverlap() method
+## getOverlap() method
 
  Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100).
  This is the property not only of this series but of all series of parent series 
@@ -18,7 +20,10 @@ url: /php-java/chartseries/getoverlap/
  This is the projection of the property ParentSeriesGroup.Overlap.
  
 
-##  Returns
+### Returns
 byte
+
+
+---
 
 

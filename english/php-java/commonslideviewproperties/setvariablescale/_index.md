@@ -1,17 +1,22 @@
 ---
 title: setVariableScale
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/commonslideviewproperties/setvariablescale/
 ---
 
-# setVariableScale(boolean) method
+## setVariableScale(boolean) method
 
  Specifies that the view content should automatically scale to best fit the current window size.
  Read/write  boolean.
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

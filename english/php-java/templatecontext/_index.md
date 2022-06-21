@@ -1,21 +1,23 @@
 ---
 title: TemplateContext
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/templatecontext/
 ---
 
-# TemplateContext class
+## TemplateContext class
 
  Represents a model object interface for a template engine.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getGlobal](/slides/php-java/templatecontext/getglobal/)() | Storage | Returns global storage of the host document. Read-only Storage. |
-| [getLocal](/slides/php-java/templatecontext/getlocal/)() | Storage | Returns local storage of the current template context. Read-only Storage. |
-| [getObject](/slides/php-java/templatecontext/getobject/)() | TObject | Returns the model object. Read-only Object. |
-| [getOutput](/slides/php-java/templatecontext/getoutput/)() | Output | Returns collection of output elements of the host document. Read-only Output( #getOutput). |
-| [subModel](/slides/php-java/templatecontext/submodel/)(TSubModel) | TemplateContext | Creates a child template context. |
+| Name | Description |
+| --- | --- |
+| [getGlobal](getglobal)() | Returns global storage of the host document. Read-only Storage. |
+| [getLocal](getlocal)() | Returns local storage of the current template context. Read-only Storage. |
+| [getObject](getobject)() | Returns the model object. Read-only Object. |
+| [getOutput](getoutput)() | Returns collection of output elements of the host document. Read-only Output( #getOutput). |
+| [subModel](submodel)(TSubModel) | Creates a child template context. |

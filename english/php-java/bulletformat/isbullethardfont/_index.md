@@ -1,11 +1,13 @@
 ---
 title: isBulletHardFont
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 130
 url: /php-java/bulletformat/isbullethardfont/
 ---
 
-# isBulletHardFont() method
+## isBulletHardFont() method
 
  Determines whether the bullet has own font or inherits it from the first portion in the paragraph.
  NullableBool#True if bullet has own font and NullableBool#False if bullet
@@ -13,7 +15,10 @@ url: /php-java/bulletformat/isbullethardfont/
  Read/write  NullableBool.
  
 
-##  Returns
+### Returns
 NullableBool
+
+
+---
 
 

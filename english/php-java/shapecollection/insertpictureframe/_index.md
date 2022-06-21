@@ -1,18 +1,20 @@
 ---
 title: insertPictureFrame
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 510
 url: /php-java/shapecollection/insertpictureframe/
 ---
 
-# insertPictureFrame(int, int, float, float, float, float, com.aspose.slides.IPPImage) method
+## insertPictureFrame(int, int, float, float, float, float, com.aspose.slides.IPPImage) method
 
  Creates a new PictureFrame and inserts it to the collection at the specified index.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | index | The zero-based index at which value should be inserted. |
 | shapeType | The shape contained in the set ShapeType of shapes, except all sorts of lines: ShapeType.Line, ShapeType.StraightConnector1, ShapeType.BentConnector2, ShapeType.BentConnector3, ShapeType.BentConnector4, ShapeType.BentConnector5, ShapeType.CurvedConnector2, ShapeType.CurvedConnector3, ShapeType.CurvedConnector4, ShapeType.CurvedConnector5. |
@@ -22,7 +24,10 @@ url: /php-java/shapecollection/insertpictureframe/
 | height | The height of shape's frame. |
 | image | The image of picture frame. |
 
-##  Returns
+### Returns
 Created PictureFrame object.
+
+
+---
 
 

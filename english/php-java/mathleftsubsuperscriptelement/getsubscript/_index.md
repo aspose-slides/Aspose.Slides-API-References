@@ -1,11 +1,13 @@
 ---
 title: getSubscript
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/mathleftsubsuperscriptelement/getsubscript/
 ---
 
-# getSubscript() method
+## getSubscript() method
 
  Subscript 
  
@@ -18,5 +20,8 @@ Example:
   $leftSubSuperscript = new MathLeftSubSuperscriptElement($baseElement, $subscript, $superscript);
   $sub = $leftSubSuperscript->getSubscript();
 ```
+
+
+---
 
 

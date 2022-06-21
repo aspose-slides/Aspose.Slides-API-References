@@ -1,31 +1,33 @@
 ---
 title: MotionPath
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/motionpath/
 ---
 
-# MotionPath class
+## MotionPath class
 
  Represent motion path.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [MotionPath](/slides/php-java/motionpath/motionpath/)() |  |
+| [MotionPath](motionpath)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [add](/slides/php-java/motionpath/add/)(int, java.awt.geom.Point2D.Float[], int, boolean) | IMotionCmdPath | Add new command to path |
-| [clear](/slides/php-java/motionpath/clear/)() | void | Removes all commands from the collection. |
-| [getCount](/slides/php-java/motionpath/getcount/)() | int | Returns the number of paths in the collection. Read-only int. |
-| [get_Item](/slides/php-java/motionpath/get_item/)(int) | IMotionCmdPath | Returns a command at the specified index. |
-| [insert](/slides/php-java/motionpath/insert/)(int, int, java.awt.geom.Point2D.Float[], int, boolean) | void | Insert new command to path |
-| [iterator](/slides/php-java/motionpath/iterator/)() | IGenericEnumerator | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](/slides/php-java/motionpath/iteratorjava/)() | IGenericEnumerator | Returns a java iterator for the entire collection. |
-| [remove](/slides/php-java/motionpath/remove/)(IMotionCmdPath) | void | Removes specified commans from the collection. |
-| [removeAt](/slides/php-java/motionpath/removeat/)(int) | void | Removes a command at the specified index. |
+| Name | Description |
+| --- | --- |
+| [add](add)(int, java.awt.geom.Point2D.Float[], int, boolean) | Add new command to path |
+| [clear](clear)() | Removes all commands from the collection. |
+| [getCount](getcount)() | Returns the number of paths in the collection. Read-only int. |
+| [get_Item](get_item)(int) | Returns a command at the specified index. |
+| [insert](insert)(int, int, java.awt.geom.Point2D.Float[], int, boolean) | Insert new command to path |
+| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
+| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
+| [remove](remove)(IMotionCmdPath) | Removes specified commans from the collection. |
+| [removeAt](removeat)(int) | Removes a command at the specified index. |

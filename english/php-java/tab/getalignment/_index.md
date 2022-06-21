@@ -1,17 +1,22 @@
 ---
 title: getAlignment
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/tab/getalignment/
 ---
 
-# getAlignment() method
+## getAlignment() method
 
  Returns or sets align style of a tab.
  Read/write  TabAlignment.
  
 
-##  Returns
+### Returns
 TabAlignment
+
+
+---
 
 

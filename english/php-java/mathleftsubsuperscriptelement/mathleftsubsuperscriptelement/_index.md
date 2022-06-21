@@ -1,14 +1,15 @@
 ---
 title: MathLeftSubSuperscriptElement
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/mathleftsubsuperscriptelement/mathleftsubsuperscriptelement/
 ---
 
-# MathLeftSubSuperscriptElement(com.aspose.slides.IMathElement, com.aspose.slides.IMathElement, com.aspose.slides.IMathElement) constructor
+## MathLeftSubSuperscriptElement(com.aspose.slides.IMathElement, com.aspose.slides.IMathElement, com.aspose.slides.IMathElement) constructor
 
- Initializes a new instance of the MathLeftSubSuperscriptElement class.
- 
+Initializes a new instance of the MathLeftSubSuperscriptElement class.
 Example:
  
 ```php
@@ -17,5 +18,8 @@ Example:
   $superscript = new MathematicalText("j");
   $leftSubSuperscript = new MathLeftSubSuperscriptElement($baseElement, $subscript, $superscript);
 ```
+ 
+
+---
 
 

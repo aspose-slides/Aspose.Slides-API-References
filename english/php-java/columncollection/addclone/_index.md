@@ -1,23 +1,28 @@
 ---
 title: addClone
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/columncollection/addclone/
 ---
 
-# addClone(com.aspose.slides.IColumn, boolean) method
+## addClone(com.aspose.slides.IColumn, boolean) method
 
  Creates a copy of the specified template row and inserts it at the bottom of a table.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | templ | Column which is used as a template. |
 | withAttachedColumns | True to copy also all columns attached to the template row. |
 
-##  Returns
+### Returns
 Added columns.
+
+
+---
 
 

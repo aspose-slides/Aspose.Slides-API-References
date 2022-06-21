@@ -1,11 +1,13 @@
 ---
 title: toArray
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 150
 url: /php-java/fontfallbackrule/toarray/
 ---
 
-# toArray() method
+## toArray() method
 
  Creates and returns an array with all FallBack fonts for this rule.
  
@@ -18,11 +20,14 @@ url: /php-java/fontfallbackrule/toarray/
   $fontNames = $newRule->toArray();
 ```
 
-##  Returns
+### Returns
 Array of String
 
 
-# toArray(int, int) method
+---
+
+
+## toArray(int, int) method
 
  Creates and returns an array with all FallBack fonts from the specified range in list.
  
@@ -40,14 +45,17 @@ Array of String
   $fontNames = $newRule->toArray(2, 2);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | startIndex | An index of a first font to add. |
 | count | A number of fonts to add. |
 
-##  Returns
+### Returns
 Array of String
+
+
+---
 
 

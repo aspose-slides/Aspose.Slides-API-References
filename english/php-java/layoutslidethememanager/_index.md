@@ -1,11 +1,13 @@
 ---
 title: LayoutSlideThemeManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/layoutslidethememanager/
 ---
 
-# LayoutSlideThemeManager class
+## LayoutSlideThemeManager class
 
  Provides access to layout slide theme overriden.
  

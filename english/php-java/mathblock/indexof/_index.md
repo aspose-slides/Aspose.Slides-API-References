@@ -1,11 +1,13 @@
 ---
 title: indexOf
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 150
 url: /php-java/mathblock/indexof/
 ---
 
-# indexOf(com.aspose.slides.IMathElement) method
+## indexOf(com.aspose.slides.IMathElement) method
 
  Determines the index of a specific math element in collection.
  
@@ -19,13 +21,16 @@ Example:
   $index = $mathBlock->indexOf($plusElement);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | item | The element to locate in the collection. |
 
-##  Returns
+### Returns
 The index of item if found in the collection; otherwise, -1.
+
+
+---
 
 

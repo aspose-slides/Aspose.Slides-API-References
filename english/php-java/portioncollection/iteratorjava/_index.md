@@ -1,16 +1,21 @@
 ---
 title: iteratorJava
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 110
 url: /php-java/portioncollection/iteratorjava/
 ---
 
-# iteratorJava() method
+## iteratorJava() method
 
  Returns a java iterator for the entire collection.
  
 
-##  Returns
+### Returns
 An java.util.Iterator for the entire collection.
+
+
+---
 
 

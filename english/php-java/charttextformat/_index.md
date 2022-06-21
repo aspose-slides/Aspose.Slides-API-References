@@ -1,21 +1,23 @@
 ---
 title: ChartTextFormat
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/charttextformat/
 ---
 
-# ChartTextFormat class
+## ChartTextFormat class
 
  Specifies default text formatting for chart text elements.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [copyFrom](/slides/php-java/charttextformat/copyfrom/)(ITextFrame) | void | Copies text format from specified text frame. |
-| [copyTo](/slides/php-java/charttextformat/copyto/)(ITextFrame) | void | Copies text format to specified text frame. |
-| [getParagraphFormat](/slides/php-java/charttextformat/getparagraphformat/)() | IChartParagraphFormat | ParagraphFormat. Read-only IChartParagraphFormat. |
-| [getPortionFormat](/slides/php-java/charttextformat/getportionformat/)() | IChartPortionFormat | PortionFormat. Read-only IChartPortionFormat. |
-| [getTextBlockFormat](/slides/php-java/charttextformat/gettextblockformat/)() | IChartTextBlockFormat | TextBlockFormat. Read-only IChartTextBlockFormat. |
+| Name | Description |
+| --- | --- |
+| [copyFrom](copyfrom)(ITextFrame) | Copies text format from specified text frame. |
+| [copyTo](copyto)(ITextFrame) | Copies text format to specified text frame. |
+| [getParagraphFormat](getparagraphformat)() | ParagraphFormat. Read-only IChartParagraphFormat. |
+| [getPortionFormat](getportionformat)() | PortionFormat. Read-only IChartPortionFormat. |
+| [getTextBlockFormat](gettextblockformat)() | TextBlockFormat. Read-only IChartTextBlockFormat. |

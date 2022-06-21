@@ -1,100 +1,120 @@
 ---
 title: readPresentation
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 100
 url: /php-java/presentationfactory/readpresentation/
 ---
 
-# readPresentation(byte[]) method
+## readPresentation(byte[]) method
 
  Reads an existing presentation from array
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | data | Array to read |
 
-##  Returns
+### Returns
 Read presentation
 
 
-# readPresentation(byte[], com.aspose.slides.ILoadOptions) method
+---
+
+
+## readPresentation(byte[], com.aspose.slides.ILoadOptions) method
 
  Reads an existing presentation from array with additional load options
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | data | Array to read |
 | options | Load options |
 
-##  Returns
+### Returns
 Read presentation
 
 
-# readPresentation(java.io.InputStream) method
+---
+
+
+## readPresentation(java.io.InputStream) method
 
  Reads an existing presentation from stream
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | stream | Input stream to read |
 
-##  Returns
+### Returns
 Read presentation
 
 
-# readPresentation(java.io.InputStream, com.aspose.slides.ILoadOptions) method
+---
+
+
+## readPresentation(java.io.InputStream, com.aspose.slides.ILoadOptions) method
 
  Reads an existing presentation from stream with additional load options
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | stream | Input stream to read |
 | options | Load options |
 
-##  Returns
+### Returns
 Read presentation
 
 
-# readPresentation(java.lang.String) method
+---
+
+
+## readPresentation(java.lang.String) method
 
  Reads an existing presentation from file
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | file | File name |
 
-##  Returns
+### Returns
 Read presentation
 
 
-# readPresentation(java.lang.String, com.aspose.slides.ILoadOptions) method
+---
+
+
+## readPresentation(java.lang.String, com.aspose.slides.ILoadOptions) method
 
  Reads an existing presentation from stream with additional load options
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | file | File name |
 | options | Load options |
 
-##  Returns
+### Returns
 Read presentation
+
+
+---
 
 

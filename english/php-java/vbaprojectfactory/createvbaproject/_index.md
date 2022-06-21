@@ -1,16 +1,21 @@
 ---
 title: createVbaProject
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/vbaprojectfactory/createvbaproject/
 ---
 
-# createVbaProject() method
+## createVbaProject() method
 
  Creates new VBA project.
  
 
-##  Returns
+### Returns
 New VBA project
+
+
+---
 
 

@@ -1,11 +1,13 @@
 ---
 title: GrayScale
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/grayscale/
 ---
 
-# GrayScale class
+## GrayScale class
 
  Represents a Gray Scale effect. Converts all effect color values to a shade of gray,
  corresponding to their luminance. Effect alpha (opacity) values are unaffected.
@@ -13,8 +15,8 @@ url: /php-java/grayscale/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [equals](/slides/php-java/grayscale/equals/)(Object) | boolean | Determines whether the specified GrayScale is equal to the current GrayScale. |
-| [getEffective](/slides/php-java/grayscale/geteffective/)() | IGrayScaleEffectiveData | Gets effective Gray Scale effect data with the inheritance applied. |
-| [hashCode](/slides/php-java/grayscale/hashcode/)() | int | Serves as a hash function for a particular type. |
+| Name | Description |
+| --- | --- |
+| [equals](equals)(Object) | Determines whether the specified GrayScale is equal to the current GrayScale. |
+| [getEffective](geteffective)() | Gets effective Gray Scale effect data with the inheritance applied. |
+| [hashCode](hashcode)() | Serves as a hash function for a particular type. |

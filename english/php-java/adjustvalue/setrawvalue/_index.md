@@ -1,17 +1,22 @@
 ---
 title: setRawValue
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/adjustvalue/setrawvalue/
 ---
 
-# setRawValue(long) method
+## setRawValue(long) method
 
  Returns or sets ajustment value "as is".
  Read/write  long.
  
 
-##  Returns
+### Returns
 long
+
+
+---
 
 

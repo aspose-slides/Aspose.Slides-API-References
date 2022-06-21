@@ -1,19 +1,21 @@
 ---
 title: PptEditException
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/ppteditexception/
 ---
 
-# PptEditException class
+## PptEditException class
 
  Represents an exception thrown when edit presentation error is detected.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [PptEditException](/slides/php-java/ppteditexception/ppteditexception/)() | Default constructor. |
-| [PptEditException](/slides/php-java/ppteditexception/ppteditexception/)(String) | Constructor allowing a message to be added to this exception. |
-| [PptEditException](/slides/php-java/ppteditexception/ppteditexception/)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptEditException](ppteditexception)() | Default constructor. |
+| [PptEditException](ppteditexception)(String) | Constructor allowing a message to be added to this exception. |
+| [PptEditException](ppteditexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |

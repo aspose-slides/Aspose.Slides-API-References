@@ -1,11 +1,13 @@
 ---
 title: getMathParagraph
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/mathportion/getmathparagraph/
 ---
 
-# getMathParagraph() method
+## getMathParagraph() method
 
  Math paragraph
  
@@ -23,5 +25,8 @@ Example:
     }
   }
 ```
+
+
+---
 
 

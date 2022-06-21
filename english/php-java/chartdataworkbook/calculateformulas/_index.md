@@ -1,11 +1,13 @@
 ---
 title: calculateFormulas
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/chartdataworkbook/calculateformulas/
 ---
 
-# calculateFormulas() method
+## calculateFormulas() method
 
   Calculates all formulas in the workbook and updates corresponding cells values. 
   
@@ -28,7 +30,13 @@ url: /php-java/chartdataworkbook/calculateformulas/
   }
 ```
 
-##  Exception
-CellUnsupportedDataException Cell data is not supported.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | CellUnsupportedDataException | Cell data is not supported. |
+
+
+---
 
 

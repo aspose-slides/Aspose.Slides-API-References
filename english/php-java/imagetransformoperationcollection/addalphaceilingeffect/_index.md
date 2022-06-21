@@ -1,16 +1,21 @@
 ---
 title: addAlphaCeilingEffect
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/imagetransformoperationcollection/addalphaceilingeffect/
 ---
 
-# addAlphaCeilingEffect() method
+## addAlphaCeilingEffect() method
 
  Adds the new Alpha Ceiling effect to the end of a collection.
  
 
-##  Returns
+### Returns
 Index of the new image effect in a collection.
+
+
+---
 
 

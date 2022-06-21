@@ -1,13 +1,18 @@
 ---
 title: isOverflowBin
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 550
 url: /php-java/axis/isoverflowbin/
 ---
 
-# isOverflowBin() method
+## isOverflowBin() method
 
  Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value.
  
+
+
+---
 
 

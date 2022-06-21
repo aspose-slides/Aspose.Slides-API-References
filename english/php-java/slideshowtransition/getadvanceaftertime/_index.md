@@ -1,11 +1,13 @@
 ---
 title: getAdvanceAfterTime
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/slideshowtransition/getadvanceaftertime/
 ---
 
-# getAdvanceAfterTime() method
+## getAdvanceAfterTime() method
 
  Specifies the time, in milliseconds, after which the transition should start. This setting
  may be used in conjunction with the advClick attribute. If this attribute is not specified
@@ -13,7 +15,10 @@ url: /php-java/slideshowtransition/getadvanceaftertime/
  Read/write  long.
  
 
-##  Returns
+### Returns
 long
+
+
+---
 
 

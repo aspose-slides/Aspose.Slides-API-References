@@ -1,29 +1,31 @@
 ---
 title: EmbeddedWoffFontsHtmlController
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/embeddedwofffontshtmlcontroller/
 ---
 
-# EmbeddedWoffFontsHtmlController class
+## EmbeddedWoffFontsHtmlController class
 
  The formatting controller class to use for fonts embedding in WOFF format
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [EmbeddedWoffFontsHtmlController](/slides/php-java/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/)() | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](/slides/php-java/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/)(IHtmlFormattingController) | Creates new instance. |
+| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)() | Creates new instance. |
+| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)(IHtmlFormattingController) | Creates new instance. |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [writeDocumentEnd](/slides/php-java/embeddedwofffontshtmlcontroller/writedocumentend/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeDocumentStart](/slides/php-java/embeddedwofffontshtmlcontroller/writedocumentstart/)(IHtmlGenerator, IPresentation) | void |  |
-| [writeShapeEnd](/slides/php-java/embeddedwofffontshtmlcontroller/writeshapeend/)(IHtmlGenerator, IShape) | void |  |
-| [writeShapeStart](/slides/php-java/embeddedwofffontshtmlcontroller/writeshapestart/)(IHtmlGenerator, IShape) | void |  |
-| [writeSlideEnd](/slides/php-java/embeddedwofffontshtmlcontroller/writeslideend/)(IHtmlGenerator, ISlide) | void |  |
-| [writeSlideStart](/slides/php-java/embeddedwofffontshtmlcontroller/writeslidestart/)(IHtmlGenerator, ISlide) | void |  |
+| Name | Description |
+| --- | --- |
+| [writeDocumentEnd](writedocumentend)(IHtmlGenerator, IPresentation) |  |
+| [writeDocumentStart](writedocumentstart)(IHtmlGenerator, IPresentation) |  |
+| [writeShapeEnd](writeshapeend)(IHtmlGenerator, IShape) |  |
+| [writeShapeStart](writeshapestart)(IHtmlGenerator, IShape) |  |
+| [writeSlideEnd](writeslideend)(IHtmlGenerator, ISlide) |  |
+| [writeSlideStart](writeslidestart)(IHtmlGenerator, ISlide) |  |

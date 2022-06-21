@@ -1,25 +1,27 @@
 ---
 title: Storage
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/storage/
 ---
 
-# Storage class
+## Storage class
 
  Represents a temporary data storage for  WebDocument.
  
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [Storage](/slides/php-java/storage/storage/)() |  |
+| [Storage](storage)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [containsKey](/slides/php-java/storage/containskey/)(String) | boolean | Determines whether the storage contains an element with the specified key. |
-| [get](/slides/php-java/storage/get/)(String) | TValue | Gets the data from the storage. |
-| [put](/slides/php-java/storage/put/)(String, TValue) | void | Puts the value into the storage. |
+| Name | Description |
+| --- | --- |
+| [containsKey](containskey)(String) | Determines whether the storage contains an element with the specified key. |
+| [get](get)(String) | Gets the data from the storage. |
+| [put](put)(String, TValue) | Puts the value into the storage. |

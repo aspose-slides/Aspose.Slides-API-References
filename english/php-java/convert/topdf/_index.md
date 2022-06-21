@@ -1,11 +1,13 @@
 ---
 title: toPdf
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 30
 url: /php-java/convert/topdf/
 ---
 
-# toPdf(java.lang.String, java.lang.String) method
+## toPdf(java.lang.String, java.lang.String) method
 
  Converts  Presentation to PDF.
  
@@ -15,18 +17,21 @@ url: /php-java/convert/topdf/
   Convert->toPdf("pres.pptx", "pres.pdf");
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | presPath | Path of the input presentation |
 | outPath | Output path |
 
-##  Returns
+### Returns
 Presentation
 
 
-# toPdf(java.lang.String, java.lang.String, com.aspose.slides.IPdfOptions) method
+---
+
+
+## toPdf(java.lang.String, java.lang.String, com.aspose.slides.IPdfOptions) method
 
  Converts  Presentation to PDF.
  
@@ -38,19 +43,22 @@ Presentation
   Convert->toPdf("pres.pptx", "pres.pdf", $pdfOptions);
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | presPath | Path of the input presentation |
 | outPath | Output path |
 | options | Output PDF options |
 
-##  Returns
+### Returns
 Presentation
 
 
-# toPdf(com.aspose.slides.Presentation, java.lang.String) method
+---
+
+
+## toPdf(com.aspose.slides.Presentation, java.lang.String) method
 
  Converts  Presentation to PDF.
  
@@ -67,18 +75,21 @@ Presentation
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | Input presentation |
 | outPath | Output path |
 
-##  Returns
+### Returns
 Presentation
 
 
-# toPdf(com.aspose.slides.Presentation, java.lang.String, com.aspose.slides.IPdfOptions) method
+---
+
+
+## toPdf(com.aspose.slides.Presentation, java.lang.String, com.aspose.slides.IPdfOptions) method
 
  Converts  Presentation to PDF.
  
@@ -97,15 +108,18 @@ Presentation
   }
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | pres | Input presentation |
 | outPath | Output path |
 | options | Output PDF options |
 
-##  Returns
+### Returns
 Presentation
+
+
+---
 
 

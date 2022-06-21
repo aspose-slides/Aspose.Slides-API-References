@@ -1,33 +1,39 @@
 ---
 title: DigitalSignature
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/digitalsignature/digitalsignature/
 ---
 
-# DigitalSignature(byte[], java.lang.String) constructor
+## DigitalSignature(byte[], java.lang.String) constructor
 
- Creates a new DigitalSignature object with the specified certificate.
- 
+Creates a new DigitalSignature object with the specified certificate.
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Parameter |Description |
 | --- | --- |
 | certData | a byte array containing the certificate |
 | password | Password required to access certificate. |
-
-
-# DigitalSignature(java.lang.String, java.lang.String) constructor
-
- Creates a new DigitalSignature object with the specified certificate file path and password.
  
 
-##  Parameters
+---
 
-| name | description |
+
+## DigitalSignature(java.lang.String, java.lang.String) constructor
+
+Creates a new DigitalSignature object with the specified certificate file path and password.
+
+### Parameters
+
+| Parameter |Description |
 | --- | --- |
 | filePath | Path to the file with certificate. |
 | password | Password required to access certificate. |
+ 
+
+---
 
 

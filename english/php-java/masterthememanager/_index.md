@@ -1,22 +1,24 @@
 ---
 title: MasterThemeManager
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/masterthememanager/
 ---
 
-# MasterThemeManager class
+## MasterThemeManager class
 
  Provides access to presentation master theme.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [applyColorScheme](/slides/php-java/masterthememanager/applycolorscheme/)(IExtraColorScheme) | void | Applies extra color scheme to a slide. |
-| [createThemeEffective](/slides/php-java/masterthememanager/createthemeeffective/)() | IThemeEffectiveData | Returns the theme object. |
-| [getOverrideTheme](/slides/php-java/masterthememanager/getoverridetheme/)() | IMasterTheme | Returns the overriding theme object. Read/write IMasterTheme. |
-| [isOverrideThemeEnabled](/slides/php-java/masterthememanager/isoverridethemeenabled/)() | boolean | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
-| [setOverrideTheme](/slides/php-java/masterthememanager/setoverridetheme/)(IMasterTheme) | void | Returns the overriding theme object. Read/write IMasterTheme. |
-| [setOverrideThemeEnabled](/slides/php-java/masterthememanager/setoverridethemeenabled/)(boolean) | void | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
+| Name | Description |
+| --- | --- |
+| [applyColorScheme](applycolorscheme)(IExtraColorScheme) | Applies extra color scheme to a slide. |
+| [createThemeEffective](createthemeeffective)() | Returns the theme object. |
+| [getOverrideTheme](getoverridetheme)() | Returns the overriding theme object. Read/write IMasterTheme. |
+| [isOverrideThemeEnabled](isoverridethemeenabled)() | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
+| [setOverrideTheme](setoverridetheme)(IMasterTheme) | Returns the overriding theme object. Read/write IMasterTheme. |
+| [setOverrideThemeEnabled](setoverridethemeenabled)(boolean) | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |

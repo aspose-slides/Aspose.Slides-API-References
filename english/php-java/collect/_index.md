@@ -1,11 +1,13 @@
 ---
 title: Collect
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/collect/
 ---
 
-# Collect class
+## Collect class
 
  Represents a group of methods intended to collect model objects of different types from  Presentation.
  
@@ -26,12 +28,12 @@ url: /php-java/collect/
 
 ## Constructors
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [Collect](/slides/php-java/collect/collect/)() |  |
+| [Collect](collect)() |  |
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [shapes](/slides/php-java/collect/shapes/)(Presentation) | IGenericEnumerable | Collects all instances of Shape in the Presentation. |
+| Name | Description |
+| --- | --- |
+| [shapes](shapes)(Presentation) | Collects all instances of Shape in the Presentation. |

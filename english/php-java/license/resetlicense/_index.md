@@ -1,11 +1,13 @@
 ---
 title: resetLicense
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/license/resetlicense/
 ---
 
-# resetLicense() method
+## resetLicense() method
 Reset the license
  Use this method to reset license in component
  
@@ -17,5 +19,8 @@ Reset the license
   $license = new License();
   $license->resetLicense();
 ```
+
+
+---
 
 

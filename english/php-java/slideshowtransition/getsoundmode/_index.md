@@ -1,17 +1,22 @@
 ---
 title: getSoundMode
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/slideshowtransition/getsoundmode/
 ---
 
-# getSoundMode() method
+## getSoundMode() method
 
  Set or returns sound mode for slide transition.
  Read/write  TransitionSoundMode.
  
 
-##  Returns
+### Returns
 TransitionSoundMode
+
+
+---
 
 

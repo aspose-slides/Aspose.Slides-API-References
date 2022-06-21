@@ -1,11 +1,13 @@
 ---
 title: getPersistence
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/control/getpersistence/
 ---
 
-# getPersistence() method
+## getPersistence() method
 
  Gets the method used to store properties of the ActiveX control.
  Read only  PersistenceType.
@@ -22,7 +24,10 @@ url: /php-java/control/getpersistence/
   }
 ```
 
-##  Returns
+### Returns
 PersistenceType
+
+
+---
 
 

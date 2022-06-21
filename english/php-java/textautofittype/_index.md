@@ -1,21 +1,23 @@
 ---
 title: TextAutofitType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/textautofittype/
 ---
 
-# TextAutofitType class
+## TextAutofitType class
 
  Represents text autofit mode.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| None | No autofit. |
-| Normal | Normal autofit. Font size and line spacing will be reduced to fit the shape. |
-| NotDefined | Not defined. |
-| Shape | Shape autofit. Shape size will be changed to fit the text. |
+| Name | Value | Description |
+| --- | --- | --- |
+| None | 0 | No autofit. |
+| Normal | 1 | Normal autofit. Font size and line spacing will be reduced to fit the shape. |
+| NotDefined | -1 | Not defined. |
+| Shape | 2 | Shape autofit. Shape size will be changed to fit the text. |
 

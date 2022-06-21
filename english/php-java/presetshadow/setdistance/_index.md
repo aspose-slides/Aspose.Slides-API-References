@@ -1,14 +1,19 @@
 ---
 title: setDistance
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/presetshadow/setdistance/
 ---
 
-# setDistance(double) method
+## setDistance(double) method
 
  Distance of shadow.
  Read/write  double.
  
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getContourWidth
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/threedformat/getcontourwidth/
 ---
 
-# getContourWidth() method
+## getContourWidth() method
 
  Returns or sets the width of a 3D contour.
  Read/write  double.
  
 
-##  Returns
+### Returns
 double
+
+
+---
 
 

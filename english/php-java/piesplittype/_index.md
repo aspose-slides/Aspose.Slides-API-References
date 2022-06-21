@@ -1,11 +1,13 @@
 ---
 title: PieSplitType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/piesplittype/
 ---
 
-# PieSplitType class
+## PieSplitType class
 
  Represents a type of splitting points in the second pie or bar 
  on a pie-of-pie or bar-of-pie chart.
@@ -13,11 +15,11 @@ url: /php-java/piesplittype/
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| ByPercentage | Specifies the data points shall be split between the pie and the second chart by putting the points with percentage less than Split Position percent in the second chart. |
-| ByPos | Specifies the data points shall be split between the pie and the second chart by putting the last Split Position of the data points in the second chart. |
-| ByValue | Specifies the data points shall be split between the pie and the second chart by putting the data points with value less than Split Position in the second chart. |
-| Custom | Specifies the data points shall be split between the pie and the second chart according to the Custom Split values. |
-| Default | Specifies the data points shall be split using the default mechanism for this chart type. |
+| Name | Value | Description |
+| --- | --- | --- |
+| ByPercentage | 2 | Specifies the data points shall be split between the pie and the second chart by putting the points with percentage less than Split Position percent in the second chart. |
+| ByPos | 3 | Specifies the data points shall be split between the pie and the second chart by putting the last Split Position of the data points in the second chart. |
+| ByValue | 4 | Specifies the data points shall be split between the pie and the second chart by putting the data points with value less than Split Position in the second chart. |
+| Custom | 1 | Specifies the data points shall be split between the pie and the second chart according to the Custom Split values. |
+| Default | 0 | Specifies the data points shall be split using the default mechanism for this chart type. |
 

@@ -1,13 +1,18 @@
 ---
 title: setFirstSlideNumber
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 610
 url: /php-java/presentation/setfirstslidenumber/
 ---
 
-# setFirstSlideNumber(int) method
+## setFirstSlideNumber(int) method
 
  Represents the first slide number in the presentation
  
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getPictureFillMode
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 70
 url: /php-java/picturefillformat/getpicturefillmode/
 ---
 
-# getPictureFillMode() method
+## getPictureFillMode() method
 
  Returns or sets the picture fill mode.
  Read/write  PictureFillMode.
  
 
-##  Returns
+### Returns
 PictureFillMode
+
+
+---
 
 

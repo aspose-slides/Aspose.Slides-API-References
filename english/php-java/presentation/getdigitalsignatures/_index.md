@@ -1,11 +1,13 @@
 ---
 title: getDigitalSignatures
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 140
 url: /php-java/presentation/getdigitalsignatures/
 ---
 
-# getDigitalSignatures() method
+## getDigitalSignatures() method
 
  Returns the collection of signatures used to sign the presentation.
  Read-only  IDigitalSignatureCollection.
@@ -35,7 +37,10 @@ url: /php-java/presentation/getdigitalsignatures/
   }
 ```
 
-##  Returns
+### Returns
 IDigitalSignatureCollection
+
+
+---
 
 

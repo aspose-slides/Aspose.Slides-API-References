@@ -1,17 +1,22 @@
 ---
 title: setTextVerticalType
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 320
 url: /php-java/cell/settextverticaltype/
 ---
 
-# setTextVerticalType(byte) method
+## setTextVerticalType(byte) method
 
  Returns or sets the type of vertical text.
  Read/write  TextVerticalType.
  
 
-##  Returns
+### Returns
 TextVerticalType
+
+
+---
 
 

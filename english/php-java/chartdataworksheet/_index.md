@@ -1,18 +1,20 @@
 ---
 title: ChartDataWorksheet
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/chartdataworksheet/
 ---
 
-# ChartDataWorksheet class
+## ChartDataWorksheet class
 
  Represents worksheet associated with  IChartDataCell
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getIndex](/slides/php-java/chartdataworksheet/getindex/)() | int | Gets the index of the worksheet. Read-only int. |
-| [getName](/slides/php-java/chartdataworksheet/getname/)() | String | Returns the name of the worksheet. Read-only String. |
+| Name | Description |
+| --- | --- |
+| [getIndex](getindex)() | Gets the index of the worksheet. Read-only int. |
+| [getName](getname)() | Returns the name of the worksheet. Read-only String. |

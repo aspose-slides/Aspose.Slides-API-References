@@ -1,11 +1,13 @@
 ---
 title: getAnimateShapes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 20
 url: /php-java/html5options/getanimateshapes/
 ---
 
-# getAnimateShapes() method
+## getAnimateShapes() method
 
  Returns or sets shapes animation option.
  Read/write  boolean.
@@ -25,7 +27,10 @@ url: /php-java/html5options/getanimateshapes/
   }
 ```
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

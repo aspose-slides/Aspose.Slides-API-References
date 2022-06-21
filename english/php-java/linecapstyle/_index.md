@@ -1,21 +1,23 @@
 ---
 title: LineCapStyle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/linecapstyle/
 ---
 
-# LineCapStyle class
+## LineCapStyle class
 
  Represents the line cap style.
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| Flat |  |
-| NotDefined |  |
-| Round |  |
-| Square |  |
+| Name | Value | Description |
+| --- | --- | --- |
+| Flat | 2 |  |
+| NotDefined | -1 |  |
+| Round | 0 |  |
+| Square | 1 |  |
 

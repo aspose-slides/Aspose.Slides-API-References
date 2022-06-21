@@ -1,68 +1,82 @@
 ---
 title: addVideo
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/videocollection/addvideo/
 ---
 
-# addVideo(com.aspose.slides.IVideo) method
+## addVideo(com.aspose.slides.IVideo) method
 
  Adds a copy of an video file from an another presentation.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | video | Source video. |
 
-##  Returns
+### Returns
 Added video.
 
 
-# addVideo(java.io.InputStream) method
+---
+
+
+## addVideo(java.io.InputStream) method
 
  Creates and adds a video to a presentation from stream.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | stream | Stream to add video file from. |
 
-##  Returns
+### Returns
 Added Video.
 
 
-# addVideo(java.io.InputStream, int) method
+---
+
+
+## addVideo(java.io.InputStream, int) method
 
  Creates and adds a video to a presentation from stream.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | stream | Stream to add video file from. |
 | loadingStreamBehavior | The behavior which will be applied to the stream. |
 
-##  Returns
+### Returns
 Added IVideo.
 
 
-# addVideo(byte[]) method
+---
+
+
+## addVideo(byte[]) method
 
  Creates and adds a video to a presentation from byte array.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | videoData | Video bytes. |
 
-##  Returns
+### Returns
 Added video.
+
+
+---
 
 

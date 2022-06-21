@@ -1,17 +1,22 @@
 ---
 title: getSubject
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 340
 url: /php-java/documentproperties/getsubject/
 ---
 
-# getSubject() method
+## getSubject() method
 
  Returns or sets the subject of a presentation.
  Read/write  String.
  
 
-##  Returns
+### Returns
 String
+
+
+---
 
 

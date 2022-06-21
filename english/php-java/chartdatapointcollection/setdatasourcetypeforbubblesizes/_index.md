@@ -1,11 +1,13 @@
 ---
 title: setDataSourceTypeForBubbleSizes
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 580
 url: /php-java/chartdatapointcollection/setdatasourcetypeforbubblesizes/
 ---
 
-# setDataSourceTypeForBubbleSizes(int) method
+## setDataSourceTypeForBubbleSizes(int) method
 
  Specifies whether AsCell or AsLiteralString or AsLiteralDouble property 
  is actual in data points BubbleSize property object. In other words it specifies 
@@ -13,7 +15,10 @@ url: /php-java/chartdatapointcollection/setdatasourcetypeforbubblesizes/
  Read/write  DataSourceType.
  
 
-##  Returns
+### Returns
 DataSourceType
+
+
+---
 
 

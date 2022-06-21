@@ -1,18 +1,20 @@
 ---
 title: CustomData
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/customdata/
 ---
 
-# CustomData class
+## CustomData class
 
  Represents container for custom data.
  
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getCustomXmlParts](/slides/php-java/customdata/getcustomxmlparts/)() | ICustomXmlPartCollection | Returns the custom xml parts collection. Read-only ICustomXmlPartCollection. |
-| [getTags](/slides/php-java/customdata/gettags/)() | ITagCollection | Returns the Customer Data Tags collection. Read-only ITagCollection. |
+| Name | Description |
+| --- | --- |
+| [getCustomXmlParts](getcustomxmlparts)() | Returns the custom xml parts collection. Read-only ICustomXmlPartCollection. |
+| [getTags](gettags)() | Returns the Customer Data Tags collection. Read-only ITagCollection. |

@@ -1,11 +1,13 @@
 ---
 title: setLicense
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 50
 url: /php-java/license/setlicense/
 ---
 
-# setLicense(java.io.InputStream) method
+## setLicense(java.io.InputStream) method
 Licenses the component.
  
  In this example, an attempt will be made to find a license file named MyLicense.lic
@@ -34,14 +36,17 @@ Licenses the component.
   $assembly = $$missing$;
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | stream | A stream that contains the license. Use null to switch to evaluation mode. |
 
 
-# setLicense(java.lang.String) method
+---
+
+
+## setLicense(java.lang.String) method
 Licenses the component.
  
  In this example, an attempt will be made to find a license file named MyLicense.lic
@@ -70,10 +75,13 @@ Licenses the component.
   $assembly = $$missing$;
 ```
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | namePath | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
+
+
+---
 
 

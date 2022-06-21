@@ -1,26 +1,34 @@
 ---
 title: copyTo
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/behaviorcollection/copyto/
 ---
 
-# copyTo(com.aspose.slides.IBehavior[], int) method
+## copyTo(com.aspose.slides.IBehavior[], int) method
 
  Copies the elements of the  IGenericCollection to an  Array, starting at a particular  Array index.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | array | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
 | arrayIndex | The zero-based index in array at which copying begins. |
 
-##  Returns
+### Returns
 Array
 
-##  Exception
-com.aspose.ms.System.ArgumentException The number of elements in the source IGenericCollection is greater than the available space from arrayIndex to the end of the destination array.
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | com.aspose.ms.System.ArgumentException | The number of elements in the source IGenericCollection is greater than the available space from arrayIndex to the end of the destination array. |
+
+
+---
 
 

@@ -1,17 +1,22 @@
 ---
 title: getSlide
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 120
 url: /php-java/chartplotarea/getslide/
 ---
 
-# getSlide() method
+## getSlide() method
 
  Returns the parent slide of a FillFormat.
  Read-only  BaseSlide.
  
 
-##  Returns
+### Returns
 BaseSlide
+
+
+---
 
 

@@ -1,20 +1,22 @@
 ---
 title: NotesPositions
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/notespositions/
 ---
 
-# NotesPositions class
+## NotesPositions class
 
  Represents the rule to render notes into exported document
  
 
 ## Constants
 
-| name | description |
-| --- | --- |
-| BottomFull | Specifies that notes should be full displayed using additional pages as it is needed. |
-| BottomTruncated | Specifies that notes should be displayed in only one page. |
-| None | Specifies that notes should not be displayed at all. |
+| Name | Value | Description |
+| --- | --- | --- |
+| BottomFull | 1 | Specifies that notes should be full displayed using additional pages as it is needed. |
+| BottomTruncated | 2 | Specifies that notes should be displayed in only one page. |
+| None | 0 | Specifies that notes should not be displayed at all. |
 

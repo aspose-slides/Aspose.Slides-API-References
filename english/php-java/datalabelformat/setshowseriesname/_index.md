@@ -1,11 +1,13 @@
 ---
 title: setShowSeriesName
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 280
 url: /php-java/datalabelformat/setshowseriesname/
 ---
 
-# setShowSeriesName(boolean) method
+## setShowSeriesName(boolean) method
 
  Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. 
  True to show the series name. False to hide.
@@ -20,7 +22,10 @@ url: /php-java/datalabelformat/setshowseriesname/
  all DataLabels.get_Item(i).getShowSeriesName() is equal to val).
  
 
-##  Returns
+### Returns
 boolean
+
+
+---
 
 

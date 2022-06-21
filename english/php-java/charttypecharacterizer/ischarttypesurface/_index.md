@@ -1,11 +1,13 @@
 ---
 title: isChartTypeSurface
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 160
 url: /php-java/charttypecharacterizer/ischarttypesurface/
 ---
 
-# isChartTypeSurface(int) method
+## isChartTypeSurface(int) method
 
  Return true if chartType is one of Surface subtypes.
  Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint):
@@ -15,7 +17,10 @@ url: /php-java/charttypecharacterizer/ischarttypesurface/
   ChartType#WireframeContour.
  
 
-##  Returns
+### Returns
 ChartType#WireframeContour
+
+
+---
 
 

@@ -1,19 +1,24 @@
 ---
 title: add
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 10
 url: /php-java/piesplitcustompointcollection/add/
 ---
 
-# add(int) method
+## add(int) method
 
  Adds data point by its index in parent series points collection.
  
 
-##  Parameters
+### Parameters
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | dataPointIndex | Index of data point in parent series points collection. |
+
+
+---
 
 

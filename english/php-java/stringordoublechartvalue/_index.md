@@ -1,11 +1,13 @@
 ---
 title: StringOrDoubleChartValue
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
-weight: 0
+weight: 10
 url: /php-java/stringordoublechartvalue/
 ---
 
-# StringOrDoubleChartValue class
+## StringOrDoubleChartValue class
 
  Represent string or double value which can be stored in pptx presentation document in two ways:
  1) in cell/cells of workbook related to chart;
@@ -14,14 +16,14 @@ url: /php-java/stringordoublechartvalue/
 
 ## Methods
 
-| name | return type | description |
-| --- | --- | --- |
-| [getAsCell](/slides/php-java/stringordoublechartvalue/getascell/)() | IChartDataCell | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [getAsLiteralDouble](/slides/php-java/stringordoublechartvalue/getasliteraldouble/)() | double | Returns or sets value as literal double. Read/write double. |
-| [getAsLiteralString](/slides/php-java/stringordoublechartvalue/getasliteralstring/)() | String | Returns or sets value as literal string. Read/write String. |
-| [getData](/slides/php-java/stringordoublechartvalue/getdata/)() | Object | Returns or sets Data object. Read/write Object. |
-| [setAsCell](/slides/php-java/stringordoublechartvalue/setascell/)(IChartDataCell) | void | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [setAsLiteralDouble](/slides/php-java/stringordoublechartvalue/setasliteraldouble/)(double) | void | Returns or sets value as literal double. Read/write double. |
-| [setAsLiteralString](/slides/php-java/stringordoublechartvalue/setasliteralstring/)(String) | void | Returns or sets value as literal string. Read/write String. |
-| [setData](/slides/php-java/stringordoublechartvalue/setdata/)(Object) | void | Returns or sets Data object. Read/write Object. |
-| [toDouble](/slides/php-java/stringordoublechartvalue/todouble/)() | double | Converts to double. |
+| Name | Description |
+| --- | --- |
+| [getAsCell](getascell)() | Returns or sets chart data cell. Read/write IChartDataCell. |
+| [getAsLiteralDouble](getasliteraldouble)() | Returns or sets value as literal double. Read/write double. |
+| [getAsLiteralString](getasliteralstring)() | Returns or sets value as literal string. Read/write String. |
+| [getData](getdata)() | Returns or sets Data object. Read/write Object. |
+| [setAsCell](setascell)(IChartDataCell) | Returns or sets chart data cell. Read/write IChartDataCell. |
+| [setAsLiteralDouble](setasliteraldouble)(double) | Returns or sets value as literal double. Read/write double. |
+| [setAsLiteralString](setasliteralstring)(String) | Returns or sets value as literal string. Read/write String. |
+| [setData](setdata)(Object) | Returns or sets Data object. Read/write Object. |
+| [toDouble](todouble)() | Converts to double. |

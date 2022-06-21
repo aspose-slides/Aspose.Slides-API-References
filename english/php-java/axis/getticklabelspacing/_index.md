@@ -1,17 +1,22 @@
 ---
 title: getTickLabelSpacing
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 400
 url: /php-java/axis/getticklabelspacing/
 ---
 
-# getTickLabelSpacing() method
+## getTickLabelSpacing() method
 
  Specifies how many tick labels to skip between label that is drawn. Applied to category or series axis.
  Read/write  long.
  
 
-##  Returns
+### Returns
 long
+
+
+---
 
 

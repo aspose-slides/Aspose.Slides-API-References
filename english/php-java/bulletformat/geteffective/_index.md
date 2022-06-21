@@ -1,11 +1,13 @@
 ---
 title: getEffective
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
 type: docs
 weight: 40
 url: /php-java/bulletformat/geteffective/
 ---
 
-# getEffective() method
+## getEffective() method
 
  Gets effective bullet formatting data with the inheritance applied.
  
@@ -29,7 +31,10 @@ url: /php-java/bulletformat/geteffective/
   }
 ```
 
-##  Returns
+### Returns
 A IBulletFormatEffectiveData.
+
+
+---
 
 
