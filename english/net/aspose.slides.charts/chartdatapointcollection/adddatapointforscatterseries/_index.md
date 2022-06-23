@@ -1,4 +1,12 @@
-## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
+---
+title: AddDataPointForScatterSeries
+second_title: Aspose.Sildes for .NET API Reference
+description: 
+type: docs
+weight: 210
+url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries/
+---
+## ChartDataPointCollection.AddDataPointForScatterSeries method (1 of 6)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -11,7 +19,7 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChar
 | xValue | IChartDataCell | Data point XValue |
 | yValue | IChartDataCell | Data point YValue |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -20,11 +28,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
+## ChartDataPointCollection.AddDataPointForScatterSeries method (2 of 6)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -37,7 +46,7 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCel
 | xValue | Double | Data point XValue |
 | yValue | IChartDataCell | Data point YValue |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -46,11 +55,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
+## ChartDataPointCollection.AddDataPointForScatterSeries method (3 of 6)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -63,7 +73,7 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCel
 | xValue | String | Data point XValue |
 | yValue | IChartDataCell | Data point YValue |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -72,11 +82,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
+## ChartDataPointCollection.AddDataPointForScatterSeries method (4 of 6)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -89,7 +100,7 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, doubl
 | xValue | IChartDataCell | Data point XValue |
 | yValue | Double | Data point YValue |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -98,11 +109,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
+## ChartDataPointCollection.AddDataPointForScatterSeries method (5 of 6)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -115,7 +127,7 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue
 | xValue | Double | Data point XValue |
 | yValue | Double | Data point YValue |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -123,11 +135,12 @@ New data point.
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
+## ChartDataPointCollection.AddDataPointForScatterSeries method (6 of 6)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -140,7 +153,7 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue
 | xValue | String | Data point XValue |
 | yValue | Double | Data point YValue |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -148,6 +161,7 @@ New data point.
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
