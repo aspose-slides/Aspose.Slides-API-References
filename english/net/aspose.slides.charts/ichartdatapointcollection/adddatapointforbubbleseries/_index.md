@@ -1,4 +1,12 @@
-## AddDataPointForBubbleSeries(IChartDataCell, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries}
+---
+title: AddDataPointForBubbleSeries
+second_title: Aspose.Sildes for .NET API Reference
+description: 
+type: docs
+weight: 100
+url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforbubbleseries/
+---
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (1 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -13,7 +21,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -22,11 +30,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(double, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries_4}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (2 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -41,7 +50,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -50,11 +59,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(string, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries_8}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (3 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -69,7 +79,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -78,11 +88,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(IChartDataCell, double, IChartDataCell) {#adddatapointforbubbleseries_2}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (4 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -97,7 +108,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 | yValue | Double | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -106,11 +117,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(double, double, IChartDataCell) {#adddatapointforbubbleseries_6}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (5 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -125,7 +137,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 | yValue | Double | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -134,11 +146,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(string, double, IChartDataCell) {#adddatapointforbubbleseries_10}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (6 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -153,7 +166,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 | yValue | Double | Data point YValue |
 | bubbleSize | IChartDataCell | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -162,11 +175,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(IChartDataCell, IChartDataCell, double) {#adddatapointforbubbleseries_1}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (7 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -181,7 +195,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -190,11 +204,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(double, IChartDataCell, double) {#adddatapointforbubbleseries_5}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (8 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -209,7 +224,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -218,11 +233,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(string, IChartDataCell, double) {#adddatapointforbubbleseries_9}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (9 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -237,7 +253,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 | yValue | IChartDataCell | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -246,11 +262,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(IChartDataCell, double, double) {#adddatapointforbubbleseries_3}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (10 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -265,7 +282,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 | yValue | Double | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -274,11 +291,12 @@ New data point.
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(double, double, double) {#adddatapointforbubbleseries_7}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (11 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -292,7 +310,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 | yValue | Double | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -300,11 +318,12 @@ New data point.
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddDataPointForBubbleSeries(string, double, double) {#adddatapointforbubbleseries_11}
+## IChartDataPointCollection.AddDataPointForBubbleSeries method (12 of 12)
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer.IsChartTypeBubble(ChartType) method).
 
@@ -318,7 +337,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 | yValue | Double | Data point YValue |
 | bubbleSize | Double | Data point BubbleSize |
 
-### Return Value
+## Return Value
 
 New data point.
 
@@ -326,6 +345,7 @@ New data point.
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../aspose.slides)
+* namespace [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

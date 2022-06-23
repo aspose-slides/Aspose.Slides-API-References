@@ -1,3 +1,11 @@
+---
+title: IPresentation
+second_title: Aspose.Sildes for .NET API Reference
+description: 
+type: docs
+weight: 6190
+url: /net/aspose.slides/ipresentation/
+---
 ## IPresentation interface
 
 Presentation document
@@ -45,32 +53,31 @@ public interface IPresentation : IDisposable, IPresentationComponent
 | Name | Description |
 | --- | --- |
 | [GetSlideById](../../aspose.slides/ipresentation/getslidebyid)(uint) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_6)(IRenderingOptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_7)(IRenderingOptions, int[]) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_11)(IRenderingOptions, Size) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_10)(IRenderingOptions, float, float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_9)(IRenderingOptions, int[], Size) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
-| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails#getthumbnails_8)(IRenderingOptions, int[], float, float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
+| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails)(IRenderingOptions) | Returns a Thumbnail Bitmap objects for all slides of a presentation. |
+| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails)(IRenderingOptions, int[]) | Returns a Thumbnail Bitmap objects for specified slides of a presentation. |
+| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails)(IRenderingOptions, Size) | Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size. |
+| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails)(IRenderingOptions, float, float) | Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling. |
+| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails)(IRenderingOptions, int[], Size) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
+| [GetThumbnails](../../aspose.slides/ipresentation/getthumbnails)(IRenderingOptions, int[], float, float) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/ipresentation/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
-| [Print](../../aspose.slides/ipresentation/print#print)() | Prints the whole presentation to the default printer. |
-| [Print](../../aspose.slides/ipresentation/print#print_1)(PrinterSettings) | Prints the presentation according to the specified printer settings, using the standard (no User Interface) print controller. |
-| [Print](../../aspose.slides/ipresentation/print#print_3)(string) | Print the whole presentation to the specified printer, using the standard (no User Interface) print controller. |
-| [Print](../../aspose.slides/ipresentation/print#print_2)(PrinterSettings, string) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a presentation name. |
-| [Save](../../aspose.slides/ipresentation/save#save)(IXamlOptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
-| [Save](../../aspose.slides/ipresentation/save#save_1)(Stream, SaveFormat) | Saves all slides of a presentation to a stream in the specified format. |
-| [Save](../../aspose.slides/ipresentation/save#save_5)(string, SaveFormat) | Saves all slides of a presentation to a file with the specified format. |
-| [Save](../../aspose.slides/ipresentation/save#save_3)(Stream, int[], SaveFormat) | Saves specified slides of a presentation to a stream in the specified format. |
-| [Save](../../aspose.slides/ipresentation/save#save_2)(Stream, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-| [Save](../../aspose.slides/ipresentation/save#save_9)(string, int[], SaveFormat) | Saves specified slides of a presentation to a file with the specified format. |
-| [Save](../../aspose.slides/ipresentation/save#save_6)(string, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-| [Save](../../aspose.slides/ipresentation/save#save_4)(Stream, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a stream in the specified format. |
-| [Save](../../aspose.slides/ipresentation/save#save_10)(string, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a file with the specified format. |
-| [Save](../../aspose.slides/ipresentation/save#save_8)(string, SaveFormat, HttpResponse, bool) | Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide. |
-| [Save](../../aspose.slides/ipresentation/save#save_7)(string, SaveFormat, ISaveOptions, HttpResponse, bool) | Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide. |
+| [Print](../../aspose.slides/ipresentation/print)() | Prints the whole presentation to the default printer. |
+| [Print](../../aspose.slides/ipresentation/print)(PrinterSettings) | Prints the presentation according to the specified printer settings, using the standard (no User Interface) print controller. |
+| [Print](../../aspose.slides/ipresentation/print)(string) | Print the whole presentation to the specified printer, using the standard (no User Interface) print controller. |
+| [Print](../../aspose.slides/ipresentation/print)(PrinterSettings, string) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a presentation name. |
+| [Save](../../aspose.slides/ipresentation/save)(IXamlOptions) | Saves all slides of a presentation to a set of files representing XAML markup. |
+| [Save](../../aspose.slides/ipresentation/save)(Stream, SaveFormat) | Saves all slides of a presentation to a stream in the specified format. |
+| [Save](../../aspose.slides/ipresentation/save)(string, SaveFormat) | Saves all slides of a presentation to a file with the specified format. |
+| [Save](../../aspose.slides/ipresentation/save)(Stream, int[], SaveFormat) | Saves specified slides of a presentation to a stream in the specified format. |
+| [Save](../../aspose.slides/ipresentation/save)(Stream, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [Save](../../aspose.slides/ipresentation/save)(string, int[], SaveFormat) | Saves specified slides of a presentation to a file with the specified format. |
+| [Save](../../aspose.slides/ipresentation/save)(string, SaveFormat, ISaveOptions) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [Save](../../aspose.slides/ipresentation/save)(Stream, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a stream in the specified format. |
+| [Save](../../aspose.slides/ipresentation/save)(string, int[], SaveFormat, ISaveOptions) | Saves specified slides of a presentation to a file with the specified format. |
 
 ### See Also
 
 * interface [IPresentationComponent](../ipresentationcomponent)
-* namespace [Aspose.Slides](../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
