@@ -1,12 +1,4 @@
----
-title: InsertFromHtml
-second_title: Aspose.Sildes for .NET API Reference
-description: 
-type: docs
-weight: 140
-url: /net/aspose.slides/slidecollection/insertfromhtml/
----
-## SlideCollection.InsertFromHtml method (1 of 6)
+## InsertFromHtml(int, string, IExternalResourceResolver, string) {#insertfromhtml_5}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -22,7 +14,7 @@ public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceReso
 | resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
-## Return Value
+### Return Value
 
 Added slides.
 
@@ -31,12 +23,11 @@ Added slides.
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## SlideCollection.InsertFromHtml method (2 of 6)
+## InsertFromHtml(int, string) {#insertfromhtml_4}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -49,7 +40,7 @@ public ISlide[] InsertFromHtml(int index, string htmlText)
 | index | Int32 | Position to insert. |
 | htmlText | String | Html to add. |
 
-## Return Value
+### Return Value
 
 Added slides
 
@@ -57,12 +48,11 @@ Added slides
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## SlideCollection.InsertFromHtml method (3 of 6)
+## InsertFromHtml(int, TextReader, IExternalResourceResolver, string) {#insertfromhtml_3}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -78,7 +68,7 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader,
 | resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
-## Return Value
+### Return Value
 
 Added slides.
 
@@ -87,12 +77,11 @@ Added slides.
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## SlideCollection.InsertFromHtml method (4 of 6)
+## InsertFromHtml(int, TextReader) {#insertfromhtml_2}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -105,7 +94,7 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader)
 | index | Int32 | Position to insert. |
 | htmlReader | TextReader | TextReader object which will be used as a source of a HTML file. |
 
-## Return Value
+### Return Value
 
 Added slides
 
@@ -113,12 +102,11 @@ Added slides
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## SlideCollection.InsertFromHtml method (5 of 6)
+## InsertFromHtml(int, Stream, IExternalResourceResolver, string) {#insertfromhtml_1}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -134,7 +122,7 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
 | resolver | IExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
-## Return Value
+### Return Value
 
 Added slides.
 
@@ -143,12 +131,11 @@ Added slides.
 * interface [ISlide](../../islide)
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## SlideCollection.InsertFromHtml method (6 of 6)
+## InsertFromHtml(int, Stream) {#insertfromhtml}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -161,7 +148,7 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream)
 | index | Int32 | Position to insert. |
 | htmlStream | Stream | A Stream object which will be used as a source of a HTML file. |
 
-## Return Value
+### Return Value
 
 Added slides
 
@@ -169,7 +156,6 @@ Added slides
 
 * interface [ISlide](../../islide)
 * class [SlideCollection](../../slidecollection)
-* namespace [Aspose.Slides](../../slidecollection)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
