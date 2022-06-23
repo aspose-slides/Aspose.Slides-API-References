@@ -1,12 +1,4 @@
----
-title: Save
-second_title: Aspose.Sildes for .NET API Reference
-description: 
-type: docs
-weight: 340
-url: /net/aspose.slides/presentation/save/
----
-## Presentation.Save method (1 of 9)
+## Save(string, int[], SaveFormat) {#save_9}
 
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
 
@@ -32,12 +24,11 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## Presentation.Save method (2 of 9)
+## Save(string, int[], SaveFormat, ISaveOptions) {#save_10}
 
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
 
@@ -57,12 +48,11 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## Presentation.Save method (3 of 9)
+## Save(Stream, int[], SaveFormat) {#save_3}
 
 Saves specified slides of a presentation to a stream in the specified format with page number keeping.
 
@@ -80,12 +70,11 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## Presentation.Save method (4 of 9)
+## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
 Saves specified slides of a presentation to a stream in the specified format with page number keeping.
 
@@ -113,12 +102,60 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## Presentation.Save method (5 of 9)
+## Save(string, SaveFormat, HttpResponse, bool) {#save_8}
+
+Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide.
+
+```csharp
+public void Save(string fname, SaveFormat format, HttpResponse response, bool showInline)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | String | The name for the presentation that will appear at the client browser. The name should not contain path. |
+| format | SaveFormat | Format of the exported data. |
+| response | HttpResponse | Response object where to save the document. |
+| showInline | Boolean | True to show an option to open the presentation inside the browser. |
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../aspose.slides)
+
+---
+
+## Save(string, SaveFormat, ISaveOptions, HttpResponse, bool) {#save_7}
+
+Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide.
+
+```csharp
+public void Save(string fname, SaveFormat format, ISaveOptions options, HttpResponse response, 
+    bool showInline)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | String | The name for the presentation that will appear at the client browser. The name should not contain path. |
+| format | SaveFormat | Format of the exported data. |
+| options | ISaveOptions | Additional format options. |
+| response | HttpResponse | Response object where to save the document. |
+| showInline | Boolean | True to show an option to open the presentation inside the browser. |
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../aspose.slides)
+
+---
+
+## Save(string, SaveFormat) {#save_5}
 
 Saves all slides of a presentation to a file with the specified format.
 
@@ -135,12 +172,11 @@ public void Save(string fname, SaveFormat format)
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## Presentation.Save method (6 of 9)
+## Save(Stream, SaveFormat) {#save_1}
 
 Saves all slides of a presentation to a stream in the specified format.
 
@@ -157,12 +193,11 @@ public void Save(Stream stream, SaveFormat format)
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## Presentation.Save method (7 of 9)
+## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
 Saves all slides of a presentation to a file with the specified format and with additional options.
 
@@ -181,12 +216,11 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## Presentation.Save method (8 of 9)
+## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
 Saves all slides of a presentation to a stream in the specified format and with additional options.
 
@@ -211,12 +245,11 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 ---
 
-## Presentation.Save method (9 of 9)
+## Save(IXamlOptions) {#save}
 
 Saves all slides of a presentation to a set of files representing XAML markup.
 
@@ -242,7 +275,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 * interface [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions)
 * class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../aspose.slides)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

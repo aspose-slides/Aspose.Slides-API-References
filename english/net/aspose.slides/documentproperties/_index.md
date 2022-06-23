@@ -1,11 +1,3 @@
----
-title: DocumentProperties
-second_title: Aspose.Sildes for .NET API Reference
-description: 
-type: docs
-weight: 2640
-url: /net/aspose.slides/documentproperties/
----
 ## DocumentProperties class
 
 Represents properties of a presentation.
@@ -59,25 +51,24 @@ public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocume
 | [CloneT](../../aspose.slides/documentproperties/clonet)() | Clones current object |
 | [ContainsCustomProperty](../../aspose.slides/documentproperties/containscustomproperty)(string) | Check presents of a custom property with a specified name. |
 | [GetCustomPropertyName](../../aspose.slides/documentproperties/getcustompropertyname)(int) | Return a custom property name at the specified index. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue)(string, out bool) | Gets a named boolean value from the custom properties. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue)(string, out DateTime) | Gets a named DateTime value from the custom properties. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue)(string, out double) | Gets a named double value from the custom properties. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue)(string, out float) | Gets a named float value from the custom properties. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue)(string, out int) | Gets a named integer value from the custom properties. |
-| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue)(string, out string) | Gets a named string value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue)(string, out bool) | Gets a named boolean value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_4)(string, out DateTime) | Gets a named DateTime value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_1)(string, out double) | Gets a named double value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_3)(string, out float) | Gets a named float value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_2)(string, out int) | Gets a named integer value from the custom properties. |
+| [GetCustomPropertyValue](../../aspose.slides/documentproperties/getcustompropertyvalue#getcustompropertyvalue_5)(string, out string) | Gets a named string value from the custom properties. |
 | [RemoveCustomProperty](../../aspose.slides/documentproperties/removecustomproperty)(string) | Remove a custom property associated with a specified name. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue)(string, bool) | Sets a named boolean custom property. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue)(string, DateTime) | Sets a named DateTime custom property. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue)(string, double) | Sets a named double custom property. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue)(string, float) | Sets a named float custom property. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue)(string, int) | Sets a named integer custom property. |
-| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue)(string, string) | Sets a named string custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | Sets a named boolean custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | Sets a named DateTime custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_1)(string, double) | Sets a named double custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_3)(string, float) | Sets a named float custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | Sets a named integer custom property. |
+| [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | Sets a named string custom property. |
 
 ### See Also
 
 * interface [IDocumentProperties](../idocumentproperties)
 * interface [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../aspose.slides)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
