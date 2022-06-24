@@ -1,0 +1,40 @@
+---
+title: getFontName
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
+type: docs
+weight: 30
+url: /php-java/fontdata/getfontname/
+---
+
+## getFontName() method
+
+ Returns the font name.
+ Read/write  String.
+ 
+
+### Returns
+String
+
+
+---
+
+
+## getFontName(com.aspose.slides.IThemeEffectiveData) method
+
+ Returns the font name, replacing theme referrence with an actual font used.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| theme | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See IThemeable#createThemeEffective |
+
+### Returns
+Font name.
+
+
+---
+
+

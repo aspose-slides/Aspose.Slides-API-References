@@ -1,0 +1,25 @@
+---
+title: LineStyle
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
+type: docs
+weight: 10
+url: /php-java/linestyle/
+---
+
+## LineStyle class
+
+ Represents the style of a line.
+ 
+
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+| NotDefined | -1 |  |
+| Single | 0 |  |
+| ThickBetweenThin | 4 |  |
+| ThickThin | 2 |  |
+| ThinThick | 3 |  |
+| ThinThin | 1 |  |
+

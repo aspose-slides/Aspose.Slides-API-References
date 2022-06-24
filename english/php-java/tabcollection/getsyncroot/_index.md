@@ -1,0 +1,22 @@
+---
+title: getSyncRoot
+second_title: Aspose.Sildes PHP for Java API Reference
+description: 
+type: docs
+weight: 70
+url: /php-java/tabcollection/getsyncroot/
+---
+
+## getSyncRoot() method
+
+ Returns a synchronization root.
+ Read-only  Object.
+ 
+
+### Returns
+Object
+
+
+---
+
+
