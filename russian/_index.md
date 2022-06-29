@@ -60,4 +60,4 @@ Aspose.Slides для Android через Java — это API управления
 
 Это ссылки на некоторые полезные ресурсы:
 
-- [Справочник по API Aspose.Slides для Java](/slides/androidjava/)
+- [Aspose.Slides для Android через Java API Reference](/slides/androidjava/)

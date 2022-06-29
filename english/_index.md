@@ -61,4 +61,4 @@ Aspose.Slides for Android via Java is a Microsoft PowerPoint® management API th
 
 These are links to useful resources:
 
-- [Aspose.Slides for Java API Reference](/slides/androidjava/)
+- [Aspose.Slides for Android via Java API Reference](/slides/androidjava/)
