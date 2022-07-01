@@ -1,13 +1,13 @@
 ---
 title: insert
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/mathparagraph/insert/
 ---
 
-## insert(int, com.aspose.slides.IMathBlock) method
+## insert(int index, MathBlock mathBlock)  method
 
  Inserts IMathBlock into the collection at the specified index.
  

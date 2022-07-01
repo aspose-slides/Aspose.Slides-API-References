@@ -1,13 +1,13 @@
 ---
 title: setCommandString
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/commandeffect/setcommandstring/
 ---
 
-## setCommandString(java.lang.String) method
+## setCommandString(String value)  method
 
  Defines command string.
  Read/write  String.

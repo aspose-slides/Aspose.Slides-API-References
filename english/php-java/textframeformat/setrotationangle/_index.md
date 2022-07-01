@@ -1,13 +1,13 @@
 ---
 title: setRotationAngle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 290
 url: /php-java/textframeformat/setrotationangle/
 ---
 
-## setRotationAngle(float) method
+## setRotationAngle(float value)  method
 
  Specifies custom the rotation that is being applied to the text within the bounding box. If it not
  specified, the rotation of the accompanying shape is used. If it is specified, then this is

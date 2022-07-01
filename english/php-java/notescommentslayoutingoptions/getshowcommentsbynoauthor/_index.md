@@ -1,13 +1,13 @@
 ---
 title: getShowCommentsByNoAuthor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/notescommentslayoutingoptions/getshowcommentsbynoauthor/
 ---
 
-## getShowCommentsByNoAuthor() method
+## getShowCommentsByNoAuthor()  method
 
   Gets or sets the visibility of comments that do not have an author. If true then comments 
   will be displayed.

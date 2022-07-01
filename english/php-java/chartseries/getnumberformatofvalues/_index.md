@@ -1,13 +1,13 @@
 ---
 title: getNumberFormatOfValues
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/chartseries/getnumberformatofvalues/
 ---
 
-## getNumberFormatOfValues() method
+## getNumberFormatOfValues()  method
 
  NumberFormatOfValues.
  Read/write  String.

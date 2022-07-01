@@ -1,6 +1,6 @@
 ---
 title: AudioCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ url: /php-java/audiocollection/
 
 | Name | Description |
 | --- | --- |
-| [addAudio](addaudio)(IAudio) | Adds a copy of an audio file from an another presentation. |
+| [addAudio](addaudio)(Audio) | Adds a copy of an audio file from an another presentation. |
 | [addAudio](addaudio)(InputStream) | Creates and adds a audio to a presentation from stream. |
 | [addAudio](addaudio)(InputStream, int) | Creates and adds a audio to a presentation from stream. |
 | [addAudio](addaudio)(byte[]) | Creates and adds a audio to a presentation from byte array. |

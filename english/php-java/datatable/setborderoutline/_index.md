@@ -1,13 +1,13 @@
 ---
 title: setBorderOutline
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/datatable/setborderoutline/
 ---
 
-## setBorderOutline(boolean) method
+## setBorderOutline(boolean value)  method
 
  True if the chart data table has outline borders.
  Read/write  boolean.

@@ -1,13 +1,13 @@
 ---
 title: setOperatorEmulator
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/mathbox/setoperatoremulator/
 ---
 
-## setOperatorEmulator(boolean) method
+## setOperatorEmulator(boolean value)  method
 
  Operator Emulator.
  When true, the box and its contents behave as a single operator and inherit the properties of an operator. 

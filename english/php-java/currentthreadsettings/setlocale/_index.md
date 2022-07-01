@@ -1,13 +1,13 @@
 ---
 title: setLocale
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/currentthreadsettings/setlocale/
 ---
 
-## setLocale(java.util.Locale) method
+## setLocale(Locale locale)  method
 Sets default Locale for current thread.
 
 ### Parameters
@@ -26,7 +26,7 @@ Sets default Locale for current thread.
 ---
 
 
-## setLocale(java.lang.String) method
+## setLocale(String localeName)  method
 Sets default Locale for current thread.
 
 ### Parameters

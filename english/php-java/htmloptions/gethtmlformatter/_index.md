@@ -1,13 +1,13 @@
 ---
 title: getHtmlFormatter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/htmloptions/gethtmlformatter/
 ---
 
-## getHtmlFormatter() method
+## getHtmlFormatter()  method
 
  Returns or sets HTML template.
  Read/write  IHtmlFormatter.

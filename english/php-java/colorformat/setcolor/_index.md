@@ -1,13 +1,13 @@
 ---
 title: setColor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 220
 url: /php-java/colorformat/setcolor/
 ---
 
-## setColor(java.awt.Color) method
+## setColor(Color value)  method
 
  Returns resulting color (with all color transformations applied).
  Sets RGB colors and clears all color transformations.

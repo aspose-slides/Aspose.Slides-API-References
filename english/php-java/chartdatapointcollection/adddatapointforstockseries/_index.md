@@ -1,13 +1,13 @@
 ---
 title: addDataPointForStockSeries
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 350
 url: /php-java/chartdatapointcollection/adddatapointforstockseries/
 ---
 
-## addDataPointForStockSeries(com.aspose.slides.IChartDataCell) method
+## addDataPointForStockSeries(ChartDataCell value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Stock subtypes
@@ -27,7 +27,7 @@ ChartTypeCharacterizer#isChartTypeStock(int)
 ---
 
 
-## addDataPointForStockSeries(double) method
+## addDataPointForStockSeries(double value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Stock subtypes 

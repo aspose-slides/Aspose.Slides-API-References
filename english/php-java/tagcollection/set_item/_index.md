@@ -1,13 +1,13 @@
 ---
 title: set_Item
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/tagcollection/set_item/
 ---
 
-## set_Item(java.lang.String, java.lang.String) method
+## set_Item(String name, String value)  method
 
  Returns or sets a key and a value pair of a tag.
  

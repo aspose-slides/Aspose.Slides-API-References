@@ -1,13 +1,13 @@
 ---
 title: getAudioCdStartTrackTime
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/audioframe/getaudiocdstarttracktime/
 ---
 
-## getAudioCdStartTrackTime() method
+## getAudioCdStartTrackTime()  method
 
  Returns or sets a start track time.
  Read/write  int.

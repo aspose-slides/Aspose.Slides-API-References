@@ -1,13 +1,13 @@
 ---
 title: addZoomFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 270
 url: /php-java/shapecollection/addzoomframe/
 ---
 
-## addZoomFrame(float, float, float, float, com.aspose.slides.ISlide) method
+## addZoomFrame(float x, float y, float width, float height, Slide slide)  method
 
  Adds a new Zoom object to the end of a collection.
  
@@ -30,10 +30,10 @@ url: /php-java/shapecollection/addzoomframe/
 
 | Name | Description |
 | --- | --- |
-| x | X coordinate of a new Zoom frame float. |
-| y | Y coordinate of a new Zoom frame float. |
-| width | Width of a new Zoom frame float. |
-| height | Height of a new Zoom frame float. |
+| x | X coordinate of a new Zoom frame {@code float}. |
+| y | Y coordinate of a new Zoom frame {@code float}. |
+| width | Width of a new Zoom frame {@code float}. |
+| height | Height of a new Zoom frame {@code float}. |
 | slide | The slide object referenced by the Zoom frame ISlide. |
 
 ### Returns
@@ -49,7 +49,7 @@ Created Zoom object IZoomFrame.
 ---
 
 
-## addZoomFrame(float, float, float, float, com.aspose.slides.ISlide, com.aspose.slides.IPPImage) method
+## addZoomFrame(float x, float y, float width, float height, Slide slide, PPImage image)  method
 
  Adds a new Zoom object to the end of a collection.
  
@@ -73,10 +73,10 @@ Created Zoom object IZoomFrame.
 
 | Name | Description |
 | --- | --- |
-| x | X coordinate of a new Zoom frame float. |
-| y | Y coordinate of a new Zoom frame float. |
-| width | Width of a new Zoom frame float. |
-| height | Height of a new Zoom frame float. |
+| x | X coordinate of a new Zoom frame {@code float}. |
+| y | Y coordinate of a new Zoom frame {@code float}. |
+| width | Width of a new Zoom frame {@code float}. |
+| height | Height of a new Zoom frame {@code float}. |
 | slide | The slide object referenced by the Zoom frame ISlide. |
 | image | The image for the referenced slide IPPImage |
 

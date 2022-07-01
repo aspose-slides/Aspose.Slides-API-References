@@ -1,13 +1,13 @@
 ---
 title: getFormula
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/point/getformula/
 ---
 
-## getFormula() method
+## getFormula()  method
 
  Formulas within values, from, to, by attributes can be made up of these:
  Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod)

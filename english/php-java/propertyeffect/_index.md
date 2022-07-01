@@ -1,6 +1,6 @@
 ---
 title: PropertyEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -31,6 +31,6 @@ url: /php-java/propertyeffect/
 | [setBy](setby)(String) | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 | [setCalcMode](setcalcmode)(int) | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 | [setFrom](setfrom)(String) | Specifies the starting value of the animation. Read/write String. |
-| [setPoints](setpoints)(IPointCollection) | Specifies the points of the animation. Read/write IPointCollection. |
+| [setPoints](setpoints)(PointCollection) | Specifies the points of the animation. Read/write IPointCollection. |
 | [setTo](setto)(String) | Specifies the ending value for the animation. Read/write String. |
 | [setValueType](setvaluetype)(int) | Specifies the type of a property value. Read/write PropertyValueType. |

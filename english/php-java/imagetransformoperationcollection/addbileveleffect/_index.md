@@ -1,13 +1,13 @@
 ---
 title: addBiLevelEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/imagetransformoperationcollection/addbileveleffect/
 ---
 
-## addBiLevelEffect(float) method
+## addBiLevelEffect(float threshold)  method
 
  Adds the new Bi-Level (black/white) effect to the end of a collection.
  

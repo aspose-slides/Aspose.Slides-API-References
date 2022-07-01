@@ -1,13 +1,13 @@
 ---
 title: setHyperlinkMouseOver
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 440
 url: /php-java/shape/sethyperlinkmouseover/
 ---
 
-## setHyperlinkMouseOver(com.aspose.slides.IHyperlink) method
+## setHyperlinkMouseOver(Hyperlink value)  method
 
  Returns or sets the hyperlink defined for mouse over.
  Read/write  IHyperlink.

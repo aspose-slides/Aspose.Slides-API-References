@@ -1,13 +1,13 @@
 ---
 title: removeUnusedLayoutSlides
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/compress/removeunusedlayoutslides/
 ---
 
-## removeUnusedLayoutSlides(com.aspose.slides.Presentation) method
+## removeUnusedLayoutSlides(Presentation pres)  method
 
  Makes compression of the  Presentation by removing unused layout slides.  
  

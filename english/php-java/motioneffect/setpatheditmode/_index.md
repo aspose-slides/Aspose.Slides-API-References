@@ -1,13 +1,13 @@
 ---
 title: setPathEditMode
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/motioneffect/setpatheditmode/
 ---
 
-## setPathEditMode(int) method
+## setPathEditMode(int value)  method
 
  Specifies how the motion path moves when shape is moved.
  Read/write  MotionPathEditMode.

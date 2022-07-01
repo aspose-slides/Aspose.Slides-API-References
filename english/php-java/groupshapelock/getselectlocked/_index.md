@@ -1,13 +1,13 @@
 ---
 title: getSelectLocked
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/groupshapelock/getselectlocked/
 ---
 
-## getSelectLocked() method
+## getSelectLocked()  method
 
  Determines whether selecting this shape is forbidden.
  Read/write  boolean.

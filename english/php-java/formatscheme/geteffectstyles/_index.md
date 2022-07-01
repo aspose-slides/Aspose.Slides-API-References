@@ -1,13 +1,13 @@
 ---
 title: getEffectStyles
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/formatscheme/geteffectstyles/
 ---
 
-## getEffectStyles() method
+## getEffectStyles()  method
 
  Returns a collection of theme defined effect styles.
  Read-only  IEffectStyleCollection.

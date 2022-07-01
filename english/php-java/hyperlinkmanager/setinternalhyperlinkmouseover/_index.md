@@ -1,13 +1,13 @@
 ---
 title: setInternalHyperlinkMouseOver
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/hyperlinkmanager/setinternalhyperlinkmouseover/
 ---
 
-## setInternalHyperlinkMouseOver(com.aspose.slides.ISlide) method
+## setInternalHyperlinkMouseOver(Slide targetSlide)  method
 
  Sets internal hyperlink mouse over.
  

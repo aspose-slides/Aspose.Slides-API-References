@@ -1,13 +1,13 @@
 ---
 title: getSignTime
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/digitalsignature/getsigntime/
 ---
 
-## getSignTime() method
+## getSignTime()  method
 
  The time when the document was signed.
  Read-only  java.util.Date.

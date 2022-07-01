@@ -1,13 +1,13 @@
 ---
 title: getPortions
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/paragraph/getportions/
 ---
 
-## getPortions() method
+## getPortions()  method
 
  Returns the collection of a text portions.
  Read-only  IPortionCollection.

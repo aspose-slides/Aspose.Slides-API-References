@@ -1,13 +1,13 @@
 ---
 title: getCommentsPosition
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/notescommentslayoutingoptions/getcommentsposition/
 ---
 
-## getCommentsPosition() method
+## getCommentsPosition()  method
 
   Gets or sets the position of the comments on the page.
   

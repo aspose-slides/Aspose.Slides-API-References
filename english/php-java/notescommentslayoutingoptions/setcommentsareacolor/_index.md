@@ -1,13 +1,13 @@
 ---
 title: setCommentsAreaColor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/notescommentslayoutingoptions/setcommentsareacolor/
 ---
 
-## setCommentsAreaColor(java.awt.Color) method
+## setCommentsAreaColor(Color value)  method
 
   Gets or sets the color of comments area
   (Applies only if comments are displayed on the right).

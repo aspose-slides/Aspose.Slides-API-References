@@ -1,13 +1,13 @@
 ---
 title: addDataPointForScatterSeries
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 290
 url: /php-java/chartdatapointcollection/adddatapointforscatterseries/
 ---
 
-## addDataPointForScatterSeries(com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
+## addDataPointForScatterSeries(ChartDataCell xValue, ChartDataCell yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -27,7 +27,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries(double, com.aspose.slides.IChartDataCell) method
+## addDataPointForScatterSeries(double xValue, ChartDataCell yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -47,7 +47,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries(java.lang.String, com.aspose.slides.IChartDataCell) method
+## addDataPointForScatterSeries(String xValue, ChartDataCell yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -67,7 +67,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries(com.aspose.slides.IChartDataCell, double) method
+## addDataPointForScatterSeries(ChartDataCell xValue, double yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -87,7 +87,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries(double, double) method
+## addDataPointForScatterSeries(double xValue, double yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -107,7 +107,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries(java.lang.String, double) method
+## addDataPointForScatterSeries(String xValue, double yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).

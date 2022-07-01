@@ -1,13 +1,13 @@
 ---
 title: getLayoutSlides
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/presentation/getlayoutslides/
 ---
 
-## getLayoutSlides() method
+## getLayoutSlides()  method
 
  Returns a list of all layout slides that are defined in the presentation.
  Read-only  IGlobalLayoutSlideCollection.

@@ -1,13 +1,13 @@
 ---
 title: getPresentationText
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/presentationfactory/getpresentationtext/
 ---
 
-## getPresentationText(java.lang.String, int) method
+## getPresentationText(String file, int mode)  method
 
  Retrieves the raw text from the slides
  
@@ -26,7 +26,7 @@ The instance of PresentationText containing the SlideText array representing the
 ---
 
 
-## getPresentationText(java.io.InputStream, int) method
+## getPresentationText(InputStream stream, int mode)  method
 
  Retrieves the raw text from the slides
  
@@ -45,7 +45,7 @@ The instance of PresentationText containing the SlideText array representing the
 ---
 
 
-## getPresentationText(java.io.InputStream, int, com.aspose.slides.ILoadOptions) method
+## getPresentationText(InputStream stream, int mode, LoadOptions options)  method
 
  Retrieves the raw text from the slides
  

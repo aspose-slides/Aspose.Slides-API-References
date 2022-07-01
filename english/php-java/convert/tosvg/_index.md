@@ -1,13 +1,13 @@
 ---
 title: toSvg
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/convert/tosvg/
 ---
 
-## toSvg(java.lang.String) method
+## toSvg(String presPath)  method
 
  Converts  Presentation to SVG.
  
@@ -30,7 +30,6 @@ Presentation
 ---
 
 
-## toSvg(java.lang.String, com.aspose.slides.Convert.GetOutPathCallback) method
 
  Converts  Presentation to SVG.
  
@@ -53,7 +52,6 @@ Presentation
 ---
 
 
-## toSvg(com.aspose.slides.Presentation, com.aspose.slides.Convert.GetOutPathCallback) method
 
  Converts  Presentation to SVG.
  
@@ -77,7 +75,7 @@ Presentation
 ---
 
 
-## toSvg(com.aspose.slides.Presentation, com.aspose.slides.ISVGOptions) method
+## toSvg(Presentation pres, SVGOptions options)  method
 
  Converts  Presentation to SVG.
  
@@ -110,7 +108,6 @@ Presentation
 ---
 
 
-## toSvg(com.aspose.slides.Presentation, com.aspose.slides.Convert.GetOutPathCallback, com.aspose.slides.ISVGOptions) method
 
  Converts  Presentation to SVG.
  

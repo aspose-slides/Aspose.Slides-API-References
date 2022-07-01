@@ -1,13 +1,13 @@
 ---
 title: getNumberOfBins
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 300
 url: /php-java/axis/getnumberofbins/
 ---
 
-## getNumberOfBins() method
+## getNumberOfBins()  method
 
  Specifies number of bins when AggregationType property value setted to AxisAggregationType.ByNumberOfBins. 
  Applied to category axes. Used with Histogram or HistogramPareto series only.

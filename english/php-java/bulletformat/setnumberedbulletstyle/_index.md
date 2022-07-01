@@ -1,13 +1,13 @@
 ---
 title: setNumberedBulletStyle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/bulletformat/setnumberedbulletstyle/
 ---
 
-## setNumberedBulletStyle(byte) method
+## setNumberedBulletStyle(byte value)  method
 
  Returns or sets the style of a numbered bullet with no inheritance.
  Read/write  NumberedBulletStyle.

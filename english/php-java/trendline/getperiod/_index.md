@@ -1,13 +1,13 @@
 ---
 title: getPeriod
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/trendline/getperiod/
 ---
 
-## getPeriod() method
+## getPeriod()  method
 
  Specifies the period of the trend line for a moving average trend line. It is ignored for other trend
  line variants. Value must be between 2 and 255.

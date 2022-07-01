@@ -1,13 +1,13 @@
 ---
 title: setConformance
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/pptxoptions/setconformance/
 ---
 
-## setConformance(int) method
+## setConformance(int value)  method
 
  Specifies the conformance class to which the Presentation document conforms.
  Default value is  Conformance#Ecma376_2006

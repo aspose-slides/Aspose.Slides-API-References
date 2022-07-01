@@ -1,13 +1,13 @@
 ---
 title: getGrow
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/blur/getgrow/
 ---
 
-## getGrow() method
+## getGrow()  method
 
  Determines whether the bounds of the object should be grown as a result of the blurring.
  True indicates the bounds are grown while false indicates that they are not.

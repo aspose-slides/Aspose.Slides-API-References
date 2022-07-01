@@ -1,13 +1,13 @@
 ---
 title: setUseSecondaryCategories
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/chartdata/setusesecondarycategories/
 ---
 
-## setUseSecondaryCategories(boolean) method
+## setUseSecondaryCategories(boolean value)  method
 
  If false then  #getSecondaryCategories property return null and data 
  in  #getCategories property is used both for primary and secondary series.

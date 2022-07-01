@@ -1,13 +1,13 @@
 ---
 title: setSubstitutePictureTitle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 180
 url: /php-java/oleobjectframe/setsubstitutepicturetitle/
 ---
 
-## setSubstitutePictureTitle(java.lang.String) method
+## setSubstitutePictureTitle(String value)  method
 
  Returns or sets the title for OleObject icon.
  Read/write  String.

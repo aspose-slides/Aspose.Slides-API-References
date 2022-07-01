@@ -1,13 +1,13 @@
 ---
 title: get_Item
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/mathmatrix/get_item/
 ---
 
-## get_Item(int, int) method
+## get_Item(int row, int column)  method
 
  Element of matrix
  

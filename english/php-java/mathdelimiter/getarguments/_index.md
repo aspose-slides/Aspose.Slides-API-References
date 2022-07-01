@@ -1,13 +1,13 @@
 ---
 title: getArguments
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/mathdelimiter/getarguments/
 ---
 
-## getArguments() method
+## getArguments()  method
 
  One or more mathematical elements separated by delimiter characters
  

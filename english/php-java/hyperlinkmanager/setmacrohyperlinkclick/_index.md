@@ -1,13 +1,13 @@
 ---
 title: setMacroHyperlinkClick
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/hyperlinkmanager/setmacrohyperlinkclick/
 ---
 
-## setMacroHyperlinkClick(java.lang.String) method
+## setMacroHyperlinkClick(String macroName)  method
 
  Set Macro hyperlink on a click.
  

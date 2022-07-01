@@ -1,13 +1,13 @@
 ---
 title: setShowPageStepper
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 280
 url: /php-java/swfoptions/setshowpagestepper/
 ---
 
-## setShowPageStepper(boolean) method
+## setShowPageStepper(boolean value)  method
 
  Show/hide page stepper. Can be overridden in flashvars. Default is true. 
  

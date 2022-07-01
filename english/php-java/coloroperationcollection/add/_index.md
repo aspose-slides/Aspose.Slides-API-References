@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/coloroperationcollection/add/
 ---
 
-## add(int, float) method
+## add(int operation, float parameter)  method
 
  Adds a new operation to the end of collection.
  
@@ -26,7 +26,7 @@ Added operation.
 ---
 
 
-## add(int) method
+## add(int operation)  method
 
  Adds a new operation to the end of collection.
  

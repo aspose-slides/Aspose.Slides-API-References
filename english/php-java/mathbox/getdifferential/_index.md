@@ -1,13 +1,13 @@
 ---
 title: getDifferential
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/mathbox/getdifferential/
 ---
 
-## getDifferential() method
+## getDifferential()  method
 
  Differential
  When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate 

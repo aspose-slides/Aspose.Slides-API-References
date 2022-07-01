@@ -1,13 +1,13 @@
 ---
 title: getHeightPercents
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/rotation3d/getheightpercents/
 ---
 
-## getHeightPercents() method
+## getHeightPercents()  method
 
  Specifies the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent).
  Read/write  int.

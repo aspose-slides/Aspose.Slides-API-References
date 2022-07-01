@@ -1,13 +1,13 @@
 ---
 title: toArray
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/commentcollection/toarray/
 ---
 
-## toArray() method
+## toArray()  method
 
  Creates and returns an array with all comments.
  
@@ -19,7 +19,7 @@ Array of Comment.
 ---
 
 
-## toArray(int, int) method
+## toArray(int startIndex, int count)  method
 
  Creates and returns an array with all comments from the specified range.
  

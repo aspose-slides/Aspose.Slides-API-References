@@ -1,13 +1,13 @@
 ---
 title: setDuration
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/timing/setduration/
 ---
 
-## setDuration(float) method
+## setDuration(float value)  method
 
  Describes the duration of animation effect.
  Read/write  float.

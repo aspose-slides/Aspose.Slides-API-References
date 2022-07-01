@@ -1,6 +1,6 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -30,5 +30,3 @@ url: /php-java/webdocumentoptions/
 | [setAnimateShapes](setanimateshapes)(boolean) | Returns or sets shapes animation option. Read/write boolean. |
 | [setAnimateTransitions](setanimatetransitions)(boolean) | Returns or sets transitions animation option. Read/write boolean. |
 | [setEmbedImages](setembedimages)(boolean) | Returns or sets images embedding option. Read/write boolean. |
-| [setOutputSaver](setoutputsaver)(IOutputSaver) | Returns or sets output saver. Read/write IOutputSaver. |
-| [setTemplateEngine](settemplateengine)(ITemplateEngine) | Returns or sets templates engine. Read/write ITemplateEngine. |

@@ -1,13 +1,13 @@
 ---
 title: toMathArray
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 260
 url: /php-java/mathblock/tomatharray/
 ---
 
-## toMathArray() method
+## toMathArray()  method
 
  Puts child elements in a vertical array 
  

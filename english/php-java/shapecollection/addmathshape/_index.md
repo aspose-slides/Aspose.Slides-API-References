@@ -1,13 +1,13 @@
 ---
 title: addMathShape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/shapecollection/addmathshape/
 ---
 
-## addMathShape(float, float, float, float) method
+## addMathShape(float x, float y, float width, float height)  method
 
  Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.
  

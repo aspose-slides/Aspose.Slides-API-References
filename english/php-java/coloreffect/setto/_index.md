@@ -1,13 +1,13 @@
 ---
 title: setTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/coloreffect/setto/
 ---
 
-## setTo(com.aspose.slides.IColorFormat) method
+## setTo(ColorFormat value)  method
 
  Describes resulting color for the animation color change.
  Read/write  IColorFormat.

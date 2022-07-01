@@ -1,13 +1,13 @@
 ---
 title: setSeparator
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/datalabelformat/setseparator/
 ---
 
-## setSeparator(java.lang.String) method
+## setSeparator(String value)  method
 
  Sets or returns a Variant representing the separator used for the data labels on a chart.
  Read/write  String.

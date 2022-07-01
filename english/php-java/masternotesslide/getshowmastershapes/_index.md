@@ -1,13 +1,13 @@
 ---
 title: getShowMasterShapes
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/masternotesslide/getshowmastershapes/
 ---
 
-## getShowMasterShapes() method
+## getShowMasterShapes()  method
 
  Specifies if shapes on the master slide should be shown on slides or not.
  For master slide itself this property always returns false.

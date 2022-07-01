@@ -1,13 +1,13 @@
 ---
 title: getColumnGap
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/mathmatrix/getcolumngap/
 ---
 
-## getColumnGap() method
+## getColumnGap()  method
 
  The value of horizontal spacing between columns of a matrix;
  If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point)

@@ -1,13 +1,13 @@
 ---
 title: setRowSpacingRule
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/matharray/setrowspacingrule/
 ---
 
-## setRowSpacingRule(int) method
+## setRowSpacingRule(int value)  method
 
  The type of vertical spacing between array elements
  Default: SingleLineGap

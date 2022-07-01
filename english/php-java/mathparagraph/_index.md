@@ -1,6 +1,6 @@
 ---
 title: MathParagraph
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -24,24 +24,24 @@ Example:
 | Name | Description |
 | --- | --- |
 | [MathParagraph](mathparagraph)() | Initializes a new instance of the MathParagraph class. |
-| [MathParagraph](mathparagraph)(IMathBlock) | Initializes a new instance of the MathParagraph class. |
+| [MathParagraph](mathparagraph)(MathBlock) | Initializes a new instance of the MathParagraph class. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [add](add)(IMathBlock) | Adds IMathBlock to the end of collection. |
+| [add](add)(MathBlock) | Adds IMathBlock to the end of collection. |
 | [clear](clear)() | Removes all elements from the collection. |
-| [contains](contains)(IMathBlock) | Determines whether the collection contains a specific value. |
+| [contains](contains)(MathBlock) | Determines whether the collection contains a specific value. |
 | [getCount](getcount)() | Gets the number of elements actually contained in the collection. Read-only int. |
 | [getJustification](getjustification)() | Paragraph Justification Default value: CenteredAsGroup |
 | [get_Item](get_item)(int) | Gets the item at the specified index. Read-only IMathBlock. |
-| [indexOf](indexof)(IMathBlock) | Determines the index of a specific IMathBlock in collection. |
-| [insert](insert)(int, IMathBlock) | Inserts IMathBlock into the collection at the specified index. |
+| [indexOf](indexof)(MathBlock) | Determines the index of a specific IMathBlock in collection. |
+| [insert](insert)(int, MathBlock) | Inserts IMathBlock into the collection at the specified index. |
 | [iterator](iterator)() |  |
 | [iteratorJava](iteratorjava)() |  |
-| [remove](remove)(IMathBlock) | Removes the first occurrence of a specific object from the collection. |
+| [remove](remove)(MathBlock) | Removes the first occurrence of a specific object from the collection. |
 | [removeAt](removeat)(int) | Removes an item at the specified index of the collection. |
 | [setJustification](setjustification)(int) | Paragraph Justification Default value: CenteredAsGroup |
-| [set_Item](set_item)(int, IMathBlock) | Gets the item at the specified index. Read-only IMathBlock. |
+| [set_Item](set_item)(int, MathBlock) | Gets the item at the specified index. Read-only IMathBlock. |
 | [writeAsMathMl](writeasmathml)(OutputStream) | Saves content of this MathParagraph as MathML |

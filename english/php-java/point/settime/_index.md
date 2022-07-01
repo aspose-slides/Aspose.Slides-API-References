@@ -1,13 +1,13 @@
 ---
 title: setTime
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/point/settime/
 ---
 
-## setTime(float) method
+## setTime(float value)  method
 
  Represents time value.
  Read/write  float.

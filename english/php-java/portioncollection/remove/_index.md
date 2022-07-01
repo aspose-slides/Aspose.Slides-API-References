@@ -1,13 +1,14 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/portioncollection/remove/
 ---
 
-## remove(com.aspose.slides.IPortion) method
+## remove(MathPortion item)  method
+## remove(Portion item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  

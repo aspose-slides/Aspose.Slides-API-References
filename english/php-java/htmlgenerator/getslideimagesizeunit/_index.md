@@ -1,13 +1,13 @@
 ---
 title: getSlideImageSizeUnit
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/htmlgenerator/getslideimagesizeunit/
 ---
 
-## getSlideImageSizeUnit() method
+## getSlideImageSizeUnit()  method
 
  Returns a unit in which slide image size is specified.
  Read-only  SvgCoordinateUnit.

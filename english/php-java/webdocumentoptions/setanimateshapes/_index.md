@@ -1,13 +1,13 @@
 ---
 title: setAnimateShapes
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/webdocumentoptions/setanimateshapes/
 ---
 
-## setAnimateShapes(boolean) method
+## setAnimateShapes(boolean value)  method
 
  Returns or sets shapes animation option.
  Read/write  boolean.

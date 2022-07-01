@@ -1,13 +1,13 @@
 ---
 title: setDifferential
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/mathbox/setdifferential/
 ---
 
-## setDifferential(boolean) method
+## setDifferential(boolean value)  method
 
  Differential
  When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate 

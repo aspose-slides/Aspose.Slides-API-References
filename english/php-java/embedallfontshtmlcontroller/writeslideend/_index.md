@@ -1,13 +1,13 @@
 ---
 title: writeSlideEnd
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/embedallfontshtmlcontroller/writeslideend/
 ---
 
-## writeSlideEnd(com.aspose.slides.IHtmlGenerator, com.aspose.slides.ISlide) method
+## writeSlideEnd(HtmlGenerator generator, Slide slide)  method
 
  Called to write html slide footer. Called once per each of slides.
  

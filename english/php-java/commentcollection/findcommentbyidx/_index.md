@@ -1,13 +1,13 @@
 ---
 title: findCommentByIdx
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/commentcollection/findcommentbyidx/
 ---
 
-## findCommentByIdx(int) method
+## findCommentByIdx(int idx)  method
 
  Finds a comment in the collection by index.
  
@@ -16,7 +16,7 @@ url: /php-java/commentcollection/findcommentbyidx/
 
 | Name | Description |
 | --- | --- |
-| idx | Unique index of a comment to find int. |
+| idx | Unique index of a comment to find {@code int}. |
 
 ### Returns
 Found comment or null IComment.

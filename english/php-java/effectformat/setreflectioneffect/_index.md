@@ -1,13 +1,13 @@
 ---
 title: setReflectionEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 330
 url: /php-java/effectformat/setreflectioneffect/
 ---
 
-## setReflectionEffect(com.aspose.slides.IReflection) method
+## setReflectionEffect(Reflection value)  method
 
  Reflection. 
  Read/write  IReflection.

@@ -1,13 +1,13 @@
 ---
 title: interrupt
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/interruptiontokensource/interrupt/
 ---
 
-## interrupt() method
+## interrupt()  method
 
  Initialize request for interruption.
  

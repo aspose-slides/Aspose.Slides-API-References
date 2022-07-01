@@ -1,13 +1,13 @@
 ---
 title: isSeriesUsesXValueCoordinate
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/charttypecharacterizer/isseriesusesxvaluecoordinate/
 ---
 
-## isSeriesUsesXValueCoordinate(int) method
+## isSeriesUsesXValueCoordinate(int seriesType)  method
 
  Returns if specified series type uses X value coordinates.
  

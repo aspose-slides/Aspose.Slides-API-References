@@ -1,13 +1,13 @@
 ---
 title: getSoundIsBuiltIn
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/slideshowtransition/getsoundisbuiltin/
 ---
 
-## getSoundIsBuiltIn() method
+## getSoundIsBuiltIn()  method
 
  Specifies whether or not this sound is a built-in sound. If this attribute is set to true then
  the generating application is alerted to check the name attribute specified for this sound

@@ -1,13 +1,13 @@
 ---
 title: setCategory
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 410
 url: /php-java/documentproperties/setcategory/
 ---
 
-## setCategory(java.lang.String) method
+## setCategory(String value)  method
 
  Returns or sets the category of a presentation.
  Read/write  String.

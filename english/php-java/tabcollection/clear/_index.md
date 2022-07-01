@@ -1,13 +1,13 @@
 ---
 title: clear
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/tabcollection/clear/
 ---
 
-## clear() method
+## clear()  method
 
  Removes all elements from the collection.
  

@@ -1,13 +1,13 @@
 ---
 title: getMarginBottom
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/textframeformat/getmarginbottom/
 ---
 
-## getMarginBottom() method
+## getMarginBottom()  method
 
  Returns or sets the bottom margin (points) in a TextFrame.
  Read/write  double.

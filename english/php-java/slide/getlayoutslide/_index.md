@@ -1,13 +1,13 @@
 ---
 title: getLayoutSlide
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/slide/getlayoutslide/
 ---
 
-## getLayoutSlide() method
+## getLayoutSlide()  method
 
  Returns or sets the layout slide for the current slide.
  Read/write  ILayoutSlide.

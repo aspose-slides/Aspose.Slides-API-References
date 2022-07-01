@@ -1,13 +1,13 @@
 ---
 title: bitmap
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/slideimageformat/bitmap/
 ---
 
-## bitmap(float, java.lang.String) method
+## bitmap(float scale, String imgFormat)  method
 
  Slides should be converted to a raster image.
  

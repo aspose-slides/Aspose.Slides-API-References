@@ -1,13 +1,13 @@
 ---
 title: setCreatedTime
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/comment/setcreatedtime/
 ---
 
-## setCreatedTime(java.util.Date) method
+## setCreatedTime(Date value)  method
 
  Returns or sets the time of a comment creation.
  Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set.

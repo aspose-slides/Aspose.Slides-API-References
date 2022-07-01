@@ -1,13 +1,13 @@
 ---
 title: getSkewOriginY
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 890
 url: /php-java/behaviorproperty/getskeworiginy/
 ---
 
-## getSkewOriginY() method
+## getSkewOriginY()  method
 
  Represents 'skew.origin.y' property
  

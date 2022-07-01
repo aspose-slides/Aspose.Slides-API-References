@@ -1,13 +1,13 @@
 ---
 title: setText
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/comment/settext/
 ---
 
-## setText(java.lang.String) method
+## setText(String value)  method
 
  Returns or sets the plain text of a slide comment.
  Read/write  String.

@@ -1,6 +1,6 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -25,6 +25,6 @@ url: /php-java/customxmlpartcollection/
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)(ICustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
+| [remove](remove)(CustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
 | [removeAt](removeat)(int) | Removes custom xml part at the specified index. |
 | [size](size)() | Returns count of custom xml parts in the collection. Read-only int. |

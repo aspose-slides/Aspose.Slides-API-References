@@ -1,13 +1,13 @@
 ---
 title: getFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/chartdatapoint/getformat/
 ---
 
-## getFormat() method
+## getFormat()  method
 
  Represents the formatting properties.
  Read/write  IFormat.

@@ -1,13 +1,13 @@
 ---
 title: getSuperscript
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/mathnaryoperator/getsuperscript/
 ---
 
-## getSuperscript() method
+## getSuperscript()  method
 
  Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit
  

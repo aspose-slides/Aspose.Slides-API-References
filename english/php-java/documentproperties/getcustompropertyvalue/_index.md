@@ -1,13 +1,13 @@
 ---
 title: getCustomPropertyValue
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 180
 url: /php-java/documentproperties/getcustompropertyvalue/
 ---
 
-## getCustomPropertyValue(java.lang.String, boolean[]) method
+## getCustomPropertyValue(String name, boolean[] value)  method
 
   Gets a named boolean value from the custom properties.
  
@@ -23,7 +23,7 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 ---
 
 
-## getCustomPropertyValue(java.lang.String, int[]) method
+## getCustomPropertyValue(String name, int[] value)  method
 
  Gets a named integer value from the custom properties.
  
@@ -39,7 +39,7 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 ---
 
 
-## getCustomPropertyValue(java.lang.String, java.util.Date[]) method
+## getCustomPropertyValue(String name, java.util.Date[] value)  method
 
  Gets a named DateTime value from the custom properties.
  
@@ -55,7 +55,7 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 ---
 
 
-## getCustomPropertyValue(java.lang.String, java.lang.String[]) method
+## getCustomPropertyValue(String name, java.lang.String[] value)  method
 
  Gets a named string value from the custom properties.
  
@@ -71,7 +71,7 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 ---
 
 
-## getCustomPropertyValue(java.lang.String, float[]) method
+## getCustomPropertyValue(String name, float[] value)  method
 
  Gets a named float value from the custom properties.
  
@@ -87,7 +87,7 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 ---
 
 
-## getCustomPropertyValue(java.lang.String, double[]) method
+## getCustomPropertyValue(String name, double[] value)  method
 
  Gets a named double value from the custom properties.
  

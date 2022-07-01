@@ -1,13 +1,13 @@
 ---
 title: get
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/storage/get/
 ---
 
-## get(java.lang.String) method
+## get(String key)  method
 
  Gets the data from the storage.
  

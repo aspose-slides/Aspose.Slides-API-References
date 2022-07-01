@@ -1,13 +1,13 @@
 ---
 title: arcTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/geometrypath/arcto/
 ---
 
-## arcTo(float, float, float, float) method
+## arcTo(float width, float heigth, float startAngle, float sweepAngle)  method
 
  Appends the specified arc to the path.
  

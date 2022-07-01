@@ -1,13 +1,13 @@
 ---
 title: getPosition
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/legend/getposition/
 ---
 
-## getPosition() method
+## getPosition()  method
 
  Specifies the position of the legend on a chart.
  Non-NaN values of X, Y, Width, Heigt properties override effect of this property.

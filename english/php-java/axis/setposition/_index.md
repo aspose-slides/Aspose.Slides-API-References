@@ -1,13 +1,13 @@
 ---
 title: setPosition
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 930
 url: /php-java/axis/setposition/
 ---
 
-## setPosition(int) method
+## setPosition(int value)  method
 
   Represents position of axis.
   Read/write  AxisPositionType.

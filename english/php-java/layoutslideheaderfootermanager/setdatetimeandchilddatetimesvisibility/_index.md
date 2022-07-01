@@ -1,13 +1,13 @@
 ---
 title: setDateTimeAndChildDateTimesVisibility
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
 
-## setDateTimeAndChildDateTimesVisibility(boolean) method
+## setDateTimeAndChildDateTimesVisibility(boolean isVisible)  method
 
  Changes layout slide date-time placeholder and all child date-time placeholders visibility.
  Child placeholders mean placeholders are contained on depending slides.

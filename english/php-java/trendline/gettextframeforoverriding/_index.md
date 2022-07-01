@@ -1,13 +1,13 @@
 ---
 title: getTextFrameForOverriding
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/trendline/gettextframeforoverriding/
 ---
 
-## getTextFrameForOverriding() method
+## getTextFrameForOverriding()  method
 
  Can contain a rich formatted text. If this property is not null then this 
  formatted text value overrides auto-generated text of data label.

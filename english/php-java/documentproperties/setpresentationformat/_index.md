@@ -1,13 +1,13 @@
 ---
 title: setPresentationFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 600
 url: /php-java/documentproperties/setpresentationformat/
 ---
 
-## setPresentationFormat(java.lang.String) method
+## setPresentationFormat(String value)  method
 
  Returns or sets the intended format of a presentation.
  Read/write  String.

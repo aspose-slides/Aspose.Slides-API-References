@@ -1,13 +1,13 @@
 ---
 title: setObjectName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/oleobjectframe/setobjectname/
 ---
 
-## setObjectName(java.lang.String) method
+## setObjectName(String value)  method
 
  Returns or sets the name of an object.
  Read/write  String.

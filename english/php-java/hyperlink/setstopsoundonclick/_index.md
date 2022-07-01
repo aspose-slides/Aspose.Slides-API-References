@@ -1,13 +1,13 @@
 ---
 title: setStopSoundOnClick
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 300
 url: /php-java/hyperlink/setstopsoundonclick/
 ---
 
-## setStopSoundOnClick(boolean) method
+## setStopSoundOnClick(boolean value)  method
 
  Determines whether the sound should be stopped on hyperlink click.
  Read/write  boolean.

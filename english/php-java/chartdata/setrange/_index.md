@@ -1,13 +1,13 @@
 ---
 title: setRange
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/chartdata/setrange/
 ---
 
-## setRange(java.lang.String) method
+## setRange(String formula)  method
 
  Set chart data range. Series and categories will be updated based on new data range.
  If amount of series in data range greater than count of series in the chart data then additional series with the same type

@@ -1,13 +1,13 @@
 ---
 title: setOrientation
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/slidesize/setorientation/
 ---
 
-## setOrientation(int) method
+## setOrientation(int value)  method
 
  Returns or sets the slide orientation.
  Read/write  SlideOrientation.

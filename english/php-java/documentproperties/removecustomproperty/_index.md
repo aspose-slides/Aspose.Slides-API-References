@@ -1,13 +1,13 @@
 ---
 title: removeCustomProperty
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 380
 url: /php-java/documentproperties/removecustomproperty/
 ---
 
-## removeCustomProperty(java.lang.String) method
+## removeCustomProperty(String name)  method
 
  Remove a custom property associated with a specified name.
  

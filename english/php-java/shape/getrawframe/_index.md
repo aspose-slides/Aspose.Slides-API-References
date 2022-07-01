@@ -1,13 +1,13 @@
 ---
 title: getRawFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 220
 url: /php-java/shape/getrawframe/
 ---
 
-## getRawFrame() method
+## getRawFrame()  method
 
  Returns or sets the raw shape frame's properties.
  Read/write  IShapeFrame.

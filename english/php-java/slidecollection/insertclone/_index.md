@@ -1,13 +1,13 @@
 ---
 title: insertClone
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/slidecollection/insertclone/
 ---
 
-## insertClone(int, com.aspose.slides.ISlide) method
+## insertClone(int index, Slide sourceSlide)  method
 
  Inserts a copy of a specified slide to specified position of the collection.
  
@@ -26,7 +26,7 @@ Inserted slide.
 ---
 
 
-## insertClone(int, com.aspose.slides.ISlide, com.aspose.slides.ILayoutSlide) method
+## insertClone(int index, Slide sourceSlide, LayoutSlide destLayout)  method
 
  Inserts a copy of a specified slide to specified position of the collection.
  
@@ -46,7 +46,7 @@ Inserted slide.
 ---
 
 
-## insertClone(int, com.aspose.slides.ISlide, com.aspose.slides.IMasterSlide, boolean) method
+## insertClone(int index, Slide sourceSlide, MasterSlide destMaster, boolean allowCloneMissingLayout)  method
 
  Inserts a copy of a specified source slide to specified position of the collection.
  Appropriate layout will be selected automatically from the specified 

@@ -1,13 +1,13 @@
 ---
 title: getShowCategoryName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/datalabelformat/getshowcategoryname/
 ---
 
-## getShowCategoryName() method
+## getShowCategoryName()  method
 
  Represents a specified chart's data label category name display behavior.
  True to display the category name for the data labels on a chart. False to hide.

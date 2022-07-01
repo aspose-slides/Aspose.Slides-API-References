@@ -1,13 +1,13 @@
 ---
 title: getPresentation
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/field/getpresentation/
 ---
 
-## getPresentation() method
+## getPresentation()  method
 
  Returns the parent presentation of a paragraph.
  Read-only  IPresentation.

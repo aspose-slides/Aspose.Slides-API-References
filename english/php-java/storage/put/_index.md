@@ -1,13 +1,13 @@
 ---
 title: put
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/storage/put/
 ---
 
-## put(java.lang.String, TValue) method
+## put(String key, TValue value)  method
 
  Puts the value into the storage.
  

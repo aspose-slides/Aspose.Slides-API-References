@@ -1,13 +1,13 @@
 ---
 title: addConnector
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/shapecollection/addconnector/
 ---
 
-## addConnector(int, float, float, float, float) method
+## addConnector(int shapeType, float x, float y, float width, float height)  method
 
  Creates a new Connector, tunes it from default template and adds it to the end of the collection.
  
@@ -29,7 +29,7 @@ Created Connector object.
 ---
 
 
-## addConnector(int, float, float, float, float, boolean) method
+## addConnector(int shapeType, float x, float y, float width, float height, boolean createFromTemplate)  method
 
  Creates a new Connector and adds it to the end of the collection.
  

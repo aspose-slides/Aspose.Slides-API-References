@@ -1,13 +1,13 @@
 ---
 title: getTextFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 370
 url: /php-java/axis/gettextformat/
 ---
 
-## getTextFormat() method
+## getTextFormat()  method
 
   Represents format of text.
   Read-only  IChartTextFormat.

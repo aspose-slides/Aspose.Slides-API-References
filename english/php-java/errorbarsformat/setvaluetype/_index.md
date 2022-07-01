@@ -1,13 +1,13 @@
 ---
 title: setValueType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/errorbarsformat/setvaluetype/
 ---
 
-## setValueType(int) method
+## setValueType(int value)  method
 
  Represents possible ways to determine the length of the error bars. 
  In case of custom value type to specify value use ( IChartDataPoint#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series.

@@ -1,13 +1,33 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 230
 url: /php-java/mathblock/remove/
 ---
 
-## remove(com.aspose.slides.IMathElement) method
+## remove(BaseScript item)  method
+## remove(MathAccent item)  method
+## remove(MathArray item)  method
+## remove(MathBar item)  method
+## remove(MathBlock item)  method
+## remove(MathBorderBox item)  method
+## remove(MathBox item)  method
+## remove(MathDelimiter item)  method
+## remove(MathElementBase item)  method
+## remove(MathematicalText item)  method
+## remove(MathFraction item)  method
+## remove(MathFunction item)  method
+## remove(MathGroupingCharacter item)  method
+## remove(MathLeftSubSuperscriptElement item)  method
+## remove(MathLimit item)  method
+## remove(MathMatrix item)  method
+## remove(MathNaryOperator item)  method
+## remove(MathRadical item)  method
+## remove(MathRightSubSuperscriptElement item)  method
+## remove(MathSubscriptElement item)  method
+## remove(MathSuperscriptElement item)  method
 
  Removes the first occurrence of a specific object from the collection.
  

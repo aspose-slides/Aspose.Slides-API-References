@@ -1,13 +1,13 @@
 ---
 title: setShowOutlierPoints
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 640
 url: /php-java/chartseries/setshowoutlierpoints/
 ---
 
-## setShowOutlierPoints(boolean) method
+## setShowOutlierPoints(boolean value)  method
 
  Represents outlier points. True if outlier points are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts.
  Read/write  boolean.

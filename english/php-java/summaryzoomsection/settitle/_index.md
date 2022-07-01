@@ -1,13 +1,13 @@
 ---
 title: setTitle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/summaryzoomsection/settitle/
 ---
 
-## setTitle(java.lang.String) method
+## setTitle(String value)  method
 
  Returns the text title of the Summary Zoom Section object. 
  

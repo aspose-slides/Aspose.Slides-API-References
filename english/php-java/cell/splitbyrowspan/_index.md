@@ -1,13 +1,13 @@
 ---
 title: splitByRowSpan
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 350
 url: /php-java/cell/splitbyrowspan/
 ---
 
-## splitByRowSpan(int) method
+## splitByRowSpan(int index)  method
 
  Splits the cell to two cells by index of row.
  

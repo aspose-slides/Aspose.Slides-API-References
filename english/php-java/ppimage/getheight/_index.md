@@ -1,20 +1,17 @@
 ---
 title: getHeight
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/ppimage/getheight/
 ---
 
-## getHeight() method
+## getHeight()  method
 
  Returns a height of an image.
  Read-only  int.
  
-
-### Returns
-int
 
 
 ---

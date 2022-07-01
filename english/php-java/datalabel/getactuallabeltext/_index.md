@@ -1,13 +1,13 @@
 ---
 title: getActualLabelText
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/datalabel/getactuallabeltext/
 ---
 
-## getActualLabelText() method
+## getActualLabelText()  method
 
  Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value.
  

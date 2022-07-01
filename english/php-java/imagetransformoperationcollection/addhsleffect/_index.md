@@ -1,13 +1,13 @@
 ---
 title: addHSLEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/imagetransformoperationcollection/addhsleffect/
 ---
 
-## addHSLEffect(float, float, float) method
+## addHSLEffect(float hue, float saturation, float luminance)  method
 
  Adds the new Hue/Saturation/Luminance effect to the end of a collection.
  

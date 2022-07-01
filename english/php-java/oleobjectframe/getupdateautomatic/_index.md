@@ -1,20 +1,17 @@
 ---
 title: getUpdateAutomatic
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/oleobjectframe/getupdateautomatic/
 ---
 
-## getUpdateAutomatic() method
+## getUpdateAutomatic()  method
 
  Determines if the linked embedded object is automatically updated when the presentation is opened or printed.
  Read/write  boolean.
  
-
-### Returns
-boolean
 
 
 ---

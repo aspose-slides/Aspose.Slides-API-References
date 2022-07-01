@@ -1,13 +1,13 @@
 ---
 title: iteratorJava
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/gradientstopcollection/iteratorjava/
 ---
 
-## iteratorJava() method
+## iteratorJava()  method
 
  Returns a java iterator for the entire collection.
  

@@ -1,6 +1,6 @@
 ---
 title: ForEach
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -29,10 +29,3 @@ url: /php-java/foreach/
 
 | Name | Description |
 | --- | --- |
-| [layoutSlide](layoutslide)(Presentation, ForEach.ForEachLayoutSlideCallback) | Iterate each #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the Presentation. |
-| [masterSlide](masterslide)(Presentation, ForEach.ForEachMasterSlideCallback) | Iterate each #masterSlide(Presentation,ForEachMasterSlideCallback) in the Presentation. |
-| [paragraph](paragraph)(Presentation, ForEach.ForEachParagraphCallback) | Iterate each #paragraph(Presentation,ForEachParagraphCallback) in the Presentation. |
-| [portion](portion)(Presentation, ForEach.ForEachPortionCallback) | Iterate each #portion(Presentation,ForEachPortionCallback) in the Presentation. |
-| [shape](shape)(Presentation, ForEach.ForEachShapeCallback) | Iterate each Shape in the Presentation. |
-| [shape](shape)(BaseSlide, ForEach.ForEachShapeCallback) | Iterate each Shape in the BaseSlide. |
-| [slide](slide)(Presentation, ForEach.ForEachSlideCallback) | Iterate each #slide(Presentation,ForEachSlideCallback) in the Presentation. |

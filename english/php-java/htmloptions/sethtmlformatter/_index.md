@@ -1,13 +1,13 @@
 ---
 title: setHtmlFormatter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/htmloptions/sethtmlformatter/
 ---
 
-## setHtmlFormatter(com.aspose.slides.IHtmlFormatter) method
+## setHtmlFormatter(HtmlFormatter value)  method
 
  Returns or sets HTML template.
  Read/write  IHtmlFormatter.

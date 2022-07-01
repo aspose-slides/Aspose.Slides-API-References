@@ -1,13 +1,13 @@
 ---
 title: getSubscript
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/mathrightsubsuperscriptelement/getsubscript/
 ---
 
-## getSubscript() method
+## getSubscript()  method
 
  Subscript argument
  

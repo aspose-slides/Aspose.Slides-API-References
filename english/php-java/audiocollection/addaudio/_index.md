@@ -1,13 +1,13 @@
 ---
 title: addAudio
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/audiocollection/addaudio/
 ---
 
-## addAudio(com.aspose.slides.IAudio) method
+## addAudio(Audio audio)  method
 
  Adds a copy of an audio file from an another presentation.
  
@@ -25,7 +25,7 @@ Added audio.
 ---
 
 
-## addAudio(java.io.InputStream) method
+## addAudio(InputStream stream)  method
 
  Creates and adds a audio to a presentation from stream.
  
@@ -43,7 +43,7 @@ Added audio.
 ---
 
 
-## addAudio(java.io.InputStream, int) method
+## addAudio(InputStream stream, int loadingStreamBehavior)  method
 
  Creates and adds a audio to a presentation from stream.
  
@@ -62,7 +62,7 @@ Added audio.
 ---
 
 
-## addAudio(byte[]) method
+## addAudio(byte[] audioData)  method
 
  Creates and adds a audio to a presentation from byte array.
  

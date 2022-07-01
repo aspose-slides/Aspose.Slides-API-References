@@ -1,13 +1,13 @@
 ---
 title: removeAt
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/masterlayoutslidecollection/removeat/
 ---
 
-## removeAt(int) method
+## removeAt(int index)  method
 
  Removes the element at the specified index of the collection.
  

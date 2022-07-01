@@ -1,13 +1,13 @@
 ---
 title: toDouble
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/stringordoublechartvalue/todouble/
 ---
 
-## toDouble() method
+## toDouble()  method
 
  Converts to double.
  

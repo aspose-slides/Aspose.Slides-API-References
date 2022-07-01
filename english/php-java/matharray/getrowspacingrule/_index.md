@@ -1,13 +1,13 @@
 ---
 title: getRowSpacingRule
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/matharray/getrowspacingrule/
 ---
 
-## getRowSpacingRule() method
+## getRowSpacingRule()  method
 
  The type of vertical spacing between array elements
  Default: SingleLineGap

@@ -1,13 +1,13 @@
 ---
 title: getPortionFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/portion/getportionformat/
 ---
 
-## getPortionFormat() method
+## getPortionFormat()  method
 
  Returns oformatting bject which contains explicitly set formatting properties of the text portion with no inheritance applied.
  Read-only  IPortionFormat.

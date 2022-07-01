@@ -1,13 +1,13 @@
 ---
 title: mergeCells
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/table/mergecells/
 ---
 
-## mergeCells(com.aspose.slides.ICell, com.aspose.slides.ICell, boolean) method
+## mergeCells(Cell cell1, Cell cell2, boolean allowSplitting)  method
 
  Merges neighbour cells.
  

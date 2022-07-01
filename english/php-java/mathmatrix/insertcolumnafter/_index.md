@@ -1,13 +1,13 @@
 ---
 title: insertColumnAfter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 170
 url: /php-java/mathmatrix/insertcolumnafter/
 ---
 
-## insertColumnAfter(int) method
+## insertColumnAfter(int columnIndex)  method
 
  Insert a new column after the specified one
  Initially all elements in the new column are null.

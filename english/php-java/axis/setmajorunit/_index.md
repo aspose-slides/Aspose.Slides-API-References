@@ -1,13 +1,13 @@
 ---
 title: setMajorUnit
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 800
 url: /php-java/axis/setmajorunit/
 ---
 
-## setMajorUnit(double) method
+## setMajorUnit(double value)  method
 
   Represents the major units for the date or value axis.
   Read/write  double.

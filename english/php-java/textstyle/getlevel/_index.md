@@ -1,13 +1,13 @@
 ---
 title: getLevel
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/textstyle/getlevel/
 ---
 
-## getLevel(int) method
+## getLevel(int index)  method
 
  If level of style exist returns it, otherwise returns null.
  

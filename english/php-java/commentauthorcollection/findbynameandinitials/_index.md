@@ -1,13 +1,13 @@
 ---
 title: findByNameAndInitials
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/commentauthorcollection/findbynameandinitials/
 ---
 
-## findByNameAndInitials(java.lang.String, java.lang.String) method
+## findByNameAndInitials(String name, String initials)  method
 
  Find author in a collection by name and initials.
  

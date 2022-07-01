@@ -1,13 +1,14 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/commentcollection/remove/
 ---
 
-## remove(com.aspose.slides.IComment) method
+## remove(Comment comment)  method
+## remove(ModernComment comment)  method
 
  Removes the first occurrence of the specified comment in a collection.
  

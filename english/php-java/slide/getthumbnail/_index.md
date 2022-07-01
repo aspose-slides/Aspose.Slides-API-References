@@ -1,13 +1,13 @@
 ---
 title: getThumbnail
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/slide/getthumbnail/
 ---
 
-## getThumbnail(float, float) method
+## getThumbnail(float scaleX, float scaleY)  method
 
  Returns a Thumbnail Bitmap object with custom scaling.
  
@@ -26,7 +26,7 @@ Bitmap object.
 ---
 
 
-## getThumbnail() method
+## getThumbnail()  method
 
  Returns a Thumbnail Image object (20% of real size).
  
@@ -35,7 +35,7 @@ Bitmap object.
 ---
 
 
-## getThumbnail(java.awt.Dimension) method
+## getThumbnail(Dimension imageSize)  method
 
  Returns a Thumbnail Bitmap object with specified size.
  
@@ -53,7 +53,7 @@ Bitmap object.
 ---
 
 
-## getThumbnail(com.aspose.slides.ITiffOptions) method
+## getThumbnail(TiffOptions options)  method
 
  Returns a Thumbnail tiff BufferedImage object with specified parameters.
  
@@ -77,7 +77,7 @@ BufferedImage object.
 ---
 
 
-## getThumbnail(com.aspose.slides.INotesCommentsLayoutingOptions) method
+## getThumbnail(NotesCommentsLayoutingOptions notesCommentsLayouting)  method
 
  Returns a Thumbnail BufferedImage object.
  
@@ -101,7 +101,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(com.aspose.slides.INotesCommentsLayoutingOptions, float, float) method
+## getThumbnail(NotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage object with custom scaling.
  
@@ -127,7 +127,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(com.aspose.slides.INotesCommentsLayoutingOptions, java.awt.Dimension) method
+## getThumbnail(NotesCommentsLayoutingOptions notesCommentsLayouting, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage object with specified size.
  
@@ -152,7 +152,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(com.aspose.slides.IRenderingOptions) method
+## getThumbnail(RenderingOptions options)  method
 
  Returns a Thumbnail BufferedImage object.
  
@@ -176,7 +176,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(com.aspose.slides.IRenderingOptions, float, float) method
+## getThumbnail(RenderingOptions options, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage object with custom scaling.
  
@@ -202,7 +202,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(com.aspose.slides.IRenderingOptions, java.awt.Dimension) method
+## getThumbnail(RenderingOptions options, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage object with specified size.
  

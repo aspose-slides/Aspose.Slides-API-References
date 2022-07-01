@@ -1,6 +1,6 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ url: /php-java/videocollection/
 
 | Name | Description |
 | --- | --- |
-| [addVideo](addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
+| [addVideo](addvideo)(Video) | Adds a copy of an video file from an another presentation. |
 | [addVideo](addvideo)(InputStream) | Creates and adds a video to a presentation from stream. |
 | [addVideo](addvideo)(InputStream, int) | Creates and adds a video to a presentation from stream. |
 | [addVideo](addvideo)(byte[]) | Creates and adds a video to a presentation from byte array. |

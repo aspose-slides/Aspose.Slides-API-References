@@ -1,13 +1,13 @@
 ---
 title: getScale
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/commonslideviewproperties/getscale/
 ---
 
-## getScale() method
+## getScale()  method
 
  Specifies the view scaling ratio in percentages.
  Read/write  int.

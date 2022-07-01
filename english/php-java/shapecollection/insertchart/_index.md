@@ -1,13 +1,13 @@
 ---
 title: insertChart
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 410
 url: /php-java/shapecollection/insertchart/
 ---
 
-## insertChart(int, float, float, float, float, int) method
+## insertChart(int type, float x, float y, float width, float height, int index)  method
 
  Creates a new Chart, initialize it with sample series data and settings and inserts 
  it to the specified position in the collection.
@@ -31,7 +31,7 @@ Created chart.
 ---
 
 
-## insertChart(int, float, float, float, float, int, boolean) method
+## insertChart(int type, float x, float y, float width, float height, int index, boolean initWithSample)  method
 
  Creates a new Chart and inserts it to the specified position in the collection.
  

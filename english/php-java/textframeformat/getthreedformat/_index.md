@@ -1,13 +1,13 @@
 ---
 title: getThreeDFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/textframeformat/getthreedformat/
 ---
 
-## getThreeDFormat() method
+## getThreeDFormat()  method
 
  Returns the ThreeDFormat object that represents 3d effect properties for a text.
  Read-only  IThreeDFormat.

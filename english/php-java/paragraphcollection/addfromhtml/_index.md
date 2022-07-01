@@ -1,13 +1,13 @@
 ---
 title: addFromHtml
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/paragraphcollection/addfromhtml/
 ---
 
-## addFromHtml(java.lang.String) method
+## addFromHtml(String text)  method
 
  Adds text from specified html string to the collection.
  
@@ -22,7 +22,8 @@ url: /php-java/paragraphcollection/addfromhtml/
 ---
 
 
-## addFromHtml(java.lang.String, com.aspose.slides.IExternalResourceResolver, java.lang.String) method
+## addFromHtml(String text, ExternalResourceResolver resolver, String uri)  method
+## addFromHtml(String text, HtmlExternalResolver resolver, String uri)  method
 
  Adds text from specified html string to the collection.
  

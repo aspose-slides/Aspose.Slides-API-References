@@ -1,13 +1,13 @@
 ---
 title: getLabel
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/chartdatapointlevel/getlabel/
 ---
 
-## getLabel() method
+## getLabel()  method
 
  Represents data label of data point level. Applied for Treemap and  Sunburst sereis types.
  Read-only  IDataLabel.

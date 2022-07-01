@@ -1,13 +1,13 @@
 ---
 title: addEmptySection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/sectioncollection/addemptysection/
 ---
 
-## addEmptySection(java.lang.String, int) method
+## addEmptySection(String name, int index)  method
 
  Add empty section to specified position of the collection.
  

@@ -1,13 +1,13 @@
 ---
 title: getTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/seteffect/getto/
 ---
 
-## getTo() method
+## getTo()  method
 
  Specifies the certain attribute of a effect after an animation effect.
  Represents point value.

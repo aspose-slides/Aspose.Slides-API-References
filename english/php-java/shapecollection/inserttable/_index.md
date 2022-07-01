@@ -1,13 +1,13 @@
 ---
 title: insertTable
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 550
 url: /php-java/shapecollection/inserttable/
 ---
 
-## insertTable(int, float, float, double[], double[]) method
+## insertTable(int index, float x, float y, double[] columnWidths, double[] rowHeights)  method
 
  Creates a new Table and inserts it to the collection at the specified index.
  

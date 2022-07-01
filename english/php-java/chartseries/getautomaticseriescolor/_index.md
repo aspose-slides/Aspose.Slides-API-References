@@ -1,13 +1,13 @@
 ---
 title: getAutomaticSeriesColor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/chartseries/getautomaticseriescolor/
 ---
 
-## getAutomaticSeriesColor() method
+## getAutomaticSeriesColor()  method
 
  Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined. 
  

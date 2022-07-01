@@ -1,13 +1,13 @@
 ---
 title: setFrom
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/rotationeffect/setfrom/
 ---
 
-## setFrom(float) method
+## setFrom(float value)  method
 
  Describes the starting value for the animation.
  Read/write  float.

@@ -1,13 +1,13 @@
 ---
 title: setAlignment
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/tab/setalignment/
 ---
 
-## setAlignment(int) method
+## setAlignment(int value)  method
 
  Returns or sets align style of a tab.
  Read/write  TabAlignment.

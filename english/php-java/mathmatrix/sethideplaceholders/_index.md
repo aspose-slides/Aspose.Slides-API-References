@@ -1,13 +1,13 @@
 ---
 title: setHidePlaceholders
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 260
 url: /php-java/mathmatrix/sethideplaceholders/
 ---
 
-## setHidePlaceholders(boolean) method
+## setHidePlaceholders(boolean value)  method
 
  Hide the placeholders for empty matrix elements
  Default: false

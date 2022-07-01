@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/chartcellcollection/add/
 ---
 
-## add(com.aspose.slides.IChartDataCell) method
+## add(ChartDataCell cell)  method
 
  Add new cell to the collection.
  
@@ -22,7 +22,7 @@ url: /php-java/chartcellcollection/add/
 ---
 
 
-## add(java.lang.Object) method
+## add(Object value)  method
 
  Creates  ChartDataCell from specified value and adds it to the collection.
  

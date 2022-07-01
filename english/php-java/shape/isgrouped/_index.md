@@ -1,13 +1,13 @@
 ---
 title: isGrouped
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 340
 url: /php-java/shape/isgrouped/
 ---
 
-## isGrouped() method
+## isGrouped()  method
 
  Determines whether the shape is grouped.
  Read-only  boolean.

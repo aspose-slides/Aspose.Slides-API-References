@@ -1,13 +1,13 @@
 ---
 title: getSpaceAfter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/paragraphformat/getspaceafter/
 ---
 
-## getSpaceAfter() method
+## getSpaceAfter()  method
 
  Returns or sets the amount of space after the last line in a paragraph with no inheritance.
  A positive value specifies the percentage of the font size that the white space should be.

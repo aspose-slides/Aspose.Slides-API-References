@@ -1,13 +1,13 @@
 ---
 title: setStrikethroughVertical
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/mathborderbox/setstrikethroughvertical/
 ---
 
-## setStrikethroughVertical(boolean) method
+## setStrikethroughVertical(boolean value)  method
 
  Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line.
  

@@ -1,13 +1,13 @@
 ---
 title: getMinColumnWidth
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/mathmatrix/getmincolumnwidth/
 ---
 
-## getMinColumnWidth() method
+## getMinColumnWidth()  method
 
  Minimum column width in twips (1/20th of a point)
  The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to 

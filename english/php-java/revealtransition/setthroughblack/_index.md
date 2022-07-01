@@ -1,13 +1,13 @@
 ---
 title: setThroughBlack
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/revealtransition/setthroughblack/
 ---
 
-## setThroughBlack(boolean) method
+## setThroughBlack(boolean value)  method
 
  Specifies whether the transition fades through black.
  Read/write  boolean.

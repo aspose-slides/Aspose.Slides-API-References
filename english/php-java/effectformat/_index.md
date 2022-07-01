@@ -1,6 +1,6 @@
 ---
 title: EffectFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -41,12 +41,12 @@ url: /php-java/effectformat/
 | [getReflectionEffect](getreflectioneffect)() | Reflection. Read/write IReflection. |
 | [getSoftEdgeEffect](getsoftedgeeffect)() | Soft edge. Read/write ISoftEdge. |
 | [isNoEffects](isnoeffects)() | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
-| [setBlurEffect](setblureffect)(IBlur) | Blur effect. Read/write IBlur. |
+| [setBlurEffect](setblureffect)(Blur) | Blur effect. Read/write IBlur. |
 | [setBlurEffect](setblureffect)(double, boolean) | Sets blur effect. |
-| [setFillOverlayEffect](setfilloverlayeffect)(IFillOverlay) | Fill overlay effect. Read/write IFillOverlay. |
-| [setGlowEffect](setgloweffect)(IGlow) | Glow effect. Read/write IGlow. |
-| [setInnerShadowEffect](setinnershadoweffect)(IInnerShadow) | Inner shadow. Read/write IInnerShadow. |
-| [setOuterShadowEffect](setoutershadoweffect)(IOuterShadow) | Outer shadow. Read/write IOuterShadow. |
-| [setPresetShadowEffect](setpresetshadoweffect)(IPresetShadow) | Preset shadow. Read/write IPresetShadow. |
-| [setReflectionEffect](setreflectioneffect)(IReflection) | Reflection. Read/write IReflection. |
-| [setSoftEdgeEffect](setsoftedgeeffect)(ISoftEdge) | Soft edge. Read/write ISoftEdge. |
+| [setFillOverlayEffect](setfilloverlayeffect)(FillOverlay) | Fill overlay effect. Read/write IFillOverlay. |
+| [setGlowEffect](setgloweffect)(Glow) | Glow effect. Read/write IGlow. |
+| [setInnerShadowEffect](setinnershadoweffect)(InnerShadow) | Inner shadow. Read/write IInnerShadow. |
+| [setOuterShadowEffect](setoutershadoweffect)(OuterShadow) | Outer shadow. Read/write IOuterShadow. |
+| [setPresetShadowEffect](setpresetshadoweffect)(PresetShadow) | Preset shadow. Read/write IPresetShadow. |
+| [setReflectionEffect](setreflectioneffect)(Reflection) | Reflection. Read/write IReflection. |
+| [setSoftEdgeEffect](setsoftedgeeffect)(SoftEdge) | Soft edge. Read/write ISoftEdge. |

@@ -1,13 +1,13 @@
 ---
 title: getChartTitle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/chart/getcharttitle/
 ---
 
-## getChartTitle() method
+## getChartTitle()  method
 
  Returns or sets a chart title.
  Read-only  IChartTitle.

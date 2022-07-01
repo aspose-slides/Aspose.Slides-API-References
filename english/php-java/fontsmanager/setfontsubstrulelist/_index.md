@@ -1,13 +1,13 @@
 ---
 title: setFontSubstRuleList
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/fontsmanager/setfontsubstrulelist/
 ---
 
-## setFontSubstRuleList(com.aspose.slides.IFontSubstRuleCollection) method
+## setFontSubstRuleList(FontSubstRuleCollection value)  method
 
  Font substitutions to use when rendering.
  Read/write  IFontSubstRuleCollection.

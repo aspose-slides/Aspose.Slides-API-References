@@ -1,13 +1,13 @@
 ---
 title: getIntercept
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/trendline/getintercept/
 ---
 
-## getIntercept() method
+## getIntercept()  method
 
  Specifies the value where the trendline shall cross the y axis. This property shall be supported only
  when the trendline type is exp, linear, or poly.

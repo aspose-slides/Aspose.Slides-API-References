@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/controlpropertiescollection/add/
 ---
 
-## add(java.lang.String, java.lang.String) method
+## add(String name, String value)  method
 
  Adds a property to the collection.
  

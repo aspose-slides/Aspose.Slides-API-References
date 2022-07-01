@@ -1,13 +1,13 @@
 ---
 title: setColumnsAlignment
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 250
 url: /php-java/mathmatrix/setcolumnsalignment/
 ---
 
-## setColumnsAlignment(int, long, int) method
+## setColumnsAlignment(int columnIndex, long columnsCount, int val)  method
 
  Set the horizontal alignment of the specified columns
  

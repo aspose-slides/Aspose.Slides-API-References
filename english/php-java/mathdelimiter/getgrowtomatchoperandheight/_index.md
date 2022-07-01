@@ -1,13 +1,13 @@
 ---
 title: getGrowToMatchOperandHeight
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/mathdelimiter/getgrowtomatchoperandheight/
 ---
 
-## getGrowToMatchOperandHeight() method
+## getGrowToMatchOperandHeight()  method
 
  Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter
  When true, the delimiters grows vertically to match its operand height.

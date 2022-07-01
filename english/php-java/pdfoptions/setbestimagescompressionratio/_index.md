@@ -1,13 +1,13 @@
 ---
 title: setBestImagesCompressionRatio
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/pdfoptions/setbestimagescompressionratio/
 ---
 
-## setBestImagesCompressionRatio(boolean) method
+## setBestImagesCompressionRatio(boolean value)  method
 
  Indicates if the most effective compression (instead of the default one) for each image must be selected 
  automatically. If set to true, for every image in presentation the most appropriate compression

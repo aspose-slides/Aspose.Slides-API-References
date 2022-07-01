@@ -1,13 +1,13 @@
 ---
 title: getPatternFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/fillformat/getpatternformat/
 ---
 
-## getPatternFormat() method
+## getPatternFormat()  method
 
  Returns the pattern fill format.
  Read-only  IPatternFormat.

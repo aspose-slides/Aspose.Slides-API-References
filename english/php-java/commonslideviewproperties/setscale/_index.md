@@ -1,13 +1,13 @@
 ---
 title: setScale
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/commonslideviewproperties/setscale/
 ---
 
-## setScale(int) method
+## setScale(int value)  method
 
  Specifies the view scaling ratio in percentages.
  Read/write  int.

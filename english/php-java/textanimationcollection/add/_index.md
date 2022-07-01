@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/textanimationcollection/add/
 ---
 
-## add() method
+## add()  method
 
  Adds new text animation to the collection.
  

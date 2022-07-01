@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/chartseriescollection/add/
 ---
 
-## add(int) method
+## add(int type)  method
 
  Creates new chart series and adds it to the collection. 
  
@@ -25,7 +25,7 @@ New chart series.
 ---
 
 
-## add(com.aspose.slides.IChartDataCell, int) method
+## add(ChartDataCell cellWithSeriesName, int type)  method
 
  Creates new chart series from  ChartDataCell and adds it to the collection. 
  
@@ -44,7 +44,7 @@ ChartDataCell
 ---
 
 
-## add(com.aspose.slides.IChartCellCollection, int) method
+## add(ChartCellCollection cellsWithSeriesName, int type)  method
 
  Creates new chart series from  ChartCellCollection and adds it to the collection. 
  
@@ -63,7 +63,7 @@ ChartCellCollection
 ---
 
 
-## add(java.lang.String, int) method
+## add(String name, int type)  method
 
  Creates new chart series from value and adds it to the collection. 
  

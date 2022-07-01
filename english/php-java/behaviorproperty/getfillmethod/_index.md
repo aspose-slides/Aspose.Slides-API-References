@@ -1,13 +1,13 @@
 ---
 title: getFillMethod
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 360
 url: /php-java/behaviorproperty/getfillmethod/
 ---
 
-## getFillMethod() method
+## getFillMethod()  method
 
  Represents 'fill.method' property
  

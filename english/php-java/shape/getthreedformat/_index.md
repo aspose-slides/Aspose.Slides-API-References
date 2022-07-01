@@ -1,13 +1,13 @@
 ---
 title: getThreeDFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 260
 url: /php-java/shape/getthreedformat/
 ---
 
-## getThreeDFormat() method
+## getThreeDFormat()  method
 
  Returns the ThreeDFormat object that 3d effect properties for a shape.
  Note: can return null for certain types of shapes which don't have 3d properties.

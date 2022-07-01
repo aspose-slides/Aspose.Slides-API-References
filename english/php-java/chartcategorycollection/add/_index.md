@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/chartcategorycollection/add/
 ---
 
-## add(com.aspose.slides.IChartDataCell) method
+## add(ChartDataCell chartDataCell)  method
 
  If category exists in collection, return it. Else creates new chart category from 
   IChartDataCell and adds it to the collection.
@@ -26,7 +26,7 @@ IChartDataCell
 ---
 
 
-## add(java.lang.Object) method
+## add(Object value)  method
 
   Creates new  ChartCategory from value and adds it to the collection.
  

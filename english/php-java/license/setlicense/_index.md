@@ -1,13 +1,13 @@
 ---
 title: setLicense
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/license/setlicense/
 ---
 
-## setLicense(java.io.InputStream) method
+## setLicense(InputStream stream)  method
 Licenses the component.
  
  In this example, an attempt will be made to find a license file named MyLicense.lic
@@ -46,7 +46,7 @@ Licenses the component.
 ---
 
 
-## setLicense(java.lang.String) method
+## setLicense(String namePath)  method
 Licenses the component.
  
  In this example, an attempt will be made to find a license file named MyLicense.lic

@@ -1,13 +1,13 @@
 ---
 title: setShowLabelValueFromCell
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 240
 url: /php-java/datalabelformat/setshowlabelvaluefromcell/
 ---
 
-## setShowLabelValueFromCell(boolean) method
+## setShowLabelValueFromCell(boolean value)  method
 
  Represents a specified chart's data label cell value display behavior. 
  True displays cell value. False to hide.

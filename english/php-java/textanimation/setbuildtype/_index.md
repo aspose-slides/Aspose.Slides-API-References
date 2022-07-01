@@ -1,13 +1,13 @@
 ---
 title: setBuildType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/textanimation/setbuildtype/
 ---
 
-## setBuildType(int) method
+## setBuildType(int value)  method
 
  List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation.
  Read/write  BuildType.

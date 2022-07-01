@@ -1,13 +1,13 @@
 ---
 title: setRadius
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/blur/setradius/
 ---
 
-## setRadius(double) method
+## setRadius(double value)  method
 
  Returns or sets blur radius.
  Read/write  double.

@@ -1,13 +1,13 @@
 ---
 title: setJpegQuality
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/swfoptions/setjpegquality/
 ---
 
-## setJpegQuality(int) method
+## setJpegQuality(int value)  method
 
  Specifies the quality of JPEG images.
  Default is 95.

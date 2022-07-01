@@ -1,13 +1,13 @@
 ---
 title: getMaxBlobsBytesInMemory
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/blobmanagementoptions/getmaxblobsbytesinmemory/
 ---
 
-## getMaxBlobsBytesInMemory() method
+## getMaxBlobsBytesInMemory()  method
 
  A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. After 
  this threshold was reached, all new BLOBs will be placed in temporary files and will not affect the 

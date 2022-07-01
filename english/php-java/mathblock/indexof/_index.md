@@ -1,13 +1,33 @@
 ---
 title: indexOf
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/mathblock/indexof/
 ---
 
-## indexOf(com.aspose.slides.IMathElement) method
+## indexOf(BaseScript item)  method
+## indexOf(MathAccent item)  method
+## indexOf(MathArray item)  method
+## indexOf(MathBar item)  method
+## indexOf(MathBlock item)  method
+## indexOf(MathBorderBox item)  method
+## indexOf(MathBox item)  method
+## indexOf(MathDelimiter item)  method
+## indexOf(MathElementBase item)  method
+## indexOf(MathematicalText item)  method
+## indexOf(MathFraction item)  method
+## indexOf(MathFunction item)  method
+## indexOf(MathGroupingCharacter item)  method
+## indexOf(MathLeftSubSuperscriptElement item)  method
+## indexOf(MathLimit item)  method
+## indexOf(MathMatrix item)  method
+## indexOf(MathNaryOperator item)  method
+## indexOf(MathRadical item)  method
+## indexOf(MathRightSubSuperscriptElement item)  method
+## indexOf(MathSubscriptElement item)  method
+## indexOf(MathSuperscriptElement item)  method
 
  Determines the index of a specific math element in collection.
  

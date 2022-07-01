@@ -1,13 +1,13 @@
 ---
 title: getCustomPropertyName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 170
 url: /php-java/documentproperties/getcustompropertyname/
 ---
 
-## getCustomPropertyName(int) method
+## getCustomPropertyName(int index)  method
 
  Return a custom property name at the specified index.
  

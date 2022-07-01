@@ -1,13 +1,13 @@
 ---
 title: setFloatR
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 260
 url: /php-java/colorformat/setfloatr/
 ---
 
-## setFloatR(float) method
+## setFloatR(float value)  method
 
  Returns or sets the red component of a color. All color transformations are ignored.
  Read/write  float.

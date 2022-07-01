@@ -1,13 +1,13 @@
 ---
 title: getFrom
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/rotationeffect/getfrom/
 ---
 
-## getFrom() method
+## getFrom()  method
 
  Describes the starting value for the animation.
  Read/write  float.

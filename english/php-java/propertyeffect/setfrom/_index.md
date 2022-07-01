@@ -1,13 +1,13 @@
 ---
 title: setFrom
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/propertyeffect/setfrom/
 ---
 
-## setFrom(java.lang.String) method
+## setFrom(String value)  method
 
  Specifies the starting value of the animation.
  Read/write  String.

@@ -1,13 +1,13 @@
 ---
 title: getDateTime7
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/fieldtype/getdatetime7/
 ---
 
-## getDateTime7() method
+## getDateTime7()  method
 
  Current date and time in a seventh predefined format (Mon-YY for english).
  Read-only  FieldType.

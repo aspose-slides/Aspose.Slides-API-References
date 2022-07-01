@@ -1,13 +1,12 @@
 ---
 title: layoutSlide
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/foreach/layoutslide/
 ---
 
-## layoutSlide(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachLayoutSlideCallback) method
 
  Iterate each  #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the  Presentation.
  

@@ -1,13 +1,13 @@
 ---
 title: getFadeDirection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/reflection/getfadedirection/
 ---
 
-## getFadeDirection() method
+## getFadeDirection()  method
 
  Specifies the direction to offset the reflection. (angle).
  Read/write  float.

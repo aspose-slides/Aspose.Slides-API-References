@@ -1,13 +1,13 @@
 ---
 title: getPosition
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/mathgroupingcharacter/getposition/
 ---
 
-## getPosition() method
+## getPosition()  method
 
  Position of grouping character.
  Default: Bottom 

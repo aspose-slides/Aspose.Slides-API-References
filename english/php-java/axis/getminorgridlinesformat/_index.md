@@ -1,13 +1,13 @@
 ---
 title: getMinorGridLinesFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 250
 url: /php-java/axis/getminorgridlinesformat/
 ---
 
-## getMinorGridLinesFormat() method
+## getMinorGridLinesFormat()  method
 
   Represents minor gridlines format on a chart axis.
   Read-only  IChartLinesFormat.

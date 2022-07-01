@@ -1,13 +1,13 @@
 ---
 title: cubicBezierTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/geometrypath/cubicbezierto/
 ---
 
-## cubicBezierTo(java.awt.geom.Point2D.Float, java.awt.geom.Point2D.Float, java.awt.geom.Point2D.Float) method
+## cubicBezierTo(Point2D.Float point1, Point2D.Float point2, Point2D.Float point3)  method
 
  Adds cubic Bezier curve at the end the path
  
@@ -24,7 +24,7 @@ url: /php-java/geometrypath/cubicbezierto/
 ---
 
 
-## cubicBezierTo(float, float, float, float, float, float) method
+## cubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3)  method
 
  Adds cubic Bezier curve at the end the path
  
@@ -44,7 +44,7 @@ url: /php-java/geometrypath/cubicbezierto/
 ---
 
 
-## cubicBezierTo(java.awt.geom.Point2D.Float, java.awt.geom.Point2D.Float, java.awt.geom.Point2D.Float, long) method
+## cubicBezierTo(Point2D.Float point1, Point2D.Float point2, Point2D.Float point3, long index)  method
 
  Adds cubic Bezier curve to the specified place of the path
  
@@ -68,7 +68,7 @@ url: /php-java/geometrypath/cubicbezierto/
 ---
 
 
-## cubicBezierTo(float, float, float, float, float, float, long) method
+## cubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3, long index)  method
 
  Adds cubic Bezier curve to the specified place of the path
  

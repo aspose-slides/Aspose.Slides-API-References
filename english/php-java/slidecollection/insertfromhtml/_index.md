@@ -1,13 +1,14 @@
 ---
 title: insertFromHtml
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/slidecollection/insertfromhtml/
 ---
 
-## insertFromHtml(int, java.lang.String, com.aspose.slides.IExternalResourceResolver, java.lang.String) method
+## insertFromHtml(int index, String htmlText, ExternalResourceResolver resolver, String uri)  method
+## insertFromHtml(int index, String htmlText, HtmlExternalResolver resolver, String uri)  method
 
  Creates slides from HTML text and inserts them to the collection at the specified position.
  
@@ -28,7 +29,7 @@ Added slides.
 ---
 
 
-## insertFromHtml(int, java.lang.String) method
+## insertFromHtml(int index, String htmlText)  method
 
  Creates slides from HTML text and inserts them to the collection at the specified position.
  
@@ -47,7 +48,8 @@ Added slides
 ---
 
 
-## insertFromHtml(int, java.io.InputStream, com.aspose.slides.IExternalResourceResolver, java.lang.String) method
+## insertFromHtml(int index, InputStream htmlStream, ExternalResourceResolver resolver, String uri)  method
+## insertFromHtml(int index, InputStream htmlStream, HtmlExternalResolver resolver, String uri)  method
 
  Creates slides from HTML text and inserts them to the collection at the specified position.
  
@@ -68,7 +70,7 @@ Added slides.
 ---
 
 
-## insertFromHtml(int, java.io.InputStream) method
+## insertFromHtml(int index, InputStream htmlStream)  method
 
  Creates slides from HTML text and inserts them to the collection at the specified position.
  

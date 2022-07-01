@@ -1,13 +1,13 @@
 ---
 title: getParentShape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/shapeelement/getparentshape/
 ---
 
-## getParentShape() method
+## getParentShape()  method
 
  Returns a Shape_PPT for which element was created.
  Read-only  Shape.

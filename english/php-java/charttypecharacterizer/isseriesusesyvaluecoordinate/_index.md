@@ -1,13 +1,13 @@
 ---
 title: isSeriesUsesYValueCoordinate
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 220
 url: /php-java/charttypecharacterizer/isseriesusesyvaluecoordinate/
 ---
 
-## isSeriesUsesYValueCoordinate(int) method
+## isSeriesUsesYValueCoordinate(int seriesType)  method
 
  Returns if specified series type uses Y value coordinates.
  

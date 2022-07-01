@@ -1,13 +1,13 @@
 ---
 title: getDrawSlidesFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/xpsoptions/getdrawslidesframe/
 ---
 
-## getDrawSlidesFrame() method
+## getDrawSlidesFrame()  method
 
   True to draw black frame around each slide.
   Read/write  boolean.

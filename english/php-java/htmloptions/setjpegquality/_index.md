@@ -1,13 +1,13 @@
 ---
 title: setJpegQuality
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/htmloptions/setjpegquality/
 ---
 
-## setJpegQuality(byte) method
+## setJpegQuality(byte value)  method
 
  Returns or sets a value determining the quality of the JPEG images inside PDF document.
  Read/write  byte.

@@ -1,13 +1,13 @@
 ---
 title: setInternalHyperlinkClick
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/hyperlinkmanager/setinternalhyperlinkclick/
 ---
 
-## setInternalHyperlinkClick(com.aspose.slides.ISlide) method
+## setInternalHyperlinkClick(Slide targetSlide)  method
 
  Sets internal hyperlink on click.
  

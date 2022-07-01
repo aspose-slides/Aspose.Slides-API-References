@@ -1,13 +1,13 @@
 ---
 title: quadraticBezierTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 170
 url: /php-java/geometrypath/quadraticbezierto/
 ---
 
-## quadraticBezierTo(java.awt.geom.Point2D.Float, java.awt.geom.Point2D.Float) method
+## quadraticBezierTo(Point2D.Float point1, Point2D.Float point2)  method
 
  Adds quadratic Bezier curve at the end the path
  
@@ -23,7 +23,7 @@ url: /php-java/geometrypath/quadraticbezierto/
 ---
 
 
-## quadraticBezierTo(float, float, float, float) method
+## quadraticBezierTo(float x1, float y1, float x2, float y2)  method
 
  Adds quadratic Bezier curve at the end the path
  
@@ -41,7 +41,7 @@ url: /php-java/geometrypath/quadraticbezierto/
 ---
 
 
-## quadraticBezierTo(java.awt.geom.Point2D.Float, java.awt.geom.Point2D.Float, long) method
+## quadraticBezierTo(Point2D.Float point1, Point2D.Float point2, long index)  method
 
   Adds quadratic Bezier curve to the specified place of the path
  
@@ -64,7 +64,7 @@ url: /php-java/geometrypath/quadraticbezierto/
 ---
 
 
-## quadraticBezierTo(float, float, float, float, long) method
+## quadraticBezierTo(float x1, float y1, float x2, float y2, long index)  method
 
  Adds quadratic Bezier curve to the specified place of the path
  

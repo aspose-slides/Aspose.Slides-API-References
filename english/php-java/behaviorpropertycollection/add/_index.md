@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/behaviorpropertycollection/add/
 ---
 
-## add(com.aspose.slides.IBehaviorProperty) method
+## add(BehaviorProperty item)  method
 
  Adds a new property to the collection.
  
@@ -22,7 +22,7 @@ url: /php-java/behaviorpropertycollection/add/
 ---
 
 
-## add(java.lang.String) method
+## add(String propertyValue)  method
 
  Adds a new property to the collection.
  

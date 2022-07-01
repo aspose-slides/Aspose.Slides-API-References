@@ -1,13 +1,13 @@
 ---
 title: setHideTop
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 170
 url: /php-java/mathborderbox/sethidetop/
 ---
 
-## setHideTop(boolean) method
+## setHideTop(boolean value)  method
 
  Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box.
  

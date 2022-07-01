@@ -1,13 +1,13 @@
 ---
 title: getHeight
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/shapeframe/getheight/
 ---
 
-## getHeight() method
+## getHeight()  method
 
  Returns the height of a frame.
  Read-only  float.

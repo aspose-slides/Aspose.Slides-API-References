@@ -1,13 +1,13 @@
 ---
 title: setTextFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/row/settextformat/
 ---
 
-## setTextFormat(com.aspose.slides.IPortionFormat) method
+## setTextFormat(PortionFormat source)  method
 
  Sets defined portion format properties to all row cells' portions.
  
@@ -22,7 +22,7 @@ url: /php-java/row/settextformat/
 ---
 
 
-## setTextFormat(com.aspose.slides.IParagraphFormat) method
+## setTextFormat(ParagraphFormat source)  method
 
  Sets defined paragraph format properties to all row cells' paragraphs.
  
@@ -37,7 +37,7 @@ url: /php-java/row/settextformat/
 ---
 
 
-## setTextFormat(com.aspose.slides.ITextFrameFormat) method
+## setTextFormat(TextFrameFormat source)  method
 
  Sets defined text frame format properties to all row cells' text frames.
  

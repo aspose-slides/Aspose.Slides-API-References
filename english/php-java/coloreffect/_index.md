@@ -1,6 +1,6 @@
 ---
 title: ColorEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -27,8 +27,8 @@ url: /php-java/coloreffect/
 | [getDirection](getdirection)() | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
 | [getFrom](getfrom)() | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
 | [getTo](getto)() | Describes resulting color for the animation color change. Read/write IColorFormat. |
-| [setBy](setby)(IColorOffset) | Describes the relative offset value for the color animation. Read/write IColorOffset. |
+| [setBy](setby)(ColorOffset) | Describes the relative offset value for the color animation. Read/write IColorOffset. |
 | [setColorSpace](setcolorspace)(int) | Represent color space of behavior. Read/write ColorSpace. |
 | [setDirection](setdirection)(int) | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
-| [setFrom](setfrom)(IColorFormat) | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
-| [setTo](setto)(IColorFormat) | Describes resulting color for the animation color change. Read/write IColorFormat. |
+| [setFrom](setfrom)(ColorFormat) | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
+| [setTo](setto)(ColorFormat) | Describes resulting color for the animation color change. Read/write IColorFormat. |

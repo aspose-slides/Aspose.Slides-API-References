@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/tabcollection/add/
 ---
 
-## add(double, int) method
+## add(double position, int align)  method
 
  Adds a Tab to the collection.
  
@@ -19,7 +19,7 @@ Added tab.
 ---
 
 
-## add(com.aspose.slides.ITab) method
+## add(Tab value)  method
 
  Adds a Tab to the collection.
  

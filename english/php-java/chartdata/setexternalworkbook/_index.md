@@ -1,13 +1,13 @@
 ---
 title: setExternalWorkbook
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/chartdata/setexternalworkbook/
 ---
 
-## setExternalWorkbook(java.lang.String) method
+## setExternalWorkbook(String workbookPath)  method
 
  Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook.  
  
@@ -42,7 +42,7 @@ url: /php-java/chartdata/setexternalworkbook/
 ---
 
 
-## setExternalWorkbook(java.lang.String, boolean) method
+## setExternalWorkbook(String workbookPath, boolean updateChartData)  method
 
  Sets external workbook as a data source for the chart. 
  

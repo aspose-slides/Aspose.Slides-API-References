@@ -1,13 +1,13 @@
 ---
 title: getForeColor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/patternformat/getforecolor/
 ---
 
-## getForeColor() method
+## getForeColor()  method
 
  Returns the foreground pattern color.
  Read-only  IColorFormat.

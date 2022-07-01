@@ -1,6 +1,6 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -16,8 +16,8 @@ url: /php-java/charttextformat/
 
 | Name | Description |
 | --- | --- |
-| [copyFrom](copyfrom)(ITextFrame) | Copies text format from specified text frame. |
-| [copyTo](copyto)(ITextFrame) | Copies text format to specified text frame. |
+| [copyFrom](copyfrom)(TextFrame) | Copies text format from specified text frame. |
+| [copyTo](copyto)(TextFrame) | Copies text format to specified text frame. |
 | [getParagraphFormat](getparagraphformat)() | ParagraphFormat. Read-only IChartParagraphFormat. |
 | [getPortionFormat](getportionformat)() | PortionFormat. Read-only IChartPortionFormat. |
 | [getTextBlockFormat](gettextblockformat)() | TextBlockFormat. Read-only IChartTextBlockFormat. |

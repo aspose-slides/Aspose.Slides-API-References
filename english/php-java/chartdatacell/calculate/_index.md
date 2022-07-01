@@ -1,13 +1,13 @@
 ---
 title: calculate
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/chartdatacell/calculate/
 ---
 
-## calculate(boolean) method
+## calculate(boolean updateValues)  method
 
  If the cell contains a formula, the value will be updated base on that formula. 
  

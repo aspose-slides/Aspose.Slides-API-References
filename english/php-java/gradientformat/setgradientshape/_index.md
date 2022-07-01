@@ -1,13 +1,13 @@
 ---
 title: setGradientShape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/gradientformat/setgradientshape/
 ---
 
-## setGradientShape(byte) method
+## setGradientShape(byte value)  method
 
  Returns or sets the shape of a gradient.
  Read/write  GradientShape.

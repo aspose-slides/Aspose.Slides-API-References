@@ -1,13 +1,13 @@
 ---
 title: exportToHtml
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/paragraphcollection/exporttohtml/
 ---
 
-## exportToHtml(int, int, com.aspose.slides.ITextToHtmlConversionOptions) method
+## exportToHtml(int firstParagraphIndex, int paragraphsCount, TextToHtmlConversionOptions options)  method
 
  Converts specifying paragraphs to the HTML and returns it as String object.
  

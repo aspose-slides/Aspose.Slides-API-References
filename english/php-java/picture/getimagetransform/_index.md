@@ -1,13 +1,13 @@
 ---
 title: getImageTransform
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/picture/getimagetransform/
 ---
 
-## getImageTransform() method
+## getImageTransform()  method
 
  Returns the collection of image transform effects.
  Read-only  IImageTransformOperationCollection.

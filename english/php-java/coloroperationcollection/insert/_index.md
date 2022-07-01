@@ -1,13 +1,13 @@
 ---
 title: insert
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/coloroperationcollection/insert/
 ---
 
-## insert(int, int, float) method
+## insert(int position, int operation, float parameter)  method
 
  Inserts the new operation to a collection.
  
@@ -27,7 +27,7 @@ Inserted operation.
 ---
 
 
-## insert(int, int) method
+## insert(int position, int operation)  method
 
  Inserts the new operation to a collection.
  

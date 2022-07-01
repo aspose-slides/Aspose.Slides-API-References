@@ -1,13 +1,13 @@
 ---
 title: addAlphaModulateEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/imagetransformoperationcollection/addalphamodulateeffect/
 ---
 
-## addAlphaModulateEffect() method
+## addAlphaModulateEffect()  method
 
  Adds the new Alpha Modulate effect to the end of a collection.
  

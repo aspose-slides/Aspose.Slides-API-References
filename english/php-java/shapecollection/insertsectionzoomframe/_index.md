@@ -1,13 +1,13 @@
 ---
 title: insertSectionZoomFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 520
 url: /php-java/shapecollection/insertsectionzoomframe/
 ---
 
-## insertSectionZoomFrame(int, float, float, float, float, com.aspose.slides.ISection) method
+## insertSectionZoomFrame(int index, float x, float y, float width, float height, Section section)  method
 
  Creates a new Section Zoom object and inserts into to a collection at the specified index.
  
@@ -31,10 +31,10 @@ url: /php-java/shapecollection/insertsectionzoomframe/
 | Name | Description |
 | --- | --- |
 | index | The zero-based index at which Section Zoom frame should be inserted. |
-| x | X coordinate of a new Section Zoom frame float. |
-| y | Y coordinate of a new Section Zoom frame float. |
-| width | Width of a new Section Zoom frame float. |
-| height | Height of a new Section Zoom frame float. |
+| x | X coordinate of a new Section Zoom frame {@code float}. |
+| y | Y coordinate of a new Section Zoom frame {@code float}. |
+| width | Width of a new Section Zoom frame {@code float}. |
+| height | Height of a new Section Zoom frame {@code float}. |
 | section | The slide object referenced by the Section Zoom frame ISection. |
 
 ### Returns
@@ -50,7 +50,7 @@ Created Section Zoom object ISectionZoomFrame.
 ---
 
 
-## insertSectionZoomFrame(int, float, float, float, float, com.aspose.slides.ISection, com.aspose.slides.IPPImage) method
+## insertSectionZoomFrame(int index, float x, float y, float width, float height, Section section, PPImage image)  method
 
  Creates a new Section Zoom object and inserts it to a collection at the specified index.
  
@@ -75,10 +75,10 @@ Created Section Zoom object ISectionZoomFrame.
 | Name | Description |
 | --- | --- |
 | index | The zero-based index at which Section Zoom frame should be inserted. |
-| x | X coordinate of a new Section Zoom frame float. |
-| y | Y coordinate of a new Section Zoom frame float. |
-| width | Width of a new Section Zoom frame float. |
-| height | Height of a new Section Zoom frame float. |
+| x | X coordinate of a new Section Zoom frame {@code float}. |
+| y | Y coordinate of a new Section Zoom frame {@code float}. |
+| width | Width of a new Section Zoom frame {@code float}. |
+| height | Height of a new Section Zoom frame {@code float}. |
 | section | The slide object referenced by the Section Zoom frame ISection. |
 | image | The image for the referenced slide IPPImage |
 

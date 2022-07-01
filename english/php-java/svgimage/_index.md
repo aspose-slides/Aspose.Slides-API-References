@@ -1,6 +1,6 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -19,9 +19,12 @@ url: /php-java/svgimage/
 | [SvgImage](svgimage)(byte[]) | Creates new SvgImage object. |
 | [SvgImage](svgimage)(String) | Creates new SvgImage object. |
 | [SvgImage](svgimage)(InputStream) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(byte[], IExternalResourceResolver, String) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(String, IExternalResourceResolver, String) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(InputStream, IExternalResourceResolver, String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(byte[], ExternalResourceResolver, String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(byte[], HtmlExternalResolver, String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(String, ExternalResourceResolver, String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(String, HtmlExternalResolver, String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(InputStream, ExternalResourceResolver, String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(InputStream, HtmlExternalResolver, String) | Creates new SvgImage object. |
 
 ## Methods
 

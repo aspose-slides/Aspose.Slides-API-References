@@ -1,13 +1,13 @@
 ---
 title: getNamesOfTags
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/tagcollection/getnamesoftags/
 ---
 
-## getNamesOfTags() method
+## getNamesOfTags()  method
 
  Returns names of tags.
  

@@ -1,13 +1,13 @@
 ---
 title: setSketchType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/sketchformat/setsketchtype/
 ---
 
-## setSketchType(int) method
+## setSketchType(int value)  method
 
  Returns or sets the sketch type.
  Read/write  LineSketchType.

@@ -1,13 +1,13 @@
 ---
 title: renderToGraphics
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/slide/rendertographics/
 ---
 
-## renderToGraphics(com.aspose.slides.INotesCommentsLayoutingOptions, java.awt.Graphics2D, int, int) method
+## renderToGraphics(NotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, int width, int height)  method
 
  Renders certain slide to a Graphics object using specified size.
  
@@ -31,7 +31,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics(com.aspose.slides.INotesCommentsLayoutingOptions, java.awt.Graphics2D, float) method
+## renderToGraphics(NotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, float scale)  method
 
  Renders certain slide to a Graphics object using specified scale.
  
@@ -54,7 +54,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics(com.aspose.slides.INotesCommentsLayoutingOptions, java.awt.Graphics2D) method
+## renderToGraphics(NotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics)  method
 
  Renders certain slide to a Graphics object.
  
@@ -76,7 +76,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics(com.aspose.slides.IRenderingOptions, java.awt.Graphics2D) method
+## renderToGraphics(RenderingOptions options, Graphics2D graphics)  method
 
  Renders certain slide to a Graphics object.
  
@@ -98,7 +98,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics(com.aspose.slides.IRenderingOptions, java.awt.Graphics2D, float, float) method
+## renderToGraphics(RenderingOptions options, Graphics2D graphics, float scaleX, float scaleY)  method
 
  Renders certain slide to a Graphics object with custom scaling.
  
@@ -122,7 +122,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics(com.aspose.slides.IRenderingOptions, java.awt.Graphics2D, java.awt.Dimension) method
+## renderToGraphics(RenderingOptions options, Graphics2D graphics, Dimension renderingSize)  method
 
  Renders certain slide to a Graphics object using specified size.
  

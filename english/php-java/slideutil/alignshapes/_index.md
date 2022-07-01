@@ -1,13 +1,13 @@
 ---
 title: alignShapes
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/slideutil/alignshapes/
 ---
 
-## alignShapes(int, boolean, com.aspose.slides.IShapeCollection) method
+## alignShapes(int alignmentType, boolean alignToSlide, ShapeCollection shapes)  method
 
  Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -37,7 +37,13 @@ Example:
 ---
 
 
-## alignShapes(int, boolean, com.aspose.slides.IBaseSlide) method
+## alignShapes(int alignmentType, boolean alignToSlide, BaseSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, LayoutSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, MasterHandoutSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, MasterNotesSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, MasterSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, NotesSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, Slide slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -67,7 +73,13 @@ Example:
 ---
 
 
-## alignShapes(int, boolean, com.aspose.slides.IBaseSlide, int[]) method
+## alignShapes(int alignmentType, boolean alignToSlide, BaseSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, LayoutSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, MasterHandoutSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, MasterNotesSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, MasterSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, NotesSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, Slide slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -101,7 +113,7 @@ Example:
 ---
 
 
-## alignShapes(int, boolean, com.aspose.slides.IGroupShape) method
+## alignShapes(int alignmentType, boolean alignToSlide, GroupShape groupShape)  method
 
  Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -132,7 +144,7 @@ Example:
 ---
 
 
-## alignShapes(int, boolean, com.aspose.slides.IGroupShape, int[]) method
+## alignShapes(int alignmentType, boolean alignToSlide, GroupShape groupShape, int[] shapeIndexes)  method
 
  Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.

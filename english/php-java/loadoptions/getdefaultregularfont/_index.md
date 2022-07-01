@@ -1,13 +1,13 @@
 ---
 title: getDefaultRegularFont
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/loadoptions/getdefaultregularfont/
 ---
 
-## getDefaultRegularFont() method
+## getDefaultRegularFont()  method
 
  Returns or sets Regular font used in case source font is not found.
  Read/write  String.

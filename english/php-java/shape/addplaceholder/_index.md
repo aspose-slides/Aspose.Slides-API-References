@@ -1,13 +1,13 @@
 ---
 title: addPlaceholder
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/shape/addplaceholder/
 ---
 
-## addPlaceholder(com.aspose.slides.IPlaceholder) method
+## addPlaceholder(Placeholder placeholderToCopyFrom)  method
 
  Adds a new placeholder if there is no and sets placeholder properties to a specified one.
  

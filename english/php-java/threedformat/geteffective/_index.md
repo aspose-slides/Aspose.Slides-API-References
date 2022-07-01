@@ -1,13 +1,13 @@
 ---
 title: getEffective
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/threedformat/geteffective/
 ---
 
-## getEffective() method
+## getEffective()  method
 
  Gets effective 3-D formatting data with the inheritance applied.
  

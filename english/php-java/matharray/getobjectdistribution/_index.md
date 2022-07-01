@@ -1,13 +1,13 @@
 ---
 title: getObjectDistribution
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/matharray/getobjectdistribution/
 ---
 
-## getObjectDistribution() method
+## getObjectDistribution()  method
 
  Object Distribution
  When true, the contents of the array are spaced to the maximum width of the array object.

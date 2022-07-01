@@ -1,13 +1,13 @@
 ---
 title: hide
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/datalabelcollection/hide/
 ---
 
-## hide() method
+## hide()  method
 
  Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the 
  DefaultDataLabelFormat property to false state.

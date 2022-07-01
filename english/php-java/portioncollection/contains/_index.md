@@ -1,13 +1,14 @@
 ---
 title: contains
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/portioncollection/contains/
 ---
 
-## contains(com.aspose.slides.IPortion) method
+## contains(MathPortion item)  method
+## contains(Portion item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  

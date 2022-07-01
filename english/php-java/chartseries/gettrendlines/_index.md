@@ -1,13 +1,13 @@
 ---
 title: getTrendLines
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 440
 url: /php-java/chartseries/gettrendlines/
 ---
 
-## getTrendLines() method
+## getTrendLines()  method
 
  Collection of series trend lines.
  Read-only  ITrendlineCollection.

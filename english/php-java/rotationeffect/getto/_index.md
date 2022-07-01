@@ -1,13 +1,13 @@
 ---
 title: getTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/rotationeffect/getto/
 ---
 
-## getTo() method
+## getTo()  method
 
  Describes the ending value for the animation.
  Read/write  float.

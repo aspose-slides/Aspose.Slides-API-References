@@ -1,13 +1,13 @@
 ---
 title: setUpperLimit
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/mathlimit/setupperlimit/
 ---
 
-## setUpperLimit(boolean) method
+## setUpperLimit(boolean value)  method
 
  Specifies upper or lower limit
  

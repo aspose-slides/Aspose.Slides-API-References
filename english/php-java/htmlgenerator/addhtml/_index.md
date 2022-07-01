@@ -1,13 +1,13 @@
 ---
 title: addHtml
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/htmlgenerator/addhtml/
 ---
 
-## addHtml(java.lang.String) method
+## addHtml(String html)  method
 
  Adds formatted HTML text.
  
@@ -22,7 +22,7 @@ url: /php-java/htmlgenerator/addhtml/
 ---
 
 
-## addHtml(char[]) method
+## addHtml(char[] html)  method
 
  Adds formatted HTML text.
  
@@ -37,7 +37,7 @@ url: /php-java/htmlgenerator/addhtml/
 ---
 
 
-## addHtml(char[], int, int) method
+## addHtml(char[] html, int startIndex, int length)  method
 
  Adds formatted HTML text.
  

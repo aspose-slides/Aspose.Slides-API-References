@@ -1,13 +1,13 @@
 ---
 title: insert
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/paragraphcollection/insert/
 ---
 
-## insert(int, com.aspose.slides.IParagraph) method
+## insert(int index, Paragraph value)  method
 
  Inserts a Paragraph into the collection at the specified index.
  
@@ -23,7 +23,7 @@ url: /php-java/paragraphcollection/insert/
 ---
 
 
-## insert(int, com.aspose.slides.IParagraphCollection) method
+## insert(int index, ParagraphCollection value)  method
 
  Inserts a content of ParagraphCollection into the collection at the specified index.
  

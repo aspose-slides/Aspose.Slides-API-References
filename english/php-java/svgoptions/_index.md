@@ -1,6 +1,6 @@
 ---
 title: SVGOptions
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ url: /php-java/svgoptions/
 | Name | Description |
 | --- | --- |
 | [SVGOptions](svgoptions)() | Initializes a new instance of the SVGOptions class. |
-| [SVGOptions](svgoptions)(ILinkEmbedController) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
+| [SVGOptions](svgoptions)(VideoPlayerHtmlController) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
 
 ## Methods
 
@@ -44,5 +44,5 @@ url: /php-java/svgoptions/
 | [setJpegQuality](setjpegquality)(int) | Determines JPEG encoding quality. Read/write int. |
 | [setMetafileRasterizationDpi](setmetafilerasterizationdpi)(int) | Returns or sets the lower resolution limit for metafile rasterization. Read/write int. |
 | [setPicturesCompression](setpicturescompression)(int) | Represents the pictures compression level |
-| [setShapeFormattingController](setshapeformattingcontroller)(ISvgShapeFormattingController) | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
+| [setShapeFormattingController](setshapeformattingcontroller)(VideoPlayerHtmlController) | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
 | [setVectorizeText](setvectorizetext)(boolean) | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |

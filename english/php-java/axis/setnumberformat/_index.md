@@ -1,13 +1,13 @@
 ---
 title: setNumberFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 870
 url: /php-java/axis/setnumberformat/
 ---
 
-## setNumberFormat(java.lang.String) method
+## setNumberFormat(String value)  method
 
  Represents the format string for the Axis Labels.
  Read/write  String.

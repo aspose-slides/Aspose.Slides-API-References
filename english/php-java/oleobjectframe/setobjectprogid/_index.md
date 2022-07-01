@@ -1,13 +1,13 @@
 ---
 title: setObjectProgId
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 170
 url: /php-java/oleobjectframe/setobjectprogid/
 ---
 
-## setObjectProgId(java.lang.String) method
+## setObjectProgId(String value)  method
 
  Returns the ProgID of an object.
  Read only  String.

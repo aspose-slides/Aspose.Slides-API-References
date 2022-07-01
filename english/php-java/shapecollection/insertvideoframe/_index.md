@@ -1,13 +1,13 @@
 ---
 title: insertVideoFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 560
 url: /php-java/shapecollection/insertvideoframe/
 ---
 
-## insertVideoFrame(int, float, float, float, float, java.lang.String) method
+## insertVideoFrame(int index, float x, float y, float width, float height, String fname)  method
 
  Creates a new video frame and inserts it to a collection at the specified index.
  

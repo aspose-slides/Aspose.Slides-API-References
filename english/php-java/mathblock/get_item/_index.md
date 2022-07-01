@@ -1,13 +1,13 @@
 ---
 title: get_Item
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/mathblock/get_item/
 ---
 
-## get_Item(int) method
+## get_Item(int index)  method
 
  Gets or sets IMathElement at the specified index.
  

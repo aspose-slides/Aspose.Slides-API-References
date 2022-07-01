@@ -1,13 +1,13 @@
 ---
 title: setEmbeddedData
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/oleobjectframe/setembeddeddata/
 ---
 
-## setEmbeddedData(com.aspose.slides.IOleEmbeddedDataInfo) method
+## setEmbeddedData(OleEmbeddedDataInfo embeddedData)  method
 
  Sets information about OLE embedded data.
  

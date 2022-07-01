@@ -1,13 +1,13 @@
 ---
 title: disableFillOverlayEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/effectformat/disablefilloverlayeffect/
 ---
 
-## disableFillOverlayEffect() method
+## disableFillOverlayEffect()  method
 
  Disables fill overlay effect.
  

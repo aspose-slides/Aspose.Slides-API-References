@@ -1,13 +1,13 @@
 ---
 title: setDelimiterShape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/mathdelimiter/setdelimitershape/
 ---
 
-## setDelimiterShape(int) method
+## setDelimiterShape(int value)  method
 
  Specifies the shape of delimiters in the delimiter object. 
  When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text 

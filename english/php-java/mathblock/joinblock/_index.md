@@ -1,13 +1,13 @@
 ---
 title: joinBlock
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 220
 url: /php-java/mathblock/joinblock/
 ---
 
-## joinBlock(com.aspose.slides.IMathBlock) method
+## joinBlock(MathBlock other)  method
 
  Joins another mathematical block with this one 
  

@@ -1,13 +1,13 @@
 ---
 title: reorder
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/masterlayoutslidecollection/reorder/
 ---
 
-## reorder(int, com.aspose.slides.ILayoutSlide) method
+## reorder(int index, LayoutSlide layoutSlide)  method
 
  Moves layout slide from the collection to the specified position.
  

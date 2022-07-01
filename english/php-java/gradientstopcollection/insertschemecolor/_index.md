@@ -1,13 +1,13 @@
 ---
 title: insertSchemeColor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/gradientstopcollection/insertschemecolor/
 ---
 
-## insertSchemeColor(int, float, int) method
+## insertSchemeColor(int index, float position, int schemeColor)  method
 
  Creates the new gradient stop and inserts it at the specified index to the collection.
  

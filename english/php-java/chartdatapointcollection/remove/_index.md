@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 560
 url: /php-java/chartdatapointcollection/remove/
 ---
 
-## remove(com.aspose.slides.IChartDataPoint) method
+## remove(ChartDataPoint value)  method
 
  Removes the specified value.
  

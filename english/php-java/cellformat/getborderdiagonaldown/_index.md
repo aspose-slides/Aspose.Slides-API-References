@@ -1,13 +1,13 @@
 ---
 title: getBorderDiagonalDown
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/cellformat/getborderdiagonaldown/
 ---
 
-## getBorderDiagonalDown() method
+## getBorderDiagonalDown()  method
 
  Returns a top-left to bottom-right diagonal line properties object.
  Read-only  ILineFormat.

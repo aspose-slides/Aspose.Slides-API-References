@@ -1,13 +1,13 @@
 ---
 title: addTintEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 180
 url: /php-java/imagetransformoperationcollection/addtinteffect/
 ---
 
-## addTintEffect(float, float) method
+## addTintEffect(float hue, float amount)  method
 
  Adds the new Tint effect to the end of a collection.
  

@@ -1,13 +1,13 @@
 ---
 title: setLinkPathLong
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 90
+weight: 120
 url: /php-java/picture/setlinkpathlong/
 ---
 
-## setLinkPathLong(java.lang.String) method
+## setLinkPathLong(String value)  method
 
  Returns of sets linked image's URL.
  Read/write  String.

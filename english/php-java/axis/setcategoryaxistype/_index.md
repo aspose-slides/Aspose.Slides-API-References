@@ -1,13 +1,13 @@
 ---
 title: setCategoryAxisType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 710
 url: /php-java/axis/setcategoryaxistype/
 ---
 
-## setCategoryAxisType(int) method
+## setCategoryAxisType(int value)  method
 
  Specifies the type of the category axis.
  Read/write  CategoryAxisType.

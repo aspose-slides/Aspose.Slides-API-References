@@ -1,13 +1,13 @@
 ---
 title: setWidth
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/shapebevel/setwidth/
 ---
 
-## setWidth(double) method
+## setWidth(double value)  method
 
  Bevel width.
  Read/write  double.

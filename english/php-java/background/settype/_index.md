@@ -1,13 +1,13 @@
 ---
 title: setType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/background/settype/
 ---
 
-## setType(byte) method
+## setType(byte value)  method
 
  Returns a type of background fill.
  Read/write  BackgroundType.

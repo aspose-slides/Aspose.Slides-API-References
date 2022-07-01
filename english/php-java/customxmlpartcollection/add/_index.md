@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/customxmlpartcollection/add/
 ---
 
-## add(java.lang.String) method
+## add(String xmlString)  method
 
  Adds new custom xml part.
  
@@ -31,7 +31,7 @@ Created custom xml part.
 ---
 
 
-## add(byte[]) method
+## add(byte[] xmlData)  method
 
  Adds new custom xml part.
  
@@ -55,7 +55,7 @@ Created custom xml part.
 ---
 
 
-## add(java.io.InputStream) method
+## add(InputStream inputStream)  method
 
  Adds new custom xml part.
  

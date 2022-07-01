@@ -1,13 +1,13 @@
 ---
 title: setRadius
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/softedge/setradius/
 ---
 
-## setRadius(double) method
+## setRadius(double value)  method
 
  Specifies the radius of blur to apply to the edges.
  Read/write  double.

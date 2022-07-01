@@ -1,13 +1,13 @@
 ---
 title: insertClone
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/rowcollection/insertclone/
 ---
 
-## insertClone(int, com.aspose.slides.IRow, boolean) method
+## insertClone(int index, Row templ, boolean withAttachedRows)  method
 
  Creates a copy of the specified template row and insert it at the specified position in a table.
  

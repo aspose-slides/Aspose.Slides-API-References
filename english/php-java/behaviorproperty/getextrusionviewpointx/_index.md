@@ -1,13 +1,13 @@
 ---
 title: getExtrusionViewPointX
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 250
 url: /php-java/behaviorproperty/getextrusionviewpointx/
 ---
 
-## getExtrusionViewPointX() method
+## getExtrusionViewPointX()  method
 
  Represents 'extrusion.viewpoint.x' property
  

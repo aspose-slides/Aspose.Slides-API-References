@@ -1,13 +1,13 @@
 ---
 title: getPresentationInfo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/presentationfactory/getpresentationinfo/
 ---
 
-## getPresentationInfo(java.lang.String) method
+## getPresentationInfo(String file)  method
 
  Creates new PresentationInfo object from file and binds presentation to it.
  
@@ -25,7 +25,7 @@ Presentation info binded to presentation.
 ---
 
 
-## getPresentationInfo(java.io.InputStream) method
+## getPresentationInfo(InputStream stream)  method
 
  Creates new PresentationInfo object from stream and binds presentation to it.
  Gets info about presentation in specified stream.

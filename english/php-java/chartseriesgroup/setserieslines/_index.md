@@ -1,13 +1,13 @@
 ---
 title: setSeriesLines
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 350
 url: /php-java/chartseriesgroup/setserieslines/
 ---
 
-## setSeriesLines(boolean) method
+## setSeriesLines(boolean value)  method
 
  True if chart has series lines. Applied to stacked bar and OfPie charts.
  Read/write  boolean.

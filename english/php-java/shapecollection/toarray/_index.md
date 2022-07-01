@@ -1,13 +1,13 @@
 ---
 title: toArray
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 670
 url: /php-java/shapecollection/toarray/
 ---
 
-## toArray() method
+## toArray()  method
 
  Creates and returns an array with all shapse in it.
  
@@ -19,7 +19,7 @@ Array of Shape
 ---
 
 
-## toArray(int, int) method
+## toArray(int startIndex, int count)  method
 
  Creates and returns an array with all shapes from the specified range in it.
  

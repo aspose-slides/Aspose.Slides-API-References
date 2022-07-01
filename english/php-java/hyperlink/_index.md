@@ -1,6 +1,6 @@
 ---
 title: Hyperlink
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ url: /php-java/hyperlink/
 | Name | Description |
 | --- | --- |
 | [Hyperlink](hyperlink)(String) | Creates an instance of a hyperlink. |
-| [Hyperlink](hyperlink)(ISlide) | Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
+| [Hyperlink](hyperlink)(Slide) | Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
 | [Hyperlink](hyperlink)(Hyperlink, String, String, boolean, boolean, boolean) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
 
 ## Methods
@@ -25,7 +25,7 @@ url: /php-java/hyperlink/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the two Hyperlink instances are equal. |
-| [equals](equals)(IHyperlink) | Determines whether the two Hyperlink instances are equal. |
+| [equals](equals)(Hyperlink) | Determines whether the two Hyperlink instances are equal. |
 | [getActionType](getactiontype)() | Returns type of Hyperlink's action. Read-only HyperlinkActionType. |
 | [getColorSource](getcolorsource)() | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
 | [getEndShow](getendshow)() | Returns a hyperlink which ends the show. Read-only Hyperlink. |

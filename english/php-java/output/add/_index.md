@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/output/add/
 ---
 
-## add(java.lang.String, java.lang.String, TContextObject) method
+## add(String path, String templateKey, TContextObject contextObject)  method
 
  Adds an output element for the context object.
  
@@ -27,7 +27,7 @@ IOutputFile object for the context object.
 ---
 
 
-## add(java.lang.String, com.aspose.slides.IPPImage) method
+## add(String path, PPImage image)  method
 
  Adds an output element for the image.
  
@@ -46,7 +46,7 @@ IOutputFile object for the image.
 ---
 
 
-## add(java.lang.String, java.awt.image.BufferedImage) method
+## add(String path, BufferedImage image)  method
 
  Adds an output element for the image.
  
@@ -65,7 +65,7 @@ IOutputFile object for the image.
 ---
 
 
-## add(java.lang.String, com.aspose.slides.IVideo) method
+## add(String path, Video video)  method
 
  Adds an output element for the video.
  
@@ -84,7 +84,7 @@ IOutputFile object for the video.
 ---
 
 
-## add(java.lang.String, com.aspose.slides.IFontData, int) method
+## add(String path, FontData fontData, int fontStyle)  method
 
  Adds an output element for the font.
  
@@ -104,7 +104,7 @@ IOutputFile object for the font.
 ---
 
 
-## add(java.lang.String, java.lang.String) method
+## add(String path, String textContent)  method
 
  Adds an output element for the text content.
  

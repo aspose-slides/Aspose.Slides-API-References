@@ -1,13 +1,13 @@
 ---
 title: getScaleX
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 600
 url: /php-java/behaviorproperty/getscalex/
 ---
 
-## getScaleX() method
+## getScaleX()  method
 
  Represents 'ScaleX' property
  

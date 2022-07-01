@@ -1,13 +1,13 @@
 ---
 title: setApplicationTemplate
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 390
 url: /php-java/documentproperties/setapplicationtemplate/
 ---
 
-## setApplicationTemplate(java.lang.String) method
+## setApplicationTemplate(String value)  method
 
  Returns or sets the template of a application.
  Read/write  String.

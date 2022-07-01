@@ -1,13 +1,13 @@
 ---
 title: readPresentation
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/presentationfactory/readpresentation/
 ---
 
-## readPresentation(byte[]) method
+## readPresentation(byte[] data)  method
 
  Reads an existing presentation from array
  
@@ -25,7 +25,7 @@ Read presentation
 ---
 
 
-## readPresentation(byte[], com.aspose.slides.ILoadOptions) method
+## readPresentation(byte[] data, LoadOptions options)  method
 
  Reads an existing presentation from array with additional load options
  
@@ -44,7 +44,7 @@ Read presentation
 ---
 
 
-## readPresentation(java.io.InputStream) method
+## readPresentation(InputStream stream)  method
 
  Reads an existing presentation from stream
  
@@ -62,7 +62,7 @@ Read presentation
 ---
 
 
-## readPresentation(java.io.InputStream, com.aspose.slides.ILoadOptions) method
+## readPresentation(InputStream stream, LoadOptions options)  method
 
  Reads an existing presentation from stream with additional load options
  
@@ -81,7 +81,7 @@ Read presentation
 ---
 
 
-## readPresentation(java.lang.String) method
+## readPresentation(String file)  method
 
  Reads an existing presentation from file
  
@@ -99,7 +99,7 @@ Read presentation
 ---
 
 
-## readPresentation(java.lang.String, com.aspose.slides.ILoadOptions) method
+## readPresentation(String file, LoadOptions options)  method
 
  Reads an existing presentation from stream with additional load options
  

@@ -1,13 +1,13 @@
 ---
 title: createSlideShowFormatter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/htmlformatter/createslideshowformatter/
 ---
 
-## createSlideShowFormatter(java.lang.String, boolean) method
+## createSlideShowFormatter(String css, boolean showSlideTitle)  method
 
  Creates and returns HTML formatter for a simple slide show html which shows slides one after another.
  

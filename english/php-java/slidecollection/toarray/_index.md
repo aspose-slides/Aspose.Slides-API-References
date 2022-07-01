@@ -1,13 +1,13 @@
 ---
 title: toArray
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 320
 url: /php-java/slidecollection/toarray/
 ---
 
-## toArray() method
+## toArray()  method
 
  Creates and returns an array with all slides in it.
  
@@ -19,7 +19,7 @@ Array of Slide
 ---
 
 
-## toArray(int, int) method
+## toArray(int startIndex, int count)  method
 
  Creates and returns an array with all slides from the specified range in it.
  

@@ -1,13 +1,13 @@
 ---
 title: setRightToLeft
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/table/setrighttoleft/
 ---
 
-## setRightToLeft(boolean) method
+## setRightToLeft(boolean value)  method
 
  Determines whether the table has right to left reading order.
  Read-write  boolean.

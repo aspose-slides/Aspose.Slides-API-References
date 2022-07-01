@@ -1,13 +1,13 @@
 ---
 title: setParentLabelLayout
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 570
 url: /php-java/chartseries/setparentlabellayout/
 ---
 
-## setParentLabelLayout(int) method
+## setParentLabelLayout(int value)  method
 
  Represents layout of parent category labels.   Applies only to Treemap charts.
  

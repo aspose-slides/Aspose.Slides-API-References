@@ -1,13 +1,13 @@
 ---
 title: setDimensionSize
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/normalviewrestoredproperties/setdimensionsize/
 ---
 
-## setDimensionSize(float) method
+## setDimensionSize(float value)  method
 
  Specifies the size of the slide region (width when a child of RestoredTop, height when a
  child of RestoredLeft).

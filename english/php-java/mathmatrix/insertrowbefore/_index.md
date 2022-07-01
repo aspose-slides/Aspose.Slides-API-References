@@ -1,13 +1,13 @@
 ---
 title: insertRowBefore
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/mathmatrix/insertrowbefore/
 ---
 
-## insertRowBefore(int) method
+## insertRowBefore(int rowIndex)  method
 
  Insert a new row before the specified one
  Initially all elements in the new row are null.

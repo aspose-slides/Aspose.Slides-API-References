@@ -1,13 +1,13 @@
 ---
 title: geometryPathToGraphicsPath
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/shapeutil/geometrypathtographicspath/
 ---
 
-## geometryPathToGraphicsPath(com.aspose.slides.IGeometryPath) method
+## geometryPathToGraphicsPath(GeometryPath geometryPath)  method
 
  Converts  IGeometryPath to  java.awt.Shape.
  GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into

@@ -1,13 +1,13 @@
 ---
 title: get_Item
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/tagcollection/get_item/
 ---
 
-## get_Item(java.lang.String) method
+## get_Item(String name)  method
 
  Returns or sets a key and a value pair of a tag.
  

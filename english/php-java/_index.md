@@ -1,17 +1,17 @@
 ---
-title: Aspose.Slides PHP for Java
+title: Aspose.Slides for PHP via Java
 type: docs
 weight: 10
 url: /php-java/
-keywords: "Aspose.Slides PHP for Java, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
+keywords: "Aspose.Slides for PHP via Java, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
 description: Aspose.Slides are Microsoft PowerPoint management APIs that enables software applications to read and write PowerPoint documents without using Microsoft PowerPoint.
 is_root: true
 ---
 
 ## Classes
-
 | Class | Description |
 | --- | --- |
+
 | [AdjustValue](adjustvalue) | Represents a geometry shape's adjustment value. These values affect shape's form. |
 | [AdjustValueCollection](adjustvaluecollection) | Reprasents a collection of shape's adjustments. |
 | [AlphaBiLevel](alphabilevel) | Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
@@ -385,6 +385,8 @@ is_root: true
 | [PlaceholderSize](placeholdersize) | Represents the size of a placeholder. |
 | [PlaceholderType](placeholdertype) | Represents the type of a placeholder. |
 | [Point](point) | Represent animation point. |
+| [Point2DDouble](point2ddouble) |  |
+| [Point2DFloat](point2dfloat) |  |
 | [PointCollection](pointcollection) | Represent collection of animation points. |
 | [Portion](portion) | Represents a portion of text inside a text paragraph. |
 | [PortionCollection](portioncollection) | Represents a collection of portions. |

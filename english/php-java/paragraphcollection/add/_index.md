@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/paragraphcollection/add/
 ---
 
-## add(com.aspose.slides.IParagraph) method
+## add(Paragraph value)  method
 
  Adds a Paragraph to the end of collection.
  
@@ -22,7 +22,7 @@ url: /php-java/paragraphcollection/add/
 ---
 
 
-## add(com.aspose.slides.IParagraphCollection) method
+## add(ParagraphCollection value)  method
 
  Adds a content of ParagraphCollection to the end of collection.
  

@@ -1,13 +1,13 @@
 ---
 title: setRotation
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 470
 url: /php-java/shape/setrotation/
 ---
 
-## setRotation(float) method
+## setRotation(float value)  method
 
  Returns or sets the number of degrees the specified shape is rotated around
  the z-axis. A positive value indicates clockwise rotation; a negative value
@@ -17,9 +17,6 @@ url: /php-java/shape/setrotation/
  Returned value is always defined (is not Float.NaN).
  Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
  
-
-### Returns
-float
 
 
 ---

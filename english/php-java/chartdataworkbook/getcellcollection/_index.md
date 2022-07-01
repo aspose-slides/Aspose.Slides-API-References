@@ -1,13 +1,13 @@
 ---
 title: getCellCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/chartdataworkbook/getcellcollection/
 ---
 
-## getCellCollection(java.lang.String, boolean) method
+## getCellCollection(String formula, boolean skipHiddenCells)  method
 
  Gets the set of cells.
  

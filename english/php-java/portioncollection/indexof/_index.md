@@ -1,13 +1,14 @@
 ---
 title: indexOf
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/portioncollection/indexof/
 ---
 
-## indexOf(com.aspose.slides.IPortion) method
+## indexOf(MathPortion item)  method
+## indexOf(Portion item)  method
 
  Determines the index of a specific item in the  List.
  

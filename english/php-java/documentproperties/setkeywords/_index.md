@@ -1,13 +1,13 @@
 ---
 title: setKeywords
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 540
 url: /php-java/documentproperties/setkeywords/
 ---
 
-## setKeywords(java.lang.String) method
+## setKeywords(String value)  method
 
  Returns or sets the keywords of a presentation.
  Read/write  String.

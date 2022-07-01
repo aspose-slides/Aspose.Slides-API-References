@@ -1,13 +1,13 @@
 ---
 title: addDataPointForSurfaceSeries
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 380
 url: /php-java/chartdatapointcollection/adddatapointforsurfaceseries/
 ---
 
-## addDataPointForSurfaceSeries(com.aspose.slides.IChartDataCell) method
+## addDataPointForSurfaceSeries(ChartDataCell value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Surface subtypes (see also  ChartTypeCharacterizer#isChartTypeSurface(int) method).
@@ -26,7 +26,7 @@ ChartTypeCharacterizer#isChartTypeSurface(int)
 ---
 
 
-## addDataPointForSurfaceSeries(double) method
+## addDataPointForSurfaceSeries(double value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Surface subtypes (see also  ChartTypeCharacterizer#isChartTypeSurface(int) method).

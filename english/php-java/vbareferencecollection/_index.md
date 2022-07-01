@@ -1,6 +1,6 @@
 ---
 title: VbaReferenceCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ url: /php-java/vbareferencecollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)(IVbaReference) | Adds the new reference to references collection |
+| [add](add)(VbaReferenceOleTypeLib) | Adds the new reference to references collection |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
 | [get_Item](get_item)(int) | Gets the element at the specified index. |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |

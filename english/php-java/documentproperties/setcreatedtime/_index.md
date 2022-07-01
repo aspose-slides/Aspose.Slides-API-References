@@ -1,13 +1,13 @@
 ---
 title: setCreatedTime
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 460
 url: /php-java/documentproperties/setcreatedtime/
 ---
 
-## setCreatedTime(java.util.Date) method
+## setCreatedTime(Date value)  method
 
  Returns the date when a presentation was created.
  Read/write  java.util.Date.

@@ -1,13 +1,13 @@
 ---
 title: getThumbnail
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 270
 url: /php-java/shape/getthumbnail/
 ---
 
-## getThumbnail() method
+## getThumbnail()  method
 
  Returns shape thumbnail.
  ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
@@ -20,7 +20,7 @@ Shape thumbnail.
 ---
 
 
-## getThumbnail(int, float, float) method
+## getThumbnail(int bounds, float scaleX, float scaleY)  method
 
  Returns shape thumbnail.
  

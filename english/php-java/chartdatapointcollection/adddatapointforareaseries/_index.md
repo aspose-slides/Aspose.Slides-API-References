@@ -1,13 +1,13 @@
 ---
 title: addDataPointForAreaSeries
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/chartdatapointcollection/adddatapointforareaseries/
 ---
 
-## addDataPointForAreaSeries(com.aspose.slides.IChartDataCell) method
+## addDataPointForAreaSeries(ChartDataCell value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Area subtypes (see also  ChartTypeCharacterizer#isChartTypeArea(int) method).
@@ -26,7 +26,7 @@ ChartTypeCharacterizer#isChartTypeArea(int)
 ---
 
 
-## addDataPointForAreaSeries(double) method
+## addDataPointForAreaSeries(double value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Area subtypes (see also  ChartTypeCharacterizer#isChartTypeArea(int) method).

@@ -1,13 +1,13 @@
 ---
 title: hasTitle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 240
 url: /php-java/chart/hastitle/
 ---
 
-## hasTitle() method
+## hasTitle()  method
 
  Determines whether a chart has a visible title.
  Read/write  boolean.

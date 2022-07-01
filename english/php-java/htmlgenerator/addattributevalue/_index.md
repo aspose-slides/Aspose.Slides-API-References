@@ -1,13 +1,13 @@
 ---
 title: addAttributeValue
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/htmlgenerator/addattributevalue/
 ---
 
-## addAttributeValue(java.lang.String) method
+## addAttributeValue(String value)  method
 
  Quotes attribute value and adds it to the html file.
  
@@ -22,7 +22,7 @@ url: /php-java/htmlgenerator/addattributevalue/
 ---
 
 
-## addAttributeValue(char[]) method
+## addAttributeValue(char[] value)  method
 
  Quotes attribute value and adds it to the html file.
  
@@ -37,7 +37,7 @@ url: /php-java/htmlgenerator/addattributevalue/
 ---
 
 
-## addAttributeValue(char[], int, int) method
+## addAttributeValue(char[] value, int startIndex, int length)  method
 
  Quotes attribute value and adds it to the html file.
  

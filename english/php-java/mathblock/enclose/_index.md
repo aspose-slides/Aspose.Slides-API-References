@@ -1,13 +1,13 @@
 ---
 title: enclose
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/mathblock/enclose/
 ---
 
-## enclose(char, char) method
+## enclose(char beginningCharacter, char endingCharacter)  method
 
  Encloses child elements of this block in specified characters such as parenthesis or another characters as framing
  
@@ -32,7 +32,7 @@ The math element of type IMathDelimiter which includes specified characters as f
 ---
 
 
-## enclose(char, char, char) method
+## enclose(char beginningCharacter, char endingCharacter, char separatorCharacter)  method
 
  Encloses child elements of this block in specified characters such as parenthesis or another as framing
  and delimit with a separator character

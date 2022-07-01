@@ -1,13 +1,13 @@
 ---
 title: setPreset
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/presetshadow/setpreset/
 ---
 
-## setPreset(int) method
+## setPreset(int value)  method
 
  Preset.
  Read/write  PresetShadowType.

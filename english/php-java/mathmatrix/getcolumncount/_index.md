@@ -1,13 +1,13 @@
 ---
 title: getColumnCount
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/mathmatrix/getcolumncount/
 ---
 
-## getColumnCount() method
+## getColumnCount()  method
 
  Number of columns in the matrix
  

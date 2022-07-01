@@ -1,13 +1,12 @@
 ---
 title: portion
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/foreach/portion/
 ---
 
-## portion(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachPortionCallback) method
 
  Iterate each  #portion(Presentation,ForEachPortionCallback) in the  Presentation.
  

@@ -1,13 +1,13 @@
 ---
 title: getRootDirectoryClsid
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/pptoptions/getrootdirectoryclsid/
 ---
 
-## getRootDirectoryClsid() method
+## getRootDirectoryClsid()  method
 
  Represents the object class GUID (CLSID) that is stored in the root directory entry. Can be used for COM
  activation of the document's application.

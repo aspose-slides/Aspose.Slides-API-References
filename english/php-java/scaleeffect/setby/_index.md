@@ -1,13 +1,13 @@
 ---
 title: setBy
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/scaleeffect/setby/
 ---
 
-## setBy(java.awt.geom.Point2D.Float) method
+## setBy(Point2D.Float value)  method
 
  describes the relative offset value for the animation (in percents).
  Read/write  java.awt.geom.Point2D.Float.

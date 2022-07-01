@@ -1,13 +1,13 @@
 ---
 title: setBookmarkId
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/portionformat/setbookmarkid/
 ---
 
-## setBookmarkId(java.lang.String) method
+## setBookmarkId(String value)  method
 
  Returns or sets bookmark identifier.
  Read/write  String.

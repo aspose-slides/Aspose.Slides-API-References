@@ -1,6 +1,6 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -18,6 +18,6 @@ url: /php-java/globallayoutslidecollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)(IMasterSlide, byte, String) | Adds a new layout slide to the presentation. |
-| [addClone](addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
-| [addClone](addclone)(ILayoutSlide, IMasterSlide) | Adds a copy of a specified layout slide to the presentation. |
+| [add](add)(MasterSlide, byte, String) | Adds a new layout slide to the presentation. |
+| [addClone](addclone)(LayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
+| [addClone](addclone)(LayoutSlide, MasterSlide) | Adds a copy of a specified layout slide to the presentation. |

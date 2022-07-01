@@ -1,13 +1,13 @@
 ---
 title: readVbaProject
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/vbaprojectfactory/readvbaproject/
 ---
 
-## readVbaProject(byte[]) method
+## readVbaProject(byte[] data)  method
 
  Reads VBA project from OLE container.
  

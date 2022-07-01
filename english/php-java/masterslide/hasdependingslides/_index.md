@@ -1,13 +1,13 @@
 ---
 title: hasDependingSlides
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/masterslide/hasdependingslides/
 ---
 
-## hasDependingSlides() method
+## hasDependingSlides()  method
 
  Returns true if there exists at least one slide that depends on this master slide.
  Read-only  boolean.

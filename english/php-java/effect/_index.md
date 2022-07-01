@@ -1,6 +1,6 @@
 ---
 title: Effect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -24,8 +24,8 @@ url: /php-java/effect/
 | [getTextAnimation](gettextanimation)() | TextAnimation Read-only ITextAnimation. |
 | [getTiming](gettiming)() | Defines timing value for effect. Read/write ITiming. |
 | [getType](gettype)() | Defines type of effect. Read/write EffectType. |
-| [setBehaviors](setbehaviors)(IBehaviorCollection) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+| [setBehaviors](setbehaviors)(BehaviorCollection) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 | [setPresetClassType](setpresetclasstype)(int) | Defines class of effect. Read/write EffectPresetClassType. |
 | [setSubtype](setsubtype)(int) | Defines subtype of effect. Read/write EffectSubtype. |
-| [setTiming](settiming)(ITiming) | Defines timing value for effect. Read/write ITiming. |
+| [setTiming](settiming)(Timing) | Defines timing value for effect. Read/write ITiming. |
 | [setType](settype)(int) | Defines type of effect. Read/write EffectType. |

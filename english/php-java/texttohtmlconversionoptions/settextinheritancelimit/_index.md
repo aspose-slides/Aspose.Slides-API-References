@@ -1,13 +1,13 @@
 ---
 title: setTextInheritanceLimit
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/texttohtmlconversionoptions/settextinheritancelimit/
 ---
 
-## setTextInheritanceLimit(int) method
+## setTextInheritanceLimit(int value)  method
 
  Returns or sets inhering depth for text properties.
  Read/write  TextInheritanceLimit.

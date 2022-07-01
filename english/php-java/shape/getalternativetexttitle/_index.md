@@ -1,13 +1,13 @@
 ---
 title: getAlternativeTextTitle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/shape/getalternativetexttitle/
 ---
 
-## getAlternativeTextTitle() method
+## getAlternativeTextTitle()  method
 
  Returns or sets the title of alternative text associated with a shape.
  Read/write  String.

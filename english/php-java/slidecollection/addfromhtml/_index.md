@@ -1,13 +1,14 @@
 ---
 title: addFromHtml
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/slidecollection/addfromhtml/
 ---
 
-## addFromHtml(java.lang.String, com.aspose.slides.IExternalResourceResolver, java.lang.String) method
+## addFromHtml(String htmlText, ExternalResourceResolver resolver, String uri)  method
+## addFromHtml(String htmlText, HtmlExternalResolver resolver, String uri)  method
 
  Creates slides from HTML text and adds them to the end of the collection.
  
@@ -27,7 +28,7 @@ Added slides.
 ---
 
 
-## addFromHtml(java.lang.String) method
+## addFromHtml(String htmlText)  method
 
  Creates slides from HTML text and adds them to the end of the collection.
  
@@ -45,7 +46,8 @@ Added slides
 ---
 
 
-## addFromHtml(java.io.InputStream, com.aspose.slides.IExternalResourceResolver, java.lang.String) method
+## addFromHtml(InputStream htmlStream, ExternalResourceResolver resolver, String uri)  method
+## addFromHtml(InputStream htmlStream, HtmlExternalResolver resolver, String uri)  method
 
  Creates slides from HTML text and adds them to the end of the collection.
  
@@ -65,7 +67,7 @@ Added slides.
 ---
 
 
-## addFromHtml(java.io.InputStream) method
+## addFromHtml(InputStream htmlStream)  method
 
  Creates slides from HTML text and adds them to the end of the collection.
  

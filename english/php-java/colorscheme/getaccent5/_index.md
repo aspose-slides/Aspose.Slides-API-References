@@ -1,13 +1,13 @@
 ---
 title: getAccent5
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/colorscheme/getaccent5/
 ---
 
-## getAccent5() method
+## getAccent5()  method
 
  Fifth accent color in the scheme.
  Read-only  IColorFormat.

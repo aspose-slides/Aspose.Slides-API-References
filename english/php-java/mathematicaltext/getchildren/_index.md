@@ -1,13 +1,13 @@
 ---
 title: getChildren
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/mathematicaltext/getchildren/
 ---
 
-## getChildren() method
+## getChildren()  method
 
  Get children elements
  

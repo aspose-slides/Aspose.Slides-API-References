@@ -1,13 +1,13 @@
 ---
 title: getSoundName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/slideshowtransition/getsoundname/
 ---
 
-## getSoundName() method
+## getSoundName()  method
 
  Specifies a human readable name for the sound of the transition. The ( #getSound/ #setSound(IAudio)) property must be assigned to get or set the sound name.
  Read-write  String.

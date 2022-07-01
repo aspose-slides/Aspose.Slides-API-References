@@ -1,13 +1,13 @@
 ---
 title: getEmbeddedFonts
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/fontsmanager/getembeddedfonts/
 ---
 
-## getEmbeddedFonts() method
+## getEmbeddedFonts()  method
 
  Returns the fonts embedded in the presentation
  

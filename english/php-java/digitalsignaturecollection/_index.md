@@ -1,6 +1,6 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ url: /php-java/digitalsignaturecollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)(IDigitalSignature) | Adds the signature at the end of collection. |
+| [add](add)(DigitalSignature) | Adds the signature at the end of collection. |
 | [clear](clear)() | Removes all signatures from collection. |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
 | [get_Item](get_item)(int) | Returns the signature by index. |
