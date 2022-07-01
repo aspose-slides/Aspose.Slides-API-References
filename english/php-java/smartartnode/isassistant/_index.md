@@ -1,13 +1,13 @@
 ---
 title: isAssistant
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/smartartnode/isassistant/
 ---
 
-## isAssistant() method
+## isAssistant()  method
 
  Returns or sets the node as assistant.
  Read/write boolean.

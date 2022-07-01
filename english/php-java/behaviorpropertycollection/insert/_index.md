@@ -1,13 +1,13 @@
 ---
 title: insert
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/behaviorpropertycollection/insert/
 ---
 
-## insert(int, com.aspose.slides.IBehaviorProperty) method
+## insert(int index, BehaviorProperty item)  method
 
  Inserts a new property to the collection at the specified index.
  
@@ -23,7 +23,7 @@ url: /php-java/behaviorpropertycollection/insert/
 ---
 
 
-## insert(int, java.lang.String) method
+## insert(int index, String propertyValue)  method
 
  Inserts a new property (with the specified property value) to the collection at the specified index.
  

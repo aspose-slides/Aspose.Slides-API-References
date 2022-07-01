@@ -1,13 +1,13 @@
 ---
 title: removeEmbeddedFont
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/fontsmanager/removeembeddedfont/
 ---
 
-## removeEmbeddedFont(com.aspose.slides.IFontData) method
+## removeEmbeddedFont(FontData fontData)  method
 
  Removes the embedded font
  

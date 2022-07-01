@@ -1,13 +1,13 @@
 ---
 title: size
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/adjustvaluecollection/size/
 ---
 
-## size() method
+## size()  method
 
  Return a number of adjustments.
  Read-only  int.

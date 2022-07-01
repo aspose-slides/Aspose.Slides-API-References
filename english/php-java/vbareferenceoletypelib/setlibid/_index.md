@@ -1,13 +1,13 @@
 ---
 title: setLibid
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/vbareferenceoletypelib/setlibid/
 ---
 
-## setLibid(java.lang.String) method
+## setLibid(String value)  method
 
  Represents the identifier of an Automation type library.
  Read/write  String.

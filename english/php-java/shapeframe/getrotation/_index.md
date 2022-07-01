@@ -1,13 +1,13 @@
 ---
 title: getRotation
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/shapeframe/getrotation/
 ---
 
-## getRotation() method
+## getRotation()  method
 
  Returns the number of degrees a frame is rotated around the z-axis.
  A positive value indicates clockwise rotation; a negative value

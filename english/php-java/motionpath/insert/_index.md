@@ -1,13 +1,13 @@
 ---
 title: insert
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/motionpath/insert/
 ---
 
-## insert(int, int, java.awt.geom.Point2D.Float[], int, boolean) method
+## insert(int index, int type, java.awt.geom.Point2D.Float[] pts, int ptsType, boolean bRelativeCoord)  method
 
  Insert new command to path
  

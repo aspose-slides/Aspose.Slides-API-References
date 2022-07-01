@@ -1,6 +1,6 @@
 ---
 title: Column
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ url: /php-java/column/
 | --- | --- |
 | [getColumnFormat](getcolumnformat)() | Returns the ColumnFormat object that contains formatting properties for this column. Read-only IColumnFormat. |
 | [getWidth](getwidth)() | Returns or sets the width of a column. Read/write double. |
-| [setTextFormat](settextformat)(IPortionFormat) | Sets defined portion format properties to all column cells' portions. |
-| [setTextFormat](settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all column cells' paragraphs. |
-| [setTextFormat](settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all column cells' text frames. |
+| [setTextFormat](settextformat)(PortionFormat) | Sets defined portion format properties to all column cells' portions. |
+| [setTextFormat](settextformat)(ParagraphFormat) | Sets defined paragraph format properties to all column cells' paragraphs. |
+| [setTextFormat](settextformat)(TextFrameFormat) | Sets defined text frame format properties to all column cells' text frames. |
 | [setWidth](setwidth)(double) | Returns or sets the width of a column. Read/write double. |

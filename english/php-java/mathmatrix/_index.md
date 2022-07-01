@@ -1,6 +1,6 @@
 ---
 title: MathMatrix
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -58,4 +58,24 @@ Example:
 | [setMinColumnWidth](setmincolumnwidth)(long) | Minimum column width in twips (1/20th of a point) The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to the MinColumnWidth to determine the total Matrix Column Spacing (distance between the same edges of different columns). Default: 0. |
 | [setRowGap](setrowgap)(long) | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
 | [setRowGapRule](setrowgaprule)(int) | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
-| [set_Item](set_item)(int, int, IMathElement) | Element of matrix |
+| [set_Item](set_item)(int, int, BaseScript) | Element of matrix |
+| [set_Item](set_item)(int, int, MathAccent) | Element of matrix |
+| [set_Item](set_item)(int, int, MathArray) | Element of matrix |
+| [set_Item](set_item)(int, int, MathBar) | Element of matrix |
+| [set_Item](set_item)(int, int, MathBlock) | Element of matrix |
+| [set_Item](set_item)(int, int, MathBorderBox) | Element of matrix |
+| [set_Item](set_item)(int, int, MathBox) | Element of matrix |
+| [set_Item](set_item)(int, int, MathDelimiter) | Element of matrix |
+| [set_Item](set_item)(int, int, MathElementBase) | Element of matrix |
+| [set_Item](set_item)(int, int, MathematicalText) | Element of matrix |
+| [set_Item](set_item)(int, int, MathFraction) | Element of matrix |
+| [set_Item](set_item)(int, int, MathFunction) | Element of matrix |
+| [set_Item](set_item)(int, int, MathGroupingCharacter) | Element of matrix |
+| [set_Item](set_item)(int, int, MathLeftSubSuperscriptElement) | Element of matrix |
+| [set_Item](set_item)(int, int, MathLimit) | Element of matrix |
+| [set_Item](set_item)(int, int, MathMatrix) | Element of matrix |
+| [set_Item](set_item)(int, int, MathNaryOperator) | Element of matrix |
+| [set_Item](set_item)(int, int, MathRadical) | Element of matrix |
+| [set_Item](set_item)(int, int, MathRightSubSuperscriptElement) | Element of matrix |
+| [set_Item](set_item)(int, int, MathSubscriptElement) | Element of matrix |
+| [set_Item](set_item)(int, int, MathSuperscriptElement) | Element of matrix |

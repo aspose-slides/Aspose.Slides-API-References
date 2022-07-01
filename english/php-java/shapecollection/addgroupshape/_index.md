@@ -1,13 +1,13 @@
 ---
 title: addGroupShape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/shapecollection/addgroupshape/
 ---
 
-## addGroupShape() method
+## addGroupShape()  method
 
  Creates a new GroupShape and adds it to the end of the collection.
  GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
@@ -20,7 +20,7 @@ Created GroupShape object.
 ---
 
 
-## addGroupShape(com.aspose.slides.ISvgImage, float, float, float, float) method
+## addGroupShape(SvgImage svgImage, float x, float y, float width, float height)  method
 
  Creates a new GroupShape, fills it with converted shapes from SVG and adds it to the end of the collection. 
  

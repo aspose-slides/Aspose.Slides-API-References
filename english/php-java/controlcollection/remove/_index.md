@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/controlcollection/remove/
 ---
 
-## remove(com.aspose.slides.IControl) method
+## remove(Control item)  method
 
  Removes an ActiveX control from the collection.
  

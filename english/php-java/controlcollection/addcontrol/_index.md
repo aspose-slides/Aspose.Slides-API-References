@@ -1,13 +1,13 @@
 ---
 title: addControl
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/controlcollection/addcontrol/
 ---
 
-## addControl(int, float, float, float, float) method
+## addControl(int controlType, float x, float y, float width, float height)  method
 
  Creates and adds a new control to the collection.
  

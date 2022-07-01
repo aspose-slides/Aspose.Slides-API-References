@@ -1,13 +1,13 @@
 ---
 title: getUserShapes
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/chart/getusershapes/
 ---
 
-## getUserShapes() method
+## getUserShapes()  method
 
  Specify the shapes drawn on top of the chart.
  Read-only  IGroupShape.

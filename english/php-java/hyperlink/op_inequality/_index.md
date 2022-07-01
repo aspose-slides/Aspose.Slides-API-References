@@ -1,13 +1,13 @@
 ---
 title: op_Inequality
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 260
 url: /php-java/hyperlink/op_inequality/
 ---
 
-## op_Inequality(com.aspose.slides.Hyperlink, com.aspose.slides.Hyperlink) method
+## op_Inequality(Hyperlink hlink1, Hyperlink hlink2)  method
 
  Tests two hyperlinks for inequality.
  

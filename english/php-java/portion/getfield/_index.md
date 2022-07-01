@@ -1,13 +1,13 @@
 ---
 title: getField
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/portion/getfield/
 ---
 
-## getField() method
+## getField()  method
 
  Returns a field of this portion.
  Read-only  IField.

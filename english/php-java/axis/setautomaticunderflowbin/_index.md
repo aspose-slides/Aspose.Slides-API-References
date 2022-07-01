@@ -1,13 +1,13 @@
 ---
 title: setAutomaticUnderflowBin
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 670
 url: /php-java/axis/setautomaticunderflowbin/
 ---
 
-## setAutomaticUnderflowBin(boolean) method
+## setAutomaticUnderflowBin(boolean value)  method
 
  Specifies automatic underflow bin value. If false: use UnderflowBin property.
  

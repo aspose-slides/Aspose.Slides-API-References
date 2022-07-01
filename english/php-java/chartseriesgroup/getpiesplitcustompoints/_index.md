@@ -1,13 +1,13 @@
 ---
 title: getPieSplitCustomPoints
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/chartseriesgroup/getpiesplitcustompoints/
 ---
 
-## getPieSplitCustomPoints() method
+## getPieSplitCustomPoints()  method
 
  The custom split information for a pie-of-pie or bar-of-pie chart with a custom split.
  Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or 

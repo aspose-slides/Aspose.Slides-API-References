@@ -1,13 +1,13 @@
 ---
 title: op_Equality
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 220
 url: /php-java/fieldtype/op_equality/
 ---
 
-## op_Equality(com.aspose.slides.FieldType, com.aspose.slides.FieldType) method
+## op_Equality(FieldType a, FieldType b)  method
 
  Checks if two FieldType objects is equal.
  

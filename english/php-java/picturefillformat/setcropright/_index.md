@@ -1,13 +1,13 @@
 ---
 title: setCropRight
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/picturefillformat/setcropright/
 ---
 
-## setCropRight(float) method
+## setCropRight(float value)  method
 
  Returns or sets the number of percents of real image width that are cropped off
  the right of the picture. 

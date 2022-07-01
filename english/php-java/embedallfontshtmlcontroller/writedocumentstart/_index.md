@@ -1,13 +1,13 @@
 ---
 title: writeDocumentStart
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/embedallfontshtmlcontroller/writedocumentstart/
 ---
 
-## writeDocumentStart(com.aspose.slides.IHtmlGenerator, com.aspose.slides.IPresentation) method
+## writeDocumentStart(HtmlGenerator generator, Presentation presentation)  method
 
  Called to write html document header. Called once per presentation conversion.
  

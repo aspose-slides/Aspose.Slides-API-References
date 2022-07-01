@@ -1,13 +1,13 @@
 ---
 title: bindResource
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/output/bindresource/
 ---
 
-## bindResource(com.aspose.slides.IOutputFile, java.lang.Object) method
+## bindResource(OutputFile outputFile, Object obj)  method
 
  Binds resource to output file.
  

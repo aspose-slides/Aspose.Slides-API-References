@@ -1,13 +1,13 @@
 ---
 title: getRestoredTop
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/normalviewproperties/getrestoredtop/
 ---
 
-## getRestoredTop() method
+## getRestoredTop()  method
 
  This element specifies the sizing of the top slide region of the normal view, when the region is of a variable
  restored size(neither minimized nor maximized).

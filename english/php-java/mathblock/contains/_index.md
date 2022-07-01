@@ -1,13 +1,33 @@
 ---
 title: contains
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/mathblock/contains/
 ---
 
-## contains(com.aspose.slides.IMathElement) method
+## contains(BaseScript item)  method
+## contains(MathAccent item)  method
+## contains(MathArray item)  method
+## contains(MathBar item)  method
+## contains(MathBlock item)  method
+## contains(MathBorderBox item)  method
+## contains(MathBox item)  method
+## contains(MathDelimiter item)  method
+## contains(MathElementBase item)  method
+## contains(MathematicalText item)  method
+## contains(MathFraction item)  method
+## contains(MathFunction item)  method
+## contains(MathGroupingCharacter item)  method
+## contains(MathLeftSubSuperscriptElement item)  method
+## contains(MathLimit item)  method
+## contains(MathMatrix item)  method
+## contains(MathNaryOperator item)  method
+## contains(MathRadical item)  method
+## contains(MathRightSubSuperscriptElement item)  method
+## contains(MathSubscriptElement item)  method
+## contains(MathSuperscriptElement item)  method
 
  Determines whether the collection contains a specific value.
  

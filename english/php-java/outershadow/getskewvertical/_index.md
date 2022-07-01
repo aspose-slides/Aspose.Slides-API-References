@@ -1,13 +1,13 @@
 ---
 title: getSkewVertical
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/outershadow/getskewvertical/
 ---
 
-## getSkewVertical() method
+## getSkewVertical()  method
 
  Specifies the vertical skew angle (in degrees).
  Read/write  double.

@@ -1,13 +1,13 @@
 ---
 title: isOverrideThemeEnabled
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/masterthememanager/isoverridethemeenabled/
 ---
 
-## isOverrideThemeEnabled() method
+## isOverrideThemeEnabled()  method
 
  Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not.
  Read/write  boolean.

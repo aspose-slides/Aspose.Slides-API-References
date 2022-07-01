@@ -1,13 +1,13 @@
 ---
 title: size
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/coloroperationcollection/size/
 ---
 
-## size() method
+## size()  method
 
  Returns the number of operations in a collection.
  Read-only  int.

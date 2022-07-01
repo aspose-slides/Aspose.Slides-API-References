@@ -1,13 +1,13 @@
 ---
 title: addAlphaInverseEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/imagetransformoperationcollection/addalphainverseeffect/
 ---
 
-## addAlphaInverseEffect() method
+## addAlphaInverseEffect()  method
 
  Adds the new Alpha Inverse effect to the end of a collection.
  

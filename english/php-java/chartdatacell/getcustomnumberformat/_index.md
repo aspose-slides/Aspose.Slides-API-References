@@ -1,13 +1,13 @@
 ---
 title: getCustomNumberFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/chartdatacell/getcustomnumberformat/
 ---
 
-## getCustomNumberFormat() method
+## getCustomNumberFormat()  method
 
  Gets or sets the custom display format of numbers and dates. 
  If value is empty will be used PresetNumberFormat value.

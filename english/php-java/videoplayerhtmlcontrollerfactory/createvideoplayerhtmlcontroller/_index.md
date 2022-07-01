@@ -1,13 +1,13 @@
 ---
 title: createVideoPlayerHtmlController
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 ---
 
-## createVideoPlayerHtmlController(java.lang.String, java.lang.String, java.lang.String) method
+## createVideoPlayerHtmlController(String path, String fileName, String baseUri)  method
 
  Creates new  VideoPlayerHtmlController.
  

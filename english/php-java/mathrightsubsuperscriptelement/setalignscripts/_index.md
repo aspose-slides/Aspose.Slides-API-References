@@ -1,13 +1,13 @@
 ---
 title: setAlignScripts
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/mathrightsubsuperscriptelement/setalignscripts/
 ---
 
-## setAlignScripts(boolean) method
+## setAlignScripts(boolean value)  method
 
  Specifies the alignment of subscript/superscript. 
  When true, subscript and superscript are aligned horizontally to each other.

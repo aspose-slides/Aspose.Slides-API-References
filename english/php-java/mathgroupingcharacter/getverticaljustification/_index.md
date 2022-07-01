@@ -1,13 +1,13 @@
 ---
 title: getVerticalJustification
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/mathgroupingcharacter/getverticaljustification/
 ---
 
-## getVerticalJustification() method
+## getVerticalJustification()  method
 
  Vertical justification of group character.
  Specifies the alignment of the object with respect to the baseline.

@@ -1,13 +1,13 @@
 ---
 title: getAudioCdStartTrack
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/audioframe/getaudiocdstarttrack/
 ---
 
-## getAudioCdStartTrack() method
+## getAudioCdStartTrack()  method
 
  Returns or sets a start track index.
  Read/write  int.

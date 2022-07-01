@@ -1,13 +1,13 @@
 ---
 title: addAudioFrameEmbedded
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/shapecollection/addaudioframeembedded/
 ---
 
-## addAudioFrameEmbedded(float, float, float, float, java.io.InputStream) method
+## addAudioFrameEmbedded(float x, float y, float width, float height, InputStream audio_stream)  method
 
  Adds a new audio frame with embedded audio file to the end of a collection.
  Embedded audio file can be a WAV only.
@@ -31,7 +31,7 @@ Created AudioFrame object.
 ---
 
 
-## addAudioFrameEmbedded(float, float, float, float, com.aspose.slides.IAudio) method
+## addAudioFrameEmbedded(float x, float y, float width, float height, Audio audio)  method
 
  Adds a new audio frame with embedded audio file to the end of a collection.
  It uses audio file from Presentation.Audios list.

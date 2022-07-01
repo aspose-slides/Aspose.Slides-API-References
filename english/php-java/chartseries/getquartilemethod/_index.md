@@ -1,13 +1,13 @@
 ---
 title: getQuartileMethod
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 340
 url: /php-java/chartseries/getquartilemethod/
 ---
 
-## getQuartileMethod() method
+## getQuartileMethod()  method
 
  Represents quartile method. Applies only to BoxAndWhisker charts.
  

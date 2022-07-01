@@ -1,13 +1,13 @@
 ---
 title: setImage
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/zoomobject/setimage/
 ---
 
-## setImage(com.aspose.slides.IPPImage) method
+## setImage(PPImage value)  method
 
  Gets or sets image for zoom object.
  Read/write  IPPImage.

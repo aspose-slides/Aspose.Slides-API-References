@@ -1,13 +1,13 @@
 ---
 title: getActionType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/hyperlink/getactiontype/
 ---
 
-## getActionType() method
+## getActionType()  method
 
  Returns type of Hyperlink's action.
  Read-only  HyperlinkActionType.

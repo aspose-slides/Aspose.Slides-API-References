@@ -1,13 +1,13 @@
 ---
 title: getValue
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 1220
 url: /php-java/behaviorproperty/getvalue/
 ---
 
-## getValue() method
+## getValue()  method
 
  Value of the property
  

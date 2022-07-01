@@ -1,6 +1,6 @@
 ---
 title: ChartCellCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ url: /php-java/chartcellcollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)(IChartDataCell) | Add new cell to the collection. |
+| [add](add)(ChartDataCell) | Add new cell to the collection. |
 | [add](add)(Object) | Creates ChartDataCell from specified value and adds it to the collection. |
 | [getCellsAddress](getcellsaddress)() | Returns address of the set of cells in workbook. |
 | [getConcatenatedValuesFromCells](getconcatenatedvaluesfromcells)() | Concatenation string from all cells string values. |

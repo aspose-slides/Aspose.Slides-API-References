@@ -1,13 +1,13 @@
 ---
 title: setRotateWithShape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/linefillformat/setrotatewithshape/
 ---
 
-## setRotateWithShape(byte) method
+## setRotateWithShape(byte value)  method
 
  Determines whether the fill should be rotated with a shape.
  Read/write  NullableBool.

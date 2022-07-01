@@ -1,13 +1,13 @@
 ---
 title: isWriteProtected
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/presentationinfo/iswriteprotected/
 ---
 
-## isWriteProtected() method
+## isWriteProtected()  method
 
  Gets a value that indicates whether a binded presentation is write protected.
  

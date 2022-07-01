@@ -1,13 +1,13 @@
 ---
 title: getSkewOriginX
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 880
 url: /php-java/behaviorproperty/getskeworiginx/
 ---
 
-## getSkewOriginX() method
+## getSkewOriginX()  method
 
  Represents 'skew.origin.x' property
  

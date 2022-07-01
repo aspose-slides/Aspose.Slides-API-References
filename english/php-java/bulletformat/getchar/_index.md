@@ -1,20 +1,17 @@
 ---
 title: getChar
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/bulletformat/getchar/
 ---
 
-## getChar() method
+## getChar()  method
 
  Returns or sets the bullet char of a paragraph with no inheritance.
  Read/write  char.
  
-
-### Returns
-char
 
 
 ---

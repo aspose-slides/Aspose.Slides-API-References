@@ -1,13 +1,13 @@
 ---
 title: getAlignment
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/lineformat/getalignment/
 ---
 
-## getAlignment() method
+## getAlignment()  method
 
  Returns or sets the line alignment.
  Read/write  LineAlignment.

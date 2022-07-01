@@ -1,13 +1,13 @@
 ---
 title: insertAutoShape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 390
 url: /php-java/shapecollection/insertautoshape/
 ---
 
-## insertAutoShape(int, int, float, float, float, float) method
+## insertAutoShape(int index, int shapeType, float x, float y, float width, float height)  method
 
  Creates a new AutoShape, tunes it from default template and inserts it to 
  the collection at the specified index.
@@ -32,7 +32,7 @@ Created AutoShape object.
 ---
 
 
-## insertAutoShape(int, int, float, float, float, float, boolean) method
+## insertAutoShape(int index, int shapeType, float x, float y, float width, float height, boolean createFromTemplate)  method
 
  Creates a new AutoShape and inserts it to the collection at the specified index.
  Note: the type of the shape will be determined by the shapeType parameter.

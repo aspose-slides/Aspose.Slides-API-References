@@ -1,13 +1,13 @@
 ---
 title: copyTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/charttextformat/copyto/
 ---
 
-## copyTo(com.aspose.slides.ITextFrame) method
+## copyTo(TextFrame destTextFrame)  method
 
  Copies text format to specified text frame.
  

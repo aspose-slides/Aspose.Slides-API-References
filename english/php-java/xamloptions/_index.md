@@ -1,6 +1,6 @@
 ---
 title: XamlOptions
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -39,4 +39,3 @@ url: /php-java/xamloptions/
 | [getExportHiddenSlides](getexporthiddenslides)() | Determines whether hidden slides will be exported. |
 | [getOutputSaver](getoutputsaver)() | Represents an implementation of IOutputSaver interface. |
 | [setExportHiddenSlides](setexporthiddenslides)(boolean) | Determines whether hidden slides will be exported. |
-| [setOutputSaver](setoutputsaver)(IXamlOutputSaver) | Represents an implementation of IOutputSaver interface. |

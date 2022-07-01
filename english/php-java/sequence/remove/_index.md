@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/sequence/remove/
 ---
 
-## remove(com.aspose.slides.IEffect) method
+## remove(Effect item)  method
 
  Removes specified effect from a collection.
  

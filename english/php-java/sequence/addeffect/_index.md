@@ -1,13 +1,33 @@
 ---
 title: addEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/sequence/addeffect/
 ---
 
-## addEffect(com.aspose.slides.IShape, int, int, int) method
+## addEffect(AudioFrame shape, int effectType, int subtype, int triggerType)  method
+## addEffect(AutoShape shape, int effectType, int subtype, int triggerType)  method
+## addEffect(Chart shape, int effectType, int subtype, int triggerType)  method
+## addEffect(Connector shape, int effectType, int subtype, int triggerType)  method
+## addEffect(GeometryShape shape, int effectType, int subtype, int triggerType)  method
+## addEffect(GraphicalObject shape, int effectType, int subtype, int triggerType)  method
+## addEffect(GroupShape shape, int effectType, int subtype, int triggerType)  method
+## addEffect(Ink shape, int effectType, int subtype, int triggerType)  method
+## addEffect(LegacyDiagram shape, int effectType, int subtype, int triggerType)  method
+## addEffect(OleObjectFrame shape, int effectType, int subtype, int triggerType)  method
+## addEffect(PictureFrame shape, int effectType, int subtype, int triggerType)  method
+## addEffect(SectionZoomFrame shape, int effectType, int subtype, int triggerType)  method
+## addEffect(Shape shape, int effectType, int subtype, int triggerType)  method
+## addEffect(SmartArt shape, int effectType, int subtype, int triggerType)  method
+## addEffect(SmartArtShape shape, int effectType, int subtype, int triggerType)  method
+## addEffect(SummaryZoomFrame shape, int effectType, int subtype, int triggerType)  method
+## addEffect(SummaryZoomSection shape, int effectType, int subtype, int triggerType)  method
+## addEffect(Table shape, int effectType, int subtype, int triggerType)  method
+## addEffect(VideoFrame shape, int effectType, int subtype, int triggerType)  method
+## addEffect(ZoomFrame shape, int effectType, int subtype, int triggerType)  method
+## addEffect(ZoomObject shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -28,7 +48,7 @@ New effect object IEffect
 ---
 
 
-## addEffect(com.aspose.slides.IParagraph, int, int, int) method
+## addEffect(Paragraph paragraph, int effectType, int subtype, int triggerType)  method
 
   Add new animation effect for paragraph to the end of sequence.
   
@@ -65,7 +85,7 @@ New effect object IEffect
 ---
 
 
-## addEffect(com.aspose.slides.IChart, int, int, int, int, int) method
+## addEffect(Chart chart, int type, int index, int effectType, int subtype, int triggerType)  method
 
  Adds the new chart animation effect for category or series to the end of sequence.
  
@@ -88,7 +108,7 @@ New effect object IEffect
 ---
 
 
-## addEffect(com.aspose.slides.IChart, int, int, int, int, int, int) method
+## addEffect(Chart chart, int type, int seriesIndex, int categoriesIndex, int effectType, int subtype, int triggerType)  method
 
  Adds the new chart animation effect for elements in category or series to the end of sequence.
  

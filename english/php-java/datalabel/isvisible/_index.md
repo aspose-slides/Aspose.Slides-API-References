@@ -1,13 +1,13 @@
 ---
 title: isVisible
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 230
 url: /php-java/datalabel/isvisible/
 ---
 
-## isVisible() method
+## isVisible()  method
 
  False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false).
  Read-only  boolean.

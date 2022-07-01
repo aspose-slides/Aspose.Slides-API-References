@@ -1,13 +1,13 @@
 ---
 title: setFontFallBackRulesCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/fontsmanager/setfontfallbackrulescollection/
 ---
 
-## setFontFallBackRulesCollection(com.aspose.slides.IFontFallBackRulesCollection) method
+## setFontFallBackRulesCollection(FontFallBackRulesCollection value)  method
 
  Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality
  Read/write  IFontFallBackRulesCollection.

@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/motionpath/remove/
 ---
 
-## remove(com.aspose.slides.IMotionCmdPath) method
+## remove(MotionCmdPath item)  method
 
  Removes specified commans from the collection.
  

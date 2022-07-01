@@ -1,20 +1,17 @@
 ---
 title: getSyncRoot
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 320
 url: /php-java/shapecollection/getsyncroot/
 ---
 
-## getSyncRoot() method
+## getSyncRoot()  method
 
  Returns a synchronization root.
  Read-only  Object.
  
-
-### Returns
-Object
 
 
 ---

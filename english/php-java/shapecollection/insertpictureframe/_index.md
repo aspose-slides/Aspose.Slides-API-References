@@ -1,13 +1,13 @@
 ---
 title: insertPictureFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 510
 url: /php-java/shapecollection/insertpictureframe/
 ---
 
-## insertPictureFrame(int, int, float, float, float, float, com.aspose.slides.IPPImage) method
+## insertPictureFrame(int index, int shapeType, float x, float y, float width, float height, PPImage image)  method
 
  Creates a new PictureFrame and inserts it to the collection at the specified index.
  

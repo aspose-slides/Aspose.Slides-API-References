@@ -1,13 +1,13 @@
 ---
 title: setPassword
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 280
 url: /php-java/pdfoptions/setpassword/
 ---
 
-## setPassword(java.lang.String) method
+## setPassword(String value)  method
 
  Setting user password to protect the PDF document. 
  Read/write  String.

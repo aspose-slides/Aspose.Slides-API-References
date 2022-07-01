@@ -1,13 +1,13 @@
 ---
 title: getThumbnails
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 350
 url: /php-java/presentation/getthumbnails/
 ---
 
-## getThumbnails(com.aspose.slides.INotesCommentsLayoutingOptions) method
+## getThumbnails(NotesCommentsLayoutingOptions notesCommentsLayouting)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation.
  
@@ -25,7 +25,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.INotesCommentsLayoutingOptions, int[]) method
+## getThumbnails(NotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation.
  
@@ -44,7 +44,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.INotesCommentsLayoutingOptions, float, float) method
+## getThumbnails(NotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling.
  
@@ -64,7 +64,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.INotesCommentsLayoutingOptions, int[], float, float) method
+## getThumbnails(NotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling.
  
@@ -85,7 +85,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.INotesCommentsLayoutingOptions, java.awt.Dimension) method
+## getThumbnails(NotesCommentsLayoutingOptions notesCommentsLayouting, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size.
  
@@ -104,7 +104,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.INotesCommentsLayoutingOptions, int[], java.awt.Dimension) method
+## getThumbnails(NotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size.
  
@@ -124,7 +124,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.IRenderingOptions) method
+## getThumbnails(RenderingOptions options)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation.
  
@@ -142,7 +142,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.IRenderingOptions, int[]) method
+## getThumbnails(RenderingOptions options, int[] slides)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation.
  
@@ -161,7 +161,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.IRenderingOptions, float, float) method
+## getThumbnails(RenderingOptions options, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling.
  
@@ -181,7 +181,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.IRenderingOptions, int[], float, float) method
+## getThumbnails(RenderingOptions options, int[] slides, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling.
  
@@ -202,7 +202,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.IRenderingOptions, java.awt.Dimension) method
+## getThumbnails(RenderingOptions options, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size.
  
@@ -221,7 +221,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails(com.aspose.slides.IRenderingOptions, int[], java.awt.Dimension) method
+## getThumbnails(RenderingOptions options, int[] slides, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size.
  

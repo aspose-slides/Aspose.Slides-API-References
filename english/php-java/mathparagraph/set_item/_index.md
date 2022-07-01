@@ -1,13 +1,13 @@
 ---
 title: set_Item
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 170
 url: /php-java/mathparagraph/set_item/
 ---
 
-## set_Item(int, com.aspose.slides.IMathBlock) method
+## set_Item(int index, MathBlock value)  method
 
  Gets the item at the specified index.
  Read-only  IMathBlock.

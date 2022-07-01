@@ -1,13 +1,13 @@
 ---
 title: setAutomaticMinorUnit
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 630
 url: /php-java/axis/setautomaticminorunit/
 ---
 
-## setAutomaticMinorUnit(boolean) method
+## setAutomaticMinorUnit(boolean value)  method
 
   Indicates whether the minor unit of the axis is automatically assigned.
   Read/write  boolean.

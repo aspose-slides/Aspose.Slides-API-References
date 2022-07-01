@@ -1,13 +1,13 @@
 ---
 title: get_Item
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/pointcollection/get_item/
 ---
 
-## get_Item(int) method
+## get_Item(int index)  method
 
  Returns a point at the specified index.
  

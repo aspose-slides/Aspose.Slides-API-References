@@ -1,13 +1,13 @@
 ---
 title: copyTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/mathblock/copyto/
 ---
 
-## copyTo(com.aspose.slides.IMathElement[], int) method
+## copyTo(com.aspose.slides.IMathElement[] array, int arrayIndex)  method
 
  Copy to specified array.
  

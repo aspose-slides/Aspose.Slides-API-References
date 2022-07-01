@@ -1,13 +1,13 @@
 ---
 title: lineTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/geometrypath/lineto/
 ---
 
-## lineTo(java.awt.geom.Point2D.Float) method
+## lineTo(Point2D.Float point)  method
 
  Adds line to the end of the path
  
@@ -22,7 +22,7 @@ url: /php-java/geometrypath/lineto/
 ---
 
 
-## lineTo(float, float) method
+## lineTo(float x, float y)  method
 
  Adds line to the end of the path
  
@@ -38,7 +38,7 @@ url: /php-java/geometrypath/lineto/
 ---
 
 
-## lineTo(java.awt.geom.Point2D.Float, long) method
+## lineTo(Point2D.Float point, long index)  method
 
  Adds line to the specified place of the path
  
@@ -60,7 +60,7 @@ url: /php-java/geometrypath/lineto/
 ---
 
 
-## lineTo(float, float, long) method
+## lineTo(float x, float y, long index)  method
 
  Adds line to the specified place of the path
  

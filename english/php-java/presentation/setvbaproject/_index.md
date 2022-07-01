@@ -1,13 +1,13 @@
 ---
 title: setVbaProject
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 620
 url: /php-java/presentation/setvbaproject/
 ---
 
-## setVbaProject(com.aspose.slides.IVbaProject) method
+## setVbaProject(VbaProject value)  method
 
  Gets or sets VBA project with presentation macros.
  Read/write  IVbaProject.

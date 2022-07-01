@@ -1,13 +1,13 @@
 ---
 title: setVerticalBarState
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/normalviewproperties/setverticalbarstate/
 ---
 
-## setVerticalBarState(int) method
+## setVerticalBarState(int value)  method
 
  Specifies the state that the vertical splitter bar should be shown in. 
  A vertical splitter bar separates the slide from the side content region.

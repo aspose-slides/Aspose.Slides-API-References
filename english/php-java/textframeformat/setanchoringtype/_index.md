@@ -1,13 +1,13 @@
 ---
 title: setAnchoringType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 190
 url: /php-java/textframeformat/setanchoringtype/
 ---
 
-## setAnchoringType(byte) method
+## setAnchoringType(byte value)  method
 
  Returns or sets vertical anchor text in a TextFrameEx.
  Read/write  TextAnchorType.

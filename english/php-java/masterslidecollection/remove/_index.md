@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/masterslidecollection/remove/
 ---
 
-## remove(com.aspose.slides.IMasterSlide) method
+## remove(MasterSlide value)  method
 
  Removes the first occurrence of a specific object from the collection.
  

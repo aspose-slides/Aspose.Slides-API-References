@@ -1,13 +1,13 @@
 ---
 title: getStartShapeConnectedTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/connector/getstartshapeconnectedto/
 ---
 
-## getStartShapeConnectedTo() method
+## getStartShapeConnectedTo()  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.

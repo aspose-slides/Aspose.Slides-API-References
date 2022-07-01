@@ -1,13 +1,13 @@
 ---
 title: setBaseJustification
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/matharray/setbasejustification/
 ---
 
-## setBaseJustification(int) method
+## setBaseJustification(int value)  method
 
  Specifies alignment of the array relative to surrounding text
  Text outside of the array can be aligned with the bottom, top, or center of a array object.

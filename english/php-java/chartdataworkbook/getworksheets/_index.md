@@ -1,13 +1,13 @@
 ---
 title: getWorksheets
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/chartdataworkbook/getworksheets/
 ---
 
-## getWorksheets() method
+## getWorksheets()  method
 
  Gets a collection of worksheets.
  

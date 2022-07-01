@@ -1,13 +1,14 @@
 ---
 title: setParentComment
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/comment/setparentcomment/
 ---
 
-## setParentComment(com.aspose.slides.IComment) method
+## setParentComment(Comment value)  method
+## setParentComment(ModernComment value)  method
 
  Gets or sets parent comment.
  Read/write  IComment.

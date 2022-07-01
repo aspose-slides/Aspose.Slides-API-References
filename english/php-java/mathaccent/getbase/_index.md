@@ -1,13 +1,13 @@
 ---
 title: getBase
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/mathaccent/getbase/
 ---
 
-## getBase() method
+## getBase()  method
 
  The argument to which the accent was applied
  

@@ -1,13 +1,13 @@
 ---
 title: insert
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/gradientstopcollection/insert/
 ---
 
-## insert(int, float, java.awt.Color) method
+## insert(int index, float position, Color color)  method
 
  Creates the new gradient stop and inserts it at the specified index to the collection.
  

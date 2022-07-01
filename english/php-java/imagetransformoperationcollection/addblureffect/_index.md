@@ -1,13 +1,13 @@
 ---
 title: addBlurEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/imagetransformoperationcollection/addblureffect/
 ---
 
-## addBlurEffect(double, boolean) method
+## addBlurEffect(double radius, boolean grow)  method
 
  Adds the new Blur effect to the end of a collection.
  

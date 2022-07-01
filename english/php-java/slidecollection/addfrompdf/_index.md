@@ -1,13 +1,13 @@
 ---
 title: addFromPdf
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/slidecollection/addfrompdf/
 ---
 
-## addFromPdf(java.lang.String) method
+## addFromPdf(String path)  method
 
  Creates slides from the PDF document and adds them to the end of the collection.
  
@@ -38,7 +38,7 @@ Added slides
 ---
 
 
-## addFromPdf(java.io.InputStream) method
+## addFromPdf(InputStream pdfStream)  method
 
  Creates slides from the PDF document and adds them to the end of the collection.
  

@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/piesplitcustompointcollection/remove/
 ---
 
-## remove(int) method
+## remove(int dataPointIndex)  method
 
  Removes item from collection by it index in parent series points collection.
  

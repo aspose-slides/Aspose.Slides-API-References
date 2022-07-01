@@ -1,13 +1,13 @@
 ---
 title: containsCustomProperty
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/documentproperties/containscustomproperty/
 ---
 
-## containsCustomProperty(java.lang.String) method
+## containsCustomProperty(String name)  method
 
  Check presents of a custom property with a specified name.
  

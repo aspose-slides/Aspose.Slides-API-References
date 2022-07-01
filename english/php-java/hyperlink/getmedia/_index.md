@@ -1,13 +1,13 @@
 ---
 title: getMedia
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/hyperlink/getmedia/
 ---
 
-## getMedia() method
+## getMedia()  method
 
  Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame.
  Read-only  Hyperlink.

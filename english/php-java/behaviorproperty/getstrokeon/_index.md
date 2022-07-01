@@ -1,13 +1,13 @@
 ---
 title: getStrokeOn
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 1000
 url: /php-java/behaviorproperty/getstrokeon/
 ---
 
-## getStrokeOn() method
+## getStrokeOn()  method
 
  Represents 'stroke.on' property
  

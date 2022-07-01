@@ -1,13 +1,13 @@
 ---
 title: isSeriesUsesBubbleSizeCoordinate
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 190
 url: /php-java/charttypecharacterizer/isseriesusesbubblesizecoordinate/
 ---
 
-## isSeriesUsesBubbleSizeCoordinate(int) method
+## isSeriesUsesBubbleSizeCoordinate(int seriesType)  method
 
  Returns if bubble size coordinates can be used for specified series type.
  

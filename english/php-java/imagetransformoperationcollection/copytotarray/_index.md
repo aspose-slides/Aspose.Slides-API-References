@@ -1,13 +1,13 @@
 ---
 title: copyToTArray
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/imagetransformoperationcollection/copytotarray/
 ---
 
-## copyToTArray(com.aspose.slides.IImageTransformOperation[], int) method
+## copyToTArray(com.aspose.slides.IImageTransformOperation[] array, int arrayIndex)  method
 
  Copies the elements of the  IGenericCollection to an  Array, starting at a particular  Array index.
  

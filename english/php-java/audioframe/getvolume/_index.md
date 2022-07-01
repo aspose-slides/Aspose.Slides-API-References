@@ -1,13 +1,13 @@
 ---
 title: getVolume
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/audioframe/getvolume/
 ---
 
-## getVolume() method
+## getVolume()  method
 
  Returns or sets the audio volume.
  Read/write  AudioVolumeMode.

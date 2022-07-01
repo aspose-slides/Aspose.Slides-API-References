@@ -1,13 +1,13 @@
 ---
 title: getDateTime10
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/fieldtype/getdatetime10/
 ---
 
-## getDateTime10() method
+## getDateTime10()  method
 
  Current date and time in a tenth predefined format (hh:mm for english).
  Read-only  FieldType.

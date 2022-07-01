@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/behaviorpropertycollection/remove/
 ---
 
-## remove(com.aspose.slides.IBehaviorProperty) method
+## remove(BehaviorProperty item)  method
 
  Removes specified property from the collection.
  
@@ -22,7 +22,7 @@ url: /php-java/behaviorpropertycollection/remove/
 ---
 
 
-## remove(java.lang.String) method
+## remove(String propertyValue)  method
 
  Removes specified property from the collection.
  

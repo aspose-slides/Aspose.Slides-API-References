@@ -1,13 +1,13 @@
 ---
 title: getStyleColor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 1070
 url: /php-java/behaviorproperty/getstylecolor/
 ---
 
-## getStyleColor() method
+## getStyleColor()  method
 
  Represents 'style.color' property
  

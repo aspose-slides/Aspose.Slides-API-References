@@ -1,13 +1,13 @@
 ---
 title: getTitle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/summaryzoomsection/gettitle/
 ---
 
-## getTitle() method
+## getTitle()  method
 
  Returns the text title of the Summary Zoom Section object. 
  

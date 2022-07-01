@@ -1,13 +1,13 @@
 ---
 title: getParagraphFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/paragraph/getparagraphformat/
 ---
 
-## getParagraphFormat() method
+## getParagraphFormat()  method
 
  Returns the formatting object for this paragraph.
  Read-only  IParagraphFormat.

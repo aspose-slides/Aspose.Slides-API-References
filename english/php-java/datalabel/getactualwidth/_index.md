@@ -1,13 +1,13 @@
 ---
 title: getActualWidth
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/datalabel/getactualwidth/
 ---
 
-## getActualWidth() method
+## getActualWidth()  method
 
  Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. 
  Read  float.

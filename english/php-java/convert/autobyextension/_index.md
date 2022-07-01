@@ -1,13 +1,13 @@
 ---
 title: autoByExtension
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/convert/autobyextension/
 ---
 
-## autoByExtension(java.lang.String, java.lang.String) method
+## autoByExtension(String presPath, String outPath)  method
 
  Converts  Presentation using the passed output path extension to determine the required export format.  
  

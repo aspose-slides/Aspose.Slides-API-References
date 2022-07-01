@@ -1,13 +1,13 @@
 ---
 title: size
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/videocollection/size/
 ---
 
-## size() method
+## size()  method
 
  Returns a number of video files in the collection.
  Read-only  int.

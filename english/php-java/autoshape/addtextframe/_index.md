@@ -1,13 +1,13 @@
 ---
 title: addTextFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/autoshape/addtextframe/
 ---
 
-## addTextFrame(java.lang.String) method
+## addTextFrame(String text)  method
 
  Adds a new TextFrame to a shape.
  If shape already has TextFrame then simply changes its text.

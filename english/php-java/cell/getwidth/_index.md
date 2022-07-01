@@ -1,13 +1,13 @@
 ---
 title: getWidth
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 240
 url: /php-java/cell/getwidth/
 ---
 
-## getWidth() method
+## getWidth()  method
 
  Returns the width of the cell.
  Read-only  double.

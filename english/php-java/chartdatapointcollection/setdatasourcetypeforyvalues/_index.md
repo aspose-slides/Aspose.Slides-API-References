@@ -1,13 +1,13 @@
 ---
 title: setDataSourceTypeForYValues
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 610
 url: /php-java/chartdatapointcollection/setdatasourcetypeforyvalues/
 ---
 
-## setDataSourceTypeForYValues(int) method
+## setDataSourceTypeForYValues(int value)  method
 
  Specifies whether AsCell or AsLiteralString or AsLiteralDouble property 
  is actual in data points YValue property object. In other words it specifies 

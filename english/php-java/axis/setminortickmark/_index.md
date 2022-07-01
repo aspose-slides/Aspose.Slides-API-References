@@ -1,13 +1,13 @@
 ---
 title: setMinorTickMark
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 840
 url: /php-java/axis/setminortickmark/
 ---
 
-## setMinorTickMark(int) method
+## setMinorTickMark(int value)  method
 
   Represents the type of minor tick mark for the specified axis.
   Read/write  TickMarkType.

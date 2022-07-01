@@ -1,13 +1,13 @@
 ---
 title: getHide
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/legendentryproperties/gethide/
 ---
 
-## getHide() method
+## getHide()  method
 
  Determines whether the legend entry is hide.
  Read/write  boolean.

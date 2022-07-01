@@ -1,13 +1,13 @@
 ---
 title: setName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/commentauthor/setname/
 ---
 
-## setName(java.lang.String) method
+## setName(String value)  method
 
  Returns or sets the author's name.
  Read/write  String.

@@ -1,13 +1,13 @@
 ---
 title: addClone
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/masterlayoutslidecollection/addclone/
 ---
 
-## addClone(com.aspose.slides.ILayoutSlide) method
+## addClone(LayoutSlide sourceLayout)  method
 
  Adds a copy of a specified layout slide to the end of the collection.
  

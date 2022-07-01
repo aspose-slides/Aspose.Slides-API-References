@@ -1,13 +1,13 @@
 ---
 title: setLightType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/lightrig/setlighttype/
 ---
 
-## setLightType(int) method
+## setLightType(int value)  method
 
  Represents a preset light right that can be applied to a shape. 
  The light rig represents a group of lights oriented

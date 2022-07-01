@@ -1,13 +1,13 @@
 ---
 title: disableOuterShadowEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/effectformat/disableoutershadoweffect/
 ---
 
-## disableOuterShadowEffect() method
+## disableOuterShadowEffect()  method
 
  Disables outer shadow effect.
  

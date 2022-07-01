@@ -1,13 +1,13 @@
 ---
 title: getTileImage
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/patternformat/gettileimage/
 ---
 
-## getTileImage(java.awt.Color, java.awt.Color) method
+## getTileImage(Color background, Color foreground)  method
 
  Creates a tile image for the pattern fill with a specified colors.
  
@@ -26,7 +26,7 @@ Tile java.awt.image.BufferedImage.
 ---
 
 
-## getTileImage(java.awt.Color) method
+## getTileImage(Color styleColor)  method
 
  Creates a tile image for the pattern fill.
  

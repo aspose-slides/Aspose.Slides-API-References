@@ -1,13 +1,13 @@
 ---
 title: createPresentation
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/presentationfactory/createpresentation/
 ---
 
-## createPresentation() method
+## createPresentation()  method
 
  Creates new presentation.
  
@@ -19,7 +19,7 @@ New presentation
 ---
 
 
-## createPresentation(com.aspose.slides.ILoadOptions) method
+## createPresentation(LoadOptions options)  method
 
  Creates new presentation with additional load options
  

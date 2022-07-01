@@ -1,13 +1,13 @@
 ---
 title: setRoundedCorners
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 290
 url: /php-java/chart/setroundedcorners/
 ---
 
-## setRoundedCorners(boolean) method
+## setRoundedCorners(boolean value)  method
 
  Specifies the chart area shall have rounded corners.
  Read/write  boolean.

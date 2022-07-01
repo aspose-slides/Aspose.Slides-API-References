@@ -1,13 +1,13 @@
 ---
 title: setAuthor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 400
 url: /php-java/documentproperties/setauthor/
 ---
 
-## setAuthor(java.lang.String) method
+## setAuthor(String value)  method
 
  Returns or sets the author of a presentation.
  Read/write  String.

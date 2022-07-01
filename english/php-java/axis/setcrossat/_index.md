@@ -1,13 +1,13 @@
 ---
 title: setCrossAt
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 730
 url: /php-java/axis/setcrossat/
 ---
 
-## setCrossAt(float) method
+## setCrossAt(float value)  method
 
   Represents the point on the axis where the perpendicular axis crosses it.
   Read/write  float.

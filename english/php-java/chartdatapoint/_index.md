@@ -1,6 +1,6 @@
 ---
 title: ChartDataPoint
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -40,6 +40,6 @@ url: /php-java/chartdatapoint/
 | [remove](remove)() | Removes DataPoint from chart series. |
 | [setBubble3D](setbubble3d)(boolean) | Specifies that the bubbles have a 3-D effect applied to them. Read/write boolean. |
 | [setExplosion](setexplosion)(int) | Specifies the amount the data point shall be moved from the center of the pie. Read/write int. |
-| [setFormat](setformat)(IFormat) | Represents the formatting properties. Read/write IFormat. |
+| [setFormat](setformat)(Format) | Represents the formatting properties. Read/write IFormat. |
 | [setInvertIfNegative](setinvertifnegative)(boolean) | Specifies the data point shall invert its colors if the value is negative. Read/write boolean. |
 | [setSetAsTotal](setsetastotal)(boolean) | Sets data point as total. Applied for Waterfall series type only. |

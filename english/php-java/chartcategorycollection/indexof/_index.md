@@ -1,13 +1,13 @@
 ---
 title: indexOf
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/chartcategorycollection/indexof/
 ---
 
-## indexOf(com.aspose.slides.IChartCategory) method
+## indexOf(ChartCategory value)  method
 
  Searches for the specified  ChartCategory and returns the zero-based index of the first occurrence within the entire Collection.
  

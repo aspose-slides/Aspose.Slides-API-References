@@ -1,20 +1,17 @@
 ---
 title: setObjectIcon
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/oleobjectframe/setobjecticon/
 ---
 
-## setObjectIcon(boolean) method
+## setObjectIcon(boolean value)  method
 
  Determines whether an object is visible as icon.
  Read/write  boolean.
  
-
-### Returns
-boolean
 
 
 ---

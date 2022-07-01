@@ -1,13 +1,13 @@
 ---
 title: removeSection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/sectioncollection/removesection/
 ---
 
-## removeSection(com.aspose.slides.ISection) method
+## removeSection(Section section)  method
 
  Remove section. Slides contained in the section will be merged into previous section.
  

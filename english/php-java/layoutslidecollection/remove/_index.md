@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/layoutslidecollection/remove/
 ---
 
-## remove(com.aspose.slides.ILayoutSlide) method
+## remove(LayoutSlide value)  method
 
  Removes a layout from the collection.
  

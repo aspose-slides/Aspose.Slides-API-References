@@ -1,13 +1,13 @@
 ---
 title: deleteGroupingItem
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/chartcategorylevelsmanager/deletegroupingitem/
 ---
 
-## deleteGroupingItem(int) method
+## deleteGroupingItem(int level)  method
 
  Delete grouping item for defined level.
  

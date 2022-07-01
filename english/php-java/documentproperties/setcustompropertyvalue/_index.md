@@ -1,13 +1,13 @@
 ---
 title: setCustomPropertyValue
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 470
 url: /php-java/documentproperties/setcustompropertyvalue/
 ---
 
-## setCustomPropertyValue(java.lang.String, boolean) method
+## setCustomPropertyValue(String name, boolean value)  method
 
  Sets a named boolean custom property.
  
@@ -23,7 +23,7 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 ---
 
 
-## setCustomPropertyValue(java.lang.String, int) method
+## setCustomPropertyValue(String name, int value)  method
 
  Sets a named integer custom property.
  
@@ -39,7 +39,7 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 ---
 
 
-## setCustomPropertyValue(java.lang.String, java.util.Date) method
+## setCustomPropertyValue(String name, Date value)  method
 
  Sets a named DateTime custom property.
  
@@ -55,7 +55,7 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 ---
 
 
-## setCustomPropertyValue(java.lang.String, java.lang.String) method
+## setCustomPropertyValue(String name, String value)  method
 
  Sets a named string custom property.
  
@@ -71,7 +71,7 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 ---
 
 
-## setCustomPropertyValue(java.lang.String, float) method
+## setCustomPropertyValue(String name, float value)  method
 
  Sets a named float custom property.
  
@@ -87,7 +87,7 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 ---
 
 
-## setCustomPropertyValue(java.lang.String, double) method
+## setCustomPropertyValue(String name, double value)  method
 
  Sets a named double custom property.
  

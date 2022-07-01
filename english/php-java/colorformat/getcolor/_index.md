@@ -1,13 +1,13 @@
 ---
 title: getColor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/colorformat/getcolor/
 ---
 
-## getColor() method
+## getColor()  method
 
  Returns resulting color (with all color transformations applied).
  Sets RGB colors and clears all color transformations.

@@ -1,13 +1,13 @@
 ---
 title: getPlotOnSecondAxis
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/chartseriesgroup/getplotonsecondaxis/
 ---
 
-## getPlotOnSecondAxis() method
+## getPlotOnSecondAxis()  method
 
  Indicates if series of this group is plotted on secondary axis.
  Read-only  boolean.

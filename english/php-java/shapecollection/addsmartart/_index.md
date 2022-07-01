@@ -1,13 +1,13 @@
 ---
 title: addSmartArt
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 220
 url: /php-java/shapecollection/addsmartart/
 ---
 
-## addSmartArt(float, float, float, float, int) method
+## addSmartArt(float x, float y, float width, float height, int layoutType)  method
 
  Add SmartArt diagram.
  

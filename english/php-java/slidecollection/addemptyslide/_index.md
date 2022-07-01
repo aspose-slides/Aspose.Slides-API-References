@@ -1,13 +1,13 @@
 ---
 title: addEmptySlide
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/slidecollection/addemptyslide/
 ---
 
-## addEmptySlide(com.aspose.slides.ILayoutSlide) method
+## addEmptySlide(LayoutSlide layout)  method
 
  Adds a new empty slide to the end of the collection.
  

@@ -1,13 +1,13 @@
 ---
 title: loadExternalFont
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/fontsloader/loadexternalfont/
 ---
 
-## loadExternalFont(byte[]) method
+## loadExternalFont(byte[] data)  method
 
  Adds font from the binary data
  

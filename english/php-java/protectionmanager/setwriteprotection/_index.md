@@ -1,13 +1,13 @@
 ---
 title: setWriteProtection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/protectionmanager/setwriteprotection/
 ---
 
-## setWriteProtection(java.lang.String) method
+## setWriteProtection(String password)  method
 
  Set write protection for this presentation with specified password.
  

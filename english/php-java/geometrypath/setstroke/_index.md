@@ -1,13 +1,13 @@
 ---
 title: setStroke
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 230
 url: /php-java/geometrypath/setstroke/
 ---
 
-## setStroke(boolean) method
+## setStroke(boolean value)  method
 
  Sets stroke appearance
  

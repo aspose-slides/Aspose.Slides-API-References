@@ -1,13 +1,13 @@
 ---
 title: getSeparatorCharacter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/mathdelimiter/getseparatorcharacter/
 ---
 
-## getSeparatorCharacter() method
+## getSeparatorCharacter()  method
 
  Delimiter Separator Character specifies the character that separates arguments in the delimiter object. 
  The default: '|'.

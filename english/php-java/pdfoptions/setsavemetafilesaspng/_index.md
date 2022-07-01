@@ -1,13 +1,13 @@
 ---
 title: setSaveMetafilesAsPng
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 290
 url: /php-java/pdfoptions/setsavemetafilesaspng/
 ---
 
-## setSaveMetafilesAsPng(boolean) method
+## setSaveMetafilesAsPng(boolean value)  method
 
  True to convert all metafiles used in a presentation to the PNG images.
  Read/write  boolean.

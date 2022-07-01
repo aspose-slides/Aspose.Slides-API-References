@@ -1,13 +1,13 @@
 ---
 title: setInnerShadowEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 300
 url: /php-java/effectformat/setinnershadoweffect/
 ---
 
-## setInnerShadowEffect(com.aspose.slides.IInnerShadow) method
+## setInnerShadowEffect(InnerShadow value)  method
 
  Inner shadow.
  Read/write  IInnerShadow.

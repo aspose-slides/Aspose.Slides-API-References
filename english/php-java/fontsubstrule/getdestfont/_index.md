@@ -1,13 +1,13 @@
 ---
 title: getDestFont
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/fontsubstrule/getdestfont/
 ---
 
-## getDestFont() method
+## getDestFont()  method
 
  Font to use for substitution.
  Read-only  IFontData.

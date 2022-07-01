@@ -1,13 +1,13 @@
 ---
 title: setShowComments
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/viewproperties/setshowcomments/
 ---
 
-## setShowComments(byte) method
+## setShowComments(byte value)  method
 
  Specifies whether the slide comments should be shown.
  Read/write  NullableBool.

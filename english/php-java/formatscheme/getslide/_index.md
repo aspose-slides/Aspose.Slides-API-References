@@ -1,13 +1,13 @@
 ---
 title: getSlide
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/formatscheme/getslide/
 ---
 
-## getSlide() method
+## getSlide()  method
 
  Returns the parent slide.
  Read-only  IBaseSlide.

@@ -1,6 +1,6 @@
 ---
 title: MathematicalText
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -24,7 +24,7 @@ Example:
 | [MathematicalText](mathematicaltext)() | Default constructor (create String.Empty Value) |
 | [MathematicalText](mathematicaltext)(char) | Create MathText with single symbol |
 | [MathematicalText](mathematicaltext)(String) | Create MathematicalText from text |
-| [MathematicalText](mathematicaltext)(String, IPortionFormat) | Create MathematicalText from text and format settings |
+| [MathematicalText](mathematicaltext)(String, PortionFormat) | Create MathematicalText from text and format settings |
 
 ## Methods
 

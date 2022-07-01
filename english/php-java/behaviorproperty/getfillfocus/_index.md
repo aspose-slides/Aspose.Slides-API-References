@@ -1,13 +1,13 @@
 ---
 title: getFillFocus
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 310
 url: /php-java/behaviorproperty/getfillfocus/
 ---
 
-## getFillFocus() method
+## getFillFocus()  method
 
  Represents 'fill.focus' property
  

@@ -1,13 +1,13 @@
 ---
 title: getBevelTop
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/threedformat/getbeveltop/
 ---
 
-## getBevelTop() method
+## getBevelTop()  method
 
  Returns or sets the type of a top 3D bevel.
  Read-only  IShapeBevel.

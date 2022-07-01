@@ -1,13 +1,13 @@
 ---
 title: setSlideNumberAndChildSlideNumbersVisibility
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
 
-## setSlideNumberAndChildSlideNumbersVisibility(boolean) method
+## setSlideNumberAndChildSlideNumbersVisibility(boolean isVisible)  method
 
  Changes master slide page number placeholder and all child page number placeholders visibility.
  Child placeholders mean placeholders are contained on depending layout slides and depending slides.

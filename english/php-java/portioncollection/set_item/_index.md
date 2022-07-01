@@ -1,13 +1,14 @@
 ---
 title: set_Item
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/portioncollection/set_item/
 ---
 
-## set_Item(int, com.aspose.slides.IPortion) method
+## set_Item(int index, MathPortion value)  method
+## set_Item(int index, Portion value)  method
 
  Gets the element at the specified index.
  

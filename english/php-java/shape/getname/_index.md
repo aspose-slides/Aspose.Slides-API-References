@@ -1,13 +1,13 @@
 ---
 title: getName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/shape/getname/
 ---
 
-## getName() method
+## getName()  method
 
  Returns or sets the name of a shape.
  Must be not null. Use empty string value if needed.

@@ -1,13 +1,13 @@
 ---
 title: getBlobManagementOptions
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/loadoptions/getblobmanagementoptions/
 ---
 
-## getBlobManagementOptions() method
+## getBlobManagementOptions()  method
 
  Represents the options which can be used to manage Binary Large Objects (BLOBs) handling behavior,
  such as using of temporary files or max BLOBs bytes in memory. These options intended to set up

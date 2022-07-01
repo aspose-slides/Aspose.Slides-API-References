@@ -1,13 +1,13 @@
 ---
 title: get_Item
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/datalabelcollection/get_item/
 ---
 
-## get_Item(int) method
+## get_Item(int index)  method
 
  Gets the data label for the data point with the specified index.
  

@@ -1,13 +1,13 @@
 ---
 title: getColumnSpacing
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/textframeformat/getcolumnspacing/
 ---
 
-## getColumnSpacing() method
+## getColumnSpacing()  method
 
  Returns or sets the space between text columns in the text area (in points). This should only apply 
  when there is more than 1 column present.

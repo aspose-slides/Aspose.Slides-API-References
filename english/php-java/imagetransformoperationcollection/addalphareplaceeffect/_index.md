@@ -1,13 +1,13 @@
 ---
 title: addAlphaReplaceEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/imagetransformoperationcollection/addalphareplaceeffect/
 ---
 
-## addAlphaReplaceEffect(float) method
+## addAlphaReplaceEffect(float alpha)  method
 
  Adds the new Alpha Replace effect to the end of a collection.
  

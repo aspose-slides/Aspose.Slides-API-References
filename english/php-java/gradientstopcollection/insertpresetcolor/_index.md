@@ -1,13 +1,13 @@
 ---
 title: insertPresetColor
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/gradientstopcollection/insertpresetcolor/
 ---
 
-## insertPresetColor(int, float, int) method
+## insertPresetColor(int index, float position, int presetColor)  method
 
  Creates the new gradient stop and inserts it at the specified index to the collection.
  

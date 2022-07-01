@@ -1,13 +1,13 @@
 ---
 title: getStyleFontSize
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 1090
 url: /php-java/behaviorproperty/getstylefontsize/
 ---
 
-## getStyleFontSize() method
+## getStyleFontSize()  method
 
  Represents 'style.fontSize' property
  

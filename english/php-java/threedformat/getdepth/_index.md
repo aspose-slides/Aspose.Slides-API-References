@@ -1,13 +1,13 @@
 ---
 title: getDepth
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/threedformat/getdepth/
 ---
 
-## getDepth() method
+## getDepth()  method
 
  Returns or sets the depth of a 3D shape.
  Read/write  double.

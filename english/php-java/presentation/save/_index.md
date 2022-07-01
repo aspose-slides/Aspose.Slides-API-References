@@ -1,13 +1,13 @@
 ---
 title: save
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 510
 url: /php-java/presentation/save/
 ---
 
-## save(java.lang.String, int) method
+## save(String fname, int format)  method
 
  Saves all slides of a presentation to a file with the specified format.
  
@@ -23,7 +23,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(java.io.OutputStream, int) method
+## save(OutputStream stream, int format)  method
 
  Saves all slides of a presentation to a stream in the specified format.
  
@@ -39,7 +39,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(java.lang.String, int, com.aspose.slides.ISaveOptions) method
+## save(String fname, int format, GifOptions options)  method
+## save(String fname, int format, Html5Options options)  method
+## save(String fname, int format, HtmlOptions options)  method
+## save(String fname, int format, PdfOptions options)  method
+## save(String fname, int format, PptOptions options)  method
+## save(String fname, int format, PptxOptions options)  method
+## save(String fname, int format, RenderingOptions options)  method
+## save(String fname, int format, SaveOptions options)  method
+## save(String fname, int format, SVGOptions options)  method
+## save(String fname, int format, SwfOptions options)  method
+## save(String fname, int format, TiffOptions options)  method
+## save(String fname, int format, XamlOptions options)  method
+## save(String fname, int format, XpsOptions options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -56,7 +68,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(java.io.OutputStream, int, com.aspose.slides.ISaveOptions) method
+## save(OutputStream stream, int format, GifOptions options)  method
+## save(OutputStream stream, int format, Html5Options options)  method
+## save(OutputStream stream, int format, HtmlOptions options)  method
+## save(OutputStream stream, int format, PdfOptions options)  method
+## save(OutputStream stream, int format, PptOptions options)  method
+## save(OutputStream stream, int format, PptxOptions options)  method
+## save(OutputStream stream, int format, RenderingOptions options)  method
+## save(OutputStream stream, int format, SaveOptions options)  method
+## save(OutputStream stream, int format, SVGOptions options)  method
+## save(OutputStream stream, int format, SwfOptions options)  method
+## save(OutputStream stream, int format, TiffOptions options)  method
+## save(OutputStream stream, int format, XamlOptions options)  method
+## save(OutputStream stream, int format, XpsOptions options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -79,7 +103,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(com.aspose.slides.IXamlOptions) method
+## save(XamlOptions options)  method
 
  Saves all slides of a presentation to a set of files representing XAML markup.
  
@@ -108,7 +132,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(java.lang.String, int[], int) method
+## save(String fname, int[] slides, int format)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -131,7 +155,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(java.lang.String, int[], int, com.aspose.slides.ISaveOptions) method
+## save(String fname, int[] slides, int format, GifOptions options)  method
+## save(String fname, int[] slides, int format, Html5Options options)  method
+## save(String fname, int[] slides, int format, HtmlOptions options)  method
+## save(String fname, int[] slides, int format, PdfOptions options)  method
+## save(String fname, int[] slides, int format, PptOptions options)  method
+## save(String fname, int[] slides, int format, PptxOptions options)  method
+## save(String fname, int[] slides, int format, RenderingOptions options)  method
+## save(String fname, int[] slides, int format, SaveOptions options)  method
+## save(String fname, int[] slides, int format, SVGOptions options)  method
+## save(String fname, int[] slides, int format, SwfOptions options)  method
+## save(String fname, int[] slides, int format, TiffOptions options)  method
+## save(String fname, int[] slides, int format, XamlOptions options)  method
+## save(String fname, int[] slides, int format, XpsOptions options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -149,7 +185,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(java.io.OutputStream, int[], int) method
+## save(OutputStream stream, int[] slides, int format)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -166,7 +202,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(java.io.OutputStream, int[], int, com.aspose.slides.ISaveOptions) method
+## save(OutputStream stream, int[] slides, int format, GifOptions options)  method
+## save(OutputStream stream, int[] slides, int format, Html5Options options)  method
+## save(OutputStream stream, int[] slides, int format, HtmlOptions options)  method
+## save(OutputStream stream, int[] slides, int format, PdfOptions options)  method
+## save(OutputStream stream, int[] slides, int format, PptOptions options)  method
+## save(OutputStream stream, int[] slides, int format, PptxOptions options)  method
+## save(OutputStream stream, int[] slides, int format, RenderingOptions options)  method
+## save(OutputStream stream, int[] slides, int format, SaveOptions options)  method
+## save(OutputStream stream, int[] slides, int format, SVGOptions options)  method
+## save(OutputStream stream, int[] slides, int format, SwfOptions options)  method
+## save(OutputStream stream, int[] slides, int format, TiffOptions options)  method
+## save(OutputStream stream, int[] slides, int format, XamlOptions options)  method
+## save(OutputStream stream, int[] slides, int format, XpsOptions options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  

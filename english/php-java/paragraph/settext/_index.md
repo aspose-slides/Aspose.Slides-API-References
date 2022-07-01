@@ -1,13 +1,13 @@
 ---
 title: setText
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/paragraph/settext/
 ---
 
-## setText(java.lang.String) method
+## setText(String value)  method
 
  Gets or sets the the plain text of a paragraph.
  Read/write  String.

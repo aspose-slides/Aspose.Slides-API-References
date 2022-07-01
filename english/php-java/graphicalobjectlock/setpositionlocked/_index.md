@@ -1,13 +1,13 @@
 ---
 title: setPositionLocked
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/graphicalobjectlock/setpositionlocked/
 ---
 
-## setPositionLocked(boolean) method
+## setPositionLocked(boolean value)  method
 
  Determines whether moving this shape is forbidden.
  Read/write  boolean.

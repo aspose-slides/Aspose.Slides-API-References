@@ -1,13 +1,13 @@
 ---
 title: indexOf
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/sectioncollection/indexof/
 ---
 
-## indexOf(com.aspose.slides.ISection) method
+## indexOf(Section section)  method
 
  Returns an index of the specified section in the collection.
  

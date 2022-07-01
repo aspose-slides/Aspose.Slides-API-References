@@ -1,13 +1,13 @@
 ---
 title: setSvgImage
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/ppimage/setsvgimage/
 ---
 
-## setSvgImage(com.aspose.slides.ISvgImage) method
+## setSvgImage(SvgImage value)  method
 
  Returns or sets ISvgImage object  ISvgImage
  This value indicates that this image has been created from SVG.

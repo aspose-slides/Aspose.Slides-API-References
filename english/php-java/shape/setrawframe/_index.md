@@ -1,13 +1,13 @@
 ---
 title: setRawFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 460
 url: /php-java/shape/setrawframe/
 ---
 
-## setRawFrame(com.aspose.slides.IShapeFrame) method
+## setRawFrame(ShapeFrame value)  method
 
  Returns or sets the raw shape frame's properties.
  Read/write  IShapeFrame.

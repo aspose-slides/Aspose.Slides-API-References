@@ -1,13 +1,13 @@
 ---
 title: setEndPosAlpha
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 240
 url: /php-java/reflection/setendposalpha/
 ---
 
-## setEndPosAlpha(float) method
+## setEndPosAlpha(float value)  method
 
  Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents).
  Read/write  float.

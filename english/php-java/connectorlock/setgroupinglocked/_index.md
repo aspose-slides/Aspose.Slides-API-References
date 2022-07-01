@@ -1,13 +1,13 @@
 ---
 title: setGroupingLocked
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/connectorlock/setgroupinglocked/
 ---
 
-## setGroupingLocked(boolean) method
+## setGroupingLocked(boolean value)  method
 
  Determines whether an adding this shape to a group is forbidden.
  Read/write  boolean.

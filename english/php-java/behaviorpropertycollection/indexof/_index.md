@@ -1,13 +1,13 @@
 ---
 title: indexOf
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/behaviorpropertycollection/indexof/
 ---
 
-## indexOf(com.aspose.slides.IBehaviorProperty) method
+## indexOf(BehaviorProperty item)  method
 
  Determines the index of a specific item in the  List.
  
@@ -25,7 +25,7 @@ List
 ---
 
 
-## indexOf(java.lang.String) method
+## indexOf(String propertyValue)  method
 
  Determines the index of a specific item by property value in the  List.
  

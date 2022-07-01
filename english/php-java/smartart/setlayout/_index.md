@@ -1,13 +1,13 @@
 ---
 title: setLayout
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/smartart/setlayout/
 ---
 
-## setLayout(int) method
+## setLayout(int value)  method
 
  Returns or sets layout of the SmartArt object.
  Read/write  SmartArtLayoutType.

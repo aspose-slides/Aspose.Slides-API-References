@@ -1,13 +1,13 @@
 ---
 title: setDpiX
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/tiffoptions/setdpix/
 ---
 
-## setDpiX(long) method
+## setDpiX(long value)  method
 
  Specifies the horizontal resolution in dots per inch.
  Read/write  long.

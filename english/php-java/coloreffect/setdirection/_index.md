@@ -1,13 +1,13 @@
 ---
 title: setDirection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/coloreffect/setdirection/
 ---
 
-## setDirection(int) method
+## setDirection(int value)  method
 
  Specifies which direction to cycle the hue around the color wheel.
  Read/write  ColorDirection.

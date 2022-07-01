@@ -1,13 +1,13 @@
 ---
 title: setLastView
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/viewproperties/setlastview/
 ---
 
-## setLastView(int) method
+## setLastView(int value)  method
 
  Specifies the view mode that was used when the presentation document was last saved.
  Read/write  ViewType.

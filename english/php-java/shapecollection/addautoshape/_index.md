@@ -1,13 +1,13 @@
 ---
 title: addAutoShape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/shapecollection/addautoshape/
 ---
 
-## addAutoShape(int, float, float, float, float) method
+## addAutoShape(int shapeType, float x, float y, float width, float height)  method
 
  Creates a new AutoShape, tunes it from default template and adds it to the end of the collection.
  
@@ -29,7 +29,7 @@ Created AutoShape object.
 ---
 
 
-## addAutoShape(int, float, float, float, float, boolean) method
+## addAutoShape(int shapeType, float x, float y, float width, float height, boolean createFromTemplate)  method
 
  Creates a new AutoShape and adds it to the end of the collection.
  

@@ -1,13 +1,13 @@
 ---
 title: setQuickStyle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/smartart/setquickstyle/
 ---
 
-## setQuickStyle(int) method
+## setQuickStyle(int value)  method
 
  Returns or sets quick style of SmartArt object.
  Read/write  SmartArtQuickStyleType.

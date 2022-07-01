@@ -1,13 +1,13 @@
 ---
 title: setSpokes
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/wheeltransition/setspokes/
 ---
 
-## setSpokes(long) method
+## setSpokes(long value)  method
 
  Number spokes of wheel transition.
  Read/write  long.

@@ -1,13 +1,13 @@
 ---
 title: setEndingCharacter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/mathdelimiter/setendingcharacter/
 ---
 
-## setEndingCharacter(char) method
+## setEndingCharacter(char value)  method
 
  Delimiter Ending Character specifies the ending, or closing, delimiter character. 
  Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces.

@@ -1,13 +1,13 @@
 ---
 title: getRecoverWorkbookFromChartCache
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/spreadsheetoptions/getrecoverworkbookfromchartcache/
 ---
 
-## getRecoverWorkbookFromChartCache() method
+## getRecoverWorkbookFromChartCache()  method
 
   If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache.
   

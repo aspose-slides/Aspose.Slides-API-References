@@ -1,13 +1,13 @@
 ---
 title: setAutofitType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/textframeformat/setautofittype/
 ---
 
-## setAutofitType(byte) method
+## setAutofitType(byte value)  method
 
  Returns or sets text's autofit mode.
  Read/write  TextAutofitType.

@@ -1,13 +1,13 @@
 ---
 title: insertClone
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/columncollection/insertclone/
 ---
 
-## insertClone(int, com.aspose.slides.IColumn, boolean) method
+## insertClone(int index, Column templ, boolean withAttachedColumns)  method
 
  Creates a copy of the specified template column and insert it at the specified position in a table.
  

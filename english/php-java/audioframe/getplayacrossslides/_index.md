@@ -1,13 +1,13 @@
 ---
 title: getPlayAcrossSlides
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/audioframe/getplayacrossslides/
 ---
 
-## getPlayAcrossSlides() method
+## getPlayAcrossSlides()  method
 
   Determines whether audio is playing across the slides.
   Read/write  boolean.

@@ -1,13 +1,13 @@
 ---
 title: hasBorderHorizontal
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/datatable/hasborderhorizontal/
 ---
 
-## hasBorderHorizontal() method
+## hasBorderHorizontal()  method
 
  True if the chart data table has horizontal cell borders.
  Read/write  boolean.

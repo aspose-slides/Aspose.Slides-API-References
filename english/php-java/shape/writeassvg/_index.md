@@ -1,13 +1,13 @@
 ---
 title: writeAsSvg
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 510
 url: /php-java/shape/writeassvg/
 ---
 
-## writeAsSvg(java.io.OutputStream) method
+## writeAsSvg(OutputStream stream)  method
 
  Saves content of Shape as SVG file.
  
@@ -22,7 +22,7 @@ url: /php-java/shape/writeassvg/
 ---
 
 
-## writeAsSvg(java.io.OutputStream, com.aspose.slides.ISVGOptions) method
+## writeAsSvg(OutputStream stream, SVGOptions svgOptions)  method
 
  Saves content of Shape as SVG file.
  

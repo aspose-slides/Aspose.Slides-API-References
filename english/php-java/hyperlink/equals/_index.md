@@ -1,13 +1,13 @@
 ---
 title: equals
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/hyperlink/equals/
 ---
 
-## equals(java.lang.Object) method
+## equals(Object obj)  method
 
  Determines whether the two Hyperlink instances are equal.
  
@@ -25,7 +25,7 @@ true if the specified Hyperlink is equal to the current Hyperlink; otherwise, fa
 ---
 
 
-## equals(com.aspose.slides.IHyperlink) method
+## equals(Hyperlink hlink)  method
 
  Determines whether the two Hyperlink instances are equal.
  

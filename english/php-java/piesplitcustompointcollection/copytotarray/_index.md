@@ -1,13 +1,13 @@
 ---
 title: copyToTArray
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/piesplitcustompointcollection/copytotarray/
 ---
 
-## copyToTArray(com.aspose.slides.IChartDataPoint[], int) method
+## copyToTArray(com.aspose.slides.IChartDataPoint[] array, int arrayIndex)  method
 
  Copies the elements of the  IGenericCollection to an  Array, starting at a particular  Array index.
  

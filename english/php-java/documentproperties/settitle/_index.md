@@ -1,13 +1,13 @@
 ---
 title: setTitle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 640
 url: /php-java/documentproperties/settitle/
 ---
 
-## setTitle(java.lang.String) method
+## setTitle(String value)  method
 
  Returns or sets the title of a presentation.
  Read/write  String.

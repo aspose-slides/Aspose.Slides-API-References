@@ -1,6 +1,6 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -22,5 +22,5 @@ url: /php-java/vbamodulecollection/
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)(IVbaModule) | Removes the first occurrence of a specific object from the collection. |
+| [remove](remove)(VbaModule) | Removes the first occurrence of a specific object from the collection. |
 | [size](size)() | Gets the number of elements actually contained in the collection. Read-only int. |

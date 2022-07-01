@@ -1,13 +1,12 @@
 ---
 title: masterSlide
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/foreach/masterslide/
 ---
 
-## masterSlide(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachMasterSlideCallback) method
 
  Iterate each  #masterSlide(Presentation,ForEachMasterSlideCallback) in the  Presentation.
  

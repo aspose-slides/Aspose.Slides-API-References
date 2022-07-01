@@ -1,13 +1,13 @@
 ---
 title: setShowPageBorder
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 270
 url: /php-java/swfoptions/setshowpageborder/
 ---
 
-## setShowPageBorder(boolean) method
+## setShowPageBorder(boolean value)  method
 
  Specifies whether border around pages should be shown. Default is true. 
  

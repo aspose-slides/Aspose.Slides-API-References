@@ -1,13 +1,13 @@
 ---
 title: checkPassword
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/presentationinfo/checkpassword/
 ---
 
-## checkPassword(java.lang.String) method
+## checkPassword(String password)  method
 
  Checks whether a password is correct for a presentation protected with open password.
  

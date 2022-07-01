@@ -1,6 +1,6 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -17,9 +17,9 @@ url: /php-java/piesplitcustompointcollection/
 | Name | Description |
 | --- | --- |
 | [add](add)(int) | Adds data point by its index in parent series points collection. |
-| [addItem](additem)(IChartDataPoint) | Adds data point to collection. |
+| [addItem](additem)(ChartDataPoint) | Adds data point to collection. |
 | [clear](clear)() | Removes all items from the IGenericCollection. |
-| [containsItem](containsitem)(IChartDataPoint) | Determines whether the IGenericCollection contains a specific value. |
+| [containsItem](containsitem)(ChartDataPoint) | Determines whether the IGenericCollection contains a specific value. |
 | [copyToTArray](copytotarray)(com.aspose.slides.IChartDataPoint[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
 | [get_Item](get_item)(int) | Returns chart data point for specified index. |
@@ -28,5 +28,5 @@ url: /php-java/piesplitcustompointcollection/
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
 | [remove](remove)(int) | Removes item from collection by it index in parent series points collection. |
-| [removeItem](removeitem)(IChartDataPoint) | Removes item from collection. |
+| [removeItem](removeitem)(ChartDataPoint) | Removes item from collection. |
 | [size](size)() | Returns or sets the count of chart data points. Read-only int. |

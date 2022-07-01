@@ -1,13 +1,13 @@
 ---
 title: checkWriteProtection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/presentationinfo/checkwriteprotection/
 ---
 
-## checkWriteProtection(java.lang.String) method
+## checkWriteProtection(String password)  method
 
  Checks whether a password to modify is correct for a write protected presentation.
  

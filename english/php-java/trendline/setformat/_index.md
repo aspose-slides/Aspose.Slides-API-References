@@ -1,13 +1,13 @@
 ---
 title: setFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/trendline/setformat/
 ---
 
-## setFormat(com.aspose.slides.IFormat) method
+## setFormat(Format value)  method
 
  Represents the format of the trend line.
  Read/write  IFormat.

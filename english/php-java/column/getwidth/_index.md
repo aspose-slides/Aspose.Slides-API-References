@@ -1,13 +1,13 @@
 ---
 title: getWidth
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/column/getwidth/
 ---
 
-## getWidth() method
+## getWidth()  method
 
  Returns or sets the width of a column.
  Read/write  double.

@@ -1,13 +1,13 @@
 ---
 title: getRowCount
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/mathmatrix/getrowcount/
 ---
 
-## getRowCount() method
+## getRowCount()  method
 
  Number of rows in the matrix
  

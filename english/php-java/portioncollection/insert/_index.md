@@ -1,13 +1,14 @@
 ---
 title: insert
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/portioncollection/insert/
 ---
 
-## insert(int, com.aspose.slides.IPortion) method
+## insert(int index, MathPortion value)  method
+## insert(int index, Portion value)  method
 
  Inserts a Portion into the collection at the specified index.
  

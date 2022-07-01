@@ -1,13 +1,13 @@
 ---
 title: splitByWidth
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 360
 url: /php-java/cell/splitbywidth/
 ---
 
-## splitByWidth(double) method
+## splitByWidth(double width)  method
 
  Splits the cell by width.
  

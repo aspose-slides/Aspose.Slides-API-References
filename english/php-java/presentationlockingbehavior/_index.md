@@ -1,6 +1,6 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -32,5 +32,4 @@ url: /php-java/presentationlockingbehavior/
 | --- | --- | --- |
 | KeepLocked | 1 | The source will be locked for a whole lifetime of IPresentation instance, until it will be disposed. {@code IBlobManagementOptions.IsTemporaryFilesAllowed}( IBlobManagementOptions#isTemporaryFilesAllowed/ IBlobManagementOptions#setTemporaryFilesAllowed(boolean)) is must be set to true for using this behavior, otherwise exception will be thrown.This behavior is recommended, it is faster and consumes less memory than PresentationLockingBehavior#LoadAndRelease. |
 | LoadAndRelease | 0 | The source will be locked only for a time of IPresentation constructor execution. If ( IBlobManagementOptions#isTemporaryFilesAllowed/ IBlobManagementOptions#setTemporaryFilesAllowed(boolean)) is set to false, all BLOBs will be loaded into memory. Otherwise, other means such a temporary files might be used.This behavior is slower than PresentationLockingBehavior#KeepLocked, and if it is possible to pass the ownership of the source to IPresentation, it is recommended to use PresentationLockingBehavior#KeepLocked. |
-| LoadAndRelease_Legacy_TemporaryDefault | 255 | The source will be locked only for a time of IPresentation constructor execution, all BLOBs will be loaded into memory. This behavior is the legacy behavior to provide backward compatibility. The same behavior can be achieved by using PresentationLockingBehavior#LoadAndRelease and set ( IBlobManagementOptions#isTemporaryFilesAllowed/ IBlobManagementOptions#setTemporaryFilesAllowed(boolean)) to false. Please consider choosing the PresentationLockingBehavior#LoadAndRelease or PresentationLockingBehavior#KeepLocked behavior, what is the most suitable for you. After PresentationLockingBehavior#LoadAndRelease_Legacy_TemporaryDefault will be removed, PresentationLockingBehavior#KeepLocked will be the default behavior. |
 

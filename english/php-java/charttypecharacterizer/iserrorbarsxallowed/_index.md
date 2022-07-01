@@ -1,13 +1,13 @@
 ---
 title: isErrorBarsXAllowed
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 170
 url: /php-java/charttypecharacterizer/iserrorbarsxallowed/
 ---
 
-## isErrorBarsXAllowed(int) method
+## isErrorBarsXAllowed(int seriesType)  method
 
  Returns if error bars X allowed for specified series type.
  

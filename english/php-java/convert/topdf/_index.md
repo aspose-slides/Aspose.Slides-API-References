@@ -1,13 +1,13 @@
 ---
 title: toPdf
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/convert/topdf/
 ---
 
-## toPdf(java.lang.String, java.lang.String) method
+## toPdf(String presPath, String outPath)  method
 
  Converts  Presentation to PDF.
  
@@ -31,7 +31,7 @@ Presentation
 ---
 
 
-## toPdf(java.lang.String, java.lang.String, com.aspose.slides.IPdfOptions) method
+## toPdf(String presPath, String outPath, PdfOptions options)  method
 
  Converts  Presentation to PDF.
  
@@ -58,7 +58,7 @@ Presentation
 ---
 
 
-## toPdf(com.aspose.slides.Presentation, java.lang.String) method
+## toPdf(Presentation pres, String outPath)  method
 
  Converts  Presentation to PDF.
  
@@ -89,7 +89,7 @@ Presentation
 ---
 
 
-## toPdf(com.aspose.slides.Presentation, java.lang.String, com.aspose.slides.IPdfOptions) method
+## toPdf(Presentation pres, String outPath, PdfOptions options)  method
 
  Converts  Presentation to PDF.
  

@@ -1,13 +1,13 @@
 ---
 title: addClone
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/slidecollection/addclone/
 ---
 
-## addClone(com.aspose.slides.ISlide) method
+## addClone(Slide sourceSlide)  method
 
  Adds a copy of a specified slide to the end of the collection.
  
@@ -25,7 +25,7 @@ New slide.
 ---
 
 
-## addClone(com.aspose.slides.ISlide, com.aspose.slides.ISection) method
+## addClone(Slide sourceSlide, Section section)  method
 
  Adds a copy of a specified slide to the end of the specified section.
  
@@ -66,7 +66,7 @@ New slide.
 ---
 
 
-## addClone(com.aspose.slides.ISlide, com.aspose.slides.ILayoutSlide) method
+## addClone(Slide sourceSlide, LayoutSlide destLayout)  method
 
  Adds a copy of a specified slide to the end of the collection.
  
@@ -85,7 +85,7 @@ New slide.
 ---
 
 
-## addClone(com.aspose.slides.ISlide, com.aspose.slides.IMasterSlide, boolean) method
+## addClone(Slide sourceSlide, MasterSlide destMaster, boolean allowCloneMissingLayout)  method
 
  Adds a copy of a specified source slide to the end of the collection.
  Appropriate layout will be selected automatically from the specified 

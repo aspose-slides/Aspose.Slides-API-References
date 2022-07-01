@@ -1,13 +1,13 @@
 ---
 title: isValid
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/digitalsignature/isvalid/
 ---
 
-## isValid() method
+## isValid()  method
 
  If this digital signature is valid and the document has not been tampered with, this value will be true.
  Read-only  boolean.

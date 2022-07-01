@@ -1,13 +1,13 @@
 ---
 title: getGlobal
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/templatecontext/getglobal/
 ---
 
-## getGlobal() method
+## getGlobal()  method
 
  Returns global storage of the host document.
  Read-only  Storage.

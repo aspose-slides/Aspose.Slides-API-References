@@ -1,13 +1,13 @@
 ---
 title: setSize
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/slidesize/setsize/
 ---
 
-## setSize(int, int) method
+## setSize(int type, int scaleType)  method
 
   Sets the type of slide size and scales content using scale type.
   
@@ -24,7 +24,7 @@ url: /php-java/slidesize/setsize/
 ---
 
 
-## setSize(float, float, int) method
+## setSize(float width, float height, int scaleType)  method
 
  Sets the size in points and scales content using scale type.
  

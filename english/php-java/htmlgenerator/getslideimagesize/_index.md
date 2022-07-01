@@ -1,13 +1,13 @@
 ---
 title: getSlideImageSize
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/htmlgenerator/getslideimagesize/
 ---
 
-## getSlideImageSize() method
+## getSlideImageSize()  method
 
  Returns slide image size.
  Read-only  java.awt.geom.Dimension2D.

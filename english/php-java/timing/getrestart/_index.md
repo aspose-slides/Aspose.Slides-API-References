@@ -1,13 +1,13 @@
 ---
 title: getRestart
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/timing/getrestart/
 ---
 
-## getRestart() method
+## getRestart()  method
 
  Specifies if a effect is to restart after complete.
  Read/write  EffectRestartType.

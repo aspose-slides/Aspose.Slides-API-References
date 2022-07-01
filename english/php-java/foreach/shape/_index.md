@@ -1,13 +1,12 @@
 ---
 title: shape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/foreach/shape/
 ---
 
-## shape(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachShapeCallback) method
 
  Iterate each  Shape in the  Presentation.
  
@@ -31,7 +30,6 @@ Presentation
 ---
 
 
-## shape(com.aspose.slides.BaseSlide, com.aspose.slides.ForEach.ForEachShapeCallback) method
 
  Iterate each  Shape in the  BaseSlide.
  

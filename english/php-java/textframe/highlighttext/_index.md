@@ -1,13 +1,13 @@
 ---
 title: highlightText
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/textframe/highlighttext/
 ---
 
-## highlightText(java.lang.String, java.awt.Color) method
+## highlightText(String text, Color highlightColor)  method
 
  Highlight all matches of sample in text frame text using specified color.
  
@@ -23,7 +23,7 @@ url: /php-java/textframe/highlighttext/
 ---
 
 
-## highlightText(java.lang.String, java.awt.Color, com.aspose.slides.ITextHighlightingOptions) method
+## highlightText(String text, Color highlightColor, TextHighlightingOptions options)  method
 
  Highlight all matches of sample in text frame text using specified color.
  

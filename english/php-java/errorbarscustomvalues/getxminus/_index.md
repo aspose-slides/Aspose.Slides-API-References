@@ -1,13 +1,13 @@
 ---
 title: getXMinus
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/errorbarscustomvalues/getxminus/
 ---
 
-## getXMinus() method
+## getXMinus()  method
 
  Specifies the error bar value in the negative direction. 
  Available if error bars value type is Custom and ErrorBarsXFormat is allowed.

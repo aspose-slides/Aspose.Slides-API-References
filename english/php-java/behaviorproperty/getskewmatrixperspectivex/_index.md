@@ -1,13 +1,13 @@
 ---
 title: getSkewMatrixPerspectiveX
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 790
 url: /php-java/behaviorproperty/getskewmatrixperspectivex/
 ---
 
-## getSkewMatrixPerspectiveX() method
+## getSkewMatrixPerspectiveX()  method
 
  Represents 'skew.matrix.perspectiveX' property
  

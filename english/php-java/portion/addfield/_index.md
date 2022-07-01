@@ -1,13 +1,13 @@
 ---
 title: addField
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/portion/addfield/
 ---
 
-## addField(com.aspose.slides.IFieldType) method
+## addField(FieldType fieldType)  method
 
  Converts this portion to the automaticaly updated field.
  
@@ -16,7 +16,7 @@ url: /php-java/portion/addfield/
 ---
 
 
-## addField(java.lang.String) method
+## addField(String internalString)  method
 
  Converts this portion to the automaticaly updated field.
  

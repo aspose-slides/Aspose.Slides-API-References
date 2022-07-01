@@ -1,13 +1,13 @@
 ---
 title: addAlphaBiLevelEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/imagetransformoperationcollection/addalphabileveleffect/
 ---
 
-## addAlphaBiLevelEffect(float) method
+## addAlphaBiLevelEffect(float threshold)  method
 
  Adds the new Alpha Bi-Level effect to the end of a collection.
  

@@ -1,13 +1,13 @@
 ---
 title: getPicture
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/bulletformat/getpicture/
 ---
 
-## getPicture() method
+## getPicture()  method
 
  Returns the picture used as a bullet in a paragraph with no inheritance.
  Read-only  ISlidesPicture.

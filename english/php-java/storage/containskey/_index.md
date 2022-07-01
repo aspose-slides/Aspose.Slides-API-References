@@ -1,13 +1,13 @@
 ---
 title: containsKey
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/storage/containskey/
 ---
 
-## containsKey(java.lang.String) method
+## containsKey(String key)  method
 
  Determines whether the storage contains an element with the specified key.
  

@@ -1,13 +1,13 @@
 ---
 title: applyColorScheme
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/masterthememanager/applycolorscheme/
 ---
 
-## applyColorScheme(com.aspose.slides.IExtraColorScheme) method
+## applyColorScheme(ExtraColorScheme scheme)  method
 
  Applies extra color scheme to a slide.
  

@@ -1,13 +1,13 @@
 ---
 title: moveTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/geometrypath/moveto/
 ---
 
-## moveTo(java.awt.geom.Point2D.Float) method
+## moveTo(Point2D.Float point)  method
 
  Sets next point position.
  
@@ -22,7 +22,7 @@ url: /php-java/geometrypath/moveto/
 ---
 
 
-## moveTo(float, float) method
+## moveTo(float x, float y)  method
 
  Sets next point position.
  

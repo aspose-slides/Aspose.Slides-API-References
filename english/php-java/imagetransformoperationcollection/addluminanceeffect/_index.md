@@ -1,13 +1,13 @@
 ---
 title: addLuminanceEffect
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 170
 url: /php-java/imagetransformoperationcollection/addluminanceeffect/
 ---
 
-## addLuminanceEffect(float, float) method
+## addLuminanceEffect(float brightness, float contrast)  method
 
  Adds the new Luminance effect to the end of a collection.
  

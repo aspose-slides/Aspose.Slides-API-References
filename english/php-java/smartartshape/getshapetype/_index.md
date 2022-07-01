@@ -1,13 +1,13 @@
 ---
 title: getShapeType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/smartartshape/getshapetype/
 ---
 
-## getShapeType() method
+## getShapeType()  method
 
  Returns or sets the geometry preset type.
  Note: on value changing all adjustment values will reset to their default values.

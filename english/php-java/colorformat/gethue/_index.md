@@ -1,13 +1,13 @@
 ---
 title: getHue
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/colorformat/gethue/
 ---
 
-## getHue() method
+## getHue()  method
 
  Returns or sets the hue component of a color in HSL representation.
  All color transformations are ignored.

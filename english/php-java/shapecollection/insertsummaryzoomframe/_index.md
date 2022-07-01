@@ -1,13 +1,13 @@
 ---
 title: insertSummaryZoomFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 540
 url: /php-java/shapecollection/insertsummaryzoomframe/
 ---
 
-## insertSummaryZoomFrame(int, float, float, float, float) method
+## insertSummaryZoomFrame(int index, float x, float y, float width, float height)  method
 
  Creates a new Summary Zoom object and inserts it to a collection at the specified index.
  
@@ -31,10 +31,10 @@ url: /php-java/shapecollection/insertsummaryzoomframe/
 | Name | Description |
 | --- | --- |
 | index | The zero-based index at which Section Zoom frame should be inserted. |
-| x | X coordinate of a new Section Zoom frame float. |
-| y | Y coordinate of a new Section Zoom frame float. |
-| width | Width of a new Section Zoom frame float. |
-| height | Height of a new Section Zoom frame float. This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation. |
+| x | X coordinate of a new Section Zoom frame {@code float}. |
+| y | Y coordinate of a new Section Zoom frame {@code float}. |
+| width | Width of a new Section Zoom frame {@code float}. |
+| height | Height of a new Section Zoom frame {@code float}. This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation. |
 
 ### Returns
 Created Summary Zoom object ISummaryZoomFrame.

@@ -1,13 +1,13 @@
 ---
 title: getOtherStyle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/masterslide/getotherstyle/
 ---
 
-## getOtherStyle() method
+## getOtherStyle()  method
 
  Returns the style of an other text.
  Read-only  ITextStyle.

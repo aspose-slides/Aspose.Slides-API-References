@@ -1,13 +1,13 @@
 ---
 title: addDataPointForBubbleSeries
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/chartdatapointcollection/adddatapointforbubbleseries/
 ---
 
-## addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
+## addDataPointForBubbleSeries(ChartDataCell xValue, ChartDataCell yValue, ChartDataCell bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -28,7 +28,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(double, com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
+## addDataPointForBubbleSeries(double xValue, ChartDataCell yValue, ChartDataCell bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -49,7 +49,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(java.lang.String, com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell) method
+## addDataPointForBubbleSeries(String xValue, ChartDataCell yValue, ChartDataCell bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -70,7 +70,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, double, com.aspose.slides.IChartDataCell) method
+## addDataPointForBubbleSeries(ChartDataCell xValue, double yValue, ChartDataCell bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -91,7 +91,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(double, double, com.aspose.slides.IChartDataCell) method
+## addDataPointForBubbleSeries(double xValue, double yValue, ChartDataCell bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -112,7 +112,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(java.lang.String, double, com.aspose.slides.IChartDataCell) method
+## addDataPointForBubbleSeries(String xValue, double yValue, ChartDataCell bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -133,7 +133,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, com.aspose.slides.IChartDataCell, double) method
+## addDataPointForBubbleSeries(ChartDataCell xValue, ChartDataCell yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -154,7 +154,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(double, com.aspose.slides.IChartDataCell, double) method
+## addDataPointForBubbleSeries(double xValue, ChartDataCell yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -175,7 +175,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(java.lang.String, com.aspose.slides.IChartDataCell, double) method
+## addDataPointForBubbleSeries(String xValue, ChartDataCell yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -196,7 +196,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(com.aspose.slides.IChartDataCell, double, double) method
+## addDataPointForBubbleSeries(ChartDataCell xValue, double yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -217,7 +217,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(double, double, double) method
+## addDataPointForBubbleSeries(double xValue, double yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -238,7 +238,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(java.lang.String, double, double) method
+## addDataPointForBubbleSeries(String xValue, double yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).

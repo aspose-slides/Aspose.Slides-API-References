@@ -1,13 +1,13 @@
 ---
 title: writeBindedPresentation
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/presentationinfo/writebindedpresentation/
 ---
 
-## writeBindedPresentation(java.io.OutputStream) method
+## writeBindedPresentation(OutputStream stream)  method
 
  Writes binded presentation to stream.
  
@@ -22,7 +22,7 @@ url: /php-java/presentationinfo/writebindedpresentation/
 ---
 
 
-## writeBindedPresentation(java.lang.String) method
+## writeBindedPresentation(String file)  method
 
  Writes binded presentation to file.
  

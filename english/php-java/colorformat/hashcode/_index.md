@@ -1,13 +1,13 @@
 ---
 title: hashCode
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/colorformat/hashcode/
 ---
 
-## hashCode() method
+## hashCode()  method
 
  Returns hash code.
  

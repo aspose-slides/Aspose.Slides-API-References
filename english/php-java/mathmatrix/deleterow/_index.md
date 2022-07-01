@@ -1,13 +1,13 @@
 ---
 title: deleteRow
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/mathmatrix/deleterow/
 ---
 
-## deleteRow(int) method
+## deleteRow(int rowIndex)  method
 
  Deletes the specified row
  

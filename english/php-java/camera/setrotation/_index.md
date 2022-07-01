@@ -1,13 +1,13 @@
 ---
 title: setRotation
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/camera/setrotation/
 ---
 
-## setRotation(float, float, float) method
+## setRotation(float latitude, float longitude, float revolution)  method
 
  A rotation is defined through the use of a latitude
  coordinate, a longitude coordinate, and a revolution about the axis 

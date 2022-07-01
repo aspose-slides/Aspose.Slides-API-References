@@ -1,13 +1,13 @@
 ---
 title: replaceFont
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/fontsmanager/replacefont/
 ---
 
-## replaceFont(com.aspose.slides.IFontData, com.aspose.slides.IFontData) method
+## replaceFont(FontData sourceFont, FontData destFont)  method
 
  Replace font in presentation
  
@@ -23,7 +23,7 @@ url: /php-java/fontsmanager/replacefont/
 ---
 
 
-## replaceFont(com.aspose.slides.IFontSubstRule) method
+## replaceFont(FontSubstRule substRule)  method
 
  Replace font in presentation using information provided in  FontSubstRule
  
@@ -41,7 +41,7 @@ FontSubstRule
 ---
 
 
-## replaceFont(com.aspose.slides.IFontSubstRuleCollection) method
+## replaceFont(FontSubstRuleCollection substRules)  method
 
  Replace font in presentation using information provided in collection of  FontSubstRule
  

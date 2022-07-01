@@ -1,13 +1,13 @@
 ---
 title: copyTo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/paragraphcollection/copyto/
 ---
 
-## copyTo(com.aspose.slides.IParagraph[], int) method
+## copyTo(com.aspose.slides.IParagraph[] array, int arrayIndex)  method
 
  Copies the elements of the  IGenericCollection to an  Array, starting at a particular  Array index.
  

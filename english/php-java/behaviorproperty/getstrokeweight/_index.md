@@ -1,13 +1,13 @@
 ---
 title: getStrokeWeight
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 1060
 url: /php-java/behaviorproperty/getstrokeweight/
 ---
 
-## getStrokeWeight() method
+## getStrokeWeight()  method
 
  Represents 'stroke.weight' property
  

@@ -1,13 +1,13 @@
 ---
 title: setCropLocked
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/pictureframelock/setcroplocked/
 ---
 
-## setCropLocked(boolean) method
+## setCropLocked(boolean value)  method
 
  Determines whether an image cropping is forbidden.
  Read/write  boolean.

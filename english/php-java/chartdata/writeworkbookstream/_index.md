@@ -1,13 +1,13 @@
 ---
 title: writeWorkbookStream
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 160
 url: /php-java/chartdata/writeworkbookstream/
 ---
 
-## writeWorkbookStream(byte[]) method
+## writeWorkbookStream(byte[] ms)  method
 
  Initializes the internally contained Excel workbook with user-specified value.
  

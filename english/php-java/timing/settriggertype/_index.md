@@ -1,13 +1,13 @@
 ---
 title: setTriggerType
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/timing/settriggertype/
 ---
 
-## setTriggerType(int) method
+## setTriggerType(int value)  method
 
  Describes trigger type.
  Read/write  EffectTriggerType.

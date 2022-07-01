@@ -1,13 +1,13 @@
 ---
 title: indexOfName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/tagcollection/indexofname/
 ---
 
-## indexOfName(java.lang.String) method
+## indexOfName(String name)  method
 
  Returns the zero-based index of the specified key in the collection.
  

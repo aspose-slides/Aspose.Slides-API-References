@@ -1,13 +1,13 @@
 ---
 title: setClassId
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/control/setclassid/
 ---
 
-## setClassId(java.util.UUID) method
+## setClassId(UUID value)  method
 
  Gets class id of this control.
  Read-only  java.util.UUID.

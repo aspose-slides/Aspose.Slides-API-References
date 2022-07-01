@@ -1,13 +1,13 @@
 ---
 title: getLevel
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/smartartnode/getlevel/
 ---
 
-## getLevel() method
+## getLevel()  method
 
  Returns nesting level of the node.
  Read-only  int.

@@ -1,13 +1,13 @@
 ---
 title: addTable
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 240
 url: /php-java/shapecollection/addtable/
 ---
 
-## addTable(float, float, double[], double[]) method
+## addTable(float x, float y, double[] columnWidths, double[] rowHeights)  method
 
  Creates a new Table and adds it to the end of the collection.
  

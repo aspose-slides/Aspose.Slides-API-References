@@ -1,13 +1,13 @@
 ---
 title: indexOf
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/fontfallbackrule/indexof/
 ---
 
-## indexOf(java.lang.String) method
+## indexOf(String fontName)  method
 
  Returns an index of the specified rule in the collection.
  

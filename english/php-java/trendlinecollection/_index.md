@@ -1,6 +1,6 @@
 ---
 title: TrendlineCollection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -21,4 +21,4 @@ url: /php-java/trendlinecollection/
 | [get_Item](get_item)(int) | Gets the element at the specified index. Read-only Trendline. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)(ITrendline) | Removes the specified value. |
+| [remove](remove)(Trendline) | Removes the specified value. |

@@ -1,6 +1,6 @@
 ---
 title: Convert
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -29,11 +29,8 @@ url: /php-java/convert/
 | --- | --- |
 | [autoByExtension](autobyextension)(String, String) | Converts Presentation using the passed output path extension to determine the required export format. |
 | [toPdf](topdf)(String, String) | Converts Presentation to PDF. |
-| [toPdf](topdf)(String, String, IPdfOptions) | Converts Presentation to PDF. |
+| [toPdf](topdf)(String, String, PdfOptions) | Converts Presentation to PDF. |
 | [toPdf](topdf)(Presentation, String) | Converts Presentation to PDF. |
-| [toPdf](topdf)(Presentation, String, IPdfOptions) | Converts Presentation to PDF. |
+| [toPdf](topdf)(Presentation, String, PdfOptions) | Converts Presentation to PDF. |
 | [toSvg](tosvg)(String) | Converts Presentation to SVG. |
-| [toSvg](tosvg)(String, Convert.GetOutPathCallback) | Converts Presentation to SVG. |
-| [toSvg](tosvg)(Presentation, Convert.GetOutPathCallback) | Converts Presentation to SVG. |
-| [toSvg](tosvg)(Presentation, ISVGOptions) | Converts Presentation to SVG. |
-| [toSvg](tosvg)(Presentation, Convert.GetOutPathCallback, ISVGOptions) | Converts Presentation to SVG. |
+| [toSvg](tosvg)(Presentation, SVGOptions) | Converts Presentation to SVG. |

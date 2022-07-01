@@ -1,13 +1,13 @@
 ---
 title: setPicturesCompression
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/htmloptions/setpicturescompression/
 ---
 
-## setPicturesCompression(int) method
+## setPicturesCompression(int value)  method
 
  Represents the pictures compression level
  

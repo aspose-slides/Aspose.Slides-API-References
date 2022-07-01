@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/fontfallbackrule/remove/
 ---
 
-## remove(java.lang.String) method
+## remove(String fontName)  method
 
  Removes the first occurrence of a specific FallBack font from the list.
  

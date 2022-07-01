@@ -1,6 +1,6 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -16,8 +16,8 @@ url: /php-java/fontsubstrule/
 
 | Name | Description |
 | --- | --- |
-| [FontSubstRule](fontsubstrule)(IFontData, IFontData) | Creates new instance. |
-| [FontSubstRule](fontsubstrule)(IFontData, IFontData, int) | Creates new instance. |
+| [FontSubstRule](fontsubstrule)(FontData, FontData) | Creates new instance. |
+| [FontSubstRule](fontsubstrule)(FontData, FontData, int) | Creates new instance. |
 
 ## Methods
 

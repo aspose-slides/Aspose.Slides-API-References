@@ -1,13 +1,13 @@
 ---
 title: insertOleObjectFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 490
 url: /php-java/shapecollection/insertoleobjectframe/
 ---
 
-## insertOleObjectFrame(int, float, float, float, float, com.aspose.slides.IOleEmbeddedDataInfo) method
+## insertOleObjectFrame(int index, float x, float y, float width, float height, OleEmbeddedDataInfo dataInfo)  method
 
  Creates a new OLE object and inserts it to a collection at the specified index.
  
@@ -38,7 +38,7 @@ Created OLE object.
 ---
 
 
-## insertOleObjectFrame(int, float, float, float, float, java.lang.String, java.lang.String) method
+## insertOleObjectFrame(int index, float x, float y, float width, float height, String className, String path)  method
 
  Creates a new OLE object and inserts it to a collection at the specified index.
  

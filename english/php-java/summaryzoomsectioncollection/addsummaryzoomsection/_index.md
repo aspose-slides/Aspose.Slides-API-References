@@ -1,13 +1,13 @@
 ---
 title: addSummaryZoomSection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/summaryzoomsectioncollection/addsummaryzoomsection/
 ---
 
-## addSummaryZoomSection(com.aspose.slides.ISection) method
+## addSummaryZoomSection(Section section)  method
 
  Creates new Summary Zoom Section object and add it to the collection
  

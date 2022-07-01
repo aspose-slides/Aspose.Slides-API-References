@@ -1,13 +1,13 @@
 ---
 title: setCharacter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/mathaccent/setcharacter/
 ---
 
-## setCharacter(char) method
+## setCharacter(char value)  method
 
  Accent Character
  The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF)

@@ -1,13 +1,13 @@
 ---
 title: setEndParagraphPortionFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/paragraph/setendparagraphportionformat/
 ---
 
-## setEndParagraphPortionFormat(com.aspose.slides.IPortionFormat) method
+## setEndParagraphPortionFormat(PortionFormat value)  method
 
  Specifies the portion properties that are to be used if another portion is inserted after 
  the last one.

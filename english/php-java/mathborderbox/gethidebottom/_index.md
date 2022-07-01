@@ -1,13 +1,13 @@
 ---
 title: getHideBottom
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/mathborderbox/gethidebottom/
 ---
 
-## getHideBottom() method
+## getHideBottom()  method
 
  Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box.
  

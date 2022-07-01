@@ -1,13 +1,13 @@
 ---
 title: addNode
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/smartartnodecollection/addnode/
 ---
 
-## addNode() method
+## addNode()  method
 
  Add new smart art node or sub node.
  

@@ -1,13 +1,13 @@
 ---
 title: addDataPointForLineSeries
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 220
 url: /php-java/chartdatapointcollection/adddatapointforlineseries/
 ---
 
-## addDataPointForLineSeries(com.aspose.slides.IChartDataCell) method
+## addDataPointForLineSeries(ChartDataCell value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Line subtypes (see also  ChartTypeCharacterizer#isChartTypeLine(int) method).
@@ -26,7 +26,7 @@ ChartTypeCharacterizer#isChartTypeLine(int)
 ---
 
 
-## addDataPointForLineSeries(double) method
+## addDataPointForLineSeries(double value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Line subtypes (see also  ChartTypeCharacterizer#isChartTypeLine(int) method).

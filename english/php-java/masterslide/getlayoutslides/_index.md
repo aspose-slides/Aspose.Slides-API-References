@@ -1,13 +1,13 @@
 ---
 title: getLayoutSlides
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/masterslide/getlayoutslides/
 ---
 
-## getLayoutSlides() method
+## getLayoutSlides()  method
 
  Returns the collection of child layout slides for this master slide.
  Read-only  IMasterLayoutSlideCollection.

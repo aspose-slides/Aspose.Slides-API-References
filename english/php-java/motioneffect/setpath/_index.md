@@ -1,13 +1,13 @@
 ---
 title: setPath
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/motioneffect/setpath/
 ---
 
-## setPath(com.aspose.slides.IMotionPath) method
+## setPath(MotionPath value)  method
 
  Specifies the path primitive followed by coordinates for the animation motion.
  Read/write  IMotionPath.

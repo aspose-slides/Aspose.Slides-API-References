@@ -1,13 +1,13 @@
 ---
 title: getCompliance
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/pdfoptions/getcompliance/
 ---
 
-## getCompliance() method
+## getCompliance()  method
 
  Desired conformance level for generated PDF document.
  Read/write  PdfCompliance.

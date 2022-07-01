@@ -1,13 +1,13 @@
 ---
 title: getJoinStyle
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 140
 url: /php-java/lineformat/getjoinstyle/
 ---
 
-## getJoinStyle() method
+## getJoinStyle()  method
 
  Returns or sets the lines join style.
  Read/write  LineJoinStyle.

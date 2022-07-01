@@ -1,13 +1,13 @@
 ---
 title: setTrendlineName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 260
 url: /php-java/trendline/settrendlinename/
 ---
 
-## setTrendlineName(java.lang.String) method
+## setTrendlineName(String value)  method
 
  Gets or sets  name of the trendline.
  Read/write  String.

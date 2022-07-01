@@ -1,13 +1,13 @@
 ---
 title: addText
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/htmlgenerator/addtext/
 ---
 
-## addText(java.lang.String) method
+## addText(String text)  method
 
  Adds plain text to the html files, replacing special characters with html entities.
  Linebreaks and whitespaces aren't replaced.
@@ -23,7 +23,7 @@ url: /php-java/htmlgenerator/addtext/
 ---
 
 
-## addText(char[]) method
+## addText(char[] text)  method
 
  Adds plain text to the html files, replacing special characters with html entities.
  Linebreaks and whitespaces aren't replaced.
@@ -39,7 +39,7 @@ url: /php-java/htmlgenerator/addtext/
 ---
 
 
-## addText(char[], int, int) method
+## addText(char[] text, int startIndex, int length)  method
 
  Adds plain text to the html files, replacing special characters with html entities.
  Linebreaks and whitespaces aren't replaced.

@@ -1,13 +1,13 @@
 ---
 title: setName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/section/setname/
 ---
 
-## setName(java.lang.String) method
+## setName(String value)  method
 
  Name of the section.
  

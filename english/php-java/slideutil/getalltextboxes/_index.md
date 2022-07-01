@@ -1,13 +1,19 @@
 ---
 title: getAllTextBoxes
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/slideutil/getalltextboxes/
 ---
 
-## getAllTextBoxes(com.aspose.slides.IBaseSlide) method
+## getAllTextBoxes(BaseSlide slide)  method
+## getAllTextBoxes(LayoutSlide slide)  method
+## getAllTextBoxes(MasterHandoutSlide slide)  method
+## getAllTextBoxes(MasterNotesSlide slide)  method
+## getAllTextBoxes(MasterSlide slide)  method
+## getAllTextBoxes(NotesSlide slide)  method
+## getAllTextBoxes(Slide slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  

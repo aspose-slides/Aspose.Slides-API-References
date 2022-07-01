@@ -1,13 +1,13 @@
 ---
 title: setHeaderAndChildHeadersVisibility
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility/
 ---
 
-## setHeaderAndChildHeadersVisibility(boolean) method
+## setHeaderAndChildHeadersVisibility(boolean isVisible)  method
 
  Changes master notes slide header placeholder and all child header placeholders visibility.
  Child placeholders mean placeholders are contained on depending notes slides.

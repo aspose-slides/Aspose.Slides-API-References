@@ -1,13 +1,13 @@
 ---
 title: initColorSchemeFrom
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/overridetheme/initcolorschemefrom/
 ---
 
-## initColorSchemeFrom(com.aspose.slides.IColorScheme) method
+## initColorSchemeFrom(ColorScheme colorScheme)  method
 
  Init ColorScheme with new object for overriding ColorScheme of InheritedTheme.
  

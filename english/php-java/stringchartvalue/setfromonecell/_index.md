@@ -1,13 +1,13 @@
 ---
 title: setFromOneCell
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/stringchartvalue/setfromonecell/
 ---
 
-## setFromOneCell(com.aspose.slides.IChartDataCell) method
+## setFromOneCell(ChartDataCell cell)  method
 
  Sets value from specified cell.
  

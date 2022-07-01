@@ -1,13 +1,13 @@
 ---
 title: getJustification
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/mathparagraph/getjustification/
 ---
 
-## getJustification() method
+## getJustification()  method
 
  Paragraph Justification 
  Default value: CenteredAsGroup

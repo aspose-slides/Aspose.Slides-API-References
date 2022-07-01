@@ -1,13 +1,13 @@
 ---
 title: removeAt
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/rowcollection/removeat/
 ---
 
-## removeAt(int, boolean) method
+## removeAt(int firstRowIndex, boolean withAttachedRows)  method
 
  Removes a row at the specified position from a table.
  

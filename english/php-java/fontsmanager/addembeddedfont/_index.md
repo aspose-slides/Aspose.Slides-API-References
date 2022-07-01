@@ -1,13 +1,13 @@
 ---
 title: addEmbeddedFont
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/fontsmanager/addembeddedfont/
 ---
 
-## addEmbeddedFont(com.aspose.slides.IFontData, int) method
+## addEmbeddedFont(FontData fontData, int embedFontRule)  method
 
  Adds the embedded font
  
@@ -22,7 +22,7 @@ url: /php-java/fontsmanager/addembeddedfont/
 ---
 
 
-## addEmbeddedFont(byte[], int) method
+## addEmbeddedFont(byte[] fontData, int embedFontRule)  method
 
  Adds the embedded font
  

@@ -1,13 +1,13 @@
 ---
 title: removeItem
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/piesplitcustompointcollection/removeitem/
 ---
 
-## removeItem(com.aspose.slides.IChartDataPoint) method
+## removeItem(ChartDataPoint dataPoint)  method
 
   Removes item from collection.
   

@@ -1,13 +1,13 @@
 ---
 title: setAccessPermissions
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 180
 url: /php-java/pdfoptions/setaccesspermissions/
 ---
 
-## setAccessPermissions(int) method
+## setAccessPermissions(int value)  method
 
  Contains a set of flags specifying which access permissions should be granted when the document is opened
  with user access. See  PdfAccessPermissions.

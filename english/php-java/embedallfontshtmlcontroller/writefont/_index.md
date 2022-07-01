@@ -1,13 +1,13 @@
 ---
 title: writeFont
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/embedallfontshtmlcontroller/writefont/
 ---
 
-## writeFont(com.aspose.slides.IHtmlGenerator, com.aspose.slides.IFontData, com.aspose.slides.IFontData, java.lang.String, java.lang.String, byte[]) method
+## writeFont(HtmlGenerator generator, FontData originalFont, FontData substitutedFont, String fontStyle, String fontWeight, byte[] fontData)  method
 
  Writes data as base64 into HTML document itself
  

@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/fontfallbackrulescollection/add/
 ---
 
-## add(com.aspose.slides.IFontFallBackRule) method
+## add(FontFallBackRule sourceRule)  method
 
  Add a specified FallBack rule to the end of the collection.
  

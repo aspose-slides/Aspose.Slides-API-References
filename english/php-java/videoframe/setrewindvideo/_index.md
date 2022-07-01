@@ -1,13 +1,13 @@
 ---
 title: setRewindVideo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/videoframe/setrewindvideo/
 ---
 
-## setRewindVideo(boolean) method
+## setRewindVideo(boolean value)  method
 
  Determines whether a video is automatically rewinded to start
  as soon as the movie has finished playing.

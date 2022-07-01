@@ -1,13 +1,13 @@
 ---
 title: remove
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 200
 url: /php-java/paragraphcollection/remove/
 ---
 
-## remove(com.aspose.slides.IParagraph) method
+## remove(Paragraph item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  

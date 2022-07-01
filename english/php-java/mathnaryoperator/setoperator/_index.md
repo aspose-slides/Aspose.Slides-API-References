@@ -1,13 +1,13 @@
 ---
 title: setOperator
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 180
 url: /php-java/mathnaryoperator/setoperator/
 ---
 
-## setOperator(char) method
+## setOperator(char value)  method
 
  Nary Operator Character
  For example: '?', '?'

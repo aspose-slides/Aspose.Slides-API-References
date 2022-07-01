@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/mathparagraph/add/
 ---
 
-## add(com.aspose.slides.IMathBlock) method
+## add(MathBlock mathBlock)  method
 
  Adds IMathBlock to the end of collection.
  

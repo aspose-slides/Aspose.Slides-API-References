@@ -1,13 +1,13 @@
 ---
 title: getSeriesGroups
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/chartdata/getseriesgroups/
 ---
 
-## getSeriesGroups() method
+## getSeriesGroups()  method
 
  Gets the groups of series.
  Read-only  IChartSeriesGroupCollection.

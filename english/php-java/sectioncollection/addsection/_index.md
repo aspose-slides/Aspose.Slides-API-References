@@ -1,13 +1,13 @@
 ---
 title: addSection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/sectioncollection/addsection/
 ---
 
-## addSection(java.lang.String, com.aspose.slides.ISlide) method
+## addSection(String name, Slide startedFromSlide)  method
 
  Add slides section started form specific slide.
  

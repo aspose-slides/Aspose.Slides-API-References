@@ -1,13 +1,13 @@
 ---
 title: equals
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/shapeframe/equals/
 ---
 
-## equals(java.lang.Object) method
+## equals(Object obj)  method
 
  Returns a value indicating whether this instance is equal to a specified object.
  
@@ -25,7 +25,7 @@ true if obj is a ShapeFrame that has the same value as this instance; otherwise,
 ---
 
 
-## equals(com.aspose.slides.ShapeFrame) method
+## equals(ShapeFrame value)  method
 
  Returns a value indicating whether this instance is equal to a specified object.
  

@@ -1,13 +1,13 @@
 ---
 title: op_Equality
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 250
 url: /php-java/hyperlink/op_equality/
 ---
 
-## op_Equality(com.aspose.slides.Hyperlink, com.aspose.slides.Hyperlink) method
+## op_Equality(Hyperlink hlink1, Hyperlink hlink2)  method
 
  Tests two hyperlinks for equality.
  

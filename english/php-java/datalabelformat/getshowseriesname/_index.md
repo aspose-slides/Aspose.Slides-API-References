@@ -1,13 +1,13 @@
 ---
 title: getShowSeriesName
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 130
 url: /php-java/datalabelformat/getshowseriesname/
 ---
 
-## getShowSeriesName() method
+## getShowSeriesName()  method
 
  Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. 
  True to show the series name. False to hide.

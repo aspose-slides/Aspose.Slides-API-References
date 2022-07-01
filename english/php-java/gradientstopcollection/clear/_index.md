@@ -1,13 +1,13 @@
 ---
 title: clear
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/gradientstopcollection/clear/
 ---
 
-## clear() method
+## clear()  method
 
  Removes all gradient stops from a collection.
  

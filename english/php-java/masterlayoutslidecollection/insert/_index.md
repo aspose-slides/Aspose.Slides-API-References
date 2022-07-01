@@ -1,13 +1,13 @@
 ---
 title: insert
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/masterlayoutslidecollection/insert/
 ---
 
-## insert(int, byte, java.lang.String) method
+## insert(int index, byte layoutType, String layoutName)  method
 
  Inserts a new layout slide to specified position of the collection.
  

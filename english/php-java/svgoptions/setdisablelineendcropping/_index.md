@@ -1,13 +1,13 @@
 ---
 title: setDisableLineEndCropping
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 190
 url: /php-java/svgoptions/setdisablelineendcropping/
 ---
 
-## setDisableLineEndCropping(boolean) method
+## setDisableLineEndCropping(boolean value)  method
 
  SVG 1.1 lacks ability to define insets for markers.
  Aspose.Slides SVG writing engine has workaround for that problem:

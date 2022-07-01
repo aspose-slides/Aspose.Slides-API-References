@@ -1,13 +1,13 @@
 ---
 title: addNodeByPosition
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/smartartnodecollection/addnodebyposition/
 ---
 
-## addNodeByPosition(int) method
+## addNodeByPosition(int position)  method
 
  Add new node in the selected position of nodes collection
  
@@ -25,7 +25,7 @@ Added node
 
 | Exception | Condition |
 | --- | --- |
- | com.aspose.ms.System.ArgumentOutOfRangeException | position is less than 0 |
+ | ArgumentOutOfRangeException | position is less than 0 |
 
 
 ---

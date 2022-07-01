@@ -1,13 +1,13 @@
 ---
 title: getDpi
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/picturefillformat/getdpi/
 ---
 
-## getDpi() method
+## getDpi()  method
 
  Returns or sets the dpi which is used to fill a picture.
  Read/write  int.

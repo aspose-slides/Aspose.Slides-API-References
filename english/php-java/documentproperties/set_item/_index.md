@@ -1,13 +1,13 @@
 ---
 title: set_Item
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 660
 url: /php-java/documentproperties/set_item/
 ---
 
-## set_Item(java.lang.String, java.lang.Object) method
+## set_Item(String name, Object value)  method
 
  Returns or sets the custom property associated with a specified name.
  Read/write  Object.

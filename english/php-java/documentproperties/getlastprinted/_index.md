@@ -1,13 +1,13 @@
 ---
 title: getLastPrinted
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 260
 url: /php-java/documentproperties/getlastprinted/
 ---
 
-## getLastPrinted() method
+## getLastPrinted()  method
 
  Returns the date when a presentation was printed last time.
  Read/write  java.util.Date.

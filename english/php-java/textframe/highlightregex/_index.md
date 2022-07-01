@@ -1,13 +1,13 @@
 ---
 title: highlightRegex
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/textframe/highlightregex/
 ---
 
-## highlightRegex(java.lang.String, java.awt.Color, com.aspose.slides.ITextHighlightingOptions) method
+## highlightRegex(String regex, Color highlightColor, TextHighlightingOptions options)  method
 
  Highlight all matches of regular expression in text frame text using specified color.
  

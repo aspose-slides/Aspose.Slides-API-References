@@ -1,13 +1,13 @@
 ---
 title: setText
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/textframe/settext/
 ---
 
-## setText(java.lang.String) method
+## setText(String value)  method
 
  Gets or sets the plain text for a TextFrame.
  Read/write  String.

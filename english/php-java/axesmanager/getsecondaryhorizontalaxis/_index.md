@@ -1,13 +1,13 @@
 ---
 title: getSecondaryHorizontalAxis
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/axesmanager/getsecondaryhorizontalaxis/
 ---
 
-## getSecondaryHorizontalAxis() method
+## getSecondaryHorizontalAxis()  method
 
   Gets the chart's secondary horizontal axis.
   Read-only  IAxis.

@@ -1,13 +1,13 @@
 ---
 title: setInternalString
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 240
 url: /php-java/fieldtype/setinternalstring/
 ---
 
-## setInternalString(java.lang.String) method
+## setInternalString(String value)  method
 
  Returns the internal name of this FieldType object.
  Read/write  String.

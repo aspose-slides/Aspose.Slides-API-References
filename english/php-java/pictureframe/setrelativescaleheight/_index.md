@@ -1,13 +1,13 @@
 ---
 title: setRelativeScaleHeight
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/pictureframe/setrelativescaleheight/
 ---
 
-## setRelativeScaleHeight(float) method
+## setRelativeScaleHeight(float value)  method
 
  Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%.
  Read/write  float.

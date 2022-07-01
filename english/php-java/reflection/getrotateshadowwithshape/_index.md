@@ -1,13 +1,13 @@
 ---
 title: getRotateShadowWithShape
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 120
 url: /php-java/reflection/getrotateshadowwithshape/
 ---
 
-## getRotateShadowWithShape() method
+## getRotateShadowWithShape()  method
 
  Specifies whether the reflection should rotate with the shape if the shape is rotated.
  Read/write  boolean.

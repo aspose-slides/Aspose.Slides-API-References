@@ -1,13 +1,13 @@
 ---
 title: getDefaultSymbolFont
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 60
 url: /php-java/loadoptions/getdefaultsymbolfont/
 ---
 
-## getDefaultSymbolFont() method
+## getDefaultSymbolFont()  method
 
  Returns or sets Symbol font used in case source font is not found.
  Read/write  String.

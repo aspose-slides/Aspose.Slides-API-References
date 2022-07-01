@@ -1,13 +1,13 @@
 ---
 title: setCharacter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 90
 url: /php-java/mathgroupingcharacter/setcharacter/
 ---
 
-## setCharacter(char) method
+## setCharacter(char value)  method
 
  Grouping Character
  Default value: U+23DF (BOTTOM CURLY BRACKET)

@@ -1,13 +1,13 @@
 ---
 title: getStrokeSrc
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 1020
 url: /php-java/behaviorproperty/getstrokesrc/
 ---
 
-## getStrokeSrc() method
+## getStrokeSrc()  method
 
  Represents 'stroke.src' property
  

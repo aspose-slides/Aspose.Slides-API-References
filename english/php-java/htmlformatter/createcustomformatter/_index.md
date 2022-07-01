@@ -1,13 +1,17 @@
 ---
 title: createCustomFormatter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/htmlformatter/createcustomformatter/
 ---
 
-## createCustomFormatter(com.aspose.slides.IHtmlFormattingController) method
+## createCustomFormatter(EmbedAllFontsHtmlController formattingController)  method
+## createCustomFormatter(EmbeddedEotFontsHtmlController formattingController)  method
+## createCustomFormatter(EmbeddedWoffFontsHtmlController formattingController)  method
+## createCustomFormatter(ResponsiveHtmlController formattingController)  method
+## createCustomFormatter(VideoPlayerHtmlController formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  

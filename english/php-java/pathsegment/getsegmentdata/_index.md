@@ -1,13 +1,13 @@
 ---
 title: getSegmentData
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/pathsegment/getsegmentdata/
 ---
 
-## getSegmentData() method
+## getSegmentData()  method
 
  Path data of the segment
  

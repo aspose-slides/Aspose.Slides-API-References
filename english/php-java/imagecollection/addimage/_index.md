@@ -1,13 +1,13 @@
 ---
 title: addImage
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/imagecollection/addimage/
 ---
 
-## addImage(com.aspose.slides.IPPImage) method
+## addImage(PPImage imageSource)  method
 
  Adds a copy of an image from an another presentation.
  
@@ -25,7 +25,7 @@ Added image.
 ---
 
 
-## addImage(java.awt.image.BufferedImage) method
+## addImage(BufferedImage image)  method
 
  Add an image to a presentation.
  
@@ -43,7 +43,7 @@ Added image.
 ---
 
 
-## addImage(java.io.InputStream) method
+## addImage(InputStream stream)  method
 
  Add an image to a presentation from stream.
  
@@ -61,7 +61,7 @@ Added image.
 ---
 
 
-## addImage(java.io.InputStream, int) method
+## addImage(InputStream stream, int loadingStreamBehavior)  method
 
  Creates and adds an image to a presentation from stream.
  
@@ -80,7 +80,7 @@ Added IPPImage.
 ---
 
 
-## addImage(byte[]) method
+## addImage(byte[] buffer)  method
 
  Adds an image to a presentation from specified buffer.
  
@@ -98,7 +98,7 @@ Added image.
 ---
 
 
-## addImage(com.aspose.slides.ISvgImage) method
+## addImage(SvgImage svgImage)  method
 
  Add an image to a presentation from Svg object. 
  

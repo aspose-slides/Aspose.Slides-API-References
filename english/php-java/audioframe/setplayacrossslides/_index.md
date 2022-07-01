@@ -1,13 +1,13 @@
 ---
 title: setPlayAcrossSlides
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 210
 url: /php-java/audioframe/setplayacrossslides/
 ---
 
-## setPlayAcrossSlides(boolean) method
+## setPlayAcrossSlides(boolean value)  method
 
   Determines whether audio is playing across the slides.
   Read/write  boolean.

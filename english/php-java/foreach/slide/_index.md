@@ -1,13 +1,12 @@
 ---
 title: slide
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 80
 url: /php-java/foreach/slide/
 ---
 
-## slide(com.aspose.slides.Presentation, com.aspose.slides.ForEach.ForEachSlideCallback) method
 
  Iterate each  #slide(Presentation,ForEachSlideCallback) in the  Presentation.
  

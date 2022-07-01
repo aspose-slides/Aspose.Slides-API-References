@@ -1,13 +1,13 @@
 ---
 title: getCell
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 30
 url: /php-java/chartdataworkbook/getcell/
 ---
 
-## getCell(java.lang.String, int, int) method
+## getCell(String worksheetName, int row, int column)  method
 
  Gets the cell that can be used for chart series or categories
  
@@ -27,7 +27,7 @@ Cell object
 ---
 
 
-## getCell(int, int, int) method
+## getCell(int worksheetIndex, int row, int column)  method
 
  Gets the cell that can be used for chart series or categories
  
@@ -47,7 +47,7 @@ Cell object
 ---
 
 
-## getCell(int, java.lang.String) method
+## getCell(int worksheetIndex, String cellName)  method
 
  Gets the cell that can be used for chart series or categories
  
@@ -66,7 +66,7 @@ Cell object
 ---
 
 
-## getCell(int, java.lang.String, java.lang.Object) method
+## getCell(int worksheetIndex, String cellName, Object value)  method
 
  Gets the cell that can be used for chart series or categories
  
@@ -86,7 +86,7 @@ Cell object
 ---
 
 
-## getCell(int, int, int, java.lang.Object) method
+## getCell(int worksheetIndex, int row, int column, Object value)  method
 
  Gets the cell that can be used for chart series or categories
  

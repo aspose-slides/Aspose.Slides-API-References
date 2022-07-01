@@ -1,6 +1,6 @@
 ---
 title: Paragraph
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -31,5 +31,5 @@ url: /php-java/paragraph/
 | [getSlide](getslide)() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
 | [getText](gettext)() | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
 | [joinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting. |
-| [setEndParagraphPortionFormat](setendparagraphportionformat)(IPortionFormat) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
+| [setEndParagraphPortionFormat](setendparagraphportionformat)(PortionFormat) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
 | [setText](settext)(String) | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |

@@ -1,13 +1,13 @@
 ---
 title: setRectangleAlign
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 270
 url: /php-java/reflection/setrectanglealign/
 ---
 
-## setRectangleAlign(byte) method
+## setRectangleAlign(byte value)  method
 
  Rectangle alignment.
  Read/write  RectangleAlignment.

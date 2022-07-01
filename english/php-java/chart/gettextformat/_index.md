@@ -1,13 +1,13 @@
 ---
 title: getTextFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 170
 url: /php-java/chart/gettextformat/
 ---
 
-## getTextFormat() method
+## getTextFormat()  method
 
  Returns chart text format.
  The property is not applicable for the following types:  ChartType#Treemap,  ChartType#Sunburst,

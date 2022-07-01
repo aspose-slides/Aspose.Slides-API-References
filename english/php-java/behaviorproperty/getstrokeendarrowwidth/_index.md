@@ -1,13 +1,13 @@
 ---
 title: getStrokeEndArrowWidth
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 950
 url: /php-java/behaviorproperty/getstrokeendarrowwidth/
 ---
 
-## getStrokeEndArrowWidth() method
+## getStrokeEndArrowWidth()  method
 
  Represents 'stroke.endArrowWidth' property
  

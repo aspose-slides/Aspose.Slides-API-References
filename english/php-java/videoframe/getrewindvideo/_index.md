@@ -1,13 +1,13 @@
 ---
 title: getRewindVideo
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/videoframe/getrewindvideo/
 ---
 
-## getRewindVideo() method
+## getRewindVideo()  method
 
  Determines whether a video is automatically rewinded to start
  as soon as the movie has finished playing.

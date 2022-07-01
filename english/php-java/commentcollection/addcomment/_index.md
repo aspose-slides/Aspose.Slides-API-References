@@ -1,13 +1,13 @@
 ---
 title: addComment
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/commentcollection/addcomment/
 ---
 
-## addComment(java.lang.String, com.aspose.slides.ISlide, java.awt.geom.Point2D.Float, java.util.Date) method
+## addComment(String text, Slide slide, Point2D.Float position, Date creationTime)  method
 
  Add new comment at the end of a collection.
  

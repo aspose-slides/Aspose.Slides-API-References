@@ -1,13 +1,13 @@
 ---
 title: setStyleIndex
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 100
 url: /php-java/background/setstyleindex/
 ---
 
-## setStyleIndex(int) method
+## setStyleIndex(int value)  method
 
  Returns an index of BackgroundType.Themed fill in background theme collection.
  0 means no fill.

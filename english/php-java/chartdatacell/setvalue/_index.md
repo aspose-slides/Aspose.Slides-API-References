@@ -1,13 +1,13 @@
 ---
 title: setValue
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 150
 url: /php-java/chartdatacell/setvalue/
 ---
 
-## setValue(java.lang.Object) method
+## setValue(Object value)  method
 
  Gets or sets the value.
  Read/write  Object.

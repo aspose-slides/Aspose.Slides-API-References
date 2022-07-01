@@ -1,13 +1,13 @@
 ---
 title: setPoints
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/propertyeffect/setpoints/
 ---
 
-## setPoints(com.aspose.slides.IPointCollection) method
+## setPoints(PointCollection value)  method
 
  Specifies the points of the animation.
  Read/write  IPointCollection.

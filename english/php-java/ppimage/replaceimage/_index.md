@@ -1,13 +1,13 @@
 ---
 title: replaceImage
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/ppimage/replaceimage/
 ---
 
-## replaceImage(byte[]) method
+## replaceImage(byte[] newImageData)  method
 
  Replaces image data.
  
@@ -28,7 +28,7 @@ url: /php-java/ppimage/replaceimage/
 ---
 
 
-## replaceImage(com.aspose.slides.IPPImage) method
+## replaceImage(PPImage newImage)  method
 
  Replaces image data.
  

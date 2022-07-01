@@ -1,6 +1,6 @@
 ---
 title: MathBox
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -24,7 +24,27 @@ Example:
 
 | Name | Description |
 | --- | --- |
-| [MathBox](mathbox)(IMathElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(BaseScript) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathAccent) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathArray) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathBar) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathBlock) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathBorderBox) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathBox) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathDelimiter) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathElementBase) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathematicalText) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathFraction) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathFunction) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathGroupingCharacter) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathLeftSubSuperscriptElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathLimit) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathMatrix) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathNaryOperator) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathRadical) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathRightSubSuperscriptElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathSubscriptElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathSuperscriptElement) | Initializes MathBox with the specified element as an argument |
 
 ## Methods
 

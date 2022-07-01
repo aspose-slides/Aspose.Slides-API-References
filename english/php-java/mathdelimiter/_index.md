@@ -1,6 +1,6 @@
 ---
 title: MathDelimiter
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
@@ -24,7 +24,27 @@ Example:
 
 | Name | Description |
 | --- | --- |
-| [MathDelimiter](mathdelimiter)(IMathElement) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(BaseScript) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathAccent) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathArray) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathBar) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathBlock) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathBorderBox) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathBox) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathDelimiter) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathElementBase) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathematicalText) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathFraction) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathFunction) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathGroupingCharacter) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathLeftSubSuperscriptElement) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathLimit) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathMatrix) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathNaryOperator) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathRadical) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathRightSubSuperscriptElement) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathSubscriptElement) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)(MathSuperscriptElement) | Initializes MathDelimiter with the specified element as single base argument |
 
 ## Methods
 

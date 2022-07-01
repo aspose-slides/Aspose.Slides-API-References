@@ -1,13 +1,13 @@
 ---
 title: insertAudioFrameLinked
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 380
 url: /php-java/shapecollection/insertaudioframelinked/
 ---
 
-## insertAudioFrameLinked(int, float, float, float, float, java.lang.String) method
+## insertAudioFrameLinked(int index, float x, float y, float width, float height, String fname)  method
 
  Creates a new audio frame with linked audio file and inserts it to a collection at the specified index.
  

@@ -1,13 +1,13 @@
 ---
 title: contains
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 50
 url: /php-java/behaviorpropertycollection/contains/
 ---
 
-## contains(com.aspose.slides.IBehaviorProperty) method
+## contains(BehaviorProperty item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -25,7 +25,7 @@ IGenericCollection
 ---
 
 
-## contains(java.lang.String) method
+## contains(String propertyValue)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  

@@ -1,13 +1,13 @@
 ---
 title: getFormat
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 20
 url: /php-java/datatable/getformat/
 ---
 
-## getFormat() method
+## getFormat()  method
 
  Returns the line, fill, and effect styles of an object.
  Read-only  IFormat.

@@ -1,13 +1,13 @@
 ---
 title: setXmlAsString
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 70
 url: /php-java/customxmlpart/setxmlasstring/
 ---
 
-## setXmlAsString(java.lang.String) method
+## setXmlAsString(String value)  method
 
  Returns or sets xml data as UTF-8 string.
  Read/write  String.

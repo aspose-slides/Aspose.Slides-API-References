@@ -1,13 +1,13 @@
 ---
 title: getSummarySection
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 40
 url: /php-java/summaryzoomsectioncollection/getsummarysection/
 ---
 
-## getSummarySection(com.aspose.slides.ISection) method
+## getSummarySection(Section section)  method
 
  Returns Summary Zoom Section element for the given section.
  

@@ -1,13 +1,13 @@
 ---
 title: add
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 10
 url: /php-java/vbareferencecollection/add/
 ---
 
-## add(com.aspose.slides.IVbaReference) method
+## add(VbaReferenceOleTypeLib value)  method
 
  Adds the new reference to references collection
  

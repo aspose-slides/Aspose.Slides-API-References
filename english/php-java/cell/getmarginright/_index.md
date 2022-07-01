@@ -1,13 +1,13 @@
 ---
 title: getMarginRight
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 110
 url: /php-java/cell/getmarginright/
 ---
 
-## getMarginRight() method
+## getMarginRight()  method
 
  Returns or sets the right margin in a TextFrame.
  Read/write  double.

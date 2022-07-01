@@ -1,13 +1,13 @@
 ---
 title: setDrawSlidesFrame
-second_title: Aspose.Sildes PHP for Java API Reference
+second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
 weight: 230
 url: /php-java/pdfoptions/setdrawslidesframe/
 ---
 
-## setDrawSlidesFrame(boolean) method
+## setDrawSlidesFrame(boolean value)  method
 
   True to draw black frame around each slide.
   Read/write  boolean.
