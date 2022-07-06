@@ -28,7 +28,7 @@ url: /php-java/oleobjectframe/
 | [getUpdateAutomatic](getupdateautomatic)() | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write boolean. |
 | [isObjectIcon](isobjecticon)() | Determines whether an object is visible as icon. Read/write boolean. |
 | [isObjectLink](isobjectlink)() | Determines whether an object is linked to external file. Read-only boolean. |
-| [setEmbeddedData](setembeddeddata)([../OleEmbeddedDataInfo]OleEmbeddedDataInfo) | Sets information about OLE embedded data. |
+| [setEmbeddedData](setembeddeddata)([OleEmbeddedDataInfo](../OleEmbeddedDataInfo)) | Sets information about OLE embedded data. |
 | [setLinkPathLong](setlinkpathlong)(String) | Returns the full path to a linked file. Long file name will be used. Read/write String. |
 | [setObjectIcon](setobjecticon)(boolean) | Determines whether an object is visible as icon. Read/write boolean. |
 | [setObjectName](setobjectname)(String) | Returns or sets the name of an object. Read/write String. |

@@ -21,31 +21,31 @@ url: /php-java/slide/
 | [getLayoutSlide](getlayoutslide)() | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
 | [getNotesSlideManager](getnotesslidemanager)() | Allow to access notes slide, add and remove it. Read-only INotesSlideManager. |
 | [getShowMasterShapes](getshowmastershapes)() | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
-| [getSlideComments](getslidecomments)([../CommentAuthor]CommentAuthor) | Returns all slide comments added by specific author. |
+| [getSlideComments](getslidecomments)([CommentAuthor](../CommentAuthor)) | Returns all slide comments added by specific author. |
 | [getSlideNumber](getslidenumber)() | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 | [getThemeManager](getthememanager)() | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 | [getThumbnail](getthumbnail)(float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [getThumbnail](getthumbnail)() | Returns a Thumbnail Image object (20% of real size). |
 | [getThumbnail](getthumbnail)(Dimension) | Returns a Thumbnail Bitmap object with specified size. |
-| [getThumbnail](getthumbnail)([../TiffOptions]TiffOptions) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
-| [getThumbnail](getthumbnail)([../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions) | Returns a Thumbnail BufferedImage object. |
-| [getThumbnail](getthumbnail)([../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions, float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
-| [getThumbnail](getthumbnail)([../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions, Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
-| [getThumbnail](getthumbnail)([../RenderingOptions]RenderingOptions) | Returns a Thumbnail BufferedImage object. |
-| [getThumbnail](getthumbnail)([../RenderingOptions]RenderingOptions, float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
-| [getThumbnail](getthumbnail)([../RenderingOptions]RenderingOptions, Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
+| [getThumbnail](getthumbnail)([TiffOptions](../TiffOptions)) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
+| [getThumbnail](getthumbnail)([NotesCommentsLayoutingOptions](../NotesCommentsLayoutingOptions)) | Returns a Thumbnail BufferedImage object. |
+| [getThumbnail](getthumbnail)([NotesCommentsLayoutingOptions](../NotesCommentsLayoutingOptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
+| [getThumbnail](getthumbnail)([NotesCommentsLayoutingOptions](../NotesCommentsLayoutingOptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
+| [getThumbnail](getthumbnail)([RenderingOptions](../RenderingOptions)) | Returns a Thumbnail BufferedImage object. |
+| [getThumbnail](getthumbnail)([RenderingOptions](../RenderingOptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
+| [getThumbnail](getthumbnail)([RenderingOptions](../RenderingOptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
 | [joinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 | [remove](remove)() | Removes slide from presentation. |
-| [renderToGraphics](rendertographics)([../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions, Graphics2D, int, int) | Renders certain slide to a Graphics object using specified size. |
-| [renderToGraphics](rendertographics)([../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions, Graphics2D, float) | Renders certain slide to a Graphics object using specified scale. |
-| [renderToGraphics](rendertographics)([../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions, Graphics2D) | Renders certain slide to a Graphics object. |
-| [renderToGraphics](rendertographics)([../RenderingOptions]RenderingOptions, Graphics2D) | Renders certain slide to a Graphics object. |
-| [renderToGraphics](rendertographics)([../RenderingOptions]RenderingOptions, Graphics2D, float, float) | Renders certain slide to a Graphics object with custom scaling. |
-| [renderToGraphics](rendertographics)([../RenderingOptions]RenderingOptions, Graphics2D, Dimension) | Renders certain slide to a Graphics object using specified size. |
+| [renderToGraphics](rendertographics)([NotesCommentsLayoutingOptions](../NotesCommentsLayoutingOptions), Graphics2D, int, int) | Renders certain slide to a Graphics object using specified size. |
+| [renderToGraphics](rendertographics)([NotesCommentsLayoutingOptions](../NotesCommentsLayoutingOptions), Graphics2D, float) | Renders certain slide to a Graphics object using specified scale. |
+| [renderToGraphics](rendertographics)([NotesCommentsLayoutingOptions](../NotesCommentsLayoutingOptions), Graphics2D) | Renders certain slide to a Graphics object. |
+| [renderToGraphics](rendertographics)([RenderingOptions](../RenderingOptions), Graphics2D) | Renders certain slide to a Graphics object. |
+| [renderToGraphics](rendertographics)([RenderingOptions](../RenderingOptions), Graphics2D, float, float) | Renders certain slide to a Graphics object with custom scaling. |
+| [renderToGraphics](rendertographics)([RenderingOptions](../RenderingOptions), Graphics2D, Dimension) | Renders certain slide to a Graphics object using specified size. |
 | [reset](reset)() | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
 | [setHidden](sethidden)(boolean) | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
-| [setLayoutSlide](setlayoutslide)([../LayoutSlide]LayoutSlide) | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
+| [setLayoutSlide](setlayoutslide)([LayoutSlide](../LayoutSlide)) | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
 | [setShowMasterShapes](setshowmastershapes)(boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 | [setSlideNumber](setslidenumber)(int) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 | [writeAsSvg](writeassvg)(OutputStream) | Saves content of slide as SVG file. |
-| [writeAsSvg](writeassvg)(OutputStream, [../SVGOptions]SVGOptions) | Saves content of slide as SVG file. |
+| [writeAsSvg](writeassvg)(OutputStream, [SVGOptions](../SVGOptions)) | Saves content of slide as SVG file. |

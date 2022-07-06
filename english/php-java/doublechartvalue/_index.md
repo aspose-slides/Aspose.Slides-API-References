@@ -21,7 +21,7 @@ url: /php-java/doublechartvalue/
 | [getAsCell](getascell)() | Returns or sets chart data cell. Read/write IChartDataCell. |
 | [getAsLiteralDouble](getasliteraldouble)() | Returns or sets value as literal double. Read/write double. |
 | [getData](getdata)() | Returns or sets Data object. Read/write Object. |
-| [setAsCell](setascell)([../ChartDataCell]ChartDataCell) | Returns or sets chart data cell. Read/write IChartDataCell. |
+| [setAsCell](setascell)([ChartDataCell](../ChartDataCell)) | Returns or sets chart data cell. Read/write IChartDataCell. |
 | [setAsLiteralDouble](setasliteraldouble)(double) | Returns or sets value as literal double. Read/write double. |
 | [setData](setdata)(Object) | Returns or sets Data object. Read/write Object. |
 | [toDouble](todouble)() | Converts to double. |

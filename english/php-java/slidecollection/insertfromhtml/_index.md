@@ -7,7 +7,7 @@ weight: 200
 url: /php-java/slidecollection/insertfromhtml/
 ---
 
-## insertFromHtml(int index, String htmlText, [../../ExternalResourceResolver]ExternalResourceResolver resolver, String uri)  method
+## insertFromHtml(int index, String htmlText, [ExternalResourceResolver](../../ExternalResourceResolver) resolver, String uri)  method
 
  Creates slides from HTML text and inserts them to the collection at the specified position.
  
@@ -28,7 +28,7 @@ Added slides.
 ---
 
 
-## insertFromHtml(int index, String htmlText, [../../HtmlExternalResolver]HtmlExternalResolver resolver, String uri)  method
+## insertFromHtml(int index, String htmlText, [HtmlExternalResolver](../../HtmlExternalResolver) resolver, String uri)  method
 
  Creates slides from HTML text and inserts them to the collection at the specified position.
  
@@ -68,7 +68,7 @@ Added slides
 ---
 
 
-## insertFromHtml(int index, InputStream htmlStream, [../../ExternalResourceResolver]ExternalResourceResolver resolver, String uri)  method
+## insertFromHtml(int index, InputStream htmlStream, [ExternalResourceResolver](../../ExternalResourceResolver) resolver, String uri)  method
 
  Creates slides from HTML text and inserts them to the collection at the specified position.
  
@@ -89,7 +89,7 @@ Added slides.
 ---
 
 
-## insertFromHtml(int index, InputStream htmlStream, [../../HtmlExternalResolver]HtmlExternalResolver resolver, String uri)  method
+## insertFromHtml(int index, InputStream htmlStream, [HtmlExternalResolver](../../HtmlExternalResolver) resolver, String uri)  method
 
  Creates slides from HTML text and inserts them to the collection at the specified position.
  

@@ -7,7 +7,7 @@ weight: 520
 url: /php-java/shapecollection/insertsectionzoomframe/
 ---
 
-## insertSectionZoomFrame(int index, float x, float y, float width, float height, [../../Section]Section section)  method
+## insertSectionZoomFrame(int index, float x, float y, float width, float height, [Section](../../Section) section)  method
 
  Creates a new Section Zoom object and inserts into to a collection at the specified index.
  
@@ -50,7 +50,7 @@ Created Section Zoom object ISectionZoomFrame.
 ---
 
 
-## insertSectionZoomFrame(int index, float x, float y, float width, float height, [../../Section]Section section, [../../PPImage]PPImage image)  method
+## insertSectionZoomFrame(int index, float x, float y, float width, float height, [Section](../../Section) section, [PPImage](../../PPImage) image)  method
 
  Creates a new Section Zoom object and inserts it to a collection at the specified index.
  

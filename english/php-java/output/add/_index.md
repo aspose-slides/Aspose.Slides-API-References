@@ -27,7 +27,7 @@ IOutputFile object for the context object.
 ---
 
 
-## add(String path, [../../PPImage]PPImage image)  method
+## add(String path, [PPImage](../../PPImage) image)  method
 
  Adds an output element for the image.
  
@@ -65,7 +65,7 @@ IOutputFile object for the image.
 ---
 
 
-## add(String path, [../../Video]Video video)  method
+## add(String path, [Video](../../Video) video)  method
 
  Adds an output element for the video.
  
@@ -84,7 +84,7 @@ IOutputFile object for the video.
 ---
 
 
-## add(String path, [../../FontData]FontData fontData, int fontStyle)  method
+## add(String path, [FontData](../../FontData) fontData, int fontStyle)  method
 
  Adds an output element for the font.
  

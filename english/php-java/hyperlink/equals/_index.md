@@ -25,7 +25,7 @@ true if the specified Hyperlink is equal to the current Hyperlink; otherwise, fa
 ---
 
 
-## equals([../../Hyperlink]Hyperlink hlink)  method
+## equals([Hyperlink](../../Hyperlink) hlink)  method
 
  Determines whether the two Hyperlink instances are equal.
  

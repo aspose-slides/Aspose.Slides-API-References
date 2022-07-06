@@ -7,7 +7,7 @@ weight: 170
 url: /php-java/shapecollection/addoleobjectframe/
 ---
 
-## addOleObjectFrame(float x, float y, float width, float height, [../../OleEmbeddedDataInfo]OleEmbeddedDataInfo dataInfo)  method
+## addOleObjectFrame(float x, float y, float width, float height, [OleEmbeddedDataInfo](../../OleEmbeddedDataInfo) dataInfo)  method
 
  Adds a new OLE object to the end of a collection.
  

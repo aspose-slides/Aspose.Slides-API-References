@@ -16,7 +16,7 @@ url: /php-java/vbareferencecollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)([../VbaReferenceOleTypeLib]VbaReferenceOleTypeLib) | Adds the new reference to references collection |
+| [add](add)([VbaReferenceOleTypeLib](../VbaReferenceOleTypeLib)) | Adds the new reference to references collection |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
 | [get_Item](get_item)(int) | Gets the element at the specified index. |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |

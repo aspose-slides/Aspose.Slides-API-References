@@ -7,7 +7,7 @@ weight: 490
 url: /php-java/shapecollection/insertoleobjectframe/
 ---
 
-## insertOleObjectFrame(int index, float x, float y, float width, float height, [../../OleEmbeddedDataInfo]OleEmbeddedDataInfo dataInfo)  method
+## insertOleObjectFrame(int index, float x, float y, float width, float height, [OleEmbeddedDataInfo](../../OleEmbeddedDataInfo) dataInfo)  method
 
  Creates a new OLE object and inserts it to a collection at the specified index.
  

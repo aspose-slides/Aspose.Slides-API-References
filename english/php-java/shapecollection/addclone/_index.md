@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/shapecollection/addclone/
 ---
 
-## addClone([../../AudioFrame]AudioFrame sourceShape, float x, float y, float width, float height)  method
+## addClone([AudioFrame](../../AudioFrame) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -29,7 +29,7 @@ New shape.
 ---
 
 
-## addClone([../../AutoShape]AutoShape sourceShape, float x, float y, float width, float height)  method
+## addClone([AutoShape](../../AutoShape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -51,7 +51,7 @@ New shape.
 ---
 
 
-## addClone([../../Chart]Chart sourceShape, float x, float y, float width, float height)  method
+## addClone([Chart](../../Chart) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -73,7 +73,7 @@ New shape.
 ---
 
 
-## addClone([../../Connector]Connector sourceShape, float x, float y, float width, float height)  method
+## addClone([Connector](../../Connector) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -95,7 +95,7 @@ New shape.
 ---
 
 
-## addClone([../../GeometryShape]GeometryShape sourceShape, float x, float y, float width, float height)  method
+## addClone([GeometryShape](../../GeometryShape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -117,7 +117,7 @@ New shape.
 ---
 
 
-## addClone([../../GraphicalObject]GraphicalObject sourceShape, float x, float y, float width, float height)  method
+## addClone([GraphicalObject](../../GraphicalObject) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -139,7 +139,7 @@ New shape.
 ---
 
 
-## addClone([../../GroupShape]GroupShape sourceShape, float x, float y, float width, float height)  method
+## addClone([GroupShape](../../GroupShape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -161,7 +161,7 @@ New shape.
 ---
 
 
-## addClone([../../Ink]Ink sourceShape, float x, float y, float width, float height)  method
+## addClone([Ink](../../Ink) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -183,7 +183,7 @@ New shape.
 ---
 
 
-## addClone([../../LegacyDiagram]LegacyDiagram sourceShape, float x, float y, float width, float height)  method
+## addClone([LegacyDiagram](../../LegacyDiagram) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -205,7 +205,7 @@ New shape.
 ---
 
 
-## addClone([../../OleObjectFrame]OleObjectFrame sourceShape, float x, float y, float width, float height)  method
+## addClone([OleObjectFrame](../../OleObjectFrame) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -227,7 +227,7 @@ New shape.
 ---
 
 
-## addClone([../../PictureFrame]PictureFrame sourceShape, float x, float y, float width, float height)  method
+## addClone([PictureFrame](../../PictureFrame) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -249,7 +249,7 @@ New shape.
 ---
 
 
-## addClone([../../SectionZoomFrame]SectionZoomFrame sourceShape, float x, float y, float width, float height)  method
+## addClone([SectionZoomFrame](../../SectionZoomFrame) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -271,7 +271,7 @@ New shape.
 ---
 
 
-## addClone([../../Shape]Shape sourceShape, float x, float y, float width, float height)  method
+## addClone([Shape](../../Shape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -293,7 +293,7 @@ New shape.
 ---
 
 
-## addClone([../../SmartArt]SmartArt sourceShape, float x, float y, float width, float height)  method
+## addClone([SmartArt](../../SmartArt) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -315,7 +315,7 @@ New shape.
 ---
 
 
-## addClone([../../SmartArtShape]SmartArtShape sourceShape, float x, float y, float width, float height)  method
+## addClone([SmartArtShape](../../SmartArtShape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -337,7 +337,7 @@ New shape.
 ---
 
 
-## addClone([../../SummaryZoomFrame]SummaryZoomFrame sourceShape, float x, float y, float width, float height)  method
+## addClone([SummaryZoomFrame](../../SummaryZoomFrame) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -359,7 +359,7 @@ New shape.
 ---
 
 
-## addClone([../../SummaryZoomSection]SummaryZoomSection sourceShape, float x, float y, float width, float height)  method
+## addClone([SummaryZoomSection](../../SummaryZoomSection) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -381,7 +381,7 @@ New shape.
 ---
 
 
-## addClone([../../Table]Table sourceShape, float x, float y, float width, float height)  method
+## addClone([Table](../../Table) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -403,7 +403,7 @@ New shape.
 ---
 
 
-## addClone([../../VideoFrame]VideoFrame sourceShape, float x, float y, float width, float height)  method
+## addClone([VideoFrame](../../VideoFrame) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -425,7 +425,7 @@ New shape.
 ---
 
 
-## addClone([../../ZoomFrame]ZoomFrame sourceShape, float x, float y, float width, float height)  method
+## addClone([ZoomFrame](../../ZoomFrame) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -447,7 +447,7 @@ New shape.
 ---
 
 
-## addClone([../../ZoomObject]ZoomObject sourceShape, float x, float y, float width, float height)  method
+## addClone([ZoomObject](../../ZoomObject) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
@@ -469,7 +469,7 @@ New shape.
 ---
 
 
-## addClone([../../AudioFrame]AudioFrame sourceShape, float x, float y)  method
+## addClone([AudioFrame](../../AudioFrame) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -490,7 +490,7 @@ Shape
 ---
 
 
-## addClone([../../AutoShape]AutoShape sourceShape, float x, float y)  method
+## addClone([AutoShape](../../AutoShape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -511,7 +511,7 @@ Shape
 ---
 
 
-## addClone([../../Chart]Chart sourceShape, float x, float y)  method
+## addClone([Chart](../../Chart) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -532,7 +532,7 @@ Shape
 ---
 
 
-## addClone([../../Connector]Connector sourceShape, float x, float y)  method
+## addClone([Connector](../../Connector) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -553,7 +553,7 @@ Shape
 ---
 
 
-## addClone([../../GeometryShape]GeometryShape sourceShape, float x, float y)  method
+## addClone([GeometryShape](../../GeometryShape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -574,7 +574,7 @@ Shape
 ---
 
 
-## addClone([../../GraphicalObject]GraphicalObject sourceShape, float x, float y)  method
+## addClone([GraphicalObject](../../GraphicalObject) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -595,7 +595,7 @@ Shape
 ---
 
 
-## addClone([../../GroupShape]GroupShape sourceShape, float x, float y)  method
+## addClone([GroupShape](../../GroupShape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -616,7 +616,7 @@ Shape
 ---
 
 
-## addClone([../../Ink]Ink sourceShape, float x, float y)  method
+## addClone([Ink](../../Ink) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -637,7 +637,7 @@ Shape
 ---
 
 
-## addClone([../../LegacyDiagram]LegacyDiagram sourceShape, float x, float y)  method
+## addClone([LegacyDiagram](../../LegacyDiagram) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -658,7 +658,7 @@ Shape
 ---
 
 
-## addClone([../../OleObjectFrame]OleObjectFrame sourceShape, float x, float y)  method
+## addClone([OleObjectFrame](../../OleObjectFrame) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -679,7 +679,7 @@ Shape
 ---
 
 
-## addClone([../../PictureFrame]PictureFrame sourceShape, float x, float y)  method
+## addClone([PictureFrame](../../PictureFrame) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -700,7 +700,7 @@ Shape
 ---
 
 
-## addClone([../../SectionZoomFrame]SectionZoomFrame sourceShape, float x, float y)  method
+## addClone([SectionZoomFrame](../../SectionZoomFrame) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -721,7 +721,7 @@ Shape
 ---
 
 
-## addClone([../../Shape]Shape sourceShape, float x, float y)  method
+## addClone([Shape](../../Shape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -742,7 +742,7 @@ Shape
 ---
 
 
-## addClone([../../SmartArt]SmartArt sourceShape, float x, float y)  method
+## addClone([SmartArt](../../SmartArt) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -763,7 +763,7 @@ Shape
 ---
 
 
-## addClone([../../SmartArtShape]SmartArtShape sourceShape, float x, float y)  method
+## addClone([SmartArtShape](../../SmartArtShape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -784,7 +784,7 @@ Shape
 ---
 
 
-## addClone([../../SummaryZoomFrame]SummaryZoomFrame sourceShape, float x, float y)  method
+## addClone([SummaryZoomFrame](../../SummaryZoomFrame) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -805,7 +805,7 @@ Shape
 ---
 
 
-## addClone([../../SummaryZoomSection]SummaryZoomSection sourceShape, float x, float y)  method
+## addClone([SummaryZoomSection](../../SummaryZoomSection) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -826,7 +826,7 @@ Shape
 ---
 
 
-## addClone([../../Table]Table sourceShape, float x, float y)  method
+## addClone([Table](../../Table) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -847,7 +847,7 @@ Shape
 ---
 
 
-## addClone([../../VideoFrame]VideoFrame sourceShape, float x, float y)  method
+## addClone([VideoFrame](../../VideoFrame) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -868,7 +868,7 @@ Shape
 ---
 
 
-## addClone([../../ZoomFrame]ZoomFrame sourceShape, float x, float y)  method
+## addClone([ZoomFrame](../../ZoomFrame) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -889,7 +889,7 @@ Shape
 ---
 
 
-## addClone([../../ZoomObject]ZoomObject sourceShape, float x, float y)  method
+## addClone([ZoomObject](../../ZoomObject) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -910,7 +910,7 @@ Shape
 ---
 
 
-## addClone([../../AudioFrame]AudioFrame sourceShape)  method
+## addClone([AudioFrame](../../AudioFrame) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -929,7 +929,7 @@ Shape
 ---
 
 
-## addClone([../../AutoShape]AutoShape sourceShape)  method
+## addClone([AutoShape](../../AutoShape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -948,7 +948,7 @@ Shape
 ---
 
 
-## addClone([../../Chart]Chart sourceShape)  method
+## addClone([Chart](../../Chart) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -967,7 +967,7 @@ Shape
 ---
 
 
-## addClone([../../Connector]Connector sourceShape)  method
+## addClone([Connector](../../Connector) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -986,7 +986,7 @@ Shape
 ---
 
 
-## addClone([../../GeometryShape]GeometryShape sourceShape)  method
+## addClone([GeometryShape](../../GeometryShape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1005,7 +1005,7 @@ Shape
 ---
 
 
-## addClone([../../GraphicalObject]GraphicalObject sourceShape)  method
+## addClone([GraphicalObject](../../GraphicalObject) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1024,7 +1024,7 @@ Shape
 ---
 
 
-## addClone([../../GroupShape]GroupShape sourceShape)  method
+## addClone([GroupShape](../../GroupShape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1043,7 +1043,7 @@ Shape
 ---
 
 
-## addClone([../../Ink]Ink sourceShape)  method
+## addClone([Ink](../../Ink) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1062,7 +1062,7 @@ Shape
 ---
 
 
-## addClone([../../LegacyDiagram]LegacyDiagram sourceShape)  method
+## addClone([LegacyDiagram](../../LegacyDiagram) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1081,7 +1081,7 @@ Shape
 ---
 
 
-## addClone([../../OleObjectFrame]OleObjectFrame sourceShape)  method
+## addClone([OleObjectFrame](../../OleObjectFrame) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1100,7 +1100,7 @@ Shape
 ---
 
 
-## addClone([../../PictureFrame]PictureFrame sourceShape)  method
+## addClone([PictureFrame](../../PictureFrame) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1119,7 +1119,7 @@ Shape
 ---
 
 
-## addClone([../../SectionZoomFrame]SectionZoomFrame sourceShape)  method
+## addClone([SectionZoomFrame](../../SectionZoomFrame) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1138,7 +1138,7 @@ Shape
 ---
 
 
-## addClone([../../Shape]Shape sourceShape)  method
+## addClone([Shape](../../Shape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1157,7 +1157,7 @@ Shape
 ---
 
 
-## addClone([../../SmartArt]SmartArt sourceShape)  method
+## addClone([SmartArt](../../SmartArt) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1176,7 +1176,7 @@ Shape
 ---
 
 
-## addClone([../../SmartArtShape]SmartArtShape sourceShape)  method
+## addClone([SmartArtShape](../../SmartArtShape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1195,7 +1195,7 @@ Shape
 ---
 
 
-## addClone([../../SummaryZoomFrame]SummaryZoomFrame sourceShape)  method
+## addClone([SummaryZoomFrame](../../SummaryZoomFrame) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1214,7 +1214,7 @@ Shape
 ---
 
 
-## addClone([../../SummaryZoomSection]SummaryZoomSection sourceShape)  method
+## addClone([SummaryZoomSection](../../SummaryZoomSection) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1233,7 +1233,7 @@ Shape
 ---
 
 
-## addClone([../../Table]Table sourceShape)  method
+## addClone([Table](../../Table) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1252,7 +1252,7 @@ Shape
 ---
 
 
-## addClone([../../VideoFrame]VideoFrame sourceShape)  method
+## addClone([VideoFrame](../../VideoFrame) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1271,7 +1271,7 @@ Shape
 ---
 
 
-## addClone([../../ZoomFrame]ZoomFrame sourceShape)  method
+## addClone([ZoomFrame](../../ZoomFrame) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1290,7 +1290,7 @@ Shape
 ---
 
 
-## addClone([../../ZoomObject]ZoomObject sourceShape)  method
+## addClone([ZoomObject](../../ZoomObject) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.

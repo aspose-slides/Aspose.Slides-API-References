@@ -7,7 +7,7 @@ weight: 220
 url: /php-java/table/settextformat/
 ---
 
-## setTextFormat([../../PortionFormat]PortionFormat source)  method
+## setTextFormat([PortionFormat](../../PortionFormat) source)  method
 
  Sets defined portion format properties to all table cells' portions.
  
@@ -22,7 +22,7 @@ url: /php-java/table/settextformat/
 ---
 
 
-## setTextFormat([../../ParagraphFormat]ParagraphFormat source)  method
+## setTextFormat([ParagraphFormat](../../ParagraphFormat) source)  method
 
  Sets defined paragraph format properties to all table cells' paragraphs.
  
@@ -37,7 +37,7 @@ url: /php-java/table/settextformat/
 ---
 
 
-## setTextFormat([../../TextFrameFormat]TextFrameFormat source)  method
+## setTextFormat([TextFrameFormat](../../TextFrameFormat) source)  method
 
  Sets defined text frame format properties to all table cells' text frames.
  

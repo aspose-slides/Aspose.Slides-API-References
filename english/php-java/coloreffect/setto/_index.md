@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/coloreffect/setto/
 ---
 
-## setTo([../../ColorFormat]ColorFormat value)  method
+## setTo([ColorFormat](../../ColorFormat) value)  method
 
  Describes resulting color for the animation color change.
  Read/write  IColorFormat.

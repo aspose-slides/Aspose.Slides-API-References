@@ -7,7 +7,7 @@ weight: 270
 url: /php-java/imagetransformoperationcollection/removeitem/
 ---
 
-## removeItem([../../AlphaBiLevel]AlphaBiLevel item)  method
+## removeItem([AlphaBiLevel](../../AlphaBiLevel) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -31,7 +31,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../AlphaCeiling]AlphaCeiling item)  method
+## removeItem([AlphaCeiling](../../AlphaCeiling) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -55,7 +55,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../AlphaFloor]AlphaFloor item)  method
+## removeItem([AlphaFloor](../../AlphaFloor) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -79,7 +79,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../AlphaInverse]AlphaInverse item)  method
+## removeItem([AlphaInverse](../../AlphaInverse) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -103,7 +103,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../AlphaModulate]AlphaModulate item)  method
+## removeItem([AlphaModulate](../../AlphaModulate) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -127,7 +127,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../AlphaModulateFixed]AlphaModulateFixed item)  method
+## removeItem([AlphaModulateFixed](../../AlphaModulateFixed) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -151,7 +151,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../AlphaReplace]AlphaReplace item)  method
+## removeItem([AlphaReplace](../../AlphaReplace) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -175,7 +175,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../BiLevel]BiLevel item)  method
+## removeItem([BiLevel](../../BiLevel) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -199,7 +199,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../Blur]Blur item)  method
+## removeItem([Blur](../../Blur) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -223,7 +223,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../ColorChange]ColorChange item)  method
+## removeItem([ColorChange](../../ColorChange) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -247,7 +247,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../ColorReplace]ColorReplace item)  method
+## removeItem([ColorReplace](../../ColorReplace) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -271,7 +271,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../Duotone]Duotone item)  method
+## removeItem([Duotone](../../Duotone) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -295,7 +295,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../FillOverlay]FillOverlay item)  method
+## removeItem([FillOverlay](../../FillOverlay) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -319,7 +319,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../Glow]Glow item)  method
+## removeItem([Glow](../../Glow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -343,7 +343,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../GrayScale]GrayScale item)  method
+## removeItem([GrayScale](../../GrayScale) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -367,7 +367,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../HSL]HSL item)  method
+## removeItem([HSL](../../HSL) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -391,7 +391,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../ImageTransformOperation]ImageTransformOperation item)  method
+## removeItem([ImageTransformOperation](../../ImageTransformOperation) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -415,7 +415,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../InnerShadow]InnerShadow item)  method
+## removeItem([InnerShadow](../../InnerShadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -439,7 +439,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../Luminance]Luminance item)  method
+## removeItem([Luminance](../../Luminance) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -463,7 +463,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../OuterShadow]OuterShadow item)  method
+## removeItem([OuterShadow](../../OuterShadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -487,7 +487,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../PresetShadow]PresetShadow item)  method
+## removeItem([PresetShadow](../../PresetShadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -511,7 +511,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../Reflection]Reflection item)  method
+## removeItem([Reflection](../../Reflection) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -535,7 +535,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../SoftEdge]SoftEdge item)  method
+## removeItem([SoftEdge](../../SoftEdge) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -559,7 +559,7 @@ IGenericCollection
 ---
 
 
-## removeItem([../../Tint]Tint item)  method
+## removeItem([Tint](../../Tint) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  

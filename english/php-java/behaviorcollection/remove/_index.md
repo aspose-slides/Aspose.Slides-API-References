@@ -7,7 +7,7 @@ weight: 120
 url: /php-java/behaviorcollection/remove/
 ---
 
-## remove([../../Behavior]Behavior item)  method
+## remove([Behavior](../../Behavior) item)  method
 
  Removes specified behavior from a collection.
  
@@ -22,7 +22,7 @@ url: /php-java/behaviorcollection/remove/
 ---
 
 
-## remove([../../ColorEffect]ColorEffect item)  method
+## remove([ColorEffect](../../ColorEffect) item)  method
 
  Removes specified behavior from a collection.
  
@@ -37,7 +37,7 @@ url: /php-java/behaviorcollection/remove/
 ---
 
 
-## remove([../../CommandEffect]CommandEffect item)  method
+## remove([CommandEffect](../../CommandEffect) item)  method
 
  Removes specified behavior from a collection.
  
@@ -52,7 +52,7 @@ url: /php-java/behaviorcollection/remove/
 ---
 
 
-## remove([../../FilterEffect]FilterEffect item)  method
+## remove([FilterEffect](../../FilterEffect) item)  method
 
  Removes specified behavior from a collection.
  
@@ -67,7 +67,7 @@ url: /php-java/behaviorcollection/remove/
 ---
 
 
-## remove([../../MotionEffect]MotionEffect item)  method
+## remove([MotionEffect](../../MotionEffect) item)  method
 
  Removes specified behavior from a collection.
  
@@ -82,7 +82,7 @@ url: /php-java/behaviorcollection/remove/
 ---
 
 
-## remove([../../PropertyEffect]PropertyEffect item)  method
+## remove([PropertyEffect](../../PropertyEffect) item)  method
 
  Removes specified behavior from a collection.
  
@@ -97,7 +97,7 @@ url: /php-java/behaviorcollection/remove/
 ---
 
 
-## remove([../../RotationEffect]RotationEffect item)  method
+## remove([RotationEffect](../../RotationEffect) item)  method
 
  Removes specified behavior from a collection.
  
@@ -112,7 +112,7 @@ url: /php-java/behaviorcollection/remove/
 ---
 
 
-## remove([../../ScaleEffect]ScaleEffect item)  method
+## remove([ScaleEffect](../../ScaleEffect) item)  method
 
  Removes specified behavior from a collection.
  
@@ -127,7 +127,7 @@ url: /php-java/behaviorcollection/remove/
 ---
 
 
-## remove([../../SetEffect]SetEffect item)  method
+## remove([SetEffect](../../SetEffect) item)  method
 
  Removes specified behavior from a collection.
  

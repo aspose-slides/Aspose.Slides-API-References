@@ -7,7 +7,7 @@ weight: 150
 url: /php-java/slidecollection/indexof/
 ---
 
-## indexOf([../../Slide]Slide slide)  method
+## indexOf([Slide](../../Slide) slide)  method
 
  Returns an index of the specified slide in the collection.
  

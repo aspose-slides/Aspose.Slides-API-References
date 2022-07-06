@@ -7,7 +7,7 @@ weight: 200
 url: /php-java/imagetransformoperationcollection/containsitem/
 ---
 
-## containsItem([../../AlphaBiLevel]AlphaBiLevel item)  method
+## containsItem([AlphaBiLevel](../../AlphaBiLevel) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -25,7 +25,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../AlphaCeiling]AlphaCeiling item)  method
+## containsItem([AlphaCeiling](../../AlphaCeiling) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -43,7 +43,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../AlphaFloor]AlphaFloor item)  method
+## containsItem([AlphaFloor](../../AlphaFloor) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -61,7 +61,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../AlphaInverse]AlphaInverse item)  method
+## containsItem([AlphaInverse](../../AlphaInverse) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -79,7 +79,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../AlphaModulate]AlphaModulate item)  method
+## containsItem([AlphaModulate](../../AlphaModulate) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -97,7 +97,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../AlphaModulateFixed]AlphaModulateFixed item)  method
+## containsItem([AlphaModulateFixed](../../AlphaModulateFixed) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -115,7 +115,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../AlphaReplace]AlphaReplace item)  method
+## containsItem([AlphaReplace](../../AlphaReplace) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -133,7 +133,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../BiLevel]BiLevel item)  method
+## containsItem([BiLevel](../../BiLevel) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -151,7 +151,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../Blur]Blur item)  method
+## containsItem([Blur](../../Blur) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -169,7 +169,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../ColorChange]ColorChange item)  method
+## containsItem([ColorChange](../../ColorChange) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -187,7 +187,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../ColorReplace]ColorReplace item)  method
+## containsItem([ColorReplace](../../ColorReplace) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -205,7 +205,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../Duotone]Duotone item)  method
+## containsItem([Duotone](../../Duotone) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -223,7 +223,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../FillOverlay]FillOverlay item)  method
+## containsItem([FillOverlay](../../FillOverlay) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -241,7 +241,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../Glow]Glow item)  method
+## containsItem([Glow](../../Glow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -259,7 +259,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../GrayScale]GrayScale item)  method
+## containsItem([GrayScale](../../GrayScale) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -277,7 +277,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../HSL]HSL item)  method
+## containsItem([HSL](../../HSL) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -295,7 +295,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../ImageTransformOperation]ImageTransformOperation item)  method
+## containsItem([ImageTransformOperation](../../ImageTransformOperation) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -313,7 +313,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../InnerShadow]InnerShadow item)  method
+## containsItem([InnerShadow](../../InnerShadow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -331,7 +331,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../Luminance]Luminance item)  method
+## containsItem([Luminance](../../Luminance) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -349,7 +349,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../OuterShadow]OuterShadow item)  method
+## containsItem([OuterShadow](../../OuterShadow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -367,7 +367,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../PresetShadow]PresetShadow item)  method
+## containsItem([PresetShadow](../../PresetShadow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -385,7 +385,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../Reflection]Reflection item)  method
+## containsItem([Reflection](../../Reflection) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -403,7 +403,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../SoftEdge]SoftEdge item)  method
+## containsItem([SoftEdge](../../SoftEdge) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -421,7 +421,7 @@ IGenericCollection
 ---
 
 
-## containsItem([../../Tint]Tint item)  method
+## containsItem([Tint](../../Tint) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  

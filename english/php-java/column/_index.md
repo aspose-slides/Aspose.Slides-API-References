@@ -18,7 +18,7 @@ url: /php-java/column/
 | --- | --- |
 | [getColumnFormat](getcolumnformat)() | Returns the ColumnFormat object that contains formatting properties for this column. Read-only IColumnFormat. |
 | [getWidth](getwidth)() | Returns or sets the width of a column. Read/write double. |
-| [setTextFormat](settextformat)([../PortionFormat]PortionFormat) | Sets defined portion format properties to all column cells' portions. |
-| [setTextFormat](settextformat)([../ParagraphFormat]ParagraphFormat) | Sets defined paragraph format properties to all column cells' paragraphs. |
-| [setTextFormat](settextformat)([../TextFrameFormat]TextFrameFormat) | Sets defined text frame format properties to all column cells' text frames. |
+| [setTextFormat](settextformat)([PortionFormat](../PortionFormat)) | Sets defined portion format properties to all column cells' portions. |
+| [setTextFormat](settextformat)([ParagraphFormat](../ParagraphFormat)) | Sets defined paragraph format properties to all column cells' paragraphs. |
+| [setTextFormat](settextformat)([TextFrameFormat](../TextFrameFormat)) | Sets defined text frame format properties to all column cells' text frames. |
 | [setWidth](setwidth)(double) | Returns or sets the width of a column. Read/write double. |

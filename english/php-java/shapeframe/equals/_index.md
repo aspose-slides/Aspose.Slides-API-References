@@ -25,7 +25,7 @@ true if obj is a ShapeFrame that has the same value as this instance; otherwise,
 ---
 
 
-## equals([../../ShapeFrame]ShapeFrame value)  method
+## equals([ShapeFrame](../../ShapeFrame) value)  method
 
  Returns a value indicating whether this instance is equal to a specified object.
  

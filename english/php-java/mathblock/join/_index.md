@@ -7,7 +7,7 @@ weight: 200
 url: /php-java/mathblock/join/
 ---
 
-## join([../../BaseScript]BaseScript mathElement)  method
+## join([BaseScript](../../BaseScript) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -32,7 +32,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathAccent]MathAccent mathElement)  method
+## join([MathAccent](../../MathAccent) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -57,7 +57,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathArray]MathArray mathElement)  method
+## join([MathArray](../../MathArray) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -82,7 +82,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathBar]MathBar mathElement)  method
+## join([MathBar](../../MathBar) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -107,7 +107,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathBlock]MathBlock mathElement)  method
+## join([MathBlock](../../MathBlock) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -132,7 +132,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathBorderBox]MathBorderBox mathElement)  method
+## join([MathBorderBox](../../MathBorderBox) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -157,7 +157,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathBox]MathBox mathElement)  method
+## join([MathBox](../../MathBox) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -182,7 +182,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathDelimiter]MathDelimiter mathElement)  method
+## join([MathDelimiter](../../MathDelimiter) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -207,7 +207,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathElementBase]MathElementBase mathElement)  method
+## join([MathElementBase](../../MathElementBase) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -232,7 +232,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathematicalText]MathematicalText mathElement)  method
+## join([MathematicalText](../../MathematicalText) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -257,7 +257,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathFraction]MathFraction mathElement)  method
+## join([MathFraction](../../MathFraction) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -282,7 +282,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathFunction]MathFunction mathElement)  method
+## join([MathFunction](../../MathFunction) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -307,7 +307,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathGroupingCharacter]MathGroupingCharacter mathElement)  method
+## join([MathGroupingCharacter](../../MathGroupingCharacter) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -332,7 +332,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement mathElement)  method
+## join([MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -357,7 +357,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathLimit]MathLimit mathElement)  method
+## join([MathLimit](../../MathLimit) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -382,7 +382,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathMatrix]MathMatrix mathElement)  method
+## join([MathMatrix](../../MathMatrix) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -407,7 +407,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathNaryOperator]MathNaryOperator mathElement)  method
+## join([MathNaryOperator](../../MathNaryOperator) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -432,7 +432,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathRadical]MathRadical mathElement)  method
+## join([MathRadical](../../MathRadical) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -457,7 +457,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement mathElement)  method
+## join([MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -482,7 +482,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathSubscriptElement]MathSubscriptElement mathElement)  method
+## join([MathSubscriptElement](../../MathSubscriptElement) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -507,7 +507,7 @@ The current instance of IMathBlock
 ---
 
 
-## join([../../MathSuperscriptElement]MathSuperscriptElement mathElement)  method
+## join([MathSuperscriptElement](../../MathSuperscriptElement) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  

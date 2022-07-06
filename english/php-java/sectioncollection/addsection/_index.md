@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/sectioncollection/addsection/
 ---
 
-## addSection(String name, [../../Slide]Slide startedFromSlide)  method
+## addSection(String name, [Slide](../../Slide) startedFromSlide)  method
 
  Add slides section started form specific slide.
  

@@ -16,7 +16,7 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([../../AudioFrame]AudioFrame shape)  method
+## get_Item([AudioFrame](../../AudioFrame) shape)  method
 
  Returns all elements 
  
@@ -34,7 +34,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../AutoShape]AutoShape shape)  method
+## get_Item([AutoShape](../../AutoShape) shape)  method
 
  Returns all elements 
  
@@ -52,7 +52,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../Chart]Chart shape)  method
+## get_Item([Chart](../../Chart) shape)  method
 
  Returns all elements 
  
@@ -70,7 +70,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../Connector]Connector shape)  method
+## get_Item([Connector](../../Connector) shape)  method
 
  Returns all elements 
  
@@ -88,7 +88,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../GeometryShape]GeometryShape shape)  method
+## get_Item([GeometryShape](../../GeometryShape) shape)  method
 
  Returns all elements 
  
@@ -106,7 +106,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../GraphicalObject]GraphicalObject shape)  method
+## get_Item([GraphicalObject](../../GraphicalObject) shape)  method
 
  Returns all elements 
  
@@ -124,7 +124,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../GroupShape]GroupShape shape)  method
+## get_Item([GroupShape](../../GroupShape) shape)  method
 
  Returns all elements 
  
@@ -142,7 +142,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../Ink]Ink shape)  method
+## get_Item([Ink](../../Ink) shape)  method
 
  Returns all elements 
  
@@ -160,7 +160,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../LegacyDiagram]LegacyDiagram shape)  method
+## get_Item([LegacyDiagram](../../LegacyDiagram) shape)  method
 
  Returns all elements 
  
@@ -178,7 +178,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../OleObjectFrame]OleObjectFrame shape)  method
+## get_Item([OleObjectFrame](../../OleObjectFrame) shape)  method
 
  Returns all elements 
  
@@ -196,7 +196,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../PictureFrame]PictureFrame shape)  method
+## get_Item([PictureFrame](../../PictureFrame) shape)  method
 
  Returns all elements 
  
@@ -214,7 +214,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../SectionZoomFrame]SectionZoomFrame shape)  method
+## get_Item([SectionZoomFrame](../../SectionZoomFrame) shape)  method
 
  Returns all elements 
  
@@ -232,7 +232,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../Shape]Shape shape)  method
+## get_Item([Shape](../../Shape) shape)  method
 
  Returns all elements 
  
@@ -250,7 +250,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../SmartArt]SmartArt shape)  method
+## get_Item([SmartArt](../../SmartArt) shape)  method
 
  Returns all elements 
  
@@ -268,7 +268,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../SmartArtShape]SmartArtShape shape)  method
+## get_Item([SmartArtShape](../../SmartArtShape) shape)  method
 
  Returns all elements 
  
@@ -286,7 +286,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../SummaryZoomFrame]SummaryZoomFrame shape)  method
+## get_Item([SummaryZoomFrame](../../SummaryZoomFrame) shape)  method
 
  Returns all elements 
  
@@ -304,7 +304,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../SummaryZoomSection]SummaryZoomSection shape)  method
+## get_Item([SummaryZoomSection](../../SummaryZoomSection) shape)  method
 
  Returns all elements 
  
@@ -322,7 +322,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../Table]Table shape)  method
+## get_Item([Table](../../Table) shape)  method
 
  Returns all elements 
  
@@ -340,7 +340,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../VideoFrame]VideoFrame shape)  method
+## get_Item([VideoFrame](../../VideoFrame) shape)  method
 
  Returns all elements 
  
@@ -358,7 +358,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../ZoomFrame]ZoomFrame shape)  method
+## get_Item([ZoomFrame](../../ZoomFrame) shape)  method
 
  Returns all elements 
  
@@ -376,7 +376,7 @@ Array of ITextAnimation
 ---
 
 
-## get_Item([../../ZoomObject]ZoomObject shape)  method
+## get_Item([ZoomObject](../../ZoomObject) shape)  method
 
  Returns all elements 
  

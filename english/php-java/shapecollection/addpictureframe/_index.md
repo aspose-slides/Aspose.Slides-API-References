@@ -7,7 +7,7 @@ weight: 190
 url: /php-java/shapecollection/addpictureframe/
 ---
 
-## addPictureFrame(int shapeType, float x, float y, float width, float height, [../../PPImage]PPImage image)  method
+## addPictureFrame(int shapeType, float x, float y, float width, float height, [PPImage](../../PPImage) image)  method
 
  Creates a new PictureFrame and adds it to the end of the collection.
  

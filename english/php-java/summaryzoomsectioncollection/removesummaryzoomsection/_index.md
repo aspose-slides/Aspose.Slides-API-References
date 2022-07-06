@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/summaryzoomsectioncollection/removesummaryzoomsection/
 ---
 
-## removeSummaryZoomSection([../../Section]Section section)  method
+## removeSummaryZoomSection([Section](../../Section) section)  method
 
  Remove Summary Zoom Section object from the collection.
  

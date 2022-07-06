@@ -7,7 +7,7 @@ weight: 260
 url: /php-java/hyperlink/op_inequality/
 ---
 
-## op_Inequality([../../Hyperlink]Hyperlink hlink1, [../../Hyperlink]Hyperlink hlink2)  method
+## op_Inequality([Hyperlink](../../Hyperlink) hlink1, [Hyperlink](../../Hyperlink) hlink2)  method
 
  Tests two hyperlinks for inequality.
  

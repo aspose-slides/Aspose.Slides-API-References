@@ -7,7 +7,7 @@ weight: 200
 url: /php-java/behaviorpropertycollection/remove/
 ---
 
-## remove([../../BehaviorProperty]BehaviorProperty item)  method
+## remove([BehaviorProperty](../../BehaviorProperty) item)  method
 
  Removes specified property from the collection.
  

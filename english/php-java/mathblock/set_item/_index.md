@@ -7,7 +7,7 @@ weight: 250
 url: /php-java/mathblock/set_item/
 ---
 
-## set_Item(int index, [../../BaseScript]BaseScript value)  method
+## set_Item(int index, [BaseScript](../../BaseScript) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -29,7 +29,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathAccent]MathAccent value)  method
+## set_Item(int index, [MathAccent](../../MathAccent) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -51,7 +51,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathArray]MathArray value)  method
+## set_Item(int index, [MathArray](../../MathArray) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -73,7 +73,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathBar]MathBar value)  method
+## set_Item(int index, [MathBar](../../MathBar) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -95,7 +95,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathBlock]MathBlock value)  method
+## set_Item(int index, [MathBlock](../../MathBlock) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -117,7 +117,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathBorderBox]MathBorderBox value)  method
+## set_Item(int index, [MathBorderBox](../../MathBorderBox) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -139,7 +139,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathBox]MathBox value)  method
+## set_Item(int index, [MathBox](../../MathBox) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -161,7 +161,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathDelimiter]MathDelimiter value)  method
+## set_Item(int index, [MathDelimiter](../../MathDelimiter) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -183,7 +183,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathElementBase]MathElementBase value)  method
+## set_Item(int index, [MathElementBase](../../MathElementBase) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -205,7 +205,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathematicalText]MathematicalText value)  method
+## set_Item(int index, [MathematicalText](../../MathematicalText) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -227,7 +227,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathFraction]MathFraction value)  method
+## set_Item(int index, [MathFraction](../../MathFraction) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -249,7 +249,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathFunction]MathFunction value)  method
+## set_Item(int index, [MathFunction](../../MathFunction) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -271,7 +271,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathGroupingCharacter]MathGroupingCharacter value)  method
+## set_Item(int index, [MathGroupingCharacter](../../MathGroupingCharacter) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -293,7 +293,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement value)  method
+## set_Item(int index, [MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -315,7 +315,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathLimit]MathLimit value)  method
+## set_Item(int index, [MathLimit](../../MathLimit) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -337,7 +337,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathMatrix]MathMatrix value)  method
+## set_Item(int index, [MathMatrix](../../MathMatrix) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -359,7 +359,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathNaryOperator]MathNaryOperator value)  method
+## set_Item(int index, [MathNaryOperator](../../MathNaryOperator) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -381,7 +381,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathRadical]MathRadical value)  method
+## set_Item(int index, [MathRadical](../../MathRadical) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -403,7 +403,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement value)  method
+## set_Item(int index, [MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -425,7 +425,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathSubscriptElement]MathSubscriptElement value)  method
+## set_Item(int index, [MathSubscriptElement](../../MathSubscriptElement) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -447,7 +447,7 @@ Example:
 ---
 
 
-## set_Item(int index, [../../MathSuperscriptElement]MathSuperscriptElement value)  method
+## set_Item(int index, [MathSuperscriptElement](../../MathSuperscriptElement) value)  method
 
  Gets or sets IMathElement at the specified index.
  

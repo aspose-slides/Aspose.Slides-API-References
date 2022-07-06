@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/fonts/setlatinfont/
 ---
 
-## setLatinFont([../../FontData]FontData value)  method
+## setLatinFont([FontData](../../FontData) value)  method
 
  Returns or sets the Latin font.
  Read/write  IFontData.

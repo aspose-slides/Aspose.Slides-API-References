@@ -25,7 +25,7 @@ url: /php-java/hyperlink/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the two Hyperlink instances are equal. |
-| [equals](equals)([../Hyperlink]Hyperlink) | Determines whether the two Hyperlink instances are equal. |
+| [equals](equals)([Hyperlink](../Hyperlink)) | Determines whether the two Hyperlink instances are equal. |
 | [getActionType](getactiontype)() | Returns type of Hyperlink's action. Read-only HyperlinkActionType. |
 | [getColorSource](getcolorsource)() | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
 | [getEndShow](getendshow)() | Returns a hyperlink which ends the show. Read-only Hyperlink. |
@@ -44,8 +44,8 @@ url: /php-java/hyperlink/
 | [getTargetSlide](gettargetslide)() | If the Hyperlink targets specific slide returns this slide. Read-only ISlide. |
 | [getTooltip](gettooltip)() | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
-| [op_Equality](op_equality)([../Hyperlink]Hyperlink, [../Hyperlink]Hyperlink) | Tests two hyperlinks for equality. |
-| [op_Inequality](op_inequality)([../Hyperlink]Hyperlink, [../Hyperlink]Hyperlink) | Tests two hyperlinks for inequality. |
+| [op_Equality](op_equality)([Hyperlink](../Hyperlink), [Hyperlink](../Hyperlink)) | Tests two hyperlinks for equality. |
+| [op_Inequality](op_inequality)([Hyperlink](../Hyperlink), [Hyperlink](../Hyperlink)) | Tests two hyperlinks for inequality. |
 | [setColorSource](setcolorsource)(int) | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
 | [setHighlightClick](sethighlightclick)(boolean) | Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
 | [setHistory](sethistory)(boolean) | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |

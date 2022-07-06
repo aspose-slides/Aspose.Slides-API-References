@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/videoplayerhtmlcontroller/writeslidestart/
 ---
 
-## writeSlideStart([../../HtmlGenerator]HtmlGenerator generator, [../../Slide]Slide slide)  method
+## writeSlideStart([HtmlGenerator](../../HtmlGenerator) generator, [Slide](../../Slide) slide)  method
 
 
 

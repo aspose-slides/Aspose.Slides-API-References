@@ -30,7 +30,7 @@ Presentation
 ---
 
 
-## toSvg([../../Presentation]Presentation pres, [../../SVGOptions]SVGOptions options)  method
+## toSvg([Presentation](../../Presentation) pres, [SVGOptions](../../SVGOptions) options)  method
 
  Converts  Presentation to SVG.
  

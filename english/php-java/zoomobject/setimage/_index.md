@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/zoomobject/setimage/
 ---
 
-## setImage([../../PPImage]PPImage value)  method
+## setImage([PPImage](../../PPImage) value)  method
 
  Gets or sets image for zoom object.
  Read/write  IPPImage.

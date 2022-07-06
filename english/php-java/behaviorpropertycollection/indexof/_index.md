@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/behaviorpropertycollection/indexof/
 ---
 
-## indexOf([../../BehaviorProperty]BehaviorProperty item)  method
+## indexOf([BehaviorProperty](../../BehaviorProperty) item)  method
 
  Determines the index of a specific item in the  List.
  

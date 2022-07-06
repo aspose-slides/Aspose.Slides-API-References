@@ -7,7 +7,7 @@ weight: 120
 url: /php-java/customxmlpartcollection/remove/
 ---
 
-## remove([../../CustomXmlPart]CustomXmlPart item)  method
+## remove([CustomXmlPart](../../CustomXmlPart) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  

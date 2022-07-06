@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/slidecollection/addfromhtml/
 ---
 
-## addFromHtml(String htmlText, [../../ExternalResourceResolver]ExternalResourceResolver resolver, String uri)  method
+## addFromHtml(String htmlText, [ExternalResourceResolver](../../ExternalResourceResolver) resolver, String uri)  method
 
  Creates slides from HTML text and adds them to the end of the collection.
  
@@ -27,7 +27,7 @@ Added slides.
 ---
 
 
-## addFromHtml(String htmlText, [../../HtmlExternalResolver]HtmlExternalResolver resolver, String uri)  method
+## addFromHtml(String htmlText, [HtmlExternalResolver](../../HtmlExternalResolver) resolver, String uri)  method
 
  Creates slides from HTML text and adds them to the end of the collection.
  
@@ -65,7 +65,7 @@ Added slides
 ---
 
 
-## addFromHtml(InputStream htmlStream, [../../ExternalResourceResolver]ExternalResourceResolver resolver, String uri)  method
+## addFromHtml(InputStream htmlStream, [ExternalResourceResolver](../../ExternalResourceResolver) resolver, String uri)  method
 
  Creates slides from HTML text and adds them to the end of the collection.
  
@@ -85,7 +85,7 @@ Added slides.
 ---
 
 
-## addFromHtml(InputStream htmlStream, [../../HtmlExternalResolver]HtmlExternalResolver resolver, String uri)  method
+## addFromHtml(InputStream htmlStream, [HtmlExternalResolver](../../HtmlExternalResolver) resolver, String uri)  method
 
  Creates slides from HTML text and adds them to the end of the collection.
  

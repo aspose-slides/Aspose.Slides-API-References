@@ -7,7 +7,7 @@ weight: 150
 url: /php-java/loadoptions/setblobmanagementoptions/
 ---
 
-## setBlobManagementOptions([../../BlobManagementOptions]BlobManagementOptions value)  method
+## setBlobManagementOptions([BlobManagementOptions](../../BlobManagementOptions) value)  method
 
  Represents the options which can be used to manage Binary Large Objects (BLOBs) handling behavior,
  such as using of temporary files or max BLOBs bytes in memory. These options intended to set up

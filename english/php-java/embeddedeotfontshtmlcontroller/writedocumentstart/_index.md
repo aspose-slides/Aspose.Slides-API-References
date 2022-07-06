@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/embeddedeotfontshtmlcontroller/writedocumentstart/
 ---
 
-## writeDocumentStart([../../HtmlGenerator]HtmlGenerator generator, [../../Presentation]Presentation presentation)  method
+## writeDocumentStart([HtmlGenerator](../../HtmlGenerator) generator, [Presentation](../../Presentation) presentation)  method
 
 
 

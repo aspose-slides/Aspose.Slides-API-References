@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/behaviorcollection/contains/
 ---
 
-## contains([../../Behavior]Behavior item)  method
+## contains([Behavior](../../Behavior) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -25,7 +25,7 @@ IGenericCollection
 ---
 
 
-## contains([../../ColorEffect]ColorEffect item)  method
+## contains([ColorEffect](../../ColorEffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -43,7 +43,7 @@ IGenericCollection
 ---
 
 
-## contains([../../CommandEffect]CommandEffect item)  method
+## contains([CommandEffect](../../CommandEffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -61,7 +61,7 @@ IGenericCollection
 ---
 
 
-## contains([../../FilterEffect]FilterEffect item)  method
+## contains([FilterEffect](../../FilterEffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -79,7 +79,7 @@ IGenericCollection
 ---
 
 
-## contains([../../MotionEffect]MotionEffect item)  method
+## contains([MotionEffect](../../MotionEffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -97,7 +97,7 @@ IGenericCollection
 ---
 
 
-## contains([../../PropertyEffect]PropertyEffect item)  method
+## contains([PropertyEffect](../../PropertyEffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -115,7 +115,7 @@ IGenericCollection
 ---
 
 
-## contains([../../RotationEffect]RotationEffect item)  method
+## contains([RotationEffect](../../RotationEffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -133,7 +133,7 @@ IGenericCollection
 ---
 
 
-## contains([../../ScaleEffect]ScaleEffect item)  method
+## contains([ScaleEffect](../../ScaleEffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -151,7 +151,7 @@ IGenericCollection
 ---
 
 
-## contains([../../SetEffect]SetEffect item)  method
+## contains([SetEffect](../../SetEffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  

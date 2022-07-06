@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/sectioncollection/indexof/
 ---
 
-## indexOf([../../Section]Section section)  method
+## indexOf([Section](../../Section) section)  method
 
  Returns an index of the specified section in the collection.
  

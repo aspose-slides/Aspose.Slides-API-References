@@ -25,7 +25,7 @@ Read presentation
 ---
 
 
-## readPresentation(byte[] data, [../../LoadOptions]LoadOptions options)  method
+## readPresentation(byte[] data, [LoadOptions](../../LoadOptions) options)  method
 
  Reads an existing presentation from array with additional load options
  
@@ -62,7 +62,7 @@ Read presentation
 ---
 
 
-## readPresentation(InputStream stream, [../../LoadOptions]LoadOptions options)  method
+## readPresentation(InputStream stream, [LoadOptions](../../LoadOptions) options)  method
 
  Reads an existing presentation from stream with additional load options
  
@@ -99,7 +99,7 @@ Read presentation
 ---
 
 
-## readPresentation(String file, [../../LoadOptions]LoadOptions options)  method
+## readPresentation(String file, [LoadOptions](../../LoadOptions) options)  method
 
  Reads an existing presentation from stream with additional load options
  

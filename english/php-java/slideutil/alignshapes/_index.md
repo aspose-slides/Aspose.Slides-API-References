@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/slideutil/alignshapes/
 ---
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../ShapeCollection]ShapeCollection shapes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [ShapeCollection](../../ShapeCollection) shapes)  method
 
  Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -37,7 +37,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../BaseSlide]BaseSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [BaseSlide](../../BaseSlide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -67,7 +67,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../LayoutSlide]LayoutSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../LayoutSlide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -97,7 +97,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../MasterHandoutSlide]MasterHandoutSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../MasterHandoutSlide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -127,7 +127,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../MasterNotesSlide]MasterNotesSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../MasterNotesSlide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -157,7 +157,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../MasterSlide]MasterSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterSlide](../../MasterSlide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -187,7 +187,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../NotesSlide]NotesSlide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [NotesSlide](../../NotesSlide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -217,7 +217,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../Slide]Slide slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [Slide](../../Slide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -247,7 +247,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../BaseSlide]BaseSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [BaseSlide](../../BaseSlide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -281,7 +281,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../LayoutSlide]LayoutSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../LayoutSlide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -315,7 +315,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../MasterHandoutSlide]MasterHandoutSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../MasterHandoutSlide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -349,7 +349,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../MasterNotesSlide]MasterNotesSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../MasterNotesSlide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -383,7 +383,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../MasterSlide]MasterSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterSlide](../../MasterSlide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -417,7 +417,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../NotesSlide]NotesSlide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [NotesSlide](../../NotesSlide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -451,7 +451,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../Slide]Slide slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [Slide](../../Slide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -485,7 +485,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../GroupShape]GroupShape groupShape)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [GroupShape](../../GroupShape) groupShape)  method
 
  Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -516,7 +516,7 @@ Example:
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [../../GroupShape]GroupShape groupShape, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [GroupShape](../../GroupShape) groupShape, int[] shapeIndexes)  method
 
  Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.

@@ -7,7 +7,7 @@ weight: 350
 url: /php-java/presentation/getthumbnails/
 ---
 
-## getThumbnails([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting)  method
+## getThumbnails([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation.
  
@@ -25,7 +25,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides)  method
+## getThumbnails([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, int[] slides)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation.
  
@@ -44,7 +44,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)  method
+## getThumbnails([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling.
  
@@ -64,7 +64,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, float scaleX, float scaleY)  method
+## getThumbnails([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, int[] slides, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling.
  
@@ -85,7 +85,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, Dimension imageSize)  method
+## getThumbnails([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size.
  
@@ -104,7 +104,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, int[] slides, Dimension imageSize)  method
+## getThumbnails([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, int[] slides, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size.
  
@@ -124,7 +124,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../RenderingOptions]RenderingOptions options)  method
+## getThumbnails([RenderingOptions](../../RenderingOptions) options)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation.
  
@@ -142,7 +142,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../RenderingOptions]RenderingOptions options, int[] slides)  method
+## getThumbnails([RenderingOptions](../../RenderingOptions) options, int[] slides)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation.
  
@@ -161,7 +161,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../RenderingOptions]RenderingOptions options, float scaleX, float scaleY)  method
+## getThumbnails([RenderingOptions](../../RenderingOptions) options, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling.
  
@@ -181,7 +181,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../RenderingOptions]RenderingOptions options, int[] slides, float scaleX, float scaleY)  method
+## getThumbnails([RenderingOptions](../../RenderingOptions) options, int[] slides, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling.
  
@@ -202,7 +202,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../RenderingOptions]RenderingOptions options, Dimension imageSize)  method
+## getThumbnails([RenderingOptions](../../RenderingOptions) options, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size.
  
@@ -221,7 +221,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnails([../../RenderingOptions]RenderingOptions options, int[] slides, Dimension imageSize)  method
+## getThumbnails([RenderingOptions](../../RenderingOptions) options, int[] slides, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size.
  

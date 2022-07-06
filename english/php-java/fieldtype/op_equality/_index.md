@@ -7,7 +7,7 @@ weight: 220
 url: /php-java/fieldtype/op_equality/
 ---
 
-## op_Equality([../../FieldType]FieldType a, [../../FieldType]FieldType b)  method
+## op_Equality([FieldType](../../FieldType) a, [FieldType](../../FieldType) b)  method
 
  Checks if two FieldType objects is equal.
  

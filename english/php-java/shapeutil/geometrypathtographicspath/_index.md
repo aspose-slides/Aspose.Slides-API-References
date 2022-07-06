@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/shapeutil/geometrypathtographicspath/
 ---
 
-## geometryPathToGraphicsPath([../../GeometryPath]GeometryPath geometryPath)  method
+## geometryPathToGraphicsPath([GeometryPath](../../GeometryPath) geometryPath)  method
 
  Converts  IGeometryPath to  java.awt.Shape.
  GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into

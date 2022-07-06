@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/chartcellcollection/add/
 ---
 
-## add([../../ChartDataCell]ChartDataCell cell)  method
+## add([ChartDataCell](../../ChartDataCell) cell)  method
 
  Add new cell to the collection.
  

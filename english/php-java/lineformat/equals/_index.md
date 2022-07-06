@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/lineformat/equals/
 ---
 
-## equals([../../LineFormat]LineFormat lineFormat)  method
+## equals([LineFormat](../../LineFormat) lineFormat)  method
 
  Determines whether the two LineFormat instances are equal.
  

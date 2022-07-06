@@ -39,7 +39,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../GifOptions]GifOptions options)  method
+## save(String fname, int format, [GifOptions](../../GifOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -56,7 +56,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../Html5Options]Html5Options options)  method
+## save(String fname, int format, [Html5Options](../../Html5Options) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -73,7 +73,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../HtmlOptions]HtmlOptions options)  method
+## save(String fname, int format, [HtmlOptions](../../HtmlOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -90,7 +90,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../PdfOptions]PdfOptions options)  method
+## save(String fname, int format, [PdfOptions](../../PdfOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -107,7 +107,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../PptOptions]PptOptions options)  method
+## save(String fname, int format, [PptOptions](../../PptOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -124,7 +124,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../PptxOptions]PptxOptions options)  method
+## save(String fname, int format, [PptxOptions](../../PptxOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -141,7 +141,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../RenderingOptions]RenderingOptions options)  method
+## save(String fname, int format, [RenderingOptions](../../RenderingOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -158,7 +158,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../SaveOptions]SaveOptions options)  method
+## save(String fname, int format, [SaveOptions](../../SaveOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -175,7 +175,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../SVGOptions]SVGOptions options)  method
+## save(String fname, int format, [SVGOptions](../../SVGOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -192,7 +192,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../SwfOptions]SwfOptions options)  method
+## save(String fname, int format, [SwfOptions](../../SwfOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -209,7 +209,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../TiffOptions]TiffOptions options)  method
+## save(String fname, int format, [TiffOptions](../../TiffOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -226,7 +226,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../XamlOptions]XamlOptions options)  method
+## save(String fname, int format, [XamlOptions](../../XamlOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -243,7 +243,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int format, [../../XpsOptions]XpsOptions options)  method
+## save(String fname, int format, [XpsOptions](../../XpsOptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
@@ -260,7 +260,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../GifOptions]GifOptions options)  method
+## save(OutputStream stream, int format, [GifOptions](../../GifOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -283,7 +283,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../Html5Options]Html5Options options)  method
+## save(OutputStream stream, int format, [Html5Options](../../Html5Options) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -306,7 +306,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../HtmlOptions]HtmlOptions options)  method
+## save(OutputStream stream, int format, [HtmlOptions](../../HtmlOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -329,7 +329,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../PdfOptions]PdfOptions options)  method
+## save(OutputStream stream, int format, [PdfOptions](../../PdfOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -352,7 +352,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../PptOptions]PptOptions options)  method
+## save(OutputStream stream, int format, [PptOptions](../../PptOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -375,7 +375,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../PptxOptions]PptxOptions options)  method
+## save(OutputStream stream, int format, [PptxOptions](../../PptxOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -398,7 +398,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../RenderingOptions]RenderingOptions options)  method
+## save(OutputStream stream, int format, [RenderingOptions](../../RenderingOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -421,7 +421,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../SaveOptions]SaveOptions options)  method
+## save(OutputStream stream, int format, [SaveOptions](../../SaveOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -444,7 +444,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../SVGOptions]SVGOptions options)  method
+## save(OutputStream stream, int format, [SVGOptions](../../SVGOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -467,7 +467,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../SwfOptions]SwfOptions options)  method
+## save(OutputStream stream, int format, [SwfOptions](../../SwfOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -490,7 +490,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../TiffOptions]TiffOptions options)  method
+## save(OutputStream stream, int format, [TiffOptions](../../TiffOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -513,7 +513,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../XamlOptions]XamlOptions options)  method
+## save(OutputStream stream, int format, [XamlOptions](../../XamlOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -536,7 +536,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [../../XpsOptions]XpsOptions options)  method
+## save(OutputStream stream, int format, [XpsOptions](../../XpsOptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
@@ -559,7 +559,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save([../../XamlOptions]XamlOptions options)  method
+## save([XamlOptions](../../XamlOptions) options)  method
 
  Saves all slides of a presentation to a set of files representing XAML markup.
  
@@ -611,7 +611,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../GifOptions]GifOptions options)  method
+## save(String fname, int[] slides, int format, [GifOptions](../../GifOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -629,7 +629,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../Html5Options]Html5Options options)  method
+## save(String fname, int[] slides, int format, [Html5Options](../../Html5Options) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -647,7 +647,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../HtmlOptions]HtmlOptions options)  method
+## save(String fname, int[] slides, int format, [HtmlOptions](../../HtmlOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -665,7 +665,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../PdfOptions]PdfOptions options)  method
+## save(String fname, int[] slides, int format, [PdfOptions](../../PdfOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -683,7 +683,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../PptOptions]PptOptions options)  method
+## save(String fname, int[] slides, int format, [PptOptions](../../PptOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -701,7 +701,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../PptxOptions]PptxOptions options)  method
+## save(String fname, int[] slides, int format, [PptxOptions](../../PptxOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -719,7 +719,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../RenderingOptions]RenderingOptions options)  method
+## save(String fname, int[] slides, int format, [RenderingOptions](../../RenderingOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -737,7 +737,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../SaveOptions]SaveOptions options)  method
+## save(String fname, int[] slides, int format, [SaveOptions](../../SaveOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -755,7 +755,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../SVGOptions]SVGOptions options)  method
+## save(String fname, int[] slides, int format, [SVGOptions](../../SVGOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -773,7 +773,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../SwfOptions]SwfOptions options)  method
+## save(String fname, int[] slides, int format, [SwfOptions](../../SwfOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -791,7 +791,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../TiffOptions]TiffOptions options)  method
+## save(String fname, int[] slides, int format, [TiffOptions](../../TiffOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -809,7 +809,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../XamlOptions]XamlOptions options)  method
+## save(String fname, int[] slides, int format, [XamlOptions](../../XamlOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -827,7 +827,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [../../XpsOptions]XpsOptions options)  method
+## save(String fname, int[] slides, int format, [XpsOptions](../../XpsOptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
@@ -862,7 +862,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../GifOptions]GifOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [GifOptions](../../GifOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -886,7 +886,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../Html5Options]Html5Options options)  method
+## save(OutputStream stream, int[] slides, int format, [Html5Options](../../Html5Options) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -910,7 +910,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../HtmlOptions]HtmlOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [HtmlOptions](../../HtmlOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -934,7 +934,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../PdfOptions]PdfOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [PdfOptions](../../PdfOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -958,7 +958,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../PptOptions]PptOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [PptOptions](../../PptOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -982,7 +982,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../PptxOptions]PptxOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [PptxOptions](../../PptxOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -1006,7 +1006,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../RenderingOptions]RenderingOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [RenderingOptions](../../RenderingOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -1030,7 +1030,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../SaveOptions]SaveOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [SaveOptions](../../SaveOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -1054,7 +1054,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../SVGOptions]SVGOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [SVGOptions](../../SVGOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -1078,7 +1078,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../SwfOptions]SwfOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [SwfOptions](../../SwfOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -1102,7 +1102,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../TiffOptions]TiffOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [TiffOptions](../../TiffOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -1126,7 +1126,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../XamlOptions]XamlOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [XamlOptions](../../XamlOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
@@ -1150,7 +1150,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [../../XpsOptions]XpsOptions options)  method
+## save(OutputStream stream, int[] slides, int format, [XpsOptions](../../XpsOptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  

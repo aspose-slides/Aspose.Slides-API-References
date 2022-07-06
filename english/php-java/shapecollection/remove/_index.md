@@ -7,7 +7,7 @@ weight: 620
 url: /php-java/shapecollection/remove/
 ---
 
-## remove([../../AudioFrame]AudioFrame shape)  method
+## remove([AudioFrame](../../AudioFrame) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -22,7 +22,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../AutoShape]AutoShape shape)  method
+## remove([AutoShape](../../AutoShape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -37,7 +37,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../Chart]Chart shape)  method
+## remove([Chart](../../Chart) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -52,7 +52,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../Connector]Connector shape)  method
+## remove([Connector](../../Connector) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -67,7 +67,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../GeometryShape]GeometryShape shape)  method
+## remove([GeometryShape](../../GeometryShape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -82,7 +82,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../GraphicalObject]GraphicalObject shape)  method
+## remove([GraphicalObject](../../GraphicalObject) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -97,7 +97,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../GroupShape]GroupShape shape)  method
+## remove([GroupShape](../../GroupShape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -112,7 +112,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../Ink]Ink shape)  method
+## remove([Ink](../../Ink) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -127,7 +127,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../LegacyDiagram]LegacyDiagram shape)  method
+## remove([LegacyDiagram](../../LegacyDiagram) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -142,7 +142,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../OleObjectFrame]OleObjectFrame shape)  method
+## remove([OleObjectFrame](../../OleObjectFrame) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -157,7 +157,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../PictureFrame]PictureFrame shape)  method
+## remove([PictureFrame](../../PictureFrame) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -172,7 +172,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../SectionZoomFrame]SectionZoomFrame shape)  method
+## remove([SectionZoomFrame](../../SectionZoomFrame) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -187,7 +187,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../Shape]Shape shape)  method
+## remove([Shape](../../Shape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -202,7 +202,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../SmartArt]SmartArt shape)  method
+## remove([SmartArt](../../SmartArt) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -217,7 +217,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../SmartArtShape]SmartArtShape shape)  method
+## remove([SmartArtShape](../../SmartArtShape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -232,7 +232,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../SummaryZoomFrame]SummaryZoomFrame shape)  method
+## remove([SummaryZoomFrame](../../SummaryZoomFrame) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -247,7 +247,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../SummaryZoomSection]SummaryZoomSection shape)  method
+## remove([SummaryZoomSection](../../SummaryZoomSection) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -262,7 +262,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../Table]Table shape)  method
+## remove([Table](../../Table) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -277,7 +277,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../VideoFrame]VideoFrame shape)  method
+## remove([VideoFrame](../../VideoFrame) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -292,7 +292,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../ZoomFrame]ZoomFrame shape)  method
+## remove([ZoomFrame](../../ZoomFrame) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -307,7 +307,7 @@ url: /php-java/shapecollection/remove/
 ---
 
 
-## remove([../../ZoomObject]ZoomObject shape)  method
+## remove([ZoomObject](../../ZoomObject) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  

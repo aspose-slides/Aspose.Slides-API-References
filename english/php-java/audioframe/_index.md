@@ -33,7 +33,7 @@ url: /php-java/audioframe/
 | [setAudioCdEndTrackTime](setaudiocdendtracktime)(int) | Returns or sets a last track time. Read/write int. |
 | [setAudioCdStartTrack](setaudiocdstarttrack)(int) | Returns or sets a start track index. Read/write int. |
 | [setAudioCdStartTrackTime](setaudiocdstarttracktime)(int) | Returns or sets a start track time. Read/write int. |
-| [setEmbeddedAudio](setembeddedaudio)([../Audio]Audio) | Returns or sets embedded audio object. Read/write IAudio. |
+| [setEmbeddedAudio](setembeddedaudio)([Audio](../Audio)) | Returns or sets embedded audio object. Read/write IAudio. |
 | [setHideAtShowing](sethideatshowing)(boolean) | Determines whether an AudioFrame is hidden. Read/write boolean. |
 | [setLinkPathLong](setlinkpathlong)(String) | Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String. |
 | [setPlayAcrossSlides](setplayacrossslides)(boolean) | Determines whether audio is playing across the slides. Read/write boolean. |

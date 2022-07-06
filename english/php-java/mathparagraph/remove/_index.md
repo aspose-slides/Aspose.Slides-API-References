@@ -7,7 +7,7 @@ weight: 140
 url: /php-java/mathparagraph/remove/
 ---
 
-## remove([../../MathBlock]MathBlock mathBlock)  method
+## remove([MathBlock](../../MathBlock) mathBlock)  method
 
  Removes the first occurrence of a specific object from the collection.
  

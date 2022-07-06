@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/sequence/geteffectsbyparagraph/
 ---
 
-## getEffectsByParagraph([../../Paragraph]Paragraph paragraph)  method
+## getEffectsByParagraph([Paragraph](../../Paragraph) paragraph)  method
 
  Returns array of effects for the specified paragraph.
  

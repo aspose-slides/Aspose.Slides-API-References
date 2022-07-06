@@ -23,4 +23,4 @@ url: /php-java/slideimageformat/
 | Name | Description |
 | --- | --- |
 | [bitmap](bitmap)(float, String) | Slides should be converted to a raster image. |
-| [svg](svg)([../SVGOptions]SVGOptions) | Slides should converted to a SVG format. |
+| [svg](svg)([SVGOptions](../SVGOptions)) | Slides should converted to a SVG format. |

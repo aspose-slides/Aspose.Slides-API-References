@@ -29,8 +29,8 @@ url: /php-java/convert/
 | --- | --- |
 | [autoByExtension](autobyextension)(String, String) | Converts Presentation using the passed output path extension to determine the required export format. |
 | [toPdf](topdf)(String, String) | Converts Presentation to PDF. |
-| [toPdf](topdf)(String, String, [../PdfOptions]PdfOptions) | Converts Presentation to PDF. |
-| [toPdf](topdf)([../Presentation]Presentation, String) | Converts Presentation to PDF. |
-| [toPdf](topdf)([../Presentation]Presentation, String, [../PdfOptions]PdfOptions) | Converts Presentation to PDF. |
+| [toPdf](topdf)(String, String, [PdfOptions](../PdfOptions)) | Converts Presentation to PDF. |
+| [toPdf](topdf)([Presentation](../Presentation), String) | Converts Presentation to PDF. |
+| [toPdf](topdf)([Presentation](../Presentation), String, [PdfOptions](../PdfOptions)) | Converts Presentation to PDF. |
 | [toSvg](tosvg)(String) | Converts Presentation to SVG. |
-| [toSvg](tosvg)([../Presentation]Presentation, [../SVGOptions]SVGOptions) | Converts Presentation to SVG. |
+| [toSvg](tosvg)([Presentation](../Presentation), [SVGOptions](../SVGOptions)) | Converts Presentation to SVG. |

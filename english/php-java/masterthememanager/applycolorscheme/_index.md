@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/masterthememanager/applycolorscheme/
 ---
 
-## applyColorScheme([../../ExtraColorScheme]ExtraColorScheme scheme)  method
+## applyColorScheme([ExtraColorScheme](../../ExtraColorScheme) scheme)  method
 
  Applies extra color scheme to a slide.
  

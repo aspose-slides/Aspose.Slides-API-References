@@ -7,7 +7,7 @@ weight: 430
 url: /php-java/shape/sethyperlinkclick/
 ---
 
-## setHyperlinkClick([../../Hyperlink]Hyperlink value)  method
+## setHyperlinkClick([Hyperlink](../../Hyperlink) value)  method
 
  Returns or sets the hyperlink defined for mouse click.
  Read/write  IHyperlink.

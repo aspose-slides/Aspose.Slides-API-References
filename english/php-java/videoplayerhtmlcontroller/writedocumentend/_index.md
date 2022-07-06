@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/videoplayerhtmlcontroller/writedocumentend/
 ---
 
-## writeDocumentEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Presentation]Presentation presentation)  method
+## writeDocumentEnd([HtmlGenerator](../../HtmlGenerator) generator, [Presentation](../../Presentation) presentation)  method
 
 
 
