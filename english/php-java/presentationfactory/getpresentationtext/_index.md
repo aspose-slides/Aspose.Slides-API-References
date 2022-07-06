@@ -45,7 +45,7 @@ The instance of PresentationText containing the SlideText array representing the
 ---
 
 
-## getPresentationText(InputStream stream, int mode, LoadOptions options)  method
+## getPresentationText(InputStream stream, int mode, [../../LoadOptions]LoadOptions options)  method
 
  Retrieves the raw text from the slides
  

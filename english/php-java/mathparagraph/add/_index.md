@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/mathparagraph/add/
 ---
 
-## add(MathBlock mathBlock)  method
+## add([../../MathBlock]MathBlock mathBlock)  method
 
  Adds IMathBlock to the end of collection.
  

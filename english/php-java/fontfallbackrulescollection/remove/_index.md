@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/fontfallbackrulescollection/remove/
 ---
 
-## remove(FontFallBackRule targetRule)  method
+## remove([../../FontFallBackRule]FontFallBackRule targetRule)  method
 
  Removes the first occurrence of a specific FallBack rule from the collection.
  

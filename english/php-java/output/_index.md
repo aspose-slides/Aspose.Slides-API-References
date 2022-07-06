@@ -17,10 +17,10 @@ url: /php-java/output/
 | Name | Description |
 | --- | --- |
 | [add](add)(String, String, TContextObject) | Adds an output element for the context object. |
-| [add](add)(String, PPImage) | Adds an output element for the image. |
+| [add](add)(String, [../PPImage]PPImage) | Adds an output element for the image. |
 | [add](add)(String, BufferedImage) | Adds an output element for the image. |
-| [add](add)(String, Video) | Adds an output element for the video. |
-| [add](add)(String, FontData, int) | Adds an output element for the font. |
+| [add](add)(String, [../Video]Video) | Adds an output element for the video. |
+| [add](add)(String, [../FontData]FontData, int) | Adds an output element for the font. |
 | [add](add)(String, String) | Adds an output element for the text content. |
-| [bindResource](bindresource)(OutputFile, Object) | Binds resource to output file. |
+| [bindResource](bindresource)([../OutputFile]OutputFile, Object) | Binds resource to output file. |
 | [getResourcePath](getresourcepath)(Object) | Returns the path for a given resource. |

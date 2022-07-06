@@ -7,8 +7,23 @@ weight: 80
 url: /php-java/portioncollection/insert/
 ---
 
-## insert(int index, MathPortion value)  method
-## insert(int index, Portion value)  method
+## insert(int index, [../../MathPortion]MathPortion value)  method
+
+ Inserts a Portion into the collection at the specified index.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | The zero-based index at which Portion should be inserted. |
+| value | The Portion to insert. |
+
+
+---
+
+
+## insert(int index, [../../Portion]Portion value)  method
 
  Inserts a Portion into the collection at the specified index.
  

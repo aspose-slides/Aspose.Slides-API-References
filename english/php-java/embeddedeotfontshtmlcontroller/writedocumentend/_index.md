@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/embeddedeotfontshtmlcontroller/writedocumentend/
 ---
 
-## writeDocumentEnd(HtmlGenerator generator, Presentation presentation)  method
+## writeDocumentEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Presentation]Presentation presentation)  method
 
 
 

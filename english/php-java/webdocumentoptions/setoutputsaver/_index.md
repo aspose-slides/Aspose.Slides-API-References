@@ -7,15 +7,3 @@ weight: 100
 url: /php-java/webdocumentoptions/setoutputsaver/
 ---
 
-
- Returns or sets output saver.
- Read/write  IOutputSaver.
- 
-
-### Returns
-IOutputSaver
-
-
----
-
-

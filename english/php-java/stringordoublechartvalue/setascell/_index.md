@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/stringordoublechartvalue/setascell/
 ---
 
-## setAsCell(ChartDataCell value)  method
+## setAsCell([../../ChartDataCell]ChartDataCell value)  method
 
  Returns or sets chart data cell.
  Read/write  IChartDataCell.

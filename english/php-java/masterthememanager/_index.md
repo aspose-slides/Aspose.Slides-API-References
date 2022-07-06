@@ -16,9 +16,9 @@ url: /php-java/masterthememanager/
 
 | Name | Description |
 | --- | --- |
-| [applyColorScheme](applycolorscheme)(ExtraColorScheme) | Applies extra color scheme to a slide. |
+| [applyColorScheme](applycolorscheme)([../ExtraColorScheme]ExtraColorScheme) | Applies extra color scheme to a slide. |
 | [createThemeEffective](createthemeeffective)() | Returns the theme object. |
 | [getOverrideTheme](getoverridetheme)() | Returns the overriding theme object. Read/write IMasterTheme. |
 | [isOverrideThemeEnabled](isoverridethemeenabled)() | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
-| [setOverrideTheme](setoverridetheme)(MasterTheme) | Returns the overriding theme object. Read/write IMasterTheme. |
+| [setOverrideTheme](setoverridetheme)([../MasterTheme]MasterTheme) | Returns the overriding theme object. Read/write IMasterTheme. |
 | [setOverrideThemeEnabled](setoverridethemeenabled)(boolean) | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |

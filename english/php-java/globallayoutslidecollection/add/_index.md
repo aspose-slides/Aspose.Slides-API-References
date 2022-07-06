@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/globallayoutslidecollection/add/
 ---
 
-## add(MasterSlide master, byte layoutType, String layoutName)  method
+## add([../../MasterSlide]MasterSlide master, byte layoutType, String layoutName)  method
 
  Adds a new layout slide to the presentation.
  

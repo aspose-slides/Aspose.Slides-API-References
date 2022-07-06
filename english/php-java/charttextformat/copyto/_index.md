@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/charttextformat/copyto/
 ---
 
-## copyTo(TextFrame destTextFrame)  method
+## copyTo([../../TextFrame]TextFrame destTextFrame)  method
 
  Copies text format to specified text frame.
  

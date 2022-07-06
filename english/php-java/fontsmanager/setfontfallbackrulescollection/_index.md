@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/fontsmanager/setfontfallbackrulescollection/
 ---
 
-## setFontFallBackRulesCollection(FontFallBackRulesCollection value)  method
+## setFontFallBackRulesCollection([../../FontFallBackRulesCollection]FontFallBackRulesCollection value)  method
 
  Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality
  Read/write  IFontFallBackRulesCollection.

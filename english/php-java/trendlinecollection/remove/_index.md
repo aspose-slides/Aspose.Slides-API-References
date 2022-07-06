@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/trendlinecollection/remove/
 ---
 
-## remove(Trendline value)  method
+## remove([../../Trendline]Trendline value)  method
 
  Removes the specified value.
  

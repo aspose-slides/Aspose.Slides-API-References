@@ -28,7 +28,7 @@ url: /php-java/ppimage/replaceimage/
 ---
 
 
-## replaceImage(PPImage newImage)  method
+## replaceImage([../../PPImage]PPImage newImage)  method
 
  Replaces image data.
  

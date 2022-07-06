@@ -31,7 +31,7 @@ Created AudioFrame object.
 ---
 
 
-## insertAudioFrameEmbedded(int index, float x, float y, float width, float height, Audio audio)  method
+## insertAudioFrameEmbedded(int index, float x, float y, float width, float height, [../../Audio]Audio audio)  method
 
  Insert an AudioFrame with embedded audio file.
  It uses audio file from Presentation.Audios list.

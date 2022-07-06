@@ -19,4 +19,4 @@ url: /php-java/field/
 | [getPresentation](getpresentation)() | Returns the parent presentation of a paragraph. Read-only IPresentation. |
 | [getSlide](getslide)() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
 | [getType](gettype)() | Returns or sets field's type. Read/write IFieldType. |
-| [setType](settype)(FieldType) | Returns or sets field's type. Read/write IFieldType. |
+| [setType](settype)([../FieldType]FieldType) | Returns or sets field's type. Read/write IFieldType. |

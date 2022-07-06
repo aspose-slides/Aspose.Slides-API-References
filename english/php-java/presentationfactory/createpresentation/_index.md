@@ -19,7 +19,7 @@ New presentation
 ---
 
 
-## createPresentation(LoadOptions options)  method
+## createPresentation([../../LoadOptions]LoadOptions options)  method
 
  Creates new presentation with additional load options
  

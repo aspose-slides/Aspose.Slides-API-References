@@ -7,7 +7,7 @@ weight: 200
 url: /php-java/shapecollection/addsectionzoomframe/
 ---
 
-## addSectionZoomFrame(float x, float y, float width, float height, Section section)  method
+## addSectionZoomFrame(float x, float y, float width, float height, [../../Section]Section section)  method
 
  Adds a new Section Zoom object to the end of a collection.
  
@@ -49,7 +49,7 @@ Created Section Zoom object ISectionZoomFrame.
 ---
 
 
-## addSectionZoomFrame(float x, float y, float width, float height, Section section, PPImage image)  method
+## addSectionZoomFrame(float x, float y, float width, float height, [../../Section]Section section, [../../PPImage]PPImage image)  method
 
  Adds a new Section Zoom object to the end of a collection with a predefined image.
  

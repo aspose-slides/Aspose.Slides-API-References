@@ -32,6 +32,6 @@ url: /php-java/portionformat/
 | [getHyperlinkMouseOver](gethyperlinkmouseover)() | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 | [getSmartTagClean](getsmarttagclean)() | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
 | [setBookmarkId](setbookmarkid)(String) | Returns or sets bookmark identifier. Read/write String. |
-| [setHyperlinkClick](sethyperlinkclick)(Hyperlink) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
-| [setHyperlinkMouseOver](sethyperlinkmouseover)(Hyperlink) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| [setHyperlinkClick](sethyperlinkclick)([../Hyperlink]Hyperlink) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| [setHyperlinkMouseOver](sethyperlinkmouseover)([../Hyperlink]Hyperlink) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 | [setSmartTagClean](setsmarttagclean)(boolean) | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |

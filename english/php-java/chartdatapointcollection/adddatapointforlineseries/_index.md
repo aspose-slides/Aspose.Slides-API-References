@@ -7,7 +7,7 @@ weight: 220
 url: /php-java/chartdatapointcollection/adddatapointforlineseries/
 ---
 
-## addDataPointForLineSeries(ChartDataCell value)  method
+## addDataPointForLineSeries([../../ChartDataCell]ChartDataCell value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Line subtypes (see also  ChartTypeCharacterizer#isChartTypeLine(int) method).

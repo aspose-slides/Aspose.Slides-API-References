@@ -25,7 +25,7 @@ New chart series.
 ---
 
 
-## add(ChartDataCell cellWithSeriesName, int type)  method
+## add([../../ChartDataCell]ChartDataCell cellWithSeriesName, int type)  method
 
  Creates new chart series from  ChartDataCell and adds it to the collection. 
  
@@ -44,7 +44,7 @@ ChartDataCell
 ---
 
 
-## add(ChartCellCollection cellsWithSeriesName, int type)  method
+## add([../../ChartCellCollection]ChartCellCollection cellsWithSeriesName, int type)  method
 
  Creates new chart series from  ChartCellCollection and adds it to the collection. 
  

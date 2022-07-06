@@ -44,7 +44,7 @@ url: /php-java/datalabel/
 | [hide](hide)() | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this. If data label is not visible (IsVisible is false) you can make data label visible with setting Show*-flags (ShowValue, ...) to true state. |
 | [isVisible](isvisible)() | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only boolean. If data label is visible you can make it hidden with Hide() method. But if data label is not visible (IsVisible is false) you can make data label visible with setting Show*-flags (ShowValue, ...) to true state. |
 | [setHeight](setheight)(float) | Returns or sets the height of a title as a fraction of the height of the chart. Read/write float. |
-| [setValueFromCell](setvaluefromcell)(ChartDataCell) | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
+| [setValueFromCell](setvaluefromcell)([../ChartDataCell]ChartDataCell) | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
 | [setWidth](setwidth)(float) | Returns or sets the width of a title as a fraction of the width of the chart. Read/write float. |
 | [setX](setx)(float) | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write float. |
 | [setY](sety)(float) | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write float. |

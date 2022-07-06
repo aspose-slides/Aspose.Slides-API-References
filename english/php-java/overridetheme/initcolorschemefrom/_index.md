@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/overridetheme/initcolorschemefrom/
 ---
 
-## initColorSchemeFrom(ColorScheme colorScheme)  method
+## initColorSchemeFrom([../../ColorScheme]ColorScheme colorScheme)  method
 
  Init ColorScheme with new object for overriding ColorScheme of InheritedTheme.
  

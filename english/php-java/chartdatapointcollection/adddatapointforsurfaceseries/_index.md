@@ -7,7 +7,7 @@ weight: 380
 url: /php-java/chartdatapointcollection/adddatapointforsurfaceseries/
 ---
 
-## addDataPointForSurfaceSeries(ChartDataCell value)  method
+## addDataPointForSurfaceSeries([../../ChartDataCell]ChartDataCell value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Surface subtypes (see also  ChartTypeCharacterizer#isChartTypeSurface(int) method).

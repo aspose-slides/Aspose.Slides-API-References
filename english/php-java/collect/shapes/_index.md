@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/collect/shapes/
 ---
 
-## shapes(Presentation pres)  method
+## shapes([../../Presentation]Presentation pres)  method
 
  Collects all instances of  Shape in the  Presentation. 
  

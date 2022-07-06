@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/commentcollection/addcomment/
 ---
 
-## addComment(String text, Slide slide, Point2D.Float position, Date creationTime)  method
+## addComment(String text, [../../Slide]Slide slide, Point2D.Float position, Date creationTime)  method
 
  Add new comment at the end of a collection.
  

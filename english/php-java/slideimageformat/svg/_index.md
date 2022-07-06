@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/slideimageformat/svg/
 ---
 
-## svg(SVGOptions options)  method
+## svg([../../SVGOptions]SVGOptions options)  method
 
  Slides should converted to a SVG format.
  

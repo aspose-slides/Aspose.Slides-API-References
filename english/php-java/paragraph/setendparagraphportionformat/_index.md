@@ -7,7 +7,7 @@ weight: 120
 url: /php-java/paragraph/setendparagraphportionformat/
 ---
 
-## setEndParagraphPortionFormat(PortionFormat value)  method
+## setEndParagraphPortionFormat([../../PortionFormat]PortionFormat value)  method
 
  Specifies the portion properties that are to be used if another portion is inserted after 
  the last one.

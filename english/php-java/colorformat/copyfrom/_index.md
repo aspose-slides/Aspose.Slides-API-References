@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/colorformat/copyfrom/
 ---
 
-## copyFrom(ColorFormat color)  method
+## copyFrom([../../ColorFormat]ColorFormat color)  method
 
  Copy color format from "color".
  

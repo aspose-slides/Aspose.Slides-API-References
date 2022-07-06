@@ -7,27 +7,187 @@ weight: 160
 url: /php-java/sequence/removebyshape/
 ---
 
-## removeByShape(AudioFrame shape)  method
-## removeByShape(AutoShape shape)  method
-## removeByShape(Chart shape)  method
-## removeByShape(Connector shape)  method
-## removeByShape(GeometryShape shape)  method
-## removeByShape(GraphicalObject shape)  method
-## removeByShape(GroupShape shape)  method
-## removeByShape(Ink shape)  method
-## removeByShape(LegacyDiagram shape)  method
-## removeByShape(OleObjectFrame shape)  method
-## removeByShape(PictureFrame shape)  method
-## removeByShape(SectionZoomFrame shape)  method
-## removeByShape(Shape shape)  method
-## removeByShape(SmartArt shape)  method
-## removeByShape(SmartArtShape shape)  method
-## removeByShape(SummaryZoomFrame shape)  method
-## removeByShape(SummaryZoomSection shape)  method
-## removeByShape(Table shape)  method
-## removeByShape(VideoFrame shape)  method
-## removeByShape(ZoomFrame shape)  method
-## removeByShape(ZoomObject shape)  method
+## removeByShape([../../AudioFrame]AudioFrame shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../AutoShape]AutoShape shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../Chart]Chart shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../Connector]Connector shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../GeometryShape]GeometryShape shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../GraphicalObject]GraphicalObject shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../GroupShape]GroupShape shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../Ink]Ink shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../LegacyDiagram]LegacyDiagram shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../OleObjectFrame]OleObjectFrame shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../PictureFrame]PictureFrame shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../SectionZoomFrame]SectionZoomFrame shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../Shape]Shape shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../SmartArt]SmartArt shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../SmartArtShape]SmartArtShape shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../SummaryZoomFrame]SummaryZoomFrame shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../SummaryZoomSection]SummaryZoomSection shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../Table]Table shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../VideoFrame]VideoFrame shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../ZoomFrame]ZoomFrame shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([../../ZoomObject]ZoomObject shape)  method
 
  Remove effect for the specified shape.
  

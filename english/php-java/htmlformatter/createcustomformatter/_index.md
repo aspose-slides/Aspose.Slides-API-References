@@ -7,11 +7,79 @@ weight: 10
 url: /php-java/htmlformatter/createcustomformatter/
 ---
 
-## createCustomFormatter(EmbedAllFontsHtmlController formattingController)  method
-## createCustomFormatter(EmbeddedEotFontsHtmlController formattingController)  method
-## createCustomFormatter(EmbeddedWoffFontsHtmlController formattingController)  method
-## createCustomFormatter(ResponsiveHtmlController formattingController)  method
-## createCustomFormatter(VideoPlayerHtmlController formattingController)  method
+## createCustomFormatter([../../EmbedAllFontsHtmlController]EmbedAllFontsHtmlController formattingController)  method
+
+ Creates and returns HTML formatter for custom callback-driven html generation.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| formattingController | Callback interface which controls html file generation. |
+
+### Returns
+The HtmlFormatter object.
+
+
+---
+
+
+## createCustomFormatter([../../EmbeddedEotFontsHtmlController]EmbeddedEotFontsHtmlController formattingController)  method
+
+ Creates and returns HTML formatter for custom callback-driven html generation.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| formattingController | Callback interface which controls html file generation. |
+
+### Returns
+The HtmlFormatter object.
+
+
+---
+
+
+## createCustomFormatter([../../EmbeddedWoffFontsHtmlController]EmbeddedWoffFontsHtmlController formattingController)  method
+
+ Creates and returns HTML formatter for custom callback-driven html generation.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| formattingController | Callback interface which controls html file generation. |
+
+### Returns
+The HtmlFormatter object.
+
+
+---
+
+
+## createCustomFormatter([../../ResponsiveHtmlController]ResponsiveHtmlController formattingController)  method
+
+ Creates and returns HTML formatter for custom callback-driven html generation.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| formattingController | Callback interface which controls html file generation. |
+
+### Returns
+The HtmlFormatter object.
+
+
+---
+
+
+## createCustomFormatter([../../VideoPlayerHtmlController]VideoPlayerHtmlController formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  

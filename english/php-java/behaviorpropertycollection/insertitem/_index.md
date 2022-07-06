@@ -7,7 +7,7 @@ weight: 160
 url: /php-java/behaviorpropertycollection/insertitem/
 ---
 
-## insertItem(int index, BehaviorProperty item)  method
+## insertItem(int index, [../../BehaviorProperty]BehaviorProperty item)  method
 
 
 

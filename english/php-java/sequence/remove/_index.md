@@ -7,7 +7,7 @@ weight: 140
 url: /php-java/sequence/remove/
 ---
 
-## remove(Effect item)  method
+## remove([../../Effect]Effect item)  method
 
  Removes specified effect from a collection.
  

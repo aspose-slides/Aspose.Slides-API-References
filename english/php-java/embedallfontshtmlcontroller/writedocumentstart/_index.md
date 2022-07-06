@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/embedallfontshtmlcontroller/writedocumentstart/
 ---
 
-## writeDocumentStart(HtmlGenerator generator, Presentation presentation)  method
+## writeDocumentStart([../../HtmlGenerator]HtmlGenerator generator, [../../Presentation]Presentation presentation)  method
 
  Called to write html document header. Called once per presentation conversion.
  

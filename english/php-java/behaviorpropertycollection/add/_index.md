@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/behaviorpropertycollection/add/
 ---
 
-## add(BehaviorProperty item)  method
+## add([../../BehaviorProperty]BehaviorProperty item)  method
 
  Adds a new property to the collection.
  

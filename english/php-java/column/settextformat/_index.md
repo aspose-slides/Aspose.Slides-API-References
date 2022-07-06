@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/column/settextformat/
 ---
 
-## setTextFormat(PortionFormat source)  method
+## setTextFormat([../../PortionFormat]PortionFormat source)  method
 
  Sets defined portion format properties to all column cells' portions.
  
@@ -22,7 +22,7 @@ url: /php-java/column/settextformat/
 ---
 
 
-## setTextFormat(ParagraphFormat source)  method
+## setTextFormat([../../ParagraphFormat]ParagraphFormat source)  method
 
  Sets defined paragraph format properties to all column cells' paragraphs.
  
@@ -37,7 +37,7 @@ url: /php-java/column/settextformat/
 ---
 
 
-## setTextFormat(TextFrameFormat source)  method
+## setTextFormat([../../TextFrameFormat]TextFrameFormat source)  method
 
  Sets defined text frame format properties to all column cells' text frames.
  

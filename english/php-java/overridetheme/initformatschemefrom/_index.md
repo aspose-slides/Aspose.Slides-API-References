@@ -7,7 +7,7 @@ weight: 130
 url: /php-java/overridetheme/initformatschemefrom/
 ---
 
-## initFormatSchemeFrom(FormatScheme formatScheme)  method
+## initFormatSchemeFrom([../../FormatScheme]FormatScheme formatScheme)  method
 
  Init FormatScheme with new object for overriding FormatScheme of InheritedTheme.
  

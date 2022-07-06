@@ -30,52 +30,7 @@ Presentation
 ---
 
 
-
- Converts  Presentation to SVG.
- 
-
- 
-```php
-```
-
-### Parameters
-
-| Name | Description |
-| --- | --- |
-| presPath | Path of the input presentation |
-| getOutPath | Callback that returns the SVG output path for each slide in the presentation |
-
-### Returns
-Presentation
-
-
----
-
-
-
- Converts  Presentation to SVG.
- 
-
- 
-```php
-  $pres = new Presentation("input.pptx");
-```
-
-### Parameters
-
-| Name | Description |
-| --- | --- |
-| pres | Input presentation |
-| getOutPath | Callback that returns the SVG output path for each slide in the presentation |
-
-### Returns
-Presentation
-
-
----
-
-
-## toSvg(Presentation pres, SVGOptions options)  method
+## toSvg([../../Presentation]Presentation pres, [../../SVGOptions]SVGOptions options)  method
 
  Converts  Presentation to SVG.
  
@@ -99,32 +54,6 @@ Presentation
 | Name | Description |
 | --- | --- |
 | pres | Input presentation |
-| options | SVG export options |
-
-### Returns
-Presentation
-
-
----
-
-
-
- Converts  Presentation to SVG.
- 
-
- 
-```php
-  $pres = new Presentation("input.pptx");
-  $svgOptions = new SVGOptions();
-  $svgOptions->setVectorizeText(true);
-```
-
-### Parameters
-
-| Name | Description |
-| --- | --- |
-| pres | Input presentation |
-| getOutPath | Callback that returns the SVG output path for each slide in the presentation |
 | options | SVG export options |
 
 ### Returns

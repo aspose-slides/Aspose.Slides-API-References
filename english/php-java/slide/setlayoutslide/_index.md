@@ -7,7 +7,7 @@ weight: 290
 url: /php-java/slide/setlayoutslide/
 ---
 
-## setLayoutSlide(LayoutSlide value)  method
+## setLayoutSlide([../../LayoutSlide]LayoutSlide value)  method
 
  Returns or sets the layout slide for the current slide.
  Read/write  ILayoutSlide.

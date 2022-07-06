@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/mathparagraph/contains/
 ---
 
-## contains(MathBlock mathBlock)  method
+## contains([../../MathBlock]MathBlock mathBlock)  method
 
  Determines whether the collection contains a specific value.
  

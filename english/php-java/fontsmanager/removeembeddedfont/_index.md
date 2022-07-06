@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/fontsmanager/removeembeddedfont/
 ---
 
-## removeEmbeddedFont(FontData fontData)  method
+## removeEmbeddedFont([../../FontData]FontData fontData)  method
 
  Removes the embedded font
  

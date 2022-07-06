@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/summaryzoomsectioncollection/indexof/
 ---
 
-## indexOf(SummaryZoomSection summaryZoomSection)  method
+## indexOf([../../SummaryZoomSection]SummaryZoomSection summaryZoomSection)  method
 
  Returns an index of the specified SummaryZoomSection object.
  

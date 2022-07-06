@@ -7,7 +7,7 @@ weight: 160
 url: /php-java/slidecollection/insertclone/
 ---
 
-## insertClone(int index, Slide sourceSlide)  method
+## insertClone(int index, [../../Slide]Slide sourceSlide)  method
 
  Inserts a copy of a specified slide to specified position of the collection.
  
@@ -26,7 +26,7 @@ Inserted slide.
 ---
 
 
-## insertClone(int index, Slide sourceSlide, LayoutSlide destLayout)  method
+## insertClone(int index, [../../Slide]Slide sourceSlide, [../../LayoutSlide]LayoutSlide destLayout)  method
 
  Inserts a copy of a specified slide to specified position of the collection.
  
@@ -46,7 +46,7 @@ Inserted slide.
 ---
 
 
-## insertClone(int index, Slide sourceSlide, MasterSlide destMaster, boolean allowCloneMissingLayout)  method
+## insertClone(int index, [../../Slide]Slide sourceSlide, [../../MasterSlide]MasterSlide destMaster, boolean allowCloneMissingLayout)  method
 
  Inserts a copy of a specified source slide to specified position of the collection.
  Appropriate layout will be selected automatically from the specified 

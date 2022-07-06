@@ -53,7 +53,7 @@ Bitmap object.
 ---
 
 
-## getThumbnail(TiffOptions options)  method
+## getThumbnail([../../TiffOptions]TiffOptions options)  method
 
  Returns a Thumbnail tiff BufferedImage object with specified parameters.
  
@@ -77,7 +77,7 @@ BufferedImage object.
 ---
 
 
-## getThumbnail(NotesCommentsLayoutingOptions notesCommentsLayouting)  method
+## getThumbnail([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting)  method
 
  Returns a Thumbnail BufferedImage object.
  
@@ -101,7 +101,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(NotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)  method
+## getThumbnail([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage object with custom scaling.
  
@@ -127,7 +127,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(NotesCommentsLayoutingOptions notesCommentsLayouting, Dimension imageSize)  method
+## getThumbnail([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage object with specified size.
  
@@ -152,7 +152,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(RenderingOptions options)  method
+## getThumbnail([../../RenderingOptions]RenderingOptions options)  method
 
  Returns a Thumbnail BufferedImage object.
  
@@ -176,7 +176,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(RenderingOptions options, float scaleX, float scaleY)  method
+## getThumbnail([../../RenderingOptions]RenderingOptions options, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage object with custom scaling.
  
@@ -202,7 +202,7 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail(RenderingOptions options, Dimension imageSize)  method
+## getThumbnail([../../RenderingOptions]RenderingOptions options, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage object with specified size.
  

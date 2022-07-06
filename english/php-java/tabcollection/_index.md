@@ -17,7 +17,7 @@ url: /php-java/tabcollection/
 | Name | Description |
 | --- | --- |
 | [add](add)(double, int) | Adds a Tab to the collection. |
-| [add](add)(Tab) | Adds a Tab to the collection. |
+| [add](add)([../Tab]Tab) | Adds a Tab to the collection. |
 | [clear](clear)() | Removes all elements from the collection. |
 | [equals](equals)(Object) | Determines whether two TabsEx instances are equal. |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |

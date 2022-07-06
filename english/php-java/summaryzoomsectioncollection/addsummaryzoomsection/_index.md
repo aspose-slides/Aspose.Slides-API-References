@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/summaryzoomsectioncollection/addsummaryzoomsection/
 ---
 
-## addSummaryZoomSection(Section section)  method
+## addSummaryZoomSection([../../Section]Section section)  method
 
  Creates new Summary Zoom Section object and add it to the collection
  

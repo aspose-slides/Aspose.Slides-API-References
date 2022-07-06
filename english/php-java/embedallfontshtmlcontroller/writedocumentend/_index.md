@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/embedallfontshtmlcontroller/writedocumentend/
 ---
 
-## writeDocumentEnd(HtmlGenerator generator, Presentation presentation)  method
+## writeDocumentEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Presentation]Presentation presentation)  method
 
  Called to write html document footer. Called once per presentation conversion.
  

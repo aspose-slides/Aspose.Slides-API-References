@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/columncollection/insertclone/
 ---
 
-## insertClone(int index, Column templ, boolean withAttachedColumns)  method
+## insertClone(int index, [../../Column]Column templ, boolean withAttachedColumns)  method
 
  Creates a copy of the specified template column and insert it at the specified position in a table.
  

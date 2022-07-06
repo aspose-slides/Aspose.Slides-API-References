@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/fonts/seteastasianfont/
 ---
 
-## setEastAsianFont(FontData value)  method
+## setEastAsianFont([../../FontData]FontData value)  method
 
  Returns or sets the East Asian font.
  Read/write  IFontData.

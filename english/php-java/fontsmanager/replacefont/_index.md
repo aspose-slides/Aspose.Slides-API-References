@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/fontsmanager/replacefont/
 ---
 
-## replaceFont(FontData sourceFont, FontData destFont)  method
+## replaceFont([../../FontData]FontData sourceFont, [../../FontData]FontData destFont)  method
 
  Replace font in presentation
  
@@ -23,7 +23,7 @@ url: /php-java/fontsmanager/replacefont/
 ---
 
 
-## replaceFont(FontSubstRule substRule)  method
+## replaceFont([../../FontSubstRule]FontSubstRule substRule)  method
 
  Replace font in presentation using information provided in  FontSubstRule
  
@@ -41,7 +41,7 @@ FontSubstRule
 ---
 
 
-## replaceFont(FontSubstRuleCollection substRules)  method
+## replaceFont([../../FontSubstRuleCollection]FontSubstRuleCollection substRules)  method
 
  Replace font in presentation using information provided in collection of  FontSubstRule
  

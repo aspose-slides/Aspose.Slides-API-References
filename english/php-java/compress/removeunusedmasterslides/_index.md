@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/compress/removeunusedmasterslides/
 ---
 
-## removeUnusedMasterSlides(Presentation pres)  method
+## removeUnusedMasterSlides([../../Presentation]Presentation pres)  method
 
  Makes compression of the  Presentation by removing unused master slides.  
  

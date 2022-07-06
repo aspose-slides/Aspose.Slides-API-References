@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/stringchartvalue/setascells/
 ---
 
-## setAsCells(ChartCellCollection value)  method
+## setAsCells([../../ChartCellCollection]ChartCellCollection value)  method
 
  Null value assigning is not allowed.
  Returning value always is not null.

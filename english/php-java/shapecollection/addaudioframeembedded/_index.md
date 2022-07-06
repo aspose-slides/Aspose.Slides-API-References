@@ -31,7 +31,7 @@ Created AudioFrame object.
 ---
 
 
-## addAudioFrameEmbedded(float x, float y, float width, float height, Audio audio)  method
+## addAudioFrameEmbedded(float x, float y, float width, float height, [../../Audio]Audio audio)  method
 
  Adds a new audio frame with embedded audio file to the end of a collection.
  It uses audio file from Presentation.Audios list.

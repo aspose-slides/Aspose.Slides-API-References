@@ -7,15 +7,127 @@ weight: 10
 url: /php-java/behaviorcollection/add/
 ---
 
-## add(Behavior item)  method
-## add(ColorEffect item)  method
-## add(CommandEffect item)  method
-## add(FilterEffect item)  method
-## add(MotionEffect item)  method
-## add(PropertyEffect item)  method
-## add(RotationEffect item)  method
-## add(ScaleEffect item)  method
-## add(SetEffect item)  method
+## add([../../Behavior]Behavior item)  method
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | Behavior to add. |
+
+
+---
+
+
+## add([../../ColorEffect]ColorEffect item)  method
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | Behavior to add. |
+
+
+---
+
+
+## add([../../CommandEffect]CommandEffect item)  method
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | Behavior to add. |
+
+
+---
+
+
+## add([../../FilterEffect]FilterEffect item)  method
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | Behavior to add. |
+
+
+---
+
+
+## add([../../MotionEffect]MotionEffect item)  method
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | Behavior to add. |
+
+
+---
+
+
+## add([../../PropertyEffect]PropertyEffect item)  method
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | Behavior to add. |
+
+
+---
+
+
+## add([../../RotationEffect]RotationEffect item)  method
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | Behavior to add. |
+
+
+---
+
+
+## add([../../ScaleEffect]ScaleEffect item)  method
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | Behavior to add. |
+
+
+---
+
+
+## add([../../SetEffect]SetEffect item)  method
 
  Add new behavior to a collection.
  

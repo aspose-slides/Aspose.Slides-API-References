@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/presentationinfo/updatedocumentproperties/
 ---
 
-## updateDocumentProperties(DocumentProperties documentProperties)  method
+## updateDocumentProperties([../../DocumentProperties]DocumentProperties documentProperties)  method
 
  Updates properties of binded presentation.
  
