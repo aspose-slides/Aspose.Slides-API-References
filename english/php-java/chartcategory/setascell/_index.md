@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/chartcategory/setascell/
 ---
 
-## setAsCell(ChartDataCell value)  method
+## setAsCell([../../ChartDataCell]ChartDataCell value)  method
 
  Returns or sets IChartDataCell object.
  If category is multi-level then used IChartDataCell object for level "0".

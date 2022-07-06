@@ -7,7 +7,7 @@ weight: 250
 url: /php-java/chartdatapointcollection/adddatapointforpieseries/
 ---
 
-## addDataPointForPieSeries(ChartDataCell value)  method
+## addDataPointForPieSeries([../../ChartDataCell]ChartDataCell value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Pie subtypes (see also  ChartTypeCharacterizer#isChartTypePie(int) method).

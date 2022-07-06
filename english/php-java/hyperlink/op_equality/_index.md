@@ -7,7 +7,7 @@ weight: 250
 url: /php-java/hyperlink/op_equality/
 ---
 
-## op_Equality(Hyperlink hlink1, Hyperlink hlink2)  method
+## op_Equality([../../Hyperlink]Hyperlink hlink1, [../../Hyperlink]Hyperlink hlink2)  method
 
  Tests two hyperlinks for equality.
  

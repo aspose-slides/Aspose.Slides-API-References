@@ -28,7 +28,7 @@ url: /php-java/smartartnodecollection/removenode/
 ---
 
 
-## removeNode(SmartArtNode node)  method
+## removeNode([../../SmartArtNode]SmartArtNode node)  method
 
  Remove node or sub node
  

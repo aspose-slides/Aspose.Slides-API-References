@@ -7,7 +7,7 @@ weight: 170
 url: /php-java/mathparagraph/set_item/
 ---
 
-## set_Item(int index, MathBlock value)  method
+## set_Item(int index, [../../MathBlock]MathBlock value)  method
 
  Gets the item at the specified index.
  Read-only  IMathBlock.

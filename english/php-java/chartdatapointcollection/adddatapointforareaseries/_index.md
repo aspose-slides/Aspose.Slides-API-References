@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/chartdatapointcollection/adddatapointforareaseries/
 ---
 
-## addDataPointForAreaSeries(ChartDataCell value)  method
+## addDataPointForAreaSeries([../../ChartDataCell]ChartDataCell value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Area subtypes (see also  ChartTypeCharacterizer#isChartTypeArea(int) method).

@@ -36,4 +36,4 @@ url: /php-java/collect/
 
 | Name | Description |
 | --- | --- |
-| [shapes](shapes)(Presentation) | Collects all instances of Shape in the Presentation. |
+| [shapes](shapes)([../Presentation]Presentation) | Collects all instances of Shape in the Presentation. |

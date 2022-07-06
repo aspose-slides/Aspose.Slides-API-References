@@ -16,7 +16,7 @@ url: /php-java/videocollection/
 
 | Name | Description |
 | --- | --- |
-| [addVideo](addvideo)(Video) | Adds a copy of an video file from an another presentation. |
+| [addVideo](addvideo)([../Video]Video) | Adds a copy of an video file from an another presentation. |
 | [addVideo](addvideo)(InputStream) | Creates and adds a video to a presentation from stream. |
 | [addVideo](addvideo)(InputStream, int) | Creates and adds a video to a presentation from stream. |
 | [addVideo](addvideo)(byte[]) | Creates and adds a video to a presentation from byte array. |

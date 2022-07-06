@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/texttohtmlconversionoptions/setlinkembedcontroller/
 ---
 
-## setLinkEmbedController(VideoPlayerHtmlController value)  method
+## setLinkEmbedController([../../VideoPlayerHtmlController]VideoPlayerHtmlController value)  method
 
  Returns or sets a callback object which controlls how external object will be stored.
  Read/write  ILinkEmbedController.

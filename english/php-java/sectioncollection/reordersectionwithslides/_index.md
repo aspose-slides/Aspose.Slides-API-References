@@ -7,7 +7,7 @@ weight: 140
 url: /php-java/sectioncollection/reordersectionwithslides/
 ---
 
-## reorderSectionWithSlides(Section section, int index)  method
+## reorderSectionWithSlides([../../Section]Section section, int index)  method
 
  Moves section and its slides from the collection to the specified position.
  

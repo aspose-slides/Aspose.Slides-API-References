@@ -24,5 +24,5 @@ url: /php-java/smartartnodecollection/
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
 | [removeNode](removenode)(int) | Remove node or sub node by index |
-| [removeNode](removenode)(SmartArtNode) | Remove node or sub node |
+| [removeNode](removenode)([../SmartArtNode]SmartArtNode) | Remove node or sub node |
 | [size](size)() | Returns count of nodes in collection Read-only int Read-only int. |

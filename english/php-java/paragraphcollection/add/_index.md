@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/paragraphcollection/add/
 ---
 
-## add(Paragraph value)  method
+## add([../../Paragraph]Paragraph value)  method
 
  Adds a Paragraph to the end of collection.
  
@@ -22,7 +22,7 @@ url: /php-java/paragraphcollection/add/
 ---
 
 
-## add(ParagraphCollection value)  method
+## add([../../ParagraphCollection]ParagraphCollection value)  method
 
  Adds a content of ParagraphCollection to the end of collection.
  

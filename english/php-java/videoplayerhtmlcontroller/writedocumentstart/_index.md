@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/videoplayerhtmlcontroller/writedocumentstart/
 ---
 
-## writeDocumentStart(HtmlGenerator generator, Presentation presentation)  method
+## writeDocumentStart([../../HtmlGenerator]HtmlGenerator generator, [../../Presentation]Presentation presentation)  method
 
 
 

@@ -7,7 +7,7 @@ weight: 240
 url: /php-java/chartdatapointcollection/adddatapointformapseries/
 ---
 
-## addDataPointForMapSeries(ChartDataCell value)  method
+## addDataPointForMapSeries([../../ChartDataCell]ChartDataCell value)  method
 
   Creates the new data point and adds it to the end of collection.
   Applicable for series which chart type is Map.

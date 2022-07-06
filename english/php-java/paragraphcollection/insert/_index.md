@@ -7,7 +7,7 @@ weight: 140
 url: /php-java/paragraphcollection/insert/
 ---
 
-## insert(int index, Paragraph value)  method
+## insert(int index, [../../Paragraph]Paragraph value)  method
 
  Inserts a Paragraph into the collection at the specified index.
  
@@ -23,7 +23,7 @@ url: /php-java/paragraphcollection/insert/
 ---
 
 
-## insert(int index, ParagraphCollection value)  method
+## insert(int index, [../../ParagraphCollection]ParagraphCollection value)  method
 
  Inserts a content of ParagraphCollection into the collection at the specified index.
  

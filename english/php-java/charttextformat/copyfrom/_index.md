@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/charttextformat/copyfrom/
 ---
 
-## copyFrom(TextFrame sourceTextFrame)  method
+## copyFrom([../../TextFrame]TextFrame sourceTextFrame)  method
 
  Copies text format from specified text frame.
  

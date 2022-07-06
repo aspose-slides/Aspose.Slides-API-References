@@ -7,7 +7,7 @@ weight: 130
 url: /php-java/piesplitcustompointcollection/removeitem/
 ---
 
-## removeItem(ChartDataPoint dataPoint)  method
+## removeItem([../../ChartDataPoint]ChartDataPoint dataPoint)  method
 
   Removes item from collection.
   

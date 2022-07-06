@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/audiocollection/addaudio/
 ---
 
-## addAudio(Audio audio)  method
+## addAudio([../../Audio]Audio audio)  method
 
  Adds a copy of an audio file from an another presentation.
  

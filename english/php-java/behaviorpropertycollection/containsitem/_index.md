@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/behaviorpropertycollection/containsitem/
 ---
 
-## containsItem(BehaviorProperty item)  method
+## containsItem([../../BehaviorProperty]BehaviorProperty item)  method
 
 
 

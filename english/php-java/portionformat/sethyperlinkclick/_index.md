@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/portionformat/sethyperlinkclick/
 ---
 
-## setHyperlinkClick(Hyperlink value)  method
+## setHyperlinkClick([../../Hyperlink]Hyperlink value)  method
 
  Returns or sets the hyperlink defined for mouse click.
  Read/write  IHyperlink.

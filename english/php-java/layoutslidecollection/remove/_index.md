@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/layoutslidecollection/remove/
 ---
 
-## remove(LayoutSlide value)  method
+## remove([../../LayoutSlide]LayoutSlide value)  method
 
  Removes a layout from the collection.
  

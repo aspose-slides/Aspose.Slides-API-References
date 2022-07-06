@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/embedallfontshtmlcontroller/writeallfonts/
 ---
 
-## writeAllFonts(HtmlGenerator generator, Presentation presentation)  method
+## writeAllFonts([../../HtmlGenerator]HtmlGenerator generator, [../../Presentation]Presentation presentation)  method
 
  Write all fonts contained in  Presentation.
  

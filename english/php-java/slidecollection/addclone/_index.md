@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/slidecollection/addclone/
 ---
 
-## addClone(Slide sourceSlide)  method
+## addClone([../../Slide]Slide sourceSlide)  method
 
  Adds a copy of a specified slide to the end of the collection.
  
@@ -25,7 +25,7 @@ New slide.
 ---
 
 
-## addClone(Slide sourceSlide, Section section)  method
+## addClone([../../Slide]Slide sourceSlide, [../../Section]Section section)  method
 
  Adds a copy of a specified slide to the end of the specified section.
  
@@ -66,7 +66,7 @@ New slide.
 ---
 
 
-## addClone(Slide sourceSlide, LayoutSlide destLayout)  method
+## addClone([../../Slide]Slide sourceSlide, [../../LayoutSlide]LayoutSlide destLayout)  method
 
  Adds a copy of a specified slide to the end of the collection.
  
@@ -85,7 +85,7 @@ New slide.
 ---
 
 
-## addClone(Slide sourceSlide, MasterSlide destMaster, boolean allowCloneMissingLayout)  method
+## addClone([../../Slide]Slide sourceSlide, [../../MasterSlide]MasterSlide destMaster, boolean allowCloneMissingLayout)  method
 
  Adds a copy of a specified source slide to the end of the collection.
  Appropriate layout will be selected automatically from the specified 

@@ -7,27 +7,267 @@ weight: 10
 url: /php-java/sequencecollection/add/
 ---
 
-## add(AudioFrame shapeTrigger)  method
-## add(AutoShape shapeTrigger)  method
-## add(Chart shapeTrigger)  method
-## add(Connector shapeTrigger)  method
-## add(GeometryShape shapeTrigger)  method
-## add(GraphicalObject shapeTrigger)  method
-## add(GroupShape shapeTrigger)  method
-## add(Ink shapeTrigger)  method
-## add(LegacyDiagram shapeTrigger)  method
-## add(OleObjectFrame shapeTrigger)  method
-## add(PictureFrame shapeTrigger)  method
-## add(SectionZoomFrame shapeTrigger)  method
-## add(Shape shapeTrigger)  method
-## add(SmartArt shapeTrigger)  method
-## add(SmartArtShape shapeTrigger)  method
-## add(SummaryZoomFrame shapeTrigger)  method
-## add(SummaryZoomSection shapeTrigger)  method
-## add(Table shapeTrigger)  method
-## add(VideoFrame shapeTrigger)  method
-## add(ZoomFrame shapeTrigger)  method
-## add(ZoomObject shapeTrigger)  method
+## add([../../AudioFrame]AudioFrame shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../AutoShape]AutoShape shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../Chart]Chart shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../Connector]Connector shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../GeometryShape]GeometryShape shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../GraphicalObject]GraphicalObject shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../GroupShape]GroupShape shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../Ink]Ink shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../LegacyDiagram]LegacyDiagram shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../OleObjectFrame]OleObjectFrame shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../PictureFrame]PictureFrame shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../SectionZoomFrame]SectionZoomFrame shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../Shape]Shape shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../SmartArt]SmartArt shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../SmartArtShape]SmartArtShape shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../SummaryZoomFrame]SummaryZoomFrame shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../SummaryZoomSection]SummaryZoomSection shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../Table]Table shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../VideoFrame]VideoFrame shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../ZoomFrame]ZoomFrame shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+Sequence
+
+
+---
+
+
+## add([../../ZoomObject]ZoomObject shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.

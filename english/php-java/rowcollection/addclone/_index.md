@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/rowcollection/addclone/
 ---
 
-## addClone(Row templ, boolean withAttachedRows)  method
+## addClone([../../Row]Row templ, boolean withAttachedRows)  method
 
  Creates a copy of the specified template row and inserts it at the bottom of a table.
  

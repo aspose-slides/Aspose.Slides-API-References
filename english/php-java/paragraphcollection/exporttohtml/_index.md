@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/paragraphcollection/exporttohtml/
 ---
 
-## exportToHtml(int firstParagraphIndex, int paragraphsCount, TextToHtmlConversionOptions options)  method
+## exportToHtml(int firstParagraphIndex, int paragraphsCount, [../../TextToHtmlConversionOptions]TextToHtmlConversionOptions options)  method
 
  Converts specifying paragraphs to the HTML and returns it as String object.
  

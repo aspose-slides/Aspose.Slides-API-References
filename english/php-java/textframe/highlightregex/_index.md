@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/textframe/highlightregex/
 ---
 
-## highlightRegex(String regex, Color highlightColor, TextHighlightingOptions options)  method
+## highlightRegex(String regex, Color highlightColor, [../../TextHighlightingOptions]TextHighlightingOptions options)  method
 
  Highlight all matches of regular expression in text frame text using specified color.
  

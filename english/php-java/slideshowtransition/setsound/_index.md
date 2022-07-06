@@ -7,7 +7,7 @@ weight: 150
 url: /php-java/slideshowtransition/setsound/
 ---
 
-## setSound(Audio value)  method
+## setSound([../../Audio]Audio value)  method
 
  Returns or sets the embedded audio data.
  Read/write  IAudio.

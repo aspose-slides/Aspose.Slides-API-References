@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/summaryzoomsectioncollection/getsummarysection/
 ---
 
-## getSummarySection(Section section)  method
+## getSummarySection([../../Section]Section section)  method
 
  Returns Summary Zoom Section element for the given section.
  

@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/picture/setimage/
 ---
 
-## setImage(PPImage value)  method
+## setImage([../../PPImage]PPImage value)  method
 
  Returns or sets the embedded image.
  Read/write  IPPImage.

@@ -17,4 +17,4 @@ url: /php-java/zoomframe/
 | Name | Description |
 | --- | --- |
 | [getTargetSlide](gettargetslide)() | Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |
-| [setTargetSlide](settargetslide)(Slide) | Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |
+| [setTargetSlide](settargetslide)([../Slide]Slide) | Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |

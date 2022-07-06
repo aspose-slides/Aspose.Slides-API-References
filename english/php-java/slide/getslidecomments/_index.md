@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/slide/getslidecomments/
 ---
 
-## getSlideComments(CommentAuthor author)  method
+## getSlideComments([../../CommentAuthor]CommentAuthor author)  method
 
  Returns all slide comments added by specific author.
  

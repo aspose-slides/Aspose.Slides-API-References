@@ -7,7 +7,7 @@ weight: 120
 url: /php-java/sectioncollection/removesection/
 ---
 
-## removeSection(Section section)  method
+## removeSection([../../Section]Section section)  method
 
  Remove section. Slides contained in the section will be merged into previous section.
  

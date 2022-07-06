@@ -7,27 +7,507 @@ weight: 200
 url: /php-java/mathblock/join/
 ---
 
-## join(BaseScript mathElement)  method
-## join(MathAccent mathElement)  method
-## join(MathArray mathElement)  method
-## join(MathBar mathElement)  method
-## join(MathBlock mathElement)  method
-## join(MathBorderBox mathElement)  method
-## join(MathBox mathElement)  method
-## join(MathDelimiter mathElement)  method
-## join(MathElementBase mathElement)  method
-## join(MathematicalText mathElement)  method
-## join(MathFraction mathElement)  method
-## join(MathFunction mathElement)  method
-## join(MathGroupingCharacter mathElement)  method
-## join(MathLeftSubSuperscriptElement mathElement)  method
-## join(MathLimit mathElement)  method
-## join(MathMatrix mathElement)  method
-## join(MathNaryOperator mathElement)  method
-## join(MathRadical mathElement)  method
-## join(MathRightSubSuperscriptElement mathElement)  method
-## join(MathSubscriptElement mathElement)  method
-## join(MathSuperscriptElement mathElement)  method
+## join([../../BaseScript]BaseScript mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathAccent]MathAccent mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathArray]MathArray mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathBar]MathBar mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathBlock]MathBlock mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathBorderBox]MathBorderBox mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathBox]MathBox mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathDelimiter]MathDelimiter mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathElementBase]MathElementBase mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathematicalText]MathematicalText mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathFraction]MathFraction mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathFunction]MathFunction mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathGroupingCharacter]MathGroupingCharacter mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathLimit]MathLimit mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathMatrix]MathMatrix mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathNaryOperator]MathNaryOperator mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathRadical]MathRadical mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathSubscriptElement]MathSubscriptElement mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| mathElement | The element to be joined |
+
+### Returns
+The current instance of IMathBlock
+
+
+---
+
+
+## join([../../MathSuperscriptElement]MathSuperscriptElement mathElement)  method
 
  Joins a mathematical element with this mathematical block
  

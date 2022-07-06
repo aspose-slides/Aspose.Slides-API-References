@@ -23,7 +23,7 @@ url: /php-java/textframe/highlighttext/
 ---
 
 
-## highlightText(String text, Color highlightColor, TextHighlightingOptions options)  method
+## highlightText(String text, Color highlightColor, [../../TextHighlightingOptions]TextHighlightingOptions options)  method
 
  Highlight all matches of sample in text frame text using specified color.
  

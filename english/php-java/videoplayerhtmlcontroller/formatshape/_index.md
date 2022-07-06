@@ -7,27 +7,147 @@ weight: 20
 url: /php-java/videoplayerhtmlcontroller/formatshape/
 ---
 
-## formatShape(SvgShape svgShape, AudioFrame shape)  method
-## formatShape(SvgShape svgShape, AutoShape shape)  method
-## formatShape(SvgShape svgShape, Chart shape)  method
-## formatShape(SvgShape svgShape, Connector shape)  method
-## formatShape(SvgShape svgShape, GeometryShape shape)  method
-## formatShape(SvgShape svgShape, GraphicalObject shape)  method
-## formatShape(SvgShape svgShape, GroupShape shape)  method
-## formatShape(SvgShape svgShape, Ink shape)  method
-## formatShape(SvgShape svgShape, LegacyDiagram shape)  method
-## formatShape(SvgShape svgShape, OleObjectFrame shape)  method
-## formatShape(SvgShape svgShape, PictureFrame shape)  method
-## formatShape(SvgShape svgShape, SectionZoomFrame shape)  method
-## formatShape(SvgShape svgShape, Shape shape)  method
-## formatShape(SvgShape svgShape, SmartArt shape)  method
-## formatShape(SvgShape svgShape, SmartArtShape shape)  method
-## formatShape(SvgShape svgShape, SummaryZoomFrame shape)  method
-## formatShape(SvgShape svgShape, SummaryZoomSection shape)  method
-## formatShape(SvgShape svgShape, Table shape)  method
-## formatShape(SvgShape svgShape, VideoFrame shape)  method
-## formatShape(SvgShape svgShape, ZoomFrame shape)  method
-## formatShape(SvgShape svgShape, ZoomObject shape)  method
+## formatShape([../../SvgShape]SvgShape svgShape, [../../AudioFrame]AudioFrame shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../AutoShape]AutoShape shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../Chart]Chart shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../Connector]Connector shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../GeometryShape]GeometryShape shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../GraphicalObject]GraphicalObject shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../GroupShape]GroupShape shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../Ink]Ink shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../LegacyDiagram]LegacyDiagram shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../OleObjectFrame]OleObjectFrame shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../PictureFrame]PictureFrame shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../SectionZoomFrame]SectionZoomFrame shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../Shape]Shape shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../SmartArt]SmartArt shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../SmartArtShape]SmartArtShape shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../SummaryZoomFrame]SummaryZoomFrame shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../SummaryZoomSection]SummaryZoomSection shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../Table]Table shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../VideoFrame]VideoFrame shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../ZoomFrame]ZoomFrame shape)  method
+
+
+
+---
+
+
+## formatShape([../../SvgShape]SvgShape svgShape, [../../ZoomObject]ZoomObject shape)  method
 
 
 

@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/embedallfontshtmlcontroller/writefont/
 ---
 
-## writeFont(HtmlGenerator generator, FontData originalFont, FontData substitutedFont, String fontStyle, String fontWeight, byte[] fontData)  method
+## writeFont([../../HtmlGenerator]HtmlGenerator generator, [../../FontData]FontData originalFont, [../../FontData]FontData substitutedFont, String fontStyle, String fontWeight, byte[] fontData)  method
 
  Writes data as base64 into HTML document itself
  

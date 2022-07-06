@@ -7,27 +7,327 @@ weight: 640
 url: /php-java/shapecollection/reorder/
 ---
 
-## reorder(int index, AudioFrame shape)  method
-## reorder(int index, AutoShape shape)  method
-## reorder(int index, Chart shape)  method
-## reorder(int index, Connector shape)  method
-## reorder(int index, GeometryShape shape)  method
-## reorder(int index, GraphicalObject shape)  method
-## reorder(int index, GroupShape shape)  method
-## reorder(int index, Ink shape)  method
-## reorder(int index, LegacyDiagram shape)  method
-## reorder(int index, OleObjectFrame shape)  method
-## reorder(int index, PictureFrame shape)  method
-## reorder(int index, SectionZoomFrame shape)  method
-## reorder(int index, Shape shape)  method
-## reorder(int index, SmartArt shape)  method
-## reorder(int index, SmartArtShape shape)  method
-## reorder(int index, SummaryZoomFrame shape)  method
-## reorder(int index, SummaryZoomSection shape)  method
-## reorder(int index, Table shape)  method
-## reorder(int index, VideoFrame shape)  method
-## reorder(int index, ZoomFrame shape)  method
-## reorder(int index, ZoomObject shape)  method
+## reorder(int index, [../../AudioFrame]AudioFrame shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../AutoShape]AutoShape shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../Chart]Chart shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../Connector]Connector shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../GeometryShape]GeometryShape shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../GraphicalObject]GraphicalObject shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../GroupShape]GroupShape shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../Ink]Ink shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../LegacyDiagram]LegacyDiagram shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../OleObjectFrame]OleObjectFrame shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../PictureFrame]PictureFrame shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../SectionZoomFrame]SectionZoomFrame shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../Shape]Shape shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../SmartArt]SmartArt shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../SmartArtShape]SmartArtShape shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../SummaryZoomFrame]SummaryZoomFrame shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../SummaryZoomSection]SummaryZoomSection shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../Table]Table shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../VideoFrame]VideoFrame shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../ZoomFrame]ZoomFrame shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| index | Target index. |
+| shape | Shape to move. |
+
+
+---
+
+
+## reorder(int index, [../../ZoomObject]ZoomObject shape)  method
 
  Moves a shape from the collection to the specified position.
  

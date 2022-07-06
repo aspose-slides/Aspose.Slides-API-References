@@ -7,11 +7,3 @@ weight: 50
 url: /php-java/xamloptions/setoutputsaver/
 ---
 
-
- Represents an implementation of IOutputSaver interface.
- 
-
-
----
-
-

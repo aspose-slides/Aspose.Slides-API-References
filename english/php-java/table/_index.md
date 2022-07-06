@@ -29,7 +29,7 @@ url: /php-java/table/
 | [getTableFormat](gettableformat)() | Returns the TableFormat object that contains formatting properties for this table. Read-only ITableFormat. |
 | [getVerticalBanding](getverticalbanding)() | Determines whether the even columns has to be drawn with a different formatting. Read/write boolean. |
 | [get_Item](get_item)(int, int) | Returns the cell at the specified column and row indexes. Read-only Cell. |
-| [mergeCells](mergecells)(Cell, Cell, boolean) | Merges neighbour cells. |
+| [mergeCells](mergecells)([../Cell]Cell, [../Cell]Cell, boolean) | Merges neighbour cells. |
 | [setFirstCol](setfirstcol)(boolean) | Determines whether the first column of a table has to be drawn with a special formatting. Read/write boolean. |
 | [setFirstRow](setfirstrow)(boolean) | Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean. |
 | [setHorizontalBanding](sethorizontalbanding)(boolean) | Determines whether the even rows has to be drawn with a different formatting. Read/write boolean. |
@@ -37,7 +37,7 @@ url: /php-java/table/
 | [setLastRow](setlastrow)(boolean) | Determines whether the last row of a table has to be drawn with a special formatting. Read/write boolean. |
 | [setRightToLeft](setrighttoleft)(boolean) | Determines whether the table has right to left reading order. Read-write boolean. |
 | [setStylePreset](setstylepreset)(int) | Gets or sets builtin table style. Read/write TableStylePreset. |
-| [setTextFormat](settextformat)(PortionFormat) | Sets defined portion format properties to all table cells' portions. |
-| [setTextFormat](settextformat)(ParagraphFormat) | Sets defined paragraph format properties to all table cells' paragraphs. |
-| [setTextFormat](settextformat)(TextFrameFormat) | Sets defined text frame format properties to all table cells' text frames. |
+| [setTextFormat](settextformat)([../PortionFormat]PortionFormat) | Sets defined portion format properties to all table cells' portions. |
+| [setTextFormat](settextformat)([../ParagraphFormat]ParagraphFormat) | Sets defined paragraph format properties to all table cells' paragraphs. |
+| [setTextFormat](settextformat)([../TextFrameFormat]TextFrameFormat) | Sets defined text frame format properties to all table cells' text frames. |
 | [setVerticalBanding](setverticalbanding)(boolean) | Determines whether the even columns has to be drawn with a different formatting. Read/write boolean. |

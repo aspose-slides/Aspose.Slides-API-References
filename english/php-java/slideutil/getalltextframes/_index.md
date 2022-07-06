@@ -7,7 +7,7 @@ weight: 100
 url: /php-java/slideutil/getalltextframes/
 ---
 
-## getAllTextFrames(Presentation pres, boolean withMasters)  method
+## getAllTextFrames([../../Presentation]Presentation pres, boolean withMasters)  method
 
  Returns all text frames in a PPTX presentation.
  

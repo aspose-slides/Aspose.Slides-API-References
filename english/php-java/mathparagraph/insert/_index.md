@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/mathparagraph/insert/
 ---
 
-## insert(int index, MathBlock mathBlock)  method
+## insert(int index, [../../MathBlock]MathBlock mathBlock)  method
 
  Inserts IMathBlock into the collection at the specified index.
  

@@ -29,7 +29,7 @@ Created VideoFrame object.
 ---
 
 
-## addVideoFrame(float x, float y, float width, float height, Video video)  method
+## addVideoFrame(float x, float y, float width, float height, [../../Video]Video video)  method
 
  Adds a new video frame to the end of a collection.
  

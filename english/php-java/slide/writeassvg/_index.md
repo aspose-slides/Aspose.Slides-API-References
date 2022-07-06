@@ -22,7 +22,7 @@ url: /php-java/slide/writeassvg/
 ---
 
 
-## writeAsSvg(OutputStream stream, SVGOptions svgOptions)  method
+## writeAsSvg(OutputStream stream, [../../SVGOptions]SVGOptions svgOptions)  method
 
  Saves content of slide as SVG file.
  

@@ -7,7 +7,7 @@ weight: 510
 url: /php-java/shapecollection/insertpictureframe/
 ---
 
-## insertPictureFrame(int index, int shapeType, float x, float y, float width, float height, PPImage image)  method
+## insertPictureFrame(int index, int shapeType, float x, float y, float width, float height, [../../PPImage]PPImage image)  method
 
  Creates a new PictureFrame and inserts it to the collection at the specified index.
  

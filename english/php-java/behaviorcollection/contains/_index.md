@@ -7,15 +7,151 @@ weight: 30
 url: /php-java/behaviorcollection/contains/
 ---
 
-## contains(Behavior item)  method
-## contains(ColorEffect item)  method
-## contains(CommandEffect item)  method
-## contains(FilterEffect item)  method
-## contains(MotionEffect item)  method
-## contains(PropertyEffect item)  method
-## contains(RotationEffect item)  method
-## contains(ScaleEffect item)  method
-## contains(SetEffect item)  method
+## contains([../../Behavior]Behavior item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | The object to locate in the IGenericCollection. |
+
+### Returns
+IGenericCollection
+
+
+---
+
+
+## contains([../../ColorEffect]ColorEffect item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | The object to locate in the IGenericCollection. |
+
+### Returns
+IGenericCollection
+
+
+---
+
+
+## contains([../../CommandEffect]CommandEffect item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | The object to locate in the IGenericCollection. |
+
+### Returns
+IGenericCollection
+
+
+---
+
+
+## contains([../../FilterEffect]FilterEffect item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | The object to locate in the IGenericCollection. |
+
+### Returns
+IGenericCollection
+
+
+---
+
+
+## contains([../../MotionEffect]MotionEffect item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | The object to locate in the IGenericCollection. |
+
+### Returns
+IGenericCollection
+
+
+---
+
+
+## contains([../../PropertyEffect]PropertyEffect item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | The object to locate in the IGenericCollection. |
+
+### Returns
+IGenericCollection
+
+
+---
+
+
+## contains([../../RotationEffect]RotationEffect item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | The object to locate in the IGenericCollection. |
+
+### Returns
+IGenericCollection
+
+
+---
+
+
+## contains([../../ScaleEffect]ScaleEffect item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| item | The object to locate in the IGenericCollection. |
+
+### Returns
+IGenericCollection
+
+
+---
+
+
+## contains([../../SetEffect]SetEffect item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  

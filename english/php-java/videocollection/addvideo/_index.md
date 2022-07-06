@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/videocollection/addvideo/
 ---
 
-## addVideo(Video video)  method
+## addVideo([../../Video]Video video)  method
 
  Adds a copy of an video file from an another presentation.
  

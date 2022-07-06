@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/motionpath/remove/
 ---
 
-## remove(MotionCmdPath item)  method
+## remove([../../MotionCmdPath]MotionCmdPath item)  method
 
  Removes specified commans from the collection.
  

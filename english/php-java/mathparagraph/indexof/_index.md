@@ -7,7 +7,7 @@ weight: 100
 url: /php-java/mathparagraph/indexof/
 ---
 
-## indexOf(MathBlock mathBlock)  method
+## indexOf([../../MathBlock]MathBlock mathBlock)  method
 
  Determines the index of a specific IMathBlock in collection.
  

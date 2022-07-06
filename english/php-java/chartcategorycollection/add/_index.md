@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/chartcategorycollection/add/
 ---
 
-## add(ChartDataCell chartDataCell)  method
+## add([../../ChartDataCell]ChartDataCell chartDataCell)  method
 
  If category exists in collection, return it. Else creates new chart category from 
   IChartDataCell and adds it to the collection.

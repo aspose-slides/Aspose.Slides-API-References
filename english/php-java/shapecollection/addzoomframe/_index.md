@@ -7,7 +7,7 @@ weight: 270
 url: /php-java/shapecollection/addzoomframe/
 ---
 
-## addZoomFrame(float x, float y, float width, float height, Slide slide)  method
+## addZoomFrame(float x, float y, float width, float height, [../../Slide]Slide slide)  method
 
  Adds a new Zoom object to the end of a collection.
  
@@ -49,7 +49,7 @@ Created Zoom object IZoomFrame.
 ---
 
 
-## addZoomFrame(float x, float y, float width, float height, Slide slide, PPImage image)  method
+## addZoomFrame(float x, float y, float width, float height, [../../Slide]Slide slide, [../../PPImage]PPImage image)  method
 
  Adds a new Zoom object to the end of a collection.
  

@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/behaviorpropertycollection/contains/
 ---
 
-## contains(BehaviorProperty item)  method
+## contains([../../BehaviorProperty]BehaviorProperty item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  

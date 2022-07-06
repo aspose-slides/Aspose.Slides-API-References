@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/sequencecollection/remove/
 ---
 
-## remove(Sequence item)  method
+## remove([../../Sequence]Sequence item)  method
 
  Removes specified sequence from a collection.
  

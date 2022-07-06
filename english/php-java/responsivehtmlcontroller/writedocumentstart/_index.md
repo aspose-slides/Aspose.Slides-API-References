@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/responsivehtmlcontroller/writedocumentstart/
 ---
 
-## writeDocumentStart(HtmlGenerator generator, Presentation presentation)  method
+## writeDocumentStart([../../HtmlGenerator]HtmlGenerator generator, [../../Presentation]Presentation presentation)  method
 
 
 

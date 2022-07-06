@@ -7,7 +7,7 @@ weight: 370
 url: /php-java/chartdatapointcollection/adddatapointforsunburstseries/
 ---
 
-## addDataPointForSunburstSeries(ChartDataCell sizeValue)  method
+## addDataPointForSunburstSeries([../../ChartDataCell]ChartDataCell sizeValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chart type is Sunburst.

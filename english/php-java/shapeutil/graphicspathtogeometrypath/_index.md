@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/shapeutil/graphicspathtogeometrypath/
 ---
 
-## graphicsPathToGeometryPath(Shape graphicsPath)  method
+## graphicsPathToGeometryPath([../../Shape]Shape graphicsPath)  method
 
  Converts a  java.awt.Shape graphicsPath to the  IGeometryPath
  

@@ -7,7 +7,7 @@ weight: 560
 url: /php-java/chartdatapointcollection/remove/
 ---
 
-## remove(ChartDataPoint value)  method
+## remove([../../ChartDataPoint]ChartDataPoint value)  method
 
  Removes the specified value.
  

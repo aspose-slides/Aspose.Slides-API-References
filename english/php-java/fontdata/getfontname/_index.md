@@ -20,20 +20,3 @@ String
 ---
 
 
-
- Returns the font name, replacing theme referrence with an actual font used.
- 
-
-### Parameters
-
-| Name | Description |
-| --- | --- |
-| theme | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See IThemeable#createThemeEffective |
-
-### Returns
-Font name.
-
-
----
-
-

@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/embeddedeotfontshtmlcontroller/writeslideend/
 ---
 
-## writeSlideEnd(HtmlGenerator generator, Slide slide)  method
+## writeSlideEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Slide]Slide slide)  method
 
 
 

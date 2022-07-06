@@ -7,7 +7,7 @@ weight: 230
 url: /php-java/behaviorpropertycollection/removeitem/
 ---
 
-## removeItem(BehaviorProperty item)  method
+## removeItem([../../BehaviorProperty]BehaviorProperty item)  method
 
 
 

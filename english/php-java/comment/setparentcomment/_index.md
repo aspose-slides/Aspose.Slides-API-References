@@ -7,8 +7,26 @@ weight: 100
 url: /php-java/comment/setparentcomment/
 ---
 
-## setParentComment(Comment value)  method
-## setParentComment(ModernComment value)  method
+## setParentComment([../../Comment]Comment value)  method
+
+ Gets or sets parent comment.
+ Read/write  IComment.
+ 
+
+### Returns
+IComment
+
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | PptxEditException | Thrown when setting the value leads to a circular reference |
+
+
+---
+
+
+## setParentComment([../../ModernComment]ModernComment value)  method
 
  Gets or sets parent comment.
  Read/write  IComment.

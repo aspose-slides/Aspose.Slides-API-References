@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/responsivehtmlcontroller/writeslidestart/
 ---
 
-## writeSlideStart(HtmlGenerator generator, Slide slide)  method
+## writeSlideStart([../../HtmlGenerator]HtmlGenerator generator, [../../Slide]Slide slide)  method
 
 
 

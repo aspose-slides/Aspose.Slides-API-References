@@ -7,27 +7,327 @@ weight: 70
 url: /php-java/embedallfontshtmlcontroller/writeshapeend/
 ---
 
-## writeShapeEnd(HtmlGenerator generator, AudioFrame shape)  method
-## writeShapeEnd(HtmlGenerator generator, AutoShape shape)  method
-## writeShapeEnd(HtmlGenerator generator, Chart shape)  method
-## writeShapeEnd(HtmlGenerator generator, Connector shape)  method
-## writeShapeEnd(HtmlGenerator generator, GeometryShape shape)  method
-## writeShapeEnd(HtmlGenerator generator, GraphicalObject shape)  method
-## writeShapeEnd(HtmlGenerator generator, GroupShape shape)  method
-## writeShapeEnd(HtmlGenerator generator, Ink shape)  method
-## writeShapeEnd(HtmlGenerator generator, LegacyDiagram shape)  method
-## writeShapeEnd(HtmlGenerator generator, OleObjectFrame shape)  method
-## writeShapeEnd(HtmlGenerator generator, PictureFrame shape)  method
-## writeShapeEnd(HtmlGenerator generator, SectionZoomFrame shape)  method
-## writeShapeEnd(HtmlGenerator generator, Shape shape)  method
-## writeShapeEnd(HtmlGenerator generator, SmartArt shape)  method
-## writeShapeEnd(HtmlGenerator generator, SmartArtShape shape)  method
-## writeShapeEnd(HtmlGenerator generator, SummaryZoomFrame shape)  method
-## writeShapeEnd(HtmlGenerator generator, SummaryZoomSection shape)  method
-## writeShapeEnd(HtmlGenerator generator, Table shape)  method
-## writeShapeEnd(HtmlGenerator generator, VideoFrame shape)  method
-## writeShapeEnd(HtmlGenerator generator, ZoomFrame shape)  method
-## writeShapeEnd(HtmlGenerator generator, ZoomObject shape)  method
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../AudioFrame]AudioFrame shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../AutoShape]AutoShape shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Chart]Chart shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Connector]Connector shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../GeometryShape]GeometryShape shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../GraphicalObject]GraphicalObject shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../GroupShape]GroupShape shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Ink]Ink shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../LegacyDiagram]LegacyDiagram shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../OleObjectFrame]OleObjectFrame shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../PictureFrame]PictureFrame shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../SectionZoomFrame]SectionZoomFrame shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Shape]Shape shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../SmartArt]SmartArt shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../SmartArtShape]SmartArtShape shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../SummaryZoomFrame]SummaryZoomFrame shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../SummaryZoomSection]SummaryZoomSection shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Table]Table shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../VideoFrame]VideoFrame shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../ZoomFrame]ZoomFrame shape)  method
+
+ Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
+ 
+
+### Parameters
+
+| Name | Description |
+| --- | --- |
+| generator | Output object. |
+| shape | Shape which is rendered last. |
+
+
+---
+
+
+## writeShapeEnd([../../HtmlGenerator]HtmlGenerator generator, [../../ZoomObject]ZoomObject shape)  method
 
  Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
  

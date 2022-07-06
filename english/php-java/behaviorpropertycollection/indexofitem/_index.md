@@ -7,7 +7,7 @@ weight: 130
 url: /php-java/behaviorpropertycollection/indexofitem/
 ---
 
-## indexOfItem(BehaviorProperty item)  method
+## indexOfItem([../../BehaviorProperty]BehaviorProperty item)  method
 
 
 
