@@ -7,7 +7,7 @@ weight: 280
 url: /php-java/effectformat/setfilloverlayeffect/
 ---
 
-## setFillOverlayEffect([../../FillOverlay]FillOverlay value)  method
+## setFillOverlayEffect([FillOverlay](../../FillOverlay) value)  method
 
  Fill overlay effect.
  Read/write  IFillOverlay.

@@ -7,7 +7,7 @@ weight: 290
 url: /php-java/slidecollection/reorder/
 ---
 
-## reorder(int index, [../../Slide]Slide slide)  method
+## reorder(int index, [Slide](../../Slide) slide)  method
 
  Moves slide from the collection to the specified position.
  

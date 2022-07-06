@@ -17,4 +17,4 @@ url: /php-java/sectionzoomframe/
 | Name | Description |
 | --- | --- |
 | [getTargetSection](gettargetsection)() | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
-| [setTargetSection](settargetsection)([../Section]Section) | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+| [setTargetSection](settargetsection)([Section](../Section)) | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |

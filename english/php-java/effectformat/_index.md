@@ -41,12 +41,12 @@ url: /php-java/effectformat/
 | [getReflectionEffect](getreflectioneffect)() | Reflection. Read/write IReflection. |
 | [getSoftEdgeEffect](getsoftedgeeffect)() | Soft edge. Read/write ISoftEdge. |
 | [isNoEffects](isnoeffects)() | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
-| [setBlurEffect](setblureffect)([../Blur]Blur) | Blur effect. Read/write IBlur. |
+| [setBlurEffect](setblureffect)([Blur](../Blur)) | Blur effect. Read/write IBlur. |
 | [setBlurEffect](setblureffect)(double, boolean) | Sets blur effect. |
-| [setFillOverlayEffect](setfilloverlayeffect)([../FillOverlay]FillOverlay) | Fill overlay effect. Read/write IFillOverlay. |
-| [setGlowEffect](setgloweffect)([../Glow]Glow) | Glow effect. Read/write IGlow. |
-| [setInnerShadowEffect](setinnershadoweffect)([../InnerShadow]InnerShadow) | Inner shadow. Read/write IInnerShadow. |
-| [setOuterShadowEffect](setoutershadoweffect)([../OuterShadow]OuterShadow) | Outer shadow. Read/write IOuterShadow. |
-| [setPresetShadowEffect](setpresetshadoweffect)([../PresetShadow]PresetShadow) | Preset shadow. Read/write IPresetShadow. |
-| [setReflectionEffect](setreflectioneffect)([../Reflection]Reflection) | Reflection. Read/write IReflection. |
-| [setSoftEdgeEffect](setsoftedgeeffect)([../SoftEdge]SoftEdge) | Soft edge. Read/write ISoftEdge. |
+| [setFillOverlayEffect](setfilloverlayeffect)([FillOverlay](../FillOverlay)) | Fill overlay effect. Read/write IFillOverlay. |
+| [setGlowEffect](setgloweffect)([Glow](../Glow)) | Glow effect. Read/write IGlow. |
+| [setInnerShadowEffect](setinnershadoweffect)([InnerShadow](../InnerShadow)) | Inner shadow. Read/write IInnerShadow. |
+| [setOuterShadowEffect](setoutershadoweffect)([OuterShadow](../OuterShadow)) | Outer shadow. Read/write IOuterShadow. |
+| [setPresetShadowEffect](setpresetshadoweffect)([PresetShadow](../PresetShadow)) | Preset shadow. Read/write IPresetShadow. |
+| [setReflectionEffect](setreflectioneffect)([Reflection](../Reflection)) | Reflection. Read/write IReflection. |
+| [setSoftEdgeEffect](setsoftedgeeffect)([SoftEdge](../SoftEdge)) | Soft edge. Read/write ISoftEdge. |

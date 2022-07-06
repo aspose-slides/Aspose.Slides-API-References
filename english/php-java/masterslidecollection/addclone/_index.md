@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/masterslidecollection/addclone/
 ---
 
-## addClone([../../MasterSlide]MasterSlide sourceMaster)  method
+## addClone([MasterSlide](../../MasterSlide) sourceMaster)  method
 
  Adds a copy of a specified master slide to the end of the collection.
  Linked layout slides will be copied too.

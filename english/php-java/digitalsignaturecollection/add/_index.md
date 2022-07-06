@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/digitalsignaturecollection/add/
 ---
 
-## add([../../DigitalSignature]DigitalSignature signature)  method
+## add([DigitalSignature](../../DigitalSignature) signature)  method
 
  Adds the signature at the end of collection.
  

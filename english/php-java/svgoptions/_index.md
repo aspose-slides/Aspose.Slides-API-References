@@ -44,5 +44,5 @@ url: /php-java/svgoptions/
 | [setJpegQuality](setjpegquality)(int) | Determines JPEG encoding quality. Read/write int. |
 | [setMetafileRasterizationDpi](setmetafilerasterizationdpi)(int) | Returns or sets the lower resolution limit for metafile rasterization. Read/write int. |
 | [setPicturesCompression](setpicturescompression)(int) | Represents the pictures compression level |
-| [setShapeFormattingController](setshapeformattingcontroller)([../VideoPlayerHtmlController]VideoPlayerHtmlController) | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
+| [setShapeFormattingController](setshapeformattingcontroller)([VideoPlayerHtmlController](../VideoPlayerHtmlController)) | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
 | [setVectorizeText](setvectorizetext)(boolean) | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |

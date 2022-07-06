@@ -7,7 +7,7 @@ weight: 160
 url: /php-java/mathblock/insert/
 ---
 
-## insert(int index, [../../BaseScript]BaseScript item)  method
+## insert(int index, [BaseScript](../../BaseScript) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -31,7 +31,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathAccent]MathAccent item)  method
+## insert(int index, [MathAccent](../../MathAccent) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -55,7 +55,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathArray]MathArray item)  method
+## insert(int index, [MathArray](../../MathArray) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -79,7 +79,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathBar]MathBar item)  method
+## insert(int index, [MathBar](../../MathBar) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -103,7 +103,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathBlock]MathBlock item)  method
+## insert(int index, [MathBlock](../../MathBlock) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -127,7 +127,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathBorderBox]MathBorderBox item)  method
+## insert(int index, [MathBorderBox](../../MathBorderBox) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -151,7 +151,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathBox]MathBox item)  method
+## insert(int index, [MathBox](../../MathBox) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -175,7 +175,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathDelimiter]MathDelimiter item)  method
+## insert(int index, [MathDelimiter](../../MathDelimiter) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -199,7 +199,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathElementBase]MathElementBase item)  method
+## insert(int index, [MathElementBase](../../MathElementBase) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -223,7 +223,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathematicalText]MathematicalText item)  method
+## insert(int index, [MathematicalText](../../MathematicalText) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -247,7 +247,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathFraction]MathFraction item)  method
+## insert(int index, [MathFraction](../../MathFraction) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -271,7 +271,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathFunction]MathFunction item)  method
+## insert(int index, [MathFunction](../../MathFunction) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -295,7 +295,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathGroupingCharacter]MathGroupingCharacter item)  method
+## insert(int index, [MathGroupingCharacter](../../MathGroupingCharacter) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -319,7 +319,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement item)  method
+## insert(int index, [MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -343,7 +343,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathLimit]MathLimit item)  method
+## insert(int index, [MathLimit](../../MathLimit) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -367,7 +367,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathMatrix]MathMatrix item)  method
+## insert(int index, [MathMatrix](../../MathMatrix) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -391,7 +391,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathNaryOperator]MathNaryOperator item)  method
+## insert(int index, [MathNaryOperator](../../MathNaryOperator) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -415,7 +415,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathRadical]MathRadical item)  method
+## insert(int index, [MathRadical](../../MathRadical) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -439,7 +439,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement item)  method
+## insert(int index, [MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -463,7 +463,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathSubscriptElement]MathSubscriptElement item)  method
+## insert(int index, [MathSubscriptElement](../../MathSubscriptElement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -487,7 +487,7 @@ Example:
 ---
 
 
-## insert(int index, [../../MathSuperscriptElement]MathSuperscriptElement item)  method
+## insert(int index, [MathSuperscriptElement](../../MathSuperscriptElement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  

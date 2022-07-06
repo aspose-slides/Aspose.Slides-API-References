@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/vbareferencecollection/add/
 ---
 
-## add([../../VbaReferenceOleTypeLib]VbaReferenceOleTypeLib value)  method
+## add([VbaReferenceOleTypeLib](../../VbaReferenceOleTypeLib) value)  method
 
  Adds the new reference to references collection
  

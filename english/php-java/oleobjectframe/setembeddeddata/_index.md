@@ -7,7 +7,7 @@ weight: 130
 url: /php-java/oleobjectframe/setembeddeddata/
 ---
 
-## setEmbeddedData([../../OleEmbeddedDataInfo]OleEmbeddedDataInfo embeddedData)  method
+## setEmbeddedData([OleEmbeddedDataInfo](../../OleEmbeddedDataInfo) embeddedData)  method
 
  Sets information about OLE embedded data.
  

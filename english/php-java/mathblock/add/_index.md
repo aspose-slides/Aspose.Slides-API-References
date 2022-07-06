@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/mathblock/add/
 ---
 
-## add([../../BaseScript]BaseScript item)  method
+## add([BaseScript](../../BaseScript) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -29,7 +29,7 @@ Example:
 ---
 
 
-## add([../../MathAccent]MathAccent item)  method
+## add([MathAccent](../../MathAccent) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -51,7 +51,7 @@ Example:
 ---
 
 
-## add([../../MathArray]MathArray item)  method
+## add([MathArray](../../MathArray) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -73,7 +73,7 @@ Example:
 ---
 
 
-## add([../../MathBar]MathBar item)  method
+## add([MathBar](../../MathBar) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -95,7 +95,7 @@ Example:
 ---
 
 
-## add([../../MathBlock]MathBlock item)  method
+## add([MathBlock](../../MathBlock) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -117,7 +117,7 @@ Example:
 ---
 
 
-## add([../../MathBorderBox]MathBorderBox item)  method
+## add([MathBorderBox](../../MathBorderBox) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -139,7 +139,7 @@ Example:
 ---
 
 
-## add([../../MathBox]MathBox item)  method
+## add([MathBox](../../MathBox) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -161,7 +161,7 @@ Example:
 ---
 
 
-## add([../../MathDelimiter]MathDelimiter item)  method
+## add([MathDelimiter](../../MathDelimiter) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -183,7 +183,7 @@ Example:
 ---
 
 
-## add([../../MathElementBase]MathElementBase item)  method
+## add([MathElementBase](../../MathElementBase) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -205,7 +205,7 @@ Example:
 ---
 
 
-## add([../../MathematicalText]MathematicalText item)  method
+## add([MathematicalText](../../MathematicalText) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -227,7 +227,7 @@ Example:
 ---
 
 
-## add([../../MathFraction]MathFraction item)  method
+## add([MathFraction](../../MathFraction) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -249,7 +249,7 @@ Example:
 ---
 
 
-## add([../../MathFunction]MathFunction item)  method
+## add([MathFunction](../../MathFunction) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -271,7 +271,7 @@ Example:
 ---
 
 
-## add([../../MathGroupingCharacter]MathGroupingCharacter item)  method
+## add([MathGroupingCharacter](../../MathGroupingCharacter) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -293,7 +293,7 @@ Example:
 ---
 
 
-## add([../../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement item)  method
+## add([MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -315,7 +315,7 @@ Example:
 ---
 
 
-## add([../../MathLimit]MathLimit item)  method
+## add([MathLimit](../../MathLimit) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -337,7 +337,7 @@ Example:
 ---
 
 
-## add([../../MathMatrix]MathMatrix item)  method
+## add([MathMatrix](../../MathMatrix) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -359,7 +359,7 @@ Example:
 ---
 
 
-## add([../../MathNaryOperator]MathNaryOperator item)  method
+## add([MathNaryOperator](../../MathNaryOperator) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -381,7 +381,7 @@ Example:
 ---
 
 
-## add([../../MathRadical]MathRadical item)  method
+## add([MathRadical](../../MathRadical) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -403,7 +403,7 @@ Example:
 ---
 
 
-## add([../../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement item)  method
+## add([MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -425,7 +425,7 @@ Example:
 ---
 
 
-## add([../../MathSubscriptElement]MathSubscriptElement item)  method
+## add([MathSubscriptElement](../../MathSubscriptElement) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -447,7 +447,7 @@ Example:
 ---
 
 
-## add([../../MathSuperscriptElement]MathSuperscriptElement item)  method
+## add([MathSuperscriptElement](../../MathSuperscriptElement) item)  method
 
  Adds a math element to the end of the collection.
  

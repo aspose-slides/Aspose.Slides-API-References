@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/commentcollection/insertcomment/
 ---
 
-## insertComment(int index, String text, [../../Slide]Slide slide, Point2D.Float position, Date creationTime)  method
+## insertComment(int index, String text, [Slide](../../Slide) slide, Point2D.Float position, Date creationTime)  method
 
  Insert new comment to a collection at the specified index.
  

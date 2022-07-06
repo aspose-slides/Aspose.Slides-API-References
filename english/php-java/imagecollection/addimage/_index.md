@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/imagecollection/addimage/
 ---
 
-## addImage([../../PPImage]PPImage imageSource)  method
+## addImage([PPImage](../../PPImage) imageSource)  method
 
  Adds a copy of an image from an another presentation.
  
@@ -98,7 +98,7 @@ Added image.
 ---
 
 
-## addImage([../../SvgImage]SvgImage svgImage)  method
+## addImage([SvgImage](../../SvgImage) svgImage)  method
 
  Add an image to a presentation from Svg object. 
  

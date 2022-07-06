@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/masterlayoutslidecollection/insertclone/
 ---
 
-## insertClone(int index, [../../LayoutSlide]LayoutSlide sourceLayout)  method
+## insertClone(int index, [LayoutSlide](../../LayoutSlide) sourceLayout)  method
 
  Inserts a copy of a specified layout slide to specified position of the collection.
  

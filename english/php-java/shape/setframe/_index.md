@@ -7,7 +7,7 @@ weight: 400
 url: /php-java/shape/setframe/
 ---
 
-## setFrame([../../ShapeFrame]ShapeFrame value)  method
+## setFrame([ShapeFrame](../../ShapeFrame) value)  method
 
  Returns or sets the shape frame's properties.
  Read/write  IShapeFrame.

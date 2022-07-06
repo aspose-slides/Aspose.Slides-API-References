@@ -7,7 +7,7 @@ weight: 570
 url: /php-java/shapecollection/insertzoomframe/
 ---
 
-## insertZoomFrame(int index, float x, float y, float width, float height, [../../Slide]Slide slide)  method
+## insertZoomFrame(int index, float x, float y, float width, float height, [Slide](../../Slide) slide)  method
 
  Creates a new Zoom object and inserts it to a collection at the specified index.
  
@@ -50,7 +50,7 @@ Created Zoom object IZoomFrame.
 ---
 
 
-## insertZoomFrame(int index, float x, float y, float width, float height, [../../Slide]Slide slide, [../../PPImage]PPImage image)  method
+## insertZoomFrame(int index, float x, float y, float width, float height, [Slide](../../Slide) slide, [PPImage](../../PPImage) image)  method
 
  Creates a new Zoom object and inserts it to a collection at the specified index.
  

@@ -7,7 +7,7 @@ weight: 150
 url: /php-java/coloroperationcollection/set_item/
 ---
 
-## set_Item(int index, [../../ColorOperation]ColorOperation value)  method
+## set_Item(int index, [ColorOperation](../../ColorOperation) value)  method
 
  Returns or sets the operation at the specified index.
  Read/write  ColorOperation.

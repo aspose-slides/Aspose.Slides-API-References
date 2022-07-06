@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/embeddedwofffontshtmlcontroller/writedocumentend/
 ---
 
-## writeDocumentEnd([../../HtmlGenerator]HtmlGenerator generator, [../../Presentation]Presentation presentation)  method
+## writeDocumentEnd([HtmlGenerator](../../HtmlGenerator) generator, [Presentation](../../Presentation) presentation)  method
 
 
 

@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/portion/addfield/
 ---
 
-## addField([../../FieldType]FieldType fieldType)  method
+## addField([FieldType](../../FieldType) fieldType)  method
 
  Converts this portion to the automaticaly updated field.
  

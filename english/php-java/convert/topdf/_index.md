@@ -31,7 +31,7 @@ Presentation
 ---
 
 
-## toPdf(String presPath, String outPath, [../../PdfOptions]PdfOptions options)  method
+## toPdf(String presPath, String outPath, [PdfOptions](../../PdfOptions) options)  method
 
  Converts  Presentation to PDF.
  
@@ -58,7 +58,7 @@ Presentation
 ---
 
 
-## toPdf([../../Presentation]Presentation pres, String outPath)  method
+## toPdf([Presentation](../../Presentation) pres, String outPath)  method
 
  Converts  Presentation to PDF.
  
@@ -89,7 +89,7 @@ Presentation
 ---
 
 
-## toPdf([../../Presentation]Presentation pres, String outPath, [../../PdfOptions]PdfOptions options)  method
+## toPdf([Presentation](../../Presentation) pres, String outPath, [PdfOptions](../../PdfOptions) options)  method
 
  Converts  Presentation to PDF.
  

@@ -7,7 +7,7 @@ weight: 290
 url: /php-java/chartdatapointcollection/adddatapointforscatterseries/
 ---
 
-## addDataPointForScatterSeries([../../ChartDataCell]ChartDataCell xValue, [../../ChartDataCell]ChartDataCell yValue)  method
+## addDataPointForScatterSeries([ChartDataCell](../../ChartDataCell) xValue, [ChartDataCell](../../ChartDataCell) yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -27,7 +27,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries(double xValue, [../../ChartDataCell]ChartDataCell yValue)  method
+## addDataPointForScatterSeries(double xValue, [ChartDataCell](../../ChartDataCell) yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -47,7 +47,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries(String xValue, [../../ChartDataCell]ChartDataCell yValue)  method
+## addDataPointForScatterSeries(String xValue, [ChartDataCell](../../ChartDataCell) yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -67,7 +67,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries([../../ChartDataCell]ChartDataCell xValue, double yValue)  method
+## addDataPointForScatterSeries([ChartDataCell](../../ChartDataCell) xValue, double yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).

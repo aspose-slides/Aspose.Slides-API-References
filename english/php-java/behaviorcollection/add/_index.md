@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/behaviorcollection/add/
 ---
 
-## add([../../Behavior]Behavior item)  method
+## add([Behavior](../../Behavior) item)  method
 
  Add new behavior to a collection.
  
@@ -22,7 +22,7 @@ url: /php-java/behaviorcollection/add/
 ---
 
 
-## add([../../ColorEffect]ColorEffect item)  method
+## add([ColorEffect](../../ColorEffect) item)  method
 
  Add new behavior to a collection.
  
@@ -37,7 +37,7 @@ url: /php-java/behaviorcollection/add/
 ---
 
 
-## add([../../CommandEffect]CommandEffect item)  method
+## add([CommandEffect](../../CommandEffect) item)  method
 
  Add new behavior to a collection.
  
@@ -52,7 +52,7 @@ url: /php-java/behaviorcollection/add/
 ---
 
 
-## add([../../FilterEffect]FilterEffect item)  method
+## add([FilterEffect](../../FilterEffect) item)  method
 
  Add new behavior to a collection.
  
@@ -67,7 +67,7 @@ url: /php-java/behaviorcollection/add/
 ---
 
 
-## add([../../MotionEffect]MotionEffect item)  method
+## add([MotionEffect](../../MotionEffect) item)  method
 
  Add new behavior to a collection.
  
@@ -82,7 +82,7 @@ url: /php-java/behaviorcollection/add/
 ---
 
 
-## add([../../PropertyEffect]PropertyEffect item)  method
+## add([PropertyEffect](../../PropertyEffect) item)  method
 
  Add new behavior to a collection.
  
@@ -97,7 +97,7 @@ url: /php-java/behaviorcollection/add/
 ---
 
 
-## add([../../RotationEffect]RotationEffect item)  method
+## add([RotationEffect](../../RotationEffect) item)  method
 
  Add new behavior to a collection.
  
@@ -112,7 +112,7 @@ url: /php-java/behaviorcollection/add/
 ---
 
 
-## add([../../ScaleEffect]ScaleEffect item)  method
+## add([ScaleEffect](../../ScaleEffect) item)  method
 
  Add new behavior to a collection.
  
@@ -127,7 +127,7 @@ url: /php-java/behaviorcollection/add/
 ---
 
 
-## add([../../SetEffect]SetEffect item)  method
+## add([SetEffect](../../SetEffect) item)  method
 
  Add new behavior to a collection.
  

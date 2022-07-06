@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/output/bindresource/
 ---
 
-## bindResource([../../OutputFile]OutputFile outputFile, Object obj)  method
+## bindResource([OutputFile](../../OutputFile) outputFile, Object obj)  method
 
  Binds resource to output file.
  

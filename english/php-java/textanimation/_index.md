@@ -26,4 +26,4 @@ url: /php-java/textanimation/
 | [getBuildType](getbuildtype)() | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
 | [getEffectAnimateBackgroundShape](geteffectanimatebackgroundshape)() | Linked shape effect with group or not (null). Read/write IEffect. |
 | [setBuildType](setbuildtype)(int) | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
-| [setEffectAnimateBackgroundShape](seteffectanimatebackgroundshape)([../Effect]Effect) | Linked shape effect with group or not (null). Read/write IEffect. |
+| [setEffectAnimateBackgroundShape](seteffectanimatebackgroundshape)([Effect](../Effect)) | Linked shape effect with group or not (null). Read/write IEffect. |

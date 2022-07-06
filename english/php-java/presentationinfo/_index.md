@@ -23,6 +23,6 @@ url: /php-java/presentationinfo/
 | [isPasswordProtected](ispasswordprotected)() | Gets a value that indicates whether a binded presentation is protected by a password to open. |
 | [isWriteProtected](iswriteprotected)() | Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
 | [readDocumentProperties](readdocumentproperties)() | Gets document properties of binded presentation. |
-| [updateDocumentProperties](updatedocumentproperties)([../DocumentProperties]DocumentProperties) | Updates properties of binded presentation. |
+| [updateDocumentProperties](updatedocumentproperties)([DocumentProperties](../DocumentProperties)) | Updates properties of binded presentation. |
 | [writeBindedPresentation](writebindedpresentation)(OutputStream) | Writes binded presentation to stream. |
 | [writeBindedPresentation](writebindedpresentation)(String) | Writes binded presentation to file. |

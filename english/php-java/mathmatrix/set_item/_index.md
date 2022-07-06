@@ -7,7 +7,7 @@ weight: 300
 url: /php-java/mathmatrix/set_item/
 ---
 
-## set_Item(int row, int column, [../../BaseScript]BaseScript value)  method
+## set_Item(int row, int column, [BaseScript](../../BaseScript) value)  method
 
  Element of matrix
  
@@ -29,7 +29,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathAccent]MathAccent value)  method
+## set_Item(int row, int column, [MathAccent](../../MathAccent) value)  method
 
  Element of matrix
  
@@ -51,7 +51,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathArray]MathArray value)  method
+## set_Item(int row, int column, [MathArray](../../MathArray) value)  method
 
  Element of matrix
  
@@ -73,7 +73,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathBar]MathBar value)  method
+## set_Item(int row, int column, [MathBar](../../MathBar) value)  method
 
  Element of matrix
  
@@ -95,7 +95,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathBlock]MathBlock value)  method
+## set_Item(int row, int column, [MathBlock](../../MathBlock) value)  method
 
  Element of matrix
  
@@ -117,7 +117,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathBorderBox]MathBorderBox value)  method
+## set_Item(int row, int column, [MathBorderBox](../../MathBorderBox) value)  method
 
  Element of matrix
  
@@ -139,7 +139,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathBox]MathBox value)  method
+## set_Item(int row, int column, [MathBox](../../MathBox) value)  method
 
  Element of matrix
  
@@ -161,7 +161,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathDelimiter]MathDelimiter value)  method
+## set_Item(int row, int column, [MathDelimiter](../../MathDelimiter) value)  method
 
  Element of matrix
  
@@ -183,7 +183,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathElementBase]MathElementBase value)  method
+## set_Item(int row, int column, [MathElementBase](../../MathElementBase) value)  method
 
  Element of matrix
  
@@ -205,7 +205,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathematicalText]MathematicalText value)  method
+## set_Item(int row, int column, [MathematicalText](../../MathematicalText) value)  method
 
  Element of matrix
  
@@ -227,7 +227,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathFraction]MathFraction value)  method
+## set_Item(int row, int column, [MathFraction](../../MathFraction) value)  method
 
  Element of matrix
  
@@ -249,7 +249,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathFunction]MathFunction value)  method
+## set_Item(int row, int column, [MathFunction](../../MathFunction) value)  method
 
  Element of matrix
  
@@ -271,7 +271,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathGroupingCharacter]MathGroupingCharacter value)  method
+## set_Item(int row, int column, [MathGroupingCharacter](../../MathGroupingCharacter) value)  method
 
  Element of matrix
  
@@ -293,7 +293,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement value)  method
+## set_Item(int row, int column, [MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) value)  method
 
  Element of matrix
  
@@ -315,7 +315,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathLimit]MathLimit value)  method
+## set_Item(int row, int column, [MathLimit](../../MathLimit) value)  method
 
  Element of matrix
  
@@ -337,7 +337,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathMatrix]MathMatrix value)  method
+## set_Item(int row, int column, [MathMatrix](../../MathMatrix) value)  method
 
  Element of matrix
  
@@ -359,7 +359,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathNaryOperator]MathNaryOperator value)  method
+## set_Item(int row, int column, [MathNaryOperator](../../MathNaryOperator) value)  method
 
  Element of matrix
  
@@ -381,7 +381,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathRadical]MathRadical value)  method
+## set_Item(int row, int column, [MathRadical](../../MathRadical) value)  method
 
  Element of matrix
  
@@ -403,7 +403,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement value)  method
+## set_Item(int row, int column, [MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) value)  method
 
  Element of matrix
  
@@ -425,7 +425,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathSubscriptElement]MathSubscriptElement value)  method
+## set_Item(int row, int column, [MathSubscriptElement](../../MathSubscriptElement) value)  method
 
  Element of matrix
  
@@ -447,7 +447,7 @@ Example:
 ---
 
 
-## set_Item(int row, int column, [../../MathSuperscriptElement]MathSuperscriptElement value)  method
+## set_Item(int row, int column, [MathSuperscriptElement](../../MathSuperscriptElement) value)  method
 
  Element of matrix
  

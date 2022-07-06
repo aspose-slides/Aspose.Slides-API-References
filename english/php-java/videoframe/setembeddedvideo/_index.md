@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/videoframe/setembeddedvideo/
 ---
 
-## setEmbeddedVideo([../../Video]Video value)  method
+## setEmbeddedVideo([Video](../../Video) value)  method
 
  Returns or sets embedded video object.
  Read/write  IVideo.

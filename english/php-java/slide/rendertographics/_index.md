@@ -7,7 +7,7 @@ weight: 210
 url: /php-java/slide/rendertographics/
 ---
 
-## renderToGraphics([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, int width, int height)  method
+## renderToGraphics([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, Graphics2D graphics, int width, int height)  method
 
  Renders certain slide to a Graphics object using specified size.
  
@@ -31,7 +31,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics, float scale)  method
+## renderToGraphics([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, Graphics2D graphics, float scale)  method
 
  Renders certain slide to a Graphics object using specified scale.
  
@@ -54,7 +54,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics([../../NotesCommentsLayoutingOptions]NotesCommentsLayoutingOptions notesCommentsLayouting, Graphics2D graphics)  method
+## renderToGraphics([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, Graphics2D graphics)  method
 
  Renders certain slide to a Graphics object.
  
@@ -76,7 +76,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics([../../RenderingOptions]RenderingOptions options, Graphics2D graphics)  method
+## renderToGraphics([RenderingOptions](../../RenderingOptions) options, Graphics2D graphics)  method
 
  Renders certain slide to a Graphics object.
  
@@ -98,7 +98,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics([../../RenderingOptions]RenderingOptions options, Graphics2D graphics, float scaleX, float scaleY)  method
+## renderToGraphics([RenderingOptions](../../RenderingOptions) options, Graphics2D graphics, float scaleX, float scaleY)  method
 
  Renders certain slide to a Graphics object with custom scaling.
  
@@ -122,7 +122,7 @@ url: /php-java/slide/rendertographics/
 ---
 
 
-## renderToGraphics([../../RenderingOptions]RenderingOptions options, Graphics2D graphics, Dimension renderingSize)  method
+## renderToGraphics([RenderingOptions](../../RenderingOptions) options, Graphics2D graphics, Dimension renderingSize)  method
 
  Renders certain slide to a Graphics object using specified size.
  

@@ -7,7 +7,7 @@ weight: 200
 url: /php-java/chartdatapointcollection/adddatapointforfunnelseries/
 ---
 
-## addDataPointForFunnelSeries([../../ChartDataCell]ChartDataCell value)  method
+## addDataPointForFunnelSeries([ChartDataCell](../../ChartDataCell) value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chart type is Funnel.

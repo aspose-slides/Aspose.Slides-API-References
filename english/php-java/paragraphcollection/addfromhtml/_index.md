@@ -22,7 +22,7 @@ url: /php-java/paragraphcollection/addfromhtml/
 ---
 
 
-## addFromHtml(String text, [../../ExternalResourceResolver]ExternalResourceResolver resolver, String uri)  method
+## addFromHtml(String text, [ExternalResourceResolver](../../ExternalResourceResolver) resolver, String uri)  method
 
  Adds text from specified html string to the collection.
  
@@ -39,7 +39,7 @@ url: /php-java/paragraphcollection/addfromhtml/
 ---
 
 
-## addFromHtml(String text, [../../HtmlExternalResolver]HtmlExternalResolver resolver, String uri)  method
+## addFromHtml(String text, [HtmlExternalResolver](../../HtmlExternalResolver) resolver, String uri)  method
 
  Adds text from specified html string to the collection.
  

@@ -16,7 +16,7 @@ url: /php-java/chartcellcollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)([../ChartDataCell]ChartDataCell) | Add new cell to the collection. |
+| [add](add)([ChartDataCell](../ChartDataCell)) | Add new cell to the collection. |
 | [add](add)(Object) | Creates ChartDataCell from specified value and adds it to the collection. |
 | [getCellsAddress](getcellsaddress)() | Returns address of the set of cells in workbook. |
 | [getConcatenatedValuesFromCells](getconcatenatedvaluesfromcells)() | Concatenation string from all cells string values. |

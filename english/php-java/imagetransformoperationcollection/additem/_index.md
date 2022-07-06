@@ -7,7 +7,7 @@ weight: 160
 url: /php-java/imagetransformoperationcollection/additem/
 ---
 
-## addItem([../../AlphaBiLevel]AlphaBiLevel operation)  method
+## addItem([AlphaBiLevel](../../AlphaBiLevel) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -22,7 +22,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../AlphaCeiling]AlphaCeiling operation)  method
+## addItem([AlphaCeiling](../../AlphaCeiling) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -37,7 +37,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../AlphaFloor]AlphaFloor operation)  method
+## addItem([AlphaFloor](../../AlphaFloor) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -52,7 +52,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../AlphaInverse]AlphaInverse operation)  method
+## addItem([AlphaInverse](../../AlphaInverse) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -67,7 +67,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../AlphaModulate]AlphaModulate operation)  method
+## addItem([AlphaModulate](../../AlphaModulate) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -82,7 +82,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../AlphaModulateFixed]AlphaModulateFixed operation)  method
+## addItem([AlphaModulateFixed](../../AlphaModulateFixed) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -97,7 +97,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../AlphaReplace]AlphaReplace operation)  method
+## addItem([AlphaReplace](../../AlphaReplace) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -112,7 +112,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../BiLevel]BiLevel operation)  method
+## addItem([BiLevel](../../BiLevel) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -127,7 +127,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../Blur]Blur operation)  method
+## addItem([Blur](../../Blur) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -142,7 +142,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../ColorChange]ColorChange operation)  method
+## addItem([ColorChange](../../ColorChange) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -157,7 +157,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../ColorReplace]ColorReplace operation)  method
+## addItem([ColorReplace](../../ColorReplace) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -172,7 +172,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../Duotone]Duotone operation)  method
+## addItem([Duotone](../../Duotone) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -187,7 +187,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../FillOverlay]FillOverlay operation)  method
+## addItem([FillOverlay](../../FillOverlay) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -202,7 +202,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../Glow]Glow operation)  method
+## addItem([Glow](../../Glow) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -217,7 +217,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../GrayScale]GrayScale operation)  method
+## addItem([GrayScale](../../GrayScale) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -232,7 +232,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../HSL]HSL operation)  method
+## addItem([HSL](../../HSL) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -247,7 +247,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../ImageTransformOperation]ImageTransformOperation operation)  method
+## addItem([ImageTransformOperation](../../ImageTransformOperation) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -262,7 +262,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../InnerShadow]InnerShadow operation)  method
+## addItem([InnerShadow](../../InnerShadow) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -277,7 +277,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../Luminance]Luminance operation)  method
+## addItem([Luminance](../../Luminance) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -292,7 +292,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../OuterShadow]OuterShadow operation)  method
+## addItem([OuterShadow](../../OuterShadow) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -307,7 +307,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../PresetShadow]PresetShadow operation)  method
+## addItem([PresetShadow](../../PresetShadow) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -322,7 +322,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../Reflection]Reflection operation)  method
+## addItem([Reflection](../../Reflection) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -337,7 +337,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../SoftEdge]SoftEdge operation)  method
+## addItem([SoftEdge](../../SoftEdge) operation)  method
 
  Adds the new image effect to the end of a collection.
  
@@ -352,7 +352,7 @@ url: /php-java/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([../../Tint]Tint operation)  method
+## addItem([Tint](../../Tint) operation)  method
 
  Adds the new image effect to the end of a collection.
  

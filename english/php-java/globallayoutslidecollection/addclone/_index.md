@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/globallayoutslidecollection/addclone/
 ---
 
-## addClone([../../LayoutSlide]LayoutSlide sourceLayout)  method
+## addClone([LayoutSlide](../../LayoutSlide) sourceLayout)  method
 
  Adds a copy of a specified layout slide to the presentation.
  
@@ -25,7 +25,7 @@ Added slide.
 ---
 
 
-## addClone([../../LayoutSlide]LayoutSlide sourceLayout, [../../MasterSlide]MasterSlide destMaster)  method
+## addClone([LayoutSlide](../../LayoutSlide) sourceLayout, [MasterSlide](../../MasterSlide) destMaster)  method
 
  Adds a copy of a specified layout slide to the presentation.
  

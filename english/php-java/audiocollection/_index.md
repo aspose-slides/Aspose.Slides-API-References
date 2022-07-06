@@ -16,7 +16,7 @@ url: /php-java/audiocollection/
 
 | Name | Description |
 | --- | --- |
-| [addAudio](addaudio)([../Audio]Audio) | Adds a copy of an audio file from an another presentation. |
+| [addAudio](addaudio)([Audio](../Audio)) | Adds a copy of an audio file from an another presentation. |
 | [addAudio](addaudio)(InputStream) | Creates and adds a audio to a presentation from stream. |
 | [addAudio](addaudio)(InputStream, int) | Creates and adds a audio to a presentation from stream. |
 | [addAudio](addaudio)(byte[]) | Creates and adds a audio to a presentation from byte array. |

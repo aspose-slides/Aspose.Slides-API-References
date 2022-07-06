@@ -7,7 +7,7 @@ weight: 100
 url: /php-java/datalabelcollection/indexof/
 ---
 
-## indexOf([../../DataLabel]DataLabel value)  method
+## indexOf([DataLabel](../../DataLabel) value)  method
 
  Returns an index of the specified DataLabel in the collection.
  

@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/field/settype/
 ---
 
-## setType([../../FieldType]FieldType value)  method
+## setType([FieldType](../../FieldType) value)  method
 
  Returns or sets field's type.
  Read/write  IFieldType.

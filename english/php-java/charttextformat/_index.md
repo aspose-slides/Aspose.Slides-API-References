@@ -16,8 +16,8 @@ url: /php-java/charttextformat/
 
 | Name | Description |
 | --- | --- |
-| [copyFrom](copyfrom)([../TextFrame]TextFrame) | Copies text format from specified text frame. |
-| [copyTo](copyto)([../TextFrame]TextFrame) | Copies text format to specified text frame. |
+| [copyFrom](copyfrom)([TextFrame](../TextFrame)) | Copies text format from specified text frame. |
+| [copyTo](copyto)([TextFrame](../TextFrame)) | Copies text format to specified text frame. |
 | [getParagraphFormat](getparagraphformat)() | ParagraphFormat. Read-only IChartParagraphFormat. |
 | [getPortionFormat](getportionformat)() | PortionFormat. Read-only IChartPortionFormat. |
 | [getTextBlockFormat](gettextblockformat)() | TextBlockFormat. Read-only IChartTextBlockFormat. |

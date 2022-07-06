@@ -7,7 +7,7 @@ weight: 230
 url: /php-java/mathblock/remove/
 ---
 
-## remove([../../BaseScript]BaseScript item)  method
+## remove([BaseScript](../../BaseScript) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -34,7 +34,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathAccent]MathAccent item)  method
+## remove([MathAccent](../../MathAccent) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -61,7 +61,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathArray]MathArray item)  method
+## remove([MathArray](../../MathArray) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -88,7 +88,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathBar]MathBar item)  method
+## remove([MathBar](../../MathBar) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -115,7 +115,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathBlock]MathBlock item)  method
+## remove([MathBlock](../../MathBlock) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -142,7 +142,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathBorderBox]MathBorderBox item)  method
+## remove([MathBorderBox](../../MathBorderBox) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -169,7 +169,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathBox]MathBox item)  method
+## remove([MathBox](../../MathBox) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -196,7 +196,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathDelimiter]MathDelimiter item)  method
+## remove([MathDelimiter](../../MathDelimiter) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -223,7 +223,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathElementBase]MathElementBase item)  method
+## remove([MathElementBase](../../MathElementBase) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -250,7 +250,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathematicalText]MathematicalText item)  method
+## remove([MathematicalText](../../MathematicalText) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -277,7 +277,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathFraction]MathFraction item)  method
+## remove([MathFraction](../../MathFraction) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -304,7 +304,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathFunction]MathFunction item)  method
+## remove([MathFunction](../../MathFunction) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -331,7 +331,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathGroupingCharacter]MathGroupingCharacter item)  method
+## remove([MathGroupingCharacter](../../MathGroupingCharacter) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -358,7 +358,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement item)  method
+## remove([MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -385,7 +385,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathLimit]MathLimit item)  method
+## remove([MathLimit](../../MathLimit) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -412,7 +412,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathMatrix]MathMatrix item)  method
+## remove([MathMatrix](../../MathMatrix) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -439,7 +439,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathNaryOperator]MathNaryOperator item)  method
+## remove([MathNaryOperator](../../MathNaryOperator) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -466,7 +466,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathRadical]MathRadical item)  method
+## remove([MathRadical](../../MathRadical) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -493,7 +493,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement item)  method
+## remove([MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -520,7 +520,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathSubscriptElement]MathSubscriptElement item)  method
+## remove([MathSubscriptElement](../../MathSubscriptElement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -547,7 +547,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([../../MathSuperscriptElement]MathSuperscriptElement item)  method
+## remove([MathSuperscriptElement](../../MathSuperscriptElement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  

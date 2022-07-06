@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/connector/setendshapeconnectedto/
 ---
 
-## setEndShapeConnectedTo([../../AudioFrame]AudioFrame value)  method
+## setEndShapeConnectedTo([AudioFrame](../../AudioFrame) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -26,7 +26,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../AutoShape]AutoShape value)  method
+## setEndShapeConnectedTo([AutoShape](../../AutoShape) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -45,7 +45,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../Chart]Chart value)  method
+## setEndShapeConnectedTo([Chart](../../Chart) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -64,7 +64,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../Connector]Connector value)  method
+## setEndShapeConnectedTo([Connector](../../Connector) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -83,7 +83,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../GeometryShape]GeometryShape value)  method
+## setEndShapeConnectedTo([GeometryShape](../../GeometryShape) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -102,7 +102,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../GraphicalObject]GraphicalObject value)  method
+## setEndShapeConnectedTo([GraphicalObject](../../GraphicalObject) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -121,7 +121,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../GroupShape]GroupShape value)  method
+## setEndShapeConnectedTo([GroupShape](../../GroupShape) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -140,7 +140,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../Ink]Ink value)  method
+## setEndShapeConnectedTo([Ink](../../Ink) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -159,7 +159,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../LegacyDiagram]LegacyDiagram value)  method
+## setEndShapeConnectedTo([LegacyDiagram](../../LegacyDiagram) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -178,7 +178,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../OleObjectFrame]OleObjectFrame value)  method
+## setEndShapeConnectedTo([OleObjectFrame](../../OleObjectFrame) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -197,7 +197,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../PictureFrame]PictureFrame value)  method
+## setEndShapeConnectedTo([PictureFrame](../../PictureFrame) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -216,7 +216,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../SectionZoomFrame]SectionZoomFrame value)  method
+## setEndShapeConnectedTo([SectionZoomFrame](../../SectionZoomFrame) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -235,7 +235,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../Shape]Shape value)  method
+## setEndShapeConnectedTo([Shape](../../Shape) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -254,7 +254,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../SmartArt]SmartArt value)  method
+## setEndShapeConnectedTo([SmartArt](../../SmartArt) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -273,7 +273,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../SmartArtShape]SmartArtShape value)  method
+## setEndShapeConnectedTo([SmartArtShape](../../SmartArtShape) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -292,7 +292,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../SummaryZoomFrame]SummaryZoomFrame value)  method
+## setEndShapeConnectedTo([SummaryZoomFrame](../../SummaryZoomFrame) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -311,7 +311,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../SummaryZoomSection]SummaryZoomSection value)  method
+## setEndShapeConnectedTo([SummaryZoomSection](../../SummaryZoomSection) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -330,7 +330,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../Table]Table value)  method
+## setEndShapeConnectedTo([Table](../../Table) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -349,7 +349,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../VideoFrame]VideoFrame value)  method
+## setEndShapeConnectedTo([VideoFrame](../../VideoFrame) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -368,7 +368,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../ZoomFrame]ZoomFrame value)  method
+## setEndShapeConnectedTo([ZoomFrame](../../ZoomFrame) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -387,7 +387,7 @@ IShape
 ---
 
 
-## setEndShapeConnectedTo([../../ZoomObject]ZoomObject value)  method
+## setEndShapeConnectedTo([ZoomObject](../../ZoomObject) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.

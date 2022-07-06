@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/behaviorcollection/indexof/
 ---
 
-## indexOf([../../Behavior]Behavior item)  method
+## indexOf([Behavior](../../Behavior) item)  method
 
  Determines the index of a specific item in the  List.
  
@@ -25,7 +25,7 @@ List
 ---
 
 
-## indexOf([../../ColorEffect]ColorEffect item)  method
+## indexOf([ColorEffect](../../ColorEffect) item)  method
 
  Determines the index of a specific item in the  List.
  
@@ -43,7 +43,7 @@ List
 ---
 
 
-## indexOf([../../CommandEffect]CommandEffect item)  method
+## indexOf([CommandEffect](../../CommandEffect) item)  method
 
  Determines the index of a specific item in the  List.
  
@@ -61,7 +61,7 @@ List
 ---
 
 
-## indexOf([../../FilterEffect]FilterEffect item)  method
+## indexOf([FilterEffect](../../FilterEffect) item)  method
 
  Determines the index of a specific item in the  List.
  
@@ -79,7 +79,7 @@ List
 ---
 
 
-## indexOf([../../MotionEffect]MotionEffect item)  method
+## indexOf([MotionEffect](../../MotionEffect) item)  method
 
  Determines the index of a specific item in the  List.
  
@@ -97,7 +97,7 @@ List
 ---
 
 
-## indexOf([../../PropertyEffect]PropertyEffect item)  method
+## indexOf([PropertyEffect](../../PropertyEffect) item)  method
 
  Determines the index of a specific item in the  List.
  
@@ -115,7 +115,7 @@ List
 ---
 
 
-## indexOf([../../RotationEffect]RotationEffect item)  method
+## indexOf([RotationEffect](../../RotationEffect) item)  method
 
  Determines the index of a specific item in the  List.
  
@@ -133,7 +133,7 @@ List
 ---
 
 
-## indexOf([../../ScaleEffect]ScaleEffect item)  method
+## indexOf([ScaleEffect](../../ScaleEffect) item)  method
 
  Determines the index of a specific item in the  List.
  
@@ -151,7 +151,7 @@ List
 ---
 
 
-## indexOf([../../SetEffect]SetEffect item)  method
+## indexOf([SetEffect](../../SetEffect) item)  method
 
  Determines the index of a specific item in the  List.
  

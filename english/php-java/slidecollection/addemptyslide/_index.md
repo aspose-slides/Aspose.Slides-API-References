@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/slidecollection/addemptyslide/
 ---
 
-## addEmptySlide([../../LayoutSlide]LayoutSlide layout)  method
+## addEmptySlide([LayoutSlide](../../LayoutSlide) layout)  method
 
  Adds a new empty slide to the end of the collection.
  

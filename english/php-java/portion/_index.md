@@ -24,7 +24,7 @@ url: /php-java/portion/
 
 | Name | Description |
 | --- | --- |
-| [addField](addfield)([../FieldType]FieldType) | Converts this portion to the automaticaly updated field. |
+| [addField](addfield)([FieldType](../FieldType)) | Converts this portion to the automaticaly updated field. |
 | [addField](addfield)(String) | Converts this portion to the automaticaly updated field. |
 | [getCoordinates](getcoordinates)() | Get coordinates of the beginning of the portion. The X coordinate of point represents the portion beginning from the first character including left side bearing. The Y coordinate includes top side bearing. |
 | [getField](getfield)() | Returns a field of this portion. Read-only IField. |

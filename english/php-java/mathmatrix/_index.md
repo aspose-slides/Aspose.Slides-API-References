@@ -58,24 +58,24 @@ Example:
 | [setMinColumnWidth](setmincolumnwidth)(long) | Minimum column width in twips (1/20th of a point) The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to the MinColumnWidth to determine the total Matrix Column Spacing (distance between the same edges of different columns). Default: 0. |
 | [setRowGap](setrowgap)(long) | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
 | [setRowGapRule](setrowgaprule)(int) | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
-| [set_Item](set_item)(int, int, [../BaseScript]BaseScript) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathAccent]MathAccent) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathArray]MathArray) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathBar]MathBar) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathBlock]MathBlock) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathBorderBox]MathBorderBox) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathBox]MathBox) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathDelimiter]MathDelimiter) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathElementBase]MathElementBase) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathematicalText]MathematicalText) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathFraction]MathFraction) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathFunction]MathFunction) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathGroupingCharacter]MathGroupingCharacter) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathLimit]MathLimit) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathMatrix]MathMatrix) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathNaryOperator]MathNaryOperator) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathRadical]MathRadical) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathSubscriptElement]MathSubscriptElement) | Element of matrix |
-| [set_Item](set_item)(int, int, [../MathSuperscriptElement]MathSuperscriptElement) | Element of matrix |
+| [set_Item](set_item)(int, int, [BaseScript](../BaseScript)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathAccent](../MathAccent)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathArray](../MathArray)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathBar](../MathBar)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathBlock](../MathBlock)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathBorderBox](../MathBorderBox)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathBox](../MathBox)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathDelimiter](../MathDelimiter)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathElementBase](../MathElementBase)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathematicalText](../MathematicalText)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathFraction](../MathFraction)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathFunction](../MathFunction)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathGroupingCharacter](../MathGroupingCharacter)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathLeftSubSuperscriptElement](../MathLeftSubSuperscriptElement)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathLimit](../MathLimit)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathMatrix](../MathMatrix)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathNaryOperator](../MathNaryOperator)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathRadical](../MathRadical)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathRightSubSuperscriptElement](../MathRightSubSuperscriptElement)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathSubscriptElement](../MathSubscriptElement)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathSuperscriptElement](../MathSuperscriptElement)) | Element of matrix |

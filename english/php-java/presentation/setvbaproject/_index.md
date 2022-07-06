@@ -7,7 +7,7 @@ weight: 620
 url: /php-java/presentation/setvbaproject/
 ---
 
-## setVbaProject([../../VbaProject]VbaProject value)  method
+## setVbaProject([VbaProject](../../VbaProject) value)  method
 
  Gets or sets VBA project with presentation macros.
  Read/write  IVbaProject.

@@ -26,5 +26,5 @@ url: /php-java/control/
 | [getSlide](getslide)() |  |
 | [getSubstitutePictureFormat](getsubstitutepictureformat)() | Returns Control image fill properties object. Read-only IPictureFillFormat. |
 | [setClassId](setclassid)(UUID) | Gets class id of this control. Read-only java.util.UUID. |
-| [setFrame](setframe)([../ShapeFrame]ShapeFrame) | Returns or sets control's frame. Read/write IShapeFrame. |
+| [setFrame](setframe)([ShapeFrame](../ShapeFrame)) | Returns or sets control's frame. Read/write IShapeFrame. |
 | [setName](setname)(String) | Gets or sets the name of this control. Read/write String. |

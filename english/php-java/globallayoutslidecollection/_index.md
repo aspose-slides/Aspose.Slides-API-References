@@ -18,6 +18,6 @@ url: /php-java/globallayoutslidecollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)([../MasterSlide]MasterSlide, byte, String) | Adds a new layout slide to the presentation. |
-| [addClone](addclone)([../LayoutSlide]LayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
-| [addClone](addclone)([../LayoutSlide]LayoutSlide, [../MasterSlide]MasterSlide) | Adds a copy of a specified layout slide to the presentation. |
+| [add](add)([MasterSlide](../MasterSlide), byte, String) | Adds a new layout slide to the presentation. |
+| [addClone](addclone)([LayoutSlide](../LayoutSlide)) | Adds a copy of a specified layout slide to the presentation. |
+| [addClone](addclone)([LayoutSlide](../LayoutSlide), [MasterSlide](../MasterSlide)) | Adds a copy of a specified layout slide to the presentation. |

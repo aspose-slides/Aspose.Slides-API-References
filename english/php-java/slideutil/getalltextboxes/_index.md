@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/slideutil/getalltextboxes/
 ---
 
-## getAllTextBoxes([../../BaseSlide]BaseSlide slide)  method
+## getAllTextBoxes([BaseSlide](../../BaseSlide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -25,7 +25,7 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([../../LayoutSlide]LayoutSlide slide)  method
+## getAllTextBoxes([LayoutSlide](../../LayoutSlide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -43,7 +43,7 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([../../MasterHandoutSlide]MasterHandoutSlide slide)  method
+## getAllTextBoxes([MasterHandoutSlide](../../MasterHandoutSlide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -61,7 +61,7 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([../../MasterNotesSlide]MasterNotesSlide slide)  method
+## getAllTextBoxes([MasterNotesSlide](../../MasterNotesSlide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -79,7 +79,7 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([../../MasterSlide]MasterSlide slide)  method
+## getAllTextBoxes([MasterSlide](../../MasterSlide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -97,7 +97,7 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([../../NotesSlide]NotesSlide slide)  method
+## getAllTextBoxes([NotesSlide](../../NotesSlide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -115,7 +115,7 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([../../Slide]Slide slide)  method
+## getAllTextBoxes([Slide](../../Slide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  

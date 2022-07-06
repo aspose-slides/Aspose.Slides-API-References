@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/commandeffect/setshapetarget/
 ---
 
-## setShapeTarget([../../AudioFrame]AudioFrame value)  method
+## setShapeTarget([AudioFrame](../../AudioFrame) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -20,7 +20,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../AutoShape]AutoShape value)  method
+## setShapeTarget([AutoShape](../../AutoShape) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -33,7 +33,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../Chart]Chart value)  method
+## setShapeTarget([Chart](../../Chart) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -46,7 +46,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../Connector]Connector value)  method
+## setShapeTarget([Connector](../../Connector) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -59,7 +59,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../GeometryShape]GeometryShape value)  method
+## setShapeTarget([GeometryShape](../../GeometryShape) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -72,7 +72,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../GraphicalObject]GraphicalObject value)  method
+## setShapeTarget([GraphicalObject](../../GraphicalObject) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -85,7 +85,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../GroupShape]GroupShape value)  method
+## setShapeTarget([GroupShape](../../GroupShape) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -98,7 +98,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../Ink]Ink value)  method
+## setShapeTarget([Ink](../../Ink) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -111,7 +111,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../LegacyDiagram]LegacyDiagram value)  method
+## setShapeTarget([LegacyDiagram](../../LegacyDiagram) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -124,7 +124,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../OleObjectFrame]OleObjectFrame value)  method
+## setShapeTarget([OleObjectFrame](../../OleObjectFrame) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -137,7 +137,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../PictureFrame]PictureFrame value)  method
+## setShapeTarget([PictureFrame](../../PictureFrame) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -150,7 +150,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../SectionZoomFrame]SectionZoomFrame value)  method
+## setShapeTarget([SectionZoomFrame](../../SectionZoomFrame) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -163,7 +163,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../Shape]Shape value)  method
+## setShapeTarget([Shape](../../Shape) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -176,7 +176,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../SmartArt]SmartArt value)  method
+## setShapeTarget([SmartArt](../../SmartArt) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -189,7 +189,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../SmartArtShape]SmartArtShape value)  method
+## setShapeTarget([SmartArtShape](../../SmartArtShape) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -202,7 +202,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../SummaryZoomFrame]SummaryZoomFrame value)  method
+## setShapeTarget([SummaryZoomFrame](../../SummaryZoomFrame) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -215,7 +215,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../SummaryZoomSection]SummaryZoomSection value)  method
+## setShapeTarget([SummaryZoomSection](../../SummaryZoomSection) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -228,7 +228,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../Table]Table value)  method
+## setShapeTarget([Table](../../Table) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -241,7 +241,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../VideoFrame]VideoFrame value)  method
+## setShapeTarget([VideoFrame](../../VideoFrame) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -254,7 +254,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../ZoomFrame]ZoomFrame value)  method
+## setShapeTarget([ZoomFrame](../../ZoomFrame) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -267,7 +267,7 @@ IShape
 ---
 
 
-## setShapeTarget([../../ZoomObject]ZoomObject value)  method
+## setShapeTarget([ZoomObject](../../ZoomObject) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.

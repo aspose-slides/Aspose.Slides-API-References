@@ -7,7 +7,7 @@ weight: 290
 url: /php-java/effectformat/setgloweffect/
 ---
 
-## setGlowEffect([../../Glow]Glow value)  method
+## setGlowEffect([Glow](../../Glow) value)  method
 
  Glow effect.
  Read/write  IGlow.

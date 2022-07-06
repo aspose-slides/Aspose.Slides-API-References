@@ -20,7 +20,7 @@ Created GroupShape object.
 ---
 
 
-## addGroupShape([../../SvgImage]SvgImage svgImage, float x, float y, float width, float height)  method
+## addGroupShape([SvgImage](../../SvgImage) svgImage, float x, float y, float width, float height)  method
 
  Creates a new GroupShape, fills it with converted shapes from SVG and adds it to the end of the collection. 
  

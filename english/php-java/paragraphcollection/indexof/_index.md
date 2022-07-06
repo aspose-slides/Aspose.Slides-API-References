@@ -7,7 +7,7 @@ weight: 130
 url: /php-java/paragraphcollection/indexof/
 ---
 
-## indexOf([../../Paragraph]Paragraph item)  method
+## indexOf([Paragraph](../../Paragraph) item)  method
 
  Determines the index of a specific item in the  List.
  

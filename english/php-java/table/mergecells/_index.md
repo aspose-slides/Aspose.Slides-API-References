@@ -7,7 +7,7 @@ weight: 140
 url: /php-java/table/mergecells/
 ---
 
-## mergeCells([../../Cell]Cell cell1, [../../Cell]Cell cell2, boolean allowSplitting)  method
+## mergeCells([Cell](../../Cell) cell1, [Cell](../../Cell) cell2, boolean allowSplitting)  method
 
  Merges neighbour cells.
  

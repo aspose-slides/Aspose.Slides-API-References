@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/hyperlinkmanager/setinternalhyperlinkclick/
 ---
 
-## setInternalHyperlinkClick([../../Slide]Slide targetSlide)  method
+## setInternalHyperlinkClick([Slide](../../Slide) targetSlide)  method
 
  Sets internal hyperlink on click.
  

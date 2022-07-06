@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/doublechartvalue/setascell/
 ---
 
-## setAsCell([../../ChartDataCell]ChartDataCell value)  method
+## setAsCell([ChartDataCell](../../ChartDataCell) value)  method
 
  Returns or sets chart data cell.
  Read/write  IChartDataCell.

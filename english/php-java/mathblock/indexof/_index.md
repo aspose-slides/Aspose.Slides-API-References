@@ -7,7 +7,7 @@ weight: 150
 url: /php-java/mathblock/indexof/
 ---
 
-## indexOf([../../BaseScript]BaseScript item)  method
+## indexOf([BaseScript](../../BaseScript) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -34,7 +34,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathAccent]MathAccent item)  method
+## indexOf([MathAccent](../../MathAccent) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -61,7 +61,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathArray]MathArray item)  method
+## indexOf([MathArray](../../MathArray) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -88,7 +88,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathBar]MathBar item)  method
+## indexOf([MathBar](../../MathBar) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -115,7 +115,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathBlock]MathBlock item)  method
+## indexOf([MathBlock](../../MathBlock) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -142,7 +142,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathBorderBox]MathBorderBox item)  method
+## indexOf([MathBorderBox](../../MathBorderBox) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -169,7 +169,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathBox]MathBox item)  method
+## indexOf([MathBox](../../MathBox) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -196,7 +196,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathDelimiter]MathDelimiter item)  method
+## indexOf([MathDelimiter](../../MathDelimiter) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -223,7 +223,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathElementBase]MathElementBase item)  method
+## indexOf([MathElementBase](../../MathElementBase) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -250,7 +250,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathematicalText]MathematicalText item)  method
+## indexOf([MathematicalText](../../MathematicalText) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -277,7 +277,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathFraction]MathFraction item)  method
+## indexOf([MathFraction](../../MathFraction) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -304,7 +304,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathFunction]MathFunction item)  method
+## indexOf([MathFunction](../../MathFunction) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -331,7 +331,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathGroupingCharacter]MathGroupingCharacter item)  method
+## indexOf([MathGroupingCharacter](../../MathGroupingCharacter) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -358,7 +358,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement item)  method
+## indexOf([MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -385,7 +385,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathLimit]MathLimit item)  method
+## indexOf([MathLimit](../../MathLimit) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -412,7 +412,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathMatrix]MathMatrix item)  method
+## indexOf([MathMatrix](../../MathMatrix) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -439,7 +439,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathNaryOperator]MathNaryOperator item)  method
+## indexOf([MathNaryOperator](../../MathNaryOperator) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -466,7 +466,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathRadical]MathRadical item)  method
+## indexOf([MathRadical](../../MathRadical) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -493,7 +493,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement item)  method
+## indexOf([MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -520,7 +520,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathSubscriptElement]MathSubscriptElement item)  method
+## indexOf([MathSubscriptElement](../../MathSubscriptElement) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -547,7 +547,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([../../MathSuperscriptElement]MathSuperscriptElement item)  method
+## indexOf([MathSuperscriptElement](../../MathSuperscriptElement) item)  method
 
  Determines the index of a specific math element in collection.
  

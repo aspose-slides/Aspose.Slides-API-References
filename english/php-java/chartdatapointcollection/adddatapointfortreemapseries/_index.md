@@ -7,7 +7,7 @@ weight: 400
 url: /php-java/chartdatapointcollection/adddatapointfortreemapseries/
 ---
 
-## addDataPointForTreemapSeries([../../ChartDataCell]ChartDataCell sizeValue)  method
+## addDataPointForTreemapSeries([ChartDataCell](../../ChartDataCell) sizeValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chart type is Treemap.

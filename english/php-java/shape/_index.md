@@ -16,7 +16,7 @@ url: /php-java/shape/
 
 | Name | Description |
 | --- | --- |
-| [addPlaceholder](addplaceholder)([../Placeholder]Placeholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
+| [addPlaceholder](addplaceholder)([Placeholder](../Placeholder)) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [getAlternativeText](getalternativetext)() | Returns or sets the alternative text associated with a shape. Read/write String. |
 | [getAlternativeTextTitle](getalternativetexttitle)() | Returns or sets the title of alternative text associated with a shape. Read/write String. |
 | [getBlackWhiteMode](getblackwhitemode)() | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
@@ -54,16 +54,16 @@ url: /php-java/shape/
 | [setAlternativeText](setalternativetext)(String) | Returns or sets the alternative text associated with a shape. Read/write String. |
 | [setAlternativeTextTitle](setalternativetexttitle)(String) | Returns or sets the title of alternative text associated with a shape. Read/write String. |
 | [setBlackWhiteMode](setblackwhitemode)(byte) | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
-| [setFrame](setframe)([../ShapeFrame]ShapeFrame) | Returns or sets the shape frame's properties. Read/write IShapeFrame. Value of each property of the returned IShapeFrame instance is not undefined (is not NaN or NotDefined). Value of each property of the assigned IShapeFrame instance must be not undefined (must be not NaN or NotDefined). You can set undefined values for RawFrame instance properties. |
+| [setFrame](setframe)([ShapeFrame](../ShapeFrame)) | Returns or sets the shape frame's properties. Read/write IShapeFrame. Value of each property of the returned IShapeFrame instance is not undefined (is not NaN or NotDefined). Value of each property of the assigned IShapeFrame instance must be not undefined (must be not NaN or NotDefined). You can set undefined values for RawFrame instance properties. |
 | [setHeight](setheight)(float) | Returns or sets the height of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 | [setHidden](sethidden)(boolean) | Determines whether the shape is hidden. Read/write boolean. |
-| [setHyperlinkClick](sethyperlinkclick)([../Hyperlink]Hyperlink) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
-| [setHyperlinkMouseOver](sethyperlinkmouseover)([../Hyperlink]Hyperlink) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| [setHyperlinkClick](sethyperlinkclick)([Hyperlink](../Hyperlink)) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| [setHyperlinkMouseOver](sethyperlinkmouseover)([Hyperlink](../Hyperlink)) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 | [setName](setname)(String) | Returns or sets the name of a shape. Must be not null. Use empty string value if needed. Read/write String. |
-| [setRawFrame](setrawframe)([../ShapeFrame]ShapeFrame) | Returns or sets the raw shape frame's properties. Read/write IShapeFrame. |
+| [setRawFrame](setrawframe)([ShapeFrame](../ShapeFrame)) | Returns or sets the raw shape frame's properties. Read/write IShapeFrame. |
 | [setRotation](setrotation)(float) | Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 | [setWidth](setwidth)(float) | Returns or sets the width of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 | [setX](setx)(float) | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 | [setY](sety)(float) | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 | [writeAsSvg](writeassvg)(OutputStream) | Saves content of Shape as SVG file. |
-| [writeAsSvg](writeassvg)(OutputStream, [../SVGOptions]SVGOptions) | Saves content of Shape as SVG file. |
+| [writeAsSvg](writeassvg)(OutputStream, [SVGOptions](../SVGOptions)) | Saves content of Shape as SVG file. |

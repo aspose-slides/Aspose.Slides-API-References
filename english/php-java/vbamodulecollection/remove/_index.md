@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/vbamodulecollection/remove/
 ---
 
-## remove([../../VbaModule]VbaModule value)  method
+## remove([VbaModule](../../VbaModule) value)  method
 
  Removes the first occurrence of a specific object from the collection.
  

@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/commentauthorcollection/remove/
 ---
 
-## remove([../../CommentAuthor]CommentAuthor author)  method
+## remove([CommentAuthor](../../CommentAuthor) author)  method
 
  Removes the first occurrence of the specified author in a collection.
  

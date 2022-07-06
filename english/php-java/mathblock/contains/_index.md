@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/mathblock/contains/
 ---
 
-## contains([../../BaseScript]BaseScript item)  method
+## contains([BaseScript](../../BaseScript) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -34,7 +34,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathAccent]MathAccent item)  method
+## contains([MathAccent](../../MathAccent) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -61,7 +61,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathArray]MathArray item)  method
+## contains([MathArray](../../MathArray) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -88,7 +88,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathBar]MathBar item)  method
+## contains([MathBar](../../MathBar) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -115,7 +115,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathBlock]MathBlock item)  method
+## contains([MathBlock](../../MathBlock) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -142,7 +142,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathBorderBox]MathBorderBox item)  method
+## contains([MathBorderBox](../../MathBorderBox) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -169,7 +169,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathBox]MathBox item)  method
+## contains([MathBox](../../MathBox) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -196,7 +196,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathDelimiter]MathDelimiter item)  method
+## contains([MathDelimiter](../../MathDelimiter) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -223,7 +223,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathElementBase]MathElementBase item)  method
+## contains([MathElementBase](../../MathElementBase) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -250,7 +250,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathematicalText]MathematicalText item)  method
+## contains([MathematicalText](../../MathematicalText) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -277,7 +277,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathFraction]MathFraction item)  method
+## contains([MathFraction](../../MathFraction) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -304,7 +304,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathFunction]MathFunction item)  method
+## contains([MathFunction](../../MathFunction) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -331,7 +331,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathGroupingCharacter]MathGroupingCharacter item)  method
+## contains([MathGroupingCharacter](../../MathGroupingCharacter) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -358,7 +358,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathLeftSubSuperscriptElement]MathLeftSubSuperscriptElement item)  method
+## contains([MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -385,7 +385,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathLimit]MathLimit item)  method
+## contains([MathLimit](../../MathLimit) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -412,7 +412,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathMatrix]MathMatrix item)  method
+## contains([MathMatrix](../../MathMatrix) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -439,7 +439,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathNaryOperator]MathNaryOperator item)  method
+## contains([MathNaryOperator](../../MathNaryOperator) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -466,7 +466,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathRadical]MathRadical item)  method
+## contains([MathRadical](../../MathRadical) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -493,7 +493,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathRightSubSuperscriptElement]MathRightSubSuperscriptElement item)  method
+## contains([MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -520,7 +520,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathSubscriptElement]MathSubscriptElement item)  method
+## contains([MathSubscriptElement](../../MathSubscriptElement) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -547,7 +547,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([../../MathSuperscriptElement]MathSuperscriptElement item)  method
+## contains([MathSuperscriptElement](../../MathSuperscriptElement) item)  method
 
  Determines whether the collection contains a specific value.
  

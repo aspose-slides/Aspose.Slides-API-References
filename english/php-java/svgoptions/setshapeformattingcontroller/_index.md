@@ -7,7 +7,7 @@ weight: 240
 url: /php-java/svgoptions/setshapeformattingcontroller/
 ---
 
-## setShapeFormattingController([../../VideoPlayerHtmlController]VideoPlayerHtmlController value)  method
+## setShapeFormattingController([VideoPlayerHtmlController](../../VideoPlayerHtmlController) value)  method
 
  Returns and sets a callback interface which allows user to control shape conversion.
  Read/write  ISvgShapeFormattingController.

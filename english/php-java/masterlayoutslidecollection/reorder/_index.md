@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/masterlayoutslidecollection/reorder/
 ---
 
-## reorder(int index, [../../LayoutSlide]LayoutSlide layoutSlide)  method
+## reorder(int index, [LayoutSlide](../../LayoutSlide) layoutSlide)  method
 
  Moves layout slide from the collection to the specified position.
  

@@ -23,6 +23,6 @@ url: /php-java/controlcollection/
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([../Control]Control) | Removes an ActiveX control from the collection. |
+| [remove](remove)([Control](../Control)) | Removes an ActiveX control from the collection. |
 | [removeAt](removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
 | [size](size)() | Returns a number of objects in the collection. Read-only int. |

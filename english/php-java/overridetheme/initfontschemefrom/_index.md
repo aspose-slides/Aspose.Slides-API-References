@@ -7,7 +7,7 @@ weight: 100
 url: /php-java/overridetheme/initfontschemefrom/
 ---
 
-## initFontSchemeFrom([../../FontScheme]FontScheme fontScheme)  method
+## initFontSchemeFrom([FontScheme](../../FontScheme) fontScheme)  method
 
  Init FontScheme with new object for overriding FontScheme of InheritedTheme.
  

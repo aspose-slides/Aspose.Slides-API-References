@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/chartseriescollection/indexof/
 ---
 
-## indexOf([../../ChartSeries]ChartSeries value)  method
+## indexOf([ChartSeries](../../ChartSeries) value)  method
 
  Searches for the specified  ChartSeries and returns the zero-based index of the first occurrence within the entire Collection
  

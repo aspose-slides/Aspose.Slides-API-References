@@ -7,7 +7,7 @@ weight: 340
 url: /php-java/shapecollection/indexof/
 ---
 
-## indexOf([../../AudioFrame]AudioFrame shape)  method
+## indexOf([AudioFrame](../../AudioFrame) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -25,7 +25,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../AutoShape]AutoShape shape)  method
+## indexOf([AutoShape](../../AutoShape) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -43,7 +43,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../Chart]Chart shape)  method
+## indexOf([Chart](../../Chart) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -61,7 +61,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../Connector]Connector shape)  method
+## indexOf([Connector](../../Connector) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -79,7 +79,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../GeometryShape]GeometryShape shape)  method
+## indexOf([GeometryShape](../../GeometryShape) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -97,7 +97,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../GraphicalObject]GraphicalObject shape)  method
+## indexOf([GraphicalObject](../../GraphicalObject) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -115,7 +115,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../GroupShape]GroupShape shape)  method
+## indexOf([GroupShape](../../GroupShape) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -133,7 +133,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../Ink]Ink shape)  method
+## indexOf([Ink](../../Ink) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -151,7 +151,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../LegacyDiagram]LegacyDiagram shape)  method
+## indexOf([LegacyDiagram](../../LegacyDiagram) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -169,7 +169,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../OleObjectFrame]OleObjectFrame shape)  method
+## indexOf([OleObjectFrame](../../OleObjectFrame) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -187,7 +187,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../PictureFrame]PictureFrame shape)  method
+## indexOf([PictureFrame](../../PictureFrame) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -205,7 +205,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../SectionZoomFrame]SectionZoomFrame shape)  method
+## indexOf([SectionZoomFrame](../../SectionZoomFrame) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -223,7 +223,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../Shape]Shape shape)  method
+## indexOf([Shape](../../Shape) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -241,7 +241,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../SmartArt]SmartArt shape)  method
+## indexOf([SmartArt](../../SmartArt) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -259,7 +259,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../SmartArtShape]SmartArtShape shape)  method
+## indexOf([SmartArtShape](../../SmartArtShape) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -277,7 +277,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../SummaryZoomFrame]SummaryZoomFrame shape)  method
+## indexOf([SummaryZoomFrame](../../SummaryZoomFrame) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -295,7 +295,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../SummaryZoomSection]SummaryZoomSection shape)  method
+## indexOf([SummaryZoomSection](../../SummaryZoomSection) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -313,7 +313,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../Table]Table shape)  method
+## indexOf([Table](../../Table) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -331,7 +331,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../VideoFrame]VideoFrame shape)  method
+## indexOf([VideoFrame](../../VideoFrame) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -349,7 +349,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../ZoomFrame]ZoomFrame shape)  method
+## indexOf([ZoomFrame](../../ZoomFrame) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -367,7 +367,7 @@ The zero-based index of the first occurrence of shape within the collection, if 
 ---
 
 
-## indexOf([../../ZoomObject]ZoomObject shape)  method
+## indexOf([ZoomObject](../../ZoomObject) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  

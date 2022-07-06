@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/htmlformatter/createcustomformatter/
 ---
 
-## createCustomFormatter([../../EmbedAllFontsHtmlController]EmbedAllFontsHtmlController formattingController)  method
+## createCustomFormatter([EmbedAllFontsHtmlController](../../EmbedAllFontsHtmlController) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
@@ -25,7 +25,7 @@ The HtmlFormatter object.
 ---
 
 
-## createCustomFormatter([../../EmbeddedEotFontsHtmlController]EmbeddedEotFontsHtmlController formattingController)  method
+## createCustomFormatter([EmbeddedEotFontsHtmlController](../../EmbeddedEotFontsHtmlController) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
@@ -43,7 +43,7 @@ The HtmlFormatter object.
 ---
 
 
-## createCustomFormatter([../../EmbeddedWoffFontsHtmlController]EmbeddedWoffFontsHtmlController formattingController)  method
+## createCustomFormatter([EmbeddedWoffFontsHtmlController](../../EmbeddedWoffFontsHtmlController) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
@@ -61,7 +61,7 @@ The HtmlFormatter object.
 ---
 
 
-## createCustomFormatter([../../ResponsiveHtmlController]ResponsiveHtmlController formattingController)  method
+## createCustomFormatter([ResponsiveHtmlController](../../ResponsiveHtmlController) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
@@ -79,7 +79,7 @@ The HtmlFormatter object.
 ---
 
 
-## createCustomFormatter([../../VideoPlayerHtmlController]VideoPlayerHtmlController formattingController)  method
+## createCustomFormatter([VideoPlayerHtmlController](../../VideoPlayerHtmlController) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  

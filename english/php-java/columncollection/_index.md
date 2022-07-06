@@ -16,10 +16,10 @@ url: /php-java/columncollection/
 
 | Name | Description |
 | --- | --- |
-| [addClone](addclone)([../Column]Column, boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [addClone](addclone)([Column](../Column), boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
 | [get_Item](get_item)(int) | Returns the column at the specified index. Read-only Column. |
-| [insertClone](insertclone)(int, [../Column]Column, boolean) | Creates a copy of the specified template column and insert it at the specified position in a table. |
+| [insertClone](insertclone)(int, [Column](../Column), boolean) | Creates a copy of the specified template column and insert it at the specified position in a table. |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |

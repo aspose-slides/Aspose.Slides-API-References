@@ -19,7 +19,7 @@ Added tab.
 ---
 
 
-## add([../../Tab]Tab value)  method
+## add([Tab](../../Tab) value)  method
 
  Adds a Tab to the collection.
  
