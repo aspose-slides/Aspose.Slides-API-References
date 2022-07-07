@@ -7,7 +7,7 @@ weight: 300
 url: /php-java/mathmatrix/set_item/
 ---
 
-## set_Item(int row, int column, [BaseScript](../../BaseScript) value)  method
+## set_Item(int row, int column, [BaseScript](../../basescript) value)  method
 
  Element of matrix
  
@@ -20,16 +20,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathAccent](../../MathAccent) value)  method
+## set_Item(int row, int column, [MathAccent](../../mathaccent) value)  method
 
  Element of matrix
  
@@ -42,16 +42,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathArray](../../MathArray) value)  method
+## set_Item(int row, int column, [MathArray](../../matharray) value)  method
 
  Element of matrix
  
@@ -64,16 +64,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathBar](../../MathBar) value)  method
+## set_Item(int row, int column, [MathBar](../../mathbar) value)  method
 
  Element of matrix
  
@@ -86,16 +86,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathBlock](../../MathBlock) value)  method
+## set_Item(int row, int column, [MathBlock](../../mathblock) value)  method
 
  Element of matrix
  
@@ -108,16 +108,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathBorderBox](../../MathBorderBox) value)  method
+## set_Item(int row, int column, [MathBorderBox](../../mathborderbox) value)  method
 
  Element of matrix
  
@@ -130,16 +130,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathBox](../../MathBox) value)  method
+## set_Item(int row, int column, [MathBox](../../mathbox) value)  method
 
  Element of matrix
  
@@ -152,16 +152,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathDelimiter](../../MathDelimiter) value)  method
+## set_Item(int row, int column, [MathDelimiter](../../mathdelimiter) value)  method
 
  Element of matrix
  
@@ -174,16 +174,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathElementBase](../../MathElementBase) value)  method
+## set_Item(int row, int column, [MathElementBase](../../mathelementbase) value)  method
 
  Element of matrix
  
@@ -196,16 +196,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathematicalText](../../MathematicalText) value)  method
+## set_Item(int row, int column, [MathematicalText](../../mathematicaltext) value)  method
 
  Element of matrix
  
@@ -218,16 +218,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathFraction](../../MathFraction) value)  method
+## set_Item(int row, int column, [MathFraction](../../mathfraction) value)  method
 
  Element of matrix
  
@@ -240,16 +240,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathFunction](../../MathFunction) value)  method
+## set_Item(int row, int column, [MathFunction](../../mathfunction) value)  method
 
  Element of matrix
  
@@ -262,16 +262,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathGroupingCharacter](../../MathGroupingCharacter) value)  method
+## set_Item(int row, int column, [MathGroupingCharacter](../../mathgroupingcharacter) value)  method
 
  Element of matrix
  
@@ -284,16 +284,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) value)  method
+## set_Item(int row, int column, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) value)  method
 
  Element of matrix
  
@@ -306,16 +306,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathLimit](../../MathLimit) value)  method
+## set_Item(int row, int column, [MathLimit](../../mathlimit) value)  method
 
  Element of matrix
  
@@ -328,16 +328,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathMatrix](../../MathMatrix) value)  method
+## set_Item(int row, int column, [MathMatrix](../../mathmatrix) value)  method
 
  Element of matrix
  
@@ -350,16 +350,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathNaryOperator](../../MathNaryOperator) value)  method
+## set_Item(int row, int column, [MathNaryOperator](../../mathnaryoperator) value)  method
 
  Element of matrix
  
@@ -372,16 +372,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathRadical](../../MathRadical) value)  method
+## set_Item(int row, int column, [MathRadical](../../mathradical) value)  method
 
  Element of matrix
  
@@ -394,16 +394,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) value)  method
+## set_Item(int row, int column, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) value)  method
 
  Element of matrix
  
@@ -416,16 +416,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathSubscriptElement](../../MathSubscriptElement) value)  method
+## set_Item(int row, int column, [MathSubscriptElement](../../mathsubscriptelement) value)  method
 
  Element of matrix
  
@@ -438,16 +438,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---
 
 
-## set_Item(int row, int column, [MathSuperscriptElement](../../MathSuperscriptElement) value)  method
+## set_Item(int row, int column, [MathSuperscriptElement](../../mathsuperscriptelement) value)  method
 
  Element of matrix
  
@@ -460,10 +460,10 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 
 ---

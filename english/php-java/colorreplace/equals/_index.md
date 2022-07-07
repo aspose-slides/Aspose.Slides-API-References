@@ -14,9 +14,9 @@ url: /php-java/colorreplace/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The ColorReplace to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The ColorReplace to compare. |
 
 ### Returns
 ColorReplace

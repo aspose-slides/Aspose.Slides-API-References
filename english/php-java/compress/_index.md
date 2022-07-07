@@ -35,5 +35,5 @@ url: /php-java/compress/
 
 | Name | Description |
 | --- | --- |
-| [removeUnusedLayoutSlides](removeunusedlayoutslides)([Presentation](../Presentation)) | Makes compression of the Presentation by removing unused layout slides. |
-| [removeUnusedMasterSlides](removeunusedmasterslides)([Presentation](../Presentation)) | Makes compression of the Presentation by removing unused master slides. |
+| [removeUnusedLayoutSlides](removeunusedlayoutslides)([Presentation](../presentation)) | Makes compression of the Presentation by removing unused layout slides. |
+| [removeUnusedMasterSlides](removeunusedmasterslides)([Presentation](../presentation)) | Makes compression of the Presentation by removing unused master slides. |

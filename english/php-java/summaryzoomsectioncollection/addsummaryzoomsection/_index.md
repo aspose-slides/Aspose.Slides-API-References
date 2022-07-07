@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/summaryzoomsectioncollection/addsummaryzoomsection/
 ---
 
-## addSummaryZoomSection([Section](../../Section) section)  method
+## addSummaryZoomSection([Section](../../section) section)  method
 
  Creates new Summary Zoom Section object and add it to the collection
  
@@ -28,9 +28,9 @@ The example demonstrates getting Summary Zoom Section element by index:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| section | Section for a new Summary Zoom Section element ISection If an element for this section already exists in the collection, the existing element is returned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| section | Section | Section for a new Summary Zoom Section element ISection If an element for this section already exists in the collection, the existing element is returned. |
 
 ### Returns
 Added ISummaryZoomFrame element

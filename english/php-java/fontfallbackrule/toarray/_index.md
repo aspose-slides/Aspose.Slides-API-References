@@ -47,10 +47,10 @@ Array of String
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| startIndex | An index of a first font to add. |
-| count | A number of fonts to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| startIndex | int | An index of a first font to add. |
+| count | int | A number of fonts to add. |
 
 ### Returns
 Array of String

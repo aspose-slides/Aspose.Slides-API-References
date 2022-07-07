@@ -20,11 +20,11 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| columnIndex | Zero-based index of the first column to set alignment |
-| columnsCount | The number of columns to specify the alignment |
-| val | New value of horizontal alignment of specified column |
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Zero-based index of the first column to set alignment |
+| columnsCount | long | The number of columns to specify the alignment |
+| val | int | New value of horizontal alignment of specified column |
 
 
 ---

@@ -14,9 +14,9 @@ url: /php-java/chartcellcollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a cell. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a cell. |
 
 ### Returns
 Cell with data.

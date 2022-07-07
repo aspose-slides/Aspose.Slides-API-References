@@ -14,9 +14,9 @@ url: /php-java/htmlgenerator/addattributevalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Attribute value string. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | String | Attribute value string. |
 
 
 ---
@@ -29,9 +29,9 @@ url: /php-java/htmlgenerator/addattributevalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Attribute value string. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | char[] | Attribute value string. |
 
 
 ---
@@ -44,11 +44,11 @@ url: /php-java/htmlgenerator/addattributevalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Attribute value string. |
-| startIndex | Start index of the portion to add. |
-| length | Length of the portion to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | char[] | Attribute value string. |
+| startIndex | int | Start index of the portion to add. |
+| length | int | Length of the portion to add. |
 
 
 ---

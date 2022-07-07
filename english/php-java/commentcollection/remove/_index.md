@@ -7,16 +7,16 @@ weight: 130
 url: /php-java/commentcollection/remove/
 ---
 
-## remove([Comment](../../Comment) comment)  method
+## remove([Comment](../../comment) comment)  method
 
  Removes the first occurrence of the specified comment in a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| comment | The comment to remove from a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| comment | Comment | The comment to remove from a collection. |
 
 ### Exception
 
@@ -28,16 +28,16 @@ url: /php-java/commentcollection/remove/
 ---
 
 
-## remove([ModernComment](../../ModernComment) comment)  method
+## remove([ModernComment](../../moderncomment) comment)  method
 
  Removes the first occurrence of the specified comment in a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| comment | The comment to remove from a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| comment | Comment | The comment to remove from a collection. |
 
 ### Exception
 

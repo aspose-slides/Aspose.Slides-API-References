@@ -14,10 +14,10 @@ url: /php-java/input/addtemplate/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| key | Key for the template in the collection. |
-| path | Path to the template file. |
+| Name | Type | Description |
+| --- | --- | --- |
+| key | String | Key for the template in the collection. |
+| path | String | Path to the template file. |
 
 
 ---

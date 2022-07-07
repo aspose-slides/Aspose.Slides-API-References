@@ -14,9 +14,9 @@ url: /php-java/chartcellcollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a cell to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a cell to remove. |
 
 
 ---

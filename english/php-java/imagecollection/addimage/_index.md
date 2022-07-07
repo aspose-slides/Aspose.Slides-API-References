@@ -7,16 +7,16 @@ weight: 10
 url: /php-java/imagecollection/addimage/
 ---
 
-## addImage([PPImage](../../PPImage) imageSource)  method
+## addImage([PPImage](../../ppimage) imageSource)  method
 
  Adds a copy of an image from an another presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| imageSource | Source image. |
+| Name | Type | Description |
+| --- | --- | --- |
+| imageSource | PPImage | Source image. |
 
 ### Returns
 Added image.
@@ -32,9 +32,9 @@ Added image.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| image | Image to add. This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
+| Name | Type | Description |
+| --- | --- | --- |
+| image | BufferedImage | Image to add. This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
 
 ### Returns
 Added image.
@@ -50,9 +50,9 @@ Added image.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Stream to add image from. This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Stream to add image from. This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
 
 ### Returns
 Added image.
@@ -68,10 +68,10 @@ Added image.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Stream to add image file from. |
-| loadingStreamBehavior | The behavior which will be applied to the stream. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Stream to add image file from. |
+| loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
 ### Returns
 Added IPPImage.
@@ -87,9 +87,9 @@ Added IPPImage.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| buffer | Buffer. |
+| Name | Type | Description |
+| --- | --- | --- |
+| buffer | byte[] | Buffer. |
 
 ### Returns
 Added image.
@@ -98,16 +98,16 @@ Added image.
 ---
 
 
-## addImage([SvgImage](../../SvgImage) svgImage)  method
+## addImage([SvgImage](../../svgimage) svgImage)  method
 
  Add an image to a presentation from Svg object. 
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| svgImage | Svg image object ISvgImage |
+| Name | Type | Description |
+| --- | --- | --- |
+| svgImage | SvgImage | Svg image object ISvgImage |
 
 ### Returns
 Added image.

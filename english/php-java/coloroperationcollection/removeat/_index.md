@@ -14,9 +14,9 @@ url: /php-java/coloroperationcollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a color operation to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a color operation to remove. |
 
 
 ---

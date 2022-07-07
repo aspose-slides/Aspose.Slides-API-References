@@ -16,65 +16,65 @@ url: /php-java/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)([Behavior](../Behavior)) | Add new behavior to a collection. |
-| [add](add)([ColorEffect](../ColorEffect)) | Add new behavior to a collection. |
-| [add](add)([CommandEffect](../CommandEffect)) | Add new behavior to a collection. |
-| [add](add)([FilterEffect](../FilterEffect)) | Add new behavior to a collection. |
-| [add](add)([MotionEffect](../MotionEffect)) | Add new behavior to a collection. |
-| [add](add)([PropertyEffect](../PropertyEffect)) | Add new behavior to a collection. |
-| [add](add)([RotationEffect](../RotationEffect)) | Add new behavior to a collection. |
-| [add](add)([ScaleEffect](../ScaleEffect)) | Add new behavior to a collection. |
-| [add](add)([SetEffect](../SetEffect)) | Add new behavior to a collection. |
+| [add](add)([Behavior](../behavior)) | Add new behavior to a collection. |
+| [add](add)([ColorEffect](../coloreffect)) | Add new behavior to a collection. |
+| [add](add)([CommandEffect](../commandeffect)) | Add new behavior to a collection. |
+| [add](add)([FilterEffect](../filtereffect)) | Add new behavior to a collection. |
+| [add](add)([MotionEffect](../motioneffect)) | Add new behavior to a collection. |
+| [add](add)([PropertyEffect](../propertyeffect)) | Add new behavior to a collection. |
+| [add](add)([RotationEffect](../rotationeffect)) | Add new behavior to a collection. |
+| [add](add)([ScaleEffect](../scaleeffect)) | Add new behavior to a collection. |
+| [add](add)([SetEffect](../seteffect)) | Add new behavior to a collection. |
 | [clear](clear)() | Removes all behaviors from a collection. |
-| [contains](contains)([Behavior](../Behavior)) | Determines whether the IGenericCollection contains a specific value. |
-| [contains](contains)([ColorEffect](../ColorEffect)) | Determines whether the IGenericCollection contains a specific value. |
-| [contains](contains)([CommandEffect](../CommandEffect)) | Determines whether the IGenericCollection contains a specific value. |
-| [contains](contains)([FilterEffect](../FilterEffect)) | Determines whether the IGenericCollection contains a specific value. |
-| [contains](contains)([MotionEffect](../MotionEffect)) | Determines whether the IGenericCollection contains a specific value. |
-| [contains](contains)([PropertyEffect](../PropertyEffect)) | Determines whether the IGenericCollection contains a specific value. |
-| [contains](contains)([RotationEffect](../RotationEffect)) | Determines whether the IGenericCollection contains a specific value. |
-| [contains](contains)([ScaleEffect](../ScaleEffect)) | Determines whether the IGenericCollection contains a specific value. |
-| [contains](contains)([SetEffect](../SetEffect)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains](contains)([Behavior](../behavior)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains](contains)([ColorEffect](../coloreffect)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains](contains)([CommandEffect](../commandeffect)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains](contains)([FilterEffect](../filtereffect)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains](contains)([MotionEffect](../motioneffect)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains](contains)([PropertyEffect](../propertyeffect)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains](contains)([RotationEffect](../rotationeffect)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains](contains)([ScaleEffect](../scaleeffect)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains](contains)([SetEffect](../seteffect)) | Determines whether the IGenericCollection contains a specific value. |
 | [copyTo](copyto)(com.aspose.slides.IBehavior[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 | [getCount](getcount)() | Returns the number of behaviors in a collection. Read-only int. |
 | [get_Item](get_item)(int) | Returns a behavior at the specified index. |
-| [indexOf](indexof)([Behavior](../Behavior)) | Determines the index of a specific item in the List. |
-| [indexOf](indexof)([ColorEffect](../ColorEffect)) | Determines the index of a specific item in the List. |
-| [indexOf](indexof)([CommandEffect](../CommandEffect)) | Determines the index of a specific item in the List. |
-| [indexOf](indexof)([FilterEffect](../FilterEffect)) | Determines the index of a specific item in the List. |
-| [indexOf](indexof)([MotionEffect](../MotionEffect)) | Determines the index of a specific item in the List. |
-| [indexOf](indexof)([PropertyEffect](../PropertyEffect)) | Determines the index of a specific item in the List. |
-| [indexOf](indexof)([RotationEffect](../RotationEffect)) | Determines the index of a specific item in the List. |
-| [indexOf](indexof)([ScaleEffect](../ScaleEffect)) | Determines the index of a specific item in the List. |
-| [indexOf](indexof)([SetEffect](../SetEffect)) | Determines the index of a specific item in the List. |
-| [insert](insert)(int, [Behavior](../Behavior)) | Inserts new behavior to a collection at the specified index. |
-| [insert](insert)(int, [ColorEffect](../ColorEffect)) | Inserts new behavior to a collection at the specified index. |
-| [insert](insert)(int, [CommandEffect](../CommandEffect)) | Inserts new behavior to a collection at the specified index. |
-| [insert](insert)(int, [FilterEffect](../FilterEffect)) | Inserts new behavior to a collection at the specified index. |
-| [insert](insert)(int, [MotionEffect](../MotionEffect)) | Inserts new behavior to a collection at the specified index. |
-| [insert](insert)(int, [PropertyEffect](../PropertyEffect)) | Inserts new behavior to a collection at the specified index. |
-| [insert](insert)(int, [RotationEffect](../RotationEffect)) | Inserts new behavior to a collection at the specified index. |
-| [insert](insert)(int, [ScaleEffect](../ScaleEffect)) | Inserts new behavior to a collection at the specified index. |
-| [insert](insert)(int, [SetEffect](../SetEffect)) | Inserts new behavior to a collection at the specified index. |
+| [indexOf](indexof)([Behavior](../behavior)) | Determines the index of a specific item in the List. |
+| [indexOf](indexof)([ColorEffect](../coloreffect)) | Determines the index of a specific item in the List. |
+| [indexOf](indexof)([CommandEffect](../commandeffect)) | Determines the index of a specific item in the List. |
+| [indexOf](indexof)([FilterEffect](../filtereffect)) | Determines the index of a specific item in the List. |
+| [indexOf](indexof)([MotionEffect](../motioneffect)) | Determines the index of a specific item in the List. |
+| [indexOf](indexof)([PropertyEffect](../propertyeffect)) | Determines the index of a specific item in the List. |
+| [indexOf](indexof)([RotationEffect](../rotationeffect)) | Determines the index of a specific item in the List. |
+| [indexOf](indexof)([ScaleEffect](../scaleeffect)) | Determines the index of a specific item in the List. |
+| [indexOf](indexof)([SetEffect](../seteffect)) | Determines the index of a specific item in the List. |
+| [insert](insert)(int, [Behavior](../behavior)) | Inserts new behavior to a collection at the specified index. |
+| [insert](insert)(int, [ColorEffect](../coloreffect)) | Inserts new behavior to a collection at the specified index. |
+| [insert](insert)(int, [CommandEffect](../commandeffect)) | Inserts new behavior to a collection at the specified index. |
+| [insert](insert)(int, [FilterEffect](../filtereffect)) | Inserts new behavior to a collection at the specified index. |
+| [insert](insert)(int, [MotionEffect](../motioneffect)) | Inserts new behavior to a collection at the specified index. |
+| [insert](insert)(int, [PropertyEffect](../propertyeffect)) | Inserts new behavior to a collection at the specified index. |
+| [insert](insert)(int, [RotationEffect](../rotationeffect)) | Inserts new behavior to a collection at the specified index. |
+| [insert](insert)(int, [ScaleEffect](../scaleeffect)) | Inserts new behavior to a collection at the specified index. |
+| [insert](insert)(int, [SetEffect](../seteffect)) | Inserts new behavior to a collection at the specified index. |
 | [isReadOnly](isreadonly)() | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([Behavior](../Behavior)) | Removes specified behavior from a collection. |
-| [remove](remove)([ColorEffect](../ColorEffect)) | Removes specified behavior from a collection. |
-| [remove](remove)([CommandEffect](../CommandEffect)) | Removes specified behavior from a collection. |
-| [remove](remove)([FilterEffect](../FilterEffect)) | Removes specified behavior from a collection. |
-| [remove](remove)([MotionEffect](../MotionEffect)) | Removes specified behavior from a collection. |
-| [remove](remove)([PropertyEffect](../PropertyEffect)) | Removes specified behavior from a collection. |
-| [remove](remove)([RotationEffect](../RotationEffect)) | Removes specified behavior from a collection. |
-| [remove](remove)([ScaleEffect](../ScaleEffect)) | Removes specified behavior from a collection. |
-| [remove](remove)([SetEffect](../SetEffect)) | Removes specified behavior from a collection. |
+| [remove](remove)([Behavior](../behavior)) | Removes specified behavior from a collection. |
+| [remove](remove)([ColorEffect](../coloreffect)) | Removes specified behavior from a collection. |
+| [remove](remove)([CommandEffect](../commandeffect)) | Removes specified behavior from a collection. |
+| [remove](remove)([FilterEffect](../filtereffect)) | Removes specified behavior from a collection. |
+| [remove](remove)([MotionEffect](../motioneffect)) | Removes specified behavior from a collection. |
+| [remove](remove)([PropertyEffect](../propertyeffect)) | Removes specified behavior from a collection. |
+| [remove](remove)([RotationEffect](../rotationeffect)) | Removes specified behavior from a collection. |
+| [remove](remove)([ScaleEffect](../scaleeffect)) | Removes specified behavior from a collection. |
+| [remove](remove)([SetEffect](../seteffect)) | Removes specified behavior from a collection. |
 | [removeAt](removeat)(int) | Removes behavior from a collection at the specified index. |
-| [set_Item](set_item)(int, [Behavior](../Behavior)) | Sets a behavior at the specified index. |
-| [set_Item](set_item)(int, [ColorEffect](../ColorEffect)) | Sets a behavior at the specified index. |
-| [set_Item](set_item)(int, [CommandEffect](../CommandEffect)) | Sets a behavior at the specified index. |
-| [set_Item](set_item)(int, [FilterEffect](../FilterEffect)) | Sets a behavior at the specified index. |
-| [set_Item](set_item)(int, [MotionEffect](../MotionEffect)) | Sets a behavior at the specified index. |
-| [set_Item](set_item)(int, [PropertyEffect](../PropertyEffect)) | Sets a behavior at the specified index. |
-| [set_Item](set_item)(int, [RotationEffect](../RotationEffect)) | Sets a behavior at the specified index. |
-| [set_Item](set_item)(int, [ScaleEffect](../ScaleEffect)) | Sets a behavior at the specified index. |
-| [set_Item](set_item)(int, [SetEffect](../SetEffect)) | Sets a behavior at the specified index. |
+| [set_Item](set_item)(int, [Behavior](../behavior)) | Sets a behavior at the specified index. |
+| [set_Item](set_item)(int, [ColorEffect](../coloreffect)) | Sets a behavior at the specified index. |
+| [set_Item](set_item)(int, [CommandEffect](../commandeffect)) | Sets a behavior at the specified index. |
+| [set_Item](set_item)(int, [FilterEffect](../filtereffect)) | Sets a behavior at the specified index. |
+| [set_Item](set_item)(int, [MotionEffect](../motioneffect)) | Sets a behavior at the specified index. |
+| [set_Item](set_item)(int, [PropertyEffect](../propertyeffect)) | Sets a behavior at the specified index. |
+| [set_Item](set_item)(int, [RotationEffect](../rotationeffect)) | Sets a behavior at the specified index. |
+| [set_Item](set_item)(int, [ScaleEffect](../scaleeffect)) | Sets a behavior at the specified index. |
+| [set_Item](set_item)(int, [SetEffect](../seteffect)) | Sets a behavior at the specified index. |

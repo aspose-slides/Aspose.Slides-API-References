@@ -14,9 +14,9 @@ url: /php-java/adjustvaluecollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | adjustment's index. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | adjustment's index. |
 
 ### Returns
 AdjustValue.

@@ -7,16 +7,16 @@ weight: 100
 url: /php-java/controlcollection/remove/
 ---
 
-## remove([Control](../../Control) item)  method
+## remove([Control](../../control) item)  method
 
  Removes an ActiveX control from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | A control to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Control | A control to remove. |
 
 
 ---

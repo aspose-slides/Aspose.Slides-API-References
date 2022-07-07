@@ -14,10 +14,10 @@ url: /php-java/svgshape/seteventhandler/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| eventType | Type of event. |
-| handler | Javascript function to handle event. Null value removes handler. |
+| Name | Type | Description |
+| --- | --- | --- |
+| eventType | int | Type of event. |
+| handler | String | Javascript function to handle event. Null value removes handler. |
 
 
 ---

@@ -20,6 +20,6 @@ url: /php-java/row/
 | [getMinimalHeight](getminimalheight)() | Returns or sets the minimal possible height of a row. Read/write double. |
 | [getRowFormat](getrowformat)() | Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormat. |
 | [setMinimalHeight](setminimalheight)(double) | Returns or sets the minimal possible height of a row. Read/write double. |
-| [setTextFormat](settextformat)([PortionFormat](../PortionFormat)) | Sets defined portion format properties to all row cells' portions. |
-| [setTextFormat](settextformat)([ParagraphFormat](../ParagraphFormat)) | Sets defined paragraph format properties to all row cells' paragraphs. |
-| [setTextFormat](settextformat)([TextFrameFormat](../TextFrameFormat)) | Sets defined text frame format properties to all row cells' text frames. |
+| [setTextFormat](settextformat)([PortionFormat](../portionformat)) | Sets defined portion format properties to all row cells' portions. |
+| [setTextFormat](settextformat)([ParagraphFormat](../paragraphformat)) | Sets defined paragraph format properties to all row cells' paragraphs. |
+| [setTextFormat](settextformat)([TextFrameFormat](../textframeformat)) | Sets defined text frame format properties to all row cells' text frames. |

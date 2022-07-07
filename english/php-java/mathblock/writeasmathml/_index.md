@@ -14,9 +14,9 @@ url: /php-java/mathblock/writeasmathml/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Target stream |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Target stream |
 
 ### Returns
 MathBlock

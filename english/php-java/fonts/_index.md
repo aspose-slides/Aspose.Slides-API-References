@@ -19,6 +19,6 @@ url: /php-java/fonts/
 | [getComplexScriptFont](getcomplexscriptfont)() | Returns or sets the complex script font. Read/write IFontData. |
 | [getEastAsianFont](geteastasianfont)() | Returns or sets the East Asian font. Read/write IFontData. |
 | [getLatinFont](getlatinfont)() | Returns or sets the Latin font. Read/write IFontData. |
-| [setComplexScriptFont](setcomplexscriptfont)([FontData](../FontData)) | Returns or sets the complex script font. Read/write IFontData. |
-| [setEastAsianFont](seteastasianfont)([FontData](../FontData)) | Returns or sets the East Asian font. Read/write IFontData. |
-| [setLatinFont](setlatinfont)([FontData](../FontData)) | Returns or sets the Latin font. Read/write IFontData. |
+| [setComplexScriptFont](setcomplexscriptfont)([FontData](../fontdata)) | Returns or sets the complex script font. Read/write IFontData. |
+| [setEastAsianFont](seteastasianfont)([FontData](../fontdata)) | Returns or sets the East Asian font. Read/write IFontData. |
+| [setLatinFont](setlatinfont)([FontData](../fontdata)) | Returns or sets the Latin font. Read/write IFontData. |

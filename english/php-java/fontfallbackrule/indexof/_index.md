@@ -22,9 +22,9 @@ url: /php-java/fontfallbackrule/indexof/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fontName | Font's name to find. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fontName | String | Font's name to find. |
 
 ### Returns
 Index of a font or -1 if font not found in list.

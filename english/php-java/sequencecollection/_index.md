@@ -16,31 +16,31 @@ url: /php-java/sequencecollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)([AudioFrame](../AudioFrame)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([AutoShape](../AutoShape)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([Chart](../Chart)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([Connector](../Connector)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([GeometryShape](../GeometryShape)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([GraphicalObject](../GraphicalObject)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([GroupShape](../GroupShape)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([Ink](../Ink)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([LegacyDiagram](../LegacyDiagram)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([OleObjectFrame](../OleObjectFrame)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([PictureFrame](../PictureFrame)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([SectionZoomFrame](../SectionZoomFrame)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([Shape](../Shape)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([SmartArt](../SmartArt)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([SmartArtShape](../SmartArtShape)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([SummaryZoomFrame](../SummaryZoomFrame)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([SummaryZoomSection](../SummaryZoomSection)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([Table](../Table)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([VideoFrame](../VideoFrame)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([ZoomFrame](../ZoomFrame)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([ZoomObject](../ZoomObject)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([AudioFrame](../audioframe)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([AutoShape](../autoshape)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([Chart](../chart)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([GeometryShape](../geometryshape)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([GraphicalObject](../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([GroupShape](../groupshape)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([OleObjectFrame](../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([PictureFrame](../pictureframe)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([SectionZoomFrame](../sectionzoomframe)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([Shape](../shape)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([SmartArt](../smartart)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([SummaryZoomSection](../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([Table](../table)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([VideoFrame](../videoframe)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([ZoomFrame](../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
 | [clear](clear)() | Removes all sequences from a collection. |
 | [getCount](getcount)() | Returns the number of elements in a collection Read-only int. |
 | [get_Item](get_item)(int) | Returns a sequense at the specified index. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([Sequence](../Sequence)) | Removes specified sequence from a collection. |
+| [remove](remove)([Sequence](../sequence)) | Removes specified sequence from a collection. |
 | [removeAt](removeat)(int) | Removes sequence at the specified index. |

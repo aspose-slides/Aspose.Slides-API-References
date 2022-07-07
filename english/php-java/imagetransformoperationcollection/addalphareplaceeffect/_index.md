@@ -14,9 +14,9 @@ url: /php-java/imagetransformoperationcollection/addalphareplaceeffect/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alpha | The new opacity value. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alpha | float | The new opacity value. |
 
 ### Returns
 Index of the new image effect in a collection.

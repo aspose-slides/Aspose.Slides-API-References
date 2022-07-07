@@ -14,9 +14,9 @@ url: /php-java/behaviorproperty/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | Object to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | Object to compare. |
 
 ### Returns
 True if objects are equal.

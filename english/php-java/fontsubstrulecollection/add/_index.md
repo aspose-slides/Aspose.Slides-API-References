@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/fontsubstrulecollection/add/
 ---
 
-## add([FontSubstRule](../../FontSubstRule) value)  method
+## add([FontSubstRule](../../fontsubstrule) value)  method
 
  Adds the new font substitution rule to the collection
  

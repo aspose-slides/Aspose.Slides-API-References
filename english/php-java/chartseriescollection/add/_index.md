@@ -14,9 +14,9 @@ url: /php-java/chartseriescollection/add/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| type | Type of series |
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | Type of series |
 
 ### Returns
 New chart series.
@@ -25,17 +25,17 @@ New chart series.
 ---
 
 
-## add([ChartDataCell](../../ChartDataCell) cellWithSeriesName, int type)  method
+## add([ChartDataCell](../../chartdatacell) cellWithSeriesName, int type)  method
 
  Creates new chart series from  ChartDataCell and adds it to the collection. 
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| cellWithSeriesName | Cell which contain series name. |
-| type | Type set type of series If chart series careted from same cell already in collection then method adds nothing and returns it's index. |
+| Name | Type | Description |
+| --- | --- | --- |
+| cellWithSeriesName | ChartDataCell | Cell which contain series name. |
+| type | int | Type set type of series If chart series careted from same cell already in collection then method adds nothing and returns it's index. |
 
 ### Returns
 ChartDataCell
@@ -44,17 +44,17 @@ ChartDataCell
 ---
 
 
-## add([ChartCellCollection](../../ChartCellCollection) cellsWithSeriesName, int type)  method
+## add([ChartCellCollection](../../chartcellcollection) cellsWithSeriesName, int type)  method
 
  Creates new chart series from  ChartCellCollection and adds it to the collection. 
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| cellsWithSeriesName | Cells which contain series name. |
-| type | Type set type of series If chart series careted from same cell already in collection then method adds nothing and returns it's index. |
+| Name | Type | Description |
+| --- | --- | --- |
+| cellsWithSeriesName | ChartCellCollection | Cells which contain series name. |
+| type | int | Type set type of series If chart series careted from same cell already in collection then method adds nothing and returns it's index. |
 
 ### Returns
 ChartCellCollection
@@ -70,10 +70,10 @@ ChartCellCollection
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Series name. |
-| type | Type set type of series |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Series name. |
+| type | int | Type set type of series |
 
 ### Returns
 Added chart series.

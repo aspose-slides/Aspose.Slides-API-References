@@ -14,9 +14,9 @@ url: /php-java/gradientstopcollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a gradient stop that should be deleted. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a gradient stop that should be deleted. |
 
 
 ---

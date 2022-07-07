@@ -7,7 +7,7 @@ weight: 130
 url: /php-java/effect/settiming/
 ---
 
-## setTiming([Timing](../../Timing) value)  method
+## setTiming([Timing](../../timing) value)  method
 
  Defines timing value for effect.
  Read/write  ITiming.

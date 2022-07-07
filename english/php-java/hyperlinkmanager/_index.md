@@ -20,6 +20,6 @@ url: /php-java/hyperlinkmanager/
 | [removeHyperlinkMouseOver](removehyperlinkmouseover)() | Removes hyperlink mouse over. |
 | [setExternalHyperlinkClick](setexternalhyperlinkclick)(String) | Set external hyperlink on click. |
 | [setExternalHyperlinkMouseOver](setexternalhyperlinkmouseover)(String) | Sets external hyperlink mouse over. |
-| [setInternalHyperlinkClick](setinternalhyperlinkclick)([Slide](../Slide)) | Sets internal hyperlink on click. |
-| [setInternalHyperlinkMouseOver](setinternalhyperlinkmouseover)([Slide](../Slide)) | Sets internal hyperlink mouse over. |
+| [setInternalHyperlinkClick](setinternalhyperlinkclick)([Slide](../slide)) | Sets internal hyperlink on click. |
+| [setInternalHyperlinkMouseOver](setinternalhyperlinkmouseover)([Slide](../slide)) | Sets internal hyperlink mouse over. |
 | [setMacroHyperlinkClick](setmacrohyperlinkclick)(String) | Set Macro hyperlink on a click. |

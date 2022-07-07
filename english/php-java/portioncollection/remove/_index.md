@@ -7,16 +7,16 @@ weight: 120
 url: /php-java/portioncollection/remove/
 ---
 
-## remove([MathPortion](../../MathPortion) item)  method
+## remove([MathPortion](../../mathportion) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | MathPortion | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -31,16 +31,16 @@ IGenericCollection
 ---
 
 
-## remove([Portion](../../Portion) item)  method
+## remove([Portion](../../portion) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | MathPortion | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection

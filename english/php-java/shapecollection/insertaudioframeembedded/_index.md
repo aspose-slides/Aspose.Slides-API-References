@@ -15,14 +15,14 @@ url: /php-java/shapecollection/insertaudioframeembedded/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| audio_stream | Audio stream. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which value should be inserted. |
+| x | float | X coordinate of a new audio frame. |
+| y | float | Y coordinate of a new audio frame. |
+| width | float | Width of a new audio frame. |
+| height | float | Height of a new audio frame. |
+| audio_stream | InputStream | Audio stream. |
 
 ### Returns
 Created AudioFrame object.
@@ -31,7 +31,7 @@ Created AudioFrame object.
 ---
 
 
-## insertAudioFrameEmbedded(int index, float x, float y, float width, float height, [Audio](../../Audio) audio)  method
+## insertAudioFrameEmbedded(int index, float x, float y, float width, float height, [Audio](../../audio) audio)  method
 
  Insert an AudioFrame with embedded audio file.
  It uses audio file from Presentation.Audios list.
@@ -39,14 +39,14 @@ Created AudioFrame object.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| audio | Audio from Presentation.Audios list. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which value should be inserted. |
+| x | float | X coordinate of a new audio frame. |
+| y | float | Y coordinate of a new audio frame. |
+| width | float | Width of a new audio frame. |
+| height | float | Height of a new audio frame. |
+| audio | Audio | Audio from Presentation.Audios list. |
 
 ### Returns
 Created AudioFrame object.

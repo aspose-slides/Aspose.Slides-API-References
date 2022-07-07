@@ -7,16 +7,16 @@ weight: 90
 url: /php-java/chartcategorycollection/indexof/
 ---
 
-## indexOf([ChartCategory](../../ChartCategory) value)  method
+## indexOf([ChartCategory](../../chartcategory) value)  method
 
  Searches for the specified  ChartCategory and returns the zero-based index of the first occurrence within the entire Collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Chart category. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | ChartCategory | Chart category. |
 
 ### Returns
 ChartCategory

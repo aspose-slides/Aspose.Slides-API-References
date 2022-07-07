@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/fontsmanager/addembeddedfont/
 ---
 
-## addEmbeddedFont([FontData](../../FontData) fontData, int embedFontRule)  method
+## addEmbeddedFont([FontData](../../fontdata) fontData, int embedFontRule)  method
 
  Adds the embedded font
  

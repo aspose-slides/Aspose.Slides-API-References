@@ -25,7 +25,7 @@ url: /php-java/commentauthorcollection/
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([CommentAuthor](../CommentAuthor)) | Removes the first occurrence of the specified author in a collection. |
+| [remove](remove)([CommentAuthor](../commentauthor)) | Removes the first occurrence of the specified author in a collection. |
 | [removeAt](removeat)(int) | Removes the author at the specified index of the collection. |
 | [size](size)() | Gets the number of elements actually contained in the collection. Read-only int. |
 | [toArray](toarray)() | Creates and returns an array with all authors. |

@@ -16,9 +16,9 @@ url: /php-java/masternotesslideheaderfootermanager/setheaderandchildheaderstext/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | Text to set. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Text to set. |
 
 
 ---

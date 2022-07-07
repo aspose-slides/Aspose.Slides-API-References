@@ -7,7 +7,7 @@ weight: 320
 url: /php-java/effectformat/setpresetshadoweffect/
 ---
 
-## setPresetShadowEffect([PresetShadow](../../PresetShadow) value)  method
+## setPresetShadowEffect([PresetShadow](../../presetshadow) value)  method
 
  Preset shadow.
  Read/write  IPresetShadow.

@@ -14,9 +14,9 @@ url: /php-java/alphaceiling/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The AlphaCeiling to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaCeiling to compare. |
 
 ### Returns
 AlphaCeiling

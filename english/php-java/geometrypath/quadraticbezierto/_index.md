@@ -14,10 +14,10 @@ url: /php-java/geometrypath/quadraticbezierto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| point1 | Direction point |
-| point2 | End point |
+| Name | Type | Description |
+| --- | --- | --- |
+| point1 | Point2D.Float | Direction point |
+| point2 | Point2D.Float | End point |
 
 
 ---
@@ -30,12 +30,12 @@ url: /php-java/geometrypath/quadraticbezierto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x1 | X coordinate of direction point |
-| y1 | Y coordinate of direction point |
-| x2 | X coordinate of end point |
-| y2 | Y coordinate of end point |
+| Name | Type | Description |
+| --- | --- | --- |
+| x1 | float | X coordinate of direction point |
+| y1 | float | Y coordinate of direction point |
+| x2 | float | X coordinate of end point |
+| y2 | float | Y coordinate of end point |
 
 
 ---
@@ -48,11 +48,11 @@ url: /php-java/geometrypath/quadraticbezierto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| point1 | Direction point |
-| point2 | End point |
-| index | Index of segment in PathData |
+| Name | Type | Description |
+| --- | --- | --- |
+| point1 | Point2D.Float | Direction point |
+| point2 | Point2D.Float | End point |
+| index | long | Index of segment in PathData |
 
 ### Exception
 
@@ -71,13 +71,13 @@ url: /php-java/geometrypath/quadraticbezierto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x1 | X coordinate of direction point |
-| y1 | Y coordinate of direction point |
-| x2 | X coordinate of end point |
-| y2 | Y coordinate of end point |
-| index | Index of segment in PathData |
+| Name | Type | Description |
+| --- | --- | --- |
+| x1 | float | X coordinate of direction point |
+| y1 | float | Y coordinate of direction point |
+| x2 | float | X coordinate of end point |
+| y2 | float | Y coordinate of end point |
+| index | long | Index of segment in PathData |
 
 ### Exception
 

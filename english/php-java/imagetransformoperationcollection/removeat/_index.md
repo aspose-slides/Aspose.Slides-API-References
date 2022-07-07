@@ -14,9 +14,9 @@ url: /php-java/imagetransformoperationcollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of an image effect that should be deleted. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of an image effect that should be deleted. |
 
 
 ---

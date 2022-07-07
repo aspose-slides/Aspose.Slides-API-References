@@ -29,5 +29,5 @@ url: /php-java/motionpath/
 | [insert](insert)(int, int, java.awt.geom.Point2D.Float[], int, boolean) | Insert new command to path |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([MotionCmdPath](../MotionCmdPath)) | Removes specified commans from the collection. |
+| [remove](remove)([MotionCmdPath](../motioncmdpath)) | Removes specified commans from the collection. |
 | [removeAt](removeat)(int) | Removes a command at the specified index. |

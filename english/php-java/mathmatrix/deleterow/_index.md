@@ -20,9 +20,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| rowIndex | The zero-based index of the row to delete. |
+| Name | Type | Description |
+| --- | --- | --- |
+| rowIndex | int | The zero-based index of the row to delete. |
 
 ### Exception
 

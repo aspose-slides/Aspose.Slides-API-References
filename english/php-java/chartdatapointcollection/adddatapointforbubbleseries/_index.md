@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/chartdatapointcollection/adddatapointforbubbleseries/
 ---
 
-## addDataPointForBubbleSeries([ChartDataCell](../../ChartDataCell) xValue, [ChartDataCell](../../ChartDataCell) yValue, [ChartDataCell](../../ChartDataCell) bubbleSize)  method
+## addDataPointForBubbleSeries([ChartDataCell](../../chartdatacell) xValue, [ChartDataCell](../../chartdatacell) yValue, [ChartDataCell](../../chartdatacell) bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -15,11 +15,11 @@ url: /php-java/chartdatapointcollection/adddatapointforbubbleseries/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | ChartDataCell | Data point XValue |
+| yValue | ChartDataCell | Data point YValue |
+| bubbleSize | ChartDataCell | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -28,7 +28,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(double xValue, [ChartDataCell](../../ChartDataCell) yValue, [ChartDataCell](../../ChartDataCell) bubbleSize)  method
+## addDataPointForBubbleSeries(double xValue, [ChartDataCell](../../chartdatacell) yValue, [ChartDataCell](../../chartdatacell) bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -36,11 +36,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | double | Data point XValue |
+| yValue | ChartDataCell | Data point YValue |
+| bubbleSize | ChartDataCell | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -49,7 +49,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(String xValue, [ChartDataCell](../../ChartDataCell) yValue, [ChartDataCell](../../ChartDataCell) bubbleSize)  method
+## addDataPointForBubbleSeries(String xValue, [ChartDataCell](../../chartdatacell) yValue, [ChartDataCell](../../chartdatacell) bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -57,11 +57,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | ChartDataCell | Data point YValue |
+| bubbleSize | ChartDataCell | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -70,7 +70,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries([ChartDataCell](../../ChartDataCell) xValue, double yValue, [ChartDataCell](../../ChartDataCell) bubbleSize)  method
+## addDataPointForBubbleSeries([ChartDataCell](../../chartdatacell) xValue, double yValue, [ChartDataCell](../../chartdatacell) bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -78,11 +78,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | ChartDataCell | Data point XValue |
+| yValue | double | Data point YValue |
+| bubbleSize | ChartDataCell | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -91,7 +91,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(double xValue, double yValue, [ChartDataCell](../../ChartDataCell) bubbleSize)  method
+## addDataPointForBubbleSeries(double xValue, double yValue, [ChartDataCell](../../chartdatacell) bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -99,11 +99,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | double | Data point XValue |
+| yValue | double | Data point YValue |
+| bubbleSize | ChartDataCell | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -112,7 +112,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(String xValue, double yValue, [ChartDataCell](../../ChartDataCell) bubbleSize)  method
+## addDataPointForBubbleSeries(String xValue, double yValue, [ChartDataCell](../../chartdatacell) bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -120,11 +120,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | double | Data point YValue |
+| bubbleSize | ChartDataCell | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -133,7 +133,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries([ChartDataCell](../../ChartDataCell) xValue, [ChartDataCell](../../ChartDataCell) yValue, double bubbleSize)  method
+## addDataPointForBubbleSeries([ChartDataCell](../../chartdatacell) xValue, [ChartDataCell](../../chartdatacell) yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -141,11 +141,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | ChartDataCell | Data point XValue |
+| yValue | ChartDataCell | Data point YValue |
+| bubbleSize | double | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -154,7 +154,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(double xValue, [ChartDataCell](../../ChartDataCell) yValue, double bubbleSize)  method
+## addDataPointForBubbleSeries(double xValue, [ChartDataCell](../../chartdatacell) yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -162,11 +162,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | double | Data point XValue |
+| yValue | ChartDataCell | Data point YValue |
+| bubbleSize | double | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -175,7 +175,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries(String xValue, [ChartDataCell](../../ChartDataCell) yValue, double bubbleSize)  method
+## addDataPointForBubbleSeries(String xValue, [ChartDataCell](../../chartdatacell) yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -183,11 +183,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | ChartDataCell | Data point YValue |
+| bubbleSize | double | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -196,7 +196,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 ---
 
 
-## addDataPointForBubbleSeries([ChartDataCell](../../ChartDataCell) xValue, double yValue, double bubbleSize)  method
+## addDataPointForBubbleSeries([ChartDataCell](../../chartdatacell) xValue, double yValue, double bubbleSize)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Bubble subtypes (see also  ChartTypeCharacterizer#isChartTypeBubble(int) method).
@@ -204,11 +204,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | ChartDataCell | Data point XValue |
+| yValue | double | Data point YValue |
+| bubbleSize | double | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -225,11 +225,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | double | Data point XValue |
+| yValue | double | Data point YValue |
+| bubbleSize | double | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)
@@ -246,11 +246,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
-| bubbleSize | Data point BubbleSize |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | double | Data point YValue |
+| bubbleSize | double | Data point BubbleSize |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBubble(int)

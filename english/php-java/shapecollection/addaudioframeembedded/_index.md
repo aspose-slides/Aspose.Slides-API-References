@@ -16,13 +16,13 @@ url: /php-java/shapecollection/addaudioframeembedded/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| audio_stream | Inout stream with audio data. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new audio frame. |
+| y | float | Y coordinate of a new audio frame. |
+| width | float | Width of a new audio frame. |
+| height | float | Height of a new audio frame. |
+| audio_stream | InputStream | Inout stream with audio data. |
 
 ### Returns
 Created AudioFrame object.
@@ -31,7 +31,7 @@ Created AudioFrame object.
 ---
 
 
-## addAudioFrameEmbedded(float x, float y, float width, float height, [Audio](../../Audio) audio)  method
+## addAudioFrameEmbedded(float x, float y, float width, float height, [Audio](../../audio) audio)  method
 
  Adds a new audio frame with embedded audio file to the end of a collection.
  It uses audio file from Presentation.Audios list.
@@ -39,13 +39,13 @@ Created AudioFrame object.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| audio | Audio from Presentation.Audios list. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new audio frame. |
+| y | float | Y coordinate of a new audio frame. |
+| width | float | Width of a new audio frame. |
+| height | float | Height of a new audio frame. |
+| audio | Audio | Audio from Presentation.Audios list. |
 
 ### Returns
 Created AudioFrame object.

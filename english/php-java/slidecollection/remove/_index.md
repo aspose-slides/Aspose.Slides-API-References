@@ -7,16 +7,16 @@ weight: 270
 url: /php-java/slidecollection/remove/
 ---
 
-## remove([Slide](../../Slide) value)  method
+## remove([Slide](../../slide) value)  method
 
  Removes the first occurrence of a specific object from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The slide to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | Slide | The slide to remove from the collection. |
 
 
 ---

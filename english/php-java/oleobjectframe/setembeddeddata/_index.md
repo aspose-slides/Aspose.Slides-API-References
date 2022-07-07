@@ -7,7 +7,7 @@ weight: 130
 url: /php-java/oleobjectframe/setembeddeddata/
 ---
 
-## setEmbeddedData([OleEmbeddedDataInfo](../../OleEmbeddedDataInfo) embeddedData)  method
+## setEmbeddedData([OleEmbeddedDataInfo](../../oleembeddeddatainfo) embeddedData)  method
 
  Sets information about OLE embedded data.
  
@@ -31,9 +31,9 @@ url: /php-java/oleobjectframe/setembeddeddata/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| embeddedData | Embedded data IOleEmbeddedDataInfo This method changes the properties of the object to reflect the new data and sets the IsObjectLink flag to false, indicating that the OLE object is embedded. |
+| Name | Type | Description |
+| --- | --- | --- |
+| embeddedData | OleEmbeddedDataInfo | Embedded data IOleEmbeddedDataInfo This method changes the properties of the object to reflect the new data and sets the IsObjectLink flag to false, indicating that the OLE object is embedded. |
 
 ### Exception
 

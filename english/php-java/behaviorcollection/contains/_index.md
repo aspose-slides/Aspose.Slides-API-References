@@ -7,16 +7,16 @@ weight: 30
 url: /php-java/behaviorcollection/contains/
 ---
 
-## contains([Behavior](../../Behavior) item)  method
+## contains([Behavior](../../behavior) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -25,16 +25,16 @@ IGenericCollection
 ---
 
 
-## contains([ColorEffect](../../ColorEffect) item)  method
+## contains([ColorEffect](../../coloreffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -43,16 +43,16 @@ IGenericCollection
 ---
 
 
-## contains([CommandEffect](../../CommandEffect) item)  method
+## contains([CommandEffect](../../commandeffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -61,16 +61,16 @@ IGenericCollection
 ---
 
 
-## contains([FilterEffect](../../FilterEffect) item)  method
+## contains([FilterEffect](../../filtereffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -79,16 +79,16 @@ IGenericCollection
 ---
 
 
-## contains([MotionEffect](../../MotionEffect) item)  method
+## contains([MotionEffect](../../motioneffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -97,16 +97,16 @@ IGenericCollection
 ---
 
 
-## contains([PropertyEffect](../../PropertyEffect) item)  method
+## contains([PropertyEffect](../../propertyeffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -115,16 +115,16 @@ IGenericCollection
 ---
 
 
-## contains([RotationEffect](../../RotationEffect) item)  method
+## contains([RotationEffect](../../rotationeffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -133,16 +133,16 @@ IGenericCollection
 ---
 
 
-## contains([ScaleEffect](../../ScaleEffect) item)  method
+## contains([ScaleEffect](../../scaleeffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -151,16 +151,16 @@ IGenericCollection
 ---
 
 
-## contains([SetEffect](../../SetEffect) item)  method
+## contains([SetEffect](../../seteffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection

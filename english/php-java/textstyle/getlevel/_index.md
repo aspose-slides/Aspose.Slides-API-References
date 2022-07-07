@@ -14,9 +14,9 @@ url: /php-java/textstyle/getlevel/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Zero-based index of level. Must lay in 0..8 interval. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of level. Must lay in 0..8 interval. |
 
 ### Returns
 Formatting of level IParagraphFormat.

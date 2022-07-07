@@ -27,11 +27,11 @@ Shape thumbnail.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| bounds | Shape thumbnail bounds type. |
-| scaleX | X scale |
-| scaleY | Y scale |
+| Name | Type | Description |
+| --- | --- | --- |
+| bounds | int | Shape thumbnail bounds type. |
+| scaleX | float | X scale |
+| scaleY | float | Y scale |
 
 ### Returns
 Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.

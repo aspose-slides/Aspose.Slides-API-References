@@ -7,16 +7,16 @@ weight: 140
 url: /php-java/chartseriescollection/remove/
 ---
 
-## remove([ChartSeries](../../ChartSeries) value)  method
+## remove([ChartSeries](../../chartseries) value)  method
 
  Removes the specified value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The value. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | ChartSeries | The value. |
 
 ### Exception
 

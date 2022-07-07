@@ -14,9 +14,9 @@ url: /php-java/digitalsignaturecollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of the signature that should be deleted. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the signature that should be deleted. |
 
 
 ---

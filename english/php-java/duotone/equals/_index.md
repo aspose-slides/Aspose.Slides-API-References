@@ -14,9 +14,9 @@ url: /php-java/duotone/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The Duotone to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Duotone to compare. |
 
 ### Returns
 Duotone

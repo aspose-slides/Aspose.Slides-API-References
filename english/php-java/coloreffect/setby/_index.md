@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/coloreffect/setby/
 ---
 
-## setBy([ColorOffset](../../ColorOffset) value)  method
+## setBy([ColorOffset](../../coloroffset) value)  method
 
  Describes the relative offset value for the color animation.
  Read/write  IColorOffset.

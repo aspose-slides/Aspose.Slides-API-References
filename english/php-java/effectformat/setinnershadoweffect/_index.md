@@ -7,7 +7,7 @@ weight: 300
 url: /php-java/effectformat/setinnershadoweffect/
 ---
 
-## setInnerShadowEffect([InnerShadow](../../InnerShadow) value)  method
+## setInnerShadowEffect([InnerShadow](../../innershadow) value)  method
 
  Inner shadow.
  Read/write  IInnerShadow.

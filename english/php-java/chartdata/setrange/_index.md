@@ -16,9 +16,9 @@ url: /php-java/chartdata/setrange/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| formula | The cells data range formula. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| Name | Type | Description |
+| --- | --- | --- |
+| formula | String | The cells data range formula. E.g: "Sheet1!$A$1:$C$4" , "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Exception
 

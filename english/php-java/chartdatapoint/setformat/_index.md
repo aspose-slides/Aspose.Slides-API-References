@@ -7,7 +7,7 @@ weight: 260
 url: /php-java/chartdatapoint/setformat/
 ---
 
-## setFormat([Format](../../Format) value)  method
+## setFormat([Format](../../format) value)  method
 
  Represents the formatting properties.
  Read/write  IFormat.

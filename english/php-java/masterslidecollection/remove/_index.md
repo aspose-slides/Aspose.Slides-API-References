@@ -7,16 +7,16 @@ weight: 90
 url: /php-java/masterslidecollection/remove/
 ---
 
-## remove([MasterSlide](../../MasterSlide) value)  method
+## remove([MasterSlide](../../masterslide) value)  method
 
  Removes the first occurrence of a specific object from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The master slide to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | MasterSlide | The master slide to remove from the collection. |
 
 
 ---

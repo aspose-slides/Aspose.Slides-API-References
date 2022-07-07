@@ -21,9 +21,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| columnIndex | Index of the column after which to insert a new one |
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Index of the column after which to insert a new one |
 
 
 ---

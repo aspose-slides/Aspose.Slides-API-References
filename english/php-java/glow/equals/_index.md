@@ -14,9 +14,9 @@ url: /php-java/glow/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The Glow to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Glow to compare. |
 
 ### Returns
 Glow

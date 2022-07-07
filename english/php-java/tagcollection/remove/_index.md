@@ -14,9 +14,9 @@ url: /php-java/tagcollection/remove/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | The name of tag to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | The name of tag to remove. |
 
 
 ---

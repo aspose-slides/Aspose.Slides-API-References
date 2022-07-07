@@ -20,10 +20,10 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| row | The zero-based index of the row to get item |
-| column | The zero-based index of the column to get item |
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
 
 ### Returns
 IMathElement

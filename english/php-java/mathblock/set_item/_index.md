@@ -7,7 +7,7 @@ weight: 250
 url: /php-java/mathblock/set_item/
 ---
 
-## set_Item(int index, [BaseScript](../../BaseScript) value)  method
+## set_Item(int index, [BaseScript](../../basescript) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -20,16 +20,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathAccent](../../MathAccent) value)  method
+## set_Item(int index, [MathAccent](../../mathaccent) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -42,16 +42,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathArray](../../MathArray) value)  method
+## set_Item(int index, [MathArray](../../matharray) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -64,16 +64,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathBar](../../MathBar) value)  method
+## set_Item(int index, [MathBar](../../mathbar) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -86,16 +86,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathBlock](../../MathBlock) value)  method
+## set_Item(int index, [MathBlock](../../mathblock) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -108,16 +108,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathBorderBox](../../MathBorderBox) value)  method
+## set_Item(int index, [MathBorderBox](../../mathborderbox) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -130,16 +130,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathBox](../../MathBox) value)  method
+## set_Item(int index, [MathBox](../../mathbox) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -152,16 +152,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathDelimiter](../../MathDelimiter) value)  method
+## set_Item(int index, [MathDelimiter](../../mathdelimiter) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -174,16 +174,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathElementBase](../../MathElementBase) value)  method
+## set_Item(int index, [MathElementBase](../../mathelementbase) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -196,16 +196,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathematicalText](../../MathematicalText) value)  method
+## set_Item(int index, [MathematicalText](../../mathematicaltext) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -218,16 +218,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathFraction](../../MathFraction) value)  method
+## set_Item(int index, [MathFraction](../../mathfraction) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -240,16 +240,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathFunction](../../MathFunction) value)  method
+## set_Item(int index, [MathFunction](../../mathfunction) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -262,16 +262,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathGroupingCharacter](../../MathGroupingCharacter) value)  method
+## set_Item(int index, [MathGroupingCharacter](../../mathgroupingcharacter) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -284,16 +284,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) value)  method
+## set_Item(int index, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -306,16 +306,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathLimit](../../MathLimit) value)  method
+## set_Item(int index, [MathLimit](../../mathlimit) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -328,16 +328,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathMatrix](../../MathMatrix) value)  method
+## set_Item(int index, [MathMatrix](../../mathmatrix) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -350,16 +350,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathNaryOperator](../../MathNaryOperator) value)  method
+## set_Item(int index, [MathNaryOperator](../../mathnaryoperator) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -372,16 +372,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathRadical](../../MathRadical) value)  method
+## set_Item(int index, [MathRadical](../../mathradical) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -394,16 +394,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) value)  method
+## set_Item(int index, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -416,16 +416,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathSubscriptElement](../../MathSubscriptElement) value)  method
+## set_Item(int index, [MathSubscriptElement](../../mathsubscriptelement) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -438,16 +438,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---
 
 
-## set_Item(int index, [MathSuperscriptElement](../../MathSuperscriptElement) value)  method
+## set_Item(int index, [MathSuperscriptElement](../../mathsuperscriptelement) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -460,10 +460,10 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The mathematical element. |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | BaseScript | The zero-based index of the item |
 
 
 ---

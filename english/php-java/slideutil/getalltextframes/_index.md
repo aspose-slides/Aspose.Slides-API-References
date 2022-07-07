@@ -7,17 +7,17 @@ weight: 100
 url: /php-java/slideutil/getalltextframes/
 ---
 
-## getAllTextFrames([Presentation](../../Presentation) pres, boolean withMasters)  method
+## getAllTextFrames([Presentation](../../presentation) pres, boolean withMasters)  method
 
  Returns all text frames in a PPTX presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| pres | Scanned presentation. |
-| withMasters | Determines whether master slides should be scanned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Scanned presentation. |
+| withMasters | boolean | Determines whether master slides should be scanned. |
 
 ### Returns
 Array of TextFrame objects.

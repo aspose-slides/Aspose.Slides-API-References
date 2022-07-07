@@ -14,10 +14,10 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | boolean | Custom property value |
 
 
 ---
@@ -30,10 +30,10 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | int | Custom property value |
 
 
 ---
@@ -46,10 +46,10 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | Date | Custom property value |
 
 
 ---
@@ -62,10 +62,10 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | String | Custom property value |
 
 
 ---
@@ -78,10 +78,10 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | float | Custom property value |
 
 
 ---
@@ -94,10 +94,10 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to set |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to set |
+| value | double | Custom property value |
 
 
 ---

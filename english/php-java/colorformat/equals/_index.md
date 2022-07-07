@@ -14,9 +14,9 @@ url: /php-java/colorformat/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | Object. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | Object. |
 
 ### Returns
 True if objects are equal, otherwise false.

@@ -7,7 +7,7 @@ weight: 100
 url: /php-java/videoplayerhtmlcontroller/writeslideend/
 ---
 
-## writeSlideEnd([HtmlGenerator](../../HtmlGenerator) generator, [Slide](../../Slide) slide)  method
+## writeSlideEnd([HtmlGenerator](../../htmlgenerator) generator, [Slide](../../slide) slide)  method
 
 
 

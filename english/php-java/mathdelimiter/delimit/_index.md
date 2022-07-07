@@ -14,9 +14,9 @@ url: /php-java/mathdelimiter/delimit/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| separatorCharacter | delimiter character |
+| Name | Type | Description |
+| --- | --- | --- |
+| separatorCharacter | char | delimiter character |
 
 ### Returns
 This object after applying the delimiter character

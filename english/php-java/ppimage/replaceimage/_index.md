@@ -14,9 +14,9 @@ url: /php-java/ppimage/replaceimage/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| newImageData | The new image's data. |
+| Name | Type | Description |
+| --- | --- | --- |
+| newImageData | byte[] | The new image's data. |
 
 ### Exception
 
@@ -28,16 +28,16 @@ url: /php-java/ppimage/replaceimage/
 ---
 
 
-## replaceImage([PPImage](../../PPImage) newImage)  method
+## replaceImage([PPImage](../../ppimage) newImage)  method
 
  Replaces image data.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| newImage | The new IPPImage. |
+| Name | Type | Description |
+| --- | --- | --- |
+| newImage | PPImage | The new IPPImage. |
 
 ### Exception
 

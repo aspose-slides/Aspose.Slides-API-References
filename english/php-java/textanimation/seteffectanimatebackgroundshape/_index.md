@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/textanimation/seteffectanimatebackgroundshape/
 ---
 
-## setEffectAnimateBackgroundShape([Effect](../../Effect) value)  method
+## setEffectAnimateBackgroundShape([Effect](../../effect) value)  method
 
  Linked shape effect with group or not (null).
  Read/write  IEffect.

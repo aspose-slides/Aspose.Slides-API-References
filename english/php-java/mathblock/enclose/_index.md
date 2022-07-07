@@ -20,10 +20,10 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| beginningCharacter | Beginning character (usually left bracket) |
-| endingCharacter | Ending character (usually right bracket) |
+| Name | Type | Description |
+| --- | --- | --- |
+| beginningCharacter | char | Beginning character (usually left bracket) |
+| endingCharacter | char | Ending character (usually right bracket) |
 
 ### Returns
 The math element of type IMathDelimiter which includes specified characters as framing
@@ -46,11 +46,11 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| beginningCharacter | Beginning character (usually left bracket) |
-| endingCharacter | Ending character (usually right bracket) |
-| separatorCharacter | Separator character |
+| Name | Type | Description |
+| --- | --- | --- |
+| beginningCharacter | char | Beginning character (usually left bracket) |
+| endingCharacter | char | Ending character (usually right bracket) |
+| separatorCharacter | char | Separator character |
 
 ### Returns
 The math element of type IMathDelimiter which includes specified characters as framing and delimiter

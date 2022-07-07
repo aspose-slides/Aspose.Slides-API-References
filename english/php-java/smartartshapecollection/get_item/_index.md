@@ -15,9 +15,9 @@ url: /php-java/smartartshapecollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of shape |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of shape |
 
 ### Returns
 SmartArtShape

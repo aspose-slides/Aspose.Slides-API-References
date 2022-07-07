@@ -14,9 +14,9 @@ url: /php-java/grayscale/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The GrayScale to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The GrayScale to compare. |
 
 ### Returns
 GrayScale

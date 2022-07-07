@@ -14,9 +14,9 @@ url: /php-java/bilevel/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The BiLevel to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The BiLevel to compare. |
 
 ### Returns
 BiLevel

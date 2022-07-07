@@ -14,9 +14,9 @@ url: /php-java/storage/get/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| key | Key of the value. |
+| Name | Type | Description |
+| --- | --- | --- |
+| key | String | Key of the value. |
 
 ### Returns
 Data value if it is presented in the data collection, null otherwise.

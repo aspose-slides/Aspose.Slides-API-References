@@ -14,9 +14,9 @@ url: /php-java/behaviorcollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 ### Returns
 Animation behavior.

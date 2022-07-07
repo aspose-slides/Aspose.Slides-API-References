@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/sequence/geteffectsbyshape/
 ---
 
-## getEffectsByShape([AudioFrame](../../AudioFrame) shape)  method
+## getEffectsByShape([AudioFrame](../../audioframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -16,7 +16,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([AutoShape](../../AutoShape) shape)  method
+## getEffectsByShape([AutoShape](../../autoshape) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -25,7 +25,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Chart](../../Chart) shape)  method
+## getEffectsByShape([Chart](../../chart) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -34,7 +34,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Connector](../../Connector) shape)  method
+## getEffectsByShape([Connector](../../connector) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -43,7 +43,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([GeometryShape](../../GeometryShape) shape)  method
+## getEffectsByShape([GeometryShape](../../geometryshape) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -52,7 +52,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([GraphicalObject](../../GraphicalObject) shape)  method
+## getEffectsByShape([GraphicalObject](../../graphicalobject) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -61,7 +61,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([GroupShape](../../GroupShape) shape)  method
+## getEffectsByShape([GroupShape](../../groupshape) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -70,7 +70,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Ink](../../Ink) shape)  method
+## getEffectsByShape([Ink](../../ink) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -79,7 +79,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([LegacyDiagram](../../LegacyDiagram) shape)  method
+## getEffectsByShape([LegacyDiagram](../../legacydiagram) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -88,7 +88,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([OleObjectFrame](../../OleObjectFrame) shape)  method
+## getEffectsByShape([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -97,7 +97,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([PictureFrame](../../PictureFrame) shape)  method
+## getEffectsByShape([PictureFrame](../../pictureframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -106,7 +106,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SectionZoomFrame](../../SectionZoomFrame) shape)  method
+## getEffectsByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -115,7 +115,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Shape](../../Shape) shape)  method
+## getEffectsByShape([Shape](../../shape) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -124,7 +124,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SmartArt](../../SmartArt) shape)  method
+## getEffectsByShape([SmartArt](../../smartart) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -133,7 +133,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SmartArtShape](../../SmartArtShape) shape)  method
+## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -142,7 +142,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SummaryZoomFrame](../../SummaryZoomFrame) shape)  method
+## getEffectsByShape([SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -151,7 +151,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SummaryZoomSection](../../SummaryZoomSection) shape)  method
+## getEffectsByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -160,7 +160,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Table](../../Table) shape)  method
+## getEffectsByShape([Table](../../table) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -169,7 +169,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([VideoFrame](../../VideoFrame) shape)  method
+## getEffectsByShape([VideoFrame](../../videoframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -178,7 +178,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([ZoomFrame](../../ZoomFrame) shape)  method
+## getEffectsByShape([ZoomFrame](../../zoomframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -187,7 +187,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([ZoomObject](../../ZoomObject) shape)  method
+## getEffectsByShape([ZoomObject](../../zoomobject) shape)  method
 
  Returns array of effects for the specified shape.
  

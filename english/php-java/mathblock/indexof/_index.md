@@ -7,7 +7,7 @@ weight: 150
 url: /php-java/mathblock/indexof/
 ---
 
-## indexOf([BaseScript](../../BaseScript) item)  method
+## indexOf([BaseScript](../../basescript) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -23,9 +23,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -34,7 +34,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathAccent](../../MathAccent) item)  method
+## indexOf([MathAccent](../../mathaccent) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -50,9 +50,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -61,7 +61,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathArray](../../MathArray) item)  method
+## indexOf([MathArray](../../matharray) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -77,9 +77,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -88,7 +88,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathBar](../../MathBar) item)  method
+## indexOf([MathBar](../../mathbar) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -104,9 +104,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -115,7 +115,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathBlock](../../MathBlock) item)  method
+## indexOf([MathBlock](../../mathblock) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -131,9 +131,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -142,7 +142,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathBorderBox](../../MathBorderBox) item)  method
+## indexOf([MathBorderBox](../../mathborderbox) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -158,9 +158,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -169,7 +169,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathBox](../../MathBox) item)  method
+## indexOf([MathBox](../../mathbox) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -185,9 +185,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -196,7 +196,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathDelimiter](../../MathDelimiter) item)  method
+## indexOf([MathDelimiter](../../mathdelimiter) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -212,9 +212,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -223,7 +223,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathElementBase](../../MathElementBase) item)  method
+## indexOf([MathElementBase](../../mathelementbase) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -239,9 +239,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -250,7 +250,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathematicalText](../../MathematicalText) item)  method
+## indexOf([MathematicalText](../../mathematicaltext) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -266,9 +266,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -277,7 +277,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathFraction](../../MathFraction) item)  method
+## indexOf([MathFraction](../../mathfraction) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -293,9 +293,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -304,7 +304,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathFunction](../../MathFunction) item)  method
+## indexOf([MathFunction](../../mathfunction) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -320,9 +320,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -331,7 +331,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathGroupingCharacter](../../MathGroupingCharacter) item)  method
+## indexOf([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -347,9 +347,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -358,7 +358,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
+## indexOf([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -374,9 +374,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -385,7 +385,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathLimit](../../MathLimit) item)  method
+## indexOf([MathLimit](../../mathlimit) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -401,9 +401,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -412,7 +412,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathMatrix](../../MathMatrix) item)  method
+## indexOf([MathMatrix](../../mathmatrix) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -428,9 +428,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -439,7 +439,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathNaryOperator](../../MathNaryOperator) item)  method
+## indexOf([MathNaryOperator](../../mathnaryoperator) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -455,9 +455,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -466,7 +466,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathRadical](../../MathRadical) item)  method
+## indexOf([MathRadical](../../mathradical) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -482,9 +482,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -493,7 +493,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
+## indexOf([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -509,9 +509,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -520,7 +520,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathSubscriptElement](../../MathSubscriptElement) item)  method
+## indexOf([MathSubscriptElement](../../mathsubscriptelement) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -536,9 +536,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.
@@ -547,7 +547,7 @@ The index of item if found in the collection; otherwise, -1.
 ---
 
 
-## indexOf([MathSuperscriptElement](../../MathSuperscriptElement) item)  method
+## indexOf([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -563,9 +563,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The element to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The element to locate in the collection. |
 
 ### Returns
 The index of item if found in the collection; otherwise, -1.

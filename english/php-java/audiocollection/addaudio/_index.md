@@ -7,16 +7,16 @@ weight: 10
 url: /php-java/audiocollection/addaudio/
 ---
 
-## addAudio([Audio](../../Audio) audio)  method
+## addAudio([Audio](../../audio) audio)  method
 
  Adds a copy of an audio file from an another presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| audio | Source audio. |
+| Name | Type | Description |
+| --- | --- | --- |
+| audio | Audio | Source audio. |
 
 ### Returns
 Added audio.
@@ -32,9 +32,9 @@ Added audio.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Stream to add audio from. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Stream to add audio from. |
 
 ### Returns
 Added audio.
@@ -50,10 +50,10 @@ Added audio.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Stream to add video audio from. |
-| loadingStreamBehavior | The behavior which will be applied to the stream. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Stream to add video audio from. |
+| loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
 ### Returns
 Added audio.
@@ -69,9 +69,9 @@ Added audio.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| audioData | Audio bytes. |
+| Name | Type | Description |
+| --- | --- | --- |
+| audioData | byte[] | Audio bytes. |
 
 ### Returns
 Added audio.

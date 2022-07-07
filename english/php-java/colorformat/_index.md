@@ -16,7 +16,7 @@ url: /php-java/colorformat/
 
 | Name | Description |
 | --- | --- |
-| [copyFrom](copyfrom)([ColorFormat](../ColorFormat)) | Copy color format from "color". |
+| [copyFrom](copyfrom)([ColorFormat](../colorformat)) | Copy color format from "color". |
 | [equals](equals)(Object) | Checks for equality with specified object. |
 | [getB](getb)() | Returns or sets the blue component of a color. All color transformations are ignored. Read/write byte. |
 | [getColor](getcolor)() | Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write java.awt.Color. |

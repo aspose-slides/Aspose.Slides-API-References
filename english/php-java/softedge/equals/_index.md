@@ -14,9 +14,9 @@ url: /php-java/softedge/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The SoftEdge to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The SoftEdge to compare. |
 
 ### Returns
 SoftEdge

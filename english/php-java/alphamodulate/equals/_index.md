@@ -14,9 +14,9 @@ url: /php-java/alphamodulate/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The AlphaModulate to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaModulate to compare. |
 
 ### Returns
 AlphaModulate

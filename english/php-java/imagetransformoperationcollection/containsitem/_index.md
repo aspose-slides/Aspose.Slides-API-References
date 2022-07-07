@@ -7,16 +7,16 @@ weight: 200
 url: /php-java/imagetransformoperationcollection/containsitem/
 ---
 
-## containsItem([AlphaBiLevel](../../AlphaBiLevel) item)  method
+## containsItem([AlphaBiLevel](../../alphabilevel) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -25,16 +25,16 @@ IGenericCollection
 ---
 
 
-## containsItem([AlphaCeiling](../../AlphaCeiling) item)  method
+## containsItem([AlphaCeiling](../../alphaceiling) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -43,16 +43,16 @@ IGenericCollection
 ---
 
 
-## containsItem([AlphaFloor](../../AlphaFloor) item)  method
+## containsItem([AlphaFloor](../../alphafloor) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -61,16 +61,16 @@ IGenericCollection
 ---
 
 
-## containsItem([AlphaInverse](../../AlphaInverse) item)  method
+## containsItem([AlphaInverse](../../alphainverse) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -79,16 +79,16 @@ IGenericCollection
 ---
 
 
-## containsItem([AlphaModulate](../../AlphaModulate) item)  method
+## containsItem([AlphaModulate](../../alphamodulate) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -97,16 +97,16 @@ IGenericCollection
 ---
 
 
-## containsItem([AlphaModulateFixed](../../AlphaModulateFixed) item)  method
+## containsItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -115,16 +115,16 @@ IGenericCollection
 ---
 
 
-## containsItem([AlphaReplace](../../AlphaReplace) item)  method
+## containsItem([AlphaReplace](../../alphareplace) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -133,16 +133,16 @@ IGenericCollection
 ---
 
 
-## containsItem([BiLevel](../../BiLevel) item)  method
+## containsItem([BiLevel](../../bilevel) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -151,16 +151,16 @@ IGenericCollection
 ---
 
 
-## containsItem([Blur](../../Blur) item)  method
+## containsItem([Blur](../../blur) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -169,16 +169,16 @@ IGenericCollection
 ---
 
 
-## containsItem([ColorChange](../../ColorChange) item)  method
+## containsItem([ColorChange](../../colorchange) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -187,16 +187,16 @@ IGenericCollection
 ---
 
 
-## containsItem([ColorReplace](../../ColorReplace) item)  method
+## containsItem([ColorReplace](../../colorreplace) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -205,16 +205,16 @@ IGenericCollection
 ---
 
 
-## containsItem([Duotone](../../Duotone) item)  method
+## containsItem([Duotone](../../duotone) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -223,16 +223,16 @@ IGenericCollection
 ---
 
 
-## containsItem([FillOverlay](../../FillOverlay) item)  method
+## containsItem([FillOverlay](../../filloverlay) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -241,16 +241,16 @@ IGenericCollection
 ---
 
 
-## containsItem([Glow](../../Glow) item)  method
+## containsItem([Glow](../../glow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -259,16 +259,16 @@ IGenericCollection
 ---
 
 
-## containsItem([GrayScale](../../GrayScale) item)  method
+## containsItem([GrayScale](../../grayscale) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -277,16 +277,16 @@ IGenericCollection
 ---
 
 
-## containsItem([HSL](../../HSL) item)  method
+## containsItem([HSL](../../hsl) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -295,16 +295,16 @@ IGenericCollection
 ---
 
 
-## containsItem([ImageTransformOperation](../../ImageTransformOperation) item)  method
+## containsItem([ImageTransformOperation](../../imagetransformoperation) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -313,16 +313,16 @@ IGenericCollection
 ---
 
 
-## containsItem([InnerShadow](../../InnerShadow) item)  method
+## containsItem([InnerShadow](../../innershadow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -331,16 +331,16 @@ IGenericCollection
 ---
 
 
-## containsItem([Luminance](../../Luminance) item)  method
+## containsItem([Luminance](../../luminance) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -349,16 +349,16 @@ IGenericCollection
 ---
 
 
-## containsItem([OuterShadow](../../OuterShadow) item)  method
+## containsItem([OuterShadow](../../outershadow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -367,16 +367,16 @@ IGenericCollection
 ---
 
 
-## containsItem([PresetShadow](../../PresetShadow) item)  method
+## containsItem([PresetShadow](../../presetshadow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -385,16 +385,16 @@ IGenericCollection
 ---
 
 
-## containsItem([Reflection](../../Reflection) item)  method
+## containsItem([Reflection](../../reflection) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -403,16 +403,16 @@ IGenericCollection
 ---
 
 
-## containsItem([SoftEdge](../../SoftEdge) item)  method
+## containsItem([SoftEdge](../../softedge) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -421,16 +421,16 @@ IGenericCollection
 ---
 
 
-## containsItem([Tint](../../Tint) item)  method
+## containsItem([Tint](../../tint) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection

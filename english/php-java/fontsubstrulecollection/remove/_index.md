@@ -7,16 +7,16 @@ weight: 90
 url: /php-java/fontsubstrulecollection/remove/
 ---
 
-## remove([FontSubstRule](../../FontSubstRule) value)  method
+## remove([FontSubstRule](../../fontsubstrule) value)  method
 
  Removes the first occurrence of a specific object from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The font substitution rule to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | FontSubstRule | The font substitution rule to remove from the collection. |
 
 
 ---

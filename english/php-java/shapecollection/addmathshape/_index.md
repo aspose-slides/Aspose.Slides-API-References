@@ -14,12 +14,12 @@ url: /php-java/shapecollection/addmathshape/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| width | The width of shape's frame. |
-| height | The height of shape's frame. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | The X-coordinate for a left side of shape's frame. |
+| y | float | The Y-coordinate for a top side of shape's frame. |
+| width | float | The width of shape's frame. |
+| height | float | The height of shape's frame. |
 
 ### Returns
 Created AutoShape object.

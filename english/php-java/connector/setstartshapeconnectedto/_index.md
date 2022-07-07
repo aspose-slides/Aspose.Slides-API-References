@@ -7,7 +7,7 @@ weight: 120
 url: /php-java/connector/setstartshapeconnectedto/
 ---
 
-## setStartShapeConnectedTo([AudioFrame](../../AudioFrame) value)  method
+## setStartShapeConnectedTo([AudioFrame](../../audioframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -26,7 +26,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([AutoShape](../../AutoShape) value)  method
+## setStartShapeConnectedTo([AutoShape](../../autoshape) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -45,7 +45,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([Chart](../../Chart) value)  method
+## setStartShapeConnectedTo([Chart](../../chart) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -64,7 +64,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([Connector](../../Connector) value)  method
+## setStartShapeConnectedTo([Connector](../../connector) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -83,7 +83,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([GeometryShape](../../GeometryShape) value)  method
+## setStartShapeConnectedTo([GeometryShape](../../geometryshape) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -102,7 +102,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([GraphicalObject](../../GraphicalObject) value)  method
+## setStartShapeConnectedTo([GraphicalObject](../../graphicalobject) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -121,7 +121,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([GroupShape](../../GroupShape) value)  method
+## setStartShapeConnectedTo([GroupShape](../../groupshape) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -140,7 +140,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([Ink](../../Ink) value)  method
+## setStartShapeConnectedTo([Ink](../../ink) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -159,7 +159,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([LegacyDiagram](../../LegacyDiagram) value)  method
+## setStartShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -178,7 +178,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([OleObjectFrame](../../OleObjectFrame) value)  method
+## setStartShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -197,7 +197,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([PictureFrame](../../PictureFrame) value)  method
+## setStartShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -216,7 +216,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([SectionZoomFrame](../../SectionZoomFrame) value)  method
+## setStartShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -235,7 +235,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([Shape](../../Shape) value)  method
+## setStartShapeConnectedTo([Shape](../../shape) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -254,7 +254,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([SmartArt](../../SmartArt) value)  method
+## setStartShapeConnectedTo([SmartArt](../../smartart) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -273,7 +273,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([SmartArtShape](../../SmartArtShape) value)  method
+## setStartShapeConnectedTo([SmartArtShape](../../smartartshape) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -292,7 +292,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([SummaryZoomFrame](../../SummaryZoomFrame) value)  method
+## setStartShapeConnectedTo([SummaryZoomFrame](../../summaryzoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -311,7 +311,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([SummaryZoomSection](../../SummaryZoomSection) value)  method
+## setStartShapeConnectedTo([SummaryZoomSection](../../summaryzoomsection) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -330,7 +330,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([Table](../../Table) value)  method
+## setStartShapeConnectedTo([Table](../../table) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -349,7 +349,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([VideoFrame](../../VideoFrame) value)  method
+## setStartShapeConnectedTo([VideoFrame](../../videoframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -368,7 +368,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([ZoomFrame](../../ZoomFrame) value)  method
+## setStartShapeConnectedTo([ZoomFrame](../../zoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -387,7 +387,7 @@ IShape
 ---
 
 
-## setStartShapeConnectedTo([ZoomObject](../../ZoomObject) value)  method
+## setStartShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.

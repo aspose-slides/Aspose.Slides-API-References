@@ -14,9 +14,9 @@ url: /php-java/blur/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The Blur to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Blur to compare. |
 
 ### Returns
 Blur

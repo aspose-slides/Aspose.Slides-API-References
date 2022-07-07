@@ -7,7 +7,7 @@ weight: 180
 url: /php-java/audioframe/setembeddedaudio/
 ---
 
-## setEmbeddedAudio([Audio](../../Audio) value)  method
+## setEmbeddedAudio([Audio](../../audio) value)  method
 
  Returns or sets embedded audio object.
  Read/write  IAudio.

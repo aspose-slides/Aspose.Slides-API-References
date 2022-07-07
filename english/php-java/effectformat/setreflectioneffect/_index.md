@@ -7,7 +7,7 @@ weight: 330
 url: /php-java/effectformat/setreflectioneffect/
 ---
 
-## setReflectionEffect([Reflection](../../Reflection) value)  method
+## setReflectionEffect([Reflection](../../reflection) value)  method
 
  Reflection. 
  Read/write  IReflection.

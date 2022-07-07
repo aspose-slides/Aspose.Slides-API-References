@@ -7,16 +7,16 @@ weight: 120
 url: /php-java/customxmlpartcollection/remove/
 ---
 
-## remove([CustomXmlPart](../../CustomXmlPart) item)  method
+## remove([CustomXmlPart](../../customxmlpart) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The custom xml part to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | CustomXmlPart | The custom xml part to remove. |
 
 ### Returns
 true if item is successfully removed; otherwise, false.

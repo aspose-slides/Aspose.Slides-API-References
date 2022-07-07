@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/masterthememanager/setoverridetheme/
 ---
 
-## setOverrideTheme([MasterTheme](../../MasterTheme) value)  method
+## setOverrideTheme([MasterTheme](../../mastertheme) value)  method
 
  Returns the overriding theme object.
  Read/write  IMasterTheme.

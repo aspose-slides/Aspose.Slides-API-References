@@ -14,9 +14,9 @@ url: /php-java/alphabilevel/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The AlphaBiLevel to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaBiLevel to compare. |
 
 ### Returns
 AlphaBiLevel

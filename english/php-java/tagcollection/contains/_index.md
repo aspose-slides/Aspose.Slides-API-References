@@ -14,9 +14,9 @@ url: /php-java/tagcollection/contains/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | The key to locate. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | The key to locate. |
 
 ### Returns
 True if the collection contains an tag with the specified key; otherwise, false.

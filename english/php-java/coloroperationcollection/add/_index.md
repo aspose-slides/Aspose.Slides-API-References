@@ -14,10 +14,10 @@ url: /php-java/coloroperationcollection/add/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | Operation type. |
-| parameter | Operation's parameter. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | int | Operation type. |
+| parameter | float | Operation's parameter. |
 
 ### Returns
 Added operation.
@@ -33,9 +33,9 @@ Added operation.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | Operation type. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | int | Operation type. |
 
 ### Returns
 Added operation.

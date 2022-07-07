@@ -7,16 +7,16 @@ weight: 80
 url: /php-java/stringchartvalue/setfromonecell/
 ---
 
-## setFromOneCell([ChartDataCell](../../ChartDataCell) cell)  method
+## setFromOneCell([ChartDataCell](../../chartdatacell) cell)  method
 
  Sets value from specified cell.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| cell | Cell. |
+| Name | Type | Description |
+| --- | --- | --- |
+| cell | ChartDataCell | Cell. |
 
 
 ---

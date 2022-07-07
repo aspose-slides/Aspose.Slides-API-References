@@ -7,16 +7,16 @@ weight: 70
 url: /php-java/portioncollection/indexof/
 ---
 
-## indexOf([MathPortion](../../MathPortion) item)  method
+## indexOf([MathPortion](../../mathportion) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | MathPortion | The object to locate in the List. |
 
 ### Returns
 List
@@ -25,16 +25,16 @@ List
 ---
 
 
-## indexOf([Portion](../../Portion) item)  method
+## indexOf([Portion](../../portion) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | MathPortion | The object to locate in the List. |
 
 ### Returns
 List

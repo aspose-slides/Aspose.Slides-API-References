@@ -25,5 +25,5 @@ url: /php-java/picture/
 | [getSlide](getslide)() | Returns the parent slide of a picture. Read-only IBaseSlide. |
 | [getVersion](getversion)() |  |
 | [hashCode](hashcode)() | Returns hash. |
-| [setImage](setimage)([PPImage](../PPImage)) | Returns or sets the embedded image. Read/write IPPImage. |
+| [setImage](setimage)([PPImage](../ppimage)) | Returns or sets the embedded image. Read/write IPPImage. |
 | [setLinkPathLong](setlinkpathlong)(String) | Returns of sets linked image's URL. Read/write String. |

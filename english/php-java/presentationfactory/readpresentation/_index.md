@@ -14,9 +14,9 @@ url: /php-java/presentationfactory/readpresentation/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| data | Array to read |
+| Name | Type | Description |
+| --- | --- | --- |
+| data | byte[] | Array to read |
 
 ### Returns
 Read presentation
@@ -25,17 +25,17 @@ Read presentation
 ---
 
 
-## readPresentation(byte[] data, [LoadOptions](../../LoadOptions) options)  method
+## readPresentation(byte[] data, [LoadOptions](../../loadoptions) options)  method
 
  Reads an existing presentation from array with additional load options
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| data | Array to read |
-| options | Load options |
+| Name | Type | Description |
+| --- | --- | --- |
+| data | byte[] | Array to read |
+| options | LoadOptions | Load options |
 
 ### Returns
 Read presentation
@@ -51,9 +51,9 @@ Read presentation
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Input stream to read |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Input stream to read |
 
 ### Returns
 Read presentation
@@ -62,17 +62,17 @@ Read presentation
 ---
 
 
-## readPresentation(InputStream stream, [LoadOptions](../../LoadOptions) options)  method
+## readPresentation(InputStream stream, [LoadOptions](../../loadoptions) options)  method
 
  Reads an existing presentation from stream with additional load options
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Input stream to read |
-| options | Load options |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Input stream to read |
+| options | LoadOptions | Load options |
 
 ### Returns
 Read presentation
@@ -88,9 +88,9 @@ Read presentation
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| file | File name |
+| Name | Type | Description |
+| --- | --- | --- |
+| file | String | File name |
 
 ### Returns
 Read presentation
@@ -99,17 +99,17 @@ Read presentation
 ---
 
 
-## readPresentation(String file, [LoadOptions](../../LoadOptions) options)  method
+## readPresentation(String file, [LoadOptions](../../loadoptions) options)  method
 
  Reads an existing presentation from stream with additional load options
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| file | File name |
-| options | Load options |
+| Name | Type | Description |
+| --- | --- | --- |
+| file | String | File name |
+| options | LoadOptions | Load options |
 
 ### Returns
 Read presentation

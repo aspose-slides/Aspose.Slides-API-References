@@ -7,16 +7,16 @@ weight: 40
 url: /php-java/piesplitcustompointcollection/containsitem/
 ---
 
-## containsItem([ChartDataPoint](../../ChartDataPoint) item)  method
+## containsItem([ChartDataPoint](../../chartdatapoint) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | ChartDataPoint | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection

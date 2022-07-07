@@ -26,10 +26,10 @@ Array of Slide
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| startIndex | An index of a first slide to add. |
-| count | A number of slides to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| startIndex | int | An index of a first slide to add. |
+| count | int | A number of slides to add. |
 
 ### Returns
 Array of Slide

@@ -15,10 +15,10 @@ Sets metered public and private key.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| publicKey | public key |
-| privateKey | private key |
+| Name | Type | Description |
+| --- | --- | --- |
+| publicKey | String | public key |
+| privateKey | String | private key |
 
 
 ---

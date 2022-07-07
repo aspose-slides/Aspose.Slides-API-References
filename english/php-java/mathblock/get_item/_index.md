@@ -20,9 +20,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index of the item |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the item |
 
 ### Returns
 The mathematical element.

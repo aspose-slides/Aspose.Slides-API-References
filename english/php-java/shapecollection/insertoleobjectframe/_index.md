@@ -7,7 +7,7 @@ weight: 490
 url: /php-java/shapecollection/insertoleobjectframe/
 ---
 
-## insertOleObjectFrame(int index, float x, float y, float width, float height, [OleEmbeddedDataInfo](../../OleEmbeddedDataInfo) dataInfo)  method
+## insertOleObjectFrame(int index, float x, float y, float width, float height, [OleEmbeddedDataInfo](../../oleembeddeddatainfo) dataInfo)  method
 
  Creates a new OLE object and inserts it to a collection at the specified index.
  
@@ -22,14 +22,14 @@ url: /php-java/shapecollection/insertoleobjectframe/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which OLE object should be inserted. |
-| x | X coordinate of a new OLE frame. |
-| y | Y coordinate of a new OLE frame. |
-| width | Width of a new OLE frame. |
-| height | Height of a new OLE frame. |
-| dataInfo | Embedded data info IOleEmbeddedDataInfo. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which OLE object should be inserted. |
+| x | float | X coordinate of a new OLE frame. |
+| y | float | Y coordinate of a new OLE frame. |
+| width | float | Width of a new OLE frame. |
+| height | float | Height of a new OLE frame. |
+| dataInfo | OleEmbeddedDataInfo | Embedded data info IOleEmbeddedDataInfo. |
 
 ### Returns
 Created OLE object.
@@ -45,15 +45,15 @@ Created OLE object.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which OLE object should be inserted. |
-| x | X coordinate of a new OLE frame. |
-| y | Y coordinate of a new OLE frame. |
-| width | Width of a new OLE frame. |
-| height | Height of a new OLE frame. |
-| className | Name of an OLE class. |
-| path | Path to the linked file. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which OLE object should be inserted. |
+| x | float | X coordinate of a new OLE frame. |
+| y | float | Y coordinate of a new OLE frame. |
+| width | float | Width of a new OLE frame. |
+| height | float | Height of a new OLE frame. |
+| className | String | Name of an OLE class. |
+| path | String | Path to the linked file. |
 
 ### Returns
 Created OLE object.

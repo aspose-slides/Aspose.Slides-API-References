@@ -7,7 +7,7 @@ weight: 230
 url: /php-java/mathblock/remove/
 ---
 
-## remove([BaseScript](../../BaseScript) item)  method
+## remove([BaseScript](../../basescript) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -23,9 +23,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -34,7 +34,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathAccent](../../MathAccent) item)  method
+## remove([MathAccent](../../mathaccent) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -50,9 +50,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -61,7 +61,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathArray](../../MathArray) item)  method
+## remove([MathArray](../../matharray) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -77,9 +77,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -88,7 +88,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathBar](../../MathBar) item)  method
+## remove([MathBar](../../mathbar) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -104,9 +104,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -115,7 +115,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathBlock](../../MathBlock) item)  method
+## remove([MathBlock](../../mathblock) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -131,9 +131,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -142,7 +142,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathBorderBox](../../MathBorderBox) item)  method
+## remove([MathBorderBox](../../mathborderbox) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -158,9 +158,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -169,7 +169,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathBox](../../MathBox) item)  method
+## remove([MathBox](../../mathbox) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -185,9 +185,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -196,7 +196,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathDelimiter](../../MathDelimiter) item)  method
+## remove([MathDelimiter](../../mathdelimiter) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -212,9 +212,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -223,7 +223,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathElementBase](../../MathElementBase) item)  method
+## remove([MathElementBase](../../mathelementbase) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -239,9 +239,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -250,7 +250,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathematicalText](../../MathematicalText) item)  method
+## remove([MathematicalText](../../mathematicaltext) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -266,9 +266,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -277,7 +277,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathFraction](../../MathFraction) item)  method
+## remove([MathFraction](../../mathfraction) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -293,9 +293,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -304,7 +304,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathFunction](../../MathFunction) item)  method
+## remove([MathFunction](../../mathfunction) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -320,9 +320,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -331,7 +331,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathGroupingCharacter](../../MathGroupingCharacter) item)  method
+## remove([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -347,9 +347,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -358,7 +358,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
+## remove([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -374,9 +374,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -385,7 +385,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathLimit](../../MathLimit) item)  method
+## remove([MathLimit](../../mathlimit) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -401,9 +401,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -412,7 +412,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathMatrix](../../MathMatrix) item)  method
+## remove([MathMatrix](../../mathmatrix) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -428,9 +428,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -439,7 +439,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathNaryOperator](../../MathNaryOperator) item)  method
+## remove([MathNaryOperator](../../mathnaryoperator) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -455,9 +455,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -466,7 +466,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathRadical](../../MathRadical) item)  method
+## remove([MathRadical](../../mathradical) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -482,9 +482,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -493,7 +493,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
+## remove([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -509,9 +509,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -520,7 +520,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathSubscriptElement](../../MathSubscriptElement) item)  method
+## remove([MathSubscriptElement](../../mathsubscriptelement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -536,9 +536,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
@@ -547,7 +547,7 @@ true if item was successfully removed from the collection; otherwise, false. Thi
 ---
 
 
-## remove([MathSuperscriptElement](../../MathSuperscriptElement) item)  method
+## remove([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -563,9 +563,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to remove from the collection. |
 
 ### Returns
 true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.

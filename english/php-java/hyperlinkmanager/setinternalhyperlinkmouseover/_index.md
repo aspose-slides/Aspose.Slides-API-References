@@ -7,16 +7,16 @@ weight: 70
 url: /php-java/hyperlinkmanager/setinternalhyperlinkmouseover/
 ---
 
-## setInternalHyperlinkMouseOver([Slide](../../Slide) targetSlide)  method
+## setInternalHyperlinkMouseOver([Slide](../../slide) targetSlide)  method
 
  Sets internal hyperlink mouse over.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| targetSlide | Target slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| targetSlide | Slide | Target slide. |
 
 ### Returns
 Hyperlink.

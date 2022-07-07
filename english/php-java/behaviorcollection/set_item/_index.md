@@ -7,136 +7,136 @@ weight: 140
 url: /php-java/behaviorcollection/set_item/
 ---
 
-## set_Item(int index, [Behavior](../../Behavior) value)  method
+## set_Item(int index, [Behavior](../../behavior) value)  method
 
  Sets a behavior at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 
 ---
 
 
-## set_Item(int index, [ColorEffect](../../ColorEffect) value)  method
+## set_Item(int index, [ColorEffect](../../coloreffect) value)  method
 
  Sets a behavior at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 
 ---
 
 
-## set_Item(int index, [CommandEffect](../../CommandEffect) value)  method
+## set_Item(int index, [CommandEffect](../../commandeffect) value)  method
 
  Sets a behavior at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 
 ---
 
 
-## set_Item(int index, [FilterEffect](../../FilterEffect) value)  method
+## set_Item(int index, [FilterEffect](../../filtereffect) value)  method
 
  Sets a behavior at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 
 ---
 
 
-## set_Item(int index, [MotionEffect](../../MotionEffect) value)  method
+## set_Item(int index, [MotionEffect](../../motioneffect) value)  method
 
  Sets a behavior at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 
 ---
 
 
-## set_Item(int index, [PropertyEffect](../../PropertyEffect) value)  method
+## set_Item(int index, [PropertyEffect](../../propertyeffect) value)  method
 
  Sets a behavior at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 
 ---
 
 
-## set_Item(int index, [RotationEffect](../../RotationEffect) value)  method
+## set_Item(int index, [RotationEffect](../../rotationeffect) value)  method
 
  Sets a behavior at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 
 ---
 
 
-## set_Item(int index, [ScaleEffect](../../ScaleEffect) value)  method
+## set_Item(int index, [ScaleEffect](../../scaleeffect) value)  method
 
  Sets a behavior at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 
 ---
 
 
-## set_Item(int index, [SetEffect](../../SetEffect) value)  method
+## set_Item(int index, [SetEffect](../../seteffect) value)  method
 
  Sets a behavior at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a behavior to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
 
 
 ---

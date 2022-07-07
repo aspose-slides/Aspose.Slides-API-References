@@ -14,10 +14,10 @@ url: /php-java/storage/put/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| key | Key for the value. |
-| value | Value. |
+| Name | Type | Description |
+| --- | --- | --- |
+| key | String | Key for the value. |
+| value | TValue | Value. |
 
 
 ---

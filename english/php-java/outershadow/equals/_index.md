@@ -14,9 +14,9 @@ url: /php-java/outershadow/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The OuterShadow to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The OuterShadow to compare. |
 
 ### Returns
 OuterShadow

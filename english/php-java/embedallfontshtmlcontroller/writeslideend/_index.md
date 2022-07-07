@@ -7,17 +7,17 @@ weight: 90
 url: /php-java/embedallfontshtmlcontroller/writeslideend/
 ---
 
-## writeSlideEnd([HtmlGenerator](../../HtmlGenerator) generator, [Slide](../../Slide) slide)  method
+## writeSlideEnd([HtmlGenerator](../../htmlgenerator) generator, [Slide](../../slide) slide)  method
 
  Called to write html slide footer. Called once per each of slides.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| generator | Output object. |
-| slide | Slide which being currently rendered. |
+| Name | Type | Description |
+| --- | --- | --- |
+| generator | HtmlGenerator | Output object. |
+| slide | Slide | Slide which being currently rendered. |
 
 
 ---

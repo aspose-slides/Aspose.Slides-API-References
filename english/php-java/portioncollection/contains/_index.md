@@ -7,16 +7,16 @@ weight: 30
 url: /php-java/portioncollection/contains/
 ---
 
-## contains([MathPortion](../../MathPortion) item)  method
+## contains([MathPortion](../../mathportion) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | MathPortion | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -25,16 +25,16 @@ IGenericCollection
 ---
 
 
-## contains([Portion](../../Portion) item)  method
+## contains([Portion](../../portion) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | MathPortion | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection

@@ -14,9 +14,9 @@ url: /php-java/smartartnodecollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index of the element |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the element |
 
 ### Returns
 The SmartArt node

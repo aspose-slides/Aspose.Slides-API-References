@@ -28,5 +28,5 @@ url: /php-java/texttohtmlconversionoptions/
 | [getTextInheritanceLimit](gettextinheritancelimit)() | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
 | [setAddClipboardFragmentHeader](setaddclipboardfragmentheader)(boolean) | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
 | [setEncodingName](setencodingname)(String) | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
-| [setLinkEmbedController](setlinkembedcontroller)([VideoPlayerHtmlController](../VideoPlayerHtmlController)) | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
+| [setLinkEmbedController](setlinkembedcontroller)([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
 | [setTextInheritanceLimit](settextinheritancelimit)(int) | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |

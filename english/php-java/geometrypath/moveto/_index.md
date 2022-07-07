@@ -14,9 +14,9 @@ url: /php-java/geometrypath/moveto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| point | Point position |
+| Name | Type | Description |
+| --- | --- | --- |
+| point | Point2D.Float | Point position |
 
 
 ---
@@ -29,10 +29,10 @@ url: /php-java/geometrypath/moveto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of the point |
-| y | Y Coordinate of the point |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of the point |
+| y | float | Y Coordinate of the point |
 
 
 ---

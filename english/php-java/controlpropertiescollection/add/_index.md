@@ -14,10 +14,10 @@ url: /php-java/controlpropertiescollection/add/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | The name of the property. |
-| value | The alue of the property. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the property. |
+| value | String | The alue of the property. |
 
 
 ---

@@ -26,10 +26,10 @@ Array of Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| startIndex | An index of a first shape to return. |
-| count | A number of shapes to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| startIndex | int | An index of a first shape to return. |
+| count | int | A number of shapes to return. |
 
 ### Returns
 Array of Shape

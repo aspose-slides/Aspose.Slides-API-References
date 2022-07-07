@@ -7,16 +7,16 @@ weight: 130
 url: /php-java/chartcategorycollection/remove/
 ---
 
-## remove([ChartCategory](../../ChartCategory) value)  method
+## remove([ChartCategory](../../chartcategory) value)  method
 
  Removes the specified value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The value. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | ChartCategory | The value. |
 
 ### Exception
 

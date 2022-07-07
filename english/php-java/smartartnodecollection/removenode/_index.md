@@ -14,9 +14,9 @@ url: /php-java/smartartnodecollection/removenode/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Zero-based index of node |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of node |
 
 ### Exception
 
@@ -28,16 +28,16 @@ url: /php-java/smartartnodecollection/removenode/
 ---
 
 
-## removeNode([SmartArtNode](../../SmartArtNode) node)  method
+## removeNode([SmartArtNode](../../smartartnode) node)  method
 
  Remove node or sub node
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| node | Node to remove |
+| Name | Type | Description |
+| --- | --- | --- |
+| node | SmartArtNode | Node to remove |
 
 
 ---

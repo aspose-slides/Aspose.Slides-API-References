@@ -14,10 +14,10 @@ url: /php-java/htmlexternalresolver/resolveuri/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| baseUri | Base URI of linking objects |
-| relativeUri | Relative URI to the linked object. |
+| Name | Type | Description |
+| --- | --- | --- |
+| baseUri | String | Base URI of linking objects |
+| relativeUri | String | Relative URI to the linked object. |
 
 ### Returns
 Absolute URI or null if the relative URI cannot be resolved.

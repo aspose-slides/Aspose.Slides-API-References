@@ -14,9 +14,9 @@ url: /php-java/colorchange/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The ColorChange to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The ColorChange to compare. |
 
 ### Returns
 ColorChange

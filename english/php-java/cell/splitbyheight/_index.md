@@ -14,9 +14,9 @@ url: /php-java/cell/splitbyheight/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| height | Height of a row. |
+| Name | Type | Description |
+| --- | --- | --- |
+| height | double | Height of a row. |
 
 
 ---

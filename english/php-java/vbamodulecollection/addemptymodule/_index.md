@@ -14,9 +14,9 @@ url: /php-java/vbamodulecollection/addemptymodule/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the module |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the module |
 
 ### Returns
 Added module.

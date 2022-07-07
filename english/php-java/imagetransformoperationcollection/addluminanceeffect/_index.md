@@ -14,10 +14,10 @@ url: /php-java/imagetransformoperationcollection/addluminanceeffect/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| brightness | The percent to change the brightness. |
-| contrast | The percent to change the contrast. |
+| Name | Type | Description |
+| --- | --- | --- |
+| brightness | float | The percent to change the brightness. |
+| contrast | float | The percent to change the contrast. |
 
 ### Returns
 Index of the new image effect in a collection.

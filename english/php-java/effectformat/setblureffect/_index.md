@@ -7,7 +7,7 @@ weight: 260
 url: /php-java/effectformat/setblureffect/
 ---
 
-## setBlurEffect([Blur](../../Blur) value)  method
+## setBlurEffect([Blur](../../blur) value)  method
 
  Blur effect.
  Read/write  IBlur.
@@ -27,10 +27,10 @@ IBlur
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| radius | Radius. |
-| grow | Grow. |
+| Name | Type | Description |
+| --- | --- | --- |
+| radius | double | Radius. |
+| grow | boolean | Grow. |
 
 
 ---

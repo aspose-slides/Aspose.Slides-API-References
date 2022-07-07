@@ -15,14 +15,14 @@ url: /php-java/shapecollection/insertconnector/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
-| shapeType | An ShapeType of shape. |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| width | The width of shape's frame. |
-| height | The height of shape's frame. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which value should be inserted. |
+| shapeType | int | An ShapeType of shape. |
+| x | float | The X-coordinate for a left side of shape's frame. |
+| y | float | The Y-coordinate for a top side of shape's frame. |
+| width | float | The width of shape's frame. |
+| height | float | The height of shape's frame. |
 
 ### Returns
 Created Connector object.
@@ -38,15 +38,15 @@ Created Connector object.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
-| shapeType | An ShapeType of shape. |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| width | The width of shape's frame. |
-| height | The height of shape's frame. |
-| createFromTemplate | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which value should be inserted. |
+| shapeType | int | An ShapeType of shape. |
+| x | float | The X-coordinate for a left side of shape's frame. |
+| y | float | The Y-coordinate for a top side of shape's frame. |
+| width | float | The width of shape's frame. |
+| height | float | The height of shape's frame. |
+| createFromTemplate | boolean | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
 
 ### Returns
 Created Connector object.

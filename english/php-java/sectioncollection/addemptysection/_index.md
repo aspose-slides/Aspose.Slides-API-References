@@ -14,10 +14,10 @@ url: /php-java/sectioncollection/addemptysection/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the section |
-| index | Index of new section. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the section |
+| index | int | Index of new section. |
 
 ### Returns
 Added section.

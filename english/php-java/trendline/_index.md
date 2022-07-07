@@ -36,7 +36,7 @@ url: /php-java/trendline/
 | [setBackward](setbackward)(double) | Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Read/write double. |
 | [setDisplayEquation](setdisplayequation)(boolean) | Specifies that the equation for the trendline is displayed on the chart (in the same label as the Rsquaredvalue). Read/write boolean. |
 | [setDisplayRSquaredValue](setdisplayrsquaredvalue)(boolean) | Specifies that the R-squared value of the trendline is displayed on the chart (in the same label as the equation). Read/write boolean. |
-| [setFormat](setformat)([Format](../Format)) | Represents the format of the trend line. Read/write IFormat. |
+| [setFormat](setformat)([Format](../format)) | Represents the format of the trend line. Read/write IFormat. |
 | [setForward](setforward)(double) | Specifies the number of categories (or units on a scatter chart) that the trendline extends after the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any non-negative value. Read/write double. |
 | [setIntercept](setintercept)(double) | Specifies the value where the trendline shall cross the y axis. This property shall be supported only when the trendline type is exp, linear, or poly. Read/write double. |
 | [setOrder](setorder)(byte) | Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |

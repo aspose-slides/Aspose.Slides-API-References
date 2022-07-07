@@ -15,9 +15,9 @@ url: /php-java/presentationheaderfootermanager/setallfootersvisibility/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| isVisible | true - makes a footer placeholders visible, otherwise - hides them. |
+| Name | Type | Description |
+| --- | --- | --- |
+| isVisible | boolean | true - makes a footer placeholders visible, otherwise - hides them. |
 
 
 ---

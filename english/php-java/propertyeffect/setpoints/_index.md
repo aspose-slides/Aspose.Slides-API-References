@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/propertyeffect/setpoints/
 ---
 
-## setPoints([PointCollection](../../PointCollection) value)  method
+## setPoints([PointCollection](../../pointcollection) value)  method
 
  Specifies the points of the animation.
  Read/write  IPointCollection.

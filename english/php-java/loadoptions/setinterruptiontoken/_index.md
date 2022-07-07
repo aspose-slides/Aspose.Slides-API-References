@@ -7,7 +7,7 @@ weight: 200
 url: /php-java/loadoptions/setinterruptiontoken/
 ---
 
-## setInterruptionToken([InterruptionToken](../../InterruptionToken) value)  method
+## setInterruptionToken([InterruptionToken](../../interruptiontoken) value)  method
 
  The token to monitor for interruption requests.
  

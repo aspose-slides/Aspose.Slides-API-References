@@ -14,9 +14,9 @@ url: /php-java/alphareplace/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The AlphaReplace to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaReplace to compare. |
 
 ### Returns
 AlphaReplace

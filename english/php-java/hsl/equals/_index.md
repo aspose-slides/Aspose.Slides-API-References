@@ -14,9 +14,9 @@ url: /php-java/hsl/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The HSL to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The HSL to compare. |
 
 ### Returns
 HSL

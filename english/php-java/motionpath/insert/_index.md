@@ -14,13 +14,13 @@ url: /php-java/motionpath/insert/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which item should be inserted. |
-| type | MotionCommandPathType |
-| pts | Array of points |
-| ptsType | MotionPathPointsType |
-| bRelativeCoord | Relative coordinates boolean |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which item should be inserted. |
+| type | int | MotionCommandPathType |
+| pts | java.awt.geom.Point2D.Float[] | Array of points |
+| ptsType | int | MotionPathPointsType |
+| bRelativeCoord | boolean | Relative coordinates boolean |
 
 
 ---

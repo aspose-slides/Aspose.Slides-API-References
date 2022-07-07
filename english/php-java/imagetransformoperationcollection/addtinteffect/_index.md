@@ -14,10 +14,10 @@ url: /php-java/imagetransformoperationcollection/addtinteffect/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| hue | The hue towards which to tint. |
-| amount | Specifies by how much the color value is shifted. |
+| Name | Type | Description |
+| --- | --- | --- |
+| hue | float | The hue towards which to tint. |
+| amount | float | Specifies by how much the color value is shifted. |
 
 ### Returns
 Index of the new image effect in a collection.

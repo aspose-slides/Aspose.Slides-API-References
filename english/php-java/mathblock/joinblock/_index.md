@@ -7,7 +7,7 @@ weight: 220
 url: /php-java/mathblock/joinblock/
 ---
 
-## joinBlock([MathBlock](../../MathBlock) other)  method
+## joinBlock([MathBlock](../../mathblock) other)  method
 
  Joins another mathematical block with this one 
  
@@ -21,9 +21,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| other | The joining block |
+| Name | Type | Description |
+| --- | --- | --- |
+| other | MathBlock | The joining block |
 
 ### Returns
 this mathematical block after joining

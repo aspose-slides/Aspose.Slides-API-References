@@ -7,136 +7,136 @@ weight: 120
 url: /php-java/behaviorcollection/remove/
 ---
 
-## remove([Behavior](../../Behavior) item)  method
+## remove([Behavior](../../behavior) item)  method
 
  Removes specified behavior from a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to remove. |
 
 
 ---
 
 
-## remove([ColorEffect](../../ColorEffect) item)  method
+## remove([ColorEffect](../../coloreffect) item)  method
 
  Removes specified behavior from a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to remove. |
 
 
 ---
 
 
-## remove([CommandEffect](../../CommandEffect) item)  method
+## remove([CommandEffect](../../commandeffect) item)  method
 
  Removes specified behavior from a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to remove. |
 
 
 ---
 
 
-## remove([FilterEffect](../../FilterEffect) item)  method
+## remove([FilterEffect](../../filtereffect) item)  method
 
  Removes specified behavior from a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to remove. |
 
 
 ---
 
 
-## remove([MotionEffect](../../MotionEffect) item)  method
+## remove([MotionEffect](../../motioneffect) item)  method
 
  Removes specified behavior from a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to remove. |
 
 
 ---
 
 
-## remove([PropertyEffect](../../PropertyEffect) item)  method
+## remove([PropertyEffect](../../propertyeffect) item)  method
 
  Removes specified behavior from a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to remove. |
 
 
 ---
 
 
-## remove([RotationEffect](../../RotationEffect) item)  method
+## remove([RotationEffect](../../rotationeffect) item)  method
 
  Removes specified behavior from a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to remove. |
 
 
 ---
 
 
-## remove([ScaleEffect](../../ScaleEffect) item)  method
+## remove([ScaleEffect](../../scaleeffect) item)  method
 
  Removes specified behavior from a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to remove. |
 
 
 ---
 
 
-## remove([SetEffect](../../SetEffect) item)  method
+## remove([SetEffect](../../seteffect) item)  method
 
  Removes specified behavior from a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to remove. |
 
 
 ---

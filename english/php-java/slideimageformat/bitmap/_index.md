@@ -14,10 +14,10 @@ url: /php-java/slideimageformat/bitmap/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| scale | Image scale factor. |
-| imgFormat | Image format. |
+| Name | Type | Description |
+| --- | --- | --- |
+| scale | float | Image scale factor. |
+| imgFormat | String | Image format. |
 
 ### Returns
 The SlideImageFormat object.

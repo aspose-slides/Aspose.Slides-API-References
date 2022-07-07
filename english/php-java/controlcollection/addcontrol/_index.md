@@ -14,13 +14,13 @@ url: /php-java/controlcollection/addcontrol/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| controlType | Type of a control to add. |
-| x | The X-coordinate for a left side of shape's frame. |
-| y | The Y-coordinate for a top side of shape's frame. |
-| width | The width of shape's frame. |
-| height | The height of shape's frame. |
+| Name | Type | Description |
+| --- | --- | --- |
+| controlType | int | Type of a control to add. |
+| x | float | The X-coordinate for a left side of shape's frame. |
+| y | float | The Y-coordinate for a top side of shape's frame. |
+| width | float | The width of shape's frame. |
+| height | float | The height of shape's frame. |
 
 ### Returns
 Created control.

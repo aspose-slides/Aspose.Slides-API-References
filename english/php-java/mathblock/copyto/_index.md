@@ -24,10 +24,10 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| array | Array to copy to. |
-| arrayIndex | Index to begin copying. |
+| Name | Type | Description |
+| --- | --- | --- |
+| array | com.aspose.slides.IMathElement[] | Array to copy to. |
+| arrayIndex | int | Index to begin copying. |
 
 
 ---

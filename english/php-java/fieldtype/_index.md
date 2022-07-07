@@ -43,6 +43,6 @@ url: /php-java/fieldtype/
 | [getInternalString](getinternalstring)() | Returns the internal name of this FieldType object. Read/write String. |
 | [getSlideNumber](getslidenumber)() | Current slide's number. Read-only FieldType. |
 | [hashCode](hashcode)() | Returns hashcode for this object. |
-| [op_Equality](op_equality)([FieldType](../FieldType), [FieldType](../FieldType)) | Checks if two FieldType objects is equal. |
-| [op_Inequality](op_inequality)([FieldType](../FieldType), [FieldType](../FieldType)) | Checks if two FieldType objects is inequal. |
+| [op_Equality](op_equality)([FieldType](../fieldtype), [FieldType](../fieldtype)) | Checks if two FieldType objects is equal. |
+| [op_Inequality](op_inequality)([FieldType](../fieldtype), [FieldType](../fieldtype)) | Checks if two FieldType objects is inequal. |
 | [setInternalString](setinternalstring)(String) | Returns the internal name of this FieldType object. Read/write String. |

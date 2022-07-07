@@ -14,9 +14,9 @@ url: /php-java/sequencecollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a sequence that should be deleted. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a sequence that should be deleted. |
 
 
 ---

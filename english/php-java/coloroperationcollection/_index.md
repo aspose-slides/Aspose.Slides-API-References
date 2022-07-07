@@ -29,5 +29,5 @@ url: /php-java/coloroperationcollection/
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
 | [removeAt](removeat)(int) | Removes the color operation from a collection. |
-| [set_Item](set_item)(int, [ColorOperation](../ColorOperation)) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
+| [set_Item](set_item)(int, [ColorOperation](../coloroperation)) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
 | [size](size)() | Returns the number of operations in a collection. Read-only int. |

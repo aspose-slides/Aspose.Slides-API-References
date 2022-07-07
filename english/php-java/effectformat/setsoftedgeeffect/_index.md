@@ -7,7 +7,7 @@ weight: 340
 url: /php-java/effectformat/setsoftedgeeffect/
 ---
 
-## setSoftEdgeEffect([SoftEdge](../../SoftEdge) value)  method
+## setSoftEdgeEffect([SoftEdge](../../softedge) value)  method
 
  Soft edge.
  Read/write  ISoftEdge.

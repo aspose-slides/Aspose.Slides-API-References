@@ -20,20 +20,20 @@ Created GroupShape object.
 ---
 
 
-## addGroupShape([SvgImage](../../SvgImage) svgImage, float x, float y, float width, float height)  method
+## addGroupShape([SvgImage](../../svgimage) svgImage, float x, float y, float width, float height)  method
 
  Creates a new GroupShape, fills it with converted shapes from SVG and adds it to the end of the collection. 
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| svgImage | Svg image object ISvgImage |
-| x | The X coordinate for the left side of the shape group frame. |
-| y | The Y coordinate for the top side of the shape group frame. |
-| width | The width of the group of the shape group frame. |
-| height | The height of a group of the shape group frame. |
+| Name | Type | Description |
+| --- | --- | --- |
+| svgImage | SvgImage | Svg image object ISvgImage |
+| x | float | The X coordinate for the left side of the shape group frame. |
+| y | float | The Y coordinate for the top side of the shape group frame. |
+| width | float | The width of the group of the shape group frame. |
+| height | float | The height of a group of the shape group frame. |
 
 ### Returns
 Created GroupShape object.

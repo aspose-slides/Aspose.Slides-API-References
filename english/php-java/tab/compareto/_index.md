@@ -14,9 +14,9 @@ url: /php-java/tab/compareto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | An object to compare with this instance. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | An object to compare with this instance. |
 
 ### Returns
 A 32-bit integer that indicates the relative order of the comparands. The return value has these meanings: {@code &lt; 0 - This instance is less than obj. = 0 - This instance is equal to obj. &gt; 0 - This instance is greater than obj. }

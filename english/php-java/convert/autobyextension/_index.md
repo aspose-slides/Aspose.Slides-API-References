@@ -19,10 +19,10 @@ url: /php-java/convert/autobyextension/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| presPath | Path of the input presentation |
-| outPath | Output path |
+| Name | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| outPath | String | Output path |
 
 ### Returns
 Presentation

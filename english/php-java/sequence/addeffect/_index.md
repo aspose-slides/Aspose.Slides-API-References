@@ -7,19 +7,19 @@ weight: 10
 url: /php-java/sequence/addeffect/
 ---
 
-## addEffect([AudioFrame](../../AudioFrame) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([AudioFrame](../../audioframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -28,19 +28,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([AutoShape](../../AutoShape) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([AutoShape](../../autoshape) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -49,19 +49,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([Chart](../../Chart) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([Chart](../../chart) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -70,19 +70,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([Connector](../../Connector) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([Connector](../../connector) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -91,19 +91,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([GeometryShape](../../GeometryShape) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([GeometryShape](../../geometryshape) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -112,19 +112,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([GraphicalObject](../../GraphicalObject) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([GraphicalObject](../../graphicalobject) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -133,19 +133,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([GroupShape](../../GroupShape) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([GroupShape](../../groupshape) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -154,19 +154,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([Ink](../../Ink) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([Ink](../../ink) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -175,19 +175,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([LegacyDiagram](../../LegacyDiagram) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([LegacyDiagram](../../legacydiagram) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -196,19 +196,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([OleObjectFrame](../../OleObjectFrame) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([OleObjectFrame](../../oleobjectframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -217,19 +217,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([PictureFrame](../../PictureFrame) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([PictureFrame](../../pictureframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -238,19 +238,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([SectionZoomFrame](../../SectionZoomFrame) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SectionZoomFrame](../../sectionzoomframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -259,19 +259,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([Shape](../../Shape) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([Shape](../../shape) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -280,19 +280,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([SmartArt](../../SmartArt) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SmartArt](../../smartart) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -301,19 +301,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([SmartArtShape](../../SmartArtShape) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SmartArtShape](../../smartartshape) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -322,19 +322,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([SummaryZoomFrame](../../SummaryZoomFrame) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SummaryZoomFrame](../../summaryzoomframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -343,19 +343,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([SummaryZoomSection](../../SummaryZoomSection) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SummaryZoomSection](../../summaryzoomsection) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -364,19 +364,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([Table](../../Table) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([Table](../../table) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -385,19 +385,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([VideoFrame](../../VideoFrame) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([VideoFrame](../../videoframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -406,19 +406,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([ZoomFrame](../../ZoomFrame) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([ZoomFrame](../../zoomframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -427,19 +427,19 @@ New effect object IEffect
 ---
 
 
-## addEffect([ZoomObject](../../ZoomObject) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([ZoomObject](../../zoomobject) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | Shape object IShape for adding an effect |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | Shape object IShape for adding an effect |
+| effectType | AutoShape | Type of an animation effect EffectType |
+| subtype | Chart | Subtypes of animation effect EffectSubtype |
+| triggerType | Connector | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -448,7 +448,7 @@ New effect object IEffect
 ---
 
 
-## addEffect([Paragraph](../../Paragraph) paragraph, int effectType, int subtype, int triggerType)  method
+## addEffect([Paragraph](../../paragraph) paragraph, int effectType, int subtype, int triggerType)  method
 
   Add new animation effect for paragraph to the end of sequence.
   
@@ -471,12 +471,12 @@ New effect object IEffect
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| paragraph | Paragraph object IParagraph |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| paragraph | Paragraph | Paragraph object IParagraph |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -485,21 +485,21 @@ New effect object IEffect
 ---
 
 
-## addEffect([Chart](../../Chart) chart, int type, int index, int effectType, int subtype, int triggerType)  method
+## addEffect([Chart](../../chart) chart, int type, int index, int effectType, int subtype, int triggerType)  method
 
  Adds the new chart animation effect for category or series to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| chart | Chart object IChart |
-| type | Type of an animation effect EffectChartMinorGroupingType |
-| index | Index int |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| chart | Chart | Chart object IChart |
+| type | int | Type of an animation effect EffectChartMinorGroupingType |
+| index | int | Index int |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect
@@ -508,22 +508,22 @@ New effect object IEffect
 ---
 
 
-## addEffect([Chart](../../Chart) chart, int type, int seriesIndex, int categoriesIndex, int effectType, int subtype, int triggerType)  method
+## addEffect([Chart](../../chart) chart, int type, int seriesIndex, int categoriesIndex, int effectType, int subtype, int triggerType)  method
 
  Adds the new chart animation effect for elements in category or series to the end of sequence.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| chart | Chart object IChart |
-| type | Type of an animation effect EffectChartMinorGroupingType |
-| seriesIndex | Index of chart series int |
-| categoriesIndex | Index of category int |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| chart | Chart | Chart object IChart |
+| type | int | Type of an animation effect EffectChartMinorGroupingType |
+| seriesIndex | int | Index of chart series int |
+| categoriesIndex | int | Index of category int |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect

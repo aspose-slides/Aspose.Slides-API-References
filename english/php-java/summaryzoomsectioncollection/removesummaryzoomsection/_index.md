@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/summaryzoomsectioncollection/removesummaryzoomsection/
 ---
 
-## removeSummaryZoomSection([Section](../../Section) section)  method
+## removeSummaryZoomSection([Section](../../section) section)  method
 
  Remove Summary Zoom Section object from the collection.
  
@@ -28,9 +28,9 @@ The example demonstrates getting Summary Zoom Section element by index:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| section | Section for which the Summary Zoom Section element is to be removed ISection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| section | Section | Section for which the Summary Zoom Section element is to be removed ISection. |
 
 
 ---

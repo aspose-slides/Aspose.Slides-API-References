@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/mathparagraph/contains/
 ---
 
-## contains([MathBlock](../../MathBlock) mathBlock)  method
+## contains([MathBlock](../../mathblock) mathBlock)  method
 
  Determines whether the collection contains a specific value.
  
@@ -23,9 +23,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| mathBlock | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| mathBlock | MathBlock | The object to locate in the collection. |
 
 ### Returns
 true if mathBlock is found in the collection; otherwise, false.

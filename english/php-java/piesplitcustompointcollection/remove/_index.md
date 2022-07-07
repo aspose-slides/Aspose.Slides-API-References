@@ -14,9 +14,9 @@ url: /php-java/piesplitcustompointcollection/remove/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| dataPointIndex | Index of data point in parent series points collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| dataPointIndex | int | Index of data point in parent series points collection. |
 
 
 ---

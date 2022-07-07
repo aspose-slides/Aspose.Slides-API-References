@@ -16,7 +16,7 @@ url: /php-java/digitalsignaturecollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)([DigitalSignature](../DigitalSignature)) | Adds the signature at the end of collection. |
+| [add](add)([DigitalSignature](../digitalsignature)) | Adds the signature at the end of collection. |
 | [clear](clear)() | Removes all signatures from collection. |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
 | [get_Item](get_item)(int) | Returns the signature by index. |

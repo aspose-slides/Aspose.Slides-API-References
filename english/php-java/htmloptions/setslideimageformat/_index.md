@@ -7,7 +7,7 @@ weight: 160
 url: /php-java/htmloptions/setslideimageformat/
 ---
 
-## setSlideImageFormat([SlideImageFormat](../../SlideImageFormat) value)  method
+## setSlideImageFormat([SlideImageFormat](../../slideimageformat) value)  method
 
  Returns or sets slide image format options.
  Read/write  ISlideImageFormat.

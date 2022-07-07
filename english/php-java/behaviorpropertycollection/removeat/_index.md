@@ -14,9 +14,9 @@ url: /php-java/behaviorpropertycollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of the property which should be deleted. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the property which should be deleted. |
 
 
 ---

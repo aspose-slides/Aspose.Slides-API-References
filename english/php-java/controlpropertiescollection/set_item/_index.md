@@ -14,9 +14,9 @@ url: /php-java/controlpropertiescollection/set_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of property. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of property. |
 
 
 ---

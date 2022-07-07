@@ -20,10 +20,10 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| columnIndex | Zero-based column index |
-| val | New value of horizontal alignment of specified column |
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Zero-based column index |
+| val | int | New value of horizontal alignment of specified column |
 
 
 ---

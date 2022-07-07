@@ -7,7 +7,7 @@ weight: 170
 url: /php-java/bulletformat/setfont/
 ---
 
-## setFont([FontData](../../FontData) value)  method
+## setFont([FontData](../../fontdata) value)  method
 
  Returns or sets the bullet font of a paragraph with no inheritance.
  Read/write  IFontData.

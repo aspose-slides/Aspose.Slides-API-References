@@ -14,9 +14,9 @@ url: /php-java/smartartnodecollection/addnodebyposition/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| position | Zero-base node position |
+| Name | Type | Description |
+| --- | --- | --- |
+| position | int | Zero-base node position |
 
 ### Returns
 Added node

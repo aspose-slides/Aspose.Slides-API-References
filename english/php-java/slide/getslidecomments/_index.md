@@ -7,16 +7,16 @@ weight: 60
 url: /php-java/slide/getslidecomments/
 ---
 
-## getSlideComments([CommentAuthor](../../CommentAuthor) author)  method
+## getSlideComments([CommentAuthor](../../commentauthor) author)  method
 
  Returns all slide comments added by specific author.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| author | Author of comments to find or null to return all comments. |
+| Name | Type | Description |
+| --- | --- | --- |
+| author | CommentAuthor | Author of comments to find or null to return all comments. |
 
 ### Returns
 Array of Comment.

@@ -14,10 +14,10 @@ url: /php-java/columncollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| firstColumnIndex | Index of a column to delete. |
-| withAttachedRows | True to delete also all attached columns. |
+| Name | Type | Description |
+| --- | --- | --- |
+| firstColumnIndex | int | Index of a column to delete. |
+| withAttachedRows | boolean | True to delete also all attached columns. |
 
 
 ---

@@ -14,25 +14,25 @@ url: /php-java/slide/writeassvg/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Target stream |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Target stream |
 
 
 ---
 
 
-## writeAsSvg(OutputStream stream, [SVGOptions](../../SVGOptions) svgOptions)  method
+## writeAsSvg(OutputStream stream, [SVGOptions](../../svgoptions) svgOptions)  method
 
  Saves content of slide as SVG file.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Target stream |
-| svgOptions | SVG generation options |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Target stream |
+| svgOptions | SVGOptions | SVG generation options |
 
 
 ---

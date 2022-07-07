@@ -14,9 +14,9 @@ url: /php-java/geometrypath/lineto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| point | End point of the line |
+| Name | Type | Description |
+| --- | --- | --- |
+| point | Point2D.Float | End point of the line |
 
 
 ---
@@ -29,10 +29,10 @@ url: /php-java/geometrypath/lineto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of the end point of the line |
-| y | Y coordinate of the end point of the line |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of the end point of the line |
+| y | float | Y coordinate of the end point of the line |
 
 
 ---
@@ -45,10 +45,10 @@ url: /php-java/geometrypath/lineto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| point | End point |
-| index | Index of segment in PathData |
+| Name | Type | Description |
+| --- | --- | --- |
+| point | Point2D.Float | End point |
+| index | long | Index of segment in PathData |
 
 ### Exception
 
@@ -67,11 +67,11 @@ url: /php-java/geometrypath/lineto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of the point |
-| y | Y coordinate of the point |
-| index | Index of segment in PathData |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of the point |
+| y | float | Y coordinate of the point |
+| index | long | Index of segment in PathData |
 
 ### Exception
 

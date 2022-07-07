@@ -14,11 +14,11 @@ url: /php-java/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| path | Path. |
-| fileName | File name. |
-| baseUri | Base URI. |
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Path. |
+| fileName | String | File name. |
+| baseUri | String | Base URI. |
 
 ### Returns
 VideoPlayerHtmlController

@@ -7,7 +7,7 @@ weight: 120
 url: /php-java/htmloptions/sethtmlformatter/
 ---
 
-## setHtmlFormatter([HtmlFormatter](../../HtmlFormatter) value)  method
+## setHtmlFormatter([HtmlFormatter](../../htmlformatter) value)  method
 
  Returns or sets HTML template.
  Read/write  IHtmlFormatter.

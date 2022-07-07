@@ -7,32 +7,32 @@ weight: 80
 url: /php-java/fontsmanager/replacefont/
 ---
 
-## replaceFont([FontData](../../FontData) sourceFont, [FontData](../../FontData) destFont)  method
+## replaceFont([FontData](../../fontdata) sourceFont, [FontData](../../fontdata) destFont)  method
 
  Replace font in presentation
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceFont | Source font |
-| destFont | Destination font |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceFont | FontData | Source font |
+| destFont | FontData | Destination font |
 
 
 ---
 
 
-## replaceFont([FontSubstRule](../../FontSubstRule) substRule)  method
+## replaceFont([FontSubstRule](../../fontsubstrule) substRule)  method
 
  Replace font in presentation using information provided in  FontSubstRule
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| substRule | Font substitution info |
+| Name | Type | Description |
+| --- | --- | --- |
+| substRule | FontSubstRule | Font substitution info |
 
 ### Returns
 FontSubstRule
@@ -41,16 +41,16 @@ FontSubstRule
 ---
 
 
-## replaceFont([FontSubstRuleCollection](../../FontSubstRuleCollection) substRules)  method
+## replaceFont([FontSubstRuleCollection](../../fontsubstrulecollection) substRules)  method
 
  Replace font in presentation using information provided in collection of  FontSubstRule
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| substRules | Font substitution rules collection |
+| Name | Type | Description |
+| --- | --- | --- |
+| substRules | FontSubstRuleCollection | Font substitution rules collection |
 
 ### Returns
 FontSubstRule

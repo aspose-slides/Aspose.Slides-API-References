@@ -14,12 +14,12 @@ url: /php-java/geometrypath/arcto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| width | Width of the rectangle |
-| heigth | Height of the rectangle |
-| startAngle | Start angle. |
-| sweepAngle | Sweep angle/ |
+| Name | Type | Description |
+| --- | --- | --- |
+| width | float | Width of the rectangle |
+| heigth | float | Height of the rectangle |
+| startAngle | float | Start angle. |
+| sweepAngle | float | Sweep angle/ |
 
 
 ---

@@ -14,10 +14,10 @@ url: /php-java/imagetransformoperationcollection/addblureffect/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| radius | The radius of blur. |
-| grow | Specifies whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. |
+| Name | Type | Description |
+| --- | --- | --- |
+| radius | double | The radius of blur. |
+| grow | boolean | Specifies whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. |
 
 ### Returns
 Index of the new image effect in a collection.

@@ -24,9 +24,9 @@ url: /php-java/fontfallbackrule/addfallbackfonts/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fontName | Font's name or names (delimited by comma) for FallBack |
+| Name | Type | Description |
+| --- | --- | --- |
+| fontName | String | Font's name or names (delimited by comma) for FallBack |
 
 
 ---
@@ -47,9 +47,9 @@ url: /php-java/fontfallbackrule/addfallbackfonts/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fontNames | Font's name or names (delimited by comma) for FallBack |
+| Name | Type | Description |
+| --- | --- | --- |
+| fontNames | java.lang.String[] | Font's name or names (delimited by comma) for FallBack |
 
 
 ---

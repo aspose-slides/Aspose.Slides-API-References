@@ -14,9 +14,9 @@ url: /php-java/alphamodulatefixed/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The AlphaModulateFixed to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaModulateFixed to compare. |
 
 ### Returns
 AlphaModulateFixed

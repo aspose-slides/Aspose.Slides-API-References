@@ -14,9 +14,9 @@ url: /php-java/output/getresourcepath/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | Resource object. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | Resource object. |
 
 ### Returns
 Resource path.

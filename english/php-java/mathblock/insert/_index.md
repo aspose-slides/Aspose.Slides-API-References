@@ -7,7 +7,7 @@ weight: 160
 url: /php-java/mathblock/insert/
 ---
 
-## insert(int index, [BaseScript](../../BaseScript) item)  method
+## insert(int index, [BaseScript](../../basescript) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -22,16 +22,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathAccent](../../MathAccent) item)  method
+## insert(int index, [MathAccent](../../mathaccent) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -46,16 +46,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathArray](../../MathArray) item)  method
+## insert(int index, [MathArray](../../matharray) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -70,16 +70,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathBar](../../MathBar) item)  method
+## insert(int index, [MathBar](../../mathbar) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -94,16 +94,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathBlock](../../MathBlock) item)  method
+## insert(int index, [MathBlock](../../mathblock) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -118,16 +118,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathBorderBox](../../MathBorderBox) item)  method
+## insert(int index, [MathBorderBox](../../mathborderbox) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -142,16 +142,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathBox](../../MathBox) item)  method
+## insert(int index, [MathBox](../../mathbox) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -166,16 +166,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathDelimiter](../../MathDelimiter) item)  method
+## insert(int index, [MathDelimiter](../../mathdelimiter) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -190,16 +190,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathElementBase](../../MathElementBase) item)  method
+## insert(int index, [MathElementBase](../../mathelementbase) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -214,16 +214,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathematicalText](../../MathematicalText) item)  method
+## insert(int index, [MathematicalText](../../mathematicaltext) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -238,16 +238,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathFraction](../../MathFraction) item)  method
+## insert(int index, [MathFraction](../../mathfraction) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -262,16 +262,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathFunction](../../MathFunction) item)  method
+## insert(int index, [MathFunction](../../mathfunction) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -286,16 +286,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathGroupingCharacter](../../MathGroupingCharacter) item)  method
+## insert(int index, [MathGroupingCharacter](../../mathgroupingcharacter) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -310,16 +310,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
+## insert(int index, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -334,16 +334,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathLimit](../../MathLimit) item)  method
+## insert(int index, [MathLimit](../../mathlimit) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -358,16 +358,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathMatrix](../../MathMatrix) item)  method
+## insert(int index, [MathMatrix](../../mathmatrix) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -382,16 +382,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathNaryOperator](../../MathNaryOperator) item)  method
+## insert(int index, [MathNaryOperator](../../mathnaryoperator) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -406,16 +406,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathRadical](../../MathRadical) item)  method
+## insert(int index, [MathRadical](../../mathradical) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -430,16 +430,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
+## insert(int index, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -454,16 +454,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathSubscriptElement](../../MathSubscriptElement) item)  method
+## insert(int index, [MathSubscriptElement](../../mathsubscriptelement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -478,16 +478,16 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---
 
 
-## insert(int index, [MathSuperscriptElement](../../MathSuperscriptElement) item)  method
+## insert(int index, [MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -502,10 +502,10 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which MathElement should be inserted. |
-| item | The MathElement to insert. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | BaseScript | The MathElement to insert. |
 
 
 ---

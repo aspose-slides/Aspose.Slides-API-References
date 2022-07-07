@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/responsivehtmlcontroller/writedocumentend/
 ---
 
-## writeDocumentEnd([HtmlGenerator](../../HtmlGenerator) generator, [Presentation](../../Presentation) presentation)  method
+## writeDocumentEnd([HtmlGenerator](../../htmlgenerator) generator, [Presentation](../../presentation) presentation)  method
 
 
 

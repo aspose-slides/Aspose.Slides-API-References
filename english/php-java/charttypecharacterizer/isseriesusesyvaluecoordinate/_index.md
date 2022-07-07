@@ -14,9 +14,9 @@ url: /php-java/charttypecharacterizer/isseriesusesyvaluecoordinate/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| seriesType | Series type. |
+| Name | Type | Description |
+| --- | --- | --- |
+| seriesType | int | Series type. |
 
 ### Returns
 True if uses otherwise false.

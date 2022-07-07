@@ -21,4 +21,4 @@ url: /php-java/trendlinecollection/
 | [get_Item](get_item)(int) | Gets the element at the specified index. Read-only Trendline. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([Trendline](../Trendline)) | Removes the specified value. |
+| [remove](remove)([Trendline](../trendline)) | Removes the specified value. |

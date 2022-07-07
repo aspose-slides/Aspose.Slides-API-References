@@ -14,9 +14,9 @@ url: /php-java/presentationfactory/getpresentationinfo/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| file | Presentation file. |
+| Name | Type | Description |
+| --- | --- | --- |
+| file | String | Presentation file. |
 
 ### Returns
 Presentation info binded to presentation.
@@ -33,9 +33,9 @@ Presentation info binded to presentation.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Presentation stream. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Presentation stream. |
 
 ### Returns
 Presentation info binded to presentation.

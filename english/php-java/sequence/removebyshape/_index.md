@@ -7,7 +7,7 @@ weight: 160
 url: /php-java/sequence/removebyshape/
 ---
 
-## removeByShape([AudioFrame](../../AudioFrame) shape)  method
+## removeByShape([AudioFrame](../../audioframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -16,7 +16,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([AutoShape](../../AutoShape) shape)  method
+## removeByShape([AutoShape](../../autoshape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -25,7 +25,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([Chart](../../Chart) shape)  method
+## removeByShape([Chart](../../chart) shape)  method
 
  Remove effect for the specified shape.
  
@@ -34,7 +34,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([Connector](../../Connector) shape)  method
+## removeByShape([Connector](../../connector) shape)  method
 
  Remove effect for the specified shape.
  
@@ -43,7 +43,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([GeometryShape](../../GeometryShape) shape)  method
+## removeByShape([GeometryShape](../../geometryshape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -52,7 +52,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([GraphicalObject](../../GraphicalObject) shape)  method
+## removeByShape([GraphicalObject](../../graphicalobject) shape)  method
 
  Remove effect for the specified shape.
  
@@ -61,7 +61,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([GroupShape](../../GroupShape) shape)  method
+## removeByShape([GroupShape](../../groupshape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -70,7 +70,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([Ink](../../Ink) shape)  method
+## removeByShape([Ink](../../ink) shape)  method
 
  Remove effect for the specified shape.
  
@@ -79,7 +79,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([LegacyDiagram](../../LegacyDiagram) shape)  method
+## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
 
  Remove effect for the specified shape.
  
@@ -88,7 +88,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([OleObjectFrame](../../OleObjectFrame) shape)  method
+## removeByShape([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -97,7 +97,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([PictureFrame](../../PictureFrame) shape)  method
+## removeByShape([PictureFrame](../../pictureframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -106,7 +106,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([SectionZoomFrame](../../SectionZoomFrame) shape)  method
+## removeByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -115,7 +115,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([Shape](../../Shape) shape)  method
+## removeByShape([Shape](../../shape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -124,7 +124,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([SmartArt](../../SmartArt) shape)  method
+## removeByShape([SmartArt](../../smartart) shape)  method
 
  Remove effect for the specified shape.
  
@@ -133,7 +133,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([SmartArtShape](../../SmartArtShape) shape)  method
+## removeByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -142,7 +142,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([SummaryZoomFrame](../../SummaryZoomFrame) shape)  method
+## removeByShape([SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -151,7 +151,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([SummaryZoomSection](../../SummaryZoomSection) shape)  method
+## removeByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
 
  Remove effect for the specified shape.
  
@@ -160,7 +160,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([Table](../../Table) shape)  method
+## removeByShape([Table](../../table) shape)  method
 
  Remove effect for the specified shape.
  
@@ -169,7 +169,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([VideoFrame](../../VideoFrame) shape)  method
+## removeByShape([VideoFrame](../../videoframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -178,7 +178,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([ZoomFrame](../../ZoomFrame) shape)  method
+## removeByShape([ZoomFrame](../../zoomframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -187,7 +187,7 @@ url: /php-java/sequence/removebyshape/
 ---
 
 
-## removeByShape([ZoomObject](../../ZoomObject) shape)  method
+## removeByShape([ZoomObject](../../zoomobject) shape)  method
 
  Remove effect for the specified shape.
  

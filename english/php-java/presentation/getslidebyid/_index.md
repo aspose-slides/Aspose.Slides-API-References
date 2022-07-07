@@ -14,9 +14,9 @@ url: /php-java/presentation/getslidebyid/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| id | Id of a slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| id | long | Id of a slide. |
 
 ### Returns
 IBaseSlide object.

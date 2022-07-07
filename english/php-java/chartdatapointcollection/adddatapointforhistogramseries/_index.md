@@ -7,7 +7,7 @@ weight: 210
 url: /php-java/chartdatapointcollection/adddatapointforhistogramseries/
 ---
 
-## addDataPointForHistogramSeries([ChartDataCell](../../ChartDataCell) value)  method
+## addDataPointForHistogramSeries([ChartDataCell](../../chartdatacell) value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chart type is Histogram.
@@ -15,9 +15,9 @@ url: /php-java/chartdatapointcollection/adddatapointforhistogramseries/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Data point Value |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | ChartDataCell | Data point Value |
 
 ### Returns
 New data point.

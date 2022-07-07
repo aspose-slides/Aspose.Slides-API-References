@@ -16,9 +16,9 @@ url: /php-java/layoutslideheaderfootermanager/setslidenumberandchildslidenumbers
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| isVisible | true - makes a page number placeholders visible, otherwise - hides them. |
+| Name | Type | Description |
+| --- | --- | --- |
+| isVisible | boolean | true - makes a page number placeholders visible, otherwise - hides them. |
 
 
 ---

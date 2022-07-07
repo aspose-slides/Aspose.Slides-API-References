@@ -14,9 +14,9 @@ url: /php-java/customxmlpartcollection/add/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xmlString | The xml string of new part to be added. |
+| Name | Type | Description |
+| --- | --- | --- |
+| xmlString | String | The xml string of new part to be added. |
 
 ### Returns
 Created custom xml part.
@@ -38,9 +38,9 @@ Created custom xml part.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xmlData | The xml data of new part to be added. |
+| Name | Type | Description |
+| --- | --- | --- |
+| xmlData | byte[] | The xml data of new part to be added. |
 
 ### Returns
 Created custom xml part.
@@ -62,9 +62,9 @@ Created custom xml part.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| inputStream | The inputStream with xml data of new part to be added. |
+| Name | Type | Description |
+| --- | --- | --- |
+| inputStream | InputStream | The inputStream with xml data of new part to be added. |
 
 ### Returns
 Created custom xml part.

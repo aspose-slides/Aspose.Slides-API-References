@@ -14,9 +14,9 @@ url: /php-java/sectioncollection/appendemptysection/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the section |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the section |
 
 ### Returns
 Added section.

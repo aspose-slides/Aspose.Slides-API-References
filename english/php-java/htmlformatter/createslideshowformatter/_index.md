@@ -14,10 +14,10 @@ url: /php-java/htmlformatter/createslideshowformatter/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| css | Specifies URL of CCS file used. |
-| showSlideTitle | Add slide title if there is one above slide image. |
+| Name | Type | Description |
+| --- | --- | --- |
+| css | String | Specifies URL of CCS file used. |
+| showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
 ### Returns
 The HtmlFormatter object.
