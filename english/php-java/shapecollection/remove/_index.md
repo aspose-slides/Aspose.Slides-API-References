@@ -7,316 +7,316 @@ weight: 620
 url: /php-java/shapecollection/remove/
 ---
 
-## remove([AudioFrame](../../AudioFrame) shape)  method
+## remove([AudioFrame](../../audioframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([AutoShape](../../AutoShape) shape)  method
+## remove([AutoShape](../../autoshape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([Chart](../../Chart) shape)  method
+## remove([Chart](../../chart) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([Connector](../../Connector) shape)  method
+## remove([Connector](../../connector) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([GeometryShape](../../GeometryShape) shape)  method
+## remove([GeometryShape](../../geometryshape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([GraphicalObject](../../GraphicalObject) shape)  method
+## remove([GraphicalObject](../../graphicalobject) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([GroupShape](../../GroupShape) shape)  method
+## remove([GroupShape](../../groupshape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([Ink](../../Ink) shape)  method
+## remove([Ink](../../ink) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([LegacyDiagram](../../LegacyDiagram) shape)  method
+## remove([LegacyDiagram](../../legacydiagram) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([OleObjectFrame](../../OleObjectFrame) shape)  method
+## remove([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([PictureFrame](../../PictureFrame) shape)  method
+## remove([PictureFrame](../../pictureframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([SectionZoomFrame](../../SectionZoomFrame) shape)  method
+## remove([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([Shape](../../Shape) shape)  method
+## remove([Shape](../../shape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([SmartArt](../../SmartArt) shape)  method
+## remove([SmartArt](../../smartart) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([SmartArtShape](../../SmartArtShape) shape)  method
+## remove([SmartArtShape](../../smartartshape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([SummaryZoomFrame](../../SummaryZoomFrame) shape)  method
+## remove([SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([SummaryZoomSection](../../SummaryZoomSection) shape)  method
+## remove([SummaryZoomSection](../../summaryzoomsection) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([Table](../../Table) shape)  method
+## remove([Table](../../table) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([VideoFrame](../../VideoFrame) shape)  method
+## remove([VideoFrame](../../videoframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([ZoomFrame](../../ZoomFrame) shape)  method
+## remove([ZoomFrame](../../zoomframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---
 
 
-## remove([ZoomObject](../../ZoomObject) shape)  method
+## remove([ZoomObject](../../zoomobject) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| shape | The shape to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | AudioFrame | The shape to remove from the collection. |
 
 
 ---

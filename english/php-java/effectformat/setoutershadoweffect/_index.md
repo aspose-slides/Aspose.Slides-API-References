@@ -7,7 +7,7 @@ weight: 310
 url: /php-java/effectformat/setoutershadoweffect/
 ---
 
-## setOuterShadowEffect([OuterShadow](../../OuterShadow) value)  method
+## setOuterShadowEffect([OuterShadow](../../outershadow) value)  method
 
  Outer shadow.
  Read/write  IOuterShadow.

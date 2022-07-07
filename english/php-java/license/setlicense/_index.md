@@ -38,9 +38,9 @@ Licenses the component.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | A stream that contains the license. Use null to switch to evaluation mode. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | A stream that contains the license. Use null to switch to evaluation mode. |
 
 
 ---
@@ -77,9 +77,9 @@ Licenses the component.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| namePath | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
+| Name | Type | Description |
+| --- | --- | --- |
+| namePath | String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
 
 
 ---

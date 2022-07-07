@@ -21,9 +21,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| rowIndex | Index of the row before which to insert a new one |
+| Name | Type | Description |
+| --- | --- | --- |
+| rowIndex | int | Index of the row before which to insert a new one |
 
 
 ---

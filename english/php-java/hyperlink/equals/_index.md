@@ -14,9 +14,9 @@ url: /php-java/hyperlink/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The Hyperlink to compare with the current Hyperlink. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Hyperlink to compare with the current Hyperlink. |
 
 ### Returns
 true if the specified Hyperlink is equal to the current Hyperlink; otherwise, false.
@@ -25,16 +25,16 @@ true if the specified Hyperlink is equal to the current Hyperlink; otherwise, fa
 ---
 
 
-## equals([Hyperlink](../../Hyperlink) hlink)  method
+## equals([Hyperlink](../../hyperlink) hlink)  method
 
  Determines whether the two Hyperlink instances are equal.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| hlink | The Hyperlink to compare with the current Hyperlink. |
+| Name | Type | Description |
+| --- | --- | --- |
+| hlink | Hyperlink | The Hyperlink to compare with the current Hyperlink. |
 
 ### Returns
 true if the specified Hyperlink is equal to the current Hyperlink; otherwise, false.

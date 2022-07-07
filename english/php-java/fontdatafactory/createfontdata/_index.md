@@ -14,9 +14,9 @@ url: /php-java/fontdatafactory/createfontdata/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fontName | Font name |
+| Name | Type | Description |
+| --- | --- | --- |
+| fontName | String | Font name |
 
 ### Returns
 FontData

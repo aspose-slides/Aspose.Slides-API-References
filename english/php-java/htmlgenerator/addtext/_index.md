@@ -15,9 +15,9 @@ url: /php-java/htmlgenerator/addtext/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | Text to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Text to add. |
 
 
 ---
@@ -31,9 +31,9 @@ url: /php-java/htmlgenerator/addtext/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | Text to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | char[] | Text to add. |
 
 
 ---
@@ -47,11 +47,11 @@ url: /php-java/htmlgenerator/addtext/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | Text to add. |
-| startIndex | Start index of the portion to add. |
-| length | Length of the portion to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | char[] | Text to add. |
+| startIndex | int | Start index of the portion to add. |
+| length | int | Length of the portion to add. |
 
 
 ---

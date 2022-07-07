@@ -22,8 +22,8 @@ url: /php-java/textframe/
 | [getSlide](getslide)() | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 | [getText](gettext)() | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
 | [getTextFrameFormat](gettextframeformat)() | Returns the formatting object for this TextFrame object. Read-only ITextFrameFormat. |
-| [highlightRegex](highlightregex)(String, Color, [TextHighlightingOptions](../TextHighlightingOptions)) | Highlight all matches of regular expression in text frame text using specified color. |
+| [highlightRegex](highlightregex)(String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of regular expression in text frame text using specified color. |
 | [highlightText](highlighttext)(String, Color) | Highlight all matches of sample in text frame text using specified color. |
-| [highlightText](highlighttext)(String, Color, [TextHighlightingOptions](../TextHighlightingOptions)) | Highlight all matches of sample in text frame text using specified color. |
+| [highlightText](highlighttext)(String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of sample in text frame text using specified color. |
 | [joinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs. |
 | [setText](settext)(String) | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |

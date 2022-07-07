@@ -14,10 +14,10 @@ url: /php-java/behaviorpropertycollection/copyto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| array | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
-| arrayIndex | The zero-based index in array at which copying begins. |
+| Name | Type | Description |
+| --- | --- | --- |
+| array | com.aspose.slides.IBehaviorProperty[] | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
+| arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### Returns
 Array

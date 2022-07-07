@@ -14,9 +14,9 @@ url: /php-java/protectionmanager/setwriteprotection/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| password | The password. |
+| Name | Type | Description |
+| --- | --- | --- |
+| password | String | The password. |
 
 
 ---

@@ -14,9 +14,9 @@ url: /php-java/hyperlinkmanager/setexternalhyperlinkclick/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| url | Hyperlink URL. |
+| Name | Type | Description |
+| --- | --- | --- |
+| url | String | Hyperlink URL. |
 
 
 ---

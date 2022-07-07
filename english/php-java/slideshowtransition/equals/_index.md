@@ -15,9 +15,9 @@ url: /php-java/slideshowtransition/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The SlideShowTransition to compare with the current SlideShowTransition. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The SlideShowTransition to compare with the current SlideShowTransition. |
 
 ### Returns
 boolean

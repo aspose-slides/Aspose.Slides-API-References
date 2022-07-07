@@ -7,16 +7,16 @@ weight: 60
 url: /php-java/paragraphcollection/contains/
 ---
 
-## contains([Paragraph](../../Paragraph) item)  method
+## contains([Paragraph](../../paragraph) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Paragraph | The object to locate in the IGenericCollection. |
 
 ### Returns
 IGenericCollection

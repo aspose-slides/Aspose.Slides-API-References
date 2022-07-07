@@ -7,136 +7,136 @@ weight: 10
 url: /php-java/behaviorcollection/add/
 ---
 
-## add([Behavior](../../Behavior) item)  method
+## add([Behavior](../../behavior) item)  method
 
  Add new behavior to a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to add. |
 
 
 ---
 
 
-## add([ColorEffect](../../ColorEffect) item)  method
+## add([ColorEffect](../../coloreffect) item)  method
 
  Add new behavior to a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to add. |
 
 
 ---
 
 
-## add([CommandEffect](../../CommandEffect) item)  method
+## add([CommandEffect](../../commandeffect) item)  method
 
  Add new behavior to a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to add. |
 
 
 ---
 
 
-## add([FilterEffect](../../FilterEffect) item)  method
+## add([FilterEffect](../../filtereffect) item)  method
 
  Add new behavior to a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to add. |
 
 
 ---
 
 
-## add([MotionEffect](../../MotionEffect) item)  method
+## add([MotionEffect](../../motioneffect) item)  method
 
  Add new behavior to a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to add. |
 
 
 ---
 
 
-## add([PropertyEffect](../../PropertyEffect) item)  method
+## add([PropertyEffect](../../propertyeffect) item)  method
 
  Add new behavior to a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to add. |
 
 
 ---
 
 
-## add([RotationEffect](../../RotationEffect) item)  method
+## add([RotationEffect](../../rotationeffect) item)  method
 
  Add new behavior to a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to add. |
 
 
 ---
 
 
-## add([ScaleEffect](../../ScaleEffect) item)  method
+## add([ScaleEffect](../../scaleeffect) item)  method
 
  Add new behavior to a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to add. |
 
 
 ---
 
 
-## add([SetEffect](../../SetEffect) item)  method
+## add([SetEffect](../../seteffect) item)  method
 
  Add new behavior to a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | Behavior to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | Behavior to add. |
 
 
 ---

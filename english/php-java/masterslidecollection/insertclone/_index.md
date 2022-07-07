@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/masterslidecollection/insertclone/
 ---
 
-## insertClone(int index, [MasterSlide](../../MasterSlide) sourceMaster)  method
+## insertClone(int index, [MasterSlide](../../masterslide) sourceMaster)  method
 
  Inserts a copy of a specified master slide to specified position of the collection.
  Linked layout slides will be copied too.
@@ -15,10 +15,10 @@ url: /php-java/masterslidecollection/insertclone/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of new slide. |
-| sourceMaster | Slide to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new slide. |
+| sourceMaster | MasterSlide | Slide to clone. |
 
 ### Returns
 Inserted master slide.

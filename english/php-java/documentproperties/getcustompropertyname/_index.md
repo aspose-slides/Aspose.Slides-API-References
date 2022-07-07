@@ -14,9 +14,9 @@ url: /php-java/documentproperties/getcustompropertyname/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index of a custom property to get. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of a custom property to get. |
 
 ### Returns
 Custom property name at the specified index.

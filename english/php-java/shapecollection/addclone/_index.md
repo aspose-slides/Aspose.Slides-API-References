@@ -7,20 +7,20 @@ weight: 90
 url: /php-java/shapecollection/addclone/
 ---
 
-## addClone([AudioFrame](../../AudioFrame) sourceShape, float x, float y, float width, float height)  method
+## addClone([AudioFrame](../../audioframe) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -29,20 +29,20 @@ New shape.
 ---
 
 
-## addClone([AutoShape](../../AutoShape) sourceShape, float x, float y, float width, float height)  method
+## addClone([AutoShape](../../autoshape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -51,20 +51,20 @@ New shape.
 ---
 
 
-## addClone([Chart](../../Chart) sourceShape, float x, float y, float width, float height)  method
+## addClone([Chart](../../chart) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -73,20 +73,20 @@ New shape.
 ---
 
 
-## addClone([Connector](../../Connector) sourceShape, float x, float y, float width, float height)  method
+## addClone([Connector](../../connector) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -95,20 +95,20 @@ New shape.
 ---
 
 
-## addClone([GeometryShape](../../GeometryShape) sourceShape, float x, float y, float width, float height)  method
+## addClone([GeometryShape](../../geometryshape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -117,20 +117,20 @@ New shape.
 ---
 
 
-## addClone([GraphicalObject](../../GraphicalObject) sourceShape, float x, float y, float width, float height)  method
+## addClone([GraphicalObject](../../graphicalobject) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -139,20 +139,20 @@ New shape.
 ---
 
 
-## addClone([GroupShape](../../GroupShape) sourceShape, float x, float y, float width, float height)  method
+## addClone([GroupShape](../../groupshape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -161,20 +161,20 @@ New shape.
 ---
 
 
-## addClone([Ink](../../Ink) sourceShape, float x, float y, float width, float height)  method
+## addClone([Ink](../../ink) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -183,20 +183,20 @@ New shape.
 ---
 
 
-## addClone([LegacyDiagram](../../LegacyDiagram) sourceShape, float x, float y, float width, float height)  method
+## addClone([LegacyDiagram](../../legacydiagram) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -205,20 +205,20 @@ New shape.
 ---
 
 
-## addClone([OleObjectFrame](../../OleObjectFrame) sourceShape, float x, float y, float width, float height)  method
+## addClone([OleObjectFrame](../../oleobjectframe) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -227,20 +227,20 @@ New shape.
 ---
 
 
-## addClone([PictureFrame](../../PictureFrame) sourceShape, float x, float y, float width, float height)  method
+## addClone([PictureFrame](../../pictureframe) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -249,20 +249,20 @@ New shape.
 ---
 
 
-## addClone([SectionZoomFrame](../../SectionZoomFrame) sourceShape, float x, float y, float width, float height)  method
+## addClone([SectionZoomFrame](../../sectionzoomframe) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -271,20 +271,20 @@ New shape.
 ---
 
 
-## addClone([Shape](../../Shape) sourceShape, float x, float y, float width, float height)  method
+## addClone([Shape](../../shape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -293,20 +293,20 @@ New shape.
 ---
 
 
-## addClone([SmartArt](../../SmartArt) sourceShape, float x, float y, float width, float height)  method
+## addClone([SmartArt](../../smartart) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -315,20 +315,20 @@ New shape.
 ---
 
 
-## addClone([SmartArtShape](../../SmartArtShape) sourceShape, float x, float y, float width, float height)  method
+## addClone([SmartArtShape](../../smartartshape) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -337,20 +337,20 @@ New shape.
 ---
 
 
-## addClone([SummaryZoomFrame](../../SummaryZoomFrame) sourceShape, float x, float y, float width, float height)  method
+## addClone([SummaryZoomFrame](../../summaryzoomframe) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -359,20 +359,20 @@ New shape.
 ---
 
 
-## addClone([SummaryZoomSection](../../SummaryZoomSection) sourceShape, float x, float y, float width, float height)  method
+## addClone([SummaryZoomSection](../../summaryzoomsection) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -381,20 +381,20 @@ New shape.
 ---
 
 
-## addClone([Table](../../Table) sourceShape, float x, float y, float width, float height)  method
+## addClone([Table](../../table) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -403,20 +403,20 @@ New shape.
 ---
 
 
-## addClone([VideoFrame](../../VideoFrame) sourceShape, float x, float y, float width, float height)  method
+## addClone([VideoFrame](../../videoframe) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -425,20 +425,20 @@ New shape.
 ---
 
 
-## addClone([ZoomFrame](../../ZoomFrame) sourceShape, float x, float y, float width, float height)  method
+## addClone([ZoomFrame](../../zoomframe) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -447,20 +447,20 @@ New shape.
 ---
 
 
-## addClone([ZoomObject](../../ZoomObject) sourceShape, float x, float y, float width, float height)  method
+## addClone([ZoomObject](../../zoomobject) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
-| width | Width of a new shape. |
-| height | Height of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
+| width | Connector | Width of a new shape. |
+| height | GeometryShape | Height of a new shape. |
 
 ### Returns
 New shape.
@@ -469,7 +469,7 @@ New shape.
 ---
 
 
-## addClone([AudioFrame](../../AudioFrame) sourceShape, float x, float y)  method
+## addClone([AudioFrame](../../audioframe) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -477,11 +477,11 @@ New shape.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -490,7 +490,7 @@ Shape
 ---
 
 
-## addClone([AutoShape](../../AutoShape) sourceShape, float x, float y)  method
+## addClone([AutoShape](../../autoshape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -498,11 +498,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -511,7 +511,7 @@ Shape
 ---
 
 
-## addClone([Chart](../../Chart) sourceShape, float x, float y)  method
+## addClone([Chart](../../chart) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -519,11 +519,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -532,7 +532,7 @@ Shape
 ---
 
 
-## addClone([Connector](../../Connector) sourceShape, float x, float y)  method
+## addClone([Connector](../../connector) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -540,11 +540,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -553,7 +553,7 @@ Shape
 ---
 
 
-## addClone([GeometryShape](../../GeometryShape) sourceShape, float x, float y)  method
+## addClone([GeometryShape](../../geometryshape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -561,11 +561,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -574,7 +574,7 @@ Shape
 ---
 
 
-## addClone([GraphicalObject](../../GraphicalObject) sourceShape, float x, float y)  method
+## addClone([GraphicalObject](../../graphicalobject) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -582,11 +582,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -595,7 +595,7 @@ Shape
 ---
 
 
-## addClone([GroupShape](../../GroupShape) sourceShape, float x, float y)  method
+## addClone([GroupShape](../../groupshape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -603,11 +603,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -616,7 +616,7 @@ Shape
 ---
 
 
-## addClone([Ink](../../Ink) sourceShape, float x, float y)  method
+## addClone([Ink](../../ink) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -624,11 +624,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -637,7 +637,7 @@ Shape
 ---
 
 
-## addClone([LegacyDiagram](../../LegacyDiagram) sourceShape, float x, float y)  method
+## addClone([LegacyDiagram](../../legacydiagram) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -645,11 +645,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -658,7 +658,7 @@ Shape
 ---
 
 
-## addClone([OleObjectFrame](../../OleObjectFrame) sourceShape, float x, float y)  method
+## addClone([OleObjectFrame](../../oleobjectframe) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -666,11 +666,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -679,7 +679,7 @@ Shape
 ---
 
 
-## addClone([PictureFrame](../../PictureFrame) sourceShape, float x, float y)  method
+## addClone([PictureFrame](../../pictureframe) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -687,11 +687,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -700,7 +700,7 @@ Shape
 ---
 
 
-## addClone([SectionZoomFrame](../../SectionZoomFrame) sourceShape, float x, float y)  method
+## addClone([SectionZoomFrame](../../sectionzoomframe) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -708,11 +708,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -721,7 +721,7 @@ Shape
 ---
 
 
-## addClone([Shape](../../Shape) sourceShape, float x, float y)  method
+## addClone([Shape](../../shape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -729,11 +729,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -742,7 +742,7 @@ Shape
 ---
 
 
-## addClone([SmartArt](../../SmartArt) sourceShape, float x, float y)  method
+## addClone([SmartArt](../../smartart) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -750,11 +750,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -763,7 +763,7 @@ Shape
 ---
 
 
-## addClone([SmartArtShape](../../SmartArtShape) sourceShape, float x, float y)  method
+## addClone([SmartArtShape](../../smartartshape) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -771,11 +771,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -784,7 +784,7 @@ Shape
 ---
 
 
-## addClone([SummaryZoomFrame](../../SummaryZoomFrame) sourceShape, float x, float y)  method
+## addClone([SummaryZoomFrame](../../summaryzoomframe) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -792,11 +792,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -805,7 +805,7 @@ Shape
 ---
 
 
-## addClone([SummaryZoomSection](../../SummaryZoomSection) sourceShape, float x, float y)  method
+## addClone([SummaryZoomSection](../../summaryzoomsection) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -813,11 +813,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -826,7 +826,7 @@ Shape
 ---
 
 
-## addClone([Table](../../Table) sourceShape, float x, float y)  method
+## addClone([Table](../../table) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -834,11 +834,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -847,7 +847,7 @@ Shape
 ---
 
 
-## addClone([VideoFrame](../../VideoFrame) sourceShape, float x, float y)  method
+## addClone([VideoFrame](../../videoframe) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -855,11 +855,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -868,7 +868,7 @@ Shape
 ---
 
 
-## addClone([ZoomFrame](../../ZoomFrame) sourceShape, float x, float y)  method
+## addClone([ZoomFrame](../../zoomframe) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -876,11 +876,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -889,7 +889,7 @@ Shape
 ---
 
 
-## addClone([ZoomObject](../../ZoomObject) sourceShape, float x, float y)  method
+## addClone([ZoomObject](../../zoomobject) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
  Width and Height of the new shape are equal to Width and Height of the source  Shape.
@@ -897,11 +897,11 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
-| x | X coordinate of a new shape. |
-| y | Y coordinate of a new shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
+| x | AutoShape | X coordinate of a new shape. |
+| y | Chart | Y coordinate of a new shape. |
 
 ### Returns
 Shape
@@ -910,7 +910,7 @@ Shape
 ---
 
 
-## addClone([AudioFrame](../../AudioFrame) sourceShape)  method
+## addClone([AudioFrame](../../audioframe) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -918,9 +918,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -929,7 +929,7 @@ Shape
 ---
 
 
-## addClone([AutoShape](../../AutoShape) sourceShape)  method
+## addClone([AutoShape](../../autoshape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -937,9 +937,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -948,7 +948,7 @@ Shape
 ---
 
 
-## addClone([Chart](../../Chart) sourceShape)  method
+## addClone([Chart](../../chart) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -956,9 +956,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -967,7 +967,7 @@ Shape
 ---
 
 
-## addClone([Connector](../../Connector) sourceShape)  method
+## addClone([Connector](../../connector) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -975,9 +975,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -986,7 +986,7 @@ Shape
 ---
 
 
-## addClone([GeometryShape](../../GeometryShape) sourceShape)  method
+## addClone([GeometryShape](../../geometryshape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -994,9 +994,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1005,7 +1005,7 @@ Shape
 ---
 
 
-## addClone([GraphicalObject](../../GraphicalObject) sourceShape)  method
+## addClone([GraphicalObject](../../graphicalobject) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1013,9 +1013,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1024,7 +1024,7 @@ Shape
 ---
 
 
-## addClone([GroupShape](../../GroupShape) sourceShape)  method
+## addClone([GroupShape](../../groupshape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1032,9 +1032,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1043,7 +1043,7 @@ Shape
 ---
 
 
-## addClone([Ink](../../Ink) sourceShape)  method
+## addClone([Ink](../../ink) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1051,9 +1051,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1062,7 +1062,7 @@ Shape
 ---
 
 
-## addClone([LegacyDiagram](../../LegacyDiagram) sourceShape)  method
+## addClone([LegacyDiagram](../../legacydiagram) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1070,9 +1070,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1081,7 +1081,7 @@ Shape
 ---
 
 
-## addClone([OleObjectFrame](../../OleObjectFrame) sourceShape)  method
+## addClone([OleObjectFrame](../../oleobjectframe) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1089,9 +1089,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1100,7 +1100,7 @@ Shape
 ---
 
 
-## addClone([PictureFrame](../../PictureFrame) sourceShape)  method
+## addClone([PictureFrame](../../pictureframe) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1108,9 +1108,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1119,7 +1119,7 @@ Shape
 ---
 
 
-## addClone([SectionZoomFrame](../../SectionZoomFrame) sourceShape)  method
+## addClone([SectionZoomFrame](../../sectionzoomframe) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1127,9 +1127,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1138,7 +1138,7 @@ Shape
 ---
 
 
-## addClone([Shape](../../Shape) sourceShape)  method
+## addClone([Shape](../../shape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1146,9 +1146,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1157,7 +1157,7 @@ Shape
 ---
 
 
-## addClone([SmartArt](../../SmartArt) sourceShape)  method
+## addClone([SmartArt](../../smartart) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1165,9 +1165,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1176,7 +1176,7 @@ Shape
 ---
 
 
-## addClone([SmartArtShape](../../SmartArtShape) sourceShape)  method
+## addClone([SmartArtShape](../../smartartshape) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1184,9 +1184,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1195,7 +1195,7 @@ Shape
 ---
 
 
-## addClone([SummaryZoomFrame](../../SummaryZoomFrame) sourceShape)  method
+## addClone([SummaryZoomFrame](../../summaryzoomframe) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1203,9 +1203,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1214,7 +1214,7 @@ Shape
 ---
 
 
-## addClone([SummaryZoomSection](../../SummaryZoomSection) sourceShape)  method
+## addClone([SummaryZoomSection](../../summaryzoomsection) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1222,9 +1222,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1233,7 +1233,7 @@ Shape
 ---
 
 
-## addClone([Table](../../Table) sourceShape)  method
+## addClone([Table](../../table) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1241,9 +1241,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1252,7 +1252,7 @@ Shape
 ---
 
 
-## addClone([VideoFrame](../../VideoFrame) sourceShape)  method
+## addClone([VideoFrame](../../videoframe) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1260,9 +1260,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1271,7 +1271,7 @@ Shape
 ---
 
 
-## addClone([ZoomFrame](../../ZoomFrame) sourceShape)  method
+## addClone([ZoomFrame](../../zoomframe) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1279,9 +1279,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape
@@ -1290,7 +1290,7 @@ Shape
 ---
 
 
-## addClone([ZoomObject](../../ZoomObject) sourceShape)  method
+## addClone([ZoomObject](../../zoomobject) sourceShape)  method
 
  Adds a copy of a specified shape to the end of the collection.
  X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
@@ -1298,9 +1298,9 @@ Shape
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceShape | Shape to clone. |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceShape | AudioFrame | Shape to clone. |
 
 ### Returns
 Shape

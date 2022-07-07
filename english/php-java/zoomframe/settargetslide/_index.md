@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/zoomframe/settargetslide/
 ---
 
-## setTargetSlide([Slide](../../Slide) value)  method
+## setTargetSlide([Slide](../../slide) value)  method
 
  Gets or sets the slide object that the Slide Zoom object links to.
  Read/write  ISlide.

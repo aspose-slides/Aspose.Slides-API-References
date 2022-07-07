@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/compress/removeunusedlayoutslides/
 ---
 
-## removeUnusedLayoutSlides([Presentation](../../Presentation) pres)  method
+## removeUnusedLayoutSlides([Presentation](../../presentation) pres)  method
 
  Makes compression of the  Presentation by removing unused layout slides.  
  
@@ -27,9 +27,9 @@ url: /php-java/compress/removeunusedlayoutslides/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| pres | The presentation instance |
+| Name | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | The presentation instance |
 
 ### Returns
 Presentation

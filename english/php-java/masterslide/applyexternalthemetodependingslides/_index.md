@@ -15,9 +15,9 @@ url: /php-java/masterslide/applyexternalthemetodependingslides/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the external theme file (.thmx). |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the external theme file (.thmx). |
 
 ### Returns
 New themed MasterSlide.

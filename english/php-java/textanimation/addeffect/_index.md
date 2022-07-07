@@ -15,11 +15,11 @@ url: /php-java/textanimation/addeffect/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| effectType | Type of an animation effect EffectType |
-| subtype | Subtypes of animation effect EffectSubtype |
-| triggerType | Trigger type of effect EffectTriggerType |
+| Name | Type | Description |
+| --- | --- | --- |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
 New effect object IEffect

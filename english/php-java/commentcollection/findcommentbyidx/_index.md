@@ -14,9 +14,9 @@ url: /php-java/commentcollection/findcommentbyidx/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| idx | Unique index of a comment to find {@code int}. |
+| Name | Type | Description |
+| --- | --- | --- |
+| idx | int | Unique index of a comment to find {@code int}. |
 
 ### Returns
 Found comment or null IComment.

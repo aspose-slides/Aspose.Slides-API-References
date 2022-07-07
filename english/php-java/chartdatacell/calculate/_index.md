@@ -14,9 +14,9 @@ url: /php-java/chartdatacell/calculate/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| updateValues | If false, no actual calculation will be performed. Use true for possible exceptions check. |
+| Name | Type | Description |
+| --- | --- | --- |
+| updateValues | boolean | If false, no actual calculation will be performed. Use true for possible exceptions check. |
 
 
 ---

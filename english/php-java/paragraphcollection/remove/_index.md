@@ -7,16 +7,16 @@ weight: 200
 url: /php-java/paragraphcollection/remove/
 ---
 
-## remove([Paragraph](../../Paragraph) item)  method
+## remove([Paragraph](../../paragraph) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Paragraph | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection

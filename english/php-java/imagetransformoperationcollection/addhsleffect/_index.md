@@ -14,11 +14,11 @@ url: /php-java/imagetransformoperationcollection/addhsleffect/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| hue | The number of degrees by which the hue is adjusted. |
-| saturation | The percentage by which the saturation is adjusted. |
-| luminance | The percentage by which the luminance is adjusted. |
+| Name | Type | Description |
+| --- | --- | --- |
+| hue | float | The number of degrees by which the hue is adjusted. |
+| saturation | float | The percentage by which the saturation is adjusted. |
+| luminance | float | The percentage by which the luminance is adjusted. |
 
 ### Returns
 Index of the new image effect in a collection.

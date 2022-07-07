@@ -14,9 +14,9 @@ url: /php-java/chartdataworkbook/clear/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sheetIndex | Index of sheet |
+| Name | Type | Description |
+| --- | --- | --- |
+| sheetIndex | int | Index of sheet |
 
 
 ---

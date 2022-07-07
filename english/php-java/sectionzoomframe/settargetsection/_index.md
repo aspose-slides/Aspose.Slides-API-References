@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/sectionzoomframe/settargetsection/
 ---
 
-## setTargetSection([Section](../../Section) value)  method
+## setTargetSection([Section](../../section) value)  method
 
  Gets or sets the section object that the Section Zoom object links to.
  Read/write  ISection.

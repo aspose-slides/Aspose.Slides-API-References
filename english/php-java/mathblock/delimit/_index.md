@@ -20,9 +20,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| separatorCharacter | Separator character |
+| Name | Type | Description |
+| --- | --- | --- |
+| separatorCharacter | char | Separator character |
 
 ### Returns
 The math element of type IMathDelimiter

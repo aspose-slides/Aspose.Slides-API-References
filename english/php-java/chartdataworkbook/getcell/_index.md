@@ -14,11 +14,11 @@ url: /php-java/chartdataworkbook/getcell/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| worksheetName | Name of the worksheet. |
-| row | The row. |
-| column | The column. |
+| Name | Type | Description |
+| --- | --- | --- |
+| worksheetName | String | Name of the worksheet. |
+| row | int | The row. |
+| column | int | The column. |
 
 ### Returns
 Cell object
@@ -34,11 +34,11 @@ Cell object
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| worksheetIndex | Index of the worksheet. |
-| row | The row. |
-| column | The column. |
+| Name | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | int | Index of the worksheet. |
+| row | int | The row. |
+| column | int | The column. |
 
 ### Returns
 Cell object
@@ -54,10 +54,10 @@ Cell object
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| worksheetIndex | Index of the worksheet. |
-| cellName | Name of the cell. |
+| Name | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | int | Index of the worksheet. |
+| cellName | String | Name of the cell. |
 
 ### Returns
 Cell object
@@ -73,11 +73,11 @@ Cell object
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| worksheetIndex | Index of the worksheet. |
-| cellName | Name of the cell. |
-| value | The value. |
+| Name | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | int | Index of the worksheet. |
+| cellName | String | Name of the cell. |
+| value | Object | The value. |
 
 ### Returns
 Cell object
@@ -93,12 +93,12 @@ Cell object
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| worksheetIndex | Index of the worksheet. |
-| row | The row. |
-| column | The column. |
-| value | The value. |
+| Name | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | int | Index of the worksheet. |
+| row | int | The row. |
+| column | int | The column. |
+| value | Object | The value. |
 
 ### Returns
 Cell object

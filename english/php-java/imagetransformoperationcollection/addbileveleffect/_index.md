@@ -14,9 +14,9 @@ url: /php-java/imagetransformoperationcollection/addbileveleffect/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| threshold | the luminance threshold for the Bi-Level effect. Values greater than or equal to the threshold are set to white. Values lesser than the threshold are set to black. |
+| Name | Type | Description |
+| --- | --- | --- |
+| threshold | float | the luminance threshold for the Bi-Level effect. Values greater than or equal to the threshold are set to white. Values lesser than the threshold are set to black. |
 
 ### Returns
 Index of the new image effect in a collection.

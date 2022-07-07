@@ -14,10 +14,10 @@ url: /php-java/slide/getthumbnail/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| scaleX | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | The value by which to scale this Thumbnail in the y-axis direction. |
+| Name | Type | Description |
+| --- | --- | --- |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
 Bitmap object.
@@ -42,9 +42,9 @@ Bitmap object.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| imageSize | Size of the image to create. |
+| Name | Type | Description |
+| --- | --- | --- |
+| imageSize | Dimension | Size of the image to create. |
 
 ### Returns
 Bitmap object.
@@ -53,16 +53,16 @@ Bitmap object.
 ---
 
 
-## getThumbnail([TiffOptions](../../TiffOptions) options)  method
+## getThumbnail([TiffOptions](../../tiffoptions) options)  method
 
  Returns a Thumbnail tiff BufferedImage object with specified parameters.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| options | Tiff options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| options | TiffOptions | Tiff options. |
 
 ### Returns
 BufferedImage object.
@@ -77,16 +77,16 @@ BufferedImage object.
 ---
 
 
-## getThumbnail([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting)  method
+## getThumbnail([NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions) notesCommentsLayouting)  method
 
  Returns a Thumbnail BufferedImage object.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| notesCommentsLayouting | Options for notes and comments layouting. |
+| Name | Type | Description |
+| --- | --- | --- |
+| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
 
 ### Returns
 BufferedImage objects.
@@ -101,18 +101,18 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, float scaleX, float scaleY)  method
+## getThumbnail([NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions) notesCommentsLayouting, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage object with custom scaling.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| notesCommentsLayouting | Options for notes and comments layouting. |
-| scaleX | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | The value by which to scale this Thumbnail in the y-axis direction. |
+| Name | Type | Description |
+| --- | --- | --- |
+| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
 BufferedImage objects.
@@ -127,17 +127,17 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail([NotesCommentsLayoutingOptions](../../NotesCommentsLayoutingOptions) notesCommentsLayouting, Dimension imageSize)  method
+## getThumbnail([NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions) notesCommentsLayouting, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage object with specified size.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| notesCommentsLayouting | Options for notes and comments layouting. |
-| imageSize | Size of the image to create. |
+| Name | Type | Description |
+| --- | --- | --- |
+| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| imageSize | Dimension | Size of the image to create. |
 
 ### Returns
 BufferedImage objects.
@@ -152,16 +152,16 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail([RenderingOptions](../../RenderingOptions) options)  method
+## getThumbnail([RenderingOptions](../../renderingoptions) options)  method
 
  Returns a Thumbnail BufferedImage object.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| options | Rendering options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| options | RenderingOptions | Rendering options. |
 
 ### Returns
 BufferedImage objects.
@@ -176,18 +176,18 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail([RenderingOptions](../../RenderingOptions) options, float scaleX, float scaleY)  method
+## getThumbnail([RenderingOptions](../../renderingoptions) options, float scaleX, float scaleY)  method
 
  Returns a Thumbnail BufferedImage object with custom scaling.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| options | Rendering options. |
-| scaleX | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | The value by which to scale this Thumbnail in the y-axis direction. |
+| Name | Type | Description |
+| --- | --- | --- |
+| options | RenderingOptions | Rendering options. |
+| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
+| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
 BufferedImage objects.
@@ -202,17 +202,17 @@ BufferedImage objects.
 ---
 
 
-## getThumbnail([RenderingOptions](../../RenderingOptions) options, Dimension imageSize)  method
+## getThumbnail([RenderingOptions](../../renderingoptions) options, Dimension imageSize)  method
 
  Returns a Thumbnail BufferedImage object with specified size.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| options | Rendering options. |
-| imageSize | Size of the image to create. |
+| Name | Type | Description |
+| --- | --- | --- |
+| options | RenderingOptions | Rendering options. |
+| imageSize | Dimension | Size of the image to create. |
 
 ### Returns
 BufferedImage objects.

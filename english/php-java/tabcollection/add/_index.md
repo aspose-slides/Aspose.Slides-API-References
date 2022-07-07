@@ -19,16 +19,16 @@ Added tab.
 ---
 
 
-## add([Tab](../../Tab) value)  method
+## add([Tab](../../tab) value)  method
 
  Adds a Tab to the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The Tab object to be added at the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | Tab | The Tab object to be added at the end of the collection. |
 
 ### Returns
 The index at which the tab was added.

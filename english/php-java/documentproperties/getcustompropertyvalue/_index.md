@@ -14,10 +14,10 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | boolean[] | Custom property value |
 
 
 ---
@@ -30,10 +30,10 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | int[] | Custom property value |
 
 
 ---
@@ -46,10 +46,10 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | java.util.Date[] | Custom property value |
 
 
 ---
@@ -62,10 +62,10 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | java.lang.String[] | Custom property value |
 
 
 ---
@@ -78,10 +78,10 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to get |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get |
+| value | float[] | Custom property value |
 
 
 ---
@@ -94,10 +94,10 @@ url: /php-java/documentproperties/getcustompropertyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of the custom property to get. |
-| value | Custom property value |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of the custom property to get. |
+| value | double[] | Custom property value |
 
 
 ---

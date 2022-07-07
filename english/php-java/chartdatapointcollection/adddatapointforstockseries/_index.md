@@ -7,7 +7,7 @@ weight: 350
 url: /php-java/chartdatapointcollection/adddatapointforstockseries/
 ---
 
-## addDataPointForStockSeries([ChartDataCell](../../ChartDataCell) value)  method
+## addDataPointForStockSeries([ChartDataCell](../../chartdatacell) value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Stock subtypes
@@ -16,9 +16,9 @@ url: /php-java/chartdatapointcollection/adddatapointforstockseries/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Data point Value. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | ChartDataCell | Data point Value. |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeStock(int)
@@ -36,9 +36,9 @@ ChartTypeCharacterizer#isChartTypeStock(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Data point Value. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | double | Data point Value. |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeStock(int)

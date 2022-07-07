@@ -27,9 +27,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| path | A path to the PDF document |
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | A path to the PDF document |
 
 ### Returns
 Added slides
@@ -62,9 +62,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| pdfStream | A stream which will be used as a source of the PDF document |
+| Name | Type | Description |
+| --- | --- | --- |
+| pdfStream | InputStream | A stream which will be used as a source of the PDF document |
 
 ### Returns
 Added slides

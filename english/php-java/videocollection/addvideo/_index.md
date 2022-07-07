@@ -7,16 +7,16 @@ weight: 10
 url: /php-java/videocollection/addvideo/
 ---
 
-## addVideo([Video](../../Video) video)  method
+## addVideo([Video](../../video) video)  method
 
  Adds a copy of an video file from an another presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| video | Source video. |
+| Name | Type | Description |
+| --- | --- | --- |
+| video | Video | Source video. |
 
 ### Returns
 Added video.
@@ -32,9 +32,9 @@ Added video.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Stream to add video file from. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Stream to add video file from. |
 
 ### Returns
 Added Video.
@@ -50,10 +50,10 @@ Added Video.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Stream to add video file from. |
-| loadingStreamBehavior | The behavior which will be applied to the stream. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Stream to add video file from. |
+| loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
 ### Returns
 Added IVideo.
@@ -69,9 +69,9 @@ Added IVideo.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| videoData | Video bytes. |
+| Name | Type | Description |
+| --- | --- | --- |
+| videoData | byte[] | Video bytes. |
 
 ### Returns
 Added video.

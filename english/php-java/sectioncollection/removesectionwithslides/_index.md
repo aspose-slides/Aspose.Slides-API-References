@@ -7,16 +7,16 @@ weight: 130
 url: /php-java/sectioncollection/removesectionwithslides/
 ---
 
-## removeSectionWithSlides([Section](../../Section) section)  method
+## removeSectionWithSlides([Section](../../section) section)  method
 
  Remove section and slides contained in the section.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| section | The section to remove from the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| section | Section | The section to remove from the collection. |
 
 
 ---

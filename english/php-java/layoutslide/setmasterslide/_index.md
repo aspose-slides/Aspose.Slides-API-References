@@ -7,7 +7,7 @@ weight: 90
 url: /php-java/layoutslide/setmasterslide/
 ---
 
-## setMasterSlide([MasterSlide](../../MasterSlide) value)  method
+## setMasterSlide([MasterSlide](../../masterslide) value)  method
 
  Returns or sets the master slide for a layout.
  Read/write  IMasterSlide.

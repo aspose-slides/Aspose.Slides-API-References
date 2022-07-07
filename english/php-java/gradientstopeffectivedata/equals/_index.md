@@ -14,9 +14,9 @@ url: /php-java/gradientstopeffectivedata/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The GradientStopEffectiveData to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The GradientStopEffectiveData to compare. |
 
 ### Returns
 GradientStopEffectiveData

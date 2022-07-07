@@ -14,10 +14,10 @@ url: /php-java/gradientstopcollection/addschemecolor/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| position | Position of the new gradient stop. |
-| schemeColor | Color of the new radient stop. |
+| Name | Type | Description |
+| --- | --- | --- |
+| position | float | Position of the new gradient stop. |
+| schemeColor | int | Color of the new radient stop. |
 
 ### Returns
 Index of the new gradient stop in the collection.

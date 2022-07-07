@@ -15,9 +15,9 @@ url: /php-java/shapecollection/insertgroupshape/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which value should be inserted. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which value should be inserted. |
 
 ### Returns
 Created GroupShape object.

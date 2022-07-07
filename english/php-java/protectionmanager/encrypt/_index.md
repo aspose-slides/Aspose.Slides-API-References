@@ -14,9 +14,9 @@ url: /php-java/protectionmanager/encrypt/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| encryptionPassword | The password. |
+| Name | Type | Description |
+| --- | --- | --- |
+| encryptionPassword | String | The password. |
 
 
 ---

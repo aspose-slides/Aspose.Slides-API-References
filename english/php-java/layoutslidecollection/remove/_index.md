@@ -7,16 +7,16 @@ weight: 90
 url: /php-java/layoutslidecollection/remove/
 ---
 
-## remove([LayoutSlide](../../LayoutSlide) value)  method
+## remove([LayoutSlide](../../layoutslide) value)  method
 
  Removes a layout from the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The layout slide to remove from the collection. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove method to simplify code. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | LayoutSlide | The layout slide to remove from the collection. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove method to simplify code. |
 
 ### Exception
 

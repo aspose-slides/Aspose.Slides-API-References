@@ -20,9 +20,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| columnIndex | Zero-based column index |
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Zero-based column index |
 
 ### Returns
 Horizontal Alignment of specified column

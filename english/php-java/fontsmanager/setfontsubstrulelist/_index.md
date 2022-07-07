@@ -7,7 +7,7 @@ weight: 120
 url: /php-java/fontsmanager/setfontsubstrulelist/
 ---
 
-## setFontSubstRuleList([FontSubstRuleCollection](../../FontSubstRuleCollection) value)  method
+## setFontSubstRuleList([FontSubstRuleCollection](../../fontsubstrulecollection) value)  method
 
  Font substitutions to use when rendering.
  Read/write  IFontSubstRuleCollection.

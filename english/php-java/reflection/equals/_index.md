@@ -14,9 +14,9 @@ url: /php-java/reflection/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The Reflection to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Reflection to compare. |
 
 ### Returns
 Reflection

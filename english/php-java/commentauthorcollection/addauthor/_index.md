@@ -14,10 +14,10 @@ url: /php-java/commentauthorcollection/addauthor/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of a new author. |
-| initials | Initials of a new author. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of a new author. |
+| initials | String | Initials of a new author. |
 
 ### Returns
 The ICommentAuthor object.

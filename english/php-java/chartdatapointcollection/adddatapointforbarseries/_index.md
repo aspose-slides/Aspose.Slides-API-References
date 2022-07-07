@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/chartdatapointcollection/adddatapointforbarseries/
 ---
 
-## addDataPointForBarSeries([ChartDataCell](../../ChartDataCell) value)  method
+## addDataPointForBarSeries([ChartDataCell](../../chartdatacell) value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Column or Bar subtypes (see also  ChartTypeCharacterizer#isChartTypeColumn(int) and  ChartTypeCharacterizer#isChartTypeBar(int) method).
@@ -15,9 +15,9 @@ url: /php-java/chartdatapointcollection/adddatapointforbarseries/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Data point Value |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | ChartDataCell | Data point Value |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBar(int)
@@ -34,9 +34,9 @@ ChartTypeCharacterizer#isChartTypeBar(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Data point Value |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | double | Data point Value |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeBar(int)

@@ -7,7 +7,7 @@ weight: 140
 url: /php-java/motioneffect/setpath/
 ---
 
-## setPath([MotionPath](../../MotionPath) value)  method
+## setPath([MotionPath](../../motionpath) value)  method
 
  Specifies the path primitive followed by coordinates for the animation motion.
  Read/write  IMotionPath.

@@ -19,16 +19,16 @@ New presentation
 ---
 
 
-## createPresentation([LoadOptions](../../LoadOptions) options)  method
+## createPresentation([LoadOptions](../../loadoptions) options)  method
 
  Creates new presentation with additional load options
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| options | Load options |
+| Name | Type | Description |
+| --- | --- | --- |
+| options | LoadOptions | Load options |
 
 ### Returns
 New presentation

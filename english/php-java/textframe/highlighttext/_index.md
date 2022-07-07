@@ -14,27 +14,27 @@ url: /php-java/textframe/highlighttext/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | Text sample to highlight. |
-| highlightColor | Highlighting color. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Text sample to highlight. |
+| highlightColor | Color | Highlighting color. |
 
 
 ---
 
 
-## highlightText(String text, Color highlightColor, [TextHighlightingOptions](../../TextHighlightingOptions) options)  method
+## highlightText(String text, Color highlightColor, [TextHighlightingOptions](../../texthighlightingoptions) options)  method
 
  Highlight all matches of sample in text frame text using specified color.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | Text sample to highlight. |
-| highlightColor | Highlighting color. |
-| options | Highlighting options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Text sample to highlight. |
+| highlightColor | Color | Highlighting color. |
+| options | TextHighlightingOptions | Highlighting options. |
 
 
 ---

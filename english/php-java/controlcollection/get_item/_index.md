@@ -14,9 +14,9 @@ url: /php-java/controlcollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a control. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a control. |
 
 
 ---

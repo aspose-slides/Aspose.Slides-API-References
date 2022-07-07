@@ -27,5 +27,5 @@ url: /php-java/ppimage/
 | [getY](gety)() | Returns a Y-offset of an image. Read-only int. |
 | [hashCode](hashcode)() | Returns the hash code of an image. |
 | [replaceImage](replaceimage)(byte[]) | Replaces image data. |
-| [replaceImage](replaceimage)([PPImage](../PPImage)) | Replaces image data. |
-| [setSvgImage](setsvgimage)([SvgImage](../SvgImage)) | Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
+| [replaceImage](replaceimage)([PPImage](../ppimage)) | Replaces image data. |
+| [setSvgImage](setsvgimage)([SvgImage](../svgimage)) | Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |

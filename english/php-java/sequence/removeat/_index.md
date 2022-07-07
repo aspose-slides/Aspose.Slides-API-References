@@ -14,9 +14,9 @@ url: /php-java/sequence/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a effect that should be deleted. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a effect that should be deleted. |
 
 
 ---

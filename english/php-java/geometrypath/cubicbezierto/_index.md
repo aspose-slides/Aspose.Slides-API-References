@@ -14,11 +14,11 @@ url: /php-java/geometrypath/cubicbezierto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| point1 | First direction point |
-| point2 | Second direction point |
-| point3 | End point |
+| Name | Type | Description |
+| --- | --- | --- |
+| point1 | Point2D.Float | First direction point |
+| point2 | Point2D.Float | Second direction point |
+| point3 | Point2D.Float | End point |
 
 
 ---
@@ -31,14 +31,14 @@ url: /php-java/geometrypath/cubicbezierto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x1 | X coordinate of first direction point |
-| y1 | Y coordinate of first direction point |
-| x2 | X coordinate of second direction point |
-| y2 | Y coordinate of second direction point |
-| x3 | X coordinate of end point |
-| y3 | Y coordinate of end point |
+| Name | Type | Description |
+| --- | --- | --- |
+| x1 | float | X coordinate of first direction point |
+| y1 | float | Y coordinate of first direction point |
+| x2 | float | X coordinate of second direction point |
+| y2 | float | Y coordinate of second direction point |
+| x3 | float | X coordinate of end point |
+| y3 | float | Y coordinate of end point |
 
 
 ---
@@ -51,12 +51,12 @@ url: /php-java/geometrypath/cubicbezierto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| point1 | First direction point |
-| point2 | Second direction point |
-| point3 | End point |
-| index | Index of segment in PathData |
+| Name | Type | Description |
+| --- | --- | --- |
+| point1 | Point2D.Float | First direction point |
+| point2 | Point2D.Float | Second direction point |
+| point3 | Point2D.Float | End point |
+| index | long | Index of segment in PathData |
 
 ### Exception
 
@@ -75,15 +75,15 @@ url: /php-java/geometrypath/cubicbezierto/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x1 | X coordinate of first direction point |
-| y1 | Y coordinate of first direction point |
-| x2 | X coordinate of second direction point |
-| y2 | Y coordinate of second direction point |
-| x3 | X coordinate of end point |
-| y3 | Y coordinate of end point |
-| index | Index of segment in PathData |
+| Name | Type | Description |
+| --- | --- | --- |
+| x1 | float | X coordinate of first direction point |
+| y1 | float | Y coordinate of first direction point |
+| x2 | float | X coordinate of second direction point |
+| y2 | float | Y coordinate of second direction point |
+| x3 | float | X coordinate of end point |
+| y3 | float | Y coordinate of end point |
+| index | long | Index of segment in PathData |
 
 ### Exception
 

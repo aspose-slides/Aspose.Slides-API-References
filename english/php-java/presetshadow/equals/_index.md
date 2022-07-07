@@ -14,9 +14,9 @@ url: /php-java/presetshadow/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The PresetShadow to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The PresetShadow to compare. |
 
 ### Returns
 PresetShadow

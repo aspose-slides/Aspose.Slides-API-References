@@ -15,9 +15,9 @@ url: /php-java/presentationheaderfootermanager/setalldatetimesvisibility/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| isVisible | true - makes a date-time placeholders visible, otherwise - hides them. |
+| Name | Type | Description |
+| --- | --- | --- |
+| isVisible | boolean | true - makes a date-time placeholders visible, otherwise - hides them. |
 
 
 ---

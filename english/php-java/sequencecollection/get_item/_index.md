@@ -14,9 +14,9 @@ url: /php-java/sequencecollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of element. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of element. |
 
 ### Returns
 The ISequence object.

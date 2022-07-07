@@ -14,10 +14,10 @@ url: /php-java/htmlformatter/createdocumentformatter/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| css | Specifies CSS for this file. |
-| showSlideTitle | Add slide title if there is one above slide image. |
+| Name | Type | Description |
+| --- | --- | --- |
+| css | String | Specifies CSS for this file. |
+| showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
 ### Returns
 The HtmlFormatter object.

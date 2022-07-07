@@ -14,9 +14,9 @@ url: /php-java/alphainverse/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The AlphaInverse to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaInverse to compare. |
 
 ### Returns
 AlphaInverse

@@ -14,10 +14,10 @@ url: /php-java/presentation/save/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
 
 
 ---
@@ -30,248 +30,248 @@ url: /php-java/presentation/save/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
 
 
 ---
 
 
-## save(String fname, int format, [GifOptions](../../GifOptions) options)  method
+## save(String fname, int format, [GifOptions](../../gifoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [Html5Options](../../Html5Options) options)  method
+## save(String fname, int format, [Html5Options](../../html5options) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [HtmlOptions](../../HtmlOptions) options)  method
+## save(String fname, int format, [HtmlOptions](../../htmloptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [PdfOptions](../../PdfOptions) options)  method
+## save(String fname, int format, [PdfOptions](../../pdfoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [PptOptions](../../PptOptions) options)  method
+## save(String fname, int format, [PptOptions](../../pptoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [PptxOptions](../../PptxOptions) options)  method
+## save(String fname, int format, [PptxOptions](../../pptxoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [RenderingOptions](../../RenderingOptions) options)  method
+## save(String fname, int format, [RenderingOptions](../../renderingoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [SaveOptions](../../SaveOptions) options)  method
+## save(String fname, int format, [SaveOptions](../../saveoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [SVGOptions](../../SVGOptions) options)  method
+## save(String fname, int format, [SVGOptions](../../svgoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [SwfOptions](../../SwfOptions) options)  method
+## save(String fname, int format, [SwfOptions](../../swfoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [TiffOptions](../../TiffOptions) options)  method
+## save(String fname, int format, [TiffOptions](../../tiffoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [XamlOptions](../../XamlOptions) options)  method
+## save(String fname, int format, [XamlOptions](../../xamloptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int format, [XpsOptions](../../XpsOptions) options)  method
+## save(String fname, int format, [XpsOptions](../../xpsoptions) options)  method
 
  Saves all slides of a presentation to a file with the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(OutputStream stream, int format, [GifOptions](../../GifOptions) options)  method
+## save(OutputStream stream, int format, [GifOptions](../../gifoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -283,18 +283,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [Html5Options](../../Html5Options) options)  method
+## save(OutputStream stream, int format, [Html5Options](../../html5options) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -306,18 +306,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [HtmlOptions](../../HtmlOptions) options)  method
+## save(OutputStream stream, int format, [HtmlOptions](../../htmloptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -329,18 +329,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [PdfOptions](../../PdfOptions) options)  method
+## save(OutputStream stream, int format, [PdfOptions](../../pdfoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -352,18 +352,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [PptOptions](../../PptOptions) options)  method
+## save(OutputStream stream, int format, [PptOptions](../../pptoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -375,18 +375,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [PptxOptions](../../PptxOptions) options)  method
+## save(OutputStream stream, int format, [PptxOptions](../../pptxoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -398,18 +398,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [RenderingOptions](../../RenderingOptions) options)  method
+## save(OutputStream stream, int format, [RenderingOptions](../../renderingoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -421,18 +421,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [SaveOptions](../../SaveOptions) options)  method
+## save(OutputStream stream, int format, [SaveOptions](../../saveoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -444,18 +444,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [SVGOptions](../../SVGOptions) options)  method
+## save(OutputStream stream, int format, [SVGOptions](../../svgoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -467,18 +467,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [SwfOptions](../../SwfOptions) options)  method
+## save(OutputStream stream, int format, [SwfOptions](../../swfoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -490,18 +490,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [TiffOptions](../../TiffOptions) options)  method
+## save(OutputStream stream, int format, [TiffOptions](../../tiffoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -513,18 +513,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [XamlOptions](../../XamlOptions) options)  method
+## save(OutputStream stream, int format, [XamlOptions](../../xamloptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -536,18 +536,18 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int format, [XpsOptions](../../XpsOptions) options)  method
+## save(OutputStream stream, int format, [XpsOptions](../../xpsoptions) options)  method
 
  Saves all slides of a presentation to a stream in the specified format and with additional options.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -559,7 +559,7 @@ url: /php-java/presentation/save/
 ---
 
 
-## save([XamlOptions](../../XamlOptions) options)  method
+## save([XamlOptions](../../xamloptions) options)  method
 
  Saves all slides of a presentation to a set of files representing XAML markup.
  
@@ -580,9 +580,9 @@ url: /php-java/presentation/save/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| options | The XAML format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| options | XamlOptions | The XAML format options. |
 
 
 ---
@@ -595,11 +595,11 @@ url: /php-java/presentation/save/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
 
 ### Exception
 
@@ -611,235 +611,235 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(String fname, int[] slides, int format, [GifOptions](../../GifOptions) options)  method
+## save(String fname, int[] slides, int format, [GifOptions](../../gifoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [Html5Options](../../Html5Options) options)  method
+## save(String fname, int[] slides, int format, [Html5Options](../../html5options) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [HtmlOptions](../../HtmlOptions) options)  method
+## save(String fname, int[] slides, int format, [HtmlOptions](../../htmloptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [PdfOptions](../../PdfOptions) options)  method
+## save(String fname, int[] slides, int format, [PdfOptions](../../pdfoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [PptOptions](../../PptOptions) options)  method
+## save(String fname, int[] slides, int format, [PptOptions](../../pptoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [PptxOptions](../../PptxOptions) options)  method
+## save(String fname, int[] slides, int format, [PptxOptions](../../pptxoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [RenderingOptions](../../RenderingOptions) options)  method
+## save(String fname, int[] slides, int format, [RenderingOptions](../../renderingoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [SaveOptions](../../SaveOptions) options)  method
+## save(String fname, int[] slides, int format, [SaveOptions](../../saveoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [SVGOptions](../../SVGOptions) options)  method
+## save(String fname, int[] slides, int format, [SVGOptions](../../svgoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [SwfOptions](../../SwfOptions) options)  method
+## save(String fname, int[] slides, int format, [SwfOptions](../../swfoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [TiffOptions](../../TiffOptions) options)  method
+## save(String fname, int[] slides, int format, [TiffOptions](../../tiffoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [XamlOptions](../../XamlOptions) options)  method
+## save(String fname, int[] slides, int format, [XamlOptions](../../xamloptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
 
 
-## save(String fname, int[] slides, int format, [XpsOptions](../../XpsOptions) options)  method
+## save(String fname, int[] slides, int format, [XpsOptions](../../xpsoptions) options)  method
 
  Saves specified slides of a presentation to a file with the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fname | Path to the created file. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 
 ---
@@ -852,29 +852,29 @@ url: /php-java/presentation/save/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
 
 
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [GifOptions](../../GifOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [GifOptions](../../gifoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -886,19 +886,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [Html5Options](../../Html5Options) options)  method
+## save(OutputStream stream, int[] slides, int format, [Html5Options](../../html5options) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -910,19 +910,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [HtmlOptions](../../HtmlOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [HtmlOptions](../../htmloptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -934,19 +934,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [PdfOptions](../../PdfOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [PdfOptions](../../pdfoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -958,19 +958,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [PptOptions](../../PptOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [PptOptions](../../pptoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -982,19 +982,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [PptxOptions](../../PptxOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [PptxOptions](../../pptxoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -1006,19 +1006,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [RenderingOptions](../../RenderingOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [RenderingOptions](../../renderingoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -1030,19 +1030,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [SaveOptions](../../SaveOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [SaveOptions](../../saveoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -1054,19 +1054,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [SVGOptions](../../SVGOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [SVGOptions](../../svgoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -1078,19 +1078,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [SwfOptions](../../SwfOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [SwfOptions](../../swfoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -1102,19 +1102,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [TiffOptions](../../TiffOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [TiffOptions](../../tiffoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -1126,19 +1126,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [XamlOptions](../../XamlOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [XamlOptions](../../xamloptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 
@@ -1150,19 +1150,19 @@ url: /php-java/presentation/save/
 ---
 
 
-## save(OutputStream stream, int[] slides, int format, [XpsOptions](../../XpsOptions) options)  method
+## save(OutputStream stream, int[] slides, int format, [XpsOptions](../../xpsoptions) options)  method
 
  Saves specified slides of a presentation to a stream in the specified format with page number keeping.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Output stream. |
-| slides | Array with slide positions, starting from 1. |
-| format | Format of the exported data. |
-| options | Additional format options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | OutputStream | Output stream. |
+| slides | int[] | Array with slide positions, starting from 1. |
+| format | int | Format of the exported data. |
+| options | GifOptions | Additional format options. |
 
 ### Exception
 

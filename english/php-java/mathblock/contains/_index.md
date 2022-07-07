@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/mathblock/contains/
 ---
 
-## contains([BaseScript](../../BaseScript) item)  method
+## contains([BaseScript](../../basescript) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -23,9 +23,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -34,7 +34,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathAccent](../../MathAccent) item)  method
+## contains([MathAccent](../../mathaccent) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -50,9 +50,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -61,7 +61,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathArray](../../MathArray) item)  method
+## contains([MathArray](../../matharray) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -77,9 +77,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -88,7 +88,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathBar](../../MathBar) item)  method
+## contains([MathBar](../../mathbar) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -104,9 +104,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -115,7 +115,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathBlock](../../MathBlock) item)  method
+## contains([MathBlock](../../mathblock) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -131,9 +131,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -142,7 +142,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathBorderBox](../../MathBorderBox) item)  method
+## contains([MathBorderBox](../../mathborderbox) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -158,9 +158,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -169,7 +169,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathBox](../../MathBox) item)  method
+## contains([MathBox](../../mathbox) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -185,9 +185,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -196,7 +196,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathDelimiter](../../MathDelimiter) item)  method
+## contains([MathDelimiter](../../mathdelimiter) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -212,9 +212,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -223,7 +223,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathElementBase](../../MathElementBase) item)  method
+## contains([MathElementBase](../../mathelementbase) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -239,9 +239,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -250,7 +250,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathematicalText](../../MathematicalText) item)  method
+## contains([MathematicalText](../../mathematicaltext) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -266,9 +266,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -277,7 +277,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathFraction](../../MathFraction) item)  method
+## contains([MathFraction](../../mathfraction) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -293,9 +293,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -304,7 +304,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathFunction](../../MathFunction) item)  method
+## contains([MathFunction](../../mathfunction) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -320,9 +320,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -331,7 +331,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathGroupingCharacter](../../MathGroupingCharacter) item)  method
+## contains([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -347,9 +347,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -358,7 +358,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
+## contains([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -374,9 +374,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -385,7 +385,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathLimit](../../MathLimit) item)  method
+## contains([MathLimit](../../mathlimit) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -401,9 +401,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -412,7 +412,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathMatrix](../../MathMatrix) item)  method
+## contains([MathMatrix](../../mathmatrix) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -428,9 +428,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -439,7 +439,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathNaryOperator](../../MathNaryOperator) item)  method
+## contains([MathNaryOperator](../../mathnaryoperator) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -455,9 +455,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -466,7 +466,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathRadical](../../MathRadical) item)  method
+## contains([MathRadical](../../mathradical) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -482,9 +482,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -493,7 +493,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
+## contains([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -509,9 +509,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -520,7 +520,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathSubscriptElement](../../MathSubscriptElement) item)  method
+## contains([MathSubscriptElement](../../mathsubscriptelement) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -536,9 +536,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.
@@ -547,7 +547,7 @@ true if item is found in the collection; otherwise, false.
 ---
 
 
-## contains([MathSuperscriptElement](../../MathSuperscriptElement) item)  method
+## contains([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -563,9 +563,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The object to locate in the collection. |
 
 ### Returns
 true if item is found in the collection; otherwise, false.

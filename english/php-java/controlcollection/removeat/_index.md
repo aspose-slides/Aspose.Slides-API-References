@@ -14,9 +14,9 @@ url: /php-java/controlcollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a control to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a control to remove. |
 
 
 ---

@@ -15,9 +15,9 @@ url: /php-java/chartdatapointcollection/getorcreatedatapointbyidx/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | long | Index. |
 
 ### Returns
 Returns data point with requested index.

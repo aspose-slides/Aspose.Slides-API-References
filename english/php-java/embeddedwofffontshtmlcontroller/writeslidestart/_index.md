@@ -7,7 +7,7 @@ weight: 80
 url: /php-java/embeddedwofffontshtmlcontroller/writeslidestart/
 ---
 
-## writeSlideStart([HtmlGenerator](../../HtmlGenerator) generator, [Slide](../../Slide) slide)  method
+## writeSlideStart([HtmlGenerator](../../htmlgenerator) generator, [Slide](../../slide) slide)  method
 
 
 

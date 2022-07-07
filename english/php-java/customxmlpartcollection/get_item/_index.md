@@ -14,9 +14,9 @@ url: /php-java/customxmlpartcollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index of the element to get. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the element to get. |
 
 ### Returns
 The element at the specified index.

@@ -12,9 +12,9 @@ Sets default Locale for current thread.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| locale | The default Locale for current thread. |
+| Name | Type | Description |
+| --- | --- | --- |
+| locale | Locale | The default Locale for current thread. |
 
 ### Exception
 
@@ -31,9 +31,9 @@ Sets default Locale for current thread.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| localeName | The default Locale for current thread. |
+| Name | Type | Description |
+| --- | --- | --- |
+| localeName | String | The default Locale for current thread. |
 
 ### Exception
 

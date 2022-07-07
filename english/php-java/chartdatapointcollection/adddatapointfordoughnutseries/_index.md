@@ -7,7 +7,7 @@ weight: 180
 url: /php-java/chartdatapointcollection/adddatapointfordoughnutseries/
 ---
 
-## addDataPointForDoughnutSeries([ChartDataCell](../../ChartDataCell) value)  method
+## addDataPointForDoughnutSeries([ChartDataCell](../../chartdatacell) value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Doughnut subtypes (see also  ChartTypeCharacterizer#isChartTypeDoughnut(int) method).
@@ -15,9 +15,9 @@ url: /php-java/chartdatapointcollection/adddatapointfordoughnutseries/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Data point Value |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | ChartDataCell | Data point Value |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeDoughnut(int)
@@ -34,9 +34,9 @@ ChartTypeCharacterizer#isChartTypeDoughnut(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Data point Value |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | double | Data point Value |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeDoughnut(int)

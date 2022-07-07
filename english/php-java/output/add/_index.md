@@ -14,11 +14,11 @@ url: /php-java/output/add/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| path | Output path. |
-| templateKey | The key of the template used for context object transformation before output. |
-| contextObject | Context object. |
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| templateKey | String | The key of the template used for context object transformation before output. |
+| contextObject | TContextObject | Context object. |
 
 ### Returns
 IOutputFile object for the context object.
@@ -27,17 +27,17 @@ IOutputFile object for the context object.
 ---
 
 
-## add(String path, [PPImage](../../PPImage) image)  method
+## add(String path, [PPImage](../../ppimage) image)  method
 
  Adds an output element for the image.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| path | Output path. |
-| image | Image to output. |
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| image | PPImage | Image to output. |
 
 ### Returns
 IOutputFile object for the image.
@@ -53,10 +53,10 @@ IOutputFile object for the image.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| path | Output path. |
-| image | Image to output. |
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| image | BufferedImage | Image to output. |
 
 ### Returns
 IOutputFile object for the image.
@@ -65,17 +65,17 @@ IOutputFile object for the image.
 ---
 
 
-## add(String path, [Video](../../Video) video)  method
+## add(String path, [Video](../../video) video)  method
 
  Adds an output element for the video.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| path | Output path. |
-| video | Video to output. |
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| video | Video | Video to output. |
 
 ### Returns
 IOutputFile object for the video.
@@ -84,18 +84,18 @@ IOutputFile object for the video.
 ---
 
 
-## add(String path, [FontData](../../FontData) fontData, int fontStyle)  method
+## add(String path, [FontData](../../fontdata) fontData, int fontStyle)  method
 
  Adds an output element for the font.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| path | Output path. |
-| fontData | Font to output. |
-| fontStyle | Font style. |
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| fontData | FontData | Font to output. |
+| fontStyle | int | Font style. |
 
 ### Returns
 IOutputFile object for the font.
@@ -111,10 +111,10 @@ IOutputFile object for the font.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| path | Output path. |
-| textContent | Content to output. |
+| Name | Type | Description |
+| --- | --- | --- |
+| path | String | Output path. |
+| textContent | String | Content to output. |
 
 ### Returns
 IOutputFile object for the text content.

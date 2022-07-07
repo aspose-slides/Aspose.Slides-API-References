@@ -14,10 +14,10 @@ url: /php-java/rowcollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| firstRowIndex | Index of a row to delete. |
-| withAttachedRows | True to delete also all attached rows. |
+| Name | Type | Description |
+| --- | --- | --- |
+| firstRowIndex | int | Index of a row to delete. |
+| withAttachedRows | boolean | True to delete also all attached rows. |
 
 
 ---

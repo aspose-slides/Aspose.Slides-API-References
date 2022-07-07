@@ -7,7 +7,7 @@ weight: 250
 url: /php-java/loadoptions/setspreadsheetoptions/
 ---
 
-## setSpreadsheetOptions([SpreadsheetOptions](../../SpreadsheetOptions) value)  method
+## setSpreadsheetOptions([SpreadsheetOptions](../../spreadsheetoptions) value)  method
 
  Gets options for spreadsheets. For example, these options affect calculating formulas for charts.
   

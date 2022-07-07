@@ -7,7 +7,7 @@ weight: 570
 url: /php-java/shapecollection/insertzoomframe/
 ---
 
-## insertZoomFrame(int index, float x, float y, float width, float height, [Slide](../../Slide) slide)  method
+## insertZoomFrame(int index, float x, float y, float width, float height, [Slide](../../slide) slide)  method
 
  Creates a new Zoom object and inserts it to a collection at the specified index.
  
@@ -28,14 +28,14 @@ url: /php-java/shapecollection/insertzoomframe/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which Zoom frame should be inserted. |
-| x | X coordinate of a new Zoom frame {@code float}. |
-| y | Y coordinate of a new Zoom frame {@code float}. |
-| width | Width of a new Zoom frame {@code float}. |
-| height | Height of a new Zoom frame {@code float}. |
-| slide | The slide object referenced by the Zoom frame ISlide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which Zoom frame should be inserted. |
+| x | float | X coordinate of a new Zoom frame {@code float}. |
+| y | float | Y coordinate of a new Zoom frame {@code float}. |
+| width | float | Width of a new Zoom frame {@code float}. |
+| height | float | Height of a new Zoom frame {@code float}. |
+| slide | Slide | The slide object referenced by the Zoom frame ISlide. |
 
 ### Returns
 Created Zoom object IZoomFrame.
@@ -50,7 +50,7 @@ Created Zoom object IZoomFrame.
 ---
 
 
-## insertZoomFrame(int index, float x, float y, float width, float height, [Slide](../../Slide) slide, [PPImage](../../PPImage) image)  method
+## insertZoomFrame(int index, float x, float y, float width, float height, [Slide](../../slide) slide, [PPImage](../../ppimage) image)  method
 
  Creates a new Zoom object and inserts it to a collection at the specified index.
  
@@ -72,15 +72,15 @@ Created Zoom object IZoomFrame.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which Zoom frame should be inserted. |
-| x | X coordinate of a new Zoom frame {@code float}. |
-| y | Y coordinate of a new Zoom frame {@code float}. |
-| width | Width of a new Zoom frame {@code float}. |
-| height | Height of a new Zoom frame {@code float}. |
-| slide | The slide object referenced by the Zoom frame ISlide. |
-| image | The image for the referenced slide IPPImage |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which Zoom frame should be inserted. |
+| x | float | X coordinate of a new Zoom frame {@code float}. |
+| y | float | Y coordinate of a new Zoom frame {@code float}. |
+| width | float | Width of a new Zoom frame {@code float}. |
+| height | float | Height of a new Zoom frame {@code float}. |
+| slide | Slide | The slide object referenced by the Zoom frame ISlide. |
+| image | PPImage | The image for the referenced slide IPPImage |
 
 ### Returns
 Created Zoom object IZoomFrame.

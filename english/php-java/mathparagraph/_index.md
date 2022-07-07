@@ -30,18 +30,18 @@ Example:
 
 | Name | Description |
 | --- | --- |
-| [add](add)([MathBlock](../MathBlock)) | Adds IMathBlock to the end of collection. |
+| [add](add)([MathBlock](../mathblock)) | Adds IMathBlock to the end of collection. |
 | [clear](clear)() | Removes all elements from the collection. |
-| [contains](contains)([MathBlock](../MathBlock)) | Determines whether the collection contains a specific value. |
+| [contains](contains)([MathBlock](../mathblock)) | Determines whether the collection contains a specific value. |
 | [getCount](getcount)() | Gets the number of elements actually contained in the collection. Read-only int. |
 | [getJustification](getjustification)() | Paragraph Justification Default value: CenteredAsGroup |
 | [get_Item](get_item)(int) | Gets the item at the specified index. Read-only IMathBlock. |
-| [indexOf](indexof)([MathBlock](../MathBlock)) | Determines the index of a specific IMathBlock in collection. |
-| [insert](insert)(int, [MathBlock](../MathBlock)) | Inserts IMathBlock into the collection at the specified index. |
+| [indexOf](indexof)([MathBlock](../mathblock)) | Determines the index of a specific IMathBlock in collection. |
+| [insert](insert)(int, [MathBlock](../mathblock)) | Inserts IMathBlock into the collection at the specified index. |
 | [iterator](iterator)() |  |
 | [iteratorJava](iteratorjava)() |  |
-| [remove](remove)([MathBlock](../MathBlock)) | Removes the first occurrence of a specific object from the collection. |
+| [remove](remove)([MathBlock](../mathblock)) | Removes the first occurrence of a specific object from the collection. |
 | [removeAt](removeat)(int) | Removes an item at the specified index of the collection. |
 | [setJustification](setjustification)(int) | Paragraph Justification Default value: CenteredAsGroup |
-| [set_Item](set_item)(int, [MathBlock](../MathBlock)) | Gets the item at the specified index. Read-only IMathBlock. |
+| [set_Item](set_item)(int, [MathBlock](../mathblock)) | Gets the item at the specified index. Read-only IMathBlock. |
 | [writeAsMathMl](writeasmathml)(OutputStream) | Saves content of this MathParagraph as MathML |

@@ -14,9 +14,9 @@ url: /php-java/commentauthorcollection/findbyname/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of an author to find. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of an author to find. |
 
 ### Returns
 Author or null.

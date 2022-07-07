@@ -25,7 +25,7 @@ url: /php-java/shapeframe/
 | [cloneT](clonet)() | Clones. |
 | [deepClone](deepclone)() | Clones |
 | [equals](equals)(Object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [equals](equals)([ShapeFrame](../ShapeFrame)) | Returns a value indicating whether this instance is equal to a specified object. |
+| [equals](equals)([ShapeFrame](../shapeframe)) | Returns a value indicating whether this instance is equal to a specified object. |
 | [getCenterX](getcenterx)() | Returns the X coordinate of a frame's center. Read-only float. |
 | [getCenterY](getcentery)() | Returns the Y coordinate of a frame's center. Read-only float. |
 | [getFlipH](getfliph)() | Determines whether a frame is flipped horizontally. Read-only NullableBool. |

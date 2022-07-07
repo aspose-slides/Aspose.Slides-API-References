@@ -14,10 +14,10 @@ url: /php-java/commentauthorcollection/findbynameandinitials/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Name of an author to find. |
-| initials | Initials of an author to find. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of an author to find. |
+| initials | String | Initials of an author to find. |
 
 ### Returns
 Author or null.

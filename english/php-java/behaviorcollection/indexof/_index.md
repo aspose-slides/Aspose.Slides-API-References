@@ -7,16 +7,16 @@ weight: 70
 url: /php-java/behaviorcollection/indexof/
 ---
 
-## indexOf([Behavior](../../Behavior) item)  method
+## indexOf([Behavior](../../behavior) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the List. |
 
 ### Returns
 List
@@ -25,16 +25,16 @@ List
 ---
 
 
-## indexOf([ColorEffect](../../ColorEffect) item)  method
+## indexOf([ColorEffect](../../coloreffect) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the List. |
 
 ### Returns
 List
@@ -43,16 +43,16 @@ List
 ---
 
 
-## indexOf([CommandEffect](../../CommandEffect) item)  method
+## indexOf([CommandEffect](../../commandeffect) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the List. |
 
 ### Returns
 List
@@ -61,16 +61,16 @@ List
 ---
 
 
-## indexOf([FilterEffect](../../FilterEffect) item)  method
+## indexOf([FilterEffect](../../filtereffect) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the List. |
 
 ### Returns
 List
@@ -79,16 +79,16 @@ List
 ---
 
 
-## indexOf([MotionEffect](../../MotionEffect) item)  method
+## indexOf([MotionEffect](../../motioneffect) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the List. |
 
 ### Returns
 List
@@ -97,16 +97,16 @@ List
 ---
 
 
-## indexOf([PropertyEffect](../../PropertyEffect) item)  method
+## indexOf([PropertyEffect](../../propertyeffect) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the List. |
 
 ### Returns
 List
@@ -115,16 +115,16 @@ List
 ---
 
 
-## indexOf([RotationEffect](../../RotationEffect) item)  method
+## indexOf([RotationEffect](../../rotationeffect) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the List. |
 
 ### Returns
 List
@@ -133,16 +133,16 @@ List
 ---
 
 
-## indexOf([ScaleEffect](../../ScaleEffect) item)  method
+## indexOf([ScaleEffect](../../scaleeffect) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the List. |
 
 ### Returns
 List
@@ -151,16 +151,16 @@ List
 ---
 
 
-## indexOf([SetEffect](../../SetEffect) item)  method
+## indexOf([SetEffect](../../seteffect) item)  method
 
  Determines the index of a specific item in the  List.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to locate in the List. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | Behavior | The object to locate in the List. |
 
 ### Returns
 List

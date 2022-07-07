@@ -20,9 +20,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| columnIndex | The zero-based index of the column to delete. |
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | The zero-based index of the column to delete. |
 
 ### Exception
 

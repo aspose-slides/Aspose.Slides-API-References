@@ -14,13 +14,13 @@ url: /php-java/shapecollection/addvideoframe/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new video frame. |
-| y | Y coordinate of a new video frame. |
-| width | Width of a new video frame. |
-| height | Height of a new video frame. |
-| fname | Video file name. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new video frame. |
+| y | float | Y coordinate of a new video frame. |
+| width | float | Width of a new video frame. |
+| height | float | Height of a new video frame. |
+| fname | String | Video file name. |
 
 ### Returns
 Created VideoFrame object.
@@ -29,20 +29,20 @@ Created VideoFrame object.
 ---
 
 
-## addVideoFrame(float x, float y, float width, float height, [Video](../../Video) video)  method
+## addVideoFrame(float x, float y, float width, float height, [Video](../../video) video)  method
 
  Adds a new video frame to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new video frame. |
-| y | Y coordinate of a new video frame. |
-| width | Width of a new video frame. |
-| height | Height of a new video frame. |
-| video | Video to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new video frame. |
+| y | float | Y coordinate of a new video frame. |
+| width | float | Width of a new video frame. |
+| height | float | Height of a new video frame. |
+| video | Video | Video to add. |
 
 ### Returns
 Created VideoFrame object.

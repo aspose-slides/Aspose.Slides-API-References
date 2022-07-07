@@ -7,7 +7,7 @@ weight: 70
 url: /php-java/summaryzoomsectioncollection/indexof/
 ---
 
-## indexOf([SummaryZoomSection](../../SummaryZoomSection) summaryZoomSection)  method
+## indexOf([SummaryZoomSection](../../summaryzoomsection) summaryZoomSection)  method
 
  Returns an index of the specified SummaryZoomSection object.
  
@@ -29,9 +29,9 @@ The example demonstrates getting Summary Zoom Section element by index:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| summaryZoomSection | SummaryZoomSection object to find ISummaryZoomSection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| summaryZoomSection | SummaryZoomSection | SummaryZoomSection object to find ISummaryZoomSection. |
 
 ### Returns
 Index of a SummaryZoomSection object or -1 if SummaryZoomSection object not from this collection.

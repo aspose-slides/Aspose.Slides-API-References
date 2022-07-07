@@ -15,9 +15,9 @@ url: /php-java/presentationheaderfootermanager/setvisibilityonalltitleslides/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| isVisible | true - makes a placeholders visible, otherwise - hides them. |
+| Name | Type | Description |
+| --- | --- | --- |
+| isVisible | boolean | true - makes a placeholders visible, otherwise - hides them. |
 
 
 ---

@@ -28,12 +28,12 @@ url: /php-java/shapecollection/addsummaryzoomframe/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new Section Zoom frame {@code float}. |
-| y | Y coordinate of a new Section Zoom frame {@code float}. |
-| width | Width of a new Section Zoom frame {@code float}. |
-| height | Height of a new Section Zoom frame {@code float}. This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new Section Zoom frame {@code float}. |
+| y | float | Y coordinate of a new Section Zoom frame {@code float}. |
+| width | float | Width of a new Section Zoom frame {@code float}. |
+| height | float | Height of a new Section Zoom frame {@code float}. This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation. |
 
 ### Returns
 Created Summary Zoom object ISummaryZoomFrame.

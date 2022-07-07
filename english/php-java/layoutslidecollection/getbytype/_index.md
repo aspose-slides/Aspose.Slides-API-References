@@ -14,9 +14,9 @@ url: /php-java/layoutslidecollection/getbytype/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| type | A type of layout slide to find. |
+| Name | Type | Description |
+| --- | --- | --- |
+| type | byte | A type of layout slide to find. |
 
 ### Returns
 LayoutSlide with specified type or null if no layouts found.

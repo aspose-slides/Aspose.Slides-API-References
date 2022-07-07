@@ -19,9 +19,9 @@ url: /php-java/convert/tosvg/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| presPath | Path of the input presentation |
+| Name | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
 
 ### Returns
 Presentation
@@ -30,7 +30,7 @@ Presentation
 ---
 
 
-## toSvg([Presentation](../../Presentation) pres, [SVGOptions](../../SVGOptions) options)  method
+## toSvg([Presentation](../../presentation) pres, [SVGOptions](../../svgoptions) options)  method
 
  Converts  Presentation to SVG.
  
@@ -51,10 +51,10 @@ Presentation
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| pres | Input presentation |
-| options | SVG export options |
+| Name | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Input presentation |
+| options | SVGOptions | SVG export options |
 
 ### Returns
 Presentation

@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/fontfallbackrulescollection/add/
 ---
 
-## add([FontFallBackRule](../../FontFallBackRule) sourceRule)  method
+## add([FontFallBackRule](../../fontfallbackrule) sourceRule)  method
 
  Add a specified FallBack rule to the end of the collection.
  
@@ -29,9 +29,9 @@ url: /php-java/fontfallbackrulescollection/add/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| sourceRule | Specified rule for adding |
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceRule | FontFallBackRule | Specified rule for adding |
 
 
 ---

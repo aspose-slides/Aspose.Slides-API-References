@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/control/setframe/
 ---
 
-## setFrame([ShapeFrame](../../ShapeFrame) value)  method
+## setFrame([ShapeFrame](../../shapeframe) value)  method
 
  Returns or sets control's frame.
  Read/write  IShapeFrame.

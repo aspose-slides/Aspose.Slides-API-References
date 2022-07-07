@@ -7,16 +7,16 @@ weight: 10
 url: /php-java/shape/addplaceholder/
 ---
 
-## addPlaceholder([Placeholder](../../Placeholder) placeholderToCopyFrom)  method
+## addPlaceholder([Placeholder](../../placeholder) placeholderToCopyFrom)  method
 
  Adds a new placeholder if there is no and sets placeholder properties to a specified one.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| placeholderToCopyFrom | Placeholder to copy content from. |
+| Name | Type | Description |
+| --- | --- | --- |
+| placeholderToCopyFrom | Placeholder | Placeholder to copy content from. |
 
 ### Returns
 New Placeholder( #getPlaceholder).

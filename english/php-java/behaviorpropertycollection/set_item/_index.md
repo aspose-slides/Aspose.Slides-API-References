@@ -7,16 +7,16 @@ weight: 240
 url: /php-java/behaviorpropertycollection/set_item/
 ---
 
-## set_Item(int index, [BehaviorProperty](../../BehaviorProperty) value)  method
+## set_Item(int index, [BehaviorProperty](../../behaviorproperty) value)  method
 
  Sets a property at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a property to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a property to return. |
 
 
 ---

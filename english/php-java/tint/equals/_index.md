@@ -14,9 +14,9 @@ url: /php-java/tint/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The Tint to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Tint to compare. |
 
 ### Returns
 Tint

@@ -15,13 +15,13 @@ url: /php-java/shapecollection/addchart/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| type | Type of chart. |
-| x | X coordinate of a new chart. |
-| y | Y coordinate of a new chart. |
-| width | Chart's width. |
-| height | Chart's height. |
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | Type of chart. |
+| x | float | X coordinate of a new chart. |
+| y | float | Y coordinate of a new chart. |
+| width | float | Chart's width. |
+| height | float | Chart's height. |
 
 ### Returns
 Created chart.
@@ -37,14 +37,14 @@ Created chart.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| type | Type of chart. |
-| x | X coordinate of a new chart. |
-| y | Y coordinate of a new chart. |
-| width | Chart's width. |
-| height | Chart's height. |
-| initWithSample | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | Type of chart. |
+| x | float | X coordinate of a new chart. |
+| y | float | Y coordinate of a new chart. |
+| width | float | Chart's width. |
+| height | float | Chart's height. |
+| initWithSample | boolean | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
 
 ### Returns
 Created chart.

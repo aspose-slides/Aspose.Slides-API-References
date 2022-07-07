@@ -14,9 +14,9 @@ url: /php-java/htmlexternalresolver/getentity/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| absoluteUri | Absolute URI to the object. |
+| Name | Type | Description |
+| --- | --- | --- |
+| absoluteUri | String | Absolute URI to the object. |
 
 ### Returns
 A InputStream object or null if resource cannot be streamed.

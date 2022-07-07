@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/mathblock/add/
 ---
 
-## add([BaseScript](../../BaseScript) item)  method
+## add([BaseScript](../../basescript) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -21,15 +21,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathAccent](../../MathAccent) item)  method
+## add([MathAccent](../../mathaccent) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -43,15 +43,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathArray](../../MathArray) item)  method
+## add([MathArray](../../matharray) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -65,15 +65,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathBar](../../MathBar) item)  method
+## add([MathBar](../../mathbar) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -87,15 +87,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathBlock](../../MathBlock) item)  method
+## add([MathBlock](../../mathblock) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -109,15 +109,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathBorderBox](../../MathBorderBox) item)  method
+## add([MathBorderBox](../../mathborderbox) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -131,15 +131,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathBox](../../MathBox) item)  method
+## add([MathBox](../../mathbox) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -153,15 +153,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathDelimiter](../../MathDelimiter) item)  method
+## add([MathDelimiter](../../mathdelimiter) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -175,15 +175,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathElementBase](../../MathElementBase) item)  method
+## add([MathElementBase](../../mathelementbase) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -197,15 +197,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathematicalText](../../MathematicalText) item)  method
+## add([MathematicalText](../../mathematicaltext) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -219,15 +219,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathFraction](../../MathFraction) item)  method
+## add([MathFraction](../../mathfraction) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -241,15 +241,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathFunction](../../MathFunction) item)  method
+## add([MathFunction](../../mathfunction) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -263,15 +263,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathGroupingCharacter](../../MathGroupingCharacter) item)  method
+## add([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -285,15 +285,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathLeftSubSuperscriptElement](../../MathLeftSubSuperscriptElement) item)  method
+## add([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -307,15 +307,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathLimit](../../MathLimit) item)  method
+## add([MathLimit](../../mathlimit) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -329,15 +329,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathMatrix](../../MathMatrix) item)  method
+## add([MathMatrix](../../mathmatrix) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -351,15 +351,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathNaryOperator](../../MathNaryOperator) item)  method
+## add([MathNaryOperator](../../mathnaryoperator) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -373,15 +373,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathRadical](../../MathRadical) item)  method
+## add([MathRadical](../../mathradical) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -395,15 +395,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathRightSubSuperscriptElement](../../MathRightSubSuperscriptElement) item)  method
+## add([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -417,15 +417,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathSubscriptElement](../../MathSubscriptElement) item)  method
+## add([MathSubscriptElement](../../mathsubscriptelement) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -439,15 +439,15 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---
 
 
-## add([MathSuperscriptElement](../../MathSuperscriptElement) item)  method
+## add([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Adds a math element to the end of the collection.
  
@@ -461,9 +461,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The IMathElement to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | BaseScript | The IMathElement to be added to the end of the collection. |
 
 
 ---

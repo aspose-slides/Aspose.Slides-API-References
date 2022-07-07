@@ -7,7 +7,7 @@ weight: 30
 url: /php-java/behaviorpropertycollection/additem/
 ---
 
-## addItem([BehaviorProperty](../../BehaviorProperty) item)  method
+## addItem([BehaviorProperty](../../behaviorproperty) item)  method
 
 
 

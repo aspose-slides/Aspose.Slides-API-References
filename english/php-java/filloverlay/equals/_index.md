@@ -14,9 +14,9 @@ url: /php-java/filloverlay/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The FillOverlay to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The FillOverlay to compare. |
 
 ### Returns
 FillOverlay

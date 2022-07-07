@@ -20,10 +20,10 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| beginningCharacter | Beginning character (usually left bracket) |
-| endingCharacter | Ending character (usually right bracket) |
+| Name | Type | Description |
+| --- | --- | --- |
+| beginningCharacter | char | Beginning character (usually left bracket) |
+| endingCharacter | char | Ending character (usually right bracket) |
 
 ### Returns
 If beginningCharacter and endingCharacter are null, corresponding properties are assigned values only and no new object is created (returns this instance). Otherwise, returns new math element of type Delimiter which includes specified characters as framing and this instance of MathDelimiter framed inside.

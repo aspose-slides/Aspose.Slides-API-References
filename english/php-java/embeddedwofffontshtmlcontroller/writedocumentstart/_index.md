@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/embeddedwofffontshtmlcontroller/writedocumentstart/
 ---
 
-## writeDocumentStart([HtmlGenerator](../../HtmlGenerator) generator, [Presentation](../../Presentation) presentation)  method
+## writeDocumentStart([HtmlGenerator](../../htmlgenerator) generator, [Presentation](../../presentation) presentation)  method
 
 
 

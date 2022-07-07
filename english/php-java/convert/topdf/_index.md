@@ -19,10 +19,10 @@ url: /php-java/convert/topdf/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| presPath | Path of the input presentation |
-| outPath | Output path |
+| Name | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| outPath | String | Output path |
 
 ### Returns
 Presentation
@@ -31,7 +31,7 @@ Presentation
 ---
 
 
-## toPdf(String presPath, String outPath, [PdfOptions](../../PdfOptions) options)  method
+## toPdf(String presPath, String outPath, [PdfOptions](../../pdfoptions) options)  method
 
  Converts  Presentation to PDF.
  
@@ -45,11 +45,11 @@ Presentation
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| presPath | Path of the input presentation |
-| outPath | Output path |
-| options | Output PDF options |
+| Name | Type | Description |
+| --- | --- | --- |
+| presPath | String | Path of the input presentation |
+| outPath | String | Output path |
+| options | PdfOptions | Output PDF options |
 
 ### Returns
 Presentation
@@ -58,7 +58,7 @@ Presentation
 ---
 
 
-## toPdf([Presentation](../../Presentation) pres, String outPath)  method
+## toPdf([Presentation](../../presentation) pres, String outPath)  method
 
  Converts  Presentation to PDF.
  
@@ -77,10 +77,10 @@ Presentation
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| pres | Input presentation |
-| outPath | Output path |
+| Name | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Input presentation |
+| outPath | String | Output path |
 
 ### Returns
 Presentation
@@ -89,7 +89,7 @@ Presentation
 ---
 
 
-## toPdf([Presentation](../../Presentation) pres, String outPath, [PdfOptions](../../PdfOptions) options)  method
+## toPdf([Presentation](../../presentation) pres, String outPath, [PdfOptions](../../pdfoptions) options)  method
 
  Converts  Presentation to PDF.
  
@@ -110,11 +110,11 @@ Presentation
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| pres | Input presentation |
-| outPath | Output path |
-| options | Output PDF options |
+| Name | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Input presentation |
+| outPath | String | Output path |
+| options | PdfOptions | Output PDF options |
 
 ### Returns
 Presentation

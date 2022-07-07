@@ -7,17 +7,17 @@ weight: 290
 url: /php-java/slidecollection/reorder/
 ---
 
-## reorder(int index, [Slide](../../Slide) slide)  method
+## reorder(int index, [Slide](../../slide) slide)  method
 
  Moves slide from the collection to the specified position.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Target index. |
-| slide | Slide to move. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| slide | Slide | Slide to move. |
 
 
 ---
@@ -31,10 +31,10 @@ url: /php-java/slidecollection/reorder/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Target index. |
-| slides | Slides to move. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| slides | com.aspose.slides.ISlide[] | Slides to move. |
 
 
 ---

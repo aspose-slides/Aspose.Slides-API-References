@@ -14,10 +14,10 @@ url: /php-java/presentationfactory/getpresentationtext/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| file | Input file |
-| mode | Extraction mode |
+| Name | Type | Description |
+| --- | --- | --- |
+| file | String | Input file |
+| mode | int | Extraction mode |
 
 ### Returns
 The instance of PresentationText containing the SlideText array representing the raw slides text
@@ -33,10 +33,10 @@ The instance of PresentationText containing the SlideText array representing the
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Input stream |
-| mode | Extraction mode |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Input stream |
+| mode | int | Extraction mode |
 
 ### Returns
 The instance of PresentationText containing the SlideText array representing the raw slides text
@@ -45,18 +45,18 @@ The instance of PresentationText containing the SlideText array representing the
 ---
 
 
-## getPresentationText(InputStream stream, int mode, [LoadOptions](../../LoadOptions) options)  method
+## getPresentationText(InputStream stream, int mode, [LoadOptions](../../loadoptions) options)  method
 
  Retrieves the raw text from the slides
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| stream | Input stream |
-| mode | Extraction mode |
-| options | Load options |
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Input stream |
+| mode | int | Extraction mode |
+| options | LoadOptions | Load options |
 
 ### Returns
 The instance of PresentationText containing the SlideText array representing the raw slides text

@@ -31,5 +31,5 @@ url: /php-java/paragraph/
 | [getSlide](getslide)() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
 | [getText](gettext)() | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
 | [joinPortionsWithSameFormatting](joinportionswithsameformatting)() | Joins runs with same formatting. |
-| [setEndParagraphPortionFormat](setendparagraphportionformat)([PortionFormat](../PortionFormat)) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
+| [setEndParagraphPortionFormat](setendparagraphportionformat)([PortionFormat](../portionformat)) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
 | [setText](settext)(String) | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |

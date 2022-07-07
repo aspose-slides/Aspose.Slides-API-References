@@ -14,12 +14,12 @@ url: /php-java/motionpath/add/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| type | MotionCommandPathType |
-| pts | Array of points |
-| ptsType | MotionPathPointsType |
-| bRelativeCoord | Relative coordinates boolean |
+| Name | Type | Description |
+| --- | --- | --- |
+| type | int | MotionCommandPathType |
+| pts | java.awt.geom.Point2D.Float[] | Array of points |
+| ptsType | int | MotionPathPointsType |
+| bRelativeCoord | boolean | Relative coordinates boolean |
 
 
 ---

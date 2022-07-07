@@ -7,147 +7,147 @@ weight: 60
 url: /php-java/responsivehtmlcontroller/writeshapestart/
 ---
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [AudioFrame](../../AudioFrame) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [AudioFrame](../../audioframe) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [AutoShape](../../AutoShape) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [AutoShape](../../autoshape) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [Chart](../../Chart) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Chart](../../chart) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [Connector](../../Connector) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Connector](../../connector) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [GeometryShape](../../GeometryShape) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [GeometryShape](../../geometryshape) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [GraphicalObject](../../GraphicalObject) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [GraphicalObject](../../graphicalobject) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [GroupShape](../../GroupShape) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [GroupShape](../../groupshape) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [Ink](../../Ink) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Ink](../../ink) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [LegacyDiagram](../../LegacyDiagram) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [LegacyDiagram](../../legacydiagram) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [OleObjectFrame](../../OleObjectFrame) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [OleObjectFrame](../../oleobjectframe) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [PictureFrame](../../PictureFrame) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [PictureFrame](../../pictureframe) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [SectionZoomFrame](../../SectionZoomFrame) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SectionZoomFrame](../../sectionzoomframe) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [Shape](../../Shape) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Shape](../../shape) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [SmartArt](../../SmartArt) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SmartArt](../../smartart) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [SmartArtShape](../../SmartArtShape) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SmartArtShape](../../smartartshape) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [SummaryZoomFrame](../../SummaryZoomFrame) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [SummaryZoomSection](../../SummaryZoomSection) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SummaryZoomSection](../../summaryzoomsection) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [Table](../../Table) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Table](../../table) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [VideoFrame](../../VideoFrame) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [VideoFrame](../../videoframe) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [ZoomFrame](../../ZoomFrame) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [ZoomFrame](../../zoomframe) shape)  method
 
 
 
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../HtmlGenerator) generator, [ZoomObject](../../ZoomObject) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [ZoomObject](../../zoomobject) shape)  method
 
 
 

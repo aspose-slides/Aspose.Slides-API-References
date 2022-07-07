@@ -14,9 +14,9 @@ url: /php-java/transitionvaluebase/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The TransitionValueBase to compare with the current TransitionValueBase. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The TransitionValueBase to compare with the current TransitionValueBase. |
 
 ### Returns
 true if the specified TransitionValueBase is equal to the current TransitionValueBase; otherwise, false.

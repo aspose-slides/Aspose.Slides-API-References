@@ -7,17 +7,17 @@ weight: 140
 url: /php-java/behaviorpropertycollection/insert/
 ---
 
-## insert(int index, [BehaviorProperty](../../BehaviorProperty) item)  method
+## insert(int index, [BehaviorProperty](../../behaviorproperty) item)  method
 
  Inserts a new property to the collection at the specified index.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index where a new property should be inserted. |
-| item | Property to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index where a new property should be inserted. |
+| item | BehaviorProperty | Property to add. |
 
 
 ---
@@ -30,10 +30,10 @@ url: /php-java/behaviorpropertycollection/insert/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index where a new property should be inserted. |
-| propertyValue | Value of the property to add. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index where a new property should be inserted. |
+| propertyValue | String | Value of the property to add. |
 
 
 ---

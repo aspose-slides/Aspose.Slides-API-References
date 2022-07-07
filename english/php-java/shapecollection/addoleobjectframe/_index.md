@@ -7,7 +7,7 @@ weight: 170
 url: /php-java/shapecollection/addoleobjectframe/
 ---
 
-## addOleObjectFrame(float x, float y, float width, float height, [OleEmbeddedDataInfo](../../OleEmbeddedDataInfo) dataInfo)  method
+## addOleObjectFrame(float x, float y, float width, float height, [OleEmbeddedDataInfo](../../oleembeddeddatainfo) dataInfo)  method
 
  Adds a new OLE object to the end of a collection.
  
@@ -22,13 +22,13 @@ url: /php-java/shapecollection/addoleobjectframe/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new OLE frame. |
-| y | Y coordinate of a new OLE frame. |
-| width | Width of a new OLE frame. |
-| height | Height of a new OLE frame. |
-| dataInfo | Embedded data info IOleEmbeddedDataInfo. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new OLE frame. |
+| y | float | Y coordinate of a new OLE frame. |
+| width | float | Width of a new OLE frame. |
+| height | float | Height of a new OLE frame. |
+| dataInfo | OleEmbeddedDataInfo | Embedded data info IOleEmbeddedDataInfo. |
 
 ### Returns
 Created OLE object.
@@ -44,14 +44,14 @@ Created OLE object.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new OLE frame. |
-| y | Y coordinate of a new OLE frame. |
-| width | Width of a new OLE frame. |
-| height | Height of a new OLE frame. |
-| className | Name of an OLE class. |
-| path | Path to the linked file.The path is stored in the presentation as is. If a relative path is specified the corresponding file will be inaccessible when opening the presentation from a different directory. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new OLE frame. |
+| y | float | Y coordinate of a new OLE frame. |
+| width | float | Width of a new OLE frame. |
+| height | float | Height of a new OLE frame. |
+| className | String | Name of an OLE class. |
+| path | String | Path to the linked file.The path is stored in the presentation as is. If a relative path is specified the corresponding file will be inaccessible when opening the presentation from a different directory. |
 
 ### Returns
 Created OLE object.

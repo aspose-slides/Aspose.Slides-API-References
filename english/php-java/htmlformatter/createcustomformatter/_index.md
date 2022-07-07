@@ -7,16 +7,16 @@ weight: 10
 url: /php-java/htmlformatter/createcustomformatter/
 ---
 
-## createCustomFormatter([EmbedAllFontsHtmlController](../../EmbedAllFontsHtmlController) formattingController)  method
+## createCustomFormatter([EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| formattingController | Callback interface which controls html file generation. |
+| Name | Type | Description |
+| --- | --- | --- |
+| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
 
 ### Returns
 The HtmlFormatter object.
@@ -25,16 +25,16 @@ The HtmlFormatter object.
 ---
 
 
-## createCustomFormatter([EmbeddedEotFontsHtmlController](../../EmbeddedEotFontsHtmlController) formattingController)  method
+## createCustomFormatter([EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| formattingController | Callback interface which controls html file generation. |
+| Name | Type | Description |
+| --- | --- | --- |
+| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
 
 ### Returns
 The HtmlFormatter object.
@@ -43,16 +43,16 @@ The HtmlFormatter object.
 ---
 
 
-## createCustomFormatter([EmbeddedWoffFontsHtmlController](../../EmbeddedWoffFontsHtmlController) formattingController)  method
+## createCustomFormatter([EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| formattingController | Callback interface which controls html file generation. |
+| Name | Type | Description |
+| --- | --- | --- |
+| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
 
 ### Returns
 The HtmlFormatter object.
@@ -61,16 +61,16 @@ The HtmlFormatter object.
 ---
 
 
-## createCustomFormatter([ResponsiveHtmlController](../../ResponsiveHtmlController) formattingController)  method
+## createCustomFormatter([ResponsiveHtmlController](../../responsivehtmlcontroller) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| formattingController | Callback interface which controls html file generation. |
+| Name | Type | Description |
+| --- | --- | --- |
+| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
 
 ### Returns
 The HtmlFormatter object.
@@ -79,16 +79,16 @@ The HtmlFormatter object.
 ---
 
 
-## createCustomFormatter([VideoPlayerHtmlController](../../VideoPlayerHtmlController) formattingController)  method
+## createCustomFormatter([VideoPlayerHtmlController](../../videoplayerhtmlcontroller) formattingController)  method
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| formattingController | Callback interface which controls html file generation. |
+| Name | Type | Description |
+| --- | --- | --- |
+| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
 
 ### Returns
 The HtmlFormatter object.

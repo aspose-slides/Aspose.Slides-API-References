@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/slideutil/alignshapes/
 ---
 
-## alignShapes(int alignmentType, boolean alignToSlide, [ShapeCollection](../../ShapeCollection) shapes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [ShapeCollection](../../shapecollection) shapes)  method
 
  Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -27,17 +27,17 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges |
-| shapes | Shapes collection to be aligned |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges |
+| shapes | ShapeCollection | Shapes collection to be aligned |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [BaseSlide](../../BaseSlide) slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [BaseSlide](../../baseslide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -57,17 +57,17 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../LayoutSlide) slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../layoutslide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -87,17 +87,17 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../MasterHandoutSlide) slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../masterhandoutslide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -117,17 +117,17 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../MasterNotesSlide) slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../masternotesslide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -147,17 +147,17 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterSlide](../../MasterSlide) slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterSlide](../../masterslide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -177,17 +177,17 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [NotesSlide](../../NotesSlide) slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [NotesSlide](../../notesslide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -207,17 +207,17 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [Slide](../../Slide) slide)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [Slide](../../slide) slide)  method
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -237,17 +237,17 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [BaseSlide](../../BaseSlide) slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [BaseSlide](../../baseslide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -270,18 +270,18 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
+| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../LayoutSlide) slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../layoutslide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -304,18 +304,18 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
+| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../MasterHandoutSlide) slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../masterhandoutslide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -338,18 +338,18 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
+| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../MasterNotesSlide) slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../masternotesslide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -372,18 +372,18 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
+| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterSlide](../../MasterSlide) slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterSlide](../../masterslide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -406,18 +406,18 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
+| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [NotesSlide](../../NotesSlide) slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [NotesSlide](../../notesslide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -440,18 +440,18 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
+| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [Slide](../../Slide) slide, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [Slide](../../slide) slide, int[] shapeIndexes)  method
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -474,18 +474,18 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| slide | Parent slide. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | BaseSlide | Parent slide. |
+| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [GroupShape](../../GroupShape) groupShape)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [GroupShape](../../groupshape) groupShape)  method
 
  Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -506,17 +506,17 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| groupShape | Parent group shape. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| groupShape | GroupShape | Parent group shape. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [GroupShape](../../GroupShape) groupShape, int[] shapeIndexes)  method
+## alignShapes(int alignmentType, boolean alignToSlide, [GroupShape](../../groupshape) groupShape, int[] shapeIndexes)  method
 
  Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -537,12 +537,12 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| alignmentType | Determines which type of alignment will be applied. |
-| alignToSlide | If true, shapes will be aligned relative to the slide edges. |
-| groupShape | Parent group shape. |
-| shapeIndexes | Indexes of shapes to be aligned. |
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| groupShape | GroupShape | Parent group shape. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
 
 
 ---

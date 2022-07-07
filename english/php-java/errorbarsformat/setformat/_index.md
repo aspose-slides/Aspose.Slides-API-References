@@ -7,7 +7,7 @@ weight: 110
 url: /php-java/errorbarsformat/setformat/
 ---
 
-## setFormat([Format](../../Format) value)  method
+## setFormat([Format](../../format) value)  method
 
  Represents the format of the error bars.
  Read/write  IFormat.

@@ -21,13 +21,13 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | The X-coordinate for a left side of diagram's frame. |
-| y | The Y-coordinate for a left side of diagram's frame. |
-| width | The width of diagram's frame. |
-| height | The height of diagram's frame. |
-| layoutType | The type of SmartArt diagram |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | The X-coordinate for a left side of diagram's frame. |
+| y | float | The Y-coordinate for a left side of diagram's frame. |
+| width | float | The width of diagram's frame. |
+| height | float | The height of diagram's frame. |
+| layoutType | int | The type of SmartArt diagram |
 
 ### Returns
 Create SmartArt diagram

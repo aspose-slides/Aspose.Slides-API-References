@@ -7,7 +7,7 @@ weight: 10
 url: /php-java/sequencecollection/add/
 ---
 
-## add([AudioFrame](../../AudioFrame) shapeTrigger)  method
+## add([AudioFrame](../../audioframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -20,7 +20,7 @@ Sequence
 ---
 
 
-## add([AutoShape](../../AutoShape) shapeTrigger)  method
+## add([AutoShape](../../autoshape) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -33,7 +33,7 @@ Sequence
 ---
 
 
-## add([Chart](../../Chart) shapeTrigger)  method
+## add([Chart](../../chart) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -46,7 +46,7 @@ Sequence
 ---
 
 
-## add([Connector](../../Connector) shapeTrigger)  method
+## add([Connector](../../connector) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -59,7 +59,7 @@ Sequence
 ---
 
 
-## add([GeometryShape](../../GeometryShape) shapeTrigger)  method
+## add([GeometryShape](../../geometryshape) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -72,7 +72,7 @@ Sequence
 ---
 
 
-## add([GraphicalObject](../../GraphicalObject) shapeTrigger)  method
+## add([GraphicalObject](../../graphicalobject) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -85,7 +85,7 @@ Sequence
 ---
 
 
-## add([GroupShape](../../GroupShape) shapeTrigger)  method
+## add([GroupShape](../../groupshape) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -98,7 +98,7 @@ Sequence
 ---
 
 
-## add([Ink](../../Ink) shapeTrigger)  method
+## add([Ink](../../ink) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -111,7 +111,7 @@ Sequence
 ---
 
 
-## add([LegacyDiagram](../../LegacyDiagram) shapeTrigger)  method
+## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -124,7 +124,7 @@ Sequence
 ---
 
 
-## add([OleObjectFrame](../../OleObjectFrame) shapeTrigger)  method
+## add([OleObjectFrame](../../oleobjectframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -137,7 +137,7 @@ Sequence
 ---
 
 
-## add([PictureFrame](../../PictureFrame) shapeTrigger)  method
+## add([PictureFrame](../../pictureframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -150,7 +150,7 @@ Sequence
 ---
 
 
-## add([SectionZoomFrame](../../SectionZoomFrame) shapeTrigger)  method
+## add([SectionZoomFrame](../../sectionzoomframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -163,7 +163,7 @@ Sequence
 ---
 
 
-## add([Shape](../../Shape) shapeTrigger)  method
+## add([Shape](../../shape) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -176,7 +176,7 @@ Sequence
 ---
 
 
-## add([SmartArt](../../SmartArt) shapeTrigger)  method
+## add([SmartArt](../../smartart) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -189,7 +189,7 @@ Sequence
 ---
 
 
-## add([SmartArtShape](../../SmartArtShape) shapeTrigger)  method
+## add([SmartArtShape](../../smartartshape) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -202,7 +202,7 @@ Sequence
 ---
 
 
-## add([SummaryZoomFrame](../../SummaryZoomFrame) shapeTrigger)  method
+## add([SummaryZoomFrame](../../summaryzoomframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -215,7 +215,7 @@ Sequence
 ---
 
 
-## add([SummaryZoomSection](../../SummaryZoomSection) shapeTrigger)  method
+## add([SummaryZoomSection](../../summaryzoomsection) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -228,7 +228,7 @@ Sequence
 ---
 
 
-## add([Table](../../Table) shapeTrigger)  method
+## add([Table](../../table) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -241,7 +241,7 @@ Sequence
 ---
 
 
-## add([VideoFrame](../../VideoFrame) shapeTrigger)  method
+## add([VideoFrame](../../videoframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -254,7 +254,7 @@ Sequence
 ---
 
 
-## add([ZoomFrame](../../ZoomFrame) shapeTrigger)  method
+## add([ZoomFrame](../../zoomframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -267,7 +267,7 @@ Sequence
 ---
 
 
-## add([ZoomObject](../../ZoomObject) shapeTrigger)  method
+## add([ZoomObject](../../zoomobject) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.

@@ -16,7 +16,7 @@ url: /php-java/chartdatapointcollection/get_item/
 ---
 
 
-## get_Item([ChartDataPoint](../../ChartDataPoint) pt)  method
+## get_Item([ChartDataPoint](../../chartdatapoint) pt)  method
 
  Return index of data point in this collection.
  

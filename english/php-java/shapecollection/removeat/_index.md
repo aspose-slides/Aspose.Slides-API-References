@@ -14,9 +14,9 @@ url: /php-java/shapecollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index of the element to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the element to remove. |
 
 
 ---

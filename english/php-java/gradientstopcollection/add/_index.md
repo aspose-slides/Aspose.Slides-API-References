@@ -14,10 +14,10 @@ url: /php-java/gradientstopcollection/add/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| position | Position of the new gradient stop. |
-| color | Color of the new radient stop. |
+| Name | Type | Description |
+| --- | --- | --- |
+| position | float | Position of the new gradient stop. |
+| color | Color | Color of the new radient stop. |
 
 ### Returns
 Index of the new gradient stop in the collection.

@@ -20,9 +20,9 @@ url: /php-java/presentationinfo/checkpassword/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| password | The password to check. When the password is null or empty, this method returns false. |
+| Name | Type | Description |
+| --- | --- | --- |
+| password | String | The password to check. When the password is null or empty, this method returns false. |
 
 ### Returns
 True if the presentation is protected with open password and the password is correct and false otherwise.

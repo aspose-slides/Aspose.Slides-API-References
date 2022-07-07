@@ -16,7 +16,7 @@ url: /php-java/lineformat/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)([LineFormat](../LineFormat)) | Determines whether the two LineFormat instances are equal. |
+| [equals](equals)([LineFormat](../lineformat)) | Determines whether the two LineFormat instances are equal. |
 | [getAlignment](getalignment)() | Returns or sets the line alignment. Read/write LineAlignment. |
 | [getBeginArrowheadLength](getbeginarrowheadlength)() | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
 | [getBeginArrowheadStyle](getbeginarrowheadstyle)() | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |

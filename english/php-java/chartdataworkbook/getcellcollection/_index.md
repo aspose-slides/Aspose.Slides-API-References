@@ -14,10 +14,10 @@ url: /php-java/chartdataworkbook/getcellcollection/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| formula | Excel formula like "Sheet1!$A$2:$A$5". |
-| skipHiddenCells | If true then method returns collection without hidden cells. |
+| Name | Type | Description |
+| --- | --- | --- |
+| formula | String | Excel formula like "Sheet1!$A$2:$A$5". |
+| skipHiddenCells | boolean | If true then method returns collection without hidden cells. |
 
 
 ---

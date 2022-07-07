@@ -7,7 +7,7 @@ weight: 200
 url: /php-java/shapecollection/addsectionzoomframe/
 ---
 
-## addSectionZoomFrame(float x, float y, float width, float height, [Section](../../Section) section)  method
+## addSectionZoomFrame(float x, float y, float width, float height, [Section](../../section) section)  method
 
  Adds a new Section Zoom object to the end of a collection.
  
@@ -28,13 +28,13 @@ url: /php-java/shapecollection/addsectionzoomframe/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new Section Zoom frame {@code float}. |
-| y | Y coordinate of a new Section Zoom frame {@code float}. |
-| width | Width of a new Section Zoom frame {@code float}. |
-| height | Height of a new Section Zoom frame {@code float}. |
-| section | The section object referenced by the Section Zoom frame ISection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new Section Zoom frame {@code float}. |
+| y | float | Y coordinate of a new Section Zoom frame {@code float}. |
+| width | float | Width of a new Section Zoom frame {@code float}. |
+| height | float | Height of a new Section Zoom frame {@code float}. |
+| section | Section | The section object referenced by the Section Zoom frame ISection. |
 
 ### Returns
 Created Section Zoom object ISectionZoomFrame.
@@ -49,7 +49,7 @@ Created Section Zoom object ISectionZoomFrame.
 ---
 
 
-## addSectionZoomFrame(float x, float y, float width, float height, [Section](../../Section) section, [PPImage](../../PPImage) image)  method
+## addSectionZoomFrame(float x, float y, float width, float height, [Section](../../section) section, [PPImage](../../ppimage) image)  method
 
  Adds a new Section Zoom object to the end of a collection with a predefined image.
  
@@ -72,14 +72,14 @@ Created Section Zoom object ISectionZoomFrame.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new Section Zoom frame {@code float}. |
-| y | Y coordinate of a new Section Zoom frame {@code float}. |
-| width | Width of a new Section Zoom frame {@code float}. |
-| height | Height of a new Section Zoom frame {@code float}. |
-| section | The section object referenced by the Section Zoom frame ISection. |
-| image | The image for the referenced slide IPPImage |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new Section Zoom frame {@code float}. |
+| y | float | Y coordinate of a new Section Zoom frame {@code float}. |
+| width | float | Width of a new Section Zoom frame {@code float}. |
+| height | float | Height of a new Section Zoom frame {@code float}. |
+| section | Section | The section object referenced by the Section Zoom frame ISection. |
+| image | PPImage | The image for the referenced slide IPPImage |
 
 ### Returns
 Created Section Zoom object ISectionZoomFrame.

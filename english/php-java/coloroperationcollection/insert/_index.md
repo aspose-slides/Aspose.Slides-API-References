@@ -14,11 +14,11 @@ url: /php-java/coloroperationcollection/insert/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| position | The index at which the operation will be inserted. |
-| operation | Operation type. |
-| parameter | Operation's parameter. |
+| Name | Type | Description |
+| --- | --- | --- |
+| position | int | The index at which the operation will be inserted. |
+| operation | int | Operation type. |
+| parameter | float | Operation's parameter. |
 
 ### Returns
 Inserted operation.
@@ -34,10 +34,10 @@ Inserted operation.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| position | The index at which the operation will be inserted. |
-| operation | Operation type. |
+| Name | Type | Description |
+| --- | --- | --- |
+| position | int | The index at which the operation will be inserted. |
+| operation | int | Operation type. |
 
 ### Returns
 Inserted operation.

@@ -7,7 +7,7 @@ weight: 290
 url: /php-java/chartdatapointcollection/adddatapointforscatterseries/
 ---
 
-## addDataPointForScatterSeries([ChartDataCell](../../ChartDataCell) xValue, [ChartDataCell](../../ChartDataCell) yValue)  method
+## addDataPointForScatterSeries([ChartDataCell](../../chartdatacell) xValue, [ChartDataCell](../../chartdatacell) yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -15,10 +15,10 @@ url: /php-java/chartdatapointcollection/adddatapointforscatterseries/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | ChartDataCell | Data point XValue |
+| yValue | ChartDataCell | Data point YValue |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeScatter(int)
@@ -27,7 +27,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries(double xValue, [ChartDataCell](../../ChartDataCell) yValue)  method
+## addDataPointForScatterSeries(double xValue, [ChartDataCell](../../chartdatacell) yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -35,10 +35,10 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | double | Data point XValue |
+| yValue | ChartDataCell | Data point YValue |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeScatter(int)
@@ -47,7 +47,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries(String xValue, [ChartDataCell](../../ChartDataCell) yValue)  method
+## addDataPointForScatterSeries(String xValue, [ChartDataCell](../../chartdatacell) yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -55,10 +55,10 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | ChartDataCell | Data point YValue |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeScatter(int)
@@ -67,7 +67,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 ---
 
 
-## addDataPointForScatterSeries([ChartDataCell](../../ChartDataCell) xValue, double yValue)  method
+## addDataPointForScatterSeries([ChartDataCell](../../chartdatacell) xValue, double yValue)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chartType is one of Scatter subtypes (see also  ChartTypeCharacterizer#isChartTypeScatter(int) method).
@@ -75,10 +75,10 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | ChartDataCell | Data point XValue |
+| yValue | double | Data point YValue |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeScatter(int)
@@ -95,10 +95,10 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | double | Data point XValue |
+| yValue | double | Data point YValue |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeScatter(int)
@@ -115,10 +115,10 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| xValue | Data point XValue |
-| yValue | Data point YValue |
+| Name | Type | Description |
+| --- | --- | --- |
+| xValue | String | Data point XValue |
+| yValue | double | Data point YValue |
 
 ### Returns
 ChartTypeCharacterizer#isChartTypeScatter(int)

@@ -14,9 +14,9 @@ url: /php-java/imagetransformocollectioneffectivedata/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The object to compare with the current object. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The object to compare with the current object. |
 
 ### Returns
 true if the specified object is equal to the current object; otherwise, false.

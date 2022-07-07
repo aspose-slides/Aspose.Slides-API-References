@@ -7,16 +7,16 @@ weight: 90
 url: /php-java/slideutil/getalltextboxes/
 ---
 
-## getAllTextBoxes([BaseSlide](../../BaseSlide) slide)  method
+## getAllTextBoxes([BaseSlide](../../baseslide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| slide | Scanned slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | BaseSlide | Scanned slide. |
 
 ### Returns
 Array of TextFrame objects.
@@ -25,16 +25,16 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([LayoutSlide](../../LayoutSlide) slide)  method
+## getAllTextBoxes([LayoutSlide](../../layoutslide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| slide | Scanned slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | BaseSlide | Scanned slide. |
 
 ### Returns
 Array of TextFrame objects.
@@ -43,16 +43,16 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([MasterHandoutSlide](../../MasterHandoutSlide) slide)  method
+## getAllTextBoxes([MasterHandoutSlide](../../masterhandoutslide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| slide | Scanned slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | BaseSlide | Scanned slide. |
 
 ### Returns
 Array of TextFrame objects.
@@ -61,16 +61,16 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([MasterNotesSlide](../../MasterNotesSlide) slide)  method
+## getAllTextBoxes([MasterNotesSlide](../../masternotesslide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| slide | Scanned slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | BaseSlide | Scanned slide. |
 
 ### Returns
 Array of TextFrame objects.
@@ -79,16 +79,16 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([MasterSlide](../../MasterSlide) slide)  method
+## getAllTextBoxes([MasterSlide](../../masterslide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| slide | Scanned slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | BaseSlide | Scanned slide. |
 
 ### Returns
 Array of TextFrame objects.
@@ -97,16 +97,16 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([NotesSlide](../../NotesSlide) slide)  method
+## getAllTextBoxes([NotesSlide](../../notesslide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| slide | Scanned slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | BaseSlide | Scanned slide. |
 
 ### Returns
 Array of TextFrame objects.
@@ -115,16 +115,16 @@ Array of TextFrame objects.
 ---
 
 
-## getAllTextBoxes([Slide](../../Slide) slide)  method
+## getAllTextBoxes([Slide](../../slide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| slide | Scanned slide. |
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | BaseSlide | Scanned slide. |
 
 ### Returns
 Array of TextFrame objects.

@@ -14,9 +14,9 @@ url: /php-java/tagcollection/set_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | Key of a tag. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Key of a tag. |
 
 
 ---

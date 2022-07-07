@@ -14,10 +14,10 @@ url: /php-java/tagcollection/add/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| name | The name of the tag. |
-| value | The value of the tag. |
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the tag. |
+| value | String | The value of the tag. |
 
 ### Returns
 The index of the added tag.

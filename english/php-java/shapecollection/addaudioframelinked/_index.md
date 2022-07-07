@@ -14,13 +14,13 @@ url: /php-java/shapecollection/addaudioframelinked/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| x | X coordinate of a new audio frame. |
-| y | Y coordinate of a new audio frame. |
-| width | Width of a new audio frame. |
-| height | Height of a new audio frame. |
-| fname | Audio file name. |
+| Name | Type | Description |
+| --- | --- | --- |
+| x | float | X coordinate of a new audio frame. |
+| y | float | Y coordinate of a new audio frame. |
+| width | float | Width of a new audio frame. |
+| height | float | Height of a new audio frame. |
+| fname | String | Audio file name. |
 
 ### Returns
 Created AudioFrame object.

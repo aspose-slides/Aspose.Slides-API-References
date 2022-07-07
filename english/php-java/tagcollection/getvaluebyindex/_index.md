@@ -14,9 +14,9 @@ url: /php-java/tagcollection/getvaluebyindex/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a tag to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a tag to return. |
 
 ### Returns
 Value of a tag.

@@ -26,10 +26,10 @@ Array of Comment.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| startIndex | An index of a first comment to return. |
-| count | A number of comments to return. |
+| Name | Type | Description |
+| --- | --- | --- |
+| startIndex | int | An index of a first comment to return. |
+| count | int | A number of comments to return. |
 
 ### Returns
 Array of Comment.

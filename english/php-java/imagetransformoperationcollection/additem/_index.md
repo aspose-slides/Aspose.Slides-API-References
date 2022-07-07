@@ -7,361 +7,361 @@ weight: 160
 url: /php-java/imagetransformoperationcollection/additem/
 ---
 
-## addItem([AlphaBiLevel](../../AlphaBiLevel) operation)  method
+## addItem([AlphaBiLevel](../../alphabilevel) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([AlphaCeiling](../../AlphaCeiling) operation)  method
+## addItem([AlphaCeiling](../../alphaceiling) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([AlphaFloor](../../AlphaFloor) operation)  method
+## addItem([AlphaFloor](../../alphafloor) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([AlphaInverse](../../AlphaInverse) operation)  method
+## addItem([AlphaInverse](../../alphainverse) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([AlphaModulate](../../AlphaModulate) operation)  method
+## addItem([AlphaModulate](../../alphamodulate) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([AlphaModulateFixed](../../AlphaModulateFixed) operation)  method
+## addItem([AlphaModulateFixed](../../alphamodulatefixed) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([AlphaReplace](../../AlphaReplace) operation)  method
+## addItem([AlphaReplace](../../alphareplace) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([BiLevel](../../BiLevel) operation)  method
+## addItem([BiLevel](../../bilevel) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([Blur](../../Blur) operation)  method
+## addItem([Blur](../../blur) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([ColorChange](../../ColorChange) operation)  method
+## addItem([ColorChange](../../colorchange) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([ColorReplace](../../ColorReplace) operation)  method
+## addItem([ColorReplace](../../colorreplace) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([Duotone](../../Duotone) operation)  method
+## addItem([Duotone](../../duotone) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([FillOverlay](../../FillOverlay) operation)  method
+## addItem([FillOverlay](../../filloverlay) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([Glow](../../Glow) operation)  method
+## addItem([Glow](../../glow) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([GrayScale](../../GrayScale) operation)  method
+## addItem([GrayScale](../../grayscale) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([HSL](../../HSL) operation)  method
+## addItem([HSL](../../hsl) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([ImageTransformOperation](../../ImageTransformOperation) operation)  method
+## addItem([ImageTransformOperation](../../imagetransformoperation) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([InnerShadow](../../InnerShadow) operation)  method
+## addItem([InnerShadow](../../innershadow) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([Luminance](../../Luminance) operation)  method
+## addItem([Luminance](../../luminance) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([OuterShadow](../../OuterShadow) operation)  method
+## addItem([OuterShadow](../../outershadow) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([PresetShadow](../../PresetShadow) operation)  method
+## addItem([PresetShadow](../../presetshadow) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([Reflection](../../Reflection) operation)  method
+## addItem([Reflection](../../reflection) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([SoftEdge](../../SoftEdge) operation)  method
+## addItem([SoftEdge](../../softedge) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([Tint](../../Tint) operation)  method
+## addItem([Tint](../../tint) operation)  method
 
  Adds the new image effect to the end of a collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| operation | The image effect to add to the end of a collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
 
 
 ---

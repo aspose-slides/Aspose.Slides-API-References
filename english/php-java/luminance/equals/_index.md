@@ -14,9 +14,9 @@ url: /php-java/luminance/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The Luminance to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Luminance to compare. |
 
 ### Returns
 Luminance

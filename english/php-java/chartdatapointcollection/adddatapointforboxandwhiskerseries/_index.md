@@ -7,7 +7,7 @@ weight: 50
 url: /php-java/chartdatapointcollection/adddatapointforboxandwhiskerseries/
 ---
 
-## addDataPointForBoxAndWhiskerSeries([ChartDataCell](../../ChartDataCell) value)  method
+## addDataPointForBoxAndWhiskerSeries([ChartDataCell](../../chartdatacell) value)  method
 
  Creates the new data point and adds it to the end of collection.
  Applicable for series which chart type is BoxAndWhisker.
@@ -15,9 +15,9 @@ url: /php-java/chartdatapointcollection/adddatapointforboxandwhiskerseries/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | Data point Value |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | ChartDataCell | Data point Value |
 
 ### Returns
 New data point.

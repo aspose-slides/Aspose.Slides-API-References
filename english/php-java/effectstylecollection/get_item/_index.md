@@ -15,9 +15,9 @@ url: /php-java/effectstylecollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Position of element. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position of element. |
 
 ### Returns
 EffectStyle

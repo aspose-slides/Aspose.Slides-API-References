@@ -7,16 +7,16 @@ weight: 20
 url: /php-java/piesplitcustompointcollection/additem/
 ---
 
-## addItem([ChartDataPoint](../../ChartDataPoint) dataPoint)  method
+## addItem([ChartDataPoint](../../chartdatapoint) dataPoint)  method
 
  Adds data point to collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| dataPoint | Data point add to. |
+| Name | Type | Description |
+| --- | --- | --- |
+| dataPoint | ChartDataPoint | Data point add to. |
 
 
 ---

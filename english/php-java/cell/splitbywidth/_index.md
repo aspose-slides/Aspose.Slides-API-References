@@ -14,9 +14,9 @@ url: /php-java/cell/splitbywidth/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| width | Width of a column. |
+| Name | Type | Description |
+| --- | --- | --- |
+| width | double | Width of a column. |
 
 
 ---

@@ -14,9 +14,9 @@ url: /php-java/coloroperation/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The ColorOperation to compare with the current ColorOperation. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The ColorOperation to compare with the current ColorOperation. |
 
 ### Returns
 true if the specified ColorOperation is equal to the current ColorOperation; otherwise, false.

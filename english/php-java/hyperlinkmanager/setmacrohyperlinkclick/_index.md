@@ -27,9 +27,9 @@ url: /php-java/hyperlinkmanager/setmacrohyperlinkclick/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| macroName | Name of the macro |
+| Name | Type | Description |
+| --- | --- | --- |
+| macroName | String | Name of the macro |
 
 ### Returns
 Hyperlink object IHyperlink

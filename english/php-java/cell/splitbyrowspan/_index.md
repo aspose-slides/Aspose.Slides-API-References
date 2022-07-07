@@ -14,9 +14,9 @@ url: /php-java/cell/splitbyrowspan/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of row. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of row. |
 
 
 ---

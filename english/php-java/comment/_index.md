@@ -24,7 +24,7 @@ url: /php-java/comment/
 | [getText](gettext)() | Returns or sets the plain text of a slide comment. Read/write String. |
 | [remove](remove)() | Removes comment and all its replies from the parent collection. |
 | [setCreatedTime](setcreatedtime)(Date) | Returns or sets the time of a comment creation. Setting this property to java.util.Date(Long.MIN_VALUE) means no comment time is set. Read/write java.util.Date. Comment time is an optional parameter. |
-| [setParentComment](setparentcomment)([Comment](../Comment)) | Gets or sets parent comment. Read/write IComment. |
-| [setParentComment](setparentcomment)([ModernComment](../ModernComment)) | Gets or sets parent comment. Read/write IComment. |
+| [setParentComment](setparentcomment)([Comment](../comment)) | Gets or sets parent comment. Read/write IComment. |
+| [setParentComment](setparentcomment)([ModernComment](../moderncomment)) | Gets or sets parent comment. Read/write IComment. |
 | [setPosition](setposition)(Point2D.Float) | Returns or sets the position of a comment on a slide. Read/write java.awt.geom.Point2D.Float. |
 | [setText](settext)(String) | Returns or sets the plain text of a slide comment. Read/write String. |

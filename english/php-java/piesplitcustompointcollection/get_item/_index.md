@@ -14,9 +14,9 @@ url: /php-java/piesplitcustompointcollection/get_item/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index. |
 
 ### Returns
 Chart data point.

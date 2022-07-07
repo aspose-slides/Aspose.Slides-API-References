@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/summaryzoomsectioncollection/getsummarysection/
 ---
 
-## getSummarySection([Section](../../Section) section)  method
+## getSummarySection([Section](../../section) section)  method
 
  Returns Summary Zoom Section element for the given section.
  
@@ -28,9 +28,9 @@ The example demonstrates getting Summary Zoom Section element by index:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| section | Section to find ISection |
+| Name | Type | Description |
+| --- | --- | --- |
+| section | Section | Section to find ISection |
 
 ### Returns
 ISummaryZoomSection or null if collection does not contains element for the section.

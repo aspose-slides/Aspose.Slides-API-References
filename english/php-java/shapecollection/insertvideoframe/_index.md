@@ -14,14 +14,14 @@ url: /php-java/shapecollection/insertvideoframe/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which video frame should be inserted. |
-| x | X coordinate of a new video frame. |
-| y | Y coordinate of a new video frame. |
-| width | Width of a new video frame. |
-| height | Height of a new video frame. |
-| fname | Video file name. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which video frame should be inserted. |
+| x | float | X coordinate of a new video frame. |
+| y | float | Y coordinate of a new video frame. |
+| width | float | Width of a new video frame. |
+| height | float | Height of a new video frame. |
+| fname | String | Video file name. |
 
 ### Returns
 Created VideoFrame object.

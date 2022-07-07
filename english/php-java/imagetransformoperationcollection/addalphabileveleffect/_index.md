@@ -14,9 +14,9 @@ url: /php-java/imagetransformoperationcollection/addalphabileveleffect/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| threshold | The threshold value for the alpha bi-level effect. |
+| Name | Type | Description |
+| --- | --- | --- |
+| threshold | float | The threshold value for the alpha bi-level effect. |
 
 ### Returns
 Index of the new image effect in a collection.

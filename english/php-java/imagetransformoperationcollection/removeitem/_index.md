@@ -7,16 +7,16 @@ weight: 270
 url: /php-java/imagetransformoperationcollection/removeitem/
 ---
 
-## removeItem([AlphaBiLevel](../../AlphaBiLevel) item)  method
+## removeItem([AlphaBiLevel](../../alphabilevel) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -31,16 +31,16 @@ IGenericCollection
 ---
 
 
-## removeItem([AlphaCeiling](../../AlphaCeiling) item)  method
+## removeItem([AlphaCeiling](../../alphaceiling) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -55,16 +55,16 @@ IGenericCollection
 ---
 
 
-## removeItem([AlphaFloor](../../AlphaFloor) item)  method
+## removeItem([AlphaFloor](../../alphafloor) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -79,16 +79,16 @@ IGenericCollection
 ---
 
 
-## removeItem([AlphaInverse](../../AlphaInverse) item)  method
+## removeItem([AlphaInverse](../../alphainverse) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -103,16 +103,16 @@ IGenericCollection
 ---
 
 
-## removeItem([AlphaModulate](../../AlphaModulate) item)  method
+## removeItem([AlphaModulate](../../alphamodulate) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -127,16 +127,16 @@ IGenericCollection
 ---
 
 
-## removeItem([AlphaModulateFixed](../../AlphaModulateFixed) item)  method
+## removeItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -151,16 +151,16 @@ IGenericCollection
 ---
 
 
-## removeItem([AlphaReplace](../../AlphaReplace) item)  method
+## removeItem([AlphaReplace](../../alphareplace) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -175,16 +175,16 @@ IGenericCollection
 ---
 
 
-## removeItem([BiLevel](../../BiLevel) item)  method
+## removeItem([BiLevel](../../bilevel) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -199,16 +199,16 @@ IGenericCollection
 ---
 
 
-## removeItem([Blur](../../Blur) item)  method
+## removeItem([Blur](../../blur) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -223,16 +223,16 @@ IGenericCollection
 ---
 
 
-## removeItem([ColorChange](../../ColorChange) item)  method
+## removeItem([ColorChange](../../colorchange) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -247,16 +247,16 @@ IGenericCollection
 ---
 
 
-## removeItem([ColorReplace](../../ColorReplace) item)  method
+## removeItem([ColorReplace](../../colorreplace) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -271,16 +271,16 @@ IGenericCollection
 ---
 
 
-## removeItem([Duotone](../../Duotone) item)  method
+## removeItem([Duotone](../../duotone) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -295,16 +295,16 @@ IGenericCollection
 ---
 
 
-## removeItem([FillOverlay](../../FillOverlay) item)  method
+## removeItem([FillOverlay](../../filloverlay) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -319,16 +319,16 @@ IGenericCollection
 ---
 
 
-## removeItem([Glow](../../Glow) item)  method
+## removeItem([Glow](../../glow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -343,16 +343,16 @@ IGenericCollection
 ---
 
 
-## removeItem([GrayScale](../../GrayScale) item)  method
+## removeItem([GrayScale](../../grayscale) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -367,16 +367,16 @@ IGenericCollection
 ---
 
 
-## removeItem([HSL](../../HSL) item)  method
+## removeItem([HSL](../../hsl) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -391,16 +391,16 @@ IGenericCollection
 ---
 
 
-## removeItem([ImageTransformOperation](../../ImageTransformOperation) item)  method
+## removeItem([ImageTransformOperation](../../imagetransformoperation) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -415,16 +415,16 @@ IGenericCollection
 ---
 
 
-## removeItem([InnerShadow](../../InnerShadow) item)  method
+## removeItem([InnerShadow](../../innershadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -439,16 +439,16 @@ IGenericCollection
 ---
 
 
-## removeItem([Luminance](../../Luminance) item)  method
+## removeItem([Luminance](../../luminance) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -463,16 +463,16 @@ IGenericCollection
 ---
 
 
-## removeItem([OuterShadow](../../OuterShadow) item)  method
+## removeItem([OuterShadow](../../outershadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -487,16 +487,16 @@ IGenericCollection
 ---
 
 
-## removeItem([PresetShadow](../../PresetShadow) item)  method
+## removeItem([PresetShadow](../../presetshadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -511,16 +511,16 @@ IGenericCollection
 ---
 
 
-## removeItem([Reflection](../../Reflection) item)  method
+## removeItem([Reflection](../../reflection) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -535,16 +535,16 @@ IGenericCollection
 ---
 
 
-## removeItem([SoftEdge](../../SoftEdge) item)  method
+## removeItem([SoftEdge](../../softedge) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection
@@ -559,16 +559,16 @@ IGenericCollection
 ---
 
 
-## removeItem([Tint](../../Tint) item)  method
+## removeItem([Tint](../../tint) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| item | The object to remove from the IGenericCollection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
 
 ### Returns
 IGenericCollection

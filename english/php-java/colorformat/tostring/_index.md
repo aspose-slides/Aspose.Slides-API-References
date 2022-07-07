@@ -14,9 +14,9 @@ url: /php-java/colorformat/tostring/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| format | A type of color string format. |
+| Name | Type | Description |
+| --- | --- | --- |
+| format | int | A type of color string format. |
 
 ### Returns
 String

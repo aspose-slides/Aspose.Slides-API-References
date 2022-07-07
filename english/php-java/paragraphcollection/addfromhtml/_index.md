@@ -14,43 +14,43 @@ url: /php-java/paragraphcollection/addfromhtml/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | HTML text. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | HTML text. |
 
 
 ---
 
 
-## addFromHtml(String text, [ExternalResourceResolver](../../ExternalResourceResolver) resolver, String uri)  method
+## addFromHtml(String text, [ExternalResourceResolver](../../externalresourceresolver) resolver, String uri)  method
 
  Adds text from specified html string to the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | HTML text. |
-| resolver | Resolver callback object which resolves URIs and fetches referrenced objects. |
-| uri | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | HTML text. |
+| resolver | ExternalResourceResolver | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | HtmlExternalResolver | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
 
 
 ---
 
 
-## addFromHtml(String text, [HtmlExternalResolver](../../HtmlExternalResolver) resolver, String uri)  method
+## addFromHtml(String text, [HtmlExternalResolver](../../htmlexternalresolver) resolver, String uri)  method
 
  Adds text from specified html string to the collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | HTML text. |
-| resolver | Resolver callback object which resolves URIs and fetches referrenced objects. |
-| uri | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | HTML text. |
+| resolver | ExternalResourceResolver | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | HtmlExternalResolver | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
 
 
 ---

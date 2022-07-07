@@ -7,147 +7,147 @@ weight: 20
 url: /php-java/videoplayerhtmlcontroller/formatshape/
 ---
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [AudioFrame](../../AudioFrame) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [AudioFrame](../../audioframe) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [AutoShape](../../AutoShape) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [AutoShape](../../autoshape) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [Chart](../../Chart) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [Chart](../../chart) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [Connector](../../Connector) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [Connector](../../connector) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [GeometryShape](../../GeometryShape) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [GeometryShape](../../geometryshape) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [GraphicalObject](../../GraphicalObject) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [GraphicalObject](../../graphicalobject) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [GroupShape](../../GroupShape) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [GroupShape](../../groupshape) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [Ink](../../Ink) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [Ink](../../ink) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [LegacyDiagram](../../LegacyDiagram) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [LegacyDiagram](../../legacydiagram) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [OleObjectFrame](../../OleObjectFrame) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [OleObjectFrame](../../oleobjectframe) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [PictureFrame](../../PictureFrame) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [PictureFrame](../../pictureframe) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [SectionZoomFrame](../../SectionZoomFrame) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [SectionZoomFrame](../../sectionzoomframe) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [Shape](../../Shape) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [Shape](../../shape) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [SmartArt](../../SmartArt) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [SmartArt](../../smartart) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [SmartArtShape](../../SmartArtShape) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [SmartArtShape](../../smartartshape) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [SummaryZoomFrame](../../SummaryZoomFrame) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [SummaryZoomSection](../../SummaryZoomSection) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [SummaryZoomSection](../../summaryzoomsection) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [Table](../../Table) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [Table](../../table) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [VideoFrame](../../VideoFrame) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [VideoFrame](../../videoframe) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [ZoomFrame](../../ZoomFrame) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [ZoomFrame](../../zoomframe) shape)  method
 
 
 
 ---
 
 
-## formatShape([SvgShape](../../SvgShape) svgShape, [ZoomObject](../../ZoomObject) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [ZoomObject](../../zoomobject) shape)  method
 
 
 

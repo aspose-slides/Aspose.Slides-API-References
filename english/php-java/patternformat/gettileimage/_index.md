@@ -14,10 +14,10 @@ url: /php-java/patternformat/gettileimage/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| background | The background java.awt.Color for the pattern. |
-| foreground | The foreground java.awt.Color for the pattern. |
+| Name | Type | Description |
+| --- | --- | --- |
+| background | Color | The background java.awt.Color for the pattern. |
+| foreground | Color | The foreground java.awt.Color for the pattern. |
 
 ### Returns
 Tile java.awt.image.BufferedImage.
@@ -33,9 +33,9 @@ Tile java.awt.image.BufferedImage.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| styleColor | The default java.awt.Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
+| Name | Type | Description |
+| --- | --- | --- |
+| styleColor | Color | The default java.awt.Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
 ### Returns
 Tile java.awt.image.BufferedImage.

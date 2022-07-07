@@ -14,9 +14,9 @@ url: /php-java/alphafloor/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The AlphaFloor to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaFloor to compare. |
 
 ### Returns
 AlphaFloor

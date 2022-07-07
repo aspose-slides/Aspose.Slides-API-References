@@ -24,9 +24,9 @@ Example:
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index of the item to get |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the item to get |
 
 ### Returns
 IMathBlock

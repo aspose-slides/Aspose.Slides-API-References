@@ -7,7 +7,7 @@ weight: 520
 url: /php-java/shapecollection/insertsectionzoomframe/
 ---
 
-## insertSectionZoomFrame(int index, float x, float y, float width, float height, [Section](../../Section) section)  method
+## insertSectionZoomFrame(int index, float x, float y, float width, float height, [Section](../../section) section)  method
 
  Creates a new Section Zoom object and inserts into to a collection at the specified index.
  
@@ -28,14 +28,14 @@ url: /php-java/shapecollection/insertsectionzoomframe/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which Section Zoom frame should be inserted. |
-| x | X coordinate of a new Section Zoom frame {@code float}. |
-| y | Y coordinate of a new Section Zoom frame {@code float}. |
-| width | Width of a new Section Zoom frame {@code float}. |
-| height | Height of a new Section Zoom frame {@code float}. |
-| section | The slide object referenced by the Section Zoom frame ISection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which Section Zoom frame should be inserted. |
+| x | float | X coordinate of a new Section Zoom frame {@code float}. |
+| y | float | Y coordinate of a new Section Zoom frame {@code float}. |
+| width | float | Width of a new Section Zoom frame {@code float}. |
+| height | float | Height of a new Section Zoom frame {@code float}. |
+| section | Section | The slide object referenced by the Section Zoom frame ISection. |
 
 ### Returns
 Created Section Zoom object ISectionZoomFrame.
@@ -50,7 +50,7 @@ Created Section Zoom object ISectionZoomFrame.
 ---
 
 
-## insertSectionZoomFrame(int index, float x, float y, float width, float height, [Section](../../Section) section, [PPImage](../../PPImage) image)  method
+## insertSectionZoomFrame(int index, float x, float y, float width, float height, [Section](../../section) section, [PPImage](../../ppimage) image)  method
 
  Creates a new Section Zoom object and inserts it to a collection at the specified index.
  
@@ -72,15 +72,15 @@ Created Section Zoom object ISectionZoomFrame.
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | The zero-based index at which Section Zoom frame should be inserted. |
-| x | X coordinate of a new Section Zoom frame {@code float}. |
-| y | Y coordinate of a new Section Zoom frame {@code float}. |
-| width | Width of a new Section Zoom frame {@code float}. |
-| height | Height of a new Section Zoom frame {@code float}. |
-| section | The slide object referenced by the Section Zoom frame ISection. |
-| image | The image for the referenced slide IPPImage |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which Section Zoom frame should be inserted. |
+| x | float | X coordinate of a new Section Zoom frame {@code float}. |
+| y | float | Y coordinate of a new Section Zoom frame {@code float}. |
+| width | float | Width of a new Section Zoom frame {@code float}. |
+| height | float | Height of a new Section Zoom frame {@code float}. |
+| section | Section | The slide object referenced by the Section Zoom frame ISection. |
+| image | PPImage | The image for the referenced slide IPPImage |
 
 ### Returns
 Created Section Zoom object ISectionZoomFrame.

@@ -15,9 +15,9 @@ url: /php-java/trendline/addtextframeforoverriding/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| text | Text for a new TextFrameForOverriding. |
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Text for a new TextFrameForOverriding. |
 
 
 ---

@@ -7,7 +7,7 @@ weight: 100
 url: /php-java/comment/setparentcomment/
 ---
 
-## setParentComment([Comment](../../Comment) value)  method
+## setParentComment([Comment](../../comment) value)  method
 
  Gets or sets parent comment.
  Read/write  IComment.
@@ -26,7 +26,7 @@ IComment
 ---
 
 
-## setParentComment([ModernComment](../../ModernComment) value)  method
+## setParentComment([ModernComment](../../moderncomment) value)  method
 
  Gets or sets parent comment.
  Read/write  IComment.

@@ -14,9 +14,9 @@ url: /php-java/chartcategorycollection/removeat/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| index | Index of a category to remove. |
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a category to remove. |
 
 
 ---

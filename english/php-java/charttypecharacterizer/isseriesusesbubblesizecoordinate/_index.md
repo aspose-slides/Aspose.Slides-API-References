@@ -14,9 +14,9 @@ url: /php-java/charttypecharacterizer/isseriesusesbubblesizecoordinate/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| seriesType | Series type. |
+| Name | Type | Description |
+| --- | --- | --- |
+| seriesType | int | Series type. |
 
 ### Returns
 True if can be used, otherwise false.

@@ -7,7 +7,7 @@ weight: 40
 url: /php-java/fonts/setcomplexscriptfont/
 ---
 
-## setComplexScriptFont([FontData](../../FontData) value)  method
+## setComplexScriptFont([FontData](../../fontdata) value)  method
 
  Returns or sets the complex script font.
  Read/write  IFontData.

@@ -14,9 +14,9 @@ url: /php-java/innershadow/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | The InnerShadow to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The InnerShadow to compare. |
 
 ### Returns
 InnerShadow

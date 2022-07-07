@@ -14,9 +14,9 @@ url: /php-java/behaviorproperty/getorcreatebyvalue/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| propertyValue | value of the property |
+| Name | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | value of the property |
 
 ### Returns
 instance of BehaviorProperty

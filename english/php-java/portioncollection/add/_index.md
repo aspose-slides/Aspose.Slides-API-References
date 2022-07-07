@@ -7,31 +7,31 @@ weight: 10
 url: /php-java/portioncollection/add/
 ---
 
-## add([MathPortion](../../MathPortion) value)  method
+## add([MathPortion](../../mathportion) value)  method
 
  Adds a Portion to the end of collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The Portion to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | MathPortion | The Portion to be added to the end of the collection. |
 
 
 ---
 
 
-## add([Portion](../../Portion) value)  method
+## add([Portion](../../portion) value)  method
 
  Adds a Portion to the end of collection.
  
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| value | The Portion to be added to the end of the collection. |
+| Name | Type | Description |
+| --- | --- | --- |
+| value | MathPortion | The Portion to be added to the end of the collection. |
 
 
 ---

@@ -14,9 +14,9 @@ url: /php-java/fieldtype/equals/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| obj | Field to compare. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | Field to compare. |
 
 ### Returns
 True if fields are equal.

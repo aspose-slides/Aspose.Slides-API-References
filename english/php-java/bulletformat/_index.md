@@ -32,7 +32,7 @@ url: /php-java/bulletformat/
 | [setBulletHardColor](setbullethardcolor)(byte) | Determines whether the bullet has own color or inherits it from the first portion in the paragraph. NullableBool#True if bullet has own color and NullableBool#False if bullet inherits color from the first portion in the paragraph. Read/write NullableBool. |
 | [setBulletHardFont](setbullethardfont)(byte) | Determines whether the bullet has own font or inherits it from the first portion in the paragraph. NullableBool#True if bullet has own font and NullableBool#False if bullet inherits font from the first portion in the paragraph. Read/write NullableBool. |
 | [setChar](setchar)(char) | Returns or sets the bullet char of a paragraph with no inheritance. Read/write char. |
-| [setFont](setfont)([FontData](../FontData)) | Returns or sets the bullet font of a paragraph with no inheritance. Read/write IFontData. |
+| [setFont](setfont)([FontData](../fontdata)) | Returns or sets the bullet font of a paragraph with no inheritance. Read/write IFontData. |
 | [setHeight](setheight)(float) | Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write float. |
 | [setNumberedBulletStartWith](setnumberedbulletstartwith)(short) | Returns or sets the first number which is used for group of numbered bullets with no inheritance. Read/write short. |
 | [setNumberedBulletStyle](setnumberedbulletstyle)(byte) | Returns or sets the style of a numbered bullet with no inheritance. Read/write NumberedBulletStyle. |

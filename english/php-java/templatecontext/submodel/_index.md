@@ -14,9 +14,9 @@ url: /php-java/templatecontext/submodel/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| subModel | Child model object. |
+| Name | Type | Description |
+| --- | --- | --- |
+| subModel | TSubModel | Child model object. |
 
 ### Returns
 New template context with given model and parent's output collection and global storage.

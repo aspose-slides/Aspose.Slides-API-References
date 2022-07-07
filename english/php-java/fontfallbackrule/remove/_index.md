@@ -22,9 +22,9 @@ url: /php-java/fontfallbackrule/remove/
 
 ### Parameters
 
-| Name | Description |
-| --- | --- |
-| fontName | The font's name to remove from the list. |
+| Name | Type | Description |
+| --- | --- | --- |
+| fontName | String | The font's name to remove from the list. |
 
 
 ---
