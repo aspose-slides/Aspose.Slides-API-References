@@ -15,7 +15,7 @@ url: /php-java/comment/setcreatedtime/
  Comment time is an optional parameter.
 
 ### Returns
-java.util.Date
+void
 
 
 ---

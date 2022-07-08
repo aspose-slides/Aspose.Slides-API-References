@@ -13,7 +13,7 @@ url: /php-java/fontdata/tostring/
  
 
 ### Returns
-String representatoin.
+String
 
 
 ---

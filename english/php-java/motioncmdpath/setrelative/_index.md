@@ -14,7 +14,7 @@ url: /php-java/motioncmdpath/setrelative/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/chartseriescollection/insert/
  Creates new chart series and inserts it into the collection. 
  
 
+### Returns
+[ChartSeries](../../chartseries)
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/settextlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

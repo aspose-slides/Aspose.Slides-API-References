@@ -14,7 +14,7 @@ url: /php-java/chartseries/getname/
  
 
 ### Returns
-IStringChartValue
+[StringChartValue](../../stringchartvalue)
 
 
 ---

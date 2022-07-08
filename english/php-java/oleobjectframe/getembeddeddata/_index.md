@@ -14,7 +14,7 @@ url: /php-java/oleobjectframe/getembeddeddata/
  
 
 ### Returns
-IOleEmbeddedDataInfo
+[OleEmbeddedDataInfo](../../oleembeddeddatainfo)
 
 
 ---

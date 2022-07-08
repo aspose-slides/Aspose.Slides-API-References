@@ -14,7 +14,7 @@ url: /php-java/svgoptions/getshapeformattingcontroller/
  
 
 ### Returns
-ISvgShapeFormattingController
+[VideoPlayerHtmlController](../../videoplayerhtmlcontroller)
 
 
 ---

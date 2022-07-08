@@ -13,6 +13,9 @@ url: /php-java/smartartnode/isassistant/
  Read/write boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

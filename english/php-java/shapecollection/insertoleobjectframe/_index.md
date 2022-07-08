@@ -29,10 +29,10 @@ url: /php-java/shapecollection/insertoleobjectframe/
 | y | float | Y coordinate of a new OLE frame. |
 | width | float | Width of a new OLE frame. |
 | height | float | Height of a new OLE frame. |
-| dataInfo | OleEmbeddedDataInfo | Embedded data info IOleEmbeddedDataInfo. |
+| dataInfo | [OleEmbeddedDataInfo](../../oleembeddeddatainfo) | Embedded data info IOleEmbeddedDataInfo. |
 
 ### Returns
-Created OLE object.
+[OleObjectFrame](../../oleobjectframe)
 
 
 ---
@@ -56,7 +56,7 @@ Created OLE object.
 | path | String | Path to the linked file. |
 
 ### Returns
-Created OLE object.
+[OleObjectFrame](../../oleobjectframe)
 
 
 ---

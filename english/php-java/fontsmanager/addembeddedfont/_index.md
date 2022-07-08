@@ -12,6 +12,9 @@ url: /php-java/fontsmanager/addembeddedfont/
  Adds the embedded font
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |
@@ -26,6 +29,9 @@ url: /php-java/fontsmanager/addembeddedfont/
 
  Adds the embedded font
  
+
+### Returns
+void
 
 ### Exception
 

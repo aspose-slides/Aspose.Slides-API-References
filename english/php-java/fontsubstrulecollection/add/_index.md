@@ -12,6 +12,9 @@ url: /php-java/fontsubstrulecollection/add/
  Adds the new font substitution rule to the collection
  
 
+### Returns
+void
+
 
 ---
 

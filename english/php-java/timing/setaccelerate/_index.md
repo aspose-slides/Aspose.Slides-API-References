@@ -13,6 +13,9 @@ url: /php-java/timing/setaccelerate/
  Read/write  float.
  
 
+### Returns
+void
+
 
 ---
 

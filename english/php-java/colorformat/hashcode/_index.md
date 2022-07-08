@@ -13,7 +13,7 @@ url: /php-java/colorformat/hashcode/
  
 
 ### Returns
-Hash code.
+int
 
 
 ---

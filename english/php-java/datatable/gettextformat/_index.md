@@ -14,7 +14,7 @@ url: /php-java/datatable/gettextformat/
  
 
 ### Returns
-IChartTextFormat
+[ChartTextFormat](../../charttextformat)
 
 
 ---

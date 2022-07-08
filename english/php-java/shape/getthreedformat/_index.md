@@ -15,7 +15,7 @@ url: /php-java/shape/getthreedformat/
  
 
 ### Returns
-IThreeDFormat
+[ThreeDFormat](../../threedformat)
 
 
 ---

@@ -20,7 +20,7 @@ Next example demonstrates changing target slide and creates new image for the Sl
 ```
 
 ### Returns
-ISlide
+[Slide](../../slide)
 
 
 ---

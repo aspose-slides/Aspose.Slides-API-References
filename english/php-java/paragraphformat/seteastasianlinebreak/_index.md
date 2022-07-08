@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/seteastasianlinebreak/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

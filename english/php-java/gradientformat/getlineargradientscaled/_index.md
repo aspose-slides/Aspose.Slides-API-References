@@ -14,7 +14,7 @@ url: /php-java/gradientformat/getlineargradientscaled/
  
 
 ### Returns
-NullableBool
+byte
 
 
 ---

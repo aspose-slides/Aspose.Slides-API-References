@@ -14,7 +14,7 @@ url: /php-java/datalabel/sety/
  
 
 ### Returns
-float
+void
 
 
 ---

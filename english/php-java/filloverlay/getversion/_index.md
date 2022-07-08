@@ -10,6 +10,9 @@ url: /php-java/filloverlay/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

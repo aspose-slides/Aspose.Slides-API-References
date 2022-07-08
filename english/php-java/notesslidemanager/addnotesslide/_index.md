@@ -13,7 +13,7 @@ url: /php-java/notesslidemanager/addnotesslide/
  
 
 ### Returns
-NotesSlide( #getNotesSlide) for this slide.
+[NotesSlide](../../notesslide)
 
 
 ---

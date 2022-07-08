@@ -14,7 +14,7 @@ url: /php-java/textframeformat/gettransform/
  
 
 ### Returns
-TextShapeType
+byte
 
 
 ---

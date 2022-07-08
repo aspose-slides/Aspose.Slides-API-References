@@ -14,7 +14,7 @@ url: /php-java/axesmanager/getverticalaxis/
   
 
 ### Returns
-IAxis
+[Axis](../../axis)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/effectformat/getsoftedgeeffect/
  
 
 ### Returns
-ISoftEdge
+[SoftEdge](../../softedge)
 
 
 ---

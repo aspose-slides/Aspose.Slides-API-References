@@ -25,7 +25,7 @@ url: /php-java/convert/autobyextension/
 | outPath | String | Output path |
 
 ### Returns
-Presentation
+void
 
 ### Exception
 

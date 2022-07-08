@@ -13,6 +13,9 @@ url: /php-java/outershadow/setblurradius/
  Read/write  double.
  
 
+### Returns
+void
+
 
 ---
 

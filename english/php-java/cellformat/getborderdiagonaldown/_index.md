@@ -14,7 +14,7 @@ url: /php-java/cellformat/getborderdiagonaldown/
  
 
 ### Returns
-ILineFormat
+[LineFormat](../../lineformat)
 
 
 ---

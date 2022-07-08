@@ -25,6 +25,9 @@ Example:
 | columnIndex | int | Zero-based column index |
 | val | int | New value of horizontal alignment of specified column |
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/effectformat/setgloweffect/
  
 
 ### Returns
-IGlow
+void
 
 
 ---

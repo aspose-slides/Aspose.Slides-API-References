@@ -12,6 +12,9 @@ url: /php-java/chartseries/getquartilemethod/
  Represents quartile method. Applies only to BoxAndWhisker charts.
  
 
+### Returns
+int
+
 
 ---
 

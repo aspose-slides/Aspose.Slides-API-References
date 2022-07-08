@@ -10,6 +10,9 @@ url: /php-java/tableformat/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

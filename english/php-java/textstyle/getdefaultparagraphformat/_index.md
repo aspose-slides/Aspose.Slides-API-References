@@ -14,7 +14,7 @@ url: /php-java/textstyle/getdefaultparagraphformat/
  
 
 ### Returns
-IParagraphFormat
+[ParagraphFormat](../../paragraphformat)
 
 
 ---

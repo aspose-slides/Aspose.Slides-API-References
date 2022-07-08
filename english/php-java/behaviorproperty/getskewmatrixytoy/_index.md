@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getskewmatrixytoy/
  Represents 'skew.matrix.ytoy' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

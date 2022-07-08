@@ -14,7 +14,7 @@ url: /php-java/coloreffect/setby/
  
 
 ### Returns
-IColorOffset
+void
 
 
 ---

@@ -18,6 +18,9 @@ Example:
   $mathText->getFormat()->setFontHeight(28);
 ```
 
+### Returns
+[PortionFormat](../../portionformat)
+
 
 ---
 

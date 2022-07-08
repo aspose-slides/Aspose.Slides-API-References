@@ -14,7 +14,7 @@ url: /php-java/audioframe/setlinkpathlong/
  
 
 ### Returns
-String
+void
 
 
 ---

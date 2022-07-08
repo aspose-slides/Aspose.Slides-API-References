@@ -14,7 +14,7 @@ url: /php-java/table/setstylepreset/
  
 
 ### Returns
-TableStylePreset
+void
 
 
 ---

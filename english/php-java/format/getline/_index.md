@@ -14,7 +14,7 @@ url: /php-java/format/getline/
  
 
 ### Returns
-ILineFormat
+[LineFormat](../../lineformat)
 
 
 ---

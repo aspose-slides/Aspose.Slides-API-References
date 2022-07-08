@@ -14,7 +14,7 @@ url: /php-java/templatecontext/getobject/
  
 
 ### Returns
-Object
+TObject
 
 
 ---

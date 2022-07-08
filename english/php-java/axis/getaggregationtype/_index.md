@@ -12,6 +12,9 @@ url: /php-java/axis/getaggregationtype/
  Represents aggregation type of category axis (binning). Applied to category. Used with Histogram or HistogramPareto series only.
  
 
+### Returns
+int
+
 
 ---
 

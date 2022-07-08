@@ -22,7 +22,7 @@ url: /php-java/textanimation/addeffect/
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---

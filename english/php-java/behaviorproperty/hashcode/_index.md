@@ -13,7 +13,7 @@ url: /php-java/behaviorproperty/hashcode/
  
 
 ### Returns
-#getValue
+int
 
 
 ---

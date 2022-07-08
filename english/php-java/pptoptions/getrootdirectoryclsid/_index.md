@@ -29,6 +29,9 @@ url: /php-java/pptoptions/getrootdirectoryclsid/
   }
 ```
 
+### Returns
+UUID
+
 
 ---
 

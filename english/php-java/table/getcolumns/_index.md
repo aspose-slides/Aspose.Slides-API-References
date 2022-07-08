@@ -14,7 +14,7 @@ url: /php-java/table/getcolumns/
  
 
 ### Returns
-IColumnCollection
+[ColumnCollection](../../columncollection)
 
 
 ---

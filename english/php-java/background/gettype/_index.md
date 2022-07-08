@@ -14,7 +14,7 @@ url: /php-java/background/gettype/
  
 
 ### Returns
-BackgroundType
+byte
 
 
 ---

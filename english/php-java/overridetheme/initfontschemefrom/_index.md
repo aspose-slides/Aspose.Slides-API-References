@@ -16,7 +16,10 @@ url: /php-java/overridetheme/initfontschemefrom/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| fontScheme | FontScheme | Data to initialize from. |
+| fontScheme | [FontScheme](../../fontscheme) | Data to initialize from. |
+
+### Returns
+void
 
 ### Exception
 

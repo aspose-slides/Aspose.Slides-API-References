@@ -12,6 +12,9 @@ url: /php-java/documentproperties/clearbuiltinproperties/
  Clears and sets default values for all builtIn properties.
  
 
+### Returns
+void
+
 
 ---
 

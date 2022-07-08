@@ -14,7 +14,7 @@ url: /php-java/shredtransition/setdirection/
  
 
 ### Returns
-TransitionInOutDirectionType
+void
 
 
 ---

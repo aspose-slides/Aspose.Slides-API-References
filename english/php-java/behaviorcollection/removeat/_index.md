@@ -18,6 +18,9 @@ url: /php-java/behaviorcollection/removeat/
 | --- | --- | --- |
 | index | int | Index of a behavior to remove. |
 
+### Returns
+void
+
 
 ---
 

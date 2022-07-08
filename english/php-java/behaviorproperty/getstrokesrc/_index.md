@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokesrc/
  Represents 'stroke.src' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

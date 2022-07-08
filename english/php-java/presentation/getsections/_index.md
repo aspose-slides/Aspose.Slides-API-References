@@ -14,7 +14,7 @@ url: /php-java/presentation/getsections/
  
 
 ### Returns
-ISectionCollection
+[SectionCollection](../../sectioncollection)
 
 
 ---

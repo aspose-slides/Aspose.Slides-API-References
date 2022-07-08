@@ -14,7 +14,7 @@ url: /php-java/textframeformat/gettextstyle/
  
 
 ### Returns
-ITextStyle
+[TextStyle](../../textstyle)
 
 
 ---

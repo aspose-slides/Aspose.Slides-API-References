@@ -14,7 +14,7 @@ url: /php-java/effectformat/setinnershadoweffect/
  
 
 ### Returns
-IInnerShadow
+void
 
 
 ---

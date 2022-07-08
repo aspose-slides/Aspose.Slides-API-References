@@ -12,6 +12,9 @@ url: /php-java/commentcollection/clear/
  Removes all comments from a collection.
  
 
+### Returns
+void
+
 
 ---
 

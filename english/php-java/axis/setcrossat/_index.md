@@ -14,7 +14,7 @@ url: /php-java/axis/setcrossat/
  
 
 ### Returns
-float
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/tabcollection/get_item/
  
 
 ### Returns
-Tab
+[Tab](../../tab)
 
 
 ---

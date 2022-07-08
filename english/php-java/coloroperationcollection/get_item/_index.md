@@ -14,7 +14,7 @@ url: /php-java/coloroperationcollection/get_item/
  
 
 ### Returns
-ColorOperation
+[ColorOperation](../../coloroperation)
 
 
 ---

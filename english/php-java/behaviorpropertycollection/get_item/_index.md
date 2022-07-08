@@ -19,7 +19,7 @@ url: /php-java/behaviorpropertycollection/get_item/
 | index | int | Index of a property to return. |
 
 ### Returns
-Animation behavior property.
+[BehaviorProperty](../../behaviorproperty)
 
 
 ---

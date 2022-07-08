@@ -14,7 +14,7 @@ url: /php-java/shapeframe/getflipv/
  
 
 ### Returns
-NullableBool
+byte
 
 
 ---

@@ -19,6 +19,9 @@ url: /php-java/presentationheaderfootermanager/setallfooterstext/
 | --- | --- | --- |
 | text | String | Text to set. |
 
+### Returns
+void
+
 
 ---
 

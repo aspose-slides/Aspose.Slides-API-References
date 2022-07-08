@@ -14,7 +14,7 @@ url: /php-java/presentation/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

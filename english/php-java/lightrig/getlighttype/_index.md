@@ -16,7 +16,7 @@ url: /php-java/lightrig/getlighttype/
  
 
 ### Returns
-LightRigPresetType
+int
 
 
 ---

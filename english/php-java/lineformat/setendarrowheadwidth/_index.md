@@ -14,7 +14,7 @@ url: /php-java/lineformat/setendarrowheadwidth/
  
 
 ### Returns
-LineArrowheadWidth
+void
 
 
 ---

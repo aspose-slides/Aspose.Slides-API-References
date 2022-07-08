@@ -10,6 +10,9 @@ url: /php-java/paragraphcollection/notify/
 ## notify(Object sender)  method
 
 
+### Returns
+void
+
 
 ---
 

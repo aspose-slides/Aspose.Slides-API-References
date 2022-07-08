@@ -15,7 +15,7 @@ url: /php-java/chartdatapoint/getsizevalue/
  
 
 ### Returns
-IDoubleChartValue
+[DoubleChartValue](../../doublechartvalue)
 
 
 ---

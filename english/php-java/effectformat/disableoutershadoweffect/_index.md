@@ -12,6 +12,9 @@ url: /php-java/effectformat/disableoutershadoweffect/
  Disables outer shadow effect.
  
 
+### Returns
+void
+
 
 ---
 

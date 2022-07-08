@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setshowseriesname/
  
 
 ### Returns
-boolean
+void
 
 
 ---

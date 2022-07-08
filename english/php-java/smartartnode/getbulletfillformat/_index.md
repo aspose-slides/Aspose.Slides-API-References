@@ -15,7 +15,7 @@ url: /php-java/smartartnode/getbulletfillformat/
  
 
 ### Returns
-IFillFormat
+[FillFormat](../../fillformat)
 
 
 ---

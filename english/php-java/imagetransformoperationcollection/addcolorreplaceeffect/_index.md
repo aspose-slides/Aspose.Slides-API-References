@@ -13,7 +13,7 @@ url: /php-java/imagetransformoperationcollection/addcolorreplaceeffect/
  
 
 ### Returns
-Index of the new image effect in a collection.
+[ColorReplace](../../colorreplace)
 
 
 ---

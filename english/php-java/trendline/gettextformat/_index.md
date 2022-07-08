@@ -14,7 +14,7 @@ url: /php-java/trendline/gettextformat/
  
 
 ### Returns
-IChartTextFormat
+[ChartTextFormat](../../charttextformat)
 
 
 ---

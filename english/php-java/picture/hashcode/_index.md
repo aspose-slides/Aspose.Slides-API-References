@@ -13,7 +13,7 @@ url: /php-java/picture/hashcode/
  
 
 ### Returns
-Hash.
+int
 
 
 ---

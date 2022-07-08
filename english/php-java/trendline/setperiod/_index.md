@@ -15,7 +15,7 @@ url: /php-java/trendline/setperiod/
  
 
 ### Returns
-byte
+void
 
 
 ---

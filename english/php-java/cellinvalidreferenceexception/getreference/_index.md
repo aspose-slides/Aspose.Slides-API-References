@@ -12,6 +12,9 @@ url: /php-java/cellinvalidreferenceexception/getreference/
  Gets an invalid cell reference.
  
 
+### Returns
+String
+
 
 ---
 

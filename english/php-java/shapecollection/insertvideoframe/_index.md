@@ -24,7 +24,7 @@ url: /php-java/shapecollection/insertvideoframe/
 | fname | String | Video file name. |
 
 ### Returns
-Created VideoFrame object.
+[VideoFrame](../../videoframe)
 
 
 ---

@@ -16,7 +16,7 @@ url: /php-java/blobmanagementoptions/getmaxblobsbytesinmemory/
  
 
 ### Returns
-#setTemporaryFilesAllowed(boolean)
+long
 
 
 ---

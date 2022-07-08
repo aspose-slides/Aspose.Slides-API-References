@@ -13,7 +13,7 @@ url: /php-java/bilevel/geteffective/
  
 
 ### Returns
-A IBiLevelEffectiveData.
+
 
 
 ---

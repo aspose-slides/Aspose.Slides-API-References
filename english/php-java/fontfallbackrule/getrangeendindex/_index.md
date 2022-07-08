@@ -12,6 +12,9 @@ url: /php-java/fontfallbackrule/getrangeendindex/
  Get last index of continuous unicode range.
  
 
+### Returns
+long
+
 
 ---
 

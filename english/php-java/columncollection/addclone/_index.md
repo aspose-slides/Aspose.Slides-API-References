@@ -16,11 +16,11 @@ url: /php-java/columncollection/addclone/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| templ | Column | Column which is used as a template. |
+| templ | [Column](../column) | Column which is used as a template. |
 | withAttachedColumns | boolean | True to copy also all columns attached to the template row. |
 
 ### Returns
-Added columns.
+[Column](../../column)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/documentproperties/sethyperlinkbase/
  
 
 ### Returns
-String
+void
 
 
 ---

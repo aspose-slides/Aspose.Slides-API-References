@@ -14,7 +14,7 @@ url: /php-java/background/getslide/
  
 
 ### Returns
-IBaseSlide
+BaseSlide
 
 
 ---

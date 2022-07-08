@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstylefontfamily/
  Represents 'style.fontFamily' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

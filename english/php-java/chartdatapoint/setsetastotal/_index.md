@@ -12,6 +12,9 @@ url: /php-java/chartdatapoint/setsetastotal/
  Sets data point as total. Applied for Waterfall series type only.
  
 
+### Returns
+void
+
 
 ---
 

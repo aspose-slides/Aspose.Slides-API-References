@@ -32,7 +32,7 @@ url: /php-java/tableformat/geteffective/
 ```
 
 ### Returns
-A ITableFormatEffectiveData.
+
 
 
 ---

@@ -13,6 +13,9 @@ url: /php-java/oleobjectframe/setupdateautomatic/
  Read/write  boolean.
  
 
+### Returns
+void
+
 
 ---
 

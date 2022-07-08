@@ -19,6 +19,9 @@ url: /php-java/presentationheaderfootermanager/setalldatetimestext/
 | --- | --- | --- |
 | text | String | Text to set. |
 
+### Returns
+void
+
 
 ---
 

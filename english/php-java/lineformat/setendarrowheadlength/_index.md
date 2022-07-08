@@ -14,7 +14,7 @@ url: /php-java/lineformat/setendarrowheadlength/
  
 
 ### Returns
-LineArrowheadLength
+void
 
 
 ---

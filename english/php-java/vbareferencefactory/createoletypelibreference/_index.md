@@ -13,7 +13,7 @@ url: /php-java/vbareferencefactory/createoletypelibreference/
  
 
 ### Returns
-New OLE Automation type library reference
+[VbaReferenceOleTypeLib](../../vbareferenceoletypelib)
 
 
 ---

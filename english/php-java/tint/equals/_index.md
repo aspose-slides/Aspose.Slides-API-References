@@ -19,7 +19,7 @@ url: /php-java/tint/equals/
 | obj | Object | The Tint to compare. |
 
 ### Returns
-Tint
+boolean
 
 
 ---

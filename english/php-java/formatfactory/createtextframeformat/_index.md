@@ -13,7 +13,7 @@ url: /php-java/formatfactory/createtextframeformat/
  
 
 ### Returns
-ITextFrameFormat
+[TextFrameFormat](../../textframeformat)
 
 
 ---

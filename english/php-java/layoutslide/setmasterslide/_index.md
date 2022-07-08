@@ -14,7 +14,7 @@ url: /php-java/layoutslide/setmasterslide/
  
 
 ### Returns
-IMasterSlide
+void
 
 
 ---

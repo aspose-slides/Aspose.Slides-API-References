@@ -14,7 +14,7 @@ url: /php-java/documentproperties/getcreatedtime/
  
 
 ### Returns
-java.util.Date
+Date
 
 
 ---

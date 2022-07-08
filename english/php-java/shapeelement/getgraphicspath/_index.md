@@ -14,7 +14,7 @@ url: /php-java/shapeelement/getgraphicspath/
  
 
 ### Returns
-java.awt.geom.GeneralPath
+Shape
 
 
 ---

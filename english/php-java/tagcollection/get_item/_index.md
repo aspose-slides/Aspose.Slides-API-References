@@ -19,7 +19,7 @@ url: /php-java/tagcollection/get_item/
 | name | String | Key of a tag. |
 
 ### Returns
-Value of a tag.
+String
 
 
 ---

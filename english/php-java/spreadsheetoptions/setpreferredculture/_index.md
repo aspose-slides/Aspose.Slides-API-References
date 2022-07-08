@@ -13,6 +13,9 @@ url: /php-java/spreadsheetoptions/setpreferredculture/
  that use the double-byte character set (DBCS).
  
 
+### Returns
+void
+
 
 ---
 

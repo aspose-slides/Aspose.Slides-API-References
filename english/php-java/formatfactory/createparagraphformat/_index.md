@@ -13,7 +13,7 @@ url: /php-java/formatfactory/createparagraphformat/
  
 
 ### Returns
-IParagraphFormat
+[ParagraphFormat](../../paragraphformat)
 
 
 ---

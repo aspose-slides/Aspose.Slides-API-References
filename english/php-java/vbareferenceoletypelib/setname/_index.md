@@ -14,7 +14,7 @@ url: /php-java/vbareferenceoletypelib/setname/
  
 
 ### Returns
-String
+void
 
 
 ---

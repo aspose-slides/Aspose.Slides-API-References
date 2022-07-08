@@ -12,6 +12,9 @@ url: /php-java/axis/isautomaticunderflowbin/
  Specifies automatic underflow bin value. If false: use UnderflowBin property.
  
 
+### Returns
+boolean
+
 
 ---
 

@@ -34,10 +34,10 @@ url: /php-java/shapecollection/addzoomframe/
 | y | float | Y coordinate of a new Zoom frame {@code float}. |
 | width | float | Width of a new Zoom frame {@code float}. |
 | height | float | Height of a new Zoom frame {@code float}. |
-| slide | Slide | The slide object referenced by the Zoom frame ISlide. |
+| slide | [Slide](../../slide) | The slide object referenced by the Zoom frame ISlide. |
 
 ### Returns
-Created Zoom object IZoomFrame.
+[ZoomFrame](../../zoomframe)
 
 ### Exception
 
@@ -77,11 +77,11 @@ Created Zoom object IZoomFrame.
 | y | float | Y coordinate of a new Zoom frame {@code float}. |
 | width | float | Width of a new Zoom frame {@code float}. |
 | height | float | Height of a new Zoom frame {@code float}. |
-| slide | Slide | The slide object referenced by the Zoom frame ISlide. |
-| image | PPImage | The image for the referenced slide IPPImage |
+| slide | [Slide](../slide) | The slide object referenced by the Zoom frame ISlide. |
+| image | [PPImage](../../ppimage) | The image for the referenced slide IPPImage |
 
 ### Returns
-Created Zoom object IZoomFrame.
+[ZoomFrame](../../zoomframe)
 
 ### Exception
 

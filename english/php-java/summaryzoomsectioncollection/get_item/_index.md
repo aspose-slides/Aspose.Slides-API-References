@@ -28,7 +28,7 @@ The example demonstrates getting Summary Zoom Section element by index:
 ```
 
 ### Returns
-ISummaryZoomSection
+[SummaryZoomSection](../../summaryzoomsection)
 
 
 ---

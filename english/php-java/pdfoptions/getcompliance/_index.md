@@ -16,7 +16,7 @@ url: /php-java/pdfoptions/getcompliance/
  
 
 ### Returns
-PdfCompliance#Pdf15
+int
 
 
 ---

@@ -19,7 +19,7 @@ url: /php-java/tagcollection/getnamebyindex/
 | index | int | Index of a tag to return. |
 
 ### Returns
-Key of a tag.
+String
 
 
 ---

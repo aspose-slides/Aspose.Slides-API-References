@@ -14,7 +14,7 @@ url: /php-java/presentation/getmasternotesslidemanager/
  
 
 ### Returns
-IMasterNotesSlideManager
+
 
 
 ---

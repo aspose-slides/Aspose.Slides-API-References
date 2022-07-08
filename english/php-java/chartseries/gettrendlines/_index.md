@@ -19,7 +19,7 @@ url: /php-java/chartseries/gettrendlines/
  
 
 ### Returns
-ITrendlineCollection
+[TrendlineCollection](../../trendlinecollection)
 
 
 ---

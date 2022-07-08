@@ -19,6 +19,9 @@ url: /php-java/storage/put/
 | key | String | Key for the value. |
 | value | TValue | Value. |
 
+### Returns
+void
+
 
 ---
 

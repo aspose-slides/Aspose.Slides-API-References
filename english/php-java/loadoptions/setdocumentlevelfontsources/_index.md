@@ -13,6 +13,9 @@ url: /php-java/loadoptions/setdocumentlevelfontsources/
  These fonts are available to the presentation throughout its lifetime and are not shared with other presentations
  
 
+### Returns
+void
+
 
 ---
 

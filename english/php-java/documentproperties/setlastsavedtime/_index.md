@@ -16,7 +16,7 @@ url: /php-java/documentproperties/setlastsavedtime/
  
 
 ### Returns
-IPresentationInfo#updateDocumentProperties(IDocumentProperties)
+void
 
 
 ---

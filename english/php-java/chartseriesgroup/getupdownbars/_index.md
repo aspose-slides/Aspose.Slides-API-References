@@ -14,7 +14,7 @@ url: /php-java/chartseriesgroup/getupdownbars/
  
 
 ### Returns
-IUpDownBarsManager
+[UpDownBarsManager](../../updownbarsmanager)
 
 
 ---

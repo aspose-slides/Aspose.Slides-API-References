@@ -16,7 +16,7 @@ url: /php-java/paragraphformat/setspaceafter/
  
 
 ### Returns
-float
+void
 
 
 ---

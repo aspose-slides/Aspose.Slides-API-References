@@ -12,6 +12,9 @@ url: /php-java/portioncollection/clear/
  Removes all elements from the collection.
  
 
+### Returns
+void
+
 
 ---
 

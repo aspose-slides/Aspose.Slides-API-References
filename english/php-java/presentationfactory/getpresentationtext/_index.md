@@ -20,7 +20,7 @@ url: /php-java/presentationfactory/getpresentationtext/
 | mode | int | Extraction mode |
 
 ### Returns
-The instance of PresentationText containing the SlideText array representing the raw slides text
+[PresentationText](../../presentationtext)
 
 
 ---
@@ -39,7 +39,7 @@ The instance of PresentationText containing the SlideText array representing the
 | mode | int | Extraction mode |
 
 ### Returns
-The instance of PresentationText containing the SlideText array representing the raw slides text
+[PresentationText](../../presentationtext)
 
 
 ---
@@ -56,10 +56,10 @@ The instance of PresentationText containing the SlideText array representing the
 | --- | --- | --- |
 | stream | InputStream | Input stream |
 | mode | int | Extraction mode |
-| options | LoadOptions | Load options |
+| options | [LoadOptions](../../loadoptions) | Load options |
 
 ### Returns
-The instance of PresentationText containing the SlideText array representing the raw slides text
+[PresentationText](../../presentationtext)
 
 
 ---

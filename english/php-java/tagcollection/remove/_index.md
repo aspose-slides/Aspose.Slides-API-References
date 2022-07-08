@@ -18,6 +18,9 @@ url: /php-java/tagcollection/remove/
 | --- | --- | --- |
 | name | String | The name of tag to remove. |
 
+### Returns
+void
+
 
 ---
 

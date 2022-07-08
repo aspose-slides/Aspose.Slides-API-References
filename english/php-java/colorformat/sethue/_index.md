@@ -15,7 +15,7 @@ url: /php-java/colorformat/sethue/
  
 
 ### Returns
-float
+void
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/digitalsignaturecollection/get_item/
  Returns the signature by index.
  
 
+### Returns
+[DigitalSignature](../../digitalsignature)
+
 
 ---
 

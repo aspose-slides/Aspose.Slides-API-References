@@ -10,6 +10,9 @@ url: /php-java/mastertheme/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

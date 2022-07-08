@@ -14,7 +14,7 @@ url: /php-java/flythroughtransition/setbounce/
  
 
 ### Returns
-boolean
+void
 
 
 ---

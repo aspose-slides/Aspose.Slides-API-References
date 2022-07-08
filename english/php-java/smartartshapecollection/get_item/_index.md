@@ -20,7 +20,7 @@ url: /php-java/smartartshapecollection/get_item/
 | index | int | Index of shape |
 
 ### Returns
-SmartArtShape
+[SmartArtShape](../../smartartshape)
 
 
 ---

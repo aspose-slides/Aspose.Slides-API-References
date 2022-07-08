@@ -14,7 +14,7 @@ url: /php-java/legacydiagram/converttosmartart/
  
 
 ### Returns
-Created SmartArt object.
+[SmartArt](../../smartart)
 
 
 ---

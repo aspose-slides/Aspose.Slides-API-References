@@ -13,6 +13,9 @@ url: /php-java/paragraph/setendparagraphportionformat/
  the last one.
  
 
+### Returns
+void
+
 
 ---
 

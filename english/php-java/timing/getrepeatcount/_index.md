@@ -13,6 +13,9 @@ url: /php-java/timing/getrepeatcount/
  Read/write  float.
  
 
+### Returns
+float
+
 
 ---
 

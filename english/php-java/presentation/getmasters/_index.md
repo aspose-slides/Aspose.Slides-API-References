@@ -14,7 +14,7 @@ url: /php-java/presentation/getmasters/
  
 
 ### Returns
-IMasterSlideCollection
+[MasterSlideCollection](../../masterslidecollection)
 
 
 ---

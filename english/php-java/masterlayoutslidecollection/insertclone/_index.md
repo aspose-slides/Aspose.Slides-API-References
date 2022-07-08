@@ -17,10 +17,10 @@ url: /php-java/masterlayoutslidecollection/insertclone/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new slide. |
-| sourceLayout | LayoutSlide | Slide to clone. New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. |
+| sourceLayout | [LayoutSlide](../../layoutslide) | Slide to clone. New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. |
 
 ### Returns
-Inserted slide.
+[LayoutSlide](../../layoutslide)
 
 
 ---

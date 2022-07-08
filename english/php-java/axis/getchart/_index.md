@@ -14,7 +14,7 @@ url: /php-java/axis/getchart/
  
 
 ### Returns
-IChart
+[Chart](../../chart)
 
 
 ---

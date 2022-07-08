@@ -14,7 +14,7 @@ url: /php-java/axis/getposition/
   
 
 ### Returns
-AxisPositionType
+int
 
 
 ---

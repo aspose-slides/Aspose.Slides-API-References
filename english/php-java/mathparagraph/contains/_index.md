@@ -25,10 +25,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | MathBlock | The object to locate in the collection. |
+| mathBlock | [MathBlock](../../mathblock) | The object to locate in the collection. |
 
 ### Returns
-true if mathBlock is found in the collection; otherwise, false.
+boolean
 
 
 ---

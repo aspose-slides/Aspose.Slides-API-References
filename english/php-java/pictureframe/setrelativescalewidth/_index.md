@@ -14,7 +14,7 @@ url: /php-java/pictureframe/setrelativescalewidth/
  
 
 ### Returns
-float
+void
 
 
 ---

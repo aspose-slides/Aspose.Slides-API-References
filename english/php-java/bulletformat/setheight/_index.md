@@ -14,6 +14,9 @@ url: /php-java/bulletformat/setheight/
  Read/write  float.
  
 
+### Returns
+void
+
 
 ---
 

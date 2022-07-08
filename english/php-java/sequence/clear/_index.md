@@ -12,6 +12,9 @@ url: /php-java/sequence/clear/
  Removes all effects from a collection.
  
 
+### Returns
+void
+
 
 ---
 

@@ -17,10 +17,10 @@ url: /php-java/chartdatapointcollection/adddatapointfortreemapseries/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sizeValue | ChartDataCell | Data point SizeValue |
+| sizeValue | [ChartDataCell](../../chartdatacell) | Data point SizeValue |
 
 ### Returns
-New data point.
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---

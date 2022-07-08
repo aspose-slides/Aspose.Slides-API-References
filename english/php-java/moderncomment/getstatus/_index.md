@@ -14,7 +14,7 @@ url: /php-java/moderncomment/getstatus/
  
 
 ### Returns
-ModernCommentStatus
+byte
 
 
 ---

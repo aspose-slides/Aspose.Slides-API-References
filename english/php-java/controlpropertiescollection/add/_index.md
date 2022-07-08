@@ -19,6 +19,9 @@ url: /php-java/controlpropertiescollection/add/
 | name | String | The name of the property. |
 | value | String | The alue of the property. |
 
+### Returns
+void
+
 
 ---
 

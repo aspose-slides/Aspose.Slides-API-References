@@ -14,7 +14,7 @@ url: /php-java/lineformat/setcapstyle/
  
 
 ### Returns
-LineCapStyle
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/trendline/getformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

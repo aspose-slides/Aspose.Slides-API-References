@@ -14,7 +14,7 @@ url: /php-java/colorformat/getcolortype/
  
 
 ### Returns
-ColorType
+int
 
 
 ---

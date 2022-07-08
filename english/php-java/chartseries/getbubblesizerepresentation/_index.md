@@ -19,6 +19,9 @@ url: /php-java/chartseries/getbubblesizerepresentation/
  This is the projection of the property ParentSeriesGroup.BubbleSizeRepresentation.
  
 
+### Returns
+int
+
 
 ---
 

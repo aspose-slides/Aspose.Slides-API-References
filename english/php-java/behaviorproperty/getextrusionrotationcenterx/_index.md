@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionrotationcenterx/
  Represents 'extrusion.rotationcenter.x' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

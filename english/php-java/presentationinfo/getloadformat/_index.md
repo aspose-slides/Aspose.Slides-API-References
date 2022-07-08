@@ -14,7 +14,7 @@ url: /php-java/presentationinfo/getloadformat/
  
 
 ### Returns
-LoadFormat
+int
 
 
 ---

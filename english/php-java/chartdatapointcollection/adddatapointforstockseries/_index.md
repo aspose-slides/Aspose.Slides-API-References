@@ -18,10 +18,10 @@ url: /php-java/chartdatapointcollection/adddatapointforstockseries/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartDataCell | Data point Value. |
+| value | [ChartDataCell](../../chartdatacell) | Data point Value. |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeStock(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -41,7 +41,7 @@ ChartTypeCharacterizer#isChartTypeStock(int)
 | value | double | Data point Value. |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeStock(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---

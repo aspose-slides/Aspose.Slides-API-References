@@ -12,6 +12,9 @@ url: /php-java/chartcategorylevelsmanager/get_item/
  Returns IChartDataCell object for defined level.
  
 
+### Returns
+[ChartDataCell](../../chartdatacell)
+
 
 ---
 

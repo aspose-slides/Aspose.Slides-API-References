@@ -13,6 +13,9 @@ url: /php-java/timing/settriggerdelaytime/
  Read/write  float.
  
 
+### Returns
+void
+
 
 ---
 

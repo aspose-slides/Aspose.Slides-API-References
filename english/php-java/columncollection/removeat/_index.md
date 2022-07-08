@@ -19,6 +19,9 @@ url: /php-java/columncollection/removeat/
 | firstColumnIndex | int | Index of a column to delete. |
 | withAttachedRows | boolean | True to delete also all attached columns. |
 
+### Returns
+void
+
 
 ---
 

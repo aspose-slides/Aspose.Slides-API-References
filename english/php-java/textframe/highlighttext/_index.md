@@ -19,6 +19,9 @@ url: /php-java/textframe/highlighttext/
 | text | String | Text sample to highlight. |
 | highlightColor | Color | Highlighting color. |
 
+### Returns
+void
+
 
 ---
 
@@ -34,7 +37,10 @@ url: /php-java/textframe/highlighttext/
 | --- | --- | --- |
 | text | String | Text sample to highlight. |
 | highlightColor | Color | Highlighting color. |
-| options | TextHighlightingOptions | Highlighting options. |
+| options | [TextHighlightingOptions](../../texthighlightingoptions) | Highlighting options. |
+
+### Returns
+void
 
 
 ---

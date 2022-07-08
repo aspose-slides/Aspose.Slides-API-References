@@ -19,7 +19,7 @@ url: /php-java/mathdelimiter/delimit/
 | separatorCharacter | char | delimiter character |
 
 ### Returns
-This object after applying the delimiter character
+[MathDelimiter](../../mathdelimiter)
 
 
 ---

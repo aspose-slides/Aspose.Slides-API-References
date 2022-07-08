@@ -14,7 +14,7 @@ url: /php-java/chartseries/setshowmeanmarkers/
  
 
 ### Returns
-boolean
+void
 
 
 ---

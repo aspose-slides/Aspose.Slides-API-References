@@ -14,7 +14,7 @@ url: /php-java/connector/setshapetype/
  
 
 ### Returns
-ShapeType
+void
 
 
 ---

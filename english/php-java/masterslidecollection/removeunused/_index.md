@@ -18,6 +18,9 @@ url: /php-java/masterslidecollection/removeunused/
 | --- | --- | --- |
 | ignorePreserveField | boolean | Determines, whether this method should remove unused master even if its ( MasterSlide#getPreserve/ MasterSlide#setPreserve(boolean)) property is set to true. |
 
+### Returns
+void
+
 
 ---
 

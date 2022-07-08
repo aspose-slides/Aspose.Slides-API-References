@@ -14,7 +14,7 @@ url: /php-java/reflection/setdistance/
  
 
 ### Returns
-double
+void
 
 
 ---

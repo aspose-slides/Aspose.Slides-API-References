@@ -19,7 +19,7 @@ url: /php-java/documentproperties/containscustomproperty/
 | name | String | Name of a custom property to check. |
 
 ### Returns
-Return true if property exists, false overwise.
+boolean
 
 
 ---

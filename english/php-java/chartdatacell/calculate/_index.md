@@ -18,6 +18,9 @@ url: /php-java/chartdatacell/calculate/
 | --- | --- | --- |
 | updateValues | boolean | If false, no actual calculation will be performed. Use true for possible exceptions check. |
 
+### Returns
+void
+
 
 ---
 

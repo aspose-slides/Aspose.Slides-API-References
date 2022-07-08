@@ -12,6 +12,9 @@ url: /php-java/fontfallbackrule/clear/
  Removes all fonts from the list.
  
 
+### Returns
+void
+
 
 ---
 

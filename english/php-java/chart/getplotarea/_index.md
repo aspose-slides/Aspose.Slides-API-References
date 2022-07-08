@@ -14,7 +14,7 @@ url: /php-java/chart/getplotarea/
  
 
 ### Returns
-IChartPlotArea
+[ChartPlotArea](../../chartplotarea)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/columncollection/get_item/
  
 
 ### Returns
-Column
+[Column](../../column)
 
 
 ---

@@ -28,7 +28,7 @@ url: /php-java/background/geteffective/
 ```
 
 ### Returns
-A IBackgroundEffectiveData.
+
 
 
 ---

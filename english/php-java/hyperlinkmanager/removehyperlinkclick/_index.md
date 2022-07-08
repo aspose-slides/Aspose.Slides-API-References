@@ -12,6 +12,9 @@ url: /php-java/hyperlinkmanager/removehyperlinkclick/
  Removes hyperlink on click.
  
 
+### Returns
+void
+
 
 ---
 

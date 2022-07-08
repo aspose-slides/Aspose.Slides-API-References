@@ -18,6 +18,9 @@ url: /php-java/geometrypath/removeat/
 | --- | --- | --- |
 | index | int | Index of the geometry path that should be deleted. |
 
+### Returns
+void
+
 
 ---
 

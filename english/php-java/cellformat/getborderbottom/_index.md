@@ -14,7 +14,7 @@ url: /php-java/cellformat/getborderbottom/
  
 
 ### Returns
-ILineFormat
+[LineFormat](../../lineformat)
 
 
 ---

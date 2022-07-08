@@ -14,7 +14,7 @@ url: /php-java/marker/setsize/
  
 
 ### Returns
-int
+void
 
 
 ---

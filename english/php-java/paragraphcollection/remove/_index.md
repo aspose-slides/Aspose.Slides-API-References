@@ -16,10 +16,10 @@ url: /php-java/paragraphcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Paragraph | The object to remove from the IGenericCollection. |
+| item | [Paragraph](../../paragraph) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 

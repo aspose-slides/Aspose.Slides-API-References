@@ -14,7 +14,7 @@ url: /php-java/portion/getfield/
  
 
 ### Returns
-IField
+[Field](../../field)
 
 
 ---

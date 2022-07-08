@@ -14,7 +14,7 @@ url: /php-java/control/getproperties/
  Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null.
 
 ### Returns
-IControlPropertiesCollection
+[ControlPropertiesCollection](../../controlpropertiescollection)
 
 
 ---

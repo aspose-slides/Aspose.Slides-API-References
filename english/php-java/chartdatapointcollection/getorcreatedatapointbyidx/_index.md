@@ -20,7 +20,7 @@ url: /php-java/chartdatapointcollection/getorcreatedatapointbyidx/
 | index | long | Index. |
 
 ### Returns
-Returns data point with requested index.
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---

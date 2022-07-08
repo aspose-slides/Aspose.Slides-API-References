@@ -14,7 +14,7 @@ url: /php-java/scaleeffect/setzoomcontent/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

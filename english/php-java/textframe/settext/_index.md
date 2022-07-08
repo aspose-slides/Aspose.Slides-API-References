@@ -15,7 +15,7 @@ url: /php-java/textframe/settext/
  The text.
 
 ### Returns
-String
+void
 
 
 ---

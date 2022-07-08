@@ -16,7 +16,7 @@ url: /php-java/documentproperties/set_item/
  
 
 ### Returns
-Object
+void
 
 
 ---

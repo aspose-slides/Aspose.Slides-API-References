@@ -14,7 +14,7 @@ url: /php-java/pptxoptions/setconformance/
  
 
 ### Returns
-Conformance#Ecma376_2006
+void
 
 
 ---

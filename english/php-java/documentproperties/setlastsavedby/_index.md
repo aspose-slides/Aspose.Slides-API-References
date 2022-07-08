@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setlastsavedby/
  
 
 ### Returns
-String
+void
 
 
 ---

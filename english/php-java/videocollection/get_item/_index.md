@@ -14,7 +14,7 @@ url: /php-java/videocollection/get_item/
  
 
 ### Returns
-IVideo
+[Video](../../video)
 
 
 ---

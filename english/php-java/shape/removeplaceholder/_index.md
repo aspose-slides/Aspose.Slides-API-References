@@ -12,6 +12,9 @@ url: /php-java/shape/removeplaceholder/
  Defines that this shape isn't a placeholder.
  
 
+### Returns
+void
+
 
 ---
 

@@ -16,7 +16,7 @@ url: /php-java/chartseriesgroup/setsecondpiesize/
  
 
 ### Returns
-int
+void
 
 
 ---

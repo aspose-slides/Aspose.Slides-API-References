@@ -18,6 +18,9 @@ Example:
   $borderBox->setStrikethroughVertical(true);
 ```
 
+### Returns
+void
+
 
 ---
 

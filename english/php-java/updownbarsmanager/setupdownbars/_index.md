@@ -14,7 +14,7 @@ url: /php-java/updownbarsmanager/setupdownbars/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -18,6 +18,9 @@ url: /php-java/chartdatapointcollection/removeat/
 | --- | --- | --- |
 | index | int | Index of a data point to remove. |
 
+### Returns
+void
+
 
 ---
 

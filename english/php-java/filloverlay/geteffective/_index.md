@@ -13,7 +13,7 @@ url: /php-java/filloverlay/geteffective/
  
 
 ### Returns
-A IFillOverlayEffectiveData.
+
 
 
 ---

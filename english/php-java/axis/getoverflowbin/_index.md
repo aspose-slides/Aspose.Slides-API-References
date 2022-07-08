@@ -12,6 +12,9 @@ url: /php-java/axis/getoverflowbin/
  Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true. 
  
 
+### Returns
+double
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/charttitle/gettextformat/
  
 
 ### Returns
-IChartTextFormat
+[ChartTextFormat](../../charttextformat)
 
 
 ---

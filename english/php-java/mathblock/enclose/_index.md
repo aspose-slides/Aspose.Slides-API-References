@@ -26,7 +26,7 @@ Example:
 | endingCharacter | char | Ending character (usually right bracket) |
 
 ### Returns
-The math element of type IMathDelimiter which includes specified characters as framing
+[MathDelimiter](../../mathdelimiter)
 
 
 ---
@@ -53,7 +53,7 @@ Example:
 | separatorCharacter | char | Separator character |
 
 ### Returns
-The math element of type IMathDelimiter which includes specified characters as framing and delimiter
+[MathDelimiter](../../mathdelimiter)
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getppty/
  Represents 'ppt_y' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

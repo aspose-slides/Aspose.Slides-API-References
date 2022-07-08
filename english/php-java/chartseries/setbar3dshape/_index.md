@@ -15,7 +15,7 @@ url: /php-java/chartseries/setbar3dshape/
  
 
 ### Returns
-ChartShapeType
+void
 
 
 ---

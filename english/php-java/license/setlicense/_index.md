@@ -42,6 +42,9 @@ Licenses the component.
 | --- | --- | --- |
 | stream | InputStream | A stream that contains the license. Use null to switch to evaluation mode. |
 
+### Returns
+void
+
 
 ---
 
@@ -80,6 +83,9 @@ Licenses the component.
 | Name | Type | Description |
 | --- | --- | --- |
 | namePath | String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
+
+### Returns
+void
 
 
 ---

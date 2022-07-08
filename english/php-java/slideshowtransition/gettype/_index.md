@@ -14,7 +14,7 @@ url: /php-java/slideshowtransition/gettype/
  
 
 ### Returns
-TransitionType
+int
 
 
 ---

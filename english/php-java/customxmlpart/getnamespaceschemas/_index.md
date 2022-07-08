@@ -14,7 +14,7 @@ url: /php-java/customxmlpart/getnamespaceschemas/
  
 
 ### Returns
-String[]
+String
 
 
 ---

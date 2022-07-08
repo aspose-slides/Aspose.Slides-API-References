@@ -14,7 +14,7 @@ url: /php-java/motioneffect/setpath/
  
 
 ### Returns
-IMotionPath
+void
 
 
 ---

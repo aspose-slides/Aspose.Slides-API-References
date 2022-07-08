@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/setarrowheadslocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

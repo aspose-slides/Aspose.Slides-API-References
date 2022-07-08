@@ -12,6 +12,9 @@ url: /php-java/textframe/joinportionswithsameformatting/
  Joins runs with same formatting in all paragraphs.
  
 
+### Returns
+void
+
 
 ---
 

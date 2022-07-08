@@ -12,6 +12,9 @@ url: /php-java/tagcollection/clear/
  Removes all tags from the collection.
  
 
+### Returns
+void
+
 
 ---
 

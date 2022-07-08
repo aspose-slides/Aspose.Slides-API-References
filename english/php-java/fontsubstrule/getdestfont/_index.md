@@ -14,7 +14,7 @@ url: /php-java/fontsubstrule/getdestfont/
  
 
 ### Returns
-IFontData
+[FontData](../../fontdata)
 
 
 ---

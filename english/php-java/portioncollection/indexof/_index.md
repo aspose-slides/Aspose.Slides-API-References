@@ -16,10 +16,10 @@ url: /php-java/portioncollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | MathPortion | The object to locate in the List. |
+| item | [MathPortion](../../mathportion) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -34,10 +34,10 @@ List
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | MathPortion | The object to locate in the List. |
+| item | [Portion](../../portion) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---

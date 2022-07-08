@@ -31,7 +31,10 @@ url: /php-java/digitalsignaturecollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| signature | DigitalSignature | Signature to add. |
+| signature | [DigitalSignature](../../digitalsignature) | Signature to add. |
+
+### Returns
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/shape/getthumbnail/
  
 
 ### Returns
-Shape thumbnail.
+BufferedImage
 
 
 ---
@@ -34,7 +34,7 @@ Shape thumbnail.
 | scaleY | float | Y scale |
 
 ### Returns
-Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
+BufferedImage
 
 
 ---

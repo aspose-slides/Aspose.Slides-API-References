@@ -16,10 +16,10 @@ url: /php-java/customxmlpartcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | CustomXmlPart | The custom xml part to remove. |
+| item | [CustomXmlPart](../../customxmlpart) | The custom xml part to remove. |
 
 ### Returns
-true if item is successfully removed; otherwise, false.
+boolean
 
 ### Exception
 

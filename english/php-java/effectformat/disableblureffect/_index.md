@@ -12,6 +12,9 @@ url: /php-java/effectformat/disableblureffect/
  Disables blur effect.
  
 
+### Returns
+void
+
 
 ---
 

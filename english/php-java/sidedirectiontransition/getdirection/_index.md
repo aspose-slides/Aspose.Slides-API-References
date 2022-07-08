@@ -14,7 +14,7 @@ url: /php-java/sidedirectiontransition/getdirection/
  
 
 ### Returns
-TransitionSideDirectionType
+int
 
 
 ---

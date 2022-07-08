@@ -13,7 +13,7 @@ url: /php-java/coloroperationcollection/deepclone/
  
 
 ### Returns
-New ColorOperationCollection collection.
+Object
 
 
 ---

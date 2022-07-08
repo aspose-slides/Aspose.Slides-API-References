@@ -19,6 +19,9 @@ Example:
   $mathArray->setObjectDistribution(true);
 ```
 
+### Returns
+void
+
 
 ---
 

@@ -10,6 +10,9 @@ url: /php-java/videoplayerhtmlcontroller/writeslideend/
 ## writeSlideEnd([HtmlGenerator](../../htmlgenerator) generator, [Slide](../../slide) slide)  method
 
 
+### Returns
+void
+
 
 ---
 

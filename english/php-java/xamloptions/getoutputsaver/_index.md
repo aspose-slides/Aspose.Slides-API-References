@@ -12,6 +12,9 @@ url: /php-java/xamloptions/getoutputsaver/
  Represents an implementation of IOutputSaver interface.
  
 
+### Returns
+
+
 
 ---
 

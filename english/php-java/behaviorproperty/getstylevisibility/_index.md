@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstylevisibility/
  Represents 'style.visibility' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

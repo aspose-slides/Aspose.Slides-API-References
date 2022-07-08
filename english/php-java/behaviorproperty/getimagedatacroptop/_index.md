@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getimagedatacroptop/
  Represents 'imageData.cropTop' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

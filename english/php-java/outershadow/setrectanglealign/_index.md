@@ -14,7 +14,7 @@ url: /php-java/outershadow/setrectanglealign/
  
 
 ### Returns
-RectangleAlignment
+void
 
 
 ---

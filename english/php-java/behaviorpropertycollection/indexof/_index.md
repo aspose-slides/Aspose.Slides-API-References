@@ -16,10 +16,10 @@ url: /php-java/behaviorpropertycollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BehaviorProperty | The object to locate in the List. |
+| item | [BehaviorProperty](../../behaviorproperty) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -37,7 +37,7 @@ List
 | propertyValue | String | value of the property |
 
 ### Returns
-List
+int
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/interruptiontoken/getnone/
  when using this token.
 
 ### Returns
-InterruptionTokenSource#interrupt
+InterruptionToken
 
 
 ---

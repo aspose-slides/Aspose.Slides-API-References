@@ -10,6 +10,9 @@ url: /php-java/chartportionformat/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/fonts/getcomplexscriptfont/
  
 
 ### Returns
-IFontData
+[FontData](../../fontdata)
 
 
 ---

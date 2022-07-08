@@ -17,7 +17,7 @@ url: /php-java/loadoptions/setinterruptiontoken/
  
 
 ### Returns
-InterruptionTokenSource
+void
 
 
 ---

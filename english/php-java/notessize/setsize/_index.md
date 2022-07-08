@@ -14,7 +14,7 @@ url: /php-java/notessize/setsize/
  
 
 ### Returns
-java.awt.geom.Dimension2D
+void
 
 
 ---

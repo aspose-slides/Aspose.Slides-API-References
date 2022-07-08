@@ -14,7 +14,7 @@ url: /php-java/table/getrows/
  
 
 ### Returns
-IRowCollection
+[RowCollection](../../rowcollection)
 
 
 ---

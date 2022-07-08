@@ -14,7 +14,7 @@ url: /php-java/effectformat/setpresetshadoweffect/
  
 
 ### Returns
-IPresetShadow
+void
 
 
 ---

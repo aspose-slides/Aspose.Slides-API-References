@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstyleopacity/
  Represents 'style.opacity' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

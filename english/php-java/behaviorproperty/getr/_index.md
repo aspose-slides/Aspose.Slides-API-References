@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getr/
  Represents 'r' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

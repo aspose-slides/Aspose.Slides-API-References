@@ -14,7 +14,7 @@ url: /php-java/bulletformat/settype/
  
 
 ### Returns
-BulletType
+void
 
 
 ---

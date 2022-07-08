@@ -18,10 +18,10 @@ url: /php-java/masterslidecollection/insertclone/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new slide. |
-| sourceMaster | MasterSlide | Slide to clone. |
+| sourceMaster | [MasterSlide](../../masterslide) | Slide to clone. |
 
 ### Returns
-Inserted master slide.
+[MasterSlide](../../masterslide)
 
 
 ---

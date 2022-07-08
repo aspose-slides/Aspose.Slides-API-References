@@ -14,7 +14,7 @@ url: /php-java/presetshadow/getshadowcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

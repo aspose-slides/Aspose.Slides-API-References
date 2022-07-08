@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokelinestyle/
  Represents 'stroke.linestyle' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

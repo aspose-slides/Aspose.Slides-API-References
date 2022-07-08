@@ -14,7 +14,7 @@ url: /php-java/cellformat/getborderright/
  
 
 ### Returns
-ILineFormat
+[LineFormat](../../lineformat)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/inouttransition/getdirection/
  
 
 ### Returns
-TransitionInOutDirectionType
+int
 
 
 ---

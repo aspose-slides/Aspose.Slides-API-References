@@ -14,7 +14,7 @@ url: /php-java/filloverlay/getfillformat/
  
 
 ### Returns
-IFillFormat
+[FillFormat](../../fillformat)
 
 
 ---

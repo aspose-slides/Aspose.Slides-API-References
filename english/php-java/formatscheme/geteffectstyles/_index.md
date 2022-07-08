@@ -14,7 +14,7 @@ url: /php-java/formatscheme/geteffectstyles/
  
 
 ### Returns
-IEffectStyleCollection
+[EffectStyleCollection](../../effectstylecollection)
 
 
 ---

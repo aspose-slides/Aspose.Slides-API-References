@@ -14,7 +14,7 @@ url: /php-java/shapebevel/setheight/
  
 
 ### Returns
-double
+void
 
 
 ---

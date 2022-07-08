@@ -16,7 +16,7 @@ url: /php-java/slideshowtransition/setadvanceaftertime/
  
 
 ### Returns
-long
+void
 
 
 ---

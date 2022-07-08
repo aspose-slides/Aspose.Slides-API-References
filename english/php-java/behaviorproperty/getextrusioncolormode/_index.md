@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusioncolormode/
  Represents 'extrusion.colormode' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

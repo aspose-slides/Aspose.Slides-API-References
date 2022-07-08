@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getfillangle/
  Represents 'fill.angle' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

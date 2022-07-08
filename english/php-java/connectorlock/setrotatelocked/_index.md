@@ -14,7 +14,7 @@ url: /php-java/connectorlock/setrotatelocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

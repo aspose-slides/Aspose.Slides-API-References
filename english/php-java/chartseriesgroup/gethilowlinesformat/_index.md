@@ -13,6 +13,9 @@ url: /php-java/chartseriesgroup/gethilowlinesformat/
  HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types.
  
 
+### Returns
+[ChartLinesFormat](../../chartlinesformat)
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/smartart/getallnodes/
  
 
 ### Returns
-ISmartArtNodeCollection
+[SmartArtNodeCollection](../../smartartnodecollection)
 
 
 ---

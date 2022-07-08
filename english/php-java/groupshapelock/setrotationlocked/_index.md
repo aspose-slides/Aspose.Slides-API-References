@@ -14,7 +14,7 @@ url: /php-java/groupshapelock/setrotationlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

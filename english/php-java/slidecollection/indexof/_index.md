@@ -16,10 +16,10 @@ url: /php-java/slidecollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | Slide | Slide to find. |
+| slide | [Slide](../../slide) | Slide to find. |
 
 ### Returns
-Index of a slide or -1 if slide not from this collection.
+int
 
 
 ---

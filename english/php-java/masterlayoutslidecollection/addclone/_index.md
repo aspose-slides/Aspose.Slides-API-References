@@ -16,10 +16,10 @@ url: /php-java/masterlayoutslidecollection/addclone/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceLayout | LayoutSlide | Slide to clone. 1) New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) accessed with ( IPresentation#getLayoutSlides) property. |
+| sourceLayout | [LayoutSlide](../../layoutslide) | Slide to clone. 1) New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) accessed with ( IPresentation#getLayoutSlides) property. |
 
 ### Returns
-Added slide.
+[LayoutSlide](../../layoutslide)
 
 
 ---

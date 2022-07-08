@@ -36,7 +36,10 @@ url: /php-java/fontfallbackrulescollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| targetRule | FontFallBackRule | The rule to remove from the collection. |
+| targetRule | [FontFallBackRule](../../fontfallbackrule) | The rule to remove from the collection. |
+
+### Returns
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/propertyeffect/setfrom/
  
 
 ### Returns
-String
+void
 
 
 ---

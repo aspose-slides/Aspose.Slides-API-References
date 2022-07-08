@@ -14,7 +14,7 @@ url: /php-java/slidesize/gettype/
  Assigning any value except  SlideSizeType#Custom will change ( #getSize) accordingly, but will keep ( #getOrientation/ #setOrientation(int)) intact.
 
 ### Returns
-#setOrientation(int)
+int
 
 
 ---

@@ -14,6 +14,9 @@ url: /php-java/svgoptions/setdeletepicturescroppedareas/
  larger file)
  
 
+### Returns
+void
+
 
 ---
 

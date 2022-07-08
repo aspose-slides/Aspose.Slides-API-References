@@ -14,7 +14,7 @@ url: /php-java/textframeformat/getwraptext/
  
 
 ### Returns
-NullableBool
+byte
 
 
 ---

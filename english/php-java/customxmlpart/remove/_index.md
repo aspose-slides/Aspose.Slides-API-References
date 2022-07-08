@@ -12,6 +12,9 @@ url: /php-java/customxmlpart/remove/
  Removes the custom xml part from the presentation.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

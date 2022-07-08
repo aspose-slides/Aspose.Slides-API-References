@@ -14,7 +14,7 @@ url: /php-java/audio/setcontenttype/
  
 
 ### Returns
-String
+void
 
 
 ---

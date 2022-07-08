@@ -12,6 +12,9 @@ url: /php-java/tiffoptions/getnotescommentslayouting/
  Provides options that control how notes and comments is placed in exported document.
  
 
+### Returns
+[NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)
+
 
 ---
 

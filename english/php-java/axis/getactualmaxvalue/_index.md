@@ -12,6 +12,9 @@ url: /php-java/axis/getactualmaxvalue/
  Specifies actual maximum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value. 
  
 
+### Returns
+double
+
 
 ---
 

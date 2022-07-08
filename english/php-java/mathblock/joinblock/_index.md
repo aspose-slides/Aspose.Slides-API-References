@@ -23,10 +23,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| other | MathBlock | The joining block |
+| other | [MathBlock](../../mathblock) | The joining block |
 
 ### Returns
-this mathematical block after joining
+[MathBlock](../../mathblock)
 
 
 ---

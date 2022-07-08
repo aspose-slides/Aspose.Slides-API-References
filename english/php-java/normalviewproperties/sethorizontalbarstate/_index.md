@@ -13,6 +13,9 @@ url: /php-java/normalviewproperties/sethorizontalbarstate/
  A horizontal splitter bar separates the slide from the content region below the slide.
  
 
+### Returns
+void
+
 
 ---
 

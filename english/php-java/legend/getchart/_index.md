@@ -14,7 +14,7 @@ url: /php-java/legend/getchart/
  
 
 ### Returns
-IChart
+[Chart](../../chart)
 
 
 ---

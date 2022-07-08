@@ -14,7 +14,7 @@ url: /php-java/groupshapelock/setungroupinglocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

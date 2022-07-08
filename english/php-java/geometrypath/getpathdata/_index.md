@@ -12,6 +12,9 @@ url: /php-java/geometrypath/getpathdata/
  Returns geometry path of GeometryShape as an array of path segments. 
  
 
+### Returns
+[PathSegment](../../pathsegment)
+
 
 ---
 

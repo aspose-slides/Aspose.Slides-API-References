@@ -19,6 +19,9 @@ Example:
   $radical->setHideDegree(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

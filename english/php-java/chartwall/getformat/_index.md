@@ -14,7 +14,7 @@ url: /php-java/chartwall/getformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

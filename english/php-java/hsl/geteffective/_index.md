@@ -13,7 +13,7 @@ url: /php-java/hsl/geteffective/
  
 
 ### Returns
-A IHSLEffectiveData.
+
 
 
 ---

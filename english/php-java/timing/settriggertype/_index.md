@@ -14,7 +14,7 @@ url: /php-java/timing/settriggertype/
  
 
 ### Returns
-EffectTriggerType
+void
 
 
 ---

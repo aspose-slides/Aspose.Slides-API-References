@@ -14,7 +14,7 @@ url: /php-java/connector/getshapelock/
  
 
 ### Returns
-IConnectorLock
+[ConnectorLock](../../connectorlock)
 
 
 ---

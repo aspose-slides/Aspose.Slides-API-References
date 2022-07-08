@@ -14,7 +14,7 @@ url: /php-java/row/getrowformat/
  
 
 ### Returns
-IRowFormat
+[RowFormat](../../rowformat)
 
 
 ---

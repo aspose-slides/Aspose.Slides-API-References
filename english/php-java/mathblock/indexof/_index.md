@@ -25,10 +25,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [BaseScript](../../basescript) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -52,10 +52,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathAccent](../../mathaccent) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -79,10 +79,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathArray](../../matharray) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -106,10 +106,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathBar](../../mathbar) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -133,10 +133,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathBlock](../../mathblock) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -160,10 +160,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathBorderBox](../../mathborderbox) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -187,10 +187,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathBox](../../mathbox) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -214,10 +214,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathDelimiter](../../mathdelimiter) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -241,10 +241,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathElementBase](../../mathelementbase) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -268,10 +268,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathematicalText](../../mathematicaltext) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -295,10 +295,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathFraction](../../mathfraction) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -322,10 +322,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathFunction](../../mathfunction) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -349,10 +349,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -376,10 +376,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -403,10 +403,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathLimit](../../mathlimit) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -430,10 +430,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathMatrix](../../mathmatrix) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -457,10 +457,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathNaryOperator](../../mathnaryoperator) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -484,10 +484,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathRadical](../../mathradical) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -511,10 +511,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -538,10 +538,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathSubscriptElement](../../mathsubscriptelement) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---
@@ -565,10 +565,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The element to locate in the collection. |
+| item | [MathSuperscriptElement](../../mathsuperscriptelement) | The element to locate in the collection. |
 
 ### Returns
-The index of item if found in the collection; otherwise, -1.
+int
 
 
 ---

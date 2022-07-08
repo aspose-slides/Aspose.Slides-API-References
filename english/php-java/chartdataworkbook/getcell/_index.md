@@ -21,7 +21,7 @@ url: /php-java/chartdataworkbook/getcell/
 | column | int | The column. |
 
 ### Returns
-Cell object
+[ChartDataCell](../../chartdatacell)
 
 
 ---
@@ -41,7 +41,7 @@ Cell object
 | column | int | The column. |
 
 ### Returns
-Cell object
+[ChartDataCell](../../chartdatacell)
 
 
 ---
@@ -60,7 +60,7 @@ Cell object
 | cellName | String | Name of the cell. |
 
 ### Returns
-Cell object
+[ChartDataCell](../../chartdatacell)
 
 
 ---
@@ -80,7 +80,7 @@ Cell object
 | value | Object | The value. |
 
 ### Returns
-Cell object
+[ChartDataCell](../../chartdatacell)
 
 
 ---
@@ -101,7 +101,7 @@ Cell object
 | value | Object | The value. |
 
 ### Returns
-Cell object
+[ChartDataCell](../../chartdatacell)
 
 
 ---

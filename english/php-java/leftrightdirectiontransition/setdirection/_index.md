@@ -14,7 +14,7 @@ url: /php-java/leftrightdirectiontransition/setdirection/
  
 
 ### Returns
-TransitionLeftRightDirectionType
+void
 
 
 ---

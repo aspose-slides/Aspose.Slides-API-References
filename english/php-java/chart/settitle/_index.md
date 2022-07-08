@@ -14,7 +14,7 @@ url: /php-java/chart/settitle/
  
 
 ### Returns
-boolean
+void
 
 
 ---

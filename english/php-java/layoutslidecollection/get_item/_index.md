@@ -14,7 +14,7 @@ url: /php-java/layoutslidecollection/get_item/
  
 
 ### Returns
-LayoutSlide
+[LayoutSlide](../../layoutslide)
 
 
 ---

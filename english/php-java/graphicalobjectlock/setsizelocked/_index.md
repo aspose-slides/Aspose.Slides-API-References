@@ -14,7 +14,7 @@ url: /php-java/graphicalobjectlock/setsizelocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

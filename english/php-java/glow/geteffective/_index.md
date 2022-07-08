@@ -13,7 +13,7 @@ url: /php-java/glow/geteffective/
  
 
 ### Returns
-A IGlowEffectiveData.
+
 
 
 ---

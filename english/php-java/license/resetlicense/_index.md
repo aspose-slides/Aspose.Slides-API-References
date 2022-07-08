@@ -20,6 +20,9 @@ Reset the license
   $license->resetLicense();
 ```
 
+### Returns
+void
+
 
 ---
 

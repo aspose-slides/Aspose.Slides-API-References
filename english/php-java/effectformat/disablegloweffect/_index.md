@@ -12,6 +12,9 @@ url: /php-java/effectformat/disablegloweffect/
  Disable glow effect.
  
 
+### Returns
+void
+
 
 ---
 

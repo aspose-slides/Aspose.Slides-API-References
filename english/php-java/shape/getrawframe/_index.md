@@ -57,7 +57,7 @@ url: /php-java/shape/getrawframe/
 ```
 
 ### Returns
-IShapeFrame
+[ShapeFrame](../../shapeframe)
 
 
 ---

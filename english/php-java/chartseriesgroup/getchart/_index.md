@@ -14,7 +14,7 @@ url: /php-java/chartseriesgroup/getchart/
  
 
 ### Returns
-IChart
+[Chart](../../chart)
 
 
 ---

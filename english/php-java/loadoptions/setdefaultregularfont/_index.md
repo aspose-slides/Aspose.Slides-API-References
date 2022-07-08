@@ -14,7 +14,7 @@ url: /php-java/loadoptions/setdefaultregularfont/
  
 
 ### Returns
-String
+void
 
 
 ---

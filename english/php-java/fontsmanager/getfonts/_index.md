@@ -13,7 +13,7 @@ url: /php-java/fontsmanager/getfonts/
  
 
 ### Returns
-An array of fonts
+[FontData](../../fontdata)
 
 
 ---

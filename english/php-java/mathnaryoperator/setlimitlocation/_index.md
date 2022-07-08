@@ -18,6 +18,9 @@ Example:
   $naryOperator->setLimitLocation(MathLimitLocations.SubscriptSuperscript);
 ```
 
+### Returns
+void
+
 
 ---
 

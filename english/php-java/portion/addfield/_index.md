@@ -12,6 +12,9 @@ url: /php-java/portion/addfield/
  Converts this portion to the automaticaly updated field.
  
 
+### Returns
+void
+
 
 ---
 
@@ -26,6 +29,9 @@ url: /php-java/portion/addfield/
 | Name | Type | Description |
 | --- | --- | --- |
 | internalString | String | Internal name of FieldType. |
+
+### Returns
+void
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokeopacity/
  Represents 'stroke.opacity' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

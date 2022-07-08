@@ -15,7 +15,7 @@ url: /php-java/axis/gettickmarksspacing/
  
 
 ### Returns
-int
+long
 
 
 ---

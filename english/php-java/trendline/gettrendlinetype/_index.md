@@ -14,7 +14,7 @@ url: /php-java/trendline/gettrendlinetype/
  
 
 ### Returns
-TrendlineType
+int
 
 
 ---

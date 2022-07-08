@@ -14,7 +14,7 @@ url: /php-java/masterslide/setname/
  
 
 ### Returns
-String
+void
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/controlpropertiescollection/clear/
  Removes all properties.
  
 
+### Returns
+void
+
 
 ---
 

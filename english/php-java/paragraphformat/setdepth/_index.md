@@ -15,7 +15,7 @@ url: /php-java/paragraphformat/setdepth/
  
 
 ### Returns
-short
+void
 
 
 ---

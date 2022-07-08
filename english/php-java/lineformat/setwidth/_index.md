@@ -14,7 +14,7 @@ url: /php-java/lineformat/setwidth/
  
 
 ### Returns
-double
+void
 
 
 ---

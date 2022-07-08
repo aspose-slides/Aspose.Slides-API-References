@@ -18,6 +18,9 @@ url: /php-java/commentauthorcollection/removeat/
 | --- | --- | --- |
 | index | int | The zero-based index of the element to remove. |
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

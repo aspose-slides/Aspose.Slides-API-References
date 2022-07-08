@@ -12,6 +12,9 @@ url: /php-java/axis/getunderflowbin/
  Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true. 
  
 
+### Returns
+double
+
 
 ---
 

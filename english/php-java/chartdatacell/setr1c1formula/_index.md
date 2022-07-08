@@ -18,6 +18,9 @@ url: /php-java/chartdatacell/setr1c1formula/
   $cell->setR1C1Formula("MAX(R2C6:R5C8) / 3");
 ```
 
+### Returns
+void
+
 
 ---
 

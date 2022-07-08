@@ -14,7 +14,7 @@ url: /php-java/axis/setposition/
   
 
 ### Returns
-AxisPositionType
+void
 
 
 ---

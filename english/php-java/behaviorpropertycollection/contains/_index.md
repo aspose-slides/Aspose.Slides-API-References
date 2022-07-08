@@ -16,10 +16,10 @@ url: /php-java/behaviorpropertycollection/contains/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BehaviorProperty | The property to locate in the IGenericCollection. |
+| item | [BehaviorProperty](../../behaviorproperty) | The property to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -37,7 +37,7 @@ IGenericCollection
 | propertyValue | String | Value of the property to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---

@@ -15,7 +15,7 @@ url: /php-java/backdrop3dscene/getanchorpoint/
  
 
 ### Returns
-float[]
+float
 
 
 ---

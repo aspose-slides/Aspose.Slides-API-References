@@ -14,7 +14,7 @@ url: /php-java/cell/gettextverticaltype/
  
 
 ### Returns
-TextVerticalType
+byte
 
 
 ---

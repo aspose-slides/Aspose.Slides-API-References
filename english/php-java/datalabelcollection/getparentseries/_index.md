@@ -14,7 +14,7 @@ url: /php-java/datalabelcollection/getparentseries/
  
 
 ### Returns
-IChartSeries
+[ChartSeries](../../chartseries)
 
 
 ---

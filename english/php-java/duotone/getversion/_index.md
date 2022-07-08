@@ -10,6 +10,9 @@ url: /php-java/duotone/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

@@ -16,7 +16,10 @@ url: /php-java/behaviorpropertycollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BehaviorProperty | Property to add. |
+| item | [BehaviorProperty](../../behaviorproperty) | Property to add. |
+
+### Returns
+void
 
 
 ---
@@ -32,6 +35,9 @@ url: /php-java/behaviorpropertycollection/add/
 | Name | Type | Description |
 | --- | --- | --- |
 | propertyValue | String | Value of the property to add. |
+
+### Returns
+void
 
 
 ---

@@ -28,10 +28,10 @@ url: /php-java/shapecollection/addoleobjectframe/
 | y | float | Y coordinate of a new OLE frame. |
 | width | float | Width of a new OLE frame. |
 | height | float | Height of a new OLE frame. |
-| dataInfo | OleEmbeddedDataInfo | Embedded data info IOleEmbeddedDataInfo. |
+| dataInfo | [OleEmbeddedDataInfo](../../oleembeddeddatainfo) | Embedded data info IOleEmbeddedDataInfo. |
 
 ### Returns
-Created OLE object.
+[OleObjectFrame](../../oleobjectframe)
 
 
 ---
@@ -54,7 +54,7 @@ Created OLE object.
 | path | String | Path to the linked file.The path is stored in the presentation as is. If a relative path is specified the corresponding file will be inaccessible when opening the presentation from a different directory. |
 
 ### Returns
-Created OLE object.
+[OleObjectFrame](../../oleobjectframe)
 
 
 ---

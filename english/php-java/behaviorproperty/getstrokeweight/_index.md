@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokeweight/
  Represents 'stroke.weight' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

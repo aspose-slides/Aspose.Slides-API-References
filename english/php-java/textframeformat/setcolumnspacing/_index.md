@@ -16,7 +16,7 @@ url: /php-java/textframeformat/setcolumnspacing/
  
 
 ### Returns
-double
+void
 
 
 ---

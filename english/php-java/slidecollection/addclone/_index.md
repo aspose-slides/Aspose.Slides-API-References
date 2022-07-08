@@ -16,10 +16,10 @@ url: /php-java/slidecollection/addclone/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceSlide | Slide | Slide to clone. When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use #addClone(ISlide,ILayoutSlide) or #addClone(ISlide,IMasterSlide,boolean) for cloning slides, IGlobalLayoutSlideCollection#addClone(ILayoutSlide) or IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) for cloning layouts and IMasterSlideCollection#addClone(IMasterSlide) for cloning masters. |
+| sourceSlide | [Slide](../../slide) | Slide to clone. When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use #addClone(ISlide,ILayoutSlide) or #addClone(ISlide,IMasterSlide,boolean) for cloning slides, IGlobalLayoutSlideCollection#addClone(ILayoutSlide) or IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) for cloning layouts and IMasterSlideCollection#addClone(IMasterSlide) for cloning masters. |
 
 ### Returns
-New slide.
+[Slide](../../slide)
 
 
 ---
@@ -50,11 +50,11 @@ New slide.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceSlide | Slide | Slide to clone. |
-| section | Section | Section for a new slide. |
+| sourceSlide | [Slide](../slide) | Slide to clone. |
+| section | [Section](../../section) | Section for a new slide. |
 
 ### Returns
-New slide.
+[Slide](../../slide)
 
 ### Exception
 
@@ -75,11 +75,11 @@ New slide.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceSlide | Slide | Slide to clone. |
-| destLayout | LayoutSlide | Layout slide for a new slide. |
+| sourceSlide | [Slide](../slide) | Slide to clone. |
+| destLayout | [LayoutSlide](../../layoutslide) | Layout slide for a new slide. |
 
 ### Returns
-New slide.
+[Slide](../../slide)
 
 
 ---
@@ -100,12 +100,12 @@ New slide.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceSlide | Slide | Slide to clone. |
-| destMaster | MasterSlide | Master slide for a new slide. |
+| sourceSlide | [Slide](../slide) | Slide to clone. |
+| destMaster | [MasterSlide](../masterslide) | Master slide for a new slide. |
 | allowCloneMissingLayout | boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
 ### Returns
-New slide.
+[Slide](../../slide)
 
 ### Exception
 

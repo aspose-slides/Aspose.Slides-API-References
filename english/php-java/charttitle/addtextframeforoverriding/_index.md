@@ -19,6 +19,9 @@ url: /php-java/charttitle/addtextframeforoverriding/
 | --- | --- | --- |
 | text | String | Text for a new TextFrameForOverriding. |
 
+### Returns
+[TextFrame](../../textframe)
+
 
 ---
 

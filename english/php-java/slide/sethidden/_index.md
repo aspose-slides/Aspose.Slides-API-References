@@ -14,7 +14,7 @@ url: /php-java/slide/sethidden/
  
 
 ### Returns
-boolean
+void
 
 
 ---

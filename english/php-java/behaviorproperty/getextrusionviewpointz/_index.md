@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionviewpointz/
  Represents 'extrusion.viewpoint.z' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

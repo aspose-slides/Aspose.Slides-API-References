@@ -14,7 +14,7 @@ url: /php-java/bulletformat/setnumberedbulletstyle/
  
 
 ### Returns
-NumberedBulletStyle
+void
 
 
 ---

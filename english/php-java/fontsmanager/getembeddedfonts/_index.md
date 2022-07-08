@@ -12,6 +12,9 @@ url: /php-java/fontsmanager/getembeddedfonts/
  Returns the fonts embedded in the presentation
  
 
+### Returns
+[FontData](../../fontdata)
+
 
 ---
 

@@ -16,10 +16,10 @@ url: /php-java/behaviorcollection/contains/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the IGenericCollection. |
+| item | [Behavior](../../behavior) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -34,10 +34,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the IGenericCollection. |
+| item | [ColorEffect](../../coloreffect) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -52,10 +52,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the IGenericCollection. |
+| item | [CommandEffect](../../commandeffect) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -70,10 +70,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the IGenericCollection. |
+| item | [FilterEffect](../../filtereffect) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -88,10 +88,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the IGenericCollection. |
+| item | [MotionEffect](../../motioneffect) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -106,10 +106,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the IGenericCollection. |
+| item | [PropertyEffect](../../propertyeffect) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -124,10 +124,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the IGenericCollection. |
+| item | [RotationEffect](../../rotationeffect) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -142,10 +142,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the IGenericCollection. |
+| item | [ScaleEffect](../../scaleeffect) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -160,10 +160,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the IGenericCollection. |
+| item | [SetEffect](../../seteffect) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---

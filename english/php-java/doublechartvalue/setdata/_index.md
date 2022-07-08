@@ -14,7 +14,7 @@ url: /php-java/doublechartvalue/setdata/
  
 
 ### Returns
-Object
+void
 
 
 ---

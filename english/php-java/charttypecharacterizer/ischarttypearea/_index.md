@@ -20,7 +20,7 @@ url: /php-java/charttypecharacterizer/ischarttypearea/
  
 
 ### Returns
-ChartType#Area3D
+boolean
 
 
 ---

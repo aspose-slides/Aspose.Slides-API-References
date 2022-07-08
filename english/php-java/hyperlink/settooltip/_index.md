@@ -15,7 +15,7 @@ url: /php-java/hyperlink/settooltip/
  
 
 ### Returns
-String
+void
 
 
 ---

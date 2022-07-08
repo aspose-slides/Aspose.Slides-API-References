@@ -13,7 +13,7 @@ url: /php-java/textanimationcollection/add/
  
 
 ### Returns
-Added TextAnimation
+TextAnimation
 
 
 ---

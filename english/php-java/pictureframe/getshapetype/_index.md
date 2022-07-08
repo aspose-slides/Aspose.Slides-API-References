@@ -26,7 +26,7 @@ url: /php-java/pictureframe/getshapetype/
  
 
 ### Returns
-ShapeType
+int
 
 
 ---

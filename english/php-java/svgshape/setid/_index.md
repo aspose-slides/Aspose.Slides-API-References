@@ -12,6 +12,9 @@ url: /php-java/svgshape/setid/
  Gets shape id
  
 
+### Returns
+void
+
 
 ---
 

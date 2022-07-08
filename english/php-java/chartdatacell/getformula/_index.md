@@ -18,6 +18,9 @@ url: /php-java/chartdatacell/getformula/
   $cell->setFormula("1 + SUM(F2:H5)");
 ```
 
+### Returns
+String
+
 
 ---
 

@@ -10,6 +10,9 @@ url: /php-java/license/getversion/
 ## getVersion()  method
 Returns version of Aspose.Slides for Java.
 
+### Returns
+String
+
 
 ---
 

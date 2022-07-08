@@ -23,6 +23,9 @@ Example:
   $groupingCharacter->setVerticalJustification(MathTopBotPositions.Top);
 ```
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/lightrig/setdirection/
  
 
 ### Returns
-LightingDirection
+void
 
 
 ---

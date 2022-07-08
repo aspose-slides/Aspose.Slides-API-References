@@ -14,7 +14,7 @@ url: /php-java/glow/getcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/gradientformat/getgradientstops/
  
 
 ### Returns
-IGradientStopCollection
+[GradientStopCollection](../../gradientstopcollection)
 
 
 ---

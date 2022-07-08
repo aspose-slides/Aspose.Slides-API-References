@@ -12,6 +12,9 @@ url: /php-java/fontsources/getmemoryfonts/
  A collection of fonts represented as byte arrays.
  
 
+### Returns
+byte
+
 
 ---
 

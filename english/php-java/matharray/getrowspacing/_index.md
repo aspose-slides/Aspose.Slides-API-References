@@ -22,6 +22,9 @@ Example:
   $mathArray->setRowSpacing(10);
 ```
 
+### Returns
+long
+
 
 ---
 

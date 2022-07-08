@@ -13,7 +13,7 @@ url: /php-java/alphamodulate/geteffective/
  
 
 ### Returns
-A IAlphaModulateEffectiveData.
+
 
 
 ---

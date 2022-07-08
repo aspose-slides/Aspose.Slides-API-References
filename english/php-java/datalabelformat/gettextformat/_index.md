@@ -14,7 +14,7 @@ url: /php-java/datalabelformat/gettextformat/
  
 
 ### Returns
-IChartTextFormat
+[ChartTextFormat](../../charttextformat)
 
 
 ---

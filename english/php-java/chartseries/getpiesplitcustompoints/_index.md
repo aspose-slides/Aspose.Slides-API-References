@@ -20,7 +20,7 @@ url: /php-java/chartseries/getpiesplitcustompoints/
  
 
 ### Returns
-PieSplitCustomPointCollection
+[PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 
 
 ---

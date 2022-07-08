@@ -14,7 +14,7 @@ url: /php-java/commentauthor/getcomments/
  
 
 ### Returns
-ICommentCollection
+[CommentCollection](../../commentcollection)
 
 
 ---

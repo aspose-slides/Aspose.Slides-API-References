@@ -13,6 +13,9 @@ url: /php-java/ppimage/getbinarydata/
  Read-only  byte[].
  
 
+### Returns
+byte
+
 
 ---
 

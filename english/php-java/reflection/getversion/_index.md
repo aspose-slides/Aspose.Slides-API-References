@@ -10,6 +10,9 @@ url: /php-java/reflection/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

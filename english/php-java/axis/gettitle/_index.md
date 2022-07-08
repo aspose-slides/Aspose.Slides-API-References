@@ -14,7 +14,7 @@ url: /php-java/axis/gettitle/
   
 
 ### Returns
-IChartTitle
+[ChartTitle](../../charttitle)
 
 
 ---

@@ -13,7 +13,7 @@ url: /php-java/chartdataworksheetcollection/iteratorjava/
  
 
 ### Returns
-A IGenericEnumerator that can be used to iterate through the collection.
+IGenericEnumerator
 
 
 ---

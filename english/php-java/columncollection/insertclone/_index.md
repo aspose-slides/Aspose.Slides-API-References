@@ -17,11 +17,11 @@ url: /php-java/columncollection/insertclone/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a new column. |
-| templ | Column | Column which is used as a template. |
+| templ | [Column](../column) | Column which is used as a template. |
 | withAttachedColumns | boolean | True to copy also all columns attached to the template column. |
 
 ### Returns
-Inserted columns.
+[Column](../../column)
 
 
 ---

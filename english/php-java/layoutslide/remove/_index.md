@@ -12,6 +12,9 @@ url: /php-java/layoutslide/remove/
  Removes layout from presentation.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

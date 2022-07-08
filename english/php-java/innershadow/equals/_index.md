@@ -19,7 +19,7 @@ url: /php-java/innershadow/equals/
 | obj | Object | The InnerShadow to compare. |
 
 ### Returns
-InnerShadow
+boolean
 
 
 ---

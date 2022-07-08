@@ -14,7 +14,7 @@ url: /php-java/fontfallbackrule/get_item/
  
 
 ### Returns
-IFontFallBackRule
+String
 
 
 ---

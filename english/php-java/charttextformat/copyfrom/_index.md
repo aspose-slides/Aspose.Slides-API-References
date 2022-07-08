@@ -16,7 +16,10 @@ url: /php-java/charttextformat/copyfrom/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceTextFrame | TextFrame | Text frame to copy text format. |
+| sourceTextFrame | [TextFrame](../../textframe) | Text frame to copy text format. |
+
+### Returns
+void
 
 
 ---

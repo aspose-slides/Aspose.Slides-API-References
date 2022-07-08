@@ -14,7 +14,7 @@ url: /php-java/threedformat/setcontourwidth/
  
 
 ### Returns
-double
+void
 
 
 ---

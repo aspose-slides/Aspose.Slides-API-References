@@ -17,11 +17,11 @@ url: /php-java/chartdatapointcollection/adddatapointforscatterseries/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | ChartDataCell | Data point XValue |
-| yValue | ChartDataCell | Data point YValue |
+| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
+| yValue | [ChartDataCell](../../chartdatacell) | Data point YValue |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeScatter(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -38,10 +38,10 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 | Name | Type | Description |
 | --- | --- | --- |
 | xValue | double | Data point XValue |
-| yValue | ChartDataCell | Data point YValue |
+| yValue | [ChartDataCell](../../chartdatacell) | Data point YValue |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeScatter(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -58,10 +58,10 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 | Name | Type | Description |
 | --- | --- | --- |
 | xValue | String | Data point XValue |
-| yValue | ChartDataCell | Data point YValue |
+| yValue | [ChartDataCell](../../chartdatacell) | Data point YValue |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeScatter(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -77,11 +77,11 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | ChartDataCell | Data point XValue |
+| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
 | yValue | double | Data point YValue |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeScatter(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -101,7 +101,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 | yValue | double | Data point YValue |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeScatter(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -121,7 +121,7 @@ ChartTypeCharacterizer#isChartTypeScatter(int)
 | yValue | double | Data point YValue |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeScatter(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---

@@ -54,7 +54,7 @@ url: /php-java/effectformat/geteffective/
 ```
 
 ### Returns
-A IEffectFormatEffectiveData.
+
 
 
 ---

@@ -18,6 +18,9 @@ Example:
   $textValue = $mathText->getValue();
 ```
 
+### Returns
+void
+
 
 ---
 

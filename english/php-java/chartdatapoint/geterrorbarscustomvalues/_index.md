@@ -14,7 +14,7 @@ url: /php-java/chartdatapoint/geterrorbarscustomvalues/
  
 
 ### Returns
-IErrorBarsCustomValues
+[ErrorBarsCustomValues](../../errorbarscustomvalues)
 
 
 ---

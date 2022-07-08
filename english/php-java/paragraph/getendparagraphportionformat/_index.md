@@ -13,6 +13,9 @@ url: /php-java/paragraph/getendparagraphportionformat/
  the last one.
  
 
+### Returns
+[PortionFormat](../../portionformat)
+
 
 ---
 

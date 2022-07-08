@@ -22,6 +22,9 @@ Example:
   $box->setOperatorEmulator(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

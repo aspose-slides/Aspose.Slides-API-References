@@ -14,7 +14,7 @@ url: /php-java/axis/getcategoryaxistype/
  
 
 ### Returns
-CategoryAxisType
+int
 
 
 ---

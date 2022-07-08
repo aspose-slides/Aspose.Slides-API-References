@@ -16,11 +16,11 @@ url: /php-java/embedallfontshtmlcontroller/writeallfonts/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| presentation | Presentation | Presentation which being currently rendered. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| presentation | [Presentation](../../presentation) | Presentation which being currently rendered. |
 
 ### Returns
-Presentation
+void
 
 
 ---

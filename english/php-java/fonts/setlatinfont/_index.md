@@ -14,7 +14,7 @@ url: /php-java/fonts/setlatinfont/
  
 
 ### Returns
-IFontData
+void
 
 
 ---

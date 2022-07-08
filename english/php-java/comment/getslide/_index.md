@@ -14,7 +14,7 @@ url: /php-java/comment/getslide/
  
 
 ### Returns
-ISlide
+[Slide](../../slide)
 
 
 ---

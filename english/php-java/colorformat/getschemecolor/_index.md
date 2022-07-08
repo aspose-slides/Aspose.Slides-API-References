@@ -14,7 +14,7 @@ url: /php-java/colorformat/getschemecolor/
  
 
 ### Returns
-SchemeColor
+int
 
 
 ---

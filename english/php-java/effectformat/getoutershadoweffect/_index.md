@@ -14,7 +14,7 @@ url: /php-java/effectformat/getoutershadoweffect/
  
 
 ### Returns
-IOuterShadow
+[OuterShadow](../../outershadow)
 
 
 ---

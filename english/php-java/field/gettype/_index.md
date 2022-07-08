@@ -14,7 +14,7 @@ url: /php-java/field/gettype/
  
 
 ### Returns
-IFieldType
+[FieldType](../../fieldtype)
 
 
 ---

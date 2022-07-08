@@ -15,7 +15,7 @@ url: /php-java/smartartshape/setshapetype/
  
 
 ### Returns
-ShapeType
+void
 
 ### Exception
 

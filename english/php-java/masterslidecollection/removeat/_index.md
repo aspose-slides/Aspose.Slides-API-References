@@ -18,6 +18,9 @@ url: /php-java/masterslidecollection/removeat/
 | --- | --- | --- |
 | index | int | The zero-based index of the element to remove. To avoid throwing of the PptxEditException check master's HasDependingSlides property before. |
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

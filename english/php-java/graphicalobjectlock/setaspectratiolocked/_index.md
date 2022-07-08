@@ -14,7 +14,7 @@ url: /php-java/graphicalobjectlock/setaspectratiolocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

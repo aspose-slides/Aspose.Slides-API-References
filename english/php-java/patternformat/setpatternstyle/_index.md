@@ -14,7 +14,7 @@ url: /php-java/patternformat/setpatternstyle/
  
 
 ### Returns
-PatternStyle
+void
 
 
 ---

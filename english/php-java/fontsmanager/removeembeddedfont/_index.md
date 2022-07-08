@@ -12,6 +12,9 @@ url: /php-java/fontsmanager/removeembeddedfont/
  Removes the embedded font
  
 
+### Returns
+void
+
 
 ---
 

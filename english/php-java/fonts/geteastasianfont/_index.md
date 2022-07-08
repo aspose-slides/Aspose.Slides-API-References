@@ -14,7 +14,7 @@ url: /php-java/fonts/geteastasianfont/
  
 
 ### Returns
-IFontData
+[FontData](../../fontdata)
 
 
 ---

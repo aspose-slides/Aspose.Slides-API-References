@@ -17,7 +17,7 @@ url: /php-java/datalabel/gettextframeforoverriding/
  
 
 ### Returns
-ITextFrame
+[TextFrame](../../textframe)
 
 
 ---

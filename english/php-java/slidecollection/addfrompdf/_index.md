@@ -32,7 +32,7 @@ Example:
 | path | String | A path to the PDF document |
 
 ### Returns
-Added slides
+[Slide](../../slide)
 
 
 ---
@@ -67,7 +67,7 @@ Example:
 | pdfStream | InputStream | A stream which will be used as a source of the PDF document |
 
 ### Returns
-Added slides
+[Slide](../../slide)
 
 
 ---

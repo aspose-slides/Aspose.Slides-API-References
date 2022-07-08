@@ -26,6 +26,9 @@ Example:
 | columnsCount | long | The number of columns to specify the alignment |
 | val | int | New value of horizontal alignment of specified column |
 
+### Returns
+void
+
 
 ---
 

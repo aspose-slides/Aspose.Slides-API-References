@@ -13,6 +13,9 @@ url: /php-java/outershadow/getscalevertical/
  Read/write  double.
  
 
+### Returns
+double
+
 
 ---
 

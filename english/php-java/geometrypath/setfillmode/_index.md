@@ -12,6 +12,9 @@ url: /php-java/geometrypath/setfillmode/
  Sets fill mode
  
 
+### Returns
+void
+
 
 ---
 

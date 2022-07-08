@@ -14,7 +14,7 @@ url: /php-java/shapestyle/seteffectstyleindex/
  
 
 ### Returns
-long
+void
 
 
 ---

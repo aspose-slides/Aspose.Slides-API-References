@@ -14,7 +14,7 @@ url: /php-java/chartseries/getinvertedsolidfillcolor/
  
 
 ### Returns
-ColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

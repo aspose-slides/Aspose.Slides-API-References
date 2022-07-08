@@ -14,7 +14,7 @@ url: /php-java/colorscheme/getlight2/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

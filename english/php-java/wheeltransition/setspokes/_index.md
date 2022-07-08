@@ -14,7 +14,7 @@ url: /php-java/wheeltransition/setspokes/
  
 
 ### Returns
-long
+void
 
 
 ---

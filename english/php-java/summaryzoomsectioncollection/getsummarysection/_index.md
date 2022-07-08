@@ -30,10 +30,10 @@ The example demonstrates getting Summary Zoom Section element by index:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| section | Section | Section to find ISection |
+| section | [Section](../../section) | Section to find ISection |
 
 ### Returns
-ISummaryZoomSection or null if collection does not contains element for the section.
+[SummaryZoomSection](../../summaryzoomsection)
 
 
 ---

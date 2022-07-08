@@ -14,7 +14,7 @@ url: /php-java/gradientstop/getcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

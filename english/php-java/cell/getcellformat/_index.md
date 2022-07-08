@@ -14,7 +14,7 @@ url: /php-java/cell/getcellformat/
  
 
 ### Returns
-ICellFormat
+[CellFormat](../../cellformat)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/chart/getusershapes/
  
 
 ### Returns
-IGroupShape
+[GroupShape](../../groupshape)
 
 
 ---

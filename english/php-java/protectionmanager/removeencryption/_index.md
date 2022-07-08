@@ -12,6 +12,9 @@ url: /php-java/protectionmanager/removeencryption/
  Removes the encryption.
  
 
+### Returns
+void
+
 
 ---
 

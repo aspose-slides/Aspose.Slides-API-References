@@ -14,7 +14,7 @@ url: /php-java/chartlinesformat/geteffect/
  
 
 ### Returns
-IEffectFormat
+[EffectFormat](../../effectformat)
 
 
 ---

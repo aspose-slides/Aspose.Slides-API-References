@@ -19,6 +19,9 @@ Example:
   $groupingCharacter->setPosition(MathTopBotPositions.Top);
 ```
 
+### Returns
+int
+
 
 ---
 

@@ -19,7 +19,7 @@ url: /php-java/alphareplace/equals/
 | obj | Object | The AlphaReplace to compare. |
 
 ### Returns
-AlphaReplace
+boolean
 
 
 ---

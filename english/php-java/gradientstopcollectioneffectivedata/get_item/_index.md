@@ -12,6 +12,9 @@ url: /php-java/gradientstopcollectioneffectivedata/get_item/
  Returns the gradient stop by index.
  
 
+### Returns
+[GradientStopEffectiveData](../../gradientstopeffectivedata)
+
 
 ---
 

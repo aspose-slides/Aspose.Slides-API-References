@@ -14,7 +14,7 @@ url: /php-java/revealtransition/getdirection/
  
 
 ### Returns
-TransitionLeftRightDirectionType
+int
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/slideshowtransition/setsound/
  
 
 ### Returns
-IAudio
+void
 
 
 ---

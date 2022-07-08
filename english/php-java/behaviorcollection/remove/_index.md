@@ -16,7 +16,10 @@ url: /php-java/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to remove. |
+| item | [Behavior](../../behavior) | Behavior to remove. |
+
+### Returns
+boolean
 
 
 ---
@@ -31,7 +34,10 @@ url: /php-java/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to remove. |
+| item | [ColorEffect](../../coloreffect) | Behavior to remove. |
+
+### Returns
+boolean
 
 
 ---
@@ -46,7 +52,10 @@ url: /php-java/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to remove. |
+| item | [CommandEffect](../../commandeffect) | Behavior to remove. |
+
+### Returns
+boolean
 
 
 ---
@@ -61,7 +70,10 @@ url: /php-java/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to remove. |
+| item | [FilterEffect](../../filtereffect) | Behavior to remove. |
+
+### Returns
+boolean
 
 
 ---
@@ -76,7 +88,10 @@ url: /php-java/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to remove. |
+| item | [MotionEffect](../../motioneffect) | Behavior to remove. |
+
+### Returns
+boolean
 
 
 ---
@@ -91,7 +106,10 @@ url: /php-java/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to remove. |
+| item | [PropertyEffect](../../propertyeffect) | Behavior to remove. |
+
+### Returns
+boolean
 
 
 ---
@@ -106,7 +124,10 @@ url: /php-java/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to remove. |
+| item | [RotationEffect](../../rotationeffect) | Behavior to remove. |
+
+### Returns
+boolean
 
 
 ---
@@ -121,7 +142,10 @@ url: /php-java/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to remove. |
+| item | [ScaleEffect](../../scaleeffect) | Behavior to remove. |
+
+### Returns
+boolean
 
 
 ---
@@ -136,7 +160,10 @@ url: /php-java/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to remove. |
+| item | [SetEffect](../../seteffect) | Behavior to remove. |
+
+### Returns
+boolean
 
 
 ---

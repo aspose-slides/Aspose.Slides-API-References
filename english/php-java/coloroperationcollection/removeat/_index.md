@@ -18,6 +18,9 @@ url: /php-java/coloroperationcollection/removeat/
 | --- | --- | --- |
 | index | int | Index of a color operation to remove. |
 
+### Returns
+void
+
 
 ---
 

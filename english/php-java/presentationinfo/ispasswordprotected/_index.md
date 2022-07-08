@@ -20,6 +20,9 @@ url: /php-java/presentationinfo/ispasswordprotected/
   }
 ```
 
+### Returns
+boolean
+
 
 ---
 

@@ -15,7 +15,7 @@ url: /php-java/optionalblacktransition/setfromblack/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/comment/settext/
  
 
 ### Returns
-String
+void
 
 
 ---

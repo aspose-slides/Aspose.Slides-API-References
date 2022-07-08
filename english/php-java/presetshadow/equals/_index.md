@@ -19,7 +19,7 @@ url: /php-java/presetshadow/equals/
 | obj | Object | The PresetShadow to compare. |
 
 ### Returns
-PresetShadow
+boolean
 
 
 ---

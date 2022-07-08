@@ -29,7 +29,7 @@ the example demonstrates changing an image of a Zoom object:
 ```
 
 ### Returns
-IPPImage
+void
 
 
 ---

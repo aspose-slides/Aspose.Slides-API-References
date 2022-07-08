@@ -14,7 +14,7 @@ url: /php-java/charttitle/setoverlay/
  
 
 ### Returns
-boolean
+void
 
 
 ---

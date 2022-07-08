@@ -12,6 +12,9 @@ url: /php-java/section/getstartedfromslide/
  Returns first slide of the section.
  
 
+### Returns
+[Slide](../../slide)
+
 
 ---
 

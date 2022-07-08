@@ -14,7 +14,7 @@ url: /php-java/colorscheme/gethyperlink/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

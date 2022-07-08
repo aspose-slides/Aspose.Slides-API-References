@@ -14,7 +14,7 @@ url: /php-java/alphamodulatefixed/setamount/
  
 
 ### Returns
-float
+void
 
 
 ---

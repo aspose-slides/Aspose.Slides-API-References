@@ -12,6 +12,9 @@ url: /php-java/axis/setautomaticoverflowbin/
  Specifies automatic overflow bin value. If false: use OverflowBin property.
  
 
+### Returns
+void
+
 
 ---
 

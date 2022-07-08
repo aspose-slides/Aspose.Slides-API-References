@@ -22,6 +22,9 @@ Example:
   $matrix->setRowGap(20);
 ```
 
+### Returns
+void
+
 
 ---
 

@@ -12,6 +12,9 @@ url: /php-java/chartseries/getparentlabellayout/
  Represents layout of parent category labels.   Applies only to Treemap charts.
  
 
+### Returns
+int
+
 
 ---
 

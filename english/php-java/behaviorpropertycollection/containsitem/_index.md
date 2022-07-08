@@ -10,6 +10,9 @@ url: /php-java/behaviorpropertycollection/containsitem/
 ## containsItem([BehaviorProperty](../../behaviorproperty) item)  method
 
 
+### Returns
+boolean
+
 
 ---
 

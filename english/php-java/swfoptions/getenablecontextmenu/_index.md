@@ -12,6 +12,9 @@ url: /php-java/swfoptions/getenablecontextmenu/
  Enable/disable context menu. Default is true. 
  
 
+### Returns
+boolean
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/table/sethorizontalbanding/
  
 
 ### Returns
-boolean
+void
 
 
 ---

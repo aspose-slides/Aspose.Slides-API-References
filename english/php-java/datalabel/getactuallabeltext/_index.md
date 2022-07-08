@@ -13,7 +13,7 @@ url: /php-java/datalabel/getactuallabeltext/
  
 
 ### Returns
-The java.lang.String object.
+String
 
 
 ---

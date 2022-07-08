@@ -12,6 +12,9 @@ url: /php-java/customxmlpartcollection/clear/
  Removes all items from the collection.
  
 
+### Returns
+void
+
 
 ---
 

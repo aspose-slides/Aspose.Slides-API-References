@@ -18,6 +18,9 @@ url: /php-java/htmlgenerator/addhtml/
 | --- | --- | --- |
 | html | String | Text to add. |
 
+### Returns
+void
+
 
 ---
 
@@ -32,6 +35,9 @@ url: /php-java/htmlgenerator/addhtml/
 | Name | Type | Description |
 | --- | --- | --- |
 | html | char[] | Text to add. |
+
+### Returns
+void
 
 
 ---
@@ -49,6 +55,9 @@ url: /php-java/htmlgenerator/addhtml/
 | html | char[] | Text to add. |
 | startIndex | int | Start index of the portion to add. |
 | length | int | Length of the portion to add. |
+
+### Returns
+void
 
 
 ---

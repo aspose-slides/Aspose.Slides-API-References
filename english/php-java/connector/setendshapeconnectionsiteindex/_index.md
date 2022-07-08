@@ -14,7 +14,7 @@ url: /php-java/connector/setendshapeconnectionsiteindex/
  
 
 ### Returns
-long
+void
 
 ### Exception
 

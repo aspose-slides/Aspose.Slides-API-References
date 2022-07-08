@@ -18,6 +18,9 @@ Example:
   $columnCount = $matrix->getColumnCount();
 ```
 
+### Returns
+int
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/doublechartvalue/getascell/
  
 
 ### Returns
-IChartDataCell
+[ChartDataCell](../../chartdatacell)
 
 
 ---

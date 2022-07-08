@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setshowpercentage/
  
 
 ### Returns
-boolean
+void
 
 
 ---

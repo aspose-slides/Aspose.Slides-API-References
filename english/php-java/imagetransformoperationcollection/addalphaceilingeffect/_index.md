@@ -13,7 +13,7 @@ url: /php-java/imagetransformoperationcollection/addalphaceilingeffect/
  
 
 ### Returns
-Index of the new image effect in a collection.
+[AlphaCeiling](../../alphaceiling)
 
 
 ---

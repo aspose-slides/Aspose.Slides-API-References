@@ -16,10 +16,10 @@ url: /php-java/imagecollection/addimage/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| imageSource | PPImage | Source image. |
+| imageSource | [PPImage](../../ppimage) | Source image. |
 
 ### Returns
-Added image.
+[PPImage](../../ppimage)
 
 
 ---
@@ -37,7 +37,7 @@ Added image.
 | image | BufferedImage | Image to add. This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
 
 ### Returns
-Added image.
+[PPImage](../../ppimage)
 
 
 ---
@@ -55,7 +55,7 @@ Added image.
 | stream | InputStream | Stream to add image from. This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
 
 ### Returns
-Added image.
+[PPImage](../../ppimage)
 
 
 ---
@@ -74,7 +74,7 @@ Added image.
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
 ### Returns
-Added IPPImage.
+[PPImage](../../ppimage)
 
 
 ---
@@ -92,7 +92,7 @@ Added IPPImage.
 | buffer | byte[] | Buffer. |
 
 ### Returns
-Added image.
+[PPImage](../../ppimage)
 
 
 ---
@@ -107,10 +107,10 @@ Added image.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| svgImage | SvgImage | Svg image object ISvgImage |
+| svgImage | [SvgImage](../../svgimage) | Svg image object ISvgImage |
 
 ### Returns
-Added image.
+[PPImage](../../ppimage)
 
 ### Exception
 

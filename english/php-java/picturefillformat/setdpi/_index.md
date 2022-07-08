@@ -14,7 +14,7 @@ url: /php-java/picturefillformat/setdpi/
  
 
 ### Returns
-int
+void
 
 
 ---

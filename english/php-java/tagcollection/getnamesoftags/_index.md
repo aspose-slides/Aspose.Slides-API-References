@@ -13,7 +13,7 @@ url: /php-java/tagcollection/getnamesoftags/
  
 
 ### Returns
-Names of tags.
+String
 
 
 ---

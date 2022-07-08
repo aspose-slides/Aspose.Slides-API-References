@@ -20,7 +20,7 @@ url: /php-java/effectstylecollection/get_item/
 | index | int | Position of element. |
 
 ### Returns
-EffectStyle
+[EffectStyle](../../effectstyle)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/cell/getfirstcolumn/
  
 
 ### Returns
-IColumn
+[Column](../../column)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/textframeformat/settransform/
  
 
 ### Returns
-TextShapeType
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/textanimation/seteffectanimatebackgroundshape/
  
 
 ### Returns
-IEffect
+void
 
 
 ---

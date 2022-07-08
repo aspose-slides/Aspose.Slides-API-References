@@ -29,7 +29,7 @@ url: /php-java/lineformat/geteffective/
 ```
 
 ### Returns
-A ILineFormatEffectiveData.
+
 
 
 ---

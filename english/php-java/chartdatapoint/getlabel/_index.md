@@ -14,7 +14,7 @@ url: /php-java/chartdatapoint/getlabel/
  
 
 ### Returns
-IDataLabel
+[DataLabel](../../datalabel)
 
 
 ---

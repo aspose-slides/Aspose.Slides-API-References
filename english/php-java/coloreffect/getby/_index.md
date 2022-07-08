@@ -14,7 +14,7 @@ url: /php-java/coloreffect/getby/
  
 
 ### Returns
-IColorOffset
+[ColorOffset](../../coloroffset)
 
 
 ---

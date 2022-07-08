@@ -23,7 +23,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [BaseScript](../../basescript) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -45,7 +48,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathAccent](../../mathaccent) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -67,7 +73,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathArray](../../matharray) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -89,7 +98,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathBar](../../mathbar) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -111,7 +123,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathBlock](../../mathblock) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -133,7 +148,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathBorderBox](../../mathborderbox) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -155,7 +173,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathBox](../../mathbox) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -177,7 +198,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathDelimiter](../../mathdelimiter) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -199,7 +223,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathElementBase](../../mathelementbase) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -221,7 +248,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathematicalText](../../mathematicaltext) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -243,7 +273,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathFraction](../../mathfraction) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -265,7 +298,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathFunction](../../mathfunction) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -287,7 +323,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathGroupingCharacter](../../mathgroupingcharacter) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -309,7 +348,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -331,7 +373,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathLimit](../../mathlimit) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -353,7 +398,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathMatrix](../../mathmatrix) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -375,7 +423,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathNaryOperator](../../mathnaryoperator) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -397,7 +448,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathRadical](../../mathradical) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -419,7 +473,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -441,7 +498,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathSubscriptElement](../../mathsubscriptelement) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---
@@ -463,7 +523,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | BaseScript | The zero-based index of the item |
+| index | [MathSuperscriptElement](../../mathsuperscriptelement) | The zero-based index of the item |
+
+### Returns
+void
 
 
 ---

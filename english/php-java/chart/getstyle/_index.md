@@ -14,7 +14,7 @@ url: /php-java/chart/getstyle/
  
 
 ### Returns
-StyleType
+int
 
 
 ---

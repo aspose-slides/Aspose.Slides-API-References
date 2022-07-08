@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getshadowmatrixperspectivex/
  Represents 'shadow.matrix.perspectiveX' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

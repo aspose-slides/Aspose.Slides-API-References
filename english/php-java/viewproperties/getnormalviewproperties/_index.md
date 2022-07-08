@@ -15,7 +15,7 @@ url: /php-java/viewproperties/getnormalviewproperties/
  
 
 ### Returns
-INormalViewProperties
+[NormalViewProperties](../../normalviewproperties)
 
 
 ---

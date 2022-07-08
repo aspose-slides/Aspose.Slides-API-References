@@ -12,6 +12,9 @@ url: /php-java/vbareferencecollection/get_item/
  Gets the element at the specified index.
  
 
+### Returns
+[VbaReferenceOleTypeLib](../../vbareferenceoletypelib)
+
 
 ---
 

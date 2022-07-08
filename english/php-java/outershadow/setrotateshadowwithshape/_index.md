@@ -13,6 +13,9 @@ url: /php-java/outershadow/setrotateshadowwithshape/
  Read/write  boolean.
  
 
+### Returns
+void
+
 
 ---
 

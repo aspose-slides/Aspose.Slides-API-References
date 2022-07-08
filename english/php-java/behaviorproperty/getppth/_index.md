@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getppth/
  Represents 'ppt_h' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

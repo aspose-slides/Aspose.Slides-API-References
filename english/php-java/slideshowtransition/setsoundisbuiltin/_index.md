@@ -16,7 +16,7 @@ url: /php-java/slideshowtransition/setsoundisbuiltin/
  
 
 ### Returns
-boolean
+void
 
 
 ---

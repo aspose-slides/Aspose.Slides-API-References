@@ -13,7 +13,7 @@ url: /php-java/tabcollection/add/
  
 
 ### Returns
-Added tab.
+[Tab](../../tab)
 
 
 ---
@@ -28,10 +28,10 @@ Added tab.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | Tab | The Tab object to be added at the end of the collection. |
+| value | [Tab](../../tab) | The Tab object to be added at the end of the collection. |
 
 ### Returns
-The index at which the tab was added.
+int
 
 
 ---

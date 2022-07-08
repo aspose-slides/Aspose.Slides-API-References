@@ -23,10 +23,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [BaseScript](../../basescript) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -48,10 +48,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathAccent](../../mathaccent) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -73,10 +73,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathArray](../../matharray) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -98,10 +98,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathBar](../../mathbar) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -123,10 +123,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathBlock](../../mathblock) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -148,10 +148,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathBorderBox](../../mathborderbox) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -173,10 +173,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathBox](../../mathbox) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -198,10 +198,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathDelimiter](../../mathdelimiter) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -223,10 +223,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathElementBase](../../mathelementbase) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -248,10 +248,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathematicalText](../../mathematicaltext) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -273,10 +273,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathFraction](../../mathfraction) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -298,10 +298,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathFunction](../../mathfunction) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -323,10 +323,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -348,10 +348,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -373,10 +373,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathLimit](../../mathlimit) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -398,10 +398,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathMatrix](../../mathmatrix) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -423,10 +423,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathNaryOperator](../../mathnaryoperator) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -448,10 +448,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathRadical](../../mathradical) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -473,10 +473,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -498,10 +498,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathSubscriptElement](../../mathsubscriptelement) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -523,10 +523,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | BaseScript | The element to be joined |
+| mathElement | [MathSuperscriptElement](../../mathsuperscriptelement) | The element to be joined |
 
 ### Returns
-The current instance of IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---
@@ -550,7 +550,7 @@ Example:
 | mathText | String | Mathematical text to be joined |
 
 ### Returns
-A new IMathBlock containing this instance and specified argument
+[MathBlock](../../mathblock)
 
 
 ---

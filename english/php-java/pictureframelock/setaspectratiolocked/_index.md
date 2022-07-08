@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/setaspectratiolocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

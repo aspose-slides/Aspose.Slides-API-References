@@ -19,7 +19,7 @@ url: /php-java/behaviorproperty/getorcreatebyvalue/
 | propertyValue | String | value of the property |
 
 ### Returns
-instance of BehaviorProperty
+BehaviorProperty
 
 
 ---

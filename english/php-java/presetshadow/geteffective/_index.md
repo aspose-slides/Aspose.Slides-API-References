@@ -13,7 +13,7 @@ url: /php-java/presetshadow/geteffective/
  
 
 ### Returns
-A IPresetShadowEffectiveData.
+
 
 
 ---

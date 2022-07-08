@@ -14,7 +14,7 @@ url: /php-java/splittransition/getorientation/
  
 
 ### Returns
-Orientation
+byte
 
 
 ---

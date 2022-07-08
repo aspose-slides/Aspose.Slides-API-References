@@ -14,7 +14,7 @@ url: /php-java/customdata/gettags/
  
 
 ### Returns
-ITagCollection
+[TagCollection](../../tagcollection)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/lineformat/getsketchformat/
  
 
 ### Returns
-ILineFillFormat
+[SketchFormat](../../sketchformat)
 
 
 ---

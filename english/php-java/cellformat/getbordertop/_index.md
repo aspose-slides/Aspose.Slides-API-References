@@ -14,7 +14,7 @@ url: /php-java/cellformat/getbordertop/
  
 
 ### Returns
-ILineFormat
+[LineFormat](../../lineformat)
 
 
 ---

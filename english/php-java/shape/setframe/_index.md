@@ -20,7 +20,7 @@ url: /php-java/shape/setframe/
  
 
 ### Returns
-IShapeFrame
+void
 
 
 ---

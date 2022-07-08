@@ -12,6 +12,9 @@ url: /php-java/swfoptions/getshowfullscreen/
  Show/hide fullscreen button. Can be overridden in flashvars. Default is true. 
  
 
+### Returns
+boolean
+
 
 ---
 

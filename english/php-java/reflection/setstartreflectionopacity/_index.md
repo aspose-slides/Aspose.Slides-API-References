@@ -14,7 +14,7 @@ url: /php-java/reflection/setstartreflectionopacity/
  
 
 ### Returns
-float
+void
 
 
 ---

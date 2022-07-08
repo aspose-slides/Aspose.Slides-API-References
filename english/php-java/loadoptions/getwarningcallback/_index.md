@@ -15,7 +15,7 @@ url: /php-java/loadoptions/getwarningcallback/
  
 
 ### Returns
-IWarningCallback
+
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/datalabel/setx/
  
 
 ### Returns
-float
+void
 
 
 ---

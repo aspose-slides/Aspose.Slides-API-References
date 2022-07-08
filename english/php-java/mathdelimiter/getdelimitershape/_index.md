@@ -21,6 +21,9 @@ Example:
   $delimiter->setDelimiterShape(MathDelimiterShape.Match);
 ```
 
+### Returns
+int
+
 
 ---
 

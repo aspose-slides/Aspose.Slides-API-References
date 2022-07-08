@@ -12,6 +12,9 @@ url: /php-java/effectformat/enablepresetshadoweffect/
  Enables preset shadows effect.
  
 
+### Returns
+void
+
 
 ---
 

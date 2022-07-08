@@ -14,7 +14,7 @@ url: /php-java/texttohtmlconversionoptions/gettextinheritancelimit/
  
 
 ### Returns
-TextInheritanceLimit
+int
 
 
 ---

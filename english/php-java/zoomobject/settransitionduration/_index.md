@@ -30,7 +30,7 @@ the example demonstrates changing the duration of the transition between Zoom an
 ```
 
 ### Returns
-float
+void
 
 
 ---

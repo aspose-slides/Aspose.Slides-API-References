@@ -14,7 +14,7 @@ url: /php-java/audioframe/setplayloopmode/
  
 
 ### Returns
-boolean
+void
 
 
 ---

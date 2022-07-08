@@ -14,7 +14,7 @@ url: /php-java/fontsubstrule/getreplacefontcondition/
  
 
 ### Returns
-FontSubstCondition
+int
 
 
 ---

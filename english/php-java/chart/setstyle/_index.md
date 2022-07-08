@@ -14,7 +14,7 @@ url: /php-java/chart/setstyle/
  
 
 ### Returns
-StyleType
+void
 
 
 ---

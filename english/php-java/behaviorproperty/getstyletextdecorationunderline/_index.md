@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstyletextdecorationunderline/
  Represents 'style.textDecorationUnderline' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

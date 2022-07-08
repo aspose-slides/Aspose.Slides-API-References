@@ -16,7 +16,7 @@ url: /php-java/datasourcetypeforerrorbarscustomvalues/getdatasourcetypeforxminus
  
 
 ### Returns
-DataSourceType
+int
 
 
 ---

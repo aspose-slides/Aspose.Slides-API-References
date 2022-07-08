@@ -13,6 +13,9 @@ url: /php-java/outershadow/getblurradius/
  Read/write  double.
  
 
+### Returns
+double
+
 
 ---
 

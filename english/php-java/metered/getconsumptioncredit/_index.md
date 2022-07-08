@@ -11,7 +11,7 @@ url: /php-java/metered/getconsumptioncredit/
 Gets consumption credit
 
 ### Returns
-consumption quantity
+double
 
 
 ---

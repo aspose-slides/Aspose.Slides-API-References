@@ -14,7 +14,7 @@ url: /php-java/chart/getthememanager/
  
 
 ### Returns
-IOverrideThemeManager
+[BaseOverrideThemeManager](../../baseoverridethememanager), [ChartThemeManager](../../chartthememanager), [LayoutSlideThemeManager](../../layoutslidethememanager), [NotesSlideThemeManager](../../notesslidethememanager), [SlideThemeManager](../../slidethememanager)
 
 
 ---

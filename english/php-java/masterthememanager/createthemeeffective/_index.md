@@ -12,6 +12,9 @@ url: /php-java/masterthememanager/createthemeeffective/
  Returns the theme object.
  
 
+### Returns
+
+
 
 ---
 

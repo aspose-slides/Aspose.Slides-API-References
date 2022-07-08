@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/setaspectratiolocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

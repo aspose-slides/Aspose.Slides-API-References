@@ -14,7 +14,7 @@ url: /php-java/axis/setnumberformat/
  
 
 ### Returns
-String
+void
 
 
 ---

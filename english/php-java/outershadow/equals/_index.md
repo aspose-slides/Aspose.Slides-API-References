@@ -19,7 +19,7 @@ url: /php-java/outershadow/equals/
 | obj | Object | The OuterShadow to compare. |
 
 ### Returns
-OuterShadow
+boolean
 
 
 ---

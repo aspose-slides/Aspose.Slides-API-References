@@ -14,7 +14,7 @@ url: /php-java/formatscheme/getbackgroundfillstyles/
  
 
 ### Returns
-IFillFormatCollection
+[FillFormatCollection](../../fillformatcollection)
 
 
 ---

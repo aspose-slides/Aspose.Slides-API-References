@@ -13,7 +13,7 @@ url: /php-java/vbaproject/tobinary/
  
 
 ### Returns
-Binary representation of the VBA project as OLE container
+byte
 
 
 ---

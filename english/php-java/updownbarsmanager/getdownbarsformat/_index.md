@@ -14,7 +14,7 @@ url: /php-java/updownbarsmanager/getdownbarsformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

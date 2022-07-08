@@ -14,7 +14,7 @@ url: /php-java/axis/setautomaticmajorunit/
  
 
 ### Returns
-boolean
+void
 
 
 ---

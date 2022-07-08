@@ -14,7 +14,7 @@ url: /php-java/chartdatapoint/setinvertifnegative/
  
 
 ### Returns
-boolean
+void
 
 
 ---

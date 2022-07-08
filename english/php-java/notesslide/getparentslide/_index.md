@@ -14,7 +14,7 @@ url: /php-java/notesslide/getparentslide/
  
 
 ### Returns
-ISlide
+[Slide](../../slide)
 
 
 ---

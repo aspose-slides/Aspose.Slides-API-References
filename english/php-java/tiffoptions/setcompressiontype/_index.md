@@ -14,7 +14,7 @@ url: /php-java/tiffoptions/setcompressiontype/
  
 
 ### Returns
-TiffCompressionTypes
+void
 
 
 ---

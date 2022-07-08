@@ -14,7 +14,7 @@ url: /php-java/field/settype/
  
 
 ### Returns
-IFieldType
+void
 
 
 ---

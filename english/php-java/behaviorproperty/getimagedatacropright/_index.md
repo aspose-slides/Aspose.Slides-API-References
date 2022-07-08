@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getimagedatacropright/
  Represents 'imageData.cropRight' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

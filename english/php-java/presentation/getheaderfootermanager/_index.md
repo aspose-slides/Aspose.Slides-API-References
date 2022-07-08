@@ -14,7 +14,7 @@ url: /php-java/presentation/getheaderfootermanager/
  
 
 ### Returns
-IPresentationHeaderFooterManager
+[PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 
 
 ---

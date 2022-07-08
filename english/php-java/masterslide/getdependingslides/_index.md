@@ -13,7 +13,7 @@ url: /php-java/masterslide/getdependingslides/
  
 
 ### Returns
-Array of ISlide
+[Slide](../../slide)
 
 
 ---

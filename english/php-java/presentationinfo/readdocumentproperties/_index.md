@@ -12,6 +12,9 @@ url: /php-java/presentationinfo/readdocumentproperties/
  Gets document properties of binded presentation.
  
 
+### Returns
+[DocumentProperties](../../documentproperties)
+
 
 ---
 

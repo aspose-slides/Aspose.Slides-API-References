@@ -14,7 +14,7 @@ url: /php-java/reflection/setstartposalpha/
  
 
 ### Returns
-float
+void
 
 
 ---

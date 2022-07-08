@@ -21,7 +21,7 @@ url: /php-java/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 | baseUri | String | Base URI. |
 
 ### Returns
-VideoPlayerHtmlController
+[VideoPlayerHtmlController](../../videoplayerhtmlcontroller)
 
 
 ---

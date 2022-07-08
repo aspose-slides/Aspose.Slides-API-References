@@ -30,7 +30,7 @@ Example:
 ```
 
 ### Returns
-boolean
+void
 
 
 ---

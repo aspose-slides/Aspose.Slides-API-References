@@ -14,7 +14,7 @@ url: /php-java/hyperlink/hashcode/
  
 
 ### Returns
-Hash code for an URL.
+int
 
 
 ---

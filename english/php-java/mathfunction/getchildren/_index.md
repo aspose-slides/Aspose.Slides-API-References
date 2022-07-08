@@ -13,7 +13,7 @@ url: /php-java/mathfunction/getchildren/
  
 
 ### Returns
-Array of IMathElement
+[BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathArray](../../matharray), [MathBar](../../mathbar), [MathBlock](../../mathblock), [MathBorderBox](../../mathborderbox), [MathBox](../../mathbox), [MathDelimiter](../../mathdelimiter), [MathElementBase](../../mathelementbase), [MathematicalText](../../mathematicaltext), [MathFraction](../../mathfraction), [MathFunction](../../mathfunction), [MathGroupingCharacter](../../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathLimit](../../mathlimit), [MathMatrix](../../mathmatrix), [MathNaryOperator](../../mathnaryoperator), [MathRadical](../../mathradical), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathSubscriptElement](../../mathsubscriptelement), [MathSuperscriptElement](../../mathsuperscriptelement)
 
 
 ---

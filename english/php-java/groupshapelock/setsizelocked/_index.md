@@ -14,7 +14,7 @@ url: /php-java/groupshapelock/setsizelocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

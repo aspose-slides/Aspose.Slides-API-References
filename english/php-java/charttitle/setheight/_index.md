@@ -14,7 +14,7 @@ url: /php-java/charttitle/setheight/
  
 
 ### Returns
-float
+void
 
 
 ---

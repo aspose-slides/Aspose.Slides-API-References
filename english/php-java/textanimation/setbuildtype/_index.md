@@ -14,7 +14,7 @@ url: /php-java/textanimation/setbuildtype/
  
 
 ### Returns
-BuildType
+void
 
 
 ---

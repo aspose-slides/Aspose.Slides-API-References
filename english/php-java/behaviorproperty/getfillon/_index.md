@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getfillon/
  Represents 'fill.on' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

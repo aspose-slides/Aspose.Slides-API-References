@@ -12,6 +12,9 @@ url: /php-java/pdfoptions/getapplyimagetransparent/
  Applies the specified transparent color to an image if true.
  
 
+### Returns
+boolean
+
 
 ---
 

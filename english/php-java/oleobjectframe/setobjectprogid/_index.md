@@ -14,7 +14,7 @@ url: /php-java/oleobjectframe/setobjectprogid/
  
 
 ### Returns
-String
+void
 
 
 ---

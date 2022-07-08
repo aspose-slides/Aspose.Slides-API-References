@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getxshear/
  Represents 'xshear' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

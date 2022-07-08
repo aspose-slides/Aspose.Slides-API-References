@@ -14,7 +14,7 @@ url: /php-java/chartseries/getmarker/
  
 
 ### Returns
-IMarker
+[Marker](../../marker)
 
 
 ---

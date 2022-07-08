@@ -19,6 +19,9 @@ Example:
   $mathBar->setPosition(MathTopBotPositions.Bottom);
 ```
 
+### Returns
+int
+
 
 ---
 

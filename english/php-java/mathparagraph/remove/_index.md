@@ -26,10 +26,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | MathBlock | The object to remove from the collection. |
+| mathBlock | [MathBlock](../../mathblock) | The object to remove from the collection. |
 
 ### Returns
-true if mathBlock was successfully removed from the collection; otherwise, false. This method also returns false if mathBlock is not found in the original collection.
+boolean
 
 
 ---

@@ -15,7 +15,7 @@ url: /php-java/stringchartvalue/setascells/
  
 
 ### Returns
-IChartCellCollection
+void
 
 
 ---

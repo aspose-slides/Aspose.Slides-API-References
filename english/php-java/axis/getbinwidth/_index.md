@@ -13,6 +13,9 @@ url: /php-java/axis/getbinwidth/
  Applied to category axes. Used with Histogram or HistogramPareto series only.
  
 
+### Returns
+double
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/paragraph/getportions/
  
 
 ### Returns
-IPortionCollection
+[PortionCollection](../../portioncollection)
 
 
 ---

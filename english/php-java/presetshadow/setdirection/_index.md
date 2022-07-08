@@ -13,6 +13,9 @@ url: /php-java/presetshadow/setdirection/
  Read/write  float.
  
 
+### Returns
+void
+
 
 ---
 

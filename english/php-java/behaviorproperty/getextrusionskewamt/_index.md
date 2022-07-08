@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionskewamt/
  Represents 'extrusion.skewamt' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

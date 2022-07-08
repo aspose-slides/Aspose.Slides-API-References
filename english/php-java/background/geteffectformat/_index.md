@@ -14,7 +14,7 @@ url: /php-java/background/geteffectformat/
  
 
 ### Returns
-IEffectFormat
+[EffectFormat](../../effectformat)
 
 
 ---

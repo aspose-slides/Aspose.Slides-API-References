@@ -14,7 +14,7 @@ url: /php-java/connector/setstartshapeconnectedto/
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -33,7 +33,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -52,7 +52,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -71,7 +71,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -90,7 +90,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -109,7 +109,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -128,7 +128,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -147,7 +147,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -166,7 +166,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -185,7 +185,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -204,7 +204,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -223,7 +223,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -242,7 +242,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -261,7 +261,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -280,7 +280,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -299,7 +299,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -318,7 +318,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -337,7 +337,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -356,7 +356,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -375,7 +375,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 
@@ -394,7 +394,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 ### Exception
 

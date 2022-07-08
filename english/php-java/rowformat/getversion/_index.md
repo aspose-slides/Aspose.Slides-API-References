@@ -10,6 +10,9 @@ url: /php-java/rowformat/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

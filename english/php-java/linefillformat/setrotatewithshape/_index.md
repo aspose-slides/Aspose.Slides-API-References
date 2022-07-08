@@ -14,7 +14,7 @@ url: /php-java/linefillformat/setrotatewithshape/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

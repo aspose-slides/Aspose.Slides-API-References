@@ -19,6 +19,9 @@ url: /php-java/presentationheaderfootermanager/setallslidenumbersvisibility/
 | --- | --- | --- |
 | isVisible | boolean | true - makes a page number placeholders visible, otherwise - hides them. |
 
+### Returns
+void
+
 
 ---
 

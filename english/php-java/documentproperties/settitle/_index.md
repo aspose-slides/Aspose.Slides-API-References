@@ -14,7 +14,7 @@ url: /php-java/documentproperties/settitle/
  
 
 ### Returns
-String
+void
 
 
 ---

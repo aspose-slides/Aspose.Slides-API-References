@@ -15,7 +15,7 @@ url: /php-java/normalviewproperties/setsnapverticalsplitter/
  
 
 ### Returns
-boolean
+void
 
 
 ---

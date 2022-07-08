@@ -18,7 +18,7 @@ url: /php-java/charttitle/gettextframeforoverriding/
  
 
 ### Returns
-ITextFrame
+[TextFrame](../../textframe)
 
 
 ---

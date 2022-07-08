@@ -14,7 +14,7 @@ url: /php-java/slide/getheaderfootermanager/
  
 
 ### Returns
-ISlideHeaderFooterManager
+[SlideHeaderFooterManager](../../slideheaderfootermanager)
 
 
 ---

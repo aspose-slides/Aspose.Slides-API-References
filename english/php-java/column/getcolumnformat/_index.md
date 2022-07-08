@@ -14,7 +14,7 @@ url: /php-java/column/getcolumnformat/
  
 
 ### Returns
-IColumnFormat
+[ColumnFormat](../../columnformat)
 
 
 ---

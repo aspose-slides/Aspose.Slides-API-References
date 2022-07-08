@@ -14,7 +14,7 @@ url: /php-java/svgoptions/setdisablegradientsplit/
  
 
 ### Returns
-boolean
+void
 
 
 ---

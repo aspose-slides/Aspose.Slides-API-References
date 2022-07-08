@@ -14,6 +14,9 @@ url: /php-java/notescommentslayoutingoptions/getcommentsposition/
  Default is CommentsPositions#None.
  
 
+### Returns
+int
+
 
 ---
 

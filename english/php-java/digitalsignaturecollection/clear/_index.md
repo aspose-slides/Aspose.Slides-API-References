@@ -12,6 +12,9 @@ url: /php-java/digitalsignaturecollection/clear/
  Removes all signatures from collection.
  
 
+### Returns
+void
+
 
 ---
 

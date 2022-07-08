@@ -19,7 +19,7 @@ url: /php-java/layoutslidecollection/getbytype/
 | type | byte | A type of layout slide to find. |
 
 ### Returns
-LayoutSlide with specified type or null if no layouts found.
+[LayoutSlide](../../layoutslide)
 
 
 ---

@@ -18,11 +18,11 @@ url: /php-java/slidecollection/insertfromhtml/
 | --- | --- | --- |
 | index | int | Position to insert. |
 | htmlText | String | Html to add. |
-| resolver | ExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | HtmlExternalResolver | An URI of the specified HTML. Used to resolve relative links. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ### Returns
-Added slides.
+[Slide](../../slide)
 
 
 ---
@@ -39,11 +39,11 @@ Added slides.
 | --- | --- | --- |
 | index | int | Position to insert. |
 | htmlText | String | Html to add. |
-| resolver | ExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | HtmlExternalResolver | An URI of the specified HTML. Used to resolve relative links. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ### Returns
-Added slides.
+[Slide](../../slide)
 
 
 ---
@@ -62,7 +62,7 @@ Added slides.
 | htmlText | String | Html to add. |
 
 ### Returns
-Added slides
+[Slide](../../slide)
 
 
 ---
@@ -79,11 +79,11 @@ Added slides
 | --- | --- | --- |
 | index | int | Position to insert. |
 | htmlStream | InputStream | A Stream object which will be used as a source of a HTML file. |
-| resolver | ExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | HtmlExternalResolver | An URI of the specified HTML. Used to resolve relative links. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ### Returns
-Added slides.
+[Slide](../../slide)
 
 
 ---
@@ -100,11 +100,11 @@ Added slides.
 | --- | --- | --- |
 | index | int | Position to insert. |
 | htmlStream | InputStream | A Stream object which will be used as a source of a HTML file. |
-| resolver | ExternalResourceResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | HtmlExternalResolver | An URI of the specified HTML. Used to resolve relative links. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
 ### Returns
-Added slides.
+[Slide](../../slide)
 
 
 ---
@@ -123,7 +123,7 @@ Added slides.
 | htmlStream | InputStream | A Stream object which will be used as a source of a HTML file. |
 
 ### Returns
-Added slides
+[Slide](../../slide)
 
 
 ---

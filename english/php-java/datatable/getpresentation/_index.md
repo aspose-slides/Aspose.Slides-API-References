@@ -14,7 +14,7 @@ url: /php-java/datatable/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

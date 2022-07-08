@@ -17,7 +17,10 @@ url: /php-java/masterlayoutslidecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| layoutSlide | LayoutSlide | Slide to move. |
+| layoutSlide | [LayoutSlide](../../layoutslide) | Slide to move. |
+
+### Returns
+void
 
 
 ---

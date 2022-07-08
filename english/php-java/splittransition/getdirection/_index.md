@@ -14,7 +14,7 @@ url: /php-java/splittransition/getdirection/
  
 
 ### Returns
-TransitionInOutDirectionType
+int
 
 
 ---

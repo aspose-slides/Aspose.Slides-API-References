@@ -19,7 +19,7 @@ url: /php-java/hyperlinkmanager/setexternalhyperlinkmouseover/
 | url | String | Hyperlink URL. |
 
 ### Returns
-Hyperlink.
+[Hyperlink](../../hyperlink)
 
 
 ---

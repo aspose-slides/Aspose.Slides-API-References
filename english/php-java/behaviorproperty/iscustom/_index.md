@@ -13,6 +13,9 @@ url: /php-java/behaviorproperty/iscustom/
  https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx
  
 
+### Returns
+boolean
+
 
 ---
 

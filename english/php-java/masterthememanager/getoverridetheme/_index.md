@@ -14,7 +14,7 @@ url: /php-java/masterthememanager/getoverridetheme/
  
 
 ### Returns
-IMasterTheme
+[MasterTheme](../../mastertheme)
 
 
 ---

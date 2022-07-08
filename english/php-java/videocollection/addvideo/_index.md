@@ -16,10 +16,10 @@ url: /php-java/videocollection/addvideo/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| video | Video | Source video. |
+| video | [Video](../../video) | Source video. |
 
 ### Returns
-Added video.
+[Video](../../video)
 
 
 ---
@@ -37,7 +37,7 @@ Added video.
 | stream | InputStream | Stream to add video file from. |
 
 ### Returns
-Added Video.
+[Video](../../video)
 
 
 ---
@@ -56,7 +56,7 @@ Added Video.
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
 ### Returns
-Added IVideo.
+[Video](../../video)
 
 
 ---
@@ -74,7 +74,7 @@ Added IVideo.
 | videoData | byte[] | Video bytes. |
 
 ### Returns
-Added video.
+[Video](../../video)
 
 
 ---

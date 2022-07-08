@@ -16,8 +16,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [AudioFrame](../../audioframe) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -32,8 +35,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [AutoShape](../../autoshape) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -48,8 +54,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [Chart](../../chart) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -64,8 +73,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [Connector](../../connector) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -80,8 +92,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [GeometryShape](../../geometryshape) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -96,8 +111,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [GraphicalObject](../../graphicalobject) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -112,8 +130,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [GroupShape](../../groupshape) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -128,8 +149,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [Ink](../../ink) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -144,8 +168,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [LegacyDiagram](../../legacydiagram) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -160,8 +187,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [OleObjectFrame](../../oleobjectframe) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -176,8 +206,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [PictureFrame](../../pictureframe) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -192,8 +225,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [SectionZoomFrame](../../sectionzoomframe) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -208,8 +244,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [Shape](../../shape) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -224,8 +263,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [SmartArt](../../smartart) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -240,8 +282,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [SmartArtShape](../../smartartshape) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -256,8 +301,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [SummaryZoomFrame](../../summaryzoomframe) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -272,8 +320,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -288,8 +339,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [Table](../../table) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -304,8 +358,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [VideoFrame](../../videoframe) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -320,8 +377,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [ZoomFrame](../../zoomframe) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---
@@ -336,8 +396,11 @@ url: /php-java/embedallfontshtmlcontroller/writeshapestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| shape | AudioFrame | Shape which is about to render. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| shape | [ZoomObject](../../zoomobject) | Shape which is about to render. |
+
+### Returns
+void
 
 
 ---

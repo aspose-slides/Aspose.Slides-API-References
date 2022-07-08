@@ -14,7 +14,7 @@ url: /php-java/effect/setpresetclasstype/
  
 
 ### Returns
-EffectPresetClassType
+void
 
 
 ---

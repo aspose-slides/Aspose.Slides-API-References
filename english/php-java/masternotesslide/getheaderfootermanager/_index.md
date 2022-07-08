@@ -14,7 +14,7 @@ url: /php-java/masternotesslide/getheaderfootermanager/
  
 
 ### Returns
-IMasterHandoutSlideHeaderFooterManager
+[MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 
 
 ---

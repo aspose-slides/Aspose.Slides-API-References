@@ -14,7 +14,7 @@ url: /php-java/lineformat/setjoinstyle/
  
 
 ### Returns
-LineJoinStyle
+void
 
 
 ---

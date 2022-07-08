@@ -19,7 +19,7 @@ url: /php-java/adjustvaluecollection/get_item/
 | index | int | adjustment's index. |
 
 ### Returns
-AdjustValue.
+[AdjustValue](../../adjustvalue)
 
 
 ---

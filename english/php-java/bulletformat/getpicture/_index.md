@@ -14,7 +14,7 @@ url: /php-java/bulletformat/getpicture/
  
 
 ### Returns
-ISlidesPicture
+[Picture](../../picture)
 
 
 ---

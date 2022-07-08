@@ -14,7 +14,7 @@ url: /php-java/commentauthor/setinitials/
  
 
 ### Returns
-String
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/chartseriesgroup/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

@@ -16,7 +16,7 @@ url: /php-java/errorbarsformat/setvaluetype/
  
 
 ### Returns
-ErrorBarValueType
+void
 
 
 ---

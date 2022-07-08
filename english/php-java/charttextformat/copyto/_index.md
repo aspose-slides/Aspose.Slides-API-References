@@ -16,7 +16,10 @@ url: /php-java/charttextformat/copyto/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| destTextFrame | TextFrame | Text frame to copy text format to. |
+| destTextFrame | [TextFrame](../../textframe) | Text frame to copy text format to. |
+
+### Returns
+void
 
 
 ---

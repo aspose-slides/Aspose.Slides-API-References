@@ -33,7 +33,7 @@ url: /php-java/charttypecharacterizer/ischarttypecolumn/
  
 
 ### Returns
-ChartType#Pyramid3D
+boolean
 
 
 ---

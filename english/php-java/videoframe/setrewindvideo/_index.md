@@ -15,7 +15,7 @@ url: /php-java/videoframe/setrewindvideo/
  
 
 ### Returns
-boolean
+void
 
 
 ---

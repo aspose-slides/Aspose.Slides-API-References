@@ -13,6 +13,9 @@ url: /php-java/pdfoptions/getshowhiddenslides/
  Default is false.
  
 
+### Returns
+boolean
+
 
 ---
 

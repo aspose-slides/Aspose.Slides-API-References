@@ -14,7 +14,7 @@ url: /php-java/presentation/getprotectionmanager/
  
 
 ### Returns
-IProtectionManager
+[ProtectionManager](../../protectionmanager)
 
 
 ---

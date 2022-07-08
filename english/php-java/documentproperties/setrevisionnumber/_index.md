@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setrevisionnumber/
  
 
 ### Returns
-int
+void
 
 
 ---

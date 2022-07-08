@@ -18,6 +18,9 @@ url: /php-java/controlpropertiescollection/remove/
 | --- | --- | --- |
 | name | String | The name of property to remove. |
 
+### Returns
+void
+
 
 ---
 

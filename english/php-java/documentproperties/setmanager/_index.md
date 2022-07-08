@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setmanager/
  
 
 ### Returns
-String
+void
 
 
 ---

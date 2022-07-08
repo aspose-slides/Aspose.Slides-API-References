@@ -14,7 +14,7 @@ url: /php-java/connectorlock/setgroupinglocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

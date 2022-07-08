@@ -16,7 +16,7 @@ url: /php-java/charttypecharacterizer/ischarttypedoughnut/
  
 
 ### Returns
-ChartType#ExplodedDoughnut
+boolean
 
 
 ---

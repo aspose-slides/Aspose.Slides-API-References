@@ -19,7 +19,7 @@ url: /php-java/documentproperties/removecustomproperty/
 | name | String | Name of a custom property to remove. |
 
 ### Returns
-Return true if a property was removed, false overwise.
+boolean
 
 
 ---

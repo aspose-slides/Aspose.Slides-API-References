@@ -16,11 +16,11 @@ url: /php-java/slideutil/getalltextframes/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation | Scanned presentation. |
+| pres | [Presentation](../presentation) | Scanned presentation. |
 | withMasters | boolean | Determines whether master slides should be scanned. |
 
 ### Returns
-Array of TextFrame objects.
+[TextFrame](../../textframe)
 
 
 ---

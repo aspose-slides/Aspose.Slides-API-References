@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getshadowmatrixxtox/
  Represents 'shadow.matrix.xtox' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

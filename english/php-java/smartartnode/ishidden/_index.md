@@ -13,6 +13,9 @@ url: /php-java/smartartnode/ishidden/
  Read-only boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

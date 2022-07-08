@@ -15,7 +15,7 @@ url: /php-java/paragraph/settext/
  The text.
 
 ### Returns
-String
+void
 
 
 ---

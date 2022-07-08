@@ -14,7 +14,7 @@ url: /php-java/extracolorschemecollection/get_item/
  
 
 ### Returns
-ExtraColorScheme
+[ExtraColorScheme](../../extracolorscheme)
 
 
 ---

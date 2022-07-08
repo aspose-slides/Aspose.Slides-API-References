@@ -14,7 +14,7 @@ url: /php-java/chartlinesformat/getline/
  
 
 ### Returns
-ILineFormat
+[LineFormat](../../lineformat)
 
 
 ---

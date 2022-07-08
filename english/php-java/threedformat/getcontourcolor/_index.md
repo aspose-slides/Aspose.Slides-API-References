@@ -14,7 +14,7 @@ url: /php-java/threedformat/getcontourcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

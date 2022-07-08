@@ -14,7 +14,7 @@ url: /php-java/masterslidecollection/get_item/
  
 
 ### Returns
-MasterSlide
+[MasterSlide](../../masterslide)
 
 
 ---

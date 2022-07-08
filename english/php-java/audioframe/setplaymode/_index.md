@@ -14,7 +14,7 @@ url: /php-java/audioframe/setplaymode/
  
 
 ### Returns
-AudioPlayModePreset
+void
 
 
 ---

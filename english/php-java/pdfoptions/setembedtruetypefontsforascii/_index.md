@@ -18,7 +18,7 @@ url: /php-java/pdfoptions/setembedtruetypefontsforascii/
  
 
 ### Returns
-boolean
+void
 
 
 ---

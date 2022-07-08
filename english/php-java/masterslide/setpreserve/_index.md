@@ -15,7 +15,7 @@ url: /php-java/masterslide/setpreserve/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/gettabs/
  
 
 ### Returns
-ITabCollection
+[TabCollection](../../tabcollection)
 
 
 ---

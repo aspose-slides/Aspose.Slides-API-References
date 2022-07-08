@@ -16,12 +16,12 @@ url: /php-java/table/mergecells/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cell1 | Cell | Cell to merge. |
-| cell2 | Cell | Cell to merge. |
+| cell1 | [Cell](../cell) | Cell to merge. |
+| cell2 | [Cell](../cell) | Cell to merge. |
 | allowSplitting | boolean | True to allow cells splitting. |
 
 ### Returns
-Merged cell.
+[Cell](../../cell)
 
 
 ---

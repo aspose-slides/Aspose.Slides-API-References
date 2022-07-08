@@ -14,7 +14,7 @@ url: /php-java/masterthememanager/setoverridethemeenabled/
  
 
 ### Returns
-boolean
+void
 
 
 ---

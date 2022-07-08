@@ -12,6 +12,9 @@ url: /php-java/hyperlinkmanager/removehyperlinkmouseover/
  Removes hyperlink mouse over.
  
 
+### Returns
+void
+
 
 ---
 

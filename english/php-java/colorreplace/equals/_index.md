@@ -19,7 +19,7 @@ url: /php-java/colorreplace/equals/
 | obj | Object | The ColorReplace to compare. |
 
 ### Returns
-ColorReplace
+boolean
 
 
 ---

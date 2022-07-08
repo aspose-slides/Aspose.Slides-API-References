@@ -10,6 +10,9 @@ url: /php-java/videoplayerhtmlcontroller/writedocumentstart/
 ## writeDocumentStart([HtmlGenerator](../../htmlgenerator) generator, [Presentation](../../presentation) presentation)  method
 
 
+### Returns
+void
+
 
 ---
 

@@ -16,10 +16,13 @@ url: /php-java/slide/rendertographics/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | graphics | Graphics2D | The object where to render to. |
 | width | int | The maximum width (in pixels) that can be occupied by the rendered slide. |
 | height | int | The maximum height (in pixels) that can be occupied by the rendered slide. |
+
+### Returns
+void
 
 ### Exception
 
@@ -40,9 +43,12 @@ url: /php-java/slide/rendertographics/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | graphics | Graphics2D | The object where to render to. |
 | scale | float | The scale for rendering the slide (1.0 is 100%). |
+
+### Returns
+void
 
 ### Exception
 
@@ -63,8 +69,11 @@ url: /php-java/slide/rendertographics/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | graphics | Graphics2D | The object where to render to. |
+
+### Returns
+void
 
 ### Exception
 
@@ -85,8 +94,11 @@ url: /php-java/slide/rendertographics/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Rendering options. |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
 | graphics | Graphics2D | The object where to render to. |
+
+### Returns
+void
 
 ### Exception
 
@@ -107,10 +119,13 @@ url: /php-java/slide/rendertographics/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Rendering options. |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
 | graphics | Graphics2D | The object where to render to. |
 | scaleX | float | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
 | scaleY | float | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
+
+### Returns
+void
 
 ### Exception
 
@@ -131,9 +146,12 @@ url: /php-java/slide/rendertographics/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Rendering options. |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
 | graphics | Graphics2D | The object where to render to. |
 | renderingSize | Dimension | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
+
+### Returns
+void
 
 ### Exception
 

@@ -10,6 +10,9 @@ url: /php-java/bulletformat/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

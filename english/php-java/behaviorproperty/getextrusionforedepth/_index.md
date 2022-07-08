@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionforedepth/
  Represents 'extrusion.foredepth' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

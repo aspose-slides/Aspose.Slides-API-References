@@ -14,7 +14,7 @@ url: /php-java/errorbarsformat/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

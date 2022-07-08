@@ -14,7 +14,7 @@ url: /php-java/trendline/setformat/
  
 
 ### Returns
-IFormat
+void
 
 
 ---

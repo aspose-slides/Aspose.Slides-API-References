@@ -14,7 +14,7 @@ url: /php-java/eightdirectiontransition/getdirection/
  
 
 ### Returns
-TransitionEightDirectionType
+int
 
 
 ---

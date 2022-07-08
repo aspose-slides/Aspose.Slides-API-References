@@ -13,6 +13,9 @@ url: /php-java/outershadow/getdirection/
  Read/write  float.
  
 
+### Returns
+float
+
 
 ---
 

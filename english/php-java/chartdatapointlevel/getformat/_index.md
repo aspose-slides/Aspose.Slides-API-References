@@ -30,7 +30,7 @@ url: /php-java/chartdatapointlevel/getformat/
 ```
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

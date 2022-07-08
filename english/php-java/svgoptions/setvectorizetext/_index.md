@@ -14,7 +14,7 @@ url: /php-java/svgoptions/setvectorizetext/
  
 
 ### Returns
-boolean
+void
 
 
 ---

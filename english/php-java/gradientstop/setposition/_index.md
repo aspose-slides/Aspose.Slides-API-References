@@ -14,7 +14,7 @@ url: /php-java/gradientstop/setposition/
  
 
 ### Returns
-float
+void
 
 
 ---

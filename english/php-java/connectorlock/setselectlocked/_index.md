@@ -14,7 +14,7 @@ url: /php-java/connectorlock/setselectlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

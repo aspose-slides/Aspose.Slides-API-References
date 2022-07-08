@@ -14,7 +14,7 @@ url: /php-java/axis/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

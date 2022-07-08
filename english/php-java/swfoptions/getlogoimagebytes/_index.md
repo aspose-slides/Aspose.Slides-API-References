@@ -13,6 +13,9 @@ url: /php-java/swfoptions/getlogoimagebytes/
  Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. 
  
 
+### Returns
+byte
+
 
 ---
 

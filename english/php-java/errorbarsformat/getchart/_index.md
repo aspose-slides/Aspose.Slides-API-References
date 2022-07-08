@@ -14,7 +14,7 @@ url: /php-java/errorbarsformat/getchart/
  
 
 ### Returns
-IChart
+[Chart](../../chart)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/trendline/setorder/
  
 
 ### Returns
-byte
+void
 
 
 ---

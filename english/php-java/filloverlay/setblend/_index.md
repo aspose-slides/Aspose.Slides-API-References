@@ -14,7 +14,7 @@ url: /php-java/filloverlay/setblend/
  
 
 ### Returns
-FillBlendMode
+void
 
 
 ---

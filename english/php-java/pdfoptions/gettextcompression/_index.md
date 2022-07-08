@@ -16,7 +16,7 @@ url: /php-java/pdfoptions/gettextcompression/
  
 
 ### Returns
-PdfTextCompression#Flate
+int
 
 
 ---

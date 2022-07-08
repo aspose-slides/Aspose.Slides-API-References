@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/setspacewithin/
  
 
 ### Returns
-float
+void
 
 
 ---

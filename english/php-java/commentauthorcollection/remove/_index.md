@@ -16,7 +16,10 @@ url: /php-java/commentauthorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| author | CommentAuthor | The author to remove from a collection. |
+| author | [CommentAuthor](../../commentauthor) | The author to remove from a collection. |
+
+### Returns
+void
 
 ### Exception
 

@@ -14,7 +14,7 @@ url: /php-java/presentation/gethyperlinkqueries/
  
 
 ### Returns
-IHyperlinkQueries
+[HyperlinkQueries](../../hyperlinkqueries)
 
 
 ---

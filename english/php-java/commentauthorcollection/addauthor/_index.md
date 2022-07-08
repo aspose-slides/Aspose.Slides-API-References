@@ -20,7 +20,7 @@ url: /php-java/commentauthorcollection/addauthor/
 | initials | String | Initials of a new author. |
 
 ### Returns
-The ICommentAuthor object.
+[CommentAuthor](../../commentauthor)
 
 
 ---

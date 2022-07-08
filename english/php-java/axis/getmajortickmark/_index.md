@@ -14,7 +14,7 @@ url: /php-java/axis/getmajortickmark/
  
 
 ### Returns
-TickMarkType
+int
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/reflection/setfadedirection/
  
 
 ### Returns
-float
+void
 
 
 ---

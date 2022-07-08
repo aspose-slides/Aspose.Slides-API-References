@@ -14,7 +14,7 @@ url: /php-java/reflection/setscalehorizontal/
  
 
 ### Returns
-double
+void
 
 
 ---

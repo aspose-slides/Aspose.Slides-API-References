@@ -14,7 +14,7 @@ url: /php-java/commentauthor/setname/
  
 
 ### Returns
-String
+void
 
 
 ---

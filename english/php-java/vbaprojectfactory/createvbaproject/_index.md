@@ -13,7 +13,7 @@ url: /php-java/vbaprojectfactory/createvbaproject/
  
 
 ### Returns
-New VBA project
+[VbaProject](../../vbaproject)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/motioneffect/setangle/
  
 
 ### Returns
-float
+void
 
 
 ---

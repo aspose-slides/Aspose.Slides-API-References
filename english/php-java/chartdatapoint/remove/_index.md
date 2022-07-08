@@ -12,6 +12,9 @@ url: /php-java/chartdatapoint/remove/
  Removes DataPoint from chart series.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

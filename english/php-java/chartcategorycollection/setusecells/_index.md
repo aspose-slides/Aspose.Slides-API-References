@@ -16,7 +16,7 @@ url: /php-java/chartcategorycollection/setusecells/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -15,7 +15,7 @@ url: /php-java/hyperlink/settargetframe/
  
 
 ### Returns
-String
+void
 
 
 ---

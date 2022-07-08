@@ -10,6 +10,9 @@ url: /php-java/control/getpresentation/
 ## getPresentation()  method
 
 
+### Returns
+[Presentation](../../presentation)
+
 
 ---
 

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getshadowopacity/
  Represents 'shadow.opacity' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

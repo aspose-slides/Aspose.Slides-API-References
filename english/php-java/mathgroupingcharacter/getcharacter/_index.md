@@ -20,6 +20,9 @@ Example:
 
 ```
 
+### Returns
+char
+
 
 ---
 

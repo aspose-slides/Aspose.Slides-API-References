@@ -14,7 +14,7 @@ url: /php-java/textframeformat/getautofittype/
  
 
 ### Returns
-TextAutofitType
+byte
 
 
 ---

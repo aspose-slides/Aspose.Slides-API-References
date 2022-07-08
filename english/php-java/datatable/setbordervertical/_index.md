@@ -14,7 +14,7 @@ url: /php-java/datatable/setbordervertical/
  
 
 ### Returns
-boolean
+void
 
 
 ---

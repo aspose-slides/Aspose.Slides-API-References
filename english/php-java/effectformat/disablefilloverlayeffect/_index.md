@@ -12,6 +12,9 @@ url: /php-java/effectformat/disablefilloverlayeffect/
  Disables fill overlay effect.
  
 
+### Returns
+void
+
 
 ---
 

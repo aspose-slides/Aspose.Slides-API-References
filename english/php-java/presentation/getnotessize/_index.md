@@ -14,7 +14,7 @@ url: /php-java/presentation/getnotessize/
  
 
 ### Returns
-INotesSize
+[NotesSize](../../notessize)
 
 
 ---

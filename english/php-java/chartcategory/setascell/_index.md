@@ -15,7 +15,7 @@ url: /php-java/chartcategory/setascell/
  
 
 ### Returns
-IChartDataCell
+void
 
 
 ---

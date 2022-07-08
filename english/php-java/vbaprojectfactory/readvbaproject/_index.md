@@ -13,7 +13,7 @@ url: /php-java/vbaprojectfactory/readvbaproject/
  
 
 ### Returns
-Read VBA project
+[VbaProject](../../vbaproject)
 
 
 ---

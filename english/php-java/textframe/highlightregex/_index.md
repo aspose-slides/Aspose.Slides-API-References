@@ -18,7 +18,10 @@ url: /php-java/textframe/highlightregex/
 | --- | --- | --- |
 | regex | String | Text of regular expression to get text to highlight. |
 | highlightColor | Color | Highlighting color. |
-| options | TextHighlightingOptions | Highlighting options. |
+| options | [TextHighlightingOptions](../../texthighlightingoptions) | Highlighting options. |
+
+### Returns
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/camera/getcameratype/
  
 
 ### Returns
-CameraPresetType
+int
 
 
 ---

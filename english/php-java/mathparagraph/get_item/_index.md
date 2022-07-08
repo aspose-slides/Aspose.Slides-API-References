@@ -29,7 +29,7 @@ Example:
 | index | int | The zero-based index of the item to get |
 
 ### Returns
-IMathBlock
+[MathBlock](../../mathblock)
 
 
 ---

@@ -33,7 +33,7 @@ url: /php-java/audioframe/setplayacrossslides/
 ```
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -13,7 +13,7 @@ url: /php-java/tint/geteffective/
  
 
 ### Returns
-A ITintEffectiveData.
+
 
 
 ---

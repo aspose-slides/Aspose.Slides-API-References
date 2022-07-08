@@ -14,7 +14,7 @@ url: /php-java/marker/getformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

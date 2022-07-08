@@ -13,6 +13,9 @@ url: /php-java/chartdatapoint/getautomaticdatapointcolor/
  This color is used by default if FillType equals NotDefined. 
  
 
+### Returns
+Color
+
 
 ---
 

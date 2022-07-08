@@ -13,6 +13,9 @@ url: /php-java/swfoptions/getcompressed/
  Default is true.
  
 
+### Returns
+boolean
+
 
 ---
 

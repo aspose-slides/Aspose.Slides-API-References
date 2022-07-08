@@ -20,6 +20,9 @@ url: /php-java/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext/
 | --- | --- | --- |
 | text | String | Text to set. |
 
+### Returns
+void
+
 
 ---
 

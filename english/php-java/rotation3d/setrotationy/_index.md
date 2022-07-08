@@ -15,7 +15,7 @@ url: /php-java/rotation3d/setrotationy/
  
 
 ### Returns
-int
+void
 
 
 ---

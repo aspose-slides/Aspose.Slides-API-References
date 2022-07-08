@@ -14,7 +14,7 @@ url: /php-java/comment/setparentcomment/
  
 
 ### Returns
-IComment
+void
 
 ### Exception
 
@@ -33,7 +33,7 @@ IComment
  
 
 ### Returns
-IComment
+void
 
 ### Exception
 

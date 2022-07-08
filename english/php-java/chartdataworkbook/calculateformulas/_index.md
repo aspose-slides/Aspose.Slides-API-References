@@ -30,6 +30,9 @@ url: /php-java/chartdataworkbook/calculateformulas/
   }
 ```
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

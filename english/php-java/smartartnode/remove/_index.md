@@ -13,7 +13,7 @@ url: /php-java/smartartnode/remove/
  
 
 ### Returns
-true if removed succesfully, otherwise false
+boolean
 
 
 ---

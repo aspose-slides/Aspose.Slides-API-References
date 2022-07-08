@@ -14,7 +14,7 @@ url: /php-java/sequencecollection/add/
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -27,7 +27,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -40,7 +40,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -53,7 +53,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -66,7 +66,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -79,7 +79,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -92,7 +92,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -105,7 +105,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -118,7 +118,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -131,7 +131,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -144,7 +144,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -157,7 +157,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -170,7 +170,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -183,7 +183,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -196,7 +196,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -209,7 +209,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -222,7 +222,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -235,7 +235,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -248,7 +248,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -261,7 +261,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---
@@ -274,7 +274,7 @@ Sequence
  
 
 ### Returns
-Sequence
+[Sequence](../../sequence)
 
 
 ---

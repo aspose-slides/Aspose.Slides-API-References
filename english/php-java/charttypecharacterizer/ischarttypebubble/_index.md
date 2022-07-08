@@ -16,7 +16,7 @@ url: /php-java/charttypecharacterizer/ischarttypebubble/
  
 
 ### Returns
-ChartType#BubbleWith3D
+boolean
 
 
 ---

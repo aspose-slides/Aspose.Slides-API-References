@@ -13,6 +13,9 @@ url: /php-java/commentcollection/size/
  Read-only  int.
  
 
+### Returns
+int
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/stringchartvalue/setasliteralstring/
  
 
 ### Returns
-String
+void
 
 
 ---

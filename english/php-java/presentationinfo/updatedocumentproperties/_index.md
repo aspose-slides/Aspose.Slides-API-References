@@ -25,7 +25,7 @@ url: /php-java/presentationinfo/updatedocumentproperties/
 ```
 
 ### Returns
-#readDocumentProperties
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/fillformat/getsolidfillcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

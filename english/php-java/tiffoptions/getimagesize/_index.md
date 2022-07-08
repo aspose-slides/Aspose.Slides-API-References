@@ -15,7 +15,7 @@ url: /php-java/tiffoptions/getimagesize/
  
 
 ### Returns
-java.awt.Dimension
+Dimension
 
 
 ---

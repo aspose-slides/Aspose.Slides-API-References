@@ -16,7 +16,10 @@ url: /php-java/portioncollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | MathPortion | The Portion to be added to the end of the collection. |
+| value | [MathPortion](../../mathportion) | The Portion to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -31,7 +34,10 @@ url: /php-java/portioncollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | MathPortion | The Portion to be added to the end of the collection. |
+| value | [Portion](../../portion) | The Portion to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---

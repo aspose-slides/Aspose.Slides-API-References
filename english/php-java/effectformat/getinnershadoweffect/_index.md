@@ -14,7 +14,7 @@ url: /php-java/effectformat/getinnershadoweffect/
  
 
 ### Returns
-IInnerShadow
+[InnerShadow](../../innershadow)
 
 
 ---

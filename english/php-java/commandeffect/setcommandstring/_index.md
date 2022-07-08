@@ -14,7 +14,7 @@ url: /php-java/commandeffect/setcommandstring/
  
 
 ### Returns
-String
+void
 
 
 ---

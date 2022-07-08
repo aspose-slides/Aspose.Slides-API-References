@@ -19,7 +19,7 @@ url: /php-java/mathblock/writeasmathml/
 | stream | OutputStream | Target stream |
 
 ### Returns
-MathBlock
+void
 
 
 ---

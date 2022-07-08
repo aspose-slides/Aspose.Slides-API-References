@@ -12,6 +12,9 @@ url: /php-java/chart/createthemeeffective/
  Returns an effective theme for this chart.
  
 
+### Returns
+
+
 
 ---
 

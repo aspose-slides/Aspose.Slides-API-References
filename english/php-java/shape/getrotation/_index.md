@@ -18,6 +18,9 @@ url: /php-java/shape/getrotation/
  Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
  
 
+### Returns
+float
+
 
 ---
 

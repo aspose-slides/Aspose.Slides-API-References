@@ -19,7 +19,7 @@ url: /php-java/storage/get/
 | key | String | Key of the value. |
 
 ### Returns
-Data value if it is presented in the data collection, null otherwise.
+TValue
 
 
 ---

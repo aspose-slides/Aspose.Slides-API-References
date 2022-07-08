@@ -16,7 +16,10 @@ url: /php-java/vbamodulecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | VbaModule | The module to remove from the collection. |
+| value | [VbaModule](../../vbamodule) | The module to remove from the collection. |
+
+### Returns
+void
 
 
 ---

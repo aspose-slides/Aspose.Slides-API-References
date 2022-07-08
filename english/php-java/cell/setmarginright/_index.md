@@ -14,7 +14,7 @@ url: /php-java/cell/setmarginright/
  
 
 ### Returns
-double
+void
 
 
 ---

@@ -16,7 +16,7 @@ url: /php-java/xpsoptions/setsavemetafilesaspng/
  
 
 ### Returns
-boolean
+void
 
 
 ---

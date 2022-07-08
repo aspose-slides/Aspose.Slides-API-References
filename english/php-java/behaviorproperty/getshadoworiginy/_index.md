@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getshadoworiginy/
  Represents 'shadow.origin.y' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

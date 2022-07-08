@@ -14,7 +14,7 @@ url: /php-java/axis/setminorunitscale/
   
 
 ### Returns
-TimeUnitType
+void
 
 
 ---

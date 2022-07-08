@@ -19,7 +19,7 @@ url: /php-java/duotone/equals/
 | obj | Object | The Duotone to compare. |
 
 ### Returns
-Duotone
+boolean
 
 
 ---

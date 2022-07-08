@@ -14,7 +14,7 @@ url: /php-java/textframeformat/setanchoringtype/
  
 
 ### Returns
-TextAnchorType
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/lineformat/setbeginarrowheadstyle/
  
 
 ### Returns
-LineArrowheadStyle
+void
 
 
 ---

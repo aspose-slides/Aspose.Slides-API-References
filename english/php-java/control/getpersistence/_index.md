@@ -25,7 +25,7 @@ url: /php-java/control/getpersistence/
 ```
 
 ### Returns
-PersistenceType
+int
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/shape/getblackwhitemode/
  
 
 ### Returns
-BlackWhiteMode
+byte
 
 
 ---

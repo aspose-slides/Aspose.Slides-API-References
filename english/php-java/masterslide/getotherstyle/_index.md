@@ -14,7 +14,7 @@ url: /php-java/masterslide/getotherstyle/
  
 
 ### Returns
-ITextStyle
+[TextStyle](../../textstyle)
 
 
 ---

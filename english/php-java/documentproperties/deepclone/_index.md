@@ -13,7 +13,7 @@ url: /php-java/documentproperties/deepclone/
  
 
 ### Returns
-Clone
+Object
 
 
 ---

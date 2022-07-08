@@ -22,6 +22,9 @@ url: /php-java/motionpath/insert/
 | ptsType | int | MotionPathPointsType |
 | bRelativeCoord | boolean | Relative coordinates boolean |
 
+### Returns
+void
+
 
 ---
 

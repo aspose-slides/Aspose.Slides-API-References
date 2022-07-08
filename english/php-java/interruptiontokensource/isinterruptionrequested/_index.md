@@ -12,6 +12,9 @@ url: /php-java/interruptiontokensource/isinterruptionrequested/
  Returns true if interruption requested, false otherwise.
  
 
+### Returns
+boolean
+
 
 ---
 

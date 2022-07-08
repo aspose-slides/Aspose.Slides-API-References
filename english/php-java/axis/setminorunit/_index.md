@@ -14,7 +14,7 @@ url: /php-java/axis/setminorunit/
  
 
 ### Returns
-double
+void
 
 
 ---

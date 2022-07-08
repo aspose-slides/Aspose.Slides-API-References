@@ -19,7 +19,7 @@ url: /php-java/output/getresourcepath/
 | obj | Object | Resource object. |
 
 ### Returns
-Resource path.
+String
 
 
 ---

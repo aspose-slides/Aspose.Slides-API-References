@@ -14,7 +14,7 @@ url: /php-java/effectformat/getblureffect/
  
 
 ### Returns
-IBlur
+[Blur](../../blur)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/colorscheme/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

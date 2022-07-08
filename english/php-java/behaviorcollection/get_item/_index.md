@@ -19,7 +19,7 @@ url: /php-java/behaviorcollection/get_item/
 | index | int | Index of a behavior to return. |
 
 ### Returns
-Animation behavior.
+[Behavior](../../behavior), [ColorEffect](../../coloreffect), [CommandEffect](../../commandeffect), [FilterEffect](../../filtereffect), [MotionEffect](../../motioneffect), [PropertyEffect](../../propertyeffect), [RotationEffect](../../rotationeffect), [ScaleEffect](../../scaleeffect), [SetEffect](../../seteffect)
 
 
 ---

@@ -15,7 +15,7 @@ url: /php-java/normalviewrestoredproperties/setdimensionsize/
  
 
 ### Returns
-float
+void
 
 ### Exception
 

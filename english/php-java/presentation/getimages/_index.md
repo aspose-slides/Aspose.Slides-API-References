@@ -14,7 +14,7 @@ url: /php-java/presentation/getimages/
  
 
 ### Returns
-IImageCollection
+[ImageCollection](../../imagecollection)
 
 
 ---

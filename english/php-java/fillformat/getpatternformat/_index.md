@@ -14,7 +14,7 @@ url: /php-java/fillformat/getpatternformat/
  
 
 ### Returns
-IPatternFormat
+[PatternFormat](../../patternformat)
 
 
 ---

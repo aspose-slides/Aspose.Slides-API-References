@@ -14,7 +14,7 @@ url: /php-java/presetshadow/getpreset/
  
 
 ### Returns
-PresetShadowType
+int
 
 
 ---

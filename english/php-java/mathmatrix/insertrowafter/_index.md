@@ -25,6 +25,9 @@ Example:
 | --- | --- | --- |
 | rowIndex | int | Index of the row after which to insert a new one |
 
+### Returns
+void
+
 
 ---
 

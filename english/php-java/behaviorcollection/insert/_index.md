@@ -17,7 +17,10 @@ url: /php-java/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | Behavior | Behavior to insert. |
+| item | [Behavior](../../behavior) | Behavior to insert. |
+
+### Returns
+void
 
 
 ---
@@ -33,7 +36,10 @@ url: /php-java/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | Behavior | Behavior to insert. |
+| item | [ColorEffect](../../coloreffect) | Behavior to insert. |
+
+### Returns
+void
 
 
 ---
@@ -49,7 +55,10 @@ url: /php-java/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | Behavior | Behavior to insert. |
+| item | [CommandEffect](../../commandeffect) | Behavior to insert. |
+
+### Returns
+void
 
 
 ---
@@ -65,7 +74,10 @@ url: /php-java/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | Behavior | Behavior to insert. |
+| item | [FilterEffect](../../filtereffect) | Behavior to insert. |
+
+### Returns
+void
 
 
 ---
@@ -81,7 +93,10 @@ url: /php-java/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | Behavior | Behavior to insert. |
+| item | [MotionEffect](../../motioneffect) | Behavior to insert. |
+
+### Returns
+void
 
 
 ---
@@ -97,7 +112,10 @@ url: /php-java/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | Behavior | Behavior to insert. |
+| item | [PropertyEffect](../../propertyeffect) | Behavior to insert. |
+
+### Returns
+void
 
 
 ---
@@ -113,7 +131,10 @@ url: /php-java/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | Behavior | Behavior to insert. |
+| item | [RotationEffect](../../rotationeffect) | Behavior to insert. |
+
+### Returns
+void
 
 
 ---
@@ -129,7 +150,10 @@ url: /php-java/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | Behavior | Behavior to insert. |
+| item | [ScaleEffect](../../scaleeffect) | Behavior to insert. |
+
+### Returns
+void
 
 
 ---
@@ -145,7 +169,10 @@ url: /php-java/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | Behavior | Behavior to insert. |
+| item | [SetEffect](../../seteffect) | Behavior to insert. |
+
+### Returns
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/reflection/setrotateshadowwithshape/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -13,7 +13,7 @@ url: /php-java/commentcollection/toarray/
  
 
 ### Returns
-Array of Comment.
+[Comment](../../comment), [ModernComment](../../moderncomment)
 
 
 ---
@@ -32,7 +32,7 @@ Array of Comment.
 | count | int | A number of comments to return. |
 
 ### Returns
-Array of Comment.
+[Comment](../../comment), [ModernComment](../../moderncomment)
 
 
 ---

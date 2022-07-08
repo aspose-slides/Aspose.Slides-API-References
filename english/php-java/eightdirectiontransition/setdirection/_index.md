@@ -14,7 +14,7 @@ url: /php-java/eightdirectiontransition/setdirection/
  
 
 ### Returns
-TransitionEightDirectionType
+void
 
 
 ---

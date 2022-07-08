@@ -14,7 +14,7 @@ url: /php-java/motioneffect/setpatheditmode/
  
 
 ### Returns
-MotionPathEditMode
+void
 
 
 ---

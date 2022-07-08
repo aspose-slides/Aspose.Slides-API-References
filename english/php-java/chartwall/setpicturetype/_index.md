@@ -14,7 +14,7 @@ url: /php-java/chartwall/setpicturetype/
  
 
 ### Returns
-PictureType
+void
 
 
 ---

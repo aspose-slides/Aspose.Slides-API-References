@@ -13,6 +13,9 @@ url: /php-java/outershadow/setdistance/
  Read/write  double.
  
 
+### Returns
+void
+
 
 ---
 

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getscalex/
  Represents 'ScaleX' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

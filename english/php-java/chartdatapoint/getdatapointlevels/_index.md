@@ -13,6 +13,9 @@ url: /php-java/chartdatapoint/getdatapointlevels/
  Data point levels indexing is zero-based.
  
 
+### Returns
+[ChartDataPointLevelsManager](../../chartdatapointlevelsmanager)
+
 
 ---
 

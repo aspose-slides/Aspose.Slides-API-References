@@ -26,7 +26,7 @@ url: /php-java/chartdata/getrange/
 ```
 
 ### Returns
-Cells data range formula. E.g: "Sheet1!$A$1:$C$4"
+String
 
 ### Exception
 

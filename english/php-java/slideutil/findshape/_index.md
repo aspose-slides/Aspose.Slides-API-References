@@ -16,11 +16,11 @@ url: /php-java/slideutil/findshape/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation | Scanned presentation. |
+| pres | [Presentation](../presentation) | Scanned presentation. |
 | altText | String | Alternative text of a shape. |
 
 ### Returns
-Shape or null.
+[AudioFrame](../../audioframe), [AutoShape](../../autoshape), [Chart](../../chart), [Connector](../../connector), [GeometryShape](../../geometryshape), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [Ink](../../ink), [LegacyDiagram](../../legacydiagram), [OleObjectFrame](../../oleobjectframe), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Shape](../../shape), [SmartArt](../../smartart), [SmartArtShape](../../smartartshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [Table](../../table), [VideoFrame](../../videoframe), [ZoomFrame](../../zoomframe), [ZoomObject](../../zoomobject)
 
 
 ---
@@ -35,11 +35,11 @@ Shape or null.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
-| altText | LayoutSlide | Alternative text of a shape. |
+| slide | [BaseSlide](../baseslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
 
 ### Returns
-Shape or null.
+[AudioFrame](../../audioframe), [AutoShape](../../autoshape), [Chart](../../chart), [Connector](../../connector), [GeometryShape](../../geometryshape), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [Ink](../../ink), [LegacyDiagram](../../legacydiagram), [OleObjectFrame](../../oleobjectframe), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Shape](../../shape), [SmartArt](../../smartart), [SmartArtShape](../../smartartshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [Table](../../table), [VideoFrame](../../videoframe), [ZoomFrame](../../zoomframe), [ZoomObject](../../zoomobject)
 
 
 ---
@@ -54,11 +54,11 @@ Shape or null.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
-| altText | LayoutSlide | Alternative text of a shape. |
+| slide | [LayoutSlide](../layoutslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
 
 ### Returns
-Shape or null.
+[AudioFrame](../../audioframe), [AutoShape](../../autoshape), [Chart](../../chart), [Connector](../../connector), [GeometryShape](../../geometryshape), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [Ink](../../ink), [LegacyDiagram](../../legacydiagram), [OleObjectFrame](../../oleobjectframe), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Shape](../../shape), [SmartArt](../../smartart), [SmartArtShape](../../smartartshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [Table](../../table), [VideoFrame](../../videoframe), [ZoomFrame](../../zoomframe), [ZoomObject](../../zoomobject)
 
 
 ---
@@ -73,11 +73,11 @@ Shape or null.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
-| altText | LayoutSlide | Alternative text of a shape. |
+| slide | [MasterHandoutSlide](../masterhandoutslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
 
 ### Returns
-Shape or null.
+[AudioFrame](../../audioframe), [AutoShape](../../autoshape), [Chart](../../chart), [Connector](../../connector), [GeometryShape](../../geometryshape), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [Ink](../../ink), [LegacyDiagram](../../legacydiagram), [OleObjectFrame](../../oleobjectframe), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Shape](../../shape), [SmartArt](../../smartart), [SmartArtShape](../../smartartshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [Table](../../table), [VideoFrame](../../videoframe), [ZoomFrame](../../zoomframe), [ZoomObject](../../zoomobject)
 
 
 ---
@@ -92,11 +92,11 @@ Shape or null.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
-| altText | LayoutSlide | Alternative text of a shape. |
+| slide | [MasterNotesSlide](../masternotesslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
 
 ### Returns
-Shape or null.
+[AudioFrame](../../audioframe), [AutoShape](../../autoshape), [Chart](../../chart), [Connector](../../connector), [GeometryShape](../../geometryshape), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [Ink](../../ink), [LegacyDiagram](../../legacydiagram), [OleObjectFrame](../../oleobjectframe), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Shape](../../shape), [SmartArt](../../smartart), [SmartArtShape](../../smartartshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [Table](../../table), [VideoFrame](../../videoframe), [ZoomFrame](../../zoomframe), [ZoomObject](../../zoomobject)
 
 
 ---
@@ -111,11 +111,11 @@ Shape or null.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
-| altText | LayoutSlide | Alternative text of a shape. |
+| slide | [MasterSlide](../masterslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
 
 ### Returns
-Shape or null.
+[AudioFrame](../../audioframe), [AutoShape](../../autoshape), [Chart](../../chart), [Connector](../../connector), [GeometryShape](../../geometryshape), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [Ink](../../ink), [LegacyDiagram](../../legacydiagram), [OleObjectFrame](../../oleobjectframe), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Shape](../../shape), [SmartArt](../../smartart), [SmartArtShape](../../smartartshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [Table](../../table), [VideoFrame](../../videoframe), [ZoomFrame](../../zoomframe), [ZoomObject](../../zoomobject)
 
 
 ---
@@ -130,11 +130,11 @@ Shape or null.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
-| altText | LayoutSlide | Alternative text of a shape. |
+| slide | [NotesSlide](../notesslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
 
 ### Returns
-Shape or null.
+[AudioFrame](../../audioframe), [AutoShape](../../autoshape), [Chart](../../chart), [Connector](../../connector), [GeometryShape](../../geometryshape), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [Ink](../../ink), [LegacyDiagram](../../legacydiagram), [OleObjectFrame](../../oleobjectframe), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Shape](../../shape), [SmartArt](../../smartart), [SmartArtShape](../../smartartshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [Table](../../table), [VideoFrame](../../videoframe), [ZoomFrame](../../zoomframe), [ZoomObject](../../zoomobject)
 
 
 ---
@@ -149,11 +149,11 @@ Shape or null.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
-| altText | LayoutSlide | Alternative text of a shape. |
+| slide | [Slide](../slide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
 
 ### Returns
-Shape or null.
+[AudioFrame](../../audioframe), [AutoShape](../../autoshape), [Chart](../../chart), [Connector](../../connector), [GeometryShape](../../geometryshape), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [Ink](../../ink), [LegacyDiagram](../../legacydiagram), [OleObjectFrame](../../oleobjectframe), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Shape](../../shape), [SmartArt](../../smartart), [SmartArtShape](../../smartartshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [Table](../../table), [VideoFrame](../../videoframe), [ZoomFrame](../../zoomframe), [ZoomObject](../../zoomobject)
 
 
 ---

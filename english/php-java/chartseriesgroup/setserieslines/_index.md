@@ -14,7 +14,7 @@ url: /php-java/chartseriesgroup/setserieslines/
  
 
 ### Returns
-boolean
+void
 
 
 ---

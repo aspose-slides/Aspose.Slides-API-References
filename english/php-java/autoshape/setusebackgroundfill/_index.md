@@ -14,7 +14,7 @@ url: /php-java/autoshape/setusebackgroundfill/
  
 
 ### Returns
-boolean
+void
 
 
 ---

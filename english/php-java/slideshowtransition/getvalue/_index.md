@@ -14,7 +14,7 @@ url: /php-java/slideshowtransition/getvalue/
  
 
 ### Returns
-ITransitionValueBase
+[CornerDirectionTransition](../../cornerdirectiontransition), [EightDirectionTransition](../../eightdirectiontransition), [EmptyTransition](../../emptytransition), [FlyThroughTransition](../../flythroughtransition), [GlitterTransition](../../glittertransition), [InOutTransition](../../inouttransition), [LeftRightDirectionTransition](../../leftrightdirectiontransition), [MorphTransition](../../morphtransition), [OptionalBlackTransition](../../optionalblacktransition), [OrientationTransition](../../orientationtransition), [RevealTransition](../../revealtransition), [RippleTransition](../../rippletransition), [ShredTransition](../../shredtransition), [SideDirectionTransition](../../sidedirectiontransition), [SplitTransition](../../splittransition), [TransitionValueBase](../../transitionvaluebase), [WheelTransition](../../wheeltransition)
 
 
 ---

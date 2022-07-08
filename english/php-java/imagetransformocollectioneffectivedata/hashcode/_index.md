@@ -13,7 +13,7 @@ url: /php-java/imagetransformocollectioneffectivedata/hashcode/
  
 
 ### Returns
-A hash code for the current object.
+int
 
 
 ---

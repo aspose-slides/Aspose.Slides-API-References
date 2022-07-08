@@ -12,6 +12,9 @@ url: /php-java/portioncollection/get_item/
  Gets the element at the specified index.
  
 
+### Returns
+[MathPortion](../../mathportion), [Portion](../../portion)
+
 
 ---
 

@@ -17,7 +17,7 @@ url: /php-java/presentation/getlayoutslides/
  
 
 ### Returns
-IGlobalLayoutSlideCollection
+[GlobalLayoutSlideCollection](../../globallayoutslidecollection)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/fontscheme/setname/
  
 
 ### Returns
-String
+void
 
 
 ---

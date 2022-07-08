@@ -13,7 +13,7 @@ url: /php-java/gifoptions/getframesize/
  If the size is empty then the value will be taken from ( IPresentation#getSlideSize)
 
 ### Returns
-IPresentation#getSlideSize
+Dimension
 
 
 ---

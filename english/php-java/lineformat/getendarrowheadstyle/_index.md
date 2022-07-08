@@ -14,7 +14,7 @@ url: /php-java/lineformat/getendarrowheadstyle/
  
 
 ### Returns
-LineArrowheadStyle
+byte
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/charttitle/sety/
  
 
 ### Returns
-float
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/portionformat/gethyperlinkclick/
  
 
 ### Returns
-IHyperlink
+[Hyperlink](../../hyperlink)
 
 
 ---

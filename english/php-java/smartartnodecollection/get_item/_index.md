@@ -19,7 +19,7 @@ url: /php-java/smartartnodecollection/get_item/
 | index | int | The zero-based index of the element |
 
 ### Returns
-The SmartArt node
+[SmartArtNode](../../smartartnode)
 
 
 ---

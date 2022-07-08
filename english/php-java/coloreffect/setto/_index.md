@@ -14,7 +14,7 @@ url: /php-java/coloreffect/setto/
  
 
 ### Returns
-IColorFormat
+void
 
 
 ---

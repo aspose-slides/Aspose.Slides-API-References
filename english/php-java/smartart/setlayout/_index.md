@@ -14,7 +14,7 @@ url: /php-java/smartart/setlayout/
  
 
 ### Returns
-SmartArtLayoutType
+void
 
 
 ---

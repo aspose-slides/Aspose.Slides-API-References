@@ -14,7 +14,7 @@ url: /php-java/effectformat/setsoftedgeeffect/
  
 
 ### Returns
-ISoftEdge
+void
 
 
 ---

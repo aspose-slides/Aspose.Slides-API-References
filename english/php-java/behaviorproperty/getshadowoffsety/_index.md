@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getshadowoffsety/
  Represents 'shadow.offset.y' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

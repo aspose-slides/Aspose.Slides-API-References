@@ -20,7 +20,7 @@ url: /php-java/shape/getframe/
  
 
 ### Returns
-IShapeFrame
+[ShapeFrame](../../shapeframe)
 
 
 ---

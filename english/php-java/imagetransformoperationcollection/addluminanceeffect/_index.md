@@ -20,7 +20,7 @@ url: /php-java/imagetransformoperationcollection/addluminanceeffect/
 | contrast | float | The percent to change the contrast. |
 
 ### Returns
-Index of the new image effect in a collection.
+[Luminance](../../luminance)
 
 
 ---

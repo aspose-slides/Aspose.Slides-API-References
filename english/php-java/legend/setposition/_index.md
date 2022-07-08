@@ -15,7 +15,7 @@ url: /php-java/legend/setposition/
  
 
 ### Returns
-LegendPositionType
+void
 
 
 ---

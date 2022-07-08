@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setcontentstatus/
  
 
 ### Returns
-String
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/comment/setposition/
  
 
 ### Returns
-java.awt.geom.Point2D.Float
+void
 
 
 ---

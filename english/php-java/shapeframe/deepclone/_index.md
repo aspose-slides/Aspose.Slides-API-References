@@ -13,7 +13,7 @@ url: /php-java/shapeframe/deepclone/
  
 
 ### Returns
-Cloned shape frame.
+Object
 
 
 ---

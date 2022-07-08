@@ -14,7 +14,7 @@ url: /php-java/axis/setticklabelrotationangle/
  
 
 ### Returns
-float
+void
 
 
 ---

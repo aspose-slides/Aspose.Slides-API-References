@@ -14,7 +14,7 @@ url: /php-java/datatable/setborderoutline/
  
 
 ### Returns
-boolean
+void
 
 
 ---

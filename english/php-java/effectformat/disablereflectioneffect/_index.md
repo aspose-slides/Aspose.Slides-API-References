@@ -12,6 +12,9 @@ url: /php-java/effectformat/disablereflectioneffect/
  Disables reflection effect.
  
 
+### Returns
+void
+
 
 ---
 

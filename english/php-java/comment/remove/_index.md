@@ -12,6 +12,9 @@ url: /php-java/comment/remove/
  Removes comment and all its replies from the parent collection.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

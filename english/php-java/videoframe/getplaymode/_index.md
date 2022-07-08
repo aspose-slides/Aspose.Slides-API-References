@@ -14,7 +14,7 @@ url: /php-java/videoframe/getplaymode/
  
 
 ### Returns
-VideoPlayModePreset
+int
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/swfoptions/setshowtoppane/
  Show/hide whole top pane. Can be overridden in flashvars. Default is true. 
  
 
+### Returns
+void
+
 
 ---
 

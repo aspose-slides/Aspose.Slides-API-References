@@ -16,7 +16,7 @@ url: /php-java/chartdatapointcollection/getdatasourcetypeforbubblesizes/
  
 
 ### Returns
-DataSourceType
+int
 
 
 ---

@@ -27,10 +27,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The block of a mathematical text. |
-| index | MathBlock | The zero-based index of the item to get |
+| index | [MathBlock](../../mathblock) | The zero-based index of the item to get |
 
 ### Returns
-IMathBlock
+void
 
 
 ---

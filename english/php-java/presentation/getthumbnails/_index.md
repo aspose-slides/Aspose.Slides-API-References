@@ -16,10 +16,10 @@ url: /php-java/presentation/getthumbnails/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -34,11 +34,11 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | slides | int[] | Array with slide positions, starting from 1. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -53,12 +53,12 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -73,13 +73,13 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -94,11 +94,11 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | imageSize | Dimension | Size of the image to create. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -113,12 +113,12 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | imageSize | Dimension | Size of the image to create. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -133,10 +133,10 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Tiff options. |
+| options | [RenderingOptions](../../renderingoptions) | Tiff options. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -151,11 +151,11 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Tiff options. |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
 | slides | int[] | Array with slide positions, starting from 1. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -170,12 +170,12 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Tiff options. |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -190,13 +190,13 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Tiff options. |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -211,11 +211,11 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Tiff options. |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
 | imageSize | Dimension | Size of the image to create. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---
@@ -230,12 +230,12 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Tiff options. |
+| options | [RenderingOptions](../renderingoptions) | Tiff options. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | imageSize | Dimension | Size of the image to create. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 
 ---

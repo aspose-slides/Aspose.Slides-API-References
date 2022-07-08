@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getskewon/
  Represents 'skew.on' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

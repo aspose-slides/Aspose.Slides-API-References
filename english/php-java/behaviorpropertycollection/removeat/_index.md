@@ -18,6 +18,9 @@ url: /php-java/behaviorpropertycollection/removeat/
 | --- | --- | --- |
 | index | int | Index of the property which should be deleted. |
 
+### Returns
+void
+
 
 ---
 

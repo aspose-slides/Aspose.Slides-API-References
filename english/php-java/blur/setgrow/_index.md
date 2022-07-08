@@ -15,7 +15,7 @@ url: /php-java/blur/setgrow/
  
 
 ### Returns
-boolean
+void
 
 
 ---

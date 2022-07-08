@@ -14,7 +14,7 @@ url: /php-java/linefillformat/getpatternformat/
  
 
 ### Returns
-IPatternFormat
+[PatternFormat](../../patternformat)
 
 
 ---

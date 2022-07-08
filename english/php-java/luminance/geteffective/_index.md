@@ -13,7 +13,7 @@ url: /php-java/luminance/geteffective/
  
 
 ### Returns
-A ILuminanceEffectiveData.
+
 
 
 ---

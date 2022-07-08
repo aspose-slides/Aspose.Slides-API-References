@@ -14,7 +14,7 @@ url: /php-java/audioframe/setembeddedaudio/
  
 
 ### Returns
-IAudio
+void
 
 
 ---

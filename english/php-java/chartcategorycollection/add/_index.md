@@ -17,10 +17,10 @@ url: /php-java/chartcategorycollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| chartDataCell | ChartDataCell | Cell used to create chart category. |
+| chartDataCell | [ChartDataCell](../../chartdatacell) | Cell used to create chart category. |
 
 ### Returns
-IChartDataCell
+[ChartCategory](../../chartcategory)
 
 
 ---
@@ -38,7 +38,7 @@ IChartDataCell
 | value | Object | The value. This method adds worksheet with name AUTO_DATA and adds all values there. If you use ChartDataWorkbook to add or edit cell values, be sure that you do not use this worksheet Maximum number of values added using this method must not exceed 16711680 |
 
 ### Returns
-ChartCategory
+[ChartCategory](../../chartcategory)
 
 ### Exception
 

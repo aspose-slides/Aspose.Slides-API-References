@@ -20,7 +20,7 @@ url: /php-java/shapecollection/insertgroupshape/
 | index | int | The zero-based index at which value should be inserted. |
 
 ### Returns
-Created GroupShape object.
+[GroupShape](../../groupshape)
 
 
 ---

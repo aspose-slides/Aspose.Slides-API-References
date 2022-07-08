@@ -13,6 +13,9 @@ url: /php-java/timing/getdecelerate/
  Read/write  float.
  
 
+### Returns
+float
+
 
 ---
 

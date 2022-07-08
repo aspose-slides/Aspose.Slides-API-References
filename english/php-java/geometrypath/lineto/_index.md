@@ -18,6 +18,9 @@ url: /php-java/geometrypath/lineto/
 | --- | --- | --- |
 | point | Point2D.Float | End point of the line |
 
+### Returns
+void
+
 
 ---
 
@@ -34,6 +37,9 @@ url: /php-java/geometrypath/lineto/
 | x | float | X coordinate of the end point of the line |
 | y | float | Y coordinate of the end point of the line |
 
+### Returns
+void
+
 
 ---
 
@@ -49,6 +55,9 @@ url: /php-java/geometrypath/lineto/
 | --- | --- | --- |
 | point | Point2D.Float | End point |
 | index | long | Index of segment in PathData |
+
+### Returns
+void
 
 ### Exception
 
@@ -72,6 +81,9 @@ url: /php-java/geometrypath/lineto/
 | x | float | X coordinate of the point |
 | y | float | Y coordinate of the point |
 | index | long | Index of segment in PathData |
+
+### Returns
+void
 
 ### Exception
 

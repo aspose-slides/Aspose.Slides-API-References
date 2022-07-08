@@ -10,6 +10,9 @@ url: /php-java/gradientstopeffectivedata/hashcode/
 ## hashCode()  method
 
 
+### Returns
+int
+
 
 ---
 

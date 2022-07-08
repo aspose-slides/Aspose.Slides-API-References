@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstylecolor/
  Represents 'style.color' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

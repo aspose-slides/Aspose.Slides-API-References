@@ -14,7 +14,7 @@ url: /php-java/viewproperties/getslideviewproperties/
  
 
 ### Returns
-ICommonSlideViewProperties
+[CommonSlideViewProperties](../../commonslideviewproperties)
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/htmloptions/setpicturescompression/
  Represents the pictures compression level
  
 
+### Returns
+void
+
 
 ---
 

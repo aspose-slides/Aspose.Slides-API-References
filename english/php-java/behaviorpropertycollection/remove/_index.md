@@ -16,7 +16,10 @@ url: /php-java/behaviorpropertycollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BehaviorProperty | Property to remove. |
+| item | [BehaviorProperty](../../behaviorproperty) | Property to remove. |
+
+### Returns
+boolean
 
 
 ---
@@ -32,6 +35,9 @@ url: /php-java/behaviorpropertycollection/remove/
 | Name | Type | Description |
 | --- | --- | --- |
 | propertyValue | String | Value of the property to remove. |
+
+### Returns
+boolean
 
 
 ---

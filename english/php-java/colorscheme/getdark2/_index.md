@@ -14,7 +14,7 @@ url: /php-java/colorscheme/getdark2/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

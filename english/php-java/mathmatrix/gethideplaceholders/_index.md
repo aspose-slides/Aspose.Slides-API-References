@@ -19,6 +19,9 @@ Example:
   $matrix->setHidePlaceholders(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

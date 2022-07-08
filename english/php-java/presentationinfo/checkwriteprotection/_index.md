@@ -27,7 +27,7 @@ url: /php-java/presentationinfo/checkwriteprotection/
 | password | String | The password to check. 1. You should check the ( #isWriteProtected) property before calling this method. 2. When password is null or empty, this method returns false. |
 
 ### Returns
-True if the presentation is write protected and the password is correct. False otherwise.
+boolean
 
 ### Exception
 

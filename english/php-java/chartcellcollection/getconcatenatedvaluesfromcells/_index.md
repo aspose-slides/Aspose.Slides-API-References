@@ -12,6 +12,9 @@ url: /php-java/chartcellcollection/getconcatenatedvaluesfromcells/
  Concatenation string from all cells string values.
  
 
+### Returns
+String
+
 
 ---
 

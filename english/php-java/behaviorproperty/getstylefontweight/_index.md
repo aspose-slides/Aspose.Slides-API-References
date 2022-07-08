@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstylefontweight/
  Represents 'style.fontWeight' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/htmloptions/setsvgresponsivelayout/
  
 
 ### Returns
-boolean
+void
 
 
 ---

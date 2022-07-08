@@ -14,6 +14,9 @@ url: /php-java/htmloptions/setdeletepicturescroppedareas/
  larger file)
  
 
+### Returns
+void
+
 
 ---
 

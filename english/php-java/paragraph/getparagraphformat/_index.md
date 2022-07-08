@@ -16,7 +16,7 @@ url: /php-java/paragraph/getparagraphformat/
  
 
 ### Returns
-ParagraphFormat#getEffective
+[ParagraphFormat](../../paragraphformat)
 
 
 ---

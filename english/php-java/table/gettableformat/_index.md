@@ -14,7 +14,7 @@ url: /php-java/table/gettableformat/
  
 
 ### Returns
-ITableFormat
+[TableFormat](../../tableformat)
 
 
 ---

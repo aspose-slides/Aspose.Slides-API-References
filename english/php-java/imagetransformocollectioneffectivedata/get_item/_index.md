@@ -19,7 +19,7 @@ url: /php-java/imagetransformocollectioneffectivedata/get_item/
 | index | int | Index of element. |
 
 ### Returns
-The IEffectEffectiveData object.
+
 
 
 ---

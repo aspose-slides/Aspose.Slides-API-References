@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getskewmatrixxtox/
  Represents 'skew.matrix.xtox' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

@@ -15,7 +15,7 @@ url: /php-java/shape/getuniqueid/
  
 
 ### Returns
-#getOfficeInteropShapeId
+long
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/effect/settype/
  
 
 ### Returns
-EffectType
+void
 
 
 ---

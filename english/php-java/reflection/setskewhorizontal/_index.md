@@ -14,7 +14,7 @@ url: /php-java/reflection/setskewhorizontal/
  
 
 ### Returns
-double
+void
 
 
 ---

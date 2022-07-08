@@ -22,6 +22,9 @@ Example:
   $matrix->setMinColumnWidth(20);
 ```
 
+### Returns
+long
+
 
 ---
 

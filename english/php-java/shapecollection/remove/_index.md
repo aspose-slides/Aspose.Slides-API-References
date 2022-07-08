@@ -16,7 +16,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [AudioFrame](../../audioframe) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -31,7 +34,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [AutoShape](../../autoshape) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -46,7 +52,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [Chart](../../chart) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -61,7 +70,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [Connector](../../connector) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -76,7 +88,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [GeometryShape](../../geometryshape) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -91,7 +106,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [GraphicalObject](../../graphicalobject) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -106,7 +124,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [GroupShape](../../groupshape) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -121,7 +142,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [Ink](../../ink) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -136,7 +160,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [LegacyDiagram](../../legacydiagram) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -151,7 +178,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [OleObjectFrame](../../oleobjectframe) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -166,7 +196,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [PictureFrame](../../pictureframe) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -181,7 +214,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [SectionZoomFrame](../../sectionzoomframe) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -196,7 +232,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [Shape](../../shape) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -211,7 +250,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [SmartArt](../../smartart) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -226,7 +268,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [SmartArtShape](../../smartartshape) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -241,7 +286,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [SummaryZoomFrame](../../summaryzoomframe) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -256,7 +304,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -271,7 +322,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [Table](../../table) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -286,7 +340,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [VideoFrame](../../videoframe) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -301,7 +358,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [ZoomFrame](../../zoomframe) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---
@@ -316,7 +376,10 @@ url: /php-java/shapecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to remove from the collection. |
+| shape | [ZoomObject](../../zoomobject) | The shape to remove from the collection. |
+
+### Returns
+void
 
 
 ---

@@ -13,6 +13,9 @@ url: /php-java/ppimage/getheight/
  Read-only  int.
  
 
+### Returns
+int
+
 
 ---
 

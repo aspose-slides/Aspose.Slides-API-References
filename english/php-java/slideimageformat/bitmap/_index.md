@@ -20,7 +20,7 @@ url: /php-java/slideimageformat/bitmap/
 | imgFormat | String | Image format. |
 
 ### Returns
-The SlideImageFormat object.
+SlideImageFormat
 
 
 ---

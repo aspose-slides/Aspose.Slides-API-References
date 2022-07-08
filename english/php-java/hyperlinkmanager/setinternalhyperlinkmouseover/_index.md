@@ -16,10 +16,10 @@ url: /php-java/hyperlinkmanager/setinternalhyperlinkmouseover/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| targetSlide | Slide | Target slide. |
+| targetSlide | [Slide](../../slide) | Target slide. |
 
 ### Returns
-Hyperlink.
+[Hyperlink](../../hyperlink)
 
 
 ---

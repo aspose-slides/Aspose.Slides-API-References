@@ -23,6 +23,9 @@ Example:
   $integral = $baseArg->integral(MathIntegralTypes.Simple, "0", "1");
 ```
 
+### Returns
+void
+
 
 ---
 

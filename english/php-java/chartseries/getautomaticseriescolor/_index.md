@@ -13,7 +13,7 @@ url: /php-java/chartseries/getautomaticseriescolor/
  
 
 ### Returns
-The java.awt.Color object.
+Color
 
 
 ---

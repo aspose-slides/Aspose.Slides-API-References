@@ -14,7 +14,7 @@ url: /php-java/chart/getfloor/
  
 
 ### Returns
-IChartWall
+[ChartWall](../../chartwall)
 
 
 ---

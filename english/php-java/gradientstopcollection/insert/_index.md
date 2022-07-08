@@ -20,6 +20,9 @@ url: /php-java/gradientstopcollection/insert/
 | position | float | Position of the new gradient stop. |
 | color | Color | Color of the new radient stop. |
 
+### Returns
+void
+
 
 ---
 

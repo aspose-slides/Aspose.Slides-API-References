@@ -14,7 +14,7 @@ url: /php-java/smartart/getquickstyle/
  
 
 ### Returns
-SmartArtQuickStyleType
+int
 
 
 ---

@@ -13,7 +13,7 @@ url: /php-java/shapeframe/clonet/
  
 
 ### Returns
-Cloned shape frame.
+[ShapeFrame](../../shapeframe)
 
 
 ---

@@ -29,7 +29,7 @@ url: /php-java/chartdata/getsecondarycategories/
 ```
 
 ### Returns
-#getCategories
+[ChartCategoryCollection](../../chartcategorycollection)
 
 
 ---

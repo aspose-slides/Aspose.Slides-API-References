@@ -14,7 +14,7 @@ url: /php-java/pictureframe/setrelativescaleheight/
  
 
 ### Returns
-float
+void
 
 
 ---

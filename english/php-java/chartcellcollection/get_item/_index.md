@@ -19,7 +19,7 @@ url: /php-java/chartcellcollection/get_item/
 | index | int | Index of a cell. |
 
 ### Returns
-Cell with data.
+[ChartDataCell](../../chartdatacell)
 
 
 ---

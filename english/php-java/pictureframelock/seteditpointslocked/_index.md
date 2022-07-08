@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/seteditpointslocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

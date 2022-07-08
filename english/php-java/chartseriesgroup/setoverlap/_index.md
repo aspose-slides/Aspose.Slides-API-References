@@ -14,7 +14,7 @@ url: /php-java/chartseriesgroup/setoverlap/
  
 
 ### Returns
-byte
+void
 
 
 ---

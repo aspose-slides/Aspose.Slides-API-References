@@ -14,7 +14,7 @@ url: /php-java/effect/gettiming/
  
 
 ### Returns
-ITiming
+[Timing](../../timing)
 
 
 ---

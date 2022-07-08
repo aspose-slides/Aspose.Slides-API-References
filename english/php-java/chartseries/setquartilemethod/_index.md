@@ -12,6 +12,9 @@ url: /php-java/chartseries/setquartilemethod/
  Represents quartile method. Applies only to BoxAndWhisker charts.
  
 
+### Returns
+void
+
 
 ---
 

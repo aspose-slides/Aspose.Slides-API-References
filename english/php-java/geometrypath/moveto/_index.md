@@ -18,6 +18,9 @@ url: /php-java/geometrypath/moveto/
 | --- | --- | --- |
 | point | Point2D.Float | Point position |
 
+### Returns
+void
+
 
 ---
 
@@ -33,6 +36,9 @@ url: /php-java/geometrypath/moveto/
 | --- | --- | --- |
 | x | float | X coordinate of the point |
 | y | float | Y Coordinate of the point |
+
+### Returns
+void
 
 
 ---

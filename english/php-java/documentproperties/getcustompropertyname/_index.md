@@ -19,7 +19,7 @@ url: /php-java/documentproperties/getcustompropertyname/
 | index | int | The zero-based index of a custom property to get. |
 
 ### Returns
-Custom property name at the specified index.
+String
 
 ### Exception
 

@@ -14,7 +14,7 @@ url: /php-java/colorformat/setfloatg/
  
 
 ### Returns
-float
+void
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getfill_color/
  Represents 'fill.color' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

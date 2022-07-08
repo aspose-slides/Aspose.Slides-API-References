@@ -14,7 +14,7 @@ url: /php-java/audioframe/sethideatshowing/
  
 
 ### Returns
-boolean
+void
 
 
 ---

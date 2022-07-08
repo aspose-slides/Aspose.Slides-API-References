@@ -14,7 +14,7 @@ url: /php-java/blur/setradius/
  
 
 ### Returns
-double
+void
 
 
 ---

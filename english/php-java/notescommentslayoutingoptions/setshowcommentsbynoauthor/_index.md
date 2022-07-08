@@ -16,6 +16,9 @@ url: /php-java/notescommentslayoutingoptions/setshowcommentsbynoauthor/
   Default value is false.
  
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/axis/getmajorgridlinesformat/
   
 
 ### Returns
-IChartLinesFormat
+[ChartLinesFormat](../../chartlinesformat)
 
 
 ---

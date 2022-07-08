@@ -14,7 +14,7 @@ url: /php-java/masterslide/gettitlestyle/
  
 
 ### Returns
-ITextStyle
+[TextStyle](../../textstyle)
 
 
 ---

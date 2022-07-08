@@ -12,6 +12,9 @@ url: /php-java/webdocument/save/
   Saves the document output.
   
 
+### Returns
+void
+
 
 ---
 

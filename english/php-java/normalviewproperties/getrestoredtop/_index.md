@@ -15,7 +15,7 @@ url: /php-java/normalviewproperties/getrestoredtop/
  
 
 ### Returns
-INormalViewRestoredProperties
+[NormalViewRestoredProperties](../../normalviewrestoredproperties)
 
 
 ---

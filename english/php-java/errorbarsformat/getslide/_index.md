@@ -14,7 +14,7 @@ url: /php-java/errorbarsformat/getslide/
  
 
 ### Returns
-BaseSlide
+[BaseSlide](../../baseslide), [LayoutSlide](../../layoutslide), [MasterHandoutSlide](../../masterhandoutslide), [MasterNotesSlide](../../masternotesslide), [MasterSlide](../../masterslide), [NotesSlide](../../notesslide), [Slide](../../slide)
 
 
 ---

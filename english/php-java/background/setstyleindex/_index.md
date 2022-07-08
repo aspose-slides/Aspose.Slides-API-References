@@ -16,7 +16,7 @@ url: /php-java/background/setstyleindex/
  
 
 ### Returns
-int
+void
 
 
 ---

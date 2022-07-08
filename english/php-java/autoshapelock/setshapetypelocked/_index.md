@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/setshapetypelocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

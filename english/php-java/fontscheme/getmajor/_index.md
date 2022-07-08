@@ -14,7 +14,7 @@ url: /php-java/fontscheme/getmajor/
  
 
 ### Returns
-IFonts
+[Fonts](../../fonts)
 
 
 ---

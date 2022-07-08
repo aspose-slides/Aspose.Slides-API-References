@@ -16,7 +16,7 @@ url: /php-java/lightrig/setlighttype/
  
 
 ### Returns
-LightRigPresetType
+void
 
 
 ---

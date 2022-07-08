@@ -15,7 +15,7 @@ url: /php-java/chartseriesgroup/setbubblesizescale/
  
 
 ### Returns
-int
+void
 
 
 ---

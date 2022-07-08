@@ -25,7 +25,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [BaseScript](../../basescript) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -49,7 +52,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathAccent](../../mathaccent) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -73,7 +79,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathArray](../../matharray) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -97,7 +106,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathBar](../../mathbar) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -121,7 +133,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathBlock](../../mathblock) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -145,7 +160,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathBorderBox](../../mathborderbox) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -169,7 +187,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathBox](../../mathbox) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -193,7 +214,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathDelimiter](../../mathdelimiter) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -217,7 +241,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathElementBase](../../mathelementbase) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -241,7 +268,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathematicalText](../../mathematicaltext) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -265,7 +295,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathFraction](../../mathfraction) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -289,7 +322,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathFunction](../../mathfunction) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -313,7 +349,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -337,7 +376,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -361,7 +403,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathLimit](../../mathlimit) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -385,7 +430,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathMatrix](../../mathmatrix) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -409,7 +457,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathNaryOperator](../../mathnaryoperator) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -433,7 +484,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathRadical](../../mathradical) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -457,7 +511,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -481,7 +538,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathSubscriptElement](../../mathsubscriptelement) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---
@@ -505,7 +565,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | BaseScript | The MathElement to insert. |
+| item | [MathSuperscriptElement](../../mathsuperscriptelement) | The MathElement to insert. |
+
+### Returns
+void
 
 
 ---

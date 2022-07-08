@@ -19,7 +19,7 @@ url: /php-java/chartseriescollection/add/
 | type | int | Type of series |
 
 ### Returns
-New chart series.
+[ChartSeries](../../chartseries)
 
 
 ---
@@ -34,11 +34,11 @@ New chart series.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cellWithSeriesName | ChartDataCell | Cell which contain series name. |
+| cellWithSeriesName | [ChartDataCell](../chartdatacell) | Cell which contain series name. |
 | type | int | Type set type of series If chart series careted from same cell already in collection then method adds nothing and returns it's index. |
 
 ### Returns
-ChartDataCell
+[ChartSeries](../../chartseries)
 
 
 ---
@@ -53,11 +53,11 @@ ChartDataCell
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cellsWithSeriesName | ChartCellCollection | Cells which contain series name. |
+| cellsWithSeriesName | [ChartCellCollection](../chartcellcollection) | Cells which contain series name. |
 | type | int | Type set type of series If chart series careted from same cell already in collection then method adds nothing and returns it's index. |
 
 ### Returns
-ChartCellCollection
+[ChartSeries](../../chartseries)
 
 
 ---
@@ -76,7 +76,7 @@ ChartCellCollection
 | type | int | Type set type of series |
 
 ### Returns
-Added chart series.
+[ChartSeries](../../chartseries)
 
 
 ---

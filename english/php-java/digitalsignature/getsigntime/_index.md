@@ -28,7 +28,7 @@ url: /php-java/digitalsignature/getsigntime/
 ```
 
 ### Returns
-java.util.Date
+Date
 
 
 ---

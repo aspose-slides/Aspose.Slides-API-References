@@ -18,6 +18,9 @@ url: /php-java/sequence/removeat/
 | --- | --- | --- |
 | index | int | Index of a effect that should be deleted. |
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/legend/setx/
  
 
 ### Returns
-float
+void
 
 
 ---

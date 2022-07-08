@@ -20,7 +20,7 @@ url: /php-java/gradientstopcollection/addschemecolor/
 | schemeColor | int | Color of the new radient stop. |
 
 ### Returns
-Index of the new gradient stop in the collection.
+[GradientStop](../../gradientstop)
 
 
 ---

@@ -20,6 +20,9 @@ Example:
   $mathParagraph->setJustification(MathJustification.LeftJustified);
 ```
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/textframe/gethyperlinkqueries/
  
 
 ### Returns
-IHyperlinkQueries
+[HyperlinkQueries](../../hyperlinkqueries)
 
 
 ---

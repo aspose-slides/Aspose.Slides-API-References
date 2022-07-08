@@ -17,7 +17,7 @@ url: /php-java/trendline/gettextframeforoverriding/
  
 
 ### Returns
-ITextFrame
+[TextFrame](../../textframe)
 
 
 ---

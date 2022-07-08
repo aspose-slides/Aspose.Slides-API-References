@@ -14,7 +14,7 @@ url: /php-java/formatscheme/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

@@ -15,7 +15,7 @@ url: /php-java/axis/settickmarksspacing/
  
 
 ### Returns
-int
+void
 
 
 ---

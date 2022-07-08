@@ -25,7 +25,10 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which an item should be inserted. |
-| mathBlock | MathBlock | The IMathBlock to insert. |
+| mathBlock | [MathBlock](../../mathblock) | The IMathBlock to insert. |
+
+### Returns
+void
 
 
 ---

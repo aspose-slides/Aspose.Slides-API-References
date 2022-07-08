@@ -12,6 +12,9 @@ url: /php-java/behaviorcollection/clear/
  Removes all behaviors from a collection.
  
 
+### Returns
+void
+
 
 ---
 

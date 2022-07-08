@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstyletexteffectoutline/
  Represents 'style.textEffectOutline' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

@@ -21,7 +21,7 @@ url: /php-java/masterlayoutslidecollection/insert/
 | layoutName | String | Name for a new layout. If passed name is already in use the ArgumentException will be thrown. If null parameter is passed then name genarated atomatically in regards to passed layout type (for example "Title Slide" or "1_Title Slide", "2_..", etc.). Inserted layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. |
 
 ### Returns
-Inserted slide.
+[LayoutSlide](../../layoutslide)
 
 ### Exception
 

@@ -14,7 +14,7 @@ url: /php-java/chartseries/settype/
  
 
 ### Returns
-ChartType
+void
 
 
 ---

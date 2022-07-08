@@ -14,7 +14,7 @@ url: /php-java/trendlinecollection/get_item/
  
 
 ### Returns
-Trendline
+[Trendline](../../trendline)
 
 
 ---

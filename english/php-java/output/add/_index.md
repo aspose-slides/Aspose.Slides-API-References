@@ -21,7 +21,7 @@ url: /php-java/output/add/
 | contextObject | TContextObject | Context object. |
 
 ### Returns
-IOutputFile object for the context object.
+[OutputFile](../../outputfile)
 
 
 ---
@@ -37,10 +37,10 @@ IOutputFile object for the context object.
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
-| image | PPImage | Image to output. |
+| image | [PPImage](../../ppimage) | Image to output. |
 
 ### Returns
-IOutputFile object for the image.
+[OutputFile](../../outputfile)
 
 
 ---
@@ -59,7 +59,7 @@ IOutputFile object for the image.
 | image | BufferedImage | Image to output. |
 
 ### Returns
-IOutputFile object for the image.
+[OutputFile](../../outputfile)
 
 
 ---
@@ -75,10 +75,10 @@ IOutputFile object for the image.
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
-| video | Video | Video to output. |
+| video | [Video](../../video) | Video to output. |
 
 ### Returns
-IOutputFile object for the video.
+[OutputFile](../../outputfile)
 
 
 ---
@@ -94,11 +94,11 @@ IOutputFile object for the video.
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
-| fontData | FontData | Font to output. |
+| fontData | [FontData](../fontdata) | Font to output. |
 | fontStyle | int | Font style. |
 
 ### Returns
-IOutputFile object for the font.
+[OutputFile](../../outputfile)
 
 
 ---
@@ -117,7 +117,7 @@ IOutputFile object for the font.
 | textContent | String | Content to output. |
 
 ### Returns
-IOutputFile object for the text content.
+[OutputFile](../../outputfile)
 
 
 ---

@@ -18,7 +18,7 @@ url: /php-java/chartdatacell/setpresetnumberformat/
 ```
 
 ### Returns
-byte
+void
 
 
 ---

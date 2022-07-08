@@ -10,6 +10,9 @@ url: /php-java/behaviorpropertycollection/removeitem/
 ## removeItem([BehaviorProperty](../../behaviorproperty) item)  method
 
 
+### Returns
+boolean
+
 
 ---
 

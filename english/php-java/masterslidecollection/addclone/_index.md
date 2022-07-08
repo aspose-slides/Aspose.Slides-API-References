@@ -17,10 +17,10 @@ url: /php-java/masterslidecollection/addclone/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceMaster | MasterSlide | Slide to clone. |
+| sourceMaster | [MasterSlide](../../masterslide) | Slide to clone. |
 
 ### Returns
-Added slide.
+[MasterSlide](../../masterslide)
 
 
 ---

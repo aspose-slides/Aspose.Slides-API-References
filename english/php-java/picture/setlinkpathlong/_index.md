@@ -14,7 +14,7 @@ url: /php-java/picture/setlinkpathlong/
  
 
 ### Returns
-String
+void
 
 
 ---

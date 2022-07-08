@@ -14,7 +14,7 @@ url: /php-java/scaleeffect/getby/
  
 
 ### Returns
-java.awt.geom.Point2D.Float
+Point2D.Float
 
 
 ---

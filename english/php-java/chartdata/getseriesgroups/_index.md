@@ -26,7 +26,7 @@ url: /php-java/chartdata/getseriesgroups/
  
 
 ### Returns
-IChartSeriesGroupCollection
+
 
 
 ---

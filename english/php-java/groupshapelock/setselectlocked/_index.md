@@ -14,7 +14,7 @@ url: /php-java/groupshapelock/setselectlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

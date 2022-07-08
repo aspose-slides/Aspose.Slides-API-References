@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokeimagesizex/
  Represents 'stroke.imagesize.x' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

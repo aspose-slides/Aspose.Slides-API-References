@@ -14,7 +14,7 @@ url: /php-java/trendline/getchart/
  
 
 ### Returns
-IChart
+[Chart](../../chart)
 
 
 ---

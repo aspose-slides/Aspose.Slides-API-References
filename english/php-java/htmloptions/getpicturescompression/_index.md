@@ -12,6 +12,9 @@ url: /php-java/htmloptions/getpicturescompression/
  Represents the pictures compression level
  
 
+### Returns
+int
+
 
 ---
 

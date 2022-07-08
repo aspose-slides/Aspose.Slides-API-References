@@ -16,10 +16,10 @@ url: /php-java/lineformat/equals/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| lineFormat | LineFormat | The LineFormat to compare with the current LineFormat. |
+| lineFormat | [LineFormat](../../lineformat) | The LineFormat to compare with the current LineFormat. |
 
 ### Returns
-true if the specified LineFormat is equal to the current LineFormat; otherwise, false.
+boolean
 
 
 ---

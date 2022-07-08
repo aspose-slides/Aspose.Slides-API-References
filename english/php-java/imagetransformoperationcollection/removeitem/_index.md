@@ -16,10 +16,10 @@ url: /php-java/imagetransformoperationcollection/removeitem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [AlphaBiLevel](../../alphabilevel) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -40,10 +40,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [AlphaCeiling](../../alphaceiling) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -64,10 +64,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [AlphaFloor](../../alphafloor) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -88,10 +88,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [AlphaInverse](../../alphainverse) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -112,10 +112,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [AlphaModulate](../../alphamodulate) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -136,10 +136,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -160,10 +160,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [AlphaReplace](../../alphareplace) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -184,10 +184,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [BiLevel](../../bilevel) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -208,10 +208,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [Blur](../../blur) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -232,10 +232,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [ColorChange](../../colorchange) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -256,10 +256,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [ColorReplace](../../colorreplace) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -280,10 +280,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [Duotone](../../duotone) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -304,10 +304,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [FillOverlay](../../filloverlay) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -328,10 +328,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [Glow](../../glow) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -352,10 +352,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [GrayScale](../../grayscale) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -376,10 +376,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [HSL](../../hsl) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -400,10 +400,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [ImageTransformOperation](../../imagetransformoperation) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -424,10 +424,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [InnerShadow](../../innershadow) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -448,10 +448,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [Luminance](../../luminance) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -472,10 +472,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [OuterShadow](../../outershadow) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -496,10 +496,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [PresetShadow](../../presetshadow) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -520,10 +520,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [Reflection](../../reflection) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -544,10 +544,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [SoftEdge](../../softedge) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -568,10 +568,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to remove from the IGenericCollection. |
+| item | [Tint](../../tint) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 

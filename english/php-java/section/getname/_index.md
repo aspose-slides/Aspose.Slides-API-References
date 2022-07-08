@@ -12,6 +12,9 @@ url: /php-java/section/getname/
  Name of the section.
  
 
+### Returns
+String
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/loadoptions/getresourceloadingcallback/
  
 
 ### Returns
-IResourceLoadingCallback
+
 
 
 ---

@@ -10,6 +10,9 @@ url: /php-java/axisformat/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

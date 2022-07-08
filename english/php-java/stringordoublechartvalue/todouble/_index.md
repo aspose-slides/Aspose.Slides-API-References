@@ -13,7 +13,7 @@ url: /php-java/stringordoublechartvalue/todouble/
  
 
 ### Returns
-Double value.
+double
 
 
 ---

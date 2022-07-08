@@ -14,7 +14,7 @@ url: /php-java/shape/setblackwhitemode/
  
 
 ### Returns
-BlackWhiteMode
+void
 
 
 ---

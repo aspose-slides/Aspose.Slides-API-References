@@ -14,7 +14,7 @@ url: /php-java/webdocumentoptions/setanimateshapes/
  
 
 ### Returns
-boolean
+void
 
 
 ---

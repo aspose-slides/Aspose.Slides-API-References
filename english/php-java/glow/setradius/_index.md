@@ -13,6 +13,9 @@ url: /php-java/glow/setradius/
  Read/write  double.
  
 
+### Returns
+void
+
 
 ---
 

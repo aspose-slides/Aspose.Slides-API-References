@@ -13,6 +13,9 @@ url: /php-java/smartartnode/setassistant/
  Read/write boolean.
  
 
+### Returns
+void
+
 
 ---
 

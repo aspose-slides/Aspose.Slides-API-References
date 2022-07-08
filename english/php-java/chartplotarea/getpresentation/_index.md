@@ -14,7 +14,7 @@ url: /php-java/chartplotarea/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

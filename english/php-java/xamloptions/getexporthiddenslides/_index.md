@@ -26,6 +26,9 @@ url: /php-java/xamloptions/getexporthiddenslides/
   }
 ```
 
+### Returns
+boolean
+
 
 ---
 

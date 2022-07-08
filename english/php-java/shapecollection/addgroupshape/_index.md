@@ -14,7 +14,7 @@ url: /php-java/shapecollection/addgroupshape/
  
 
 ### Returns
-Created GroupShape object.
+[GroupShape](../../groupshape)
 
 
 ---
@@ -29,14 +29,14 @@ Created GroupShape object.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| svgImage | SvgImage | Svg image object ISvgImage |
+| svgImage | [SvgImage](../svgimage) | Svg image object ISvgImage |
 | x | float | The X coordinate for the left side of the shape group frame. |
 | y | float | The Y coordinate for the top side of the shape group frame. |
 | width | float | The width of the group of the shape group frame. |
 | height | float | The height of a group of the shape group frame. |
 
 ### Returns
-Created GroupShape object.
+[GroupShape](../../groupshape)
 
 
 ---

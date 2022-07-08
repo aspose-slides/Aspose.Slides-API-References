@@ -13,7 +13,7 @@ url: /php-java/colorreplace/geteffective/
  
 
 ### Returns
-A IColorReplaceEffectiveData.
+
 
 
 ---

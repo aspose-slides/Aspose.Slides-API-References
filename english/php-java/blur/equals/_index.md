@@ -19,7 +19,7 @@ url: /php-java/blur/equals/
 | obj | Object | The Blur to compare. |
 
 ### Returns
-Blur
+boolean
 
 
 ---

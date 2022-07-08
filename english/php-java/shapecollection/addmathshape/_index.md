@@ -22,7 +22,7 @@ url: /php-java/shapecollection/addmathshape/
 | height | float | The height of shape's frame. |
 
 ### Returns
-Created AutoShape object.
+[AutoShape](../../autoshape)
 
 
 ---

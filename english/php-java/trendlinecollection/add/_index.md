@@ -12,6 +12,9 @@ url: /php-java/trendlinecollection/add/
  Adds the new Trendline at the end of a collection and return it.
  
 
+### Returns
+[Trendline](../../trendline)
+
 
 ---
 

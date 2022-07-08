@@ -13,7 +13,7 @@ url: /php-java/section/getslideslistofsection/
  
 
 ### Returns
-List of slides.
+[SectionSlideCollection](../../sectionslidecollection)
 
 
 ---

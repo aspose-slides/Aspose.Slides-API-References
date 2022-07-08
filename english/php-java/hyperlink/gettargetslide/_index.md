@@ -14,7 +14,7 @@ url: /php-java/hyperlink/gettargetslide/
  
 
 ### Returns
-ISlide
+[Slide](../../slide)
 
 
 ---

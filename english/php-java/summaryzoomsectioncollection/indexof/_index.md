@@ -31,10 +31,10 @@ The example demonstrates getting Summary Zoom Section element by index:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| summaryZoomSection | SummaryZoomSection | SummaryZoomSection object to find ISummaryZoomSection. |
+| summaryZoomSection | [SummaryZoomSection](../../summaryzoomsection) | SummaryZoomSection object to find ISummaryZoomSection. |
 
 ### Returns
-Index of a SummaryZoomSection object or -1 if SummaryZoomSection object not from this collection.
+int
 
 
 ---

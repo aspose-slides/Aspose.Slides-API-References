@@ -30,10 +30,10 @@ The example demonstrates getting Summary Zoom Section element by index:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| section | Section | Section for a new Summary Zoom Section element ISection If an element for this section already exists in the collection, the existing element is returned. |
+| section | [Section](../../section) | Section for a new Summary Zoom Section element ISection If an element for this section already exists in the collection, the existing element is returned. |
 
 ### Returns
-Added ISummaryZoomFrame element
+[SummaryZoomSection](../../summaryzoomsection)
 
 ### Exception
 

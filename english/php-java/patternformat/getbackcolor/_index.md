@@ -14,7 +14,7 @@ url: /php-java/patternformat/getbackcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

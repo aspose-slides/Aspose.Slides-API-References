@@ -14,6 +14,9 @@ url: /php-java/stringchartvalue/getcellsaddressinworkbook/
  empty string.
  
 
+### Returns
+String
+
 
 ---
 

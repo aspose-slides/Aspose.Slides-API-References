@@ -13,6 +13,9 @@ url: /php-java/hyperlinkqueries/gethyperlinkclicks/
  With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface.
  
 
+### Returns
+IGenericList
+
 
 ---
 

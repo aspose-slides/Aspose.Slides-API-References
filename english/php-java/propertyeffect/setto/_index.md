@@ -14,7 +14,7 @@ url: /php-java/propertyeffect/setto/
  
 
 ### Returns
-String
+void
 
 
 ---

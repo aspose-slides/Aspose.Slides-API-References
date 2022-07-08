@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getfillmethod/
  Represents 'fill.method' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

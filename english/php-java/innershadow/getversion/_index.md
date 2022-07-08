@@ -10,6 +10,9 @@ url: /php-java/innershadow/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

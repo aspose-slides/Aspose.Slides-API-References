@@ -16,7 +16,10 @@ url: /php-java/overridetheme/initcolorschemefrom/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| colorScheme | ColorScheme | Data to initialize from. |
+| colorScheme | [ColorScheme](../../colorscheme) | Data to initialize from. |
+
+### Returns
+void
 
 ### Exception
 

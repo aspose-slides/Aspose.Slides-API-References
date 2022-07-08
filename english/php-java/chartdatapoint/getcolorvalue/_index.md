@@ -15,7 +15,7 @@ url: /php-java/chartdatapoint/getcolorvalue/
  
 
 ### Returns
-IDoubleChartValue
+[DoubleChartValue](../../doublechartvalue)
 
 
 ---

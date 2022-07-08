@@ -12,6 +12,9 @@ url: /php-java/section/getsectionid/
  Section Id.
  
 
+### Returns
+UUID
+
 
 ---
 

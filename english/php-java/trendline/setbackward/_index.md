@@ -16,7 +16,7 @@ url: /php-java/trendline/setbackward/
   
 
 ### Returns
-double
+void
 
 
 ---

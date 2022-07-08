@@ -19,7 +19,7 @@ url: /php-java/imagetransformoperationcollection/get_item/
 | index | int | Index of element. |
 
 ### Returns
-ImageTransformOperation
+[AlphaBiLevel](../../alphabilevel), [AlphaCeiling](../../alphaceiling), [AlphaFloor](../../alphafloor), [AlphaInverse](../../alphainverse), [AlphaModulate](../../alphamodulate), [AlphaModulateFixed](../../alphamodulatefixed), [AlphaReplace](../../alphareplace), [BiLevel](../../bilevel), [Blur](../../blur), [ColorChange](../../colorchange), [ColorReplace](../../colorreplace), [Duotone](../../duotone), [FillOverlay](../../filloverlay), [Glow](../../glow), [GrayScale](../../grayscale), [HSL](../../hsl), [ImageTransformOperation](../../imagetransformoperation), [InnerShadow](../../innershadow), [Luminance](../../luminance), [OuterShadow](../../outershadow), [PresetShadow](../../presetshadow), [Reflection](../../reflection), [SoftEdge](../../softedge), [Tint](../../tint)
 
 
 ---

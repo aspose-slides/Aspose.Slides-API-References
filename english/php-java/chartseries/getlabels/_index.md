@@ -14,7 +14,7 @@ url: /php-java/chartseries/getlabels/
  
 
 ### Returns
-IDataLabelCollection
+[DataLabelCollection](../../datalabelcollection)
 
 
 ---

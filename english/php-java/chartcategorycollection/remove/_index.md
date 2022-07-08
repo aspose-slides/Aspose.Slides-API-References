@@ -16,7 +16,10 @@ url: /php-java/chartcategorycollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartCategory | The value. |
+| value | [ChartCategory](../../chartcategory) | The value. |
+
+### Returns
+void
 
 ### Exception
 

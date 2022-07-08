@@ -14,7 +14,7 @@ url: /php-java/presentation/getsourceformat/
  
 
 ### Returns
-SourceFormat
+int
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/shapebevel/setwidth/
  
 
 ### Returns
-double
+void
 
 
 ---

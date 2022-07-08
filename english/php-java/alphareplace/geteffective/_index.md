@@ -13,7 +13,7 @@ url: /php-java/alphareplace/geteffective/
  
 
 ### Returns
-A IAlphaReplaceEffectiveData.
+
 
 
 ---

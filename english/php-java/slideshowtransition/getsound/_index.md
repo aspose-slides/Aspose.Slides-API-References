@@ -14,7 +14,7 @@ url: /php-java/slideshowtransition/getsound/
  
 
 ### Returns
-IAudio
+[Audio](../../audio)
 
 
 ---

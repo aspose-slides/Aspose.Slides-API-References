@@ -14,7 +14,7 @@ url: /php-java/commandeffect/setshapetarget/
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -27,7 +27,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -40,7 +40,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -53,7 +53,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -66,7 +66,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -79,7 +79,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -92,7 +92,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -105,7 +105,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -118,7 +118,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -131,7 +131,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -144,7 +144,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -157,7 +157,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -170,7 +170,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -183,7 +183,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -196,7 +196,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -209,7 +209,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -222,7 +222,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -235,7 +235,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -248,7 +248,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -261,7 +261,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -274,7 +274,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---

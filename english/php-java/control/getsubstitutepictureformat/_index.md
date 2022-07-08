@@ -14,7 +14,7 @@ url: /php-java/control/getsubstitutepictureformat/
  
 
 ### Returns
-IPictureFillFormat
+[PictureFillFormat](../../picturefillformat)
 
 
 ---

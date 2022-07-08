@@ -14,7 +14,7 @@ url: /php-java/effect/getsequence/
  
 
 ### Returns
-ISequence
+[Sequence](../../sequence)
 
 
 ---

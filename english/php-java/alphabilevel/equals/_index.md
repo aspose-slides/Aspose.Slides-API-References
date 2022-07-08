@@ -19,7 +19,7 @@ url: /php-java/alphabilevel/equals/
 | obj | Object | The AlphaBiLevel to compare. |
 
 ### Returns
-AlphaBiLevel
+boolean
 
 
 ---

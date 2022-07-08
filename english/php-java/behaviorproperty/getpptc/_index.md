@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getpptc/
  Represents 'ppt_c' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

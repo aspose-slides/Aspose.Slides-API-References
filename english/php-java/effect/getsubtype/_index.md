@@ -14,7 +14,7 @@ url: /php-java/effect/getsubtype/
  
 
 ### Returns
-EffectSubtype
+int
 
 
 ---

@@ -16,7 +16,7 @@ url: /php-java/video/getbinarydata/
  
 
 ### Returns
-byte[]
+byte
 
 
 ---

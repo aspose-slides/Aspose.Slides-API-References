@@ -14,7 +14,7 @@ url: /php-java/coloroffset/setvalue1/
  
 
 ### Returns
-float
+void
 
 
 ---

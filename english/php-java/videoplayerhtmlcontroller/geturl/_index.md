@@ -10,6 +10,9 @@ url: /php-java/videoplayerhtmlcontroller/geturl/
 ## getUrl(int id, int referrer)  method
 
 
+### Returns
+String
+
 
 ---
 

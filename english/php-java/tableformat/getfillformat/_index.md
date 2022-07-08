@@ -14,7 +14,7 @@ url: /php-java/tableformat/getfillformat/
  
 
 ### Returns
-IFillFormat
+[FillFormat](../../fillformat)
 
 
 ---

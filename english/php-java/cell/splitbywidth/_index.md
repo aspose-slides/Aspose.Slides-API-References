@@ -18,6 +18,9 @@ url: /php-java/cell/splitbywidth/
 | --- | --- | --- |
 | width | double | Width of a column. |
 
+### Returns
+void
+
 
 ---
 

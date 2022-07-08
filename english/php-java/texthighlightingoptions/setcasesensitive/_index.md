@@ -14,7 +14,7 @@ url: /php-java/texthighlightingoptions/setcasesensitive/
  
 
 ### Returns
-boolean
+void
 
 
 ---

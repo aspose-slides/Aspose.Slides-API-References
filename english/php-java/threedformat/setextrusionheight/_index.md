@@ -14,7 +14,7 @@ url: /php-java/threedformat/setextrusionheight/
  
 
 ### Returns
-double
+void
 
 
 ---

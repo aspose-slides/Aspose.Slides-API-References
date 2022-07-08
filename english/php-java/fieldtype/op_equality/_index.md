@@ -16,11 +16,11 @@ url: /php-java/fieldtype/op_equality/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| a | FieldType | First FieldType to compare. |
-| b | FieldType | Second FieldType to compare. |
+| a | [FieldType](../fieldtype) | First FieldType to compare. |
+| b | [FieldType](../../fieldtype) | Second FieldType to compare. |
 
 ### Returns
-True if FieldType objects are equal.
+boolean
 
 
 ---

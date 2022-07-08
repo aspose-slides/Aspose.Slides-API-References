@@ -15,7 +15,7 @@ url: /php-java/chartcategory/getascell/
  
 
 ### Returns
-IChartDataCell
+[ChartDataCell](../../chartdatacell)
 
 
 ---

@@ -17,7 +17,7 @@ url: /php-java/svgoptions/setdisablelineendcropping/
  
 
 ### Returns
-boolean
+void
 
 
 ---

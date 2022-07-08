@@ -14,7 +14,7 @@ url: /php-java/axis/setdisplayunit/
  
 
 ### Returns
-DisplayUnitType
+void
 
 
 ---

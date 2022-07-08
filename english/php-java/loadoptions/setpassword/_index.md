@@ -15,7 +15,7 @@ url: /php-java/loadoptions/setpassword/
  The password.
 
 ### Returns
-String
+void
 
 
 ---

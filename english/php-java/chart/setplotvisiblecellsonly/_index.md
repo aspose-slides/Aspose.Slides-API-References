@@ -14,7 +14,7 @@ url: /php-java/chart/setplotvisiblecellsonly/
  
 
 ### Returns
-boolean
+void
 
 
 ---

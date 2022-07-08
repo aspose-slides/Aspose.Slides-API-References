@@ -14,7 +14,7 @@ url: /php-java/row/setminimalheight/
  
 
 ### Returns
-double
+void
 
 
 ---

@@ -13,7 +13,7 @@ url: /php-java/slidecollection/toarray/
  
 
 ### Returns
-Array of Slide
+[Slide](../../slide)
 
 
 ---
@@ -32,7 +32,7 @@ Array of Slide
 | count | int | A number of slides to add. |
 
 ### Returns
-Array of Slide
+[Slide](../../slide)
 
 
 ---

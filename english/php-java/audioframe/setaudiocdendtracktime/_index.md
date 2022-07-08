@@ -14,7 +14,7 @@ url: /php-java/audioframe/setaudiocdendtracktime/
  
 
 ### Returns
-int
+void
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/presentation/getfirstslidenumber/
  Represents the first slide number in the presentation
  
 
+### Returns
+int
+
 
 ---
 

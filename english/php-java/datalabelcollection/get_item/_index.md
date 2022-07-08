@@ -15,6 +15,9 @@ url: /php-java/datalabelcollection/get_item/
  - series.getDataPoints().get_Item(i).getLabel() - manage label properties.
  
 
+### Returns
+[DataLabel](../../datalabel)
+
 
 ---
 

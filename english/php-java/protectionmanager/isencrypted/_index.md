@@ -16,7 +16,7 @@ url: /php-java/protectionmanager/isencrypted/
  method was called ; otherwise, false.
 
 ### Returns
-#encrypt(String)
+boolean
 
 
 ---

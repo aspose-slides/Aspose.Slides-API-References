@@ -16,10 +16,10 @@ url: /php-java/behaviorcollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the List. |
+| item | [Behavior](../../behavior) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -34,10 +34,10 @@ List
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the List. |
+| item | [ColorEffect](../../coloreffect) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -52,10 +52,10 @@ List
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the List. |
+| item | [CommandEffect](../../commandeffect) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -70,10 +70,10 @@ List
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the List. |
+| item | [FilterEffect](../../filtereffect) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -88,10 +88,10 @@ List
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the List. |
+| item | [MotionEffect](../../motioneffect) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -106,10 +106,10 @@ List
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the List. |
+| item | [PropertyEffect](../../propertyeffect) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -124,10 +124,10 @@ List
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the List. |
+| item | [RotationEffect](../../rotationeffect) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -142,10 +142,10 @@ List
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the List. |
+| item | [ScaleEffect](../../scaleeffect) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---
@@ -160,10 +160,10 @@ List
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | The object to locate in the List. |
+| item | [SetEffect](../../seteffect) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---

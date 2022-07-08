@@ -14,7 +14,7 @@ url: /php-java/masterslide/getbodystyle/
  
 
 ### Returns
-ITextStyle
+[TextStyle](../../textstyle)
 
 
 ---

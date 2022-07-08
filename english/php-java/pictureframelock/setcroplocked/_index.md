@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/setcroplocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

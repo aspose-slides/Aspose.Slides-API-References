@@ -20,6 +20,9 @@ Example:
   $matrix->setRowGapRule(MathSpacingRules.OneAndHalfSpacingGap);
 ```
 
+### Returns
+int
+
 
 ---
 

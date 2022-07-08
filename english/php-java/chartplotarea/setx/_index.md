@@ -14,7 +14,7 @@ url: /php-java/chartplotarea/setx/
  
 
 ### Returns
-float
+void
 
 
 ---

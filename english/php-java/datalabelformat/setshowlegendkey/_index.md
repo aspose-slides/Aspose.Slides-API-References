@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setshowlegendkey/
  
 
 ### Returns
-boolean
+void
 
 
 ---

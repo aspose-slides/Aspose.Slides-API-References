@@ -23,6 +23,9 @@ Example:
   $box->setExplicitBreak(1);
 ```
 
+### Returns
+void
+
 
 ---
 

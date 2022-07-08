@@ -15,7 +15,7 @@ url: /php-java/texttohtmlconversionoptions/setencodingname/
  
 
 ### Returns
-String
+void
 
 
 ---

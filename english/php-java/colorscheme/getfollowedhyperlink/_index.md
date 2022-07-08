@@ -14,7 +14,7 @@ url: /php-java/colorscheme/getfollowedhyperlink/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

@@ -20,7 +20,7 @@ url: /php-java/htmlexternalresolver/resolveuri/
 | relativeUri | String | Relative URI to the linked object. |
 
 ### Returns
-Absolute URI or null if the relative URI cannot be resolved.
+String
 
 
 ---

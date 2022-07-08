@@ -14,7 +14,7 @@ url: /php-java/presentation/getallcustomxmlparts/
  
 
 ### Returns
-ICustomXmlPart[]
+[CustomXmlPart](../../customxmlpart)
 
 
 ---

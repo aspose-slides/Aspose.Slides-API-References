@@ -14,7 +14,7 @@ url: /php-java/control/setframe/
  
 
 ### Returns
-IShapeFrame
+void
 
 
 ---

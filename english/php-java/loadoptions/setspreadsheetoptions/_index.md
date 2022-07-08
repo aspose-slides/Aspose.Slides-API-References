@@ -12,6 +12,9 @@ url: /php-java/loadoptions/setspreadsheetoptions/
  Gets options for spreadsheets. For example, these options affect calculating formulas for charts.
   
 
+### Returns
+void
+
 
 ---
 

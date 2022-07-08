@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getimagedatagrayscale/
  Represents 'imageData.grayscale' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

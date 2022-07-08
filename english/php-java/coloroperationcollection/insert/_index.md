@@ -21,7 +21,7 @@ url: /php-java/coloroperationcollection/insert/
 | parameter | float | Operation's parameter. |
 
 ### Returns
-Inserted operation.
+[ColorOperation](../../coloroperation)
 
 
 ---
@@ -40,7 +40,7 @@ Inserted operation.
 | operation | int | Operation type. |
 
 ### Returns
-Inserted operation.
+[ColorOperation](../../coloroperation)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/axis/setmajorunitscale/
   
 
 ### Returns
-TimeUnitType
+void
 
 
 ---

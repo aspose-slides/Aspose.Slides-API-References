@@ -12,6 +12,9 @@ url: /php-java/axis/getactualminorunitscale/
   Specifies actual minor unit scale of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. 
   
 
+### Returns
+int
+
 
 ---
 

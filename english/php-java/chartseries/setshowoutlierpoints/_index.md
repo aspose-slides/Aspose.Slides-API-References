@@ -14,7 +14,7 @@ url: /php-java/chartseries/setshowoutlierpoints/
  
 
 ### Returns
-boolean
+void
 
 
 ---

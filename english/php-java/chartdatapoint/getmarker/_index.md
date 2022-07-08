@@ -14,7 +14,7 @@ url: /php-java/chartdatapoint/getmarker/
  
 
 ### Returns
-IMarker
+[Marker](../../marker)
 
 
 ---

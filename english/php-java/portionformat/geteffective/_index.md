@@ -30,7 +30,7 @@ url: /php-java/portionformat/geteffective/
 ```
 
 ### Returns
-A IPortionFormatEffectiveData.
+
 
 
 ---

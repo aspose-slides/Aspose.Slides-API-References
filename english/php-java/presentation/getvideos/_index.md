@@ -14,7 +14,7 @@ url: /php-java/presentation/getvideos/
  
 
 ### Returns
-IVideoCollection
+[VideoCollection](../../videocollection)
 
 
 ---

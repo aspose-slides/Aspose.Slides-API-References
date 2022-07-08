@@ -28,7 +28,7 @@ the example demonstrates removing the background of an image of a Zoom object:
 ```
 
 ### Returns
-boolean
+void
 
 
 ---

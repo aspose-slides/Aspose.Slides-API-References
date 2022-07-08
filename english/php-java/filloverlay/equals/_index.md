@@ -19,7 +19,7 @@ url: /php-java/filloverlay/equals/
 | obj | Object | The FillOverlay to compare. |
 
 ### Returns
-FillOverlay
+boolean
 
 
 ---

@@ -16,7 +16,7 @@ url: /php-java/picturefillformat/setstretchoffsetleft/
  
 
 ### Returns
-float
+void
 
 
 ---

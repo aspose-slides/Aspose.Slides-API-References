@@ -32,7 +32,7 @@ url: /php-java/columnformat/geteffective/
 ```
 
 ### Returns
-A IColumnFormatEffectiveData.
+
 
 
 ---

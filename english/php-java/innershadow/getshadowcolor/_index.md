@@ -14,7 +14,7 @@ url: /php-java/innershadow/getshadowcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

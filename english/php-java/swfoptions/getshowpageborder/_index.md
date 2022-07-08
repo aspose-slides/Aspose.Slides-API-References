@@ -12,6 +12,9 @@ url: /php-java/swfoptions/getshowpageborder/
  Specifies whether border around pages should be shown. Default is true. 
  
 
+### Returns
+boolean
+
 
 ---
 

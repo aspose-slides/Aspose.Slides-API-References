@@ -14,7 +14,7 @@ url: /php-java/htmlgenerator/getslideimagesize/
  
 
 ### Returns
-java.awt.geom.Dimension2D
+Dimension2D
 
 
 ---

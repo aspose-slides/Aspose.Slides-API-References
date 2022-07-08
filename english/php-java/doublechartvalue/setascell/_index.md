@@ -14,7 +14,7 @@ url: /php-java/doublechartvalue/setascell/
  
 
 ### Returns
-IChartDataCell
+void
 
 
 ---

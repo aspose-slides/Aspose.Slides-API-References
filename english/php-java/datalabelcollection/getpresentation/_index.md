@@ -14,7 +14,7 @@ url: /php-java/datalabelcollection/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

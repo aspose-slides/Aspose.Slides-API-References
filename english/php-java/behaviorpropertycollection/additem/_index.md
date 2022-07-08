@@ -10,6 +10,9 @@ url: /php-java/behaviorpropertycollection/additem/
 ## addItem([BehaviorProperty](../../behaviorproperty) item)  method
 
 
+### Returns
+void
+
 
 ---
 

@@ -18,6 +18,9 @@ url: /php-java/sequencecollection/removeat/
 | --- | --- | --- |
 | index | int | Index of a sequence that should be deleted. |
 
+### Returns
+void
+
 
 ---
 

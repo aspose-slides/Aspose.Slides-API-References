@@ -12,6 +12,9 @@ url: /php-java/colorformat/copyfrom/
  Copy color format from "color".
  
 
+### Returns
+void
+
 
 ---
 

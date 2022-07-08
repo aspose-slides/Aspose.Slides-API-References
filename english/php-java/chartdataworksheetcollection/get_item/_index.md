@@ -19,7 +19,7 @@ url: /php-java/chartdataworksheetcollection/get_item/
 | index | int | Index of the worksheet in the collection. |
 
 ### Returns
-Instance of the IChartDataWorksheet.
+[ChartDataWorksheet](../../chartdataworksheet)
 
 
 ---

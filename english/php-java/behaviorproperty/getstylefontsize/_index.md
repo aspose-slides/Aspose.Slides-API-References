@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstylefontsize/
  Represents 'style.fontSize' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

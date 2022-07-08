@@ -14,7 +14,7 @@ url: /php-java/htmloptions/gethtmlformatter/
  
 
 ### Returns
-IHtmlFormatter
+[HtmlFormatter](../../htmlformatter)
 
 
 ---

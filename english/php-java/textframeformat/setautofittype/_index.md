@@ -14,7 +14,7 @@ url: /php-java/textframeformat/setautofittype/
  
 
 ### Returns
-TextAutofitType
+void
 
 
 ---

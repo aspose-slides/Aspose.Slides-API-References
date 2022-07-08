@@ -22,7 +22,7 @@ url: /php-java/datalabelformat/setseparator/
  
 
 ### Returns
-String
+void
 
 
 ---

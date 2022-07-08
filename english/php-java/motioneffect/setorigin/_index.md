@@ -15,7 +15,7 @@ url: /php-java/motioneffect/setorigin/
  
 
 ### Returns
-MotionOriginType
+void
 
 
 ---

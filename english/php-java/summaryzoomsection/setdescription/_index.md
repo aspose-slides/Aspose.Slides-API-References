@@ -18,6 +18,9 @@ Example:
   $zoomSection->setDescription("Description");
 ```
 
+### Returns
+void
+
 
 ---
 

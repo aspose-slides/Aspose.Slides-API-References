@@ -19,7 +19,7 @@ url: /php-java/tagcollection/contains/
 | name | String | The key to locate. |
 
 ### Returns
-True if the collection contains an tag with the specified key; otherwise, false.
+boolean
 
 
 ---

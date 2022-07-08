@@ -14,7 +14,7 @@ url: /php-java/htmlgenerator/getslideimagesizeunit/
  
 
 ### Returns
-SvgCoordinateUnit
+int
 
 
 ---

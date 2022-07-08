@@ -14,6 +14,9 @@ url: /php-java/portion/getcoordinates/
  includes top side bearing.
  
 
+### Returns
+Point2D.Float
+
 
 ---
 

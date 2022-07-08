@@ -14,7 +14,7 @@ url: /php-java/videoframe/getembeddedvideo/
  
 
 ### Returns
-IVideo
+[Video](../../video)
 
 
 ---

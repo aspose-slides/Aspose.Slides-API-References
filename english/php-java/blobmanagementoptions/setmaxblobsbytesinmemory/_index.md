@@ -16,7 +16,7 @@ url: /php-java/blobmanagementoptions/setmaxblobsbytesinmemory/
  
 
 ### Returns
-#setTemporaryFilesAllowed(boolean)
+void
 
 
 ---

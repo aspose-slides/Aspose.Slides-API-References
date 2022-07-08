@@ -14,7 +14,7 @@ url: /php-java/axis/settitle/
  
 
 ### Returns
-boolean
+void
 
 
 ---

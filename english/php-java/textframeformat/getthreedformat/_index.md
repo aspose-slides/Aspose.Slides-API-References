@@ -46,7 +46,7 @@ url: /php-java/textframeformat/getthreedformat/
 ```
 
 ### Returns
-IThreeDFormat
+[ThreeDFormat](../../threedformat)
 
 
 ---

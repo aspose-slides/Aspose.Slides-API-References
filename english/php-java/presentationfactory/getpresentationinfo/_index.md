@@ -19,7 +19,7 @@ url: /php-java/presentationfactory/getpresentationinfo/
 | file | String | Presentation file. |
 
 ### Returns
-Presentation info binded to presentation.
+[PresentationInfo](../../presentationinfo)
 
 
 ---
@@ -38,7 +38,7 @@ Presentation info binded to presentation.
 | stream | InputStream | Presentation stream. |
 
 ### Returns
-Presentation info binded to presentation.
+[PresentationInfo](../../presentationinfo)
 
 
 ---

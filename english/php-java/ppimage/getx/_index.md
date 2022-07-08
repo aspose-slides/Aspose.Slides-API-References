@@ -13,6 +13,9 @@ url: /php-java/ppimage/getx/
  Read-only  int.
  
 
+### Returns
+int
+
 
 ---
 

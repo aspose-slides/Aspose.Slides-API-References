@@ -14,7 +14,7 @@ url: /php-java/orientationtransition/setdirection/
  
 
 ### Returns
-Orientation
+void
 
 
 ---

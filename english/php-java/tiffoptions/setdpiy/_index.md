@@ -14,7 +14,7 @@ url: /php-java/tiffoptions/setdpiy/
  
 
 ### Returns
-long
+void
 
 
 ---

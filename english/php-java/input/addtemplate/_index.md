@@ -19,6 +19,9 @@ url: /php-java/input/addtemplate/
 | key | String | Key for the template in the collection. |
 | path | String | Path to the template file. |
 
+### Returns
+void
+
 
 ---
 

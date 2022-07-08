@@ -16,10 +16,10 @@ url: /php-java/shapecollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [AudioFrame](../../audioframe) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -34,10 +34,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [AutoShape](../../autoshape) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -52,10 +52,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [Chart](../../chart) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -70,10 +70,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [Connector](../../connector) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -88,10 +88,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [GeometryShape](../../geometryshape) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -106,10 +106,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [GraphicalObject](../../graphicalobject) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -124,10 +124,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [GroupShape](../../groupshape) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -142,10 +142,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [Ink](../../ink) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -160,10 +160,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [LegacyDiagram](../../legacydiagram) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -178,10 +178,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [OleObjectFrame](../../oleobjectframe) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -196,10 +196,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [PictureFrame](../../pictureframe) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -214,10 +214,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [SectionZoomFrame](../../sectionzoomframe) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -232,10 +232,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [Shape](../../shape) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -250,10 +250,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [SmartArt](../../smartart) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -268,10 +268,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [SmartArtShape](../../smartartshape) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -286,10 +286,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [SummaryZoomFrame](../../summaryzoomframe) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -304,10 +304,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -322,10 +322,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [Table](../../table) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -340,10 +340,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [VideoFrame](../../videoframe) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -358,10 +358,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [ZoomFrame](../../zoomframe) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---
@@ -376,10 +376,10 @@ The zero-based index of the first occurrence of shape within the collection, if 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | The shape to locate in the collection. |
+| shape | [ZoomObject](../../zoomobject) | The shape to locate in the collection. |
 
 ### Returns
-The zero-based index of the first occurrence of shape within the collection, if found; otherwise, -1.
+int
 
 
 ---

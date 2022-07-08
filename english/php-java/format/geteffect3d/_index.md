@@ -14,7 +14,7 @@ url: /php-java/format/geteffect3d/
  
 
 ### Returns
-IThreeDFormat
+[ThreeDFormat](../../threedformat)
 
 
 ---

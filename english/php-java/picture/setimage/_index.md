@@ -14,7 +14,7 @@ url: /php-java/picture/setimage/
  
 
 ### Returns
-IPPImage
+void
 
 
 ---

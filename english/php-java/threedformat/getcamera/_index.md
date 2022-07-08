@@ -14,7 +14,7 @@ url: /php-java/threedformat/getcamera/
  
 
 ### Returns
-ICamera
+[Camera](../../camera)
 
 
 ---

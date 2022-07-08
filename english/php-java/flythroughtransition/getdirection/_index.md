@@ -14,7 +14,7 @@ url: /php-java/flythroughtransition/getdirection/
  
 
 ### Returns
-TransitionInOutDirectionType
+int
 
 
 ---

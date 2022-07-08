@@ -19,6 +19,9 @@ url: /php-java/svgshape/seteventhandler/
 | eventType | int | Type of event. |
 | handler | String | Javascript function to handle event. Null value removes handler. |
 
+### Returns
+void
+
 
 ---
 

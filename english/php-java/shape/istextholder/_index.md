@@ -13,6 +13,9 @@ url: /php-java/shape/istextholder/
  Read-only  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

@@ -37,7 +37,7 @@ url: /php-java/shapecollection/insertsummaryzoomframe/
 | height | float | Height of a new Section Zoom frame {@code float}. This method creates a new Summary Zoom and puts a collection of objects into it for all the sections in this presentation. |
 
 ### Returns
-Created Summary Zoom object ISummaryZoomFrame.
+[SummaryZoomFrame](../../summaryzoomframe)
 
 ### Exception
 

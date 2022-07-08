@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setnameofapplication/
  
 
 ### Returns
-String
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/picture/getimagetransform/
  
 
 ### Returns
-IImageTransformOperationCollection
+[ImageTransformOperationCollection](../../imagetransformoperationcollection)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/shapestyle/getfontcollectionindex/
  
 
 ### Returns
-FontCollectionIndex
+byte
 
 
 ---

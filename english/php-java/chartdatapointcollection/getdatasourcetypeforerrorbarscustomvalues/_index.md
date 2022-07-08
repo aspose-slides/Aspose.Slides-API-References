@@ -14,7 +14,7 @@ url: /php-java/chartdatapointcollection/getdatasourcetypeforerrorbarscustomvalue
  
 
 ### Returns
-IDataSourceTypeForErrorBarsCustomValues
+[DataSourceTypeForErrorBarsCustomValues](../../datasourcetypeforerrorbarscustomvalues)
 
 
 ---

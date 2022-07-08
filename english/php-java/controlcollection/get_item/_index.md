@@ -18,6 +18,9 @@ url: /php-java/controlcollection/get_item/
 | --- | --- | --- |
 | index | int | Index of a control. |
 
+### Returns
+[Control](../../control)
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/motioncmdpath/setpoints/
  
 
 ### Returns
-java.awt.geom.Point2D.Float[]
+void
 
 
 ---

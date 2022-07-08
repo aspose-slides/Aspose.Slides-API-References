@@ -15,7 +15,7 @@ url: /php-java/colorformat/getcolor/
  
 
 ### Returns
-java.awt.Color
+Color
 
 
 ---

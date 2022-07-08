@@ -13,6 +13,9 @@ url: /php-java/pdfoptions/getimagetransparentcolor/
  Value: 
  The color of the image transparent.
 
+### Returns
+Color
+
 
 ---
 

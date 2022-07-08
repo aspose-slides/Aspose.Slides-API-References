@@ -12,6 +12,9 @@ url: /php-java/chartdata/getdatasourcetype/
  Represents external workbook path if external data source, null otherwise
  
 
+### Returns
+int
+
 
 ---
 

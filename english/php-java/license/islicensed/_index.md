@@ -10,6 +10,9 @@ url: /php-java/license/islicensed/
 ## isLicensed()  method
 
 
+### Returns
+boolean
+
 
 ---
 

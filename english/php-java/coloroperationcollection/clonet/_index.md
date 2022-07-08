@@ -13,7 +13,7 @@ url: /php-java/coloroperationcollection/clonet/
  
 
 ### Returns
-Clone
+[ColorOperationCollection](../../coloroperationcollection)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/innershadow/setdistance/
  
 
 ### Returns
-double
+void
 
 
 ---

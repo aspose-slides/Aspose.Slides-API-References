@@ -25,7 +25,7 @@ url: /php-java/convert/topdf/
 | outPath | String | Output path |
 
 ### Returns
-Presentation
+void
 
 
 ---
@@ -49,10 +49,10 @@ Presentation
 | --- | --- | --- |
 | presPath | String | Path of the input presentation |
 | outPath | String | Output path |
-| options | PdfOptions | Output PDF options |
+| options | [PdfOptions](../../pdfoptions) | Output PDF options |
 
 ### Returns
-Presentation
+void
 
 
 ---
@@ -79,11 +79,11 @@ Presentation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation | Input presentation |
+| pres | [Presentation](../presentation) | Input presentation |
 | outPath | String | Output path |
 
 ### Returns
-Presentation
+void
 
 
 ---
@@ -112,12 +112,12 @@ Presentation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation | Input presentation |
+| pres | [Presentation](../presentation) | Input presentation |
 | outPath | String | Output path |
-| options | PdfOptions | Output PDF options |
+| options | [PdfOptions](../../pdfoptions) | Output PDF options |
 
 ### Returns
-Presentation
+void
 
 
 ---

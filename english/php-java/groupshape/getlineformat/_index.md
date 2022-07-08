@@ -15,7 +15,7 @@ url: /php-java/groupshape/getlineformat/
  
 
 ### Returns
-ILineFormat
+[LineFormat](../../lineformat)
 
 
 ---

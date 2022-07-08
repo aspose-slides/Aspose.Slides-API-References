@@ -15,7 +15,7 @@ url: /php-java/slideshowtransition/setsoundloop/
  
 
 ### Returns
-boolean
+void
 
 
 ---

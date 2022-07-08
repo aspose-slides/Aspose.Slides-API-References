@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/sethangingpunctuation/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

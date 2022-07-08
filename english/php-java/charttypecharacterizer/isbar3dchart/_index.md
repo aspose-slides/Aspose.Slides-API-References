@@ -12,6 +12,9 @@ url: /php-java/charttypecharacterizer/isbar3dchart/
  Return true if chartType is one of bar3DChart subtypes (3D columns or bars).
  
 
+### Returns
+boolean
+
 
 ---
 

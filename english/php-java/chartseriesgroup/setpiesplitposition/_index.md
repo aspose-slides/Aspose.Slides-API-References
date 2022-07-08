@@ -16,7 +16,7 @@ url: /php-java/chartseriesgroup/setpiesplitposition/
  
 
 ### Returns
-double
+void
 
 
 ---

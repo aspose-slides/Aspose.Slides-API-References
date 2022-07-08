@@ -18,6 +18,9 @@ Example:
   $naryOperator->setHideSuperscript(true);
 ```
 
+### Returns
+void
+
 
 ---
 

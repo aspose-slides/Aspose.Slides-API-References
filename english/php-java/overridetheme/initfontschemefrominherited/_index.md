@@ -12,6 +12,9 @@ url: /php-java/overridetheme/initfontschemefrominherited/
  Init FontScheme with new object for overriding FontScheme of InheritedTheme. And initialize data of this new object with data of the FontScheme of InheritedTheme.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

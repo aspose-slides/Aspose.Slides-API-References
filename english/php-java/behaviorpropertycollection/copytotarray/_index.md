@@ -10,6 +10,9 @@ url: /php-java/behaviorpropertycollection/copytotarray/
 ## copyToTArray(com.aspose.slides.IBehaviorProperty[] array, int arrayIndex)  method
 
 
+### Returns
+void
+
 
 ---
 

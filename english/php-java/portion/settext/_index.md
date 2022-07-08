@@ -15,7 +15,7 @@ url: /php-java/portion/settext/
  The text.
 
 ### Returns
-String
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/notesslidemanager/getnotesslide/
  
 
 ### Returns
-INotesSlide
+[NotesSlide](../../notesslide)
 
 
 ---

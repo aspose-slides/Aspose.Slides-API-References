@@ -14,7 +14,7 @@ url: /php-java/timing/setrestart/
  
 
 ### Returns
-EffectRestartType
+void
 
 
 ---

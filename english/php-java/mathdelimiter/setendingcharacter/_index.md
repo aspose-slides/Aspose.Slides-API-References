@@ -20,6 +20,9 @@ Example:
   $delimiter->setEndingCharacter(']');
 ```
 
+### Returns
+void
+
 
 ---
 

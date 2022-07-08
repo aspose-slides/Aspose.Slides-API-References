@@ -15,7 +15,7 @@ url: /php-java/slide/setslidenumber/
  
 
 ### Returns
-int
+void
 
 
 ---

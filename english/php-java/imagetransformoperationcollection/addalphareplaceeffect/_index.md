@@ -19,7 +19,7 @@ url: /php-java/imagetransformoperationcollection/addalphareplaceeffect/
 | alpha | float | The new opacity value. |
 
 ### Returns
-Index of the new image effect in a collection.
+[AlphaReplace](../../alphareplace)
 
 
 ---

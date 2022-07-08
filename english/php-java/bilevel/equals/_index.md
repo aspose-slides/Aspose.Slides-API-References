@@ -19,7 +19,7 @@ url: /php-java/bilevel/equals/
 | obj | Object | The BiLevel to compare. |
 
 ### Returns
-BiLevel
+boolean
 
 
 ---

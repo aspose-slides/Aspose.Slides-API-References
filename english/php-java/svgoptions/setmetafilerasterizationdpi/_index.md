@@ -14,7 +14,7 @@ url: /php-java/svgoptions/setmetafilerasterizationdpi/
  
 
 ### Returns
-int
+void
 
 
 ---

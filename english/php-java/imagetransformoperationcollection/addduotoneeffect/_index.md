@@ -13,7 +13,7 @@ url: /php-java/imagetransformoperationcollection/addduotoneeffect/
  
 
 ### Returns
-Index of the new image effect in a collection.
+[Duotone](../../duotone)
 
 
 ---

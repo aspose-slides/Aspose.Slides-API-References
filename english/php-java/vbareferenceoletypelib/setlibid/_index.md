@@ -14,7 +14,7 @@ url: /php-java/vbareferenceoletypelib/setlibid/
  
 
 ### Returns
-String
+void
 
 
 ---

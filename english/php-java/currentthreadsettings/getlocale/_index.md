@@ -11,7 +11,7 @@ url: /php-java/currentthreadsettings/getlocale/
 Returns default Locale for current thread.
 
 ### Returns
-Current Locale
+Locale
 
 
 ---

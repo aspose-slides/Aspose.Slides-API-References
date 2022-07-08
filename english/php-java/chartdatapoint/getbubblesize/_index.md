@@ -14,7 +14,7 @@ url: /php-java/chartdatapoint/getbubblesize/
  
 
 ### Returns
-IDoubleChartValue
+[DoubleChartValue](../../doublechartvalue)
 
 
 ---

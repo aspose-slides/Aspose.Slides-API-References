@@ -14,7 +14,7 @@ url: /php-java/table/setfirstrow/
  
 
 ### Returns
-boolean
+void
 
 
 ---

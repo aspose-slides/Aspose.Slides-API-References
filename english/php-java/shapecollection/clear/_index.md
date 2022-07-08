@@ -12,6 +12,9 @@ url: /php-java/shapecollection/clear/
  Removes all shapes from the collection.
  
 
+### Returns
+void
+
 
 ---
 

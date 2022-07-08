@@ -16,10 +16,10 @@ url: /php-java/paragraphcollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Paragraph | The object to locate in the List. |
+| item | [Paragraph](../../paragraph) | The object to locate in the List. |
 
 ### Returns
-List
+int
 
 
 ---

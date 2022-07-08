@@ -14,7 +14,7 @@ url: /php-java/filtereffect/setsubtype/
  
 
 ### Returns
-FilterEffectSubtype
+void
 
 
 ---

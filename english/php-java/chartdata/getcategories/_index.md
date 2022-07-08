@@ -29,7 +29,7 @@ url: /php-java/chartdata/getcategories/
 ```
 
 ### Returns
-#getCategories
+[ChartCategoryCollection](../../chartcategorycollection)
 
 
 ---

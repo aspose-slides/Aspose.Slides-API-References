@@ -14,7 +14,7 @@ url: /php-java/doublechartvalue/setasliteraldouble/
  
 
 ### Returns
-double
+void
 
 
 ---

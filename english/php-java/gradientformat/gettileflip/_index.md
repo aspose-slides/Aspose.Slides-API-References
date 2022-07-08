@@ -14,7 +14,7 @@ url: /php-java/gradientformat/gettileflip/
  
 
 ### Returns
-TileFlip
+int
 
 
 ---

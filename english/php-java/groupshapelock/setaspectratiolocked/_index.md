@@ -14,7 +14,7 @@ url: /php-java/groupshapelock/setaspectratiolocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

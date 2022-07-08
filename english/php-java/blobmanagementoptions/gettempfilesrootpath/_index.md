@@ -13,6 +13,9 @@ url: /php-java/blobmanagementoptions/gettempfilesrootpath/
  temorary directory will be used by default.
  
 
+### Returns
+String
+
 
 ---
 

@@ -18,6 +18,9 @@ Example:
   $borderBox->setHideLeft(true);
 ```
 
+### Returns
+void
+
 
 ---
 

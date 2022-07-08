@@ -16,8 +16,11 @@ url: /php-java/sectioncollection/reordersectionwithslides/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | Section | Target index. |
+| index | [Section](../section) | Target index. |
 | section | int | Section to move. |
+
+### Returns
+void
 
 
 ---

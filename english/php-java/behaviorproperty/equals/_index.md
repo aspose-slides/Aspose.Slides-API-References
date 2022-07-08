@@ -19,7 +19,7 @@ url: /php-java/behaviorproperty/equals/
 | obj | Object | Object to compare. |
 
 ### Returns
-True if objects are equal.
+boolean
 
 
 ---

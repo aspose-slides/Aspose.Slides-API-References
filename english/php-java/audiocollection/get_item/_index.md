@@ -14,7 +14,7 @@ url: /php-java/audiocollection/get_item/
  
 
 ### Returns
-IAudio
+[Audio](../../audio)
 
 
 ---

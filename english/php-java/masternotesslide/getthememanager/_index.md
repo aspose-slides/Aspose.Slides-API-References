@@ -14,7 +14,7 @@ url: /php-java/masternotesslide/getthememanager/
  
 
 ### Returns
-IMasterThemeManager
+[MasterThemeManager](../../masterthememanager)
 
 
 ---

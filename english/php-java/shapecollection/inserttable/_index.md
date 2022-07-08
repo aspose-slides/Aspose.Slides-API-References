@@ -23,7 +23,7 @@ url: /php-java/shapecollection/inserttable/
 | rowHeights | double[] | Array of doubles which represents heights of rows in the table. |
 
 ### Returns
-Created Table object.
+[Table](../../table)
 
 
 ---

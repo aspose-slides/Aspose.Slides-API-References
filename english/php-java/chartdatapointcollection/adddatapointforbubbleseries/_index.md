@@ -17,12 +17,12 @@ url: /php-java/chartdatapointcollection/adddatapointforbubbleseries/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | ChartDataCell | Data point XValue |
-| yValue | ChartDataCell | Data point YValue |
-| bubbleSize | ChartDataCell | Data point BubbleSize |
+| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
+| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
+| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -39,11 +39,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 | Name | Type | Description |
 | --- | --- | --- |
 | xValue | double | Data point XValue |
-| yValue | ChartDataCell | Data point YValue |
-| bubbleSize | ChartDataCell | Data point BubbleSize |
+| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
+| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -60,11 +60,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 | Name | Type | Description |
 | --- | --- | --- |
 | xValue | String | Data point XValue |
-| yValue | ChartDataCell | Data point YValue |
-| bubbleSize | ChartDataCell | Data point BubbleSize |
+| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
+| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -80,12 +80,12 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | ChartDataCell | Data point XValue |
+| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
 | yValue | double | Data point YValue |
-| bubbleSize | ChartDataCell | Data point BubbleSize |
+| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -103,10 +103,10 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 | --- | --- | --- |
 | xValue | double | Data point XValue |
 | yValue | double | Data point YValue |
-| bubbleSize | ChartDataCell | Data point BubbleSize |
+| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -124,10 +124,10 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 | --- | --- | --- |
 | xValue | String | Data point XValue |
 | yValue | double | Data point YValue |
-| bubbleSize | ChartDataCell | Data point BubbleSize |
+| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -143,12 +143,12 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | ChartDataCell | Data point XValue |
-| yValue | ChartDataCell | Data point YValue |
+| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
+| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -165,11 +165,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 | Name | Type | Description |
 | --- | --- | --- |
 | xValue | double | Data point XValue |
-| yValue | ChartDataCell | Data point YValue |
+| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -186,11 +186,11 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 | Name | Type | Description |
 | --- | --- | --- |
 | xValue | String | Data point XValue |
-| yValue | ChartDataCell | Data point YValue |
+| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -206,12 +206,12 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | ChartDataCell | Data point XValue |
+| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
 | yValue | double | Data point YValue |
 | bubbleSize | double | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -232,7 +232,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 | bubbleSize | double | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -253,7 +253,7 @@ ChartTypeCharacterizer#isChartTypeBubble(int)
 | bubbleSize | double | Data point BubbleSize |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBubble(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---

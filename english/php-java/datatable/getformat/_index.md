@@ -14,7 +14,7 @@ url: /php-java/datatable/getformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

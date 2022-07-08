@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/setrotatelocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

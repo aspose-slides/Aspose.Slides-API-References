@@ -16,12 +16,15 @@ url: /php-java/embedallfontshtmlcontroller/writefont/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | HTML generator |
-| originalFont | FontData | Font to be serialized |
-| substitutedFont | FontData | Substituted font (if font substitution occured), null otherwise |
+| generator | [HtmlGenerator](../htmlgenerator) | HTML generator |
+| originalFont | [FontData](../fontdata) | Font to be serialized |
+| substitutedFont | [FontData](../fontdata) | Substituted font (if font substitution occured), null otherwise |
 | fontStyle | String | Font style |
 | fontWeight | String | Font weight |
 | fontData | byte[] | Font data |
+
+### Returns
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/chartdata/getseries/
  
 
 ### Returns
-IChartSeriesCollection
+[ChartSeriesCollection](../../chartseriescollection)
 
 
 ---

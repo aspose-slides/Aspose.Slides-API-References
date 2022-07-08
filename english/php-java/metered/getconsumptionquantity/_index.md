@@ -10,6 +10,9 @@ url: /php-java/metered/getconsumptionquantity/
 ## getConsumptionQuantity()  method
 Gets consumption file size
 
+### Returns
+double
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/leftrightdirectiontransition/getdirection/
  
 
 ### Returns
-TransitionLeftRightDirectionType
+int
 
 
 ---

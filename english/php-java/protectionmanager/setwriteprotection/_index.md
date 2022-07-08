@@ -18,6 +18,9 @@ url: /php-java/protectionmanager/setwriteprotection/
 | --- | --- | --- |
 | password | String | The password. |
 
+### Returns
+void
+
 
 ---
 

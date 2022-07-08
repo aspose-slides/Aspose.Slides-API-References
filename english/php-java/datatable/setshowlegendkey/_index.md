@@ -14,7 +14,7 @@ url: /php-java/datatable/setshowlegendkey/
  
 
 ### Returns
-boolean
+void
 
 
 ---

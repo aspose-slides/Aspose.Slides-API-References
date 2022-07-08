@@ -16,10 +16,10 @@ url: /php-java/chartcategorycollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartCategory | Chart category. |
+| value | [ChartCategory](../../chartcategory) | Chart category. |
 
 ### Returns
-ChartCategory
+int
 
 
 ---

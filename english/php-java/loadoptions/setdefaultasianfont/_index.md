@@ -14,7 +14,7 @@ url: /php-java/loadoptions/setdefaultasianfont/
  
 
 ### Returns
-String
+void
 
 
 ---

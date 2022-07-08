@@ -14,7 +14,7 @@ url: /php-java/shapestyle/getfontcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---
