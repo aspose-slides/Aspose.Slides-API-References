@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setnumberformat/
  
 
 ### Returns
-String
+void
 
 
 ---

@@ -16,7 +16,7 @@ url: /php-java/datasourcetypeforerrorbarscustomvalues/getdatasourcetypeforyplusv
  
 
 ### Returns
-DataSourceType
+int
 
 
 ---

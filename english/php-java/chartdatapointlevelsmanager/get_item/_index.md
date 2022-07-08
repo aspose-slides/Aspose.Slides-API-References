@@ -12,6 +12,9 @@ url: /php-java/chartdatapointlevelsmanager/get_item/
  Returns IChartDataPointLevel object for defined level.
  
 
+### Returns
+[ChartDataPointLevel](../../chartdatapointlevel)
+
 
 ---
 

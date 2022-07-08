@@ -14,7 +14,7 @@ url: /php-java/svgoptions/setshapeformattingcontroller/
  
 
 ### Returns
-ISvgShapeFormattingController
+void
 
 
 ---

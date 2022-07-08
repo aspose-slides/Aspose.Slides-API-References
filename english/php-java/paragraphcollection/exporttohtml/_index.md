@@ -18,10 +18,10 @@ url: /php-java/paragraphcollection/exporttohtml/
 | --- | --- | --- |
 | firstParagraphIndex | int | First paragraph index int |
 | paragraphsCount | int | Paragraph count int |
-| options | TextToHtmlConversionOptions | Convert options ITextToHtmlConversionOptions |
+| options | [TextToHtmlConversionOptions](../../texttohtmlconversionoptions) | Convert options ITextToHtmlConversionOptions |
 
 ### Returns
-Generated HTML.
+String
 
 
 ---

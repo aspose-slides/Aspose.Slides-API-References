@@ -14,7 +14,7 @@ url: /php-java/texttohtmlconversionoptions/settextinheritancelimit/
  
 
 ### Returns
-TextInheritanceLimit
+void
 
 
 ---

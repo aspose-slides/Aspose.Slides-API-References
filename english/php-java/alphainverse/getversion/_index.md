@@ -10,6 +10,9 @@ url: /php-java/alphainverse/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

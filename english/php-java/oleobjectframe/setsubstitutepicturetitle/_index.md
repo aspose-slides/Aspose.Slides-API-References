@@ -17,7 +17,7 @@ url: /php-java/oleobjectframe/setsubstitutepicturetitle/
  
 
 ### Returns
-String
+void
 
 
 ---

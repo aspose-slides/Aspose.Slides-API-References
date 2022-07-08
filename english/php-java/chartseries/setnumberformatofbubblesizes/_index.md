@@ -14,7 +14,7 @@ url: /php-java/chartseries/setnumberformatofbubblesizes/
  
 
 ### Returns
-String
+void
 
 
 ---

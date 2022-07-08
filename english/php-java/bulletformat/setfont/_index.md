@@ -14,7 +14,7 @@ url: /php-java/bulletformat/setfont/
  
 
 ### Returns
-IFontData
+void
 
 
 ---

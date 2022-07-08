@@ -14,7 +14,7 @@ url: /php-java/loadoptions/setloadformat/
  
 
 ### Returns
-LoadFormat
+void
 
 
 ---

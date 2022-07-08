@@ -22,7 +22,7 @@ url: /php-java/point/setformula/
  
 
 ### Returns
-String
+void
 
 
 ---

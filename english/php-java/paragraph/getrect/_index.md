@@ -13,6 +13,9 @@ url: /php-java/paragraph/getrect/
  text in paragraph, including empty ones.
  
 
+### Returns
+Rectangle2D.Float
+
 
 ---
 

@@ -10,6 +10,9 @@ url: /php-java/responsivehtmlcontroller/writeslideend/
 ## writeSlideEnd([HtmlGenerator](../../htmlgenerator) generator, [Slide](../../slide) slide)  method
 
 
+### Returns
+void
+
 
 ---
 

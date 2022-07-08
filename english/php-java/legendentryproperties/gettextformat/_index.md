@@ -14,7 +14,7 @@ url: /php-java/legendentryproperties/gettextformat/
  
 
 ### Returns
-IChartTextFormat
+[ChartTextFormat](../../charttextformat)
 
 
 ---

@@ -13,6 +13,9 @@ url: /php-java/shape/gethidden/
  Read/write  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

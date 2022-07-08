@@ -14,7 +14,7 @@ url: /php-java/videoframe/setfullscreenmode/
  
 
 ### Returns
-boolean
+void
 
 
 ---

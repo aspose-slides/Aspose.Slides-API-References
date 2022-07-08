@@ -14,7 +14,7 @@ url: /php-java/chartseries/setshowmeanline/
  
 
 ### Returns
-boolean
+void
 
 
 ---

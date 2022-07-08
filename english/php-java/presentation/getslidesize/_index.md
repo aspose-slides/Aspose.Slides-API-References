@@ -14,7 +14,7 @@ url: /php-java/presentation/getslidesize/
  
 
 ### Returns
-ISlideSize
+[SlideSize](../../slidesize)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/moderncomment/setstatus/
  
 
 ### Returns
-ModernCommentStatus
+void
 
 
 ---

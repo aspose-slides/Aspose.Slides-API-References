@@ -19,7 +19,7 @@ url: /php-java/colorformat/equals/
 | obj | Object | Object. |
 
 ### Returns
-True if objects are equal, otherwise false.
+boolean
 
 
 ---

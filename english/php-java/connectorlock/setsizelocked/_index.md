@@ -14,7 +14,7 @@ url: /php-java/connectorlock/setsizelocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

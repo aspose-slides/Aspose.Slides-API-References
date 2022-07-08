@@ -24,7 +24,7 @@ url: /php-java/convert/tosvg/
 | presPath | String | Path of the input presentation |
 
 ### Returns
-Presentation
+void
 
 
 ---
@@ -53,11 +53,11 @@ Presentation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation | Input presentation |
-| options | SVGOptions | SVG export options |
+| pres | [Presentation](../presentation) | Input presentation |
+| options | [SVGOptions](../../svgoptions) | SVG export options |
 
 ### Returns
-Presentation
+void
 
 
 ---

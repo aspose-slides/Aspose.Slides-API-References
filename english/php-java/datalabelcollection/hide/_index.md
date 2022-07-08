@@ -18,6 +18,9 @@ url: /php-java/datalabelcollection/hide/
  to true state.
  
 
+### Returns
+void
+
 
 ---
 

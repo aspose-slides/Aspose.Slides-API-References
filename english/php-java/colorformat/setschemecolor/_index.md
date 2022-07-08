@@ -14,7 +14,7 @@ url: /php-java/colorformat/setschemecolor/
  
 
 ### Returns
-SchemeColor
+void
 
 
 ---

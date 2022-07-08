@@ -12,6 +12,9 @@ url: /php-java/layoutslidecollection/removeunused/
  Removes unused layout slides (layout slides whose HasDependingSlides is false).
  
 
+### Returns
+void
+
 
 ---
 

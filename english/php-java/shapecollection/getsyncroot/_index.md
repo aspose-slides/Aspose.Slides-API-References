@@ -13,6 +13,9 @@ url: /php-java/shapecollection/getsyncroot/
  Read-only  Object.
  
 
+### Returns
+Object
+
 
 ---
 

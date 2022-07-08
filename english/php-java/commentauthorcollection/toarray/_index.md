@@ -13,7 +13,7 @@ url: /php-java/commentauthorcollection/toarray/
  
 
 ### Returns
-Array of ICommentAuthor
+[CommentAuthor](../../commentauthor)
 
 
 ---

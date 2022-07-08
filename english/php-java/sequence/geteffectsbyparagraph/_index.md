@@ -12,6 +12,9 @@ url: /php-java/sequence/geteffectsbyparagraph/
  Returns array of effects for the specified paragraph.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 

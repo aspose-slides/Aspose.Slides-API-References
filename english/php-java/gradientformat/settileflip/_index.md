@@ -14,7 +14,7 @@ url: /php-java/gradientformat/settileflip/
  
 
 ### Returns
-TileFlip
+void
 
 
 ---

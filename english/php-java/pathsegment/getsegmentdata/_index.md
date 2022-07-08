@@ -12,6 +12,9 @@ url: /php-java/pathsegment/getsegmentdata/
  Path data of the segment
  
 
+### Returns
+float
+
 
 ---
 

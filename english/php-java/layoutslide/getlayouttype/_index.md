@@ -14,7 +14,7 @@ url: /php-java/layoutslide/getlayouttype/
  
 
 ### Returns
-SlideLayoutType
+byte
 
 
 ---

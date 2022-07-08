@@ -18,6 +18,9 @@ url: /php-java/htmlgenerator/addattributevalue/
 | --- | --- | --- |
 | value | String | Attribute value string. |
 
+### Returns
+void
+
 
 ---
 
@@ -32,6 +35,9 @@ url: /php-java/htmlgenerator/addattributevalue/
 | Name | Type | Description |
 | --- | --- | --- |
 | value | char[] | Attribute value string. |
+
+### Returns
+void
 
 
 ---
@@ -49,6 +55,9 @@ url: /php-java/htmlgenerator/addattributevalue/
 | value | char[] | Attribute value string. |
 | startIndex | int | Start index of the portion to add. |
 | length | int | Length of the portion to add. |
+
+### Returns
+void
 
 
 ---

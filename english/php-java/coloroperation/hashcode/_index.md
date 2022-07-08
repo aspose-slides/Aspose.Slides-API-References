@@ -13,6 +13,9 @@ url: /php-java/coloroperation/hashcode/
  in hashing algorithms and data structures like a hash table.
  
 
+### Returns
+int
+
 
 ---
 

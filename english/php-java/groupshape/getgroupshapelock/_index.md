@@ -14,7 +14,7 @@ url: /php-java/groupshape/getgroupshapelock/
  
 
 ### Returns
-IGroupShapeLock
+[GroupShapeLock](../../groupshapelock)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/chartseries/getparentseriesgroup/
  
 
 ### Returns
-IChartSeriesGroup
+[ChartSeriesGroup](../../chartseriesgroup)
 
 
 ---

@@ -15,7 +15,7 @@ url: /php-java/stringchartvalue/getascells/
  
 
 ### Returns
-IChartCellCollection
+[ChartCellCollection](../../chartcellcollection)
 
 
 ---

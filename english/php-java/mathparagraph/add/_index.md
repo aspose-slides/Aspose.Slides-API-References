@@ -23,7 +23,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | MathBlock | A mathematical block that will be added to the end of the collection |
+| mathBlock | [MathBlock](../../mathblock) | A mathematical block that will be added to the end of the collection |
+
+### Returns
+void
 
 
 ---

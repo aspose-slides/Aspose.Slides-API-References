@@ -15,7 +15,7 @@ url: /php-java/presentation/getcurrentdatetime/
  
 
 ### Returns
-java.util.Date
+Date
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/cell/setanchorcenter/
  
 
 ### Returns
-boolean
+void
 
 
 ---

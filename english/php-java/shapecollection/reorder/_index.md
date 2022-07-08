@@ -17,7 +17,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [AudioFrame](../../audioframe) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -33,7 +36,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [AutoShape](../../autoshape) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -49,7 +55,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [Chart](../../chart) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -65,7 +74,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [Connector](../../connector) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -81,7 +93,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [GeometryShape](../../geometryshape) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -97,7 +112,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [GraphicalObject](../../graphicalobject) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -113,7 +131,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [GroupShape](../../groupshape) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -129,7 +150,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [Ink](../../ink) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -145,7 +169,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [LegacyDiagram](../../legacydiagram) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -161,7 +188,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [OleObjectFrame](../../oleobjectframe) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -177,7 +207,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [PictureFrame](../../pictureframe) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -193,7 +226,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [SectionZoomFrame](../../sectionzoomframe) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -209,7 +245,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [Shape](../../shape) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -225,7 +264,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [SmartArt](../../smartart) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -241,7 +283,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [SmartArtShape](../../smartartshape) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -257,7 +302,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [SummaryZoomFrame](../../summaryzoomframe) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -273,7 +321,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -289,7 +340,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [Table](../../table) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -305,7 +359,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [VideoFrame](../../videoframe) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -321,7 +378,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [ZoomFrame](../../zoomframe) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -337,7 +397,10 @@ url: /php-java/shapecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | AudioFrame | Shape to move. |
+| shape | [ZoomObject](../../zoomobject) | Shape to move. |
+
+### Returns
+void
 
 
 ---
@@ -355,6 +418,9 @@ url: /php-java/shapecollection/reorder/
 | --- | --- | --- |
 | index | int | Target index. |
 | shapes | com.aspose.slides.IShape[] | Shapes to move. |
+
+### Returns
+void
 
 
 ---

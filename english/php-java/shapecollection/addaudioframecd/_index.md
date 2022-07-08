@@ -22,7 +22,7 @@ url: /php-java/shapecollection/addaudioframecd/
 | height | float | Height of a new audio frame. |
 
 ### Returns
-Created AudioFrame object.
+[AudioFrame](../../audioframe)
 
 
 ---

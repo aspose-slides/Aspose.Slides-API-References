@@ -13,6 +13,9 @@ url: /php-java/oleobjectframe/isobjecticon/
  Read/write  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

@@ -15,7 +15,7 @@ url: /php-java/shape/setname/
  
 
 ### Returns
-String
+void
 
 
 ---

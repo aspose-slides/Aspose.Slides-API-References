@@ -14,7 +14,7 @@ url: /php-java/coloreffect/setcolorspace/
  
 
 ### Returns
-ColorSpace
+void
 
 
 ---

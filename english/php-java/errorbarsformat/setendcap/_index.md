@@ -14,7 +14,7 @@ url: /php-java/errorbarsformat/setendcap/
  
 
 ### Returns
-boolean
+void
 
 
 ---

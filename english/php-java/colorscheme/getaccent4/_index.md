@@ -14,7 +14,7 @@ url: /php-java/colorscheme/getaccent4/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

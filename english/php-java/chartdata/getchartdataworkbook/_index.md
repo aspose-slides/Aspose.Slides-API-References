@@ -14,7 +14,7 @@ url: /php-java/chartdata/getchartdataworkbook/
  
 
 ### Returns
-IChartDataWorkbook
+[ChartDataWorkbook](../../chartdataworkbook)
 
 
 ---

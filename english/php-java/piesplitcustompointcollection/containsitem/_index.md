@@ -16,10 +16,10 @@ url: /php-java/piesplitcustompointcollection/containsitem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | ChartDataPoint | The object to locate in the IGenericCollection. |
+| item | [ChartDataPoint](../../chartdatapoint) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---

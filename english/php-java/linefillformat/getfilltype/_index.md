@@ -14,7 +14,7 @@ url: /php-java/linefillformat/getfilltype/
  
 
 ### Returns
-FillType
+byte
 
 
 ---

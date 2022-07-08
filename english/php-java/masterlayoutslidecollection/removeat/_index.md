@@ -18,6 +18,9 @@ url: /php-java/masterlayoutslidecollection/removeat/
 | --- | --- | --- |
 | index | int | The zero-based index of the element to remove. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove method to simplify code. |
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

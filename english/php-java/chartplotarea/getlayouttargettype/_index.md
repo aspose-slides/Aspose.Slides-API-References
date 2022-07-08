@@ -48,7 +48,7 @@ url: /php-java/chartplotarea/getlayouttargettype/
 ```
 
 ### Returns
-#setLayoutTargetType(int)
+int
 
 
 ---

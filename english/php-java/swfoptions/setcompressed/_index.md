@@ -13,6 +13,9 @@ url: /php-java/swfoptions/setcompressed/
  Default is true.
  
 
+### Returns
+void
+
 
 ---
 

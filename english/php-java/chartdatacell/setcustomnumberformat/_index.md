@@ -15,7 +15,7 @@ url: /php-java/chartdatacell/setcustomnumberformat/
  
 
 ### Returns
-String
+void
 
 ### Exception
 

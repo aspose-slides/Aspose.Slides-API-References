@@ -14,7 +14,7 @@ url: /php-java/axis/setplotorderreversed/
   
 
 ### Returns
-boolean
+void
 
 
 ---

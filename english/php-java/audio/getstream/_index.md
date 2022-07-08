@@ -14,7 +14,7 @@ url: /php-java/audio/getstream/
  
 
 ### Returns
-Stream for reading.
+InputStream
 
 
 ---

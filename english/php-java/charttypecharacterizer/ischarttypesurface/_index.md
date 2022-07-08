@@ -18,7 +18,7 @@ url: /php-java/charttypecharacterizer/ischarttypesurface/
  
 
 ### Returns
-ChartType#WireframeContour
+boolean
 
 
 ---

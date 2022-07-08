@@ -16,7 +16,10 @@ url: /php-java/motionpath/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | MotionCmdPath | Motion path to remove. |
+| item | [MotionCmdPath](../../motioncmdpath) | Motion path to remove. |
+
+### Returns
+void
 
 
 ---

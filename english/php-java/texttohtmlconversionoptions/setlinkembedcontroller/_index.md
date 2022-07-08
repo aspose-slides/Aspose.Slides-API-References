@@ -14,7 +14,7 @@ url: /php-java/texttohtmlconversionoptions/setlinkembedcontroller/
  
 
 ### Returns
-ILinkEmbedController
+void
 
 
 ---

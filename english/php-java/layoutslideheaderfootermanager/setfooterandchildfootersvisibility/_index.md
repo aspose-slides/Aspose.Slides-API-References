@@ -20,6 +20,9 @@ url: /php-java/layoutslideheaderfootermanager/setfooterandchildfootersvisibility
 | --- | --- | --- |
 | isVisible | boolean | true - makes a footer placeholders visible, otherwise - hides them. |
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/table/setlastrow/
  
 
 ### Returns
-boolean
+void
 
 
 ---

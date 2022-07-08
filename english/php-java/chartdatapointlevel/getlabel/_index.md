@@ -34,7 +34,7 @@ url: /php-java/chartdatapointlevel/getlabel/
 ```
 
 ### Returns
-IDataLabel
+[DataLabel](../../datalabel)
 
 
 ---

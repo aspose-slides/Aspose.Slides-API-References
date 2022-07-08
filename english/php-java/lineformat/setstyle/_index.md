@@ -14,7 +14,7 @@ url: /php-java/lineformat/setstyle/
  
 
 ### Returns
-LineStyle
+void
 
 
 ---

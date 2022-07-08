@@ -14,7 +14,7 @@ url: /php-java/commonslideviewproperties/setscale/
  
 
 ### Returns
-int
+void
 
 ### Exception
 

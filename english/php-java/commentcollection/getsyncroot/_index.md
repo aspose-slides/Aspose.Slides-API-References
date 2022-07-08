@@ -13,6 +13,9 @@ url: /php-java/commentcollection/getsyncroot/
  Read-only  Object.
  
 
+### Returns
+Object
+
 
 ---
 

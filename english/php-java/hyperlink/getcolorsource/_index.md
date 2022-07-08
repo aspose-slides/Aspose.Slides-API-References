@@ -14,7 +14,7 @@ url: /php-java/hyperlink/getcolorsource/
  
 
 ### Returns
-HyperlinkColorSource
+int
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/chartdatapointlevelsmanager/getcount/
  Returns data point levels count.
  
 
+### Returns
+int
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/trendline/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

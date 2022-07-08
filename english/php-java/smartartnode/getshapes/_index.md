@@ -14,7 +14,7 @@ url: /php-java/smartartnode/getshapes/
  
 
 ### Returns
-ISmartArtShapeCollection
+[SmartArtShapeCollection](../../smartartshapecollection)
 
 
 ---

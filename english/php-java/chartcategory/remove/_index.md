@@ -12,6 +12,9 @@ url: /php-java/chartcategory/remove/
  Removes category from chart.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

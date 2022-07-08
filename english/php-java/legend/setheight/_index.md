@@ -14,7 +14,7 @@ url: /php-java/legend/setheight/
  
 
 ### Returns
-float
+void
 
 
 ---

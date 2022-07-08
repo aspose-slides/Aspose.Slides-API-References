@@ -45,7 +45,7 @@ url: /php-java/fillformat/geteffective/
 ```
 
 ### Returns
-A IFillFormatEffectiveData.
+
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/charttextformat/gettextblockformat/
  
 
 ### Returns
-IChartTextBlockFormat
+[TextFrameFormat](../../textframeformat)
 
 
 ---

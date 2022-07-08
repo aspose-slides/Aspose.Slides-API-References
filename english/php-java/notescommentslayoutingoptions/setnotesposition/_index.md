@@ -15,7 +15,7 @@ url: /php-java/notescommentslayoutingoptions/setnotesposition/
  
 
 ### Returns
-NotesPositions#None
+void
 
 
 ---

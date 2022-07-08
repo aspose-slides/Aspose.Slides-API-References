@@ -19,7 +19,7 @@ url: /php-java/commentauthorcollection/findbyname/
 | name | String | Name of an author to find. |
 
 ### Returns
-Author or null.
+[CommentAuthor](../../commentauthor)
 
 
 ---

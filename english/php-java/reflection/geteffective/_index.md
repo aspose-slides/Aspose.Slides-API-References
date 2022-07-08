@@ -13,7 +13,7 @@ url: /php-java/reflection/geteffective/
  
 
 ### Returns
-A IReflectionEffectiveData.
+
 
 
 ---

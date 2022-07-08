@@ -17,7 +17,7 @@ url: /php-java/shapestyle/setfillstyleindex/
  
 
 ### Returns
-short
+void
 
 
 ---

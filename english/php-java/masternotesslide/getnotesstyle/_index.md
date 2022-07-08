@@ -14,7 +14,7 @@ url: /php-java/masternotesslide/getnotesstyle/
  
 
 ### Returns
-ITextStyle
+[TextStyle](../../textstyle)
 
 
 ---

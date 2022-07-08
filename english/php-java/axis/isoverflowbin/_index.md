@@ -12,6 +12,9 @@ url: /php-java/axis/isoverflowbin/
  Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value.
  
 
+### Returns
+boolean
+
 
 ---
 

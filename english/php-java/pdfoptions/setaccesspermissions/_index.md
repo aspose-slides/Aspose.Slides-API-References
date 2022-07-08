@@ -29,7 +29,7 @@ url: /php-java/pdfoptions/setaccesspermissions/
 ```
 
 ### Returns
-PdfAccessPermissions
+void
 
 
 ---

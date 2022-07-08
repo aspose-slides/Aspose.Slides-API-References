@@ -16,7 +16,7 @@ url: /php-java/textframeformat/setcolumncount/
  
 
 ### Returns
-int
+void
 
 
 ---

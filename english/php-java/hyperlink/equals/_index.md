@@ -19,7 +19,7 @@ url: /php-java/hyperlink/equals/
 | obj | Object | The Hyperlink to compare with the current Hyperlink. |
 
 ### Returns
-true if the specified Hyperlink is equal to the current Hyperlink; otherwise, false.
+boolean
 
 
 ---
@@ -34,10 +34,10 @@ true if the specified Hyperlink is equal to the current Hyperlink; otherwise, fa
 
 | Name | Type | Description |
 | --- | --- | --- |
-| hlink | Hyperlink | The Hyperlink to compare with the current Hyperlink. |
+| hlink | [Hyperlink](../../hyperlink) | The Hyperlink to compare with the current Hyperlink. |
 
 ### Returns
-true if the specified Hyperlink is equal to the current Hyperlink; otherwise, false.
+boolean
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/autoshape/gettextframe/
  
 
 ### Returns
-ITextFrame
+[TextFrame](../../textframe)
 
 
 ---

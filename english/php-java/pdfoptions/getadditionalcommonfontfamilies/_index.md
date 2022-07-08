@@ -14,7 +14,7 @@ url: /php-java/pdfoptions/getadditionalcommonfontfamilies/
  
 
 ### Returns
-String[]
+String
 
 
 ---

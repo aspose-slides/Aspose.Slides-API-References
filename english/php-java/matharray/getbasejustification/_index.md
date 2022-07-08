@@ -20,6 +20,9 @@ Example:
   $mathArray->setBaseJustification(MathVerticalAlignment.Top);
 ```
 
+### Returns
+int
+
 
 ---
 

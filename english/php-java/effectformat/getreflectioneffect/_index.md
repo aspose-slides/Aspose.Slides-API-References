@@ -14,7 +14,7 @@ url: /php-java/effectformat/getreflectioneffect/
  
 
 ### Returns
-IReflection
+[Reflection](../../reflection)
 
 
 ---

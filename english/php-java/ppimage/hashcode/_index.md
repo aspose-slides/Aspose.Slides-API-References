@@ -13,7 +13,7 @@ url: /php-java/ppimage/hashcode/
  
 
 ### Returns
-Hash code.
+int
 
 
 ---

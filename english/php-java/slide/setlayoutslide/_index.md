@@ -14,7 +14,7 @@ url: /php-java/slide/setlayoutslide/
  
 
 ### Returns
-ILayoutSlide
+void
 
 
 ---

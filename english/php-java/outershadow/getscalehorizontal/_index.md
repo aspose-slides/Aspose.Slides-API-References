@@ -13,6 +13,9 @@ url: /php-java/outershadow/getscalehorizontal/
  Read/write  double.
  
 
+### Returns
+double
+
 
 ---
 

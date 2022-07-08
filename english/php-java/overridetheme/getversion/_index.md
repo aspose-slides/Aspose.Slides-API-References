@@ -10,6 +10,9 @@ url: /php-java/overridetheme/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

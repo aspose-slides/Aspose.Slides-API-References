@@ -31,7 +31,10 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges |
-| shapes | ShapeCollection | Shapes collection to be aligned |
+| shapes | [ShapeCollection](../../shapecollection) | Shapes collection to be aligned |
+
+### Returns
+void
 
 
 ---
@@ -61,7 +64,10 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
+| slide | [BaseSlide](../../baseslide) | Parent slide. |
+
+### Returns
+void
 
 
 ---
@@ -91,7 +97,10 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
+| slide | [LayoutSlide](../../layoutslide) | Parent slide. |
+
+### Returns
+void
 
 
 ---
@@ -121,7 +130,10 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
+| slide | [MasterHandoutSlide](../../masterhandoutslide) | Parent slide. |
+
+### Returns
+void
 
 
 ---
@@ -151,7 +163,10 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
+| slide | [MasterNotesSlide](../../masternotesslide) | Parent slide. |
+
+### Returns
+void
 
 
 ---
@@ -181,7 +196,10 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
+| slide | [MasterSlide](../../masterslide) | Parent slide. |
+
+### Returns
+void
 
 
 ---
@@ -211,7 +229,10 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
+| slide | [NotesSlide](../../notesslide) | Parent slide. |
+
+### Returns
+void
 
 
 ---
@@ -241,7 +262,10 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
+| slide | [Slide](../../slide) | Parent slide. |
+
+### Returns
+void
 
 
 ---
@@ -274,8 +298,11 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
-| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
+| slide | [BaseSlide](../baseslide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+### Returns
+void
 
 
 ---
@@ -308,8 +335,11 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
-| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
+| slide | [LayoutSlide](../layoutslide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+### Returns
+void
 
 
 ---
@@ -342,8 +372,11 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
-| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
+| slide | [MasterHandoutSlide](../masterhandoutslide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+### Returns
+void
 
 
 ---
@@ -376,8 +409,11 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
-| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
+| slide | [MasterNotesSlide](../masternotesslide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+### Returns
+void
 
 
 ---
@@ -410,8 +446,11 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
-| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
+| slide | [MasterSlide](../masterslide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+### Returns
+void
 
 
 ---
@@ -444,8 +483,11 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
-| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
+| slide | [NotesSlide](../notesslide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+### Returns
+void
 
 
 ---
@@ -478,8 +520,11 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | BaseSlide | Parent slide. |
-| shapeIndexes | LayoutSlide | Indexes of shapes to be aligned. |
+| slide | [Slide](../slide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+### Returns
+void
 
 
 ---
@@ -510,7 +555,10 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| groupShape | GroupShape | Parent group shape. |
+| groupShape | [GroupShape](../../groupshape) | Parent group shape. |
+
+### Returns
+void
 
 
 ---
@@ -541,8 +589,11 @@ Example:
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| groupShape | GroupShape | Parent group shape. |
+| groupShape | [GroupShape](../groupshape) | Parent group shape. |
 | shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+### Returns
+void
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/axis/getactualminvalue/
  Specifies actual minimum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value. 
  
 
+### Returns
+double
+
 
 ---
 

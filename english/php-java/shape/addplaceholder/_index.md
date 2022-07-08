@@ -16,10 +16,10 @@ url: /php-java/shape/addplaceholder/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| placeholderToCopyFrom | Placeholder | Placeholder to copy content from. |
+| placeholderToCopyFrom | [Placeholder](../../placeholder) | Placeholder to copy content from. |
 
 ### Returns
-New Placeholder( #getPlaceholder).
+[Placeholder](../../placeholder)
 
 
 ---

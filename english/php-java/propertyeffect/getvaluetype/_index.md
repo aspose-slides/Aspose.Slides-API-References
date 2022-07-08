@@ -14,7 +14,7 @@ url: /php-java/propertyeffect/getvaluetype/
  
 
 ### Returns
-PropertyValueType
+int
 
 
 ---

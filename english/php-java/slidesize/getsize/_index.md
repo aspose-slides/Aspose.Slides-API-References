@@ -14,7 +14,7 @@ url: /php-java/slidesize/getsize/
  Assigning any value will reset ( #getType) property to  SlideSizeType#Custom and set ( #getOrientation/ #setOrientation(int)).
 
 ### Returns
-#setOrientation(int)
+Dimension2D
 
 
 ---

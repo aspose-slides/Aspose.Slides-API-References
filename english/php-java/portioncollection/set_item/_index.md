@@ -12,6 +12,9 @@ url: /php-java/portioncollection/set_item/
  Gets the element at the specified index.
  
 
+### Returns
+void
+
 
 ---
 
@@ -20,6 +23,9 @@ url: /php-java/portioncollection/set_item/
 
  Gets the element at the specified index.
  
+
+### Returns
+void
 
 
 ---

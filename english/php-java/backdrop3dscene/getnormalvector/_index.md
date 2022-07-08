@@ -16,7 +16,7 @@ url: /php-java/backdrop3dscene/getnormalvector/
  
 
 ### Returns
-float[]
+float
 
 
 ---

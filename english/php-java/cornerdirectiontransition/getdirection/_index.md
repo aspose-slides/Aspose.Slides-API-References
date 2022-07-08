@@ -14,7 +14,7 @@ url: /php-java/cornerdirectiontransition/getdirection/
  
 
 ### Returns
-TransitionCornerDirectionType
+int
 
 
 ---

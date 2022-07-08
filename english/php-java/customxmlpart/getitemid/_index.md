@@ -15,7 +15,7 @@ url: /php-java/customxmlpart/getitemid/
  
 
 ### Returns
-java.util.UUID
+UUID
 
 
 ---

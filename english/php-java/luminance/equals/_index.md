@@ -19,7 +19,7 @@ url: /php-java/luminance/equals/
 | obj | Object | The Luminance to compare. |
 
 ### Returns
-Luminance
+boolean
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/vbamodule/setsourcecode/
  
 
 ### Returns
-String
+void
 
 
 ---

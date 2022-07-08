@@ -24,6 +24,9 @@ Example:
 | --- | --- | --- |
 | columnIndex | int | The zero-based index of the column to delete. |
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

@@ -12,6 +12,9 @@ url: /php-java/paragraph/joinportionswithsameformatting/
  Joins runs with same formatting.
  
 
+### Returns
+void
+
 
 ---
 

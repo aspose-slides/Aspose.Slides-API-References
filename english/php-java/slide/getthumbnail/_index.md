@@ -20,7 +20,7 @@ url: /php-java/slide/getthumbnail/
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
-Bitmap object.
+BufferedImage
 
 
 ---
@@ -30,6 +30,9 @@ Bitmap object.
 
  Returns a Thumbnail Image object (20% of real size).
  
+
+### Returns
+BufferedImage
 
 
 ---
@@ -47,7 +50,7 @@ Bitmap object.
 | imageSize | Dimension | Size of the image to create. |
 
 ### Returns
-Bitmap object.
+BufferedImage
 
 
 ---
@@ -62,10 +65,10 @@ Bitmap object.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | TiffOptions | Tiff options. |
+| options | [TiffOptions](../../tiffoptions) | Tiff options. |
 
 ### Returns
-BufferedImage object.
+BufferedImage
 
 ### Exception
 
@@ -86,10 +89,10 @@ BufferedImage object.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 ### Exception
 
@@ -110,12 +113,12 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 ### Exception
 
@@ -136,11 +139,11 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| notesCommentsLayouting | NotesCommentsLayoutingOptions | Options for notes and comments layouting. |
+| notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | imageSize | Dimension | Size of the image to create. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 ### Exception
 
@@ -161,10 +164,10 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Rendering options. |
+| options | [RenderingOptions](../../renderingoptions) | Rendering options. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 ### Exception
 
@@ -185,12 +188,12 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Rendering options. |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 ### Exception
 
@@ -211,11 +214,11 @@ BufferedImage objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | RenderingOptions | Rendering options. |
+| options | [RenderingOptions](../renderingoptions) | Rendering options. |
 | imageSize | Dimension | Size of the image to create. |
 
 ### Returns
-BufferedImage objects.
+BufferedImage
 
 ### Exception
 

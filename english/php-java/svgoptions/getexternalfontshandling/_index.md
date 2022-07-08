@@ -14,7 +14,7 @@ url: /php-java/svgoptions/getexternalfontshandling/
  
 
 ### Returns
-SvgExternalFontsHandling
+int
 
 
 ---

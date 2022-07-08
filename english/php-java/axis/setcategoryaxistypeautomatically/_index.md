@@ -12,6 +12,9 @@ url: /php-java/axis/setcategoryaxistypeautomatically/
  Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data.
  
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/paragraphcollection/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

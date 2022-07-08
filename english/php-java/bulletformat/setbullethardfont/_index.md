@@ -16,7 +16,7 @@ url: /php-java/bulletformat/setbullethardfont/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

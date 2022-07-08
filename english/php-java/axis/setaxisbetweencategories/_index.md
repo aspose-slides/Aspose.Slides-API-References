@@ -15,7 +15,7 @@ url: /php-java/axis/setaxisbetweencategories/
  
 
 ### Returns
-boolean
+void
 
 
 ---

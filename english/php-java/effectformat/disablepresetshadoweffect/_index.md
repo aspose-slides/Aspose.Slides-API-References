@@ -12,6 +12,9 @@ url: /php-java/effectformat/disablepresetshadoweffect/
  Disables preset shadow effect.
  
 
+### Returns
+void
+
 
 ---
 

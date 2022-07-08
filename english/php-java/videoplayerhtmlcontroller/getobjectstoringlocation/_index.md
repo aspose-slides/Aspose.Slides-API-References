@@ -10,6 +10,9 @@ url: /php-java/videoplayerhtmlcontroller/getobjectstoringlocation/
 ## getObjectStoringLocation(int id, byte[] entityData, String semanticName, String contentType, String recomendedExtension)  method
 
 
+### Returns
+int
+
 
 ---
 

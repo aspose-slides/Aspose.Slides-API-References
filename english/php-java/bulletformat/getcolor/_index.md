@@ -14,7 +14,7 @@ url: /php-java/bulletformat/getcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

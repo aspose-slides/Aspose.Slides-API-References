@@ -15,7 +15,7 @@ url: /php-java/colorformat/setsaturation/
  
 
 ### Returns
-float
+void
 
 
 ---

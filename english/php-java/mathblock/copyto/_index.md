@@ -29,6 +29,9 @@ Example:
 | array | com.aspose.slides.IMathElement[] | Array to copy to. |
 | arrayIndex | int | Index to begin copying. |
 
+### Returns
+void
+
 
 ---
 

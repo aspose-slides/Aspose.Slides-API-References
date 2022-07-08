@@ -20,6 +20,9 @@ url: /php-java/layoutslideheaderfootermanager/setfooterandchildfooterstext/
 | --- | --- | --- |
 | text | String | Text to set. |
 
+### Returns
+void
+
 
 ---
 

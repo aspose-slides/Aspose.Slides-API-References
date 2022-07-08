@@ -14,7 +14,7 @@ url: /php-java/placeholder/gettype/
  
 
 ### Returns
-PlaceholderType
+byte
 
 
 ---

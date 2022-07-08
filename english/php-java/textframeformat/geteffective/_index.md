@@ -35,7 +35,7 @@ url: /php-java/textframeformat/geteffective/
 ```
 
 ### Returns
-A ITextFrameFormatEffectiveData.
+
 
 
 ---

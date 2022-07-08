@@ -32,7 +32,7 @@ url: /php-java/fontfallbackrulescollection/get_item/
 ```
 
 ### Returns
-IFontFallBackRule
+[FontFallBackRule](../../fontfallbackrule)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setcompany/
  
 
 ### Returns
-String
+void
 
 
 ---

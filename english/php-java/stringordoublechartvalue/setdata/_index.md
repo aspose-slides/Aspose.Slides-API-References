@@ -14,7 +14,7 @@ url: /php-java/stringordoublechartvalue/setdata/
  
 
 ### Returns
-Object
+void
 
 
 ---

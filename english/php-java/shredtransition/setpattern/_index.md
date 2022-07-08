@@ -14,7 +14,7 @@ url: /php-java/shredtransition/setpattern/
  
 
 ### Returns
-TransitionShredPattern
+void
 
 
 ---

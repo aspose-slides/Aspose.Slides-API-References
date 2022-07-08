@@ -14,7 +14,7 @@ url: /php-java/commonslideviewproperties/setvariablescale/
  
 
 ### Returns
-boolean
+void
 
 
 ---

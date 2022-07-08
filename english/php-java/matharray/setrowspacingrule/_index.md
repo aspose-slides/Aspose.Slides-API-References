@@ -19,6 +19,9 @@ Example:
   $mathArray->setRowSpacingRule(MathRowSpacingRule.OneAndAHalfLineGap);
 ```
 
+### Returns
+void
+
 
 ---
 

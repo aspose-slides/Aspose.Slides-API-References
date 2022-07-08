@@ -12,6 +12,9 @@ url: /php-java/axis/isunderflowbin/
  Specifies if underflow bin applied. Use IsAutomaticUnderflowBin and UnderflowBin to adjust underflow bin value.
  
 
+### Returns
+boolean
+
 
 ---
 

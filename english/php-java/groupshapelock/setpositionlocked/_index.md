@@ -14,7 +14,7 @@ url: /php-java/groupshapelock/setpositionlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

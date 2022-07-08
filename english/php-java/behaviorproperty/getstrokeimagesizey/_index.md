@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokeimagesizey/
  Represents 'stroke.imagesize.y' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

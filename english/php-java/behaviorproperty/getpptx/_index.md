@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getpptx/
  Represents 'ppt_x' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

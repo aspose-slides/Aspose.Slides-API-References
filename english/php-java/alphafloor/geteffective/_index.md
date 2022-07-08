@@ -13,7 +13,7 @@ url: /php-java/alphafloor/geteffective/
  
 
 ### Returns
-A IAlphaFloorEffectiveData.
+
 
 
 ---

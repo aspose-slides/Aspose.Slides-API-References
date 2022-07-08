@@ -22,6 +22,9 @@ Example:
   $box->setNoBreak(false);
 ```
 
+### Returns
+boolean
+
 
 ---
 

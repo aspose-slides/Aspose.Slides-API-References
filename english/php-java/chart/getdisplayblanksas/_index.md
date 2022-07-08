@@ -14,7 +14,7 @@ url: /php-java/chart/getdisplayblanksas/
  
 
 ### Returns
-DisplayBlanksAsType
+int
 
 
 ---

@@ -21,7 +21,7 @@ url: /php-java/imagetransformoperationcollection/addhsleffect/
 | luminance | float | The percentage by which the luminance is adjusted. |
 
 ### Returns
-Index of the new image effect in a collection.
+[HSL](../../hsl)
 
 
 ---

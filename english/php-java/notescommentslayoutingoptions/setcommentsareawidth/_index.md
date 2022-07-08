@@ -15,6 +15,9 @@ url: /php-java/notescommentslayoutingoptions/setcommentsareawidth/
   Minimal and default value is 150.
  
 
+### Returns
+void
+
 
 ---
 

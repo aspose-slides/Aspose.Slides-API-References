@@ -19,7 +19,7 @@ url: /php-java/tagcollection/getvaluebyindex/
 | index | int | Index of a tag to return. |
 
 ### Returns
-Value of a tag.
+String
 
 
 ---

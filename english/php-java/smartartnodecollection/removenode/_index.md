@@ -18,6 +18,9 @@ url: /php-java/smartartnodecollection/removenode/
 | --- | --- | --- |
 | index | int | Zero-based index of node |
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |
@@ -37,7 +40,10 @@ url: /php-java/smartartnodecollection/removenode/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| node | SmartArtNode | Node to remove |
+| node | [SmartArtNode](../../smartartnode) | Node to remove |
+
+### Returns
+void
 
 
 ---

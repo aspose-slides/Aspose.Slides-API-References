@@ -10,6 +10,9 @@ url: /php-java/responsivehtmlcontroller/writeslidestart/
 ## writeSlideStart([HtmlGenerator](../../htmlgenerator) generator, [Slide](../../slide) slide)  method
 
 
+### Returns
+void
+
 
 ---
 

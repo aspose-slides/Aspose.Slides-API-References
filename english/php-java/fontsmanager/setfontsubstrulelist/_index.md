@@ -14,7 +14,7 @@ url: /php-java/fontsmanager/setfontsubstrulelist/
  
 
 ### Returns
-IFontSubstRuleCollection
+void
 
 
 ---

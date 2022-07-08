@@ -19,7 +19,7 @@ url: /php-java/gradientstopeffectivedata/equals/
 | obj | Object | The GradientStopEffectiveData to compare. |
 
 ### Returns
-GradientStopEffectiveData
+boolean
 
 
 ---

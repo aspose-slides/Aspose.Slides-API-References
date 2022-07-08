@@ -20,6 +20,9 @@ url: /php-java/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibi
 | --- | --- | --- |
 | isVisible | boolean | true - makes a date-time placeholders visible, otherwise - hides them. |
 
+### Returns
+void
+
 
 ---
 

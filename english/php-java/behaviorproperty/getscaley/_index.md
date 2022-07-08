@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getscaley/
  Represents 'ScaleY' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

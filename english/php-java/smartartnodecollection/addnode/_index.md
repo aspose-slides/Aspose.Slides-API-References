@@ -13,7 +13,7 @@ url: /php-java/smartartnodecollection/addnode/
  
 
 ### Returns
-Added node
+[SmartArtNode](../../smartartnode)
 
 
 ---

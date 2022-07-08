@@ -12,6 +12,9 @@ url: /php-java/chartdatapointcollection/get_item/
  Returns the series data point by index.
  
 
+### Returns
+[ChartDataPoint](../../chartdatapoint)
+
 
 ---
 
@@ -20,6 +23,9 @@ url: /php-java/chartdatapointcollection/get_item/
 
  Return index of data point in this collection.
  
+
+### Returns
+int
 
 
 ---

@@ -15,7 +15,7 @@ url: /php-java/trendline/setintercept/
   
 
 ### Returns
-double
+void
 
 
 ---

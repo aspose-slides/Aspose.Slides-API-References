@@ -14,7 +14,7 @@ url: /php-java/coloroperationcollection/set_item/
  
 
 ### Returns
-ColorOperation
+void
 
 
 ---

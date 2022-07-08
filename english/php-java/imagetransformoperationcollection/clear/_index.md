@@ -12,6 +12,9 @@ url: /php-java/imagetransformoperationcollection/clear/
  Removes all image effects from a collection.
  
 
+### Returns
+void
+
 
 ---
 

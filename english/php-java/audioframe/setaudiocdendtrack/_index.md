@@ -14,7 +14,7 @@ url: /php-java/audioframe/setaudiocdendtrack/
  
 
 ### Returns
-int
+void
 
 
 ---

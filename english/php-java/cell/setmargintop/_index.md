@@ -14,7 +14,7 @@ url: /php-java/cell/setmargintop/
  
 
 ### Returns
-double
+void
 
 
 ---

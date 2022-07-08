@@ -16,7 +16,7 @@ url: /php-java/chartdatapointcollection/setdatasourcetypeforxvalues/
  
 
 ### Returns
-DataSourceType
+void
 
 
 ---

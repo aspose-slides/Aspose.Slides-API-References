@@ -19,7 +19,7 @@ url: /php-java/htmloptions/setjpegquality/
  
 
 ### Returns
-byte
+void
 
 
 ---

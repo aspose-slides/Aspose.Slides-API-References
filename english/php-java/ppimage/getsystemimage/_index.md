@@ -14,7 +14,7 @@ url: /php-java/ppimage/getsystemimage/
  
 
 ### Returns
-java.awt.image.BufferedImage
+BufferedImage
 
 
 ---

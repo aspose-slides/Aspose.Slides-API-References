@@ -14,7 +14,7 @@ url: /php-java/fonts/getlatinfont/
  
 
 ### Returns
-IFontData
+[FontData](../../fontdata)
 
 
 ---

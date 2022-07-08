@@ -14,7 +14,7 @@ url: /php-java/reflection/setscalevertical/
  
 
 ### Returns
-double
+void
 
 
 ---

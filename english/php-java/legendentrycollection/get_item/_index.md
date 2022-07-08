@@ -20,6 +20,9 @@ url: /php-java/legendentrycollection/get_item/
  or corresponding to Chart.ChartData.Series[index] for other chart types.
  
 
+### Returns
+[LegendEntryProperties](../../legendentryproperties)
+
 
 ---
 

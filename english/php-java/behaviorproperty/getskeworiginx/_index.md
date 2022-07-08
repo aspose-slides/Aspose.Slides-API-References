@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getskeworiginx/
  Represents 'skew.origin.x' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

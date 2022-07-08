@@ -16,7 +16,10 @@ url: /php-java/piesplitcustompointcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| dataPoint | ChartDataPoint | Data point add to. |
+| dataPoint | [ChartDataPoint](../../chartdatapoint) | Data point add to. |
+
+### Returns
+void
 
 
 ---

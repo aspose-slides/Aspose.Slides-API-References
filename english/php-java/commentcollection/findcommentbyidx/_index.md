@@ -19,7 +19,7 @@ url: /php-java/commentcollection/findcommentbyidx/
 | idx | int | Unique index of a comment to find {@code int}. |
 
 ### Returns
-Found comment or null IComment.
+[Comment](../../comment), [ModernComment](../../moderncomment)
 
 
 ---

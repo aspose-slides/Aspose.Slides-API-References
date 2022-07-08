@@ -20,6 +20,9 @@ url: /php-java/masternotesslideheaderfootermanager/setfooterandchildfooterstext/
 | --- | --- | --- |
 | text | String | Text to set. |
 
+### Returns
+void
+
 
 ---
 

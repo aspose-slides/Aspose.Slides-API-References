@@ -15,7 +15,7 @@ url: /php-java/chartwall/setthickness/
  
 
 ### Returns
-int
+void
 
 
 ---

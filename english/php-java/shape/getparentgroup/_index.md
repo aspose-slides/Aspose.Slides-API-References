@@ -16,7 +16,7 @@ url: /php-java/shape/getparentgroup/
  
 
 ### Returns
-#isGrouped
+[GroupShape](../../groupshape)
 
 
 ---

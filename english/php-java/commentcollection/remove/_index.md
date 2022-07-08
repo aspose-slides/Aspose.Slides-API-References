@@ -16,7 +16,10 @@ url: /php-java/commentcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| comment | Comment | The comment to remove from a collection. |
+| comment | [Comment](../../comment) | The comment to remove from a collection. |
+
+### Returns
+void
 
 ### Exception
 
@@ -37,7 +40,10 @@ url: /php-java/commentcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| comment | Comment | The comment to remove from a collection. |
+| comment | [ModernComment](../../moderncomment) | The comment to remove from a collection. |
+
+### Returns
+void
 
 ### Exception
 

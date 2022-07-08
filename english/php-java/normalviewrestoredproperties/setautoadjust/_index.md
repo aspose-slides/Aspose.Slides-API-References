@@ -15,7 +15,7 @@ url: /php-java/normalviewrestoredproperties/setautoadjust/
   
 
 ### Returns
-boolean
+void
 
 
 ---

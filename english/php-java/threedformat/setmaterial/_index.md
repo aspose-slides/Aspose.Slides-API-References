@@ -14,7 +14,7 @@ url: /php-java/threedformat/setmaterial/
  
 
 ### Returns
-MaterialPresetType
+void
 
 
 ---

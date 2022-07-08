@@ -12,6 +12,9 @@ url: /php-java/swfoptions/getstartopenleftpane/
  Start with opened left pane. Can be overridden in flashvars. Default is false. 
  
 
+### Returns
+boolean
+
 
 ---
 

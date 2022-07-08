@@ -12,6 +12,9 @@ url: /php-java/geometrypath/setstroke/
  Sets stroke appearance
  
 
+### Returns
+void
+
 
 ---
 

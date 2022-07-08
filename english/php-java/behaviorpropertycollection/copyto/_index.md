@@ -20,7 +20,7 @@ url: /php-java/behaviorpropertycollection/copyto/
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### Returns
-Array
+void
 
 ### Exception
 

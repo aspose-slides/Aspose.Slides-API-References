@@ -13,6 +13,9 @@ url: /php-java/oleobjectframe/isobjectlink/
  Read-only  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

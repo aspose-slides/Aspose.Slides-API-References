@@ -19,7 +19,7 @@ url: /php-java/alphamodulate/equals/
 | obj | Object | The AlphaModulate to compare. |
 
 ### Returns
-AlphaModulate
+boolean
 
 
 ---

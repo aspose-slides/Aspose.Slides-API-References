@@ -25,6 +25,9 @@ Example:
 | --- | --- | --- |
 | columnIndex | int | Index of the column after which to insert a new one |
 
+### Returns
+void
+
 
 ---
 

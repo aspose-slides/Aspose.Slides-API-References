@@ -14,7 +14,7 @@ url: /php-java/filtereffect/getreveal/
  
 
 ### Returns
-FilterEffectRevealType
+int
 
 
 ---

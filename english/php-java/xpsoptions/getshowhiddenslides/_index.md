@@ -13,6 +13,9 @@ url: /php-java/xpsoptions/getshowhiddenslides/
  Default is false.
  
 
+### Returns
+boolean
+
 
 ---
 

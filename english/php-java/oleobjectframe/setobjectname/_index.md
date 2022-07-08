@@ -14,7 +14,7 @@ url: /php-java/oleobjectframe/setobjectname/
  
 
 ### Returns
-String
+void
 
 
 ---

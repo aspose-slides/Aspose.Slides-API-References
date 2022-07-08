@@ -14,7 +14,7 @@ url: /php-java/motioncmdpath/getcommandtype/
  
 
 ### Returns
-MotionCommandPathType
+int
 
 
 ---

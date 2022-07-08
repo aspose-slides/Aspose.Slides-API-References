@@ -14,7 +14,7 @@ url: /php-java/shape/setalternativetext/
  
 
 ### Returns
-String
+void
 
 
 ---

@@ -15,6 +15,9 @@ url: /php-java/autoshape/istextbox/
  box is merely a specialized shape with specific properties.
  
 
+### Returns
+boolean
+
 
 ---
 

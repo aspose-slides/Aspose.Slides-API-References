@@ -29,10 +29,10 @@ url: /php-java/compress/removeunusedmasterslides/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation | The presentation instance |
+| pres | [Presentation](../../presentation) | The presentation instance |
 
 ### Returns
-Presentation
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/texttohtmlconversionoptions/setaddclipboardfragmentheader/
  
 
 ### Returns
-boolean
+void
 
 
 ---

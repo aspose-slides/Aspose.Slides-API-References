@@ -14,7 +14,7 @@ url: /php-java/marker/setsymbol/
  
 
 ### Returns
-MarkerStyleType
+void
 
 
 ---

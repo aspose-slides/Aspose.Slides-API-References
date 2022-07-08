@@ -16,8 +16,11 @@ url: /php-java/embedallfontshtmlcontroller/writedocumentstart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| presentation | Presentation | Presentation which being currently rendered. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| presentation | [Presentation](../../presentation) | Presentation which being currently rendered. |
+
+### Returns
+void
 
 
 ---

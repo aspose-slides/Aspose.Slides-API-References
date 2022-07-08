@@ -14,7 +14,7 @@ url: /php-java/point/settime/
  
 
 ### Returns
-float
+void
 
 
 ---

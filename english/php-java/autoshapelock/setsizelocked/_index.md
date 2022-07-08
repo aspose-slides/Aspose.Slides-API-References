@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/setsizelocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

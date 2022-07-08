@@ -14,7 +14,7 @@ url: /php-java/glittertransition/setpattern/
  
 
 ### Returns
-TransitionPattern
+void
 
 
 ---

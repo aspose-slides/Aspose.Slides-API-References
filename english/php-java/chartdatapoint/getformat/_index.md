@@ -14,7 +14,7 @@ url: /php-java/chartdatapoint/getformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

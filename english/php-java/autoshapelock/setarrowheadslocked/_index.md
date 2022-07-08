@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/setarrowheadslocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

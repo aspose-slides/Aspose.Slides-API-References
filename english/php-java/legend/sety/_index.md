@@ -14,7 +14,7 @@ url: /php-java/legend/sety/
  
 
 ### Returns
-float
+void
 
 
 ---

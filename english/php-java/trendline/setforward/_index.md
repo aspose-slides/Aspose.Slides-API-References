@@ -16,7 +16,7 @@ url: /php-java/trendline/setforward/
  
 
 ### Returns
-double
+void
 
 
 ---

@@ -18,6 +18,9 @@ url: /php-java/piesplitcustompointcollection/add/
 | --- | --- | --- |
 | dataPointIndex | int | Index of data point in parent series points collection. |
 
+### Returns
+void
+
 
 ---
 

@@ -26,6 +26,9 @@ The example demonstrates getting Summary Zoom Section element by index:
   }
 ```
 
+### Returns
+void
+
 
 ---
 

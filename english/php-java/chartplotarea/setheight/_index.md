@@ -14,7 +14,7 @@ url: /php-java/chartplotarea/setheight/
  
 
 ### Returns
-float
+void
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/chartcategorycollection/clear/
  Removes all elements from the collection.
  
 
+### Returns
+void
+
 
 ---
 

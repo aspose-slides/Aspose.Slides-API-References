@@ -26,7 +26,7 @@ url: /php-java/pictureframe/setshapetype/
  
 
 ### Returns
-ShapeType
+void
 
 
 ---

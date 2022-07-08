@@ -15,7 +15,7 @@ url: /php-java/mastertheme/getextracolorschemes/
  
 
 ### Returns
-IExtraColorSchemeCollection
+[ExtraColorSchemeCollection](../../extracolorschemecollection)
 
 
 ---

@@ -18,6 +18,9 @@ Example:
   $naryOperator->setHideSubscript(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

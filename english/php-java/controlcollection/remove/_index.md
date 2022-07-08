@@ -16,7 +16,10 @@ url: /php-java/controlcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Control | A control to remove. |
+| item | [Control](../../control) | A control to remove. |
+
+### Returns
+void
 
 
 ---

@@ -13,7 +13,7 @@ url: /php-java/documentproperties/clonet/
  
 
 ### Returns
-Clone
+[DocumentProperties](../../documentproperties)
 
 
 ---

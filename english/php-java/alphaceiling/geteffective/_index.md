@@ -13,7 +13,7 @@ url: /php-java/alphaceiling/geteffective/
  
 
 ### Returns
-A IAlphaCeilingEffectiveData.
+
 
 
 ---

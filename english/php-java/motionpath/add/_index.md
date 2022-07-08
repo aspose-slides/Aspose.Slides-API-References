@@ -21,6 +21,9 @@ url: /php-java/motionpath/add/
 | ptsType | int | MotionPathPointsType |
 | bRelativeCoord | boolean | Relative coordinates boolean |
 
+### Returns
+[MotionCmdPath](../../motioncmdpath)
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/audioframe/setaudiocdstarttrack/
  
 
 ### Returns
-int
+void
 
 
 ---

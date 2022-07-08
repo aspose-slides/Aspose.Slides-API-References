@@ -12,6 +12,9 @@ url: /php-java/fontsubstrulecollection/get_item/
  Gets the element at the specified index.
  
 
+### Returns
+[FontSubstRule](../../fontsubstrule)
+
 
 ---
 

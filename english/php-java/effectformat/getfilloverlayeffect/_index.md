@@ -14,7 +14,7 @@ url: /php-java/effectformat/getfilloverlayeffect/
  
 
 ### Returns
-IFillOverlay
+[FillOverlay](../../filloverlay)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/glittertransition/getpattern/
  
 
 ### Returns
-TransitionPattern
+int
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/axis/setlogbase/
   
 
 ### Returns
-double
+void
 
 
 ---

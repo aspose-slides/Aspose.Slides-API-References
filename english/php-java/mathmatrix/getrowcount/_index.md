@@ -18,6 +18,9 @@ Example:
   $rowCount = $matrix->getRowCount();
 ```
 
+### Returns
+int
+
 
 ---
 

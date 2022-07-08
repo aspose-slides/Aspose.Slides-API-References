@@ -14,7 +14,7 @@ url: /php-java/axis/setautomaticminvalue/
   
 
 ### Returns
-boolean
+void
 
 
 ---

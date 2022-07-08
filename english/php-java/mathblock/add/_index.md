@@ -23,7 +23,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [BaseScript](../../basescript) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -45,7 +48,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathAccent](../../mathaccent) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -67,7 +73,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathArray](../../matharray) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -89,7 +98,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathBar](../../mathbar) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -111,7 +123,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathBlock](../../mathblock) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -133,7 +148,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathBorderBox](../../mathborderbox) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -155,7 +173,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathBox](../../mathbox) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -177,7 +198,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathDelimiter](../../mathdelimiter) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -199,7 +223,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathElementBase](../../mathelementbase) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -221,7 +248,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathematicalText](../../mathematicaltext) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -243,7 +273,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathFraction](../../mathfraction) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -265,7 +298,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathFunction](../../mathfunction) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -287,7 +323,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -309,7 +348,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -331,7 +373,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathLimit](../../mathlimit) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -353,7 +398,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathMatrix](../../mathmatrix) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -375,7 +423,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathNaryOperator](../../mathnaryoperator) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -397,7 +448,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathRadical](../../mathradical) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -419,7 +473,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -441,7 +498,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathSubscriptElement](../../mathsubscriptelement) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -463,7 +523,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The IMathElement to be added to the end of the collection. |
+| item | [MathSuperscriptElement](../../mathsuperscriptelement) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---

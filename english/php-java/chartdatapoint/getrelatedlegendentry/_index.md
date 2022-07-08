@@ -20,7 +20,7 @@ url: /php-java/chartdatapoint/getrelatedlegendentry/
  
 
 ### Returns
-ILegendEntryProperties
+[LegendEntryProperties](../../legendentryproperties)
 
 
 ---

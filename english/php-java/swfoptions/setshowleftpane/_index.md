@@ -12,6 +12,9 @@ url: /php-java/swfoptions/setshowleftpane/
  Show/hide left pane. Can be overridden in flashvars. Default is true. 
  
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/axisformat/getfill/
  
 
 ### Returns
-IFillFormat
+[FillFormat](../../fillformat)
 
 
 ---

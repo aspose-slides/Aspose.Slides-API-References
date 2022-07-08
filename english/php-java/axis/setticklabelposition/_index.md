@@ -14,7 +14,7 @@ url: /php-java/axis/setticklabelposition/
   
 
 ### Returns
-TickLabelPositionType
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/presentation/getcustomdata/
  
 
 ### Returns
-ICustomData
+[CustomData](../../customdata)
 
 
 ---

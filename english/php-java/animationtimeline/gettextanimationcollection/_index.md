@@ -14,7 +14,7 @@ url: /php-java/animationtimeline/gettextanimationcollection/
  
 
 ### Returns
-ITextAnimationCollection
+[TextAnimationCollection](../../textanimationcollection)
 
 
 ---

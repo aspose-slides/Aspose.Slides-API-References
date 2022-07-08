@@ -16,10 +16,10 @@ url: /php-java/portioncollection/contains/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | MathPortion | The object to locate in the IGenericCollection. |
+| item | [MathPortion](../../mathportion) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -34,10 +34,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | MathPortion | The object to locate in the IGenericCollection. |
+| item | [Portion](../../portion) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---

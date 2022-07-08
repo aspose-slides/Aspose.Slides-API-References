@@ -14,7 +14,7 @@ url: /php-java/effectstyle/getthreedformat/
  
 
 ### Returns
-IThreeDFormat
+[ThreeDFormat](../../threedformat)
 
 
 ---

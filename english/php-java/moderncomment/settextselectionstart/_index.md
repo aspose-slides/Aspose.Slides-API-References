@@ -14,7 +14,7 @@ url: /php-java/moderncomment/settextselectionstart/
  
 
 ### Returns
-int
+void
 
 
 ---

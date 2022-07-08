@@ -18,6 +18,9 @@ Example:
   $zoomSection->setTitle("Title");
 ```
 
+### Returns
+String
+
 
 ---
 

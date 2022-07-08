@@ -13,6 +13,9 @@ url: /php-java/interruptiontoken/throwifinterruptionrequested/
  interruption was requested.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

@@ -18,6 +18,9 @@ Example:
   $limitElement->setUpperLimit(false);
 ```
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/outershadow/getrectanglealign/
  
 
 ### Returns
-RectangleAlignment
+byte
 
 
 ---

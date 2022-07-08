@@ -21,7 +21,7 @@ url: /php-java/fontfallbackrule/toarray/
 ```
 
 ### Returns
-Array of String
+String
 
 
 ---
@@ -53,7 +53,7 @@ Array of String
 | count | int | A number of fonts to add. |
 
 ### Returns
-Array of String
+String
 
 
 ---

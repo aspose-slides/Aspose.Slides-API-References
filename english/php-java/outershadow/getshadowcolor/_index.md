@@ -14,7 +14,7 @@ url: /php-java/outershadow/getshadowcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

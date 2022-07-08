@@ -12,6 +12,9 @@ url: /php-java/overridetheme/initformatscheme/
  Init FormatScheme with new object for overriding FormatScheme of InheritedTheme.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

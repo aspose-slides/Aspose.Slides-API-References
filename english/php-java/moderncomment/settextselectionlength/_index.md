@@ -14,7 +14,7 @@ url: /php-java/moderncomment/settextselectionlength/
  
 
 ### Returns
-int
+void
 
 
 ---

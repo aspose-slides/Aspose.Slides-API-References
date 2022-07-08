@@ -14,7 +14,7 @@ url: /php-java/notesslide/getheaderfootermanager/
  
 
 ### Returns
-INotesSlideHeaderFooterManager
+[NotesSlideHeaderFooterManager](../../notesslideheaderfootermanager)
 
 
 ---

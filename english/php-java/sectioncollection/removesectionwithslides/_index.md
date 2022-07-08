@@ -16,7 +16,10 @@ url: /php-java/sectioncollection/removesectionwithslides/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| section | Section | The section to remove from the collection. |
+| section | [Section](../../section) | The section to remove from the collection. |
+
+### Returns
+void
 
 
 ---

@@ -16,10 +16,10 @@ url: /php-java/audiocollection/addaudio/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| audio | Audio | Source audio. |
+| audio | [Audio](../../audio) | Source audio. |
 
 ### Returns
-Added audio.
+[Audio](../../audio)
 
 
 ---
@@ -37,7 +37,7 @@ Added audio.
 | stream | InputStream | Stream to add audio from. |
 
 ### Returns
-Added audio.
+[Audio](../../audio)
 
 
 ---
@@ -56,7 +56,7 @@ Added audio.
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
 ### Returns
-Added audio.
+[Audio](../../audio)
 
 
 ---
@@ -74,7 +74,7 @@ Added audio.
 | audioData | byte[] | Audio bytes. |
 
 ### Returns
-Added audio.
+[Audio](../../audio)
 
 
 ---

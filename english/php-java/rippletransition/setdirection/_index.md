@@ -14,7 +14,7 @@ url: /php-java/rippletransition/setdirection/
  
 
 ### Returns
-TransitionCornerAndCenterDirectionType
+void
 
 
 ---

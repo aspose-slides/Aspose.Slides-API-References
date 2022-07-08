@@ -17,11 +17,11 @@ url: /php-java/rowcollection/insertclone/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a new row. |
-| templ | Row | Row which is used as a template. |
+| templ | [Row](../row) | Row which is used as a template. |
 | withAttachedRows | boolean | True to copy also all rows attached to the template row. |
 
 ### Returns
-Inserted rows.
+[Row](../../row)
 
 
 ---

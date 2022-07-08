@@ -14,7 +14,7 @@ url: /php-java/tab/getalignment/
  
 
 ### Returns
-TabAlignment
+int
 
 
 ---

@@ -16,7 +16,7 @@ url: /php-java/xpsoptions/setdrawslidesframe/
  
 
 ### Returns
-boolean
+void
 
 
 ---

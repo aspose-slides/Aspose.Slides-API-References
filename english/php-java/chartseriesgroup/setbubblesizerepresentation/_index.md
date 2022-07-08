@@ -14,7 +14,7 @@ url: /php-java/chartseriesgroup/setbubblesizerepresentation/
  
 
 ### Returns
-BubbleSizeRepresentationType
+void
 
 
 ---

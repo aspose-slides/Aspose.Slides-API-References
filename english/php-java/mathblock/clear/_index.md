@@ -18,6 +18,9 @@ Example:
   $mathBlock->clear();
 ```
 
+### Returns
+void
+
 
 ---
 

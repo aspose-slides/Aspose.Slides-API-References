@@ -15,7 +15,7 @@ url: /php-java/slideshowtransition/setspeed/
  
 
 ### Returns
-TransitionSpeed
+void
 
 
 ---

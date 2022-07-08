@@ -15,7 +15,7 @@ url: /php-java/slideshowtransition/setadvanceonclick/
  
 
 ### Returns
-boolean
+void
 
 
 ---

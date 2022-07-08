@@ -14,7 +14,7 @@ url: /php-java/axesmanager/gethorizontalaxis/
   
 
 ### Returns
-IAxis
+[Axis](../../axis)
 
 
 ---

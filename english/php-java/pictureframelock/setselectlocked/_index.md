@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/setselectlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

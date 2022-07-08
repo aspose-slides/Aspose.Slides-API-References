@@ -20,6 +20,9 @@ url: /php-java/chartseries/getbubblesizescale/
  This is the projection of the property ParentSeriesGroup.BubbleSizeScale.
  
 
+### Returns
+int
+
 
 ---
 

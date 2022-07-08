@@ -14,7 +14,7 @@ url: /php-java/chartseries/setorder/
  
 
 ### Returns
-int
+void
 
 
 ---

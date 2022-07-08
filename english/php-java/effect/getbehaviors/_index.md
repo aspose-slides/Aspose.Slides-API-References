@@ -14,7 +14,7 @@ url: /php-java/effect/getbehaviors/
  
 
 ### Returns
-IBehaviorCollection
+[BehaviorCollection](../../behaviorcollection)
 
 
 ---

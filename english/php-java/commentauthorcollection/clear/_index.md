@@ -12,6 +12,9 @@ url: /php-java/commentauthorcollection/clear/
  Removes all authors from a collection.
  
 
+### Returns
+void
+
 
 ---
 

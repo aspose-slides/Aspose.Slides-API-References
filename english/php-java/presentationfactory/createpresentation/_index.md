@@ -13,7 +13,7 @@ url: /php-java/presentationfactory/createpresentation/
  
 
 ### Returns
-New presentation
+[Presentation](../../presentation)
 
 
 ---
@@ -28,10 +28,10 @@ New presentation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | LoadOptions | Load options |
+| options | [LoadOptions](../../loadoptions) | Load options |
 
 ### Returns
-New presentation
+[Presentation](../../presentation)
 
 
 ---

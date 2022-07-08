@@ -28,7 +28,7 @@ url: /php-java/html5options/setanimateshapes/
 ```
 
 ### Returns
-boolean
+void
 
 
 ---

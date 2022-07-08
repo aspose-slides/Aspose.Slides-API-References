@@ -14,7 +14,7 @@ url: /php-java/portionformat/setbookmarkid/
  
 
 ### Returns
-String
+void
 
 
 ---

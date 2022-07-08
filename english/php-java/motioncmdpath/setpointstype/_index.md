@@ -14,7 +14,7 @@ url: /php-java/motioncmdpath/setpointstype/
  
 
 ### Returns
-MotionPathPointsType
+void
 
 
 ---

@@ -10,6 +10,9 @@ url: /php-java/glow/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

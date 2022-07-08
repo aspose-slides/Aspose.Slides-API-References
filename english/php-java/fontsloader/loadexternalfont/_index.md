@@ -18,6 +18,9 @@ url: /php-java/fontsloader/loadexternalfont/
 | --- | --- | --- |
 | data | byte[] | Font's data |
 
+### Returns
+void
+
 
 ---
 

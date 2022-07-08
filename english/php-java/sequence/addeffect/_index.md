@@ -16,13 +16,13 @@ url: /php-java/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [AudioFrame](../audioframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -37,13 +37,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [AutoShape](../autoshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -58,13 +58,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [Chart](../chart) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -79,13 +79,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [Connector](../connector) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -100,13 +100,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [GeometryShape](../geometryshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -121,13 +121,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [GraphicalObject](../graphicalobject) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -142,13 +142,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [GroupShape](../groupshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -163,13 +163,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [Ink](../ink) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -184,13 +184,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [LegacyDiagram](../legacydiagram) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -205,13 +205,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [OleObjectFrame](../oleobjectframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -226,13 +226,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [PictureFrame](../pictureframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -247,13 +247,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -268,13 +268,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [Shape](../shape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -289,13 +289,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [SmartArt](../smartart) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -310,13 +310,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [SmartArtShape](../smartartshape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -331,13 +331,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [SummaryZoomFrame](../summaryzoomframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -352,13 +352,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [SummaryZoomSection](../summaryzoomsection) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -373,13 +373,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [Table](../table) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -394,13 +394,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [VideoFrame](../videoframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -415,13 +415,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [ZoomFrame](../zoomframe) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -436,13 +436,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | Shape object IShape for adding an effect |
-| effectType | AutoShape | Type of an animation effect EffectType |
-| subtype | Chart | Subtypes of animation effect EffectSubtype |
-| triggerType | Connector | Trigger type of effect EffectTriggerType |
+| shape | [ZoomObject](../zoomobject) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -473,13 +473,13 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| paragraph | Paragraph | Paragraph object IParagraph |
+| paragraph | [Paragraph](../paragraph) | Paragraph object IParagraph |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -494,7 +494,7 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| chart | Chart | Chart object IChart |
+| chart | [Chart](../chart) | Chart object IChart |
 | type | int | Type of an animation effect EffectChartMinorGroupingType |
 | index | int | Index int |
 | effectType | int | Type of an animation effect EffectType |
@@ -502,7 +502,7 @@ New effect object IEffect
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---
@@ -517,7 +517,7 @@ New effect object IEffect
 
 | Name | Type | Description |
 | --- | --- | --- |
-| chart | Chart | Chart object IChart |
+| chart | [Chart](../chart) | Chart object IChart |
 | type | int | Type of an animation effect EffectChartMinorGroupingType |
 | seriesIndex | int | Index of chart series int |
 | categoriesIndex | int | Index of category int |
@@ -526,7 +526,7 @@ New effect object IEffect
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
 ### Returns
-New effect object IEffect
+[Effect](../../effect)
 
 
 ---

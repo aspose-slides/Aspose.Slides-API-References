@@ -34,10 +34,10 @@ url: /php-java/chartdatapointcollection/adddatapointformapseries/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartDataCell | Data point ColorValue |
+| value | [ChartDataCell](../../chartdatacell) | Data point ColorValue |
 
 ### Returns
-New data point.
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---

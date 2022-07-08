@@ -25,10 +25,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [BaseScript](../../basescript) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -52,10 +52,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathAccent](../../mathaccent) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -79,10 +79,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathArray](../../matharray) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -106,10 +106,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathBar](../../mathbar) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -133,10 +133,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathBlock](../../mathblock) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -160,10 +160,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathBorderBox](../../mathborderbox) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -187,10 +187,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathBox](../../mathbox) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -214,10 +214,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathDelimiter](../../mathdelimiter) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -241,10 +241,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathElementBase](../../mathelementbase) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -268,10 +268,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathematicalText](../../mathematicaltext) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -295,10 +295,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathFraction](../../mathfraction) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -322,10 +322,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathFunction](../../mathfunction) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -349,10 +349,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -376,10 +376,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -403,10 +403,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathLimit](../../mathlimit) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -430,10 +430,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathMatrix](../../mathmatrix) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -457,10 +457,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathNaryOperator](../../mathnaryoperator) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -484,10 +484,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathRadical](../../mathradical) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -511,10 +511,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -538,10 +538,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathSubscriptElement](../../mathsubscriptelement) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---
@@ -565,10 +565,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BaseScript | The object to locate in the collection. |
+| item | [MathSuperscriptElement](../../mathsuperscriptelement) | The object to locate in the collection. |
 
 ### Returns
-true if item is found in the collection; otherwise, false.
+boolean
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/autoshape/getshapelock/
  
 
 ### Returns
-IAutoShapeLock
+[AutoShapeLock](../../autoshapelock)
 
 
 ---

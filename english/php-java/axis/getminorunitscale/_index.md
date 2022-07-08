@@ -14,7 +14,7 @@ url: /php-java/axis/getminorunitscale/
   
 
 ### Returns
-TimeUnitType
+int
 
 
 ---

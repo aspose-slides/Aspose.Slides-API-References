@@ -14,7 +14,7 @@ url: /php-java/hyperlink/setstopsoundonclick/
  
 
 ### Returns
-boolean
+void
 
 
 ---

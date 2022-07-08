@@ -18,6 +18,9 @@ url: /php-java/behaviorcollection/set_item/
 | --- | --- | --- |
 | index | int | Index of a behavior to return. |
 
+### Returns
+void
+
 
 ---
 
@@ -32,6 +35,9 @@ url: /php-java/behaviorcollection/set_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a behavior to return. |
+
+### Returns
+void
 
 
 ---
@@ -48,6 +54,9 @@ url: /php-java/behaviorcollection/set_item/
 | --- | --- | --- |
 | index | int | Index of a behavior to return. |
 
+### Returns
+void
+
 
 ---
 
@@ -62,6 +71,9 @@ url: /php-java/behaviorcollection/set_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a behavior to return. |
+
+### Returns
+void
 
 
 ---
@@ -78,6 +90,9 @@ url: /php-java/behaviorcollection/set_item/
 | --- | --- | --- |
 | index | int | Index of a behavior to return. |
 
+### Returns
+void
+
 
 ---
 
@@ -92,6 +107,9 @@ url: /php-java/behaviorcollection/set_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a behavior to return. |
+
+### Returns
+void
 
 
 ---
@@ -108,6 +126,9 @@ url: /php-java/behaviorcollection/set_item/
 | --- | --- | --- |
 | index | int | Index of a behavior to return. |
 
+### Returns
+void
+
 
 ---
 
@@ -123,6 +144,9 @@ url: /php-java/behaviorcollection/set_item/
 | --- | --- | --- |
 | index | int | Index of a behavior to return. |
 
+### Returns
+void
+
 
 ---
 
@@ -137,6 +161,9 @@ url: /php-java/behaviorcollection/set_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a behavior to return. |
+
+### Returns
+void
 
 
 ---

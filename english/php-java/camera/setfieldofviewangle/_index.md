@@ -14,7 +14,7 @@ url: /php-java/camera/setfieldofviewangle/
  
 
 ### Returns
-float
+void
 
 
 ---

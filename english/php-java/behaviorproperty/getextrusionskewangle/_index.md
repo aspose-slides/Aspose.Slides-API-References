@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionskewangle/
  Represents 'extrusion.skewangle' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

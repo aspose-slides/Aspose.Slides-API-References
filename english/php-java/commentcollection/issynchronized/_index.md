@@ -13,6 +13,9 @@ url: /php-java/commentcollection/issynchronized/
  Read-only  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

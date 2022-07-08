@@ -15,7 +15,7 @@ url: /php-java/animationtimeline/getinteractivesequences/
  
 
 ### Returns
-ISequenceCollection
+[SequenceCollection](../../sequencecollection)
 
 
 ---

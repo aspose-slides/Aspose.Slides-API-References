@@ -25,6 +25,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -33,6 +36,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---
@@ -43,6 +49,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -51,6 +60,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---
@@ -61,6 +73,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -69,6 +84,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---
@@ -79,6 +97,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -87,6 +108,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---
@@ -97,6 +121,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -105,6 +132,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---
@@ -115,6 +145,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -123,6 +156,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---
@@ -133,6 +169,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -141,6 +180,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---
@@ -151,6 +193,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -159,6 +204,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---
@@ -169,6 +217,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -177,6 +228,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---
@@ -187,6 +241,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -196,6 +253,9 @@ int
  Returns count of effects for the specified shape.
  
 
+### Returns
+int
+
 
 ---
 
@@ -204,6 +264,9 @@ int
 
  Returns count of effects for the specified shape.
  
+
+### Returns
+int
 
 
 ---

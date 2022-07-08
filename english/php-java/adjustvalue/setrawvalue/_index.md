@@ -14,7 +14,7 @@ url: /php-java/adjustvalue/setrawvalue/
  
 
 ### Returns
-long
+void
 
 
 ---

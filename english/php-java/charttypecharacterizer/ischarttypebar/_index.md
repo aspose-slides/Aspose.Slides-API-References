@@ -29,7 +29,7 @@ url: /php-java/charttypecharacterizer/ischarttypebar/
  
 
 ### Returns
-ChartType#PercentsStackedHorizontalPyramid
+boolean
 
 
 ---

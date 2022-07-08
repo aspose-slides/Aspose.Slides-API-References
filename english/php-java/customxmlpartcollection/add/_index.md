@@ -19,7 +19,7 @@ url: /php-java/customxmlpartcollection/add/
 | xmlString | String | The xml string of new part to be added. |
 
 ### Returns
-Created custom xml part.
+[CustomXmlPart](../../customxmlpart)
 
 ### Exception
 
@@ -43,7 +43,7 @@ Created custom xml part.
 | xmlData | byte[] | The xml data of new part to be added. |
 
 ### Returns
-Created custom xml part.
+[CustomXmlPart](../../customxmlpart)
 
 ### Exception
 
@@ -67,7 +67,7 @@ Created custom xml part.
 | inputStream | InputStream | The inputStream with xml data of new part to be added. |
 
 ### Returns
-Created custom xml part.
+[CustomXmlPart](../../customxmlpart)
 
 ### Exception
 

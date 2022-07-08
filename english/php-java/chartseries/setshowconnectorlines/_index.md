@@ -12,6 +12,9 @@ url: /php-java/chartseries/setshowconnectorlines/
  Represents connector lines. Applies only to Waterfall charts.
  
 
+### Returns
+void
+
 
 ---
 

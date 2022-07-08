@@ -14,7 +14,7 @@ url: /php-java/effectformat/setoutershadoweffect/
  
 
 ### Returns
-IOuterShadow
+void
 
 
 ---

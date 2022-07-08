@@ -19,7 +19,7 @@ url: /php-java/charttypecharacterizer/hasseriestrendlines/
 | seriesType | int | Series type. |
 
 ### Returns
-True if present otherwise false.
+boolean
 
 
 ---

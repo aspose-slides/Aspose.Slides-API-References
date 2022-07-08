@@ -14,7 +14,7 @@ url: /php-java/videoframe/sethideatshowing/
  
 
 ### Returns
-boolean
+void
 
 
 ---

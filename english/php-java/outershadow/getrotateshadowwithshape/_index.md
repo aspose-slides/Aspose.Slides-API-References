@@ -13,6 +13,9 @@ url: /php-java/outershadow/getrotateshadowwithshape/
  Read/write  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

@@ -20,6 +20,9 @@ Example:
   $box->setAlignmentPoint(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

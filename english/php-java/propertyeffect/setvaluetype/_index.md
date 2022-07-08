@@ -14,7 +14,7 @@ url: /php-java/propertyeffect/setvaluetype/
  
 
 ### Returns
-PropertyValueType
+void
 
 
 ---

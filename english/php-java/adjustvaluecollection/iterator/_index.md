@@ -12,6 +12,9 @@ url: /php-java/adjustvaluecollection/iterator/
  Returns an enumerator for the entire collection.
  
 
+### Returns
+IEnumerator
+
 
 ---
 

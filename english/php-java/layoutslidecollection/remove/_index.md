@@ -16,7 +16,10 @@ url: /php-java/layoutslidecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | LayoutSlide | The layout slide to remove from the collection. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove method to simplify code. |
+| value | [LayoutSlide](../../layoutslide) | The layout slide to remove from the collection. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove method to simplify code. |
+
+### Returns
+void
 
 ### Exception
 

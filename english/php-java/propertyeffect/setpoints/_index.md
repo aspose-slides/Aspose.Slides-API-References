@@ -14,7 +14,7 @@ url: /php-java/propertyeffect/setpoints/
  
 
 ### Returns
-IPointCollection
+void
 
 
 ---

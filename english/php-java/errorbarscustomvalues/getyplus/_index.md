@@ -16,7 +16,7 @@ url: /php-java/errorbarscustomvalues/getyplus/
  
 
 ### Returns
-IDoubleChartValue
+[DoubleChartValue](../../doublechartvalue)
 
 
 ---

@@ -10,6 +10,9 @@ url: /php-java/behaviorpropertycollection/indexofitem/
 ## indexOfItem([BehaviorProperty](../../behaviorproperty) item)  method
 
 
+### Returns
+int
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/motioncmdpath/getpointstype/
  
 
 ### Returns
-MotionPathPointsType
+int
 
 
 ---

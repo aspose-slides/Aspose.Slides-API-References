@@ -14,7 +14,7 @@ url: /php-java/stringordoublechartvalue/getascell/
  
 
 ### Returns
-IChartDataCell
+[ChartDataCell](../../chartdatacell)
 
 
 ---

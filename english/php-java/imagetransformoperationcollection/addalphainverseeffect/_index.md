@@ -13,7 +13,7 @@ url: /php-java/imagetransformoperationcollection/addalphainverseeffect/
  
 
 ### Returns
-Index of the new image effect in a collection.
+[AlphaInverse](../../alphainverse)
 
 
 ---

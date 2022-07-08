@@ -12,6 +12,9 @@ url: /php-java/paragraphcollection/clear/
  Removes all elements from the collection.
  
 
+### Returns
+void
+
 
 ---
 

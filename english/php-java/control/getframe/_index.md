@@ -14,7 +14,7 @@ url: /php-java/control/getframe/
  
 
 ### Returns
-IShapeFrame
+[ShapeFrame](../../shapeframe)
 
 
 ---

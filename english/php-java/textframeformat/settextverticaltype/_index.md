@@ -16,7 +16,7 @@ url: /php-java/textframeformat/settextverticaltype/
  
 
 ### Returns
-TextVerticalType
+void
 
 
 ---

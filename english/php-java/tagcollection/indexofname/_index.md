@@ -19,7 +19,7 @@ url: /php-java/tagcollection/indexofname/
 | name | String | The name to locate in the collection. |
 
 ### Returns
-The zero-based index of key, if key is found in the collection; otherwise, -1.
+int
 
 
 ---

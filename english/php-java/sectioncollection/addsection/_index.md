@@ -17,10 +17,10 @@ url: /php-java/sectioncollection/addsection/
 | Name | Type | Description |
 | --- | --- | --- |
 | name | String | Name of the section |
-| startedFromSlide | Slide | First slide of section |
+| startedFromSlide | [Slide](../../slide) | First slide of section |
 
 ### Returns
-Added section.
+[Section](../../section)
 
 
 ---

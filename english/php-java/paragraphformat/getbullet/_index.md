@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/getbullet/
  
 
 ### Returns
-IBulletFormat
+[BulletFormat](../../bulletformat)
 
 
 ---

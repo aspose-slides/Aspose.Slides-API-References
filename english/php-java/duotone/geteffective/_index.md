@@ -13,7 +13,7 @@ url: /php-java/duotone/geteffective/
  
 
 ### Returns
-A IDuotoneEffectiveData.
+
 
 
 ---

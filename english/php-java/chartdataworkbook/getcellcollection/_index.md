@@ -19,6 +19,9 @@ url: /php-java/chartdataworkbook/getcellcollection/
 | formula | String | Excel formula like "Sheet1!$A$2:$A$5". |
 | skipHiddenCells | boolean | If true then method returns collection without hidden cells. |
 
+### Returns
+[ChartCellCollection](../../chartcellcollection)
+
 
 ---
 

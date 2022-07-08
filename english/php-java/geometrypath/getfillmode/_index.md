@@ -12,6 +12,9 @@ url: /php-java/geometrypath/getfillmode/
  Sets fill mode
  
 
+### Returns
+byte
+
 
 ---
 

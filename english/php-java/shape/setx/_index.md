@@ -16,6 +16,9 @@ url: /php-java/shape/setx/
  Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties.
  
 
+### Returns
+void
+
 
 ---
 

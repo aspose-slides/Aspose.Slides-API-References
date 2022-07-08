@@ -16,10 +16,10 @@ url: /php-java/portioncollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | MathPortion | The object to remove from the IGenericCollection. |
+| item | [MathPortion](../../mathportion) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 
@@ -40,10 +40,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | MathPortion | The object to remove from the IGenericCollection. |
+| item | [Portion](../../portion) | The object to remove from the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 ### Exception
 

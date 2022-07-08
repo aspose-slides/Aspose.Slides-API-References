@@ -14,7 +14,7 @@ url: /php-java/videoframe/setembeddedvideo/
  
 
 ### Returns
-IVideo
+void
 
 
 ---

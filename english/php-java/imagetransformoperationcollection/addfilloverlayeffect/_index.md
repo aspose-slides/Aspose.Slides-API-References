@@ -13,7 +13,7 @@ url: /php-java/imagetransformoperationcollection/addfilloverlayeffect/
  
 
 ### Returns
-Index of the new image effect in a collection.
+[FillOverlay](../../filloverlay)
 
 
 ---

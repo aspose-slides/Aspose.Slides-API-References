@@ -14,7 +14,7 @@ url: /php-java/legend/setwidth/
  
 
 ### Returns
-float
+void
 
 
 ---

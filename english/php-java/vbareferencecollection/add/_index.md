@@ -12,6 +12,9 @@ url: /php-java/vbareferencecollection/add/
  Adds the new reference to references collection
  
 
+### Returns
+void
+
 
 ---
 

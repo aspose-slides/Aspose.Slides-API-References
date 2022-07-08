@@ -14,7 +14,7 @@ url: /php-java/threedformat/setdepth/
  
 
 ### Returns
-double
+void
 
 
 ---

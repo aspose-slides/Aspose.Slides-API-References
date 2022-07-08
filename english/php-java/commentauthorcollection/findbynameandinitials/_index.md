@@ -20,7 +20,7 @@ url: /php-java/commentauthorcollection/findbynameandinitials/
 | initials | String | Initials of an author to find. |
 
 ### Returns
-Author or null.
+[CommentAuthor](../../commentauthor)
 
 
 ---

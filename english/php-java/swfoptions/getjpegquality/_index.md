@@ -13,6 +13,9 @@ url: /php-java/swfoptions/getjpegquality/
  Default is 95.
  
 
+### Returns
+int
+
 
 ---
 

@@ -17,10 +17,10 @@ url: /php-java/slidecollection/insertemptyslide/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a new slide. |
-| layout | LayoutSlide | Layout for a slide. |
+| layout | [LayoutSlide](../../layoutslide) | Layout for a slide. |
 
 ### Returns
-Inserted slide.
+[Slide](../../slide)
 
 
 ---

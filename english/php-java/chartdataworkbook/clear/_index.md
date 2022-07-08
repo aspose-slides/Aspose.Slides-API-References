@@ -18,6 +18,9 @@ url: /php-java/chartdataworkbook/clear/
 | --- | --- | --- |
 | sheetIndex | int | Index of sheet |
 
+### Returns
+void
+
 
 ---
 

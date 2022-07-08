@@ -12,6 +12,9 @@ url: /php-java/datalabel/getvaluefromcell/
  Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true.
  
 
+### Returns
+[ChartDataCell](../../chartdatacell)
+
 
 ---
 

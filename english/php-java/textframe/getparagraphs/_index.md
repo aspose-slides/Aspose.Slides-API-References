@@ -14,7 +14,7 @@ url: /php-java/textframe/getparagraphs/
  
 
 ### Returns
-IParagraphCollection
+[ParagraphCollection](../../paragraphcollection)
 
 
 ---

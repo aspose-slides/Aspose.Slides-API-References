@@ -10,6 +10,9 @@ url: /php-java/chart/getchart/
 ## getChart()  method
 
 
+### Returns
+[Chart](../../chart)
+
 
 ---
 

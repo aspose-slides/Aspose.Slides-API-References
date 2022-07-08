@@ -19,7 +19,7 @@ url: /php-java/sequence/get_item/
 | index | int | Index of element. |
 
 ### Returns
-The IEffect object.
+[Effect](../../effect)
 
 
 ---

@@ -19,6 +19,9 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 | name | String | Name of the custom property to set |
 | value | boolean | Custom property value |
 
+### Returns
+void
+
 
 ---
 
@@ -34,6 +37,9 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 | --- | --- | --- |
 | name | String | Name of the custom property to set |
 | value | int | Custom property value |
+
+### Returns
+void
 
 
 ---
@@ -51,6 +57,9 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 | name | String | Name of the custom property to set |
 | value | Date | Custom property value |
 
+### Returns
+void
+
 
 ---
 
@@ -66,6 +75,9 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 | --- | --- | --- |
 | name | String | Name of the custom property to set |
 | value | String | Custom property value |
+
+### Returns
+void
 
 
 ---
@@ -83,6 +95,9 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 | name | String | Name of the custom property to set |
 | value | float | Custom property value |
 
+### Returns
+void
+
 
 ---
 
@@ -98,6 +113,9 @@ url: /php-java/documentproperties/setcustompropertyvalue/
 | --- | --- | --- |
 | name | String | Name of the custom property to set |
 | value | double | Custom property value |
+
+### Returns
+void
 
 
 ---

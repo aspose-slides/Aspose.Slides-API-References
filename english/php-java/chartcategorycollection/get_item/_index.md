@@ -13,7 +13,7 @@ url: /php-java/chartcategorycollection/get_item/
  
 
 ### Returns
-The element at the specified index.
+[ChartCategory](../../chartcategory)
 
 ### Exception
 

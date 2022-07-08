@@ -19,7 +19,7 @@ url: /php-java/imagetransformoperationcollection/addalphamodulatefixedeffect/
 | amount | float | The percentage amount to scale the alpha. |
 
 ### Returns
-Index of the new image effect in a collection.
+[AlphaModulateFixed](../../alphamodulatefixed)
 
 
 ---

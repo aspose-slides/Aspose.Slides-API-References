@@ -14,7 +14,7 @@ url: /php-java/colorformat/getpresetcolor/
  
 
 ### Returns
-PresetColor
+int
 
 
 ---

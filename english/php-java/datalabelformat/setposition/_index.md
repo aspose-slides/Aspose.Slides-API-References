@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setposition/
  
 
 ### Returns
-LegendDataLabelPosition
+void
 
 
 ---

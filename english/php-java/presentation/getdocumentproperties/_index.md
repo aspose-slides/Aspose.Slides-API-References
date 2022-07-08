@@ -14,7 +14,7 @@ url: /php-java/presentation/getdocumentproperties/
  
 
 ### Returns
-IDocumentProperties
+[DocumentProperties](../../documentproperties)
 
 
 ---

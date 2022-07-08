@@ -14,7 +14,7 @@ url: /php-java/audioframe/setaudiocdstarttracktime/
  
 
 ### Returns
-int
+void
 
 
 ---

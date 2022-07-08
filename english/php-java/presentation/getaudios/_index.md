@@ -14,7 +14,7 @@ url: /php-java/presentation/getaudios/
  
 
 ### Returns
-IAudioCollection
+[AudioCollection](../../audiocollection)
 
 
 ---

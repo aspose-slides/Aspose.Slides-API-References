@@ -14,7 +14,7 @@ url: /php-java/cellformat/getfillformat/
  
 
 ### Returns
-IFillFormat
+[FillFormat](../../fillformat)
 
 
 ---

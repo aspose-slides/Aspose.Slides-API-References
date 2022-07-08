@@ -12,6 +12,9 @@ url: /php-java/presentation/dispose/
  Releases all resources used by this Presentation object.
  
 
+### Returns
+void
+
 
 ---
 

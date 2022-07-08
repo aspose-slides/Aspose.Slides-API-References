@@ -13,6 +13,9 @@ url: /php-java/oleobjectframe/setobjecticon/
  Read/write  boolean.
  
 
+### Returns
+void
+
 
 ---
 

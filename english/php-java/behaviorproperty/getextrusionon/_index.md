@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionon/
  Represents 'extrusion.on' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

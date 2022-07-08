@@ -14,7 +14,7 @@ url: /php-java/viewproperties/setlastview/
  
 
 ### Returns
-ViewType
+void
 
 
 ---

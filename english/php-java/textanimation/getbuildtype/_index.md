@@ -14,7 +14,7 @@ url: /php-java/textanimation/getbuildtype/
  
 
 ### Returns
-BuildType
+int
 
 
 ---

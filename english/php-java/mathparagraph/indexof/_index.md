@@ -25,10 +25,10 @@ Example:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | MathBlock | The item to locate in the collection. |
+| mathBlock | [MathBlock](../../mathblock) | The item to locate in the collection. |
 
 ### Returns
-The index of mathBlock if found in the collection; otherwise, -1.
+int
 
 
 ---

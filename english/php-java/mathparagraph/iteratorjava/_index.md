@@ -10,6 +10,9 @@ url: /php-java/mathparagraph/iteratorjava/
 ## iteratorJava()  method
 
 
+### Returns
+IEnumerator
+
 
 ---
 

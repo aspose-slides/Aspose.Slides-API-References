@@ -17,7 +17,10 @@ url: /php-java/slidecollection/reorder/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| slide | Slide | Slide to move. |
+| slide | [Slide](../../slide) | Slide to move. |
+
+### Returns
+void
 
 
 ---
@@ -35,6 +38,9 @@ url: /php-java/slidecollection/reorder/
 | --- | --- | --- |
 | index | int | Target index. |
 | slides | com.aspose.slides.ISlide[] | Slides to move. |
+
+### Returns
+void
 
 
 ---

@@ -16,6 +16,9 @@ url: /php-java/datalabel/hide/
  setting Show*-flags (ShowValue, ...) to true state.
  
 
+### Returns
+void
+
 
 ---
 

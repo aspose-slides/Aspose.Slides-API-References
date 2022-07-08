@@ -14,7 +14,7 @@ url: /php-java/templatecontext/getoutput/
  
 
 ### Returns
-#getOutput
+Output
 
 
 ---

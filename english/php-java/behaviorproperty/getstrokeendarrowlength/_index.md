@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokeendarrowlength/
  Represents 'stroke.endArrowLength' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

@@ -16,7 +16,10 @@ url: /php-java/masterthememanager/applycolorscheme/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| scheme | ExtraColorScheme | IExtraColorScheme object. |
+| scheme | [ExtraColorScheme](../../extracolorscheme) | IExtraColorScheme object. |
+
+### Returns
+void
 
 
 ---

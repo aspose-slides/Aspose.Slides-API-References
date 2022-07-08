@@ -20,7 +20,7 @@ url: /php-java/imagetransformoperationcollection/addtinteffect/
 | amount | float | Specifies by how much the color value is shifted. |
 
 ### Returns
-Index of the new image effect in a collection.
+[Tint](../../tint)
 
 
 ---

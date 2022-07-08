@@ -14,7 +14,7 @@ url: /php-java/masterthememanager/setoverridetheme/
  
 
 ### Returns
-IMasterTheme
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/slideshowtransition/setsoundmode/
  
 
 ### Returns
-TransitionSoundMode
+void
 
 
 ---

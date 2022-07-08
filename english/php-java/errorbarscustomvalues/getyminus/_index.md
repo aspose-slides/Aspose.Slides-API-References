@@ -16,7 +16,7 @@ url: /php-java/errorbarscustomvalues/getyminus/
  
 
 ### Returns
-IDoubleChartValue
+[DoubleChartValue](../../doublechartvalue)
 
 
 ---

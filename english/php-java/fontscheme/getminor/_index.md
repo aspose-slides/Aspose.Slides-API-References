@@ -14,7 +14,7 @@ url: /php-java/fontscheme/getminor/
  
 
 ### Returns
-IFonts
+[Fonts](../../fonts)
 
 
 ---

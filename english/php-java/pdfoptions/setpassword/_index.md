@@ -14,7 +14,7 @@ url: /php-java/pdfoptions/setpassword/
  
 
 ### Returns
-String
+void
 
 
 ---

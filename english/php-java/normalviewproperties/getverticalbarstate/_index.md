@@ -13,6 +13,9 @@ url: /php-java/normalviewproperties/getverticalbarstate/
  A vertical splitter bar separates the slide from the side content region.
  
 
+### Returns
+int
+
 
 ---
 

@@ -16,7 +16,7 @@ url: /php-java/documentproperties/getlastsavedtime/
  
 
 ### Returns
-IPresentationInfo#updateDocumentProperties(IDocumentProperties)
+Date
 
 
 ---

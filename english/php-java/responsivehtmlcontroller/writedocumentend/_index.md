@@ -10,6 +10,9 @@ url: /php-java/responsivehtmlcontroller/writedocumentend/
 ## writeDocumentEnd([HtmlGenerator](../../htmlgenerator) generator, [Presentation](../../presentation) presentation)  method
 
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/lineformat/getalignment/
  
 
 ### Returns
-LineAlignment
+byte
 
 
 ---

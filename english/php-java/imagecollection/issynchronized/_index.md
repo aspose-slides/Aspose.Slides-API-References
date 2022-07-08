@@ -13,6 +13,9 @@ url: /php-java/imagecollection/issynchronized/
  Read-only  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

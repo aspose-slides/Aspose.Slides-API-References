@@ -16,10 +16,10 @@ url: /php-java/datalabelcollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | DataLabel | DataLabel to find. |
+| value | [DataLabel](../../datalabel) | DataLabel to find. |
 
 ### Returns
-Index of a DataLabel or -1 if DataLabel not from this collection.
+int
 
 
 ---

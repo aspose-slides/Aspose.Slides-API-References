@@ -14,7 +14,7 @@ url: /php-java/fillformatcollection/get_item/
  
 
 ### Returns
-IFillFormat
+[FillFormat](../../fillformat)
 
 
 ---

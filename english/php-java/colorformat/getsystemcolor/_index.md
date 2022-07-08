@@ -14,7 +14,7 @@ url: /php-java/colorformat/getsystemcolor/
  
 
 ### Returns
-SystemColor
+int
 
 
 ---

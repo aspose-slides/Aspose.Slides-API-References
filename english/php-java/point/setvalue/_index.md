@@ -15,7 +15,7 @@ url: /php-java/point/setvalue/
  
 
 ### Returns
-Object
+void
 
 
 ---

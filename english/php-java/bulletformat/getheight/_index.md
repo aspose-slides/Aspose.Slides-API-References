@@ -14,6 +14,9 @@ url: /php-java/bulletformat/getheight/
  Read/write  float.
  
 
+### Returns
+float
+
 
 ---
 

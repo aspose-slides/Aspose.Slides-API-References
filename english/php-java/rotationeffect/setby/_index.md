@@ -14,7 +14,7 @@ url: /php-java/rotationeffect/setby/
  
 
 ### Returns
-float
+void
 
 
 ---

@@ -10,6 +10,9 @@ url: /php-java/softedge/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/lineformat/getbeginarrowheadlength/
  
 
 ### Returns
-LineArrowheadLength
+byte
 
 
 ---

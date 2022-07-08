@@ -21,6 +21,9 @@ url: /php-java/geometrypath/arcto/
 | startAngle | float | Start angle. |
 | sweepAngle | float | Sweep angle/ |
 
+### Returns
+void
+
 
 ---
 

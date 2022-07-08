@@ -26,6 +26,9 @@ url: /php-java/fontfallbackrule/removeat/
 | --- | --- | --- |
 | index | int | The zero-based index of the font to remove. |
 
+### Returns
+void
+
 
 ---
 

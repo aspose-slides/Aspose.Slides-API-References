@@ -12,6 +12,9 @@ url: /php-java/protectionmanager/removewriteprotection/
  Removes write protection for this presentation.
  
 
+### Returns
+void
+
 
 ---
 

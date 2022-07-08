@@ -16,11 +16,11 @@ url: /php-java/hyperlink/op_inequality/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| hlink1 | Hyperlink | First hyperlink to be tested. |
-| hlink2 | Hyperlink | Second hyperlink to be tested. |
+| hlink1 | [Hyperlink](../hyperlink) | First hyperlink to be tested. |
+| hlink2 | [Hyperlink](../../hyperlink) | Second hyperlink to be tested. |
 
 ### Returns
-false if hyperlinks are equal.
+boolean
 
 
 ---

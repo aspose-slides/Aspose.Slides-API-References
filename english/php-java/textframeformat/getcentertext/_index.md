@@ -14,7 +14,7 @@ url: /php-java/textframeformat/getcentertext/
  
 
 ### Returns
-NullableBool
+byte
 
 
 ---

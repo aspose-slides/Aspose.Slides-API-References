@@ -18,10 +18,10 @@ url: /php-java/shapeutil/geometrypathtographicspath/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| geometryPath | GeometryPath | IGeometryPath element. |
+| geometryPath | [GeometryPath](../../geometrypath) | IGeometryPath element. |
 
 ### Returns
-#graphicsPathToGeometryPath(java.awt.Shape graphicsPath)
+Shape
 
 
 ---

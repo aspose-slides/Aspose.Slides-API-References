@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getskewoffsety/
  Represents 'skew.offset.y' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

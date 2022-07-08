@@ -16,7 +16,10 @@ url: /php-java/masterslidecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | MasterSlide | The master slide to remove from the collection. |
+| value | [MasterSlide](../../masterslide) | The master slide to remove from the collection. |
+
+### Returns
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/effect/gettextanimation/
  
 
 ### Returns
-ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---

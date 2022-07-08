@@ -12,6 +12,9 @@ url: /php-java/charttypecharacterizer/is3dchart/
  Return true if chartType is one of 3D chart types.
  
 
+### Returns
+boolean
+
 
 ---
 

@@ -18,6 +18,9 @@ url: /php-java/paragraphcollection/addfromhtml/
 | --- | --- | --- |
 | text | String | HTML text. |
 
+### Returns
+void
+
 
 ---
 
@@ -32,8 +35,11 @@ url: /php-java/paragraphcollection/addfromhtml/
 | Name | Type | Description |
 | --- | --- | --- |
 | text | String | HTML text. |
-| resolver | ExternalResourceResolver | Resolver callback object which resolves URIs and fetches referrenced objects. |
-| uri | HtmlExternalResolver | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | String | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+
+### Returns
+void
 
 
 ---
@@ -49,8 +55,11 @@ url: /php-java/paragraphcollection/addfromhtml/
 | Name | Type | Description |
 | --- | --- | --- |
 | text | String | HTML text. |
-| resolver | ExternalResourceResolver | Resolver callback object which resolves URIs and fetches referrenced objects. |
-| uri | HtmlExternalResolver | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | String | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+
+### Returns
+void
 
 
 ---

@@ -13,6 +13,9 @@ url: /php-java/fontsources/getfontfolders/
  All font files located in these folders are included in the collection. Folders that are recursively searched.
  
 
+### Returns
+String
+
 
 ---
 

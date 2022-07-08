@@ -14,7 +14,7 @@ url: /php-java/groupshape/getshapes/
  
 
 ### Returns
-IShapeCollection
+[ShapeCollection](../../shapecollection)
 
 
 ---

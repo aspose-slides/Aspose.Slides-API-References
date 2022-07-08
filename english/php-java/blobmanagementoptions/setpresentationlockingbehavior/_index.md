@@ -12,6 +12,9 @@ url: /php-java/blobmanagementoptions/setpresentationlockingbehavior/
  Represents the locking behavior for the presentation's source (stream or file).
  
 
+### Returns
+void
+
 
 ---
 

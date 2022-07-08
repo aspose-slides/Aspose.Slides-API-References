@@ -36,7 +36,7 @@ url: /php-java/fontsmanager/setfontfallbackrulescollection/
 ```
 
 ### Returns
-IFontFallBackRulesCollection
+void
 
 
 ---

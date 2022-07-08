@@ -17,7 +17,7 @@ url: /php-java/masterslide/getlayoutslides/
  
 
 ### Returns
-IPresentation#getLayoutSlides
+[MasterLayoutSlideCollection](../../masterlayoutslidecollection)
 
 
 ---

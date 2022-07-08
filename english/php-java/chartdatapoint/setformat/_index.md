@@ -14,7 +14,7 @@ url: /php-java/chartdatapoint/setformat/
  
 
 ### Returns
-IFormat
+void
 
 
 ---

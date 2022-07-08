@@ -14,7 +14,7 @@ url: /php-java/layoutslide/getmasterslide/
  
 
 ### Returns
-IMasterSlide
+[MasterSlide](../../masterslide)
 
 
 ---

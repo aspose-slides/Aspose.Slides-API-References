@@ -14,7 +14,7 @@ url: /php-java/trendline/settrendlinetype/
  
 
 ### Returns
-TrendlineType
+void
 
 
 ---

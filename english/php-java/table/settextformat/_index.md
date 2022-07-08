@@ -16,7 +16,10 @@ url: /php-java/table/settextformat/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | PortionFormat | IPortionFormat object with necessary properties set. |
+| source | [PortionFormat](../../portionformat) | IPortionFormat object with necessary properties set. |
+
+### Returns
+void
 
 
 ---
@@ -31,7 +34,10 @@ url: /php-java/table/settextformat/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | ParagraphFormat | IParagraphFormat object with necessary properties set. |
+| source | [ParagraphFormat](../../paragraphformat) | IParagraphFormat object with necessary properties set. |
+
+### Returns
+void
 
 
 ---
@@ -46,7 +52,10 @@ url: /php-java/table/settextformat/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | TextFrameFormat | ITextFrameFormat object with necessary properties set. |
+| source | [TextFrameFormat](../../textframeformat) | ITextFrameFormat object with necessary properties set. |
+
+### Returns
+void
 
 
 ---

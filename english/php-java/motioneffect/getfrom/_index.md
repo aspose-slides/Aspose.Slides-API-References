@@ -14,7 +14,7 @@ url: /php-java/motioneffect/getfrom/
  
 
 ### Returns
-java.awt.geom.Point2D.Float
+Point2D.Float
 
 
 ---

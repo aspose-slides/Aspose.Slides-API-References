@@ -14,7 +14,7 @@ url: /php-java/legendentryproperties/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

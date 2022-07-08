@@ -14,7 +14,7 @@ url: /php-java/colorformat/setcolortype/
  
 
 ### Returns
-ColorType
+void
 
 
 ---

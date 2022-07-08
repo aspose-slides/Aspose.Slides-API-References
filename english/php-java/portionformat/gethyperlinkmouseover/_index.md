@@ -14,7 +14,7 @@ url: /php-java/portionformat/gethyperlinkmouseover/
  
 
 ### Returns
-IHyperlink
+[Hyperlink](../../hyperlink)
 
 
 ---

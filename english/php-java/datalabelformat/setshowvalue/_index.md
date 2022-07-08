@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setshowvalue/
  
 
 ### Returns
-boolean
+void
 
 
 ---

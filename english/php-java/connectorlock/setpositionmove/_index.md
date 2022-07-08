@@ -14,7 +14,7 @@ url: /php-java/connectorlock/setpositionmove/
  
 
 ### Returns
-boolean
+void
 
 
 ---

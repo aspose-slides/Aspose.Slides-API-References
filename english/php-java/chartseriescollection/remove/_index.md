@@ -16,7 +16,10 @@ url: /php-java/chartseriescollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartSeries | The value. |
+| value | [ChartSeries](../../chartseries) | The value. |
+
+### Returns
+void
 
 ### Exception
 

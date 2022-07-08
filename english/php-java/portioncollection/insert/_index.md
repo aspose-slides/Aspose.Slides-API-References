@@ -17,7 +17,10 @@ url: /php-java/portioncollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which Portion should be inserted. |
-| value | MathPortion | The Portion to insert. |
+| value | [MathPortion](../../mathportion) | The Portion to insert. |
+
+### Returns
+void
 
 
 ---
@@ -33,7 +36,10 @@ url: /php-java/portioncollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which Portion should be inserted. |
-| value | MathPortion | The Portion to insert. |
+| value | [Portion](../../portion) | The Portion to insert. |
+
+### Returns
+void
 
 
 ---

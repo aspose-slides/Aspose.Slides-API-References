@@ -13,7 +13,7 @@ url: /php-java/imagetransformoperationcollection/addalphaflooreffect/
  
 
 ### Returns
-Index of the new image effect in a collection.
+[AlphaFloor](../../alphafloor)
 
 
 ---

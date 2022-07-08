@@ -14,7 +14,7 @@ url: /php-java/hyperlink/setcolorsource/
  
 
 ### Returns
-HyperlinkColorSource
+void
 
 
 ---

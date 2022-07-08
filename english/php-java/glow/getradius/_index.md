@@ -13,6 +13,9 @@ url: /php-java/glow/getradius/
  Read/write  double.
  
 
+### Returns
+double
+
 
 ---
 

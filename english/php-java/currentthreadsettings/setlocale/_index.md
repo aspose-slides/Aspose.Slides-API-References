@@ -16,6 +16,9 @@ Sets default Locale for current thread.
 | --- | --- | --- |
 | locale | Locale | The default Locale for current thread. |
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |
@@ -34,6 +37,9 @@ Sets default Locale for current thread.
 | Name | Type | Description |
 | --- | --- | --- |
 | localeName | String | The default Locale for current thread. |
+
+### Returns
+void
 
 ### Exception
 

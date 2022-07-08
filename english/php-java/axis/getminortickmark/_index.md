@@ -14,7 +14,7 @@ url: /php-java/axis/getminortickmark/
  
 
 ### Returns
-TickMarkType
+int
 
 
 ---

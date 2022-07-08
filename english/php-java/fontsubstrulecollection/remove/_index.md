@@ -16,7 +16,10 @@ url: /php-java/fontsubstrulecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | FontSubstRule | The font substitution rule to remove from the collection. |
+| value | [FontSubstRule](../../fontsubstrule) | The font substitution rule to remove from the collection. |
+
+### Returns
+void
 
 
 ---

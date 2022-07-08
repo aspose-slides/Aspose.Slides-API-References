@@ -12,6 +12,9 @@ url: /php-java/notesslidemanager/removenotesslide/
  Removes notes slide of the current slide.
  
 
+### Returns
+void
+
 
 ---
 

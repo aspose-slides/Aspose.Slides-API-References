@@ -15,7 +15,7 @@ url: /php-java/normalviewproperties/setshowoutlineicons/
  
 
 ### Returns
-boolean
+void
 
 
 ---

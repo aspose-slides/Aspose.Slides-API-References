@@ -16,7 +16,7 @@ url: /php-java/errorbarsformat/getvaluetype/
  
 
 ### Returns
-ErrorBarValueType
+int
 
 
 ---

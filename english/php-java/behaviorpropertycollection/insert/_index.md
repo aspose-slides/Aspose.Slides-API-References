@@ -17,7 +17,10 @@ url: /php-java/behaviorpropertycollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where a new property should be inserted. |
-| item | BehaviorProperty | Property to add. |
+| item | [BehaviorProperty](../../behaviorproperty) | Property to add. |
+
+### Returns
+void
 
 
 ---
@@ -34,6 +37,9 @@ url: /php-java/behaviorpropertycollection/insert/
 | --- | --- | --- |
 | index | int | Index where a new property should be inserted. |
 | propertyValue | String | Value of the property to add. |
+
+### Returns
+void
 
 
 ---

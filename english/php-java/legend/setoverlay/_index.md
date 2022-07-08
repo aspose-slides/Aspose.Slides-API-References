@@ -14,7 +14,7 @@ url: /php-java/legend/setoverlay/
  
 
 ### Returns
-boolean
+void
 
 
 ---

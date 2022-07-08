@@ -13,6 +13,9 @@ url: /php-java/blobmanagementoptions/istemporaryfilesallowed/
  large amounts of data during presentation's lifetime. If false, OutOfMemoryException can be thrown.
  
 
+### Returns
+boolean
+
 
 ---
 

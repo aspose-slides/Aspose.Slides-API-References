@@ -33,7 +33,7 @@ url: /php-java/audioframe/setrewindaudio/
 ```
 
 ### Returns
-boolean
+void
 
 
 ---

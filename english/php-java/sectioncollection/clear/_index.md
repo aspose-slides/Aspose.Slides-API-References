@@ -12,6 +12,9 @@ url: /php-java/sectioncollection/clear/
  Removes all sections from the collection.
  
 
+### Returns
+void
+
 
 ---
 

@@ -13,7 +13,7 @@ url: /php-java/fontsloader/getfontfolders/
  
 
 ### Returns
-array containing folder names
+String
 
 
 ---

@@ -13,7 +13,7 @@ url: /php-java/grayscale/geteffective/
  
 
 ### Returns
-A IGrayScaleEffectiveData.
+
 
 
 ---

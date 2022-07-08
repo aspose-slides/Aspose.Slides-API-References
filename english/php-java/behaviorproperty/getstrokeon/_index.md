@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokeon/
  Represents 'stroke.on' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

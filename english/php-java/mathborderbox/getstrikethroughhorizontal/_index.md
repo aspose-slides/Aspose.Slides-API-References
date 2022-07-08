@@ -18,6 +18,9 @@ Example:
   $borderBox->setStrikethroughHorizontal(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

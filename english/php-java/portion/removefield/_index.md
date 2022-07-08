@@ -12,6 +12,9 @@ url: /php-java/portion/removefield/
  Converts this field portion to the simple portion.
  
 
+### Returns
+void
+
 
 ---
 

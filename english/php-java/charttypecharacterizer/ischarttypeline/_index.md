@@ -21,7 +21,7 @@ url: /php-java/charttypecharacterizer/ischarttypeline/
  
 
 ### Returns
-ChartType#Line3D
+boolean
 
 
 ---

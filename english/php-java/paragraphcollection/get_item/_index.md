@@ -12,6 +12,9 @@ url: /php-java/paragraphcollection/get_item/
  Gets the element at the specified index.
  
 
+### Returns
+[Paragraph](../../paragraph)
+
 
 ---
 

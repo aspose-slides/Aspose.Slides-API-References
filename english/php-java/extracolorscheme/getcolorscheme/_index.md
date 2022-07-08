@@ -14,7 +14,7 @@ url: /php-java/extracolorscheme/getcolorscheme/
  
 
 ### Returns
-IColorScheme
+[ColorScheme](../../colorscheme)
 
 
 ---

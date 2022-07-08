@@ -15,7 +15,7 @@ url: /php-java/picturefillformat/setcropleft/
  
 
 ### Returns
-float
+void
 
 
 ---

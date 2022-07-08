@@ -14,7 +14,7 @@ url: /php-java/hyperlink/getactiontype/
  
 
 ### Returns
-HyperlinkActionType
+int
 
 
 ---

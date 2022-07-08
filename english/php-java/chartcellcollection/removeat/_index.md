@@ -18,6 +18,9 @@ url: /php-java/chartcellcollection/removeat/
 | --- | --- | --- |
 | index | int | Index of a cell to remove. |
 
+### Returns
+void
+
 
 ---
 

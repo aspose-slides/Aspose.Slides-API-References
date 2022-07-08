@@ -15,7 +15,7 @@ url: /php-java/colorformat/setluminance/
  
 
 ### Returns
-float
+void
 
 
 ---

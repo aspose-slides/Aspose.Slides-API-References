@@ -18,7 +18,7 @@ url: /php-java/charttypecharacterizer/ischarttypestock/
  
 
 ### Returns
-ChartType#VolumeOpenHighLowClose
+boolean
 
 
 ---

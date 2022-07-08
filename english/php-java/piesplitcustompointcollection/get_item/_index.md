@@ -19,7 +19,7 @@ url: /php-java/piesplitcustompointcollection/get_item/
 | index | int | Index. |
 
 ### Returns
-Chart data point.
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---

@@ -18,6 +18,9 @@ url: /php-java/cell/splitbyheight/
 | --- | --- | --- |
 | height | double | Height of a row. |
 
+### Returns
+void
+
 
 ---
 

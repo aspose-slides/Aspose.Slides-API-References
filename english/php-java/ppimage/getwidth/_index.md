@@ -13,6 +13,9 @@ url: /php-java/ppimage/getwidth/
  Read-only  int.
  
 
+### Returns
+int
+
 
 ---
 

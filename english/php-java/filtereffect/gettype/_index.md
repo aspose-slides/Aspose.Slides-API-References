@@ -14,7 +14,7 @@ url: /php-java/filtereffect/gettype/
  
 
 ### Returns
-FilterEffectType
+int
 
 
 ---

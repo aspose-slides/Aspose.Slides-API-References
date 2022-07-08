@@ -19,6 +19,9 @@ Example:
   $delimiter->setSeparatorCharacter('$');
 ```
 
+### Returns
+void
+
 
 ---
 

@@ -14,6 +14,9 @@ url: /php-java/smartartnodecollection/size/
  Read-only  int.
  
 
+### Returns
+int
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/background/settype/
  
 
 ### Returns
-BackgroundType
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/vbaproject/getmodules/
  
 
 ### Returns
-IVbaModuleCollection
+[VbaModuleCollection](../../vbamodulecollection)
 
 
 ---

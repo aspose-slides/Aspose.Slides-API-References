@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/setpositionlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

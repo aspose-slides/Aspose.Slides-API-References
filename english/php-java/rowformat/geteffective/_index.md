@@ -32,7 +32,7 @@ url: /php-java/rowformat/geteffective/
 ```
 
 ### Returns
-A IRowFormatEffectiveData.
+
 
 
 ---

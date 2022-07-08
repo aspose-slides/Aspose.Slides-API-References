@@ -14,7 +14,7 @@ url: /php-java/legacydiagram/converttogroupshape/
  
 
 ### Returns
-Created GroupShape object.
+[GroupShape](../../groupshape)
 
 
 ---

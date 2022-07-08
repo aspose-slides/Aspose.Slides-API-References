@@ -15,6 +15,9 @@ url: /php-java/camera/setrotation/
  If any of coordinate value is Float.NaN, all rotation is undefined.
  
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/fieldtype/setinternalstring/
  
 
 ### Returns
-String
+void
 
 
 ---

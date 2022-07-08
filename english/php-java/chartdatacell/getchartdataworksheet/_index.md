@@ -14,7 +14,7 @@ url: /php-java/chartdatacell/getchartdataworksheet/
  
 
 ### Returns
-IChartDataWorksheet
+[ChartDataWorksheet](../../chartdataworksheet)
 
 
 ---

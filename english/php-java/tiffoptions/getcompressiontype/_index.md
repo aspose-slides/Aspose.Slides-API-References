@@ -14,7 +14,7 @@ url: /php-java/tiffoptions/getcompressiontype/
  
 
 ### Returns
-TiffCompressionTypes
+int
 
 
 ---

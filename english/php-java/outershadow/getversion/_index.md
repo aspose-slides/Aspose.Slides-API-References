@@ -10,6 +10,9 @@ url: /php-java/outershadow/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

@@ -18,6 +18,9 @@ url: /php-java/chartdata/writeworkbookstream/
 | --- | --- | --- |
 | ms | byte[] | The user-supplied stream containing the entire Excel workbook. |
 
+### Returns
+void
+
 
 ---
 

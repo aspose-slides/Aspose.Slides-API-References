@@ -15,7 +15,7 @@ url: /php-java/propertyeffect/setby/
  
 
 ### Returns
-String
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/datalabelcollection/getchart/
  
 
 ### Returns
-IChart
+[Chart](../../chart)
 
 
 ---

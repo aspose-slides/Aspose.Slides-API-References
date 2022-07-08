@@ -14,7 +14,7 @@ url: /php-java/chartdatapoint/getxvalue/
  
 
 ### Returns
-IStringOrDoubleChartValue
+[StringOrDoubleChartValue](../../stringordoublechartvalue)
 
 
 ---

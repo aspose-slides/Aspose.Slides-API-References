@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/setpositionlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

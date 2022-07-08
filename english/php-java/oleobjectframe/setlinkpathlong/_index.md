@@ -14,7 +14,7 @@ url: /php-java/oleobjectframe/setlinkpathlong/
  
 
 ### Returns
-String
+void
 
 
 ---

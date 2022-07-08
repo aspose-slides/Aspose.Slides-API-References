@@ -13,7 +13,7 @@ url: /php-java/presentationtext/getslidestext/
  
 
 ### Returns
-ISlideText
+
 
 
 ---

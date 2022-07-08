@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/setmarginleft/
  
 
 ### Returns
-float
+void
 
 
 ---

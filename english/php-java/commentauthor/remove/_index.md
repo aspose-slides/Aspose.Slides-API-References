@@ -12,6 +12,9 @@ url: /php-java/commentauthor/remove/
  Removes the author from the parent collection.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

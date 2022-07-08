@@ -14,7 +14,7 @@ url: /php-java/colorformat/setr/
  
 
 ### Returns
-byte
+void
 
 
 ---

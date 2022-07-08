@@ -14,7 +14,7 @@ url: /php-java/lineformat/setalignment/
  
 
 ### Returns
-LineAlignment
+void
 
 
 ---

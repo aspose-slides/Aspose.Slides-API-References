@@ -27,6 +27,9 @@ url: /php-java/gifoptions/gettransitionfps/
   }
 ```
 
+### Returns
+int
+
 
 ---
 

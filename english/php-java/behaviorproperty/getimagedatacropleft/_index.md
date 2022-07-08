@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getimagedatacropleft/
  Represents 'imageData.cropLeft' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

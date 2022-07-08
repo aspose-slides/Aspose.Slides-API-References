@@ -14,7 +14,7 @@ url: /php-java/chartseriesgroup/setgapdepth/
  
 
 ### Returns
-int
+void
 
 
 ---

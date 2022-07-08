@@ -14,7 +14,7 @@ url: /php-java/notesslide/setshowmastershapes/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -19,7 +19,7 @@ url: /php-java/shapeframe/equals/
 | obj | Object | The object to compare with this instance. |
 
 ### Returns
-true if obj is a ShapeFrame that has the same value as this instance; otherwise, false.
+boolean
 
 
 ---
@@ -34,10 +34,10 @@ true if obj is a ShapeFrame that has the same value as this instance; otherwise,
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ShapeFrame | The ShapeFRameEx to compare with this instance. |
+| value | [ShapeFrame](../../shapeframe) | The ShapeFRameEx to compare with this instance. |
 
 ### Returns
-true if value is a ShapeFrame that has the same value as this instance; otherwise, false.
+boolean
 
 
 ---

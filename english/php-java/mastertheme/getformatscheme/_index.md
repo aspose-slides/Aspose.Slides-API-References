@@ -14,7 +14,7 @@ url: /php-java/mastertheme/getformatscheme/
  
 
 ### Returns
-IFormatScheme
+[FormatScheme](../../formatscheme)
 
 
 ---

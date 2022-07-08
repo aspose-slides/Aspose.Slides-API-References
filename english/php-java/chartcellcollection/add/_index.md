@@ -16,7 +16,10 @@ url: /php-java/chartcellcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cell | ChartDataCell | New cell to add. |
+| cell | [ChartDataCell](../../chartdatacell) | New cell to add. |
+
+### Returns
+void
 
 
 ---
@@ -34,7 +37,7 @@ url: /php-java/chartcellcollection/add/
 | value | Object | The value. This method adds worksheet with name AUTO_DATA and adds all values there. If you use ChartDataWorkbook to add or edit Cell values, be sure that you do not use this worksheet Maximum number of values added using this method must not exceed 16711680 |
 
 ### Returns
-ChartDataCell
+void
 
 ### Exception
 

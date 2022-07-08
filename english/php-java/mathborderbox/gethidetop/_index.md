@@ -18,6 +18,9 @@ Example:
   $borderBox->setHideTop(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

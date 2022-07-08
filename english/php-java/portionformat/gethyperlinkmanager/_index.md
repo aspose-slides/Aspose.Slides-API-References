@@ -14,7 +14,7 @@ url: /php-java/portionformat/gethyperlinkmanager/
  
 
 ### Returns
-IHyperlinkManager
+[HyperlinkManager](../../hyperlinkmanager)
 
 
 ---

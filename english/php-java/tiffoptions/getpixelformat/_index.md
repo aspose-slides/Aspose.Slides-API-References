@@ -14,7 +14,7 @@ url: /php-java/tiffoptions/getpixelformat/
  
 
 ### Returns
-ImagePixelFormat
+int
 
 
 ---

@@ -19,7 +19,7 @@ url: /php-java/vbamodulecollection/addemptymodule/
 | name | String | Name of the module |
 
 ### Returns
-Added module.
+[VbaModule](../../vbamodule)
 
 
 ---

@@ -27,7 +27,7 @@ Next example demonstrates changing target section and creates new image for the 
 ```
 
 ### Returns
-ISection
+void
 
 
 ---

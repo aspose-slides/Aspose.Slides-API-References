@@ -15,7 +15,7 @@ url: /php-java/sequence/settriggershape/
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -29,7 +29,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -43,7 +43,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -57,7 +57,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -71,7 +71,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -85,7 +85,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -99,7 +99,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -113,7 +113,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -127,7 +127,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -141,7 +141,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -155,7 +155,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -169,7 +169,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -183,7 +183,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -197,7 +197,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -211,7 +211,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -225,7 +225,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -239,7 +239,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -253,7 +253,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -267,7 +267,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -281,7 +281,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---
@@ -295,7 +295,7 @@ IShape
  
 
 ### Returns
-IShape
+void
 
 
 ---

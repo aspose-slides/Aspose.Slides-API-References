@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokestartarrow/
  Represents 'stroke.startArrow' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

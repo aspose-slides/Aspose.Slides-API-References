@@ -14,7 +14,7 @@ url: /php-java/shapestyle/setfontcollectionindex/
  
 
 ### Returns
-FontCollectionIndex
+void
 
 
 ---

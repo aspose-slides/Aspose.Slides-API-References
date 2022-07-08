@@ -15,7 +15,7 @@ url: /php-java/picturefillformat/setcropright/
  
 
 ### Returns
-float
+void
 
 
 ---

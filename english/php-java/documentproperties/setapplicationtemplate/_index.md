@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setapplicationtemplate/
  
 
 ### Returns
-String
+void
 
 
 ---

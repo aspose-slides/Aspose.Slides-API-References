@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionbackdepth/
  Represents 'extrusion.backdepth' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

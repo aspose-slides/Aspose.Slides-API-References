@@ -13,6 +13,9 @@ url: /php-java/timing/gettriggerdelaytime/
  Read/write  float.
  
 
+### Returns
+float
+
 
 ---
 

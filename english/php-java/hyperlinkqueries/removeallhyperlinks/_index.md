@@ -12,6 +12,9 @@ url: /php-java/hyperlinkqueries/removeallhyperlinks/
  Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects).
  
 
+### Returns
+void
+
 
 ---
 

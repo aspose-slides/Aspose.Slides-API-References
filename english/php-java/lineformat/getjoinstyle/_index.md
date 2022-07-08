@@ -14,7 +14,7 @@ url: /php-java/lineformat/getjoinstyle/
  
 
 ### Returns
-LineJoinStyle
+byte
 
 
 ---

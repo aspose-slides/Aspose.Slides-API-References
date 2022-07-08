@@ -19,7 +19,7 @@ url: /php-java/motionpath/get_item/
 | index | int | Index of element. |
 
 ### Returns
-The IMotionCmdPath object.
+[MotionCmdPath](../../motioncmdpath)
 
 
 ---

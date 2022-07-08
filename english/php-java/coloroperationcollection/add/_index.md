@@ -20,7 +20,7 @@ url: /php-java/coloroperationcollection/add/
 | parameter | float | Operation's parameter. |
 
 ### Returns
-Added operation.
+[ColorOperation](../../coloroperation)
 
 
 ---
@@ -38,7 +38,7 @@ Added operation.
 | operation | int | Operation type. |
 
 ### Returns
-Added operation.
+[ColorOperation](../../coloroperation)
 
 
 ---

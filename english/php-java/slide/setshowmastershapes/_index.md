@@ -14,7 +14,7 @@ url: /php-java/slide/setshowmastershapes/
  
 
 ### Returns
-boolean
+void
 
 
 ---

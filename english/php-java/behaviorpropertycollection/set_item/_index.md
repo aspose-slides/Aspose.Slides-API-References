@@ -18,6 +18,9 @@ url: /php-java/behaviorpropertycollection/set_item/
 | --- | --- | --- |
 | index | int | Index of a property to return. |
 
+### Returns
+void
+
 
 ---
 

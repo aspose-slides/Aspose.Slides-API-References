@@ -12,6 +12,9 @@ url: /php-java/svgtspan/setid/
  Gets "tspan" element id
  
 
+### Returns
+void
+
 
 ---
 

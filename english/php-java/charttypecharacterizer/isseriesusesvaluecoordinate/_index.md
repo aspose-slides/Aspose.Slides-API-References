@@ -19,7 +19,7 @@ url: /php-java/charttypecharacterizer/isseriesusesvaluecoordinate/
 | seriesType | int | Series type. |
 
 ### Returns
-True if uses otherwise false.
+boolean
 
 
 ---

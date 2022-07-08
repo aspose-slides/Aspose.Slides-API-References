@@ -12,6 +12,9 @@ url: /php-java/fontfallbackrule/setrangestartindex/
  Get first index of continuous unicode range.
  
 
+### Returns
+void
+
 
 ---
 

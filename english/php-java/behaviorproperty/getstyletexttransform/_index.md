@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstyletexttransform/
  Represents 'style.textTransform' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

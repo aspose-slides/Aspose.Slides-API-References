@@ -14,7 +14,7 @@ url: /php-java/audioframe/getembeddedaudio/
  
 
 ### Returns
-IAudio
+[Audio](../../audio)
 
 
 ---

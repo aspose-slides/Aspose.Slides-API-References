@@ -14,7 +14,7 @@ url: /php-java/smartartnode/setorganizationchartlayout/
  
 
 ### Returns
-OrganizationChartLayoutType
+void
 
 
 ---

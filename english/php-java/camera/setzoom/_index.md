@@ -14,7 +14,7 @@ url: /php-java/camera/setzoom/
  
 
 ### Returns
-float
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/cell/getpresentation/
  
 
 ### Returns
-IPresentation
+[Presentation](../../presentation)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/gradientformat/setgradientdirection/
  
 
 ### Returns
-GradientDirection
+void
 
 
 ---

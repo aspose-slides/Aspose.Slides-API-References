@@ -12,6 +12,9 @@ url: /php-java/swfoptions/getshowpagestepper/
  Show/hide page stepper. Can be overridden in flashvars. Default is true. 
  
 
+### Returns
+boolean
+
 
 ---
 

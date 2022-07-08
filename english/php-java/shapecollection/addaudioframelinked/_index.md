@@ -23,7 +23,7 @@ url: /php-java/shapecollection/addaudioframelinked/
 | fname | String | Audio file name. |
 
 ### Returns
-Created AudioFrame object.
+[AudioFrame](../../audioframe)
 
 
 ---

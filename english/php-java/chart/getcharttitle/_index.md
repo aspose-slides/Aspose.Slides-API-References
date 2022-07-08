@@ -14,7 +14,7 @@ url: /php-java/chart/getcharttitle/
  
 
 ### Returns
-IChartTitle
+[ChartTitle](../../charttitle)
 
 
 ---

@@ -16,7 +16,7 @@ url: /php-java/pdfoptions/setdrawslidesframe/
  
 
 ### Returns
-boolean
+void
 
 
 ---

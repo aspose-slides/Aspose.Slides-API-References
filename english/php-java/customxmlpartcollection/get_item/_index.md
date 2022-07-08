@@ -19,7 +19,7 @@ url: /php-java/customxmlpartcollection/get_item/
 | index | int | The zero-based index of the element to get. |
 
 ### Returns
-The element at the specified index.
+[CustomXmlPart](../../customxmlpart)
 
 ### Exception
 

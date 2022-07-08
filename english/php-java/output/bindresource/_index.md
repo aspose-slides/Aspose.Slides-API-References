@@ -16,8 +16,11 @@ url: /php-java/output/bindresource/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| outputFile | OutputFile | Output file. |
+| outputFile | [OutputFile](../outputfile) | Output file. |
 | obj | Object | Resource object. |
+
+### Returns
+void
 
 
 ---

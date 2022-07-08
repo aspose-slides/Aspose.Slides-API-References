@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setcontenttype/
  
 
 ### Returns
-String
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/chartseries/setplotonsecondaxis/
  
 
 ### Returns
-boolean
+void
 
 
 ---

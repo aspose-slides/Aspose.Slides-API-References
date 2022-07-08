@@ -14,7 +14,7 @@ url: /php-java/lineformat/getcapstyle/
  
 
 ### Returns
-LineCapStyle
+byte
 
 
 ---

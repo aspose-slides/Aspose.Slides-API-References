@@ -14,7 +14,7 @@ url: /php-java/datatable/setborderhorizontal/
  
 
 ### Returns
-boolean
+void
 
 
 ---

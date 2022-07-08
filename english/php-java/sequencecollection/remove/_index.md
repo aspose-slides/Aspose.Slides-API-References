@@ -16,7 +16,10 @@ url: /php-java/sequencecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Sequence | Sequence to remove. |
+| item | [Sequence](../../sequence) | Sequence to remove. |
+
+### Returns
+void
 
 
 ---

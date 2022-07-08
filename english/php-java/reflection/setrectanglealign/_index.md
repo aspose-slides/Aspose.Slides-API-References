@@ -14,7 +14,7 @@ url: /php-java/reflection/setrectanglealign/
  
 
 ### Returns
-RectangleAlignment
+void
 
 
 ---

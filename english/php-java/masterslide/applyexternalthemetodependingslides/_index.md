@@ -20,7 +20,7 @@ url: /php-java/masterslide/applyexternalthemetodependingslides/
 | fname | String | Path to the external theme file (.thmx). |
 
 ### Returns
-New themed MasterSlide.
+[MasterSlide](../../masterslide)
 
 ### Exception
 

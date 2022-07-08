@@ -14,7 +14,7 @@ url: /php-java/axesmanager/getseriesaxis/
   
 
 ### Returns
-IAxis
+[Axis](../../axis)
 
 
 ---

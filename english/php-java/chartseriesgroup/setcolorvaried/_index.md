@@ -14,7 +14,7 @@ url: /php-java/chartseriesgroup/setcolorvaried/
  
 
 ### Returns
-boolean
+void
 
 
 ---

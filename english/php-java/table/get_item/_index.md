@@ -14,7 +14,7 @@ url: /php-java/table/get_item/
  
 
 ### Returns
-Cell
+[Cell](../../cell)
 
 
 ---

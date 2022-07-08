@@ -14,7 +14,7 @@ url: /php-java/fonts/seteastasianfont/
  
 
 ### Returns
-IFontData
+void
 
 
 ---

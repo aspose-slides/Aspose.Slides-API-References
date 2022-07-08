@@ -13,6 +13,9 @@ url: /php-java/shapecollection/issynchronized/
  Read-only  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

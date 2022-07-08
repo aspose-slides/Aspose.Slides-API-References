@@ -12,6 +12,9 @@ url: /php-java/coloroperationcollection/clear/
  Removes all color operations.
  
 
+### Returns
+void
+
 
 ---
 

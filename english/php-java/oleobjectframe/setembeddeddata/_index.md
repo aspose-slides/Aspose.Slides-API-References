@@ -33,7 +33,10 @@ url: /php-java/oleobjectframe/setembeddeddata/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| embeddedData | OleEmbeddedDataInfo | Embedded data IOleEmbeddedDataInfo This method changes the properties of the object to reflect the new data and sets the IsObjectLink flag to false, indicating that the OLE object is embedded. |
+| embeddedData | [OleEmbeddedDataInfo](../../oleembeddeddatainfo) | Embedded data IOleEmbeddedDataInfo This method changes the properties of the object to reflect the new data and sets the IsObjectLink flag to false, indicating that the OLE object is embedded. |
+
+### Returns
+void
 
 ### Exception
 

@@ -14,7 +14,7 @@ url: /php-java/connectorlock/setaspectratiolocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

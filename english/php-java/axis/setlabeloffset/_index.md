@@ -14,7 +14,7 @@ url: /php-java/axis/setlabeloffset/
  
 
 ### Returns
-int
+void
 
 
 ---

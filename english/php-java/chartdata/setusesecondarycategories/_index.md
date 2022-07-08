@@ -25,7 +25,7 @@ url: /php-java/chartdata/setusesecondarycategories/
 ```
 
 ### Returns
-boolean
+void
 
 
 ---

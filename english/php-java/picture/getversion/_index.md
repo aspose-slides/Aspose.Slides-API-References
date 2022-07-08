@@ -10,6 +10,9 @@ url: /php-java/picture/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

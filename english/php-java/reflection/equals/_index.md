@@ -19,7 +19,7 @@ url: /php-java/reflection/equals/
 | obj | Object | The Reflection to compare. |
 
 ### Returns
-Reflection
+boolean
 
 
 ---

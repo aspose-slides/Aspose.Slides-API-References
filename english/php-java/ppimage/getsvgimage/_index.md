@@ -13,7 +13,7 @@ url: /php-java/ppimage/getsvgimage/
  This value indicates that this image has been created from SVG.
 
 ### Returns
-ISvgImage
+[SvgImage](../../svgimage)
 
 
 ---

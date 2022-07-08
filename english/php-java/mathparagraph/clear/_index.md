@@ -21,6 +21,9 @@ Example:
   $mathParagraph->clear();
 ```
 
+### Returns
+void
+
 
 ---
 

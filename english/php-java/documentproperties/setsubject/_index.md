@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setsubject/
  
 
 ### Returns
-String
+void
 
 
 ---

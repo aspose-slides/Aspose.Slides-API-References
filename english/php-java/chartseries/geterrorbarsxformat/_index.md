@@ -19,7 +19,7 @@ url: /php-java/chartseries/geterrorbarsxformat/
  
 
 ### Returns
-IChartDataPoint#getErrorBarsCustomValues
+[ErrorBarsFormat](../../errorbarsformat)
 
 
 ---

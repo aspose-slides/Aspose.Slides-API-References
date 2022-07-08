@@ -14,7 +14,7 @@ url: /php-java/stringordoublechartvalue/setascell/
  
 
 ### Returns
-IChartDataCell
+void
 
 
 ---

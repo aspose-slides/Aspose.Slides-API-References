@@ -14,7 +14,7 @@ url: /php-java/connector/getconnectorlock/
  
 
 ### Returns
-IConnectorLock
+[ConnectorLock](../../connectorlock)
 
 
 ---

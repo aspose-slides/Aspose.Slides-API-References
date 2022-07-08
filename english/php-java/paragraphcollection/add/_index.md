@@ -16,7 +16,10 @@ url: /php-java/paragraphcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | Paragraph | The Paragraph to be added to the end of the collection. |
+| value | [Paragraph](../../paragraph) | The Paragraph to be added to the end of the collection. |
+
+### Returns
+void
 
 
 ---
@@ -31,10 +34,10 @@ url: /php-java/paragraphcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ParagraphCollection | The ParagraphCollection to be added to the end of the collection. |
+| value | [ParagraphCollection](../../paragraphcollection) | The ParagraphCollection to be added to the end of the collection. |
 
 ### Returns
-The index at which the Paragraph has been added or -1 if there are nothing to add.
+int
 
 
 ---

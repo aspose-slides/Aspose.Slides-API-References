@@ -13,6 +13,9 @@ url: /php-java/smartartnodecollection/issynchronized/
  Read-only  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

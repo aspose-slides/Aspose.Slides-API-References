@@ -14,7 +14,7 @@ url: /php-java/mastertheme/setname/
  
 
 ### Returns
-String
+void
 
 
 ---

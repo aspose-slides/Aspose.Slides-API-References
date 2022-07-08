@@ -14,7 +14,7 @@ url: /php-java/chartdatapoint/setbubble3d/
  
 
 ### Returns
-boolean
+void
 
 
 ---

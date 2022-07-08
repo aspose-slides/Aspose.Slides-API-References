@@ -14,7 +14,7 @@ url: /php-java/chartwall/getpicturetype/
  
 
 ### Returns
-PictureType
+int
 
 
 ---

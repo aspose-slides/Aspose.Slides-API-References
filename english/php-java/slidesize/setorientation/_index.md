@@ -14,7 +14,7 @@ url: /php-java/slidesize/setorientation/
  Changing this value will swap slide's dimensions.
 
 ### Returns
-SlideOrientation
+void
 
 
 ---

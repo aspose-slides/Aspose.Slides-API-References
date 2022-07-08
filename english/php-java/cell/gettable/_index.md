@@ -14,7 +14,7 @@ url: /php-java/cell/gettable/
  
 
 ### Returns
-ITable
+[Table](../../table)
 
 
 ---

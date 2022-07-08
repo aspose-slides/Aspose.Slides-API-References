@@ -25,7 +25,7 @@ url: /php-java/shapecollection/insertaudioframeembedded/
 | audio_stream | InputStream | Audio stream. |
 
 ### Returns
-Created AudioFrame object.
+[AudioFrame](../../audioframe)
 
 
 ---
@@ -46,10 +46,10 @@ Created AudioFrame object.
 | y | float | Y coordinate of a new audio frame. |
 | width | float | Width of a new audio frame. |
 | height | float | Height of a new audio frame. |
-| audio | Audio | Audio from Presentation.Audios list. |
+| audio | [Audio](../../audio) | Audio from Presentation.Audios list. |
 
 ### Returns
-Created AudioFrame object.
+[AudioFrame](../../audioframe)
 
 
 ---

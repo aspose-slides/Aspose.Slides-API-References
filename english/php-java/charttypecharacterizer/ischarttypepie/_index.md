@@ -20,7 +20,7 @@ url: /php-java/charttypecharacterizer/ischarttypepie/
  
 
 ### Returns
-ChartType#PieOfPie
+boolean
 
 
 ---

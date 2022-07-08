@@ -20,6 +20,9 @@ url: /php-java/masternotesslideheaderfootermanager/setheaderandchildheadersvisib
 | --- | --- | --- |
 | isVisible | boolean | true - makes a header placeholders visible, otherwise - hides them. |
 
+### Returns
+void
+
 
 ---
 

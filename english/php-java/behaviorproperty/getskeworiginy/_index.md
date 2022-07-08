@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getskeworiginy/
  Represents 'skew.origin.y' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

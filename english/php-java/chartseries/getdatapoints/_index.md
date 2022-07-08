@@ -14,7 +14,7 @@ url: /php-java/chartseries/getdatapoints/
  
 
 ### Returns
-IChartDataPointCollection
+[ChartDataPointCollection](../../chartdatapointcollection)
 
 
 ---

@@ -10,6 +10,9 @@ url: /php-java/paragraphformat/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

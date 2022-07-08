@@ -18,6 +18,9 @@ url: /php-java/presentationinfo/writebindedpresentation/
 | --- | --- | --- |
 | stream | OutputStream | The stream must be seekable and writable. |
 
+### Returns
+void
+
 
 ---
 
@@ -32,6 +35,9 @@ url: /php-java/presentationinfo/writebindedpresentation/
 | Name | Type | Description |
 | --- | --- | --- |
 | file | String | Presentation file. |
+
+### Returns
+void
 
 
 ---

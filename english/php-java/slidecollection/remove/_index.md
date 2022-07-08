@@ -16,7 +16,10 @@ url: /php-java/slidecollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | Slide | The slide to remove from the collection. |
+| value | [Slide](../../slide) | The slide to remove from the collection. |
+
+### Returns
+void
 
 
 ---

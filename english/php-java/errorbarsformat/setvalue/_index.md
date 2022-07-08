@@ -15,7 +15,7 @@ url: /php-java/errorbarsformat/setvalue/
  
 
 ### Returns
-float
+void
 
 
 ---

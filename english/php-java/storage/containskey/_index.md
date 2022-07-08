@@ -19,7 +19,7 @@ url: /php-java/storage/containskey/
 | key | String | Key of the value. |
 
 ### Returns
-True if the storage contains an element with the specified key, false otherwise.
+boolean
 
 
 ---

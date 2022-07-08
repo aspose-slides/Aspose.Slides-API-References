@@ -13,6 +13,9 @@ url: /php-java/outershadow/getdistance/
  Read/write  double.
  
 
+### Returns
+double
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/chartplotarea/getchart/
  
 
 ### Returns
-IChart
+[Chart](../../chart)
 
 
 ---

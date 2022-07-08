@@ -14,7 +14,7 @@ url: /php-java/portionformat/setsmarttagclean/
  
 
 ### Returns
-boolean
+void
 
 
 ---

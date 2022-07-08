@@ -19,6 +19,9 @@ Example:
   $mathArray->setMaximumDistribution(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

@@ -13,6 +13,9 @@ url: /php-java/presetshadow/getdistance/
  Read/write  double.
  
 
+### Returns
+double
+
 
 ---
 

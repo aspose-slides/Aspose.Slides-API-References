@@ -14,7 +14,7 @@ url: /php-java/gradientformat/setgradientshape/
  
 
 ### Returns
-GradientShape
+void
 
 
 ---

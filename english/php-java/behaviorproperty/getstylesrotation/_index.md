@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstylesrotation/
  Represents 'style.sRotation' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

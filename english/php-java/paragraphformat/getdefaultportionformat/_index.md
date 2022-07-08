@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/getdefaultportionformat/
  
 
 ### Returns
-IPortionFormat
+[PortionFormat](../../portionformat)
 
 
 ---

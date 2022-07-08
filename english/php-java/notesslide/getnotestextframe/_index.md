@@ -14,7 +14,7 @@ url: /php-java/notesslide/getnotestextframe/
  
 
 ### Returns
-ITextFrame
+[TextFrame](../../textframe)
 
 
 ---

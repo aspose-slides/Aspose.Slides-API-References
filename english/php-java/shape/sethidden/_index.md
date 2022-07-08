@@ -13,6 +13,9 @@ url: /php-java/shape/sethidden/
  Read/write  boolean.
  
 
+### Returns
+void
+
 
 ---
 

@@ -13,6 +13,9 @@ url: /php-java/swfoptions/getviewerincluded/
  Default is true.
  
 
+### Returns
+boolean
+
 
 ---
 

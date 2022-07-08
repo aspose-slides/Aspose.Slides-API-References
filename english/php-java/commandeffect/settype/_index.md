@@ -14,7 +14,7 @@ url: /php-java/commandeffect/settype/
  
 
 ### Returns
-CommandEffectType
+void
 
 
 ---

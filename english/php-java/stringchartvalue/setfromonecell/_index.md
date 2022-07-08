@@ -16,7 +16,10 @@ url: /php-java/stringchartvalue/setfromonecell/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cell | ChartDataCell | Cell. |
+| cell | [ChartDataCell](../../chartdatacell) | Cell. |
+
+### Returns
+void
 
 
 ---

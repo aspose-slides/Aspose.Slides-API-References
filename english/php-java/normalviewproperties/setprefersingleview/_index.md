@@ -16,7 +16,7 @@ url: /php-java/normalviewproperties/setprefersingleview/
  
 
 ### Returns
-boolean
+void
 
 
 ---

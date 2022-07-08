@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getimagedatagain/
  Represents 'imageData.gain' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

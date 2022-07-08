@@ -14,7 +14,7 @@ url: /php-java/patternformat/getforecolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

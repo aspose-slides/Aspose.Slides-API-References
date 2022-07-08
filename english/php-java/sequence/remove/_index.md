@@ -16,7 +16,10 @@ url: /php-java/sequence/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Effect | Effect to remove. |
+| item | [Effect](../../effect) | Effect to remove. |
+
+### Returns
+void
 
 
 ---

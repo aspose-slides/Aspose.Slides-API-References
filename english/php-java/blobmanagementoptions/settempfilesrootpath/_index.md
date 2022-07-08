@@ -13,6 +13,9 @@ url: /php-java/blobmanagementoptions/settempfilesrootpath/
  temorary directory will be used by default.
  
 
+### Returns
+void
+
 
 ---
 

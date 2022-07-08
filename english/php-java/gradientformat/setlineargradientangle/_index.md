@@ -14,7 +14,7 @@ url: /php-java/gradientformat/setlineargradientangle/
  
 
 ### Returns
-float
+void
 
 
 ---

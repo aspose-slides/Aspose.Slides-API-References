@@ -19,7 +19,7 @@ url: /php-java/softedge/equals/
 | obj | Object | The SoftEdge to compare. |
 
 ### Returns
-SoftEdge
+boolean
 
 
 ---

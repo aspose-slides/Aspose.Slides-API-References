@@ -14,7 +14,7 @@ url: /php-java/hyperlink/sethighlightclick/
  
 
 ### Returns
-boolean
+void
 
 
 ---

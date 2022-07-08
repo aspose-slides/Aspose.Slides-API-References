@@ -14,7 +14,7 @@ url: /php-java/propertyeffect/getpoints/
  
 
 ### Returns
-IPointCollection
+[PointCollection](../../pointcollection)
 
 
 ---

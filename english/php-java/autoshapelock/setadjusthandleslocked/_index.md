@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/setadjusthandleslocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

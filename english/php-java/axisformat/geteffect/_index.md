@@ -14,7 +14,7 @@ url: /php-java/axisformat/geteffect/
  
 
 ### Returns
-IEffectFormat
+[EffectFormat](../../effectformat)
 
 
 ---

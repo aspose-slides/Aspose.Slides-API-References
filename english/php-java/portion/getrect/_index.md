@@ -32,6 +32,9 @@ Example:
   }
 ```
 
+### Returns
+Rectangle2D.Float
+
 
 ---
 

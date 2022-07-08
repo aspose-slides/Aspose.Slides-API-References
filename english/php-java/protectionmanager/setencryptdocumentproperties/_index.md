@@ -16,7 +16,7 @@ url: /php-java/protectionmanager/setencryptdocumentproperties/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/slidecollection/get_item/
  
 
 ### Returns
-Slide
+[Slide](../../slide)
 
 
 ---

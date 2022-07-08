@@ -14,6 +14,9 @@ url: /php-java/timing/getautoreverse/
  Read/write  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

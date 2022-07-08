@@ -14,7 +14,7 @@ url: /php-java/video/getstream/
  
 
 ### Returns
-Stream for reading.
+InputStream
 
 
 ---

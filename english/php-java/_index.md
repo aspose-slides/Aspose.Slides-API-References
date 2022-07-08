@@ -10,7 +10,6 @@ is_root: true
 ## Classes
 | Class | Description |
 | --- | --- |
-
 | [AdjustValue](adjustvalue) | Represents a geometry shape's adjustment value. These values affect shape's form. |
 | [AdjustValueCollection](adjustvaluecollection) | Reprasents a collection of shape's adjustments. |
 | [AlphaBiLevel](alphabilevel) | Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |

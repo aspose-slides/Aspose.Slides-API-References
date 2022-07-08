@@ -12,6 +12,9 @@ url: /php-java/slide/remove/
  Removes slide from presentation.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

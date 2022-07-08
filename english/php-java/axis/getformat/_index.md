@@ -14,7 +14,7 @@ url: /php-java/axis/getformat/
   
 
 ### Returns
-IAxisFormat
+[AxisFormat](../../axisformat)
 
 
 ---

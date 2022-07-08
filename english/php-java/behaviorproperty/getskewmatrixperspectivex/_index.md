@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getskewmatrixperspectivex/
  Represents 'skew.matrix.perspectiveX' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

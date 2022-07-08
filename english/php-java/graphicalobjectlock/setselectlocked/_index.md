@@ -14,7 +14,7 @@ url: /php-java/graphicalobjectlock/setselectlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

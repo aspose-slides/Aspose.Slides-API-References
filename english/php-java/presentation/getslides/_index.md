@@ -14,7 +14,7 @@ url: /php-java/presentation/getslides/
  
 
 ### Returns
-ISlideCollection
+[SlideCollection](../../slidecollection)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/axisformat/getline/
  
 
 ### Returns
-ILineFormat
+[LineFormat](../../lineformat)
 
 
 ---

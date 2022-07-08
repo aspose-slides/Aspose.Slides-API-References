@@ -38,7 +38,7 @@ url: /php-java/presentation/getdigitalsignatures/
 ```
 
 ### Returns
-IDigitalSignatureCollection
+[DigitalSignatureCollection](../../digitalsignaturecollection)
 
 
 ---

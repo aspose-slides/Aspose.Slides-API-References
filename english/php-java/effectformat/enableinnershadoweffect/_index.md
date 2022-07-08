@@ -12,6 +12,9 @@ url: /php-java/effectformat/enableinnershadoweffect/
  Enables inner shadow effect.
  
 
+### Returns
+void
+
 
 ---
 

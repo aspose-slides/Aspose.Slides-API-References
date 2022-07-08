@@ -14,7 +14,7 @@ url: /php-java/rotationeffect/setto/
  
 
 ### Returns
-float
+void
 
 
 ---

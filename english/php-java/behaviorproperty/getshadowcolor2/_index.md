@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getshadowcolor2/
  Represents 'shadow.color2' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

@@ -13,7 +13,7 @@ url: /php-java/alphainverse/geteffective/
  
 
 ### Returns
-A IAlphaInverseEffectiveData.
+
 
 
 ---

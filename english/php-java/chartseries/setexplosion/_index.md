@@ -14,7 +14,7 @@ url: /php-java/chartseries/setexplosion/
   
 
 ### Returns
-int
+void
 
 
 ---

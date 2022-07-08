@@ -14,7 +14,7 @@ url: /php-java/audioframe/setvolume/
  
 
 ### Returns
-AudioVolumeMode
+void
 
 
 ---

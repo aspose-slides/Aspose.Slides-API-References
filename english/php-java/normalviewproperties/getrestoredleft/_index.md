@@ -15,7 +15,7 @@ url: /php-java/normalviewproperties/getrestoredleft/
  
 
 ### Returns
-INormalViewRestoredProperties
+[NormalViewRestoredProperties](../../normalviewrestoredproperties)
 
 
 ---

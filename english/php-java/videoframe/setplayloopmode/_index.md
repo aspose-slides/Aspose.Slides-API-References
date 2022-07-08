@@ -14,7 +14,7 @@ url: /php-java/videoframe/setplayloopmode/
  
 
 ### Returns
-boolean
+void
 
 
 ---

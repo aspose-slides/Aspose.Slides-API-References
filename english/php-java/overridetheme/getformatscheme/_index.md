@@ -14,7 +14,7 @@ url: /php-java/overridetheme/getformatscheme/
  
 
 ### Returns
-IFormatScheme
+[FormatScheme](../../formatscheme)
 
 
 ---

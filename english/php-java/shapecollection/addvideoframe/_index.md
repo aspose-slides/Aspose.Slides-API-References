@@ -23,7 +23,7 @@ url: /php-java/shapecollection/addvideoframe/
 | fname | String | Video file name. |
 
 ### Returns
-Created VideoFrame object.
+[VideoFrame](../../videoframe)
 
 
 ---
@@ -42,10 +42,10 @@ Created VideoFrame object.
 | y | float | Y coordinate of a new video frame. |
 | width | float | Width of a new video frame. |
 | height | float | Height of a new video frame. |
-| video | Video | Video to add. |
+| video | [Video](../../video) | Video to add. |
 
 ### Returns
-Created VideoFrame object.
+[VideoFrame](../../videoframe)
 
 
 ---

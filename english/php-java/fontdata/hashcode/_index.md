@@ -14,7 +14,7 @@ url: /php-java/fontdata/hashcode/
  
 
 ### Returns
-Hash code of the FontData.
+int
 
 
 ---

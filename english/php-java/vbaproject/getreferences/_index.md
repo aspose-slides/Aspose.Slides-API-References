@@ -14,7 +14,7 @@ url: /php-java/vbaproject/getreferences/
  
 
 ### Returns
-IVbaReferenceCollection
+[VbaReferenceCollection](../../vbareferencecollection)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/axis/setminvalue/
  
 
 ### Returns
-double
+void
 
 
 ---

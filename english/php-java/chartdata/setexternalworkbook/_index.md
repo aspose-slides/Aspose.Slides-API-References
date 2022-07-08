@@ -32,6 +32,9 @@ url: /php-java/chartdata/setexternalworkbook/
 | --- | --- | --- |
 | workbookPath | String | Path to the target workbook |
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |
@@ -67,6 +70,9 @@ url: /php-java/chartdata/setexternalworkbook/
 | --- | --- | --- |
 | workbookPath | String | Path to the target workbook |
 | updateChartData | boolean | If value is false only workbook path will be updated. Chart data won't be loaded and updated from the target workbook. Can be used when target workbook doesn't exist or it's not available. If value is true chart data will be updated from the target workbook. |
+
+### Returns
+void
 
 ### Exception
 

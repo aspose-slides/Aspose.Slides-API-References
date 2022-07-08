@@ -26,6 +26,9 @@ Example:
   }
 ```
 
+### Returns
+[MathParagraph](../../mathparagraph)
+
 
 ---
 

@@ -19,7 +19,7 @@ url: /php-java/pdfoptions/setjpegquality/
  
 
 ### Returns
-byte
+void
 
 
 ---

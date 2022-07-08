@@ -18,6 +18,9 @@ url: /php-java/tagcollection/removeat/
 | --- | --- | --- |
 | index | int | The zero-based index of the tag to remove. |
 
+### Returns
+void
+
 
 ---
 

@@ -15,7 +15,7 @@ url: /php-java/hyperlink/sethistory/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/innershadow/setdirection/
  
 
 ### Returns
-float
+void
 
 
 ---

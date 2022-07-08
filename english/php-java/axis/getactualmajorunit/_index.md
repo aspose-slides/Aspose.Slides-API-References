@@ -12,6 +12,9 @@ url: /php-java/axis/getactualmajorunit/
  Specifies actual major unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value. 
  
 
+### Returns
+double
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/threedformat/getlightrig/
  
 
 ### Returns
-ILightRig
+[LightRig](../../lightrig)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/trendline/getrelatedlegendentry/
  
 
 ### Returns
-ILegendEntryProperties
+[LegendEntryProperties](../../legendentryproperties)
 
 
 ---

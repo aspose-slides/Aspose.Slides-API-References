@@ -14,7 +14,7 @@ url: /php-java/texthighlightingoptions/setwholewordsonly/
  
 
 ### Returns
-boolean
+void
 
 
 ---

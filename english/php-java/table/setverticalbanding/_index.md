@@ -14,7 +14,7 @@ url: /php-java/table/setverticalbanding/
  
 
 ### Returns
-boolean
+void
 
 
 ---

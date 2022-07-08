@@ -14,7 +14,7 @@ url: /php-java/column/setwidth/
  
 
 ### Returns
-double
+void
 
 
 ---

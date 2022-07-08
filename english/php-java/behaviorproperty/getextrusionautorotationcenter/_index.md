@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionautorotationcenter/
  Represents 'extrusion.autorotationcenter' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

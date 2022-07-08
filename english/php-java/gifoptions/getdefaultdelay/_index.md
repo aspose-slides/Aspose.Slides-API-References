@@ -28,7 +28,7 @@ url: /php-java/gifoptions/getdefaultdelay/
 ```
 
 ### Returns
-ISlideShowTransition#setAdvanceAfterTime(long)
+int
 
 
 ---

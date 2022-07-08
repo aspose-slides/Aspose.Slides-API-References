@@ -14,7 +14,7 @@ url: /php-java/textframe/gettextframeformat/
  
 
 ### Returns
-ITextFrameFormat
+[TextFrameFormat](../../textframeformat)
 
 
 ---

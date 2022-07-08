@@ -14,7 +14,7 @@ url: /php-java/videoframe/setlinkpathlong/
  
 
 ### Returns
-String
+void
 
 
 ---

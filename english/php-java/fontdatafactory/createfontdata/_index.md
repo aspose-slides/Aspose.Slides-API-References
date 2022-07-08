@@ -19,7 +19,7 @@ url: /php-java/fontdatafactory/createfontdata/
 | fontName | String | Font name |
 
 ### Returns
-FontData
+[FontData](../../fontdata)
 
 
 ---

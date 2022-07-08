@@ -12,6 +12,9 @@ url: /php-java/documentproperties/clearcustomproperties/
  Removes all custom properties.
  
 
+### Returns
+void
+
 
 ---
 

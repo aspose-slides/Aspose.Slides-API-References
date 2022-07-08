@@ -18,7 +18,7 @@ Example:
 ```
 
 ### Returns
-New instance of type IMathArray
+[MathArray](../../matharray)
 
 
 ---

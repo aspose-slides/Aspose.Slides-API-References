@@ -14,7 +14,7 @@ url: /php-java/tiffoptions/setpixelformat/
  
 
 ### Returns
-ImagePixelFormat
+void
 
 
 ---

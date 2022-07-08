@@ -21,7 +21,7 @@ url: /php-java/protectionmanager/setreadonlyrecommended/
 ```
 
 ### Returns
-boolean
+void
 
 
 ---

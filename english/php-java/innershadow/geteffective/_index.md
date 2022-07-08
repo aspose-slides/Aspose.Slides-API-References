@@ -13,7 +13,7 @@ url: /php-java/innershadow/geteffective/
  
 
 ### Returns
-A IInnerShadowEffectiveData.
+
 
 
 ---

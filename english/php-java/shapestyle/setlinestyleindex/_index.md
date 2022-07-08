@@ -14,7 +14,7 @@ url: /php-java/shapestyle/setlinestyleindex/
  
 
 ### Returns
-int
+void
 
 
 ---

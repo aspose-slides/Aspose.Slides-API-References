@@ -14,7 +14,7 @@ url: /php-java/alphabilevel/setthreshold/
  
 
 ### Returns
-float
+void
 
 
 ---

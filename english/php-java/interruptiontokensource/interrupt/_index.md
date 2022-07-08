@@ -12,6 +12,9 @@ url: /php-java/interruptiontokensource/interrupt/
  Initialize request for interruption.
  
 
+### Returns
+void
+
 
 ---
 

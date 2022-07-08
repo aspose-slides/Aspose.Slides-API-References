@@ -18,6 +18,9 @@ url: /php-java/ppimage/replaceimage/
 | --- | --- | --- |
 | newImageData | byte[] | The new image's data. |
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |
@@ -37,7 +40,10 @@ url: /php-java/ppimage/replaceimage/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| newImage | PPImage | The new IPPImage. |
+| newImage | [PPImage](../../ppimage) | The new IPPImage. |
+
+### Returns
+void
 
 ### Exception
 

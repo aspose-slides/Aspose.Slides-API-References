@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/getrighttoleft/
  
 
 ### Returns
-NullableBool
+byte
 
 
 ---

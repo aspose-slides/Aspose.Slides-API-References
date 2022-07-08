@@ -14,7 +14,7 @@ url: /php-java/trendline/setdisplayrsquaredvalue/
  
 
 ### Returns
-boolean
+void
 
 
 ---

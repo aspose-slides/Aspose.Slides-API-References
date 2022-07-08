@@ -14,7 +14,7 @@ url: /php-java/colorchange/getfromcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

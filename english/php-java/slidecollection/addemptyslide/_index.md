@@ -16,10 +16,10 @@ url: /php-java/slidecollection/addemptyslide/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| layout | LayoutSlide | Layout for a slide. |
+| layout | [LayoutSlide](../../layoutslide) | Layout for a slide. |
 
 ### Returns
-Added slide.
+[Slide](../../slide)
 
 
 ---

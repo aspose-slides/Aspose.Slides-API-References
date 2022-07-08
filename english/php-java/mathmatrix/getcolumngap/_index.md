@@ -23,6 +23,9 @@ Example:
   $matrix->setColumnGap(20);
 ```
 
+### Returns
+long
+
 
 ---
 

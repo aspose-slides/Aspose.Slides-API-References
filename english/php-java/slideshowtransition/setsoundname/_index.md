@@ -14,7 +14,7 @@ url: /php-java/slideshowtransition/setsoundname/
  
 
 ### Returns
-String
+void
 
 ### Exception
 

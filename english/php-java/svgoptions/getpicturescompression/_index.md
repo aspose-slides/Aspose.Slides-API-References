@@ -12,6 +12,9 @@ url: /php-java/svgoptions/getpicturescompression/
  Represents the pictures compression level
  
 
+### Returns
+int
+
 
 ---
 

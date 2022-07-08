@@ -16,7 +16,7 @@ url: /php-java/chartcategory/getgroupinglevels/
  
 
 ### Returns
-IChartCategoryLevelsManager
+[ChartCategoryLevelsManager](../../chartcategorylevelsmanager)
 
 
 ---

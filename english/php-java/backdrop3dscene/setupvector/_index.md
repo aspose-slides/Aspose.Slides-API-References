@@ -16,7 +16,7 @@ url: /php-java/backdrop3dscene/setupvector/
  
 
 ### Returns
-float[]
+void
 
 
 ---

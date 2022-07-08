@@ -13,6 +13,9 @@ url: /php-java/axis/setbinwidth/
  Applied to category axes. Used with Histogram or HistogramPareto series only.
  
 
+### Returns
+void
+
 
 ---
 

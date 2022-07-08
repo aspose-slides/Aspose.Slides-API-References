@@ -19,7 +19,7 @@ url: /php-java/sectioncollection/appendemptysection/
 | name | String | Name of the section |
 
 ### Returns
-Added section.
+[Section](../../section)
 
 
 ---

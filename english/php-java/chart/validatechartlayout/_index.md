@@ -15,6 +15,9 @@ url: /php-java/chart/validatechartlayout/
  IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
  
 
+### Returns
+void
+
 
 ---
 

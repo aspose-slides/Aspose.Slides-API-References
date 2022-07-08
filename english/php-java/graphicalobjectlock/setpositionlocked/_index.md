@@ -14,7 +14,7 @@ url: /php-java/graphicalobjectlock/setpositionlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

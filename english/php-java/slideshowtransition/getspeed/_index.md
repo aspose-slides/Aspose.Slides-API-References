@@ -15,7 +15,7 @@ url: /php-java/slideshowtransition/getspeed/
  
 
 ### Returns
-TransitionSpeed
+int
 
 
 ---

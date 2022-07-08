@@ -16,7 +16,7 @@ url: /php-java/seteffect/setto/
  
 
 ### Returns
-Object
+void
 
 
 ---

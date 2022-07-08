@@ -16,7 +16,10 @@ url: /php-java/chartdatapointcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartDataPoint | The value. |
+| value | [ChartDataPoint](../../chartdatapoint) | The value. |
+
+### Returns
+void
 
 ### Exception
 

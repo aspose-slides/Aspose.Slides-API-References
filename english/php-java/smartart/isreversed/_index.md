@@ -13,6 +13,9 @@ url: /php-java/smartart/isreversed/
  Read/write  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

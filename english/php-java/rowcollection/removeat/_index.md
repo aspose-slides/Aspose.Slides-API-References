@@ -19,6 +19,9 @@ url: /php-java/rowcollection/removeat/
 | firstRowIndex | int | Index of a row to delete. |
 | withAttachedRows | boolean | True to delete also all attached rows. |
 
+### Returns
+void
+
 
 ---
 

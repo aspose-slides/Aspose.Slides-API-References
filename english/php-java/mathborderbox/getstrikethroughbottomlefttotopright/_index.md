@@ -19,6 +19,9 @@ Example:
   $borderBox->setStrikethroughBottomLeftToTopRight(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

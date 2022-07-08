@@ -20,6 +20,9 @@ url: /php-java/masternotesslideheaderfootermanager/setdatetimeandchilddatetimest
 | --- | --- | --- |
 | text | String | Text to set. |
 
+### Returns
+void
+
 
 ---
 

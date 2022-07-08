@@ -24,7 +24,7 @@ url: /php-java/shapecollection/addchart/
 | height | float | Chart's height. |
 
 ### Returns
-Created chart.
+[Chart](../../chart)
 
 
 ---
@@ -47,7 +47,7 @@ Created chart.
 | initWithSample | boolean | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
 
 ### Returns
-Created chart.
+[Chart](../../chart)
 
 
 ---

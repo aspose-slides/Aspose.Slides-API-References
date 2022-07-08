@@ -20,7 +20,7 @@ url: /php-java/sectioncollection/addemptysection/
 | index | int | Index of new section. |
 
 ### Returns
-Added section.
+[Section](../../section)
 
 
 ---

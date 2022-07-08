@@ -17,7 +17,10 @@ url: /php-java/paragraphcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which Paragraph should be inserted. |
-| value | Paragraph | The Paragraph to insert. |
+| value | [Paragraph](../../paragraph) | The Paragraph to insert. |
+
+### Returns
+void
 
 
 ---
@@ -33,7 +36,10 @@ url: /php-java/paragraphcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which paragraphs should be inserted. |
-| value | ParagraphCollection | The paragraphs to insert. |
+| value | [ParagraphCollection](../../paragraphcollection) | The paragraphs to insert. |
+
+### Returns
+void
 
 
 ---

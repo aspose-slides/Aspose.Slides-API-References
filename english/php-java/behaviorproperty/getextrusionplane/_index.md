@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionplane/
  Represents 'extrusion.plane' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

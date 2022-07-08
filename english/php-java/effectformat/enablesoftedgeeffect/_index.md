@@ -12,6 +12,9 @@ url: /php-java/effectformat/enablesoftedgeeffect/
  Enables soft edge effect.
  
 
+### Returns
+void
+
 
 ---
 

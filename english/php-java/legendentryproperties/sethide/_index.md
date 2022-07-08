@@ -14,7 +14,7 @@ url: /php-java/legendentryproperties/sethide/
  
 
 ### Returns
-boolean
+void
 
 
 ---

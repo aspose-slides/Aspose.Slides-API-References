@@ -14,7 +14,7 @@ url: /php-java/axis/setnumberformatlinkedtosource/
  
 
 ### Returns
-boolean
+void
 
 
 ---

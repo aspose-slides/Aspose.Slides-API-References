@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getimage/
  Represents 'image' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

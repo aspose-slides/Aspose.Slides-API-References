@@ -14,7 +14,7 @@ url: /php-java/webdocument/getinput/
   
 
 ### Returns
-#getInput
+Input
 
 
 ---

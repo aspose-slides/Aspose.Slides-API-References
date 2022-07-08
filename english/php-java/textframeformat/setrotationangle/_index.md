@@ -32,7 +32,7 @@ url: /php-java/textframeformat/setrotationangle/
 ```
 
 ### Returns
-float
+void
 
 
 ---

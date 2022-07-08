@@ -10,6 +10,9 @@ url: /php-java/behaviorpropertycollection/insertitem/
 ## insertItem(int index, [BehaviorProperty](../../behaviorproperty) item)  method
 
 
+### Returns
+void
+
 
 ---
 

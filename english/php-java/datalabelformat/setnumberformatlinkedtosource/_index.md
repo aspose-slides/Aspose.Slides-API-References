@@ -21,7 +21,7 @@ url: /php-java/datalabelformat/setnumberformatlinkedtosource/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/chartseries/setshowinnerpoints/
  
 
 ### Returns
-boolean
+void
 
 
 ---

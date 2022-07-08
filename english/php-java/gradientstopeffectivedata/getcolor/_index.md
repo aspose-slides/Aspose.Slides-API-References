@@ -14,7 +14,7 @@ url: /php-java/gradientstopeffectivedata/getcolor/
  
 
 ### Returns
-java.awt.Color
+Color
 
 
 ---

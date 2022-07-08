@@ -30,7 +30,10 @@ The example demonstrates getting Summary Zoom Section element by index:
 
 | Name | Type | Description |
 | --- | --- | --- |
-| section | Section | Section for which the Summary Zoom Section element is to be removed ISection. |
+| section | [Section](../../section) | Section for which the Summary Zoom Section element is to be removed ISection. |
+
+### Returns
+void
 
 
 ---

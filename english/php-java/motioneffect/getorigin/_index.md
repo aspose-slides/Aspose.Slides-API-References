@@ -15,7 +15,7 @@ url: /php-java/motioneffect/getorigin/
  
 
 ### Returns
-MotionOriginType
+int
 
 
 ---

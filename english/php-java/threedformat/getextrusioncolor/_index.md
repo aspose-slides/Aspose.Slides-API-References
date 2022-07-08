@@ -14,7 +14,7 @@ url: /php-java/threedformat/getextrusioncolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokedashstyle/
  Represents 'stroke.dashstyle' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

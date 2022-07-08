@@ -14,7 +14,7 @@ url: /php-java/shape/gethyperlinkmouseover/
  
 
 ### Returns
-IHyperlink
+[Hyperlink](../../hyperlink)
 
 
 ---

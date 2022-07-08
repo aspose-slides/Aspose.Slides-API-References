@@ -28,7 +28,7 @@ url: /php-java/html5options/setanimatetransitions/
 ```
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokefilltype/
  Represents 'stroke.filltype' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

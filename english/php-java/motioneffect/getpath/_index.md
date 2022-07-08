@@ -14,7 +14,7 @@ url: /php-java/motioneffect/getpath/
  
 
 ### Returns
-IMotionPath
+[MotionPath](../../motionpath)
 
 
 ---

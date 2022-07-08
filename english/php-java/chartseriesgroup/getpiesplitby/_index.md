@@ -15,7 +15,7 @@ url: /php-java/chartseriesgroup/getpiesplitby/
  
 
 ### Returns
-PieSplitType
+int
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusionrotationanglex/
  Represents 'extrusion.rotationangle.x' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

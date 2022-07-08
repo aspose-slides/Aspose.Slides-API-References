@@ -24,6 +24,9 @@ Example:
   $subsuperscript->setAlignScripts(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

@@ -13,6 +13,9 @@ url: /php-java/imagecollection/size/
  Read-only  int.
  
 
+### Returns
+int
+
 
 ---
 

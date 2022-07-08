@@ -14,7 +14,7 @@ url: /php-java/viewproperties/setshowcomments/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

@@ -23,7 +23,7 @@ url: /php-java/shapecollection/addautoshape/
 | height | float | The height of shape's frame. |
 
 ### Returns
-Created AutoShape object.
+[AutoShape](../../autoshape)
 
 
 ---
@@ -46,7 +46,7 @@ Created AutoShape object.
 | createFromTemplate | boolean | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
 
 ### Returns
-Created AutoShape object.
+[AutoShape](../../autoshape)
 
 
 ---

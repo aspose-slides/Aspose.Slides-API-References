@@ -19,7 +19,7 @@ url: /php-java/smartartnodecollection/addnodebyposition/
 | position | int | Zero-base node position |
 
 ### Returns
-Added node
+[SmartArtNode](../../smartartnode)
 
 ### Exception
 

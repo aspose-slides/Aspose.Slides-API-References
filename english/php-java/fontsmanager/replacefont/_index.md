@@ -16,8 +16,11 @@ url: /php-java/fontsmanager/replacefont/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceFont | FontData | Source font |
-| destFont | FontData | Destination font |
+| sourceFont | [FontData](../fontdata) | Source font |
+| destFont | [FontData](../../fontdata) | Destination font |
+
+### Returns
+void
 
 
 ---
@@ -32,10 +35,10 @@ url: /php-java/fontsmanager/replacefont/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| substRule | FontSubstRule | Font substitution info |
+| substRule | [FontSubstRule](../../fontsubstrule) | Font substitution info |
 
 ### Returns
-FontSubstRule
+void
 
 
 ---
@@ -50,10 +53,10 @@ FontSubstRule
 
 | Name | Type | Description |
 | --- | --- | --- |
-| substRules | FontSubstRuleCollection | Font substitution rules collection |
+| substRules | [FontSubstRuleCollection](../../fontsubstrulecollection) | Font substitution rules collection |
 
 ### Returns
-FontSubstRule
+void
 
 
 ---

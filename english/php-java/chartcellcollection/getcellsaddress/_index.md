@@ -12,6 +12,9 @@ url: /php-java/chartcellcollection/getcellsaddress/
  Returns address of the set of cells in workbook.
  
 
+### Returns
+String
+
 
 ---
 

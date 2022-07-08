@@ -14,7 +14,7 @@ url: /php-java/shapestyle/geteffectcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

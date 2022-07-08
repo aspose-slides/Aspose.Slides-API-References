@@ -14,7 +14,7 @@ url: /php-java/coloreffect/setdirection/
  
 
 ### Returns
-ColorDirection
+void
 
 
 ---

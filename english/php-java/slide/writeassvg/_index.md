@@ -18,6 +18,9 @@ url: /php-java/slide/writeassvg/
 | --- | --- | --- |
 | stream | OutputStream | Target stream |
 
+### Returns
+void
+
 
 ---
 
@@ -32,7 +35,10 @@ url: /php-java/slide/writeassvg/
 | Name | Type | Description |
 | --- | --- | --- |
 | stream | OutputStream | Target stream |
-| svgOptions | SVGOptions | SVG generation options |
+| svgOptions | [SVGOptions](../../svgoptions) | SVG generation options |
+
+### Returns
+void
 
 
 ---

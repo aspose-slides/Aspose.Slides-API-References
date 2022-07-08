@@ -19,6 +19,9 @@ Example:
   $operatorSymbol = $naryOperator->getOperator();
 ```
 
+### Returns
+void
+
 
 ---
 

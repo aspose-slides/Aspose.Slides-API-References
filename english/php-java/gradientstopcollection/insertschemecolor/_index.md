@@ -20,6 +20,9 @@ url: /php-java/gradientstopcollection/insertschemecolor/
 | position | float | Position of the new gradient stop. |
 | schemeColor | int | Color of the new radient stop. |
 
+### Returns
+void
+
 
 ---
 

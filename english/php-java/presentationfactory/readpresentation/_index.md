@@ -19,7 +19,7 @@ url: /php-java/presentationfactory/readpresentation/
 | data | byte[] | Array to read |
 
 ### Returns
-Read presentation
+[Presentation](../../presentation)
 
 
 ---
@@ -35,10 +35,10 @@ Read presentation
 | Name | Type | Description |
 | --- | --- | --- |
 | data | byte[] | Array to read |
-| options | LoadOptions | Load options |
+| options | [LoadOptions](../../loadoptions) | Load options |
 
 ### Returns
-Read presentation
+[Presentation](../../presentation)
 
 
 ---
@@ -56,7 +56,7 @@ Read presentation
 | stream | InputStream | Input stream to read |
 
 ### Returns
-Read presentation
+[Presentation](../../presentation)
 
 
 ---
@@ -72,10 +72,10 @@ Read presentation
 | Name | Type | Description |
 | --- | --- | --- |
 | stream | InputStream | Input stream to read |
-| options | LoadOptions | Load options |
+| options | [LoadOptions](../../loadoptions) | Load options |
 
 ### Returns
-Read presentation
+[Presentation](../../presentation)
 
 
 ---
@@ -93,7 +93,7 @@ Read presentation
 | file | String | File name |
 
 ### Returns
-Read presentation
+[Presentation](../../presentation)
 
 
 ---
@@ -109,10 +109,10 @@ Read presentation
 | Name | Type | Description |
 | --- | --- | --- |
 | file | String | File name |
-| options | LoadOptions | Load options |
+| options | [LoadOptions](../../loadoptions) | Load options |
 
 ### Returns
-Read presentation
+[Presentation](../../presentation)
 
 
 ---

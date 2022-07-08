@@ -13,6 +13,9 @@ url: /php-java/imagecollection/getsyncroot/
  Read-only  Object.
  
 
+### Returns
+Object
+
 
 ---
 

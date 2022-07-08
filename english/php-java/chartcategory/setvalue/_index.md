@@ -15,7 +15,7 @@ url: /php-java/chartcategory/setvalue/
  
 
 ### Returns
-Object
+void
 
 
 ---

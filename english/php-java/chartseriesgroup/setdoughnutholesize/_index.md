@@ -15,7 +15,7 @@ url: /php-java/chartseriesgroup/setdoughnutholesize/
  
 
 ### Returns
-byte
+void
 
 
 ---

@@ -57,7 +57,7 @@ url: /php-java/shape/setrawframe/
 ```
 
 ### Returns
-IShapeFrame
+void
 
 
 ---

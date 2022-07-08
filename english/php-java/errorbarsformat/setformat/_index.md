@@ -14,7 +14,7 @@ url: /php-java/errorbarsformat/setformat/
  
 
 ### Returns
-IFormat
+void
 
 
 ---

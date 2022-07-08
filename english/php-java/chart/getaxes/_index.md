@@ -14,7 +14,7 @@ url: /php-java/chart/getaxes/
  
 
 ### Returns
-IAxesManager
+[AxesManager](../../axesmanager)
 
 
 ---

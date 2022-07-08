@@ -14,7 +14,7 @@ url: /php-java/marker/getsymbol/
  
 
 ### Returns
-MarkerStyleType
+int
 
 
 ---

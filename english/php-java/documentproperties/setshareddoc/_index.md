@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setshareddoc/
  
 
 ### Returns
-boolean
+void
 
 
 ---

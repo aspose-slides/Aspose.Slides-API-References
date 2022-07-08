@@ -31,7 +31,10 @@ url: /php-java/fontfallbackrulescollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceRule | FontFallBackRule | Specified rule for adding |
+| sourceRule | [FontFallBackRule](../../fontfallbackrule) | Specified rule for adding |
+
+### Returns
+void
 
 
 ---

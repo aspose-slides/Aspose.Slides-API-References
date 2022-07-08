@@ -14,7 +14,7 @@ url: /php-java/graphicalobject/getgraphicalobjectlock/
  
 
 ### Returns
-IGraphicalObjectLock
+[GraphicalObjectLock](../../graphicalobjectlock)
 
 
 ---

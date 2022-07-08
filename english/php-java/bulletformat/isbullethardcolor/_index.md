@@ -16,7 +16,7 @@ url: /php-java/bulletformat/isbullethardcolor/
  
 
 ### Returns
-NullableBool
+byte
 
 
 ---

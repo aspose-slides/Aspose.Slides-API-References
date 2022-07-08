@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokecolor2/
  Represents 'stroke.color2' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

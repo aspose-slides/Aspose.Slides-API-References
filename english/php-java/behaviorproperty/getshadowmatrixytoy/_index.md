@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getshadowmatrixytoy/
  Represents 'shadow.matrix.ytoy' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

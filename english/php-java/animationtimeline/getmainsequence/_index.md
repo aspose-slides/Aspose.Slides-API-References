@@ -14,7 +14,7 @@ url: /php-java/animationtimeline/getmainsequence/
  
 
 ### Returns
-ISequence
+[Sequence](../../sequence)
 
 
 ---

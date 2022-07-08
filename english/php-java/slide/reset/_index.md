@@ -12,6 +12,9 @@ url: /php-java/slide/reset/
  Resets position, size and formatting of every shape that has a prototype on LayoutSlide.
  
 
+### Returns
+void
+
 
 ---
 

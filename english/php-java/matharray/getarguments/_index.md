@@ -18,6 +18,9 @@ Example:
   $mathArray->getArguments()->add(new MathematicalText("item2"));
 ```
 
+### Returns
+[MathBlock](../../mathblock)
+
 
 ---
 

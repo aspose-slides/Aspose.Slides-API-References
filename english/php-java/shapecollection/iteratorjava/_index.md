@@ -13,7 +13,7 @@ url: /php-java/shapecollection/iteratorjava/
  
 
 ### Returns
-An java.util.Iterator for the entire collection.
+IGenericEnumerator
 
 
 ---

@@ -21,7 +21,7 @@ url: /php-java/loadoptions/setonlyloaddocumentproperties/
  
 
 ### Returns
-boolean
+void
 
 
 ---

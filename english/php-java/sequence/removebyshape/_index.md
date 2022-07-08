@@ -12,6 +12,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -20,6 +23,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---
@@ -30,6 +36,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -38,6 +47,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---
@@ -48,6 +60,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -56,6 +71,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---
@@ -66,6 +84,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -74,6 +95,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---
@@ -84,6 +108,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -92,6 +119,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---
@@ -102,6 +132,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -110,6 +143,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---
@@ -120,6 +156,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -128,6 +167,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---
@@ -138,6 +180,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -146,6 +191,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---
@@ -156,6 +204,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -164,6 +215,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---
@@ -174,6 +228,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -183,6 +240,9 @@ url: /php-java/sequence/removebyshape/
  Remove effect for the specified shape.
  
 
+### Returns
+void
+
 
 ---
 
@@ -191,6 +251,9 @@ url: /php-java/sequence/removebyshape/
 
  Remove effect for the specified shape.
  
+
+### Returns
+void
 
 
 ---

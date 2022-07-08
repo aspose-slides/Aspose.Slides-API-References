@@ -35,10 +35,10 @@ url: /php-java/shapecollection/insertsectionzoomframe/
 | y | float | Y coordinate of a new Section Zoom frame {@code float}. |
 | width | float | Width of a new Section Zoom frame {@code float}. |
 | height | float | Height of a new Section Zoom frame {@code float}. |
-| section | Section | The slide object referenced by the Section Zoom frame ISection. |
+| section | [Section](../../section) | The slide object referenced by the Section Zoom frame ISection. |
 
 ### Returns
-Created Section Zoom object ISectionZoomFrame.
+[SectionZoomFrame](../../sectionzoomframe), [SummaryZoomSection](../../summaryzoomsection)
 
 ### Exception
 
@@ -79,11 +79,11 @@ Created Section Zoom object ISectionZoomFrame.
 | y | float | Y coordinate of a new Section Zoom frame {@code float}. |
 | width | float | Width of a new Section Zoom frame {@code float}. |
 | height | float | Height of a new Section Zoom frame {@code float}. |
-| section | Section | The slide object referenced by the Section Zoom frame ISection. |
-| image | PPImage | The image for the referenced slide IPPImage |
+| section | [Section](../section) | The slide object referenced by the Section Zoom frame ISection. |
+| image | [PPImage](../../ppimage) | The image for the referenced slide IPPImage |
 
 ### Returns
-Created Section Zoom object ISectionZoomFrame.
+[SectionZoomFrame](../../sectionzoomframe), [SummaryZoomSection](../../summaryzoomsection)
 
 ### Exception
 

@@ -14,7 +14,7 @@ url: /php-java/sectioncollection/get_item/
  
 
 ### Returns
-ISection
+[Section](../../section)
 
 
 ---

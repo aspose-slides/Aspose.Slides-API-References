@@ -13,6 +13,9 @@ url: /php-java/chartdata/switchrowcolumn/
  Data being charted on the X axis will move to the Y axis and vice versa. 
  
 
+### Returns
+void
+
 
 ---
 

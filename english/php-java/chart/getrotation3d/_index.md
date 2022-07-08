@@ -14,7 +14,7 @@ url: /php-java/chart/getrotation3d/
  
 
 ### Returns
-IRotation3D
+[Rotation3D](../../rotation3d)
 
 
 ---

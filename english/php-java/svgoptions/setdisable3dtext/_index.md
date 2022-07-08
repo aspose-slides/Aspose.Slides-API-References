@@ -14,7 +14,7 @@ url: /php-java/svgoptions/setdisable3dtext/
  
 
 ### Returns
-boolean
+void
 
 
 ---

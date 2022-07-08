@@ -19,7 +19,7 @@ url: /php-java/controlpropertiescollection/get_item/
 | name | String | Name of property. |
 
 ### Returns
-Property.
+String
 
 
 ---

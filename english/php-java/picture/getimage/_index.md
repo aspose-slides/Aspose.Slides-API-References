@@ -14,7 +14,7 @@ url: /php-java/picture/getimage/
  
 
 ### Returns
-IPPImage
+[PPImage](../../ppimage)
 
 
 ---

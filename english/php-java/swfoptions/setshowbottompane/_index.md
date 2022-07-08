@@ -12,6 +12,9 @@ url: /php-java/swfoptions/setshowbottompane/
  Show/hide bottom pane. Can be overridden in flashvars. Default is true. 
  
 
+### Returns
+void
+
 
 ---
 

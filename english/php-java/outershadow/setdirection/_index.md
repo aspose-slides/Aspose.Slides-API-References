@@ -13,6 +13,9 @@ url: /php-java/outershadow/setdirection/
  Read/write  float.
  
 
+### Returns
+void
+
 
 ---
 

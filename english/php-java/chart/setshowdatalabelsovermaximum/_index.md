@@ -14,7 +14,7 @@ url: /php-java/chart/setshowdatalabelsovermaximum/
  
 
 ### Returns
-boolean
+void
 
 
 ---

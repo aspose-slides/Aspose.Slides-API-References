@@ -14,7 +14,7 @@ url: /php-java/splittransition/setorientation/
  
 
 ### Returns
-Orientation
+void
 
 
 ---

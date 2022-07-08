@@ -14,7 +14,7 @@ url: /php-java/effect/settiming/
  
 
 ### Returns
-ITiming
+void
 
 
 ---

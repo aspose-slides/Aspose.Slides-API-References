@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getvalue/
  Value of the property
  
 
+### Returns
+String
+
 
 ---
 

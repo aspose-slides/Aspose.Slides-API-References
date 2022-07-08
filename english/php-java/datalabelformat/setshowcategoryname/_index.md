@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setshowcategoryname/
  
 
 ### Returns
-boolean
+void
 
 
 ---

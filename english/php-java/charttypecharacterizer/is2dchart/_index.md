@@ -12,6 +12,9 @@ url: /php-java/charttypecharacterizer/is2dchart/
  Return true if chartType is one of 2D chart types.
  
 
+### Returns
+boolean
+
 
 ---
 

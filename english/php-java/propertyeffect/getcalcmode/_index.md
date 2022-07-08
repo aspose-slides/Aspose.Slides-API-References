@@ -14,7 +14,7 @@ url: /php-java/propertyeffect/getcalcmode/
  
 
 ### Returns
-PropertyCalcModeType
+int
 
 
 ---

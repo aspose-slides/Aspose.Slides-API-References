@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getfillfocuspositionx/
  Represents 'fill.focusposition.x' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

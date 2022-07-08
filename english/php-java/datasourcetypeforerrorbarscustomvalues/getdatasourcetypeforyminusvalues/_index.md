@@ -16,7 +16,7 @@ url: /php-java/datasourcetypeforerrorbarscustomvalues/getdatasourcetypeforyminus
  
 
 ### Returns
-DataSourceType
+int
 
 
 ---

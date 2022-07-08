@@ -27,6 +27,9 @@ Example:
 | --- | --- | --- |
 | index | int | The zero-based index of the item to remove. |
 
+### Returns
+void
+
 
 ---
 

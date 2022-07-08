@@ -14,7 +14,7 @@ url: /php-java/timing/getrestart/
  
 
 ### Returns
-EffectRestartType
+int
 
 
 ---

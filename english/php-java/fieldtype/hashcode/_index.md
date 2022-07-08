@@ -13,7 +13,7 @@ url: /php-java/fieldtype/hashcode/
  
 
 ### Returns
-Hashcode int.
+int
 
 
 ---

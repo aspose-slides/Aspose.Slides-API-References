@@ -14,7 +14,7 @@ url: /php-java/orientationtransition/getdirection/
  
 
 ### Returns
-Orientation
+byte
 
 
 ---

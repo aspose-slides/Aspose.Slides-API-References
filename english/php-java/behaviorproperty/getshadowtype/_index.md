@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getshadowtype/
  Represents 'shadow.type' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

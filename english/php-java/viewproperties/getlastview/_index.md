@@ -14,7 +14,7 @@ url: /php-java/viewproperties/getlastview/
  
 
 ### Returns
-ViewType
+int
 
 
 ---

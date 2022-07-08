@@ -14,7 +14,7 @@ url: /php-java/svgoptions/setjpegquality/
  
 
 ### Returns
-int
+void
 
 
 ---

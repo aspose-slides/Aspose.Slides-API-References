@@ -14,7 +14,7 @@ url: /php-java/smartartnode/gettextframe/
  
 
 ### Returns
-ITextFrame
+[TextFrame](../../textframe)
 
 
 ---

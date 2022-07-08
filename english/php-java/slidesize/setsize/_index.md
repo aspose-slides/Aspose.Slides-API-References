@@ -20,6 +20,9 @@ url: /php-java/slidesize/setsize/
 | type | int | Slide size type. |
 | scaleType | int | Scale type of slide content. Assigning any value except SlideSizeType#Custom will change ( #getSize) accordingly, but will keep ( #getOrientation/ #setOrientation(int)) intact. |
 
+### Returns
+void
+
 
 ---
 
@@ -36,6 +39,9 @@ url: /php-java/slidesize/setsize/
 | width | float | Width. |
 | height | float | Height. |
 | scaleType | int | Scale type of slide content. Assigning any value will reset ( #getType) property to SlideSizeType#Custom and set ( #getOrientation/ #setOrientation(int)). |
+
+### Returns
+void
 
 
 ---

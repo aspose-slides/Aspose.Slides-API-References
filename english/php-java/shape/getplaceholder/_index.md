@@ -14,7 +14,7 @@ url: /php-java/shape/getplaceholder/
  
 
 ### Returns
-IPlaceholder
+[Placeholder](../../placeholder)
 
 
 ---

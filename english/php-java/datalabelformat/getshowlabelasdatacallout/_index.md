@@ -20,6 +20,9 @@ url: /php-java/datalabelformat/getshowlabelasdatacallout/
  all DataLabels.get_Item(i).getShowLabelAsDataCallout() is equal to val).
  
 
+### Returns
+boolean
+
 
 ---
 

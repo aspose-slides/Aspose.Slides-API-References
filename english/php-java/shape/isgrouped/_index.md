@@ -16,7 +16,7 @@ url: /php-java/shape/isgrouped/
  
 
 ### Returns
-#getParentGroup
+boolean
 
 
 ---

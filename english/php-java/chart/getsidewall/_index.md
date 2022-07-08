@@ -14,7 +14,7 @@ url: /php-java/chart/getsidewall/
  
 
 ### Returns
-IChartWall
+[ChartWall](../../chartwall)
 
 
 ---

@@ -15,7 +15,7 @@ url: /php-java/notescommentslayoutingoptions/getnotesposition/
  
 
 ### Returns
-NotesPositions#None
+int
 
 
 ---

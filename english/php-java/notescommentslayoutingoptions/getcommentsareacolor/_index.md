@@ -16,7 +16,7 @@ url: /php-java/notescommentslayoutingoptions/getcommentsareacolor/
  
 
 ### Returns
-java.awt.Color#BLUE
+Color
 
 
 ---

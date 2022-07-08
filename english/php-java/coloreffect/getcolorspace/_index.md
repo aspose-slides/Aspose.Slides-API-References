@@ -14,7 +14,7 @@ url: /php-java/coloreffect/getcolorspace/
  
 
 ### Returns
-ColorSpace
+int
 
 
 ---

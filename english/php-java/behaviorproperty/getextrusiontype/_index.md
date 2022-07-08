@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getextrusiontype/
  Represents 'extrusion.type' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

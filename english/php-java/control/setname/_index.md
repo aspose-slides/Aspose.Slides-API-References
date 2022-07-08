@@ -14,7 +14,7 @@ url: /php-java/control/setname/
  
 
 ### Returns
-String
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/connectorlock/setarrowheadslocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

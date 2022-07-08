@@ -14,7 +14,7 @@ url: /php-java/datalabel/setwidth/
  
 
 ### Returns
-float
+void
 
 
 ---

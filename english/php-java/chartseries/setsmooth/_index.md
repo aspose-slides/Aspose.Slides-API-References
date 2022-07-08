@@ -15,7 +15,7 @@ url: /php-java/chartseries/setsmooth/
  
 
 ### Returns
-boolean
+void
 
 
 ---

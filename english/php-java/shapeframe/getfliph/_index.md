@@ -14,7 +14,7 @@ url: /php-java/shapeframe/getfliph/
  
 
 ### Returns
-NullableBool
+byte
 
 
 ---

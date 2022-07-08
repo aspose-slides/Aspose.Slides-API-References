@@ -14,7 +14,7 @@ url: /php-java/legend/getformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

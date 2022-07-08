@@ -14,7 +14,7 @@ url: /php-java/background/getpresentation/
  
 
 ### Returns
-IPresentation
+Presentation
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/presentation/getdefaulttextstyle/
  
 
 ### Returns
-ITextStyle
+[TextStyle](../../textstyle)
 
 
 ---

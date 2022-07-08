@@ -10,6 +10,9 @@ url: /php-java/videoplayerhtmlcontroller/saveexternal/
 ## saveExternal(int id, byte[] entityData)  method
 
 
+### Returns
+void
+
 
 ---
 

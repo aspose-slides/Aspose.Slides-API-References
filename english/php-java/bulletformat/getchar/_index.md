@@ -13,6 +13,9 @@ url: /php-java/bulletformat/getchar/
  Read/write  char.
  
 
+### Returns
+char
+
 
 ---
 

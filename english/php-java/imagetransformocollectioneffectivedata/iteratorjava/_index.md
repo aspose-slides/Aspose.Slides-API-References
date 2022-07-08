@@ -13,7 +13,7 @@ url: /php-java/imagetransformocollectioneffectivedata/iteratorjava/
  
 
 ### Returns
-An java.util.Iterator for the entire collection.
+IGenericEnumerator
 
 
 ---

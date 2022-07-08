@@ -20,6 +20,9 @@ url: /php-java/geometrypath/cubicbezierto/
 | point2 | Point2D.Float | Second direction point |
 | point3 | Point2D.Float | End point |
 
+### Returns
+void
+
 
 ---
 
@@ -40,6 +43,9 @@ url: /php-java/geometrypath/cubicbezierto/
 | x3 | float | X coordinate of end point |
 | y3 | float | Y coordinate of end point |
 
+### Returns
+void
+
 
 ---
 
@@ -57,6 +63,9 @@ url: /php-java/geometrypath/cubicbezierto/
 | point2 | Point2D.Float | Second direction point |
 | point3 | Point2D.Float | End point |
 | index | long | Index of segment in PathData |
+
+### Returns
+void
 
 ### Exception
 
@@ -84,6 +93,9 @@ url: /php-java/geometrypath/cubicbezierto/
 | x3 | float | X coordinate of end point |
 | y3 | float | Y coordinate of end point |
 | index | long | Index of segment in PathData |
+
+### Returns
+void
 
 ### Exception
 

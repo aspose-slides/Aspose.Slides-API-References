@@ -16,7 +16,7 @@ url: /php-java/chartdatapointcollection/setdatasourcetypeforyvalues/
  
 
 ### Returns
-DataSourceType
+void
 
 
 ---

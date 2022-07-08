@@ -14,7 +14,7 @@ url: /php-java/slideshowtransition/hashcode/
  
 
 ### Returns
-23454 Overriden to make compiler happy. Always returns constant because object is mutable.
+int
 
 
 ---

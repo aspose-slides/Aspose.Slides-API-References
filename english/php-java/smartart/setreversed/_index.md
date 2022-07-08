@@ -13,6 +13,9 @@ url: /php-java/smartart/setreversed/
  Read/write  boolean.
  
 
+### Returns
+void
+
 
 ---
 

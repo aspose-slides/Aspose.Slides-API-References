@@ -19,7 +19,7 @@ url: /php-java/pdfoptions/setsufficientresolution/
  
 
 ### Returns
-float
+void
 
 
 ---

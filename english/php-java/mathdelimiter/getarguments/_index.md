@@ -18,6 +18,9 @@ Example:
   $arguments = $delimiter->getArguments();
 ```
 
+### Returns
+[MathBlock](../../mathblock)
+
 
 ---
 

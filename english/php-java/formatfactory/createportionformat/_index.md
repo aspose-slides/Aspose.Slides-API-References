@@ -13,7 +13,7 @@ url: /php-java/formatfactory/createportionformat/
  
 
 ### Returns
-IPortionFormat
+[PortionFormat](../../portionformat)
 
 
 ---

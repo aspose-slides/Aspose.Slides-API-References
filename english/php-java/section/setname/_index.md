@@ -12,6 +12,9 @@ url: /php-java/section/setname/
  Name of the section.
  
 
+### Returns
+void
+
 
 ---
 

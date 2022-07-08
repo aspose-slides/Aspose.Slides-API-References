@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/setalignment/
  
 
 ### Returns
-TextAlignment
+void
 
 
 ---

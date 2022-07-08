@@ -12,6 +12,9 @@ url: /php-java/cellcircularreferenceexception/getreference/
  Gets a circular cell reference.
  
 
+### Returns
+String
+
 
 ---
 

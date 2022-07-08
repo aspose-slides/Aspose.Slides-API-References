@@ -15,7 +15,7 @@ url: /php-java/shape/getofficeinteropshapeid/
  
 
 ### Returns
-#getUniqueId
+long
 
 
 ---

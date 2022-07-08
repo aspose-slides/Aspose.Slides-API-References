@@ -20,6 +20,9 @@ Sets metered public and private key.
 | publicKey | String | public key |
 | privateKey | String | private key |
 
+### Returns
+void
+
 
 ---
 

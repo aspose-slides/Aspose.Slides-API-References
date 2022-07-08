@@ -14,7 +14,7 @@ url: /php-java/datalabel/setheight/
  
 
 ### Returns
-float
+void
 
 
 ---

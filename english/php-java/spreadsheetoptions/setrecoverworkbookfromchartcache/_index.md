@@ -29,6 +29,9 @@ url: /php-java/spreadsheetoptions/setrecoverworkbookfromchartcache/
   }
 ```
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

@@ -12,6 +12,9 @@ url: /php-java/oleobjectframe/getembeddedfilename/
  Returns the path of embedded OLE object
  
 
+### Returns
+String
+
 
 ---
 

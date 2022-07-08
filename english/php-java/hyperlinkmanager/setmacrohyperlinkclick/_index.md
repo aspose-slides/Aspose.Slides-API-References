@@ -32,7 +32,7 @@ url: /php-java/hyperlinkmanager/setmacrohyperlinkclick/
 | macroName | String | Name of the macro |
 
 ### Returns
-Hyperlink object IHyperlink
+[Hyperlink](../../hyperlink)
 
 
 ---

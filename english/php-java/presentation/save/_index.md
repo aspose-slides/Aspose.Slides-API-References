@@ -19,6 +19,9 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
 
+### Returns
+void
+
 
 ---
 
@@ -35,6 +38,9 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
 
+### Returns
+void
+
 
 ---
 
@@ -50,7 +56,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [GifOptions](../../gifoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -67,7 +76,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [Html5Options](../../html5options) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -84,7 +96,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [HtmlOptions](../../htmloptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -101,7 +116,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PdfOptions](../../pdfoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -118,7 +136,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PptOptions](../../pptoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -135,7 +156,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PptxOptions](../../pptxoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -152,7 +176,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [RenderingOptions](../../renderingoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -169,7 +196,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SaveOptions](../../saveoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -186,7 +216,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SVGOptions](../../svgoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -203,7 +236,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SwfOptions](../../swfoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -220,7 +256,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [TiffOptions](../../tiffoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -237,7 +276,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [XamlOptions](../../xamloptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -254,7 +296,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [XpsOptions](../../xpsoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -271,7 +316,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [GifOptions](../../gifoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -294,7 +342,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [Html5Options](../../html5options) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -317,7 +368,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [HtmlOptions](../../htmloptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -340,7 +394,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PdfOptions](../../pdfoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -363,7 +420,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PptOptions](../../pptoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -386,7 +446,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PptxOptions](../../pptxoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -409,7 +472,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [RenderingOptions](../../renderingoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -432,7 +498,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SaveOptions](../../saveoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -455,7 +524,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SVGOptions](../../svgoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -478,7 +550,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SwfOptions](../../swfoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -501,7 +576,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [TiffOptions](../../tiffoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -524,7 +602,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [XamlOptions](../../xamloptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -547,7 +628,10 @@ url: /php-java/presentation/save/
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [XpsOptions](../../xpsoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -582,7 +666,10 @@ url: /php-java/presentation/save/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | XamlOptions | The XAML format options. |
+| options | [XamlOptions](../../xamloptions) | The XAML format options. |
+
+### Returns
+void
 
 
 ---
@@ -600,6 +687,9 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
+
+### Returns
+void
 
 ### Exception
 
@@ -623,7 +713,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [GifOptions](../../gifoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -641,7 +734,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [Html5Options](../../html5options) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -659,7 +755,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [HtmlOptions](../../htmloptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -677,7 +776,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PdfOptions](../../pdfoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -695,7 +797,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PptOptions](../../pptoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -713,7 +818,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PptxOptions](../../pptxoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -731,7 +839,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [RenderingOptions](../../renderingoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -749,7 +860,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SaveOptions](../../saveoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -767,7 +881,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SVGOptions](../../svgoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -785,7 +902,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SwfOptions](../../swfoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -803,7 +923,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [TiffOptions](../../tiffoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -821,7 +944,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [XamlOptions](../../xamloptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -839,7 +965,10 @@ url: /php-java/presentation/save/
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [XpsOptions](../../xpsoptions) | Additional format options. |
+
+### Returns
+void
 
 
 ---
@@ -858,6 +987,9 @@ url: /php-java/presentation/save/
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
 
+### Returns
+void
+
 
 ---
 
@@ -874,7 +1006,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [GifOptions](../../gifoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -898,7 +1033,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [Html5Options](../../html5options) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -922,7 +1060,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [HtmlOptions](../../htmloptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -946,7 +1087,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PdfOptions](../../pdfoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -970,7 +1114,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PptOptions](../../pptoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -994,7 +1141,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [PptxOptions](../../pptxoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -1018,7 +1168,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [RenderingOptions](../../renderingoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -1042,7 +1195,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SaveOptions](../../saveoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -1066,7 +1222,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SVGOptions](../../svgoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -1090,7 +1249,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [SwfOptions](../../swfoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -1114,7 +1276,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [TiffOptions](../../tiffoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -1138,7 +1303,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [XamlOptions](../../xamloptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 
@@ -1162,7 +1330,10 @@ url: /php-java/presentation/save/
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | GifOptions | Additional format options. |
+| options | [XpsOptions](../../xpsoptions) | Additional format options. |
+
+### Returns
+void
 
 ### Exception
 

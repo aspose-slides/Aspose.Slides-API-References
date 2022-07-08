@@ -14,7 +14,7 @@ url: /php-java/shape/getcustomdata/
  
 
 ### Returns
-ICustomData
+[CustomData](../../customdata)
 
 
 ---

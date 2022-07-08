@@ -17,12 +17,12 @@ url: /php-java/commentcollection/addcomment/
 | Name | Type | Description |
 | --- | --- | --- |
 | text | String | Plain text of a new comment. |
-| slide | Slide | Slide in a presentation where to add a new comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new comment. |
 | position | Point2D.Float | Position on a slide where to add a new comment. |
 | creationTime | Date | Time of a comment creation. |
 
 ### Returns
-Added comment.
+[Comment](../../comment), [ModernComment](../../moderncomment)
 
 
 ---

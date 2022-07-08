@@ -14,7 +14,7 @@ url: /php-java/coloreffect/getfrom/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

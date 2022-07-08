@@ -14,7 +14,7 @@ url: /php-java/axis/getminorgridlinesformat/
   
 
 ### Returns
-IChartLinesFormat
+[ChartLinesFormat](../../chartlinesformat)
 
 
 ---

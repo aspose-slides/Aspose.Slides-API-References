@@ -14,7 +14,7 @@ url: /php-java/shapecollection/getparentgroup/
  
 
 ### Returns
-IGroupShape
+[GroupShape](../../groupshape)
 
 
 ---

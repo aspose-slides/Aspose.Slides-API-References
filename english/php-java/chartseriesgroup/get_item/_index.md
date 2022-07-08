@@ -12,6 +12,9 @@ url: /php-java/chartseriesgroup/get_item/
  Gets the element at the specified index.
  
 
+### Returns
+[ChartSeries](../../chartseries)
+
 
 ---
 

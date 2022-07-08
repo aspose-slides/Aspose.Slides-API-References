@@ -14,7 +14,7 @@ url: /php-java/chart/setdatatable/
  
 
 ### Returns
-boolean
+void
 
 
 ---

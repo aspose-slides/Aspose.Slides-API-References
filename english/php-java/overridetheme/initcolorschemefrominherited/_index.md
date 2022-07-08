@@ -12,6 +12,9 @@ url: /php-java/overridetheme/initcolorschemefrominherited/
  Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

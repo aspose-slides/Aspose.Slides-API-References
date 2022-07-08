@@ -14,7 +14,7 @@ url: /php-java/linefillformat/getgradientformat/
  
 
 ### Returns
-IGradientFormat
+[GradientFormat](../../gradientformat)
 
 
 ---

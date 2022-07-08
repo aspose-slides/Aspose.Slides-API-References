@@ -13,7 +13,7 @@ url: /php-java/tint/hashcode/
  
 
 ### Returns
-A hash code for the current object.
+int
 
 
 ---

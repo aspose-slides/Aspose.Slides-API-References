@@ -30,7 +30,7 @@ Example:
 | layoutType | int | The type of SmartArt diagram |
 
 ### Returns
-Create SmartArt diagram
+[SmartArt](../../smartart)
 
 
 ---

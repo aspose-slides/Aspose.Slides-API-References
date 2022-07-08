@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setshowbubblesize/
  
 
 ### Returns
-boolean
+void
 
 
 ---

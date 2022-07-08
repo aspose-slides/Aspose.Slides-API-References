@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstyletexteffectemboss/
  Represents 'style.textEffectEmboss' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

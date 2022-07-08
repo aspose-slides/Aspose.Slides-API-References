@@ -14,7 +14,7 @@ url: /php-java/formatscheme/getlinestyles/
  
 
 ### Returns
-ILineFormatCollection
+[LineFormatCollection](../../lineformatcollection)
 
 
 ---

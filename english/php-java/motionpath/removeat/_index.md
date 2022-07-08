@@ -18,6 +18,9 @@ url: /php-java/motionpath/removeat/
 | --- | --- | --- |
 | index | int | Index of a command that should be deleted. |
 
+### Returns
+void
+
 
 ---
 

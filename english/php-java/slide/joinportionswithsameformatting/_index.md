@@ -12,6 +12,9 @@ url: /php-java/slide/joinportionswithsameformatting/
  Joins runs with same formatting in all paragraphs in all acceptable shapes.
  
 
+### Returns
+void
+
 
 ---
 

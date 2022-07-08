@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/setdefaulttabsize/
  
 
 ### Returns
-float
+void
 
 
 ---

@@ -13,7 +13,7 @@ url: /php-java/alphabilevel/geteffective/
  
 
 ### Returns
-A IAlphaBiLevelEffectiveData.
+
 
 
 ---

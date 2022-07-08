@@ -14,7 +14,7 @@ url: /php-java/digitalsignature/setcomments/
  
 
 ### Returns
-String
+void
 
 
 ---

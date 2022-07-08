@@ -12,6 +12,9 @@ url: /php-java/chartseriescollection/clear/
  Removes all controls from the collection.
  
 
+### Returns
+void
+
 
 ---
 

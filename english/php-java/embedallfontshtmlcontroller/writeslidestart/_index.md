@@ -16,8 +16,11 @@ url: /php-java/embedallfontshtmlcontroller/writeslidestart/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| generator | HtmlGenerator | Output object. |
-| slide | Slide | Slide which being currently rendered. |
+| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
+| slide | [Slide](../../slide) | Slide which being currently rendered. |
+
+### Returns
+void
 
 
 ---

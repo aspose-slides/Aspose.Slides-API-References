@@ -14,7 +14,7 @@ url: /php-java/cell/gettextframe/
  
 
 ### Returns
-ITextFrame
+[TextFrame](../../textframe)
 
 
 ---

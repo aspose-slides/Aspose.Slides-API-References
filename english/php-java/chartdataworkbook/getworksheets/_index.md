@@ -28,6 +28,9 @@ url: /php-java/chartdataworkbook/getworksheets/
   }
 ```
 
+### Returns
+[ChartDataWorksheetCollection](../../chartdataworksheetcollection)
+
 
 ---
 

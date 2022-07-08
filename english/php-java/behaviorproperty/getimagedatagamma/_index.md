@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getimagedatagamma/
  Represents 'imageData.gamma' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

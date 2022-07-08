@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstyletextshadow/
  Represents 'style.textShadow' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/charttextformat/getportionformat/
  
 
 ### Returns
-IChartPortionFormat
+[ChartPortionFormat](../../chartportionformat)
 
 
 ---

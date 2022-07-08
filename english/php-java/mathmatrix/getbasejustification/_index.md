@@ -20,6 +20,9 @@ Example:
   $matrix->setBaseJustification(MathVerticalAlignment.Center);
 ```
 
+### Returns
+int
+
 
 ---
 

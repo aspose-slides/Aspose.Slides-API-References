@@ -13,7 +13,7 @@ url: /php-java/softedge/geteffective/
  
 
 ### Returns
-A ISoftEdgeEffectiveData.
+
 
 
 ---

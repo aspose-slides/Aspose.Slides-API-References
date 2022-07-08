@@ -19,7 +19,7 @@ url: /php-java/mathparagraph/writeasmathml/
 | stream | OutputStream | Target stream |
 
 ### Returns
-MathParagraph
+void
 
 
 ---

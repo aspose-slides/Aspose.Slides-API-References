@@ -16,7 +16,10 @@ url: /php-java/overridetheme/initformatschemefrom/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formatScheme | FormatScheme | Data to initialize from. |
+| formatScheme | [FormatScheme](../../formatscheme) | Data to initialize from. |
+
+### Returns
+void
 
 ### Exception
 

@@ -13,6 +13,9 @@ url: /php-java/timing/setspeed/
  Read/write  float.
  
 
+### Returns
+void
+
 
 ---
 

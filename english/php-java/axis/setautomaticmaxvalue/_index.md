@@ -14,7 +14,7 @@ url: /php-java/axis/setautomaticmaxvalue/
  
 
 ### Returns
-boolean
+void
 
 
 ---

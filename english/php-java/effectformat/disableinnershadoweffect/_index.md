@@ -12,6 +12,9 @@ url: /php-java/effectformat/disableinnershadoweffect/
  Disables inner shadow effect.
  
 
+### Returns
+void
+
 
 ---
 

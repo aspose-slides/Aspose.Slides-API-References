@@ -14,7 +14,7 @@ url: /php-java/overridetheme/getcolorscheme/
  
 
 ### Returns
-IColorScheme
+[ColorScheme](../../colorscheme)
 
 
 ---

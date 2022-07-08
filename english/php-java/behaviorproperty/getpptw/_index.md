@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getpptw/
  Represents 'ppt_w' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

@@ -16,7 +16,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [AlphaBiLevel](../../alphabilevel) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -31,7 +34,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [AlphaCeiling](../../alphaceiling) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -46,7 +52,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [AlphaFloor](../../alphafloor) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -61,7 +70,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [AlphaInverse](../../alphainverse) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -76,7 +88,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [AlphaModulate](../../alphamodulate) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -91,7 +106,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [AlphaModulateFixed](../../alphamodulatefixed) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -106,7 +124,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [AlphaReplace](../../alphareplace) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -121,7 +142,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [BiLevel](../../bilevel) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -136,7 +160,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [Blur](../../blur) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -151,7 +178,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [ColorChange](../../colorchange) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -166,7 +196,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [ColorReplace](../../colorreplace) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -181,7 +214,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [Duotone](../../duotone) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -196,7 +232,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [FillOverlay](../../filloverlay) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -211,7 +250,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [Glow](../../glow) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -226,7 +268,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [GrayScale](../../grayscale) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -241,7 +286,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [HSL](../../hsl) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -256,7 +304,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [ImageTransformOperation](../../imagetransformoperation) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -271,7 +322,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [InnerShadow](../../innershadow) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -286,7 +340,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [Luminance](../../luminance) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -301,7 +358,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [OuterShadow](../../outershadow) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -316,7 +376,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [PresetShadow](../../presetshadow) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -331,7 +394,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [Reflection](../../reflection) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -346,7 +412,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [SoftEdge](../../softedge) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---
@@ -361,7 +430,10 @@ url: /php-java/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | AlphaBiLevel | The image effect to add to the end of a collection. |
+| operation | [Tint](../../tint) | The image effect to add to the end of a collection. |
+
+### Returns
+void
 
 
 ---

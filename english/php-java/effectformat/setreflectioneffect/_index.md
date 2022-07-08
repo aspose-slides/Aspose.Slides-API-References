@@ -14,7 +14,7 @@ url: /php-java/effectformat/setreflectioneffect/
  
 
 ### Returns
-IReflection
+void
 
 
 ---

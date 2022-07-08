@@ -13,7 +13,7 @@ url: /php-java/chartdata/readworkbookstream/
  
 
 ### Returns
-Returns an instance of MemoryStream containing a copy of the internally contained Excel workbook.
+byte
 
 
 ---

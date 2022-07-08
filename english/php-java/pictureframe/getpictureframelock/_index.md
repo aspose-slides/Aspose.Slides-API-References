@@ -14,7 +14,7 @@ url: /php-java/pictureframe/getpictureframelock/
  
 
 ### Returns
-IPictureFrameLock
+[PictureFrameLock](../../pictureframelock)
 
 
 ---

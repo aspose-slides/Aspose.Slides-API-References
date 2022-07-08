@@ -14,7 +14,7 @@ url: /php-java/coloreffect/getdirection/
  
 
 ### Returns
-ColorDirection
+int
 
 
 ---

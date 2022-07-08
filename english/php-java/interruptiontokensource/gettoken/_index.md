@@ -13,7 +13,7 @@ url: /php-java/interruptiontokensource/gettoken/
  
 
 ### Returns
-InterruptionTokenSource
+InterruptionToken
 
 
 ---

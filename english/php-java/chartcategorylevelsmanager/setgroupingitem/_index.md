@@ -12,6 +12,9 @@ url: /php-java/chartcategorylevelsmanager/setgroupingitem/
  Sets grouping item for defined level.
  
 
+### Returns
+void
+
 
 ---
 

@@ -13,6 +13,9 @@ url: /php-java/outershadow/getskewhorizontal/
  Read/write  double.
  
 
+### Returns
+double
+
 
 ---
 

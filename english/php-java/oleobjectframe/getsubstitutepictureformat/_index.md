@@ -14,7 +14,7 @@ url: /php-java/oleobjectframe/getsubstitutepictureformat/
  
 
 ### Returns
-IPictureFillFormat
+[PictureFillFormat](../../picturefillformat)
 
 
 ---

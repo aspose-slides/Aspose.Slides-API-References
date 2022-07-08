@@ -14,7 +14,7 @@ url: /php-java/chartseriesgroup/gettype/
  
 
 ### Returns
-CombinableSeriesTypesGroup
+int
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/effectformat/setblureffect/
  
 
 ### Returns
-IBlur
+void
 
 
 ---
@@ -31,6 +31,9 @@ IBlur
 | --- | --- | --- |
 | radius | double | Radius. |
 | grow | boolean | Grow. |
+
+### Returns
+void
 
 
 ---

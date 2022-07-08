@@ -12,6 +12,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -20,6 +23,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---
@@ -30,6 +36,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -38,6 +47,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---
@@ -48,6 +60,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -56,6 +71,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---
@@ -66,6 +84,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -74,6 +95,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---
@@ -84,6 +108,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -92,6 +119,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---
@@ -102,6 +132,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -110,6 +143,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---
@@ -120,6 +156,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -128,6 +167,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---
@@ -138,6 +180,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -146,6 +191,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---
@@ -156,6 +204,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -164,6 +215,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---
@@ -174,6 +228,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -183,6 +240,9 @@ url: /php-java/sequence/geteffectsbyshape/
  Returns array of effects for the specified shape.
  
 
+### Returns
+[Effect](../../effect)
+
 
 ---
 
@@ -191,6 +251,9 @@ url: /php-java/sequence/geteffectsbyshape/
 
  Returns array of effects for the specified shape.
  
+
+### Returns
+[Effect](../../effect)
 
 
 ---

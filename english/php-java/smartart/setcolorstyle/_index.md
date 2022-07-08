@@ -14,7 +14,7 @@ url: /php-java/smartart/setcolorstyle/
  
 
 ### Returns
-SmartArtColorType
+void
 
 
 ---

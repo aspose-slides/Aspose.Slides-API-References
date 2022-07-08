@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/setlatinlinebreak/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

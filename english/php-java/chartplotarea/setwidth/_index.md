@@ -14,7 +14,7 @@ url: /php-java/chartplotarea/setwidth/
  
 
 ### Returns
-float
+void
 
 
 ---

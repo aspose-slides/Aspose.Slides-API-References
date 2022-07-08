@@ -14,7 +14,7 @@ url: /php-java/swfoptions/setlogolink/
  
 
 ### Returns
-#setLogoImageBytes(byte[])
+void
 
 
 ---

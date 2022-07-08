@@ -14,7 +14,7 @@ url: /php-java/axis/setcrosstype/
   
 
 ### Returns
-CrossesType
+void
 
 
 ---

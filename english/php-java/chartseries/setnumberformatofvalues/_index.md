@@ -14,7 +14,7 @@ url: /php-java/chartseries/setnumberformatofvalues/
  
 
 ### Returns
-String
+void
 
 
 ---

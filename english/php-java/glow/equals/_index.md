@@ -19,7 +19,7 @@ url: /php-java/glow/equals/
 | obj | Object | The Glow to compare. |
 
 ### Returns
-Glow
+boolean
 
 
 ---

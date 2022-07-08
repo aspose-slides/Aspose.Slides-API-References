@@ -14,7 +14,7 @@ url: /php-java/effect/setsubtype/
  
 
 ### Returns
-EffectSubtype
+void
 
 
 ---

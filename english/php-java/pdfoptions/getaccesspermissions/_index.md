@@ -29,7 +29,7 @@ url: /php-java/pdfoptions/getaccesspermissions/
 ```
 
 ### Returns
-PdfAccessPermissions
+int
 
 
 ---

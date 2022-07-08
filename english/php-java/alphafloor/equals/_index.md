@@ -19,7 +19,7 @@ url: /php-java/alphafloor/equals/
 | obj | Object | The AlphaFloor to compare. |
 
 ### Returns
-AlphaFloor
+boolean
 
 
 ---

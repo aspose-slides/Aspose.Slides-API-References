@@ -14,7 +14,7 @@ url: /php-java/graphicalobjectlock/setgroupinglocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

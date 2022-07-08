@@ -14,7 +14,7 @@ url: /php-java/shape/sethyperlinkclick/
  
 
 ### Returns
-IHyperlink
+void
 
 
 ---

@@ -33,7 +33,7 @@ Next example demonstrates changing Image Type to Preview value.
 ```
 
 ### Returns
-ZoomImageType
+void
 
 
 ---

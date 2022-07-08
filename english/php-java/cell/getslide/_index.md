@@ -14,7 +14,7 @@ url: /php-java/cell/getslide/
  
 
 ### Returns
-IBaseSlide
+[BaseSlide](../../baseslide), [LayoutSlide](../../layoutslide), [MasterHandoutSlide](../../masterhandoutslide), [MasterNotesSlide](../../masternotesslide), [MasterSlide](../../masterslide), [NotesSlide](../../notesslide), [Slide](../../slide)
 
 
 ---

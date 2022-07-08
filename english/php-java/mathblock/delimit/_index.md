@@ -25,7 +25,7 @@ Example:
 | separatorCharacter | char | Separator character |
 
 ### Returns
-The math element of type IMathDelimiter
+[MathDelimiter](../../mathdelimiter)
 
 
 ---

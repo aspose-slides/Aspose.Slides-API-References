@@ -16,10 +16,10 @@ url: /php-java/paragraphcollection/contains/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Paragraph | The object to locate in the IGenericCollection. |
+| item | [Paragraph](../../paragraph) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---

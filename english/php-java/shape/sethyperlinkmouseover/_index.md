@@ -14,7 +14,7 @@ url: /php-java/shape/sethyperlinkmouseover/
  
 
 ### Returns
-IHyperlink
+void
 
 
 ---

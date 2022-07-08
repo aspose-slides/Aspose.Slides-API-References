@@ -14,7 +14,7 @@ url: /php-java/bulletformat/gettype/
  
 
 ### Returns
-BulletType
+byte
 
 
 ---

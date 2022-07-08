@@ -16,7 +16,7 @@ url: /php-java/errorbarscustomvalues/getxminus/
  
 
 ### Returns
-IDoubleChartValue
+[DoubleChartValue](../../doublechartvalue)
 
 
 ---

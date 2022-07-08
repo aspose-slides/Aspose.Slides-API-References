@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setcategory/
  
 
 ### Returns
-String
+void
 
 
 ---

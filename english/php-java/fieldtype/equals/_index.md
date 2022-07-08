@@ -19,7 +19,7 @@ url: /php-java/fieldtype/equals/
 | obj | Object | Field to compare. |
 
 ### Returns
-True if fields are equal.
+boolean
 
 
 ---

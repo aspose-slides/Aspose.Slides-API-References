@@ -15,7 +15,7 @@ url: /php-java/legend/getposition/
  
 
 ### Returns
-LegendPositionType
+int
 
 
 ---

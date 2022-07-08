@@ -19,7 +19,7 @@ url: /php-java/alphainverse/equals/
 | obj | Object | The AlphaInverse to compare. |
 
 ### Returns
-AlphaInverse
+boolean
 
 
 ---

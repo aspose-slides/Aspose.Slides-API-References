@@ -14,7 +14,7 @@ url: /php-java/lineformat/getendarrowheadwidth/
  
 
 ### Returns
-LineArrowheadWidth
+byte
 
 
 ---

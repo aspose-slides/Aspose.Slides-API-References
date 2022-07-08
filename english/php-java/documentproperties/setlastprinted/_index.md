@@ -14,7 +14,7 @@ url: /php-java/documentproperties/setlastprinted/
  
 
 ### Returns
-java.util.Date
+void
 
 
 ---

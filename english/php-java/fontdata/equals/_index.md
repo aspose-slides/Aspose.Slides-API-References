@@ -19,7 +19,7 @@ url: /php-java/fontdata/equals/
 | obj | Object | The FontData to compare with the current FontData. |
 
 ### Returns
-true if the specified FontData is equal to the current FontData; otherwise, false.
+boolean
 
 
 ---

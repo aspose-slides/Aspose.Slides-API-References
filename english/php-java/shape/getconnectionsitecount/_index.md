@@ -13,6 +13,9 @@ url: /php-java/shape/getconnectionsitecount/
  Read-only  int.
  
 
+### Returns
+int
+
 
 ---
 

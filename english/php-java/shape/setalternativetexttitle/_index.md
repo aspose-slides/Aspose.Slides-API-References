@@ -14,7 +14,7 @@ url: /php-java/shape/setalternativetexttitle/
  
 
 ### Returns
-String
+void
 
 
 ---

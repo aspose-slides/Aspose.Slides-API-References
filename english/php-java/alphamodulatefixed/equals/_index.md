@@ -19,7 +19,7 @@ url: /php-java/alphamodulatefixed/equals/
 | obj | Object | The AlphaModulateFixed to compare. |
 
 ### Returns
-AlphaModulateFixed
+boolean
 
 
 ---

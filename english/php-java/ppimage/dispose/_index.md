@@ -12,6 +12,9 @@ url: /php-java/ppimage/dispose/
  Disposes object.
  
 
+### Returns
+void
+
 
 ---
 

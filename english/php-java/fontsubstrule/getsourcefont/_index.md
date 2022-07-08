@@ -14,7 +14,7 @@ url: /php-java/fontsubstrule/getsourcefont/
  
 
 ### Returns
-IFontData
+[FontData](../../fontdata)
 
 
 ---

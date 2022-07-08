@@ -15,7 +15,7 @@ url: /php-java/chartseriesgroup/setfirstsliceangle/
  
 
 ### Returns
-int
+void
 
 
 ---

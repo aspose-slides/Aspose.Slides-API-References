@@ -14,7 +14,7 @@ url: /php-java/motioneffect/setfrom/
  
 
 ### Returns
-java.awt.geom.Point2D.Float
+void
 
 
 ---

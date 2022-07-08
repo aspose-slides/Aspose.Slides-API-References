@@ -14,7 +14,7 @@ url: /php-java/picturefillformat/getpicturefillmode/
  
 
 ### Returns
-PictureFillMode
+int
 
 
 ---

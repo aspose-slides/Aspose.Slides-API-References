@@ -25,7 +25,7 @@ url: /php-java/pdfoptions/setsavemetafilesaspng/
  
 
 ### Returns
-boolean
+void
 
 
 ---

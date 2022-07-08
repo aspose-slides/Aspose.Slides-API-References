@@ -16,10 +16,10 @@ url: /php-java/slideutil/getalltextboxes/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
+| slide | [BaseSlide](../../baseslide) | Scanned slide. |
 
 ### Returns
-Array of TextFrame objects.
+[TextFrame](../../textframe)
 
 
 ---
@@ -34,10 +34,10 @@ Array of TextFrame objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
+| slide | [LayoutSlide](../../layoutslide) | Scanned slide. |
 
 ### Returns
-Array of TextFrame objects.
+[TextFrame](../../textframe)
 
 
 ---
@@ -52,10 +52,10 @@ Array of TextFrame objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
+| slide | [MasterHandoutSlide](../../masterhandoutslide) | Scanned slide. |
 
 ### Returns
-Array of TextFrame objects.
+[TextFrame](../../textframe)
 
 
 ---
@@ -70,10 +70,10 @@ Array of TextFrame objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
+| slide | [MasterNotesSlide](../../masternotesslide) | Scanned slide. |
 
 ### Returns
-Array of TextFrame objects.
+[TextFrame](../../textframe)
 
 
 ---
@@ -88,10 +88,10 @@ Array of TextFrame objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
+| slide | [MasterSlide](../../masterslide) | Scanned slide. |
 
 ### Returns
-Array of TextFrame objects.
+[TextFrame](../../textframe)
 
 
 ---
@@ -106,10 +106,10 @@ Array of TextFrame objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
+| slide | [NotesSlide](../../notesslide) | Scanned slide. |
 
 ### Returns
-Array of TextFrame objects.
+[TextFrame](../../textframe)
 
 
 ---
@@ -124,10 +124,10 @@ Array of TextFrame objects.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | BaseSlide | Scanned slide. |
+| slide | [Slide](../../slide) | Scanned slide. |
 
 ### Returns
-Array of TextFrame objects.
+[TextFrame](../../textframe)
 
 
 ---

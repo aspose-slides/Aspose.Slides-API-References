@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/setrotationlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

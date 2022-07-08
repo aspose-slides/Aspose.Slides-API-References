@@ -13,6 +13,9 @@ url: /php-java/smartartnode/setposition/
  Read/write  int.
  
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

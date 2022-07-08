@@ -14,7 +14,7 @@ url: /php-java/rotationeffect/setfrom/
  
 
 ### Returns
-float
+void
 
 
 ---

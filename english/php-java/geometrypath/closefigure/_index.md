@@ -12,6 +12,9 @@ url: /php-java/geometrypath/closefigure/
  Closes the current figure of this path
  
 
+### Returns
+void
+
 
 ---
 

@@ -16,7 +16,7 @@ url: /php-java/chartdatapointcollection/getdatasourcetypeforvalues/
  
 
 ### Returns
-DataSourceType
+int
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getyshear/
  Represents 'yshear' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

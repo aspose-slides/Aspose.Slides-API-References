@@ -14,7 +14,7 @@ url: /php-java/errorbarsformat/setvisible/
  
 
 ### Returns
-boolean
+void
 
 
 ---

@@ -14,6 +14,9 @@ url: /php-java/notescommentslayoutingoptions/setcommentsposition/
  Default is CommentsPositions#None.
  
 
+### Returns
+void
+
 
 ---
 

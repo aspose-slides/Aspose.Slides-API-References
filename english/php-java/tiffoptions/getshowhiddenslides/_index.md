@@ -13,6 +13,9 @@ url: /php-java/tiffoptions/getshowhiddenslides/
  Default is false.
  
 
+### Returns
+boolean
+
 
 ---
 

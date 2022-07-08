@@ -15,6 +15,9 @@ url: /php-java/loadoptions/setblobmanagementoptions/
  A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can 
  be an audio, video or presentation itself.
 
+### Returns
+void
+
 
 ---
 

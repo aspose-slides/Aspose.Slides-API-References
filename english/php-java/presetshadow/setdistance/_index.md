@@ -13,6 +13,9 @@ url: /php-java/presetshadow/setdistance/
  Read/write  double.
  
 
+### Returns
+void
+
 
 ---
 

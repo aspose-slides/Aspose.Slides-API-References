@@ -14,7 +14,7 @@ url: /php-java/timing/gettriggertype/
  
 
 ### Returns
-EffectTriggerType
+int
 
 
 ---

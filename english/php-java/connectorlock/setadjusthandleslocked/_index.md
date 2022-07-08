@@ -14,7 +14,7 @@ url: /php-java/connectorlock/setadjusthandleslocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

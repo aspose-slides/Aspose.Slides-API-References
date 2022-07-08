@@ -12,6 +12,9 @@ url: /php-java/chartcategorylevelsmanager/deletegroupingitem/
  Delete grouping item for defined level.
  
 
+### Returns
+void
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/reflection/setblurradius/
  
 
 ### Returns
-double
+void
 
 
 ---

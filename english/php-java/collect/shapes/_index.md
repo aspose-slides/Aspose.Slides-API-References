@@ -38,10 +38,10 @@ url: /php-java/collect/shapes/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation | Presentation to collect shapes |
+| pres | [Presentation](../../presentation) | Presentation to collect shapes |
 
 ### Returns
-Presentation
+IGenericEnumerable
 
 
 ---

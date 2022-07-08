@@ -14,7 +14,7 @@ url: /php-java/chartplotarea/getformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

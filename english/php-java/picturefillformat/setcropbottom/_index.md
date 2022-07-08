@@ -15,7 +15,7 @@ url: /php-java/picturefillformat/setcropbottom/
  
 
 ### Returns
-float
+void
 
 
 ---

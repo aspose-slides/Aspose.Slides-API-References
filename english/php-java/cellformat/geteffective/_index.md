@@ -32,7 +32,7 @@ url: /php-java/cellformat/geteffective/
 ```
 
 ### Returns
-A ICellFormatEffectiveData.
+
 
 
 ---

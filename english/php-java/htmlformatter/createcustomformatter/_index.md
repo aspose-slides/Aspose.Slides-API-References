@@ -16,10 +16,10 @@ url: /php-java/htmlformatter/createcustomformatter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
+| formattingController | [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller) | Callback interface which controls html file generation. |
 
 ### Returns
-The HtmlFormatter object.
+HtmlFormatter
 
 
 ---
@@ -34,10 +34,10 @@ The HtmlFormatter object.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
+| formattingController | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | Callback interface which controls html file generation. |
 
 ### Returns
-The HtmlFormatter object.
+HtmlFormatter
 
 
 ---
@@ -52,10 +52,10 @@ The HtmlFormatter object.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
+| formattingController | [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller) | Callback interface which controls html file generation. |
 
 ### Returns
-The HtmlFormatter object.
+HtmlFormatter
 
 
 ---
@@ -70,10 +70,10 @@ The HtmlFormatter object.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
+| formattingController | [ResponsiveHtmlController](../../responsivehtmlcontroller) | Callback interface which controls html file generation. |
 
 ### Returns
-The HtmlFormatter object.
+HtmlFormatter
 
 
 ---
@@ -88,10 +88,10 @@ The HtmlFormatter object.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | EmbedAllFontsHtmlController | Callback interface which controls html file generation. |
+| formattingController | [VideoPlayerHtmlController](../../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
 
 ### Returns
-The HtmlFormatter object.
+HtmlFormatter
 
 
 ---

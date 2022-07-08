@@ -16,10 +16,10 @@ url: /php-java/slideimageformat/svg/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | SVGOptions | Options for SVG export. |
+| options | [SVGOptions](../../svgoptions) | Options for SVG export. |
 
 ### Returns
-The SlideImageFormat object.
+SlideImageFormat
 
 
 ---

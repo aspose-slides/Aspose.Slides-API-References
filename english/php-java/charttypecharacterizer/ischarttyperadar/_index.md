@@ -17,7 +17,7 @@ url: /php-java/charttypecharacterizer/ischarttyperadar/
  
 
 ### Returns
-ChartType#RadarWithMarkers
+boolean
 
 
 ---

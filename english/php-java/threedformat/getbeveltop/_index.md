@@ -14,7 +14,7 @@ url: /php-java/threedformat/getbeveltop/
  
 
 ### Returns
-IShapeBevel
+[ShapeBevel](../../shapebevel)
 
 
 ---

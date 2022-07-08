@@ -14,7 +14,7 @@ url: /php-java/colorscheme/getbycolorschemeindex/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

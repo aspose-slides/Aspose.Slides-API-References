@@ -12,6 +12,9 @@ url: /php-java/motionpath/clear/
  Removes all commands from the collection.
  
 
+### Returns
+void
+
 
 ---
 

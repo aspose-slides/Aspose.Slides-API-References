@@ -13,6 +13,9 @@ url: /php-java/stringchartvalue/tostring/
  Return null if DataSourceType is false and no string value was assigned.
  
 
+### Returns
+String
+
 
 ---
 

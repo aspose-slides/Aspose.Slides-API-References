@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/setselectlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

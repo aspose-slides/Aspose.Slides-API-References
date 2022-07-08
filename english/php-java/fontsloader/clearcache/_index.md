@@ -12,6 +12,9 @@ url: /php-java/fontsloader/clearcache/
  Releases all custom fonts defined by user
  This method needs to clear cache with custom fonts defined by user.
 
+### Returns
+void
+
 
 ---
 

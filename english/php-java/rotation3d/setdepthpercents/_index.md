@@ -14,7 +14,7 @@ url: /php-java/rotation3d/setdepthpercents/
  
 
 ### Returns
-int
+void
 
 
 ---

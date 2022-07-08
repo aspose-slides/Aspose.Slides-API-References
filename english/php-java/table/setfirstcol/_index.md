@@ -14,7 +14,7 @@ url: /php-java/table/setfirstcol/
  
 
 ### Returns
-boolean
+void
 
 
 ---

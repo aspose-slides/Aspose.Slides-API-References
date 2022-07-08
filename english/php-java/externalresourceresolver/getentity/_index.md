@@ -19,7 +19,7 @@ url: /php-java/externalresourceresolver/getentity/
 | absoluteUri | String | Absolute URI to the object. |
 
 ### Returns
-A InputStream object or null if resource cannot be streamed.
+InputStream
 
 
 ---

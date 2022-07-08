@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getimagedatachromakey/
  Represents 'imageData.chromakey' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

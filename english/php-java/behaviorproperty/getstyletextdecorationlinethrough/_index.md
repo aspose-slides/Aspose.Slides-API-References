@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstyletextdecorationlinethrough/
  Represents 'style.textDecorationLineThrough' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

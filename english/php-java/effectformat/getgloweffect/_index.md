@@ -14,7 +14,7 @@ url: /php-java/effectformat/getgloweffect/
  
 
 ### Returns
-IGlow
+[Glow](../../glow)
 
 
 ---

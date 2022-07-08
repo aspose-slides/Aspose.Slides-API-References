@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setshowleaderlines/
  
 
 ### Returns
-boolean
+void
 
 
 ---

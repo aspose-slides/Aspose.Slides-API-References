@@ -14,7 +14,7 @@ url: /php-java/graphicalobjectlock/setdrilldownlocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

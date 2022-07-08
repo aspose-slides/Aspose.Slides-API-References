@@ -14,7 +14,7 @@ url: /php-java/lineformatcollection/get_item/
  
 
 ### Returns
-ILineFormat
+[LineFormat](../../lineformat)
 
 
 ---

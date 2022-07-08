@@ -19,6 +19,9 @@ url: /php-java/autoshape/addtextframe/
 | --- | --- | --- |
 | text | String | Default text for a new TextFrame. |
 
+### Returns
+[TextFrame](../../textframe)
+
 
 ---
 

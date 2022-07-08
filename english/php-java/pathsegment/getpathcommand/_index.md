@@ -12,6 +12,9 @@ url: /php-java/pathsegment/getpathcommand/
  Path type of the segment
  
 
+### Returns
+byte
+
 
 ---
 

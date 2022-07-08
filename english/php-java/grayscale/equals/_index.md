@@ -19,7 +19,7 @@ url: /php-java/grayscale/equals/
 | obj | Object | The GrayScale to compare. |
 
 ### Returns
-GrayScale
+boolean
 
 
 ---

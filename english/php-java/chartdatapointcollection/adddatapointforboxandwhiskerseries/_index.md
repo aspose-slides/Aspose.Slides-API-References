@@ -17,10 +17,10 @@ url: /php-java/chartdatapointcollection/adddatapointforboxandwhiskerseries/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartDataCell | Data point Value |
+| value | [ChartDataCell](../../chartdatacell) | Data point Value |
 
 ### Returns
-New data point.
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---

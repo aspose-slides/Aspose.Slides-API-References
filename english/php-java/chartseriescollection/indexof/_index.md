@@ -16,10 +16,10 @@ url: /php-java/chartseriescollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartSeries | Chart series value. |
+| value | [ChartSeries](../../chartseries) | Chart series value. |
 
 ### Returns
-ChartSeries
+int
 
 
 ---

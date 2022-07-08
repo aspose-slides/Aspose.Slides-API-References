@@ -27,6 +27,9 @@ url: /php-java/gifoptions/getexporthiddenslides/
   }
 ```
 
+### Returns
+boolean
+
 
 ---
 

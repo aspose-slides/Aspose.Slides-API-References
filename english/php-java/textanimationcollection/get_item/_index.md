@@ -12,6 +12,9 @@ url: /php-java/textanimationcollection/get_item/
  Returns element by index.
  
 
+### Returns
+[TextAnimation](../../textanimation)
+
 
 ---
 
@@ -25,10 +28,10 @@ url: /php-java/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [AudioFrame](../../audioframe) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -43,10 +46,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [AutoShape](../../autoshape) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -61,10 +64,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [Chart](../../chart) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -79,10 +82,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [Connector](../../connector) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -97,10 +100,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [GeometryShape](../../geometryshape) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -115,10 +118,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [GraphicalObject](../../graphicalobject) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -133,10 +136,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [GroupShape](../../groupshape) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -151,10 +154,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [Ink](../../ink) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -169,10 +172,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [LegacyDiagram](../../legacydiagram) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -187,10 +190,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -205,10 +208,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [PictureFrame](../../pictureframe) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -223,10 +226,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [SectionZoomFrame](../../sectionzoomframe) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -241,10 +244,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [Shape](../../shape) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -259,10 +262,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [SmartArt](../../smartart) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -277,10 +280,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [SmartArtShape](../../smartartshape) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -295,10 +298,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [SummaryZoomFrame](../../summaryzoomframe) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -313,10 +316,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -331,10 +334,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [Table](../../table) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -349,10 +352,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [VideoFrame](../../videoframe) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -367,10 +370,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [ZoomFrame](../../zoomframe) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---
@@ -385,10 +388,10 @@ Array of ITextAnimation
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | AudioFrame | IShape to remove. |
+| shape | [ZoomObject](../../zoomobject) | IShape to remove. |
 
 ### Returns
-Array of ITextAnimation
+[TextAnimation](../../textanimation)
 
 
 ---

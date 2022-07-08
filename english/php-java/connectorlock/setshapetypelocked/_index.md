@@ -14,7 +14,7 @@ url: /php-java/connectorlock/setshapetypelocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

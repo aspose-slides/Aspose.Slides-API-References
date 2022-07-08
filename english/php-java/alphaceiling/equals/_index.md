@@ -19,7 +19,7 @@ url: /php-java/alphaceiling/equals/
 | obj | Object | The AlphaCeiling to compare. |
 
 ### Returns
-AlphaCeiling
+boolean
 
 
 ---

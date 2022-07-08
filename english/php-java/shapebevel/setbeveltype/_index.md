@@ -14,7 +14,7 @@ url: /php-java/shapebevel/setbeveltype/
  
 
 ### Returns
-BevelPresetType
+void
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/coloreffect/setfrom/
  
 
 ### Returns
-IColorFormat
+void
 
 
 ---

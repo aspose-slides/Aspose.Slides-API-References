@@ -14,7 +14,7 @@ url: /php-java/lineformat/getcustomdashpattern/
  
 
 ### Returns
-float[]
+float
 
 
 ---

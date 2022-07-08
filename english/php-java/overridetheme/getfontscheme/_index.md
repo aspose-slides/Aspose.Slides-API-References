@@ -14,7 +14,7 @@ url: /php-java/overridetheme/getfontscheme/
  
 
 ### Returns
-IFontScheme
+[FontScheme](../../fontscheme)
 
 
 ---

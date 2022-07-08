@@ -14,7 +14,7 @@ url: /php-java/textframeformat/setmarginbottom/
  
 
 ### Returns
-double
+void
 
 
 ---

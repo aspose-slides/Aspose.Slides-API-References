@@ -14,7 +14,7 @@ url: /php-java/colorformat/getcolortransform/
  
 
 ### Returns
-IColorOperationCollection
+[ColorOperationCollection](../../coloroperationcollection)
 
 
 ---

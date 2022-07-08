@@ -14,7 +14,7 @@ url: /php-java/colorformat/setsystemcolor/
  
 
 ### Returns
-SystemColor
+void
 
 
 ---

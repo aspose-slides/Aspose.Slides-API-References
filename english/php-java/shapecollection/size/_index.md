@@ -13,6 +13,9 @@ url: /php-java/shapecollection/size/
  Read-only  int.
  
 
+### Returns
+int
+
 
 ---
 

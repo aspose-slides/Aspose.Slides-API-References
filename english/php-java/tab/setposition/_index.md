@@ -15,7 +15,7 @@ url: /php-java/tab/setposition/
  
 
 ### Returns
-double
+void
 
 
 ---

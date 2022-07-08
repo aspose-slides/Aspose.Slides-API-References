@@ -22,10 +22,10 @@ url: /php-java/shapecollection/insertpictureframe/
 | y | float | The Y-coordinate for a top side of shape's frame. |
 | width | float | The width of shape's frame. |
 | height | float | The height of shape's frame. |
-| image | PPImage | The image of picture frame. |
+| image | [PPImage](../../ppimage) | The image of picture frame. |
 
 ### Returns
-Created PictureFrame object.
+[AudioFrame](../../audioframe), [PictureFrame](../../pictureframe), [VideoFrame](../../videoframe)
 
 
 ---

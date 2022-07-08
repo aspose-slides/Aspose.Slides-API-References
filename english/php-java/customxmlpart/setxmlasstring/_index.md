@@ -14,7 +14,7 @@ url: /php-java/customxmlpart/setxmlasstring/
  
 
 ### Returns
-String
+void
 
 ### Exception
 

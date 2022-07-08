@@ -14,7 +14,7 @@ url: /php-java/fonts/setcomplexscriptfont/
  
 
 ### Returns
-IFontData
+void
 
 
 ---

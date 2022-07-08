@@ -14,7 +14,7 @@ url: /php-java/fillformat/getrotatewithshape/
  
 
 ### Returns
-NullableBool
+byte
 
 
 ---

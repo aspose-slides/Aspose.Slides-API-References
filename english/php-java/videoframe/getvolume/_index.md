@@ -14,7 +14,7 @@ url: /php-java/videoframe/getvolume/
  
 
 ### Returns
-AudioVolumeMode
+int
 
 
 ---

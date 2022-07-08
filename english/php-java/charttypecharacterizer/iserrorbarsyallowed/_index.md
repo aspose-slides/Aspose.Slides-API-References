@@ -19,7 +19,7 @@ url: /php-java/charttypecharacterizer/iserrorbarsyallowed/
 | seriesType | int | Series type. |
 
 ### Returns
-True if allowed, otherwise false.
+boolean
 
 
 ---

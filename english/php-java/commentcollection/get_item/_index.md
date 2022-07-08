@@ -14,7 +14,7 @@ url: /php-java/commentcollection/get_item/
  
 
 ### Returns
-Comment
+[Comment](../../comment), [ModernComment](../../moderncomment)
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/connector/reroute/
  Reroutes connector so that it take the shortest possible path between the shapes it connect.
  
 
+### Returns
+void
+
 
 ---
 

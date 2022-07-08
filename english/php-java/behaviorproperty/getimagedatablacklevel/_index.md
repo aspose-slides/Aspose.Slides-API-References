@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getimagedatablacklevel/
  Represents 'imageData.blacklevel' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

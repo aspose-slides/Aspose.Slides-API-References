@@ -19,7 +19,7 @@ url: /php-java/picture/equals/
 | obj | Object | Object to compare. |
 
 ### Returns
-True if objects are equal, otherwise false.
+boolean
 
 
 ---

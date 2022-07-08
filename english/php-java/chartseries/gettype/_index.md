@@ -14,7 +14,7 @@ url: /php-java/chartseries/gettype/
  
 
 ### Returns
-ChartType
+int
 
 
 ---

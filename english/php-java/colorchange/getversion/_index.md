@@ -10,6 +10,9 @@ url: /php-java/colorchange/getversion/
 ## getVersion()  method
 
 
+### Returns
+long
+
 
 ---
 

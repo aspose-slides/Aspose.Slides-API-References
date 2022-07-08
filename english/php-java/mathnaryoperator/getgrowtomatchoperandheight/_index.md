@@ -18,6 +18,9 @@ Example:
   $naryOperator->setGrowToMatchOperandHeight(true);
 ```
 
+### Returns
+boolean
+
 
 ---
 

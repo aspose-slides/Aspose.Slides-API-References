@@ -14,7 +14,7 @@ url: /php-java/comment/getauthor/
  
 
 ### Returns
-ICommentAuthor
+[CommentAuthor](../../commentauthor)
 
 
 ---

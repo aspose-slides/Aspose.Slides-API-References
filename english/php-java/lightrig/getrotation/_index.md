@@ -16,6 +16,9 @@ url: /php-java/lightrig/getrotation/
  Returns null if no rotation defined.
  
 
+### Returns
+float
+
 
 ---
 

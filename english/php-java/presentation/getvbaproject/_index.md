@@ -14,7 +14,7 @@ url: /php-java/presentation/getvbaproject/
  
 
 ### Returns
-IVbaProject
+[VbaProject](../../vbaproject)
 
 
 ---

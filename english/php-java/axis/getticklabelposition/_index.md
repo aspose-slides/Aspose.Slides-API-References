@@ -14,7 +14,7 @@ url: /php-java/axis/getticklabelposition/
   
 
 ### Returns
-TickLabelPositionType
+int
 
 
 ---

@@ -19,7 +19,7 @@ url: /php-java/textstyle/getlevel/
 | index | int | Zero-based index of level. Must lay in 0..8 interval. |
 
 ### Returns
-Formatting of level IParagraphFormat.
+[ParagraphFormat](../../paragraphformat)
 
 
 ---

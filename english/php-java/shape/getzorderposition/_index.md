@@ -15,6 +15,9 @@ url: /php-java/shape/getzorderposition/
  Read-only  int.
  
 
+### Returns
+int
+
 
 ---
 

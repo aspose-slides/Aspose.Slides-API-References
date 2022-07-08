@@ -35,7 +35,7 @@ url: /php-java/textstyle/geteffective/
 ```
 
 ### Returns
-A ITextStyleEffectiveData.
+
 
 
 ---

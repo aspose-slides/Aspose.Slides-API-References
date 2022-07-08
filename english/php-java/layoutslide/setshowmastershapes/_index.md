@@ -14,7 +14,7 @@ url: /php-java/layoutslide/setshowmastershapes/
  
 
 ### Returns
-boolean
+void
 
 
 ---

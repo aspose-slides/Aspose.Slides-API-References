@@ -14,7 +14,7 @@ url: /php-java/htmloptions/getslideimageformat/
  
 
 ### Returns
-ISlideImageFormat
+[SlideImageFormat](../../slideimageformat)
 
 
 ---

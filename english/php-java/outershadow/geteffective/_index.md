@@ -13,7 +13,7 @@ url: /php-java/outershadow/geteffective/
  
 
 ### Returns
-A IOuterShadowEffectiveData.
+
 
 
 ---

@@ -17,6 +17,9 @@ url: /php-java/pdfoptions/setbestimagescompressionratio/
  Default is false.
  
 
+### Returns
+void
+
 
 ---
 

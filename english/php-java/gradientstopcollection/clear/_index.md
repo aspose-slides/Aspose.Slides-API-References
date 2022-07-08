@@ -12,6 +12,9 @@ url: /php-java/gradientstopcollection/clear/
  Removes all gradient stops from a collection.
  
 
+### Returns
+void
+
 
 ---
 

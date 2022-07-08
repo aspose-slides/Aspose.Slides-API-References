@@ -18,6 +18,9 @@ url: /php-java/tagcollection/set_item/
 | --- | --- | --- |
 | name | String | Key of a tag. |
 
+### Returns
+void
+
 
 ---
 

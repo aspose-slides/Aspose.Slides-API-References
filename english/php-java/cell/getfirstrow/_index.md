@@ -14,7 +14,7 @@ url: /php-java/cell/getfirstrow/
  
 
 ### Returns
-IRow
+[Row](../../row)
 
 
 ---

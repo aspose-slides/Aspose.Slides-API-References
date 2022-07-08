@@ -14,7 +14,7 @@ url: /php-java/charttextformat/getparagraphformat/
  
 
 ### Returns
-IChartParagraphFormat
+[ParagraphFormat](../../paragraphformat)
 
 
 ---

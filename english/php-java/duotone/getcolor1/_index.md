@@ -14,7 +14,7 @@ url: /php-java/duotone/getcolor1/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

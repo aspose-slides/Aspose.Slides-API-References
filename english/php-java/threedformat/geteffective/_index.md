@@ -37,7 +37,7 @@ url: /php-java/threedformat/geteffective/
 ```
 
 ### Returns
-A IThreeDFormatEffectiveData.
+
 
 
 ---

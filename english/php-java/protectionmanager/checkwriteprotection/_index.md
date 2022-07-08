@@ -31,7 +31,7 @@ url: /php-java/protectionmanager/checkwriteprotection/
 | password | String | The password for checking. 1. You should check the ( #isWriteProtected) property before calling this method. 2. When the password is null or empty, this method returns false. |
 
 ### Returns
-True if the password is valid; otherwise, false.
+boolean
 
 
 ---

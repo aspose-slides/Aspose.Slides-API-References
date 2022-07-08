@@ -15,7 +15,7 @@ url: /php-java/colorformat/setcolor/
  
 
 ### Returns
-java.awt.Color
+void
 
 
 ---

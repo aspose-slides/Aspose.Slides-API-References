@@ -20,7 +20,7 @@ url: /php-java/tagcollection/add/
 | value | String | The value of the tag. |
 
 ### Returns
-The index of the added tag.
+int
 
 
 ---

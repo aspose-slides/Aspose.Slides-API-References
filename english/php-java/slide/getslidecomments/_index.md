@@ -16,10 +16,10 @@ url: /php-java/slide/getslidecomments/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| author | CommentAuthor | Author of comments to find or null to return all comments. |
+| author | [CommentAuthor](../../commentauthor) | Author of comments to find or null to return all comments. |
 
 ### Returns
-Array of Comment.
+[Comment](../../comment), [ModernComment](../../moderncomment)
 
 
 ---

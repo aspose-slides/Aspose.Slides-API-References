@@ -16,10 +16,10 @@ url: /php-java/imagetransformoperationcollection/containsitem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [AlphaBiLevel](../../alphabilevel) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -34,10 +34,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [AlphaCeiling](../../alphaceiling) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -52,10 +52,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [AlphaFloor](../../alphafloor) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -70,10 +70,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [AlphaInverse](../../alphainverse) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -88,10 +88,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [AlphaModulate](../../alphamodulate) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -106,10 +106,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -124,10 +124,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [AlphaReplace](../../alphareplace) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -142,10 +142,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [BiLevel](../../bilevel) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -160,10 +160,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [Blur](../../blur) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -178,10 +178,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [ColorChange](../../colorchange) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -196,10 +196,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [ColorReplace](../../colorreplace) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -214,10 +214,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [Duotone](../../duotone) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -232,10 +232,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [FillOverlay](../../filloverlay) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -250,10 +250,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [Glow](../../glow) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -268,10 +268,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [GrayScale](../../grayscale) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -286,10 +286,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [HSL](../../hsl) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -304,10 +304,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [ImageTransformOperation](../../imagetransformoperation) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -322,10 +322,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [InnerShadow](../../innershadow) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -340,10 +340,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [Luminance](../../luminance) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -358,10 +358,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [OuterShadow](../../outershadow) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -376,10 +376,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [PresetShadow](../../presetshadow) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -394,10 +394,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [Reflection](../../reflection) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -412,10 +412,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [SoftEdge](../../softedge) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---
@@ -430,10 +430,10 @@ IGenericCollection
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | AlphaBiLevel | The object to locate in the IGenericCollection. |
+| item | [Tint](../../tint) | The object to locate in the IGenericCollection. |
 
 ### Returns
-IGenericCollection
+boolean
 
 
 ---

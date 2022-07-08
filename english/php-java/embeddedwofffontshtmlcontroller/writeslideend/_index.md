@@ -10,6 +10,9 @@ url: /php-java/embeddedwofffontshtmlcontroller/writeslideend/
 ## writeSlideEnd([HtmlGenerator](../../htmlgenerator) generator, [Slide](../../slide) slide)  method
 
 
+### Returns
+void
+
 
 ---
 

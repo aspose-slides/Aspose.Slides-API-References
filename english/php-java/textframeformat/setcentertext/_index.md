@@ -14,7 +14,7 @@ url: /php-java/textframeformat/setcentertext/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

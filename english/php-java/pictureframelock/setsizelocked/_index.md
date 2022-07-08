@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/setsizelocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

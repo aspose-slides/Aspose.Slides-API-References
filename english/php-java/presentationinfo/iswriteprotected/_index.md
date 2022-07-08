@@ -22,6 +22,9 @@ url: /php-java/presentationinfo/iswriteprotected/
   }
 ```
 
+### Returns
+byte
+
 
 ---
 

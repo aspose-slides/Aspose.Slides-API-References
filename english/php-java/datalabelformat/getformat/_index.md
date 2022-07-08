@@ -17,7 +17,7 @@ url: /php-java/datalabelformat/getformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

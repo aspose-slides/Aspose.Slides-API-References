@@ -14,7 +14,7 @@ url: /php-java/chartcategory/setasliteral/
  
 
 ### Returns
-Object
+void
 
 
 ---

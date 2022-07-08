@@ -14,7 +14,7 @@ url: /php-java/mastertheme/getcolorscheme/
  
 
 ### Returns
-IColorScheme
+[ColorScheme](../../colorscheme)
 
 
 ---

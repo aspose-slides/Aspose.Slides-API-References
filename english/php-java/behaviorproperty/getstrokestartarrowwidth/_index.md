@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getstrokestartarrowwidth/
  Represents 'stroke.startArrowWidth' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/charttitle/setx/
  
 
 ### Returns
-float
+void
 
 
 ---

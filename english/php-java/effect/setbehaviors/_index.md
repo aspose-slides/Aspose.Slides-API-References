@@ -14,7 +14,7 @@ url: /php-java/effect/setbehaviors/
  
 
 ### Returns
-IBehaviorCollection
+void
 
 
 ---

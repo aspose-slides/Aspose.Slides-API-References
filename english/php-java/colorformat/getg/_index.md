@@ -12,6 +12,9 @@ url: /php-java/colorformat/getg/
  Returns or sets the green component of a color. All color transformations are ignored.
  
 
+### Returns
+byte
+
 
 ---
 

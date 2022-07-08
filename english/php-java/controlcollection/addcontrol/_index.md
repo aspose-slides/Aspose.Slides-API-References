@@ -23,7 +23,7 @@ url: /php-java/controlcollection/addcontrol/
 | height | float | The height of shape's frame. |
 
 ### Returns
-Created control.
+[Control](../../control)
 
 
 ---

@@ -17,10 +17,10 @@ url: /php-java/chartdatapointcollection/adddatapointforbarseries/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartDataCell | Data point Value |
+| value | [ChartDataCell](../../chartdatacell) | Data point Value |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBar(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---
@@ -39,7 +39,7 @@ ChartTypeCharacterizer#isChartTypeBar(int)
 | value | double | Data point Value |
 
 ### Returns
-ChartTypeCharacterizer#isChartTypeBar(int)
+[ChartDataPoint](../../chartdatapoint)
 
 
 ---

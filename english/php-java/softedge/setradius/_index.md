@@ -14,7 +14,7 @@ url: /php-java/softedge/setradius/
  
 
 ### Returns
-double
+void
 
 
 ---

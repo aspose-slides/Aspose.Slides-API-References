@@ -18,6 +18,9 @@ url: /php-java/protectionmanager/encrypt/
 | --- | --- | --- |
 | encryptionPassword | String | The password. |
 
+### Returns
+void
+
 
 ---
 

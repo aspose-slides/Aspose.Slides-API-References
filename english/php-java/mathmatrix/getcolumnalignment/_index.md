@@ -25,7 +25,7 @@ Example:
 | columnIndex | int | Zero-based column index |
 
 ### Returns
-Horizontal Alignment of specified column
+int
 
 
 ---

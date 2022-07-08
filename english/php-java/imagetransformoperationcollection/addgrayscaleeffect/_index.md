@@ -13,7 +13,7 @@ url: /php-java/imagetransformoperationcollection/addgrayscaleeffect/
  
 
 ### Returns
-Index of the new image effect in a collection.
+[GrayScale](../../grayscale)
 
 
 ---

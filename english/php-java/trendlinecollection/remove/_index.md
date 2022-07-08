@@ -12,6 +12,9 @@ url: /php-java/trendlinecollection/remove/
  Removes the specified value.
  
 
+### Returns
+void
+
 
 ---
 

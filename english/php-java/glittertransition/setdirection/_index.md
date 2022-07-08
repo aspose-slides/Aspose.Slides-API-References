@@ -14,7 +14,7 @@ url: /php-java/glittertransition/setdirection/
  
 
 ### Returns
-TransitionSideDirectionType
+void
 
 
 ---

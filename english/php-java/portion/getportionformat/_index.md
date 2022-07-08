@@ -16,7 +16,7 @@ url: /php-java/portion/getportionformat/
  
 
 ### Returns
-PortionFormat#getEffective
+[PortionFormat](../../portionformat)
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/chartseries/getrelatedlegendentry/
  
 
 ### Returns
-ILegendEntryProperties
+[LegendEntryProperties](../../legendentryproperties)
 
 
 ---

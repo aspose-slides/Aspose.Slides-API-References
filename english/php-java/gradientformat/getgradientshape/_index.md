@@ -14,7 +14,7 @@ url: /php-java/gradientformat/getgradientshape/
  
 
 ### Returns
-GradientShape
+byte
 
 
 ---

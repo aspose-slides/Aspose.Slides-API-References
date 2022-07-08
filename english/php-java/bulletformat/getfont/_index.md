@@ -14,7 +14,7 @@ url: /php-java/bulletformat/getfont/
  
 
 ### Returns
-IFontData
+[FontData](../../fontdata)
 
 
 ---

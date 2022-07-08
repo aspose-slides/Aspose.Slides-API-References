@@ -14,7 +14,7 @@ url: /php-java/effect/gettype/
  
 
 ### Returns
-EffectType
+int
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getfillopacity/
  Represents 'fill.opacity' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

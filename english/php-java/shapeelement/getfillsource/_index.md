@@ -14,7 +14,7 @@ url: /php-java/shapeelement/getfillsource/
  
 
 ### Returns
-ShapeElementFillSource
+byte
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/cellinvalidformulaexception/getreference/
  Gets a cell reference that contains the invalid formula.
  
 
+### Returns
+String
+
 
 ---
 

@@ -14,7 +14,7 @@ url: /php-java/chartseries/getformat/
  
 
 ### Returns
-IFormat
+[Format](../../format)
 
 
 ---

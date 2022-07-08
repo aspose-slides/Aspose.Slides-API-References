@@ -14,7 +14,7 @@ url: /php-java/datatable/getchart/
  
 
 ### Returns
-IChart
+[Chart](../../chart)
 
 
 ---

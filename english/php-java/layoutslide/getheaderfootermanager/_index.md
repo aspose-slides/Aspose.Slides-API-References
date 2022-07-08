@@ -14,7 +14,7 @@ url: /php-java/layoutslide/getheaderfootermanager/
  
 
 ### Returns
-ILayoutSlideHeaderFooterManager
+[LayoutSlideHeaderFooterManager](../../layoutslideheaderfootermanager)
 
 
 ---

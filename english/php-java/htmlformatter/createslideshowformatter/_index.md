@@ -20,7 +20,7 @@ url: /php-java/htmlformatter/createslideshowformatter/
 | showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
 ### Returns
-The HtmlFormatter object.
+HtmlFormatter
 
 
 ---

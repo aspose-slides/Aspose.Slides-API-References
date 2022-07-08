@@ -13,7 +13,7 @@ url: /php-java/blur/geteffective/
  
 
 ### Returns
-A IBlurEffectiveData.
+
 
 
 ---

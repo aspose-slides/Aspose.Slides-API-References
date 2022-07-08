@@ -18,6 +18,9 @@ url: /php-java/fontsloader/loadexternalfonts/
 | --- | --- | --- |
 | directories | java.lang.String[] | Directories to read additional fonts. |
 
+### Returns
+void
+
 
 ---
 

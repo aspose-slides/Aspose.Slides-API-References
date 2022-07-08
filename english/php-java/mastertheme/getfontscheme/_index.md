@@ -14,7 +14,7 @@ url: /php-java/mastertheme/getfontscheme/
  
 
 ### Returns
-IFontScheme
+[FontScheme](../../fontscheme)
 
 
 ---

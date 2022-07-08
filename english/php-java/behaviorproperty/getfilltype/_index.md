@@ -12,6 +12,9 @@ url: /php-java/behaviorproperty/getfilltype/
  Represents 'fill.type' property
  
 
+### Returns
+BehaviorProperty
+
 
 ---
 

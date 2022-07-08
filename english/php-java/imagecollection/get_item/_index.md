@@ -14,7 +14,7 @@ url: /php-java/imagecollection/get_item/
  
 
 ### Returns
-IPPImage
+[PPImage](../../ppimage)
 
 
 ---

@@ -24,7 +24,7 @@ url: /php-java/webdocument/getoutput/
 ```
 
 ### Returns
-#getOutput
+Output
 
 
 ---

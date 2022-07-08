@@ -32,7 +32,7 @@ url: /php-java/bulletformat/geteffective/
 ```
 
 ### Returns
-A IBulletFormatEffectiveData.
+
 
 
 ---

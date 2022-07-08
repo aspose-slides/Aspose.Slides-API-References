@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/setrighttoleft/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

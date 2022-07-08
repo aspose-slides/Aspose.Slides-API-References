@@ -14,7 +14,7 @@ url: /php-java/customdata/getcustomxmlparts/
  
 
 ### Returns
-ICustomXmlPartCollection
+[CustomXmlPartCollection](../../customxmlpartcollection)
 
 
 ---

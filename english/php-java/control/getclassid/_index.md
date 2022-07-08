@@ -14,7 +14,7 @@ url: /php-java/control/getclassid/
  
 
 ### Returns
-java.util.UUID
+UUID
 
 
 ---

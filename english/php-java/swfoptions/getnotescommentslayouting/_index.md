@@ -12,6 +12,9 @@ url: /php-java/swfoptions/getnotescommentslayouting/
  Provides options that control how notes and comments is placed in exported document.
  
 
+### Returns
+[NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)
+
 
 ---
 

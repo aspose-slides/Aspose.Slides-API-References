@@ -20,6 +20,9 @@ Example:
   $delimiter->setGrowToMatchOperandHeight(false);
 ```
 
+### Returns
+boolean
+
 
 ---
 

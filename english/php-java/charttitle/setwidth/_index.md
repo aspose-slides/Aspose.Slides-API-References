@@ -14,7 +14,7 @@ url: /php-java/charttitle/setwidth/
  
 
 ### Returns
-float
+void
 
 
 ---

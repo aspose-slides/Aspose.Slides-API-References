@@ -13,6 +13,9 @@ url: /php-java/oleobjectframe/getupdateautomatic/
  Read/write  boolean.
  
 
+### Returns
+boolean
+
 
 ---
 

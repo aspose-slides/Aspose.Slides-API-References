@@ -19,7 +19,7 @@ url: /php-java/hsl/equals/
 | obj | Object | The HSL to compare. |
 
 ### Returns
-HSL
+boolean
 
 
 ---

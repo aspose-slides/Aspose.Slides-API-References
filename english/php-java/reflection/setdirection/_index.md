@@ -14,7 +14,7 @@ url: /php-java/reflection/setdirection/
  
 
 ### Returns
-float
+void
 
 
 ---

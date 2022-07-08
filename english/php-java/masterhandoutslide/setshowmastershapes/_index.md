@@ -15,7 +15,7 @@ url: /php-java/masterhandoutslide/setshowmastershapes/
  
 
 ### Returns
-boolean
+void
 
 ### Exception
 

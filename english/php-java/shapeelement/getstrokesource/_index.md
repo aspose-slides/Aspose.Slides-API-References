@@ -14,7 +14,7 @@ url: /php-java/shapeelement/getstrokesource/
  
 
 ### Returns
-ShapeElementStrokeSource
+byte
 
 
 ---

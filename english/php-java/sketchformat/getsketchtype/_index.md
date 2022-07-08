@@ -14,7 +14,7 @@ url: /php-java/sketchformat/getsketchtype/
  
 
 ### Returns
-LineSketchType
+int
 
 
 ---

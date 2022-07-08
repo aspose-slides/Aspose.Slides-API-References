@@ -14,7 +14,7 @@ url: /php-java/shape/gethyperlinkmanager/
  
 
 ### Returns
-IHyperlinkManager
+[HyperlinkManager](../../hyperlinkmanager)
 
 
 ---

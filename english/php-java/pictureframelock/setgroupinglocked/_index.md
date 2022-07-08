@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/setgroupinglocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

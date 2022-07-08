@@ -14,7 +14,7 @@ url: /php-java/lineformat/setmiterlimit/
  
 
 ### Returns
-float
+void
 
 
 ---

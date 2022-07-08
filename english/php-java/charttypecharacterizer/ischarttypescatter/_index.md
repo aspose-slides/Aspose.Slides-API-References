@@ -19,7 +19,7 @@ url: /php-java/charttypecharacterizer/ischarttypescatter/
  
 
 ### Returns
-ChartType#ScatterWithStraightLinesAndMarkers
+boolean
 
 
 ---

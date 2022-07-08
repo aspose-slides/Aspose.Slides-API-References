@@ -14,7 +14,7 @@ url: /php-java/axis/setmaxvalue/
  
 
 ### Returns
-double
+void
 
 
 ---

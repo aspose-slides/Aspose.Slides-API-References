@@ -19,6 +19,9 @@ Example:
   $mathFraction->setFractionType(MathFractionTypes.Linear);
 ```
 
+### Returns
+int
+
 
 ---
 

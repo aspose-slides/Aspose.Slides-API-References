@@ -12,6 +12,9 @@ url: /php-java/sequencecollection/clear/
  Removes all sequences from a collection.
  
 
+### Returns
+void
+
 
 ---
 

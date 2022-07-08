@@ -14,7 +14,7 @@ url: /php-java/texttohtmlconversionoptions/getlinkembedcontroller/
  
 
 ### Returns
-ILinkEmbedController
+[VideoPlayerHtmlController](../../videoplayerhtmlcontroller)
 
 
 ---

@@ -12,6 +12,9 @@ url: /php-java/mathblock/isreadonly/
  Returns false because child elements collection can be modified.
  
 
+### Returns
+boolean
+
 
 ---
 

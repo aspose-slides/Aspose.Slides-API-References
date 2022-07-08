@@ -13,6 +13,9 @@ url: /php-java/bulletformat/setnumberedbulletstartwith/
  Read/write  short.
  
 
+### Returns
+void
+
 
 ---
 

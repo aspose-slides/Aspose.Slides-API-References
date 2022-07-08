@@ -14,7 +14,7 @@ url: /php-java/picturefillformat/getpicture/
  
 
 ### Returns
-ISlidesPicture
+[Picture](../../picture)
 
 
 ---

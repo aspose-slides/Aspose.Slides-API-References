@@ -13,6 +13,9 @@ url: /php-java/timing/getspeed/
  Read/write  float.
  
 
+### Returns
+float
+
 
 ---
 

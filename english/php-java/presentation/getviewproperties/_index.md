@@ -14,7 +14,7 @@ url: /php-java/presentation/getviewproperties/
  
 
 ### Returns
-IViewProperties
+[ViewProperties](../../viewproperties)
 
 
 ---

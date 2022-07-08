@@ -24,6 +24,9 @@ Example:
 | --- | --- | --- |
 | rowIndex | int | The zero-based index of the row to delete. |
 
+### Returns
+void
+
 ### Exception
 
 | Exception | Condition |

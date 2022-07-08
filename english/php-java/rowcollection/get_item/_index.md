@@ -14,7 +14,7 @@ url: /php-java/rowcollection/get_item/
  
 
 ### Returns
-Row
+[Row](../../row)
 
 
 ---

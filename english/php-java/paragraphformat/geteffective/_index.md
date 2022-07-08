@@ -30,7 +30,7 @@ url: /php-java/paragraphformat/geteffective/
 ```
 
 ### Returns
-A IParagraphFormatEffectiveData.
+
 
 
 ---

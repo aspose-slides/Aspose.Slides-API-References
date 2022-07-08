@@ -16,7 +16,7 @@ url: /php-java/rotation3d/setrightangleaxes/
  
 
 ### Returns
-boolean
+void
 
 
 ---

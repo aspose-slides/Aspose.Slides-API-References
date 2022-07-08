@@ -16,7 +16,10 @@ url: /php-java/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to add. |
+| item | [Behavior](../../behavior) | Behavior to add. |
+
+### Returns
+void
 
 
 ---
@@ -31,7 +34,10 @@ url: /php-java/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to add. |
+| item | [ColorEffect](../../coloreffect) | Behavior to add. |
+
+### Returns
+void
 
 
 ---
@@ -46,7 +52,10 @@ url: /php-java/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to add. |
+| item | [CommandEffect](../../commandeffect) | Behavior to add. |
+
+### Returns
+void
 
 
 ---
@@ -61,7 +70,10 @@ url: /php-java/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to add. |
+| item | [FilterEffect](../../filtereffect) | Behavior to add. |
+
+### Returns
+void
 
 
 ---
@@ -76,7 +88,10 @@ url: /php-java/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to add. |
+| item | [MotionEffect](../../motioneffect) | Behavior to add. |
+
+### Returns
+void
 
 
 ---
@@ -91,7 +106,10 @@ url: /php-java/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to add. |
+| item | [PropertyEffect](../../propertyeffect) | Behavior to add. |
+
+### Returns
+void
 
 
 ---
@@ -106,7 +124,10 @@ url: /php-java/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to add. |
+| item | [RotationEffect](../../rotationeffect) | Behavior to add. |
+
+### Returns
+void
 
 
 ---
@@ -121,7 +142,10 @@ url: /php-java/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to add. |
+| item | [ScaleEffect](../../scaleeffect) | Behavior to add. |
+
+### Returns
+void
 
 
 ---
@@ -136,7 +160,10 @@ url: /php-java/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Behavior | Behavior to add. |
+| item | [SetEffect](../../seteffect) | Behavior to add. |
+
+### Returns
+void
 
 
 ---

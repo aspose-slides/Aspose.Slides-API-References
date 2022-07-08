@@ -14,7 +14,7 @@ url: /php-java/shape/gethyperlinkclick/
  
 
 ### Returns
-IHyperlink
+[Hyperlink](../../hyperlink)
 
 
 ---

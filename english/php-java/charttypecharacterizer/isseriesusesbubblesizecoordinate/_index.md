@@ -19,7 +19,7 @@ url: /php-java/charttypecharacterizer/isseriesusesbubblesizecoordinate/
 | seriesType | int | Series type. |
 
 ### Returns
-True if can be used, otherwise false.
+boolean
 
 
 ---

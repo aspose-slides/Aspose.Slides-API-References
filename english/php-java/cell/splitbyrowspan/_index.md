@@ -18,6 +18,9 @@ url: /php-java/cell/splitbyrowspan/
 | --- | --- | --- |
 | index | int | Index of row. |
 
+### Returns
+void
+
 
 ---
 

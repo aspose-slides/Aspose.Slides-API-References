@@ -14,7 +14,7 @@ url: /php-java/autoshapelock/seteditpointslocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

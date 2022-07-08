@@ -16,10 +16,10 @@ url: /php-java/sectioncollection/indexof/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| section | Section | Section to find. |
+| section | [Section](../../section) | Section to find. |
 
 ### Returns
-Index of a section or -1 if section not from this collection.
+int
 
 
 ---

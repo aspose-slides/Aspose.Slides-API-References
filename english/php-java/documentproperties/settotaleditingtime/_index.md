@@ -14,7 +14,7 @@ url: /php-java/documentproperties/settotaleditingtime/
  
 
 ### Returns
-double
+void
 
 
 ---

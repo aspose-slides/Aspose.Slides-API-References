@@ -16,7 +16,7 @@ url: /php-java/pdfoptions/setembedfullfonts/
  
 
 ### Returns
-boolean
+void
 
 
 ---

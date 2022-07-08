@@ -14,7 +14,7 @@ url: /php-java/shapestyle/getfillcolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

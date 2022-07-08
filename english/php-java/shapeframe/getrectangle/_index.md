@@ -14,7 +14,7 @@ url: /php-java/shapeframe/getrectangle/
  
 
 ### Returns
-java.awt.geom.Rectangle2D.Float
+Rectangle2D.Float
 
 
 ---

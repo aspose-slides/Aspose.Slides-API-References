@@ -14,7 +14,7 @@ url: /php-java/textframeformat/setwraptext/
  
 
 ### Returns
-NullableBool
+void
 
 
 ---

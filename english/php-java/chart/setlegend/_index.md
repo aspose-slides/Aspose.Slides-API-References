@@ -14,7 +14,7 @@ url: /php-java/chart/setlegend/
  
 
 ### Returns
-boolean
+void
 
 
 ---

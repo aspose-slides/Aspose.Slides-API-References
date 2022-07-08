@@ -14,7 +14,7 @@ url: /php-java/customxmlpart/getxmldata/
  
 
 ### Returns
-byte[]
+byte
 
 ### Exception
 

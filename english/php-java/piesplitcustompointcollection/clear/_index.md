@@ -13,7 +13,7 @@ url: /php-java/piesplitcustompointcollection/clear/
  
 
 ### Returns
-IGenericCollection
+void
 
 
 ---

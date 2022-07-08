@@ -12,6 +12,9 @@ url: /php-java/chartdata/getexternalworkbookpath/
  Represents data source of the chart
  
 
+### Returns
+String
+
 
 ---
 

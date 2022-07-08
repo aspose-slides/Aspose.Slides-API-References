@@ -23,7 +23,7 @@ url: /php-java/datalabelformat/setshowlabelvaluefromcell/
  
 
 ### Returns
-boolean
+void
 
 
 ---

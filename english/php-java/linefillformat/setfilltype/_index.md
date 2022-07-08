@@ -14,7 +14,7 @@ url: /php-java/linefillformat/setfilltype/
  
 
 ### Returns
-FillType
+void
 
 
 ---

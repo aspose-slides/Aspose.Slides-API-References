@@ -14,7 +14,7 @@ url: /php-java/morphtransition/getmorphtype/
  
 
 ### Returns
-TransitionMorphType
+int
 
 
 ---

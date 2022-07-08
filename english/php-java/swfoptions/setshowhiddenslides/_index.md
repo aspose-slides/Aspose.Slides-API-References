@@ -13,6 +13,9 @@ url: /php-java/swfoptions/setshowhiddenslides/
  Default is false.
  
 
+### Returns
+void
+
 
 ---
 

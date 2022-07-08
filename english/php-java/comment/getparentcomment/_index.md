@@ -14,7 +14,7 @@ url: /php-java/comment/getparentcomment/
  
 
 ### Returns
-IComment
+[Comment](../../comment), [ModernComment](../../moderncomment)
 
 ### Exception
 

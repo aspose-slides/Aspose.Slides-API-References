@@ -14,7 +14,7 @@ url: /php-java/presentation/getfontsmanager/
  
 
 ### Returns
-IFontsManager
+[FontsManager](../../fontsmanager)
 
 
 ---

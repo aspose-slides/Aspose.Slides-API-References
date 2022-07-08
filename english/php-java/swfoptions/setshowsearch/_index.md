@@ -12,6 +12,9 @@ url: /php-java/swfoptions/setshowsearch/
  Show/hide search section. Can be overridden in flashvars. Default is true. 
  
 
+### Returns
+void
+
 
 ---
 

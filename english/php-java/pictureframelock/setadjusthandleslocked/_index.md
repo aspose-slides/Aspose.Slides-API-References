@@ -14,7 +14,7 @@ url: /php-java/pictureframelock/setadjusthandleslocked/
  
 
 ### Returns
-boolean
+void
 
 
 ---

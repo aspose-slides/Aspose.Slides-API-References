@@ -14,7 +14,7 @@ url: /php-java/pictureframe/getpictureformat/
  
 
 ### Returns
-IPictureFillFormat
+[PictureFillFormat](../../picturefillformat)
 
 
 ---

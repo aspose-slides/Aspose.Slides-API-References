@@ -14,7 +14,7 @@ url: /php-java/presentation/getmastertheme/
  
 
 ### Returns
-IMasterTheme
+[MasterTheme](../../mastertheme)
 
 
 ---

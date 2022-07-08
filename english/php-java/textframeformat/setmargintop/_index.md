@@ -14,7 +14,7 @@ url: /php-java/textframeformat/setmargintop/
  
 
 ### Returns
-double
+void
 
 
 ---

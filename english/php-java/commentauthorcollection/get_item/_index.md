@@ -14,7 +14,7 @@ url: /php-java/commentauthorcollection/get_item/
  
 
 ### Returns
-ICommentAuthor
+[CommentAuthor](../../commentauthor)
 
 
 ---

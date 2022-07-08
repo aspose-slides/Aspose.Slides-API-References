@@ -19,7 +19,7 @@ url: /php-java/pointcollection/get_item/
 | index | int | Index of element. |
 
 ### Returns
-The IPoint object.
+[Point](../../point)
 
 
 ---

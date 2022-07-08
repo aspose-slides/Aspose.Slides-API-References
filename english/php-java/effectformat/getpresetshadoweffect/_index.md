@@ -14,7 +14,7 @@ url: /php-java/effectformat/getpresetshadoweffect/
  
 
 ### Returns
-IPresetShadow
+[PresetShadow](../../presetshadow)
 
 
 ---

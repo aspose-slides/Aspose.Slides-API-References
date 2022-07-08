@@ -14,7 +14,7 @@ url: /php-java/background/getstylecolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---

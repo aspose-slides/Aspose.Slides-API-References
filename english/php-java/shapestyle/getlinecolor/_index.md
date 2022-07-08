@@ -14,7 +14,7 @@ url: /php-java/shapestyle/getlinecolor/
  
 
 ### Returns
-IColorFormat
+[ColorFormat](../../colorformat)
 
 
 ---
