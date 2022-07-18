@@ -7,7 +7,33 @@ weight: 320
 url: /php-java/textframeformat/setwraptext/
 ---
 
-## setWrapText(byte value)  method
+## setWrapText(OrderedDictionary value)  method
+
+ True if text is wrapped at TextFrame's margins.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setWrapText(Hashtable value)  method
+
+ True if text is wrapped at TextFrame's margins.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setWrapText(LinkedList value)  method
 
  True if text is wrapped at TextFrame's margins.
  Read/write  NullableBool.

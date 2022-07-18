@@ -19,7 +19,7 @@ url: /php-java/htmloptions/getjpegquality/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

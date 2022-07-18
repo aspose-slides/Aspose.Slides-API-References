@@ -16,7 +16,7 @@ url: /php-java/audio/getbinarydata/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

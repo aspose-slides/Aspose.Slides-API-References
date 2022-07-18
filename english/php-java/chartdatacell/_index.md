@@ -28,6 +28,8 @@ url: /php-java/chartdatacell/
 | [isHidden](ishidden)() | Determines whether the cell is hidden. Read-only boolean. |
 | [setCustomNumberFormat](setcustomnumberformat)(String) | Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String. |
 | [setFormula](setformula)(String) | Gets or sets the formula in A1-style. |
-| [setPresetNumberFormat](setpresetnumberformat)(byte) | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]". Read/write byte. |
+| [setPresetNumberFormat](setpresetnumberformat)(OrderedDictionary) | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]". Read/write byte. |
+| [setPresetNumberFormat](setpresetnumberformat)(Hashtable) | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]". Read/write byte. |
+| [setPresetNumberFormat](setpresetnumberformat)(LinkedList) | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]". Read/write byte. |
 | [setR1C1Formula](setr1c1formula)(String) | Gets or sets the formula in R1C1-style. |
 | [setValue](setvalue)(Object) | Gets or sets the value. Read/write Object. |

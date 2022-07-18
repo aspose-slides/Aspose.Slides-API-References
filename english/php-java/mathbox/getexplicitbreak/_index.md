@@ -24,7 +24,7 @@ Example:
 ```
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

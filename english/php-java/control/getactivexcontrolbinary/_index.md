@@ -24,7 +24,7 @@ url: /php-java/control/getactivexcontrolbinary/
 ```
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

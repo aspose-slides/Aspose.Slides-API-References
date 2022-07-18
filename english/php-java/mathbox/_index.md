@@ -24,27 +24,27 @@ Example:
 
 | Name | Description |
 | --- | --- |
-| [MathBox](mathbox)(BaseScript) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathAccent) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathArray) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathBar) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathBlock) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathBorderBox) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathBox) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathDelimiter) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathElementBase) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathematicalText) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathFraction) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathFunction) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathGroupingCharacter) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathLeftSubSuperscriptElement) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathLimit) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathMatrix) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathNaryOperator) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathBlock) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathRadical) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathRightSubSuperscriptElement) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathSubscriptElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathArray) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathDelimiter) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathAccent) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathNaryOperator) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathBorderBox) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathGroupingCharacter) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathBar) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathFunction) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathSuperscriptElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathSubscriptElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathFraction) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathematicalText) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(BaseScript) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathBox) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathElementBase) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathRightSubSuperscriptElement) | Initializes MathBox with the specified element as an argument |
 
 ## Methods
 
@@ -59,6 +59,8 @@ Example:
 | [getOperatorEmulator](getoperatoremulator)() | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
 | [setAlignmentPoint](setalignmentpoint)(boolean) | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
 | [setDifferential](setdifferential)(boolean) | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
-| [setExplicitBreak](setexplicitbreak)(byte) | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
+| [setExplicitBreak](setexplicitbreak)(OrderedDictionary) | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
+| [setExplicitBreak](setexplicitbreak)(Hashtable) | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
+| [setExplicitBreak](setexplicitbreak)(LinkedList) | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
 | [setNoBreak](setnobreak)(boolean) | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
 | [setOperatorEmulator](setoperatoremulator)(boolean) | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |

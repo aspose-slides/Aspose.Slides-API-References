@@ -14,7 +14,7 @@ url: /php-java/fillformat/getrotatewithshape/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

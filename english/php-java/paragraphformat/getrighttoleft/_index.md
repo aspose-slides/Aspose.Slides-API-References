@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/getrighttoleft/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

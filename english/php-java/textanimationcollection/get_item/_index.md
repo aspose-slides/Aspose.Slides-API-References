@@ -19,7 +19,7 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([AudioFrame](../../audioframe) shape)  method
+## get_Item([GraphicalObject](../../graphicalobject) shape)  method
 
  Returns all elements 
  
@@ -28,43 +28,7 @@ url: /php-java/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [AudioFrame](../../audioframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([AutoShape](../../autoshape) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AutoShape](../../autoshape) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([Chart](../../chart) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Chart](../../chart) | IShape to remove. |
+| shape | [GraphicalObject](../../graphicalobject) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -91,7 +55,7 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([GeometryShape](../../geometryshape) shape)  method
+## get_Item([SmartArtShape](../../smartartshape) shape)  method
 
  Returns all elements 
  
@@ -100,133 +64,7 @@ url: /php-java/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [GeometryShape](../../geometryshape) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([GraphicalObject](../../graphicalobject) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GraphicalObject](../../graphicalobject) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([GroupShape](../../groupshape) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GroupShape](../../groupshape) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([Ink](../../ink) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Ink](../../ink) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([LegacyDiagram](../../legacydiagram) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [LegacyDiagram](../../legacydiagram) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([OleObjectFrame](../../oleobjectframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([PictureFrame](../../pictureframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [PictureFrame](../../pictureframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([SectionZoomFrame](../../sectionzoomframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SectionZoomFrame](../../sectionzoomframe) | IShape to remove. |
+| shape | [SmartArtShape](../../smartartshape) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -253,7 +91,7 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([SmartArt](../../smartart) shape)  method
+## get_Item([Table](../../table) shape)  method
 
  Returns all elements 
  
@@ -262,7 +100,7 @@ url: /php-java/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SmartArt](../../smartart) | IShape to remove. |
+| shape | [Table](../../table) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -271,7 +109,7 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([SmartArtShape](../../smartartshape) shape)  method
+## get_Item([Ink](../../ink) shape)  method
 
  Returns all elements 
  
@@ -280,7 +118,25 @@ url: /php-java/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SmartArtShape](../../smartartshape) | IShape to remove. |
+| shape | [Ink](../../ink) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([GeometryShape](../../geometryshape) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GeometryShape](../../geometryshape) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -325,7 +181,7 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([Table](../../table) shape)  method
+## get_Item([ZoomFrame](../../zoomframe) shape)  method
 
  Returns all elements 
  
@@ -334,7 +190,25 @@ url: /php-java/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Table](../../table) | IShape to remove. |
+| shape | [ZoomFrame](../../zoomframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([OleObjectFrame](../../oleobjectframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -361,7 +235,7 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([ZoomFrame](../../zoomframe) shape)  method
+## get_Item([SmartArt](../../smartart) shape)  method
 
  Returns all elements 
  
@@ -370,7 +244,133 @@ url: /php-java/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomFrame](../../zoomframe) | IShape to remove. |
+| shape | [SmartArt](../../smartart) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([GroupShape](../../groupshape) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GroupShape](../../groupshape) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([AutoShape](../../autoshape) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AutoShape](../../autoshape) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([PictureFrame](../../pictureframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [PictureFrame](../../pictureframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([SectionZoomFrame](../../sectionzoomframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SectionZoomFrame](../../sectionzoomframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([Chart](../../chart) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Chart](../../chart) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([AudioFrame](../../audioframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AudioFrame](../../audioframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([LegacyDiagram](../../legacydiagram) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../../legacydiagram) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)

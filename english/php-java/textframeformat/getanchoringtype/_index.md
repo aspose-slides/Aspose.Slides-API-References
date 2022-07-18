@@ -14,7 +14,7 @@ url: /php-java/textframeformat/getanchoringtype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

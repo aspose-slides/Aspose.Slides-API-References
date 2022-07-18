@@ -13,7 +13,7 @@ url: /php-java/chartdata/readworkbookstream/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

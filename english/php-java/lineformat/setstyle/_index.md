@@ -7,7 +7,33 @@ weight: 320
 url: /php-java/lineformat/setstyle/
 ---
 
-## setStyle(byte value)  method
+## setStyle(OrderedDictionary value)  method
+
+ Returns or sets the line style.
+ Read/write  LineStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setStyle(Hashtable value)  method
+
+ Returns or sets the line style.
+ Read/write  LineStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setStyle(LinkedList value)  method
 
  Returns or sets the line style.
  Read/write  LineStyle.

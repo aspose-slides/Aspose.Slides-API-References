@@ -21,11 +21,11 @@ url: /php-java/slidecollection/
 | [addClone](addclone)([Slide](../slide), [LayoutSlide](../layoutslide)) | Adds a copy of a specified slide to the end of the collection. |
 | [addClone](addclone)([Slide](../slide), [MasterSlide](../masterslide), boolean) | Adds a copy of a specified source slide to the end of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 | [addEmptySlide](addemptyslide)([LayoutSlide](../layoutslide)) | Adds a new empty slide to the end of the collection. |
-| [addFromHtml](addfromhtml)(String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 | [addFromHtml](addfromhtml)(String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
+| [addFromHtml](addfromhtml)(String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 | [addFromHtml](addfromhtml)(String) | Creates slides from HTML text and adds them to the end of the collection. |
-| [addFromHtml](addfromhtml)(InputStream, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 | [addFromHtml](addfromhtml)(InputStream, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
+| [addFromHtml](addfromhtml)(InputStream, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 | [addFromHtml](addfromhtml)(InputStream) | Creates slides from HTML text and adds them to the end of the collection. |
 | [addFromPdf](addfrompdf)(String) | Creates slides from the PDF document and adds them to the end of the collection. |
 | [addFromPdf](addfrompdf)(InputStream) | Creates slides from the PDF document and adds them to the end of the collection. |
@@ -36,11 +36,11 @@ url: /php-java/slidecollection/
 | [insertClone](insertclone)(int, [Slide](../slide), [LayoutSlide](../layoutslide)) | Inserts a copy of a specified slide to specified position of the collection. |
 | [insertClone](insertclone)(int, [Slide](../slide), [MasterSlide](../masterslide), boolean) | Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 | [insertEmptySlide](insertemptyslide)(int, [LayoutSlide](../layoutslide)) | Inserts a copy of a specified slide to specified position of the collection. |
-| [insertFromHtml](insertfromhtml)(int, String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [insertFromHtml](insertfromhtml)(int, String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtml](insertfromhtml)(int, String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [insertFromHtml](insertfromhtml)(int, String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
-| [insertFromHtml](insertfromhtml)(int, InputStream, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [insertFromHtml](insertfromhtml)(int, InputStream, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtml](insertfromhtml)(int, InputStream, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [insertFromHtml](insertfromhtml)(int, InputStream) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |

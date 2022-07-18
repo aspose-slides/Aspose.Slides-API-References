@@ -14,7 +14,7 @@ url: /php-java/layoutslide/getthememanager/
  
 
 ### Returns
-[BaseOverrideThemeManager](../../baseoverridethememanager), [ChartThemeManager](../../chartthememanager), [LayoutSlideThemeManager](../../layoutslidethememanager), [NotesSlideThemeManager](../../notesslidethememanager), [SlideThemeManager](../../slidethememanager)
+[SlideThemeManager](../../slidethememanager), [LayoutSlideThemeManager](../../layoutslidethememanager), [ChartThemeManager](../../chartthememanager), [BaseOverrideThemeManager](../../baseoverridethememanager), [NotesSlideThemeManager](../../notesslidethememanager)
 
 
 ---

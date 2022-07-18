@@ -7,7 +7,33 @@ weight: 260
 url: /php-java/paragraphformat/sethangingpunctuation/
 ---
 
-## setHangingPunctuation(byte value)  method
+## setHangingPunctuation(OrderedDictionary value)  method
+
+ Determines whether the hanging punctuation is used in a paragraph. No inheritance applied.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setHangingPunctuation(Hashtable value)  method
+
+ Determines whether the hanging punctuation is used in a paragraph. No inheritance applied.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setHangingPunctuation(LinkedList value)  method
 
  Determines whether the hanging punctuation is used in a paragraph. No inheritance applied.
  Read/write  NullableBool.

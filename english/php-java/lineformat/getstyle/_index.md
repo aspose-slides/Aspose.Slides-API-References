@@ -14,7 +14,7 @@ url: /php-java/lineformat/getstyle/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

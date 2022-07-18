@@ -14,7 +14,7 @@ url: /php-java/svgimage/getsvgdata/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

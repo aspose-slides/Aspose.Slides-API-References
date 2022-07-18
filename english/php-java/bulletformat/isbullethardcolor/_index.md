@@ -16,7 +16,7 @@ url: /php-java/bulletformat/isbullethardcolor/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

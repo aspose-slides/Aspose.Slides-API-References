@@ -7,7 +7,33 @@ weight: 200
 url: /php-java/outershadow/setrectanglealign/
 ---
 
-## setRectangleAlign(byte value)  method
+## setRectangleAlign(OrderedDictionary value)  method
+
+ Rectangle alignment.
+ Read/write  RectangleAlignment.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setRectangleAlign(Hashtable value)  method
+
+ Rectangle alignment.
+ Read/write  RectangleAlignment.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setRectangleAlign(LinkedList value)  method
 
  Rectangle alignment.
  Read/write  RectangleAlignment.

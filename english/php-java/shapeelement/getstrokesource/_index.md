@@ -14,7 +14,7 @@ url: /php-java/shapeelement/getstrokesource/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

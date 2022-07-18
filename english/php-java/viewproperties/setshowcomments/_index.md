@@ -7,7 +7,33 @@ weight: 80
 url: /php-java/viewproperties/setshowcomments/
 ---
 
-## setShowComments(byte value)  method
+## setShowComments(OrderedDictionary value)  method
+
+ Specifies whether the slide comments should be shown.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setShowComments(Hashtable value)  method
+
+ Specifies whether the slide comments should be shown.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setShowComments(LinkedList value)  method
 
  Specifies whether the slide comments should be shown.
  Read/write  NullableBool.

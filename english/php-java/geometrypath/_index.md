@@ -42,5 +42,7 @@ url: /php-java/geometrypath/
 | [quadraticBezierTo](quadraticbezierto)(Point2D.Float, Point2D.Float, long) | Adds quadratic Bezier curve to the specified place of the path |
 | [quadraticBezierTo](quadraticbezierto)(float, float, float, float, long) | Adds quadratic Bezier curve to the specified place of the path |
 | [removeAt](removeat)(int) | Removes segment at the specified index of the geometry path. |
-| [setFillMode](setfillmode)(byte) | Sets fill mode |
+| [setFillMode](setfillmode)(OrderedDictionary) | Sets fill mode |
+| [setFillMode](setfillmode)(Hashtable) | Sets fill mode |
+| [setFillMode](setfillmode)(LinkedList) | Sets fill mode |
 | [setStroke](setstroke)(boolean) | Sets stroke appearance |

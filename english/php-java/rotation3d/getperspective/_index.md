@@ -15,7 +15,7 @@ url: /php-java/rotation3d/getperspective/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

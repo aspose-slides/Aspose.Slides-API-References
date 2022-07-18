@@ -7,7 +7,33 @@ weight: 60
 url: /php-java/moderncomment/setstatus/
 ---
 
-## setStatus(byte value)  method
+## setStatus(OrderedDictionary value)  method
+
+ Gets or sets the status of the comment.
+ Read/write  ModernCommentStatus.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setStatus(Hashtable value)  method
+
+ Gets or sets the status of the comment.
+ Read/write  ModernCommentStatus.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setStatus(LinkedList value)  method
 
  Gets or sets the status of the comment.
  Read/write  ModernCommentStatus.

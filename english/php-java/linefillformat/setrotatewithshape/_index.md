@@ -7,7 +7,33 @@ weight: 70
 url: /php-java/linefillformat/setrotatewithshape/
 ---
 
-## setRotateWithShape(byte value)  method
+## setRotateWithShape(OrderedDictionary value)  method
+
+ Determines whether the fill should be rotated with a shape.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setRotateWithShape(Hashtable value)  method
+
+ Determines whether the fill should be rotated with a shape.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setRotateWithShape(LinkedList value)  method
 
  Determines whether the fill should be rotated with a shape.
  Read/write  NullableBool.

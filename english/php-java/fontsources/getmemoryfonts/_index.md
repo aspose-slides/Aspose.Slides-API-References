@@ -13,7 +13,7 @@ url: /php-java/fontsources/getmemoryfonts/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

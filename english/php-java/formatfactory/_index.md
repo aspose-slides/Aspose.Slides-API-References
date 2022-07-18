@@ -25,4 +25,3 @@ url: /php-java/formatfactory/
 | [createParagraphFormat](createparagraphformat)() | Creates new IParagraphFormat. |
 | [createPortionFormat](createportionformat)() | Creates new IPortionFormat. |
 | [createTextFrameFormat](createtextframeformat)() | Creates new ITextFrameFormat. |
-| [getInstance](getinstance)() | Format factory static instance. Read-only FormatFactory. |

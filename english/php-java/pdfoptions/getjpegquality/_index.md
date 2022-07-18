@@ -19,7 +19,7 @@ url: /php-java/pdfoptions/getjpegquality/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

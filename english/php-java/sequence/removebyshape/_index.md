@@ -7,31 +7,7 @@ weight: 160
 url: /php-java/sequence/removebyshape/
 ---
 
-## removeByShape([AudioFrame](../../audioframe) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
-## removeByShape([AutoShape](../../autoshape) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
-## removeByShape([Chart](../../chart) shape)  method
+## removeByShape([GraphicalObject](../../graphicalobject) shape)  method
 
  Remove effect for the specified shape.
  
@@ -55,91 +31,7 @@ void
 ---
 
 
-## removeByShape([GeometryShape](../../geometryshape) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
-## removeByShape([GraphicalObject](../../graphicalobject) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
-## removeByShape([GroupShape](../../groupshape) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
-## removeByShape([Ink](../../ink) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
-## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
-## removeByShape([OleObjectFrame](../../oleobjectframe) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
-## removeByShape([PictureFrame](../../pictureframe) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
-## removeByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
+## removeByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -163,7 +55,7 @@ void
 ---
 
 
-## removeByShape([SmartArt](../../smartart) shape)  method
+## removeByShape([Table](../../table) shape)  method
 
  Remove effect for the specified shape.
  
@@ -175,7 +67,19 @@ void
 ---
 
 
-## removeByShape([SmartArtShape](../../smartartshape) shape)  method
+## removeByShape([Ink](../../ink) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([GeometryShape](../../geometryshape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -211,7 +115,19 @@ void
 ---
 
 
-## removeByShape([Table](../../table) shape)  method
+## removeByShape([ZoomFrame](../../zoomframe) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -235,7 +151,91 @@ void
 ---
 
 
-## removeByShape([ZoomFrame](../../zoomframe) shape)  method
+## removeByShape([SmartArt](../../smartart) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([GroupShape](../../groupshape) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([AutoShape](../../autoshape) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([PictureFrame](../../pictureframe) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([Chart](../../chart) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([AudioFrame](../../audioframe) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
 
  Remove effect for the specified shape.
  

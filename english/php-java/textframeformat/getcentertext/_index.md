@@ -14,7 +14,7 @@ url: /php-java/textframeformat/getcentertext/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

@@ -20,31 +20,7 @@ int
 ---
 
 
-## getCount([AudioFrame](../../audioframe) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
-## getCount([AutoShape](../../autoshape) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
-## getCount([Chart](../../chart) shape)  method
+## getCount([GraphicalObject](../../graphicalobject) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -68,91 +44,7 @@ int
 ---
 
 
-## getCount([GeometryShape](../../geometryshape) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
-## getCount([GraphicalObject](../../graphicalobject) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
-## getCount([GroupShape](../../groupshape) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
-## getCount([Ink](../../ink) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
-## getCount([LegacyDiagram](../../legacydiagram) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
-## getCount([OleObjectFrame](../../oleobjectframe) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
-## getCount([PictureFrame](../../pictureframe) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
-## getCount([SectionZoomFrame](../../sectionzoomframe) shape)  method
+## getCount([SmartArtShape](../../smartartshape) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -176,7 +68,7 @@ int
 ---
 
 
-## getCount([SmartArt](../../smartart) shape)  method
+## getCount([Table](../../table) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -188,7 +80,19 @@ int
 ---
 
 
-## getCount([SmartArtShape](../../smartartshape) shape)  method
+## getCount([Ink](../../ink) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([GeometryShape](../../geometryshape) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -224,7 +128,19 @@ int
 ---
 
 
-## getCount([Table](../../table) shape)  method
+## getCount([ZoomFrame](../../zoomframe) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -248,7 +164,91 @@ int
 ---
 
 
-## getCount([ZoomFrame](../../zoomframe) shape)  method
+## getCount([SmartArt](../../smartart) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([GroupShape](../../groupshape) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([AutoShape](../../autoshape) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([PictureFrame](../../pictureframe) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([SectionZoomFrame](../../sectionzoomframe) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([Chart](../../chart) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([AudioFrame](../../audioframe) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([LegacyDiagram](../../legacydiagram) shape)  method
 
  Returns count of effects for the specified shape.
  

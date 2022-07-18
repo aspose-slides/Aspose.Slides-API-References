@@ -14,7 +14,7 @@ url: /php-java/swfoptions/getlogoimagebytes/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

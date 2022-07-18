@@ -18,7 +18,7 @@ url: /php-java/chartdatacell/getpresetnumberformat/
 ```
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

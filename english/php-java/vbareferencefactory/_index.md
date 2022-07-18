@@ -23,4 +23,3 @@ url: /php-java/vbareferencefactory/
 | Name | Description |
 | --- | --- |
 | [createOleTypeLibReference](createoletypelibreference)(String, String) | Creates new OLE Automation type library reference. |
-| [getInstance](getinstance)() | VBA project references factory static instance. Read-only VbaReferenceFactory. |

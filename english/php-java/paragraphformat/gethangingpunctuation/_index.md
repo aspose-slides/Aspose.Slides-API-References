@@ -14,7 +14,7 @@ url: /php-java/paragraphformat/gethangingpunctuation/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

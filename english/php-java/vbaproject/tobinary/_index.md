@@ -13,7 +13,7 @@ url: /php-java/vbaproject/tobinary/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

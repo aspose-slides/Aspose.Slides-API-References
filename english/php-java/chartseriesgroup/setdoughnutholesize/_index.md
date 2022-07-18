@@ -7,7 +7,35 @@ weight: 270
 url: /php-java/chartseriesgroup/setdoughnutholesize/
 ---
 
-## setDoughnutHoleSize(byte value)  method
+## setDoughnutHoleSize(OrderedDictionary value)  method
+
+ Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents 
+ of the size of the plot area.).
+ Read/write  byte.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setDoughnutHoleSize(Hashtable value)  method
+
+ Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents 
+ of the size of the plot area.).
+ Read/write  byte.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setDoughnutHoleSize(LinkedList value)  method
 
  Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents 
  of the size of the plot area.).

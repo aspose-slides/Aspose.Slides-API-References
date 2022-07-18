@@ -7,3 +7,15 @@ weight: 50
 url: /php-java/xamloptions/setoutputsaver/
 ---
 
+## setOutputSaver([IXamlOutputSaver](../../ixamloutputsaver) value)  method
+
+ Represents an implementation of IOutputSaver interface.
+ 
+
+### Returns
+void
+
+
+---
+
+

@@ -7,7 +7,33 @@ weight: 70
 url: /php-java/colorscheme/getbycolorschemeindex/
 ---
 
-## getByColorSchemeIndex(byte index)  method
+## getByColorSchemeIndex(OrderedDictionary index)  method
+
+ Gets the element at the specified index.
+ Read-only  IColorFormat.
+ 
+
+### Returns
+[ColorFormat](../../colorformat)
+
+
+---
+
+
+## getByColorSchemeIndex(Hashtable index)  method
+
+ Gets the element at the specified index.
+ Read-only  IColorFormat.
+ 
+
+### Returns
+[ColorFormat](../../colorformat)
+
+
+---
+
+
+## getByColorSchemeIndex(LinkedList index)  method
 
  Gets the element at the specified index.
  Read-only  IColorFormat.

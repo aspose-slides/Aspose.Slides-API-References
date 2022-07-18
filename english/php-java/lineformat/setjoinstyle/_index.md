@@ -7,7 +7,33 @@ weight: 300
 url: /php-java/lineformat/setjoinstyle/
 ---
 
-## setJoinStyle(byte value)  method
+## setJoinStyle(OrderedDictionary value)  method
+
+ Returns or sets the lines join style.
+ Read/write  LineJoinStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setJoinStyle(Hashtable value)  method
+
+ Returns or sets the lines join style.
+ Read/write  LineJoinStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setJoinStyle(LinkedList value)  method
 
  Returns or sets the lines join style.
  Read/write  LineJoinStyle.

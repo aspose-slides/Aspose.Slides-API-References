@@ -7,7 +7,33 @@ weight: 390
 url: /php-java/shape/setblackwhitemode/
 ---
 
-## setBlackWhiteMode(byte value)  method
+## setBlackWhiteMode(OrderedDictionary value)  method
+
+ Property specifies how a shape will render in black-and-white display mode..
+ Read/write  BlackWhiteMode.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setBlackWhiteMode(Hashtable value)  method
+
+ Property specifies how a shape will render in black-and-white display mode..
+ Read/write  BlackWhiteMode.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setBlackWhiteMode(LinkedList value)  method
 
  Property specifies how a shape will render in black-and-white display mode..
  Read/write  BlackWhiteMode.

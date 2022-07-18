@@ -197,7 +197,7 @@ is_root: true
 | [Fonts](fonts) | Fonts collection. |
 | [FontsLoader](fontsloader) | Class for loading custom fonts defined by user. Should be used before creating any presentation objects. |
 | [FontsManager](fontsmanager) | Manages fonts across the presentation. |
-| [ForEach](foreach) | Represents a group of methods intended to iterate over different Presentation model objects. These methods can be useful if you need to iterate and change some Presentation' elements formatting or content, e.g. change each portion formatting. |
+| [ForEach_](foreach_) | Represents a group of methods intended to iterate over different Presentation model objects. These methods can be useful if you need to iterate and change some Presentation' elements formatting or content, e.g. change each portion formatting. |
 | [Format](format) | Represents chart format properties. |
 | [FormatFactory](formatfactory) | Allows to create formats via COM interface. |
 | [FormatScheme](formatscheme) | Stores theme-defined formats for the shapes. |

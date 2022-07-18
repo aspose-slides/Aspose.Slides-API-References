@@ -7,7 +7,37 @@ weight: 150
 url: /php-java/bulletformat/setbullethardfont/
 ---
 
-## setBulletHardFont(byte value)  method
+## setBulletHardFont(OrderedDictionary value)  method
+
+ Determines whether the bullet has own font or inherits it from the first portion in the paragraph.
+ NullableBool#True if bullet has own font and NullableBool#False if bullet
+ inherits font from the first portion in the paragraph.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setBulletHardFont(Hashtable value)  method
+
+ Determines whether the bullet has own font or inherits it from the first portion in the paragraph.
+ NullableBool#True if bullet has own font and NullableBool#False if bullet
+ inherits font from the first portion in the paragraph.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setBulletHardFont(LinkedList value)  method
 
  Determines whether the bullet has own font or inherits it from the first portion in the paragraph.
  NullableBool#True if bullet has own font and NullableBool#False if bullet

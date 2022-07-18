@@ -14,7 +14,7 @@ url: /php-java/moderncomment/getstatus/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

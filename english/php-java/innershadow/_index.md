@@ -20,7 +20,6 @@ url: /php-java/innershadow/
 | [getBlurRadius](getblurradius)() | Blur radius. Read/write double. |
 | [getDirection](getdirection)() | Direction of shadow. Read/write float. |
 | [getDistance](getdistance)() | Distance of shadow. Read/write double. |
-| [getEffective](geteffective)() | Gets effective Inner Shadow effect data with the inheritance applied. |
 | [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
 | [getShadowColor](getshadowcolor)() | Color of shadow. Read-only IColorFormat. |
 | [getVersion](getversion)() |  |

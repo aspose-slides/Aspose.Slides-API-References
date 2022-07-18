@@ -14,7 +14,7 @@ url: /php-java/placeholder/getsize/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

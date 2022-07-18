@@ -19,7 +19,7 @@ url: /php-java/presentation/getslidebyid/
 | id | long | Id of a slide. |
 
 ### Returns
-[BaseSlide](../../baseslide), [LayoutSlide](../../layoutslide), [MasterHandoutSlide](../../masterhandoutslide), [MasterNotesSlide](../../masternotesslide), [MasterSlide](../../masterslide), [NotesSlide](../../notesslide), [Slide](../../slide)
+[MasterHandoutSlide](../../masterhandoutslide), [BaseSlide](../../baseslide), [LayoutSlide](../../layoutslide), [Slide](../../slide), [MasterSlide](../../masterslide), [NotesSlide](../../notesslide), [MasterNotesSlide](../../masternotesslide)
 
 
 ---

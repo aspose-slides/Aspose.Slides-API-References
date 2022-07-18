@@ -14,7 +14,7 @@ url: /php-java/lineformat/getendarrowheadlength/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

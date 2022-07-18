@@ -14,7 +14,7 @@ url: /php-java/scaleeffect/getzoomcontent/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

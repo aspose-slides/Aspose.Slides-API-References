@@ -14,7 +14,7 @@ url: /php-java/shape/getblackwhitemode/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

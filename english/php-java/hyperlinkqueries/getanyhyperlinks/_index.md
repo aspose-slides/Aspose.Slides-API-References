@@ -14,7 +14,7 @@ url: /php-java/hyperlinkqueries/getanyhyperlinks/
  
 
 ### Returns
-IGenericList
+[BehaviorPropertyCollection](../../behaviorpropertycollection), KeyedCollection, ReadOnlyCollection, Collection, List
 
 
 ---

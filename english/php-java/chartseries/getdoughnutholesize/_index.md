@@ -22,7 +22,7 @@ url: /php-java/chartseries/getdoughnutholesize/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

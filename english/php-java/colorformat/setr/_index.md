@@ -7,7 +7,33 @@ weight: 310
 url: /php-java/colorformat/setr/
 ---
 
-## setR(byte value)  method
+## setR(OrderedDictionary value)  method
+
+ Returns or sets the red component of a color. All color transformations are ignored.
+ Read/write  byte.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setR(Hashtable value)  method
+
+ Returns or sets the red component of a color. All color transformations are ignored.
+ Read/write  byte.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setR(LinkedList value)  method
 
  Returns or sets the red component of a color. All color transformations are ignored.
  Read/write  byte.

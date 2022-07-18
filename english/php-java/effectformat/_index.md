@@ -32,7 +32,6 @@ url: /php-java/effectformat/
 | [enableReflectionEffect](enablereflectioneffect)() | Enables reflection effect. |
 | [enableSoftEdgeEffect](enablesoftedgeeffect)() | Enables soft edge effect. |
 | [getBlurEffect](getblureffect)() | Blur effect. Read/write IBlur. |
-| [getEffective](geteffective)() | Gets effective effect formatting data with the inheritance applied. |
 | [getFillOverlayEffect](getfilloverlayeffect)() | Fill overlay effect. Read/write IFillOverlay. |
 | [getGlowEffect](getgloweffect)() | Glow effect. Read/write IGlow. |
 | [getInnerShadowEffect](getinnershadoweffect)() | Inner shadow. Read/write IInnerShadow. |

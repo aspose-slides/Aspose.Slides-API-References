@@ -22,6 +22,5 @@ url: /php-java/interruptiontokensource/
 
 | Name | Description |
 | --- | --- |
-| [getToken](gettoken)() | Returns new token binded to this InterruptionTokenSource. |
 | [interrupt](interrupt)() | Initialize request for interruption. |
 | [isInterruptionRequested](isinterruptionrequested)() | Returns true if interruption requested, false otherwise. |

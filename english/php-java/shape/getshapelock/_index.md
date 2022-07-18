@@ -14,7 +14,7 @@ url: /php-java/shape/getshapelock/
  
 
 ### Returns
-[AutoShapeLock](../../autoshapelock), [BaseShapeLock](../../baseshapelock), [ConnectorLock](../../connectorlock), [GraphicalObjectLock](../../graphicalobjectlock), [GroupShapeLock](../../groupshapelock), [PictureFrameLock](../../pictureframelock)
+[GraphicalObjectLock](../../graphicalobjectlock), [ConnectorLock](../../connectorlock), [AutoShapeLock](../../autoshapelock), [PictureFrameLock](../../pictureframelock), [BaseShapeLock](../../baseshapelock), [GroupShapeLock](../../groupshapelock)
 
 
 ---

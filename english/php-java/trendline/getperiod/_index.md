@@ -15,7 +15,7 @@ url: /php-java/trendline/getperiod/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

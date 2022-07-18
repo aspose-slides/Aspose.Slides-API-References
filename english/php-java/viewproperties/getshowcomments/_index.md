@@ -14,7 +14,7 @@ url: /php-java/viewproperties/getshowcomments/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

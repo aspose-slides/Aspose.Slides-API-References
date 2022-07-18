@@ -7,7 +7,33 @@ weight: 280
 url: /php-java/lineformat/setendarrowheadstyle/
 ---
 
-## setEndArrowheadStyle(byte value)  method
+## setEndArrowheadStyle(OrderedDictionary value)  method
+
+ Returns or sets the arrowhead style at the end of a line.
+ Read/write  LineArrowheadStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setEndArrowheadStyle(Hashtable value)  method
+
+ Returns or sets the arrowhead style at the end of a line.
+ Read/write  LineArrowheadStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setEndArrowheadStyle(LinkedList value)  method
 
  Returns or sets the arrowhead style at the end of a line.
  Read/write  LineArrowheadStyle.
