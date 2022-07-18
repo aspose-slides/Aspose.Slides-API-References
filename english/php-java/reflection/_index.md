@@ -20,7 +20,6 @@ url: /php-java/reflection/
 | [getBlurRadius](getblurradius)() | Blur radius. Read/write double. |
 | [getDirection](getdirection)() | Direction of reflection. Read/write float. |
 | [getDistance](getdistance)() | Distance of reflection. Read/write double. |
-| [getEffective](geteffective)() | Gets effective Reflection effect data with the inheritance applied. |
 | [getEndPosAlpha](getendposalpha)() | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write float. |
 | [getEndReflectionOpacity](getendreflectionopacity)() | End reflection opacity. (percents). Read/write float. |
 | [getFadeDirection](getfadedirection)() | Specifies the direction to offset the reflection. (angle). Read/write float. |
@@ -41,7 +40,9 @@ url: /php-java/reflection/
 | [setEndPosAlpha](setendposalpha)(float) | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write float. |
 | [setEndReflectionOpacity](setendreflectionopacity)(float) | End reflection opacity. (percents). Read/write float. |
 | [setFadeDirection](setfadedirection)(float) | Specifies the direction to offset the reflection. (angle). Read/write float. |
-| [setRectangleAlign](setrectanglealign)(byte) | Rectangle alignment. Read/write RectangleAlignment. |
+| [setRectangleAlign](setrectanglealign)(OrderedDictionary) | Rectangle alignment. Read/write RectangleAlignment. |
+| [setRectangleAlign](setrectanglealign)(Hashtable) | Rectangle alignment. Read/write RectangleAlignment. |
+| [setRectangleAlign](setrectanglealign)(LinkedList) | Rectangle alignment. Read/write RectangleAlignment. |
 | [setRotateShadowWithShape](setrotateshadowwithshape)(boolean) | Specifies whether the reflection should rotate with the shape if the shape is rotated. Read/write boolean. |
 | [setScaleHorizontal](setscalehorizontal)(double) | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Read/write double. |
 | [setScaleVertical](setscalevertical)(double) | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Read/write double. |

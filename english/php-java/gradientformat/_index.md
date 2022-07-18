@@ -23,7 +23,11 @@ url: /php-java/gradientformat/
 | [getLinearGradientScaled](getlineargradientscaled)() | Determines whether a gradient is scaled. Read/write NullableBool. |
 | [getTileFlip](gettileflip)() | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
 | [setGradientDirection](setgradientdirection)(int) | Returns or sets the style of a gradient. Read/write GradientDirection. |
-| [setGradientShape](setgradientshape)(byte) | Returns or sets the shape of a gradient. Read/write GradientShape. |
+| [setGradientShape](setgradientshape)(OrderedDictionary) | Returns or sets the shape of a gradient. Read/write GradientShape. |
+| [setGradientShape](setgradientshape)(Hashtable) | Returns or sets the shape of a gradient. Read/write GradientShape. |
+| [setGradientShape](setgradientshape)(LinkedList) | Returns or sets the shape of a gradient. Read/write GradientShape. |
 | [setLinearGradientAngle](setlineargradientangle)(float) | Returns or sets the angle of a gradient. Read/write float. |
-| [setLinearGradientScaled](setlineargradientscaled)(byte) | Determines whether a gradient is scaled. Read/write NullableBool. |
+| [setLinearGradientScaled](setlineargradientscaled)(OrderedDictionary) | Determines whether a gradient is scaled. Read/write NullableBool. |
+| [setLinearGradientScaled](setlineargradientscaled)(Hashtable) | Determines whether a gradient is scaled. Read/write NullableBool. |
+| [setLinearGradientScaled](setlineargradientscaled)(LinkedList) | Determines whether a gradient is scaled. Read/write NullableBool. |
 | [setTileFlip](settileflip)(int) | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |

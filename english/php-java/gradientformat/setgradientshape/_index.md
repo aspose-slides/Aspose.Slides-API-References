@@ -7,7 +7,33 @@ weight: 80
 url: /php-java/gradientformat/setgradientshape/
 ---
 
-## setGradientShape(byte value)  method
+## setGradientShape(OrderedDictionary value)  method
+
+ Returns or sets the shape of a gradient.
+ Read/write  GradientShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setGradientShape(Hashtable value)  method
+
+ Returns or sets the shape of a gradient.
+ Read/write  GradientShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setGradientShape(LinkedList value)  method
 
  Returns or sets the shape of a gradient.
  Read/write  GradientShape.

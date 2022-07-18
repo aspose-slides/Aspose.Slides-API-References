@@ -7,3 +7,16 @@ weight: 110
 url: /php-java/webdocumentoptions/settemplateengine/
 ---
 
+## setTemplateEngine([ITemplateEngine](../../itemplateengine) value)  method
+
+ Returns or sets templates engine.
+ Read/write  ITemplateEngine.
+ 
+
+### Returns
+void
+
+
+---
+
+

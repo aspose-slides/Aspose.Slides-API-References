@@ -7,7 +7,33 @@ weight: 20
 url: /php-java/orientationtransition/setdirection/
 ---
 
-## setDirection(byte value)  method
+## setDirection(OrderedDictionary value)  method
+
+ Direction of transition.
+ Read/write  Orientation.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setDirection(Hashtable value)  method
+
+ Direction of transition.
+ Read/write  Orientation.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setDirection(LinkedList value)  method
 
  Direction of transition.
  Read/write  Orientation.

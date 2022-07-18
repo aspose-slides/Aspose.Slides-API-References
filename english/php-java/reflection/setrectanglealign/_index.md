@@ -7,7 +7,33 @@ weight: 270
 url: /php-java/reflection/setrectanglealign/
 ---
 
-## setRectangleAlign(byte value)  method
+## setRectangleAlign(OrderedDictionary value)  method
+
+ Rectangle alignment.
+ Read/write  RectangleAlignment.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setRectangleAlign(Hashtable value)  method
+
+ Rectangle alignment.
+ Read/write  RectangleAlignment.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setRectangleAlign(LinkedList value)  method
 
  Rectangle alignment.
  Read/write  RectangleAlignment.

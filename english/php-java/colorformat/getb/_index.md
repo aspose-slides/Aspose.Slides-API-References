@@ -14,7 +14,7 @@ url: /php-java/colorformat/getb/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

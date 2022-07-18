@@ -14,7 +14,7 @@ url: /php-java/shapeframe/getfliph/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

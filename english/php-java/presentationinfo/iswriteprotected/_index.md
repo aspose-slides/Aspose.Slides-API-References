@@ -23,7 +23,7 @@ url: /php-java/presentationinfo/iswriteprotected/
 ```
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

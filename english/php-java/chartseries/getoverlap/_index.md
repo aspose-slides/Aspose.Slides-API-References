@@ -21,7 +21,7 @@ url: /php-java/chartseries/getoverlap/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

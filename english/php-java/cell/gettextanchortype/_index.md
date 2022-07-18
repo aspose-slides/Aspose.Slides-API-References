@@ -14,7 +14,7 @@ url: /php-java/cell/gettextanchortype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

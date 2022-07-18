@@ -14,7 +14,7 @@ url: /php-java/slideshowtransition/getvalue/
  
 
 ### Returns
-[CornerDirectionTransition](../../cornerdirectiontransition), [EightDirectionTransition](../../eightdirectiontransition), [EmptyTransition](../../emptytransition), [FlyThroughTransition](../../flythroughtransition), [GlitterTransition](../../glittertransition), [InOutTransition](../../inouttransition), [LeftRightDirectionTransition](../../leftrightdirectiontransition), [MorphTransition](../../morphtransition), [OptionalBlackTransition](../../optionalblacktransition), [OrientationTransition](../../orientationtransition), [RevealTransition](../../revealtransition), [RippleTransition](../../rippletransition), [ShredTransition](../../shredtransition), [SideDirectionTransition](../../sidedirectiontransition), [SplitTransition](../../splittransition), [TransitionValueBase](../../transitionvaluebase), [WheelTransition](../../wheeltransition)
+[OrientationTransition](../../orientationtransition), [OptionalBlackTransition](../../optionalblacktransition), [FlyThroughTransition](../../flythroughtransition), [LeftRightDirectionTransition](../../leftrightdirectiontransition), [EightDirectionTransition](../../eightdirectiontransition), [TransitionValueBase](../../transitionvaluebase), [EmptyTransition](../../emptytransition), [RippleTransition](../../rippletransition), [WheelTransition](../../wheeltransition), [RevealTransition](../../revealtransition), [MorphTransition](../../morphtransition), [SplitTransition](../../splittransition), [InOutTransition](../../inouttransition), [GlitterTransition](../../glittertransition), [SideDirectionTransition](../../sidedirectiontransition), [ShredTransition](../../shredtransition), [CornerDirectionTransition](../../cornerdirectiontransition)
 
 
 ---

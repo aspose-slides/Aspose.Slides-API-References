@@ -14,7 +14,7 @@ url: /php-java/reflection/getrectanglealign/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

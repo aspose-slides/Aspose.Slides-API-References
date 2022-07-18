@@ -7,6 +7,24 @@ weight: 90
 url: /php-java/slideutil/getalltextboxes/
 ---
 
+## getAllTextBoxes([MasterHandoutSlide](../../masterhandoutslide) slide)  method
+
+ Returns all text frames on a slide in a PPTX presentation.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [MasterHandoutSlide](../../masterhandoutslide) | Scanned slide. |
+
+### Returns
+[TextFrame](../../textframe)
+
+
+---
+
+
 ## getAllTextBoxes([BaseSlide](../../baseslide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
@@ -43,7 +61,7 @@ url: /php-java/slideutil/getalltextboxes/
 ---
 
 
-## getAllTextBoxes([MasterHandoutSlide](../../masterhandoutslide) slide)  method
+## getAllTextBoxes([Slide](../../slide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -52,25 +70,7 @@ url: /php-java/slideutil/getalltextboxes/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [MasterHandoutSlide](../../masterhandoutslide) | Scanned slide. |
-
-### Returns
-[TextFrame](../../textframe)
-
-
----
-
-
-## getAllTextBoxes([MasterNotesSlide](../../masternotesslide) slide)  method
-
- Returns all text frames on a slide in a PPTX presentation.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [MasterNotesSlide](../../masternotesslide) | Scanned slide. |
+| slide | [Slide](../../slide) | Scanned slide. |
 
 ### Returns
 [TextFrame](../../textframe)
@@ -115,7 +115,7 @@ url: /php-java/slideutil/getalltextboxes/
 ---
 
 
-## getAllTextBoxes([Slide](../../slide) slide)  method
+## getAllTextBoxes([MasterNotesSlide](../../masternotesslide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -124,7 +124,7 @@ url: /php-java/slideutil/getalltextboxes/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [Slide](../../slide) | Scanned slide. |
+| slide | [MasterNotesSlide](../../masternotesslide) | Scanned slide. |
 
 ### Returns
 [TextFrame](../../textframe)

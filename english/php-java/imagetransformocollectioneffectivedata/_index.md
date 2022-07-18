@@ -26,7 +26,6 @@ url: /php-java/imagetransformocollectioneffectivedata/
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified object is equal to the current object. |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns element by index. |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |

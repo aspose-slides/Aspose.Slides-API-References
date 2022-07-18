@@ -14,7 +14,7 @@ url: /php-java/digitalsignature/getcertificate/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

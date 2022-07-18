@@ -14,7 +14,7 @@ url: /php-java/svgimage/getexternalresourceresolver/
  
 
 ### Returns
-[ExternalResourceResolver](../../externalresourceresolver), [HtmlExternalResolver](../../htmlexternalresolver)
+[HtmlExternalResolver](../../htmlexternalresolver), [ExternalResourceResolver](../../externalresourceresolver)
 
 
 ---

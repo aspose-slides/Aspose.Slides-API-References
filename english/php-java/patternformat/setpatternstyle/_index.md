@@ -7,7 +7,33 @@ weight: 60
 url: /php-java/patternformat/setpatternstyle/
 ---
 
-## setPatternStyle(byte value)  method
+## setPatternStyle(OrderedDictionary value)  method
+
+ Returns or sets the pattern style.
+ Read/write  PatternStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setPatternStyle(Hashtable value)  method
+
+ Returns or sets the pattern style.
+ Read/write  PatternStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setPatternStyle(LinkedList value)  method
 
  Returns or sets the pattern style.
  Read/write  PatternStyle.

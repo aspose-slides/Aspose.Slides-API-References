@@ -45,8 +45,12 @@ url: /php-java/cell/
 | [setMarginLeft](setmarginleft)(double) | Returns or sets the left margin in a TextFrame. Read/write double. |
 | [setMarginRight](setmarginright)(double) | Returns or sets the right margin in a TextFrame. Read/write double. |
 | [setMarginTop](setmargintop)(double) | Returns or sets the top margin in a TextFrame. Read/write double. |
-| [setTextAnchorType](settextanchortype)(byte) | Returns or sets the text anchor type. Read/write TextAnchorType. |
-| [setTextVerticalType](settextverticaltype)(byte) | Returns or sets the type of vertical text. Read/write TextVerticalType. |
+| [setTextAnchorType](settextanchortype)(OrderedDictionary) | Returns or sets the text anchor type. Read/write TextAnchorType. |
+| [setTextAnchorType](settextanchortype)(Hashtable) | Returns or sets the text anchor type. Read/write TextAnchorType. |
+| [setTextAnchorType](settextanchortype)(LinkedList) | Returns or sets the text anchor type. Read/write TextAnchorType. |
+| [setTextVerticalType](settextverticaltype)(OrderedDictionary) | Returns or sets the type of vertical text. Read/write TextVerticalType. |
+| [setTextVerticalType](settextverticaltype)(Hashtable) | Returns or sets the type of vertical text. Read/write TextVerticalType. |
+| [setTextVerticalType](settextverticaltype)(LinkedList) | Returns or sets the type of vertical text. Read/write TextVerticalType. |
 | [splitByColSpan](splitbycolspan)(int) | Splits the cell to two cells by index of column. |
 | [splitByHeight](splitbyheight)(double) | Splits the cell by height. |
 | [splitByRowSpan](splitbyrowspan)(int) | Splits the cell to two cells by index of row. |

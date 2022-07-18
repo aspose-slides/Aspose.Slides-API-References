@@ -14,7 +14,7 @@ url: /php-java/bulletformat/gettype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

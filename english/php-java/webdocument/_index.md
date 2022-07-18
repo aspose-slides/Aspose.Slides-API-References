@@ -22,7 +22,4 @@ url: /php-java/webdocument/
 
 | Name | Description |
 | --- | --- |
-| [getGlobal](getglobal)() | Returns global storage of the document. Read-only Storage. |
-| [getInput](getinput)() | Returns collection of input elements (templates) of the document. Read-only Input( #getInput). |
-| [getOutput](getoutput)() | Returns collection of output elements of the document. Read-only Output( #getOutput). |
 | [save](save)() | Saves the document output. |

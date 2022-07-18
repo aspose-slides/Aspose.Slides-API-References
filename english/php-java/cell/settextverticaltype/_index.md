@@ -7,7 +7,33 @@ weight: 320
 url: /php-java/cell/settextverticaltype/
 ---
 
-## setTextVerticalType(byte value)  method
+## setTextVerticalType(OrderedDictionary value)  method
+
+ Returns or sets the type of vertical text.
+ Read/write  TextVerticalType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setTextVerticalType(Hashtable value)  method
+
+ Returns or sets the type of vertical text.
+ Read/write  TextVerticalType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setTextVerticalType(LinkedList value)  method
 
  Returns or sets the type of vertical text.
  Read/write  TextVerticalType.

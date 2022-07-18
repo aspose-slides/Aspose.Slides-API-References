@@ -13,7 +13,7 @@ url: /php-java/geometrypath/getfillmode/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

@@ -19,4 +19,6 @@ url: /php-java/splittransition/
 | [getDirection](getdirection)() | Direction of transition split. Read/write TransitionInOutDirectionType. |
 | [getOrientation](getorientation)() | Orientation of transition split. Read/write Orientation. |
 | [setDirection](setdirection)(int) | Direction of transition split. Read/write TransitionInOutDirectionType. |
-| [setOrientation](setorientation)(byte) | Orientation of transition split. Read/write Orientation. |
+| [setOrientation](setorientation)(OrderedDictionary) | Orientation of transition split. Read/write Orientation. |
+| [setOrientation](setorientation)(Hashtable) | Orientation of transition split. Read/write Orientation. |
+| [setOrientation](setorientation)(LinkedList) | Orientation of transition split. Read/write Orientation. |

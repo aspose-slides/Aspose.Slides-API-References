@@ -14,7 +14,7 @@ url: /php-java/patternformat/getpatternstyle/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

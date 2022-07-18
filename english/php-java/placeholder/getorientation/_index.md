@@ -14,7 +14,7 @@ url: /php-java/placeholder/getorientation/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

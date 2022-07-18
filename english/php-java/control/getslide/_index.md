@@ -11,7 +11,7 @@ url: /php-java/control/getslide/
 
 
 ### Returns
-[BaseSlide](../../baseslide), [LayoutSlide](../../layoutslide), [MasterHandoutSlide](../../masterhandoutslide), [MasterNotesSlide](../../masternotesslide), [MasterSlide](../../masterslide), [NotesSlide](../../notesslide), [Slide](../../slide)
+[MasterHandoutSlide](../../masterhandoutslide), [BaseSlide](../../baseslide), [LayoutSlide](../../layoutslide), [Slide](../../slide), [MasterSlide](../../masterslide), [NotesSlide](../../notesslide), [MasterNotesSlide](../../masternotesslide)
 
 
 ---

@@ -19,6 +19,5 @@ url: /php-java/alphamodulatefixed/
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified AlphaModulateFixed is equal to the current AlphaModulateFixed. |
 | [getAmount](getamount)() | Returns an amount of effect in percents. Read/write float. |
-| [getEffective](geteffective)() | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type. |
 | [setAmount](setamount)(float) | Returns an amount of effect in percents. Read/write float. |

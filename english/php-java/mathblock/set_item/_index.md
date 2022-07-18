@@ -7,331 +7,6 @@ weight: 250
 url: /php-java/mathblock/set_item/
 ---
 
-## set_Item(int index, [BaseScript](../../basescript) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [BaseScript](../../basescript) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathAccent](../../mathaccent) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathAccent](../../mathaccent) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathArray](../../matharray) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathArray](../../matharray) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathBar](../../mathbar) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathBar](../../mathbar) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathBlock](../../mathblock) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathBlock](../../mathblock) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathBorderBox](../../mathborderbox) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathBorderBox](../../mathborderbox) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathBox](../../mathbox) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathBox](../../mathbox) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathDelimiter](../../mathdelimiter) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathDelimiter](../../mathdelimiter) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathElementBase](../../mathelementbase) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathElementBase](../../mathelementbase) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathematicalText](../../mathematicaltext) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathematicalText](../../mathematicaltext) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathFraction](../../mathfraction) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathFraction](../../mathfraction) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathFunction](../../mathfunction) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathFunction](../../mathfunction) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathGroupingCharacter](../../mathgroupingcharacter) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathGroupingCharacter](../../mathgroupingcharacter) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
 ## set_Item(int index, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) value)  method
 
  Gets or sets IMathElement at the specified index.
@@ -407,7 +82,7 @@ void
 ---
 
 
-## set_Item(int index, [MathNaryOperator](../../mathnaryoperator) value)  method
+## set_Item(int index, [MathBlock](../../mathblock) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -423,7 +98,7 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | [MathNaryOperator](../../mathnaryoperator) | The zero-based index of the item |
+| index | [MathBlock](../../mathblock) | The zero-based index of the item |
 
 ### Returns
 void
@@ -457,7 +132,7 @@ void
 ---
 
 
-## set_Item(int index, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) value)  method
+## set_Item(int index, [MathArray](../../matharray) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -473,7 +148,207 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The zero-based index of the item |
+| index | [MathArray](../../matharray) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathDelimiter](../../mathdelimiter) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathDelimiter](../../mathdelimiter) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathAccent](../../mathaccent) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathAccent](../../mathaccent) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathNaryOperator](../../mathnaryoperator) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathNaryOperator](../../mathnaryoperator) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathBorderBox](../../mathborderbox) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathBorderBox](../../mathborderbox) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathGroupingCharacter](../../mathgroupingcharacter) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathGroupingCharacter](../../mathgroupingcharacter) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathBar](../../mathbar) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathBar](../../mathbar) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathFunction](../../mathfunction) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathFunction](../../mathfunction) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathSuperscriptElement](../../mathsuperscriptelement) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathSuperscriptElement](../../mathsuperscriptelement) | The zero-based index of the item |
 
 ### Returns
 void
@@ -507,7 +382,7 @@ void
 ---
 
 
-## set_Item(int index, [MathSuperscriptElement](../../mathsuperscriptelement) value)  method
+## set_Item(int index, [MathFraction](../../mathfraction) value)  method
 
  Gets or sets IMathElement at the specified index.
  
@@ -523,7 +398,132 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The mathematical element. |
-| index | [MathSuperscriptElement](../../mathsuperscriptelement) | The zero-based index of the item |
+| index | [MathFraction](../../mathfraction) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathematicalText](../../mathematicaltext) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathematicalText](../../mathematicaltext) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [BaseScript](../../basescript) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [BaseScript](../../basescript) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathBox](../../mathbox) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathBox](../../mathbox) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathElementBase](../../mathelementbase) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathElementBase](../../mathelementbase) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $firstElem = $mathBlock->get_Item(0);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The zero-based index of the item |
 
 ### Returns
 void

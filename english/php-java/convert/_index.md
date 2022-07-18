@@ -33,4 +33,7 @@ url: /php-java/convert/
 | [toPdf](topdf)([Presentation](../presentation), String) | Converts Presentation to PDF. |
 | [toPdf](topdf)([Presentation](../presentation), String, [PdfOptions](../pdfoptions)) | Converts Presentation to PDF. |
 | [toSvg](tosvg)(String) | Converts Presentation to SVG. |
+| [toSvg](tosvg)(String, [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
+| [toSvg](tosvg)([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
 | [toSvg](tosvg)([Presentation](../presentation), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |
+| [toSvg](tosvg)([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |

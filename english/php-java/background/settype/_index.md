@@ -7,7 +7,33 @@ weight: 110
 url: /php-java/background/settype/
 ---
 
-## setType(byte value)  method
+## setType(OrderedDictionary value)  method
+
+ Returns a type of background fill.
+ Read/write  BackgroundType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setType(Hashtable value)  method
+
+ Returns a type of background fill.
+ Read/write  BackgroundType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setType(LinkedList value)  method
 
  Returns a type of background fill.
  Read/write  BackgroundType.

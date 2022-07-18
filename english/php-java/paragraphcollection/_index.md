@@ -19,8 +19,8 @@ url: /php-java/paragraphcollection/
 | [add](add)([Paragraph](../paragraph)) | Adds a Paragraph to the end of collection. |
 | [add](add)([ParagraphCollection](../paragraphcollection)) | Adds a content of ParagraphCollection to the end of collection. |
 | [addFromHtml](addfromhtml)(String) | Adds text from specified html string to the collection. |
-| [addFromHtml](addfromhtml)(String, [ExternalResourceResolver](../externalresourceresolver), String) | Adds text from specified html string to the collection. |
 | [addFromHtml](addfromhtml)(String, [HtmlExternalResolver](../htmlexternalresolver), String) | Adds text from specified html string to the collection. |
+| [addFromHtml](addfromhtml)(String, [ExternalResourceResolver](../externalresourceresolver), String) | Adds text from specified html string to the collection. |
 | [clear](clear)() | Removes all elements from the collection. |
 | [contains](contains)([Paragraph](../paragraph)) | Determines whether the IGenericCollection contains a specific value. |
 | [copyTo](copyto)(com.aspose.slides.IParagraph[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |

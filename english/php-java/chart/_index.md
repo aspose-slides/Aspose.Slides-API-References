@@ -16,7 +16,6 @@ url: /php-java/chart/
 
 | Name | Description |
 | --- | --- |
-| [createThemeEffective](createthemeeffective)() | Returns an effective theme for this chart. |
 | [getAxes](getaxes)() | Provide access to chart axes. Read-only IAxesManager. |
 | [getBackWall](getbackwall)() | Returns an object which allows to change format of the back wall of a 3D chart. Read-only IChartWall. |
 | [getChart](getchart)() |  |

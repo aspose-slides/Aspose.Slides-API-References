@@ -14,7 +14,7 @@ url: /php-java/textframeformat/getautofittype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

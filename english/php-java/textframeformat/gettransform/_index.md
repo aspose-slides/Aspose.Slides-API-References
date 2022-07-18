@@ -14,7 +14,7 @@ url: /php-java/textframeformat/gettransform/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

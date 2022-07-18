@@ -26,7 +26,6 @@ url: /php-java/portionformat/
 | Name | Description |
 | --- | --- |
 | [getBookmarkId](getbookmarkid)() | Returns or sets bookmark identifier. Read/write String. |
-| [getEffective](geteffective)() | Gets effective portion formatting data with the inheritance applied. |
 | [getHyperlinkClick](gethyperlinkclick)() | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 | [getHyperlinkManager](gethyperlinkmanager)() | Hyperlinks manager. Read-only IHyperlinkManager. |
 | [getHyperlinkMouseOver](gethyperlinkmouseover)() | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |

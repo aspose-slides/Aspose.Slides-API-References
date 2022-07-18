@@ -14,7 +14,7 @@ url: /php-java/shapeframe/getflipv/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

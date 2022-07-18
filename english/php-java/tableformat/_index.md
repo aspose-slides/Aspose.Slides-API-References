@@ -16,7 +16,6 @@ url: /php-java/tableformat/
 
 | Name | Description |
 | --- | --- |
-| [getEffective](geteffective)() | Gets effective table formatting properties with inheritance and table styles applied. |
 | [getFillFormat](getfillformat)() | Returns a table fill properties object. Read-only IFillFormat. |
 | [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
 | [getVersion](getversion)() |  |

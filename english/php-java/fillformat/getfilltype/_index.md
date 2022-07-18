@@ -14,7 +14,7 @@ url: /php-java/fillformat/getfilltype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

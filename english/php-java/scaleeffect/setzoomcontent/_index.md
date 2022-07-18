@@ -7,7 +7,33 @@ weight: 90
 url: /php-java/scaleeffect/setzoomcontent/
 ---
 
-## setZoomContent(byte value)  method
+## setZoomContent(OrderedDictionary value)  method
+
+ Determines whether a content should be zoomed.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setZoomContent(Hashtable value)  method
+
+ Determines whether a content should be zoomed.
+ Read/write  NullableBool.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setZoomContent(LinkedList value)  method
 
  Determines whether a content should be zoomed.
  Read/write  NullableBool.

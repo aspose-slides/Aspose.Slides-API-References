@@ -13,7 +13,7 @@ url: /php-java/pathsegment/getpathcommand/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

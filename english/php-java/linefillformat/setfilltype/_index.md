@@ -7,7 +7,33 @@ weight: 60
 url: /php-java/linefillformat/setfilltype/
 ---
 
-## setFillType(byte value)  method
+## setFillType(OrderedDictionary value)  method
+
+ Returns or sets the fill type.
+ Read/write  FillType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setFillType(Hashtable value)  method
+
+ Returns or sets the fill type.
+ Read/write  FillType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setFillType(LinkedList value)  method
 
  Returns or sets the fill type.
  Read/write  FillType.

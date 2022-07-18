@@ -18,7 +18,6 @@ url: /php-java/colorchange/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified ColorChange is equal to the current ColorChange. |
-| [getEffective](geteffective)() | Gets effective Color Change effect data with the inheritance applied. |
 | [getFromColor](getfromcolor)() | Color which will be replaced. Read-only IColorFormat. |
 | [getToColor](gettocolor)() | Color which will replace. Read-only IColorFormat. |
 | [getVersion](getversion)() |  |

@@ -7,7 +7,7 @@ weight: 20
 url: /php-java/layoutslidecollection/getbytype/
 ---
 
-## getByType(byte type)  method
+## getByType(OrderedDictionary type)  method
 
  Returns the first layout slide of specified type.
  
@@ -16,7 +16,43 @@ url: /php-java/layoutslidecollection/getbytype/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| type | byte | A type of layout slide to find. |
+| type | OrderedDictionary | A type of layout slide to find. |
+
+### Returns
+[LayoutSlide](../../layoutslide)
+
+
+---
+
+
+## getByType(Hashtable type)  method
+
+ Returns the first layout slide of specified type.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | Hashtable | A type of layout slide to find. |
+
+### Returns
+[LayoutSlide](../../layoutslide)
+
+
+---
+
+
+## getByType(LinkedList type)  method
+
+ Returns the first layout slide of specified type.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| type | LinkedList | A type of layout slide to find. |
 
 ### Returns
 [LayoutSlide](../../layoutslide)

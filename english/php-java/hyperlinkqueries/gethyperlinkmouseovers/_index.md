@@ -14,7 +14,7 @@ url: /php-java/hyperlinkqueries/gethyperlinkmouseovers/
  
 
 ### Returns
-IGenericList
+[BehaviorPropertyCollection](../../behaviorpropertycollection), KeyedCollection, ReadOnlyCollection, Collection, List
 
 
 ---

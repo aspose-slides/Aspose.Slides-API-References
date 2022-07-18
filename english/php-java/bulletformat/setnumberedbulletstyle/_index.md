@@ -7,7 +7,33 @@ weight: 200
 url: /php-java/bulletformat/setnumberedbulletstyle/
 ---
 
-## setNumberedBulletStyle(byte value)  method
+## setNumberedBulletStyle(OrderedDictionary value)  method
+
+ Returns or sets the style of a numbered bullet with no inheritance.
+ Read/write  NumberedBulletStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setNumberedBulletStyle(Hashtable value)  method
+
+ Returns or sets the style of a numbered bullet with no inheritance.
+ Read/write  NumberedBulletStyle.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setNumberedBulletStyle(LinkedList value)  method
 
  Returns or sets the style of a numbered bullet with no inheritance.
  Read/write  NumberedBulletStyle.

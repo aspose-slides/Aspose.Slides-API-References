@@ -16,7 +16,7 @@ url: /php-java/textframeformat/gettextverticaltype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

@@ -20,7 +20,6 @@ url: /php-java/outershadow/
 | [getBlurRadius](getblurradius)() | Blur radius. Read/write double. |
 | [getDirection](getdirection)() | Direction of shadow. Read/write float. |
 | [getDistance](getdistance)() | Distance of shadow. Read/write double. |
-| [getEffective](geteffective)() | Gets effective Outer Shadow effect data with the inheritance applied. |
 | [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
 | [getRectangleAlign](getrectanglealign)() | Rectangle alignment. Read/write RectangleAlignment. |
 | [getRotateShadowWithShape](getrotateshadowwithshape)() | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |
@@ -34,7 +33,9 @@ url: /php-java/outershadow/
 | [setBlurRadius](setblurradius)(double) | Blur radius. Read/write double. |
 | [setDirection](setdirection)(float) | Direction of shadow. Read/write float. |
 | [setDistance](setdistance)(double) | Distance of shadow. Read/write double. |
-| [setRectangleAlign](setrectanglealign)(byte) | Rectangle alignment. Read/write RectangleAlignment. |
+| [setRectangleAlign](setrectanglealign)(OrderedDictionary) | Rectangle alignment. Read/write RectangleAlignment. |
+| [setRectangleAlign](setrectanglealign)(Hashtable) | Rectangle alignment. Read/write RectangleAlignment. |
+| [setRectangleAlign](setrectanglealign)(LinkedList) | Rectangle alignment. Read/write RectangleAlignment. |
 | [setRotateShadowWithShape](setrotateshadowwithshape)(boolean) | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |
 | [setScaleHorizontal](setscalehorizontal)(double) | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write double. |
 | [setScaleVertical](setscalevertical)(double) | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write double. |

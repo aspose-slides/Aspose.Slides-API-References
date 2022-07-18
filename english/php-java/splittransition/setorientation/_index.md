@@ -7,7 +7,33 @@ weight: 40
 url: /php-java/splittransition/setorientation/
 ---
 
-## setOrientation(byte value)  method
+## setOrientation(OrderedDictionary value)  method
+
+ Orientation of transition split.
+ Read/write  Orientation.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setOrientation(Hashtable value)  method
+
+ Orientation of transition split.
+ Read/write  Orientation.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setOrientation(LinkedList value)  method
 
  Orientation of transition split.
  Read/write  Orientation.

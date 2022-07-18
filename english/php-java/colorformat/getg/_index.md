@@ -13,7 +13,7 @@ url: /php-java/colorformat/getg/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

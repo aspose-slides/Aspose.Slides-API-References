@@ -36,17 +36,23 @@ url: /php-java/colorformat/
 | [getSchemeColor](getschemecolor)() | Returns or sets the color identified by a color scheme. Read/write SchemeColor. |
 | [getSystemColor](getsystemcolor)() | Returns or sets the color identified by the system color table. Read/write SystemColor. |
 | [hashCode](hashcode)() | Returns hash code. |
-| [setB](setb)(byte) | Returns or sets the blue component of a color. All color transformations are ignored. Read/write byte. |
+| [setB](setb)(OrderedDictionary) | Returns or sets the blue component of a color. All color transformations are ignored. Read/write byte. |
+| [setB](setb)(Hashtable) | Returns or sets the blue component of a color. All color transformations are ignored. Read/write byte. |
+| [setB](setb)(LinkedList) | Returns or sets the blue component of a color. All color transformations are ignored. Read/write byte. |
 | [setColor](setcolor)(Color) | Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write java.awt.Color. |
 | [setColorType](setcolortype)(int) | Returns or sets the color definition method. Read/write ColorType. |
 | [setFloatB](setfloatb)(float) | Returns or sets the blue component of a color. All color transformations are ignored. Read/write float. |
 | [setFloatG](setfloatg)(float) | Returns or sets the green component of a color. All color transformations are ignored. Read/write float. |
 | [setFloatR](setfloatr)(float) | Returns or sets the red component of a color. All color transformations are ignored. Read/write float. |
-| [setG](setg)(byte) | Returns or sets the green component of a color. All color transformations are ignored. |
+| [setG](setg)(OrderedDictionary) | Returns or sets the green component of a color. All color transformations are ignored. |
+| [setG](setg)(Hashtable) | Returns or sets the green component of a color. All color transformations are ignored. |
+| [setG](setg)(LinkedList) | Returns or sets the green component of a color. All color transformations are ignored. |
 | [setHue](sethue)(float) | Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 | [setLuminance](setluminance)(float) | Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 | [setPresetColor](setpresetcolor)(int) | Returns or sets the color preset. Read/write PresetColor. |
-| [setR](setr)(byte) | Returns or sets the red component of a color. All color transformations are ignored. Read/write byte. |
+| [setR](setr)(OrderedDictionary) | Returns or sets the red component of a color. All color transformations are ignored. Read/write byte. |
+| [setR](setr)(Hashtable) | Returns or sets the red component of a color. All color transformations are ignored. Read/write byte. |
+| [setR](setr)(LinkedList) | Returns or sets the red component of a color. All color transformations are ignored. Read/write byte. |
 | [setSaturation](setsaturation)(float) | Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 | [setSchemeColor](setschemecolor)(int) | Returns or sets the color identified by a color scheme. Read/write SchemeColor. |
 | [setSystemColor](setsystemcolor)(int) | Returns or sets the color identified by the system color table. Read/write SystemColor. |

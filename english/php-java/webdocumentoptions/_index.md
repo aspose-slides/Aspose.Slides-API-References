@@ -25,8 +25,8 @@ url: /php-java/webdocumentoptions/
 | [getAnimateShapes](getanimateshapes)() | Returns or sets shapes animation option. Read/write boolean. |
 | [getAnimateTransitions](getanimatetransitions)() | Returns or sets transitions animation option. Read/write boolean. |
 | [getEmbedImages](getembedimages)() | Returns or sets images embedding option. Read/write boolean. |
-| [getOutputSaver](getoutputsaver)() | Returns or sets output saver. Read/write IOutputSaver. |
-| [getTemplateEngine](gettemplateengine)() | Returns or sets templates engine. Read/write ITemplateEngine. |
 | [setAnimateShapes](setanimateshapes)(boolean) | Returns or sets shapes animation option. Read/write boolean. |
 | [setAnimateTransitions](setanimatetransitions)(boolean) | Returns or sets transitions animation option. Read/write boolean. |
 | [setEmbedImages](setembedimages)(boolean) | Returns or sets images embedding option. Read/write boolean. |
+| [setOutputSaver](setoutputsaver)([IOutputSaver](../ioutputsaver)) | Returns or sets output saver. Read/write IOutputSaver. |
+| [setTemplateEngine](settemplateengine)([ITemplateEngine](../itemplateengine)) | Returns or sets templates engine. Read/write ITemplateEngine. |

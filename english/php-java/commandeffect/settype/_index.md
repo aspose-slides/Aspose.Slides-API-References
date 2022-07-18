@@ -7,7 +7,33 @@ weight: 70
 url: /php-java/commandeffect/settype/
 ---
 
-## setType(byte value)  method
+## setType(OrderedDictionary value)  method
+
+ Defines command effect type of behavior.
+ Read/write  CommandEffectType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setType(Hashtable value)  method
+
+ Defines command effect type of behavior.
+ Read/write  CommandEffectType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setType(LinkedList value)  method
 
  Defines command effect type of behavior.
  Read/write  CommandEffectType.

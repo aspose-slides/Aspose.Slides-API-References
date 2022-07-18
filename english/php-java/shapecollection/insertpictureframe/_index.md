@@ -25,7 +25,7 @@ url: /php-java/shapecollection/insertpictureframe/
 | image | [PPImage](../../ppimage) | The image of picture frame. |
 
 ### Returns
-[AudioFrame](../../audioframe), [PictureFrame](../../pictureframe), [VideoFrame](../../videoframe)
+[VideoFrame](../../videoframe), [PictureFrame](../../pictureframe), [AudioFrame](../../audioframe)
 
 
 ---

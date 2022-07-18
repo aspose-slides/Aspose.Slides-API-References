@@ -14,7 +14,7 @@ url: /php-java/lineformat/getcapstyle/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

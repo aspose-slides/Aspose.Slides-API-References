@@ -14,7 +14,7 @@ url: /php-java/background/gettype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

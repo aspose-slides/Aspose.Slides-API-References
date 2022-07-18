@@ -14,7 +14,7 @@ url: /php-java/cell/gettextverticaltype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

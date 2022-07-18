@@ -14,7 +14,7 @@ url: /php-java/commandeffect/gettype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

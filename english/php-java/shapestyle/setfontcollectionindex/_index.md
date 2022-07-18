@@ -7,7 +7,33 @@ weight: 110
 url: /php-java/shapestyle/setfontcollectionindex/
 ---
 
-## setFontCollectionIndex(byte value)  method
+## setFontCollectionIndex(OrderedDictionary value)  method
+
+ Returns or sets shape's font index in a font collection.
+ Read/write  FontCollectionIndex.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setFontCollectionIndex(Hashtable value)  method
+
+ Returns or sets shape's font index in a font collection.
+ Read/write  FontCollectionIndex.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setFontCollectionIndex(LinkedList value)  method
 
  Returns or sets shape's font index in a font collection.
  Read/write  FontCollectionIndex.

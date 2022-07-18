@@ -39,7 +39,11 @@ url: /php-java/trendline/
 | [setFormat](setformat)([Format](../format)) | Represents the format of the trend line. Read/write IFormat. |
 | [setForward](setforward)(double) | Specifies the number of categories (or units on a scatter chart) that the trendline extends after the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any non-negative value. Read/write double. |
 | [setIntercept](setintercept)(double) | Specifies the value where the trendline shall cross the y axis. This property shall be supported only when the trendline type is exp, linear, or poly. Read/write double. |
-| [setOrder](setorder)(byte) | Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |
-| [setPeriod](setperiod)(byte) | Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write byte. |
+| [setOrder](setorder)(OrderedDictionary) | Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |
+| [setOrder](setorder)(Hashtable) | Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |
+| [setOrder](setorder)(LinkedList) | Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |
+| [setPeriod](setperiod)(OrderedDictionary) | Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write byte. |
+| [setPeriod](setperiod)(Hashtable) | Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write byte. |
+| [setPeriod](setperiod)(LinkedList) | Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write byte. |
 | [setTrendlineName](settrendlinename)(String) | Gets or sets name of the trendline. Read/write String. |
 | [setTrendlineType](settrendlinetype)(int) | Gets or sets type of trend line. Read/write TrendlineType. |

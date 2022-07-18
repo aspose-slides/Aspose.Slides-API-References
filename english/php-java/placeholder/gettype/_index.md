@@ -14,7 +14,7 @@ url: /php-java/placeholder/gettype/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

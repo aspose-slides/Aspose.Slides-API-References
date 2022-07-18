@@ -7,7 +7,33 @@ weight: 190
 url: /php-java/textframeformat/setanchoringtype/
 ---
 
-## setAnchoringType(byte value)  method
+## setAnchoringType(OrderedDictionary value)  method
+
+ Returns or sets vertical anchor text in a TextFrameEx.
+ Read/write  TextAnchorType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setAnchoringType(Hashtable value)  method
+
+ Returns or sets vertical anchor text in a TextFrameEx.
+ Read/write  TextAnchorType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setAnchoringType(LinkedList value)  method
 
  Returns or sets vertical anchor text in a TextFrameEx.
  Read/write  TextAnchorType.

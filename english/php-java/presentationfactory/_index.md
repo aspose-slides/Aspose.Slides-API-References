@@ -24,7 +24,6 @@ url: /php-java/presentationfactory/
 | --- | --- |
 | [createPresentation](createpresentation)() | Creates new presentation. |
 | [createPresentation](createpresentation)([LoadOptions](../loadoptions)) | Creates new presentation with additional load options |
-| [getInstance](getinstance)() | Presentation factory static instance. Read-only PresentationFactory. |
 | [getPresentationInfo](getpresentationinfo)(String) | Creates new PresentationInfo object from file and binds presentation to it. |
 | [getPresentationInfo](getpresentationinfo)(InputStream) | Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream. |
 | [getPresentationText](getpresentationtext)(String, int) | Retrieves the raw text from the slides |

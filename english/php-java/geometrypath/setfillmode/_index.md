@@ -7,7 +7,31 @@ weight: 220
 url: /php-java/geometrypath/setfillmode/
 ---
 
-## setFillMode(byte value)  method
+## setFillMode(OrderedDictionary value)  method
+
+ Sets fill mode
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setFillMode(Hashtable value)  method
+
+ Sets fill mode
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setFillMode(LinkedList value)  method
 
  Sets fill mode
  

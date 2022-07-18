@@ -7,33 +7,7 @@ weight: 10
 url: /php-java/sequencecollection/add/
 ---
 
-## add([AudioFrame](../../audioframe) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
-## add([AutoShape](../../autoshape) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
-## add([Chart](../../chart) shapeTrigger)  method
+## add([GraphicalObject](../../graphicalobject) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -59,98 +33,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([GeometryShape](../../geometryshape) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
-## add([GraphicalObject](../../graphicalobject) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
-## add([GroupShape](../../groupshape) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
-## add([Ink](../../ink) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
-## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
-## add([OleObjectFrame](../../oleobjectframe) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
-## add([PictureFrame](../../pictureframe) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
-## add([SectionZoomFrame](../../sectionzoomframe) shapeTrigger)  method
+## add([SmartArtShape](../../smartartshape) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -176,7 +59,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([SmartArt](../../smartart) shapeTrigger)  method
+## add([Table](../../table) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -189,7 +72,20 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([SmartArtShape](../../smartartshape) shapeTrigger)  method
+## add([Ink](../../ink) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([GeometryShape](../../geometryshape) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -228,7 +124,20 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([Table](../../table) shapeTrigger)  method
+## add([ZoomFrame](../../zoomframe) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([OleObjectFrame](../../oleobjectframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -254,7 +163,98 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([ZoomFrame](../../zoomframe) shapeTrigger)  method
+## add([SmartArt](../../smartart) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([GroupShape](../../groupshape) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([AutoShape](../../autoshape) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([PictureFrame](../../pictureframe) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([SectionZoomFrame](../../sectionzoomframe) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([Chart](../../chart) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([AudioFrame](../../audioframe) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.

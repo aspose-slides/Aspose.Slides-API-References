@@ -19,7 +19,6 @@ url: /php-java/presetshadow/
 | [equals](equals)(Object) | Determines whether the specified PresetShadow is equal to the current PresetShadow. |
 | [getDirection](getdirection)() | Direction of shadow. Read/write float. |
 | [getDistance](getdistance)() | Distance of shadow. Read/write double. |
-| [getEffective](geteffective)() | Gets effective Preset Shadow effect data with the inheritance applied. |
 | [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
 | [getPreset](getpreset)() | Preset. Read/write PresetShadowType. |
 | [getShadowColor](getshadowcolor)() | Color of shadow. Read-only IColorFormat. |

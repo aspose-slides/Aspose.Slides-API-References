@@ -14,7 +14,7 @@ url: /php-java/orientationtransition/getdirection/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

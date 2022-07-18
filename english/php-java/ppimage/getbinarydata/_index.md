@@ -14,7 +14,7 @@ url: /php-java/ppimage/getbinarydata/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/lineformat/getdashstyle/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

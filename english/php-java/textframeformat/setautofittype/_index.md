@@ -7,7 +7,33 @@ weight: 200
 url: /php-java/textframeformat/setautofittype/
 ---
 
-## setAutofitType(byte value)  method
+## setAutofitType(OrderedDictionary value)  method
+
+ Returns or sets text's autofit mode.
+ Read/write  TextAutofitType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setAutofitType(Hashtable value)  method
+
+ Returns or sets text's autofit mode.
+ Read/write  TextAutofitType.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setAutofitType(LinkedList value)  method
 
  Returns or sets text's autofit mode.
  Read/write  TextAutofitType.

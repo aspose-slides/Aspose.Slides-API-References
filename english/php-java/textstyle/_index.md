@@ -24,5 +24,4 @@ url: /php-java/textstyle/
 | Name | Description |
 | --- | --- |
 | [getDefaultParagraphFormat](getdefaultparagraphformat)() | Default paragraph propertiies. Read-only IParagraphFormat. |
-| [getEffective](geteffective)() | Gets effective text style formatting data with the inheritance applied. |
 | [getLevel](getlevel)(int) | If level of style exist returns it, otherwise returns null. |

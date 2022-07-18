@@ -14,7 +14,7 @@ url: /php-java/oleembeddeddatainfo/getembeddedfiledata/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

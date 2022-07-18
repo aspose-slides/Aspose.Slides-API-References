@@ -14,7 +14,7 @@ url: /php-java/trendline/getorder/
  
 
 ### Returns
-byte
+OrderedDictionary, Hashtable, LinkedList
 
 
 ---

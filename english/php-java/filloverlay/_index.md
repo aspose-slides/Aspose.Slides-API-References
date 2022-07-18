@@ -19,7 +19,6 @@ url: /php-java/filloverlay/
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
 | [getBlend](getblend)() | FillBlendMode. Read/write FillBlendMode. |
-| [getEffective](geteffective)() | Gets effective Fill Overlay effect data with the inheritance applied. |
 | [getFillFormat](getfillformat)() | Fill format. Read-only IFillFormat. |
 | [getVersion](getversion)() |  |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type. |
