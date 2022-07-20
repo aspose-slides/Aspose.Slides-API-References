@@ -49,6 +49,20 @@ These are links to useful resources:
 
 - [Aspose.Slides for C++ API Reference](/slides/cpp/)
 
+## Aspose.Slides for Python via .NET
+
+{{% alert color="primary" %}} 
+
+![Aspose.Slides for Python via .NET Product Logo](aspose_slides-for-python.png)
+
+Aspose.Slides for Python via .NET is a class library that enables your applications to read and write PowerPoint® documents without using Microsoft PowerPoint®. Aspose.Slides for Python via .NET is the first and only component that provides the functionality to manage PowerPoint® documents. Aspose.Slides for Python via .NET provides a lot of key features such as managing text, shapes, tables & animations, adding audio and video to slides, previewing slides, exporting slides to SVG, PDF, HTML format and more.
+
+{{% /alert %}} 
+
+These are links to useful resources:
+
+- [Aspose.Slides for Python via .NET API Reference](/slides/python-net/)
+
 ## Aspose.Slides for Android via Java
 
 {{% alert color="primary" %}} 
