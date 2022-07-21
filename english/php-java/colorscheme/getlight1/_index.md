@@ -3,7 +3,7 @@ title: getLight1
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 120
+weight: 150
 url: /php-java/colorscheme/getlight1/
 ---
 

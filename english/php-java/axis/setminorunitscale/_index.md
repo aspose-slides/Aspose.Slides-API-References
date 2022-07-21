@@ -3,7 +3,7 @@ title: setMinorUnitScale
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 860
+weight: 990
 url: /php-java/axis/setminorunitscale/
 ---
 

@@ -3,7 +3,7 @@ title: setSoundMode
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 180
+weight: 220
 url: /php-java/slideshowtransition/setsoundmode/
 ---
 

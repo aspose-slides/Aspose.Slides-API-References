@@ -3,7 +3,7 @@ title: setShowOutlierPoints
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 640
+weight: 860
 url: /php-java/chartseries/setshowoutlierpoints/
 ---
 

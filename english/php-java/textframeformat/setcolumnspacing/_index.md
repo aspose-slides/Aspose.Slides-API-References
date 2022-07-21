@@ -3,7 +3,7 @@ title: setColumnSpacing
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 230
+weight: 600
 url: /php-java/textframeformat/setcolumnspacing/
 ---
 

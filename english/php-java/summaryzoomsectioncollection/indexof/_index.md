@@ -3,7 +3,7 @@ title: indexOf
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /php-java/summaryzoomsectioncollection/indexof/
 ---
 

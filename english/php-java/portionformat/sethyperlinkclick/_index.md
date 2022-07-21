@@ -3,7 +3,7 @@ title: setHyperlinkClick
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 90
+weight: 240
 url: /php-java/portionformat/sethyperlinkclick/
 ---
 

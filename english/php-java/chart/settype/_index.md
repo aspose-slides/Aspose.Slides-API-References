@@ -3,7 +3,7 @@ title: setType
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 330
+weight: 480
 url: /php-java/chart/settype/
 ---
 

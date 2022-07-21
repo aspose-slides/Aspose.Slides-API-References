@@ -3,7 +3,7 @@ title: isPasswordProtected
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /php-java/presentationinfo/ispasswordprotected/
 ---
 

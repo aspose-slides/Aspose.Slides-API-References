@@ -3,7 +3,7 @@ title: getAnyHyperlinks
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /php-java/hyperlinkqueries/getanyhyperlinks/
 ---
 
@@ -14,7 +14,7 @@ url: /php-java/hyperlinkqueries/getanyhyperlinks/
  
 
 ### Returns
-[BehaviorPropertyCollection](../../behaviorpropertycollection), KeyedCollection, ReadOnlyCollection, Collection, List
+[BehaviorPropertyCollection](../../behaviorpropertycollection), KeyedCollection, Collection, ReadOnlyCollection, List
 
 
 ---

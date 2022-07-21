@@ -19,4 +19,5 @@ url: /php-java/alphafloor/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified AlphaFloor is equal to the current AlphaFloor. |
+| [getEffective](geteffective)() | Gets effective Alpha Floor effect data with the inheritance applied. |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type. |

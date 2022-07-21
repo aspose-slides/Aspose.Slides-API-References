@@ -3,7 +3,7 @@ title: addItem
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 160
+weight: 180
 url: /php-java/imagetransformoperationcollection/additem/
 ---
 
@@ -169,24 +169,6 @@ void
 ---
 
 
-## addItem([AlphaModulateFixed](../../alphamodulatefixed) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [AlphaModulateFixed](../../alphamodulatefixed) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([AlphaFloor](../../alphafloor) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -197,6 +179,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [AlphaFloor](../../alphafloor) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([AlphaModulateFixed](../../alphamodulatefixed) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [AlphaModulateFixed](../../alphamodulatefixed) | The image effect to add to the end of a collection. |
 
 ### Returns
 void

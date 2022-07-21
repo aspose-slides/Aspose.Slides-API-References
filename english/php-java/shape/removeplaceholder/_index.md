@@ -3,7 +3,7 @@ title: removePlaceholder
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 360
+weight: 830
 url: /php-java/shape/removeplaceholder/
 ---
 

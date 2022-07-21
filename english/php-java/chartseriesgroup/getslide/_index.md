@@ -3,7 +3,7 @@ title: getSlide
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 180
+weight: 230
 url: /php-java/chartseriesgroup/getslide/
 ---
 

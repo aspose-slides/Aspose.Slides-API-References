@@ -12,6 +12,13 @@ url: /php-java/lineformat/
  Represents format of a line.
  
 
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT_WIDTH_VALUE | NaN |  |
+
+
 ## Methods
 
 | Name | Description |
@@ -24,6 +31,7 @@ url: /php-java/lineformat/
 | [getCapStyle](getcapstyle)() | Returns or sets the line cap style. Read/write LineCapStyle. |
 | [getCustomDashPattern](getcustomdashpattern)() | Returns or sets the custom dash pattern. Read/write float[]. |
 | [getDashStyle](getdashstyle)() | Returns or sets the line dash style. Read/write LineDashStyle. |
+| [getEffective](geteffective)() | Gets effective line formatting data with the inheritance applied. |
 | [getEndArrowheadLength](getendarrowheadlength)() | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
 | [getEndArrowheadStyle](getendarrowheadstyle)() | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
 | [getEndArrowheadWidth](getendarrowheadwidth)() | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |

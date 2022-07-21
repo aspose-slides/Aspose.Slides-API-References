@@ -3,7 +3,7 @@ title: toArray
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 320
+weight: 440
 url: /php-java/slidecollection/toarray/
 ---
 

@@ -20,5 +20,6 @@ url: /php-java/colorreplace/
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified ColorReplace is equal to the current ColorReplace. |
 | [getColor](getcolor)() | Returns color format which will replace color of every pixel. Read-only IColorFormat. |
+| [getEffective](geteffective)() | Gets effective Color Replacement effect data with the inheritance applied. |
 | [getVersion](getversion)() |  |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type. |

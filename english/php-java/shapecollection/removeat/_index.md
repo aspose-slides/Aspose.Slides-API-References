@@ -3,7 +3,7 @@ title: removeAt
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 630
+weight: 1100
 url: /php-java/shapecollection/removeat/
 ---
 

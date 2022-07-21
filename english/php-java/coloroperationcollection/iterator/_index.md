@@ -3,7 +3,7 @@ title: iterator
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 120
+weight: 160
 url: /php-java/coloroperationcollection/iterator/
 ---
 
@@ -13,7 +13,7 @@ url: /php-java/coloroperationcollection/iterator/
  
 
 ### Returns
-IGenericEnumerator
+
 
 
 ---

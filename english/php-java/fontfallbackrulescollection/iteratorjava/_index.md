@@ -13,7 +13,7 @@ url: /php-java/fontfallbackrulescollection/iteratorjava/
  
 
 ### Returns
-IGenericEnumerator
+
 
 
 ---

@@ -3,7 +3,7 @@ title: remove
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 270
+weight: 380
 url: /php-java/slidecollection/remove/
 ---
 

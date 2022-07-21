@@ -3,7 +3,7 @@ title: removeItem
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 270
+weight: 380
 url: /php-java/imagetransformoperationcollection/removeitem/
 ---
 
@@ -223,7 +223,7 @@ boolean
 ---
 
 
-## removeItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
+## removeItem([AlphaFloor](../../alphafloor) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -232,7 +232,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to remove from the IGenericCollection. |
+| item | [AlphaFloor](../../alphafloor) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -247,7 +247,7 @@ boolean
 ---
 
 
-## removeItem([AlphaFloor](../../alphafloor) item)  method
+## removeItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -256,7 +256,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaFloor](../../alphafloor) | The object to remove from the IGenericCollection. |
+| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean

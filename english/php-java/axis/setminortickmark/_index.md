@@ -3,7 +3,7 @@ title: setMinorTickMark
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 840
+weight: 970
 url: /php-java/axis/setminortickmark/
 ---
 

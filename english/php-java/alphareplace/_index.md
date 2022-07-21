@@ -18,4 +18,5 @@ url: /php-java/alphareplace/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified AlphaReplace is equal to the current AlphaReplace. |
+| [getEffective](geteffective)() | Gets effective Alpha Replace effect data with the inheritance applied. |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type. |

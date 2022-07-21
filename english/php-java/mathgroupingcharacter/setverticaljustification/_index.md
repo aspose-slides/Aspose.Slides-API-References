@@ -3,7 +3,7 @@ title: setVerticalJustification
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 110
+weight: 120
 url: /php-java/mathgroupingcharacter/setverticaljustification/
 ---
 

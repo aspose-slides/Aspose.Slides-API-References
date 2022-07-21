@@ -3,7 +3,7 @@ title: setRotationLocked
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /php-java/pictureframelock/setrotationlocked/
 ---
 

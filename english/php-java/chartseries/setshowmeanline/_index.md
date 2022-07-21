@@ -3,7 +3,7 @@ title: setShowMeanLine
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 620
+weight: 840
 url: /php-java/chartseries/setshowmeanline/
 ---
 

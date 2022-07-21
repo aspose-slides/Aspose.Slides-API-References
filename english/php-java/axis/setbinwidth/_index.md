@@ -3,7 +3,7 @@ title: setBinWidth
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 700
+weight: 830
 url: /php-java/axis/setbinwidth/
 ---
 

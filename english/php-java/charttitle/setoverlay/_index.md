@@ -3,7 +3,7 @@ title: setOverlay
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 170
+weight: 200
 url: /php-java/charttitle/setoverlay/
 ---
 

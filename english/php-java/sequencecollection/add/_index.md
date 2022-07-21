@@ -3,11 +3,11 @@ title: add
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /php-java/sequencecollection/add/
 ---
 
-## add([GraphicalObject](../../graphicalobject) shapeTrigger)  method
+## add([Connector](../../connector) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -20,7 +20,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([Connector](../../connector) shapeTrigger)  method
+## add([GraphicalObject](../../graphicalobject) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -137,7 +137,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([OleObjectFrame](../../oleobjectframe) shapeTrigger)  method
+## add([VideoFrame](../../videoframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -150,7 +150,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([VideoFrame](../../videoframe) shapeTrigger)  method
+## add([OleObjectFrame](../../oleobjectframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -202,7 +202,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([PictureFrame](../../pictureframe) shapeTrigger)  method
+## add([SectionZoomFrame](../../sectionzoomframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -215,7 +215,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([SectionZoomFrame](../../sectionzoomframe) shapeTrigger)  method
+## add([PictureFrame](../../pictureframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -254,7 +254,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  method
+## add([ZoomObject](../../zoomobject) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -267,7 +267,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([ZoomObject](../../zoomobject) shapeTrigger)  method
+## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.

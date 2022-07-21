@@ -3,11 +3,11 @@ title: setShapeTarget
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /php-java/commandeffect/setshapetarget/
 ---
 
-## setShapeTarget([GraphicalObject](../../graphicalobject) value)  method
+## setShapeTarget([Connector](../../connector) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -20,7 +20,7 @@ void
 ---
 
 
-## setShapeTarget([Connector](../../connector) value)  method
+## setShapeTarget([GraphicalObject](../../graphicalobject) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -137,7 +137,7 @@ void
 ---
 
 
-## setShapeTarget([OleObjectFrame](../../oleobjectframe) value)  method
+## setShapeTarget([VideoFrame](../../videoframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -150,7 +150,7 @@ void
 ---
 
 
-## setShapeTarget([VideoFrame](../../videoframe) value)  method
+## setShapeTarget([OleObjectFrame](../../oleobjectframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -202,7 +202,7 @@ void
 ---
 
 
-## setShapeTarget([PictureFrame](../../pictureframe) value)  method
+## setShapeTarget([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -215,7 +215,7 @@ void
 ---
 
 
-## setShapeTarget([SectionZoomFrame](../../sectionzoomframe) value)  method
+## setShapeTarget([PictureFrame](../../pictureframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -254,7 +254,7 @@ void
 ---
 
 
-## setShapeTarget([LegacyDiagram](../../legacydiagram) value)  method
+## setShapeTarget([ZoomObject](../../zoomobject) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -267,7 +267,7 @@ void
 ---
 
 
-## setShapeTarget([ZoomObject](../../zoomobject) value)  method
+## setShapeTarget([LegacyDiagram](../../legacydiagram) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.

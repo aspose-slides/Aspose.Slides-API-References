@@ -3,7 +3,7 @@ title: size
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 620
+weight: 1020
 url: /php-java/chartdatapointcollection/size/
 ---
 

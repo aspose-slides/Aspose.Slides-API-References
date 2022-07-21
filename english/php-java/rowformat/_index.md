@@ -16,5 +16,6 @@ url: /php-java/rowformat/
 
 | Name | Description |
 | --- | --- |
+| [getEffective](geteffective)() | Gets effective table row formatting properties with inheritance and table styles applied. |
 | [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
 | [getVersion](getversion)() |  |

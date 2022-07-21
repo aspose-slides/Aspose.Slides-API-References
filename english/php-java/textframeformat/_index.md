@@ -27,6 +27,7 @@ url: /php-java/textframeformat/
 | [getCenterText](getcentertext)() | If NullableBool.True then text should be centered in box horizontally. Read/write NullableBool. |
 | [getColumnCount](getcolumncount)() | Returns or sets number of columns in the text area. This value must be a positive number. Otherwise, the value will be set to zero. Value 0 means undefined value. Read/write int. |
 | [getColumnSpacing](getcolumnspacing)() | Returns or sets the space between text columns in the text area (in points). This should only apply when there is more than 1 column present. This value must be a positive number. Otherwise, the value will be set to zero. Read/write double. |
+| [getEffective](geteffective)() | Gets effective text frame formatting data with the inheritance applied. |
 | [getKeepTextFlat](getkeeptextflat)() | Gets or sets keeping text flat even if a 3-D Rotation effect was applied. Read/write boolean. |
 | [getMarginBottom](getmarginbottom)() | Returns or sets the bottom margin (points) in a TextFrame. Read/write double. |
 | [getMarginLeft](getmarginleft)() | Returns or sets the left margin (points) in a TextFrame. Read/write double. |

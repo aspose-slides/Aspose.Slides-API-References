@@ -3,7 +3,7 @@ title: getOrCreateDataPointByIdx
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 490
+weight: 640
 url: /php-java/chartdatapointcollection/getorcreatedatapointbyidx/
 ---
 

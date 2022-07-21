@@ -3,7 +3,7 @@ title: size
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 150
+weight: 180
 url: /php-java/sectioncollection/size/
 ---
 

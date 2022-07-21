@@ -3,7 +3,7 @@ title: isColorVaried
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 230
+weight: 310
 url: /php-java/chartseriesgroup/iscolorvaried/
 ---
 

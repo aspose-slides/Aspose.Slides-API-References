@@ -3,7 +3,7 @@ title: getJoinStyle
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 140
+weight: 220
 url: /php-java/lineformat/getjoinstyle/
 ---
 

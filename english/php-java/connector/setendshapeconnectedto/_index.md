@@ -3,11 +3,11 @@ title: setEndShapeConnectedTo
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 90
+weight: 150
 url: /php-java/connector/setendshapeconnectedto/
 ---
 
-## setEndShapeConnectedTo([GraphicalObject](../../graphicalobject) value)  method
+## setEndShapeConnectedTo([Connector](../../connector) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -26,7 +26,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([Connector](../../connector) value)  method
+## setEndShapeConnectedTo([GraphicalObject](../../graphicalobject) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -197,7 +197,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
+## setEndShapeConnectedTo([VideoFrame](../../videoframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -216,7 +216,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([VideoFrame](../../videoframe) value)  method
+## setEndShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -292,7 +292,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
+## setEndShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -311,7 +311,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
+## setEndShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -368,7 +368,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
+## setEndShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -387,7 +387,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
+## setEndShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.

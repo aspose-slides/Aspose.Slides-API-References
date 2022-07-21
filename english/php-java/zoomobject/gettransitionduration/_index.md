@@ -3,7 +3,7 @@ title: getTransitionDuration
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 140
 url: /php-java/zoomobject/gettransitionduration/
 ---
 

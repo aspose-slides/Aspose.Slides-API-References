@@ -3,7 +3,7 @@ title: isTextHolder
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 350
+weight: 770
 url: /php-java/shape/istextholder/
 ---
 

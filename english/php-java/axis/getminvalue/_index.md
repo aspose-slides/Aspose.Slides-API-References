@@ -3,7 +3,7 @@ title: getMinValue
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 240
+weight: 270
 url: /php-java/axis/getminvalue/
 ---
 

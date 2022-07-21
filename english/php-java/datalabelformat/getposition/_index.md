@@ -3,7 +3,7 @@ title: getPosition
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 40
+weight: 90
 url: /php-java/datalabelformat/getposition/
 ---
 

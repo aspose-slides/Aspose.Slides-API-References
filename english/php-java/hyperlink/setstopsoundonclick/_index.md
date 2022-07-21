@@ -3,7 +3,7 @@ title: setStopSoundOnClick
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 300
+weight: 480
 url: /php-java/hyperlink/setstopsoundonclick/
 ---
 

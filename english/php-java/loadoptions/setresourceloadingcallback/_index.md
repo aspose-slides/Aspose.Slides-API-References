@@ -3,7 +3,7 @@ title: setResourceLoadingCallback
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 240
+weight: 280
 url: /php-java/loadoptions/setresourceloadingcallback/
 ---
 

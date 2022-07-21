@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 220
+weight: 230
 url: /php-java/fieldtype/op_equality/
 ---
 

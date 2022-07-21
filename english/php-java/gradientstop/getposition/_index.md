@@ -3,7 +3,7 @@ title: getPosition
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 20
+weight: 110
 url: /php-java/gradientstop/getposition/
 ---
 

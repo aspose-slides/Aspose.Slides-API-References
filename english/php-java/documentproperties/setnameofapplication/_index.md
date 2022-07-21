@@ -3,7 +3,7 @@ title: setNameOfApplication
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 590
+weight: 780
 url: /php-java/documentproperties/setnameofapplication/
 ---
 

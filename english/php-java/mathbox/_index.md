@@ -31,19 +31,19 @@ Example:
 | [MathBox](mathbox)(MathRadical) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathArray) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathDelimiter) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathAccent) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathNaryOperator) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathAccent) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathBorderBox) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathGroupingCharacter) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathBar) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathFunction) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathSuperscriptElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathFunction) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathSubscriptElement) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathFraction) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathematicalText) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(BaseScript) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathBox) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathematicalText) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathElementBase) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)(MathBox) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)(MathRightSubSuperscriptElement) | Initializes MathBox with the specified element as an argument |
 
 ## Methods

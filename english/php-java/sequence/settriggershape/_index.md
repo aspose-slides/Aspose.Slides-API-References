@@ -3,11 +3,11 @@ title: setTriggerShape
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 170
+weight: 230
 url: /php-java/sequence/settriggershape/
 ---
 
-## setTriggerShape([GraphicalObject](../../graphicalobject) value)  method
+## setTriggerShape([Connector](../../connector) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -21,7 +21,7 @@ void
 ---
 
 
-## setTriggerShape([Connector](../../connector) value)  method
+## setTriggerShape([GraphicalObject](../../graphicalobject) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -147,7 +147,7 @@ void
 ---
 
 
-## setTriggerShape([OleObjectFrame](../../oleobjectframe) value)  method
+## setTriggerShape([VideoFrame](../../videoframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -161,7 +161,7 @@ void
 ---
 
 
-## setTriggerShape([VideoFrame](../../videoframe) value)  method
+## setTriggerShape([OleObjectFrame](../../oleobjectframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -217,7 +217,7 @@ void
 ---
 
 
-## setTriggerShape([PictureFrame](../../pictureframe) value)  method
+## setTriggerShape([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -231,7 +231,7 @@ void
 ---
 
 
-## setTriggerShape([SectionZoomFrame](../../sectionzoomframe) value)  method
+## setTriggerShape([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -273,7 +273,7 @@ void
 ---
 
 
-## setTriggerShape([LegacyDiagram](../../legacydiagram) value)  method
+## setTriggerShape([ZoomObject](../../zoomobject) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -287,7 +287,7 @@ void
 ---
 
 
-## setTriggerShape([ZoomObject](../../zoomobject) value)  method
+## setTriggerShape([LegacyDiagram](../../legacydiagram) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.

@@ -3,7 +3,7 @@ title: getMarginRight
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 140
+weight: 320
 url: /php-java/paragraphformat/getmarginright/
 ---
 

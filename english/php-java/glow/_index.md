@@ -19,6 +19,7 @@ url: /php-java/glow/
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified Glow is equal to the current Glow. |
 | [getColor](getcolor)() | Color format. Read-only IColorFormat. |
+| [getEffective](geteffective)() | Gets effective Glow effect data with the inheritance applied. |
 | [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
 | [getRadius](getradius)() | Radius. Read/write double. |
 | [getVersion](getversion)() |  |

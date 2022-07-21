@@ -3,7 +3,7 @@ title: setDelimiterShape
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 130
+weight: 150
 url: /php-java/mathdelimiter/setdelimitershape/
 ---
 

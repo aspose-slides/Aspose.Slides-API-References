@@ -3,7 +3,7 @@ title: setRightToLeft
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 310
+weight: 580
 url: /php-java/paragraphformat/setrighttoleft/
 ---
 

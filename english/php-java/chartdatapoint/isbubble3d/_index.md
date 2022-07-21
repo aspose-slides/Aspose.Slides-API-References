@@ -3,7 +3,7 @@ title: isBubble3D
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 220
+weight: 400
 url: /php-java/chartdatapoint/isbubble3d/
 ---
 

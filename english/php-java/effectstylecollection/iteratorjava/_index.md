@@ -3,7 +3,7 @@ title: iteratorJava
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 60
+weight: 120
 url: /php-java/effectstylecollection/iteratorjava/
 ---
 
@@ -13,7 +13,7 @@ url: /php-java/effectstylecollection/iteratorjava/
  
 
 ### Returns
-IGenericEnumerator
+
 
 
 ---

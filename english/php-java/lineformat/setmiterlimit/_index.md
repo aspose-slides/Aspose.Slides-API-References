@@ -3,7 +3,7 @@ title: setMiterLimit
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 310
+weight: 440
 url: /php-java/lineformat/setmiterlimit/
 ---
 

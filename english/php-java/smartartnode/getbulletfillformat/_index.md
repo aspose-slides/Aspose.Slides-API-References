@@ -3,7 +3,7 @@ title: getBulletFillFormat
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /php-java/smartartnode/getbulletfillformat/
 ---
 

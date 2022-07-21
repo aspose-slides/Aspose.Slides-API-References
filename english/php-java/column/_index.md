@@ -12,6 +12,13 @@ url: /php-java/column/
  Represents a column in a table.
  
 
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+| MinWidth | 16.4 |  |
+
+
 ## Methods
 
 | Name | Description |

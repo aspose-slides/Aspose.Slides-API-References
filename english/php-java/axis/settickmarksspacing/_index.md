@@ -3,7 +3,7 @@ title: setTickMarksSpacing
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 970
+weight: 1100
 url: /php-java/axis/settickmarksspacing/
 ---
 

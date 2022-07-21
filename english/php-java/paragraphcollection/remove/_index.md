@@ -3,7 +3,7 @@ title: remove
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 200
+weight: 280
 url: /php-java/paragraphcollection/remove/
 ---
 

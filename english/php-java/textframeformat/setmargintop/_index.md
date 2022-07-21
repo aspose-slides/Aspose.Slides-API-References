@@ -3,7 +3,7 @@ title: setMarginTop
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 280
+weight: 700
 url: /php-java/textframeformat/setmargintop/
 ---
 

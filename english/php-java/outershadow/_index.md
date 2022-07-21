@@ -20,6 +20,7 @@ url: /php-java/outershadow/
 | [getBlurRadius](getblurradius)() | Blur radius. Read/write double. |
 | [getDirection](getdirection)() | Direction of shadow. Read/write float. |
 | [getDistance](getdistance)() | Distance of shadow. Read/write double. |
+| [getEffective](geteffective)() | Gets effective Outer Shadow effect data with the inheritance applied. |
 | [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
 | [getRectangleAlign](getrectanglealign)() | Rectangle alignment. Read/write RectangleAlignment. |
 | [getRotateShadowWithShape](getrotateshadowwithshape)() | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |

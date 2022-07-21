@@ -3,7 +3,7 @@ title: size
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 280
+weight: 390
 url: /php-java/imagetransformoperationcollection/size/
 ---
 

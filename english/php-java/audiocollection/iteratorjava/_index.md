@@ -3,7 +3,7 @@ title: iteratorJava
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 100
+weight: 150
 url: /php-java/audiocollection/iteratorjava/
 ---
 
@@ -13,7 +13,7 @@ url: /php-java/audiocollection/iteratorjava/
  
 
 ### Returns
-IGenericEnumerator
+
 
 
 ---

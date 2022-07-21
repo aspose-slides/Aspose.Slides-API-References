@@ -15,6 +15,13 @@ url: /php-java/paragraphformat/
  In order to get the effective formatting parameter values including inherited you need to use  ParagraphFormat#getEffective method 
  which returns a  IParagraphFormatEffectiveData instance.
 
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT_TAB_SIZE_VALUE | 72.0 |  |
+
+
 ## Constructors
 
 | Name | Description |
@@ -31,6 +38,7 @@ url: /php-java/paragraphformat/
 | [getDefaultTabSize](getdefaulttabsize)() | Returns or sets default tabulation size with no inheritance. Read/write float. |
 | [getDepth](getdepth)() | Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write short. |
 | [getEastAsianLineBreak](geteastasianlinebreak)() | Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [getEffective](geteffective)() | Gets effective paragraph formatting data with the inheritance applied. |
 | [getFontAlignment](getfontalignment)() | Returns or sets a font alignment in a paragraph with no inheritance. Read/write FontAlignment. |
 | [getHangingPunctuation](gethangingpunctuation)() | Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 | [getIndent](getindent)() | Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write float. |

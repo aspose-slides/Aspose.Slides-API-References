@@ -3,7 +3,7 @@ title: getField
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 70
+weight: 120
 url: /php-java/portion/getfield/
 ---
 

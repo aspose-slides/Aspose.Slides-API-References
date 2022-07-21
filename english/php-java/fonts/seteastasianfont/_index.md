@@ -3,7 +3,7 @@ title: setEastAsianFont
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 110
 url: /php-java/fonts/seteastasianfont/
 ---
 

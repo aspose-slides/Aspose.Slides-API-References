@@ -3,7 +3,7 @@ title: setRectangleAlign
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 270
+weight: 330
 url: /php-java/reflection/setrectanglealign/
 ---
 

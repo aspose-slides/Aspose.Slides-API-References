@@ -12,6 +12,14 @@ url: /php-java/chartdataworksheet/
  Represents worksheet associated with  IChartDataCell
  
 
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+| RelationshipNamespace | http://schemas.openxmlformats.org/officeDocument/2006/relationships |  |
+| SheetRelationshipType | http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet |  |
+
+
 ## Methods
 
 | Name | Description |

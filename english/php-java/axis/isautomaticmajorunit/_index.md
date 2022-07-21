@@ -3,7 +3,7 @@ title: isAutomaticMajorUnit
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 450
+weight: 500
 url: /php-java/axis/isautomaticmajorunit/
 ---
 

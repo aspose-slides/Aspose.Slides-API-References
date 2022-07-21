@@ -3,7 +3,7 @@ title: isGrouped
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 340
+weight: 750
 url: /php-java/shape/isgrouped/
 ---
 

@@ -3,7 +3,7 @@ title: set_Item
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 140
+weight: 190
 url: /php-java/portioncollection/set_item/
 ---
 

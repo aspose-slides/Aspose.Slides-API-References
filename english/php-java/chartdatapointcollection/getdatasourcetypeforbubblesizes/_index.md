@@ -3,7 +3,7 @@ title: getDataSourceTypeForBubbleSizes
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 440
+weight: 530
 url: /php-java/chartdatapointcollection/getdatasourcetypeforbubblesizes/
 ---
 

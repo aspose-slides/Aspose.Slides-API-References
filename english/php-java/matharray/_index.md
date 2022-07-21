@@ -28,19 +28,19 @@ Example:
 | [MathArray](matharray)(MathRadical) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathArray) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathDelimiter) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathAccent) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathNaryOperator) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)(MathAccent) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathBorderBox) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathGroupingCharacter) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathBar) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathFunction) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathSuperscriptElement) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)(MathFunction) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathSubscriptElement) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathFraction) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathematicalText) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(BaseScript) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathBox) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)(MathematicalText) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathElementBase) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)(MathBox) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(MathRightSubSuperscriptElement) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement>) | Creates a mathematical array and places specified elements in it |
 

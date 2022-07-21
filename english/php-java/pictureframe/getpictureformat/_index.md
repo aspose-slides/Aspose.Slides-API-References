@@ -3,7 +3,7 @@ title: getPictureFormat
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /php-java/pictureframe/getpictureformat/
 ---
 

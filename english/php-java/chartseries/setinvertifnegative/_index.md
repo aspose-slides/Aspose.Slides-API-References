@@ -3,7 +3,7 @@ title: setInvertIfNegative
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 510
+weight: 680
 url: /php-java/chartseries/setinvertifnegative/
 ---
 

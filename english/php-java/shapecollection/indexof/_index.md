@@ -3,27 +3,9 @@ title: indexOf
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 340
+weight: 780
 url: /php-java/shapecollection/indexof/
 ---
-
-## indexOf([GraphicalObject](../../graphicalobject) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GraphicalObject](../../graphicalobject) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
 
 ## indexOf([Connector](../../connector) shape)  method
 
@@ -35,6 +17,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Connector](../../connector) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([GraphicalObject](../../graphicalobject) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GraphicalObject](../../graphicalobject) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -187,24 +187,6 @@ int
 ---
 
 
-## indexOf([OleObjectFrame](../../oleobjectframe) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [OleObjectFrame](../../oleobjectframe) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([VideoFrame](../../videoframe) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -215,6 +197,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [VideoFrame](../../videoframe) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([OleObjectFrame](../../oleobjectframe) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../../oleobjectframe) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -277,24 +277,6 @@ int
 ---
 
 
-## indexOf([PictureFrame](../../pictureframe) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [PictureFrame](../../pictureframe) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -305,6 +287,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SectionZoomFrame](../../sectionzoomframe) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([PictureFrame](../../pictureframe) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [PictureFrame](../../pictureframe) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -349,24 +349,6 @@ int
 ---
 
 
-## indexOf([LegacyDiagram](../../legacydiagram) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [LegacyDiagram](../../legacydiagram) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([ZoomObject](../../zoomobject) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -377,6 +359,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomObject](../../zoomobject) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([LegacyDiagram](../../legacydiagram) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../../legacydiagram) | The shape to locate in the collection. |
 
 ### Returns
 int

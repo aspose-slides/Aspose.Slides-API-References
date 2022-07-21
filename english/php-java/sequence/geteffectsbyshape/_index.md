@@ -3,11 +3,11 @@ title: getEffectsByShape
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 90
+weight: 110
 url: /php-java/sequence/geteffectsbyshape/
 ---
 
-## getEffectsByShape([GraphicalObject](../../graphicalobject) shape)  method
+## getEffectsByShape([Connector](../../connector) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -19,7 +19,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Connector](../../connector) shape)  method
+## getEffectsByShape([GraphicalObject](../../graphicalobject) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -127,7 +127,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([OleObjectFrame](../../oleobjectframe) shape)  method
+## getEffectsByShape([VideoFrame](../../videoframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -139,7 +139,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([VideoFrame](../../videoframe) shape)  method
+## getEffectsByShape([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -187,7 +187,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([PictureFrame](../../pictureframe) shape)  method
+## getEffectsByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -199,7 +199,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
+## getEffectsByShape([PictureFrame](../../pictureframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -235,7 +235,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([LegacyDiagram](../../legacydiagram) shape)  method
+## getEffectsByShape([ZoomObject](../../zoomobject) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -247,7 +247,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([ZoomObject](../../zoomobject) shape)  method
+## getEffectsByShape([LegacyDiagram](../../legacydiagram) shape)  method
 
  Returns array of effects for the specified shape.
  

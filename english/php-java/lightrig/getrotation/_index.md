@@ -3,7 +3,7 @@ title: getRotation
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 30
+weight: 110
 url: /php-java/lightrig/getrotation/
 ---
 

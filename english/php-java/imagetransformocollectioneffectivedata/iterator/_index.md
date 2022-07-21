@@ -3,7 +3,7 @@ title: iterator
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 80
+weight: 150
 url: /php-java/imagetransformocollectioneffectivedata/iterator/
 ---
 
@@ -13,7 +13,7 @@ url: /php-java/imagetransformocollectioneffectivedata/iterator/
  
 
 ### Returns
-IGenericEnumerator
+
 
 
 ---

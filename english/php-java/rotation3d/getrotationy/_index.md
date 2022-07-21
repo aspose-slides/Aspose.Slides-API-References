@@ -3,7 +3,7 @@ title: getRotationY
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /php-java/rotation3d/getrotationy/
 ---
 

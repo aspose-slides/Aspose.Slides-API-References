@@ -19,6 +19,7 @@ url: /php-java/alphabilevel/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
+| [getEffective](geteffective)() | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
 | [getThreshold](getthreshold)() | Returns effect threshold. Read/write float. |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type. |
 | [setThreshold](setthreshold)(float) | Returns effect threshold. Read/write float. |

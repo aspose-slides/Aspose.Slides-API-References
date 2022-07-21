@@ -23,4 +23,5 @@ url: /php-java/vbaprojectfactory/
 | Name | Description |
 | --- | --- |
 | [createVbaProject](createvbaproject)() | Creates new VBA project. |
+| [getInstance](getinstance)() | VBA project factory static instance. Read-only VbaProjectFactory. |
 | [readVbaProject](readvbaproject)(byte[]) | Reads VBA project from OLE container. |

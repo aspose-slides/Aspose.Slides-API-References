@@ -3,7 +3,7 @@ title: getSeparatorCharacter
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 110
+weight: 130
 url: /php-java/mathdelimiter/getseparatorcharacter/
 ---
 

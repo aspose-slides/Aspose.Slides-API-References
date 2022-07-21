@@ -3,7 +3,7 @@ title: setOrder
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 560
+weight: 760
 url: /php-java/chartseries/setorder/
 ---
 

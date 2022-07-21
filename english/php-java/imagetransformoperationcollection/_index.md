@@ -40,8 +40,8 @@ url: /php-java/imagetransformoperationcollection/
 | [addItem](additem)([AlphaModulate](../alphamodulate)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Reflection](../reflection)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Glow](../glow)) | Adds the new image effect to the end of a collection. |
-| [addItem](additem)([AlphaModulateFixed](../alphamodulatefixed)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([AlphaFloor](../alphafloor)) | Adds the new image effect to the end of a collection. |
+| [addItem](additem)([AlphaModulateFixed](../alphamodulatefixed)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([GrayScale](../grayscale)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Duotone](../duotone)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Luminance](../luminance)) | Adds the new image effect to the end of a collection. |
@@ -67,8 +67,8 @@ url: /php-java/imagetransformoperationcollection/
 | [containsItem](containsitem)([AlphaModulate](../alphamodulate)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Reflection](../reflection)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Glow](../glow)) | Determines whether the IGenericCollection contains a specific value. |
-| [containsItem](containsitem)([AlphaModulateFixed](../alphamodulatefixed)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([AlphaFloor](../alphafloor)) | Determines whether the IGenericCollection contains a specific value. |
+| [containsItem](containsitem)([AlphaModulateFixed](../alphamodulatefixed)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([GrayScale](../grayscale)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Duotone](../duotone)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Luminance](../luminance)) | Determines whether the IGenericCollection contains a specific value. |
@@ -97,8 +97,8 @@ url: /php-java/imagetransformoperationcollection/
 | [removeItem](removeitem)([AlphaModulate](../alphamodulate)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Reflection](../reflection)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Glow](../glow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-| [removeItem](removeitem)([AlphaModulateFixed](../alphamodulatefixed)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([AlphaFloor](../alphafloor)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| [removeItem](removeitem)([AlphaModulateFixed](../alphamodulatefixed)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([GrayScale](../grayscale)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Duotone](../duotone)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Luminance](../luminance)) | Removes the first occurrence of a specific object from the IGenericCollection. |

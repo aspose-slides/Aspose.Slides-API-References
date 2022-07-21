@@ -3,7 +3,7 @@ title: hasEndCap
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 80
+weight: 100
 url: /php-java/errorbarsformat/hasendcap/
 ---
 

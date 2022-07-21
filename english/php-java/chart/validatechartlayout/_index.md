@@ -3,7 +3,7 @@ title: validateChartLayout
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 340
+weight: 490
 url: /php-java/chart/validatechartlayout/
 ---
 

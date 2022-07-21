@@ -3,7 +3,7 @@ title: getColorTransform
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 190
 url: /php-java/colorformat/getcolortransform/
 ---
 

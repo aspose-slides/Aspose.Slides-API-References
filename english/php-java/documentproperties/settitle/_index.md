@@ -3,7 +3,7 @@ title: setTitle
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 640
+weight: 840
 url: /php-java/documentproperties/settitle/
 ---
 

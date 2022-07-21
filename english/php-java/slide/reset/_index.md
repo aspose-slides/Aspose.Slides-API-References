@@ -3,7 +3,7 @@ title: reset
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 270
+weight: 640
 url: /php-java/slide/reset/
 ---
 

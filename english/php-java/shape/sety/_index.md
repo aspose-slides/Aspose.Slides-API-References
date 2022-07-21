@@ -3,7 +3,7 @@ title: setY
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 500
+weight: 1200
 url: /php-java/shape/sety/
 ---
 

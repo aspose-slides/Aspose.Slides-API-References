@@ -3,7 +3,7 @@ title: isChartTypeRadar
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 130
+weight: 200
 url: /php-java/charttypecharacterizer/ischarttyperadar/
 ---
 

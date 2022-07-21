@@ -12,10 +12,18 @@ url: /php-java/fillformat/
  Represents a fill formatting options.
  
 
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+| DefaultPresetColor | 7 |  |
+
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
+| [getEffective](geteffective)() | Gets effective fill formatting data with the inheritance applied. |
 | [getFillType](getfilltype)() | Returns or sets the type of filling. Read/write FillType. |
 | [getGradientFormat](getgradientformat)() | Returns the gradient fill format. Read-only IGradientFormat. |
 | [getPatternFormat](getpatternformat)() | Returns the pattern fill format. Read-only IPatternFormat. |
