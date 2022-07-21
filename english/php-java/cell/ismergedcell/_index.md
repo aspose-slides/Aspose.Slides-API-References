@@ -3,7 +3,7 @@ title: isMergedCell
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 250
+weight: 410
 url: /php-java/cell/ismergedcell/
 ---
 

@@ -3,7 +3,7 @@ title: getFont
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 180
 url: /php-java/bulletformat/getfont/
 ---
 

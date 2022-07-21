@@ -3,7 +3,7 @@ title: getSections
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 300
+weight: 530
 url: /php-java/presentation/getsections/
 ---
 

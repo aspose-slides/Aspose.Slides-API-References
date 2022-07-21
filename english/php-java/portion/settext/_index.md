@@ -3,7 +3,7 @@ title: setText
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 150
+weight: 330
 url: /php-java/portion/settext/
 ---
 

@@ -3,7 +3,7 @@ title: setShowLegendKey
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 260
+weight: 370
 url: /php-java/datalabelformat/setshowlegendkey/
 ---
 

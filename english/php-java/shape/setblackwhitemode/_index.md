@@ -3,7 +3,7 @@ title: setBlackWhiteMode
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 390
+weight: 900
 url: /php-java/shape/setblackwhitemode/
 ---
 

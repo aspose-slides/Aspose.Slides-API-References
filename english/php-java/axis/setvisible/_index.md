@@ -3,7 +3,7 @@ title: setVisible
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 1010
+weight: 1140
 url: /php-java/axis/setvisible/
 ---
 

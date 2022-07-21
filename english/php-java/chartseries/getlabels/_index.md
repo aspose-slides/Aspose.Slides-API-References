@@ -3,7 +3,7 @@ title: getLabels
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 170
+weight: 230
 url: /php-java/chartseries/getlabels/
 ---
 

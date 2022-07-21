@@ -3,7 +3,7 @@ title: setRotateShadowWithShape
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 280
+weight: 340
 url: /php-java/reflection/setrotateshadowwithshape/
 ---
 

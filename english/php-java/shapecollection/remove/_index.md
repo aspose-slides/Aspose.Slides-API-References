@@ -3,27 +3,9 @@ title: remove
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 620
+weight: 1090
 url: /php-java/shapecollection/remove/
 ---
-
-## remove([GraphicalObject](../../graphicalobject) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GraphicalObject](../../graphicalobject) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
 
 ## remove([Connector](../../connector) shape)  method
 
@@ -35,6 +17,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Connector](../../connector) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([GraphicalObject](../../graphicalobject) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GraphicalObject](../../graphicalobject) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -187,24 +187,6 @@ void
 ---
 
 
-## remove([OleObjectFrame](../../oleobjectframe) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [OleObjectFrame](../../oleobjectframe) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([VideoFrame](../../videoframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -215,6 +197,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [VideoFrame](../../videoframe) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([OleObjectFrame](../../oleobjectframe) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../../oleobjectframe) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -277,24 +277,6 @@ void
 ---
 
 
-## remove([PictureFrame](../../pictureframe) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [PictureFrame](../../pictureframe) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -305,6 +287,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SectionZoomFrame](../../sectionzoomframe) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([PictureFrame](../../pictureframe) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [PictureFrame](../../pictureframe) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -349,24 +349,6 @@ void
 ---
 
 
-## remove([LegacyDiagram](../../legacydiagram) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [LegacyDiagram](../../legacydiagram) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([ZoomObject](../../zoomobject) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -377,6 +359,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomObject](../../zoomobject) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([LegacyDiagram](../../legacydiagram) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../../legacydiagram) | The shape to remove from the collection. |
 
 ### Returns
 void

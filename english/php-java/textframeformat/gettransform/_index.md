@@ -3,7 +3,7 @@ title: getTransform
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 170
+weight: 490
 url: /php-java/textframeformat/gettransform/
 ---
 

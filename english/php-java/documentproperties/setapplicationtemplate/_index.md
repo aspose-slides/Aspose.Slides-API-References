@@ -3,7 +3,7 @@ title: setApplicationTemplate
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 390
+weight: 520
 url: /php-java/documentproperties/setapplicationtemplate/
 ---
 

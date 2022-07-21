@@ -16,5 +16,6 @@ url: /php-java/columnformat/
 
 | Name | Description |
 | --- | --- |
+| [getEffective](geteffective)() | Gets effective table column formatting properties with inheritance and table styles applied. |
 | [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
 | [getVersion](getversion)() |  |

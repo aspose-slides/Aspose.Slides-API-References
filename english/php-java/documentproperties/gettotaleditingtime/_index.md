@@ -3,7 +3,7 @@ title: getTotalEditingTime
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 360
+weight: 440
 url: /php-java/documentproperties/gettotaleditingtime/
 ---
 

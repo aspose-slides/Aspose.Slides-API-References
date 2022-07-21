@@ -3,7 +3,7 @@ title: setDoughnutHoleSize
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 270
+weight: 350
 url: /php-java/chartseriesgroup/setdoughnutholesize/
 ---
 

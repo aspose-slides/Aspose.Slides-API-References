@@ -3,7 +3,7 @@ title: setAccessPermissions
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /php-java/pdfoptions/setaccesspermissions/
 ---
 

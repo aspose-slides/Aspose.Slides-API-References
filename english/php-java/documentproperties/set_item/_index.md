@@ -3,7 +3,7 @@ title: set_Item
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 660
+weight: 870
 url: /php-java/documentproperties/set_item/
 ---
 

@@ -3,7 +3,7 @@ title: setFloatB
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 240
+weight: 550
 url: /php-java/colorformat/setfloatb/
 ---
 

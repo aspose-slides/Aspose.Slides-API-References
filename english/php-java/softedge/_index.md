@@ -18,6 +18,7 @@ url: /php-java/softedge/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified SoftEdge is equal to the current SoftEdge. |
+| [getEffective](geteffective)() | Gets effective Soft Edge effect data with the inheritance applied. |
 | [getParent_IPresentationComponent](getparent_ipresentationcomponent)() |  |
 | [getRadius](getradius)() | Specifies the radius of blur to apply to the edges. Read/write double. |
 | [getVersion](getversion)() |  |

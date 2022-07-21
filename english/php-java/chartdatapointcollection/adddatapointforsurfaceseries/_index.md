@@ -3,7 +3,7 @@ title: addDataPointForSurfaceSeries
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 380
+weight: 390
 url: /php-java/chartdatapointcollection/adddatapointforsurfaceseries/
 ---
 

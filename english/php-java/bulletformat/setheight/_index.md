@@ -3,7 +3,7 @@ title: setHeight
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 180
+weight: 380
 url: /php-java/bulletformat/setheight/
 ---
 

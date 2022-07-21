@@ -3,7 +3,7 @@ title: getBullet
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 30
+weight: 170
 url: /php-java/paragraphformat/getbullet/
 ---
 

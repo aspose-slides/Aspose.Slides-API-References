@@ -3,7 +3,7 @@ title: size
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 170
+weight: 190
 url: /php-java/tagcollection/size/
 ---
 

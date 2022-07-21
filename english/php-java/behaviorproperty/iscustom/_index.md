@@ -3,7 +3,7 @@ title: isCustom
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 1260
+weight: 1270
 url: /php-java/behaviorproperty/iscustom/
 ---
 

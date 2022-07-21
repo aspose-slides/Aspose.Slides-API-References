@@ -3,7 +3,7 @@ title: setAutofitType
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 200
+weight: 560
 url: /php-java/textframeformat/setautofittype/
 ---
 

@@ -3,7 +3,7 @@ title: setDataTable
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 250
+weight: 400
 url: /php-java/chart/setdatatable/
 ---
 

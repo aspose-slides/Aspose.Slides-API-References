@@ -3,7 +3,7 @@ title: setMajorUnitScale
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 810
+weight: 940
 url: /php-java/axis/setmajorunitscale/
 ---
 

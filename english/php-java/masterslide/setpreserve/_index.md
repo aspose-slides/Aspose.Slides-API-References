@@ -3,7 +3,7 @@ title: setPreserve
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 140
+weight: 270
 url: /php-java/masterslide/setpreserve/
 ---
 

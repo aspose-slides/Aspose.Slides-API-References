@@ -3,7 +3,7 @@ title: insert
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /php-java/mathblock/insert/
 ---
 
@@ -196,33 +196,6 @@ void
 ---
 
 
-## insert(int index, [MathAccent](../../mathaccent) item)  method
-
- Inserts a MathElement into the collection at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->add($plusElement);
-  $mathBlock->insert(0, new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathAccent](../../mathaccent) | The MathElement to insert. |
-
-### Returns
-void
-
-
----
-
-
 ## insert(int index, [MathNaryOperator](../../mathnaryoperator) item)  method
 
  Inserts a MathElement into the collection at the specified index.
@@ -242,6 +215,33 @@ Example:
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
 | item | [MathNaryOperator](../../mathnaryoperator) | The MathElement to insert. |
+
+### Returns
+void
+
+
+---
+
+
+## insert(int index, [MathAccent](../../mathaccent) item)  method
+
+ Inserts a MathElement into the collection at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $plusElement = new MathematicalText("+");
+  $mathBlock->add($plusElement);
+  $mathBlock->insert(0, new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | [MathAccent](../../mathaccent) | The MathElement to insert. |
 
 ### Returns
 void
@@ -331,33 +331,6 @@ void
 ---
 
 
-## insert(int index, [MathFunction](../../mathfunction) item)  method
-
- Inserts a MathElement into the collection at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->add($plusElement);
-  $mathBlock->insert(0, new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathFunction](../../mathfunction) | The MathElement to insert. |
-
-### Returns
-void
-
-
----
-
-
 ## insert(int index, [MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
@@ -377,6 +350,33 @@ Example:
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
 | item | [MathSuperscriptElement](../../mathsuperscriptelement) | The MathElement to insert. |
+
+### Returns
+void
+
+
+---
+
+
+## insert(int index, [MathFunction](../../mathfunction) item)  method
+
+ Inserts a MathElement into the collection at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $plusElement = new MathematicalText("+");
+  $mathBlock->add($plusElement);
+  $mathBlock->insert(0, new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | [MathFunction](../../mathfunction) | The MathElement to insert. |
 
 ### Returns
 void
@@ -439,33 +439,6 @@ void
 ---
 
 
-## insert(int index, [MathematicalText](../../mathematicaltext) item)  method
-
- Inserts a MathElement into the collection at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->add($plusElement);
-  $mathBlock->insert(0, new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathematicalText](../../mathematicaltext) | The MathElement to insert. |
-
-### Returns
-void
-
-
----
-
-
 ## insert(int index, [BaseScript](../../basescript) item)  method
 
  Inserts a MathElement into the collection at the specified index.
@@ -493,7 +466,7 @@ void
 ---
 
 
-## insert(int index, [MathBox](../../mathbox) item)  method
+## insert(int index, [MathematicalText](../../mathematicaltext) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -511,7 +484,7 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathBox](../../mathbox) | The MathElement to insert. |
+| item | [MathematicalText](../../mathematicaltext) | The MathElement to insert. |
 
 ### Returns
 void
@@ -539,6 +512,33 @@ Example:
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
 | item | [MathElementBase](../../mathelementbase) | The MathElement to insert. |
+
+### Returns
+void
+
+
+---
+
+
+## insert(int index, [MathBox](../../mathbox) item)  method
+
+ Inserts a MathElement into the collection at the specified index.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $plusElement = new MathematicalText("+");
+  $mathBlock->add($plusElement);
+  $mathBlock->insert(0, new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | [MathBox](../../mathbox) | The MathElement to insert. |
 
 ### Returns
 void

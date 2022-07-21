@@ -3,7 +3,7 @@ title: get_Item
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 510
+weight: 760
 url: /php-java/chartdatapointcollection/get_item/
 ---
 

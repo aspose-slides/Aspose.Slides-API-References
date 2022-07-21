@@ -3,11 +3,11 @@ title: removeByShape
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 160
+weight: 220
 url: /php-java/sequence/removebyshape/
 ---
 
-## removeByShape([GraphicalObject](../../graphicalobject) shape)  method
+## removeByShape([Connector](../../connector) shape)  method
 
  Remove effect for the specified shape.
  
@@ -19,7 +19,7 @@ void
 ---
 
 
-## removeByShape([Connector](../../connector) shape)  method
+## removeByShape([GraphicalObject](../../graphicalobject) shape)  method
 
  Remove effect for the specified shape.
  
@@ -127,7 +127,7 @@ void
 ---
 
 
-## removeByShape([OleObjectFrame](../../oleobjectframe) shape)  method
+## removeByShape([VideoFrame](../../videoframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -139,7 +139,7 @@ void
 ---
 
 
-## removeByShape([VideoFrame](../../videoframe) shape)  method
+## removeByShape([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -187,7 +187,7 @@ void
 ---
 
 
-## removeByShape([PictureFrame](../../pictureframe) shape)  method
+## removeByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -199,7 +199,7 @@ void
 ---
 
 
-## removeByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
+## removeByShape([PictureFrame](../../pictureframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -235,7 +235,7 @@ void
 ---
 
 
-## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
+## removeByShape([ZoomObject](../../zoomobject) shape)  method
 
  Remove effect for the specified shape.
  
@@ -247,7 +247,7 @@ void
 ---
 
 
-## removeByShape([ZoomObject](../../zoomobject) shape)  method
+## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
 
  Remove effect for the specified shape.
  

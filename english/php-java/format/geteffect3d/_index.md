@@ -3,7 +3,7 @@ title: getEffect3D
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 20
+weight: 60
 url: /php-java/format/geteffect3d/
 ---
 

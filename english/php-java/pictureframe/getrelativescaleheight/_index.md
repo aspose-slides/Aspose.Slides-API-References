@@ -3,7 +3,7 @@ title: getRelativeScaleHeight
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 30
+weight: 70
 url: /php-java/pictureframe/getrelativescaleheight/
 ---
 

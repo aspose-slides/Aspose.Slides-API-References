@@ -3,7 +3,7 @@ title: setHeight
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 410
+weight: 950
 url: /php-java/shape/setheight/
 ---
 

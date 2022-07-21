@@ -3,7 +3,7 @@ title: setExplosion
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 250
+weight: 480
 url: /php-java/chartdatapoint/setexplosion/
 ---
 

@@ -3,7 +3,7 @@ title: setCapStyle
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 240
+weight: 370
 url: /php-java/lineformat/setcapstyle/
 ---
 

@@ -3,7 +3,7 @@ title: setGroupingLocked
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 170
+weight: 180
 url: /php-java/pictureframelock/setgroupinglocked/
 ---
 

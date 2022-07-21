@@ -3,7 +3,7 @@ title: setSharedDoc
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 620
+weight: 820
 url: /php-java/documentproperties/setshareddoc/
 ---
 

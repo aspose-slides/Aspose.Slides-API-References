@@ -3,7 +3,7 @@ title: insertEmptySlide
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 190
+weight: 280
 url: /php-java/slidecollection/insertemptyslide/
 ---
 

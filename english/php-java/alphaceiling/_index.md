@@ -19,4 +19,5 @@ url: /php-java/alphaceiling/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified AlphaCeiling is equal to the current AlphaCeiling. |
+| [getEffective](geteffective)() | Gets effective Alpha Ceiling effect data with the inheritance applied. |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type. |

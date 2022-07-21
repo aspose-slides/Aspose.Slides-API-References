@@ -3,7 +3,7 @@ title: getStretchOffsetRight
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 100
+weight: 200
 url: /php-java/picturefillformat/getstretchoffsetright/
 ---
 

@@ -3,7 +3,7 @@ title: setTitle
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 320
+weight: 470
 url: /php-java/chart/settitle/
 ---
 

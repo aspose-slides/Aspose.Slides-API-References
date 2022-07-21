@@ -3,7 +3,7 @@ title: isSynchronized
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 530
+weight: 790
 url: /php-java/chartdatapointcollection/issynchronized/
 ---
 

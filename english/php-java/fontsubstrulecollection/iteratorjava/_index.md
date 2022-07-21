@@ -13,7 +13,7 @@ url: /php-java/fontsubstrulecollection/iteratorjava/
  
 
 ### Returns
-IGenericEnumerator
+
 
 
 ---

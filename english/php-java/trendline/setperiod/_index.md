@@ -3,7 +3,7 @@ title: setPeriod
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 250
+weight: 270
 url: /php-java/trendline/setperiod/
 ---
 

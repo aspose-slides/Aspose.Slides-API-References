@@ -3,7 +3,7 @@ title: setSystemColor
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 340
+weight: 660
 url: /php-java/colorformat/setsystemcolor/
 ---
 

@@ -3,7 +3,7 @@ title: getSchemeColor
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 180
+weight: 400
 url: /php-java/colorformat/getschemecolor/
 ---
 

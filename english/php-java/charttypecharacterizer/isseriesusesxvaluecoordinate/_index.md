@@ -3,7 +3,7 @@ title: isSeriesUsesXValueCoordinate
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 210
+weight: 320
 url: /php-java/charttypecharacterizer/isseriesusesxvaluecoordinate/
 ---
 

@@ -3,7 +3,7 @@ title: getRotationAngle
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 130
+weight: 400
 url: /php-java/textframeformat/getrotationangle/
 ---
 

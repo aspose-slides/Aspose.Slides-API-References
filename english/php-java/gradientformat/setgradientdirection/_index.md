@@ -3,7 +3,7 @@ title: setGradientDirection
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 70
+weight: 200
 url: /php-java/gradientformat/setgradientdirection/
 ---
 

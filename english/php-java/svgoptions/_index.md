@@ -23,6 +23,7 @@ url: /php-java/svgoptions/
 
 | Name | Description |
 | --- | --- |
+| [getDefault](getdefault)() | Returns default settings. Read-only SVGOptions. |
 | [getDeletePicturesCroppedAreas](getdeletepicturescroppedareas)() | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 | [getDisable3DText](getdisable3dtext)() | Determines whether the 3D text is disabled in SVG. Read/write boolean. |
 | [getDisableGradientSplit](getdisablegradientsplit)() | Disables splitting FromCornerX and FromCenter gradients. Read/write boolean. |
@@ -32,7 +33,9 @@ url: /php-java/svgoptions/
 | [getMetafileRasterizationDpi](getmetafilerasterizationdpi)() | Returns or sets the lower resolution limit for metafile rasterization. Read/write int. |
 | [getPicturesCompression](getpicturescompression)() | Represents the pictures compression level |
 | [getShapeFormattingController](getshapeformattingcontroller)() | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
+| [getSimple](getsimple)() | Returns settings for simpliest and smallest SVG file generation. Read-only SVGOptions. |
 | [getVectorizeText](getvectorizetext)() | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |
+| [getWYSIWYG](getwysiwyg)() | Returns settings for most accurate SVG file generation. Read-only SVGOptions. |
 | [setDeletePicturesCroppedAreas](setdeletepicturescroppedareas)(boolean) | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 | [setDisable3DText](setdisable3dtext)(boolean) | Determines whether the 3D text is disabled in SVG. Read/write boolean. |
 | [setDisableGradientSplit](setdisablegradientsplit)(boolean) | Disables splitting FromCornerX and FromCenter gradients. Read/write boolean. |

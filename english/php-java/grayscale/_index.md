@@ -18,4 +18,5 @@ url: /php-java/grayscale/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified GrayScale is equal to the current GrayScale. |
+| [getEffective](geteffective)() | Gets effective Gray Scale effect data with the inheritance applied. |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type. |

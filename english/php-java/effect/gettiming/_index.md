@@ -3,7 +3,7 @@ title: getTiming
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 80
+weight: 140
 url: /php-java/effect/gettiming/
 ---
 

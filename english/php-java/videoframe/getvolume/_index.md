@@ -3,7 +3,7 @@ title: getVolume
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 80
+weight: 100
 url: /php-java/videoframe/getvolume/
 ---
 

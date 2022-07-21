@@ -3,7 +3,7 @@ title: setPresetColor
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 300
+weight: 620
 url: /php-java/colorformat/setpresetcolor/
 ---
 

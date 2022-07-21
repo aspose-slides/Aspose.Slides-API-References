@@ -3,7 +3,7 @@ title: insertAudioFrameEmbedded
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 360
+weight: 810
 url: /php-java/shapecollection/insertaudioframeembedded/
 ---
 

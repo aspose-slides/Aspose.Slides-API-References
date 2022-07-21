@@ -3,7 +3,7 @@ title: getRepeatDuration
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 70
+weight: 100
 url: /php-java/timing/getrepeatduration/
 ---
 

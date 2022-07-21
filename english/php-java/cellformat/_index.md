@@ -22,4 +22,5 @@ url: /php-java/cellformat/
 | [getBorderLeft](getborderleft)() | Returns a left border line properties object. Read-only ILineFormat. |
 | [getBorderRight](getborderright)() | Returns a right border line properties object. Read-only ILineFormat. |
 | [getBorderTop](getbordertop)() | Returns a top border line properties object. Read-only ILineFormat. |
+| [getEffective](geteffective)() | Gets effective table cell formatting properties with inheritance and table styles applied. |
 | [getFillFormat](getfillformat)() | Returns a cell fill properties object. Read-only IFillFormat. |

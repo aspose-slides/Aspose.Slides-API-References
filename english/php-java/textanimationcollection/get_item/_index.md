@@ -3,7 +3,7 @@ title: get_Item
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 70
 url: /php-java/textanimationcollection/get_item/
 ---
 
@@ -11,24 +11,6 @@ url: /php-java/textanimationcollection/get_item/
 
  Returns element by index.
  
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
-## get_Item([GraphicalObject](../../graphicalobject) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GraphicalObject](../../graphicalobject) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -47,6 +29,24 @@ url: /php-java/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Connector](../../connector) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([GraphicalObject](../../graphicalobject) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [GraphicalObject](../../graphicalobject) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -199,24 +199,6 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([OleObjectFrame](../../oleobjectframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([VideoFrame](../../videoframe) shape)  method
 
  Returns all elements 
@@ -227,6 +209,24 @@ url: /php-java/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [VideoFrame](../../videoframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([OleObjectFrame](../../oleobjectframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -289,24 +289,6 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([PictureFrame](../../pictureframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [PictureFrame](../../pictureframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns all elements 
@@ -317,6 +299,24 @@ url: /php-java/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SectionZoomFrame](../../sectionzoomframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([PictureFrame](../../pictureframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [PictureFrame](../../pictureframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -361,24 +361,6 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([LegacyDiagram](../../legacydiagram) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [LegacyDiagram](../../legacydiagram) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([ZoomObject](../../zoomobject) shape)  method
 
  Returns all elements 
@@ -389,6 +371,24 @@ url: /php-java/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomObject](../../zoomobject) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([LegacyDiagram](../../legacydiagram) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../../legacydiagram) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)

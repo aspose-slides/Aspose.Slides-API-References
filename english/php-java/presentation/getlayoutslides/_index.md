@@ -3,7 +3,7 @@ title: getLayoutSlides
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 210
+weight: 390
 url: /php-java/presentation/getlayoutslides/
 ---
 

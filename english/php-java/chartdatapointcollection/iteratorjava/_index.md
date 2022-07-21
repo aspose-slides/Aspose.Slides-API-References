@@ -3,7 +3,7 @@ title: iteratorJava
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 550
+weight: 820
 url: /php-java/chartdatapointcollection/iteratorjava/
 ---
 
@@ -13,7 +13,7 @@ url: /php-java/chartdatapointcollection/iteratorjava/
  
 
 ### Returns
-IGenericEnumerator
+
 
 
 ---

@@ -3,7 +3,7 @@ title: getHangingPunctuation
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 100
+weight: 280
 url: /php-java/paragraphformat/gethangingpunctuation/
 ---
 

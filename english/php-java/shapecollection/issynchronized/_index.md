@@ -3,7 +3,7 @@ title: isSynchronized
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 590
+weight: 1060
 url: /php-java/shapecollection/issynchronized/
 ---
 

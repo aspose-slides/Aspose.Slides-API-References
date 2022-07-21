@@ -3,7 +3,7 @@ title: getColumnFormat
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 10
+weight: 60
 url: /php-java/column/getcolumnformat/
 ---
 

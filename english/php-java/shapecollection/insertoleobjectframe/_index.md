@@ -3,7 +3,7 @@ title: insertOleObjectFrame
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 490
+weight: 950
 url: /php-java/shapecollection/insertoleobjectframe/
 ---
 

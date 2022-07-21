@@ -3,7 +3,7 @@ title: getTrendLines
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 440
+weight: 560
 url: /php-java/chartseries/gettrendlines/
 ---
 

@@ -3,7 +3,7 @@ title: getVideos
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 480
+weight: 890
 url: /php-java/presentation/getvideos/
 ---
 

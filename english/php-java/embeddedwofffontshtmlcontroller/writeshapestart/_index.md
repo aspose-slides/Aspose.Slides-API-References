@@ -7,7 +7,7 @@ weight: 60
 url: /php-java/embeddedwofffontshtmlcontroller/writeshapestart/
 ---
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [GraphicalObject](../../graphicalobject) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Connector](../../connector) shape)  method
 
 
 ### Returns
@@ -17,7 +17,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Connector](../../connector) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [GraphicalObject](../../graphicalobject) shape)  method
 
 
 ### Returns
@@ -107,7 +107,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [OleObjectFrame](../../oleobjectframe) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [VideoFrame](../../videoframe) shape)  method
 
 
 ### Returns
@@ -117,7 +117,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [VideoFrame](../../videoframe) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [OleObjectFrame](../../oleobjectframe) shape)  method
 
 
 ### Returns
@@ -157,7 +157,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [PictureFrame](../../pictureframe) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SectionZoomFrame](../../sectionzoomframe) shape)  method
 
 
 ### Returns
@@ -167,7 +167,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SectionZoomFrame](../../sectionzoomframe) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [PictureFrame](../../pictureframe) shape)  method
 
 
 ### Returns
@@ -197,7 +197,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [LegacyDiagram](../../legacydiagram) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [ZoomObject](../../zoomobject) shape)  method
 
 
 ### Returns
@@ -207,7 +207,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [ZoomObject](../../zoomobject) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [LegacyDiagram](../../legacydiagram) shape)  method
 
 
 ### Returns

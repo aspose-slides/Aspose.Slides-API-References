@@ -3,7 +3,7 @@ title: getConnectionSiteCount
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 170
 url: /php-java/shape/getconnectionsitecount/
 ---
 

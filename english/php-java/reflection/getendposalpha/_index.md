@@ -3,7 +3,7 @@ title: getEndPosAlpha
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 60
+weight: 100
 url: /php-java/reflection/getendposalpha/
 ---
 

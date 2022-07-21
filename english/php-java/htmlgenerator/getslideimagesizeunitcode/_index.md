@@ -3,7 +3,7 @@ title: getSlideImageSizeUnitCode
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 140
+weight: 180
 url: /php-java/htmlgenerator/getslideimagesizeunitcode/
 ---
 

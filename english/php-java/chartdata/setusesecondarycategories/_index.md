@@ -3,7 +3,7 @@ title: setUseSecondaryCategories
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 140
+weight: 200
 url: /php-java/chartdata/setusesecondarycategories/
 ---
 

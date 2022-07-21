@@ -3,7 +3,7 @@ title: setNumberFormatOfBubbleSizes
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 520
+weight: 700
 url: /php-java/chartseries/setnumberformatofbubblesizes/
 ---
 

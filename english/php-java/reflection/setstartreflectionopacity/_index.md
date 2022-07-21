@@ -3,7 +3,7 @@ title: setStartReflectionOpacity
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 340
+weight: 400
 url: /php-java/reflection/setstartreflectionopacity/
 ---
 

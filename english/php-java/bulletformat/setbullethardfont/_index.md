@@ -3,7 +3,7 @@ title: setBulletHardFont
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 150
+weight: 350
 url: /php-java/bulletformat/setbullethardfont/
 ---
 

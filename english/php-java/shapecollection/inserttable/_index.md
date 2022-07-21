@@ -3,7 +3,7 @@ title: insertTable
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 550
+weight: 1020
 url: /php-java/shapecollection/inserttable/
 ---
 

@@ -3,7 +3,7 @@ title: setTransform
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 310
+weight: 790
 url: /php-java/textframeformat/settransform/
 ---
 

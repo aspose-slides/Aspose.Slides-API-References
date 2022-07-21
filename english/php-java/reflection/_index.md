@@ -20,6 +20,7 @@ url: /php-java/reflection/
 | [getBlurRadius](getblurradius)() | Blur radius. Read/write double. |
 | [getDirection](getdirection)() | Direction of reflection. Read/write float. |
 | [getDistance](getdistance)() | Distance of reflection. Read/write double. |
+| [getEffective](geteffective)() | Gets effective Reflection effect data with the inheritance applied. |
 | [getEndPosAlpha](getendposalpha)() | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). Read/write float. |
 | [getEndReflectionOpacity](getendreflectionopacity)() | End reflection opacity. (percents). Read/write float. |
 | [getFadeDirection](getfadedirection)() | Specifies the direction to offset the reflection. (angle). Read/write float. |

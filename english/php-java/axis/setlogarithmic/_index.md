@@ -3,7 +3,7 @@ title: setLogarithmic
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 780
+weight: 910
 url: /php-java/axis/setlogarithmic/
 ---
 

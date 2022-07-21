@@ -3,7 +3,7 @@ title: insertChart
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 410
+weight: 870
 url: /php-java/shapecollection/insertchart/
 ---
 

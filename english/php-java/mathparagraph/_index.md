@@ -19,6 +19,13 @@ Example:
   $mathParagraph->setJustification(MathJustification.LeftJustified);
 ```
 
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+| c_defaultJustification | 4 | Default Justification value |
+
+
 ## Constructors
 
 | Name | Description |

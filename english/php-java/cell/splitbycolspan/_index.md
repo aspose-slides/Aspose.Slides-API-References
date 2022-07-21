@@ -3,7 +3,7 @@ title: splitByColSpan
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 330
+weight: 540
 url: /php-java/cell/splitbycolspan/
 ---
 

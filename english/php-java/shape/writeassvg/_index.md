@@ -3,7 +3,7 @@ title: writeAsSvg
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 510
+weight: 1230
 url: /php-java/shape/writeassvg/
 ---
 

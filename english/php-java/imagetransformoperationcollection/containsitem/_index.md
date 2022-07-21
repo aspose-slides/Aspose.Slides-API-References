@@ -3,7 +3,7 @@ title: containsItem
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 200
+weight: 240
 url: /php-java/imagetransformoperationcollection/containsitem/
 ---
 
@@ -169,24 +169,6 @@ boolean
 ---
 
 
-## containsItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([AlphaFloor](../../alphafloor) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -197,6 +179,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaFloor](../../alphafloor) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean

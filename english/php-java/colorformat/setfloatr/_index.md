@@ -3,7 +3,7 @@ title: setFloatR
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 260
+weight: 570
 url: /php-java/colorformat/setfloatr/
 ---
 

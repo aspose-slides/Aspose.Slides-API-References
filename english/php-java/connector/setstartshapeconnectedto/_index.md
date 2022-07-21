@@ -3,11 +3,11 @@ title: setStartShapeConnectedTo
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 120
+weight: 200
 url: /php-java/connector/setstartshapeconnectedto/
 ---
 
-## setStartShapeConnectedTo([GraphicalObject](../../graphicalobject) value)  method
+## setStartShapeConnectedTo([Connector](../../connector) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -26,7 +26,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([Connector](../../connector) value)  method
+## setStartShapeConnectedTo([GraphicalObject](../../graphicalobject) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -197,7 +197,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
+## setStartShapeConnectedTo([VideoFrame](../../videoframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -216,7 +216,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([VideoFrame](../../videoframe) value)  method
+## setStartShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -292,7 +292,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
+## setStartShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -311,7 +311,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
+## setStartShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -368,7 +368,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
+## setStartShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -387,7 +387,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
+## setStartShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.

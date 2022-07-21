@@ -3,7 +3,7 @@ title: setVbaProject
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 620
+weight: 1170
 url: /php-java/presentation/setvbaproject/
 ---
 

@@ -3,7 +3,7 @@ title: getBaseUnitScale
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /php-java/axis/getbaseunitscale/
 ---
 

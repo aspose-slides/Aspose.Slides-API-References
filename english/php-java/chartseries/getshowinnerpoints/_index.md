@@ -3,7 +3,7 @@ title: getShowInnerPoints
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 380
+weight: 490
 url: /php-java/chartseries/getshowinnerpoints/
 ---
 

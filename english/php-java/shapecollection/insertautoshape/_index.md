@@ -3,7 +3,7 @@ title: insertAutoShape
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 390
+weight: 850
 url: /php-java/shapecollection/insertautoshape/
 ---
 

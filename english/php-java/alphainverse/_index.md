@@ -18,5 +18,6 @@ url: /php-java/alphainverse/
 | Name | Description |
 | --- | --- |
 | [equals](equals)(Object) | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
+| [getEffective](geteffective)() | Gets effective Alpha Inverse effect data with the inheritance applied. |
 | [getVersion](getversion)() |  |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type. |

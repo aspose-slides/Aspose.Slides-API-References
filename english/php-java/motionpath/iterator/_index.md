@@ -3,7 +3,7 @@ title: iterator
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /php-java/motionpath/iterator/
 ---
 
@@ -13,7 +13,7 @@ url: /php-java/motionpath/iterator/
  
 
 ### Returns
-IGenericEnumerator
+
 
 
 ---

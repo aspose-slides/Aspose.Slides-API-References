@@ -3,7 +3,7 @@ title: setX
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 270
+weight: 450
 url: /php-java/datalabel/setx/
 ---
 

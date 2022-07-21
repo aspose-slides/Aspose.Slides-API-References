@@ -3,7 +3,7 @@ title: insertSummaryZoomFrame
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 540
+weight: 1010
 url: /php-java/shapecollection/insertsummaryzoomframe/
 ---
 

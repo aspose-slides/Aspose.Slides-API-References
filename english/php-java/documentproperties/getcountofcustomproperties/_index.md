@@ -3,7 +3,7 @@ title: getCountOfCustomProperties
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /php-java/documentproperties/getcountofcustomproperties/
 ---
 

@@ -3,7 +3,7 @@ title: setMarginLeft
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 280
+weight: 480
 url: /php-java/cell/setmarginleft/
 ---
 

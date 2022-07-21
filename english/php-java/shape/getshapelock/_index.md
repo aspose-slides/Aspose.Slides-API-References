@@ -3,7 +3,7 @@ title: getShapeLock
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 240
+weight: 540
 url: /php-java/shape/getshapelock/
 ---
 

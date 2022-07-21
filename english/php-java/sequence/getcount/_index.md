@@ -3,7 +3,7 @@ title: getCount
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 60
+weight: 80
 url: /php-java/sequence/getcount/
 ---
 
@@ -20,7 +20,7 @@ int
 ---
 
 
-## getCount([GraphicalObject](../../graphicalobject) shape)  method
+## getCount([Connector](../../connector) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -32,7 +32,7 @@ int
 ---
 
 
-## getCount([Connector](../../connector) shape)  method
+## getCount([GraphicalObject](../../graphicalobject) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -140,7 +140,7 @@ int
 ---
 
 
-## getCount([OleObjectFrame](../../oleobjectframe) shape)  method
+## getCount([VideoFrame](../../videoframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -152,7 +152,7 @@ int
 ---
 
 
-## getCount([VideoFrame](../../videoframe) shape)  method
+## getCount([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -200,7 +200,7 @@ int
 ---
 
 
-## getCount([PictureFrame](../../pictureframe) shape)  method
+## getCount([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -212,7 +212,7 @@ int
 ---
 
 
-## getCount([SectionZoomFrame](../../sectionzoomframe) shape)  method
+## getCount([PictureFrame](../../pictureframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -248,7 +248,7 @@ int
 ---
 
 
-## getCount([LegacyDiagram](../../legacydiagram) shape)  method
+## getCount([ZoomObject](../../zoomobject) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -260,7 +260,7 @@ int
 ---
 
 
-## getCount([ZoomObject](../../zoomobject) shape)  method
+## getCount([LegacyDiagram](../../legacydiagram) shape)  method
 
  Returns count of effects for the specified shape.
  

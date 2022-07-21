@@ -3,7 +3,7 @@ title: getUseCell
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 50
+weight: 100
 url: /php-java/chartcategory/getusecell/
 ---
 
