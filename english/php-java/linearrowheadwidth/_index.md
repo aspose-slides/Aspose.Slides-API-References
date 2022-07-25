@@ -16,8 +16,8 @@ url: /php-java/linearrowheadwidth/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Medium | 1 |  |
-| Narrow | 0 |  |
 | NotDefined | -1 |  |
+| Narrow | 0 |  |
+| Medium | 1 |  |
 | Wide | 2 |  |
 

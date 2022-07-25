@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/spreadsheetoptions/spreadsheetoptions/
 ---
 
-## SpreadsheetOptions() constructor
+## SpreadsheetOptions()  constructor
 
-Initializes a new instance of the SpreadsheetOptions class.
+ Initializes a new instance of the  SpreadsheetOptions class.
  
+
 
 ---
 

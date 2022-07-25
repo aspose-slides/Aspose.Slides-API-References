@@ -16,9 +16,9 @@ url: /php-java/effectfilltype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Freeze | 1 |  |
-| Hold | 2 |  |
 | NotDefined | -1 |  |
 | Remove | 0 |  |
+| Freeze | 1 |  |
+| Hold | 2 |  |
 | Transition | 3 |  |
 

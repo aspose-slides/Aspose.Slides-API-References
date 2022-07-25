@@ -7,18 +7,21 @@ weight: 10
 url: /php-java/vbaproject/vbaproject/
 ---
 
-## VbaProject() constructor
+## VbaProject()  constructor
 
-This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage
+ This constructor creates new VBA project from scratch.
+ Project will be created in 1252 Windows Latin 1 (ANSI) codepage
  
+
 
 ---
 
 
-## VbaProject(byte[]) constructor
+## VbaProject(byte[] data)  constructor
 
-This constructor loads VBA project from binary representation of OLE container.
+ This constructor loads VBA project from binary representation of OLE container.
  
+
 
 ---
 

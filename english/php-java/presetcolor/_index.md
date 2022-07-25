@@ -16,6 +16,7 @@ url: /php-java/presetcolor/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 | Color preset is not defined. |
 | AliceBlue | 0 |  |
 | AntiqueWhite | 1 |  |
 | Aqua | 2 |  |
@@ -112,7 +113,6 @@ url: /php-java/presetcolor/
 | Moccasin | 93 |  |
 | NavajoWhite | 94 |  |
 | Navy | 95 |  |
-| NotDefined | -1 | Color preset is not defined. |
 | OldLace | 96 |  |
 | Olive | 97 |  |
 | OliveDrab | 98 |  |

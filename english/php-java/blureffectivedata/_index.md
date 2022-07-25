@@ -17,8 +17,5 @@ url: /php-java/blureffectivedata/
 
 | Name | Description |
 | --- | --- |
-| [apply](apply)([TrueColorBitmap](../truecolorbitmap)) |  |
 | [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
-| [getGrow](getgrow)() | Determines whether effect spreads beyond shape border. Read-only boolean. |
-| [getRadius](getradius)() | Blur radius. Read-only double. |
 | [getStringData](getstringdata)() |  |

@@ -16,7 +16,7 @@ url: /php-java/colorspace/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| HSL | 1 |  |
 | NotDefined | -1 |  |
 | RGB | 0 |  |
+| HSL | 1 |  |
 

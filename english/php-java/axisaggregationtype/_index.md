@@ -16,8 +16,8 @@ url: /php-java/axisaggregationtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| ByCategory | 0 | Aggregate by categories |
 | Automatic | 1 | Aggregate categories automatically. |
 | ByBinWidth | 2 | Aggregate categories by bin width. Property IAxis.BinWidth must be setted. |
-| ByCategory | 0 | Aggregate by categories |
 | ByNumberOfBins | 3 | Aggregate categories by number of bins. Property IAxis.NumberOfBins must be setted. |
 

@@ -17,7 +17,7 @@ url: /php-java/svgoptions/
 | Name | Description |
 | --- | --- |
 | [SVGOptions](svgoptions)() | Initializes a new instance of the SVGOptions class. |
-| [SVGOptions](svgoptions)(VideoPlayerHtmlController) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
+| [SVGOptions](svgoptions)([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
 
 ## Methods
 

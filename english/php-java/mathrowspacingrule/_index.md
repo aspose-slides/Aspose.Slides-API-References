@@ -16,9 +16,9 @@ url: /php-java/mathrowspacingrule/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| SingleLineGap | 0 | single line gap |
+| OneAndAHalfLineGap | 1 | One and a half line gap |
+| TwoLineGap | 2 | Two lines gap |
 | Exactly | 3 | Exactly (rely on value of the RowSpacing property, measured in points) |
 | Multiple | 4 | Multiple (rely on value of the RowSpacing property, measured in lines) |
-| OneAndAHalfLineGap | 1 | One and a half line gap |
-| SingleLineGap | 0 | single line gap |
-| TwoLineGap | 2 | Two lines gap |
 

@@ -19,19 +19,12 @@ Example:
   $mathParagraph->setJustification(MathJustification.LeftJustified);
 ```
 
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-| c_defaultJustification | 4 | Default Justification value |
-
-
 ## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MathParagraph](mathparagraph)() | Initializes a new instance of the MathParagraph class. |
-| [MathParagraph](mathparagraph)(MathBlock) | Initializes a new instance of the MathParagraph class. |
+| [MathParagraph](mathparagraph)([MathBlock](../mathblock)) | Initializes a new instance of the MathParagraph class. |
 
 ## Methods
 

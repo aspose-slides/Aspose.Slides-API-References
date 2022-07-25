@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/texttohtmlconversionoptions/texttohtmlconversionoptions/
 ---
 
-## TextToHtmlConversionOptions() constructor
+## TextToHtmlConversionOptions()  constructor
 
 
- 
 
 ---
 

@@ -16,7 +16,7 @@ url: /php-java/motionpatheditmode/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Fixed | 1 |  |
 | NotDefined | -1 |  |
 | Relative | 0 |  |
+| Fixed | 1 |  |
 

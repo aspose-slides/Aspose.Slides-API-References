@@ -7,10 +7,11 @@ weight: 20
 url: /php-java/paragraphformat/paragraphformat/
 ---
 
-## ParagraphFormat() constructor
+## ParagraphFormat()  constructor
 
-Initializes a new instance of ParagraphFormat class.
+ Initializes a new instance of  ParagraphFormat class.
  
+
 
 ---
 

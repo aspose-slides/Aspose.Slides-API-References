@@ -16,6 +16,7 @@ url: /php-java/filtereffecttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| None | 0 |  |
 | Barn | 1 |  |
 | Blinds | 2 |  |
 | Box | 3 |  |
@@ -25,7 +26,6 @@ url: /php-java/filtereffecttype/
 | Dissolve | 7 |  |
 | Fade | 8 |  |
 | Image | 9 |  |
-| None | 0 |  |
 | Pixelate | 10 |  |
 | Plus | 11 |  |
 | RandomBar | 12 |  |

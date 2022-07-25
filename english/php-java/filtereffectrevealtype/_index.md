@@ -16,8 +16,8 @@ url: /php-java/filtereffectrevealtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| In | 1 |  |
-| None | 0 |  |
 | NotDefined | -1 |  |
+| None | 0 |  |
+| In | 1 |  |
 | Out | 2 |  |
 

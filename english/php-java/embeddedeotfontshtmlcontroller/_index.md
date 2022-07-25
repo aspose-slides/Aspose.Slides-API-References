@@ -17,11 +17,11 @@ url: /php-java/embeddedeotfontshtmlcontroller/
 | Name | Description |
 | --- | --- |
 | [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)() | Creates new instance. |
-| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)(EmbeddedWoffFontsHtmlController) | Creates new instance. |
-| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)(VideoPlayerHtmlController) | Creates new instance. |
-| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)(EmbeddedEotFontsHtmlController) | Creates new instance. |
-| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)(ResponsiveHtmlController) | Creates new instance. |
-| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)(EmbedAllFontsHtmlController) | Creates new instance. |
+| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance. |
+| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance. |
+| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance. |
+| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance. |
+| [EmbeddedEotFontsHtmlController](embeddedeotfontshtmlcontroller)([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance. |
 
 ## Methods
 

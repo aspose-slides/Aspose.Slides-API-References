@@ -12,20 +12,6 @@ url: /php-java/imagecollection/
  Represents collection of PPImage.
  
 
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-| bmpType | image/bmp |  |
-| emfType | image/x-emf |  |
-| gifType | image/gif |  |
-| jpegType | image/jpeg |  |
-| pictType | image/pict |  |
-| pngType | image/png |  |
-| tiffType | image/tiff |  |
-| wmfType | image/x-wmf |  |
-
-
 ## Methods
 
 | Name | Description |

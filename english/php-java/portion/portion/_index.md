@@ -7,26 +7,29 @@ weight: 10
 url: /php-java/portion/portion/
 ---
 
-## Portion() constructor
+## Portion()  constructor
 
-Initializes a new instance of the Portion class.
+ Initializes a new instance of the Portion class.
  
+
 
 ---
 
 
-## Portion(java.lang.String) constructor
+## Portion(String str)  constructor
 
-Initializes a new instance of the Portion class.
+ Initializes a new instance of the Portion class.
  
+
 
 ---
 
 
-## Portion(com.aspose.slides.Portion) constructor
+## Portion([Portion](../../portion) portion)  constructor
 
-Initializes a new instance of the Portion class.
+ Initializes a new instance of the Portion class.
  
+
 
 ---
 

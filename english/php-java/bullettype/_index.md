@@ -16,9 +16,9 @@ url: /php-java/bullettype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 |  |
 | NotDefined | -1 |  |
+| None | 0 |  |
+| Symbol | 1 | Sysmbol bullets. |
 | Numbered | 2 | Numbered bullets. |
 | Picture | 3 | Picture bullets. |
-| Symbol | 1 | Sysmbol bullets. |
 

@@ -16,6 +16,7 @@ url: /php-java/lightrigpresettype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 |  |
 | Balanced | 0 |  |
 | BrightRoom | 1 |  |
 | Chilly | 2 |  |
@@ -38,7 +39,6 @@ url: /php-java/lightrigpresettype/
 | LegacyNormal3 | 19 |  |
 | LegacyNormal4 | 20 |  |
 | Morning | 21 |  |
-| NotDefined | -1 |  |
 | Soft | 22 |  |
 | Sunrise | 23 |  |
 | Sunset | 24 |  |

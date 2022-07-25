@@ -7,10 +7,11 @@ weight: 20
 url: /php-java/portionformat/portionformat/
 ---
 
-## PortionFormat() constructor
+## PortionFormat()  constructor
 
-Initializes a new instance of PortionFormat class.
+ Initializes a new instance of  PortionFormat class.
  
+
 
 ---
 

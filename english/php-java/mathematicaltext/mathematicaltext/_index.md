@@ -7,22 +7,24 @@ weight: 10
 url: /php-java/mathematicaltext/mathematicaltext/
 ---
 
-## MathematicalText() constructor
+## MathematicalText()  constructor
 
-Default constructor (create String.Empty Value)
+ Default constructor (create String.Empty Value)
+ 
 Example:
  
 ```php
   $mathText = new MathematicalText();
 ```
- 
+
 
 ---
 
 
-## MathematicalText(char) constructor
+## MathematicalText(char mathSymbol)  constructor
 
-Create MathText with single symbol
+ Create MathText with single symbol
+ 
 Example:
  
 ```php
@@ -31,17 +33,18 @@ Example:
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| mathSymbol | single symbol |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| mathSymbol | char | single symbol |
+
 
 ---
 
 
-## MathematicalText(java.lang.String) constructor
+## MathematicalText(String mathText)  constructor
 
-Create MathematicalText from text
+ Create MathematicalText from text
+ 
 Example:
  
 ```php
@@ -50,17 +53,18 @@ Example:
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| mathText | text value |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+
 
 ---
 
 
-## MathematicalText(java.lang.String, com.aspose.slides.IPortionFormat) constructor
+## MathematicalText(String mathText, [PortionFormat](../../portionformat) portionFormat)  constructor
 
-Create MathematicalText from text and format settings
+ Create MathematicalText from text and format settings
+ 
 Example:
  
 ```php
@@ -71,11 +75,11 @@ Example:
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| mathText | text value |
-| portionFormat | text format settings |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+| portionFormat | [PortionFormat](../../portionformat) | text format settings |
+
 
 ---
 

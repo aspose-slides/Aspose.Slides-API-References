@@ -16,6 +16,6 @@ url: /php-java/fontsubstcondition/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Always | 1 | Substitute always |
 | WhenInaccessible | 0 | Substitute when font is not found |
+| Always | 1 | Substitute always |
 

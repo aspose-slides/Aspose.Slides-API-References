@@ -7,24 +7,86 @@ weight: 10
 url: /php-java/responsivehtmlcontroller/responsivehtmlcontroller/
 ---
 
-## ResponsiveHtmlController() constructor
+## ResponsiveHtmlController()  constructor
 
-Creates new instance
+ Creates new instance
  
+
 
 ---
 
 
-## ResponsiveHtmlController(com.aspose.slides.IHtmlFormattingController) constructor
+## ResponsiveHtmlController([EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller) controller)  constructor
 
-Creates new instance
+ Creates new instance
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| controller | HTML formatting controller |
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller) | HTML formatting controller |
+
+
+---
+
+
+## ResponsiveHtmlController([VideoPlayerHtmlController](../../videoplayerhtmlcontroller) controller)  constructor
+
+ Creates new instance
  
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [VideoPlayerHtmlController](../../videoplayerhtmlcontroller) | HTML formatting controller |
+
+
+---
+
+
+## ResponsiveHtmlController([EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) controller)  constructor
+
+ Creates new instance
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | HTML formatting controller |
+
+
+---
+
+
+## ResponsiveHtmlController([ResponsiveHtmlController](../../responsivehtmlcontroller) controller)  constructor
+
+ Creates new instance
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [ResponsiveHtmlController](../../responsivehtmlcontroller) | HTML formatting controller |
+
+
+---
+
+
+## ResponsiveHtmlController([EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller) controller)  constructor
+
+ Creates new instance
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller) | HTML formatting controller |
+
 
 ---
 

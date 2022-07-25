@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/presentationfactory/presentationfactory/
 ---
 
-## PresentationFactory() constructor
+## PresentationFactory()  constructor
 
 
- 
 
 ---
 

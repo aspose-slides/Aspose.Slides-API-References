@@ -16,9 +16,9 @@ url: /php-java/videoplaymodepreset/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AllSlides | 2 | Play on all slides. |
-| Auto | 0 | Play automatically. |
-| InClickSequence | 3 | Play automatically with a click. |
 | Mixed | -1 |  |
+| Auto | 0 | Play automatically. |
 | OnClick | 1 | Play only when the video frame is clicked on. |
+| AllSlides | 2 | Play on all slides. |
+| InClickSequence | 3 | Play automatically with a click. |
 

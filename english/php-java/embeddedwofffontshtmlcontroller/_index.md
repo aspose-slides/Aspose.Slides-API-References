@@ -17,11 +17,11 @@ url: /php-java/embeddedwofffontshtmlcontroller/
 | Name | Description |
 | --- | --- |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)() | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)(EmbeddedWoffFontsHtmlController) | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)(VideoPlayerHtmlController) | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)(EmbeddedEotFontsHtmlController) | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)(ResponsiveHtmlController) | Creates new instance. |
-| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)(EmbedAllFontsHtmlController) | Creates new instance. |
+| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance. |
+| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance. |
+| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance. |
+| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance. |
+| [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller)([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance. |
 
 ## Methods
 

@@ -16,8 +16,8 @@ url: /php-java/propertycalcmodetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Discrete | 0 |  |
-| Formula | 2 |  |
-| Linear | 1 |  |
 | NotDefined | -1 |  |
+| Discrete | 0 |  |
+| Linear | 1 |  |
+| Formula | 2 |  |
 

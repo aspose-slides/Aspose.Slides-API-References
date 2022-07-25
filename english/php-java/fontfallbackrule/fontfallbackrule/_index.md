@@ -7,9 +7,10 @@ weight: 20
 url: /php-java/fontfallbackrule/fontfallbackrule/
 ---
 
-## FontFallBackRule(long, long, java.lang.String) constructor
+## FontFallBackRule(long startIndex, long endIndex, String fontNames)  constructor
 
-Creates new instance.
+ Creates new instance.
+ 
 
  
 ```php
@@ -21,19 +22,20 @@ Creates new instance.
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| startIndex | Start index of unicode range |
-| endIndex | End index of unicode range |
-| fontNames | Font's name or names (delimited by comma) for FallBack |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| startIndex | long | Start index of unicode range |
+| endIndex | long | End index of unicode range |
+| fontNames | String | Font's name or names (delimited by comma) for FallBack |
+
 
 ---
 
 
-## FontFallBackRule(long, long, java.lang.String[]) constructor
+## FontFallBackRule(long startIndex, long endIndex, java.lang.String[] fontNames)  constructor
 
-Creates new instance.
+ Creates new instance.
+ 
 
  
 ```php
@@ -45,12 +47,12 @@ Creates new instance.
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| startIndex | Start index of unicode range |
-| endIndex | End index of unicode range |
-| fontNames | Font's name or names (delimited by comma) for FallBack |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| startIndex | long | Start index of unicode range |
+| endIndex | long | End index of unicode range |
+| fontNames | java.lang.String[] | Font's name or names (delimited by comma) for FallBack |
+
 
 ---
 

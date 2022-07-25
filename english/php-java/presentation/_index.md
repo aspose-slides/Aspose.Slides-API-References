@@ -17,11 +17,11 @@ url: /php-java/presentation/
 | Name | Description |
 | --- | --- |
 | [Presentation](presentation)() | This constructor creates new presentation from scratch. Created presentation has one empty slide. |
-| [Presentation](presentation)(LoadOptions) | This constructor creates new presentation from scratch. Created presentation has one empty slide. |
+| [Presentation](presentation)([LoadOptions](../loadoptions)) | This constructor creates new presentation from scratch. Created presentation has one empty slide. |
 | [Presentation](presentation)(InputStream) | This constructor is the primary mechanism for reading an existing Presentation. |
-| [Presentation](presentation)(InputStream, LoadOptions) | This constructor is the primary mechanism for reading an existing Presentation. |
+| [Presentation](presentation)(InputStream, [LoadOptions](../loadoptions)) | This constructor is the primary mechanism for reading an existing Presentation. |
 | [Presentation](presentation)(String) | This constructor gets a source file path from which the contents of the Presentation are read. |
-| [Presentation](presentation)(String, LoadOptions) | This constructor gets a source file path from which the contents of the Presentation are read. |
+| [Presentation](presentation)(String, [LoadOptions](../loadoptions)) | This constructor gets a source file path from which the contents of the Presentation are read. |
 
 ## Methods
 

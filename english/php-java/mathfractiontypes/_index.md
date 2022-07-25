@@ -17,7 +17,7 @@ url: /php-java/mathfractiontypes/
 | Name | Value | Description |
 | --- | --- | --- |
 | Bar | 1 | Bar Fraction |
+| Skewed | 2 | Skewed |
 | Linear | 3 | Linear Fraction |
 | NoBar | 4 | No-Bar Fraction (Stack) |
-| Skewed | 2 | Skewed |
 

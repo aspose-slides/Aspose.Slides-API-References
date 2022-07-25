@@ -7,31 +7,33 @@ weight: 10
 url: /php-java/coloroperation/coloroperation/
 ---
 
-## ColorOperation(int) constructor
+## ColorOperation(int op)  constructor
 
-Creates new color transform operation.
+ Creates new color transform operation.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| op | Operation type. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| op | int | Operation type. |
+
 
 ---
 
 
-## ColorOperation(int, float) constructor
+## ColorOperation(int op, float parameter)  constructor
 
-Creates new color transform operation.
+ Creates new color transform operation.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| op | Operation type. |
-| parameter | Operation parameter. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| op | int | Operation type. |
+| parameter | float | Operation parameter. |
+
 
 ---
 

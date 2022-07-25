@@ -17,7 +17,7 @@ url: /php-java/motionorigintype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Layout | 1 |  |
 | NotDefined | -1 |  |
 | Parent | 0 |  |
+| Layout | 1 |  |
 

@@ -20,43 +20,31 @@ Example:
   $delimiter = new MathDelimiter($element);
 ```
 
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-| DefaultBeginningCharacter | 40 |  |
-| DefaultDelimiterShape | 0 |  |
-| DefaultEndingCharacter | 41 |  |
-| DefaultGrowToMatchOperandHeight | true |  |
-| DefaultSeparatorCharacter | 124 |  |
-| NullCharacter | 0 | Character specifies no character |
-
-
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MathDelimiter](mathdelimiter)(MathLeftSubSuperscriptElement) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathLimit) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathMatrix) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathBlock) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathRadical) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathArray) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathDelimiter) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathNaryOperator) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathAccent) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathBorderBox) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathGroupingCharacter) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathBar) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathSuperscriptElement) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathFunction) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathSubscriptElement) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathFraction) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(BaseScript) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathematicalText) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathElementBase) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathBox) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)(MathRightSubSuperscriptElement) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathLimit](../mathlimit)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathMatrix](../mathmatrix)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathBlock](../mathblock)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathRadical](../mathradical)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathArray](../matharray)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathDelimiter](../mathdelimiter)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathNaryOperator](../mathnaryoperator)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathAccent](../mathaccent)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathBorderBox](../mathborderbox)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathBar](../mathbar)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathFunction](../mathfunction)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathFraction](../mathfraction)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([BaseScript](../basescript)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathematicalText](../mathematicaltext)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathElementBase](../mathelementbase)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathBox](../mathbox)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter](mathdelimiter)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
 
 ## Methods
 

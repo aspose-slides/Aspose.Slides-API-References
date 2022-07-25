@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/imagetransformocollectioneffectivedata/imagetransformocollectioneffectivedata/
 ---
 
-## ImageTransformOCollectionEffectiveData() constructor
+## ImageTransformOCollectionEffectiveData()  constructor
 
 
- 
 
 ---
 

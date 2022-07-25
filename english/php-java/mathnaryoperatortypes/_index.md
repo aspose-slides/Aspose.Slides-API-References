@@ -17,11 +17,11 @@ url: /php-java/mathnaryoperatortypes/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Summation | 0 | Summation: '?' |
+| Product | 1 | Product: '?' |
 | CoProduct | 2 | Coproduct: '?' |
 | Intersection | 3 | Intersection: '?' |
+| Union | 4 | Union: '?' |
 | LogicalAnd | 5 | Logical And: '?' |
 | LogicalOr | 6 | Logical Or: '?' |
-| Product | 1 | Product: '?' |
-| Summation | 0 | Summation: '?' |
-| Union | 4 | Union: '?' |
 

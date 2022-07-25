@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/interruptiontokensource/interruptiontokensource/
 ---
 
-## InterruptionTokenSource() constructor
+## InterruptionTokenSource()  constructor
 
-Creates a new InterruptionTokenSource.
+ Creates a new  InterruptionTokenSource.
  
+
 
 ---
 

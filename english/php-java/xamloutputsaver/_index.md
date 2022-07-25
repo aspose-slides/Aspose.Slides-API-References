@@ -11,9 +11,3 @@ url: /php-java/xamloutputsaver/
 
  Implements an output saver functionality
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [save](save)(String, byte[]) | Saves a bytes array to a destination location |

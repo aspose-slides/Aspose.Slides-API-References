@@ -16,10 +16,10 @@ url: /php-java/mathintegraltypes/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Contour | 3 | Contour Integral: '?' |
-| Double | 1 | Double Integral: '?' |
 | Simple | 0 | Integral: '?' |
-| Surface | 4 | Surface Integral: '?' |
+| Double | 1 | Double Integral: '?' |
 | Triple | 2 | Triple Integral: '?' |
+| Contour | 3 | Contour Integral: '?' |
+| Surface | 4 | Surface Integral: '?' |
 | Volume | 5 | VolumeIntegral: '?' |
 

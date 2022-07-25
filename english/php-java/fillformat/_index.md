@@ -12,13 +12,6 @@ url: /php-java/fillformat/
  Represents a fill formatting options.
  
 
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-| DefaultPresetColor | 7 |  |
-
-
 ## Methods
 
 | Name | Description |

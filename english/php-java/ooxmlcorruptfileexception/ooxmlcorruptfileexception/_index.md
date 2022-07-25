@@ -7,39 +7,42 @@ weight: 10
 url: /php-java/ooxmlcorruptfileexception/ooxmlcorruptfileexception/
 ---
 
-## OOXMLCorruptFileException() constructor
+## OOXMLCorruptFileException()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 
 
-## OOXMLCorruptFileException(java.lang.String) constructor
+## OOXMLCorruptFileException(String message)  constructor
 
-Constructor allowing a message to be added to this exception.
+ Constructor allowing a message to be added to this exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
 
 ---
 
 
-## OOXMLCorruptFileException(java.lang.String, java.lang.RuntimeException) constructor
+## OOXMLCorruptFileException(String message, RuntimeException exception)  constructor
 
-Constructor for an exception containing a message and an embedded exception.
+ Constructor for an exception containing a message and an embedded exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
-| exception | original exception |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | RuntimeException | original exception |
+
 
 ---
 

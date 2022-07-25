@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/foreach_/foreach_/
 ---
 
-## ForEach_() constructor
+## ForEach_()  constructor
 
 
- 
 
 ---
 

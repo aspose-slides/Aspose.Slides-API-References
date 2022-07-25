@@ -16,8 +16,8 @@ url: /php-java/commandeffecttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Call | 1 |  |
-| Event | 0 |  |
 | NotDefined | -1 |  |
+| Event | 0 |  |
+| Call | 1 |  |
 | Verb | 2 |  |
 

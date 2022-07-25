@@ -17,6 +17,6 @@ url: /php-java/mathlimitlocations/
 | Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | 0 | Not defined |
-| SubscriptSuperscript | 2 | Limits draw as subscript and superscript |
 | UnderOver | 1 | Limits draw at top and bottom of the operator symbol |
+| SubscriptSuperscript | 2 | Limits draw as subscript and superscript |
 

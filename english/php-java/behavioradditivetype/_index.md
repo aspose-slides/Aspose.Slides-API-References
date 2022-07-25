@@ -16,10 +16,10 @@ url: /php-java/behavioradditivetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Base | 1 |  |
-| Multiply | 4 |  |
-| None | 0 |  |
 | NotDefined | -1 |  |
-| Replace | 3 |  |
+| None | 0 |  |
+| Base | 1 |  |
 | Sum | 2 |  |
+| Replace | 3 |  |
+| Multiply | 4 |  |
 

@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/textanimationcollection/textanimationcollection/
 ---
 
-## TextAnimationCollection() constructor
+## TextAnimationCollection()  constructor
 
 
- 
 
 ---
 

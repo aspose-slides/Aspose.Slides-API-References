@@ -16,7 +16,7 @@ url: /php-java/shapethumbnailbounds/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Appearance | 2 | Shape thumbnail will have size equal to the shape appearance (in bounds of a slide). It can be cases when shape appearance doesn't fit into the shape bounds. E.g. rotation, miter join of acute angle , 3D effects, etc. |
-| Shape | 1 | Shape thumbnail will have size equal to the shape bounds rectangle with taking into account shape outline settings. |
 | Slide | 0 | Shape thumbnail will have the size equal to slide size. Shape position will be saved. |
+| Shape | 1 | Shape thumbnail will have size equal to the shape bounds rectangle with taking into account shape outline settings. |
+| Appearance | 2 | Shape thumbnail will have size equal to the shape appearance (in bounds of a slide). It can be cases when shape appearance doesn't fit into the shape bounds. E.g. rotation, miter join of acute angle , 3D effects, etc. |
 

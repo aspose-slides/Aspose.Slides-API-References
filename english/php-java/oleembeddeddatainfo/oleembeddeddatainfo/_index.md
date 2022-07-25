@@ -7,25 +7,27 @@ weight: 10
 url: /php-java/oleembeddeddatainfo/oleembeddeddatainfo/
 ---
 
-## OleEmbeddedDataInfo() constructor
+## OleEmbeddedDataInfo()  constructor
 
-Creates new embedded data info for OLE object.
+ Creates new embedded data info for OLE object.
  
+
 
 ---
 
 
-## OleEmbeddedDataInfo(byte[], java.lang.String) constructor
+## OleEmbeddedDataInfo(byte[] embeddedFileData, String embeddedFileExtension)  constructor
 
-Creates a new instance of an embedded data info for OLE object.
+ Creates a new instance of an embedded data info for OLE object.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| embeddedFileData | File data of an embedded OLE object byte[]. |
-| embeddedFileExtension | File extension for the current embedded OLE object String. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| embeddedFileData | byte[] | File data of an embedded OLE object byte[]. |
+| embeddedFileExtension | String | File extension for the current embedded OLE object String. |
+
 
 ---
 

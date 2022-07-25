@@ -7,24 +7,26 @@ weight: 10
 url: /php-java/loadoptions/loadoptions/
 ---
 
-## LoadOptions() constructor
+## LoadOptions()  constructor
 
-Creates new default load options.
+ Creates new default load options.
  
+
 
 ---
 
 
-## LoadOptions(int) constructor
+## LoadOptions(int loadFormat)  constructor
 
-Creates new load options.
+ Creates new load options.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| loadFormat | Format of a presentation to load. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| loadFormat | int | Format of a presentation to load. |
+
 
 ---
 

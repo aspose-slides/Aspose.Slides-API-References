@@ -16,7 +16,7 @@ url: /php-java/linealignment/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 |  |
 | Center | 0 |  |
 | Inset | 1 |  |
-| NotDefined | -1 |  |
 

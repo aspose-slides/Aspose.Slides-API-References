@@ -60,7 +60,6 @@ url: /php-java/smartartlayouttype/
 | ConvergingArrows | 41 | Use to show ideas or concepts that converge to a central point. Works best with Level 1 text only. |
 | ConvergingRadial | 42 | Use to show relationships of concepts or components to a central idea in a cycle. The first line of Level 1 text corresponds to the central circular shape and the lines of Level 2 text correspond to the surrounding rectangular shapes. Unused text does not appear, but remains available if you switch layouts. |
 | CounterbalanceArrows | 43 | Use to show two opposing ideas or concepts. Each of the first two lines of Level 1 text corresponds to an arrow and works well with Level 2 text. Unused text does not appear, but remains available if you switch layouts. |
-| Custom | 134 | Represents a SmartArt diagram with custom layout template |
 | CycleMatrix | 44 | Use to show the relationship to a central idea in a cyclical progression. Each of the first four lines of Level 1 text corresponds to a wedge or pie shape, and Level 2 text appears in a rectangular shape to the side of the wedge or pie shape. Unused text does not appear, but remains available if you switch layouts. |
 | DescendingBlockList | 45 | Use to show groups of related ideas or lists of information. The text shapes decrease in height sequentially, and the Level 1 text displays vertically. |
 | DescendingProcess | 46 | Use to show a descending series of events. The first Level 1 text is at the top of arrow, and the last Level 1 text displays at the bottom of the arrow. Only the first seven Level 1 items appear. Works best with small to medium amounts of text. |
@@ -103,7 +102,6 @@ url: /php-java/smartartlayouttype/
 | PictureCaptionList | 83 | Use to show non-sequential or grouped blocks of information. The top shapes are designed to contain pictures and pictures are emphasized over text. Works well for pictures with short text captions. |
 | PictureGrid | 84 | Use to show pictures laid out on a square grid. Best with a small amount of Level 1 text, which appears above the picture. |
 | PictureLineup | 85 | Use to show a series of pictures side by side. Level 1 text covers the top of the picture. Level 2 text appears below the picture. |
-| PictureOrganizationChart | 135 | Use to show hierarchical information or reporting relationships in an organization, with corresponding pictures. The assistant shape and Org Chart hanging layouts are available with this layout. |
 | PictureStrips | 86 | Use to show a series of pictures from top to bottom with Level 1 text beside each. |
 | PieProcess | 87 | Use to show steps in a process with each pie slice increasing in size up to seven shapes. Level 1 text displays vertically. |
 | PlusandMinus | 88 | Use to show the pros and cons of two ideas. Each Level 1 text can contain multiple sub-levels. Works well with large amounts of text. Limited to two Level 1 items. |
@@ -152,4 +150,6 @@ url: /php-java/smartartlayouttype/
 | VerticalPictureAccentList | 131 | Use to show non-sequential or grouped blocks of information. The small circles are designed to contain pictures. |
 | VerticalPictureList | 132 | Use to show non-sequential or grouped blocks of information. The small shapes on the left are designed to contain pictures. |
 | VerticalProcess | 133 | Use to show a progression or sequential steps in a task, process, or workflow from top to bottom. Works best with Level 1 text, since the vertical space is limited. |
+| Custom | 134 | Represents a SmartArt diagram with custom layout template |
+| PictureOrganizationChart | 135 | Use to show hierarchical information or reporting relationships in an organization, with corresponding pictures. The assistant shape and Org Chart hanging layouts are available with this layout. |
 

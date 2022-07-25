@@ -16,7 +16,7 @@ url: /php-java/webdocument/
 
 | Name | Description |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | WebDocument constructor. |
+| [WebDocument](webdocument)([WebDocumentOptions](../webdocumentoptions)) | WebDocument constructor. |
 
 ## Methods
 

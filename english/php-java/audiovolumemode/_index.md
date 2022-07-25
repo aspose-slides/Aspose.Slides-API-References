@@ -16,9 +16,9 @@ url: /php-java/audiovolumemode/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Loud | 3 | Loud sound volume. |
-| Low | 1 | Low sound volume. |
-| Medium | 2 | Medium sound volume. |
 | Mixed | -1 |  |
 | Mute | 0 | Zero sound volume. |
+| Low | 1 | Low sound volume. |
+| Medium | 2 | Medium sound volume. |
+| Loud | 3 | Loud sound volume. |
 

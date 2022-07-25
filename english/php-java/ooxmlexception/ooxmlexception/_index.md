@@ -7,39 +7,42 @@ weight: 10
 url: /php-java/ooxmlexception/ooxmlexception/
 ---
 
-## OOXMLException() constructor
+## OOXMLException()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 
 
-## OOXMLException(java.lang.String) constructor
+## OOXMLException(String message)  constructor
 
-Constructor allowing a message to be added to this exception.
+ Constructor allowing a message to be added to this exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
 
 ---
 
 
-## OOXMLException(java.lang.String, java.lang.RuntimeException) constructor
+## OOXMLException(String message, RuntimeException exception)  constructor
 
-Constructor for an exception containing a message and an embedded exception.
+ Constructor for an exception containing a message and an embedded exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
-| exception | original exception |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | RuntimeException | original exception |
+
 
 ---
 

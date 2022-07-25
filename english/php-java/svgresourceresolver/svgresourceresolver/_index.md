@@ -7,10 +7,16 @@ weight: 10
 url: /php-java/svgresourceresolver/svgresourceresolver/
 ---
 
-## SvgResourceResolver(com.aspose.slides.IExternalResourceResolver, java.lang.String) constructor
+## SvgResourceResolver([HtmlExternalResolver](../../htmlexternalresolver) resolver, String baseUri)  constructor
 
 
- 
+
+---
+
+
+## SvgResourceResolver([ExternalResourceResolver](../../externalresourceresolver) resolver, String baseUri)  constructor
+
+
 
 ---
 

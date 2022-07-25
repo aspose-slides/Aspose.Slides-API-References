@@ -16,8 +16,8 @@ url: /php-java/linearrowheadlength/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Long | 2 |  |
-| Medium | 1 |  |
 | NotDefined | -1 |  |
 | Short | 0 |  |
+| Medium | 1 |  |
+| Long | 2 |  |
 

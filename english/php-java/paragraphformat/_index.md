@@ -15,13 +15,6 @@ url: /php-java/paragraphformat/
  In order to get the effective formatting parameter values including inherited you need to use  ParagraphFormat#getEffective method 
  which returns a  IParagraphFormatEffectiveData instance.
 
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-| DEFAULT_TAB_SIZE_VALUE | 72.0 |  |
-
-
 ## Constructors
 
 | Name | Description |

@@ -18,8 +18,8 @@ url: /php-java/linestyle/
 | --- | --- | --- |
 | NotDefined | -1 |  |
 | Single | 0 |  |
-| ThickBetweenThin | 4 |  |
+| ThinThin | 1 |  |
 | ThickThin | 2 |  |
 | ThinThick | 3 |  |
-| ThinThin | 1 |  |
+| ThickBetweenThin | 4 |  |
 

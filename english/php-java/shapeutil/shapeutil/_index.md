@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/shapeutil/shapeutil/
 ---
 
-## ShapeUtil() constructor
+## ShapeUtil()  constructor
 
 
- 
 
 ---
 

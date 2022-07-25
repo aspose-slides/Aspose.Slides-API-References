@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/seteffect/seteffect/
 ---
 
-## SetEffect() constructor
+## SetEffect()  constructor
 
 
- 
 
 ---
 

@@ -16,8 +16,8 @@ url: /php-java/propertyvaluetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Color | 2 |  |
 | NotDefined | -1 |  |
-| Number | 1 |  |
 | String | 0 |  |
+| Number | 1 |  |
+| Color | 2 |  |
 

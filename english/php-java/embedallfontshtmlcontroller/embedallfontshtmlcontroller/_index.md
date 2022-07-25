@@ -7,24 +7,26 @@ weight: 10
 url: /php-java/embedallfontshtmlcontroller/embedallfontshtmlcontroller/
 ---
 
-## EmbedAllFontsHtmlController() constructor
+## EmbedAllFontsHtmlController()  constructor
 
-Creates new instance
+ Creates new instance
  
+
 
 ---
 
 
-## EmbedAllFontsHtmlController(java.lang.String[]) constructor
+## EmbedAllFontsHtmlController(java.lang.String[] fontNameExcludeList)  constructor
 
-Creates new instance
+ Creates new instance
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| fontNameExcludeList | Fonts to be excluded from embedding |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| fontNameExcludeList | java.lang.String[] | Fonts to be excluded from embedding |
+
 
 ---
 

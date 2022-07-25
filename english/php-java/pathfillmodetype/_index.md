@@ -16,10 +16,10 @@ url: /php-java/pathfillmodetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Darken | 4 | Darken Path Fill This specifies that the corresponding path should have a darker shaded color applied to it’s fill. |
-| DarkenLess | 5 | Darken Path Fill Less This specifies that the corresponding path should have a slightly darker shaded color applied to it’s fill. |
-| Lighten | 2 | Lighten Path Fill This specifies that the corresponding path should have a lightly shaded color applied to it’s fill. |
-| LightenLess | 3 | Lighten Path Fill Less This specifies that the corresponding path should have a slightly lighter shaded color applied to it’s fill. |
 | None | 0 | No Path Fill This specifies that the corresponding path should have no fill. |
 | Normal | 1 | Normal Path Fill This specifies that the corresponding path should have a normally shaded color applied to it’s fill. |
+| Lighten | 2 | Lighten Path Fill This specifies that the corresponding path should have a lightly shaded color applied to it’s fill. |
+| LightenLess | 3 | Lighten Path Fill Less This specifies that the corresponding path should have a slightly lighter shaded color applied to it’s fill. |
+| Darken | 4 | Darken Path Fill This specifies that the corresponding path should have a darker shaded color applied to it’s fill. |
+| DarkenLess | 5 | Darken Path Fill Less This specifies that the corresponding path should have a slightly darker shaded color applied to it’s fill. |
 

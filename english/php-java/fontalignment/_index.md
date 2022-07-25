@@ -16,10 +16,10 @@ url: /php-java/fontalignment/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Automatic | 0 |  |
-| Baseline | 4 |  |
-| Bottom | 3 |  |
-| Center | 2 |  |
 | Default | -1 |  |
+| Automatic | 0 |  |
 | Top | 1 |  |
+| Center | 2 |  |
+| Bottom | 3 |  |
+| Baseline | 4 |  |
 

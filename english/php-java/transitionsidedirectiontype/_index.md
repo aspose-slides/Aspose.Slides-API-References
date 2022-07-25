@@ -16,8 +16,8 @@ url: /php-java/transitionsidedirectiontype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Down | 2 |  |
 | Left | 0 |  |
-| Right | 3 |  |
 | Up | 1 |  |
+| Down | 2 |  |
+| Right | 3 |  |
 

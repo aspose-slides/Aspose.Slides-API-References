@@ -17,6 +17,6 @@ url: /php-java/shapeelementstrokesource/
 | Name | Value | Description |
 | --- | --- | --- |
 | NoStroke | 0 | Don't stroke primitive. |
-| OwnStroke | 2 | Use own stroke. |
 | Shape | 1 | Use shape's LineFormat. |
+| OwnStroke | 2 | Use own stroke. |
 

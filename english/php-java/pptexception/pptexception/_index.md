@@ -7,39 +7,42 @@ weight: 10
 url: /php-java/pptexception/pptexception/
 ---
 
-## PptException() constructor
+## PptException()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 
 
-## PptException(java.lang.String) constructor
+## PptException(String message)  constructor
 
-Constructor allowing a message to be added to this exception.
+ Constructor allowing a message to be added to this exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
 
 ---
 
 
-## PptException(java.lang.String, java.lang.Exception) constructor
+## PptException(String message, Exception exception)  constructor
 
-Constructor for an exception containing a message and an embedded exception.
+ Constructor for an exception containing a message and an embedded exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
-| exception | original exception |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | Exception | original exception |
+
 
 ---
 

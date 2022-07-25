@@ -7,16 +7,17 @@ weight: 20
 url: /php-java/shapebevel/shapebevel/
 ---
 
-## ShapeBevel(boolean) constructor
+## ShapeBevel(boolean bIsTopBevel)  constructor
 
-Creates new instance.
+ Creates new instance.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| bIsTopBevel | Is top bevel. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| bIsTopBevel | boolean | Is top bevel. |
+
 
 ---
 

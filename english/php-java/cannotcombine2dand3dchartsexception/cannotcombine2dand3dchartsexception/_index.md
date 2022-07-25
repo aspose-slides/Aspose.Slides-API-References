@@ -7,39 +7,42 @@ weight: 10
 url: /php-java/cannotcombine2dand3dchartsexception/cannotcombine2dand3dchartsexception/
 ---
 
-## CannotCombine2DAnd3DChartsException() constructor
+## CannotCombine2DAnd3DChartsException()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 
 
-## CannotCombine2DAnd3DChartsException(java.lang.String) constructor
+## CannotCombine2DAnd3DChartsException(String message)  constructor
 
-Constructor allowing a message to be added to this exception.
+ Constructor allowing a message to be added to this exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
 
 ---
 
 
-## CannotCombine2DAnd3DChartsException(java.lang.String, java.lang.RuntimeException) constructor
+## CannotCombine2DAnd3DChartsException(String message, RuntimeException exception)  constructor
 
-Constructor for an exception containing a message and an embedded exception.
+ Constructor for an exception containing a message and an embedded exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
-| exception | original exception |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | RuntimeException | original exception |
+
 
 ---
 

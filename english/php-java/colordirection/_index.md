@@ -16,7 +16,7 @@ url: /php-java/colordirection/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 |  |
 | Clockwise | 0 |  |
 | CounterClockwise | 1 |  |
-| NotDefined | -1 |  |
 

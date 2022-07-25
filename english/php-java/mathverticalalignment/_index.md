@@ -16,8 +16,8 @@ url: /php-java/mathverticalalignment/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bottom | 3 | Bottom |
-| Center | 2 | Center |
 | NotDefined | 0 | Value is not defined |
 | Top | 1 | Top |
+| Center | 2 | Center |
+| Bottom | 3 | Bottom |
 

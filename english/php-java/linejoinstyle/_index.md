@@ -16,8 +16,8 @@ url: /php-java/linejoinstyle/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bevel | 1 |  |
-| Miter | 2 |  |
 | NotDefined | -1 |  |
 | Round | 0 |  |
+| Bevel | 1 |  |
+| Miter | 2 |  |
 

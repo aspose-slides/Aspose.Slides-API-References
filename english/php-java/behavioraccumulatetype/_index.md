@@ -16,7 +16,7 @@ url: /php-java/behavioraccumulatetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 |  |
 | Always | 0 |  |
 | None | 1 |  |
-| NotDefined | -1 |  |
 

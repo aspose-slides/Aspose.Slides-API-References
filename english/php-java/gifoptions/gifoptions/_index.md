@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/gifoptions/gifoptions/
 ---
 
-## GifOptions() constructor
+## GifOptions()  constructor
 
-Initializes a new instance of the GifOptions class.
+ Initializes a new instance of the GifOptions class.
  
+
 
 ---
 

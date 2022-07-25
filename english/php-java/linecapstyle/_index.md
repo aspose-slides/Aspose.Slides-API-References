@@ -16,8 +16,8 @@ url: /php-java/linecapstyle/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Flat | 2 |  |
 | NotDefined | -1 |  |
 | Round | 0 |  |
 | Square | 1 |  |
+| Flat | 2 |  |
 

@@ -16,8 +16,8 @@ url: /php-java/mathjustification/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Centered | 3 | Align mathematical text to the center |
-| CenteredAsGroup | 4 | Center on the page the entire group of math blocks as a single unit. This means that the instances of mathematical text can be aligned with respect to each other, but the entire group of mathematical text is centered as a whole. |
 | LeftJustified | 1 | Align mathematical text to the left |
 | RightJustified | 2 | Align mathematical text to the right |
+| Centered | 3 | Align mathematical text to the center |
+| CenteredAsGroup | 4 | Center on the page the entire group of math blocks as a single unit. This means that the instances of mathematical text can be aligned with respect to each other, but the entire group of mathematical text is centered as a whole. |
 

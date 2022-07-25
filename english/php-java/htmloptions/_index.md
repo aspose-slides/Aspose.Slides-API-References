@@ -16,7 +16,7 @@ url: /php-java/htmloptions/
 
 | Name | Description |
 | --- | --- |
-| [HtmlOptions](htmloptions)(VideoPlayerHtmlController) | Creates a new HtmlOptions object specifiing callback. |
+| [HtmlOptions](htmloptions)([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates a new HtmlOptions object specifiing callback. |
 | [HtmlOptions](htmloptions)() | Creates a new HtmlOptions object for saving into single HTML file. |
 
 ## Methods

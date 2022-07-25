@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/compress/compress/
 ---
 
-## Compress() constructor
+## Compress()  constructor
 
 
- 
 
 ---
 

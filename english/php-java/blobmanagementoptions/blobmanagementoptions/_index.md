@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/blobmanagementoptions/blobmanagementoptions/
 ---
 
-## BlobManagementOptions() constructor
+## BlobManagementOptions()  constructor
 
-Creates new default blob management options.
+ Creates new default blob management options.
  
+
 
 ---
 

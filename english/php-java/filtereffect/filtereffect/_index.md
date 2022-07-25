@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/filtereffect/filtereffect/
 ---
 
-## FilterEffect() constructor
+## FilterEffect()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 

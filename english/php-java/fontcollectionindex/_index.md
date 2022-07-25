@@ -16,7 +16,7 @@ url: /php-java/fontcollectionindex/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Major | 2 |  |
-| Minor | 1 |  |
 | None | 0 |  |
+| Minor | 1 |  |
+| Major | 2 |  |
 

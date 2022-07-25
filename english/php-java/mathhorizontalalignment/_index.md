@@ -16,8 +16,8 @@ url: /php-java/mathhorizontalalignment/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Center | 2 | Center |
-| Left | 1 | Left Justification |
 | NotDefined | 0 | Value is not defined |
+| Left | 1 | Left Justification |
+| Center | 2 | Center |
 | Right | 3 | Right |
 

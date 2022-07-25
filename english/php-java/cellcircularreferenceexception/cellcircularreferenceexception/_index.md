@@ -7,54 +7,60 @@ weight: 10
 url: /php-java/cellcircularreferenceexception/cellcircularreferenceexception/
 ---
 
-## CellCircularReferenceException() constructor
+## CellCircularReferenceException()  constructor
 
-Initializes a new instance of the CellCircularReferenceException class.
+ Initializes a new instance of the  CellCircularReferenceException class.
  
+
 
 ---
 
 
-## CellCircularReferenceException(java.lang.String) constructor
+## CellCircularReferenceException(String message)  constructor
 
-Initializes a new instance of the CellCircularReferenceException class with a specified error message.
+ Initializes a new instance of the  CellCircularReferenceException class with a specified error message.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | A string that describes the error. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+
 
 ---
 
 
-## CellCircularReferenceException(java.lang.String, java.lang.RuntimeException) constructor
+## CellCircularReferenceException(String message, RuntimeException innerException)  constructor
 
-Initializes a new instance of the CellCircularReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception.
+ Initializes a new instance of the  CellCircularReferenceException class with a specified error message
+ and a reference to the inner exception that is the cause of this exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | A string that describes the error. |
-| innerException | The exception that is the cause of the current exception. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+| innerException | RuntimeException | The exception that is the cause of the current exception. |
+
 
 ---
 
 
-## CellCircularReferenceException(java.lang.String, java.lang.String) constructor
+## CellCircularReferenceException(String message, String reference)  constructor
 
-Initializes a new instance of the CellCircularReferenceException class with a specified error message and circular cell reference.
+ Initializes a new instance of the  CellCircularReferenceException class with a specified error message
+ and circular cell reference.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | A string that describes the error. |
-| reference | A circular cell reference. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+| reference | String | A circular cell reference. |
+
 
 ---
 

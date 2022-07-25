@@ -17,6 +17,14 @@ url: /php-java/styletype/
 | Name | Value | Description |
 | --- | --- | --- |
 | Style1 | 0 | Style 1 |
+| Style2 | 1 | Style 2 |
+| Style3 | 2 | Style 3 |
+| Style4 | 3 | Style 4 |
+| Style5 | 4 | Style 5 |
+| Style6 | 5 | Style 6 |
+| Style7 | 6 | Style 7 |
+| Style8 | 7 | Style 8 |
+| Style9 | 8 | Style 9 |
 | Style10 | 9 | Style 10 |
 | Style11 | 10 | Style 11 |
 | Style12 | 11 | Style 12 |
@@ -27,7 +35,6 @@ url: /php-java/styletype/
 | Style17 | 16 | Style 17 |
 | Style18 | 17 | Style 18 |
 | Style19 | 18 | Style 19 |
-| Style2 | 1 | Style 2 |
 | Style20 | 19 | Style 20 |
 | Style21 | 20 | Style 21 |
 | Style22 | 21 | Style 22 |
@@ -38,7 +45,6 @@ url: /php-java/styletype/
 | Style27 | 26 | Style 27 |
 | Style28 | 27 | Style 28 |
 | Style29 | 28 | Style 29 |
-| Style3 | 2 | Style 3 |
 | Style30 | 29 | Style 30 |
 | Style31 | 30 | Style 31 |
 | Style32 | 31 | Style 32 |
@@ -49,7 +55,6 @@ url: /php-java/styletype/
 | Style37 | 36 | Style 37 |
 | Style38 | 37 | Style 38 |
 | Style39 | 38 | Style 39 |
-| Style4 | 3 | Style 4 |
 | Style40 | 39 | Style 40 |
 | Style41 | 40 | Style 41 |
 | Style42 | 41 | Style 42 |
@@ -59,9 +64,4 @@ url: /php-java/styletype/
 | Style46 | 45 | Style 46 |
 | Style47 | 46 | Style 47 |
 | Style48 | 47 | Style 48 |
-| Style5 | 4 | Style 5 |
-| Style6 | 5 | Style 6 |
-| Style7 | 6 | Style 7 |
-| Style8 | 7 | Style 8 |
-| Style9 | 8 | Style 9 |
 

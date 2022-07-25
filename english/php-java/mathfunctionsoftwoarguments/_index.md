@@ -16,8 +16,8 @@ url: /php-java/mathfunctionsoftwoarguments/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Lim | 1 | Limit |
 | Log | 0 | Log |
-| Max | 3 | Maximum |
+| Lim | 1 | Limit |
 | Min | 2 | Minimum |
+| Max | 3 | Maximum |
 

@@ -7,24 +7,86 @@ weight: 10
 url: /php-java/embeddedeotfontshtmlcontroller/embeddedeotfontshtmlcontroller/
 ---
 
-## EmbeddedEotFontsHtmlController() constructor
+## EmbeddedEotFontsHtmlController()  constructor
 
-Creates new instance.
+ Creates new instance.
  
+
 
 ---
 
 
-## EmbeddedEotFontsHtmlController(com.aspose.slides.IHtmlFormattingController) constructor
+## EmbeddedEotFontsHtmlController([EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller) controller)  constructor
 
-Creates new instance.
+ Creates new instance.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| controller | HTML formatting controller. |
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller) | HTML formatting controller. |
+
+
+---
+
+
+## EmbeddedEotFontsHtmlController([VideoPlayerHtmlController](../../videoplayerhtmlcontroller) controller)  constructor
+
+ Creates new instance.
  
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [VideoPlayerHtmlController](../../videoplayerhtmlcontroller) | HTML formatting controller. |
+
+
+---
+
+
+## EmbeddedEotFontsHtmlController([EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) controller)  constructor
+
+ Creates new instance.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | HTML formatting controller. |
+
+
+---
+
+
+## EmbeddedEotFontsHtmlController([ResponsiveHtmlController](../../responsivehtmlcontroller) controller)  constructor
+
+ Creates new instance.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [ResponsiveHtmlController](../../responsivehtmlcontroller) | HTML formatting controller. |
+
+
+---
+
+
+## EmbeddedEotFontsHtmlController([EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller) controller)  constructor
+
+ Creates new instance.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controller | [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller) | HTML formatting controller. |
+
 
 ---
 

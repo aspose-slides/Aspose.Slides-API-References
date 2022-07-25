@@ -7,9 +7,10 @@ weight: 10
 url: /php-java/mathmatrix/mathmatrix/
 ---
 
-## MathMatrix(int, int) constructor
+## MathMatrix(int rowCount, int columnCount)  constructor
 
-Initializes a new instance of the MathMatrix class.
+ Initializes a new instance of the MathMatrix class.
+ 
 Example:
  
 ```php
@@ -18,11 +19,11 @@ Example:
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| rowCount | row count |
-| columnCount | column count |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| rowCount | int | row count |
+| columnCount | int | column count |
+
 
 ---
 

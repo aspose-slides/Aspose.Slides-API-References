@@ -24,7 +24,7 @@ Example:
 | [MathematicalText](mathematicaltext)() | Default constructor (create String.Empty Value) |
 | [MathematicalText](mathematicaltext)(char) | Create MathText with single symbol |
 | [MathematicalText](mathematicaltext)(String) | Create MathematicalText from text |
-| [MathematicalText](mathematicaltext)(String, PortionFormat) | Create MathematicalText from text and format settings |
+| [MathematicalText](mathematicaltext)(String, [PortionFormat](../portionformat)) | Create MathematicalText from text and format settings |
 
 ## Methods
 

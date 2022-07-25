@@ -16,7 +16,7 @@ url: /php-java/nullablebool/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| False | 0 | False value. |
 | NotDefined | -1 | Boolean value is undefined. |
+| False | 0 | False value. |
 | True | 1 | True value. |
 

@@ -18,7 +18,7 @@ url: /php-java/portion/
 | --- | --- |
 | [Portion](portion)() | Initializes a new instance of the Portion class. |
 | [Portion](portion)(String) | Initializes a new instance of the Portion class. |
-| [Portion](portion)(Portion) | Initializes a new instance of the Portion class. |
+| [Portion](portion)([Portion](../portion)) | Initializes a new instance of the Portion class. |
 
 ## Methods
 

@@ -17,6 +17,6 @@ url: /php-java/crossestype/
 | Name | Value | Description |
 | --- | --- | --- |
 | AxisCrossesAtZero | 0 | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
-| Custom | 2 | Custom value from property CrossAt |
 | Maximum | 1 | The axis crosses at the maximum value. |
+| Custom | 2 | Custom value from property CrossAt |
 

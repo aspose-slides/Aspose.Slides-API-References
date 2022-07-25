@@ -16,6 +16,6 @@ url: /php-java/effectchartminorgroupingtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ByElementInCategory | 1 | Animate chart by element in category |
 | ByElementInSeries | 0 | Animate chart by element in series |
+| ByElementInCategory | 1 | Animate chart by element in category |
 

@@ -16,30 +16,30 @@ url: /php-java/mathfunctionsofoneargument/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ArcCos | 15 | Arccosine |
-| ArcCot | 19 | Arccotangent |
-| ArcCsc | 17 | Arccosecant |
-| ArcSec | 18 | Arcsecant |
-| ArcSin | 14 | Arcsine |
-| ArcTan | 16 | Arctangent |
+| Sin | 0 | Sine |
 | Cos | 1 | Cosine |
-| Cot | 5 | Cotangent |
+| Tan | 2 | Tangent |
 | Csc | 3 | ?osecant |
-| HyperbolicArcCos | 21 | Hyperbolic arccosine |
-| HyperbolicArcCot | 25 | Hyperbolic arccotangent |
-| HyperbolicArcCsc | 23 | Hyperbolic arccosecant |
-| HyperbolicArcSec | 24 | Hyperbolic arcsecant |
-| HyperbolicArcSin | 20 | Hyperbolic arcsine |
-| HyperbolicArcTan | 22 | Hyperbolic arctangent |
+| Sec | 4 | Secant |
+| Cot | 5 | Cotangent |
+| HyperbolicSin | 6 | Hyperbolic sine |
 | HyperbolicCos | 7 | Hyperbolic Cosine |
-| HyperbolicCot | 11 | Hyperbolic Cotangent |
+| HyperbolicTan | 8 | Hyperbolic Tangent |
 | HyperbolicCsc | 9 | Hyperbolic ?osecant |
 | HyperbolicSec | 10 | Hyperbolic Secant |
-| HyperbolicSin | 6 | Hyperbolic sine |
-| HyperbolicTan | 8 | Hyperbolic Tangent |
+| HyperbolicCot | 11 | Hyperbolic Cotangent |
 | Lg | 12 | Decimal logarithm |
 | Ln | 13 | Natural logarithm |
-| Sec | 4 | Secant |
-| Sin | 0 | Sine |
-| Tan | 2 | Tangent |
+| ArcSin | 14 | Arcsine |
+| ArcCos | 15 | Arccosine |
+| ArcTan | 16 | Arctangent |
+| ArcCsc | 17 | Arccosecant |
+| ArcSec | 18 | Arcsecant |
+| ArcCot | 19 | Arccotangent |
+| HyperbolicArcSin | 20 | Hyperbolic arcsine |
+| HyperbolicArcCos | 21 | Hyperbolic arccosine |
+| HyperbolicArcTan | 22 | Hyperbolic arctangent |
+| HyperbolicArcCsc | 23 | Hyperbolic arccosecant |
+| HyperbolicArcSec | 24 | Hyperbolic arcsecant |
+| HyperbolicArcCot | 25 | Hyperbolic arccotangent |
 

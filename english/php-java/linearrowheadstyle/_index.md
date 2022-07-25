@@ -16,11 +16,11 @@ url: /php-java/linearrowheadstyle/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Diamond | 3 |  |
-| None | 0 |  |
 | NotDefined | -1 |  |
-| Open | 5 |  |
-| Oval | 4 |  |
-| Stealth | 2 |  |
+| None | 0 |  |
 | Triangle | 1 |  |
+| Stealth | 2 |  |
+| Diamond | 3 |  |
+| Oval | 4 |  |
+| Open | 5 |  |
 

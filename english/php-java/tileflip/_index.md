@@ -16,9 +16,9 @@ url: /php-java/tileflip/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FlipBoth | 3 |  |
+| NotDefined | -1 |  |
+| NoFlip | 0 |  |
 | FlipX | 1 |  |
 | FlipY | 2 |  |
-| NoFlip | 0 |  |
-| NotDefined | -1 |  |
+| FlipBoth | 3 |  |
 

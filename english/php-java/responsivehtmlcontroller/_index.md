@@ -17,11 +17,11 @@ url: /php-java/responsivehtmlcontroller/
 | Name | Description |
 | --- | --- |
 | [ResponsiveHtmlController](responsivehtmlcontroller)() | Creates new instance |
-| [ResponsiveHtmlController](responsivehtmlcontroller)(EmbeddedWoffFontsHtmlController) | Creates new instance |
-| [ResponsiveHtmlController](responsivehtmlcontroller)(VideoPlayerHtmlController) | Creates new instance |
-| [ResponsiveHtmlController](responsivehtmlcontroller)(EmbeddedEotFontsHtmlController) | Creates new instance |
-| [ResponsiveHtmlController](responsivehtmlcontroller)(ResponsiveHtmlController) | Creates new instance |
-| [ResponsiveHtmlController](responsivehtmlcontroller)(EmbedAllFontsHtmlController) | Creates new instance |
+| [ResponsiveHtmlController](responsivehtmlcontroller)([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance |
+| [ResponsiveHtmlController](responsivehtmlcontroller)([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance |
+| [ResponsiveHtmlController](responsivehtmlcontroller)([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance |
+| [ResponsiveHtmlController](responsivehtmlcontroller)([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance |
+| [ResponsiveHtmlController](responsivehtmlcontroller)([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance |
 
 ## Methods
 
