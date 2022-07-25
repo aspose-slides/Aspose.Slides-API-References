@@ -12,9 +12,3 @@ url: /php-java/colorchangeeffectivedata/
  Immutable object which represents a Color Change effect.
  Instances of FromColor are replaced with instances of ToColor.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getStringData](getstringdata)() |  |

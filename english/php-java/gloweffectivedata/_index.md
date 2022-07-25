@@ -12,9 +12,3 @@ url: /php-java/gloweffectivedata/
  Immutable object which represents a glow effect, in which a color blurred outline 
  is added outside the edges of the object.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getStringData](getstringdata)() |  |

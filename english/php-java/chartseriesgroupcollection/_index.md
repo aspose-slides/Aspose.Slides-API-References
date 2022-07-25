@@ -23,3 +23,10 @@ url: /php-java/chartseriesgroupcollection/
  "Series group properties" in ChartSeriesGroup class is read/write.
  Each of "series group properties" can have a read-only projection in ChartSeries class.
  
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [get_Item](get_item)([ChartSeries](../chartseries)) | Gets the series group by series. |
+| [get_Item](get_item)(int) | Gets the series group by index. |

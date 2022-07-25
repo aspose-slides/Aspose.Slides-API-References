@@ -16,3 +16,9 @@ url: /php-java/svgresourceresolver/
 | --- | --- |
 | [SvgResourceResolver](svgresourceresolver)([HtmlExternalResolver](../htmlexternalresolver), String) |  |
 | [SvgResourceResolver](svgresourceresolver)([ExternalResourceResolver](../externalresourceresolver), String) |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [resourceLoading](resourceloading)(Object, ResourceLoadingEventArgs) |  |

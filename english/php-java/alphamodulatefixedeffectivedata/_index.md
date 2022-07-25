@@ -12,10 +12,3 @@ url: /php-java/alphamodulatefixedeffectivedata/
  Immutable object which represents an Alpha Modulate Fixed effect.
  Effect alpha (opacity) values are multiplied by a fixed percentage.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
-| [getStringData](getstringdata)() |  |

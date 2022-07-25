@@ -13,3 +13,11 @@ url: /php-java/themeeffectivedata/
  
  This class is used together with the  Theme class to return effective formatting values with inheritance applied.
  
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [getColorScheme](getcolorscheme)(Color) | Returns color scheme effective data. |
+| [getFontScheme](getfontscheme)() | FontScheme. Read-only IFontSchemeEffectiveData. |
+| [getFormatScheme](getformatscheme)() | FormatScheme. Read-only IFormatSchemeEffectiveData. |

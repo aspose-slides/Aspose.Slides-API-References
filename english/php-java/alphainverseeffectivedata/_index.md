@@ -12,9 +12,3 @@ url: /php-java/alphainverseeffectivedata/
  Immutable object which represents an Alpha Inverse effect.
  Alpha (opacity) values are inverted by subtracting from 100%.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getStringData](getstringdata)() |  |

@@ -12,9 +12,3 @@ url: /php-java/filloverlayeffectivedata/
  Immutable object which represents a Fill Overlay effect. A fill overlay may be used to specify
  an additional fill for an object and blend the two fills together.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getStringData](getstringdata)() |  |

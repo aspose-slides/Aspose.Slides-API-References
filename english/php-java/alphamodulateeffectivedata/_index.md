@@ -13,9 +13,3 @@ url: /php-java/alphamodulateeffectivedata/
  Effect alpha (opacity) values are multiplied by a fixed percentage.
  The effect container specifies an effect containing alpha values to modulate.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getStringData](getstringdata)() |  |

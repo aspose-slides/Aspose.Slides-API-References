@@ -9,3 +9,9 @@ url: /php-java/outputsaverstub/
 
 ## OutputSaverStub class
 
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [save](save)(String, [OutputFile](../outputfile)) |  |

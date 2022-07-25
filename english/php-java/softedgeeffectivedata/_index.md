@@ -17,5 +17,4 @@ url: /php-java/softedgeeffectivedata/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
 | [getRadius](getradius)() | SoftEdge radius. Read-only double. |

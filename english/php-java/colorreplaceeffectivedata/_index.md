@@ -13,9 +13,3 @@ url: /php-java/colorreplaceeffectivedata/
  All effect colors are changed to a fixed color.
  Alpha values are unaffected.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getStringData](getstringdata)() |  |

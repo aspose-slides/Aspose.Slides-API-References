@@ -18,8 +18,5 @@ url: /php-java/luminanceeffectivedata/
 
 | Name | Description |
 | --- | --- |
-| [apply](apply)([TrueColorBitmap](../truecolorbitmap)) |  |
-| [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
 | [getBrightness](getbrightness)() | Brightness. Read-only float. |
 | [getContrast](getcontrast)() | Contrast. Read-only float. |
-| [getStringData](getstringdata)() |  |

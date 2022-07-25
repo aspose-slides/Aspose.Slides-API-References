@@ -17,8 +17,5 @@ url: /php-java/tinteffectivedata/
 
 | Name | Description |
 | --- | --- |
-| [apply](apply)([TrueColorBitmap](../truecolorbitmap)) |  |
-| [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
 | [getAmount](getamount)() | Returns effect amount. Read-only float. |
 | [getHue](gethue)() | Returns hue. Read-only float. |
-| [getStringData](getstringdata)() |  |
