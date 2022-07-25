@@ -16,6 +16,6 @@ url: /php-java/zoomimagetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Cover | 2 | Use a custom image. |
 | Preview | 1 | Use the image of the slide or section. |
+| Cover | 2 | Use a custom image. |
 

@@ -16,6 +16,6 @@ url: /php-java/effectchartmajorgroupingtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ByCategory | 1 | Animate chart by category |
 | BySeries | 0 | Animate chart by series |
+| ByCategory | 1 | Animate chart by category |
 

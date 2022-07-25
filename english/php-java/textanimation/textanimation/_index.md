@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/textanimation/textanimation/
 ---
 
-## TextAnimation() constructor
+## TextAnimation()  constructor
 
 
- 
 
 ---
 

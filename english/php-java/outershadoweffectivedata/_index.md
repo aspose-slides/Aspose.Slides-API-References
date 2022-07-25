@@ -16,7 +16,6 @@ url: /php-java/outershadoweffectivedata/
 
 | Name | Description |
 | --- | --- |
-| [apply](apply)([TrueColorBitmap](../truecolorbitmap)) |  |
 | [getBlurRadius](getblurradius)() | Blur radius. Read-only double. |
 | [getDirection](getdirection)() | Direction of shadow. Read-only float. |
 | [getDistance](getdistance)() | Distance of shadow. Read-only double. |
@@ -27,11 +26,3 @@ url: /php-java/outershadoweffectivedata/
 | [getShadowColor](getshadowcolor)() | Color of shadow. Read-only java.awt.Color. |
 | [getSkewHorizontal](getskewhorizontal)() | Specifies the horizontal skew angle. Read-only double. |
 | [getSkewVertical](getskewvertical)() | Specifies the vertical skew angle. Read-only double. |
-| [getStringData](getstringdata)() |  |
-| [resolveStyledColors](resolvestyledcolors)([MasterHandoutSlide](../masterhandoutslide), [StyleColorEffectiveData](../stylecoloreffectivedata)) |  |
-| [resolveStyledColors](resolvestyledcolors)([BaseSlide](../baseslide), [StyleColorEffectiveData](../stylecoloreffectivedata)) |  |
-| [resolveStyledColors](resolvestyledcolors)([LayoutSlide](../layoutslide), [StyleColorEffectiveData](../stylecoloreffectivedata)) |  |
-| [resolveStyledColors](resolvestyledcolors)([Slide](../slide), [StyleColorEffectiveData](../stylecoloreffectivedata)) |  |
-| [resolveStyledColors](resolvestyledcolors)([MasterSlide](../masterslide), [StyleColorEffectiveData](../stylecoloreffectivedata)) |  |
-| [resolveStyledColors](resolvestyledcolors)([NotesSlide](../notesslide), [StyleColorEffectiveData](../stylecoloreffectivedata)) |  |
-| [resolveStyledColors](resolvestyledcolors)([MasterNotesSlide](../masternotesslide), [StyleColorEffectiveData](../stylecoloreffectivedata)) |  |

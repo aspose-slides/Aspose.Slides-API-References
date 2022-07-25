@@ -32,4 +32,3 @@ url: /php-java/reflectioneffectivedata/
 | [getSkewVertical](getskewvertical)() | Specifies the vertical skew angle. Read-only double. |
 | [getStartPosAlpha](getstartposalpha)() | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read-only float. |
 | [getStartReflectionOpacity](getstartreflectionopacity)() | Starting reflection opacity. (percents). Read-only float. |
-| [getStringData](getstringdata)() |  |

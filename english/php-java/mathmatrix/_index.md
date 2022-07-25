@@ -21,14 +21,6 @@ Example:
   $matrix->set_Item(0, 0, new MathematicalText("item.1.1"));
 ```
 
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-| c_defaultHorizontalAlignment | 2 | Default horizontal alignment of columns |
-| c_defaultVerticalAlignment | 2 | Default vertical alignment of the matrix respect to surrounding text. |
-
-
 ## Constructors
 
 | Name | Description |

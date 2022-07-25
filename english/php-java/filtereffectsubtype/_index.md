@@ -16,6 +16,7 @@ url: /php-java/filtereffectsubtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| None | 0 |  |
 | Across | 1 |  |
 | Down | 2 |  |
 | DownLeft | 3 |  |
@@ -29,7 +30,6 @@ url: /php-java/filtereffectsubtype/
 | InHorizontal | 11 |  |
 | InVertical | 12 |  |
 | Left | 13 |  |
-| None | 0 |  |
 | Out | 14 |  |
 | OutHorizontal | 15 |  |
 | OutVertical | 16 |  |

@@ -16,13 +16,13 @@ url: /php-java/svgcoordinateunit/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Inch | 0 | Inch |
 | Centimeter | 1 | Centimeter. |
+| Millimeter | 2 | Millimeter. |
+| Point | 3 | Point (1/72 of inch), |
+| Pica | 4 | Pica (1/6 of inch). |
 | Em | 5 | Em size of a font of containing element. |
 | Ex | 6 | Ex size (size of lowercase letter, usualy "x") of font of containing element. |
-| Inch | 0 | Inch |
-| Millimeter | 2 | Millimeter. |
-| Percent | 8 | Percent. |
-| Pica | 4 | Pica (1/6 of inch). |
 | Pixel | 7 | Pixel size. |
-| Point | 3 | Point (1/72 of inch), |
+| Percent | 8 | Percent. |
 

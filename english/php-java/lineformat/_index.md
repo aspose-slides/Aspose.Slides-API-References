@@ -12,13 +12,6 @@ url: /php-java/lineformat/
  Represents format of a line.
  
 
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-| DEFAULT_WIDTH_VALUE | NaN |  |
-
-
 ## Methods
 
 | Name | Description |

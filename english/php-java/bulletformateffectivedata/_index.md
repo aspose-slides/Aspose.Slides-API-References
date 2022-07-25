@@ -18,11 +18,9 @@ url: /php-java/bulletformateffectivedata/
 
 | Name | Description |
 | --- | --- |
-| [getActualBulletValue](getactualbulletvalue)() | Returns actual bullet value for parent paragraph. Read-only String. |
 | [getBulletChar](getbulletchar)() | Returns the bullet string of a paragraph. Read-only String. |
 | [getChar](getchar)() | Returns the bullet char of a paragraph. Read-only char. |
 | [getColor](getcolor)() | Returns the color of a bullet. Read-only Color( #getColor). |
-| [getFillFormat](getfillformat)() | Returns the bullet fill format of a paragraph. Read-only IFillFormatEffectiveData. |
 | [getFont](getfont)() | Returns the bullet font of a paragraph. Read-only IFontData. |
 | [getHeight](getheight)() | Returns the bullet height of a paragraph. Read-only float. |
 | [getNumberedBulletStartWith](getnumberedbulletstartwith)() | Returns the first number which is used for group of numbered bullets. Read-only short. |

@@ -16,7 +16,7 @@ url: /php-java/mathtopbotpositions/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bottom | 2 | Bottom |
 | NotDefined | 0 | Not defined |
 | Top | 1 | Top |
+| Bottom | 2 | Bottom |
 

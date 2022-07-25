@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/metered/metered/
 ---
 
-## Metered() constructor
-
+## Metered()  constructor
 Initializes a new instance of this class.
- 
+
 
 ---
 

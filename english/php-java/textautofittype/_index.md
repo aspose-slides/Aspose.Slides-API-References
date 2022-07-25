@@ -16,8 +16,8 @@ url: /php-java/textautofittype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 | Not defined. |
 | None | 0 | No autofit. |
 | Normal | 1 | Normal autofit. Font size and line spacing will be reduced to fit the shape. |
-| NotDefined | -1 | Not defined. |
 | Shape | 2 | Shape autofit. Shape size will be changed to fit the text. |
 

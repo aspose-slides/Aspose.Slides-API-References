@@ -16,9 +16,9 @@ url: /php-java/transitioncornerandcenterdirectiontype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Center | 4 |  |
 | LeftDown | 0 |  |
 | LeftUp | 1 |  |
 | RightDown | 2 |  |
 | RightUp | 3 |  |
+| Center | 4 |  |
 

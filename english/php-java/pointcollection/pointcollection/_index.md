@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/pointcollection/pointcollection/
 ---
 
-## PointCollection() constructor
+## PointCollection()  constructor
 
 
- 
 
 ---
 

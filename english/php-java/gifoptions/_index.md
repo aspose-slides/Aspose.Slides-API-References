@@ -12,14 +12,6 @@ url: /php-java/gifoptions/
  Represents GIF exporting options.
  
 
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-| DefaultDelayValue | 1000 | Default value for property ( #getDefaultDelay/ #setDefaultDelay(int)) |
-| DefaultTransitionFps | 25 | Default TransitionFps |
-
-
 ## Constructors
 
 | Name | Description |

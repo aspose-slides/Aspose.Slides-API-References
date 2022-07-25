@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/resourceloadingadapter/resourceloadingadapter/
 ---
 
-## ResourceLoadingAdapter(com.aspose.slides.HtmlResourceResolver) constructor
+## ResourceLoadingAdapter([HtmlResourceResolver](../../htmlresourceresolver) resolver)  constructor
 
 
- 
 
 ---
 

@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/fontsubstrulecollection/fontsubstrulecollection/
 ---
 
-## FontSubstRuleCollection() constructor
+## FontSubstRuleCollection()  constructor
 
 
- 
 
 ---
 

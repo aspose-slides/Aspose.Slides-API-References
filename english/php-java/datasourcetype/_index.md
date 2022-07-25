@@ -16,7 +16,7 @@ url: /php-java/datasourcetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| DoubleLiterals | 2 | Use fast-access double variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values. |
-| StringLiterals | 1 | Use fast-access string variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values. |
 | Worksheet | 0 | Use CellXls objects for storing XValue, YValue, Value or BubbleSize of data point in worksheet. |
+| StringLiterals | 1 | Use fast-access string variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values. |
+| DoubleLiterals | 2 | Use fast-access double variable for storing XValue, YValue, Value or BubbleSize of data point. Worksheet is NOT used for storing values. |
 

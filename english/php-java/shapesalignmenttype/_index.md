@@ -16,12 +16,12 @@ url: /php-java/shapesalignmenttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AlignBottom | 5 | Align bottom |
-| AlignCenter | 2 | Align center |
 | AlignLeft | 0 | Align left |
-| AlignMiddle | 4 | Align middle |
 | AlignRight | 1 | Align right |
+| AlignCenter | 2 | Align center |
 | AlignTop | 3 | Align top |
+| AlignMiddle | 4 | Align middle |
+| AlignBottom | 5 | Align bottom |
 | DistributeHorizontally | 6 | Distribute horizontally |
 | DistributeVertically | 7 | Distribute vertically |
 

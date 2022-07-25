@@ -7,18 +7,16 @@ weight: 10
 url: /php-java/point2ddouble/point2ddouble/
 ---
 
-## Point2DDouble() constructor
+## Point2DDouble()  constructor
 
 
- 
 
 ---
 
 
-## Point2DDouble(double, double) constructor
+## Point2DDouble(double x, double y)  constructor
 
 
- 
 
 ---
 

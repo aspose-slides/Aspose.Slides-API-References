@@ -16,12 +16,12 @@ url: /php-java/transitioneightdirectiontype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Down | 6 |  |
-| Left | 4 |  |
 | LeftDown | 0 |  |
 | LeftUp | 1 |  |
-| Right | 7 |  |
 | RightDown | 2 |  |
 | RightUp | 3 |  |
+| Left | 4 |  |
 | Up | 5 |  |
+| Down | 6 |  |
+| Right | 7 |  |
 

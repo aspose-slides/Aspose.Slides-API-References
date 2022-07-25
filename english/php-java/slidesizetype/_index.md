@@ -16,21 +16,21 @@ url: /php-java/slidesizetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| A3Paper | 8 | A3 |
+| OnScreen | 0 | On screen 4x3 |
+| LetterPaper | 1 | Letter |
 | A4Paper | 2 | A4 |
-| B4IsoPaper | 9 | B4 ISO |
-| B4JisPaper | 11 | B4 JIS |
-| B5IsoPaper | 10 | B5 ISO |
-| B5JisPaper | 12 | B5 JIS |
+| Slide35mm | 3 | Slide 35mm |
+| Overhead | 4 | Overhead |
 | Banner | 5 | Banner |
 | Custom | 6 | Custom size |
-| HagakiCard | 13 | Hagaki card |
 | Ledger | 7 | Ledger |
-| LetterPaper | 1 | Letter |
-| OnScreen | 0 | On screen 4x3 |
-| OnScreen16x10 | 15 | On Screen 16x10 |
+| A3Paper | 8 | A3 |
+| B4IsoPaper | 9 | B4 ISO |
+| B5IsoPaper | 10 | B5 ISO |
+| B4JisPaper | 11 | B4 JIS |
+| B5JisPaper | 12 | B5 JIS |
+| HagakiCard | 13 | Hagaki card |
 | OnScreen16x9 | 14 | On screen 16x9 |
-| Overhead | 4 | Overhead |
-| Slide35mm | 3 | Slide 35mm |
+| OnScreen16x10 | 15 | On Screen 16x10 |
 | Widescreen | 16 | Widescreen |
 

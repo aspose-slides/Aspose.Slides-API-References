@@ -7,16 +7,17 @@ weight: 10
 url: /php-java/fontdata/fontdata/
 ---
 
-## FontData(java.lang.String) constructor
+## FontData(String fontName)  constructor
 
-Creates a new FontData object with the specified font name.
+ Creates a new FontData object with the specified font name.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| fontName | Font name. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| fontName | String | Font name. |
+
 
 ---
 

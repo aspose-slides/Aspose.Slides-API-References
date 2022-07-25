@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/fontdatafactory/fontdatafactory/
 ---
 
-## FontDataFactory() constructor
+## FontDataFactory()  constructor
 
 
- 
 
 ---
 

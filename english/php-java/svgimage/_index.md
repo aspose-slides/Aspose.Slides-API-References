@@ -19,12 +19,12 @@ url: /php-java/svgimage/
 | [SvgImage](svgimage)(byte[]) | Creates new SvgImage object. |
 | [SvgImage](svgimage)(String) | Creates new SvgImage object. |
 | [SvgImage](svgimage)(InputStream) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(byte[], HtmlExternalResolver, String) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(byte[], ExternalResourceResolver, String) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(String, HtmlExternalResolver, String) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(String, ExternalResourceResolver, String) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(InputStream, HtmlExternalResolver, String) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(InputStream, ExternalResourceResolver, String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(byte[], [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(byte[], [ExternalResourceResolver](../externalresourceresolver), String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(InputStream, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates new SvgImage object. |
+| [SvgImage](svgimage)(InputStream, [ExternalResourceResolver](../externalresourceresolver), String) | Creates new SvgImage object. |
 
 ## Methods
 

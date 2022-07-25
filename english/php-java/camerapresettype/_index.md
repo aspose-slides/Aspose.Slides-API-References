@@ -16,6 +16,7 @@ url: /php-java/camerapresettype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 |  |
 | IsometricBottomDown | 0 |  |
 | IsometricBottomUp | 1 |  |
 | IsometricLeftDown | 2 |  |
@@ -54,7 +55,6 @@ url: /php-java/camerapresettype/
 | LegacyPerspectiveTop | 35 |  |
 | LegacyPerspectiveTopLeft | 36 |  |
 | LegacyPerspectiveTopRight | 37 |  |
-| NotDefined | -1 |  |
 | ObliqueBottom | 38 |  |
 | ObliqueBottomLeft | 39 |  |
 | ObliqueBottomRight | 40 |  |

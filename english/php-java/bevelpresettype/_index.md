@@ -16,6 +16,7 @@ url: /php-java/bevelpresettype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 |  |
 | Angle | 0 |  |
 | ArtDeco | 1 |  |
 | Circle | 2 |  |
@@ -24,7 +25,6 @@ url: /php-java/bevelpresettype/
 | Cross | 5 |  |
 | Divot | 6 |  |
 | HardEdge | 7 |  |
-| NotDefined | -1 |  |
 | RelaxedInset | 8 |  |
 | Riblet | 9 |  |
 | Slope | 10 |  |

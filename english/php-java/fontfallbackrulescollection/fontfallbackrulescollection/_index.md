@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/fontfallbackrulescollection/fontfallbackrulescollection/
 ---
 
-## FontFallBackRulesCollection() constructor
+## FontFallBackRulesCollection()  constructor
 
 
- 
 
 ---
 

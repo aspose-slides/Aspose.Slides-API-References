@@ -16,13 +16,13 @@ url: /php-java/motionpathpointstype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| None | 0 |  |
 | Auto | 1 |  |
 | Corner | 2 |  |
+| Straight | 3 |  |
+| Smooth | 4 |  |
 | CurveAuto | 5 |  |
 | CurveCorner | 6 |  |
-| CurveSmooth | 8 |  |
 | CurveStraight | 7 |  |
-| None | 0 |  |
-| Smooth | 4 |  |
-| Straight | 3 |  |
+| CurveSmooth | 8 |  |
 

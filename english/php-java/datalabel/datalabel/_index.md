@@ -7,16 +7,17 @@ weight: 10
 url: /php-java/datalabel/datalabel/
 ---
 
-## DataLabel(com.aspose.slides.IChartDataPoint) constructor
+## DataLabel([ChartDataPoint](../../chartdatapoint) parentImmediate)  constructor
 
-Creates a new instance of DataLabel class.
+ Creates a new instance of DataLabel class.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| parentImmediate | Parent ChartDataPoint. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| parentImmediate | [ChartDataPoint](../../chartdatapoint) | Parent ChartDataPoint. |
+
 
 ---
 

@@ -17,7 +17,5 @@ url: /php-java/alphareplaceeffectivedata/
 
 | Name | Description |
 | --- | --- |
-| [apply](apply)([TrueColorBitmap](../truecolorbitmap)) |  |
 | [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
-| [getAlpha](getalpha)() | Returns a threshold. Read-only float. |
 | [getStringData](getstringdata)() |  |

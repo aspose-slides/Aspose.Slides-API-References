@@ -16,6 +16,6 @@ url: /php-java/picturefillmode/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Stretch | 1 |  |
 | Tile | 0 |  |
+| Stretch | 1 |  |
 

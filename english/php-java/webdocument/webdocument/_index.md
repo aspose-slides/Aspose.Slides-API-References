@@ -7,16 +7,17 @@ weight: 10
 url: /php-java/webdocument/webdocument/
 ---
 
-## WebDocument(com.aspose.slides.WebDocumentOptions) constructor
+## WebDocument([WebDocumentOptions](../../webdocumentoptions) options)  constructor
 
-WebDocument constructor.
+  WebDocument constructor.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| options | Options set for the document. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [WebDocumentOptions](../../webdocumentoptions) | Options set for the document. |
+
 
 ---
 

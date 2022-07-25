@@ -16,6 +16,6 @@ url: /php-java/categoryaxistype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Date | 1 | Specifies category axis is a date axis. |
 | Text | 0 | Specifies category axis is a text axis. |
+| Date | 1 | Specifies category axis is a date axis. |
 

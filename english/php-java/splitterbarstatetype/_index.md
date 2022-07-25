@@ -17,7 +17,7 @@ url: /php-java/splitterbarstatetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Maximized | 2 | The primary region occupies the greatest amount of the viewing area allowed by the application. |
 | Minimized | 0 | The primary region occupies the least amount of the viewing area allowed by the application. |
 | Restored | 1 | The primary region has a specific intermediate size. |
+| Maximized | 2 | The primary region occupies the greatest amount of the viewing area allowed by the application. |
 

@@ -7,54 +7,60 @@ weight: 10
 url: /php-java/cellinvalidformulaexception/cellinvalidformulaexception/
 ---
 
-## CellInvalidFormulaException() constructor
+## CellInvalidFormulaException()  constructor
 
-Initializes a new instance of the CellInvalidFormulaException class.
+ Initializes a new instance of the  CellInvalidFormulaException class.
  
+
 
 ---
 
 
-## CellInvalidFormulaException(java.lang.String) constructor
+## CellInvalidFormulaException(String message)  constructor
 
-Initializes a new instance of the CellInvalidFormulaException class with a specified error message.
+ Initializes a new instance of the  CellInvalidFormulaException class with a specified error message.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | A string that describes the error. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+
 
 ---
 
 
-## CellInvalidFormulaException(java.lang.String, java.lang.RuntimeException) constructor
+## CellInvalidFormulaException(String message, RuntimeException innerException)  constructor
 
-Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a reference to the inner exception that is the cause of this exception.
+ Initializes a new instance of the  CellInvalidFormulaException class with a specified error message
+ and a reference to the inner exception that is the cause of this exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | A string that describes the error. |
-| innerException | The exception that is the cause of the current exception. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+| innerException | RuntimeException | The exception that is the cause of the current exception. |
+
 
 ---
 
 
-## CellInvalidFormulaException(java.lang.String, java.lang.String) constructor
+## CellInvalidFormulaException(String message, String reference)  constructor
 
-Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a cell reference that contains the invalid formula.
+ Initializes a new instance of the  CellInvalidFormulaException class with a specified error message
+ and a cell reference that contains the invalid formula.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | A string that describes the error. |
-| reference | A string that describes a reference to the inner exception |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+| reference | String | A string that describes a reference to the inner exception |
+
 
 ---
 

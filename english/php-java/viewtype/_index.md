@@ -16,13 +16,13 @@ url: /php-java/viewtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| HandoutView | 4 | Handout View |
 | NotDefined | 0 | Value is not defined |
-| NotesMasterView | 5 | Notes Master View |
-| NotesView | 3 | Notes View |
-| OutlineView | 6 | Outline View |
+| SlideView | 1 | Normal Slide View |
 | SlideMasterView | 2 | Slide Master View |
+| NotesView | 3 | Notes View |
+| HandoutView | 4 | Handout View |
+| NotesMasterView | 5 | Notes Master View |
+| OutlineView | 6 | Outline View |
 | SlideSorterView | 7 | Slide Sorter View |
 | SlideThumbnailView | 8 | Slide Thumbnail View |
-| SlideView | 1 | Normal Slide View |
 

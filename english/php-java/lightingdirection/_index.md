@@ -16,13 +16,13 @@ url: /php-java/lightingdirection/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 |  |
+| TopLeft | 0 |  |
+| Top | 1 |  |
+| TopRight | 2 |  |
+| Right | 3 |  |
+| BottomRight | 4 |  |
 | Bottom | 5 |  |
 | BottomLeft | 6 |  |
-| BottomRight | 4 |  |
 | Left | 7 |  |
-| NotDefined | -1 |  |
-| Right | 3 |  |
-| Top | 1 |  |
-| TopLeft | 0 |  |
-| TopRight | 2 |  |
 

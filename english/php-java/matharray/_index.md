@@ -21,27 +21,27 @@ Example:
 
 | Name | Description |
 | --- | --- |
-| [MathArray](matharray)(MathLeftSubSuperscriptElement) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathLimit) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathMatrix) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathBlock) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathRadical) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathArray) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathDelimiter) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathNaryOperator) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathAccent) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathBorderBox) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathGroupingCharacter) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathBar) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathSuperscriptElement) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathFunction) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathSubscriptElement) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathFraction) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(BaseScript) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathematicalText) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathElementBase) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathBox) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)(MathRightSubSuperscriptElement) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathLimit](../mathlimit)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathMatrix](../mathmatrix)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathBlock](../mathblock)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathRadical](../mathradical)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathArray](../matharray)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathDelimiter](../mathdelimiter)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathNaryOperator](../mathnaryoperator)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathAccent](../mathaccent)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathBorderBox](../mathborderbox)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathBar](../mathbar)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathFunction](../mathfunction)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathSubscriptElement](../mathsubscriptelement)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathFraction](../mathfraction)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([BaseScript](../basescript)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathematicalText](../mathematicaltext)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathElementBase](../mathelementbase)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathBox](../mathbox)) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement>) | Creates a mathematical array and places specified elements in it |
 
 ## Methods

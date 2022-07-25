@@ -16,9 +16,9 @@ url: /php-java/gradientshape/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Linear | 0 |  |
 | NotDefined | -1 |  |
-| Path | 3 |  |
-| Radial | 2 |  |
+| Linear | 0 |  |
 | Rectangle | 1 |  |
+| Radial | 2 |  |
+| Path | 3 |  |
 

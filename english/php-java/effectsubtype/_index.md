@@ -16,6 +16,7 @@ url: /php-java/effectsubtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| None | 0 |  |
 | Across | 1 |  |
 | Bottom | 2 |  |
 | BottomLeft | 3 |  |
@@ -23,6 +24,8 @@ url: /php-java/effectsubtype/
 | Center | 5 |  |
 | Clockwise | 6 |  |
 | CounterClockwise | 7 |  |
+| GradualAndCycleClockwise | 8 |  |
+| GradualAndCycleCounterClockwise | 9 |  |
 | Down | 10 |  |
 | DownLeft | 11 |  |
 | DownRight | 12 |  |
@@ -33,8 +36,6 @@ url: /php-java/effectsubtype/
 | FontStrikethrough | 17 |  |
 | FontUnderline | 18 |  |
 | Gradual | 19 |  |
-| GradualAndCycleClockwise | 8 |  |
-| GradualAndCycleCounterClockwise | 9 |  |
 | Horizontal | 20 |  |
 | HorizontalIn | 21 |  |
 | HorizontalOut | 22 |  |
@@ -44,7 +45,6 @@ url: /php-java/effectsubtype/
 | InSlightly | 26 |  |
 | Instant | 27 |  |
 | Left | 28 |  |
-| None | 0 |  |
 | OrdinalMask | 29 |  |
 | Out | 30 |  |
 | OutBottom | 31 |  |

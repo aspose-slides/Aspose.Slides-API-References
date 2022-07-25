@@ -17,7 +17,7 @@ url: /php-java/paragraph/
 | Name | Description |
 | --- | --- |
 | [Paragraph](paragraph)() | Initializes a new instance of the Paragraph class with default properties. |
-| [Paragraph](paragraph)(Paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
+| [Paragraph](paragraph)([Paragraph](../paragraph)) | Copy constructor that initializes a new instance of a Paragraph class. |
 
 ## Methods
 

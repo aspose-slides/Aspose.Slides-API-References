@@ -9,10 +9,3 @@ url: /php-java/templateenginestub/
 
 ## TemplateEngineStub class
 
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [addTemplate](addtemplate)(String, String, Type) |  |
-| [compile](compile)(String, Object) |  |

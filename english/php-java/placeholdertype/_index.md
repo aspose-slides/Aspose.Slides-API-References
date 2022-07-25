@@ -16,20 +16,20 @@ url: /php-java/placeholdertype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Title | 0 | Title. |
 | Body | 1 | Body. |
 | CenteredTitle | 2 | Centered Title. |
-| Chart | 9 | Chart. |
-| ClipArt | 11 | Clip Art. |
+| Subtitle | 3 | Subtitle. |
 | DateAndTime | 4 | Date and Time. |
-| Diagram | 12 | Diagram. |
+| SlideNumber | 5 | Slide Number. |
 | Footer | 6 | Footer. |
 | Header | 7 | Header. |
-| Media | 13 | Media. |
 | Object | 8 | Object. |
-| Picture | 15 | Picture. |
-| SlideImage | 14 | Slide Image. |
-| SlideNumber | 5 | Slide Number. |
-| Subtitle | 3 | Subtitle. |
+| Chart | 9 | Chart. |
 | Table | 10 | Table. |
-| Title | 0 | Title. |
+| ClipArt | 11 | Clip Art. |
+| Diagram | 12 | Diagram. |
+| Media | 13 | Media. |
+| SlideImage | 14 | Slide Image. |
+| Picture | 15 | Picture. |
 

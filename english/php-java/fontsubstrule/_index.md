@@ -16,8 +16,8 @@ url: /php-java/fontsubstrule/
 
 | Name | Description |
 | --- | --- |
-| [FontSubstRule](fontsubstrule)(FontData, FontData) | Creates new instance. |
-| [FontSubstRule](fontsubstrule)(FontData, FontData, int) | Creates new instance. |
+| [FontSubstRule](fontsubstrule)([FontData](../fontdata), [FontData](../fontdata)) | Creates new instance. |
+| [FontSubstRule](fontsubstrule)([FontData](../fontdata), [FontData](../fontdata), int) | Creates new instance. |
 
 ## Methods
 

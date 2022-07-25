@@ -16,6 +16,6 @@ url: /php-java/transitionshredpattern/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Rectangle | 1 | Small rectangles |
 | Strip | 0 | Vertical strips |
+| Rectangle | 1 | Small rectangles |
 

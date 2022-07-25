@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/pptxoptions/pptxoptions/
 ---
 
-## PptxOptions() constructor
+## PptxOptions()  constructor
 
-Creates new instance of PptxOptions
+ Creates new instance of PptxOptions
  
+
 
 ---
 

@@ -7,26 +7,28 @@ weight: 10
 url: /php-java/point/point/
 ---
 
-## Point() constructor
+## Point()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 
 
-## Point(float, java.lang.Object, java.lang.String) constructor
+## Point(float time, Object value, String formula)  constructor
 
-Create animation point with time, value and formula.
+ Create animation point with time, value and formula.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| time | Time value. |
-| value | Point value. |
-| formula | Formula. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| time | float | Time value. |
+| value | Object | Point value. |
+| formula | String | Formula. |
+
 
 ---
 

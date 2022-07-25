@@ -24,27 +24,27 @@ Example:
 
 | Name | Description |
 | --- | --- |
-| [MathBox](mathbox)(MathLeftSubSuperscriptElement) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathLimit) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathMatrix) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathBlock) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathRadical) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathArray) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathDelimiter) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathNaryOperator) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathAccent) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathBorderBox) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathGroupingCharacter) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathBar) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathSuperscriptElement) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathFunction) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathSubscriptElement) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathFraction) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(BaseScript) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathematicalText) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathElementBase) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathBox) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)(MathRightSubSuperscriptElement) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathLimit](../mathlimit)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathMatrix](../mathmatrix)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathBlock](../mathblock)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathRadical](../mathradical)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathArray](../matharray)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathDelimiter](../mathdelimiter)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathNaryOperator](../mathnaryoperator)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathAccent](../mathaccent)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathBorderBox](../mathborderbox)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathBar](../mathbar)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathFunction](../mathfunction)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathFraction](../mathfraction)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([BaseScript](../basescript)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathematicalText](../mathematicaltext)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathElementBase](../mathelementbase)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathBox](../mathbox)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
 
 ## Methods
 

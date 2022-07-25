@@ -23,17 +23,3 @@ url: /php-java/chartseriesgroupcollection/
  "Series group properties" in ChartSeriesGroup class is read/write.
  Each of "series group properties" can have a read-only projection in ChartSeries class.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [copyTo](copyto)(Array, int) |  |
-| [getParent_Immediate](getparent_immediate)() |  |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)([ChartSeries](../chartseries)) | Gets the series group by series. |
-| [get_Item](get_item)(int) | Gets the series group by index. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [size](size)() | Returns count. Read-only int. |

@@ -12,33 +12,13 @@ url: /php-java/hyperlink/
  Represents a hyperlink.
  
 
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-| JumpEndShowActionString | ppaction://hlinkshowjump?jump=endshow |  |
-| JumpFirstSlideActionString | ppaction://hlinkshowjump?jump=firstslide |  |
-| JumpLastSlideActionString | ppaction://hlinkshowjump?jump=lastslide |  |
-| JumpLastViewedSlideActionString | ppaction://hlinkshowjump?jump=lastslideviewed |  |
-| JumpNextSlideActionString | ppaction://hlinkshowjump?jump=nextslide |  |
-| JumpPreviousSlideActionString | ppaction://hlinkshowjump?jump=previousslide |  |
-| JumpSpecificSlideActionString | ppaction://hlinksldjump |  |
-| NoActionActionString | ppaction://noaction |  |
-| OpenFileActionString | ppaction://hlinkfile |  |
-| OpenPresentationActionString | ppaction://hlinkpres |  |
-| StartCustomSlideShowActionString | ppaction://customshow |  |
-| StartMacroActionString | ppaction://macro?name= |  |
-| StartProgramActionString | ppaction://program |  |
-| StartStopMediaActionString | ppaction://media |  |
-
-
 ## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Hyperlink](hyperlink)(String) | Creates an instance of a hyperlink. |
-| [Hyperlink](hyperlink)(Slide) | Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
-| [Hyperlink](hyperlink)(Hyperlink, String, String, boolean, boolean, boolean) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
+| [Hyperlink](hyperlink)([Slide](../slide)) | Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
+| [Hyperlink](hyperlink)([Hyperlink](../hyperlink), String, String, boolean, boolean, boolean) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
 
 ## Methods
 

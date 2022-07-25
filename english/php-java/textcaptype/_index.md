@@ -16,8 +16,8 @@ url: /php-java/textcaptype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| All | 2 |  |
-| None | 0 |  |
 | NotDefined | -1 |  |
+| None | 0 |  |
 | Small | 1 |  |
+| All | 2 |  |
 

@@ -7,17 +7,18 @@ weight: 20
 url: /php-java/tab/tab/
 ---
 
-## Tab(double, int) constructor
+## Tab(double position, int align)  constructor
 
-Creates new Tab
+ Creates new Tab
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| position | Tab position. |
-| align | Align. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| position | double | Tab position. |
+| align | int | Align. |
+
 
 ---
 

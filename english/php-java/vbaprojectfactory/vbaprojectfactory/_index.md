@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/vbaprojectfactory/vbaprojectfactory/
 ---
 
-## VbaProjectFactory() constructor
+## VbaProjectFactory()  constructor
 
 
- 
 
 ---
 

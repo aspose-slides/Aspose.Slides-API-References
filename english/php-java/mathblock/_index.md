@@ -23,27 +23,27 @@ Example:
 | Name | Description |
 | --- | --- |
 | [MathBlock](mathblock)() | Initializes a new instance of the MathBlock class. |
-| [MathBlock](mathblock)(MathLeftSubSuperscriptElement) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathLimit) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathMatrix) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathBlock) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathRadical) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathArray) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathDelimiter) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathNaryOperator) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathAccent) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathBorderBox) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathGroupingCharacter) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathBar) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathSuperscriptElement) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathFunction) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathSubscriptElement) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathFraction) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(BaseScript) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathematicalText) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathElementBase) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathBox) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)(MathRightSubSuperscriptElement) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathLimit](../mathlimit)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathMatrix](../mathmatrix)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathBlock](../mathblock)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathRadical](../mathradical)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathArray](../matharray)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathDelimiter](../mathdelimiter)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathNaryOperator](../mathnaryoperator)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathAccent](../mathaccent)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathBorderBox](../mathborderbox)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathBar](../mathbar)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathFunction](../mathfunction)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathSubscriptElement](../mathsubscriptelement)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathFraction](../mathfraction)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([BaseScript](../basescript)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathematicalText](../mathematicaltext)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathElementBase](../mathelementbase)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathBox](../mathbox)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement>) | Creates a new mathematical block and puts specified elements in it |
 
 ## Methods

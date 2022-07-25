@@ -7,33 +7,35 @@ weight: 10
 url: /php-java/fontsubstrule/fontsubstrule/
 ---
 
-## FontSubstRule(com.aspose.slides.IFontData, com.aspose.slides.IFontData) constructor
+## FontSubstRule([FontData](../../fontdata) sourceFont, [FontData](../../fontdata) destFont)  constructor
 
-Creates new instance.
+ Creates new instance.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| sourceFont | Source font. |
-| destFont | Destination font. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceFont | [FontData](../fontdata) | Source font. |
+| destFont | [FontData](../../fontdata) | Destination font. |
+
 
 ---
 
 
-## FontSubstRule(com.aspose.slides.IFontData, com.aspose.slides.IFontData, int) constructor
+## FontSubstRule([FontData](../../fontdata) sourceFont, [FontData](../../fontdata) destFont, int fontSubstRule)  constructor
 
-Creates new instance.
+ Creates new instance.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| sourceFont | Source font. |
-| destFont | Destination font. |
-| fontSubstRule | Font subst rule. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| sourceFont | [FontData](../fontdata) | Source font. |
+| destFont | [FontData](../fontdata) | Destination font. |
+| fontSubstRule | int | Font subst rule. |
+
 
 ---
 

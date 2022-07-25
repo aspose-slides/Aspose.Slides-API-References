@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/charttypecharacterizer/charttypecharacterizer/
 ---
 
-## ChartTypeCharacterizer() constructor
+## ChartTypeCharacterizer()  constructor
 
 
- 
 
 ---
 

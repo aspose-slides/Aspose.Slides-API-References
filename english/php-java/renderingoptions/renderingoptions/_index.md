@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/renderingoptions/renderingoptions/
 ---
 
-## RenderingOptions() constructor
+## RenderingOptions()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 

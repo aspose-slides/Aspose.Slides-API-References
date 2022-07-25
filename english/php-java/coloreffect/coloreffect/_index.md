@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/coloreffect/coloreffect/
 ---
 
-## ColorEffect() constructor
+## ColorEffect()  constructor
 
-Creates new instance.
+ Creates new instance.
  
+
 
 ---
 

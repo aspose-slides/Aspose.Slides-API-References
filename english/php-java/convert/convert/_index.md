@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/convert/convert/
 ---
 
-## Convert() constructor
+## Convert()  constructor
 
 
- 
 
 ---
 

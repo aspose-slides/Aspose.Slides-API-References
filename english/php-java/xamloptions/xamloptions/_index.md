@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/xamloptions/xamloptions/
 ---
 
-## XamlOptions() constructor
+## XamlOptions()  constructor
 
-Creates the XamlOptions instance.
+ Creates the XamlOptions instance.
  
+
 
 ---
 

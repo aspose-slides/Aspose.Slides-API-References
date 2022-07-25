@@ -16,6 +16,6 @@ url: /php-java/zoomlayout/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| FixedLayout | 1 | Specifies the layout with user-defined Zoom positioning. |
 | GridLayout | 0 | Specifies the layout as a grid layout for a list of objects. |
+| FixedLayout | 1 | Specifies the layout with user-defined Zoom positioning. |
 

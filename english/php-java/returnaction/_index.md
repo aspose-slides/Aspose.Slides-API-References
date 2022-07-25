@@ -16,6 +16,6 @@ url: /php-java/returnaction/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Abort | 1 | Operation should be aborted. |
 | Continue | 0 | Operation should be continued. |
+| Abort | 1 | Operation should be aborted. |
 

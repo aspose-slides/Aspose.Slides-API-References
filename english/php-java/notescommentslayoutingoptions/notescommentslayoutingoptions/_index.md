@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/notescommentslayoutingoptions/notescommentslayoutingoptions/
 ---
 
-## NotesCommentsLayoutingOptions() constructor
+## NotesCommentsLayoutingOptions()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 

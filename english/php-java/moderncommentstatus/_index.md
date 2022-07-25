@@ -16,8 +16,8 @@ url: /php-java/moderncommentstatus/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Active | 1 | Active. |
-| Closed | 3 | Closed. |
 | NotDefined | 0 | Not Defined. |
+| Active | 1 | Active. |
 | Resolved | 2 | Resolved. |
+| Closed | 3 | Closed. |
 

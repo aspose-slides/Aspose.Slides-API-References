@@ -7,18 +7,16 @@ weight: 10
 url: /php-java/point2dfloat/point2dfloat/
 ---
 
-## Point2DFloat() constructor
+## Point2DFloat()  constructor
 
 
- 
 
 ---
 
 
-## Point2DFloat(float, float) constructor
+## Point2DFloat(float x, float y)  constructor
 
 
- 
 
 ---
 

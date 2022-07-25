@@ -7,10 +7,11 @@ weight: 20
 url: /php-java/textframeformat/textframeformat/
 ---
 
-## TextFrameFormat() constructor
+## TextFrameFormat()  constructor
 
-Initializes a new instance of TextFrameFormat class.
+ Initializes a new instance of  TextFrameFormat class.
  
+
 
 ---
 

@@ -7,39 +7,36 @@ weight: 10
 url: /php-java/asposelicenseexception/asposelicenseexception/
 ---
 
-## AsposeLicenseException() constructor
-
+## AsposeLicenseException()  constructor
 Creates a new AsposeLicenseException.
- 
+
 
 ---
 
 
-## AsposeLicenseException(java.lang.String) constructor
-
+## AsposeLicenseException(String message)  constructor
 Creates a new AsposeLicenseException with a message string.
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | The message string. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | The message string. |
+
 
 ---
 
 
-## AsposeLicenseException(java.lang.String, java.lang.Throwable) constructor
-
+## AsposeLicenseException(String message, Throwable cause)  constructor
 Creates a new AsposeLicenseException with a message string and a reason.
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | The message string. |
-| cause | The reason that indirectly caused this exception. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | The message string. |
+| cause | Throwable | The reason that indirectly caused this exception. |
+
 
 ---
 

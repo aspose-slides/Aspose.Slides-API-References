@@ -16,6 +16,6 @@ url: /php-java/hyperlinkcolorsource/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| PortionFormat | 1 | Portion format. |
 | Styles | 0 | Styles. |
+| PortionFormat | 1 | Portion format. |
 

@@ -16,6 +16,7 @@ url: /php-java/materialpresettype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| NotDefined | -1 |  |
 | Clear | 0 |  |
 | DkEdge | 1 |  |
 | Flat | 2 |  |
@@ -25,7 +26,6 @@ url: /php-java/materialpresettype/
 | LegacyWireframe | 6 |  |
 | Matte | 7 |  |
 | Metal | 8 |  |
-| NotDefined | -1 |  |
 | Plastic | 9 |  |
 | Powder | 10 |  |
 | SoftEdge | 11 |  |

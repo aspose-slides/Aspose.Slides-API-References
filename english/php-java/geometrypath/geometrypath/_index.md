@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/geometrypath/geometrypath/
 ---
 
-## GeometryPath() constructor
+## GeometryPath()  constructor
 
-Creates instance of GeometryPath
+ Creates instance of GeometryPath
  
+
 
 ---
 

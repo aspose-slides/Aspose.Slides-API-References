@@ -16,9 +16,9 @@ url: /php-java/audioplaymodepreset/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AllSlides | 2 | Play on all slides. Please use ( IAudioFrame#getPlayAcrossSlides/ IAudioFrame#setPlayAcrossSlides(boolean)) property instead. This element is out of date since PowerPoint 2013. |
-| Auto | 0 | Play automatically. |
-| InClickSequence | 3 | Play automatically with a click. |
 | Mixed | -1 |  |
+| Auto | 0 | Play automatically. |
 | OnClick | 1 | Play only when the icon is clicked on. |
+| AllSlides | 2 | Play on all slides. Please use ( IAudioFrame#getPlayAcrossSlides/ IAudioFrame#setPlayAcrossSlides(boolean)) property instead. This element is out of date since PowerPoint 2013. |
+| InClickSequence | 3 | Play automatically with a click. |
 

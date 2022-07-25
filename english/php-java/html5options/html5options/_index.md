@@ -7,10 +7,9 @@ weight: 10
 url: /php-java/html5options/html5options/
 ---
 
-## Html5Options() constructor
+## Html5Options()  constructor
 
 
- 
 
 ---
 

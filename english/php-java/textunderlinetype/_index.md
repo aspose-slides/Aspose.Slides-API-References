@@ -16,23 +16,23 @@ url: /php-java/textunderlinetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Dashed | 7 |  |
-| DotDash | 11 |  |
-| DotDotDash | 13 |  |
-| Dotted | 5 |  |
-| Double | 3 |  |
-| DoubleWavy | 17 |  |
-| Heavy | 4 |  |
-| HeavyDashed | 8 |  |
-| HeavyDotDash | 12 |  |
-| HeavyDotDotDash | 14 |  |
-| HeavyDotted | 6 |  |
-| HeavyLongDashed | 10 |  |
-| HeavyWavy | 16 |  |
-| LongDashed | 9 |  |
-| None | 0 |  |
 | NotDefined | -1 |  |
-| Single | 2 |  |
-| Wavy | 15 |  |
+| None | 0 |  |
 | Words | 1 |  |
+| Single | 2 |  |
+| Double | 3 |  |
+| Heavy | 4 |  |
+| Dotted | 5 |  |
+| HeavyDotted | 6 |  |
+| Dashed | 7 |  |
+| HeavyDashed | 8 |  |
+| LongDashed | 9 |  |
+| HeavyLongDashed | 10 |  |
+| DotDash | 11 |  |
+| HeavyDotDash | 12 |  |
+| DotDotDash | 13 |  |
+| HeavyDotDotDash | 14 |  |
+| Wavy | 15 |  |
+| HeavyWavy | 16 |  |
+| DoubleWavy | 17 |  |
 

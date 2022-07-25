@@ -16,10 +16,10 @@ url: /php-java/textanchortype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bottom | 2 |  |
-| Center | 1 |  |
-| Distributed | 4 |  |
-| Justified | 3 |  |
 | NotDefined | -1 |  |
 | Top | 0 |  |
+| Center | 1 |  |
+| Bottom | 2 |  |
+| Justified | 3 |  |
+| Distributed | 4 |  |
 

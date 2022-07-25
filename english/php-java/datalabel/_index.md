@@ -16,7 +16,7 @@ url: /php-java/datalabel/
 
 | Name | Description |
 | --- | --- |
-| [DataLabel](datalabel)(ChartDataPoint) | Creates a new instance of DataLabel class. |
+| [DataLabel](datalabel)([ChartDataPoint](../chartdatapoint)) | Creates a new instance of DataLabel class. |
 
 ## Methods
 

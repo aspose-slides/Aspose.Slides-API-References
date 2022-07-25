@@ -16,8 +16,8 @@ url: /php-java/timeunittype/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| None | 0 | Values will displayed as is. |
 | Days | 1 | Specifies the chart data shall be shown in days. |
 | Months | 2 | Specifies the chart data shall be shown in months. |
-| None | 0 | Values will displayed as is. |
 | Years | 3 | Specifies the chart data shall be shown in years. |
 

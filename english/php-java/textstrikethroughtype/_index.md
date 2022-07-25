@@ -16,8 +16,8 @@ url: /php-java/textstrikethroughtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Double | 2 |  |
-| None | 0 |  |
 | NotDefined | -1 |  |
+| None | 0 |  |
 | Single | 1 |  |
+| Double | 2 |  |
 

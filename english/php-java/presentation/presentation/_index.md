@@ -7,31 +7,36 @@ weight: 10
 url: /php-java/presentation/presentation/
 ---
 
-## Presentation() constructor
+## Presentation()  constructor
 
-This constructor creates new presentation from scratch. Created presentation has one empty slide.
+ This constructor creates new presentation from scratch.
+ Created presentation has one empty slide.
  
+
 
 ---
 
 
-## Presentation(com.aspose.slides.LoadOptions) constructor
+## Presentation([LoadOptions](../../loadoptions) loadOptions)  constructor
 
-This constructor creates new presentation from scratch. Created presentation has one empty slide.
+ This constructor creates new presentation from scratch.
+ Created presentation has one empty slide.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| loadOptions | Additional load options. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| loadOptions | [LoadOptions](../../loadoptions) | Additional load options. |
+
 
 ---
 
 
-## Presentation(java.io.InputStream) constructor
+## Presentation(InputStream stream)  constructor
 
-This constructor is the primary mechanism for reading an existing Presentation.
+ This constructor is the primary mechanism for reading an existing Presentation.
+ 
 
  
 ```php
@@ -42,32 +47,35 @@ This constructor is the primary mechanism for reading an existing Presentation.
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| stream | Input stream. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Input stream. |
+
 
 ---
 
 
-## Presentation(java.io.InputStream, com.aspose.slides.LoadOptions) constructor
+## Presentation(InputStream stream, [LoadOptions](../../loadoptions) loadOptions)  constructor
 
-This constructor is the primary mechanism for reading an existing Presentation.
+ This constructor is the primary mechanism for reading an existing Presentation.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| stream | Input stream. |
-| loadOptions | Additional load options. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Input stream. |
+| loadOptions | [LoadOptions](../../loadoptions) | Additional load options. |
+
 
 ---
 
 
-## Presentation(java.lang.String) constructor
+## Presentation(String file)  constructor
 
-This constructor gets a source file path from which the contents of the Presentation are read.
+ This constructor gets a source file path from which
+ the contents of the Presentation are read.
+ 
 
  
 ```php
@@ -76,37 +84,39 @@ This constructor gets a source file path from which the contents of the Presenta
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| file | Input file. |
+| Name | Type | Description |
+| --- | --- | --- |
+| file | String | Input file. |
 
 ### Exception
 
 | Exception | Condition |
 | --- | --- |
  | com.aspose.ms.System.ArgumentException | Thrown when input file has zero length |
- 
+
 
 ---
 
 
-## Presentation(java.lang.String, com.aspose.slides.LoadOptions) constructor
+## Presentation(String file, [LoadOptions](../../loadoptions) loadOptions)  constructor
 
-This constructor gets a source file path from which the contents of the Presentation are read.
+ This constructor gets a source file path from which
+ the contents of the Presentation are read.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| file | Input file. |
-| loadOptions | Additional load options. |
+| Name | Type | Description |
+| --- | --- | --- |
+| file | String | Input file. |
+| loadOptions | [LoadOptions](../../loadoptions) | Additional load options. |
 
 ### Exception
 
 | Exception | Condition |
 | --- | --- |
  | ArgumentException | Thrown when input file has zero length |
- 
+
 
 ---
 

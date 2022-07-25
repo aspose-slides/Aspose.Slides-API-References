@@ -7,92 +7,149 @@ weight: 10
 url: /php-java/svgimage/svgimage/
 ---
 
-## SvgImage(byte[]) constructor
+## SvgImage(byte[] data)  constructor
 
-Creates new SvgImage object.
+ Creates new SvgImage object. 
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| data | Svg data. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| data | byte[] | Svg data. |
+
 
 ---
 
 
-## SvgImage(java.lang.String) constructor
+## SvgImage(String svgContent)  constructor
 
-Creates new SvgImage object.
+ Creates new SvgImage object. 
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| svgContent | Svg content. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| svgContent | String | Svg content. |
+
 
 ---
 
 
-## SvgImage(java.io.InputStream) constructor
+## SvgImage(InputStream stream)  constructor
 
-Creates new SvgImage object.
+ Creates new SvgImage object. 
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| stream | Svg stream. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Svg stream. |
+
 
 ---
 
 
-## SvgImage(byte[], com.aspose.slides.IExternalResourceResolver, java.lang.String) constructor
+## SvgImage(byte[] data, [HtmlExternalResolver](../../htmlexternalresolver) externalResResolver, String baseUri)  constructor
 
-Creates new SvgImage object.
+ Creates new SvgImage object. 
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| data | Svg data. |
-| externalResResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| baseUri | Base URI of the specified Svg. Used to resolve relative links. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| data | byte[] | Svg data. |
+| externalResResolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
+
 
 ---
 
 
-## SvgImage(java.lang.String, com.aspose.slides.IExternalResourceResolver, java.lang.String) constructor
+## SvgImage(byte[] data, [ExternalResourceResolver](../../externalresourceresolver) externalResResolver, String baseUri)  constructor
 
-Creates new SvgImage object.
+ Creates new SvgImage object. 
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| svgContent | Svg content. |
-| externalResResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| baseUri | Base URI of the specified Svg. Used to resolve relative links. |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| data | byte[] | Svg data. |
+| externalResResolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
+
 
 ---
 
 
-## SvgImage(java.io.InputStream, com.aspose.slides.IExternalResourceResolver, java.lang.String) constructor
+## SvgImage(String svgContent, [HtmlExternalResolver](../../htmlexternalresolver) externalResResolver, String baseUri)  constructor
 
-Creates new SvgImage object.
+ Creates new SvgImage object. 
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| stream | Svg stream. |
-| externalResResolver | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| baseUri | Base URI of the specified Svg. Used to resolve relative links. |
+| Name | Type | Description |
+| --- | --- | --- |
+| svgContent | String | Svg content. |
+| externalResResolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
+
+
+---
+
+
+## SvgImage(String svgContent, [ExternalResourceResolver](../../externalresourceresolver) externalResResolver, String baseUri)  constructor
+
+ Creates new SvgImage object. 
  
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| svgContent | String | Svg content. |
+| externalResResolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
+
+
+---
+
+
+## SvgImage(InputStream stream, [HtmlExternalResolver](../../htmlexternalresolver) externalResResolver, String baseUri)  constructor
+
+ Creates new SvgImage object. 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Svg stream. |
+| externalResResolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
+
+
+---
+
+
+## SvgImage(InputStream stream, [ExternalResourceResolver](../../externalresourceresolver) externalResResolver, String baseUri)  constructor
+
+ Creates new SvgImage object. 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| stream | InputStream | Svg stream. |
+| externalResResolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| baseUri | String | Base URI of the specified Svg. Used to resolve relative links. |
+
 
 ---
 

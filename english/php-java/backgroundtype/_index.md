@@ -17,6 +17,6 @@ url: /php-java/backgroundtype/
 | Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | -1 |  |
-| OwnBackground | 1 |  |
 | Themed | 0 |  |
+| OwnBackground | 1 |  |
 

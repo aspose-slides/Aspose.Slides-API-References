@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/xpsoptions/xpsoptions/
 ---
 
-## XpsOptions() constructor
+## XpsOptions()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 

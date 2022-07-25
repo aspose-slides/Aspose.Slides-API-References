@@ -7,10 +7,11 @@ weight: 10
 url: /php-java/pdfoptions/pdfoptions/
 ---
 
-## PdfOptions() constructor
+## PdfOptions()  constructor
 
-Default constructor.
+ Default constructor.
  
+
 
 ---
 

@@ -7,28 +7,30 @@ weight: 10
 url: /php-java/mathparagraph/mathparagraph/
 ---
 
-## MathParagraph() constructor
+## MathParagraph()  constructor
 
-Initializes a new instance of the MathParagraph class.
+ Initializes a new instance of the MathParagraph class.
+ 
 Example:
  
 ```php
   $mathParagraph = new MathParagraph();
 ```
- 
+
 
 ---
 
 
-## MathParagraph(com.aspose.slides.IMathBlock) constructor
+## MathParagraph([MathBlock](../../mathblock) mathBlock)  constructor
 
-Initializes a new instance of the MathParagraph class.
+ Initializes a new instance of the MathParagraph class.
+ 
 Example:
  
 ```php
   $mathParagraph = new MathParagraph(new MathBlock());
 ```
- 
+
 
 ---
 

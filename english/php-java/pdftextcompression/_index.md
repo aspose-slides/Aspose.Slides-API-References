@@ -16,6 +16,6 @@ url: /php-java/pdftextcompression/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Flate | 1 | Flate (ZIP) compression. |
 | None | 0 | No compression. |
+| Flate | 1 | Flate (ZIP) compression. |
 

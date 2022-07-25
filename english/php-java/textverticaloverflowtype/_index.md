@@ -16,8 +16,8 @@ url: /php-java/textverticaloverflowtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Clip | 2 |  |
-| Ellipsis | 1 |  |
 | NotDefined | -1 |  |
 | Overflow | 0 |  |
+| Ellipsis | 1 |  |
+| Clip | 2 |  |
 

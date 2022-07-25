@@ -7,39 +7,42 @@ weight: 10
 url: /php-java/odpreadexception/odpreadexception/
 ---
 
-## OdpReadException() constructor
+## OdpReadException()  constructor
 
-Default constructor
+ Default constructor
  
+
 
 ---
 
 
-## OdpReadException(java.lang.String) constructor
+## OdpReadException(String message)  constructor
 
-Constructor allowing a message to be added to this exception.
+ Constructor allowing a message to be added to this exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
 
 ---
 
 
-## OdpReadException(java.lang.String, java.lang.RuntimeException) constructor
+## OdpReadException(String message, RuntimeException exception)  constructor
 
-Constructor for an exception containing a message and an embedded exception.
+ Constructor for an exception containing a message and an embedded exception.
+ 
 
 ### Parameters
 
-| Parameter |Description |
-| --- | --- |
-| message | message |
-| exception | original exception |
- 
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | RuntimeException | original exception |
+
 
 ---
 

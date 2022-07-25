@@ -16,10 +16,10 @@ url: /php-java/tiffcompressiontypes/
 
 | Name | Value | Description |
 | --- | --- | --- |
+| Default | 0 | Specifies the default compression scheme (LZW). |
+| None | 1 | Specifies no compression. |
 | CCITT3 | 2 | Specifies the CCITT3 compression scheme. |
 | CCITT4 | 3 | Specifies the CCITT4 compression scheme. |
-| Default | 0 | Specifies the default compression scheme (LZW). |
 | LZW | 4 | Specifies the LZW compression scheme (Default). |
-| None | 1 | Specifies no compression. |
 | RLE | 5 | Specifies the RLE compression scheme. |
 

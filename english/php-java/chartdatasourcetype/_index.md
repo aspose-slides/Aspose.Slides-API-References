@@ -16,6 +16,6 @@ url: /php-java/chartdatasourcetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ExternalWorkbook | 1 | External data source. |
 | InternalWorkbook | 0 | Internal data source. |
+| ExternalWorkbook | 1 | External data source. |
 

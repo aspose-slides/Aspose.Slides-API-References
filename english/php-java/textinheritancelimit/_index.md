@@ -17,6 +17,6 @@ url: /php-java/textinheritancelimit/
 | Name | Value | Description |
 | --- | --- | --- |
 | All | 0 | Inherit all text properties. |
-| ParagraphOnly | 2 | Use only properties defined for paragraph. |
 | TextBox | 1 | Inherit only from TextFrameEx's style. |
+| ParagraphOnly | 2 | Use only properties defined for paragraph. |
 

@@ -17,6 +17,7 @@ url: /php-java/effecttype/
 | Name | Value | Description |
 | --- | --- | --- |
 | Appear | 0 | Appear effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
+| CurveUpDown | 1 | CurveUpDown effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
 | Ascend | 2 | Ascend effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
 | Blast | 3 | Blast effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None} |
 | Blinds | 4 | Blinds effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Horizontal EffectSubtype.Vertical} |
@@ -46,7 +47,6 @@ url: /php-java/effecttype/
 | ContrastingColor | 28 | ContrastingColor effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None} |
 | Crawl | 29 | Crawl effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Right EffectSubtype.Left EffectSubtype.Top EffectSubtype.Bottom} |
 | Credits | 30 | Credits effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
-| CurveUpDown | 1 | CurveUpDown effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
 | Custom | 31 | Custom effect. |
 | Darken | 32 | Darken effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None} |
 | Desaturate | 33 | Desaturate effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None} |
@@ -69,15 +69,11 @@ url: /php-java/effecttype/
 | GrowAndTurn | 50 | GrowAndTurn effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
 | GrowShrink | 51 | GrowShrink effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None} |
 | GrowWithColor | 52 | GrowWithColor effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None} |
-| LightSpeed | 54 | LightSpeed effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
 | Lighten | 53 | Lighten effect. Class Emphasis. Valid subtypes: {@code EffectSubtype.None} |
-| Magnify | 150 | Magnify effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
+| LightSpeed | 54 | LightSpeed effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
 | MediaPause | 55 | MediaPause effect. Class Media. Valid subtypes: {@code EffectSubtype.None} |
 | MediaPlay | 56 | MediaPlay effect. Class Media. Valid subtypes: {@code EffectSubtype.None} |
 | MediaStop | 57 | MediaStop effect. Class Media. Valid subtypes: {@code EffectSubtype.None} |
-| OLEObjectEdit | 153 | OLEObjectEdit effect. Class OLEActionVerbs. Valid subtypes: {@code EffectSubtype.None} |
-| OLEObjectOpen | 154 | OLEObjectOpen effect. Class OLEActionVerbs. Valid subtypes: {@code EffectSubtype.None} |
-| OLEObjectShow | 152 | OLEObjectShow effect. Class OLEActionVerbs. Valid subtypes: {@code EffectSubtype.None} |
 | Path4PointStar | 58 | Path4PointStar effect. Class Path. Valid subtypes: {@code EffectSubtype.None} |
 | Path5PointStar | 59 | Path5PointStar effect. Class Path. Valid subtypes: {@code EffectSubtype.None} |
 | Path6PointStar | 60 | Path6PointStar effect. Class Path. Valid subtypes: {@code EffectSubtype.None} |
@@ -170,5 +166,9 @@ url: /php-java/effecttype/
 | Wheel | 147 | Wedge effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Wheel1 EffectSubtype.Wheel2 EffectSubtype.Wheel3 EffectSubtype.Wheel4 EffectSubtype.Wheel8} |
 | Whip | 148 | Whip effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
 | Wipe | 149 | Wedge effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.Top EffectSubtype.Right EffectSubtype.Bottom EffectSubtype.Left} |
+| Magnify | 150 | Magnify effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.None} |
 | Zoom | 151 | Zoom effect. Class Entrance or Exit. Valid subtypes: {@code EffectSubtype.In EffectSubtype.Out EffectSubtype.InCenter - only for Entrance class EffectSubtype.OutBottom - only for Entrance class EffectSubtype.OutSlightly EffectSubtype.InSlightly EffectSubtype.OutCenter - only for Exit class EffectSubtype.InBottom - only for Exit class} |
+| OLEObjectShow | 152 | OLEObjectShow effect. Class OLEActionVerbs. Valid subtypes: {@code EffectSubtype.None} |
+| OLEObjectEdit | 153 | OLEObjectEdit effect. Class OLEActionVerbs. Valid subtypes: {@code EffectSubtype.None} |
+| OLEObjectOpen | 154 | OLEObjectOpen effect. Class OLEActionVerbs. Valid subtypes: {@code EffectSubtype.None} |
 

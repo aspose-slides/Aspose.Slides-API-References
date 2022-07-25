@@ -16,9 +16,9 @@ url: /php-java/motioncommandpathtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| CloseLoop | 3 |  |
-| CurveTo | 2 |  |
-| End | 4 |  |
-| LineTo | 1 |  |
 | MoveTo | 0 |  |
+| LineTo | 1 |  |
+| CurveTo | 2 |  |
+| CloseLoop | 3 |  |
+| End | 4 |  |
 

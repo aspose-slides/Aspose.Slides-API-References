@@ -16,8 +16,8 @@ url: /php-java/effectrestarttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Always | 0 |  |
-| Never | 2 |  |
 | NotDefined | -1 |  |
+| Always | 0 |  |
 | WhenNotActive | 1 |  |
+| Never | 2 |  |
 

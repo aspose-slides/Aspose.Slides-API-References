@@ -9,11 +9,3 @@ url: /php-java/masternotesslidemanager/
 
 ## MasterNotesSlideManager class
 
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getMasterNotesSlide](getmasternotesslide)() | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only IMasterNotesSlide. |
-| [removeMasterNotesSlide](removemasternotesslide)() |  |
-| [setDefaultMasterNotesSlide](setdefaultmasternotesslide)() |  |

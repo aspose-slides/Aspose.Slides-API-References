@@ -21,48 +21,48 @@ Example:
 
 | Name | Description |
 | --- | --- |
-| [MathBorderBox](mathborderbox)(MathLeftSubSuperscriptElement) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathLimit) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathMatrix) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathBlock) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathRadical) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathArray) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathDelimiter) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathNaryOperator) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathAccent) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathBorderBox) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathGroupingCharacter) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathBar) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathSuperscriptElement) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathFunction) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathSubscriptElement) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathFraction) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(BaseScript) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathematicalText) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathElementBase) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathBox) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathRightSubSuperscriptElement) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(MathLeftSubSuperscriptElement, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathLimit, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathMatrix, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathBlock, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathRadical, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathArray, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathDelimiter, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathNaryOperator, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathAccent, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathBorderBox, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathGroupingCharacter, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathBar, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathSuperscriptElement, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathFunction, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathSubscriptElement, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathFraction, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(BaseScript, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathematicalText, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathElementBase, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathBox, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)(MathRightSubSuperscriptElement, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathLimit](../mathlimit)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathMatrix](../mathmatrix)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathBlock](../mathblock)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathRadical](../mathradical)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathArray](../matharray)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathDelimiter](../mathdelimiter)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathNaryOperator](../mathnaryoperator)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathAccent](../mathaccent)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathBorderBox](../mathborderbox)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathGroupingCharacter](../mathgroupingcharacter)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathBar](../mathbar)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathSuperscriptElement](../mathsuperscriptelement)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathFunction](../mathfunction)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathSubscriptElement](../mathsubscriptelement)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathFraction](../mathfraction)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([BaseScript](../basescript)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathematicalText](../mathematicaltext)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathElementBase](../mathelementbase)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathBox](../mathbox)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathLimit](../mathlimit), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathMatrix](../mathmatrix), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathBlock](../mathblock), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathRadical](../mathradical), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathArray](../matharray), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathDelimiter](../mathdelimiter), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathNaryOperator](../mathnaryoperator), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathAccent](../mathaccent), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathBorderBox](../mathborderbox), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathGroupingCharacter](../mathgroupingcharacter), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathBar](../mathbar), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathSuperscriptElement](../mathsuperscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathFunction](../mathfunction), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathSubscriptElement](../mathsubscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathFraction](../mathfraction), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([BaseScript](../basescript), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathematicalText](../mathematicaltext), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathElementBase](../mathelementbase), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathBox](../mathbox), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 
 ## Methods
 
