@@ -15,3 +15,9 @@ url: /php-java/resourceloadingadapter/
 | Name | Description |
 | --- | --- |
 | [ResourceLoadingAdapter](resourceloadingadapter)([HtmlResourceResolver](../htmlresourceresolver)) |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [resourceLoading](resourceloading)(Object, ResourceLoadingEventArgs) |  |

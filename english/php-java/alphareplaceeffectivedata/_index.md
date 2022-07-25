@@ -12,10 +12,3 @@ url: /php-java/alphareplaceeffectivedata/
  Immutable object which represents and Alpha Replace effect.
  Effect alpha (opacity) values are replaced by a fixed alpha.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
-| [getStringData](getstringdata)() |  |

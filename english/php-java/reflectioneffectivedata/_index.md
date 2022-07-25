@@ -16,8 +16,6 @@ url: /php-java/reflectioneffectivedata/
 
 | Name | Description |
 | --- | --- |
-| [apply](apply)([TrueColorBitmap](../truecolorbitmap)) |  |
-| [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
 | [getBlurRadius](getblurradius)() | Blur radius. Read-only double. |
 | [getDirection](getdirection)() | Direction of shadow. Read-only float. |
 | [getDistance](getdistance)() | Distance of shadow. Read-only double. |

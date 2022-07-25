@@ -12,10 +12,3 @@ url: /php-java/hsleffectivedata/
  Represents a Hue/Saturation/Luminance effect.
  The hue, saturation, and luminance may each be adjusted relative to its current value.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
-| [getStringData](getstringdata)() |  |

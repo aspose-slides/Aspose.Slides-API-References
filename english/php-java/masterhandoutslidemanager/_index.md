@@ -9,3 +9,11 @@ url: /php-java/masterhandoutslidemanager/
 
 ## MasterHandoutSlideManager class
 
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [getMasterHandoutSlide](getmasterhandoutslide)() | Returns a master for all notes slides of this presentation if there is one, otherwise returns null. Read-only IMasterHandoutSlide. |
+| [removeMasterHandoutSlide](removemasterhandoutslide)() |  |
+| [setDefaultMasterHandoutSlide](setdefaultmasterhandoutslide)() |  |

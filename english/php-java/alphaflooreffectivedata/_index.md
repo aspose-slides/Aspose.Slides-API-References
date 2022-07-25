@@ -13,9 +13,3 @@ url: /php-java/alphaflooreffectivedata/
  Alpha (opacity) values less than 100% are changed to zero.
  In other words, anything partially transparent becomes fully transparent.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getStringData](getstringdata)() |  |

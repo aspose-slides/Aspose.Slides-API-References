@@ -12,9 +12,3 @@ url: /php-java/grayscaleeffectivedata/
  Immutable object which representsepresents a Gray Scale effect. Converts all effect color values to a shade of gray,
  corresponding to their luminance. Effect alpha (opacity) values are unaffected.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getStringData](getstringdata)() |  |

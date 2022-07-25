@@ -13,10 +13,3 @@ url: /php-java/alphabileveleffectivedata/
  Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and
  alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
-| [getStringData](getstringdata)() |  |

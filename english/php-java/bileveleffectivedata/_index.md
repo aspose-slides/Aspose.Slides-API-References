@@ -14,10 +14,3 @@ url: /php-java/bileveleffectivedata/
  Input colors whose luminance are greater than or equal the specified value are set to white.
  The alpha effect values are unaffected by this effect.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [equals](equals)(Object) | Determines whether the specified System.Object is equal to the current object. |
-| [getStringData](getstringdata)() |  |

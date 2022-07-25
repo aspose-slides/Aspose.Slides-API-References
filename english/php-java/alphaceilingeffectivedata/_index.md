@@ -13,9 +13,3 @@ url: /php-java/alphaceilingeffectivedata/
  Alpha (opacity) values greater than zero are changed to 100%.
  In other words, anything partially opaque becomes fully opaque.
  
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| [getStringData](getstringdata)() |  |
