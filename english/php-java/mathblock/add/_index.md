@@ -407,31 +407,6 @@ void
 ---
 
 
-## add([BaseScript](../../basescript) item)  method
-
- Adds a math element to the end of the collection.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $mathBlock->add(new MathematicalText("+"));
-  $mathBlock->add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [BaseScript](../../basescript) | The IMathElement to be added to the end of the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## add([MathematicalText](../../mathematicaltext) item)  method
 
  Adds a math element to the end of the collection.
@@ -449,31 +424,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathematicalText](../../mathematicaltext) | The IMathElement to be added to the end of the collection. |
-
-### Returns
-void
-
-
----
-
-
-## add([MathElementBase](../../mathelementbase) item)  method
-
- Adds a math element to the end of the collection.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $mathBlock->add(new MathematicalText("+"));
-  $mathBlock->add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathElementBase](../../mathelementbase) | The IMathElement to be added to the end of the collection. |
 
 ### Returns
 void

@@ -102,25 +102,6 @@ void
 ---
 
 
-## insert(int index, [Behavior](../../behavior) item)  method
-
- Inserts new behavior to a collection at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index where new behavior should be inserted. |
-| item | [Behavior](../../behavior) | Behavior to insert. |
-
-### Returns
-void
-
-
----
-
-
 ## insert(int index, [MotionEffect](../../motioneffect) item)  method
 
  Inserts new behavior to a collection at the specified index.

@@ -37,9 +37,7 @@ Example:
 | [MathArray](matharray)([MathFunction](../mathfunction)) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)([MathSubscriptElement](../mathsubscriptelement)) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)([MathFraction](../mathfraction)) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)([BaseScript](../basescript)) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)([MathematicalText](../mathematicaltext)) | Creates a mathematical array and places the specified element in it |
-| [MathArray](matharray)([MathElementBase](../mathelementbase)) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)([MathBox](../mathbox)) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
 | [MathArray](matharray)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement>) | Creates a mathematical array and places specified elements in it |

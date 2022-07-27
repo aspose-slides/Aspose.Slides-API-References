@@ -327,26 +327,6 @@ Example:
 ---
 
 
-## MathBar([BaseScript](../../basescript) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [BaseScript](../../basescript) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathBar([MathematicalText](../../mathematicaltext) element)  constructor
 
  Initializes MathBar with overbar (Top position)
@@ -362,26 +342,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The base element to which the bar is applied |
-
-
----
-
-
-## MathBar([MathElementBase](../../mathelementbase) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathElementBase](../../mathelementbase) | The base element to which the bar is applied |
 
 
 ---
@@ -763,27 +723,6 @@ Example:
 ---
 
 
-## MathBar([BaseScript](../../basescript) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions::Bottom);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [BaseScript](../basescript) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
 ## MathBar([MathematicalText](../../mathematicaltext) element, int position)  constructor
 
  Initializes MathBar with specified position
@@ -799,27 +738,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../mathematicaltext) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
-## MathBar([MathElementBase](../../mathelementbase) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions::Bottom);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathElementBase](../mathelementbase) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 

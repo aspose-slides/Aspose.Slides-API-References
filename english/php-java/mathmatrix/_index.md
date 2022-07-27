@@ -74,8 +74,6 @@ Example:
 | [set_Item](set_item)(int, int, [MathFunction](../mathfunction)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathFraction](../mathfraction)) | Element of matrix |
-| [set_Item](set_item)(int, int, [BaseScript](../basescript)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathElementBase](../mathelementbase)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathBox](../mathbox)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Element of matrix |

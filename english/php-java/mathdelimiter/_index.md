@@ -40,9 +40,7 @@ Example:
 | [MathDelimiter](mathdelimiter)([MathFunction](../mathfunction)) | Initializes MathDelimiter with the specified element as single base argument |
 | [MathDelimiter](mathdelimiter)([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
 | [MathDelimiter](mathdelimiter)([MathFraction](../mathfraction)) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)([BaseScript](../basescript)) | Initializes MathDelimiter with the specified element as single base argument |
 | [MathDelimiter](mathdelimiter)([MathematicalText](../mathematicaltext)) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter](mathdelimiter)([MathElementBase](../mathelementbase)) | Initializes MathDelimiter with the specified element as single base argument |
 | [MathDelimiter](mathdelimiter)([MathBox](../mathbox)) | Initializes MathDelimiter with the specified element as single base argument |
 | [MathDelimiter](mathdelimiter)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
 

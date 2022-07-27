@@ -30,7 +30,6 @@ url: /php-java/connector/
 | [setEndShapeConnectedTo](setendshapeconnectedto)([Shape](../shape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([Table](../table)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([Ink](../ink)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-| [setEndShapeConnectedTo](setendshapeconnectedto)([GeometryShape](../geometryshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
@@ -53,7 +52,6 @@ url: /php-java/connector/
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([Shape](../shape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([Table](../table)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([Ink](../ink)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-| [setStartShapeConnectedTo](setstartshapeconnectedto)([GeometryShape](../geometryshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |

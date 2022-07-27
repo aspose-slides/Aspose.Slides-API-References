@@ -22,5 +22,4 @@ url: /php-java/output/
 | [add](add)(String, [Video](../video)) | Adds an output element for the video. |
 | [add](add)(String, [FontData](../fontdata), int) | Adds an output element for the font. |
 | [add](add)(String, String) | Adds an output element for the text content. |
-| [bindResource](bindresource)([OutputFile](../outputfile), Object) | Binds resource to output file. |
 | [getResourcePath](getresourcepath)(Object) | Returns the path for a given resource. |

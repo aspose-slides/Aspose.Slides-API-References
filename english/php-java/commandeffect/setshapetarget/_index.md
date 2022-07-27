@@ -85,19 +85,6 @@ void
 ---
 
 
-## setShapeTarget([GeometryShape](../../geometryshape) value)  method
-
- Defines shape target of command effect.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setShapeTarget([SummaryZoomFrame](../../summaryzoomframe) value)  method
 
  Defines shape target of command effect.

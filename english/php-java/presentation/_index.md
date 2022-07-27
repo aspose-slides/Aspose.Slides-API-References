@@ -82,7 +82,6 @@ url: /php-java/presentation/
 | [save](save)(String, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 | [save](save)(String, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 | [save](save)(String, int, [XpsOptions](../xpsoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
-| [save](save)(String, int, [SaveOptions](../saveoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 | [save](save)(String, int, [GifOptions](../gifoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 | [save](save)(String, int, [PptxOptions](../pptxoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 | [save](save)(OutputStream, int, [RenderingOptions](../renderingoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
@@ -95,7 +94,6 @@ url: /php-java/presentation/
 | [save](save)(OutputStream, int, [TiffOptions](../tiffoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 | [save](save)(OutputStream, int, [Html5Options](../html5options)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 | [save](save)(OutputStream, int, [XpsOptions](../xpsoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
-| [save](save)(OutputStream, int, [SaveOptions](../saveoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 | [save](save)(OutputStream, int, [GifOptions](../gifoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 | [save](save)(OutputStream, int, [PptxOptions](../pptxoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 | [save](save)([XamlOptions](../xamloptions)) | Saves all slides of a presentation to a set of files representing XAML markup. |
@@ -110,7 +108,6 @@ url: /php-java/presentation/
 | [save](save)(String, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 | [save](save)(String, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 | [save](save)(String, int[], int, [XpsOptions](../xpsoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
-| [save](save)(String, int[], int, [SaveOptions](../saveoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 | [save](save)(String, int[], int, [GifOptions](../gifoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 | [save](save)(String, int[], int, [PptxOptions](../pptxoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 | [save](save)(OutputStream, int[], int) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
@@ -124,7 +121,6 @@ url: /php-java/presentation/
 | [save](save)(OutputStream, int[], int, [TiffOptions](../tiffoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 | [save](save)(OutputStream, int[], int, [Html5Options](../html5options)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 | [save](save)(OutputStream, int[], int, [XpsOptions](../xpsoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
-| [save](save)(OutputStream, int[], int, [SaveOptions](../saveoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 | [save](save)(OutputStream, int[], int, [GifOptions](../gifoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 | [save](save)(OutputStream, int[], int, [PptxOptions](../pptxoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 | [setCurrentDateTime](setcurrentdatetime)(Date) | Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write java.util.Date. |

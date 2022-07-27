@@ -39,9 +39,7 @@ Example:
 | [MathAccent](mathaccent)([MathFunction](../mathfunction)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathSubscriptElement](../mathsubscriptelement)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathFraction](../mathfraction)) | Creates a math accent applying to a specified math element with the default accent character value |
-| [MathAccent](mathaccent)([BaseScript](../basescript)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathematicalText](../mathematicaltext)) | Creates a math accent applying to a specified math element with the default accent character value |
-| [MathAccent](mathaccent)([MathElementBase](../mathelementbase)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathBox](../mathbox)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), char) | Creates a math accent applying to a specified math element |
@@ -60,9 +58,7 @@ Example:
 | [MathAccent](mathaccent)([MathFunction](../mathfunction), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathSubscriptElement](../mathsubscriptelement), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathFraction](../mathfraction), char) | Creates a math accent applying to a specified math element |
-| [MathAccent](mathaccent)([BaseScript](../basescript), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathematicalText](../mathematicaltext), char) | Creates a math accent applying to a specified math element |
-| [MathAccent](mathaccent)([MathElementBase](../mathelementbase), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathBox](../mathbox), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), char) | Creates a math accent applying to a specified math element |
 

@@ -79,18 +79,6 @@ void
 ---
 
 
-## removeByShape([GeometryShape](../../geometryshape) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## removeByShape([SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Remove effect for the specified shape.

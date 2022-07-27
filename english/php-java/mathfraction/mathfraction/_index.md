@@ -359,28 +359,6 @@ Example:
 ---
 
 
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -397,28 +375,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -821,28 +777,6 @@ Example:
 ---
 
 
-## MathFraction([MathLimit](../../mathlimit) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -859,28 +793,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathLimit](../../mathlimit) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1283,28 +1195,6 @@ Example:
 ---
 
 
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -1321,28 +1211,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1745,28 +1613,6 @@ Example:
 ---
 
 
-## MathFraction([MathBlock](../../mathblock) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -1783,28 +1629,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathBlock](../../mathblock) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -2207,28 +2031,6 @@ Example:
 ---
 
 
-## MathFraction([MathRadical](../../mathradical) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -2245,28 +2047,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathRadical](../../mathradical) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -2669,28 +2449,6 @@ Example:
 ---
 
 
-## MathFraction([MathArray](../../matharray) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -2707,28 +2465,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathArray](../../matharray) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3131,28 +2867,6 @@ Example:
 ---
 
 
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -3169,28 +2883,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3593,28 +3285,6 @@ Example:
 ---
 
 
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -3631,28 +3301,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -4055,28 +3703,6 @@ Example:
 ---
 
 
-## MathFraction([MathAccent](../../mathaccent) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -4093,28 +3719,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -4517,28 +4121,6 @@ Example:
 ---
 
 
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -4555,28 +4137,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -4979,28 +4539,6 @@ Example:
 ---
 
 
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -5017,28 +4555,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -5441,28 +4957,6 @@ Example:
 ---
 
 
-## MathFraction([MathBar](../../mathbar) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -5479,28 +4973,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathBar](../../mathbar) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -5903,28 +5375,6 @@ Example:
 ---
 
 
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -5941,28 +5391,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -6365,28 +5793,6 @@ Example:
 ---
 
 
-## MathFraction([MathFunction](../../mathfunction) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -6403,28 +5809,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -6827,28 +6211,6 @@ Example:
 ---
 
 
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -6865,28 +6227,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -7289,28 +6629,6 @@ Example:
 ---
 
 
-## MathFraction([MathFraction](../../mathfraction) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -7327,28 +6645,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -7392,468 +6688,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathArray](../../matharray) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathBar](../../mathbar) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathBox](../../mathbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -8213,28 +7047,6 @@ Example:
 ---
 
 
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -8251,28 +7063,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -8316,468 +7106,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathArray](../../matharray) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathBar](../../mathbar) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathBox](../../mathbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -9137,28 +7465,6 @@ Example:
 ---
 
 
-## MathFraction([MathBox](../../mathbox) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -9175,28 +7481,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathBox](../../mathbox) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -9599,28 +7883,6 @@ Example:
 ---
 
 
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [BaseScript](../../basescript) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [BaseScript](../basescript) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -9637,28 +7899,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathElementBase](../../mathelementbase) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes::Linear);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathElementBase](../mathelementbase) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -10045,27 +8285,6 @@ Example:
 ---
 
 
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -10082,27 +8301,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -10486,27 +8684,6 @@ Example:
 ---
 
 
-## MathFraction([MathLimit](../../mathlimit) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -10523,27 +8700,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathLimit](../../mathlimit) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -10927,27 +9083,6 @@ Example:
 ---
 
 
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -10964,27 +9099,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -11368,27 +9482,6 @@ Example:
 ---
 
 
-## MathFraction([MathBlock](../../mathblock) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -11405,27 +9498,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathBlock](../../mathblock) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -11809,27 +9881,6 @@ Example:
 ---
 
 
-## MathFraction([MathRadical](../../mathradical) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -11846,27 +9897,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathRadical](../../mathradical) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -12250,27 +10280,6 @@ Example:
 ---
 
 
-## MathFraction([MathArray](../../matharray) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -12287,27 +10296,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathArray](../../matharray) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -12691,27 +10679,6 @@ Example:
 ---
 
 
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -12728,27 +10695,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -13132,27 +11078,6 @@ Example:
 ---
 
 
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -13169,27 +11094,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -13573,27 +11477,6 @@ Example:
 ---
 
 
-## MathFraction([MathAccent](../../mathaccent) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -13610,27 +11493,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -14014,27 +11876,6 @@ Example:
 ---
 
 
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -14051,27 +11892,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -14455,27 +12275,6 @@ Example:
 ---
 
 
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -14492,27 +12291,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -14896,27 +12674,6 @@ Example:
 ---
 
 
-## MathFraction([MathBar](../../mathbar) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -14933,27 +12690,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathBar](../../mathbar) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -15337,27 +13073,6 @@ Example:
 ---
 
 
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -15374,27 +13089,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -15778,27 +13472,6 @@ Example:
 ---
 
 
-## MathFraction([MathFunction](../../mathfunction) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -15815,27 +13488,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -16219,27 +13871,6 @@ Example:
 ---
 
 
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -16256,27 +13887,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -16660,27 +14270,6 @@ Example:
 ---
 
 
-## MathFraction([MathFraction](../../mathfraction) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -16697,27 +14286,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -16759,447 +14327,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathLimit](../../mathlimit) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathMatrix](../../mathmatrix) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathBlock](../../mathblock) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathRadical](../../mathradical) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathArray](../../matharray) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathDelimiter](../../mathdelimiter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathBorderBox](../../mathborderbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathBar](../../mathbar) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathFunction](../../mathfunction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathFraction](../../mathfraction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathBox](../../mathbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
-
-
----
-
-
-## MathFraction([BaseScript](../../basescript) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [BaseScript](../basescript) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 
@@ -17542,27 +14669,6 @@ Example:
 ---
 
 
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -17579,27 +14685,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -17641,447 +14726,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathLimit](../../mathlimit) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathMatrix](../../mathmatrix) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathBlock](../../mathblock) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathRadical](../../mathradical) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathArray](../../matharray) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathDelimiter](../../mathdelimiter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathBorderBox](../../mathborderbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathBar](../../mathbar) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathFunction](../../mathfunction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathFraction](../../mathfraction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathBox](../../mathbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
-
-
----
-
-
-## MathFraction([MathElementBase](../../mathelementbase) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathElementBase](../mathelementbase) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 
@@ -18424,27 +15068,6 @@ Example:
 ---
 
 
-## MathFraction([MathBox](../../mathbox) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -18461,27 +15084,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathBox](../../mathbox) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---
@@ -18865,27 +15467,6 @@ Example:
 ---
 
 
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [BaseScript](../../basescript) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [BaseScript](../../basescript) | Denominator |
-
-
----
-
-
 ## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -18902,27 +15483,6 @@ Example:
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathElementBase](../../mathelementbase) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-Example:
- 
-```php
-  $mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathElementBase](../../mathelementbase) | Denominator |
 
 
 ---

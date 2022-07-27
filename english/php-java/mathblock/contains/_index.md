@@ -439,33 +439,6 @@ boolean
 ---
 
 
-## contains([BaseScript](../../basescript) item)  method
-
- Determines whether the collection contains a specific value.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->Add($plusElement);
-  $mathBlock->Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-  $contains = $mathBlock->Contains($plusElement);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [BaseScript](../../basescript) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathematicalText](../../mathematicaltext) item)  method
 
  Determines whether the collection contains a specific value.
@@ -485,33 +458,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathematicalText](../../mathematicaltext) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
-## contains([MathElementBase](../../mathelementbase) item)  method
-
- Determines whether the collection contains a specific value.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->Add($plusElement);
-  $mathBlock->Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-  $contains = $mathBlock->Contains($plusElement);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathElementBase](../../mathelementbase) | The object to locate in the collection. |
 
 ### Returns
 boolean

@@ -92,18 +92,6 @@ int
 ---
 
 
-## getCount([GeometryShape](../../geometryshape) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
 ## getCount([SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Returns count of effects for the specified shape.

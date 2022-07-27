@@ -97,24 +97,6 @@ void
 ---
 
 
-## add([Behavior](../../behavior) item)  method
-
- Add new behavior to a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Behavior](../../behavior) | Behavior to add. |
-
-### Returns
-void
-
-
----
-
-
 ## add([MotionEffect](../../motioneffect) item)  method
 
  Add new behavior to a collection.

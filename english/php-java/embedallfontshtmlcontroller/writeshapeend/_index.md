@@ -121,25 +121,6 @@ void
 ---
 
 
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [GeometryShape](../../geometryshape) shape)  method
-
- Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| generator | [HtmlGenerator](../htmlgenerator) | Output object. |
-| shape | [GeometryShape](../../geometryshape) | Shape which is rendered last. |
-
-### Returns
-void
-
-
----
-
-
 ## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Called before shape's rendering. Called once per each of shape. If this function writes anything to generator, current slide image generation will be finished, added html fragment inserted and new image will be started atop of the previous.

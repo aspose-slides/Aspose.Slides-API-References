@@ -121,25 +121,6 @@ void
 ---
 
 
-## setStartShapeConnectedTo([GeometryShape](../../geometryshape) value)  method
-
- Returns or sets the shape to attach the beginning of the connector to.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
 ## setStartShapeConnectedTo([SummaryZoomFrame](../../summaryzoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.

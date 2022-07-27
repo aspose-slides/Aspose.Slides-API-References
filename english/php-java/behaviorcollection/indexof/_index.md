@@ -97,24 +97,6 @@ int
 ---
 
 
-## indexOf([Behavior](../../behavior) item)  method
-
- Determines the index of a specific item in the  List.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Behavior](../../behavior) | The object to locate in the List. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([MotionEffect](../../motioneffect) item)  method
 
  Determines the index of a specific item in the  List.

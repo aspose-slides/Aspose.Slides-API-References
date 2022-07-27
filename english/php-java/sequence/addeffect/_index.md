@@ -133,27 +133,6 @@ url: /php-java/sequence/addeffect/
 ---
 
 
-## addEffect([GeometryShape](../../geometryshape) shape, int effectType, int subtype, int triggerType)  method
-
- Add new effect to the end of sequence.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GeometryShape](../geometryshape) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
-### Returns
-[Effect](../../effect)
-
-
----
-
-
 ## addEffect([SummaryZoomFrame](../../summaryzoomframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.

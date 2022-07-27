@@ -22,7 +22,6 @@ url: /php-java/sequencecollection/
 | [add](add)([Shape](../shape)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([Table](../table)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([GeometryShape](../geometryshape)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([SummaryZoomSection](../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([ZoomFrame](../zoomframe)) | Add new interactive sequence. Read/write Sequence. |

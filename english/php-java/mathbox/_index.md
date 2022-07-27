@@ -40,9 +40,7 @@ Example:
 | [MathBox](mathbox)([MathFunction](../mathfunction)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathFraction](../mathfraction)) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)([BaseScript](../basescript)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathematicalText](../mathematicaltext)) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)([MathElementBase](../mathelementbase)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathBox](../mathbox)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
 

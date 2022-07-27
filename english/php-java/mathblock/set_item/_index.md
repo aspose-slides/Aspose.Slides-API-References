@@ -407,31 +407,6 @@ void
 ---
 
 
-## set_Item(int index, [BaseScript](../../basescript) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [BaseScript](../../basescript) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
 ## set_Item(int index, [MathematicalText](../../mathematicaltext) value)  method
 
  Gets or sets IMathElement at the specified index.
@@ -449,31 +424,6 @@ Example:
 | --- | --- | --- |
 | value | int | The mathematical element. |
 | index | [MathematicalText](../../mathematicaltext) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathElementBase](../../mathelementbase) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $firstElem = $mathBlock->get_Item(0);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathElementBase](../../mathelementbase) | The zero-based index of the item |
 
 ### Returns
 void

@@ -127,24 +127,6 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([GeometryShape](../../geometryshape) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GeometryShape](../../geometryshape) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Returns all elements 

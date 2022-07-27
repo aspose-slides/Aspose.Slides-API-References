@@ -341,26 +341,6 @@ Example:
 ---
 
 
-## MathBlock([BaseScript](../../basescript) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [BaseScript](../../basescript) | The mathematical element to put in the block |
-
-
----
-
-
 ## MathBlock([MathematicalText](../../mathematicaltext) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -376,26 +356,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathematicalText](../../mathematicaltext) | The mathematical element to put in the block |
-
-
----
-
-
-## MathBlock([MathElementBase](../../mathelementbase) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathElementBase](../../mathelementbase) | The mathematical element to put in the block |
 
 
 ---

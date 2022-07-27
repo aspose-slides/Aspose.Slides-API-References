@@ -327,26 +327,6 @@ Example:
 ---
 
 
-## MathBox([BaseScript](../../basescript) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-Example:
- 
-```php
-  $box = new MathBox(new MathematicalText("=="));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [BaseScript](../../basescript) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
 ## MathBox([MathematicalText](../../mathematicaltext) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -362,26 +342,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
-## MathBox([MathElementBase](../../mathelementbase) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-Example:
- 
-```php
-  $box = new MathBox(new MathematicalText("=="));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathElementBase](../../mathelementbase) | The base element to which the box is applied. Can be null. |
 
 
 ---

@@ -327,26 +327,6 @@ Example:
 ---
 
 
-## MathArray([BaseScript](../../basescript) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-Example:
- 
-```php
-  $mathArray = new MathArray(new MathematicalText("item1"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [BaseScript](../../basescript) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathematicalText](../../mathematicaltext) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -362,26 +342,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The element to place in the array |
-
-
----
-
-
-## MathArray([MathElementBase](../../mathelementbase) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-Example:
- 
-```php
-  $mathArray = new MathArray(new MathematicalText("item1"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathElementBase](../../mathelementbase) | The element to place in the array |
 
 
 ---
