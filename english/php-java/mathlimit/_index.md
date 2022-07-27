@@ -37,9 +37,7 @@ Example:
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -58,9 +56,7 @@ Example:
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathLimit](../mathlimit), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -79,9 +75,7 @@ Example:
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -100,9 +94,7 @@ Example:
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathBlock](../mathblock), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathBlock](../mathblock), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -121,9 +113,7 @@ Example:
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathRadical](../mathradical), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathRadical](../mathradical), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -142,9 +132,7 @@ Example:
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathArray](../matharray), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathArray](../matharray), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -163,9 +151,7 @@ Example:
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -184,9 +170,7 @@ Example:
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -205,9 +189,7 @@ Example:
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathAccent](../mathaccent), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -226,9 +208,7 @@ Example:
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -247,9 +227,7 @@ Example:
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -268,9 +246,7 @@ Example:
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathBar](../mathbar), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathBar](../mathbar), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -289,9 +265,7 @@ Example:
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -310,9 +284,7 @@ Example:
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathFunction](../mathfunction), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -331,9 +303,7 @@ Example:
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -352,32 +322,9 @@ Example:
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathFraction](../mathfraction), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
@@ -394,32 +341,9 @@ Example:
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
@@ -436,9 +360,7 @@ Example:
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathBox](../mathbox), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathBox](../mathbox), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
@@ -457,9 +379,7 @@ Example:
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [BaseScript](../basescript), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
-| [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -478,9 +398,7 @@ Example:
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -499,9 +417,7 @@ Example:
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathLimit](../mathlimit), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -520,9 +436,7 @@ Example:
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -541,9 +455,7 @@ Example:
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathBlock](../mathblock), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathBlock](../mathblock), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -562,9 +474,7 @@ Example:
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathRadical](../mathradical), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathRadical](../mathradical), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -583,9 +493,7 @@ Example:
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathArray](../matharray), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathArray](../matharray), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -604,9 +512,7 @@ Example:
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -625,9 +531,7 @@ Example:
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -646,9 +550,7 @@ Example:
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathAccent](../mathaccent), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -667,9 +569,7 @@ Example:
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -688,9 +588,7 @@ Example:
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -709,9 +607,7 @@ Example:
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathBar](../mathbar), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathBar](../mathbar), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -730,9 +626,7 @@ Example:
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -751,9 +645,7 @@ Example:
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathFunction](../mathfunction), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -772,9 +664,7 @@ Example:
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -793,32 +683,9 @@ Example:
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathFraction](../mathfraction), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([BaseScript](../basescript), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -835,32 +702,9 @@ Example:
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathElementBase](../mathelementbase), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -877,9 +721,7 @@ Example:
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathBox](../mathbox), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathBox](../mathbox), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
@@ -898,9 +740,7 @@ Example:
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [BaseScript](../basescript)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathElementBase](../mathelementbase)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
 | [MathLimit](mathlimit)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
 

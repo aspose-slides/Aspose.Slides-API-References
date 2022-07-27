@@ -263,39 +263,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -599,39 +567,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -935,39 +871,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1271,39 +1175,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1607,39 +1479,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1943,39 +1783,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathArray](../../matharray) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2279,39 +2087,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2615,39 +2391,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2951,39 +2695,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3287,39 +2999,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3623,39 +3303,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3959,39 +3607,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathBar](../../mathbar) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -4295,39 +3911,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -4631,39 +4215,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -4967,39 +4519,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -5303,39 +4823,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -5368,342 +4856,6 @@ Example:
 
 
 ## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathLimit](../../mathlimit) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathMatrix](../../mathmatrix) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathBlock](../../mathblock) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathRadical](../../mathradical) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathArray](../../matharray) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathAccent](../../mathaccent) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathBar](../../mathbar) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathBox](../../mathbox) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([BaseScript](../../basescript) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -5975,39 +5127,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -6040,342 +5160,6 @@ Example:
 
 
 ## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathLimit](../../mathlimit) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathMatrix](../../mathmatrix) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathBlock](../../mathblock) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathRadical](../../mathradical) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathArray](../../matharray) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathAccent](../../mathaccent) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathBar](../../mathbar) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathBox](../../mathbox) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathElementBase](../../mathelementbase) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -6647,39 +5431,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathBox](../../mathbox) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -6983,39 +5735,7 @@ Example:
 ---
 
 
-## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [BaseScript](../../basescript) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
 ## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $subscript = new MathematicalText("i");
-  $subscriptElement = new MathSubscriptElement($baseElement, $subscript);
-```
-
-
----
-
-
-## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathElementBase](../../mathelementbase) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  

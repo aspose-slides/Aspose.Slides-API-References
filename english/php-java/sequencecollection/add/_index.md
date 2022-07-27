@@ -85,19 +85,6 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([GeometryShape](../../geometryshape) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
 ## add([SummaryZoomFrame](../../summaryzoomframe) shapeTrigger)  method
 
  Add new interactive sequence.

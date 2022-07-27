@@ -25,24 +25,6 @@ boolean
 ---
 
 
-## containsItem([ImageTransformOperation](../../imagetransformoperation) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [ImageTransformOperation](../../imagetransformoperation) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([HSL](../../hsl) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.

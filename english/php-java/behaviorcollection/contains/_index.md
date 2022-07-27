@@ -97,24 +97,6 @@ boolean
 ---
 
 
-## contains([Behavior](../../behavior) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Behavior](../../behavior) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MotionEffect](../../motioneffect) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.

@@ -67,16 +67,6 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [GeometryShape](../../geometryshape) shape)  method
-
-
-### Returns
-void
-
-
----
-
-
 ## formatShape([SvgShape](../../svgshape) svgShape, [SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
 

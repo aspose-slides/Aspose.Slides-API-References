@@ -21,7 +21,6 @@ url: /php-java/behaviorcollection/
 | [add](add)([PropertyEffect](../propertyeffect)) | Add new behavior to a collection. |
 | [add](add)([SetEffect](../seteffect)) | Add new behavior to a collection. |
 | [add](add)([RotationEffect](../rotationeffect)) | Add new behavior to a collection. |
-| [add](add)([Behavior](../behavior)) | Add new behavior to a collection. |
 | [add](add)([MotionEffect](../motioneffect)) | Add new behavior to a collection. |
 | [add](add)([CommandEffect](../commandeffect)) | Add new behavior to a collection. |
 | [add](add)([FilterEffect](../filtereffect)) | Add new behavior to a collection. |
@@ -31,7 +30,6 @@ url: /php-java/behaviorcollection/
 | [contains](contains)([PropertyEffect](../propertyeffect)) | Determines whether the IGenericCollection contains a specific value. |
 | [contains](contains)([SetEffect](../seteffect)) | Determines whether the IGenericCollection contains a specific value. |
 | [contains](contains)([RotationEffect](../rotationeffect)) | Determines whether the IGenericCollection contains a specific value. |
-| [contains](contains)([Behavior](../behavior)) | Determines whether the IGenericCollection contains a specific value. |
 | [contains](contains)([MotionEffect](../motioneffect)) | Determines whether the IGenericCollection contains a specific value. |
 | [contains](contains)([CommandEffect](../commandeffect)) | Determines whether the IGenericCollection contains a specific value. |
 | [contains](contains)([FilterEffect](../filtereffect)) | Determines whether the IGenericCollection contains a specific value. |
@@ -43,7 +41,6 @@ url: /php-java/behaviorcollection/
 | [indexOf](indexof)([PropertyEffect](../propertyeffect)) | Determines the index of a specific item in the List. |
 | [indexOf](indexof)([SetEffect](../seteffect)) | Determines the index of a specific item in the List. |
 | [indexOf](indexof)([RotationEffect](../rotationeffect)) | Determines the index of a specific item in the List. |
-| [indexOf](indexof)([Behavior](../behavior)) | Determines the index of a specific item in the List. |
 | [indexOf](indexof)([MotionEffect](../motioneffect)) | Determines the index of a specific item in the List. |
 | [indexOf](indexof)([CommandEffect](../commandeffect)) | Determines the index of a specific item in the List. |
 | [indexOf](indexof)([FilterEffect](../filtereffect)) | Determines the index of a specific item in the List. |
@@ -52,7 +49,6 @@ url: /php-java/behaviorcollection/
 | [insert](insert)(int, [PropertyEffect](../propertyeffect)) | Inserts new behavior to a collection at the specified index. |
 | [insert](insert)(int, [SetEffect](../seteffect)) | Inserts new behavior to a collection at the specified index. |
 | [insert](insert)(int, [RotationEffect](../rotationeffect)) | Inserts new behavior to a collection at the specified index. |
-| [insert](insert)(int, [Behavior](../behavior)) | Inserts new behavior to a collection at the specified index. |
 | [insert](insert)(int, [MotionEffect](../motioneffect)) | Inserts new behavior to a collection at the specified index. |
 | [insert](insert)(int, [CommandEffect](../commandeffect)) | Inserts new behavior to a collection at the specified index. |
 | [insert](insert)(int, [FilterEffect](../filtereffect)) | Inserts new behavior to a collection at the specified index. |
@@ -64,7 +60,6 @@ url: /php-java/behaviorcollection/
 | [remove](remove)([PropertyEffect](../propertyeffect)) | Removes specified behavior from a collection. |
 | [remove](remove)([SetEffect](../seteffect)) | Removes specified behavior from a collection. |
 | [remove](remove)([RotationEffect](../rotationeffect)) | Removes specified behavior from a collection. |
-| [remove](remove)([Behavior](../behavior)) | Removes specified behavior from a collection. |
 | [remove](remove)([MotionEffect](../motioneffect)) | Removes specified behavior from a collection. |
 | [remove](remove)([CommandEffect](../commandeffect)) | Removes specified behavior from a collection. |
 | [remove](remove)([FilterEffect](../filtereffect)) | Removes specified behavior from a collection. |
@@ -74,7 +69,6 @@ url: /php-java/behaviorcollection/
 | [set_Item](set_item)(int, [PropertyEffect](../propertyeffect)) | Sets a behavior at the specified index. |
 | [set_Item](set_item)(int, [SetEffect](../seteffect)) | Sets a behavior at the specified index. |
 | [set_Item](set_item)(int, [RotationEffect](../rotationeffect)) | Sets a behavior at the specified index. |
-| [set_Item](set_item)(int, [Behavior](../behavior)) | Sets a behavior at the specified index. |
 | [set_Item](set_item)(int, [MotionEffect](../motioneffect)) | Sets a behavior at the specified index. |
 | [set_Item](set_item)(int, [CommandEffect](../commandeffect)) | Sets a behavior at the specified index. |
 | [set_Item](set_item)(int, [FilterEffect](../filtereffect)) | Sets a behavior at the specified index. |

@@ -439,33 +439,6 @@ Example:
 ---
 
 
-## MathDelimiter([BaseScript](../../basescript) element)  constructor
-
- Initializes MathDelimiter with the specified element as single base argument
- 
-Example:
- 
-```php
-  $element = new MathematicalText("x");
-  $delimiter = new MathDelimiter($element);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [BaseScript](../../basescript) | The base element to which the delimiter is applied. Can be null. |
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different constructor with IEnumerable argument. |
-
-
----
-
-
 ## MathDelimiter([MathematicalText](../../mathematicaltext) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
@@ -482,33 +455,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The base element to which the delimiter is applied. Can be null. |
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different constructor with IEnumerable argument. |
-
-
----
-
-
-## MathDelimiter([MathElementBase](../../mathelementbase) element)  constructor
-
- Initializes MathDelimiter with the specified element as single base argument
- 
-Example:
- 
-```php
-  $element = new MathematicalText("x");
-  $delimiter = new MathDelimiter($element);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathElementBase](../../mathelementbase) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 

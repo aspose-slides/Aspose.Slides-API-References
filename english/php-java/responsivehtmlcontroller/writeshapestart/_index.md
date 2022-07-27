@@ -67,16 +67,6 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [GeometryShape](../../geometryshape) shape)  method
-
-
-### Returns
-void
-
-
----
-
-
 ## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
 

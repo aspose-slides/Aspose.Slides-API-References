@@ -121,25 +121,6 @@ void
 ---
 
 
-## reorder(int index, [GeometryShape](../../geometryshape) shape)  method
-
- Moves a shape from the collection to the specified position.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [GeometryShape](../../geometryshape) | Shape to move. |
-
-### Returns
-void
-
-
----
-
-
 ## reorder(int index, [SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Moves a shape from the collection to the specified position.

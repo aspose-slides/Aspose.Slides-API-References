@@ -97,24 +97,6 @@ boolean
 ---
 
 
-## remove([Behavior](../../behavior) item)  method
-
- Removes specified behavior from a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Behavior](../../behavior) | Behavior to remove. |
-
-### Returns
-boolean
-
-
----
-
-
 ## remove([MotionEffect](../../motioneffect) item)  method
 
  Removes specified behavior from a collection.

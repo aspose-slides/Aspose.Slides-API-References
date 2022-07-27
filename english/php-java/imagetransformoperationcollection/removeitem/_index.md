@@ -31,30 +31,6 @@ boolean
 ---
 
 
-## removeItem([ImageTransformOperation](../../imagetransformoperation) item)  method
-
- Removes the first occurrence of a specific object from the  IGenericCollection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [ImageTransformOperation](../../imagetransformoperation) | The object to remove from the IGenericCollection. |
-
-### Returns
-boolean
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | com.aspose.ms.System.NotSupportedException | The IGenericCollection is read-only. |
-
-
----
-
-
 ## removeItem([HSL](../../hsl) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.

@@ -35,7 +35,6 @@ url: /php-java/responsivehtmlcontroller/
 | [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 | [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
 | [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
-| [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
 | [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
 | [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
 | [writeShapeEnd](writeshapeend)([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
@@ -56,7 +55,6 @@ url: /php-java/responsivehtmlcontroller/
 | [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
 | [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
 | [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
-| [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [GeometryShape](../geometryshape)) |  |
 | [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
 | [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
 | [writeShapeStart](writeshapestart)([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |

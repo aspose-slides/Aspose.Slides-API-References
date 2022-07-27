@@ -407,57 +407,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [BaseScript](../../basescript) value)  method
-
- Element of matrix
- 
-Example:
- 
-```php
-  $matrix = new MathMatrix(2, 3);
-  $matrix->set_Item(0, 0, new MathematicalText("item.1.1"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-### Returns
-void
-
-
----
-
-
 ## set_Item(int row, int column, [MathematicalText](../../mathematicaltext) value)  method
-
- Element of matrix
- 
-Example:
- 
-```php
-  $matrix = new MathMatrix(2, 3);
-  $matrix->set_Item(0, 0, new MathematicalText("item.1.1"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int row, int column, [MathElementBase](../../mathelementbase) value)  method
 
  Element of matrix
  

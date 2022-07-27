@@ -115,24 +115,6 @@ int
 ---
 
 
-## indexOf([GeometryShape](../../geometryshape) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GeometryShape](../../geometryshape) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.

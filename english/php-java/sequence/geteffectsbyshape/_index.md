@@ -79,18 +79,6 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([GeometryShape](../../geometryshape) shape)  method
-
- Returns array of effects for the specified shape.
- 
-
-### Returns
-[Effect](../../effect)
-
-
----
-
-
 ## getEffectsByShape([SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Returns array of effects for the specified shape.

@@ -31,7 +31,6 @@ url: /php-java/textanimationcollection/
 | [get_Item](get_item)([Shape](../shape)) | Returns all elements |
 | [get_Item](get_item)([Table](../table)) | Returns all elements |
 | [get_Item](get_item)([Ink](../ink)) | Returns all elements |
-| [get_Item](get_item)([GeometryShape](../geometryshape)) | Returns all elements |
 | [get_Item](get_item)([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
 | [get_Item](get_item)([SummaryZoomSection](../summaryzoomsection)) | Returns all elements |
 | [get_Item](get_item)([ZoomFrame](../zoomframe)) | Returns all elements |

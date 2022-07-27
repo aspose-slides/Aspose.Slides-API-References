@@ -145,29 +145,6 @@ url: /php-java/shapecollection/insertclone/
 ---
 
 
-## insertClone(int index, [GeometryShape](../../geometryshape) sourceShape, float x, float y, float width, float height)  method
-
- Inserts a copy of a specified shape to specified position of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
-### Returns
-[Connector](../../connector), [GraphicalObject](../../graphicalobject), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Table](../../table), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
-
-
----
-
-
 ## insertClone(int index, [SummaryZoomFrame](../../summaryzoomframe) sourceShape, float x, float y, float width, float height)  method
 
  Inserts a copy of a specified shape to specified position of the collection.
@@ -622,28 +599,6 @@ url: /php-java/shapecollection/insertclone/
 ---
 
 
-## insertClone(int index, [GeometryShape](../../geometryshape) sourceShape, float x, float y)  method
-
- Inserts a copy of a specified shape to specified position of the collection.
- Width and Height of the new shape are equal to Width and Height of the source  Shape.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
-### Returns
-[Connector](../../connector), [GraphicalObject](../../graphicalobject), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Table](../../table), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
-
-
----
-
-
 ## insertClone(int index, [SummaryZoomFrame](../../summaryzoomframe) sourceShape, float x, float y)  method
 
  Inserts a copy of a specified shape to specified position of the collection.
@@ -1064,26 +1019,6 @@ url: /php-java/shapecollection/insertclone/
 | --- | --- | --- |
 | index | int | Index of new shape. |
 | sourceShape | [Ink](../../ink) | Shape to clone. |
-
-### Returns
-[Connector](../../connector), [GraphicalObject](../../graphicalobject), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Table](../../table), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
-
-
----
-
-
-## insertClone(int index, [GeometryShape](../../geometryshape) sourceShape)  method
-
- Inserts a copy of a specified shape to specified position of the collection.
- X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [GeometryShape](../../geometryshape) | Shape to clone. |
 
 ### Returns
 [Connector](../../connector), [GraphicalObject](../../graphicalobject), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Table](../../table), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)

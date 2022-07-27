@@ -439,33 +439,6 @@ int
 ---
 
 
-## indexOf([BaseScript](../../basescript) item)  method
-
- Determines the index of a specific math element in collection.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->add($plusElement);
-  $mathBlock->add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-  $index = $mathBlock->indexOf($plusElement);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [BaseScript](../../basescript) | The element to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([MathematicalText](../../mathematicaltext) item)  method
 
  Determines the index of a specific math element in collection.
@@ -485,33 +458,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathematicalText](../../mathematicaltext) | The element to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
-## indexOf([MathElementBase](../../mathelementbase) item)  method
-
- Determines the index of a specific math element in collection.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->add($plusElement);
-  $mathBlock->add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-  $index = $mathBlock->indexOf($plusElement);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathElementBase](../../mathelementbase) | The element to locate in the collection. |
 
 ### Returns
 int

@@ -30,7 +30,6 @@ url: /php-java/shapecollection/
 | [addClone](addclone)([Shape](../shape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([Table](../table), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([Ink](../ink), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-| [addClone](addclone)([GeometryShape](../geometryshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([ZoomFrame](../zoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
@@ -51,7 +50,6 @@ url: /php-java/shapecollection/
 | [addClone](addclone)([Shape](../shape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([Table](../table), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([Ink](../ink), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [addClone](addclone)([GeometryShape](../geometryshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([SummaryZoomFrame](../summaryzoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([SummaryZoomSection](../summaryzoomsection), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([ZoomFrame](../zoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
@@ -72,7 +70,6 @@ url: /php-java/shapecollection/
 | [addClone](addclone)([Shape](../shape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([Table](../table)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([Ink](../ink)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [addClone](addclone)([GeometryShape](../geometryshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([SummaryZoomFrame](../summaryzoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([SummaryZoomSection](../summaryzoomsection)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([ZoomFrame](../zoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
@@ -114,7 +111,6 @@ url: /php-java/shapecollection/
 | [indexOf](indexof)([Shape](../shape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([Table](../table)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([Ink](../ink)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-| [indexOf](indexof)([GeometryShape](../geometryshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([SummaryZoomFrame](../summaryzoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([SummaryZoomSection](../summaryzoomsection)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([ZoomFrame](../zoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
@@ -143,7 +139,6 @@ url: /php-java/shapecollection/
 | [insertClone](insertclone)(int, [Shape](../shape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [Table](../table), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [Ink](../ink), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-| [insertClone](insertclone)(int, [GeometryShape](../geometryshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [ZoomFrame](../zoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
@@ -164,7 +159,6 @@ url: /php-java/shapecollection/
 | [insertClone](insertclone)(int, [Shape](../shape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [Table](../table), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [Ink](../ink), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [GeometryShape](../geometryshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SummaryZoomFrame](../summaryzoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SummaryZoomSection](../summaryzoomsection), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [ZoomFrame](../zoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
@@ -185,7 +179,6 @@ url: /php-java/shapecollection/
 | [insertClone](insertclone)(int, [Shape](../shape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [Table](../table)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [Ink](../ink)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [GeometryShape](../geometryshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SummaryZoomFrame](../summaryzoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SummaryZoomSection](../summaryzoomsection)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [ZoomFrame](../zoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
@@ -222,7 +215,6 @@ url: /php-java/shapecollection/
 | [remove](remove)([Shape](../shape)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([Table](../table)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([Ink](../ink)) | Removes the first occurrence of a specific shape from the collection. |
-| [remove](remove)([GeometryShape](../geometryshape)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([SummaryZoomFrame](../summaryzoomframe)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([SummaryZoomSection](../summaryzoomsection)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([ZoomFrame](../zoomframe)) | Removes the first occurrence of a specific shape from the collection. |
@@ -244,7 +236,6 @@ url: /php-java/shapecollection/
 | [reorder](reorder)(int, [Shape](../shape)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [Table](../table)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [Ink](../ink)) | Moves a shape from the collection to the specified position. |
-| [reorder](reorder)(int, [GeometryShape](../geometryshape)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [SummaryZoomFrame](../summaryzoomframe)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [SummaryZoomSection](../summaryzoomsection)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [ZoomFrame](../zoomframe)) | Moves a shape from the collection to the specified position. |

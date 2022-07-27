@@ -32,7 +32,6 @@ url: /php-java/commandeffect/
 | [setShapeTarget](setshapetarget)([Shape](../shape)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([Table](../table)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([Ink](../ink)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([GeometryShape](../geometryshape)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([SummaryZoomFrame](../summaryzoomframe)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([SummaryZoomSection](../summaryzoomsection)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([ZoomFrame](../zoomframe)) | Defines shape target of command effect. Read/write IShape. |

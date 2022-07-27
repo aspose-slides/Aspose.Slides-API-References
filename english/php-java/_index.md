@@ -13,19 +13,12 @@ is_root: true
 | [AdjustValue](adjustvalue) | Represents a geometry shape's adjustment value. These values affect shape's form. |
 | [AdjustValueCollection](adjustvaluecollection) | Reprasents a collection of shape's adjustments. |
 | [AlphaBiLevel](alphabilevel) | Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
-| [AlphaBiLevelEffectiveData](alphabileveleffectivedata) | Immutable object which represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
 | [AlphaCeiling](alphaceiling) | Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque. |
-| [AlphaCeilingEffectiveData](alphaceilingeffectivedata) | Immutable object which represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque. |
 | [AlphaFloor](alphafloor) | Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent. |
-| [AlphaFloorEffectiveData](alphaflooreffectivedata) | Immutable object which represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent. |
 | [AlphaInverse](alphainverse) | Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%. |
-| [AlphaInverseEffectiveData](alphainverseeffectivedata) | Immutable object which represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%. |
 | [AlphaModulate](alphamodulate) | Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate. |
-| [AlphaModulateEffectiveData](alphamodulateeffectivedata) | Immutable object which represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate. |
 | [AlphaModulateFixed](alphamodulatefixed) | Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage. |
-| [AlphaModulateFixedEffectiveData](alphamodulatefixedeffectivedata) | Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage. |
 | [AlphaReplace](alphareplace) | Represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha. |
-| [AlphaReplaceEffectiveData](alphareplaceeffectivedata) | Immutable object which represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha. |
 | [AnimationTimeLine](animationtimeline) | Represents timeline of animation. |
 | [AsposeLicenseException](asposelicenseexception) | This exception is thrown if any errors with license are detected. |
 | [Audio](audio) | Represents an embedded audio file. |
@@ -43,7 +36,6 @@ is_root: true
 | [AxisPositionType](axispositiontype) | Determines a position of axis. |
 | [Backdrop3DScene](backdrop3dscene) | Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to. |
 | [Background](background) | Represents background of a slide. |
-| [BackgroundEffectiveData](backgroundeffectivedata) | Immutable object which contains effective background properties. This class is used together with the Background class to return effective formatting values with inheritance applied. |
 | [BackgroundType](backgroundtype) | Defines the slide background fill source. |
 | [BaseShapeLock](baseshapelock) | Represents a base class for locks (disabled operation). |
 | [BehaviorAccumulateType](behavioraccumulatetype) | Represents types of accumulation of effect behaviors. |
@@ -53,16 +45,13 @@ is_root: true
 | [BehaviorPropertyCollection](behaviorpropertycollection) | Represents timing properties for the effect behavior. |
 | [BevelPresetType](bevelpresettype) | Constants which define 3D bevel of shape. |
 | [BiLevel](bilevel) | Represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect. |
-| [BiLevelEffectiveData](bileveleffectivedata) | Immutable object which represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect. |
 | [BlackWhiteMode](blackwhitemode) | Determines how colored shape should be transformed into black and white. |
 | [BlobManagementOptions](blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
 | [Blur](blur) | Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
-| [BlurEffectiveData](blureffectivedata) | Immutable object which represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected. |
 | [BubbleSizeRepresentationType](bubblesizerepresentationtype) | Specifies the possible ways to represent data as bubble chart sizes. |
 | [BuildType](buildtype) | Determines how text will appear on a shape during animation. |
 | [BuildVersionInfo](buildversioninfo) | Contains information about version of Aspose.Slides. |
 | [BulletFormat](bulletformat) | Represents paragraph bullet formatting properties. |
-| [BulletFormatEffectiveData](bulletformateffectivedata) | Immutable object which contains effective paragraph bullet formatting properties. This class is used as a part of ParagraphFormatEffectiveData. |
 | [BulletType](bullettype) | Represents the type of the extended bullets. |
 | [Camera](camera) | Represents Camera. |
 | [CameraPresetType](camerapresettype) | Constants which define camera preset type. |
@@ -71,7 +60,6 @@ is_root: true
 | [Cell](cell) | Represents a cell of a table. |
 | [CellCircularReferenceException](cellcircularreferenceexception) | The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly. |
 | [CellFormat](cellformat) | Represents format of a table cell. |
-| [CellFormatEffectiveData](cellformateffectivedata) | Immutable object which contains effective table cell formatting properties. This class is used together with the CellFormat class to return effective formatting values with inheritance and table styles applied. |
 | [CellInvalidFormulaException](cellinvalidformulaexception) | The exception that is thrown when a calculated formula is not correct or was not parsed. |
 | [CellInvalidReferenceException](cellinvalidreferenceexception) | The exception that is thrown when an invalid cell reference is encountered. |
 | [CellUnsupportedDataException](cellunsupporteddataexception) | The exception that is thrown when an unsupported data is encountered in a spreadsheet cell. |
@@ -96,8 +84,6 @@ is_root: true
 | [ChartSeries](chartseries) | Represents a chart series. |
 | [ChartSeriesCollection](chartseriescollection) | Represents collection of ChartSeries |
 | [ChartSeriesGroup](chartseriesgroup) | Represents group of series. 1) See summary and remarks for ChartSeriesGroupCollection class and CombinableSeriesTypesGroup enum. 2) Group of series contains some series properies whitch is common for each series in group ("series group properties"). "Series group properties" in ChartSeriesGroup class is read/write. Each of "series group properties" can have a read-only projection in ChartSeries class. |
-| [ChartSeriesGroupCollection](chartseriesgroupcollection) | Represents the collection of groups of combinable series. 1) Each group of series contains series with combinable types. Groups of combinable series types defined and described with CombinableSeriesTypesGroup enum. Also each group of series contains series witch is plotted whether on primary axes or on secondary axes (not both cases in one group). So, principle of series grouping is a grouping by type groups mentioned above and by primary/secondary plotting type. 2) Group of series contains some series properties which is common for each series in group ("series group properties"). "Series group properties" in ChartSeriesGroup class is read/write. Each of "series group properties" can have a read-only projection in ChartSeries class. |
-| [ChartSeriesReadonlyCollection](chartseriesreadonlycollection) | Represents a readonly collection of ChartSeries |
 | [ChartShapeType](chartshapetype) | Represents a shape of chart. |
 | [ChartTextFormat](charttextformat) | Specifies default text formatting for chart text elements. |
 | [ChartThemeManager](chartthememanager) | Provides access to chart theme overriden. |
@@ -107,7 +93,6 @@ is_root: true
 | [ChartWall](chartwall) | Represents walls on 3d charts. |
 | [Collect](collect) | Represents a group of methods intended to collect model objects of different types from Presentation. |
 | [ColorChange](colorchange) | Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor. |
-| [ColorChangeEffectiveData](colorchangeeffectivedata) | Immutable object which represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor. |
 | [ColorDirection](colordirection) | Represents color direction for color effect behavior. |
 | [ColorEffect](coloreffect) | Represents a color effect for an animation behavior. |
 | [ColorFormat](colorformat) | Represents a color used in a presentation. |
@@ -115,7 +100,6 @@ is_root: true
 | [ColorOperation](coloroperation) | Represents different color operations used for color transformations. Immutable object. |
 | [ColorOperationCollection](coloroperationcollection) | Represents a collection of color transform operations. |
 | [ColorReplace](colorreplace) | Represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected. |
-| [ColorReplaceEffectiveData](colorreplaceeffectivedata) | Immutable object which represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected. |
 | [ColorScheme](colorscheme) | Stores theme-defined colors. |
 | [ColorSchemeIndex](colorschemeindex) | Represents an index in a colorscheme. |
 | [ColorSpace](colorspace) | Represents color space for color effect behavior. |
@@ -125,7 +109,6 @@ is_root: true
 | [Column](column) | Represents a column in a table. |
 | [ColumnCollection](columncollection) | Represents collection of columns in a table. |
 | [ColumnFormat](columnformat) | Represents format of a table column. |
-| [ColumnFormatEffectiveData](columnformateffectivedata) | Immutable object which contains effective table column formatting properties. This class is used together with the ColumnFormat class to return effective formatting values with inheritance and table styles applied. |
 | [CombinableSeriesTypesGroup](combinableseriestypesgroup) | Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup. For example: ChartType.PercentsStackedArea series cannot be simultaneously with ChartType.StackedArea series in one ChartSeriesGroup. But two or more ChartType.PercentsStackedArea can be in one ChartSeriesGroup simultaneously (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). And ChartType.Line series can be with ChartType.LineWithMarkers series simultaneously in one CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup. |
 | [CommandEffect](commandeffect) | Represents a command effect for an animation behavior. |
 | [CommandEffectType](commandeffecttype) | Represents command effect type for command effect behavior. |
@@ -163,13 +146,11 @@ is_root: true
 | [DocumentProperties](documentproperties) | Represents properties of a presentation. |
 | [DoubleChartValue](doublechartvalue) | Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value. |
 | [Duotone](duotone) | Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel. |
-| [DuotoneEffectiveData](duotoneeffectivedata) | Immutable object which represents a Duotone effect. For each pixel, combines clr1 and clr2 through a linear interpolation to determine the new color for that pixel. |
 | [Effect](effect) | Represents animation effect. |
 | [EffectChartMajorGroupingType](effectchartmajorgroupingtype) | Represents the type of an animation effect for chart's element. |
 | [EffectChartMinorGroupingType](effectchartminorgroupingtype) | Represents the type of an animation effect for chart's element in series or category. |
 | [EffectFillType](effectfilltype) | Represent fill types. |
 | [EffectFormat](effectformat) | Represents effect properties of shape. |
-| [EffectFormatEffectiveData](effectformateffectivedata) | Immutable object which contains effective effect formatting properties. This class is used together with the EffectFormat class to return effective formatting values with inheritance applied. |
 | [EffectPresetClassType](effectpresetclasstype) | Represent effect class types. |
 | [EffectRestartType](effectrestarttype) | Represent restart types for timing. |
 | [EffectStyle](effectstyle) | Represents an effect style. |
@@ -195,9 +176,7 @@ is_root: true
 | [FillBlendMode](fillblendmode) | Determines blend mode. |
 | [FillFormat](fillformat) | Represents a fill formatting options. |
 | [FillFormatCollection](fillformatcollection) | Represents the collection of fill styles. |
-| [FillFormatEffectiveData](fillformateffectivedata) | Immutable object which contains effective fill formatting properties. This class is used together with the FillFormat class to return effective formatting values with inheritance applied. |
 | [FillOverlay](filloverlay) | Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together. |
-| [FillOverlayEffectiveData](filloverlayeffectivedata) | Immutable object which represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together. |
 | [FillType](filltype) | Specifies the interior fill type of various visual objects. |
 | [FilterEffect](filtereffect) | Represent filter effect of behavior. |
 | [FilterEffectRevealType](filtereffectrevealtype) | Represents filter reveal type. |
@@ -227,7 +206,6 @@ is_root: true
 | [GlitterTransition](glittertransition) | Glitter slide transition effect. |
 | [GlobalLayoutSlideCollection](globallayoutslidecollection) | Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides. |
 | [Glow](glow) | Represents a Glow effect, in which a color blurred outline is added outside the edges of the object. |
-| [GlowEffectiveData](gloweffectivedata) | Immutable object which represents a glow effect, in which a color blurred outline is added outside the edges of the object. |
 | [GradientDirection](gradientdirection) | Represents the gradient style. |
 | [GradientFormat](gradientformat) | Represent a gradient format. |
 | [GradientShape](gradientshape) | Represents the shape of gradient fill. |
@@ -238,11 +216,9 @@ is_root: true
 | [GraphicalObject](graphicalobject) | Represents abstract graphical object. |
 | [GraphicalObjectLock](graphicalobjectlock) | Determines which operations are disabled on the parent GraphicalObject. |
 | [GrayScale](grayscale) | Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected. |
-| [GrayScaleEffectiveData](grayscaleeffectivedata) | Immutable object which representsepresents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected. |
 | [GroupShape](groupshape) | Represents a group of shapes on a slide. |
 | [GroupShapeLock](groupshapelock) | Determines which operations are disabled on the parent GroupShape. |
 | [HSL](hsl) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
-| [HSLEffectiveData](hsleffectivedata) | Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value. |
 | [Html5Options](html5options) | Represents a HTML5 exporting options. |
 | [HtmlExternalResolver](htmlexternalresolver) | Callback object used by HTML import routine to obtain referrenced objects such as images. Using this resolver could create a vulnurability when client provided HTML file will make server software to obtain local or network file. Use with caution. It is recommended not to specify HtmlExternalResolver at all (only embedded objects will be read) or create some subclass which checks if specified uri is valid. |
 | [HtmlFormatter](htmlformatter) | Represents HTML file template. |
@@ -260,7 +236,6 @@ is_root: true
 | [InOutTransition](inouttransition) | In-Out slide transition effect. |
 | [Ink](ink) | Represents an ink object on a slide. |
 | [InnerShadow](innershadow) | Represents a Inner Shadow effect. |
-| [InnerShadowEffectiveData](innershadoweffectivedata) | Immutable object which represents a inner shadow effect. |
 | [Input](input) | Represents a collection of input elements (templates) for IWebDocument. |
 | [InterruptionToken](interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [InterruptionTokenSource](interruptiontokensource) | Represents the source of InterruptionToken. |
@@ -290,7 +265,6 @@ is_root: true
 | [LineFillFormat](linefillformat) | Represents properties for lines filling. |
 | [LineFormat](lineformat) | Represents format of a line. |
 | [LineFormatCollection](lineformatcollection) | Represents the collection of line styles. |
-| [LineFormatEffectiveData](lineformateffectivedata) | Immutable object which contains effective line formatting properties. This class is used together with the LineFormat class to return effective formatting values with inheritance applied. |
 | [LineJoinStyle](linejoinstyle) | Represents the lines join style. |
 | [LineSketchType](linesketchtype) | Represents which sketch type or effect a shape has been assigned. |
 | [LineStyle](linestyle) | Represents the style of a line. |
@@ -299,16 +273,13 @@ is_root: true
 | [LoadOptions](loadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
 | [LoadingStreamBehavior](loadingstreambehavior) | The java.io.InputStream passed to a method is considered as a Binary Large Object (BLOB) (see IBlobManagementOptions description). Values of this enumeration identify how the java.io.InputStream should be treated when it passed to the method. Depending on the requirements, different decisions could be made to provide the most efficient behavior. |
 | [Luminance](luminance) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
-| [LuminanceEffectiveData](luminanceeffectivedata) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
 | [Marker](marker) | Represents marker of a chert. |
 | [MarkerStyleType](markerstyletype) | Determines form of marker on chart's data point. |
 | [MasterHandoutSlide](masterhandoutslide) | Represents master slide for handouts. |
 | [MasterHandoutSlideHeaderFooterManager](masterhandoutslideheaderfootermanager) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |
-| [MasterHandoutSlideManager](masterhandoutslidemanager) |  |
 | [MasterLayoutSlideCollection](masterlayoutslidecollection) | Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of master's layout slides. |
 | [MasterNotesSlide](masternotesslide) | Represents master slide for notes. |
 | [MasterNotesSlideHeaderFooterManager](masternotesslideheaderfootermanager) | Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
-| [MasterNotesSlideManager](masternotesslidemanager) |  |
 | [MasterSlide](masterslide) | Represents a master slide in a presentation. |
 | [MasterSlideCollection](masterslidecollection) | Represents a collection of master slides. |
 | [MasterSlideHeaderFooterManager](masterslideheaderfootermanager) | Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
@@ -382,15 +353,12 @@ is_root: true
 | [Orientation](orientation) | Represents the orientation of a shape. |
 | [OrientationTransition](orientationtransition) | Orientation slide transition effect. |
 | [OuterShadow](outershadow) | Represents an Outer Shadow effect. |
-| [OuterShadowEffectiveData](outershadoweffectivedata) | Immutable object which represents a outer shadow effect. |
 | [Output](output) | Represents a collection of output elements for IWebDocument. |
-| [OutputSaverStub](outputsaverstub) |  |
 | [OverrideTheme](overridetheme) | Represents a overriding theme. |
 | [PPImage](ppimage) | Represents an image in a presentation. |
 | [Paragraph](paragraph) | Represents a paragraph of text. |
 | [ParagraphCollection](paragraphcollection) | Represents a collection of a paragraphs. |
 | [ParagraphFormat](paragraphformat) | This class contains the paragraph formatting properties. Unlike IParagraphFormatEffectiveData, all properties of this class are writeable. This class is used to return and manipulate paragraph formatting properties defined for the particular paragraph. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined". In order to get the effective formatting parameter values including inherited you need to use ParagraphFormat#getEffective method which returns a IParagraphFormatEffectiveData instance. |
-| [ParagraphFormatEffectiveData](paragraphformateffectivedata) | Immutable object which contains effective paragraph formatting properties. This class is used together with the ParagraphFormat class to return effective formatting values with inheritance applied. |
 | [ParentLabelLayoutType](parentlabellayouttype) | Represents layout of category data labels. Used with Treemap series only. |
 | [PathCommandType](pathcommandtype) | Represents graphics path commands |
 | [PathFillModeType](pathfillmodetype) | Specifies the manner in which a path should be filled |
@@ -421,7 +389,6 @@ is_root: true
 | [Portion](portion) | Represents a portion of text inside a text paragraph. |
 | [PortionCollection](portioncollection) | Represents a collection of portions. |
 | [PortionFormat](portionformat) | This class contains the text portion formatting properties. Unlike IPortionFormatEffectiveData, all properties of this class are writeable. This class is used to return and manipulate text portion formatting properties defined for the particular portion. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined". In order to get the effective formatting parameter values including inherited you need to use PortionFormat#getEffective method which returns a IPortionFormatEffectiveData instance. |
-| [PortionFormatEffectiveData](portionformateffectivedata) | Immutable object which contains effective text portion formatting properties. This class is used together with the PortionFormat class to return effective formatting values with inheritance applied. |
 | [PptCorruptFileException](pptcorruptfileexception) | Exception which thrown when presentation file is probably corrupt. |
 | [PptEditException](ppteditexception) | Represents an exception thrown when edit presentation error is detected. |
 | [PptException](pptexception) | Represents a standard internal exception type. |
@@ -442,7 +409,6 @@ is_root: true
 | [PresentationText](presentationtext) | Represents the text extracted from the presentation |
 | [PresetColor](presetcolor) | Represents predefined color presets. |
 | [PresetShadow](presetshadow) | Represents a Preset Shadow effect. |
-| [PresetShadowEffectiveData](presetshadoweffectivedata) | Immutable object which represents a preset shadow effect. |
 | [PresetShadowType](presetshadowtype) | Represents a preset for a shadow effect. |
 | [PropertyCalcModeType](propertycalcmodetype) | Represent calc mode for animation property. |
 | [PropertyEffect](propertyeffect) | Represent property effect behavior. |
@@ -451,10 +417,8 @@ is_root: true
 | [QuartileMethodType](quartilemethodtype) | Returns type of quartile method |
 | [RectangleAlignment](rectanglealignment) | Defines 2-dimension allignment. |
 | [Reflection](reflection) | Represents a Reflection effect. |
-| [ReflectionEffectiveData](reflectioneffectivedata) | Immutable object which represents a reflection effect. |
 | [RenderingOptions](renderingoptions) | Provides options that control how a presentation/slide is rendered. |
 | [ResourceLoadingAction](resourceloadingaction) | Specifies the mode of external resource loading. |
-| [ResourceLoadingAdapter](resourceloadingadapter) |  |
 | [ResponsiveHtmlController](responsivehtmlcontroller) | Responsive HTML Controller |
 | [ReturnAction](returnaction) | Represents warning callback decision options. |
 | [RevealTransition](revealtransition) | Reveal slide transition effect. |
@@ -464,7 +428,6 @@ is_root: true
 | [Row](row) | Represents a row in a table. |
 | [RowCollection](rowcollection) | Represents table row collection. |
 | [RowFormat](rowformat) | Represents format of a table row. |
-| [RowFormatEffectiveData](rowformateffectivedata) | Immutable object which contains effective table row formatting properties. This class is used together with the RowFormat class to return effective formatting values with inheritance and table styles applied. |
 | [SVGOptions](svgoptions) | Represents an SVG options. |
 | [SaveFormat](saveformat) | Constants which define the format of a saved presentation. |
 | [ScaleEffect](scaleeffect) | Represents animation scale effect. |
@@ -501,7 +464,6 @@ is_root: true
 | [SlideSize](slidesize) | Represents a size of slide. |
 | [SlideSizeScaleType](slidesizescaletype) | Represents the scale type of slide content. |
 | [SlideSizeType](slidesizetype) | Represents the slide size preset. |
-| [SlideText](slidetext) | Represents the text extracted from the slide |
 | [SlideThemeManager](slidethememanager) | Provides access to slide theme overriden. |
 | [SlideUtil](slideutil) | Offer methods which help to search shapes and text in a presentation. |
 | [SmartArt](smartart) | Represents a SmartArt diagram |
@@ -513,7 +475,6 @@ is_root: true
 | [SmartArtShape](smartartshape) | Represents SmartArt shape |
 | [SmartArtShapeCollection](smartartshapecollection) | Represents a collection of a SmartArt shapes |
 | [SoftEdge](softedge) | Represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected. |
-| [SoftEdgeEffectiveData](softedgeeffectivedata) | Immutable object which represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected. |
 | [SourceFormat](sourceformat) | Represents source file format. |
 | [SplitTransition](splittransition) | Split slide transition effect. |
 | [SplitterBarStateType](splitterbarstatetype) | Specifies the state that the splitter bar should be shown in. The splitter bar separates a primary and secondary region within a viewing area. |
@@ -529,7 +490,6 @@ is_root: true
 | [SvgEvent](svgevent) | Represents options for SVG shape. |
 | [SvgExternalFontsHandling](svgexternalfontshandling) | Represents a way to handle external fonts used for text drawing. |
 | [SvgImage](svgimage) | Represents an SVG image. |
-| [SvgResourceResolver](svgresourceresolver) |  |
 | [SvgShape](svgshape) | Represents options for SVG shape. |
 | [SvgTSpan](svgtspan) | Represents options for SVG text portion ("tspan"). |
 | [SwfOptions](swfoptions) | Provides options that control how a presentation is saved in Swf format. |
@@ -539,11 +499,9 @@ is_root: true
 | [TabCollection](tabcollection) | Represents a collection of tabs. |
 | [Table](table) | Represents a table on a slide. |
 | [TableFormat](tableformat) | Represents format of a table. |
-| [TableFormatEffectiveData](tableformateffectivedata) | Immutable object which contains effective table formatting properties. This class is used together with the TableFormat class to return effective formatting values with inheritance and table styles applied. |
 | [TableStylePreset](tablestylepreset) | Represents builtin table styles. |
 | [TagCollection](tagcollection) | Represents the collection of tags (user defined pairs of strings) |
 | [TemplateContext](templatecontext) | Represents a model object interface for a template engine. |
-| [TemplateEngineStub](templateenginestub) |  |
 | [TextAlignment](textalignment) | Represents different text alignment styles. |
 | [TextAnchorType](textanchortype) | text box alignment within a text area. |
 | [TextAnimation](textanimation) | Represent text animation. |
@@ -553,20 +511,16 @@ is_root: true
 | [TextExtractionArrangingMode](textextractionarrangingmode) | Represents the mode to use during text extraction |
 | [TextFrame](textframe) | Represents a TextFrame. |
 | [TextFrameFormat](textframeformat) | Contains the TextFrame's formatTextFrameFormatting properties. |
-| [TextFrameFormatEffectiveData](textframeformateffectivedata) | Immutable object which contains effective text frame formatting properties. This class is used together with the TextFrameFormat class to return effective formatting values with inheritance applied. |
 | [TextHighlightingOptions](texthighlightingoptions) | Represents options which can be used to highlight text in text frame. |
 | [TextInheritanceLimit](textinheritancelimit) | Controls the depth of the text properties inheritance. |
 | [TextShapeType](textshapetype) | Represents text wrapping shape. |
 | [TextStrikethroughType](textstrikethroughtype) | Represents the type of text strikethrough. |
 | [TextStyle](textstyle) | This class contains the text style formatting properties. |
-| [TextStyleEffectiveData](textstyleeffectivedata) | Immutable object which contains effective text style properties. This class is used together with the TextStyle class to return effective formatting values with inheritance applied. |
 | [TextToHtmlConversionOptions](texttohtmlconversionoptions) | Options for extracting HTML from the Pptx text. |
 | [TextUnderlineType](textunderlinetype) | Represents the type of text underline. |
 | [TextVerticalOverflowType](textverticaloverflowtype) | Represents text vertical overflow type. |
 | [TextVerticalType](textverticaltype) | Determines vertical writing mode for a text. |
-| [ThemeEffectiveData](themeeffectivedata) | Immutable object which contains effective theme properties. This class is used together with the Theme class to return effective formatting values with inheritance applied. |
 | [ThreeDFormat](threedformat) | Represents 3-D properties. |
-| [ThreeDFormatEffectiveData](threedformateffectivedata) | Immutable object which represents effective 3-D formatting properties. This class is used together with the ThreeDFormat class to return effective formatting values with inheritance applied. |
 | [TickLabelPositionType](ticklabelpositiontype) | Represents the position type of tick-mark labels on the specified axis. |
 | [TickMarkType](tickmarktype) | Represents the tick mark type for the specified axis. |
 | [TiffCompressionTypes](tiffcompressiontypes) | Provides options that control how a presentation is compressed in TIFF format. |
@@ -575,7 +529,6 @@ is_root: true
 | [TimeUnitType](timeunittype) | Represents the base unit for the category axis |
 | [Timing](timing) | Represents animation timing. |
 | [Tint](tint) | Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
-| [TintEffectiveData](tinteffectivedata) | Immutable object which represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount. |
 | [TransitionCornerAndCenterDirectionType](transitioncornerandcenterdirectiontype) | Specifies a direction restricted to the corners and center. |
 | [TransitionCornerDirectionType](transitioncornerdirectiontype) | Represent corner direction transition types. |
 | [TransitionEightDirectionType](transitioneightdirectiontype) | Represent eight direction transition types. |
@@ -613,7 +566,6 @@ is_root: true
 | [WebDocumentOptions](webdocumentoptions) | Represents an options set for WebDocument saving. |
 | [WheelTransition](wheeltransition) | Wheel slide transition effect. |
 | [XamlOptions](xamloptions) | Options that control how a XAML document is saved. |
-| [XamlOutputSaver](xamloutputsaver) | Implements an output saver functionality |
 | [XpsOptions](xpsoptions) | Provides options that control how a presentation is saved in XPS format. |
 | [ZoomFrame](zoomframe) | Represents a Slide Zoom object in a slide. |
 | [ZoomImageType](zoomimagetype) | Defines whether the Zoom object is using the slide preview or a cover image. |

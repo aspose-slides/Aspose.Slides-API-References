@@ -115,24 +115,6 @@ void
 ---
 
 
-## remove([GeometryShape](../../geometryshape) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [GeometryShape](../../geometryshape) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([SummaryZoomFrame](../../summaryzoomframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.

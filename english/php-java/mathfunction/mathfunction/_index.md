@@ -231,35 +231,7 @@ Example:
 ---
 
 
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -525,35 +497,7 @@ Example:
 ---
 
 
-## MathFunction([MathLimit](../../mathlimit) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathLimit](../../mathlimit) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathLimit](../../mathlimit) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -819,35 +763,7 @@ Example:
 ---
 
 
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1113,35 +1029,7 @@ Example:
 ---
 
 
-## MathFunction([MathBlock](../../mathblock) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathBlock](../../mathblock) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathBlock](../../mathblock) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1407,35 +1295,7 @@ Example:
 ---
 
 
-## MathFunction([MathRadical](../../mathradical) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathRadical](../../mathradical) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathRadical](../../mathradical) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1701,35 +1561,7 @@ Example:
 ---
 
 
-## MathFunction([MathArray](../../matharray) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathArray](../../matharray) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathArray](../../matharray) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1995,35 +1827,7 @@ Example:
 ---
 
 
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2289,35 +2093,7 @@ Example:
 ---
 
 
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2583,35 +2359,7 @@ Example:
 ---
 
 
-## MathFunction([MathAccent](../../mathaccent) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathAccent](../../mathaccent) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathAccent](../../mathaccent) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2877,35 +2625,7 @@ Example:
 ---
 
 
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3171,35 +2891,7 @@ Example:
 ---
 
 
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3465,35 +3157,7 @@ Example:
 ---
 
 
-## MathFunction([MathBar](../../mathbar) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathBar](../../mathbar) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathBar](../../mathbar) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3759,35 +3423,7 @@ Example:
 ---
 
 
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4053,35 +3689,7 @@ Example:
 ---
 
 
-## MathFunction([MathFunction](../../mathfunction) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathFunction](../../mathfunction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4347,35 +3955,7 @@ Example:
 ---
 
 
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4641,35 +4221,7 @@ Example:
 ---
 
 
-## MathFunction([MathFraction](../../mathfraction) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathFraction](../../mathfraction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathFraction](../../mathfraction) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4698,300 +4250,6 @@ Example:
 
 
 ## MathFunction([MathFraction](../../mathfraction) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathArray](../../matharray) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathBar](../../mathbar) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathBox](../../mathbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([BaseScript](../../basescript) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -5229,35 +4487,7 @@ Example:
 ---
 
 
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -5286,300 +4516,6 @@ Example:
 
 
 ## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathArray](../../matharray) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathBar](../../mathbar) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathBox](../../mathbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathElementBase](../../mathelementbase) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -5817,35 +4753,7 @@ Example:
 ---
 
 
-## MathFunction([MathBox](../../mathbox) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathBox](../../mathbox) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathBox](../../mathbox) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -6111,35 +5019,7 @@ Example:
 ---
 
 
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -6405,35 +5285,7 @@ Example:
 ---
 
 
-## MathFunction(String funcName, [BaseScript](../../basescript) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction("sin", new MathematicalText("x"));
-```
-
-
----
-
-
 ## MathFunction(String funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction("sin", new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction(String funcName, [MathElementBase](../../mathelementbase) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  

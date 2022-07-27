@@ -97,24 +97,6 @@ void
 ---
 
 
-## set_Item(int index, [Behavior](../../behavior) value)  method
-
- Sets a behavior at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of a behavior to return. |
-
-### Returns
-void
-
-
----
-
-
 ## set_Item(int index, [MotionEffect](../../motioneffect) value)  method
 
  Sets a behavior at the specified index.

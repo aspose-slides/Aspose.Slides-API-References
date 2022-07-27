@@ -32,7 +32,6 @@ url: /php-java/imagetransformoperationcollection/
 | [addGrayScaleEffect](addgrayscaleeffect)() | Adds the new Gray Scale effect to the end of a collection. |
 | [addHSLEffect](addhsleffect)(float, float, float) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
 | [addItem](additem)([SoftEdge](../softedge)) | Adds the new image effect to the end of a collection. |
-| [addItem](additem)([ImageTransformOperation](../imagetransformoperation)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([HSL](../hsl)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([AlphaBiLevel](../alphabilevel)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([InnerShadow](../innershadow)) | Adds the new image effect to the end of a collection. |
@@ -59,7 +58,6 @@ url: /php-java/imagetransformoperationcollection/
 | [addTintEffect](addtinteffect)(float, float) | Adds the new Tint effect to the end of a collection. |
 | [clear](clear)() | Removes all image effects from a collection. |
 | [containsItem](containsitem)([SoftEdge](../softedge)) | Determines whether the IGenericCollection contains a specific value. |
-| [containsItem](containsitem)([ImageTransformOperation](../imagetransformoperation)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([HSL](../hsl)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([AlphaBiLevel](../alphabilevel)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([InnerShadow](../innershadow)) | Determines whether the IGenericCollection contains a specific value. |
@@ -89,7 +87,6 @@ url: /php-java/imagetransformoperationcollection/
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
 | [removeAt](removeat)(int) | Removes an image effect from a collection at the specified index. |
 | [removeItem](removeitem)([SoftEdge](../softedge)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-| [removeItem](removeitem)([ImageTransformOperation](../imagetransformoperation)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([HSL](../hsl)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([AlphaBiLevel](../alphabilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([InnerShadow](../innershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |

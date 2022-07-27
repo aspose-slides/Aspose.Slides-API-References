@@ -139,28 +139,6 @@ url: /php-java/shapecollection/addclone/
 ---
 
 
-## addClone([GeometryShape](../../geometryshape) sourceShape, float x, float y, float width, float height)  method
-
- Adds a copy of a specified shape to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
-### Returns
-[Connector](../../connector), [GraphicalObject](../../graphicalobject), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Table](../../table), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
-
-
----
-
-
 ## addClone([SummaryZoomFrame](../../summaryzoomframe) sourceShape, float x, float y, float width, float height)  method
 
  Adds a copy of a specified shape to the end of the collection.
@@ -595,27 +573,6 @@ url: /php-java/shapecollection/addclone/
 ---
 
 
-## addClone([GeometryShape](../../geometryshape) sourceShape, float x, float y)  method
-
- Adds a copy of a specified shape to the end of the collection.
- Width and Height of the new shape are equal to Width and Height of the source  Shape.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [GeometryShape](../geometryshape) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
-### Returns
-[Connector](../../connector), [GraphicalObject](../../graphicalobject), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Table](../../table), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
-
-
----
-
-
 ## addClone([SummaryZoomFrame](../../summaryzoomframe) sourceShape, float x, float y)  method
 
  Adds a copy of a specified shape to the end of the collection.
@@ -1016,25 +973,6 @@ url: /php-java/shapecollection/addclone/
 | Name | Type | Description |
 | --- | --- | --- |
 | sourceShape | [Ink](../../ink) | Shape to clone. |
-
-### Returns
-[Connector](../../connector), [GraphicalObject](../../graphicalobject), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Table](../../table), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
-
-
----
-
-
-## addClone([GeometryShape](../../geometryshape) sourceShape)  method
-
- Adds a copy of a specified shape to the end of the collection.
- X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| sourceShape | [GeometryShape](../../geometryshape) | Shape to clone. |
 
 ### Returns
 [Connector](../../connector), [GraphicalObject](../../graphicalobject), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Table](../../table), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)

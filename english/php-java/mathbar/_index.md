@@ -37,9 +37,7 @@ Example:
 | [MathBar](mathbar)([MathFunction](../mathfunction)) | Initializes MathBar with overbar (Top position) |
 | [MathBar](mathbar)([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathBar with overbar (Top position) |
 | [MathBar](mathbar)([MathFraction](../mathfraction)) | Initializes MathBar with overbar (Top position) |
-| [MathBar](mathbar)([BaseScript](../basescript)) | Initializes MathBar with overbar (Top position) |
 | [MathBar](mathbar)([MathematicalText](../mathematicaltext)) | Initializes MathBar with overbar (Top position) |
-| [MathBar](mathbar)([MathElementBase](../mathelementbase)) | Initializes MathBar with overbar (Top position) |
 | [MathBar](mathbar)([MathBox](../mathbox)) | Initializes MathBar with overbar (Top position) |
 | [MathBar](mathbar)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathBar with overbar (Top position) |
 | [MathBar](mathbar)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Initializes MathBar with specified position |
@@ -58,9 +56,7 @@ Example:
 | [MathBar](mathbar)([MathFunction](../mathfunction), int) | Initializes MathBar with specified position |
 | [MathBar](mathbar)([MathSubscriptElement](../mathsubscriptelement), int) | Initializes MathBar with specified position |
 | [MathBar](mathbar)([MathFraction](../mathfraction), int) | Initializes MathBar with specified position |
-| [MathBar](mathbar)([BaseScript](../basescript), int) | Initializes MathBar with specified position |
 | [MathBar](mathbar)([MathematicalText](../mathematicaltext), int) | Initializes MathBar with specified position |
-| [MathBar](mathbar)([MathElementBase](../mathelementbase), int) | Initializes MathBar with specified position |
 | [MathBar](mathbar)([MathBox](../mathbox), int) | Initializes MathBar with specified position |
 | [MathBar](mathbar)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Initializes MathBar with specified position |
 

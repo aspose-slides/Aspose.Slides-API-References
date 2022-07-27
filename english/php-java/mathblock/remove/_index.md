@@ -439,33 +439,6 @@ boolean
 ---
 
 
-## remove([BaseScript](../../basescript) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->Add($plusElement);
-  $mathBlock->Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-  $mathBlock->Remove($plusElement);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [BaseScript](../../basescript) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## remove([MathematicalText](../../mathematicaltext) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -485,33 +458,6 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathematicalText](../../mathematicaltext) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
-## remove([MathElementBase](../../mathelementbase) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->Add($plusElement);
-  $mathBlock->Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-  $mathBlock->Remove($plusElement);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathElementBase](../../mathelementbase) | The object to remove from the collection. |
 
 ### Returns
 boolean

@@ -25,24 +25,6 @@ void
 ---
 
 
-## addItem([ImageTransformOperation](../../imagetransformoperation) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [ImageTransformOperation](../../imagetransformoperation) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([HSL](../../hsl) operation)  method
 
  Adds the new image effect to the end of a collection.

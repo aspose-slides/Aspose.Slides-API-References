@@ -25,24 +25,6 @@ url: /php-java/slideutil/getalltextboxes/
 ---
 
 
-## getAllTextBoxes([BaseSlide](../../baseslide) slide)  method
-
- Returns all text frames on a slide in a PPTX presentation.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [BaseSlide](../../baseslide) | Scanned slide. |
-
-### Returns
-[TextFrame](../../textframe)
-
-
----
-
-
 ## getAllTextBoxes([LayoutSlide](../../layoutslide) slide)  method
 
  Returns all text frames on a slide in a PPTX presentation.

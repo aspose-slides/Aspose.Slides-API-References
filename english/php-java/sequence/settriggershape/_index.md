@@ -91,20 +91,6 @@ void
 ---
 
 
-## setTriggerShape([GeometryShape](../../geometryshape) value)  method
-
- Returns or sets shape target for INTERACTIVE sequence.
- If sequence is not interactive then returns null.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setTriggerShape([SummaryZoomFrame](../../summaryzoomframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.

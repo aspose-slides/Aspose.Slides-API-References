@@ -22,7 +22,6 @@ url: /php-java/sequence/
 | [addEffect](addeffect)([Shape](../shape), int, int, int) | Add new effect to the end of sequence. |
 | [addEffect](addeffect)([Table](../table), int, int, int) | Add new effect to the end of sequence. |
 | [addEffect](addeffect)([Ink](../ink), int, int, int) | Add new effect to the end of sequence. |
-| [addEffect](addeffect)([GeometryShape](../geometryshape), int, int, int) | Add new effect to the end of sequence. |
 | [addEffect](addeffect)([SummaryZoomFrame](../summaryzoomframe), int, int, int) | Add new effect to the end of sequence. |
 | [addEffect](addeffect)([SummaryZoomSection](../summaryzoomsection), int, int, int) | Add new effect to the end of sequence. |
 | [addEffect](addeffect)([ZoomFrame](../zoomframe), int, int, int) | Add new effect to the end of sequence. |
@@ -48,7 +47,6 @@ url: /php-java/sequence/
 | [getCount](getcount)([Shape](../shape)) | Returns count of effects for the specified shape. |
 | [getCount](getcount)([Table](../table)) | Returns count of effects for the specified shape. |
 | [getCount](getcount)([Ink](../ink)) | Returns count of effects for the specified shape. |
-| [getCount](getcount)([GeometryShape](../geometryshape)) | Returns count of effects for the specified shape. |
 | [getCount](getcount)([SummaryZoomFrame](../summaryzoomframe)) | Returns count of effects for the specified shape. |
 | [getCount](getcount)([SummaryZoomSection](../summaryzoomsection)) | Returns count of effects for the specified shape. |
 | [getCount](getcount)([ZoomFrame](../zoomframe)) | Returns count of effects for the specified shape. |
@@ -70,7 +68,6 @@ url: /php-java/sequence/
 | [getEffectsByShape](geteffectsbyshape)([Shape](../shape)) | Returns array of effects for the specified shape. |
 | [getEffectsByShape](geteffectsbyshape)([Table](../table)) | Returns array of effects for the specified shape. |
 | [getEffectsByShape](geteffectsbyshape)([Ink](../ink)) | Returns array of effects for the specified shape. |
-| [getEffectsByShape](geteffectsbyshape)([GeometryShape](../geometryshape)) | Returns array of effects for the specified shape. |
 | [getEffectsByShape](geteffectsbyshape)([SummaryZoomFrame](../summaryzoomframe)) | Returns array of effects for the specified shape. |
 | [getEffectsByShape](geteffectsbyshape)([SummaryZoomSection](../summaryzoomsection)) | Returns array of effects for the specified shape. |
 | [getEffectsByShape](geteffectsbyshape)([ZoomFrame](../zoomframe)) | Returns array of effects for the specified shape. |
@@ -97,7 +94,6 @@ url: /php-java/sequence/
 | [removeByShape](removebyshape)([Shape](../shape)) | Remove effect for the specified shape. |
 | [removeByShape](removebyshape)([Table](../table)) | Remove effect for the specified shape. |
 | [removeByShape](removebyshape)([Ink](../ink)) | Remove effect for the specified shape. |
-| [removeByShape](removebyshape)([GeometryShape](../geometryshape)) | Remove effect for the specified shape. |
 | [removeByShape](removebyshape)([SummaryZoomFrame](../summaryzoomframe)) | Remove effect for the specified shape. |
 | [removeByShape](removebyshape)([SummaryZoomSection](../summaryzoomsection)) | Remove effect for the specified shape. |
 | [removeByShape](removebyshape)([ZoomFrame](../zoomframe)) | Remove effect for the specified shape. |
@@ -118,7 +114,6 @@ url: /php-java/sequence/
 | [setTriggerShape](settriggershape)([Shape](../shape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 | [setTriggerShape](settriggershape)([Table](../table)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 | [setTriggerShape](settriggershape)([Ink](../ink)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-| [setTriggerShape](settriggershape)([GeometryShape](../geometryshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 | [setTriggerShape](settriggershape)([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 | [setTriggerShape](settriggershape)([SummaryZoomSection](../summaryzoomsection)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 | [setTriggerShape](settriggershape)([ZoomFrame](../zoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |

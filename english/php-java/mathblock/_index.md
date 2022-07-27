@@ -39,9 +39,7 @@ Example:
 | [MathBlock](mathblock)([MathFunction](../mathfunction)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathSubscriptElement](../mathsubscriptelement)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathFraction](../mathfraction)) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)([BaseScript](../basescript)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathematicalText](../mathematicaltext)) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)([MathElementBase](../mathelementbase)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathBox](../mathbox)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement>) | Creates a new mathematical block and puts specified elements in it |
@@ -66,9 +64,7 @@ Example:
 | [add](add)([MathFunction](../mathfunction)) | Adds a math element to the end of the collection. |
 | [add](add)([MathSubscriptElement](../mathsubscriptelement)) | Adds a math element to the end of the collection. |
 | [add](add)([MathFraction](../mathfraction)) | Adds a math element to the end of the collection. |
-| [add](add)([BaseScript](../basescript)) | Adds a math element to the end of the collection. |
 | [add](add)([MathematicalText](../mathematicaltext)) | Adds a math element to the end of the collection. |
-| [add](add)([MathElementBase](../mathelementbase)) | Adds a math element to the end of the collection. |
 | [add](add)([MathBox](../mathbox)) | Adds a math element to the end of the collection. |
 | [add](add)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Adds a math element to the end of the collection. |
 | [clear](clear)() | Removes all elements from the collection. |
@@ -88,9 +84,7 @@ Example:
 | [contains](contains)([MathFunction](../mathfunction)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathSubscriptElement](../mathsubscriptelement)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathFraction](../mathfraction)) | Determines whether the collection contains a specific value. |
-| [contains](contains)([BaseScript](../basescript)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathematicalText](../mathematicaltext)) | Determines whether the collection contains a specific value. |
-| [contains](contains)([MathElementBase](../mathelementbase)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathBox](../mathbox)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Determines whether the collection contains a specific value. |
 | [copyTo](copyto)(com.aspose.slides.IMathElement[], int) | Copy to specified array. |
@@ -116,9 +110,7 @@ Example:
 | [indexOf](indexof)([MathFunction](../mathfunction)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathSubscriptElement](../mathsubscriptelement)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathFraction](../mathfraction)) | Determines the index of a specific math element in collection. |
-| [indexOf](indexof)([BaseScript](../basescript)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathematicalText](../mathematicaltext)) | Determines the index of a specific math element in collection. |
-| [indexOf](indexof)([MathElementBase](../mathelementbase)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathBox](../mathbox)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Determines the index of a specific math element in collection. |
 | [insert](insert)(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Inserts a MathElement into the collection at the specified index. |
@@ -137,9 +129,7 @@ Example:
 | [insert](insert)(int, [MathFunction](../mathfunction)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathSubscriptElement](../mathsubscriptelement)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathFraction](../mathfraction)) | Inserts a MathElement into the collection at the specified index. |
-| [insert](insert)(int, [BaseScript](../basescript)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathematicalText](../mathematicaltext)) | Inserts a MathElement into the collection at the specified index. |
-| [insert](insert)(int, [MathElementBase](../mathelementbase)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathBox](../mathbox)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Inserts a MathElement into the collection at the specified index. |
 | [isReadOnly](isreadonly)() | Returns false because child elements collection can be modified. |
@@ -161,9 +151,7 @@ Example:
 | [join](join)([MathFunction](../mathfunction)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathSubscriptElement](../mathsubscriptelement)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathFraction](../mathfraction)) | Joins a mathematical element with this mathematical block |
-| [join](join)([BaseScript](../basescript)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathematicalText](../mathematicaltext)) | Joins a mathematical element with this mathematical block |
-| [join](join)([MathElementBase](../mathelementbase)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathBox](../mathbox)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Joins a mathematical element with this mathematical block |
 | [join](join)(String) | Joins a mathematical text with this mathematical block |
@@ -184,9 +172,7 @@ Example:
 | [remove](remove)([MathFunction](../mathfunction)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathSubscriptElement](../mathsubscriptelement)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathFraction](../mathfraction)) | Removes the first occurrence of a specific object from the collection. |
-| [remove](remove)([BaseScript](../basescript)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathematicalText](../mathematicaltext)) | Removes the first occurrence of a specific object from the collection. |
-| [remove](remove)([MathElementBase](../mathelementbase)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathBox](../mathbox)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Removes the first occurrence of a specific object from the collection. |
 | [removeAt](removeat)(int) | Removes the element at the specified index of the collection. |
@@ -206,9 +192,7 @@ Example:
 | [set_Item](set_item)(int, [MathFunction](../mathfunction)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathSubscriptElement](../mathsubscriptelement)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathFraction](../mathfraction)) | Gets or sets IMathElement at the specified index. |
-| [set_Item](set_item)(int, [BaseScript](../basescript)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathematicalText](../mathematicaltext)) | Gets or sets IMathElement at the specified index. |
-| [set_Item](set_item)(int, [MathElementBase](../mathelementbase)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathBox](../mathbox)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Gets or sets IMathElement at the specified index. |
 | [toMathArray](tomatharray)() | Puts child elements in a vertical array |

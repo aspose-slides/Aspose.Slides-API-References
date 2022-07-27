@@ -45,25 +45,6 @@ url: /php-java/slideutil/findshape/
 ---
 
 
-## findShape([BaseSlide](../../baseslide) slide, String altText)  method
-
- Find shape by alternative text on a slide in a PPTX presentation.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [BaseSlide](../baseslide) | Scanned slide. |
-| altText | String | Alternative text of a shape. |
-
-### Returns
-[Connector](../../connector), [GraphicalObject](../../graphicalobject), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Table](../../table), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
-
-
----
-
-
 ## findShape([LayoutSlide](../../layoutslide) slide, String altText)  method
 
  Find shape by alternative text on a slide in a PPTX presentation.
