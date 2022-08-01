@@ -1,0 +1,199 @@
+---
+title: GetThumbnail
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Devuelve un objeto de mapa de bits en miniatura con escala personalizada.
+type: docs
+weight: 90
+url: /es/net/aspose.slides/slide/getthumbnail/
+---
+## GetThumbnail(float, float) {#getthumbnail_8}
+
+Devuelve un objeto de mapa de bits en miniatura con escala personalizada.
+
+```csharp
+public Bitmap GetThumbnail(float scaleX, float scaleY)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| scaleX | Single | El valor por el cual escalar esta Miniatura en la dirección del eje x. |
+| scaleY | Single | El valor por el cual escalar esta Miniatura en la dirección del eje y. |
+
+### Valor_devuelto
+
+Objeto de mapa de bits.
+
+### Ver también
+
+* class [Slide](../../slide)
+* espacio de nombres [Aspose.Slides](../../slide)
+* asamblea [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail() {#getthumbnail}
+
+Devuelve un objeto Imagen en miniatura (20% del tamaño real).
+
+```csharp
+public Bitmap GetThumbnail()
+```
+
+### Ver también
+
+* class [Slide](../../slide)
+* espacio de nombres [Aspose.Slides](../../slide)
+* asamblea [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(Size) {#getthumbnail_9}
+
+Devuelve un objeto de mapa de bits en miniatura con el tamaño especificado.
+
+```csharp
+public Bitmap GetThumbnail(Size imageSize)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| imageSize | Size | Tamaño de la imagen a crear. |
+
+### Valor_devuelto
+
+Objeto de mapa de bits.
+
+### Ver también
+
+* class [Slide](../../slide)
+* espacio de nombres [Aspose.Slides](../../slide)
+* asamblea [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(ITiffOptions) {#getthumbnail_7}
+
+Devuelve un objeto de mapa de bits tiff en miniatura con los parámetros especificados.
+
+```csharp
+public Bitmap GetThumbnail(ITiffOptions options)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| options | ITiffOptions | Opciones tiff. |
+
+### Valor_devuelto
+
+Objeto de mapa de bits.
+
+### Excepciones
+
+| excepción | condición |
+| --- | --- |
+| InvalidOperationException | Se lanza cuando options.NotesCommentsLayouting.NotesPosition toma el valor NotesPositions.BottomFull. |
+
+### Ver también
+
+* interface [ITiffOptions](../../../aspose.slides.export/itiffoptions)
+* class [Slide](../../slide)
+* espacio de nombres [Aspose.Slides](../../slide)
+* asamblea [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(IRenderingOptions) {#getthumbnail_4}
+
+Devuelve un objeto de mapa de bits en miniatura.
+
+```csharp
+public Bitmap GetThumbnail(IRenderingOptions options)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| options | IRenderingOptions | Opciones de renderizado. |
+
+### Valor_devuelto
+
+Objetos de mapa de bits.
+
+### Excepciones
+
+| excepción | condición |
+| --- | --- |
+| InvalidOperationException | Se lanza cuando notesCommentsLayouting.NotesPosition toma el valor NotesPositions.BottomFull |
+
+### Ver también
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* espacio de nombres [Aspose.Slides](../../slide)
+* asamblea [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(IRenderingOptions, float, float) {#getthumbnail_5}
+
+Devuelve un objeto de mapa de bits en miniatura con escala personalizada.
+
+```csharp
+public Bitmap GetThumbnail(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| options | IRenderingOptions | Opciones de renderizado. |
+| scaleX | Single | El valor por el cual escalar esta Miniatura en la dirección del eje x. |
+| scaleY | Single | El valor por el cual escalar esta Miniatura en la dirección del eje y. |
+
+### Valor_devuelto
+
+Objetos de mapa de bits.
+
+### Excepciones
+
+| excepción | condición |
+| --- | --- |
+| InvalidOperationException | Se lanza cuando notesCommentsLayouting.NotesPosition toma el valor NotesPositions.BottomFull |
+
+### Ver también
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* espacio de nombres [Aspose.Slides](../../slide)
+* asamblea [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(IRenderingOptions, Size) {#getthumbnail_6}
+
+Devuelve un objeto de mapa de bits en miniatura con el tamaño especificado.
+
+```csharp
+public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| options | IRenderingOptions | Opciones de renderizado. |
+| imageSize | Size | Tamaño de la imagen a crear. |
+
+### Valor_devuelto
+
+Objetos de mapa de bits.
+
+### Excepciones
+
+| excepción | condición |
+| --- | --- |
+| InvalidOperationException | Se lanza cuando options.NotesCommentsLayouting.NotesPosition toma el valor NotesPositions.BottomFull |
+
+### Ver también
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* espacio de nombres [Aspose.Slides](../../slide)
+* asamblea [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
